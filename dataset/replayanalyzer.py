@@ -44,7 +44,7 @@ def analyze(replay,statsdict):
     fromp2["start"]["x"]["opponent_team"] = p1teamfromp2
     fromp1["start"]["x"]["opponent_team"] = p2teamfromp1
 
-    print(fromp2)
+    print(fromp1)
 
 def _analyzedel(pokes,statsdict):
     team = {}
@@ -63,7 +63,7 @@ def _analyzedel(pokes,statsdict):
         temp = "".join(filter(str.isalnum, name))
         if temp in UNKNOW_FORME:
             formes = GEN_TO_POKEDEX[8][temp.lower()]["formeOrder"]
-            formesreal = list(formes)
+            formesreal = formes.copy()
             formecount = 0
             for forme in formes:
                 team[forme] = {
@@ -76,9 +76,12 @@ def _analyzedel(pokes,statsdict):
                     del team[forme]
                     formesreal.remove(forme)
             del team[name]
-            for forme in formesreal:
-                team[forme]["Forme weight"] = team[forme]["Raw count"]/formecount
-                del team[forme]["Raw count"]
+            if len(formesreal) > 1:
+                for forme in formesreal:
+                    team[forme]["Forme weight"] = team[forme]["Raw count"]/formecount
+                    del team[forme]["Raw count"]
+            else:
+                del team[formesreal[0]]["Raw count"]
         else:
             team[name] |= statsdict[name]
             del team[name]["Raw count"]
@@ -335,8 +338,8 @@ def _getinfo(url):
     return lines
 
 def main():
-    statsdict = getstats("gen8pu")
-    analyze("/gen8pu-1706589304",statsdict)
+    statsdict = getstats()
+    analyze("/gen8ou-1646107486",statsdict)
 
 if __name__ == '__main__':
     main()

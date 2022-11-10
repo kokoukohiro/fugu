@@ -1,5 +1,5 @@
-from poke_env.data import GEN_TO_POKEDEX
-formes = GEN_TO_POKEDEX[8]["silvally"]["formeOrder"]
-a = list(formes)
-a.remove("Silvally")
+a = {1:[1,2,3]}
+b = a[1]
+c = b.copy()
+c.remove(1)
 print(a)
