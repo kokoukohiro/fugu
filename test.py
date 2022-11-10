@@ -1,5 +1,5 @@
-a = 11111
-b = 32222
-c = a/b
-
-print(c)
+from poke_env.data import GEN_TO_POKEDEX
+formes = GEN_TO_POKEDEX[8]["silvally"]["formeOrder"]
+a = list(formes)
+a.remove("Silvally")
+print(a)

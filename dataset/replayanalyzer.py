@@ -63,6 +63,7 @@ def _analyzedel(pokes,statsdict):
         temp = "".join(filter(str.isalnum, name))
         if temp in UNKNOW_FORME:
             formes = GEN_TO_POKEDEX[8][temp.lower()]["formeOrder"]
+            formesreal = list(formes)
             formecount = 0
             for forme in formes:
                 team[forme] = {
@@ -73,16 +74,15 @@ def _analyzedel(pokes,statsdict):
                     formecount += team[forme]["Raw count"]
                 except:
                     del team[forme]
-                    formes.remove(forme)
+                    formesreal.remove(forme)
             del team[name]
-            for forme in formes:
+            for forme in formesreal:
                 team[forme]["Forme weight"] = team[forme]["Raw count"]/formecount
                 del team[forme]["Raw count"]
         else:
             team[name] |= statsdict[name]
             del team[name]["Raw count"]
         
-
     return team
 
 
