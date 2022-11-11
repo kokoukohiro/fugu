@@ -1,0 +1,191 @@
+|j|☆minimax_ai
+|j|☆Hgfhhfghfff
+|t:|1667530710
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1516
+|player|p2|Hgfhhfghfff|266|1543
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Jirachi|
+|poke|p2|Diancie|
+|poke|p2|Keldeo|
+|poke|p2|Rillaboom, M|
+|poke|p2|Emolga, F|
+|poke|p2|Nidoking, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1667530715
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|1
+|
+|t:|1667530719
+|switch|p2a: Emolga|Emolga, F|100/100
+|move|p1a: Melmetal|Thunder Punch|p2a: Emolga
+|-damage|p2a: Emolga|66/100
+|
+|upkeep
+|turn|2
+|
+|t:|1667530728
+|move|p2a: Emolga|Roost|p2a: Emolga
+|-heal|p2a: Emolga|100/100
+|-singleturn|p2a: Emolga|move: Roost
+|move|p1a: Melmetal|Double Iron Bash|p2a: Emolga
+|-resisted|p2a: Emolga
+|-damage|p2a: Emolga|78/100
+|-status|p1a: Melmetal|par|[from] ability: Static|[of] p2a: Emolga
+|-resisted|p2a: Emolga
+|-damage|p2a: Emolga|57/100
+|-hitcount|p2a: Emolga|2
+|
+|upkeep
+|turn|3
+|
+|t:|1667530735
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Melmetal|Double Iron Bash|p2a: Rillaboom
+|-damage|p2a: Rillaboom|55/100
+|-damage|p2a: Rillaboom|13/100
+|-hitcount|p2a: Rillaboom|2
+|
+|-heal|p2a: Rillaboom|19/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1667530743
+|move|p2a: Rillaboom|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|93/100 par
+|
+|t:|1667530745
+|switch|p2a: Jirachi|Jirachi|100/100|[from]move: U-turn
+|move|p1a: Melmetal|Double Iron Bash|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|82/100
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|64/100
+|-hitcount|p2a: Jirachi|2
+|
+|-heal|p2a: Jirachi|71/100|[from] Grassy Terrain
+|-heal|p2a: Jirachi|77/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|99/100 par|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1667530757
+|move|p2a: Jirachi|Iron Head|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-crit|p1a: Melmetal
+|-damage|p1a: Melmetal|87/100 par
+|cant|p1a: Melmetal|flinch
+|
+|-heal|p2a: Jirachi|83/100|[from] Grassy Terrain
+|-heal|p2a: Jirachi|89/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|93/100 par|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1667530762
+|move|p2a: Jirachi|Iron Head|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|86/100 par
+|cant|p1a: Melmetal|flinch
+|
+|-heal|p2a: Jirachi|95/100|[from] Grassy Terrain
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|92/100 par|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1667530765
+|move|p2a: Jirachi|Iron Head|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|84/100 par
+|move|p1a: Melmetal|Thunder Punch|p2a: Jirachi
+|-damage|p2a: Jirachi|72/100
+|
+|-heal|p2a: Jirachi|78/100|[from] Grassy Terrain
+|-heal|p2a: Jirachi|84/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|90/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1667530768
+|move|p2a: Jirachi|Iron Head|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|82/100 par
+|move|p1a: Melmetal|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|22/100
+|
+|-heal|p2a: Jirachi|28/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1667530773
+|move|p2a: Jirachi|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|move|p1a: Melmetal|Double Iron Bash|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|10/100
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|-hitcount|p2: Jirachi|2
+|
+|upkeep
+|
+|t:|1667530776
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|turn|10
+|
+|t:|1667530778
+|move|p2a: Nidoking|Earth Power|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|9/100 par
+|move|p1a: Melmetal|Double Iron Bash|p2a: Nidoking
+|-damage|p2a: Nidoking|35/100
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|-hitcount|p2: Nidoking|2
+|
+|upkeep
+|c|☆Hgfhhfghfff|Broken af
+|inactive|Hgfhhfghfff has 120 seconds left.
+|inactive|Hgfhhfghfff has 90 seconds left.
+|inactive|Hgfhhfghfff has 60 seconds left.
+|inactive|Hgfhhfghfff has 30 seconds left.
+|inactive|Hgfhhfghfff has 20 seconds left.
+|inactive|Hgfhhfghfff has 15 seconds left.
+|inactive|Hgfhhfghfff has 10 seconds left.
+|inactive|Hgfhhfghfff has 5 seconds left.
+|-message|Hgfhhfghfff lost due to inactivity.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1516 &rarr; <strong>1538</strong><br />(+22 for winning)
+|raw|Hgfhhfghfff's rating: 1543 &rarr; <strong>1521</strong><br />(-22 for losing)
+|c|☆minimax_ai|gg

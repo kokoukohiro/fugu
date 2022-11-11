@@ -1,0 +1,540 @@
+|j|☆8balljacketguy
+|j|☆minimax_ai
+|t:|1662686154
+|gametype|singles
+|player|p1|8balljacketguy|red|1504
+|player|p2|minimax_ai|lusamine-nihilego|1493
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Registeel|
+|poke|p1|Rillaboom, F|
+|poke|p1|Alakazam, F|
+|poke|p1|Volcarona, M|
+|poke|p1|Mamoswine, F|
+|poke|p1|Clefable, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|poke|p2|Melmetal|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 8balljacketguy)
+|c|☆minimax_ai|hf
+|inactive|minimax_ai also wants the timer to be on.
+|
+|t:|1662686161
+|start
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1662686165
+|move|p1a: Mamoswine|Stealth Rock|p2a: Heatran
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|move|p2a: Heatran|Eruption|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-enditem|p1a: Mamoswine|Focus Sash
+|-damage|p1a: Mamoswine|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1662686167
+|move|p1a: Mamoswine|Endeavor|p2a: Heatran
+|-damage|p2a: Heatran|1/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Eruption|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|t:|1662686179
+|switch|p1a: Alakazam|Alakazam, F, shiny|100/100
+|turn|3
+|
+|t:|1662686181
+|move|p1a: Alakazam|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1662686181
+|switch|p2a: Melmetal|Melmetal|100/100
+|-damage|p2a: Melmetal|94/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1662686186
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|82/100
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|65/100
+|-hitcount|p1a: Volcarona|2
+|
+|upkeep
+|turn|5
+|
+|t:|1662686189
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Melmetal|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|30/100
+|
+|upkeep
+|turn|6
+|
+|t:|1662686191
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|80/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: Melmetal|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|45/100
+|
+|upkeep
+|turn|7
+|
+|t:|1662686193
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p2a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|95/100
+|-singleturn|p1a: Volcarona|move: Roost
+|
+|-heal|p2a: landorustherian|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1662686198
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: landorustherian|Earthquake|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|34/100
+|
+|-heal|p2a: landorustherian|99/100|[from] item: Leftovers
+|-heal|p1a: Clefable|40/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1662686205
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: landorustherian|Defog|p1a: Rillaboom
+|-unboost|p1a: Rillaboom|evasion|1
+|-sideend|p2: minimax_ai|Stealth Rock|[from] move: Defog|[of] p2a: landorustherian
+|-fieldend|move: Grassy Terrain
+|
+|-heal|p2a: landorustherian|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1662686209
+|move|p1a: Rillaboom|U-turn|p2a: landorustherian
+|-resisted|p2a: landorustherian
+|-damage|p2a: landorustherian|83/100
+|
+|t:|1662686211
+|switch|p1a: Clefable|Clefable, M|40/100|[from]move: U-turn
+|move|p2a: landorustherian|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|
+|-heal|p2a: landorustherian|89/100|[from] item: Leftovers
+|-heal|p1a: Clefable|46/100 tox|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1662686213
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: landorustherian|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|88/100
+|
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p2a: landorustherian|95/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1662686216
+|switch|p2a: Melmetal|Melmetal|94/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|63/100
+|-damage|p1a: Rillaboom|81/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|87/100|[from] Grassy Terrain
+|-heal|p2a: Melmetal|69/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1662686219
+|switch|p1a: Volcarona|Volcarona, M|95/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|77/100
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|59/100
+|-hitcount|p1a: Volcarona|2
+|
+|-heal|p1a: Volcarona|66/100|[from] Grassy Terrain
+|-heal|p2a: Melmetal|75/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1662686224
+|switch|p2a: landorustherian|Landorus-Therian, M|95/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|move|p1a: Volcarona|Fiery Dance|p2a: landorustherian
+|-damage|p2a: landorustherian|67/100
+|-boost|p1a: Volcarona|spa|1
+|
+|-heal|p1a: Volcarona|72/100|[from] Grassy Terrain
+|-heal|p2a: landorustherian|73/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1662686227
+|switch|p1a: Clefable|Clefable, M|46/100 tox
+|move|p2a: landorustherian|Toxic|p1a: Clefable
+|-fail|p1a: Clefable|tox
+|
+|-heal|p2a: landorustherian|79/100|[from] item: Leftovers
+|-heal|p1a: Clefable|52/100 tox|[from] Grassy Terrain
+|-heal|p1a: Clefable|58/100 tox|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1662686231
+|switch|p1a: Rillaboom|Rillaboom, F|87/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: landorustherian|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|73/100
+|
+|-heal|p1a: Rillaboom|79/100|[from] Grassy Terrain
+|-heal|p2a: landorustherian|85/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1662686233
+|switch|p2a: Melmetal|Melmetal|75/100
+|move|p1a: Rillaboom|U-turn|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|65/100
+|
+|t:|1662686235
+|switch|p1a: Volcarona|Volcarona, M|72/100|[from]move: U-turn
+|
+|-heal|p1a: Volcarona|78/100|[from] Grassy Terrain
+|-heal|p2a: Melmetal|71/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1662686237
+|switch|p2a: landorustherian|Landorus-Therian, M|85/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|move|p1a: Volcarona|Fiery Dance|p2a: landorustherian
+|-damage|p2a: landorustherian|57/100
+|
+|-heal|p1a: Volcarona|84/100|[from] Grassy Terrain
+|-heal|p2a: landorustherian|63/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1662686241
+|switch|p1a: Clefable|Clefable, M|58/100 tox
+|move|p2a: landorustherian|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|36/100 tox
+|
+|-heal|p2a: landorustherian|70/100|[from] item: Leftovers
+|-heal|p1a: Clefable|42/100 tox|[from] Grassy Terrain
+|-heal|p1a: Clefable|48/100 tox|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1662686246
+|move|p2a: landorustherian|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|38/100 tox
+|
+|t:|1662686246
+|switch|p2a: Melmetal|Melmetal|71/100|[from]move: U-turn
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p1a: Clefable|44/100 tox|[from] Grassy Terrain
+|-heal|p1a: Clefable|50/100 tox|[from] item: Leftovers
+|-heal|p2a: Melmetal|78/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1662686250
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|move|p2a: Melmetal|Double Iron Bash|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|12/100 tox
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|-hitcount|p1: Clefable|2
+|
+|upkeep
+|
+|t:|1662686252
+|switch|p1a: Volcarona|Volcarona, M|84/100
+|turn|22
+|
+|t:|1662686253
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Melmetal|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|48/100
+|
+|upkeep
+|turn|23
+|
+|t:|1662686257
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|98/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: Melmetal|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|64/100
+|
+|upkeep
+|turn|24
+|
+|t:|1662686260
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Melmetal|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|28/100
+|
+|upkeep
+|turn|25
+|
+|t:|1662686261
+|switch|p2a: landorustherian|Landorus-Therian, M|70/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|78/100
+|-singleturn|p1a: Volcarona|move: Roost
+|
+|-heal|p2a: landorustherian|76/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1662686262
+|move|p1a: Volcarona|Fiery Dance|p2a: landorustherian
+|-damage|p2a: landorustherian|20/100
+|-boost|p1a: Volcarona|spa|1
+|move|p2a: landorustherian|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|35/100
+|
+|-heal|p2a: landorustherian|26/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1662686265
+|move|p1a: Volcarona|Fiery Dance|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|
+|upkeep
+|
+|t:|1662686265
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|turn|28
+|
+|t:|1662686271
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|85/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: rotomwash|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|50/100
+|
+|upkeep
+|turn|29
+|
+|t:|1662686274
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|99/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: rotomwash|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|60/100
+|
+|upkeep
+|turn|30
+|
+|t:|1662686277
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|100/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: rotomwash|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|59/100
+|
+|upkeep
+|turn|31
+|
+|t:|1662686287
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: rotomwash|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|29/100
+|
+|upkeep
+|turn|32
+|
+|t:|1662686288
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|79/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: rotomwash|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|49/100
+|
+|upkeep
+|turn|33
+|
+|t:|1662686290
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|99/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: rotomwash|Hydro Pump|p1a: Volcarona|[miss]
+|-miss|p2a: rotomwash|p1a: Volcarona
+|
+|upkeep
+|turn|34
+|
+|t:|1662686293
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: rotomwash|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|75/100
+|
+|upkeep
+|turn|35
+|
+|t:|1662686295
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: rotomwash|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|53/100
+|
+|upkeep
+|turn|36
+|
+|t:|1662686296
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|100/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: rotomwash|Thunderbolt|p1a: Volcarona
+|-damage|p1a: Volcarona|91/100
+|
+|upkeep
+|turn|37
+|
+|t:|1662686299
+|switch|p2a: Melmetal|Melmetal|78/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|0
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|38
+|
+|t:|1662686300
+|move|p1a: Volcarona|Fiery Dance|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|upkeep
+|
+|t:|1662686300
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|39
+|
+|t:|1662686303
+|move|p2a: Weavile|Ice Shard|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|79/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1662686303
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|turn|40
+|
+|t:|1662686305
+|move|p1a: Volcarona|Bug Buzz|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|faint|p2a: rotomwash
+|
+|upkeep
+|
+|t:|1662686305
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|turn|41
+|
+|t:|1662686307
+|move|p1a: Volcarona|Bug Buzz|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|win|8balljacketguy
+|raw|8balljacketguy's rating: 1504 &rarr; <strong>1523</strong><br />(+19 for winning)
+|raw|minimax_ai's rating: 1493 &rarr; <strong>1474</strong><br />(-19 for losing)
+|c|☆minimax_ai|gg

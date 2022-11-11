@@ -1,0 +1,119 @@
+|j|☆harrisonk
+|j|☆willcoxw
+|player|p1|harrisonk|clair|1645
+|player|p2|willcoxw|karen|1602
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Hawlucha, F|
+|poke|p1|Terrakion|
+|poke|p1|Zeraora|
+|poke|p2|Corviknight, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Dracozolt|
+|poke|p2|Kyurem|
+|poke|p2|Zeraora|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Terrakion|Terrakion|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Terrakion
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Terrakion
+|-enditem|p1a: Terrakion|Focus Sash
+|-damage|p1a: Terrakion|1/100
+|move|p1a: Terrakion|Rock Tomb|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|76/100
+|-unboost|p2a: Cinderace|spe|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Terrakion|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: willcoxw|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Terrakion|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|move|p2a: Corviknight|Body Press|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|upkeep
+|j| HeavenStar
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|turn|4
+|
+|move|p1a: Zeraora|Bulk Up|p1a: Zeraora
+|-boost|p1a: Zeraora|atk|1
+|-boost|p1a: Zeraora|def|1
+|move|p2a: Corviknight|Body Press|p1a: Zeraora
+|-damage|p1a: Zeraora|71/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|55/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Zeraora|45/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p1a: Zeraora|Close Combat|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|-damage|p1a: Zeraora|36/100|[from] item: Life Orb
+|faint|p2a: Zeraora
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|76/100
+|turn|7
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|26/100|[from] item: Life Orb
+|faint|p2a: Cinderace
+|
+|upkeep
+|-message|willcoxw forfeited.
+|
+|win|harrisonk
+|l|☆willcoxw
+|raw|harrisonk's rating: 1638 &rarr; <strong>1655</strong><br />(+17 for winning)
+|raw|willcoxw's rating: 1580 &rarr; <strong>1563</strong><br />(-17 for losing)

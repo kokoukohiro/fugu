@@ -1,0 +1,91 @@
+|j|☆DeviZen
+|j|☆hadahada
+|player|p1|DeviZen|192|1429
+|player|p2|hadahada|gentleman-gen4dp|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Haxorus, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Terrakion|
+|poke|p1|Clefable, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Kyurem|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Scolipede, F|
+|poke|p2|Skarmory, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hadahada)
+|
+|start
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|1
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Haxorus|[miss]
+|-miss|p2a: Dragapult|p1a: Haxorus
+|move|p1a: Haxorus|Scale Shot|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|45/100
+|-start|p1a: Haxorus|Disable|Scale Shot|[from] ability: Cursed Body|[of] p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-hitcount|p2a: Dragapult|2
+|-unboost|p1a: Haxorus|def|1
+|-boost|p1a: Haxorus|spe|1
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|66/100
+|-unboost|p2a: Magearna|spa|2
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|move|p2a: Magearna|Volt Switch|p1a: Terrakion
+|-damage|p1a: Terrakion|86/100
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-enditem|p2a: Cinderace|Focus Sash
+|-damage|p2a: Cinderace|1/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Terrakion|[miss]
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-miss|p2a: Cinderace|p1a: Terrakion
+|-damage|p2a: Cinderace|0 fnt|[from] highjumpkick
+|faint|p2a: Cinderace
+|
+|upkeep
+|-message|hadahada forfeited.
+|
+|win|DeviZen
+|l|☆hadahada
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

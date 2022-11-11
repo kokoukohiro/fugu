@@ -1,0 +1,527 @@
+|j|☆minimax_ai
+|j|☆GGeorgie◕‿◕
+|t:|1661654070
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1630
+|player|p2|GGeorgie◕‿◕|hiker-gen2|1642
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Zapdos|
+|poke|p2|Tyranitar, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Clefable, F|
+|poke|p2|Ferrothorn, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1661654081
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: landorustherian|atk|1
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|1
+|
+|t:|1661654084
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Landorus|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|95/100
+|
+|t:|1661654087
+|switch|p2a: Zapdos|Zapdos|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1661654089
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|move|p2a: Zapdos|Volt Switch|p1a: landorustherian
+|-immune|p1a: landorustherian
+|
+|upkeep
+|turn|3
+|
+|t:|1661654091
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|move|p1a: landorustherian|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|
+|upkeep
+|turn|4
+|
+|t:|1661654096
+|move|p1a: landorustherian|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|45/100
+|move|p2a: Ferrothorn|Knock Off|p1a: landorustherian
+|-crit|p1a: landorustherian
+|-damage|p1a: landorustherian|71/100
+|-enditem|p1a: landorustherian|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|5
+|
+|t:|1661654099
+|move|p1a: landorustherian|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|31/100
+|-damage|p1a: landorustherian|59/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: landorustherian|42/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|t:|1661654099
+|switch|p1a: Tangrowth|Tangrowth, M|100/100|[from]move: U-turn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tangrowth
+|-immune|p1a: Tangrowth
+|
+|upkeep
+|turn|6
+|
+|t:|1661654102
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|86/100
+|
+|upkeep
+|turn|7
+|
+|t:|1661654107
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Clefable|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|90/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|8
+|
+|t:|1661654110
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Heatran|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: GGeorgie◕‿◕|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1661654113
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Tyranitar|Earthquake|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|86/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1661654118
+|switch|p2a: Clefable|Clefable, F|86/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|79/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1661654121
+|move|p2a: Clefable|Thunder|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|58/100
+|-status|p1a: Tangrowth|par
+|move|p1a: Tangrowth|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|47/100
+|-heal|p1a: Tangrowth|71/100 par|[from] drain|[of] p2a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|64/100 par|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1661654127
+|switch|p1a: Melmetal|Melmetal|95/100
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|97/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1661654129
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Melmetal|atk|1
+|move|p1a: Melmetal|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1661654134
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1661654135
+|move|p2a: Excadrill|Rapid Spin|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|89/100
+|-boost|p2a: Excadrill|spe|1
+|-sideend|p2: GGeorgie◕‿◕|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Melmetal|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|32/100
+|
+|-heal|p2a: Excadrill|38/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1661654139
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|31/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|23/100
+|-damage|p1a: Melmetal|77/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Melmetal|60/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|16/100
+|-damage|p1a: Melmetal|48/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Melmetal|31/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-hitcount|p2a: Ferrothorn|2
+|
+|upkeep
+|turn|16
+|
+|t:|1661654146
+|switch|p1a: Tangrowth|Tangrowth, M|98/100 par
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|17
+|
+|t:|1661654149
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Zapdos|Hurricane|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|53/100
+|
+|-heal|p1a: rotomwash|59/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1661654153
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|16/100
+|move|p1a: rotomwash|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: rotomwash|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1661654157
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|19
+|
+|t:|1661654159
+|switch|p1a: Heatran|Heatran, M|90/100
+|move|p2a: Zapdos|Hurricane|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|47/100
+|
+|upkeep
+|turn|20
+|
+|t:|1661654163
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Heatran|Magma Storm|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|83/100
+|-activate|p2a: Tyranitar|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|71/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|21
+|
+|t:|1661654165
+|switch|p1a: Tangrowth|Tangrowth, M|100/100 par
+|move|p2a: Tyranitar|Stealth Rock|p1a: Tangrowth
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|94/100 par|[from] Sandstorm
+|-end|p2a: Tyranitar|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|22
+|
+|t:|1661654167
+|switch|p2a: Clefable|Clefable, F|97/100
+|cant|p1a: Tangrowth|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|88/100 par|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1661654171
+|move|p2a: Clefable|Moonblast|p1a: Tangrowth
+|-damage|p1a: Tangrowth|31/100 par
+|move|p1a: Tangrowth|Sleep Powder|p2a: Clefable|[miss]
+|-miss|p1a: Tangrowth|p2a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|25/100 par|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|t:|1661654173
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: landorustherian|Landorus-Therian, M|42/100
+|-damage|p1a: landorustherian|30/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|
+|-weather|none
+|upkeep
+|turn|25
+|
+|t:|1661654175
+|move|p2a: Zapdos|Hurricane|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1661654176
+|switch|p1a: Melmetal|Melmetal|31/100
+|-damage|p1a: Melmetal|25/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1661654178
+|move|p2a: Zapdos|Hurricane|p1a: Melmetal|[miss]
+|-miss|p2a: Zapdos|p1a: Melmetal
+|move|p1a: Melmetal|Double Iron Bash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|75/100
+|-status|p1a: Melmetal|par|[from] ability: Static|[of] p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|50/100
+|-hitcount|p2a: Zapdos|2
+|
+|upkeep
+|turn|27
+|
+|t:|1661654180
+|move|p2a: Zapdos|Hurricane|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|3/100 par
+|move|p1a: Melmetal|Double Iron Bash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|27/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|4/100
+|-hitcount|p2a: Zapdos|2
+|
+|upkeep
+|turn|28
+|
+|t:|1661654183
+|move|p2a: Zapdos|Hurricane|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1661654183
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|29
+|
+|t:|1661654189
+|move|p1a: Weavile|Triple Axel|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-hitcount|p2: Zapdos|1
+|
+|upkeep
+|
+|t:|1661654193
+|switch|p2a: Clefable|Clefable, F|97/100
+|turn|30
+|
+|t:|1661654201
+|switch|p1a: rotomwash|Rotom-Wash|66/100
+|-damage|p1a: rotomwash|53/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: rotomwash
+|-damage|p1a: rotomwash|8/100
+|
+|-heal|p1a: rotomwash|15/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1661654204
+|switch|p2a: Excadrill|Excadrill, F|38/100
+|move|p1a: rotomwash|Pain Split|p2a: Excadrill
+|-sethp|p2a: Excadrill|25/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|30/100|[from] move: Pain Split
+|
+|-heal|p2a: Excadrill|31/100|[from] item: Leftovers
+|-heal|p1a: rotomwash|36/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1661654207
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|71/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|30/100|[from] Sandstorm
+|-heal|p1a: rotomwash|36/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1661654209
+|move|p1a: rotomwash|Pain Split|p2a: Tyranitar
+|-sethp|p2a: Tyranitar|52/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|58/100|[from] move: Pain Split
+|move|p2a: Tyranitar|Stone Edge|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1661654209
+|switch|p1a: Tangrowth|Tangrowth, M|58/100 par
+|-damage|p1a: Tangrowth|46/100 par|[from] Stealth Rock
+|turn|34
+|
+|t:|1661654215
+|move|p2a: Tyranitar|Stone Edge|p1a: Tangrowth
+|-damage|p1a: Tangrowth|13/100 par
+|move|p1a: Tangrowth|Giga Drain|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|14/100
+|-heal|p1a: Tangrowth|29/100 par|[from] drain|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|23/100 par|[from] Sandstorm
+|upkeep
+|turn|35
+|
+|t:|1661654218
+|move|p2a: Tyranitar|Stone Edge|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1661654218
+|switch|p1a: Heatran|Heatran, M|47/100
+|-damage|p1a: Heatran|35/100|[from] Stealth Rock
+|turn|36
+|
+|t:|1661654221
+|switch|p2a: Clefable|Clefable, F|97/100
+|move|p1a: Heatran|Earth Power|p2a: Clefable
+|-damage|p2a: Clefable|68/100
+|
+|-weather|none
+|upkeep
+|turn|37
+|
+|t:|1661654226
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|14/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Heatran|Magma Storm|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1661654227
+|switch|p2a: Excadrill|Excadrill, F|31/100
+|turn|38
+|
+|t:|1661654229
+|move|p2a: Excadrill|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1661654229
+|switch|p1a: Weavile|Weavile, M|76/100
+|-damage|p1a: Weavile|51/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|39
+|
+|t:|1661654231
+|move|p1a: Weavile|Ice Shard|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|45/100|[from] Sandstorm
+|upkeep
+|
+|t:|1661654233
+|switch|p2a: Clefable|Clefable, F|68/100
+|turn|40
+|
+|t:|1661654234
+|move|p1a: Weavile|Ice Shard|p2a: Clefable
+|-damage|p2a: Clefable|45/100
+|move|p2a: Clefable|Moonblast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|win|GGeorgie◕‿◕
+|raw|minimax_ai's rating: 1630 &rarr; <strong>1611</strong><br />(-19 for losing)
+|raw|GGeorgie◕‿◕'s rating: 1642 &rarr; <strong>1661</strong><br />(+19 for winning)
+|c|☆minimax_ai|gg
+|l|☆minimax_ai

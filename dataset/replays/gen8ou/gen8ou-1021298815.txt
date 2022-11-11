@@ -1,0 +1,291 @@
+|j|☆PunkPalkia
+|j|☆groundt
+|player|p1|PunkPalkia|lucas|1569
+|player|p2|groundt|285|1518
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Mew|
+|poke|p1|Golisopod, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Tyranitar, F|
+|poke|p1|Gengar, F|
+|poke|p2|Dugtrio, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Rotom-Wash|
+|teampreview
+|j| Yeczor
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PunkPalkia)
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|l| Yeczor
+|l|☆PunkPalkia
+|inactive|PunkPalkia disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆PunkPalkia
+|inactive|PunkPalkia reconnected and has 130 seconds left.
+|player|p1|PunkPalkia|lucas
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Mew|Fire Blast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|72/100
+|-damage|p1a: Mew|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Mew
+|-damage|p1a: Mew|59/100
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100|[from]move: Volt Switch
+|move|p1a: Mew|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|38/100
+|-enditem|p2a: Toxapex|Eject Button
+|-damage|p1a: Mew|49/100|[from] item: Life Orb
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Mew
+|-damage|p1a: Mew|3/100
+|move|p1a: Mew|Toxic Spikes|p2a: Dugtrio
+|-sidestart|p2: groundt|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Toxapex|Toxapex, F|71/100
+|-sideend|p2: groundt|move: Toxic Spikes|[of] p2a: Toxapex
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|65/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Toxapex
+|-damage|p2a: Toxapex|7/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|1/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Tyranitar|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: groundt|move: Stealth Rock
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Corviknight|Taunt|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Taunt
+|
+|upkeep
+|turn|11
+|inactive|groundt has 120 seconds left.
+|
+|move|p1a: Tyranitar|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|38/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|44/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|groundt has 120 seconds left.
+|
+|-start|p1a: Tyranitar|Dynamax
+|-heal|p1a: Tyranitar|100/100|[silent]
+|move|p1a: Tyranitar|Max Flare|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-weather|SunnyDay
+|faint|p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|72/100
+|-damage|p2a: Rotom|59/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Rotom|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|move|p1a: Tyranitar|Max Rockfall|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-weather|Sandstorm
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-end|p1a: Tyranitar|move: Taunt
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|94/100
+|-damage|p2a: Ferrothorn|87/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Toxapex|Toxapex, F|34/100
+|-damage|p2a: Toxapex|22/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Max Flare|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-weather|SunnyDay
+|faint|p2a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Tyranitar|Dynamax
+|-heal|p1a: Tyranitar|100/100 par|[silent]
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|61/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1
+|move|p1a: Tyranitar|Stone Edge|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|-start|p2a: Kommo-o|Dynamax
+|-heal|p2a: Kommo-o|35/100|[silent]
+|move|p2a: Kommo-o|Max Steelspike|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-boost|p2a: Kommo-o|def|1
+|faint|p1a: Gengar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|turn|17
+|
+|move|p1a: Golisopod|First Impression|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|29/100
+|move|p2a: Kommo-o|Max Wyrmwind|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|faint|p1a: Golisopod
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|18
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100 par
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Kommo-o|Max Wyrmwind|p1a: Tyranitar
+|-damage|p1a: Tyranitar|21/100 par
+|-unboost|p1a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kommo-o|23/100|[from] Sandstorm
+|-end|p2a: Kommo-o|Dynamax
+|-heal|p2a: Kommo-o|23/100|[silent]
+|upkeep
+|turn|19
+|
+|move|p2a: Kommo-o|Flash Cannon|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kommo-o|17/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|20
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-unboost|p2a: Kommo-o|def|1
+|faint|p1a: Dracovish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kommo-o|10/100|[from] Sandstorm
+|upkeep
+|-message|PunkPalkia forfeited.
+|
+|win|groundt
+|l|☆PunkPalkia

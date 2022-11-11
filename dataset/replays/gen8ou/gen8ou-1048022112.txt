@@ -1,0 +1,136 @@
+|j|☆TheLindomar
+|j|☆SkaterTrainer
+|player|p1|TheLindomar|163|1576
+|player|p2|SkaterTrainer|226|1551
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Crawdaunt, M|
+|poke|p1|Kommo-o, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Rotom-Mow|
+|poke|p1|Claydol|
+|poke|p1|Togekiss, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Dugtrio, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Clefable, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Aegislash, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: HM 01|Rotom-Mow|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheLindomar)
+|
+|move|p1a: HM 01|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|80/100
+|
+|switch|p1a: ORACLE|Claydol|100/100|[from]move: Volt Switch
+|move|p2a: Dragapult|U-turn|p1a: ORACLE
+|-supereffective|p1a: ORACLE
+|-damage|p1a: ORACLE|67/100
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: ANKYLOZORD|Kommo-o, M, shiny|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Claw|p1a: ANKYLOZORD
+|-damage|p1a: ANKYLOZORD|64/100
+|
+|-heal|p1a: ANKYLOZORD|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: ANKYLOZORD|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: SkaterTrainer|move: Stealth Rock
+|
+|-heal|p1a: ANKYLOZORD|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: ORACLE|Claydol|67/100
+|move|p2a: Toxapex|Scald|p1a: ORACLE
+|-supereffective|p1a: ORACLE
+|-damage|p1a: ORACLE|48/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: ORACLE|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100
+|move|p2a: Toxapex|Scald|p1a: ORACLE
+|-supereffective|p1a: ORACLE
+|-damage|p1a: ORACLE|28/100
+|
+|-heal|p2a: Toxapex|53/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: ORACLE|Future Sight|p2a: Toxapex
+|-start|p1a: ORACLE|move: Future Sight
+|
+|-heal|p2a: Toxapex|60/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: GALARIAN PARAS|Crawdaunt, M|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: GALARIAN PARAS|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|2/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: GALARIAN PARAS
+|move|p2a: Corviknight|Defog|p1a: GALARIAN PARAS
+|-unboost|p1a: GALARIAN PARAS|evasion|1
+|-sideend|p2: SkaterTrainer|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-end|p2a: Corviknight|move: Future Sight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|upkeep
+|faint|p2a: Corviknight
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|9
+|
+|move|p2a: Dugtrio|Earthquake|p1a: GALARIAN PARAS
+|-damage|p1a: GALARIAN PARAS|4/100
+|move|p1a: GALARIAN PARAS|Knock Off|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-enditem|p2a: Dugtrio|Choice Band|[from] move: Knock Off|[of] p1a: GALARIAN PARAS
+|faint|p2a: Dugtrio
+|
+|upkeep
+|-message|SkaterTrainer forfeited.
+|
+|win|TheLindomar
+|l|☆SkaterTrainer
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

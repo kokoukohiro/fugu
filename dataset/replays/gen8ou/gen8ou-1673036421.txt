@@ -1,0 +1,406 @@
+|j|☆machugen
+|j|‽george malone
+|t:|1664422945
+|gametype|singles
+|player|p1|machugen|elesa|1686
+|player|p2|george malone|265|1664
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Nihilego|
+|poke|p1|Kartana|
+|poke|p1|Slowbro, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Magnezone|
+|poke|p2|Dragapult, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Kartana|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, M|
+|teampreview
+|
+|t:|1664422961
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by george malone)
+|
+|t:|1664422964
+|move|p1a: Tornadus|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|84/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Rotom|Volt Switch|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|68/100
+|
+|t:|1664422968
+|switch|p2a: Weavile|Weavile, M|100/100|[from]move: Volt Switch
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|2
+|j| xuanxeno
+|
+|t:|1664422990
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Weavile|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-enditem|p1a: Slowbro|Colbur Berry|[eat]
+|-enditem|p1a: Slowbro|Colbur Berry|[weaken]
+|-damage|p1a: Slowbro|53/100
+|
+|upkeep
+|turn|3
+|
+|t:|1664422995
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Slowbro|atk|1
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1664423000
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: Teleport
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1664423003
+|move|p1a: Landorus|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|move|p2a: Landorus|Toxic|p1a: Landorus|[miss]
+|-miss|p2a: Landorus|p1a: Landorus
+|
+|-damage|p2a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1664423016
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|84/100 tox
+|
+|t:|1664423017
+|switch|p1a: Slowbro|Slowbro, F|87/100|[from]move: U-turn
+|move|p2a: Landorus|Stealth Rock|p1a: Slowbro
+|-sidestart|p1: machugen|move: Stealth Rock
+|
+|-heal|p2a: Landorus|91/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|78/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1664423022
+|move|p2a: Landorus|U-turn|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|69/100
+|
+|t:|1664423023
+|switch|p2a: Rotom|Rotom-Wash|84/100|[from]move: U-turn
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1664423028
+|switch|p1a: Kartana|Kartana|100/100|[from]move: Teleport
+|-damage|p1a: Kartana|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1664423035
+|switch|p2a: Landorus|Landorus-Therian, M|78/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kartana|atk|1
+|move|p1a: Kartana|Leaf Blade|p2a: Landorus
+|-damage|p2a: Landorus|23/100 tox
+|
+|-heal|p2a: Landorus|29/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|23/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1664423040
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Kartana|Leaf Blade|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|58/100
+|
+|upkeep
+|turn|9
+|
+|t:|1664423051
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragapult|atk|1
+|move|p2a: Dragapult|Shadow Ball|p1a: Landorus
+|-damage|p1a: Landorus|43/100
+|
+|-heal|p1a: Landorus|49/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1664423062
+|move|p2a: Dragapult|Shadow Ball|p1a: Landorus
+|-damage|p1a: Landorus|3/100
+|-unboost|p1a: Landorus|spd|1
+|move|p1a: Landorus|Defog|p2a: Dragapult
+|-unboost|p2a: Dragapult|evasion|1
+|-sideend|p1: machugen|Stealth Rock|[from] move: Defog|[of] p1a: Landorus
+|
+|-heal|p1a: Landorus|9/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1664423066
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|61/100
+|
+|upkeep
+|turn|12
+|
+|t:|1664423071
+|switch|p2a: Rotom|Rotom-Wash|84/100
+|move|p1a: Tornadus|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|73/100
+|
+|t:|1664423073
+|switch|p1a: Kartana|Kartana|94/100|[from]move: U-turn
+|
+|upkeep
+|turn|13
+|
+|t:|1664423077
+|switch|p2a: Landorus|Landorus-Therian, M|23/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kartana|atk|1
+|move|p1a: Kartana|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Kartana
+|faint|p2a: Landorus
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|upkeep
+|
+|t:|1664423080
+|switch|p2a: Dragapult|Dragapult, M|58/100
+|turn|14
+|
+|t:|1664423088
+|switch|p1a: Tornadus|Tornadus-Therian, M|95/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|60/100
+|
+|upkeep
+|turn|15
+|
+|t:|1664423093
+|move|p2a: Dragapult|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|28/100
+|move|p1a: Tornadus|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|48/100
+|
+|t:|1664423096
+|switch|p1a: Nihilego|Nihilego|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+|
+|t:|1664423104
+|switch|p2a: Kartana|Kartana|100/100
+|move|p1a: Nihilego|Power Gem|p2a: Kartana
+|-resisted|p2a: Kartana
+|-damage|p2a: Kartana|32/100
+|
+|upkeep
+|turn|17
+|
+|t:|1664423119
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|switch|p1a: Landorus|Landorus-Therian, M|9/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Weavile|atk|1
+|
+|-heal|p1a: Landorus|15/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1664423125
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Weavile|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|71/100
+|
+|upkeep
+|turn|19
+|
+|t:|1664423133
+|switch|p2a: Dragapult|Dragapult, M|48/100
+|move|p1a: Slowbro|Body Press|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|20
+|
+|t:|1664423137
+|switch|p1a: Landorus|Landorus-Therian, M|15/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragapult|atk|1
+|move|p2a: Dragapult|Shadow Ball|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1664423140
+|switch|p1a: Nihilego|Nihilego|100/100
+|turn|21
+|
+|t:|1664423144
+|switch|p2a: Rotom|Rotom-Wash|73/100
+|move|p1a: Nihilego|Power Gem|p2a: Rotom
+|-damage|p2a: Rotom|28/100
+|
+|upkeep
+|turn|22
+|
+|t:|1664423146
+|move|p1a: Nihilego|Power Gem|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spa|1
+|
+|upkeep
+|
+|t:|1664423148
+|switch|p2a: Kartana|Kartana|32/100
+|turn|23
+|
+|t:|1664423155
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Kartana|Leaf Blade|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|31/100
+|
+|upkeep
+|turn|24
+|
+|t:|1664423160
+|switch|p2a: Dragapult|Dragapult, M|48/100
+|switch|p1a: Magnezone|Magnezone|100/100
+|
+|upkeep
+|turn|25
+|
+|t:|1664423164
+|switch|p1a: Nihilego|Nihilego|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Nihilego
+|-damage|p1a: Nihilego|60/100
+|
+|upkeep
+|turn|26
+|
+|t:|1664423167
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Nihilego|Stealth Rock|p2a: Tapu Lele
+|-sidestart|p2: george malone|move: Stealth Rock
+|
+|upkeep
+|turn|27
+|
+|t:|1664423172
+|move|p1a: Nihilego|Meteor Beam||[still]
+|-prepare|p1a: Nihilego|Meteor Beam
+|-boost|p1a: Nihilego|spa|1
+|-enditem|p1a: Nihilego|Power Herb
+|-anim|p1a: Nihilego|Meteor Beam|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|10/100
+|move|p2a: Tapu Lele|Psyshock|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|faint|p1a: Nihilego
+|
+|upkeep
+|j| 5to teletubbie
+|
+|t:|1664423183
+|switch|p1a: Tornadus|Tornadus-Therian, M|61/100
+|turn|28
+|
+|t:|1664423191
+|move|p1a: Tornadus|U-turn|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|t:|1664423196
+|switch|p1a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1664423199
+|switch|p2a: Dragapult|Dragapult, M|48/100
+|-damage|p2a: Dragapult|36/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1664423203
+|switch|p1a: Tornadus|Tornadus-Therian, M|94/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|57/100
+|
+|upkeep
+|turn|30
+|
+|t:|1664423205
+|move|p2a: Dragapult|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|24/100
+|-unboost|p1a: Tornadus|spd|1
+|move|p1a: Tornadus|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Tornadus
+|faint|p2a: Dragapult
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1664423209
+|switch|p2a: Kartana|Kartana|32/100
+|-damage|p2a: Kartana|26/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1664423212
+|switch|p1a: Slowbro|Slowbro, F|65/100
+|move|p2a: Kartana|Sacred Sword|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|53/100
+|
+|upkeep
+|turn|32
+|-message|george malone forfeited.
+|
+|win|machugen
+|raw|machugen's rating: 1707 &rarr; <strong>1725</strong><br />(+18 for winning)
+|raw|george malone's rating: 1664 &rarr; <strong>1646</strong><br />(-18 for losing)
+|l|‽george malone

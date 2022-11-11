@@ -1,0 +1,222 @@
+|j|☆Mikefly
+|j|☆cump2
+|t:|1614100888
+|player|p1|Mikefly|scientist|1084
+|player|p2|cump2|schoolkid-gen4dp|1111
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Quagsire, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Espeon, F|
+|poke|p1|Goodra, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Scizor, F|
+|poke|p2|Galvantula, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Heatran, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Tapu Bulu|
+|poke|p2|Golisopod, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1614100895
+|start
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|1
+|
+|t:|1614100898
+|switch|p1a: Espeon|Espeon, F|100/100
+|move|p2a: Galvantula|Sticky Web|p1a: Espeon
+|move|p1a: Espeon|Sticky Web|p2a: Galvantula|[from]ability: Magic Bounce
+|-sidestart|p2: cump2|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1614100904
+|move|p1a: Espeon|Trick|p2a: Galvantula
+|-activate|p1a: Espeon|move: Trick|[of] p2a: Galvantula
+|-item|p2a: Galvantula|Choice Scarf|[from] move: Trick
+|-item|p1a: Espeon|Focus Sash|[from] move: Trick
+|move|p2a: Galvantula|Infestation|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|80/100
+|-activate|p1a: Espeon|move: Infestation|[of] p2a: Galvantula
+|
+|-damage|p1a: Espeon|68/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1614100912
+|move|p2a: Galvantula|Infestation|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|46/100
+|move|p1a: Espeon|Psychic|p2a: Galvantula
+|-damage|p2a: Galvantula|11/100
+|
+|-damage|p1a: Espeon|33/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1614100926
+|move|p2a: Galvantula|Infestation|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-crit|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|t:|1614100934
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|5
+|
+|t:|1614100937
+|move|p1a: Scizor|Bullet Punch|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|t:|1614100941
+|switch|p2a: Golisopod|Golisopod, M|100/100
+|turn|6
+|
+|t:|1614100952
+|move|p1a: Scizor|Knock Off|p2a: Golisopod
+|-damage|p2a: Golisopod|74/100
+|-enditem|p2a: Golisopod|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Scizor
+|move|p2a: Golisopod|Spikes|p1a: Scizor
+|-sidestart|p1: Mikefly|Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1614100963
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Golisopod|Spikes|p1a: Scizor
+|-sidestart|p1: Mikefly|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1614100970
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Golisopod|Spikes|p1a: Scizor
+|-sidestart|p1: Mikefly|Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1614100981
+|move|p1a: Scizor|Bullet Punch|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|41/100
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|
+|t:|1614100984
+|switch|p2a: Heatran|Heatran, F|100/100
+|-activate|p2a: Heatran|move: Sticky Web
+|-unboost|p2a: Heatran|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1614100991
+|move|p1a: Scizor|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|1/100
+|-enditem|p2a: Heatran|Choice Specs|[from] move: Knock Off|[of] p1a: Scizor
+|move|p2a: Heatran|Eruption|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|96/100
+|
+|upkeep
+|turn|11
+|c|☆Mikefly|Wtf ?
+|
+|t:|1614101021
+|move|p1a: Scizor|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|c|☆cump2|what
+|c|☆cump2|eruption damage?
+|
+|t:|1614101035
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-activate|p2a: Slowking|move: Sticky Web
+|-unboost|p2a: Slowking|spe|1
+|turn|12
+|c|☆Mikefly|IDK
+|c|☆Mikefly|OMG
+|
+|t:|1614101044
+|move|p1a: Scizor|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Assault Vest|[from] move: Knock Off|[of] p1a: Scizor
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1614101053
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-activate|p2a: Urshifu|move: Sticky Web
+|-unboost|p2a: Urshifu|spe|1
+|turn|13
+|
+|t:|1614101061
+|move|p1a: Scizor|X-Scissor|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|35/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|60/100
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|17/100
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-hitcount|p1a: Scizor|3
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1614101071
+|switch|p1a: Goodra|Goodra, M|100/100
+|-damage|p1a: Goodra|76/100|[from] Spikes
+|turn|14
+|
+|t:|1614101077
+|move|p1a: Goodra|Ice Beam|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|10/100
+|-status|p2a: Urshifu|frz
+|cant|p2a: Urshifu|frz
+|
+|upkeep
+|turn|15
+|-message|cump2 forfeited.
+|
+|win|Mikefly
+|l|☆cump2
+|l|☆Mikefly
+|j|☆Mikefly
+|player|p1|Mikefly|scientist
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

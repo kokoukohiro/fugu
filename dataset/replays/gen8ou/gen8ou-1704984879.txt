@@ -1,0 +1,441 @@
+|j|☆crescendoww
+|j|☆Pinks1ip
+|t:|1667839483
+|gametype|singles
+|player|p1|crescendoww|falkner|1710
+|player|p2|Pinks1ip|skierf|1735
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Volcarona, F|
+|poke|p1|Zygarde-10%|
+|poke|p1|Jirachi|
+|poke|p1|Rillaboom, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Bisharp, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Weavile, F|
+|poke|p2|Blacephalon|
+|poke|p2|Mew|
+|poke|p2|Azumarill, M|
+|poke|p2|Celesteela|
+|teampreview
+|
+|t:|1667839510
+|start
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|t:|1667839518
+|move|p2a: Mew|Taunt|p1a: Bisharp
+|-start|p1a: Bisharp|move: Taunt
+|cant|p1a: Bisharp|move: Taunt|Toxic
+|
+|upkeep
+|turn|2
+|
+|t:|1667839521
+|move|p2a: Mew|Stealth Rock|p1a: Bisharp
+|-sidestart|p1: crescendoww|move: Stealth Rock
+|move|p1a: Bisharp|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|28/100
+|-enditem|p2a: Mew|Focus Sash|[from] move: Knock Off|[of] p1a: Bisharp
+|
+|upkeep
+|turn|3
+|
+|t:|1667839528
+|move|p2a: Mew|Spikes|p1a: Bisharp
+|-sidestart|p1: crescendoww|Spikes
+|move|p1a: Bisharp|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-end|p1a: Bisharp|move: Taunt
+|upkeep
+|
+|t:|1667839540
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|4
+|
+|t:|1667839544
+|move|p2a: Garchomp|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1667839547
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|5
+|
+|t:|1667839550
+|move|p1a: Tornadus|Defog|p2a: Garchomp
+|-unboost|p2a: Garchomp|evasion|1
+|-sideend|p1: crescendoww|Spikes|[from] move: Defog|[of] p1a: Tornadus
+|-sideend|p1: crescendoww|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1667839556
+|move|p1a: Tornadus|Hurricane|p2a: Garchomp
+|-damage|p2a: Garchomp|44/100
+|move|p2a: Garchomp|Scale Shot|p1a: Tornadus
+|-damage|p1a: Tornadus|61/100
+|-damage|p1a: Tornadus|23/100
+|-hitcount|p1a: Tornadus|2
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|-damage|p2a: Garchomp|34/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1667839564
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Garchomp|Scale Shot|p1a: Rillaboom
+|-damage|p1a: Rillaboom|79/100
+|-damage|p1a: Rillaboom|55/100
+|-damage|p1a: Rillaboom|31/100
+|-damage|p1a: Rillaboom|10/100
+|-hitcount|p1a: Rillaboom|4
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|-damage|p2a: Garchomp|24/100|[from] item: Life Orb
+|
+|-heal|p2a: Garchomp|30/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|16/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|22/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1667839579
+|switch|p2a: Celesteela|Celesteela|100/100
+|move|p1a: Rillaboom|Protect||[still]
+|-fail|p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|29/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|35/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1667839585
+|switch|p1a: 孙笑川|Zygarde-10%|100/100
+|-ability|p1a: 孙笑川|Aura Break
+|move|p2a: Celesteela|Autotomize|p2a: Celesteela
+|-boost|p2a: Celesteela|spe|2
+|-start|p2a: Celesteela|Autotomize
+|
+|upkeep
+|turn|10
+|
+|t:|1667839595
+|move|p2a: Celesteela|Meteor Beam||[still]
+|-prepare|p2a: Celesteela|Meteor Beam
+|-boost|p2a: Celesteela|spa|1
+|-enditem|p2a: Celesteela|Power Herb
+|-anim|p2a: Celesteela|Meteor Beam|p1a: 孙笑川|[miss]
+|-miss|p2a: Celesteela|p1a: 孙笑川
+|move|p1a: 孙笑川|Glare|p2a: Celesteela
+|-status|p2a: Celesteela|par
+|
+|upkeep
+|turn|11
+|
+|t:|1667839602
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Celesteela|Air Slash|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|78/100
+|
+|-heal|p1a: Jirachi|84/100|[from] Grassy Terrain
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1667839605
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Celesteela|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|55/100
+|
+|-heal|p1a: Jirachi|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1667839616
+|switch|p2a: Garchomp|Garchomp, F|30/100
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-heal|p1a: Jirachi|68/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1667839621
+|switch|p1a: Rillaboom|Rillaboom, M|35/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Garchomp|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|23/100
+|-damage|p2a: Garchomp|20/100|[from] item: Life Orb
+|
+|-heal|p2a: Garchomp|27/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|29/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|35/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1667839631
+|move|p1a: Rillaboom|Protect|p1a: Rillaboom
+|-singleturn|p1a: Rillaboom|Protect
+|move|p2a: Garchomp|Scale Shot|p1a: Rillaboom
+|-activate|p1a: Rillaboom|move: Protect
+|
+|-heal|p2a: Garchomp|33/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|41/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|48/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1667839636
+|switch|p2a: Celesteela|Celesteela|100/100 par
+|move|p1a: Rillaboom|Grassy Glide|p2a: Celesteela
+|-resisted|p2a: Celesteela
+|-damage|p2a: Celesteela|91/100 par
+|
+|-heal|p1a: Rillaboom|54/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|60/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1667839642
+|move|p1a: Rillaboom|U-turn|p2a: Celesteela
+|-resisted|p2a: Celesteela
+|-damage|p2a: Celesteela|87/100 par
+|
+|t:|1667839644
+|switch|p1a: Jirachi|Jirachi|68/100|[from]move: U-turn
+|move|p2a: Celesteela|Autotomize|p2a: Celesteela
+|-boost|p2a: Celesteela|spe|2
+|-start|p2a: Celesteela|Autotomize
+|
+|-heal|p1a: Jirachi|74/100|[from] Grassy Terrain
+|-heal|p1a: Jirachi|80/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|j| ivbhkvbhkiygiy
+|
+|t:|1667839650
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|cant|p2a: Celesteela|par
+|
+|-heal|p1a: Jirachi|86/100|[from] Grassy Terrain
+|-heal|p1a: Jirachi|93/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1667839660
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|move|p2a: Celesteela|Autotomize|p2a: Celesteela
+|-boost|p2a: Celesteela|spe|2
+|-start|p2a: Celesteela|Autotomize
+|
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1667839666
+|move|p2a: Celesteela|Meteor Beam||[still]
+|-prepare|p2a: Celesteela|Meteor Beam
+|-boost|p2a: Celesteela|spa|1
+|move|p1a: Jirachi|Cosmic Power|p1a: Jirachi
+|-boost|p1a: Jirachi|def|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|j| clozap9
+|j| lalelosido
+|
+|t:|1667839669
+|move|p2a: Celesteela|Meteor Beam|p1a: Jirachi|[from]lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|94/100
+|move|p1a: Jirachi|Aura Sphere|p2a: Celesteela
+|-damage|p2a: Celesteela|52/100 par
+|
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1667839675
+|cant|p2a: Celesteela|par
+|move|p1a: Jirachi|Aura Sphere|p2a: Celesteela
+|-damage|p2a: Celesteela|18/100 par
+|
+|-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1667839680
+|move|p2a: Celesteela|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|79/100
+|move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+|-boost|p1a: Jirachi|spa|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-heal|p1a: Jirachi|85/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1667839685
+|move|p2a: Celesteela|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|67/100
+|move|p1a: Jirachi|Aura Sphere|p2a: Celesteela
+|-damage|p2a: Celesteela|0 fnt
+|faint|p2a: Celesteela
+|
+|-heal|p1a: Jirachi|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667839691
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|turn|25
+|
+|t:|1667839694
+|move|p2a: Blacephalon|Trick|p1a: Jirachi
+|-activate|p2a: Blacephalon|move: Trick|[of] p1a: Jirachi
+|-item|p1a: Jirachi|Choice Scarf|[from] move: Trick
+|-item|p2a: Blacephalon|Leftovers|[from] move: Trick
+|move|p1a: Jirachi|Stored Power|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|faint|p2a: Blacephalon
+|
+|upkeep
+|
+|t:|1667839699
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|26
+|
+|t:|1667839704
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|upkeep
+|turn|27
+|
+|t:|1667839710
+|move|p2a: Weavile|Knock Off|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Weavile|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|-enditem|p1a: Volcarona|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Volcarona
+|-damage|p2a: Weavile|91/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Weavile|84/100 brn|[from] brn
+|upkeep
+|
+|t:|1667839726
+|switch|p1a: Jirachi|Jirachi|73/100
+|turn|28
+|
+|t:|1667839728
+|move|p1a: Jirachi|Aura Sphere|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1667839731
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|29
+|
+|t:|1667839739
+|switch|p1a: Rillaboom|Rillaboom, M|60/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Azumarill|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|35/100
+|-enditem|p1a: Rillaboom|Leftovers|[from] move: Knock Off|[of] p2a: Azumarill
+|
+|-heal|p1a: Rillaboom|41/100|[from] Grassy Terrain
+|upkeep
+|turn|30
+|
+|t:|1667839745
+|move|p1a: Rillaboom|Grassy Glide|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|5/100
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|30/100|[from] item: Sitrus Berry
+|move|p2a: Azumarill|Play Rough|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Azumarill|36/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1667839754
+|switch|p1a: 孙笑川|Zygarde-10%|100/100
+|-ability|p1a: 孙笑川|Aura Break
+|turn|31
+|
+|t:|1667839758
+|move|p1a: 孙笑川|Thousand Arrows|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+|
+|t:|1667839759
+|switch|p2a: Garchomp|Garchomp, F|33/100
+|turn|32
+|
+|t:|1667839766
+|move|p1a: 孙笑川|Thousand Arrows|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|win|crescendoww
+|raw|crescendoww's rating: 1710 &rarr; <strong>1731</strong><br />(+21 for winning)
+|raw|Pinks1ip's rating: 1735 &rarr; <strong>1714</strong><br />(-21 for losing)
+|l|☆Pinks1ip
+|l| ivbhkvbhkiygiy
+|l| lalelosido
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

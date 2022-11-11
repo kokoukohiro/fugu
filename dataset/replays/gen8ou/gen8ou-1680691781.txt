@@ -1,0 +1,691 @@
+|j|☆minimax_ai
+|j|☆tanishq1
+|t:|1665227707
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1558
+|player|p2|tanishq1|2|1672
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Heatran, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Kartana|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|inactive|tanishq1 has 120 seconds left.
+|
+|t:|1665227754
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|turn|1
+|
+|t:|1665227757
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Urshifu|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|76/100
+|-damage|p2a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1665227759
+|switch|p2a: Heatran|Heatran, F|100/100|[from]move: U-turn
+|-item|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1665227763
+|switch|p2a: Kartana|Kartana, shiny|100/100
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1665227766
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Kartana|Swords Dance|p2a: Kartana
+|-boost|p2a: Kartana|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1665227768
+|move|p2a: Kartana|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|52/100
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Kartana
+|move|p1a: Tangrowth|Focus Blast|p2a: Kartana|[miss]
+|-miss|p1a: Tangrowth|p2a: Kartana
+|
+|upkeep
+|turn|5
+|
+|t:|1665227775
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Tangrowth|Focus Blast|p2a: Tapu Lele
+|-resisted|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|93/100
+|
+|upkeep
+|turn|6
+|
+|t:|1665227781
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|84/100
+|switch|p1a: Melmetal|Melmetal|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1665227783
+|move|p2a: Urshifu|Close Combat|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|3/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|move|p1a: Melmetal|Thunder Punch|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|upkeep
+|
+|t:|1665227788
+|switch|p2a: Kartana|Kartana, shiny|100/100
+|turn|8
+|
+|t:|1665227789
+|switch|p1a: Tangrowth|Tangrowth, M|85/100
+|move|p2a: Kartana|Sacred Sword|p1a: Tangrowth
+|-damage|p1a: Tangrowth|64/100
+|
+|upkeep
+|turn|9
+|
+|t:|1665227792
+|move|p2a: Kartana|Swords Dance|p2a: Kartana
+|-boost|p2a: Kartana|atk|2
+|move|p1a: Tangrowth|Giga Drain|p2a: Kartana
+|-resisted|p2a: Kartana
+|-damage|p2a: Kartana|78/100
+|-heal|p1a: Tangrowth|71/100|[from] drain|[of] p2a: Kartana
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|10
+|
+|t:|1665227793
+|move|p2a: Kartana|Sacred Sword|p1a: Tangrowth
+|-damage|p1a: Tangrowth|31/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Kartana
+|-supereffective|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|upkeep
+|
+|t:|1665227796
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|11
+|
+|t:|1665227798
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Heatran|Magma Storm|p1a: rotomwash|[miss]
+|-miss|p2a: Heatran|p1a: rotomwash
+|
+|upkeep
+|turn|12
+|
+|t:|1665227801
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|move|p1a: rotomwash|Hydro Pump|p2a: Rotom|[miss]
+|-miss|p1a: rotomwash|p2a: Rotom
+|
+|upkeep
+|turn|13
+|
+|t:|1665227803
+|move|p1a: rotomwash|Hydro Pump|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|83/100
+|move|p2a: Rotom|Volt Switch|p1a: rotomwash
+|-damage|p1a: rotomwash|74/100
+|
+|t:|1665227805
+|switch|p2a: Tapu Lele|Tapu Lele|93/100|[from]move: Volt Switch
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|-heal|p1a: rotomwash|80/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1665227807
+|switch|p1a: Melmetal|Melmetal|3/100
+|move|p2a: Tapu Lele|Focus Blast|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1665227808
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|15
+|
+|t:|1665227810
+|move|p2a: Tapu Lele|Focus Blast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1665227810
+|switch|p1a: Tangrowth|Tangrowth, M|64/100
+|turn|16
+|
+|t:|1665227814
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|
+|upkeep
+|turn|17
+|
+|t:|1665227817
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: landorustherian|atk|1
+|move|p1a: landorustherian|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|94/100
+|
+|t:|1665227817
+|switch|p1a: rotomwash|Rotom-Wash|80/100|[from]move: U-turn
+|
+|-heal|p1a: rotomwash|86/100|[from] item: Leftovers
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|18
+|
+|t:|1665227819
+|move|p1a: rotomwash|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|41/100
+|move|p2a: Landorus|Knock Off|p1a: rotomwash
+|-damage|p1a: rotomwash|52/100
+|-enditem|p1a: rotomwash|Leftovers|[from] move: Knock Off|[of] p2a: Landorus
+|
+|-heal|p2a: Landorus|47/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1665227822
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|switch|p2a: Rotom|Rotom-Wash, shiny|83/100
+|
+|-heal|p2a: Rotom|89/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1665227825
+|move|p1a: landorustherian|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|move|p2a: Rotom|Hydro Pump|p1a: landorustherian
+|-supereffective|p1a: landorustherian
+|-damage|p1a: landorustherian|39/100
+|
+|-heal|p1a: landorustherian|45/100|[from] item: Leftovers
+|-heal|p2a: Rotom|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|89/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1665227828
+|move|p1a: landorustherian|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|64/100 tox
+|
+|t:|1665227828
+|switch|p1a: Tangrowth|Tangrowth, M|97/100|[from]move: U-turn
+|move|p2a: Rotom|Volt Switch|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|78/100
+|
+|t:|1665227830
+|switch|p2a: Heatran|Heatran, F|100/100|[from]move: Volt Switch
+|-item|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|22
+|
+|t:|1665227832
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Heatran|Stealth Rock|p1a: Heatran
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|23
+|
+|t:|1665227836
+|move|p1a: Heatran|Eruption|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|move|p2a: Heatran|Taunt|p1a: Heatran
+|-start|p1a: Heatran|move: Taunt
+|
+|upkeep
+|turn|24
+|
+|t:|1665227839
+|move|p1a: Heatran|Eruption|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Earth Power|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|upkeep
+|turn|25
+|
+|t:|1665227841
+|move|p1a: Heatran|Eruption|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Earth Power|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|upkeep
+|turn|26
+|
+|t:|1665227842
+|move|p1a: Heatran|Eruption|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Earth Power|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|-end|p1a: Heatran|move: Taunt
+|upkeep
+|turn|27
+|
+|t:|1665227845
+|move|p1a: Heatran|Eruption|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Taunt|p1a: Heatran
+|-start|p1a: Heatran|move: Taunt
+|
+|upkeep
+|turn|28
+|
+|t:|1665227847
+|move|p1a: Heatran|Eruption|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Earth Power|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|upkeep
+|turn|29
+|
+|t:|1665227848
+|move|p1a: Heatran|Eruption|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Magma Storm|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|30
+|
+|t:|1665227852
+|move|p1a: Heatran|Magma Storm|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Earth Power|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|-end|p1a: Heatran|move: Taunt
+|upkeep
+|turn|31
+|
+|t:|1665227854
+|move|p1a: Heatran|Magma Storm|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Stealth Rock||[still]
+|-fail|p2a: Heatran
+|
+|upkeep
+|turn|32
+|
+|t:|1665227856
+|move|p1a: Heatran|Magma Storm|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Stealth Rock||[still]
+|-fail|p2a: Heatran
+|
+|upkeep
+|turn|33
+|
+|t:|1665227857
+|move|p1a: Heatran|Magma Storm|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Stealth Rock||[still]
+|-fail|p2a: Heatran
+|
+|upkeep
+|turn|34
+|
+|t:|1665227859
+|move|p1a: Heatran|Magma Storm|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Stealth Rock||[still]
+|-fail|p2a: Heatran
+|
+|upkeep
+|turn|35
+|
+|t:|1665227861
+|move|p1a: Heatran|Magma Storm|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Magma Storm|p1a: Heatran
+|-immune|p1a: Heatran|[from] ability: Flash Fire
+|
+|upkeep
+|turn|36
+|
+|t:|1665227862
+|move|p1a: Heatran|Magma Storm|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Stealth Rock||[still]
+|-fail|p2a: Heatran
+|
+|upkeep
+|turn|37
+|
+|t:|1665227866
+|move|p1a: Heatran|Magma Storm|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Stealth Rock||[still]
+|-fail|p2a: Heatran
+|
+|upkeep
+|turn|38
+|
+|t:|1665227868
+|move|p1a: Heatran|Eruption|p2a: Heatran
+|-immune|p2a: Heatran|[from] ability: Flash Fire
+|move|p2a: Heatran|Taunt|p1a: Heatran
+|-start|p1a: Heatran|move: Taunt
+|
+|upkeep
+|turn|39
+|
+|t:|1665227872
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|47/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Earth Power|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p2a: Landorus|53/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1665227878
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Heatran|Earth Power|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|upkeep
+|turn|41
+|
+|t:|1665227880
+|switch|p2a: Landorus|Landorus-Therian, M|53/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Earth Power|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p2a: Landorus|59/100|[from] item: Leftovers
+|-end|p1a: Heatran|move: Taunt
+|upkeep
+|turn|42
+|
+|t:|1665227882
+|move|p1a: Heatran|Earth Power|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|71/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-heal|p2a: Landorus|65/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1665227885
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|44
+|
+|t:|1665227888
+|switch|p1a: landorustherian|Landorus-Therian, M|45/100
+|-damage|p1a: landorustherian|33/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Magma Storm|p1a: landorustherian|[miss]
+|-miss|p2a: Heatran|p1a: landorustherian
+|
+|-heal|p1a: landorustherian|39/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1665227890
+|move|p2a: Heatran|Magma Storm|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1665227890
+|switch|p1a: rotomwash|Rotom-Wash|52/100
+|-damage|p1a: rotomwash|39/100|[from] Stealth Rock
+|turn|46
+|
+|t:|1665227893
+|switch|p2a: Landorus|Landorus-Therian, M|65/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: rotomwash|atk|1
+|move|p1a: rotomwash|Pain Split|p2a: Landorus
+|-sethp|p2a: Landorus|48/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|60/100|[from] move: Pain Split
+|
+|-heal|p2a: Landorus|54/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1665227895
+|move|p1a: rotomwash|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1665227897
+|switch|p2a: Tapu Lele|Tapu Lele|93/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|48
+|
+|t:|1665227899
+|move|p2a: Tapu Lele|Psyshock|p1a: rotomwash
+|-damage|p1a: rotomwash|6/100
+|move|p1a: rotomwash|Pain Split|p2a: Tapu Lele
+|-sethp|p2a: Tapu Lele|50/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|46/100|[from] move: Pain Split
+|
+|upkeep
+|turn|49
+|
+|t:|1665227902
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Tapu Lele|Psyshock|p1a: Tangrowth
+|-damage|p1a: Tangrowth|61/100
+|
+|upkeep
+|turn|50
+|
+|t:|1665227905
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Tangrowth|Sleep Powder|p2a: Heatran
+|-status|p2a: Heatran|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|51
+|
+|t:|1665227907
+|cant|p2a: Heatran|slp
+|move|p1a: Tangrowth|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|76/100 slp
+|-enditem|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|52
+|
+|t:|1665227909
+|cant|p2a: Heatran|slp
+|move|p1a: Tangrowth|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|62/100 slp
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|53
+|
+|t:|1665227910
+|-curestatus|p2a: Heatran|slp|[msg]
+|move|p2a: Heatran|Magma Storm|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|upkeep
+|
+|t:|1665227910
+|switch|p1a: rotomwash|Rotom-Wash|46/100
+|-damage|p1a: rotomwash|33/100|[from] Stealth Rock
+|turn|54
+|
+|t:|1665227915
+|switch|p2a: Rotom|Rotom-Wash, shiny|64/100 tox
+|move|p1a: rotomwash|Pain Split|p2a: Rotom
+|-sethp|p2a: Rotom|49/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|49/100|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|55/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|49/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|t:|1665227918
+|move|p1a: rotomwash|Thunderbolt|p2a: Rotom
+|-damage|p2a: Rotom|22/100 tox
+|move|p2a: Rotom|Volt Switch|p1a: rotomwash
+|-damage|p1a: rotomwash|21/100
+|
+|t:|1665227922
+|switch|p2a: Tapu Lele|Tapu Lele|50/100|[from]move: Volt Switch
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|upkeep
+|turn|56
+|
+|t:|1665227924
+|move|p2a: Tapu Lele|Moonblast|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1665227924
+|switch|p1a: Heatran|Heatran, M|71/100
+|-damage|p1a: Heatran|59/100|[from] Stealth Rock
+|turn|57
+|
+|t:|1665227928
+|move|p2a: Tapu Lele|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|45/100
+|-unboost|p1a: Heatran|spa|1
+|move|p1a: Heatran|Earth Power|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|29/100
+|
+|upkeep
+|turn|58
+|
+|t:|1665227931
+|move|p2a: Tapu Lele|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|33/100
+|move|p1a: Heatran|Earth Power|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|7/100
+|
+|upkeep
+|turn|59
+|
+|t:|1665227933
+|move|p2a: Tapu Lele|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|22/100
+|move|p1a: Heatran|Earth Power|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1665227936
+|switch|p2a: Rotom|Rotom-Wash, shiny|22/100 tox
+|turn|60
+|
+|t:|1665227938
+|move|p1a: Heatran|Stealth Rock|p2a: Rotom
+|-sidestart|p2: tanishq1|move: Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|tanishq1
+|raw|minimax_ai's rating: 1558 &rarr; <strong>1543</strong><br />(-15 for losing)
+|raw|tanishq1's rating: 1653 &rarr; <strong>1668</strong><br />(+15 for winning)
+|c|☆minimax_ai|gg

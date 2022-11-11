@@ -1,0 +1,475 @@
+|j|☆minimax_ai
+|j|☆Shotintheheart
+|t:|1661904127
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1565
+|player|p2|Shotintheheart|266|1539
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Rillaboom, F|
+|poke|p2|Zapdos|
+|poke|p2|Obstagoon, F|
+|poke|p2|Heatran, M|
+|poke|p2|Tapu Fini|
+|poke|p2|Swampert, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|c|☆Shotintheheart|u2
+|
+|t:|1661904149
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|
+|t:|1661904155
+|move|p2a: Heatran|Eruption|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1661904155
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|2
+|
+|t:|1661904169
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|84/100
+|-activate|p2a: Swampert|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Swampert|91/100|[from] item: Leftovers
+|-damage|p2a: Swampert|78/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1661904179
+|move|p1a: Heatran|Stealth Rock|p2a: Swampert
+|-sidestart|p2: Shotintheheart|move: Stealth Rock
+|move|p2a: Swampert|Flip Turn|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|55/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|t:|1661904188
+|switch|p2a: Tapu Fini|Tapu Fini|100/100|[from]move: Flip Turn
+|-damage|p2a: Tapu Fini|88/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|
+|-heal|p2a: Tapu Fini|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1661904199
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Tapu Fini|Scald|p1a: Melmetal
+|-damage|p1a: Melmetal|86/100
+|
+|-heal|p2a: Tapu Fini|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1661904210
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|86/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|71/100
+|-hitcount|p2a: Zapdos|2
+|
+|upkeep
+|turn|6
+|
+|t:|1661904217
+|move|p2a: Zapdos|Defog|p1a: Melmetal
+|-unboost|p1a: Melmetal|evasion|1
+|-sideend|p2: Shotintheheart|Stealth Rock|[from] move: Defog|[of] p2a: Zapdos
+|-fieldend|Misty Terrain
+|move|p1a: Melmetal|Ice Punch|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|24/100
+|
+|upkeep
+|turn|7
+|
+|t:|1661904224
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|74/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Melmetal|Double Iron Bash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|-status|p1a: Melmetal|par|[from] ability: Static|[of] p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|45/100
+|-hitcount|p2a: Zapdos|2
+|
+|upkeep
+|turn|8
+|
+|t:|1661904234
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|95/100
+|-singleturn|p2a: Zapdos|move: Roost
+|cant|p1a: Melmetal|par
+|
+|upkeep
+|turn|9
+|
+|t:|1661904243
+|move|p2a: Zapdos|Hurricane|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|73/100 par
+|-start|p1a: Melmetal|confusion
+|-activate|p1a: Melmetal|confusion
+|move|p1a: Melmetal|Double Iron Bash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|81/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|67/100
+|-hitcount|p2a: Zapdos|2
+|
+|upkeep
+|turn|10
+|
+|t:|1661904253
+|move|p2a: Zapdos|Hurricane|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|61/100 par
+|-activate|p1a: Melmetal|confusion
+|move|p1a: Melmetal|Double Iron Bash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|52/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|38/100
+|-hitcount|p2a: Zapdos|2
+|
+|upkeep
+|turn|11
+|
+|t:|1661904258
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|88/100
+|-singleturn|p2a: Zapdos|move: Roost
+|-end|p1a: Melmetal|confusion
+|cant|p1a: Melmetal|par
+|
+|upkeep
+|turn|12
+|
+|t:|1661904266
+|move|p2a: Zapdos|Volt Switch|p1a: Melmetal
+|-damage|p1a: Melmetal|45/100 par
+|
+|t:|1661904274
+|switch|p2a: Heatran|Heatran, M|100/100|[from]move: Volt Switch
+|cant|p1a: Melmetal|par
+|
+|upkeep
+|turn|13
+|
+|t:|1661904281
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Heatran|Earth Power|p1a: rotomwash
+|-immune|p1a: rotomwash|[from] ability: Levitate
+|
+|upkeep
+|turn|14
+|
+|t:|1661904294
+|switch|p2a: Swampert|Swampert, M|78/100
+|move|p1a: rotomwash|Thunderbolt|p2a: Swampert
+|-immune|p2a: Swampert
+|
+|-heal|p2a: Swampert|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1661904303
+|move|p1a: rotomwash|Hydro Pump|p2a: Swampert
+|-damage|p2a: Swampert|54/100
+|move|p2a: Swampert|Flip Turn|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|89/100
+|
+|t:|1661904314
+|switch|p2a: Obstagoon|Obstagoon, F|100/100|[from]move: Flip Turn
+|
+|-heal|p1a: rotomwash|96/100|[from] item: Leftovers
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|t:|1661904321
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Obstagoon|Facade|p1a: Tangrowth
+|-damage|p1a: Tangrowth|50/100
+|-damage|p2a: Obstagoon|84/100 brn|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|-damage|p2a: Obstagoon|78/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1661904331
+|move|p2a: Obstagoon|Switcheroo|p1a: Tangrowth
+|-activate|p2a: Obstagoon|move: Trick|[of] p1a: Tangrowth
+|-item|p1a: Tangrowth|Flame Orb|[from] move: Switcheroo
+|-item|p2a: Obstagoon|Rocky Helmet|[from] move: Switcheroo
+|move|p1a: Tangrowth|Focus Blast|p2a: Obstagoon
+|-supereffective|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|faint|p2a: Obstagoon
+|
+|-status|p1a: Tangrowth|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1661904348
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|18
+|
+|t:|1661904351
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|move|p2a: Rillaboom|U-turn|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|88/100
+|
+|t:|1661904358
+|switch|p2a: Swampert|Swampert, M|54/100|[from]move: U-turn
+|
+|-heal|p1a: landorustherian|94/100|[from] item: Leftovers
+|-heal|p2a: Swampert|61/100|[from] Grassy Terrain
+|-heal|p2a: Swampert|67/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1661904366
+|move|p1a: landorustherian|U-turn|p2a: Swampert
+|-damage|p2a: Swampert|46/100
+|
+|t:|1661904366
+|switch|p1a: rotomwash|Rotom-Wash|96/100|[from]move: U-turn
+|move|p2a: Swampert|Yawn|p1a: rotomwash
+|-start|p1a: rotomwash|move: Yawn|[of] p2a: Swampert
+|
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|-heal|p2a: Swampert|52/100|[from] Grassy Terrain
+|-heal|p2a: Swampert|58/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1661904377
+|move|p1a: rotomwash|Hydro Pump|p2a: Swampert
+|-damage|p2a: Swampert|28/100
+|move|p2a: Swampert|Stealth Rock|p1a: rotomwash
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-heal|p2a: Swampert|34/100|[from] Grassy Terrain
+|-heal|p2a: Swampert|40/100|[from] item: Leftovers
+|-end|p1a: rotomwash|move: Yawn|[silent]
+|-status|p1a: rotomwash|slp
+|upkeep
+|turn|21
+|
+|t:|1661904386
+|cant|p1a: rotomwash|slp
+|move|p2a: Swampert|Flip Turn|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|89/100 slp
+|
+|t:|1661904408
+|switch|p2a: Zapdos|Zapdos, shiny|88/100|[from]move: Flip Turn
+|
+|-heal|p1a: rotomwash|95/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1661904414
+|cant|p1a: rotomwash|slp
+|move|p2a: Zapdos|Volt Switch|p1a: rotomwash
+|-damage|p1a: rotomwash|62/100 slp
+|inactive|Shotintheheart has 120 seconds left.
+|
+|t:|1661904436
+|switch|p2a: Tapu Fini|Tapu Fini|100/100|[from]move: Volt Switch
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|
+|-heal|p1a: rotomwash|69/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1661904445
+|cant|p1a: rotomwash|slp
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|-heal|p1a: rotomwash|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1661904455
+|-curestatus|p1a: rotomwash|slp|[msg]
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|-heal|p1a: rotomwash|81/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1661904466
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|move|p2a: Tapu Fini|Draining Kiss|p1a: rotomwash
+|-damage|p1a: rotomwash|45/100
+|
+|-heal|p1a: rotomwash|51/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1661904473
+|move|p1a: rotomwash|Thunderbolt|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|23/100
+|move|p2a: Tapu Fini|Draining Kiss|p1a: rotomwash
+|-damage|p1a: rotomwash|19/100
+|-heal|p2a: Tapu Fini|45/100|[from] drain|[of] p1a: rotomwash
+|
+|-heal|p1a: rotomwash|25/100|[from] item: Leftovers
+|-heal|p2a: Tapu Fini|51/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|27
+|
+|t:|1661904483
+|switch|p2a: Swampert|Swampert, M|40/100
+|move|p1a: rotomwash|Thunderbolt|p2a: Swampert
+|-immune|p2a: Swampert
+|
+|-heal|p1a: rotomwash|31/100|[from] item: Leftovers
+|-heal|p2a: Swampert|46/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1661904493
+|move|p1a: rotomwash|Hydro Pump|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-heal|p1a: rotomwash|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1661904500
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|29
+|
+|t:|1661904501
+|switch|p1a: Heatran|Heatran, M|55/100
+|-damage|p1a: Heatran|43/100|[from] Stealth Rock
+|move|p2a: Rillaboom|Grassy Glide|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|25/100
+|
+|-heal|p1a: Heatran|31/100|[from] Grassy Terrain
+|upkeep
+|turn|30
+|
+|t:|1661904507
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-heal|p1a: Heatran|38/100|[from] Grassy Terrain
+|upkeep
+|turn|31
+|
+|t:|1661904515
+|move|p2a: Heatran|Nature Power|p1a: Heatran
+|move|p2a: Heatran|Energy Ball|p1a: Heatran|[from]move: Nature Power
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|28/100
+|move|p1a: Heatran|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-heal|p1a: Heatran|34/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1661904524
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|turn|32
+|
+|t:|1661904526
+|move|p1a: Heatran|Magma Storm|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Heatran|40/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1661904533
+|switch|p2a: Tapu Fini|Tapu Fini|51/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|33
+|
+|t:|1661904535
+|switch|p1a: Melmetal|Melmetal|45/100 par
+|-damage|p1a: Melmetal|39/100 par|[from] Stealth Rock
+|move|p2a: Tapu Fini|Scald|p1a: Melmetal
+|-damage|p1a: Melmetal|24/100 par
+|
+|-heal|p2a: Tapu Fini|57/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1661904541
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Melmetal|Double Iron Bash|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|29/100
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|-hitcount|p2: Tapu Fini|2
+|
+|upkeep
+|-message|Shotintheheart forfeited.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1565 &rarr; <strong>1584</strong><br />(+19 for winning)
+|raw|Shotintheheart's rating: 1539 &rarr; <strong>1520</strong><br />(-19 for losing)
+|c|☆minimax_ai|gg
+|l|☆Shotintheheart

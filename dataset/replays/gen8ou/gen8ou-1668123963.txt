@@ -1,0 +1,198 @@
+|j|☆minimax_ai
+|j|☆cump7
+|t:|1663600018
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1561
+|player|p2|cump7|schoolkid-gen4|1688
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Swampert, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Magnezone|
+|poke|p2|Tapu Lele|
+|poke|p2|Dragapult, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|inactive|cump7 has 120 seconds left.
+|c|☆cump7|hf
+|
+|t:|1663600060
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|turn|1
+|
+|t:|1663600063
+|move|p2a: Tapu Lele|Psyshock|p1a: landorustherian
+|-damage|p1a: landorustherian|21/100
+|move|p1a: landorustherian|Earthquake|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|29/100
+|
+|-heal|p1a: landorustherian|27/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1663600070
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1663600072
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Heatran|Eruption|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|77/100
+|
+|-heal|p2a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1663600073
+|move|p1a: Heatran|Stealth Rock|p2a: Swampert
+|-sidestart|p2: cump7|move: Stealth Rock
+|move|p2a: Swampert|Flip Turn|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|56/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|t:|1663600077
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|29/100|[from]move: Flip Turn
+|-damage|p2a: Tapu Lele|17/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1663600079
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Tapu Lele|Focus Blast|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|32/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1663600081
+|switch|p1a: landorustherian|Landorus-Therian, M|27/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|move|p2a: Tapu Lele|Focus Blast|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|2/100
+|
+|-heal|p1a: landorustherian|8/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1663600083
+|move|p2a: Tapu Lele|Focus Blast|p1a: landorustherian|[miss]
+|-miss|p2a: Tapu Lele|p1a: landorustherian
+|move|p1a: landorustherian|Earthquake|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|-heal|p1a: landorustherian|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1663600087
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1663600092
+|move|p2a: Dragapult|Dragon Darts|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1663600093
+|switch|p1a: Melmetal|Melmetal|32/100
+|turn|9
+|
+|t:|1663600098
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Melmetal|Ice Punch|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|19/100
+|
+|-heal|p2a: Rillaboom|25/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|39/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1663600100
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Rillaboom|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|72/100
+|-damage|p2a: Rillaboom|9/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-heal|p2a: Rillaboom|15/100|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|78/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1663600104
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|75/100
+|
+|-heal|p1a: Tangrowth|85/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1663600105
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Mandibuzz|Defog|p1a: rotomwash
+|-unboost|p1a: rotomwash|evasion|1
+|-sideend|p2: cump7|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|-fieldend|move: Grassy Terrain
+|
+|upkeep
+|turn|13
+|
+|t:|1663600107
+|switch|p2a: Rillaboom|Rillaboom, M|15/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: rotomwash|Hydro Pump|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|upkeep
+|-message|cump7 forfeited.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1561 &rarr; <strong>1588</strong><br />(+27 for winning)
+|raw|cump7's rating: 1688 &rarr; <strong>1661</strong><br />(-27 for losing)
+|c|☆minimax_ai|gg
+|l|☆cump7

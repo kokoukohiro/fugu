@@ -1,0 +1,327 @@
+|j|☆minimax_ai
+|j|☆Thedebatablereaper
+|t:|1665499845
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1471
+|player|p2|Thedebatablereaper|102|1567
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Tapu Lele|
+|poke|p2|Volcarona, F|
+|poke|p2|Sharpedo, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kartana|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|c|☆Thedebatablereaper|u2
+|
+|t:|1665499870
+|start
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|1
+|
+|t:|1665499877
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Tapu Lele|Psychic|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|77/100
+|
+|upkeep
+|turn|2
+|
+|t:|1665499884
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|81/100
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|64/100
+|-hitcount|p2a: Volcarona|2
+|
+|upkeep
+|turn|3
+|
+|t:|1665499892
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100
+|-singleturn|p2a: Volcarona|move: Roost
+|
+|upkeep
+|turn|4
+|
+|t:|1665499899
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: landorustherian|atk|1
+|move|p1a: landorustherian|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|
+|-damage|p2a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1665499907
+|move|p2a: Landorus|Stealth Rock|p1a: landorustherian
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|move|p1a: landorustherian|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|89/100 tox
+|
+|t:|1665499907
+|switch|p1a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|
+|-heal|p2a: Landorus|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|83/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1665499918
+|move|p1a: Heatran|Eruption|p2a: Landorus
+|-damage|p2a: Landorus|7/100 tox
+|move|p2a: Landorus|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|83/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|t:|1665499930
+|switch|p2a: Sharpedo|Sharpedo, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1665499941
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Sharpedo|Dark Pulse|p1a: Tangrowth
+|-damage|p1a: Tangrowth|20/100
+|-damage|p2a: Sharpedo|91/100|[from] item: Life Orb
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|8
+|
+|t:|1665499951
+|switch|p1a: Melmetal|Melmetal|77/100
+|-damage|p1a: Melmetal|71/100|[from] Stealth Rock
+|move|p2a: Sharpedo|Dark Pulse|p1a: Melmetal
+|-damage|p1a: Melmetal|45/100
+|-damage|p2a: Sharpedo|81/100|[from] item: Life Orb
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|9
+|
+|t:|1665499962
+|switch|p2a: Landorus|Landorus-Therian, M|7/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Melmetal|atk|1
+|move|p1a: Melmetal|Double Iron Bash|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-hitcount|p2: Landorus|1
+|
+|upkeep
+|
+|t:|1665499972
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|10
+|
+|t:|1665499978
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p1a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|move|p2a: Volcarona|Flamethrower|p1a: landorustherian
+|-damage|p1a: landorustherian|57/100
+|
+|-heal|p1a: landorustherian|63/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1665499989
+|switch|p2a: Kartana|Kartana|100/100
+|move|p1a: landorustherian|Earthquake|p2a: Kartana
+|-damage|p2a: Kartana|53/100
+|
+|-heal|p1a: landorustherian|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1665499996
+|switch|p1a: Tangrowth|Tangrowth, M|53/100
+|-damage|p1a: Tangrowth|40/100|[from] Stealth Rock
+|move|p2a: Kartana|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|6/100
+|-damage|p2a: Kartana|36/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Kartana
+|
+|upkeep
+|turn|13
+|
+|t:|1665500004
+|switch|p1a: Melmetal|Melmetal|45/100
+|-damage|p1a: Melmetal|39/100|[from] Stealth Rock
+|move|p2a: Kartana|Knock Off|p1a: Melmetal
+|-damage|p1a: Melmetal|2/100
+|-enditem|p1a: Melmetal|Assault Vest|[from] move: Knock Off|[of] p2a: Kartana
+|
+|upkeep
+|turn|14
+|
+|t:|1665500011
+|switch|p1a: Tangrowth|Tangrowth, M|39/100
+|-damage|p1a: Tangrowth|27/100|[from] Stealth Rock
+|move|p2a: Kartana|Knock Off|p1a: Tangrowth
+|-crit|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+|
+|t:|1665500011
+|switch|p1a: Heatran|Heatran, M|83/100
+|-damage|p1a: Heatran|70/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1665500022
+|move|p2a: Kartana|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|4/100
+|move|p1a: Heatran|Magma Storm|p2a: Kartana
+|-supereffective|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|upkeep
+|
+|t:|1665500033
+|switch|p2a: Sharpedo|Sharpedo, M|81/100
+|turn|16
+|
+|t:|1665500037
+|move|p2a: Sharpedo|Dark Pulse|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-damage|p2a: Sharpedo|71/100|[from] item: Life Orb
+|
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|
+|t:|1665500037
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1665500055
+|move|p2a: Sharpedo|Destiny Bond|p2a: Sharpedo
+|-singlemove|p2a: Sharpedo|Destiny Bond
+|move|p1a: rotomwash|Thunderbolt|p2a: Sharpedo
+|-supereffective|p2a: Sharpedo
+|-damage|p2a: Sharpedo|0 fnt
+|faint|p2a: Sharpedo
+|-activate|p2a: Sharpedo|move: Destiny Bond
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1665500072
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|18
+|
+|t:|1665500078
+|move|p1a: Weavile|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|39/100
+|-enditem|p2a: Volcarona|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Volcarona|Flamethrower|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-crit|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1665500078
+|switch|p1a: landorustherian|Landorus-Therian, M|70/100
+|-damage|p1a: landorustherian|57/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|turn|19
+|
+|t:|1665500092
+|move|p2a: Volcarona|Flamethrower|p1a: landorustherian
+|-damage|p1a: landorustherian|29/100
+|move|p1a: landorustherian|Earthquake|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-heal|p1a: landorustherian|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1665500100
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|20
+|
+|t:|1665500104
+|switch|p1a: Melmetal|Melmetal|2/100
+|-damage|p1a: Melmetal|0 fnt|[from] Stealth Rock
+|faint|p1a: Melmetal
+|move|p2a: Tapu Lele|Psychic|p1: Melmetal|[notarget]
+|-fail|p2a: Tapu Lele
+|
+|upkeep
+|
+|t:|1665500104
+|switch|p1a: landorustherian|Landorus-Therian, M|35/100
+|-damage|p1a: landorustherian|22/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|turn|21
+|c|☆Thedebatablereaper|gg
+|
+|t:|1665500113
+|move|p2a: Tapu Lele|Psychic|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|win|Thedebatablereaper
+|raw|minimax_ai's rating: 1471 &rarr; <strong>1456</strong><br />(-15 for losing)
+|raw|Thedebatablereaper's rating: 1567 &rarr; <strong>1582</strong><br />(+15 for winning)
+|c|☆minimax_ai|gg

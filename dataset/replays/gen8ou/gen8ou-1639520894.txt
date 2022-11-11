@@ -1,0 +1,926 @@
+|j|☆Cono de la Correze
+|j|☆Meracx
+|t:|1660489559
+|gametype|singles
+|player|p1|Cono de la Correze|hilbert|
+|player|p2|Meracx|thorton|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Blaziken, F|
+|poke|p1|Melmetal|
+|poke|p1|Garchomp, F|
+|poke|p1|Slowbro, M|
+|poke|p2|Clefable, F|
+|poke|p2|Zeraora|
+|poke|p2|Victini|
+|poke|p2|Weavile, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Ferrothorn, M|
+|teampreview
+|c|☆Meracx|hf
+|c|☆Cono de la Correze|u2
+|j| Crowlignt
+|j| Acura RL
+|j| G2 Wait2Seconds
+|j| Minogod94
+|
+|t:|1660489625
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|t:|1660489640
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|move|p2a: Weavile|Triple Axel|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|94/100
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|79/100
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|58/100
+|-hitcount|p1a: Blaziken|3
+|
+|-heal|p1a: Blaziken|64/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1660489658
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Blaziken|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|88/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|
+|-heal|p1a: Blaziken|70/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|3
+|
+|t:|1660489669
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Dragonite|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|79/100
+|
+|upkeep
+|turn|4
+|
+|t:|1660489676
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Slowbro|Future Sight|p2a: Clefable
+|-start|p1a: Slowbro|move: Future Sight
+|
+|upkeep
+|turn|5
+|
+|t:|1660489690
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Clefable|Trick|p1a: Melmetal
+|-activate|p2a: Clefable|move: Trick|[of] p1a: Melmetal
+|-item|p1a: Melmetal|Sticky Barb|[from] move: Trick
+|-item|p2a: Clefable|Leftovers|[from] move: Trick
+|
+|-damage|p1a: Melmetal|88/100|[from] item: Sticky Barb
+|upkeep
+|turn|6
+|
+|t:|1660489700
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Melmetal|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|45/100
+|-unboost|p1a: Melmetal|atk|1
+|-unboost|p1a: Melmetal|def|1
+|-damage|p1a: Melmetal|75/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-end|p2a: Ferrothorn|move: Future Sight
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|29/100
+|-heal|p2a: Ferrothorn|35/100|[from] item: Leftovers
+|-damage|p1a: Melmetal|63/100|[from] item: Sticky Barb
+|upkeep
+|turn|7
+|
+|t:|1660489714
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Victini|Victini|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1660489720
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Tornadus|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|90/100
+|-enditem|p2a: Clefable|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|
+|upkeep
+|turn|9
+|
+|t:|1660489741
+|move|p1a: Tornadus|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|82/100
+|
+|t:|1660489764
+|switch|p1a: Slowbro|Slowbro, M|100/100|[from]move: U-turn
+|move|p2a: Clefable|Stealth Rock|p1a: Slowbro
+|-sidestart|p1: Cono de la Correze|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1660489774
+|switch|p2a: Ferrothorn|Ferrothorn, M|35/100
+|move|p1a: Slowbro|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|22/100
+|
+|-heal|p2a: Ferrothorn|29/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1660489782
+|move|p1a: Slowbro|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|17/100
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Spikes|p1a: Slowbro
+|-sidestart|p1: Cono de la Correze|Spikes
+|
+|-heal|p2a: Ferrothorn|24/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|17/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1660489792
+|move|p1a: Slowbro|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|6/100 brn
+|move|p2a: Ferrothorn|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|88/100
+|-damage|p2a: Ferrothorn|0 fnt|[from] item: Rocky Helmet|[of] p1a: Slowbro
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1660489804
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|13
+|
+|t:|1660489818
+|move|p2a: Zeraora|Bulk Up|p2a: Zeraora
+|-boost|p2a: Zeraora|atk|1
+|-boost|p2a: Zeraora|def|1
+|move|p1a: Slowbro|Toxic|p2a: Zeraora
+|-status|p2a: Zeraora|tox
+|
+|-damage|p2a: Zeraora|95/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1660489848
+|move|p2a: Zeraora|Play Rough|p1a: Slowbro
+|-damage|p1a: Slowbro|62/100
+|-damage|p2a: Zeraora|78/100 tox|[from] item: Rocky Helmet|[of] p1a: Slowbro
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1660489864
+|switch|p1a: Melmetal|Melmetal|63/100|[from]move: Teleport
+|-damage|p1a: Melmetal|57/100|[from] Stealth Rock
+|-damage|p1a: Melmetal|44/100|[from] Spikes
+|
+|-damage|p2a: Zeraora|66/100 tox|[from] psn
+|-damage|p1a: Melmetal|32/100|[from] item: Sticky Barb
+|upkeep
+|turn|15
+|
+|t:|1660489901
+|move|p1a: Melmetal|Protect|p1a: Melmetal
+|-singleturn|p1a: Melmetal|Protect
+|move|p2a: Zeraora|Close Combat|p1a: Melmetal
+|-activate|p1a: Melmetal|move: Protect
+|
+|-damage|p2a: Zeraora|48/100 tox|[from] psn
+|-damage|p1a: Melmetal|19/100|[from] item: Sticky Barb
+|upkeep
+|turn|16
+|
+|t:|1660489913
+|move|p2a: Zeraora|Plasma Fists|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-hint|Normal-type moves become Electric-type after using Plasma Fists.
+|faint|p1a: Melmetal
+|
+|-damage|p2a: Zeraora|24/100 tox|[from] psn
+|upkeep
+|
+|t:|1660489917
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-damage|p1a: Rillaboom|75/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|17
+|
+|t:|1660489922
+|switch|p2a: Dragonite|Dragonite, M|88/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|77/100
+|
+|-heal|p1a: Rillaboom|82/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1660489933
+|switch|p2a: Victini|Victini|100/100
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|
+|upkeep
+|turn|19
+|
+|t:|1660489945
+|move|p1a: Tornadus|Defog|p2a: Victini
+|-unboost|p2a: Victini|evasion|1
+|-sideend|p1: Cono de la Correze|Spikes|[from] move: Defog|[of] p1a: Tornadus
+|-sideend|p1: Cono de la Correze|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|-fieldend|move: Grassy Terrain
+|move|p2a: Victini|Glaciate|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|76/100
+|-unboost|p1a: Tornadus|spe|1
+|
+|upkeep
+|turn|20
+|
+|t:|1660489955
+|switch|p1a: Slowbro|Slowbro, M|96/100
+|move|p2a: Victini|U-turn|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|71/100
+|-damage|p2a: Victini|84/100|[from] item: Rocky Helmet|[of] p1a: Slowbro
+|
+|t:|1660489966
+|switch|p2a: Clefable|Clefable, F|82/100|[from]move: U-turn
+|
+|upkeep
+|turn|21
+|
+|t:|1660489970
+|move|p2a: Clefable|Stealth Rock|p1a: Slowbro
+|-sidestart|p1: Cono de la Correze|move: Stealth Rock
+|move|p1a: Slowbro|Future Sight|p2a: Clefable
+|-start|p1a: Slowbro|move: Future Sight
+|
+|upkeep
+|turn|22
+|
+|t:|1660489976
+|move|p2a: Clefable|Trick|p1a: Slowbro
+|-activate|p2a: Clefable|move: Trick|[of] p1a: Slowbro
+|-enditem|p1a: Slowbro|Rocky Helmet|[silent]|[from] move: Trick
+|-item|p2a: Clefable|Rocky Helmet|[from] move: Trick
+|move|p1a: Slowbro|Scald|p2a: Clefable
+|-damage|p2a: Clefable|65/100
+|
+|upkeep
+|turn|23
+|
+|t:|1660489986
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1660489991
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100|[from]move: Teleport
+|
+|-end|p2a: Clefable|move: Future Sight
+|-damage|p2a: Clefable|71/100
+|upkeep
+|turn|24
+|
+|t:|1660490000
+|move|p1a: Tornadus|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|-sideend|p1: Cono de la Correze|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|move|p2a: Clefable|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|67/100
+|-unboost|p1a: Tornadus|spa|1
+|
+|upkeep
+|turn|25
+|
+|t:|1660490009
+|move|p1a: Tornadus|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|59/100
+|-damage|p1a: Tornadus|50/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|-enditem|p2a: Clefable|Rocky Helmet|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Clefable|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: Cono de la Correze|move: Stealth Rock
+|
+|upkeep
+|turn|26
+|
+|t:|1660490014
+|move|p1a: Tornadus|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|-sideend|p1: Cono de la Correze|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|move|p2a: Clefable|Trick|p1a: Tornadus
+|-activate|p2a: Clefable|move: Trick|[of] p1a: Tornadus
+|-enditem|p1a: Tornadus|Heavy-Duty Boots|[silent]|[from] move: Trick
+|-item|p2a: Clefable|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|27
+|
+|t:|1660490023
+|move|p1a: Tornadus|Heat Wave|p2a: Clefable
+|-damage|p2a: Clefable|49/100
+|move|p2a: Clefable|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: Cono de la Correze|move: Stealth Rock
+|
+|upkeep
+|turn|28
+|
+|t:|1660490027
+|move|p1a: Tornadus|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|-sideend|p1: Cono de la Correze|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|99/100
+|
+|upkeep
+|turn|29
+|
+|t:|1660490061
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Slowbro
+|-damage|p1a: Slowbro|70/100
+|
+|upkeep
+|turn|30
+|
+|t:|1660490077
+|switch|p1a: Tornadus|Tornadus-Therian, M|83/100
+|move|p2a: Clefable|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: Cono de la Correze|move: Stealth Rock
+|
+|upkeep
+|turn|31
+|
+|t:|1660490081
+|move|p1a: Tornadus|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|-sideend|p1: Cono de la Correze|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|move|p2a: Clefable|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|51/100
+|
+|upkeep
+|turn|32
+|
+|t:|1660490106
+|switch|p1a: Rillaboom|Rillaboom, M|88/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Clefable|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: Cono de la Correze|move: Stealth Rock
+|
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|100/100|[from] item: Leftovers
+|-heal|p2a: Clefable|100/100|[from] Grassy Terrain
+|upkeep
+|turn|33
+|
+|t:|1660490125
+|switch|p2a: Dragonite|Dragonite, M|77/100
+|move|p1a: Rillaboom|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|46/100
+|-enditem|p2a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|upkeep
+|turn|34
+|
+|t:|1660490133
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|96/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-heal|p2a: Dragonite|100/100|[from] Grassy Terrain
+|-heal|p1a: Slowbro|94/100|[from] Grassy Terrain
+|upkeep
+|turn|35
+|
+|t:|1660490140
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Slowbro|Toxic|p2a: Clefable
+|-status|p2a: Clefable|tox
+|
+|-heal|p1a: Slowbro|99/100|[from] Grassy Terrain
+|upkeep
+|turn|36
+|
+|t:|1660490146
+|move|p2a: Clefable|Moonblast|p1a: Slowbro
+|-damage|p1a: Slowbro|70/100
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1660490151
+|switch|p1a: Garchomp|Garchomp, F|100/100|[from]move: Teleport
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Garchomp|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|37
+|
+|t:|1660490153
+|move|p1a: Garchomp|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Meracx|move: Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|59/100
+|
+|-heal|p1a: Garchomp|65/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1660490164
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Clefable|Moonblast|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|
+|-heal|p1a: Garchomp|71/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1660490178
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Slowbro
+|-damage|p1a: Slowbro|57/100
+|-unboost|p1a: Slowbro|spa|1
+|
+|upkeep
+|turn|40
+|
+|t:|1660490187
+|move|p2a: Clefable|Moonblast|p1a: Slowbro
+|-damage|p1a: Slowbro|23/100
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1660490191
+|switch|p1a: Rillaboom|Rillaboom, M|100/100|[from]move: Teleport
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1660490204
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|move|p2a: Clefable|Moonblast|p1a: Rillaboom
+|-damage|p1a: Rillaboom|66/100
+|
+|-heal|p1a: Rillaboom|73/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|79/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1660490215
+|switch|p2a: Zeraora|Zeraora|24/100 tox
+|move|p1a: Rillaboom|Grassy Glide|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|-heal|p1a: Rillaboom|85/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1660490217
+|switch|p2a: Victini|Victini|84/100
+|turn|43
+|
+|t:|1660490237
+|switch|p1a: Garchomp|Garchomp, F|71/100
+|-damage|p1a: Garchomp|65/100|[from] Stealth Rock
+|move|p2a: Victini|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|49/100
+|-damage|p2a: Victini|72/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|t:|1660490244
+|switch|p2a: Weavile|Weavile, M|100/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|-heal|p1a: Garchomp|55/100|[from] Grassy Terrain
+|-heal|p1a: Garchomp|61/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1660490256
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Garchomp|Toxic|p2a: Weavile
+|-status|p2a: Weavile|tox
+|
+|-heal|p1a: Garchomp|68/100|[from] Grassy Terrain
+|-heal|p1a: Garchomp|74/100|[from] item: Leftovers
+|-damage|p2a: Weavile|94/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|45
+|
+|t:|1660490268
+|move|p2a: Weavile|Triple Axel|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|1/100
+|-damage|p2a: Weavile|82/100 tox|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Weavile|70/100 tox|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|-hitcount|p1: Garchomp|2
+|
+|-damage|p2a: Weavile|57/100 tox|[from] psn
+|upkeep
+|
+|t:|1660490273
+|switch|p1a: Blaziken|Blaziken, F|70/100
+|-damage|p1a: Blaziken|58/100|[from] Stealth Rock
+|turn|46
+|
+|t:|1660490286
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Weavile|Triple Axel|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-heal|p1a: Blaziken|64/100|[from] item: Leftovers
+|-damage|p2a: Weavile|39/100 tox|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|47
+|
+|t:|1660490299
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|move|p1a: Blaziken|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|46/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|
+|-heal|p1a: Blaziken|70/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|48
+|
+|t:|1660490312
+|switch|p1a: Slowbro|Slowbro, M|56/100
+|-damage|p1a: Slowbro|44/100|[from] Stealth Rock
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|96/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|upkeep
+|turn|49
+|
+|t:|1660490319
+|switch|p2a: Victini|Victini|72/100
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1660490332
+|switch|p1a: Tornadus|Tornadus-Therian, M|84/100|[from]move: Teleport
+|-damage|p1a: Tornadus|59/100|[from] Stealth Rock
+|
+|upkeep
+|turn|50
+|
+|t:|1660490340
+|switch|p2a: Clefable|Clefable, F|100/100 tox
+|move|p1a: Tornadus|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|89/100 tox
+|-enditem|p2a: Clefable|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tornadus
+|
+|upkeep
+|turn|51
+|
+|t:|1660490344
+|move|p1a: Tornadus|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|80/100 tox
+|
+|t:|1660490347
+|switch|p1a: Slowbro|Slowbro, M|77/100|[from]move: U-turn
+|-damage|p1a: Slowbro|65/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Slowbro
+|-damage|p1a: Slowbro|29/100
+|
+|upkeep
+|turn|52
+|
+|t:|1660490353
+|switch|p1a: Tornadus|Tornadus-Therian, M|92/100
+|-damage|p1a: Tornadus|67/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|36/100
+|-unboost|p1a: Tornadus|spa|1
+|
+|upkeep
+|turn|53
+|
+|t:|1660490363
+|move|p1a: Tornadus|Heat Wave|p2a: Clefable|[miss]
+|-miss|p1a: Tornadus|p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|4/100
+|-unboost|p1a: Tornadus|spa|1
+|
+|upkeep
+|turn|54
+|
+|t:|1660490367
+|move|p1a: Tornadus|Heat Wave|p2a: Clefable
+|-damage|p2a: Clefable|72/100 tox
+|move|p2a: Clefable|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1660490369
+|switch|p1a: Rillaboom|Rillaboom, M|91/100
+|-damage|p1a: Rillaboom|79/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|55
+|
+|t:|1660490394
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|move|p2a: Clefable|Moonblast|p1a: Rillaboom
+|-damage|p1a: Rillaboom|42/100
+|
+|-heal|p1a: Rillaboom|48/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|54/100|[from] item: Leftovers
+|-heal|p2a: Clefable|78/100 tox|[from] Grassy Terrain
+|upkeep
+|turn|56
+|
+|t:|1660490402
+|move|p1a: Rillaboom|Grassy Glide|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-heal|p1a: Rillaboom|61/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1660490405
+|switch|p2a: Victini|Victini|72/100
+|turn|57
+|
+|t:|1660490432
+|switch|p1a: Slowbro|Slowbro, M|63/100
+|-damage|p1a: Slowbro|50/100|[from] Stealth Rock
+|move|p2a: Victini|V-create|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|26/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|-heal|p2a: Victini|78/100|[from] Grassy Terrain
+|-heal|p1a: Slowbro|32/100|[from] Grassy Terrain
+|upkeep
+|turn|58
+|
+|t:|1660490463
+|move|p2a: Victini|Bolt Strike|p1a: Slowbro|[miss]
+|-miss|p2a: Victini|p1a: Slowbro
+|move|p1a: Slowbro|Scald|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|-heal|p1a: Slowbro|38/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1660490467
+|switch|p2a: Weavile|Weavile, M|39/100 tox
+|-ability|p2a: Weavile|Pressure
+|turn|59
+|c|☆Cono de la Correze|sorry
+|
+|t:|1660490490
+|switch|p1a: Blaziken|Blaziken, F|70/100
+|-damage|p1a: Blaziken|58/100|[from] Stealth Rock
+|move|p2a: Weavile|Knock Off|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|23/100
+|-enditem|p1a: Blaziken|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|
+|-heal|p2a: Weavile|45/100 tox|[from] Grassy Terrain
+|-heal|p1a: Blaziken|29/100|[from] Grassy Terrain
+|-damage|p2a: Weavile|39/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|60
+|j| jeza.p
+|
+|t:|1660490501
+|switch|p2a: Dragonite|Dragonite, M|96/100
+|-damage|p2a: Dragonite|71/100|[from] Stealth Rock
+|move|p1a: Blaziken|Protect||[still]
+|-fail|p1a: Blaziken
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|61
+|
+|t:|1660490515
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|62
+|
+|t:|1660490520
+|move|p1a: Blaziken|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|11/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|move|p2a: Dragonite|Earthquake|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-crit|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1660490548
+|switch|p1a: Slowbro|Slowbro, M|71/100
+|-damage|p1a: Slowbro|59/100|[from] Stealth Rock
+|turn|63
+|
+|t:|1660490554
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|61/100
+|-singleturn|p2a: Dragonite|move: Roost
+|move|p1a: Slowbro|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|
+|-damage|p2a: Dragonite|55/100 tox|[from] psn
+|upkeep
+|turn|64
+|
+|t:|1660490560
+|move|p2a: Dragonite|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|30/100
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1660490564
+|switch|p1a: Rillaboom|Rillaboom, M|67/100|[from]move: Teleport
+|-damage|p1a: Rillaboom|54/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|61/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|67/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|43/100 tox|[from] psn
+|upkeep
+|turn|65
+|
+|t:|1660490568
+|switch|p1a: Slowbro|Slowbro, M|63/100
+|-damage|p1a: Slowbro|51/100|[from] Stealth Rock
+|move|p2a: Dragonite|Ice Punch|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|39/100
+|
+|-heal|p1a: Slowbro|45/100|[from] Grassy Terrain
+|-damage|p2a: Dragonite|24/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|t:|1660490574
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|74/100 tox
+|-singleturn|p2a: Dragonite|move: Roost
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1660490577
+|switch|p1a: Rillaboom|Rillaboom, M|67/100|[from]move: Teleport
+|-damage|p1a: Rillaboom|54/100|[from] Stealth Rock
+|
+|-heal|p2a: Dragonite|80/100 tox|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|61/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|67/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|55/100 tox|[from] psn
+|upkeep
+|turn|67
+|
+|t:|1660490580
+|switch|p2a: Weavile|Weavile, M|39/100 tox
+|-ability|p2a: Weavile|Pressure
+|switch|p1a: Slowbro|Slowbro, M|79/100
+|-damage|p1a: Slowbro|66/100|[from] Stealth Rock
+|
+|-heal|p2a: Weavile|45/100 tox|[from] Grassy Terrain
+|-heal|p1a: Slowbro|72/100|[from] Grassy Terrain
+|-damage|p2a: Weavile|39/100 tox|[from] psn
+|upkeep
+|turn|68
+|
+|t:|1660490589
+|move|p2a: Weavile|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|34/100
+|move|p1a: Slowbro|Scald|p2a: Weavile
+|-damage|p2a: Weavile|4/100 tox
+|
+|-heal|p2a: Weavile|10/100 tox|[from] Grassy Terrain
+|-heal|p1a: Slowbro|40/100|[from] Grassy Terrain
+|-damage|p2a: Weavile|0 fnt|[from] psn
+|faint|p2a: Weavile
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1660490593
+|switch|p2a: Dragonite|Dragonite, M|55/100 tox
+|-damage|p2a: Dragonite|30/100 tox|[from] Stealth Rock
+|turn|69
+|
+|t:|1660490603
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Slowbro|Future Sight|p2a: Dragonite
+|-start|p1a: Slowbro|move: Future Sight
+|
+|-damage|p2a: Dragonite|24/100 tox|[from] psn
+|upkeep
+|turn|70
+|
+|t:|1660490608
+|switch|p1a: Rillaboom|Rillaboom, M|67/100
+|-damage|p1a: Rillaboom|54/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Dragonite|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|42/100
+|
+|-heal|p1a: Rillaboom|48/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|54/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|12/100 tox|[from] psn
+|upkeep
+|turn|71
+|c|☆Meracx|gg
+|
+|t:|1660490613
+|move|p2a: Dragonite|Ice Punch|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-end|p2a: Dragonite|move: Future Sight
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|Cono de la Correze
+|upkeep
+|c|☆Cono de la Correze|gg
+|c| Minogod94|gg cdlc!!

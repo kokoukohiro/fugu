@@ -1,0 +1,490 @@
+|j|☆N30N3
+|j|☆ostia el teclado
+|player|p1|N30N3|170|1884
+|player|p2|ostia el teclado|bellepa|1794
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Hippowdon, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Hippowdon, M|
+|poke|p2|Reuniclus, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Mandibuzz, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ostia el teclado)
+|j| AgressivEbolAidCOV
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|move|p1a: Hippowdon|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: ostia el teclado|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Hippowdon
+|-sidestart|p1: N30N3|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|88/100|[from] Spikes
+|move|p2a: Ferrothorn|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|53/100
+|-damage|p2a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Ferrothorn|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|24/100
+|-damage|p2a: Ferrothorn|82/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|-damage|p1a: Ferrothorn|12/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|18/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Ferrothorn|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Ferrothorn|56/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|88/100|[from] Spikes
+|-ability|p1a: Kyurem|Pressure
+|turn|5
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Kyurem|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|move|p2a: Toxapex|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|68/100
+|-status|p1a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|82/100|[from] Sandstorm
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|-damage|p1a: Tyranitar|62/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Kyurem|Kyurem|76/100
+|-damage|p1a: Kyurem|64/100|[from] Spikes
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Toxapex|Knock Off|p1a: Kyurem
+|-damage|p1a: Kyurem|50/100
+|-enditem|p1a: Kyurem|Choice Specs|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-weather|none
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p1a: Kyurem|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|move|p2a: Toxapex|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|43/100
+|
+|-heal|p2a: Toxapex|32/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Reuniclus
+|-damage|p2a: Reuniclus|67/100
+|
+|-heal|p2a: Reuniclus|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Tyranitar|Tyranitar, M|62/100 brn
+|-damage|p1a: Tyranitar|50/100 brn|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|44/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Stone Edge|p2a: Hippowdon
+|-resisted|p2a: Hippowdon
+|-damage|p2a: Hippowdon|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|90/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|38/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Hippowdon|[miss]
+|-miss|p1a: Tyranitar|p2a: Hippowdon
+|move|p2a: Hippowdon|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: N30N3|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|96/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|32/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-damage|p1a: Hippowdon|82/100|[from] Spikes
+|move|p2a: Hippowdon|Whirlwind|p1a: Hippowdon
+|drag|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|-damage|p1a: Excadrill|85/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Tyranitar|Tyranitar, M|32/100 brn
+|-damage|p1a: Tyranitar|19/100 brn|[from] Spikes
+|-damage|p1a: Tyranitar|7/100 brn|[from] Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem|43/100
+|-damage|p1a: Kyurem|18/100|[from] Stealth Rock
+|-damage|p1a: Kyurem|6/100|[from] Spikes
+|-ability|p1a: Kyurem|Pressure
+|turn|16
+|
+|switch|p2a: Toxapex|Toxapex, M|66/100
+|-damage|p2a: Toxapex|53/100|[from] Stealth Rock
+|move|p1a: Kyurem|Ice Beam|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|32/100
+|
+|-heal|p2a: Toxapex|37/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Kyurem|Freeze-Dry|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|0 fnt|[from] Sandstorm
+|faint|p1a: Kyurem
+|upkeep
+|j| biklad
+|
+|switch|p1a: Hippowdon|Hippowdon, F|82/100
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|-damage|p1a: Hippowdon|76/100|[from] Stealth Rock
+|-damage|p1a: Hippowdon|63/100|[from] Spikes
+|turn|18
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Reuniclus|Psyshock|p1a: Hippowdon
+|-damage|p1a: Hippowdon|73/100
+|move|p1a: Hippowdon|Whirlwind|p2a: Reuniclus
+|drag|p2a: Toxapex|Toxapex, M|71/100
+|-damage|p2a: Toxapex|59/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|53/100|[from] Sandstorm
+|-heal|p2a: Toxapex|59/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|move|p1a: Hippowdon|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Reuniclus|81/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Reuniclus|Psyshock|p1a: Hippowdon
+|-damage|p1a: Hippowdon|55/100
+|move|p1a: Hippowdon|Whirlwind|p2a: Reuniclus
+|drag|p2a: Toxapex|Toxapex, M|92/100
+|-damage|p2a: Toxapex|80/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Toxapex|86/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|38/100
+|move|p2a: Toxapex|Scald|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|28/100
+|-status|p1a: Hippowdon|brn
+|
+|-heal|p2a: Toxapex|44/100|[from] item: Black Sludge
+|-damage|p1a: Hippowdon|22/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|21/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|71/100
+|
+|-heal|p2a: Toxapex|77/100|[from] item: Black Sludge
+|-damage|p1a: Hippowdon|16/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|66/100 brn
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Hippowdon|60/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|79/100
+|move|p2a: Toxapex|Scald|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|30/100 brn
+|
+|-heal|p2a: Toxapex|85/100|[from] item: Black Sludge
+|-damage|p1a: Hippowdon|23/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|61/100
+|move|p2a: Toxapex|Scald|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-heal|p2a: Toxapex|67/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|85/100
+|-damage|p1a: Excadrill|73/100|[from] Spikes
+|-damage|p1a: Excadrill|69/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Excadrill|Rock Slide|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|38/100
+|-damage|p1a: Excadrill|60/100|[from] item: Life Orb
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-damage|p1a: Excadrill|50/100|[from] item: Life Orb
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F|81/100
+|turn|29
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Reuniclus
+|-damage|p2a: Reuniclus|62/100
+|-boost|p1a: Excadrill|spe|1
+|-sideend|p1: N30N3|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: N30N3|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-damage|p1a: Excadrill|40/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100/100
+|
+|upkeep
+|turn|30
+|l| biklad
+|
+|move|p1a: Excadrill|Iron Head|p2a: Reuniclus
+|-damage|p2a: Reuniclus|54/100
+|-damage|p1a: Excadrill|30/100|[from] item: Life Orb
+|cant|p2a: Reuniclus|flinch
+|
+|-heal|p2a: Reuniclus|60/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|j| matoryoshka
+|
+|move|p1a: Excadrill|Iron Head|p2a: Reuniclus
+|-damage|p2a: Reuniclus|15/100
+|-damage|p1a: Excadrill|20/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Psyshock|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Reuniclus|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|32
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Reuniclus
+|-damage|p2a: Reuniclus|2/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|99/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Toxapex|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Toxapex|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|35/100
+|-enditem|p1a: Dragapult|Liechi Berry|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|78/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|58/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Toxapex|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|4/100
+|
+|-heal|p2a: Toxapex|64/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|42/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|20/100
+|move|p2a: Toxapex|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|ostia el teclado
+|l|☆N30N3
+|raw|N30N3's rating: 1884 &rarr; <strong>1858</strong><br />(-26 for losing)
+|raw|ostia el teclado's rating: 1774 &rarr; <strong>1800</strong><br />(+26 for winning)
+|c|☆ostia el teclado|gg
+|player|p2|ostia el teclado|bellepa

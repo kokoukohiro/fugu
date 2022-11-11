@@ -1,0 +1,237 @@
+|j|☆reiko123
+|j|☆thounss
+|player|p1|reiko123|41|1818
+|player|p2|thounss|102|1704
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Conkeldurr, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Bisharp, F|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Dugtrio, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: Clefable
+|-immune|p2a: Clefable
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|80/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Dugtrio|[miss]
+|-miss|p1a: Cinderace|p2a: Dugtrio
+|
+|upkeep
+|turn|5
+|j| titegstel
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|6
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Clefable
+|-damage|p2a: Clefable|55/100
+|
+|-heal|p2a: Clefable|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Conkeldurr|Ice Punch|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|8
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Dragapult|Draco Meteor|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|61/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Corviknight|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|84/100
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Rotom|Volt Switch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|85/100
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100|[from]move: Volt Switch
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Corviknight|Corviknight, F|61/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Dugtrio|Reversal|p1a: Corviknight
+|-damage|p1a: Corviknight|16/100
+|-damage|p2a: Dugtrio|0 fnt|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|12
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|85/100
+|turn|13
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|57/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|14
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100
+|move|p2a: Corviknight|Brave Bird|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|27/100
+|-damage|p2a: Corviknight|10/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|16/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Conkeldurr|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|-damage|p1a: Conkeldurr|17/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|84/100
+|turn|17
+|
+|switch|p1a: Hydreigon|Hydreigon, M|57/100
+|move|p2a: Rotom|Trick|p1a: Hydreigon
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Hydreigon
+|-item|p1a: Hydreigon|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Choice Specs|[from] move: Trick
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Rotom|[miss]
+|-miss|p1a: Hydreigon|p2a: Rotom
+|move|p2a: Rotom|Volt Switch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|35/100
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Seismitoad|Low Kick|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|84/100
+|turn|21
+|-message|thounss forfeited.
+|
+|win|reiko123
+|j| 1349MtnDew
+|l|☆thounss
+|l| 1349MtnDew
+|raw|reiko123's rating: 1818 &rarr; <strong>1832</strong><br />(+14 for winning)
+|raw|thounss's rating: 1705 &rarr; <strong>1691</strong><br />(-14 for losing)
+|l|☆reiko123

@@ -1,0 +1,358 @@
+|j|☆cold.exe
+|j|☆Cloudictable
+|player|p1|cold.exe|steven|1485
+|player|p2|Cloudictable|crasherwake|1474
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Diggersby, F|
+|poke|p1|Azumarill, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Rillaboom, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Alakazam, M|
+|poke|p2|Clefable, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Kommo-o, M|
+|poke|p2|Hydreigon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cold.exe)
+|
+|move|p2a: Dragapult|U-turn|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|90/100
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from]move: U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Azumarill|Liquidation|p2a: Corviknight
+|-damage|p2a: Corviknight|48/100
+|-unboost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|54/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|move|p1a: Azumarill|Liquidation|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|75/100
+|-damage|p1a: Azumarill|73/100|[from] item: Rocky Helmet|[of] p2a: Kommo-o
+|
+|upkeep
+|turn|3
+|inactive|Cloudictable has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Kommo-o|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-damage|p1a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|Cloudictable has 120 seconds left.
+|
+|move|p1a: Rotom|Toxic|p2a: Kommo-o|[miss]
+|-miss|p1a: Rotom|p2a: Kommo-o
+|move|p2a: Kommo-o|Stealth Rock|p1a: Rotom
+|-sidestart|p1: cold.exe|move: Stealth Rock
+|
+|-damage|p1a: Rotom|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|-damage|p1a: Rotom|63/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|80/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Dragapult|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|70/100
+|inactive|Cloudictable has 120 seconds left.
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from]move: U-turn
+|move|p1a: Mandibuzz|Defog|p2a: Hydreigon
+|-unboost|p2a: Hydreigon|evasion|1
+|-sideend|p1: cold.exe|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Azumarill|Azumarill, F|73/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Azumarill
+|-immune|p1a: Azumarill
+|
+|upkeep
+|turn|9
+|inactive|Cloudictable has 120 seconds left.
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Azumarill
+|-damage|p1a: Azumarill|29/100
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|move|p1a: Azumarill|Liquidation|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|47/100
+|-unboost|p2a: Hydreigon|def|1
+|
+|upkeep
+|turn|10
+|inactive|Cloudictable has 120 seconds left.
+|
+|switch|p1a: Bruh|Cinderace, F|100/100
+|move|p2a: Hydreigon|Flash Cannon|p1a: Bruh
+|-resisted|p1a: Bruh
+|-damage|p1a: Bruh|77/100
+|-damage|p2a: Hydreigon|37/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|inactive|Cloudictable has 120 seconds left.
+|
+|switch|p2a: Kommo-o|Kommo-o, M|75/100
+|move|p1a: Bruh|Overheat|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|43/100
+|-unboost|p1a: Bruh|spa|2
+|
+|upkeep
+|turn|12
+|inactive|Cloudictable has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Heat|63/100 tox
+|move|p2a: Kommo-o|Stealth Rock|p1a: Rotom
+|-sidestart|p1: cold.exe|move: Stealth Rock
+|
+|-damage|p1a: Rotom|57/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Rotom|Toxic|p2a: Clefable
+|-status|p2a: Clefable|tox
+|
+|-damage|p1a: Rotom|45/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|79/100 tox
+|
+|switch|p1a: Diggersby|Diggersby, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Diggersby|94/100|[from] Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|85/100 tox|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, M|54/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Diggersby|Body Slam|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|26/100
+|-status|p2a: Corviknight|par
+|
+|-heal|p2a: Corviknight|76/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Corviknight|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Cloudictable has 120 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|70/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|
+|upkeep
+|turn|17
+|inactive|Cloudictable has 120 seconds left.
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|17/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|67/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|58/100
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100|[from]move: U-turn
+|move|p1a: Mandibuzz|Defog|p2a: Alakazam
+|-unboost|p2a: Alakazam|evasion|1
+|-sideend|p1: cold.exe|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Rotom|Rotom-Heat|45/100 tox
+|move|p2a: Alakazam|Dazzling Gleam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|22/100 tox
+|
+|-damage|p1a: Rotom|16/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Alakazam|Psychic|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Azumarill|Azumarill, F|29/100
+|turn|21
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Alakazam
+|-damage|p2a: Alakazam|10/100
+|move|p2a: Alakazam|Psychic|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|22
+|
+|switch|p2a: Kommo-o|Kommo-o, M|43/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|19/100
+|-damage|p1a: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2a: Kommo-o
+|-damage|p1a: Rillaboom|74/100|[from] item: Life Orb
+|
+|-heal|p1a: Rillaboom|80/100|[from] Grassy Terrain
+|-heal|p2a: Kommo-o|25/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|move|p2a: Kommo-o|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: cold.exe|move: Stealth Rock
+|
+|-heal|p1a: Rillaboom|86/100|[from] Grassy Terrain
+|-heal|p2a: Kommo-o|32/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|move|p1a: Rillaboom|Grassy Glide|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-crit|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|-damage|p1a: Rillaboom|70/100|[from] item: Rocky Helmet|[of] p2a: Kommo-o
+|-damage|p1a: Rillaboom|60/100|[from] item: Life Orb
+|faint|p2a: Kommo-o
+|
+|-heal|p1a: Rillaboom|66/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|82/100 par
+|-ability|p2a: Corviknight|Pressure
+|turn|25
+|
+|move|p1a: Rillaboom|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|14/100 par
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Rillaboom
+|-damage|p1a: Rillaboom|56/100|[from] item: Life Orb
+|move|p2a: Corviknight|Brave Bird|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|faint|p1a: Rillaboom
+|faint|p2a: Corviknight
+|
+|upkeep
+|inactive|Cloudictable has 120 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|58/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|26
+|inactive|Cloudictable has 120 seconds left.
+|
+|move|p2a: Dragapult|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|49/100
+|
+|switch|p2a: Clefable|Clefable, M|85/100 tox|[from]move: U-turn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|99/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|100/100|[from] Grassy Terrain
+|-heal|p2a: Clefable|91/100 tox|[from] item: Leftovers
+|-heal|p2a: Clefable|97/100 tox|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|27
+|inactive|Cloudictable has 120 seconds left.
+|
+|move|p1a: Mandibuzz|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|-sideend|p1: cold.exe|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|100/100 tox|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Cloudictable has 120 seconds left.
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|94/100 tox
+|
+|switch|p1a: Diggersby|Diggersby, F|94/100|[from]move: U-turn
+|move|p2a: Clefable|Teleport|p2a: Clefable
+|
+|switch|p2a: Hydreigon|Hydreigon, F|37/100|[from]move: Teleport
+|
+|-heal|p2a: Hydreigon|98/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|29
+|inactive|Cloudictable has 120 seconds left.
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|88/100|[from] item: Life Orb
+|faint|p1a: Diggersby
+|
+|upkeep
+|
+|switch|p1a: Bruh|Cinderace, F|77/100
+|turn|30
+|-message|cold.exe forfeited.
+|
+|win|Cloudictable
+|l|☆cold.exe

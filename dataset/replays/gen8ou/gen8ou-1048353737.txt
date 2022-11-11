@@ -1,0 +1,1318 @@
+|j|☆Mooch99
+|j|☆TheLindomar
+|player|p1|Mooch99|168|1587
+|player|p2|TheLindomar|163|1657
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Salazzle, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Duraludon, M|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Kommo-o, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Claydol|
+|poke|p2|Togekiss, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheLindomar)
+|
+|start
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: ANKYLOZORD|Kommo-o, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Duraludon|Stealth Rock|p2a: ANKYLOZORD
+|-sidestart|p2: TheLindomar|move: Stealth Rock
+|move|p2a: ANKYLOZORD|Body Press|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|2/100
+|
+|-heal|p1a: Duraludon|8/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: ANKYLOZORD|Protect|p2a: ANKYLOZORD
+|-singleturn|p2a: ANKYLOZORD|Protect
+|move|p1a: Duraludon|Flash Cannon|p2a: ANKYLOZORD
+|-activate|p2a: ANKYLOZORD|move: Protect
+|
+|-heal|p1a: Duraludon|14/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Duraludon|Flash Cannon|p2a: ANKYLOZORD
+|-damage|p2a: ANKYLOZORD|63/100
+|move|p2a: ANKYLOZORD|Earthquake|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|-heal|p2a: ANKYLOZORD|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|4
+|
+|move|p2a: ANKYLOZORD|Protect|p2a: ANKYLOZORD
+|-singleturn|p2a: ANKYLOZORD|Protect
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|-heal|p2a: ANKYLOZORD|75/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: LASERBEAK|Corviknight, M|100/100
+|-damage|p2a: LASERBEAK|88/100|[from] Stealth Rock
+|-ability|p2a: LASERBEAK|Pressure
+|move|p1a: Dragapult|Dragon Pulse|p2a: LASERBEAK
+|-resisted|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|75/100
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|-heal|p2a: LASERBEAK|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|55/100
+|move|p2a: LASERBEAK|Iron Head|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p2a: LASERBEAK|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|U-turn|p2a: LASERBEAK
+|-resisted|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|58/100
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100|[from]move: U-turn
+|move|p2a: LASERBEAK|Defog|p1a: Salazzle
+|-unboost|p1a: Salazzle|evasion|1
+|-sideend|p2: TheLindomar|Stealth Rock|[from] move: Defog|[of] p2a: LASERBEAK
+|
+|-heal|p2a: LASERBEAK|64/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: ORACLE|Claydol|100/100
+|move|p1a: Salazzle|Toxic|p2a: ORACLE
+|-status|p2a: ORACLE|tox
+|
+|-damage|p2a: ORACLE|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: HM 01|Rotom-Mow|100/100
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: HM 01|Volt Switch|p1a: Salazzle
+|-damage|p1a: Salazzle|53/100
+|
+|switch|p2a: ANKYLOZORD|Kommo-o, M, shiny|75/100|[from]move: Volt Switch
+|
+|-heal|p1a: Salazzle|59/100|[from] item: Black Sludge
+|-heal|p2a: ANKYLOZORD|81/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Dragapult|Dragapult, M|94/100
+|move|p2a: ANKYLOZORD|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Mooch99|move: Stealth Rock
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p2a: ANKYLOZORD|87/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: LASERBEAK|Corviknight, M|64/100
+|-ability|p2a: LASERBEAK|Pressure
+|move|p1a: Dragapult|Shadow Ball|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|37/100
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p2a: LASERBEAK|43/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Dragapult|U-turn|p2a: LASERBEAK
+|-resisted|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|40/100
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100|[from]move: U-turn
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|90/100
+|-singleturn|p2a: LASERBEAK|move: Roost
+|
+|-heal|p2a: LASERBEAK|96/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: GALARIAN PARAS|Crawdaunt, M|100/100
+|move|p1a: Mandibuzz|Defog|p2a: GALARIAN PARAS
+|-unboost|p2a: GALARIAN PARAS|evasion|1
+|-sideend|p1: Mooch99|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|15
+|
+|move|p2a: GALARIAN PARAS|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|62/100
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: GALARIAN PARAS
+|move|p1a: Mandibuzz|U-turn|p2a: GALARIAN PARAS
+|-supereffective|p2a: GALARIAN PARAS
+|-damage|p2a: GALARIAN PARAS|68/100
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: LASERBEAK|Corviknight, M|96/100
+|-ability|p2a: LASERBEAK|Pressure
+|move|p1a: Rillaboom|Wood Hammer|p2a: LASERBEAK
+|-resisted|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|77/100
+|-damage|p1a: Rillaboom|93/100|[from] Recoil
+|
+|-heal|p2a: LASERBEAK|83/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Salazzle|Salazzle, F|59/100
+|move|p2a: LASERBEAK|Brave Bird|p1a: Salazzle
+|-damage|p1a: Salazzle|8/100
+|-damage|p2a: LASERBEAK|68/100|[from] Recoil
+|
+|-heal|p1a: Salazzle|14/100|[from] item: Black Sludge
+|-heal|p2a: LASERBEAK|74/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: ORACLE|Claydol|94/100 tox
+|move|p1a: Salazzle|Flamethrower|p2a: ORACLE
+|-damage|p2a: ORACLE|73/100 tox
+|
+|-heal|p1a: Salazzle|20/100|[from] item: Black Sludge
+|-damage|p2a: ORACLE|67/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: ORACLE|Future Sight|p1a: Salazzle
+|-start|p2a: ORACLE|move: Future Sight
+|
+|-heal|p1a: Salazzle|26/100|[from] item: Black Sludge
+|-damage|p2a: ORACLE|54/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|62/100
+|switch|p2a: ANKYLOZORD|Kommo-o, M, shiny|87/100
+|
+|-heal|p2a: ANKYLOZORD|93/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: ANKYLOZORD|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Mooch99|move: Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-end|p1a: Mandibuzz|move: Future Sight
+|-immune|p1a: Mandibuzz
+|-heal|p2a: ANKYLOZORD|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: HM 01|Rotom-Mow|100/100
+|move|p1a: Mandibuzz|Defog|p2a: HM 01
+|-unboost|p2a: HM 01|evasion|1
+|-sideend|p1: Mooch99|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: HM 01|Trick|p1a: Dragapult
+|-activate|p2a: HM 01|move: Trick|[of] p1a: Dragapult
+|-item|p1a: Dragapult|Choice Scarf|[from] move: Trick
+|-item|p2a: HM 01|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: WHIS|Togekiss, M|100/100
+|move|p1a: Dragapult|U-turn|p2a: WHIS
+|-resisted|p2a: WHIS
+|-damage|p2a: WHIS|97/100
+|
+|switch|p1a: Salazzle|Salazzle, F|26/100|[from]move: U-turn
+|
+|-heal|p1a: Salazzle|32/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|switch|p2a: ANKYLOZORD|Kommo-o, M, shiny|99/100
+|move|p1a: Salazzle|Toxic|p2a: ANKYLOZORD
+|-status|p2a: ANKYLOZORD|tox
+|
+|-heal|p1a: Salazzle|39/100|[from] item: Black Sludge
+|-heal|p2a: ANKYLOZORD|100/100 tox|[from] item: Leftovers
+|-damage|p2a: ANKYLOZORD|95/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: HM 01|Rotom-Mow|100/100
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Rillaboom|Rillaboom, M|93/100
+|move|p2a: HM 01|Will-O-Wisp|p1a: Rillaboom
+|-status|p1a: Rillaboom|brn
+|
+|-damage|p1a: Rillaboom|87/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: HM 01|Volt Switch|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|65/100 brn
+|
+|switch|p2a: LASERBEAK|Corviknight, M|74/100|[from]move: Volt Switch
+|-ability|p2a: LASERBEAK|Pressure
+|move|p1a: Rillaboom|Knock Off|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|54/100
+|-enditem|p2a: LASERBEAK|Leftovers|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-damage|p1a: Rillaboom|59/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|100/100
+|-singleturn|p2a: LASERBEAK|move: Roost
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: ANKYLOZORD|Kommo-o, M, shiny|95/100 tox
+|move|p1a: Toxapex|Poison Jab|p2a: ANKYLOZORD
+|-damage|p2a: ANKYLOZORD|83/100 tox
+|
+|-heal|p2a: ANKYLOZORD|89/100 tox|[from] item: Leftovers
+|-damage|p2a: ANKYLOZORD|83/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: ANKYLOZORD|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Mooch99|move: Stealth Rock
+|
+|-heal|p2a: ANKYLOZORD|89/100 tox|[from] item: Leftovers
+|-damage|p2a: ANKYLOZORD|77/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p2a: WHIS|Togekiss, M|97/100
+|move|p1a: Mandibuzz|Defog|p2a: WHIS
+|-unboost|p2a: WHIS|evasion|1
+|-sideend|p1: Mooch99|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Rillaboom|Rillaboom, M|59/100 brn
+|move|p2a: WHIS|Nasty Plot|p2a: WHIS
+|-boost|p2a: WHIS|spa|2
+|
+|-damage|p1a: Rillaboom|53/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Rillaboom|Drum Beating|p2a: WHIS
+|-resisted|p2a: WHIS
+|-damage|p2a: WHIS|82/100
+|-unboost|p2a: WHIS|spe|1
+|move|p2a: WHIS|Flamethrower|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|35
+|
+|move|p2a: WHIS|Air Slash|p1a: Toxapex|[miss]
+|-miss|p2a: WHIS|p1a: Toxapex
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|36
+|
+|switch|p2a: HM 01|Rotom-Mow|100/100
+|move|p1a: Toxapex|Poison Jab|p2a: HM 01
+|-supereffective|p2a: HM 01
+|-crit|p2a: HM 01
+|-damage|p2a: HM 01|25/100
+|-status|p2a: HM 01|psn
+|
+|-heal|p2a: HM 01|31/100 psn|[from] item: Leftovers
+|-damage|p2a: HM 01|19/100 psn|[from] psn
+|upkeep
+|turn|37
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: HM 01|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|77/100
+|
+|switch|p2a: GALARIAN PARAS|Crawdaunt, M|68/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Dragapult|Dragon Pulse|p2a: GALARIAN PARAS
+|-crit|p2a: GALARIAN PARAS
+|-damage|p2a: GALARIAN PARAS|0 fnt
+|faint|p2a: GALARIAN PARAS
+|
+|upkeep
+|
+|switch|p2a: WHIS|Togekiss, M|82/100
+|turn|39
+|
+|switch|p1a: Salazzle|Salazzle, F|39/100
+|move|p2a: WHIS|Nasty Plot|p2a: WHIS
+|-boost|p2a: WHIS|spa|2
+|
+|-heal|p1a: Salazzle|45/100|[from] item: Black Sludge
+|upkeep
+|turn|40
+|
+|move|p1a: Salazzle|Toxic|p2a: WHIS
+|-status|p2a: WHIS|tox
+|move|p2a: WHIS|Air Slash|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-damage|p2a: WHIS|76/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|77/100
+|turn|41
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|53/100
+|move|p2a: WHIS|Air Slash|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-damage|p2a: WHIS|64/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|28/100
+|move|p2a: WHIS|Air Slash|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-damage|p2a: WHIS|45/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: WHIS|Air Slash|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|66/100
+|
+|-damage|p2a: WHIS|20/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: WHIS|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|56/100
+|
+|-damage|p2a: WHIS|0 fnt|[from] psn
+|faint|p2a: WHIS
+|upkeep
+|
+|switch|p2a: HM 01|Rotom-Mow|19/100 psn
+|turn|45
+|
+|switch|p1a: Dragapult|Dragapult, M|28/100
+|move|p2a: HM 01|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|6/100
+|
+|switch|p2a: LASERBEAK|Corviknight, M|100/100|[from]move: Volt Switch
+|-ability|p2a: LASERBEAK|Pressure
+|
+|upkeep
+|turn|46
+|
+|move|p1a: Dragapult|U-turn|p2a: LASERBEAK
+|-resisted|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|97/100
+|
+|switch|p1a: Toxapex|Toxapex, M|89/100|[from]move: U-turn
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|-damage|p2a: LASERBEAK|91/100|[from] Recoil
+|
+|upkeep
+|turn|47
+|
+|switch|p2a: ANKYLOZORD|Kommo-o, M, shiny|77/100 tox
+|move|p1a: Toxapex|Scald|p2a: ANKYLOZORD
+|-resisted|p2a: ANKYLOZORD
+|-damage|p2a: ANKYLOZORD|68/100 tox
+|
+|-heal|p2a: ANKYLOZORD|74/100 tox|[from] item: Leftovers
+|-damage|p2a: ANKYLOZORD|68/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|66/100
+|move|p2a: ANKYLOZORD|Body Press|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|34/100
+|
+|-heal|p2a: ANKYLOZORD|74/100 tox|[from] item: Leftovers
+|-damage|p2a: ANKYLOZORD|62/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|move|p2a: ANKYLOZORD|Body Press|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|1/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|51/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p2a: ANKYLOZORD|68/100 tox|[from] item: Leftovers
+|-damage|p2a: ANKYLOZORD|50/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|switch|p2a: HM 01|Rotom-Mow|19/100 psn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p2a: HM 01|25/100 psn|[from] item: Leftovers
+|-damage|p2a: HM 01|13/100 psn|[from] psn
+|upkeep
+|turn|51
+|
+|move|p2a: HM 01|Volt Switch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|59/100
+|
+|switch|p2a: ORACLE|Claydol|54/100 tox|[from]move: Volt Switch
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: ORACLE|48/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: ORACLE
+|-supereffective|p2a: ORACLE
+|-damage|p2a: ORACLE|9/100 tox
+|move|p2a: ORACLE|Ice Beam|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|74/100
+|
+|-damage|p2a: ORACLE|0 fnt|[from] psn
+|faint|p2a: ORACLE
+|upkeep
+|
+|switch|p2a: HM 01|Rotom-Mow|13/100 psn
+|turn|53
+|
+|move|p2a: HM 01|Volt Switch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|34/100
+|
+|switch|p2a: LASERBEAK|Corviknight, M|91/100|[from]move: Volt Switch
+|-ability|p2a: LASERBEAK|Pressure
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|84/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|66/100
+|move|p2a: LASERBEAK|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|67/100
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|41/100
+|move|p2a: LASERBEAK|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|48/100
+|
+|upkeep
+|turn|56
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|98/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|91/100
+|-singleturn|p2a: LASERBEAK|move: Roost
+|
+|upkeep
+|turn|57
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|67/100
+|move|p2a: LASERBEAK|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|79/100
+|
+|upkeep
+|turn|58
+|
+|move|p1a: Mandibuzz|U-turn|p2a: LASERBEAK
+|-resisted|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|65/100
+|
+|switch|p1a: Toxapex|Toxapex, M|98/100|[from]move: U-turn
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|89/100
+|
+|upkeep
+|turn|59
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|63/100
+|-damage|p2a: LASERBEAK|58/100|[from] Recoil
+|move|p1a: Toxapex|Scald|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|46/100
+|
+|upkeep
+|turn|60
+|
+|switch|p2a: ANKYLOZORD|Kommo-o, M, shiny|50/100 tox
+|move|p1a: Toxapex|Scald|p2a: ANKYLOZORD
+|-resisted|p2a: ANKYLOZORD
+|-damage|p2a: ANKYLOZORD|42/100 tox
+|
+|-heal|p2a: ANKYLOZORD|48/100 tox|[from] item: Leftovers
+|-damage|p2a: ANKYLOZORD|42/100 tox|[from] psn
+|upkeep
+|turn|61
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|79/100
+|move|p2a: ANKYLOZORD|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Mooch99|move: Stealth Rock
+|
+|-heal|p2a: ANKYLOZORD|48/100 tox|[from] item: Leftovers
+|-damage|p2a: ANKYLOZORD|36/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|move|p2a: ANKYLOZORD|Body Press|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|48/100
+|move|p1a: Mandibuzz|Defog|p2a: ANKYLOZORD
+|-unboost|p2a: ANKYLOZORD|evasion|1
+|-sideend|p1: Mooch99|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-heal|p2a: ANKYLOZORD|42/100 tox|[from] item: Leftovers
+|-damage|p2a: ANKYLOZORD|24/100 tox|[from] psn
+|upkeep
+|turn|63
+|
+|move|p2a: ANKYLOZORD|Body Press|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-heal|p2a: ANKYLOZORD|30/100 tox|[from] item: Leftovers
+|-damage|p2a: ANKYLOZORD|6/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|6/100
+|turn|64
+|
+|move|p1a: Dragapult|U-turn|p2a: ANKYLOZORD
+|-resisted|p2a: ANKYLOZORD
+|-damage|p2a: ANKYLOZORD|1/100 tox
+|
+|switch|p1a: Toxapex|Toxapex, M|97/100|[from]move: U-turn
+|move|p2a: ANKYLOZORD|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: Mooch99|move: Stealth Rock
+|
+|-heal|p2a: ANKYLOZORD|7/100 tox|[from] item: Leftovers
+|-damage|p2a: ANKYLOZORD|0 fnt|[from] psn
+|faint|p2a: ANKYLOZORD
+|upkeep
+|
+|switch|p2a: HM 01|Rotom-Mow|13/100 psn
+|turn|65
+|
+|move|p2a: HM 01|Will-O-Wisp|p1a: Toxapex
+|-status|p1a: Toxapex|brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100 brn
+|
+|-heal|p2a: HM 01|19/100 psn|[from] item: Leftovers
+|-damage|p2a: HM 01|6/100 psn|[from] psn
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|switch|p1a: Dragapult|Dragapult, M|6/100
+|-damage|p1a: Dragapult|0 fnt|[from] Stealth Rock
+|faint|p1a: Dragapult
+|move|p2a: HM 01|Volt Switch|p1: Dragapult|[notarget]
+|-fail|p2a: HM 01
+|
+|-heal|p2a: HM 01|13/100 psn|[from] item: Leftovers
+|-damage|p2a: HM 01|0 fnt|[from] psn
+|faint|p2a: HM 01
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100 brn
+|switch|p2a: LASERBEAK|Corviknight, M|46/100
+|-ability|p2a: LASERBEAK|Pressure
+|-damage|p1a: Toxapex|88/100 brn|[from] Stealth Rock
+|turn|67
+|
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|96/100
+|-singleturn|p2a: LASERBEAK|move: Roost
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p1a: Toxapex|82/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100 brn
+|-damage|p2a: LASERBEAK|90/100|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p1a: Toxapex|52/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|26/100 brn
+|-damage|p2a: LASERBEAK|84/100|[from] Recoil
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|76/100 brn
+|
+|-damage|p1a: Toxapex|70/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|46/100 brn
+|-damage|p2a: LASERBEAK|78/100|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p1a: Toxapex|40/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|12/100 brn
+|-damage|p2a: LASERBEAK|71/100|[from] Recoil
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|62/100 brn
+|
+|-damage|p1a: Toxapex|56/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100 brn
+|-damage|p2a: LASERBEAK|65/100|[from] Recoil
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|81/100 brn
+|
+|-damage|p1a: Toxapex|75/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|48/100 brn
+|-damage|p2a: LASERBEAK|58/100|[from] Recoil
+|move|p1a: Toxapex|Scald|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|45/100
+|-status|p2a: LASERBEAK|brn
+|
+|-damage|p2a: LASERBEAK|39/100 brn|[from] brn
+|-damage|p1a: Toxapex|42/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|89/100 brn
+|-singleturn|p2a: LASERBEAK|move: Roost
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|92/100 brn
+|
+|-damage|p2a: LASERBEAK|83/100 brn|[from] brn
+|-damage|p1a: Toxapex|86/100 brn|[from] brn
+|upkeep
+|turn|75
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|74/100 brn
+|-damage|p2a: LASERBEAK|80/100 brn|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|74/100 brn|[from] brn
+|-damage|p1a: Toxapex|68/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|54/100 brn
+|-damage|p2a: LASERBEAK|71/100 brn|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|65/100 brn|[from] brn
+|-damage|p1a: Toxapex|48/100 brn|[from] brn
+|upkeep
+|turn|77
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|35/100 brn
+|-damage|p2a: LASERBEAK|61/100 brn|[from] Recoil
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|85/100 brn
+|
+|-damage|p2a: LASERBEAK|55/100 brn|[from] brn
+|-damage|p1a: Toxapex|78/100 brn|[from] brn
+|upkeep
+|turn|78
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|66/100 brn
+|-damage|p2a: LASERBEAK|52/100 brn|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|46/100 brn|[from] brn
+|-damage|p1a: Toxapex|60/100 brn|[from] brn
+|upkeep
+|turn|79
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|47/100 brn
+|-damage|p2a: LASERBEAK|43/100 brn|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|37/100 brn|[from] brn
+|-damage|p1a: Toxapex|41/100 brn|[from] brn
+|upkeep
+|turn|80
+|
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|87/100 brn
+|-singleturn|p2a: LASERBEAK|move: Roost
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|91/100 brn
+|
+|-damage|p2a: LASERBEAK|81/100 brn|[from] brn
+|-damage|p1a: Toxapex|85/100 brn|[from] brn
+|upkeep
+|turn|81
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|72/100 brn
+|-damage|p2a: LASERBEAK|78/100 brn|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|72/100 brn|[from] brn
+|-damage|p1a: Toxapex|66/100 brn|[from] brn
+|upkeep
+|turn|82
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|53/100 brn
+|-damage|p2a: LASERBEAK|69/100 brn|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|63/100 brn|[from] brn
+|-damage|p1a: Toxapex|47/100 brn|[from] brn
+|upkeep
+|turn|83
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|35/100 brn
+|-damage|p2a: LASERBEAK|60/100 brn|[from] Recoil
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|85/100 brn
+|
+|-damage|p2a: LASERBEAK|54/100 brn|[from] brn
+|-damage|p1a: Toxapex|79/100 brn|[from] brn
+|upkeep
+|turn|84
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|67/100 brn
+|-damage|p2a: LASERBEAK|51/100 brn|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|45/100 brn|[from] brn
+|-damage|p1a: Toxapex|61/100 brn|[from] brn
+|upkeep
+|turn|85
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|49/100 brn
+|-damage|p2a: LASERBEAK|42/100 brn|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|36/100 brn|[from] brn
+|-damage|p1a: Toxapex|43/100 brn|[from] brn
+|upkeep
+|turn|86
+|
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|86/100 brn
+|-singleturn|p2a: LASERBEAK|move: Roost
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|93/100 brn
+|
+|-damage|p2a: LASERBEAK|80/100 brn|[from] brn
+|-damage|p1a: Toxapex|86/100 brn|[from] brn
+|upkeep
+|turn|87
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|74/100 brn
+|-damage|p2a: LASERBEAK|76/100 brn|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|70/100 brn|[from] brn
+|-damage|p1a: Toxapex|68/100 brn|[from] brn
+|upkeep
+|turn|88
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100 brn
+|-damage|p2a: LASERBEAK|67/100 brn|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|61/100 brn|[from] brn
+|-damage|p1a: Toxapex|49/100 brn|[from] brn
+|upkeep
+|turn|89
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|36/100 brn
+|-damage|p2a: LASERBEAK|58/100 brn|[from] Recoil
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|86/100 brn
+|
+|-damage|p2a: LASERBEAK|52/100 brn|[from] brn
+|-damage|p1a: Toxapex|80/100 brn|[from] brn
+|upkeep
+|turn|90
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|67/100 brn
+|-damage|p2a: LASERBEAK|49/100 brn|[from] Recoil
+|move|p1a: Toxapex|Scald|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|37/100 brn
+|
+|-damage|p2a: LASERBEAK|31/100 brn|[from] brn
+|-damage|p1a: Toxapex|61/100 brn|[from] brn
+|upkeep
+|turn|91
+|
+|move|p2a: LASERBEAK|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|48/100 brn
+|-damage|p2a: LASERBEAK|27/100 brn|[from] Recoil
+|move|p1a: Toxapex|Scald|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|15/100 brn
+|
+|-damage|p2a: LASERBEAK|9/100 brn|[from] brn
+|-damage|p1a: Toxapex|42/100 brn|[from] brn
+|upkeep
+|turn|92
+|
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|59/100 brn
+|-singleturn|p2a: LASERBEAK|move: Roost
+|move|p1a: Toxapex|Scald|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|47/100 brn
+|
+|-damage|p2a: LASERBEAK|41/100 brn|[from] brn
+|-damage|p1a: Toxapex|35/100 brn|[from] brn
+|upkeep
+|turn|93
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100 brn
+|cant|p1a: Toxapex|flinch
+|
+|-damage|p2a: LASERBEAK|35/100 brn|[from] brn
+|-damage|p1a: Toxapex|25/100 brn|[from] brn
+|upkeep
+|turn|94
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|21/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|71/100 brn
+|
+|-damage|p2a: LASERBEAK|29/100 brn|[from] brn
+|-damage|p1a: Toxapex|65/100 brn|[from] brn
+|upkeep
+|turn|95
+|
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|79/100 brn
+|-singleturn|p2a: LASERBEAK|move: Roost
+|move|p1a: Toxapex|Scald|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|68/100 brn
+|
+|-damage|p2a: LASERBEAK|62/100 brn|[from] brn
+|-damage|p1a: Toxapex|59/100 brn|[from] brn
+|upkeep
+|turn|96
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|54/100 brn
+|move|p1a: Toxapex|Scald|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|50/100 brn
+|
+|-damage|p2a: LASERBEAK|44/100 brn|[from] brn
+|-damage|p1a: Toxapex|48/100 brn|[from] brn
+|upkeep
+|turn|97
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|44/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|94/100 brn
+|
+|-damage|p2a: LASERBEAK|38/100 brn|[from] brn
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|98
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|83/100 brn
+|cant|p1a: Toxapex|flinch
+|
+|-damage|p2a: LASERBEAK|32/100 brn|[from] brn
+|-damage|p1a: Toxapex|77/100 brn|[from] brn
+|upkeep
+|turn|99
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|73/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|26/100 brn|[from] brn
+|-damage|p1a: Toxapex|67/100 brn|[from] brn
+|upkeep
+|turn|100
+|
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|76/100 brn
+|-singleturn|p2a: LASERBEAK|move: Roost
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|70/100 brn|[from] brn
+|-damage|p1a: Toxapex|61/100 brn|[from] brn
+|upkeep
+|turn|101
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|56/100 brn
+|cant|p1a: Toxapex|flinch
+|
+|-damage|p2a: LASERBEAK|64/100 brn|[from] brn
+|-damage|p1a: Toxapex|50/100 brn|[from] brn
+|upkeep
+|turn|102
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|46/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|96/100 brn
+|
+|-damage|p2a: LASERBEAK|58/100 brn|[from] brn
+|-damage|p1a: Toxapex|90/100 brn|[from] brn
+|upkeep
+|turn|103
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|85/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|52/100 brn|[from] brn
+|-damage|p1a: Toxapex|79/100 brn|[from] brn
+|upkeep
+|turn|104
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|46/100 brn|[from] brn
+|-damage|p1a: Toxapex|69/100 brn|[from] brn
+|upkeep
+|turn|105
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|40/100 brn|[from] brn
+|-damage|p1a: Toxapex|58/100 brn|[from] brn
+|upkeep
+|turn|106
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|52/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|34/100 brn|[from] brn
+|-damage|p1a: Toxapex|46/100 brn|[from] brn
+|upkeep
+|turn|107
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100 brn
+|cant|p1a: Toxapex|flinch
+|
+|-damage|p2a: LASERBEAK|28/100 brn|[from] brn
+|-damage|p1a: Toxapex|36/100 brn|[from] brn
+|upkeep
+|turn|108
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|32/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|82/100 brn
+|
+|-damage|p2a: LASERBEAK|22/100 brn|[from] brn
+|-damage|p1a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|109
+|
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|72/100 brn
+|-singleturn|p2a: LASERBEAK|move: Roost
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|66/100 brn|[from] brn
+|-damage|p1a: Toxapex|70/100 brn|[from] brn
+|upkeep
+|turn|110
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|63/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|60/100 brn|[from] brn
+|-damage|p1a: Toxapex|57/100 brn|[from] brn
+|upkeep
+|turn|111
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|52/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|54/100 brn|[from] brn
+|-damage|p1a: Toxapex|46/100 brn|[from] brn
+|upkeep
+|turn|112
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|92/100 brn
+|
+|-damage|p2a: LASERBEAK|48/100 brn|[from] brn
+|-damage|p1a: Toxapex|86/100 brn|[from] brn
+|upkeep
+|turn|113
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|82/100 brn
+|cant|p1a: Toxapex|flinch
+|
+|-damage|p2a: LASERBEAK|42/100 brn|[from] brn
+|-damage|p1a: Toxapex|75/100 brn|[from] brn
+|upkeep
+|turn|114
+|
+|move|p2a: LASERBEAK|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|-sideend|p1: Mooch99|Stealth Rock|[from] move: Defog|[of] p2a: LASERBEAK
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|36/100 brn|[from] brn
+|-damage|p1a: Toxapex|69/100 brn|[from] brn
+|upkeep
+|turn|115
+|
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|86/100 brn
+|-singleturn|p2a: LASERBEAK|move: Roost
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: LASERBEAK|80/100 brn|[from] brn
+|-damage|p1a: Toxapex|63/100 brn|[from] brn
+|upkeep
+|turn|116
+|
+|move|p2a: LASERBEAK|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|move|p1a: Toxapex|Scald|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|68/100 brn
+|
+|-damage|p2a: LASERBEAK|62/100 brn|[from] brn
+|-damage|p1a: Toxapex|57/100 brn|[from] brn
+|upkeep
+|turn|117
+|
+|move|p2a: LASERBEAK|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|52/100 brn
+|move|p1a: Toxapex|Scald|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|51/100 brn
+|
+|-damage|p2a: LASERBEAK|45/100 brn|[from] brn
+|-damage|p1a: Toxapex|46/100 brn|[from] brn
+|upkeep
+|turn|118
+|
+|move|p2a: LASERBEAK|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|96/100 brn
+|
+|-damage|p2a: LASERBEAK|39/100 brn|[from] brn
+|-damage|p1a: Toxapex|90/100 brn|[from] brn
+|upkeep
+|turn|119
+|
+|move|p2a: LASERBEAK|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|move|p1a: Toxapex|Scald|p2a: LASERBEAK
+|-damage|p2a: LASERBEAK|28/100 brn
+|
+|-damage|p2a: LASERBEAK|22/100 brn|[from] brn
+|-damage|p1a: Toxapex|84/100 brn|[from] brn
+|upkeep
+|turn|120
+|
+|move|p2a: LASERBEAK|Roost|p2a: LASERBEAK
+|-heal|p2a: LASERBEAK|72/100 brn
+|-singleturn|p2a: LASERBEAK|move: Roost
+|move|p1a: Toxapex|Poison Jab|p2a: LASERBEAK
+|-immune|p2a: LASERBEAK
+|
+|-damage|p2a: LASERBEAK|66/100 brn|[from] brn
+|-damage|p1a: Toxapex|77/100 brn|[from] brn
+|upkeep
+|turn|121
+|
+|move|p2a: LASERBEAK|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|move|p1a: Toxapex|Poison Jab|p2a: LASERBEAK
+|-immune|p2a: LASERBEAK
+|
+|-damage|p2a: LASERBEAK|60/100 brn|[from] brn
+|-damage|p1a: Toxapex|71/100 brn|[from] brn
+|upkeep
+|turn|122
+|-message|Mooch99 forfeited.
+|
+|win|TheLindomar
+|l|☆Mooch99
+|raw|Mooch99's rating: 1587 &rarr; <strong>1571</strong><br />(-16 for losing)
+|raw|TheLindomar's rating: 1657 &rarr; <strong>1673</strong><br />(+16 for winning)
+|c|☆TheLindomar|GG

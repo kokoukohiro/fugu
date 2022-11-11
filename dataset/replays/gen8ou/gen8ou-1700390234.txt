@@ -1,0 +1,311 @@
+|j|☆8balljacketguy
+|j|‽minimax_ai
+|t:|1667335711
+|gametype|singles
+|player|p1|8balljacketguy|red|1575
+|player|p2|minimax_ai|266|1536
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Registeel|
+|poke|p1|Rillaboom, F|
+|poke|p1|Alakazam, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Mew|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|poke|p2|Melmetal|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1667335733
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mew|atk|1
+|turn|1
+|
+|t:|1667335735
+|move|p1a: Mew|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|24/100
+|move|p2a: Landorus|Toxic|p1a: Mew
+|-status|p1a: Mew|tox
+|-activate|p1a: Mew|ability: Synchronize
+|-status|p2a: Landorus|tox
+|
+|-heal|p2a: Landorus|30/100 tox|[from] item: Leftovers
+|-damage|p1a: Mew|94/100 tox|[from] psn
+|-damage|p2a: Landorus|24/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1667335741
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Mew|Knock Off|p2a: Melmetal
+|-damage|p2a: Melmetal|92/100
+|-enditem|p2a: Melmetal|Assault Vest|[from] move: Knock Off|[of] p1a: Mew
+|
+|-damage|p1a: Mew|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1667335746
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Melmetal|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|66/100
+|
+|upkeep
+|turn|4
+|
+|t:|1667335749
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|100/100
+|-singleturn|p1a: Volcarona|move: Roost
+|
+|upkeep
+|turn|5
+|
+|t:|1667335758
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Heatran|Eruption|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-enditem|p1a: Mamoswine|Focus Sash
+|-damage|p1a: Mamoswine|1/100
+|
+|upkeep
+|turn|6
+|
+|t:|1667335763
+|move|p1a: Mamoswine|Endeavor|p2a: Heatran
+|-damage|p2a: Heatran|1/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Eruption|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|t:|1667335766
+|switch|p1a: Mew|Mew|82/100 tox
+|turn|7
+|
+|t:|1667335770
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Mew|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|67/100
+|-unboost|p1a: Mew|def|1
+|-unboost|p1a: Mew|spd|1
+|
+|-heal|p2a: Rotom|73/100|[from] item: Leftovers
+|-damage|p1a: Mew|76/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1667335777
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Rotom|Pain Split|p1a: Rillaboom
+|-sethp|p1a: Rillaboom|83/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|93/100|[from] move: Pain Split
+|
+|-heal|p1a: Rillaboom|89/100|[from] Grassy Terrain
+|-heal|p2a: Rotom|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1667335793
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|66/100
+|-damage|p1a: Rillaboom|72/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|t:|1667335796
+|switch|p1a: Volcarona|Volcarona, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Tangrowth|73/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1667335798
+|switch|p2a: Rotom|Rotom-Wash|99/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1667335802
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|12
+|
+|t:|1667335805
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Rotom|Pain Split|p1a: Volcarona
+|-sethp|p1a: Volcarona|91/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|100/100|[from] move: Pain Split
+|
+|-heal|p1a: Volcarona|97/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1667335806
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Rotom|Pain Split|p1a: Volcarona
+|-sethp|p1a: Volcarona|90/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|100/100|[from] move: Pain Split
+|
+|upkeep
+|turn|14
+|
+|t:|1667335809
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Rotom|Pain Split|p1a: Volcarona
+|-sethp|p1a: Volcarona|86/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|100/100|[from] move: Pain Split
+|
+|upkeep
+|turn|15
+|
+|t:|1667335810
+|switch|p2a: Landorus|Landorus-Therian, M|24/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: Landorus|30/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|24/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1667335813
+|move|p1a: Volcarona|Flamethrower|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1667335813
+|switch|p2a: Heatran|Heatran, M|1/100
+|turn|17
+|
+|t:|1667335814
+|move|p1a: Volcarona|Giga Drain|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-heal|p1a: Volcarona|86/100|[from] drain|[of] p2a: Heatran
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1667335814
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|18
+|
+|t:|1667335816
+|switch|p2a: Melmetal|Melmetal|92/100
+|move|p1a: Volcarona|Flamethrower|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|upkeep
+|
+|t:|1667335816
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|19
+|
+|t:|1667335817
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Volcarona|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|15/100
+|
+|-heal|p2a: Rotom|21/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1667335819
+|move|p1a: Volcarona|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1667335819
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|turn|21
+|
+|t:|1667335820
+|move|p1a: Volcarona|Flamethrower|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|upkeep
+|
+|t:|1667335820
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|22
+|
+|t:|1667335821
+|move|p2a: Weavile|Ice Shard|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|72/100
+|move|p1a: Volcarona|Flamethrower|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|win|8balljacketguy
+|raw|8balljacketguy's rating: 1575 &rarr; <strong>1593</strong><br />(+18 for winning)
+|raw|minimax_ai's rating: 1536 &rarr; <strong>1518</strong><br />(-18 for losing)
+|l|‽minimax_ai
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

@@ -1,0 +1,168 @@
+|j|☆4funaccount
+|j|☆tnecilleJPO
+|player|p1|4funaccount|volkner|1706
+|player|p2|tnecilleJPO|lucas-gen4pt|1585
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Barraskewda, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Alakazam, F|
+|poke|p1|Magearna|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Clefable, F|
+|poke|p2|Tangrowth, F|
+|poke|p2|Hippowdon, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Marowak-Alola, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Mandibuzz, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tnecilleJPO)
+|inactive|tnecilleJPO has 120 seconds left.
+|
+|start
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|switch|p2a: Marowak|Marowak-Alola, F|100/100
+|turn|1
+|
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Barraskewda|Flip Turn|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|88/100
+|-damage|p1a: Barraskewda|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Cinderace|U-turn|p2a: Hippowdon
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Hippowdon|84/100
+|
+|switch|p1a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: tnecilleJPO|move: Stealth Rock
+|move|p2a: Hippowdon|Stealth Rock|p1a: Clefable
+|-sidestart|p1: 4funaccount|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|96/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Marowak|Marowak-Alola, F|100/100
+|-damage|p2a: Marowak|76/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Marowak
+|-resisted|p2a: Marowak
+|-damage|p2a: Marowak|51/100
+|-unboost|p2a: Marowak|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Marowak|45/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p2a: Marowak|Swords Dance|p2a: Marowak
+|-boost|p2a: Marowak|atk|2
+|move|p1a: Clefable|Knock Off|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|12/100
+|-enditem|p2a: Marowak|Thick Club|[from] move: Knock Off|[of] p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Marowak|6/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p2a: Marowak|Flare Blitz|p1a: Clefable
+|-damage|p1a: Clefable|36/100
+|move|p1a: Clefable|Knock Off|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|-weather|none
+|-heal|p1a: Clefable|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|90/100
+|-boost|p2a: Excadrill|spe|1
+|-sideend|p2: tnecilleJPO|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Mandibuzz|Defog|p2a: Tangrowth
+|-unboost|p2a: Tangrowth|evasion|1
+|-sideend|p1: 4funaccount|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Clefable|Clefable, F|42/100
+|move|p2a: Tangrowth|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|33/100
+|-enditem|p1a: Clefable|Leftovers|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Tangrowth
+|-sidestart|p2: tnecilleJPO|move: Stealth Rock
+|move|p2a: Tangrowth|Giga Drain|p1a: Clefable
+|-damage|p1a: Clefable|7/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|57/100
+|move|p2a: Tangrowth|Giga Drain|p1a: Clefable
+|-damage|p1a: Clefable|28/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|78/100
+|move|p2a: Tangrowth|Leech Seed|p1a: Clefable
+|-start|p1a: Clefable|move: Leech Seed
+|
+|upkeep
+|turn|13
+|-message|tnecilleJPO forfeited.
+|
+|win|4funaccount
+|l|☆tnecilleJPO
+|raw|4funaccount's rating: 1706 &rarr; <strong>1718</strong><br />(+12 for winning)
+|raw|tnecilleJPO's rating: 1566 &rarr; <strong>1553</strong><br />(-13 for losing)

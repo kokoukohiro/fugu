@@ -1,0 +1,439 @@
+|j|☆Hikari-miyako
+|j|☆ProfFYew
+|t:|1658588865
+|gametype|singles
+|player|p1|Hikari-miyako|ariana|1364
+|player|p2|ProfFYew|wulfric|1371
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Heatran, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zapdos|
+|poke|p1|Tapu Fini|
+|poke|p2|Lanturn, F|
+|poke|p2|Tapu Bulu|
+|poke|p2|Heatran, M|
+|poke|p2|Clefable, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Kartana|
+|teampreview
+|
+|t:|1658588883
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|turn|1
+|
+|t:|1658588891
+|move|p2a: Tornadus|Taunt|p1a: Landorus
+|-start|p1a: Landorus|move: Taunt
+|cant|p1a: Landorus|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1658588909
+|move|p2a: Tornadus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|94/100
+|
+|t:|1658588915
+|switch|p2a: Kartana|Kartana|100/100|[from]move: U-turn
+|move|p1a: Landorus|U-turn|p2a: Kartana
+|-damage|p2a: Kartana|73/100
+|
+|t:|1658588929
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1658588936
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p1a: Landorus|Landorus-Therian, M|94/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|
+|-heal|p1a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1658588949
+|move|p2a: Tornadus|Hurricane|p1a: Landorus|[miss]
+|-miss|p2a: Tornadus|p1a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|87/100
+|
+|t:|1658588953
+|switch|p1a: Zapdos|Zapdos|100/100|[from]move: U-turn
+|-ability|p1a: Zapdos|Pressure
+|
+|upkeep
+|turn|5
+|
+|t:|1658588957
+|switch|p2a: Lanturn|Lanturn, F|100/100
+|move|p1a: Zapdos|Discharge|p2a: Lanturn
+|-immune|p2a: Lanturn|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|6
+|
+|t:|1658588965
+|switch|p1a: Landorus|Landorus-Therian, M|99/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Lanturn|atk|1
+|move|p2a: Lanturn|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|45/100
+|
+|-heal|p1a: Landorus|51/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1658588971
+|move|p1a: Landorus|Stealth Rock|p2a: Lanturn
+|-sidestart|p2: ProfFYew|move: Stealth Rock
+|move|p2a: Lanturn|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1658588975
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|8
+|
+|t:|1658588979
+|move|p2a: Lanturn|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|92/100
+|
+|t:|1658588982
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tornadus
+|-start|p2a: Tornadus|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|98/100|[from] item: Leftovers
+|-damage|p2a: Tornadus|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1658588989
+|move|p2a: Tornadus|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: ProfFYew|Stealth Rock|[from] move: Defog|[of] p2a: Tornadus
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1658588993
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|10
+|
+|t:|1658589002
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Hikari-miyako|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1658589005
+|switch|p2a: Lanturn|Lanturn, F|100/100
+|move|p1a: Heatran|Earth Power|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|61/100
+|
+|-heal|p2a: Lanturn|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1658589011
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Lanturn|Thunder Wave|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|
+|-heal|p2a: Lanturn|73/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1658589023
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Heatran
+|-start|p2a: Heatran|move: Leech Seed
+|
+|-damage|p2a: Heatran|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|14
+|
+|t:|1658589029
+|move|p2a: Heatran|Lava Plume|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1658589033
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|15
+|
+|t:|1658589036
+|move|p1a: Zapdos|Defog|p2a: Heatran
+|-unboost|p2a: Heatran|evasion|1
+|-sideend|p1: Hikari-miyako|Stealth Rock|[from] move: Defog|[of] p1a: Zapdos
+|move|p2a: Heatran|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p2a: Heatran|88/100|[from] Leech Seed|[of] p1a: Zapdos
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1658589040
+|switch|p2a: Lanturn|Lanturn, F|73/100
+|move|p1a: Zapdos|Discharge|p2a: Lanturn
+|-heal|p2a: Lanturn|98/100|[from] ability: Volt Absorb|[of] p1a: Zapdos
+|
+|-heal|p2a: Lanturn|100/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|82/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1658589044
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Lanturn|Scald|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|84/100
+|-status|p1a: Dragapult|brn
+|
+|-damage|p1a: Dragapult|78/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1658589049
+|move|p1a: Dragapult|U-turn|p2a: Lanturn
+|-damage|p2a: Lanturn|83/100
+|-damage|p1a: Dragapult|69/100 brn|[from] item: Life Orb
+|
+|t:|1658589056
+|switch|p1a: Tapu Fini|Tapu Fini|100/100|[from]move: U-turn
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Lanturn|Volt Switch|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|69/100
+|
+|t:|1658589059
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100|[from]move: Volt Switch
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|
+|-heal|p1a: Tapu Fini|75/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Fini|81/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1658589063
+|switch|p1a: Zapdos|Zapdos|82/100 tox
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Tapu Bulu|Close Combat|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|60/100 tox
+|-unboost|p2a: Tapu Bulu|def|1
+|-unboost|p2a: Tapu Bulu|spd|1
+|
+|-damage|p1a: Zapdos|54/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1658589071
+|switch|p2a: Heatran|Heatran, M|88/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100 tox
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-heal|p2a: Heatran|94/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|88/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1658589077
+|move|p1a: Zapdos|Discharge|p2a: Heatran
+|-damage|p2a: Heatran|60/100
+|-status|p2a: Heatran|par
+|cant|p2a: Heatran|par
+|
+|-heal|p2a: Heatran|66/100 par|[from] Grassy Terrain
+|-heal|p2a: Heatran|72/100 par|[from] item: Leftovers
+|-damage|p1a: Zapdos|70/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1658589082
+|switch|p1a: Tapu Fini|Tapu Fini|81/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Heatran|Stealth Rock|p1a: Tapu Fini
+|-sidestart|p1: Hikari-miyako|move: Stealth Rock
+|
+|-heal|p1a: Tapu Fini|87/100|[from] item: Leftovers
+|-heal|p2a: Heatran|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1658589087
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Tapu Fini|Scald|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|80/100
+|
+|-heal|p1a: Tapu Fini|93/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Fini|99/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|87/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|93/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1658589096
+|switch|p1a: Zapdos|Zapdos|70/100 tox
+|-ability|p1a: Zapdos|Pressure
+|switch|p2a: Lanturn|Lanturn, F|83/100
+|
+|-heal|p2a: Lanturn|89/100|[from] Grassy Terrain
+|-heal|p2a: Lanturn|96/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|64/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1658589105
+|move|p1a: Zapdos|Defog|p2a: Lanturn
+|-unboost|p2a: Lanturn|evasion|1
+|-sideend|p1: Hikari-miyako|Stealth Rock|[from] move: Defog|[of] p1a: Zapdos
+|-fieldend|move: Grassy Terrain
+|move|p2a: Lanturn|Volt Switch|p1a: Zapdos
+|-damage|p1a: Zapdos|45/100 tox
+|
+|t:|1658589108
+|switch|p2a: Kartana|Kartana|73/100|[from]move: Volt Switch
+|
+|-damage|p1a: Zapdos|33/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1658589115
+|move|p2a: Kartana|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Kartana
+|faint|p1a: Zapdos
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+|
+|t:|1658589118
+|switch|p1a: Tapu Fini|Tapu Fini|99/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|27
+|
+|t:|1658589121
+|switch|p2a: Tapu Bulu|Tapu Bulu|93/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Tapu Fini|Scald|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|74/100
+|
+|-heal|p1a: Tapu Fini|100/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|80/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|87/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1658589127
+|switch|p1a: Dragapult|Dragapult, M|69/100 brn
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|28/100 brn
+|-heal|p2a: Tapu Bulu|100/100|[from] drain|[of] p1a: Dragapult
+|
+|-heal|p1a: Dragapult|34/100 brn|[from] Grassy Terrain
+|-damage|p1a: Dragapult|28/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1658589135
+|move|p1a: Dragapult|Fire Blast|p2a: Tapu Bulu|[miss]
+|-miss|p1a: Dragapult|p2a: Tapu Bulu
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1658589139
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|30
+|
+|t:|1658589142
+|switch|p2a: Lanturn|Lanturn, F|96/100
+|move|p1a: Heatran|Eruption|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|72/100
+|
+|-heal|p2a: Lanturn|78/100|[from] Grassy Terrain
+|-heal|p2a: Lanturn|85/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1658589145
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Lanturn|Scald|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|91/100
+|
+|-heal|p1a: Tapu Fini|98/100|[from] item: Leftovers
+|-heal|p2a: Lanturn|91/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1658589151
+|move|p1a: Tapu Fini|Ice Beam|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|82/100
+|move|p2a: Lanturn|Volt Switch|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|67/100
+|-message|Hikari-miyako forfeited.
+|
+|win|ProfFYew
+|raw|Hikari-miyako's rating: 1364 &rarr; <strong>1344</strong><br />(-20 for losing)
+|raw|ProfFYew's rating: 1371 &rarr; <strong>1391</strong><br />(+20 for winning)
+|l|☆Hikari-miyako

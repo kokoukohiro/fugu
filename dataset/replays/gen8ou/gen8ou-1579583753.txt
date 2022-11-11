@@ -1,0 +1,340 @@
+|j|☆energy storm
+|j|☆JooshP
+|t:|1653122715
+|gametype|singles
+|player|p1|energy storm|scientist|1631
+|player|p2|JooshP|red|1645
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Regieleki|
+|poke|p1|Victini|
+|poke|p1|Garchomp, M|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Tapu Koko|
+|poke|p1|Weavile, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Tapu Fini|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1653122732
+|start
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|1
+|j| idgasab
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JooshP)
+|
+|t:|1653122752
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Victini|atk|1
+|move|p1a: Victini|Glaciate|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|39/100
+|-unboost|p2a: Landorus|spe|1
+|
+|-heal|p2a: Landorus|45/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1653122762
+|move|p1a: Victini|Glaciate|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1653122767
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|3
+|
+|t:|1653122784
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|move|p2a: Dragapult|U-turn|p1a: Tapu Koko
+|-resisted|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|88/100
+|
+|t:|1653122788
+|switch|p2a: Tapu Fini|Tapu Fini|100/100|[from]move: U-turn
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|
+|upkeep
+|turn|4
+|
+|t:|1653122797
+|move|p1a: Tapu Koko|Thunderbolt|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|57/100
+|move|p2a: Tapu Fini|Moonblast|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|41/100
+|
+|-heal|p2a: Tapu Fini|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1653122812
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Tapu Koko|Roost|p1a: Tapu Koko
+|-heal|p1a: Tapu Koko|91/100
+|-singleturn|p1a: Tapu Koko|move: Roost
+|
+|upkeep
+|turn|6
+|
+|t:|1653122818
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|50/100
+|-enditem|p1a: Victini|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|7
+|
+|t:|1653122830
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Victini|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|86/100
+|
+|t:|1653122838
+|switch|p1a: Weavile|Weavile, F|100/100|[from]move: U-turn
+|-ability|p1a: Weavile|Pressure
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|8
+|
+|t:|1653122848
+|move|p2a: Dragapult|Shadow Ball|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|63/100
+|move|p1a: Weavile|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Weavile
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1653122857
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|9
+|
+|t:|1653122870
+|move|p1a: Weavile|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|60/100
+|-damage|p1a: Weavile|50/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Ferrothorn|Spikes|p1a: Weavile
+|-sidestart|p1: energy storm|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1653122880
+|move|p1a: Weavile|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|33/100
+|-damage|p1a: Weavile|38/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Weavile
+|-start|p1a: Weavile|move: Leech Seed
+|
+|-damage|p1a: Weavile|25/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|43/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1653122900
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Garchomp
+|-start|p1a: Garchomp|move: Leech Seed
+|
+|-heal|p1a: Garchomp|94/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|56/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1653122909
+|move|p1a: Garchomp|Fire Fang|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|5/100
+|-damage|p1a: Garchomp|70/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Garchomp
+|-damage|p1a: Garchomp|48/100
+|-damage|p2a: Ferrothorn|0 fnt|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Garchomp|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1653122916
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|13
+|
+|t:|1653122932
+|move|p1a: Garchomp|Scale Shot|p2a: Zapdos
+|-damage|p2a: Zapdos|87/100
+|-damage|p2a: Zapdos|75/100
+|-damage|p2a: Zapdos|62/100
+|-hitcount|p2a: Zapdos|3
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|move|p2a: Zapdos|Bulk Up|p2a: Zapdos
+|-boost|p2a: Zapdos|atk|1
+|-boost|p2a: Zapdos|def|1
+|
+|-heal|p1a: Garchomp|60/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|48/100|[from] Leech Seed|[of] p2a: Zapdos
+|-heal|p2a: Zapdos|73/100|[silent]
+|upkeep
+|turn|14
+|j| M0reSalt
+|
+|t:|1653122945
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|-heal|p1a: Garchomp|54/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|41/100|[from] Leech Seed|[of] p2a: Zapdos
+|-heal|p2a: Zapdos|85/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1653122954
+|move|p2a: Zapdos|Thunderous Kick|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Zapdos|72/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1653122972
+|switch|p1a: Victini|Victini|50/100
+|-damage|p1a: Victini|38/100|[from] Spikes
+|turn|16
+|
+|t:|1653122977
+|move|p2a: Zapdos|Drill Peck|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|upkeep
+|
+|t:|1653122987
+|switch|p1a: Weavile|Weavile, F|25/100
+|-damage|p1a: Weavile|13/100|[from] Spikes
+|-ability|p1a: Weavile|Pressure
+|turn|17
+|
+|t:|1653122993
+|move|p1a: Weavile|Ice Shard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|34/100
+|-enditem|p2a: Zapdos|Weakness Policy
+|-boost|p2a: Zapdos|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Zapdos|spa|2|[from] item: Weakness Policy
+|move|p2a: Zapdos|Drill Peck|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|c|☆energy storm|dear god
+|
+|t:|1653123001
+|switch|p1a: Regieleki|Regieleki|100/100
+|-damage|p1a: Regieleki|88/100|[from] Spikes
+|turn|18
+|
+|t:|1653123007
+|move|p2a: Zapdos|Thunderous Kick|p1a: Regieleki
+|-damage|p1a: Regieleki|0 fnt
+|faint|p1a: Regieleki
+|
+|upkeep
+|
+|t:|1653123012
+|switch|p1a: Tapu Koko|Tapu Koko|91/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|19
+|c|☆energy storm|fgg
+|c|☆energy storm|gg
+|
+|t:|1653123021
+|move|p2a: Zapdos|Thunderous Kick|p1a: Tapu Koko
+|-resisted|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|15/100
+|-unboost|p1a: Tapu Koko|def|1
+|move|p1a: Tapu Koko|Thunderbolt|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|c|☆JooshP|Gg
+|
+|t:|1653123027
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|20
+|c|☆energy storm|wow koko survives that
+|c|☆energy storm|ok good to know
+|
+|t:|1653123044
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|-damage|p2a: Crawdaunt|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1653123049
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|turn|21
+|
+|t:|1653123054
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Zapdos
+|-damage|p1a: Zapdos|53/100
+|-damage|p2a: Crawdaunt|81/100|[from] item: Life Orb
+|move|p1a: Zapdos|Brave Bird|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|-damage|p1a: Zapdos|31/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1653123057
+|switch|p2a: Tapu Fini|Tapu Fini|63/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|22
+|
+|t:|1653123065
+|move|p1a: Zapdos|Brave Bird|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|-damage|p1a: Zapdos|9/100|[from] Recoil
+|
+|win|energy storm
+|raw|energy storm's rating: 1631 &rarr; <strong>1652</strong><br />(+21 for winning)
+|raw|JooshP's rating: 1645 &rarr; <strong>1624</strong><br />(-21 for losing)
+|c|☆JooshP|Oof, close one
+|c|☆JooshP|gg

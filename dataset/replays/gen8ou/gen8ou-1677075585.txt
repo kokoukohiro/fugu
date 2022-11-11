@@ -1,0 +1,383 @@
+|j|☆FirstGear
+|j|☆gotsnsd
+|t:|1664850432
+|gametype|singles
+|player|p1|FirstGear|265|1677
+|player|p2|gotsnsd|beauty-gen2jp|1677
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Porygon2|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Marowak-Alola, F|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Melmetal|
+|poke|p2|Blacephalon|
+|poke|p2|Tapu Fini|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kommo-o, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FirstGear)
+|
+|t:|1664850440
+|start
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|1
+|
+|t:|1664850455
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Tapu Fini|Substitute|p2a: Tapu Fini
+|-start|p2a: Tapu Fini|Substitute
+|-damage|p2a: Tapu Fini|76/100
+|
+|-heal|p2a: Tapu Fini|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1664850461
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p2a: Tapu Fini|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1664850470
+|switch|p1a: Marowak|Marowak-Alola, F|100/100
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|-heal|p2a: Tapu Fini|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1664850479
+|move|p1a: Marowak|Bonemerang|p2a: Tapu Fini
+|-activate|p2a: Tapu Fini|move: Substitute|[damage]
+|-end|p2a: Tapu Fini|Substitute
+|-hitcount|p2a: Tapu Fini|2
+|move|p2a: Tapu Fini|Substitute|p2a: Tapu Fini
+|-start|p2a: Tapu Fini|Substitute
+|-damage|p2a: Tapu Fini|69/100
+|
+|-heal|p2a: Tapu Fini|75/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1664850494
+|move|p1a: Marowak|Poltergeist|p2a: Tapu Fini
+|-activate|p2a: Tapu Fini|move: Poltergeist|Leftovers
+|-end|p2a: Tapu Fini|Substitute
+|move|p2a: Tapu Fini|Scald|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|-heal|p2a: Tapu Fini|81/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1664850503
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|6
+|
+|t:|1664850506
+|move|p1a: Conkeldurr|Poison Jab|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1664850511
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|7
+|
+|t:|1664850515
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|move|p1a: Conkeldurr|Ice Punch|p2a: Blacephalon
+|-resisted|p2a: Blacephalon
+|-damage|p2a: Blacephalon|46/100
+|
+|upkeep
+|turn|8
+|
+|t:|1664850521
+|move|p2a: Blacephalon|Shadow Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|20/100
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Blacephalon
+|-crit|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|faint|p2a: Blacephalon
+|
+|upkeep
+|
+|t:|1664850538
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Conkeldurr|atk|1
+|turn|9
+|
+|t:|1664850543
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Intimidate|[from] ability: Trace|[of] p2a: Landorus
+|-ability|p1a: Porygon2|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Earthquake|p1a: Porygon2
+|-damage|p1a: Porygon2|86/100
+|
+|upkeep
+|turn|10
+|
+|t:|1664850557
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|11
+|
+|t:|1664850575
+|move|p2a: Melmetal|Double Iron Bash|p1a: Porygon2
+|-damage|p1a: Porygon2|66/100
+|-damage|p1a: Porygon2|45/100
+|-hitcount|p1a: Porygon2|2
+|cant|p1a: Porygon2|flinch
+|
+|upkeep
+|turn|12
+|
+|t:|1664850582
+|move|p2a: Melmetal|Double Iron Bash|p1a: Porygon2
+|-damage|p1a: Porygon2|24/100
+|-damage|p1a: Porygon2|3/100
+|-hitcount|p1a: Porygon2|2
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|53/100
+|
+|upkeep
+|turn|13
+|
+|t:|1664850590
+|move|p2a: Melmetal|Double Iron Bash|p1a: Porygon2
+|-damage|p1a: Porygon2|33/100
+|-damage|p1a: Porygon2|12/100
+|-hitcount|p1a: Porygon2|2
+|cant|p1a: Porygon2|flinch
+|
+|upkeep
+|turn|14
+|
+|t:|1664850600
+|move|p2a: Melmetal|Thunder Punch|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1664850605
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|turn|15
+|
+|t:|1664850613
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|74/100
+|-damage|p1a: Crawdaunt|84/100|[from] item: Rocky Helmet|[of] p2a: Kommo-o
+|-enditem|p2a: Kommo-o|Rocky Helmet|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|74/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|t:|1664850632
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Kommo-o|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|73/100
+|
+|upkeep
+|turn|17
+|
+|t:|1664850644
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|18
+|
+|t:|1664850655
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Tornadus|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|50/100
+|-enditem|p1a: Hatterene|Focus Sash|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|upkeep
+|turn|19
+|
+|t:|1664850662
+|move|p1a: Hatterene|Psychic|p2a: Tornadus
+|-damage|p2a: Tornadus|27/100
+|move|p2a: Tornadus|Hurricane|p1a: Hatterene
+|-damage|p1a: Hatterene|20/100
+|
+|upkeep
+|turn|20
+|
+|t:|1664850669
+|move|p1a: Hatterene|Mystical Fire|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1664850671
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|turn|21
+|
+|t:|1664850676
+|move|p1a: Hatterene|Psychic|p2a: Landorus
+|-damage|p2a: Landorus|15/100
+|move|p2a: Landorus|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Landorus|21/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1664850699
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|22
+|
+|t:|1664850702
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|23
+|
+|t:|1664850706
+|move|p2a: Melmetal|Double Iron Bash|p1a: Cresselia
+|-damage|p1a: Cresselia|77/100
+|-damage|p1a: Cresselia|55/100
+|-hitcount|p1a: Cresselia|2
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|
+|upkeep
+|j| eoorkshaa
+|j| I'M AT MY LIMIT!
+|l| I'M AT MY LIMIT!
+|
+|t:|1664850713
+|switch|p1a: Conkeldurr|Conkeldurr, M|20/100
+|-heal|p1a: Conkeldurr|100/100|[from] move: Lunar Dance
+|turn|24
+|
+|t:|1664850721
+|switch|p2a: Landorus|Landorus-Therian, M|21/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Conkeldurr|atk|1
+|move|p1a: Conkeldurr|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1664850733
+|switch|p2a: Melmetal|Melmetal|100/100
+|turn|25
+|
+|t:|1664850763
+|move|p1a: Conkeldurr|Close Combat|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|26/100
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|-damage|p1a: Conkeldurr|91/100|[from] item: Life Orb
+|move|p2a: Melmetal|Thunder Wave|p1a: Conkeldurr
+|-status|p1a: Conkeldurr|par
+|
+|upkeep
+|turn|26
+|
+|t:|1664850773
+|move|p1a: Conkeldurr|Close Combat|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|faint|p2a: Melmetal
+|-damage|p1a: Conkeldurr|81/100 par|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|j| Noob 0_o
+|
+|t:|1664850776
+|switch|p2a: Kommo-o|Kommo-o, M|74/100
+|turn|27
+|
+|t:|1664850782
+|move|p2a: Kommo-o|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|40/100 par
+|cant|p1a: Conkeldurr|par
+|
+|upkeep
+|turn|28
+|j| PonnyRuckus5ds
+|
+|t:|1664850786
+|move|p2a: Kommo-o|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|t:|1664850790
+|switch|p1a: Crawdaunt|Crawdaunt, F|74/100
+|turn|29
+|
+|t:|1664850796
+|move|p2a: Kommo-o|Body Press|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|win|gotsnsd
+|raw|FirstGear's rating: 1677 &rarr; <strong>1657</strong><br />(-20 for losing)
+|raw|gotsnsd's rating: 1677 &rarr; <strong>1697</strong><br />(+20 for winning)
+|l|☆FirstGear
+|l| eoorkshaa
+|l| PonnyRuckus5ds
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

@@ -1,0 +1,171 @@
+|j|‽minimax_ai
+|j|☆FvkboyCharmander
+|t:|1668161438
+|gametype|singles
+|player|p1|minimax_ai|265|1633
+|player|p2|FvkboyCharmander|101|1786
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Pikachu, F|
+|poke|p2|Venusaur, F|
+|poke|p2|Charizard, M|
+|poke|p2|Mew|
+|poke|p2|Dragonite, F|
+|poke|p2|Chansey, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|inactive|FvkboyCharmander has 120 seconds left.
+|
+|t:|1668161480
+|start
+|switch|p1a: Weavile|Weavile, M|100/100
+|switch|p2a: Chansey|Chansey, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|
+|t:|1668161485
+|move|p1a: Weavile|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|51/100
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Chansey|Toxic|p1a: Weavile
+|-status|p1a: Weavile|tox
+|
+|-damage|p1a: Weavile|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1668161491
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1668161500
+|move|p2a: Chansey|Seismic Toss|p1a: Melmetal
+|-damage|p1a: Melmetal|78/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Chansey
+|-damage|p2a: Chansey|59/100
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|-hitcount|p2: Chansey|2
+|
+|upkeep
+|j| pocus pocus
+|
+|t:|1668161510
+|switch|p2a: Mew|Mew, shiny|100/100
+|turn|4
+|
+|t:|1668161513
+|move|p2a: Mew|Will-O-Wisp|p1a: Melmetal
+|-status|p1a: Melmetal|brn
+|move|p1a: Melmetal|Double Iron Bash|p2a: Mew
+|-damage|p2a: Mew|83/100
+|-damage|p2a: Mew|67/100
+|-hitcount|p2a: Mew|2
+|
+|-damage|p1a: Melmetal|72/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1668161517
+|move|p2a: Mew|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|move|p1a: Melmetal|Double Iron Bash|p2a: Mew
+|-damage|p2a: Mew|50/100
+|-damage|p2a: Mew|35/100
+|-hitcount|p2a: Mew|2
+|
+|-damage|p1a: Melmetal|66/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1668161522
+|switch|p1a: Weavile|Weavile, M|94/100 tox
+|-damage|p1a: Weavile|70/100 tox|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Mew|Sunny Day|p2a: Mew
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Weavile|63/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1668161529
+|move|p1a: Weavile|Triple Axel|p2a: Mew
+|-damage|p2a: Mew|22/100
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|-hitcount|p2: Mew|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Weavile|51/100 tox|[from] psn
+|upkeep
+|
+|t:|1668161539
+|switch|p2a: Charizard|Charizard, M, shiny|100/100
+|turn|8
+|
+|t:|1668161543
+|move|p1a: Weavile|Triple Axel|p2a: Charizard
+|-damage|p2a: Charizard|80/100
+|-damage|p2a: Charizard|41/100
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|-hitcount|p2: Charizard|3
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Weavile|33/100 tox|[from] psn
+|upkeep
+|
+|t:|1668161547
+|switch|p2a: Venusaur|Venusaur, F, shiny|100/100
+|turn|9
+|
+|t:|1668161550
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Venusaur|Weather Ball|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1668161555
+|switch|p2a: Pikachu|Pikachu, F, shiny|100/100
+|move|p1a: Heatran|Eruption|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|FvkboyCharmander forfeited.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1633 &rarr; <strong>1661</strong><br />(+28 for winning)
+|raw|FvkboyCharmander's rating: 1786 &rarr; <strong>1758</strong><br />(-28 for losing)
+|l|☆FvkboyCharmander

@@ -1,0 +1,408 @@
+|j|☆Frozen Dogfood
+|j|☆2(H2O)-Alt
+|t:|1662737833
+|gametype|singles
+|player|p1|Frozen Dogfood|169|1599
+|player|p2|2(H2O)-Alt|chase|1623
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Crawdaunt, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Tapu Koko|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, F|
+|poke|p1|Seismitoad, F|
+|poke|p2|Tapu Lele|
+|poke|p2|Victini|
+|poke|p2|Melmetal|
+|poke|p2|Dragonite, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Urshifu-*, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 2(H2O)-Alt)
+|
+|t:|1662737855
+|start
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Crawdaunt|atk|1
+|turn|1
+|
+|t:|1662737861
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Crawdaunt|Crabhammer|p2a: Melmetal
+|-crit|p2a: Melmetal
+|-damage|p2a: Melmetal|3/100
+|
+|upkeep
+|turn|2
+|
+|t:|1662737869
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Crawdaunt|Crabhammer|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|86/100
+|
+|upkeep
+|turn|3
+|
+|t:|1662737877
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|upkeep
+|turn|4
+|
+|t:|1662737885
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|92/100
+|
+|t:|1662737892
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Landorus|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1662737902
+|move|p1a: Tornadus|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|79/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Landorus|Toxic|p1a: Tornadus
+|-status|p1a: Tornadus|tox
+|
+|-damage|p1a: Tornadus|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1662737908
+|move|p1a: Tornadus|Icy Wind|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|41/100
+|-unboost|p2a: Landorus|spe|1
+|move|p2a: Landorus|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: Frozen Dogfood|move: Stealth Rock
+|
+|-damage|p1a: Tornadus|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1662737917
+|move|p1a: Tornadus|Icy Wind|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-damage|p1a: Tornadus|64/100 tox|[from] psn
+|upkeep
+|
+|t:|1662737925
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|8
+|
+|t:|1662737930
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|move|p2a: Tapu Lele|Focus Blast|p1a: Seismitoad
+|-damage|p1a: Seismitoad|63/100
+|
+|upkeep
+|turn|9
+|
+|t:|1662737939
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p1a: Seismitoad|Knock Off|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|85/100
+|-enditem|p2a: Urshifu|Choice Band|[from] move: Knock Off|[of] p1a: Seismitoad
+|
+|upkeep
+|turn|10
+|
+|t:|1662737947
+|switch|p1a: Tornadus|Tornadus-Therian, M|97/100 tox
+|-damage|p1a: Tornadus|72/100 tox|[from] Stealth Rock
+|move|p2a: Urshifu|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|58/100 tox
+|-damage|p2a: Urshifu|68/100|[from] item: Rocky Helmet|[of] p1a: Tornadus
+|
+|t:|1662737955
+|switch|p2a: Victini|Victini|100/100|[from]move: U-turn
+|
+|-damage|p1a: Tornadus|52/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1662737960
+|move|p1a: Tornadus|Knock Off|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|54/100
+|-enditem|p2a: Victini|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Victini|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|41/100 tox
+|-damage|p2a: Victini|38/100|[from] item: Rocky Helmet|[of] p1a: Tornadus
+|
+|t:|1662737963
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|68/100|[from]move: U-turn
+|
+|-damage|p1a: Tornadus|29/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1662737972
+|switch|p1a: Seismitoad|Seismitoad, F|63/100
+|-damage|p1a: Seismitoad|57/100|[from] Stealth Rock
+|switch|p2a: Melmetal|Melmetal|3/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|13
+|
+|t:|1662737981
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|68/100
+|move|p1a: Seismitoad|Knock Off|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|59/100
+|
+|upkeep
+|turn|14
+|
+|t:|1662737987
+|move|p2a: Urshifu|Close Combat|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|t:|1662737996
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|15
+|
+|t:|1662738000
+|switch|p2a: Melmetal|Melmetal|3/100
+|move|p1a: Tapu Koko|Thunderbolt|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|upkeep
+|
+|t:|1662738005
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|16
+|
+|t:|1662738010
+|move|p2a: Tapu Lele|Psyshock|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|23/100
+|move|p1a: Tapu Koko|U-turn|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|75/100
+|
+|t:|1662738023
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100|[from]move: U-turn
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1662738034
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|62/100
+|-enditem|p2a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Crawdaunt
+|
+|upkeep
+|turn|18
+|
+|t:|1662738045
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|upkeep
+|turn|19
+|
+|t:|1662738053
+|switch|p2a: Victini|Victini|38/100
+|move|p1a: Heatran|Stealth Rock|p2a: Victini
+|-sidestart|p2: 2(H2O)-Alt|move: Stealth Rock
+|
+|upkeep
+|turn|20
+|
+|t:|1662738059
+|move|p2a: Victini|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|82/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|t:|1662738064
+|switch|p2a: Dragonite|Dragonite, M|100/100|[from]move: U-turn
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|move|p1a: Heatran|Earth Power|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|21
+|
+|t:|1662738068
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|upkeep
+|turn|22
+|
+|t:|1662738078
+|move|p1a: Landorus|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|96/100
+|
+|t:|1662738080
+|switch|p1a: Heatran|Heatran, F|82/100|[from]move: U-turn
+|-damage|p1a: Heatran|69/100|[from] Stealth Rock
+|move|p2a: Dragonite|Defog|p1a: Heatran
+|-unboost|p1a: Heatran|evasion|1
+|-sideend|p1: Frozen Dogfood|Stealth Rock|[from] move: Defog|[of] p2a: Dragonite
+|-sideend|p2: 2(H2O)-Alt|Stealth Rock|[from] move: Defog|[of] p2a: Dragonite
+|
+|upkeep
+|turn|23
+|
+|t:|1662738086
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|24
+|
+|t:|1662738091
+|move|p1a: Landorus|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|87/100
+|
+|t:|1662738094
+|switch|p1a: Tornadus|Tornadus-Therian, M|62/100 tox|[from]move: U-turn
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-damage|p1a: Tornadus|56/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1662738102
+|move|p1a: Tornadus|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|98/100
+|
+|t:|1662738107
+|switch|p1a: Landorus|Landorus-Therian, M|88/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|upkeep
+|turn|26
+|
+|t:|1662738112
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|59/100
+|move|p1a: Landorus|U-turn|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|45/100
+|
+|t:|1662738119
+|switch|p1a: Tapu Koko|Tapu Koko|23/100|[from]move: U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|
+|upkeep
+|turn|27
+|
+|t:|1662738125
+|switch|p1a: Tornadus|Tornadus-Therian, M|89/100 tox
+|move|p2a: Urshifu|Aqua Jet|p1a: Tornadus
+|-damage|p1a: Tornadus|64/100 tox
+|-damage|p2a: Urshifu|28/100|[from] item: Rocky Helmet|[of] p1a: Tornadus
+|
+|-damage|p1a: Tornadus|58/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1662738135
+|move|p1a: Tornadus|U-turn|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|22/100
+|
+|t:|1662738151
+|switch|p1a: Crawdaunt|Crawdaunt, M|88/100|[from]move: U-turn
+|move|p2a: Urshifu|Surging Strikes|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-crit|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|75/100
+|-resisted|p1a: Crawdaunt
+|-crit|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|60/100
+|-resisted|p1a: Crawdaunt
+|-crit|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|45/100
+|-hitcount|p1a: Crawdaunt|3
+|
+|upkeep
+|turn|29
+|
+|t:|1662738160
+|switch|p2a: Tapu Lele|Tapu Lele|75/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Crawdaunt|Knock Off|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|-enditem|p2a: Tapu Lele|Choice Scarf|[from] move: Knock Off|[of] p1a: Crawdaunt
+|faint|p2a: Tapu Lele
+|
+|upkeep
+|-message|2(H2O)-Alt forfeited.
+|
+|win|Frozen Dogfood
+|raw|Frozen Dogfood's rating: 1599 &rarr; <strong>1620</strong><br />(+21 for winning)
+|raw|2(H2O)-Alt's rating: 1623 &rarr; <strong>1602</strong><br />(-21 for losing)
+|l|☆2(H2O)-Alt
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

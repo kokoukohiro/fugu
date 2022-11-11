@@ -1,0 +1,288 @@
+|j|☆AgencyIsOwn
+|j|☆stopthreat
+|t:|1662938937
+|gametype|singles
+|player|p1|AgencyIsOwn|zinnia|1786
+|player|p2|stopthreat|gentleman-gen4|1724
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Audino, M|
+|poke|p1|Reuniclus, M|
+|poke|p2|Clefable, M|
+|poke|p2|Regieleki|
+|poke|p2|Tapu Koko|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowbro, M|
+|poke|p2|Heatran, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AgencyIsOwn)
+|
+|t:|1662938956
+|start
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|1
+|j| cherubia
+|
+|t:|1662938963
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Reuniclus|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|87/100
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: Reuniclus
+|
+|upkeep
+|turn|2
+|j| Burnt Bright
+|
+|t:|1662938970
+|move|p2a: Heatran|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|move|p1a: Reuniclus|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|45/100
+|
+|upkeep
+|turn|3
+|
+|t:|1662938985
+|move|p2a: Heatran|Magma Storm|p1a: Reuniclus
+|-damage|p1a: Reuniclus|81/100
+|-activate|p1a: Reuniclus|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Reuniclus|Future Sight|p2a: Heatran
+|-start|p1a: Reuniclus|move: Future Sight
+|
+|-damage|p1a: Reuniclus|69/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1662938991
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Reuniclus|atk|1
+|move|p1a: Reuniclus|Focus Blast|p2a: Landorus|[miss]
+|-miss|p1a: Reuniclus|p2a: Landorus
+|
+|-end|p1a: Reuniclus|Magma Storm|[partiallytrapped]|[silent]
+|-end|p1a: Reuniclus|move: Taunt
+|upkeep
+|turn|5
+|
+|t:|1662938997
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Landorus|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|88/100
+|
+|t:|1662938998
+|switch|p2a: Regieleki|Regieleki|100/100|[from]move: U-turn
+|
+|-end|p2a: Regieleki|move: Future Sight
+|-damage|p2a: Regieleki|0 fnt
+|faint|p2a: Regieleki
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1662939004
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|6
+|j| Sigggggggg
+|
+|t:|1662939016
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Tapu Koko|Calm Mind|p2a: Tapu Koko
+|-boost|p2a: Tapu Koko|spa|1
+|-boost|p2a: Tapu Koko|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1662939020
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Tapu Koko|Calm Mind|p2a: Tapu Koko
+|-boost|p2a: Tapu Koko|spa|1
+|-boost|p2a: Tapu Koko|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1662939024
+|move|p2a: Tapu Koko|Calm Mind|p2a: Tapu Koko
+|-boost|p2a: Tapu Koko|spa|1
+|-boost|p2a: Tapu Koko|spd|1
+|move|p1a: Slowking|Trick|p2a: Tapu Koko
+|-activate|p1a: Slowking|move: Trick|[of] p2a: Tapu Koko
+|-item|p2a: Tapu Koko|Black Sludge|[from] move: Trick
+|-item|p1a: Slowking|Heavy-Duty Boots|[from] move: Trick
+|
+|-damage|p2a: Tapu Koko|88/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1662939029
+|move|p2a: Tapu Koko|Calm Mind|p2a: Tapu Koko
+|-boost|p2a: Tapu Koko|spa|1
+|-boost|p2a: Tapu Koko|spd|1
+|move|p1a: Slowking|Sludge Bomb|p2a: Tapu Koko
+|-supereffective|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|46/100
+|
+|-damage|p2a: Tapu Koko|33/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|j| BabyPigsAreLaughin
+|j| Zombini62
+|
+|t:|1662939040
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Tapu Koko|Roost|p2a: Tapu Koko
+|-heal|p2a: Tapu Koko|84/100
+|-singleturn|p2a: Tapu Koko|move: Roost
+|
+|-damage|p2a: Tapu Koko|71/100|[from] item: Black Sludge
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|11
+|
+|t:|1662939043
+|move|p2a: Tapu Koko|Calm Mind|p2a: Tapu Koko
+|-boost|p2a: Tapu Koko|spa|1
+|-boost|p2a: Tapu Koko|spd|1
+|move|p1a: Reuniclus|Night Shade|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|42/100
+|
+|-damage|p2a: Tapu Koko|30/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1662939049
+|move|p2a: Tapu Koko|Roost|p2a: Tapu Koko
+|-heal|p2a: Tapu Koko|80/100
+|-singleturn|p2a: Tapu Koko|move: Roost
+|move|p1a: Reuniclus|Future Sight|p2a: Tapu Koko
+|-start|p1a: Reuniclus|move: Future Sight
+|
+|-damage|p2a: Tapu Koko|68/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1662939051
+|move|p2a: Tapu Koko|Roost|p2a: Tapu Koko
+|-heal|p2a: Tapu Koko|100/100
+|-singleturn|p2a: Tapu Koko|move: Roost
+|move|p1a: Reuniclus|Night Shade|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|71/100
+|
+|-damage|p2a: Tapu Koko|59/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1662939054
+|move|p2a: Tapu Koko|Calm Mind|p2a: Tapu Koko
+|-boost|p2a: Tapu Koko|spa|1
+|-boost|p2a: Tapu Koko|spd|1
+|move|p1a: Reuniclus|Night Shade|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|30/100
+|
+|-end|p2a: Tapu Koko|move: Future Sight
+|-damage|p2a: Tapu Koko|14/100
+|-damage|p2a: Tapu Koko|2/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1662939067
+|move|p2a: Tapu Koko|Roost|p2a: Tapu Koko
+|-heal|p2a: Tapu Koko|52/100
+|-singleturn|p2a: Tapu Koko|move: Roost
+|move|p1a: Reuniclus|Future Sight|p2a: Tapu Koko
+|-start|p1a: Reuniclus|move: Future Sight
+|
+|-damage|p2a: Tapu Koko|40/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1662939086
+|move|p2a: Tapu Koko|Roost|p2a: Tapu Koko
+|-heal|p2a: Tapu Koko|90/100
+|-singleturn|p2a: Tapu Koko|move: Roost
+|move|p1a: Reuniclus|Night Shade|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|61/100
+|
+|-damage|p2a: Tapu Koko|49/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1662939091
+|move|p2a: Tapu Koko|Roost|p2a: Tapu Koko
+|-heal|p2a: Tapu Koko|99/100
+|-singleturn|p2a: Tapu Koko|move: Roost
+|move|p1a: Reuniclus|Night Shade|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|70/100
+|
+|-end|p2a: Tapu Koko|move: Future Sight
+|-damage|p2a: Tapu Koko|54/100
+|-damage|p2a: Tapu Koko|41/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1662939098
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Reuniclus
+|-damage|p1a: Reuniclus|50/100
+|move|p1a: Reuniclus|Night Shade|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|12/100
+|
+|-damage|p2a: Tapu Koko|0 fnt|[from] item: Black Sludge
+|faint|p2a: Tapu Koko
+|upkeep
+|j| Melophetamine
+|
+|t:|1662939110
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|19
+|
+|t:|1662939117
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|79/100
+|-unboost|p1a: Slowking|spa|1
+|
+|upkeep
+|turn|20
+|
+|t:|1662939134
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Slowking|atk|1
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1662939140
+|move|p2a: Landorus|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|93/100
+|-message|stopthreat forfeited.
+|
+|win|AgencyIsOwn
+|raw|AgencyIsOwn's rating: 1786 &rarr; <strong>1803</strong><br />(+17 for winning)
+|raw|stopthreat's rating: 1740 &rarr; <strong>1723</strong><br />(-17 for losing)
+|l|☆stopthreat

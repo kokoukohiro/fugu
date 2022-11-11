@@ -1,0 +1,585 @@
+|j|☆Hgfhhfghfff
+|j|☆minimax_ai
+|t:|1665303148
+|gametype|singles
+|player|p1|Hgfhhfghfff|169|1504
+|player|p2|minimax_ai|lusamine-nihilego|1487
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Jirachi|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Nidoking, M|
+|poke|p1|Diancie|
+|poke|p1|Zapdos|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1665303162
+|start
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|switch|p2a: Melmetal|Melmetal|100/100
+|turn|1
+|
+|t:|1665303167
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|76/100
+|move|p2a: Melmetal|Thunder Punch|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|
+|-heal|p1a: Keldeo|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1665303174
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|move|p2a: Melmetal|Thunder Punch|p1a: Nidoking
+|-immune|p1a: Nidoking
+|
+|upkeep
+|turn|3
+|
+|t:|1665303183
+|move|p1a: Nidoking|Earth Power|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|29/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Nidoking
+|-damage|p1a: Nidoking|46/100
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|-hitcount|p1: Nidoking|2
+|
+|upkeep
+|inactive|Hgfhhfghfff has 120 seconds left.
+|
+|t:|1665303221
+|switch|p1a: Keldeo|Keldeo-Resolute|82/100
+|turn|4
+|
+|t:|1665303224
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Keldeo|Secret Sword|p2a: Tangrowth
+|-damage|p2a: Tangrowth|77/100
+|
+|-heal|p1a: Keldeo|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1665303234
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Tangrowth|Giga Drain|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|86/100
+|-heal|p2a: Tangrowth|84/100|[from] drain|[of] p1a: Zapdos
+|
+|upkeep
+|turn|6
+|
+|t:|1665303239
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Heat Wave|p2a: landorustherian
+|-damage|p2a: landorustherian|80/100
+|
+|-heal|p2a: landorustherian|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1665303253
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: landorustherian|Toxic|p1a: Jirachi
+|-immune|p1a: Jirachi
+|
+|-heal|p2a: landorustherian|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1665303259
+|move|p1a: Jirachi|Icy Wind|p2a: landorustherian
+|-supereffective|p2a: landorustherian
+|-damage|p2a: landorustherian|40/100
+|-unboost|p2a: landorustherian|spe|1
+|move|p2a: landorustherian|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-heal|p2a: landorustherian|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1665303277
+|switch|p1a: Keldeo|Keldeo-Resolute|88/100
+|turn|9
+|
+|t:|1665303279
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Keldeo|Scald|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|69/100
+|
+|-heal|p1a: Keldeo|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1665303287
+|switch|p1a: Zapdos|Zapdos|86/100
+|move|p2a: Tangrowth|Giga Drain|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|73/100
+|-heal|p2a: Tangrowth|75/100|[from] drain|[of] p1a: Zapdos
+|
+|upkeep
+|turn|11
+|
+|t:|1665303295
+|switch|p2a: landorustherian|Landorus-Therian, M|46/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Discharge|p2a: landorustherian
+|-immune|p2a: landorustherian
+|
+|-heal|p2a: landorustherian|52/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1665303300
+|move|p1a: Zapdos|Heat Wave|p2a: landorustherian
+|-damage|p2a: landorustherian|32/100
+|move|p2a: landorustherian|Toxic|p1a: Zapdos|[miss]
+|-miss|p2a: landorustherian|p1a: Zapdos
+|
+|-heal|p2a: landorustherian|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1665303307
+|move|p1a: Zapdos|Heat Wave|p2a: landorustherian
+|-damage|p2a: landorustherian|18/100
+|move|p2a: landorustherian|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-heal|p2a: landorustherian|24/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|67/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1665303312
+|move|p1a: Zapdos|Heat Wave|p2a: landorustherian|[miss]
+|-miss|p1a: Zapdos|p2a: landorustherian
+|move|p2a: landorustherian|Toxic|p1a: Zapdos
+|-fail|p1a: Zapdos|tox
+|
+|-heal|p2a: landorustherian|30/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|55/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1665303316
+|move|p1a: Zapdos|Heat Wave|p2a: landorustherian
+|-damage|p2a: landorustherian|11/100
+|move|p2a: landorustherian|Toxic|p1a: Zapdos
+|-fail|p1a: Zapdos|tox
+|
+|-heal|p2a: landorustherian|17/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|37/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1665303321
+|move|p1a: Zapdos|Heat Wave|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|
+|-damage|p1a: Zapdos|13/100 tox|[from] psn
+|upkeep
+|
+|t:|1665303321
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|17
+|
+|t:|1665303330
+|move|p2a: Weavile|Triple Axel|p1a: Zapdos|[miss]
+|-miss|p2a: Weavile|p1a: Zapdos
+|move|p1a: Zapdos|Discharge|p2a: Weavile
+|-damage|p2a: Weavile|53/100
+|
+|-damage|p1a: Zapdos|0 fnt|[from] psn
+|faint|p1a: Zapdos
+|upkeep
+|
+|t:|1665303344
+|switch|p1a: Keldeo|Keldeo-Resolute|94/100
+|turn|18
+|
+|t:|1665303347
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Keldeo|Scald|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|68/100
+|
+|-heal|p1a: Keldeo|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1665303362
+|switch|p1a: Diancie|Diancie|100/100
+|move|p2a: Tangrowth|Giga Drain|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|69/100
+|-heal|p2a: Tangrowth|80/100|[from] drain|[of] p1a: Diancie
+|
+|upkeep
+|turn|20
+|
+|t:|1665303368
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|move|p1a: Diancie|Mystical Fire|p2a: rotomwash
+|-resisted|p2a: rotomwash
+|-damage|p2a: rotomwash|89/100
+|-unboost|p2a: rotomwash|spa|1
+|
+|-heal|p2a: rotomwash|95/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1665303378
+|move|p2a: rotomwash|Hydro Pump|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|36/100
+|move|p1a: Diancie|Draining Kiss|p2a: rotomwash
+|-damage|p2a: rotomwash|69/100
+|-heal|p1a: Diancie|56/100|[from] drain|[of] p2a: rotomwash
+|
+|-heal|p2a: rotomwash|75/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1665303389
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: rotomwash|Nasty Plot|p2a: rotomwash
+|-boost|p2a: rotomwash|spa|2
+|
+|-heal|p2a: rotomwash|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1665303398
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|72/100
+|-damage|p1a: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|t:|1665303403
+|switch|p1a: Diancie|Diancie|56/100|[from]move: U-turn
+|
+|-heal|p2a: Tangrowth|78/100|[from] Grassy Terrain
+|-heal|p1a: Diancie|62/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1665303406
+|switch|p2a: rotomwash|Rotom-Wash|82/100
+|move|p1a: Diancie|Mystical Fire|p2a: rotomwash
+|-resisted|p2a: rotomwash
+|-crit|p2a: rotomwash
+|-damage|p2a: rotomwash|64/100
+|-unboost|p2a: rotomwash|spa|1
+|
+|-heal|p2a: rotomwash|70/100|[from] item: Leftovers
+|-heal|p1a: Diancie|68/100|[from] Grassy Terrain
+|upkeep
+|turn|25
+|
+|t:|1665303413
+|move|p2a: rotomwash|Nasty Plot|p2a: rotomwash
+|-boost|p2a: rotomwash|spa|2
+|move|p1a: Diancie|Draining Kiss|p2a: rotomwash
+|-damage|p2a: rotomwash|42/100
+|-heal|p1a: Diancie|89/100|[from] drain|[of] p2a: rotomwash
+|
+|-heal|p2a: rotomwash|49/100|[from] item: Leftovers
+|-heal|p1a: Diancie|95/100|[from] Grassy Terrain
+|upkeep
+|turn|26
+|
+|t:|1665303420
+|switch|p1a: Rillaboom|Rillaboom, M|84/100
+|move|p2a: rotomwash|Pain Split|p1a: Rillaboom
+|-sethp|p1a: Rillaboom|64/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: rotomwash|71/100|[from] move: Pain Split
+|
+|-heal|p2a: rotomwash|77/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|70/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|27
+|
+|t:|1665303428
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|81/100
+|-damage|p1a: Rillaboom|53/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-damage|p1a: Rillaboom|46/100|[from] Recoil
+|
+|upkeep
+|turn|28
+|
+|t:|1665303434
+|switch|p1a: Diancie|Diancie|95/100
+|move|p2a: Tangrowth|Sleep Powder|p1a: Diancie
+|-status|p1a: Diancie|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|29
+|
+|t:|1665303445
+|move|p2a: Tangrowth|Giga Drain|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|65/100 slp
+|-heal|p2a: Tangrowth|93/100|[from] drain|[of] p1a: Diancie
+|cant|p1a: Diancie|slp
+|
+|upkeep
+|turn|30
+|
+|t:|1665303448
+|-curestatus|p1a: Diancie|slp|[msg]
+|move|p1a: Diancie|Mystical Fire|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|20/100
+|-unboost|p2a: Tangrowth|spa|1
+|move|p2a: Tangrowth|Giga Drain|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|45/100
+|-heal|p2a: Tangrowth|27/100|[from] drain|[of] p1a: Diancie
+|
+|upkeep
+|turn|31
+|
+|t:|1665303460
+|switch|p2a: rotomwash|Rotom-Wash|77/100
+|move|p1a: Diancie|Draining Kiss|p2a: rotomwash
+|-damage|p2a: rotomwash|51/100
+|-heal|p1a: Diancie|64/100|[from] drain|[of] p2a: rotomwash
+|
+|-heal|p2a: rotomwash|58/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1665303467
+|switch|p1a: Rillaboom|Rillaboom, M|46/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: rotomwash|Hydro Pump|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|19/100
+|
+|-heal|p2a: rotomwash|64/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|25/100|[from] Grassy Terrain
+|upkeep
+|turn|33
+|
+|t:|1665303477
+|switch|p2a: Tangrowth|Tangrowth, F|60/100
+|move|p1a: Rillaboom|Knock Off|p2a: Tangrowth
+|-damage|p2a: Tangrowth|41/100
+|-damage|p1a: Rillaboom|8/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-enditem|p2a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|15/100|[from] Grassy Terrain
+|-heal|p2a: Tangrowth|47/100|[from] Grassy Terrain
+|upkeep
+|turn|34
+|
+|t:|1665303483
+|move|p1a: Rillaboom|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|18/100
+|
+|t:|1665303486
+|switch|p1a: Diancie|Diancie|64/100|[from]move: U-turn
+|move|p2a: Tangrowth|Giga Drain|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|26/100
+|-heal|p2a: Tangrowth|32/100|[from] drain|[of] p1a: Diancie
+|
+|-heal|p1a: Diancie|32/100|[from] Grassy Terrain
+|-heal|p2a: Tangrowth|39/100|[from] Grassy Terrain
+|upkeep
+|turn|35
+|
+|t:|1665303493
+|switch|p2a: rotomwash|Rotom-Wash|64/100
+|move|p1a: Diancie|Draining Kiss|p2a: rotomwash
+|-damage|p2a: rotomwash|39/100
+|-heal|p1a: Diancie|50/100|[from] drain|[of] p2a: rotomwash
+|
+|-heal|p2a: rotomwash|46/100|[from] item: Leftovers
+|-heal|p1a: Diancie|56/100|[from] Grassy Terrain
+|upkeep
+|turn|36
+|
+|t:|1665303499
+|move|p2a: rotomwash|Hydro Pump|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|11/100
+|move|p1a: Diancie|Draining Kiss|p2a: rotomwash
+|-damage|p2a: rotomwash|19/100
+|-heal|p1a: Diancie|31/100|[from] drain|[of] p2a: rotomwash
+|
+|-heal|p2a: rotomwash|25/100|[from] item: Leftovers
+|-heal|p1a: Diancie|37/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|37
+|
+|t:|1665303510
+|move|p2a: rotomwash|Hydro Pump|p1a: Diancie|[miss]
+|-miss|p2a: rotomwash|p1a: Diancie
+|move|p1a: Diancie|Draining Kiss|p2a: rotomwash
+|-damage|p2a: rotomwash|1/100
+|-heal|p1a: Diancie|55/100|[from] drain|[of] p2a: rotomwash
+|
+|-heal|p2a: rotomwash|7/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1665303518
+|switch|p1a: Rillaboom|Rillaboom, M|15/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: rotomwash|Hydro Pump|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: rotomwash|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1665303527
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|39
+|
+|t:|1665303532
+|switch|p2a: Tangrowth|Tangrowth, F|72/100
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|
+|-heal|p2a: Tangrowth|78/100|[from] Grassy Terrain
+|upkeep
+|turn|40
+|
+|t:|1665303537
+|move|p1a: Keldeo|Secret Sword|p2a: Tangrowth
+|-damage|p2a: Tangrowth|41/100
+|move|p2a: Tangrowth|Giga Drain|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|41/100
+|-heal|p2a: Tangrowth|64/100|[from] drain|[of] p1a: Keldeo
+|
+|-heal|p1a: Keldeo|47/100|[from] Grassy Terrain
+|-heal|p1a: Keldeo|53/100|[from] item: Leftovers
+|-heal|p2a: Tangrowth|71/100|[from] Grassy Terrain
+|upkeep
+|turn|41
+|
+|t:|1665303545
+|move|p1a: Keldeo|Scald|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|27/100
+|-status|p2a: Tangrowth|brn
+|move|p2a: Tangrowth|Giga Drain|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-heal|p2a: Tangrowth|49/100 brn|[from] drain|[of] p1a: Keldeo
+|faint|p1a: Keldeo
+|
+|-heal|p2a: Tangrowth|55/100 brn|[from] Grassy Terrain
+|-damage|p2a: Tangrowth|49/100 brn|[from] brn
+|upkeep
+|
+|t:|1665303552
+|switch|p1a: Diancie|Diancie|55/100
+|turn|42
+|
+|t:|1665303556
+|switch|p2a: rotomwash|Rotom-Wash|14/100
+|move|p1a: Diancie|Draining Kiss|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|-heal|p1a: Diancie|65/100|[from] drain|[of] p2a: rotomwash
+|faint|p2a: rotomwash
+|
+|-heal|p1a: Diancie|71/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1665303557
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|43
+|
+|t:|1665303568
+|move|p2a: Heatran|Magma Storm|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|58/100
+|-activate|p1a: Diancie|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Diancie|Diamond Storm|p2a: Heatran
+|-damage|p2a: Heatran|69/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-damage|p1a: Diancie|46/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|44
+|
+|t:|1665303576
+|move|p2a: Heatran|Earth Power|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|10/100
+|move|p1a: Diancie|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Diancie|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1665303576
+|switch|p2a: Weavile|Weavile, M|53/100
+|-ability|p2a: Weavile|Pressure
+|turn|45
+|
+|t:|1665303580
+|move|p2a: Weavile|Triple Axel|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|-hitcount|p1: Diancie|1
+|
+|win|minimax_ai
+|raw|Hgfhhfghfff's rating: 1504 &rarr; <strong>1483</strong><br />(-21 for losing)
+|raw|minimax_ai's rating: 1487 &rarr; <strong>1508</strong><br />(+21 for winning)
+|c|☆minimax_ai|gg

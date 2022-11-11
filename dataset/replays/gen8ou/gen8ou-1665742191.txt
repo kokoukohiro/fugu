@@ -1,0 +1,311 @@
+|j|☆damorush
+|j|☆minimax_ai
+|t:|1663336529
+|gametype|singles
+|player|p1|damorush|2|1608
+|player|p2|minimax_ai|lusamine-nihilego|1648
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Kartana|
+|poke|p1|Nidoking, M|
+|poke|p1|Tapu Koko|
+|poke|p1|Mew|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, M|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|
+|t:|1663336532
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1663336541
+|move|p1a: Mew|Stealth Rock|p2a: rotomwash
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|move|p2a: rotomwash|Nasty Plot|p2a: rotomwash
+|-boost|p2a: rotomwash|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1663336547
+|move|p1a: Mew|Spikes|p2a: rotomwash
+|-sidestart|p2: minimax_ai|Spikes
+|move|p2a: rotomwash|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|32/100
+|-status|p1a: Mew|par
+|-activate|p1a: Mew|ability: Synchronize
+|-immune|p2a: rotomwash
+|
+|upkeep
+|turn|3
+|
+|t:|1663336555
+|move|p2a: rotomwash|Thunderbolt|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|t:|1663336560
+|switch|p1a: Kartana|Kartana|100/100
+|turn|4
+|
+|t:|1663336563
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|-damage|p2a: Tangrowth|76/100|[from] Spikes
+|move|p1a: Kartana|Leaf Blade|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-crit|p2a: Tangrowth
+|-damage|p2a: Tangrowth|57/100
+|
+|upkeep
+|turn|5
+|
+|t:|1663336572
+|move|p1a: Kartana|Swords Dance|p1a: Kartana
+|-boost|p1a: Kartana|atk|2
+|move|p2a: Tangrowth|Giga Drain|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|83/100
+|-heal|p2a: Tangrowth|64/100|[from] drain|[of] p1a: Kartana
+|
+|upkeep
+|turn|6
+|
+|t:|1663336579
+|move|p1a: Kartana|Swords Dance|p1a: Kartana
+|-boost|p1a: Kartana|atk|2
+|move|p2a: Tangrowth|Focus Blast|p1a: Kartana
+|-supereffective|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|
+|upkeep
+|
+|t:|1663336586
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|turn|7
+|
+|t:|1663336589
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Nidoking|Flamethrower|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|8
+|
+|t:|1663336598
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p2a: Heatran|Eruption|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|20/100
+|
+|upkeep
+|turn|9
+|
+|t:|1663336604
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Tangrowth|Tangrowth, M|98/100
+|-damage|p2a: Tangrowth|85/100|[from] Stealth Rock
+|-damage|p2a: Tangrowth|73/100|[from] Spikes
+|move|p1a: Urshifu|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|49/100
+|
+|t:|1663336612
+|switch|p1a: Nidoking|Nidoking, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1663336616
+|switch|p2a: Heatran|Heatran, M|88/100
+|-damage|p2a: Heatran|76/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Nidoking|Ice Beam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|65/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|11
+|
+|t:|1663336625
+|move|p2a: Heatran|Magma Storm|p1a: Nidoking|[miss]
+|-miss|p2a: Heatran|p1a: Nidoking
+|move|p1a: Nidoking|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1663336625
+|switch|p2a: Melmetal|Melmetal|100/100
+|-damage|p2a: Melmetal|94/100|[from] Stealth Rock
+|-damage|p2a: Melmetal|82/100|[from] Spikes
+|turn|12
+|
+|t:|1663336636
+|move|p1a: Nidoking|Earth Power|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|18/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Nidoking
+|-damage|p1a: Nidoking|39/100
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|-hitcount|p1: Nidoking|2
+|
+|upkeep
+|
+|t:|1663336644
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|13
+|
+|t:|1663336648
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p2a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Tapu Koko|atk|1
+|move|p1a: Tapu Koko|Dazzling Gleam|p2a: landorustherian
+|-damage|p2a: landorustherian|65/100
+|
+|-heal|p2a: landorustherian|71/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1663336659
+|move|p1a: Tapu Koko|Dazzling Gleam|p2a: landorustherian
+|-damage|p2a: landorustherian|46/100
+|move|p2a: landorustherian|Earthquake|p1a: Tapu Koko
+|-supereffective|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|
+|-heal|p2a: landorustherian|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1663336667
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|20/100
+|turn|15
+|
+|t:|1663336669
+|switch|p2a: Melmetal|Melmetal|18/100
+|-damage|p2a: Melmetal|12/100|[from] Stealth Rock
+|-damage|p2a: Melmetal|0 fnt|[from] Spikes
+|faint|p2a: Melmetal
+|move|p1a: Urshifu|Surging Strikes|p2: Melmetal|[notarget]
+|-fail|p1a: Urshifu
+|
+|upkeep
+|
+|t:|1663336669
+|switch|p2a: Tangrowth|Tangrowth, M|82/100
+|-damage|p2a: Tangrowth|69/100|[from] Stealth Rock
+|-damage|p2a: Tangrowth|57/100|[from] Spikes
+|turn|16
+|
+|t:|1663336680
+|move|p1a: Urshifu|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|24/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|move|p2a: Tangrowth|Knock Off|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|5/100
+|-enditem|p1a: Urshifu|Protective Pads|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|17
+|
+|t:|1663336689
+|move|p1a: Urshifu|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-damage|p1a: Urshifu|0 fnt|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|faint|p2a: Tangrowth
+|faint|p1a: Urshifu
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1663336696
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|-damage|p2a: rotomwash|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1663336704
+|switch|p2a: landorustherian|Landorus-Therian, M|52/100
+|-damage|p2a: landorustherian|40/100|[from] Stealth Rock
+|-ability|p2a: landorustherian|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|move|p1a: Dragapult|Dragon Darts|p2a: landorustherian
+|-damage|p2a: landorustherian|11/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1663336705
+|switch|p2a: rotomwash|Rotom-Wash|88/100
+|-damage|p2a: rotomwash|75/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1663336718
+|move|p1a: Dragapult|Dragon Darts|p2a: rotomwash
+|-damage|p2a: rotomwash|43/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: rotomwash
+|-damage|p2a: rotomwash|8/100
+|-damage|p1a: Dragapult|81/100|[from] item: Life Orb
+|move|p2a: rotomwash|Pain Split|p1a: Dragapult
+|-sethp|p1a: Dragapult|44/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: rotomwash|46/100|[from] move: Pain Split
+|
+|-heal|p2a: rotomwash|52/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|l|☆damorush
+|inactive|damorush disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|damorush has 30 seconds to reconnect!
+|inactive|damorush has 20 seconds to reconnect!
+|inactive|damorush has 15 seconds to reconnect!
+|inactive|damorush has 10 seconds to reconnect!
+|inactive|damorush has 5 seconds to reconnect!
+|-message|damorush lost due to inactivity.
+|
+|win|minimax_ai
+|raw|damorush's rating: 1608 &rarr; <strong>1590</strong><br />(-18 for losing)
+|raw|minimax_ai's rating: 1648 &rarr; <strong>1666</strong><br />(+18 for winning)
+|c|☆minimax_ai|gg

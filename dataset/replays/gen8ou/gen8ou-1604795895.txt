@@ -1,0 +1,362 @@
+|j|☆JaVpad1spi
+|j|☆Ender_194
+|t:|1656275060
+|gametype|singles
+|player|p1|JaVpad1spi|102|
+|player|p2|Ender_194|ingo|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Mamoswine, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Blissey, F|
+|poke|p1|Latios, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Clefable, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kartana|
+|poke|p2|Heatran, M|
+|poke|p2|Toxapex, F|
+|teampreview
+|
+|t:|1656275083
+|start
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Bark|Heatran, M|100/100
+|turn|1
+|
+|t:|1656275109
+|switch|p2a: OrigamieDePain|Kartana|100/100
+|move|p1a: Blissey|Thunder Wave|p2a: OrigamieDePain
+|-status|p2a: OrigamieDePain|par
+|
+|upkeep
+|turn|2
+|
+|t:|1656275116
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: OrigamieDePain|Sacred Sword|p1a: Corviknight
+|-damage|p1a: Corviknight|83/100
+|
+|-heal|p1a: Corviknight|89/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1656275138
+|switch|p2a: Bark|Heatran, M|100/100
+|move|p1a: Corviknight|U-turn|p2a: Bark
+|-resisted|p2a: Bark
+|-damage|p2a: Bark|97/100
+|
+|t:|1656275150
+|switch|p1a: Blissey|Blissey, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1656275154
+|move|p2a: Bark|Eruption|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|move|p1a: Blissey|Thunder Wave|p2a: Bark
+|-status|p2a: Bark|par
+|
+|-heal|p1a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1656275165
+|switch|p2a: OrigamieDePain|Kartana|100/100 par
+|move|p1a: Blissey|Teleport|p1a: Blissey
+|
+|t:|1656275168
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|6
+|
+|t:|1656275172
+|move|p1a: Dragapult|Fire Blast|p2a: OrigamieDePain
+|-supereffective|p2a: OrigamieDePain
+|-damage|p2a: OrigamieDePain|0 fnt
+|faint|p2a: OrigamieDePain
+|
+|upkeep
+|
+|t:|1656275210
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|7
+|
+|t:|1656275224
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Toxapex|Scald|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|94/100
+|
+|upkeep
+|turn|8
+|
+|t:|1656275242
+|switch|p2a: Bark|Heatran, M|97/100 par
+|move|p1a: Latios|Light Screen|p1a: Latios
+|-sidestart|p1: JaVpad1spi|move: Light Screen
+|
+|upkeep
+|turn|9
+|
+|t:|1656275246
+|move|p1a: Latios|Reflect|p1a: Latios
+|-sidestart|p1: JaVpad1spi|Reflect
+|move|p2a: Bark|Eruption|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|77/100
+|
+|upkeep
+|turn|10
+|
+|t:|1656275260
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Latios|Tailwind|p1a: Latios
+|-sidestart|p1: JaVpad1spi|move: Tailwind
+|
+|upkeep
+|turn|11
+|
+|t:|1656275274
+|move|p1a: Latios|Memento|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|2
+|-unboost|p2a: Toxapex|spa|2
+|faint|p1a: Latios
+|move|p2a: Toxapex|Scald|p1: Latios|[notarget]
+|-fail|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1656275279
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|turn|12
+|
+|t:|1656275292
+|move|p1a: Mamoswine|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100
+|move|p2a: Toxapex|Scald|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|88/100
+|
+|-heal|p2a: Toxapex|44/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1656275301
+|switch|p2a: Bark|Heatran, M|97/100 par
+|move|p1a: Mamoswine|Stealth Rock|p2a: Bark
+|-sidestart|p2: Ender_194|move: Stealth Rock
+|
+|-sideend|p1: JaVpad1spi|move: Tailwind
+|upkeep
+|turn|14
+|
+|t:|1656275307
+|move|p1a: Mamoswine|Earthquake|p2a: Bark
+|-supereffective|p2a: Bark
+|-damage|p2a: Bark|0 fnt
+|faint|p2a: Bark
+|
+|upkeep
+|
+|t:|1656275314
+|switch|p2a: GoodDoggo|Landorus-Therian, M|100/100
+|-damage|p2a: GoodDoggo|88/100|[from] Stealth Rock
+|-ability|p2a: GoodDoggo|Intimidate|boost
+|-unboost|p1a: Mamoswine|atk|1
+|turn|15
+|
+|t:|1656275322
+|move|p1a: Mamoswine|Icicle Crash|p2a: GoodDoggo
+|-supereffective|p2a: GoodDoggo
+|-damage|p2a: GoodDoggo|0 fnt
+|faint|p2a: GoodDoggo
+|
+|-sideend|p1: JaVpad1spi|move: Light Screen
+|upkeep
+|
+|t:|1656275341
+|switch|p2a: Nouille|Clefable, M|100/100
+|turn|16
+|
+|t:|1656275347
+|switch|p1a: Blissey|Blissey, F|78/100
+|move|p2a: Nouille|Moonblast|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|-sideend|p1: JaVpad1spi|Reflect
+|upkeep
+|turn|17
+|
+|t:|1656275356
+|move|p2a: Nouille|Wish|p2a: Nouille
+|move|p1a: Blissey|Thunder Wave|p2a: Nouille
+|-status|p2a: Nouille|par
+|
+|-heal|p1a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1656275363
+|switch|p2a: Kui-Kui|Tornadus-Therian, M|100/100
+|-damage|p2a: Kui-Kui|76/100|[from] Stealth Rock
+|move|p1a: Blissey|Teleport|p1a: Blissey
+|
+|t:|1656275366
+|switch|p1a: Mamoswine|Mamoswine, F|88/100|[from]move: Teleport
+|
+|-heal|p2a: Kui-Kui|100/100|[from] move: Wish|[wisher] Nouille
+|upkeep
+|turn|19
+|
+|t:|1656275374
+|move|p2a: Kui-Kui|Nasty Plot|p2a: Kui-Kui
+|-boost|p2a: Kui-Kui|spa|2
+|move|p1a: Mamoswine|Icicle Crash|p2a: Kui-Kui
+|-supereffective|p2a: Kui-Kui
+|-damage|p2a: Kui-Kui|0 fnt
+|faint|p2a: Kui-Kui
+|
+|upkeep
+|
+|t:|1656275380
+|switch|p2a: Toxapex|Toxapex, F|77/100
+|-damage|p2a: Toxapex|64/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1656275389
+|move|p1a: Mamoswine|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1656275393
+|switch|p2a: Nouille|Clefable, M|100/100 par
+|turn|21
+|
+|t:|1656275426
+|move|p2a: Nouille|Protect|p2a: Nouille
+|-singleturn|p2a: Nouille|Protect
+|move|p1a: Mamoswine|Icicle Crash|p2a: Nouille
+|-activate|p2a: Nouille|move: Protect
+|
+|upkeep
+|turn|22
+|
+|t:|1656275434
+|move|p1a: Mamoswine|Icicle Crash|p2a: Nouille
+|-damage|p2a: Nouille|35/100 par
+|move|p2a: Nouille|Wish|p2a: Nouille
+|
+|-heal|p2a: Nouille|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1656275443
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Nouille|Protect||[still]
+|-fail|p2a: Nouille
+|
+|-heal|p2a: Nouille|91/100 par|[from] move: Wish|[wisher] Nouille
+|-heal|p2a: Nouille|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1656275450
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|move|p2a: Nouille|Wish|p2a: Nouille
+|
+|-heal|p2a: Nouille|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1656275456
+|move|p2a: Nouille|Protect|p2a: Nouille
+|-singleturn|p2a: Nouille|Protect
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|
+|upkeep
+|turn|26
+|
+|t:|1656275462
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|move|p2a: Nouille|Wish|p2a: Nouille
+|
+|upkeep
+|turn|27
+|
+|t:|1656275467
+|move|p2a: Nouille|Protect|p2a: Nouille
+|-singleturn|p2a: Nouille|Protect
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|
+|upkeep
+|turn|28
+|
+|t:|1656275472
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|move|p2a: Nouille|Wish|p2a: Nouille
+|
+|upkeep
+|turn|29
+|
+|t:|1656275476
+|move|p2a: Nouille|Protect|p2a: Nouille
+|-singleturn|p2a: Nouille|Protect
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|
+|upkeep
+|turn|30
+|
+|t:|1656275482
+|move|p1a: Mew|Body Press|p2a: Nouille
+|-resisted|p2a: Nouille
+|-damage|p2a: Nouille|48/100 par
+|cant|p2a: Nouille|par
+|
+|-heal|p2a: Nouille|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1656275491
+|move|p1a: Mew|Body Press|p2a: Nouille
+|-resisted|p2a: Nouille
+|-damage|p2a: Nouille|0 fnt
+|faint|p2a: Nouille
+|
+|win|JaVpad1spi
+|l|☆JaVpad1spi
+|j|☆JaVpad1spi
+|player|p1|JaVpad1spi|102

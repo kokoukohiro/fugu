@@ -1,0 +1,264 @@
+|j|☆hitoshura3
+|j|☆testotesto321
+|player|p1|hitoshura3|teamrocket|1710
+|player|p2|testotesto321|bellelba|1742
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Alakazam, M|
+|poke|p1|Ditto|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Clefable, F|
+|poke|p1|Skarmory, M|
+|poke|p1|Marowak-Alola, M|
+|poke|p2|Alakazam, M|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Hippowdon, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Toxapex, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| InfinityOU
+|
+|start
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|j| Maxigluglue
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Magearna|[from] ability: Imposter
+|move|p2a: Magearna|Flash Cannon|p1a: Ditto
+|-damage|p1a: Ditto|42/100
+|-damage|p2a: Magearna|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Ditto|Pain Split|p2a: Magearna
+|-sethp|p2a: Magearna|66/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Ditto|66/100|[from] move: Pain Split
+|move|p2a: Magearna|Flash Cannon|p1a: Ditto
+|-damage|p1a: Ditto|2/100
+|-damage|p2a: Magearna|56/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Marowak|Marowak-Alola, M|100/100
+|move|p2a: Magearna|Thunderbolt|p1a: Marowak
+|-ability|p1a: Marowak|Lightning Rod|boost
+|-boost|p1a: Marowak|spa|1
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Marowak|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: testotesto321|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Marowak|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Hippowdon|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Hippowdon|Stealth Rock|p1a: Weezing
+|-sidestart|p1: hitoshura3|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|94/100|[from] Sandstorm
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p2a: Magearna|Magearna|56/100
+|-damage|p2a: Magearna|50/100|[from] Stealth Rock
+|move|p1a: Weezing|Will-O-Wisp|p2a: Magearna
+|-status|p2a: Magearna|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|94/100|[from] Sandstorm
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|-damage|p2a: Magearna|44/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Magearna|Flash Cannon|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|47/100
+|-damage|p2a: Magearna|34/100 brn|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1a: Skarmory|53/100|[from] item: Leftovers
+|-damage|p2a: Magearna|28/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Marowak|Marowak-Alola, M|94/100
+|-damage|p1a: Marowak|69/100|[from] Stealth Rock
+|move|p2a: Magearna|Fleur Cannon|p1a: Marowak
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|5/100
+|-unboost|p2a: Magearna|spa|2
+|-damage|p2a: Magearna|18/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Magearna|12/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Magearna|Flash Cannon|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|57/100
+|-damage|p2a: Magearna|2/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: Clefable|63/100|[from] item: Leftovers
+|-damage|p2a: Magearna|0 fnt|[from] brn
+|faint|p2a: Magearna
+|upkeep
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|turn|11
+|j| irgendwasmitmeeem
+|
+|switch|p1a: Marowak|Marowak-Alola, M|5/100
+|-damage|p1a: Marowak|0 fnt|[from] Stealth Rock
+|faint|p1a: Marowak
+|move|p2a: Urshifu|Surging Strikes|p1: Marowak|[notarget]
+|-fail|p2a: Urshifu
+|
+|upkeep
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|-damage|p2a: Alakazam|88/100|[from] Stealth Rock
+|move|p1a: Weezing|Defog|p2a: Alakazam
+|-unboost|p2a: Alakazam|evasion|1
+|-sideend|p2: testotesto321|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|-sideend|p1: hitoshura3|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|
+|-heal|p1a: Weezing|94/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|j| UrWaifuSmellBad
+|
+|switch|p1a: Ditto|Ditto|2/100
+|-transform|p1a: Ditto|p2a: Alakazam|[from] ability: Imposter
+|move|p2a: Alakazam|Psychic|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testotesto321)
+|j| CRISTERS
+|l| UrWaifuSmellBad
+|
+|switch|p1a: Clefable|Clefable, F|63/100
+|turn|14
+|
+|move|p2a: Alakazam|Future Sight|p1a: Clefable
+|-start|p2a: Alakazam|move: Future Sight
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|69/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Alakazam|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|26/100
+|move|p1a: Clefable|Moonblast|p2a: Alakazam
+|-damage|p2a: Alakazam|45/100
+|
+|-heal|p1a: Clefable|76/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Clefable|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Alakazam|Psychic|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-end|p1a: Clefable|move: Future Sight
+|-damage|p1a: Clefable|24/100
+|-heal|p1a: Clefable|30/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|hitoshura3 has 120 seconds left.
+|
+|move|p2a: Alakazam|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|turn|18
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Alakazam|Psyshock|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Weezing|Weezing-Galar, F|94/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Mandibuzz|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|93/100
+|
+|switch|p2a: Alakazam|Alakazam, M|45/100|[from]move: U-turn
+|
+|-heal|p1a: Weezing|99/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Alakazam|Psychic|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|-damage|p2a: Alakazam|35/100|[from] item: Life Orb
+|faint|p1a: Weezing
+|
+|upkeep
+|-message|hitoshura3 forfeited.
+|
+|win|testotesto321
+|l|☆hitoshura3
+|c|☆testotesto321|gg
+|l| InfinityOU
+|l| Maxigluglue
+|l| irgendwasmitmeeem
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).
+|j| jekke11
+|l| jekke11

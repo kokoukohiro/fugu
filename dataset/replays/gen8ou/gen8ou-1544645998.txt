@@ -1,0 +1,325 @@
+|j|☆perezbigod
+|j|‽HQSTest
+|t:|1648934339
+|gametype|singles
+|player|p1|perezbigod|policeman|1245
+|player|p2|HQSTest|cynthia|1264
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Venusaur, M|
+|poke|p1|Shiftry, F|
+|poke|p1|Victini|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Regieleki|
+|poke|p2|Omastar, M|
+|poke|p2|Kartana|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Moltres-Galar|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1648934348
+|start
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: Omastar|Omastar, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HQSTest)
+|
+|t:|1648934359
+|move|p1a: Victini|U-turn|p2a: Omastar
+|-damage|p2a: Omastar|79/100
+|-ability|p2a: Omastar|Weak Armor|boost
+|-unboost|p2a: Omastar|def|1
+|-boost|p2a: Omastar|spe|2
+|
+|t:|1648934367
+|switch|p1a: Regieleki|Regieleki|100/100|[from]move: U-turn
+|move|p2a: Omastar|Meteor Beam||[still]
+|-prepare|p2a: Omastar|Meteor Beam
+|-boost|p2a: Omastar|spa|1
+|-enditem|p2a: Omastar|Power Herb
+|-anim|p2a: Omastar|Meteor Beam|p1a: Regieleki|[miss]
+|-miss|p2a: Omastar|p1a: Regieleki
+|
+|upkeep
+|turn|2
+|
+|t:|1648934381
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Regieleki|atk|1
+|move|p1a: Regieleki|Thunder Cage|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|3
+|
+|t:|1648934393
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1648934402
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Smack Down|p1a: Landorus
+|-damage|p1a: Landorus|68/100
+|-start|p1a: Landorus|Smack Down
+|-enditem|p1a: Landorus|Eject Button
+|
+|t:|1648934417
+|switch|p1a: Victini|Victini|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1648934424
+|switch|p2a: Omastar|Omastar, M|79/100
+|move|p1a: Victini|Glaciate|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|68/100
+|-unboost|p2a: Omastar|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1648934441
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|move|p2a: Omastar|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1648934451
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Venusaur|Giga Drain|p2a: Ninetales
+|-damage|p2a: Ninetales|58/100
+|-heal|p1a: Venusaur|50/100|[from] drain|[of] p2a: Ninetales
+|-damage|p1a: Venusaur|40/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Venusaur|34/100|[from] Hail
+|upkeep
+|turn|8
+|
+|t:|1648934467
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Ninetales|Freeze-Dry|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1648934481
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Ninetales|Hail|p2a: Ninetales
+|-weather|Hail
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Victini|94/100|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1648934489
+|move|p1a: Victini|V-create|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Victini|88/100|[from] Hail
+|upkeep
+|
+|t:|1648934503
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|11
+|
+|t:|1648934513
+|switch|p1a: Torkoal|Torkoal, M|87/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1648934522
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Torkoal|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Dragapult|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1648934532
+|switch|p1a: Landorus|Landorus-Therian, M|68/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|move|p2a: Dragapult|Dragon Darts|p1a: Landorus
+|-damage|p1a: Landorus|10/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Dragapult|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1648934547
+|switch|p1a: Victini|Victini|88/100
+|turn|14
+|
+|t:|1648934551
+|move|p2a: Dragapult|Dragon Darts|p1a: Victini
+|-damage|p1a: Victini|37/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Dragapult|64/100 tox|[from] psn
+|upkeep
+|
+|t:|1648934562
+|switch|p1a: Torkoal|Torkoal, M|87/100
+|turn|15
+|
+|t:|1648934567
+|move|p2a: Dragapult|Dragon Darts|p1a: Torkoal
+|-damage|p1a: Torkoal|55/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Torkoal
+|-damage|p1a: Torkoal|22/100
+|move|p1a: Torkoal|Lava Plume|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|40/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Dragapult|16/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1648934580
+|switch|p1a: Regieleki|Regieleki|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Regieleki
+|-damage|p1a: Regieleki|0 fnt
+|faint|p1a: Regieleki
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Dragapult|0 fnt|[from] psn
+|faint|p2a: Dragapult
+|upkeep
+|
+|t:|1648934597
+|switch|p1a: Shiftry|Shiftry, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Shiftry|atk|1
+|turn|17
+|
+|t:|1648934606
+|move|p1a: Shiftry|Swords Dance|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|move|p2a: Landorus|U-turn|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-enditem|p1a: Shiftry|Focus Sash
+|-damage|p1a: Shiftry|1/100
+|
+|t:|1648934633
+|switch|p2a: Omastar|Omastar, M|68/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1648934640
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Shiftry|atk|1
+|move|p1a: Shiftry|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|45/100
+|-enditem|p2a: Landorus|Soft Sand|[from] move: Knock Off|[of] p1a: Shiftry
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1648934659
+|move|p2a: Landorus|U-turn|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|faint|p1a: Shiftry
+|
+|t:|1648934662
+|switch|p2a: Moltres|Moltres-Galar|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1648934667
+|switch|p1a: Torkoal|Torkoal, M|22/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|20
+|
+|t:|1648934675
+|move|p2a: Moltres|Fiery Wrath|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1648934681
+|switch|p1a: Venusaur|Venusaur, M|34/100
+|turn|21
+|
+|t:|1648934685
+|move|p1a: Venusaur|Weather Ball|p2a: Moltres
+|-damage|p2a: Moltres|50/100
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|-damage|p1a: Venusaur|24/100|[from] item: Life Orb
+|move|p2a: Moltres|Fiery Wrath|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|win|HQSTest
+|raw|perezbigod's rating: 1245 &rarr; <strong>1221</strong><br />(-24 for losing)
+|raw|HQSTest's rating: 1264 &rarr; <strong>1288</strong><br />(+24 for winning)
+|l|☆perezbigod
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

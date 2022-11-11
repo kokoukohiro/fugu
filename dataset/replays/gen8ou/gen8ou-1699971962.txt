@@ -1,0 +1,617 @@
+|j|☆Amane Misa
+|j|‽minimax_ai
+|t:|1667300613
+|gametype|singles
+|player|p1|Amane Misa|#amanemisa|1658
+|player|p2|minimax_ai|266|1586
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Buzzwole|
+|poke|p1|Slowbro, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Tapu Lele|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|poke|p2|Melmetal|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1667300623
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|1
+|
+|t:|1667300625
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Tornadus|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|88/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1667300628
+|move|p1a: Tornadus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|85/100
+|
+|t:|1667300629
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from]move: U-turn
+|move|p2a: Heatran|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Amane Misa|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1667300633
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Stealth Rock|p2a: Landorus
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1667300635
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|move|p1a: Garchomp|Protect||[still]
+|-fail|p1a: Garchomp
+|
+|upkeep
+|turn|5
+|
+|t:|1667300637
+|move|p1a: Garchomp|Toxic|p2a: Tangrowth
+|-status|p2a: Tangrowth|tox
+|move|p2a: Tangrowth|Sleep Powder|p1a: Garchomp|[miss]
+|-miss|p2a: Tangrowth|p1a: Garchomp
+|
+|-damage|p2a: Tangrowth|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1667300639
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Garchomp|Protect||[still]
+|-fail|p1a: Garchomp
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1667300641
+|move|p1a: Garchomp|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1667300644
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Rotom|Thunderbolt|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|71/100
+|
+|-heal|p2a: Rotom|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1667300671
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|74/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1667300682
+|move|p2a: Landorus|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-damage|p2a: Landorus|62/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|t:|1667300683
+|switch|p2a: Tangrowth|Tangrowth, F|100/100 tox|[from]move: U-turn
+|-damage|p2a: Tangrowth|88/100 tox|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tangrowth
+|-immune|p2a: Tangrowth
+|
+|-heal|p1a: Ferrothorn|73/100|[from] item: Leftovers
+|-damage|p2a: Tangrowth|82/100 tox|[from] psn
+|upkeep
+|turn|11
+|j| ggnhax
+|
+|t:|1667300686
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Tangrowth|Focus Blast|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|86/100
+|
+|-damage|p2a: Tangrowth|70/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1667300689
+|switch|p2a: Heatran|Heatran, M|85/100
+|-damage|p2a: Heatran|73/100|[from] Stealth Rock
+|move|p1a: Tornadus|Hurricane|p2a: Heatran|[miss]
+|-miss|p1a: Tornadus|p2a: Heatran
+|
+|upkeep
+|turn|13
+|
+|t:|1667300691
+|move|p1a: Tornadus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|70/100
+|
+|t:|1667300694
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from]move: U-turn
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|71/100
+|-activate|p1a: Garchomp|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Garchomp|77/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|65/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1667300696
+|switch|p2a: Tangrowth|Tangrowth, F|100/100 tox
+|-damage|p2a: Tangrowth|88/100 tox|[from] Stealth Rock
+|move|p1a: Garchomp|Earthquake|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|77/100 tox
+|
+|-heal|p1a: Garchomp|71/100|[from] item: Leftovers
+|-damage|p2a: Tangrowth|71/100 tox|[from] psn
+|-end|p1a: Garchomp|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|15
+|
+|t:|1667300698
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Tangrowth|Focus Blast|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|
+|-heal|p1a: Garchomp|77/100|[from] item: Leftovers
+|-damage|p2a: Tangrowth|59/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1667300700
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|62/100
+|-damage|p2a: Landorus|50/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|
+|upkeep
+|turn|17
+|
+|t:|1667300702
+|move|p1a: Tornadus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|44/100
+|
+|t:|1667300703
+|switch|p1a: Slowbro|Slowbro, F|100/100|[from]move: U-turn
+|move|p2a: Landorus|Toxic|p1a: Slowbro
+|-status|p1a: Slowbro|tox
+|
+|-damage|p1a: Slowbro|94/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1667300705
+|switch|p2a: Tangrowth|Tangrowth, F|92/100 tox
+|-damage|p2a: Tangrowth|80/100 tox|[from] Stealth Rock
+|move|p1a: Slowbro|Future Sight|p2a: Tangrowth
+|-start|p1a: Slowbro|move: Future Sight
+|
+|-damage|p2a: Tangrowth|74/100 tox|[from] psn
+|-damage|p1a: Slowbro|82/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1667300709
+|switch|p2a: Melmetal|Melmetal|100/100
+|-damage|p2a: Melmetal|94/100|[from] Stealth Rock
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1667300711
+|move|p1a: Tornadus|U-turn|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|91/100
+|
+|t:|1667300714
+|switch|p1a: Slowbro|Slowbro, F|100/100 tox|[from]move: U-turn
+|move|p2a: Melmetal|Double Iron Bash|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|89/100 tox
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|78/100 tox
+|-hitcount|p1a: Slowbro|2
+|
+|-end|p2a: Melmetal|move: Future Sight
+|-resisted|p2a: Melmetal
+|-crit|p2a: Melmetal
+|-damage|p2a: Melmetal|74/100
+|-damage|p1a: Slowbro|72/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1667300716
+|move|p2a: Melmetal|Double Iron Bash|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|60/100 tox
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|48/100 tox
+|-hitcount|p1a: Slowbro|2
+|cant|p1a: Slowbro|flinch
+|
+|-damage|p1a: Slowbro|36/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1667300718
+|switch|p1a: Buzzwole|Buzzwole|100/100
+|-damage|p1a: Buzzwole|88/100|[from] Stealth Rock
+|move|p2a: Melmetal|Double Iron Bash|p1a: Buzzwole
+|-damage|p1a: Buzzwole|61/100
+|-damage|p2a: Melmetal|58/100|[from] item: Rocky Helmet|[of] p1a: Buzzwole
+|-damage|p1a: Buzzwole|35/100
+|-damage|p2a: Melmetal|41/100|[from] item: Rocky Helmet|[of] p1a: Buzzwole
+|-hitcount|p1a: Buzzwole|2
+|
+|upkeep
+|turn|23
+|j| nian9
+|
+|t:|1667300720
+|switch|p2a: Rotom|Rotom-Wash|88/100 tox
+|-damage|p2a: Rotom|75/100 tox|[from] Stealth Rock
+|move|p1a: Buzzwole|Roost|p1a: Buzzwole
+|-heal|p1a: Buzzwole|85/100
+|-singleturn|p1a: Buzzwole|move: Roost
+|
+|-heal|p2a: Rotom|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|75/100 tox|[from] psn
+|upkeep
+|turn|24
+|inactive|Amane Misa has 120 seconds left.
+|
+|t:|1667300755
+|switch|p1a: Ferrothorn|Ferrothorn, F|73/100
+|-damage|p1a: Ferrothorn|67/100|[from] Stealth Rock
+|move|p2a: Rotom|Thunderbolt|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|54/100
+|
+|-heal|p2a: Rotom|82/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|61/100|[from] item: Leftovers
+|-damage|p2a: Rotom|69/100 tox|[from] psn
+|upkeep
+|turn|25
+|l| nian9
+|
+|t:|1667300757
+|switch|p2a: Landorus|Landorus-Therian, M|44/100
+|-damage|p2a: Landorus|32/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Landorus
+|-start|p2a: Landorus|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|67/100|[from] item: Leftovers
+|-damage|p2a: Landorus|20/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|80/100|[silent]
+|upkeep
+|turn|26
+|j| nian9
+|
+|t:|1667300761
+|move|p2a: Landorus|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|62/100
+|-damage|p2a: Landorus|7/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|t:|1667300761
+|switch|p2a: Tangrowth|Tangrowth, F|100/100 tox|[from]move: U-turn
+|-damage|p2a: Tangrowth|88/100 tox|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tangrowth
+|-immune|p2a: Tangrowth
+|
+|-heal|p1a: Ferrothorn|69/100|[from] item: Leftovers
+|-damage|p2a: Tangrowth|82/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1667300764
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Tangrowth|Focus Blast|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|84/100
+|
+|-damage|p2a: Tangrowth|70/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1667300767
+|switch|p2a: Melmetal|Melmetal|41/100
+|-damage|p2a: Melmetal|35/100|[from] Stealth Rock
+|move|p1a: Tornadus|Hurricane|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|23/100
+|
+|upkeep
+|turn|29
+|
+|t:|1667300770
+|move|p1a: Tornadus|U-turn|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|19/100
+|
+|t:|1667300773
+|switch|p1a: Buzzwole|Buzzwole|85/100|[from]move: U-turn
+|-damage|p1a: Buzzwole|73/100|[from] Stealth Rock
+|move|p2a: Melmetal|Ice Punch|p1a: Buzzwole
+|-damage|p1a: Buzzwole|49/100
+|-damage|p2a: Melmetal|3/100|[from] item: Rocky Helmet|[of] p1a: Buzzwole
+|
+|upkeep
+|turn|30
+|
+|t:|1667300774
+|switch|p2a: Tangrowth|Tangrowth, F|100/100 tox
+|-damage|p2a: Tangrowth|88/100 tox|[from] Stealth Rock
+|move|p1a: Buzzwole|Roost|p1a: Buzzwole
+|-heal|p1a: Buzzwole|99/100
+|-singleturn|p1a: Buzzwole|move: Roost
+|
+|-damage|p2a: Tangrowth|82/100 tox|[from] psn
+|upkeep
+|turn|31
+|l| ggnhax
+|
+|t:|1667300778
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Tangrowth|Giga Drain|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|87/100
+|-heal|p2a: Tangrowth|88/100 tox|[from] drain|[of] p1a: Tornadus
+|
+|-damage|p2a: Tangrowth|76/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1667300779
+|switch|p2a: Landorus|Landorus-Therian, M|7/100
+|-damage|p2a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p2a: Landorus
+|move|p1a: Tornadus|Hurricane|p2: Landorus|[notarget]
+|-fail|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1667300780
+|switch|p2a: Weavile|Weavile, F|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|33
+|
+|t:|1667300783
+|switch|p1a: Buzzwole|Buzzwole|99/100
+|-damage|p1a: Buzzwole|87/100|[from] Stealth Rock
+|move|p2a: Weavile|Triple Axel|p1a: Buzzwole
+|-damage|p1a: Buzzwole|77/100
+|-damage|p2a: Weavile|59/100|[from] item: Rocky Helmet|[of] p1a: Buzzwole
+|-damage|p1a: Buzzwole|59/100
+|-damage|p2a: Weavile|43/100|[from] item: Rocky Helmet|[of] p1a: Buzzwole
+|-damage|p1a: Buzzwole|27/100
+|-damage|p2a: Weavile|26/100|[from] item: Rocky Helmet|[of] p1a: Buzzwole
+|-hitcount|p1a: Buzzwole|3
+|
+|upkeep
+|turn|34
+|
+|t:|1667300788
+|switch|p1a: Ferrothorn|Ferrothorn, F|69/100
+|-damage|p1a: Ferrothorn|62/100|[from] Stealth Rock
+|move|p2a: Weavile|Triple Axel|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|51/100
+|-damage|p2a: Weavile|14/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|28/100
+|-damage|p2a: Weavile|2/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Weavile|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|faint|p2a: Weavile
+|-hitcount|p1: Ferrothorn|3
+|
+|upkeep
+|
+|t:|1667300790
+|switch|p2a: Tangrowth|Tangrowth, F|100/100 tox
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-damage|p1a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|-damage|p2a: Tangrowth|88/100 tox|[from] Stealth Rock
+|turn|35
+|
+|t:|1667300792
+|switch|p2a: Melmetal|Melmetal|3/100
+|-damage|p2a: Melmetal|0 fnt|[from] Stealth Rock
+|faint|p2a: Melmetal
+|move|p1a: Tapu Lele|Psychic|p2: Melmetal|[notarget]
+|-fail|p1a: Tapu Lele
+|
+|upkeep
+|
+|t:|1667300793
+|switch|p2a: Heatran|Heatran, M|70/100
+|-damage|p2a: Heatran|57/100|[from] Stealth Rock
+|turn|36
+|
+|t:|1667300795
+|switch|p1a: Garchomp|Garchomp, M|77/100
+|-damage|p1a: Garchomp|71/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Garchomp|[miss]
+|-miss|p2a: Heatran|p1a: Garchomp
+|
+|-heal|p1a: Garchomp|77/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1667300802
+|switch|p2a: Tangrowth|Tangrowth, F|100/100 tox
+|-damage|p2a: Tangrowth|88/100 tox|[from] Stealth Rock
+|move|p1a: Garchomp|Earthquake|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|77/100 tox
+|
+|-heal|p1a: Garchomp|84/100|[from] item: Leftovers
+|-damage|p2a: Tangrowth|71/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1667300809
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Tangrowth|Sleep Powder|p1a: Tornadus|[miss]
+|-miss|p2a: Tangrowth|p1a: Tornadus
+|
+|-damage|p2a: Tangrowth|59/100 tox|[from] psn
+|upkeep
+|turn|39
+|j| nightsuwu
+|
+|t:|1667300827
+|move|p1a: Tornadus|Hurricane|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1667300827
+|switch|p2a: Rotom|Rotom-Wash|69/100 tox
+|-damage|p2a: Rotom|57/100 tox|[from] Stealth Rock
+|turn|40
+|
+|t:|1667300851
+|move|p1a: Tornadus|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|35/100 tox
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Rotom|Thunderbolt|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|25/100
+|
+|-damage|p2a: Rotom|28/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1667300853
+|move|p1a: Tornadus|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|12/100 tox
+|
+|t:|1667300855
+|switch|p1a: Garchomp|Garchomp, M|84/100|[from]move: U-turn
+|-damage|p1a: Garchomp|77/100|[from] Stealth Rock
+|move|p2a: Rotom|Pain Split|p1a: Garchomp
+|-sethp|p1a: Garchomp|43/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|59/100 tox|[from] move: Pain Split
+|
+|-heal|p1a: Garchomp|49/100|[from] item: Leftovers
+|-damage|p2a: Rotom|47/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1667300857
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Rotom|Thunderbolt|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|
+|-heal|p1a: Garchomp|56/100|[from] item: Leftovers
+|-damage|p2a: Rotom|28/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1667300864
+|move|p1a: Garchomp|Protect||[still]
+|-fail|p1a: Garchomp
+|move|p2a: Rotom|Hydro Pump|p1a: Garchomp
+|-damage|p1a: Garchomp|15/100
+|
+|-heal|p1a: Garchomp|21/100|[from] item: Leftovers
+|-damage|p2a: Rotom|3/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|t:|1667300866
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Rotom|Hydro Pump|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|
+|-heal|p1a: Garchomp|27/100|[from] item: Leftovers
+|-damage|p2a: Rotom|0 fnt|[from] psn
+|faint|p2a: Rotom
+|upkeep
+|
+|t:|1667300866
+|switch|p2a: Heatran|Heatran, M|57/100
+|-damage|p2a: Heatran|45/100|[from] Stealth Rock
+|turn|45
+|
+|t:|1667300868
+|move|p1a: Garchomp|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|win|Amane Misa
+|raw|Amane Misa's rating: 1658 &rarr; <strong>1674</strong><br />(+16 for winning)
+|raw|minimax_ai's rating: 1586 &rarr; <strong>1570</strong><br />(-16 for losing)

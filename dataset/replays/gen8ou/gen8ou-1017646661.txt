@@ -1,0 +1,238 @@
+|j|☆KvnLiao
+|j|☆Gotham Paladin
+|player|p1|KvnLiao|kukui|1535
+|player|p2|Gotham Paladin|283|1484
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|item
+|poke|p1|Dragapult, M|item
+|poke|p1|Ditto|item
+|poke|p1|Indeedee, M|item
+|poke|p1|Hawlucha, F|item
+|poke|p1|Corviknight, F|item
+|poke|p2|Aegislash, F|item
+|poke|p2|Grimmsnarl, M|item
+|poke|p2|Seismitoad, F|item
+|poke|p2|Rotom-Mow|item
+|poke|p2|Dragapult, M|item
+|poke|p2|Conkeldurr, F|item
+|teampreview
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KvnLiao)
+|
+|move|p2a: Rotom|Volt Switch|p1a: Indeedee
+|-damage|p1a: Indeedee|54/100
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100|[from]move: Volt Switch
+|move|p1a: Indeedee|Psychic|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|75/100
+|
+|upkeep
+|turn|2
+|
+|-start|p1a: Indeedee|Dynamax
+|-heal|p1a: Indeedee|54/100|[silent]
+|move|p1a: Indeedee|Max Flare|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|11/100
+|-enditem|p2a: Aegislash|Weakness Policy
+|-boost|p2a: Aegislash|atk|2
+|-boost|p2a: Aegislash|spa|2
+|-weather|SunnyDay
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Indeedee
+|-immune|p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|c|☆Gotham Paladin|crap im dumb
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-item|p1a: Indeedee|Choice Scarf|[from] ability: Frisk|[of] p2a: Grimmsnarl|[identify]
+|move|p1a: Indeedee|Max Flare|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|c|☆KvnLiao|it happens a lot actually
+|c|☆KvnLiao|lol
+|c|☆Gotham Paladin|lol i bet
+|
+|move|p1a: Indeedee|Max Strike|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|37/100
+|-unboost|p2a: Grimmsnarl|spe|1
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|switch|p2a: Aegislash|Aegislash, F|11/100
+|move|p1a: Dragapult|Flamethrower|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|37/100
+|-item|p1a: Dragapult|Choice Specs|[from] ability: Frisk|[of] p2a: Grimmsnarl|[identify]
+|turn|6
+|
+|move|p1a: Dragapult|Flamethrower|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|5/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|24/100
+|-unboost|p1a: Dragapult|spa|1
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|turn|8
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|9
+|
+|move|p2a: Rotom|Volt Switch|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Dragapult|[from] ability: Imposter
+|turn|10
+|
+|-start|p2a: Dragapult|Dynamax
+|-heal|p2a: Dragapult|100/100|[silent]
+|move|p1a: Ditto|Phantom Force||[still]
+|-prepare|p1a: Ditto|Phantom Force|p2a: Dragapult
+|move|p2a: Dragapult|Max Phantasm|p1a: Ditto|[miss]
+|-miss|p2a: Dragapult|p1a: Ditto
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Ditto|Phantom Force|p2a: Dragapult|[from]lockedmove
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|38/100
+|move|p2a: Dragapult|Max Phantasm|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|12
+|
+|move|p2a: Dragapult|Max Phantasm|p1a: Corviknight
+|-damage|p1a: Corviknight|60/100
+|-unboost|p1a: Corviknight|def|1
+|move|p1a: Corviknight|Brave Bird|p2a: Dragapult
+|-damage|p2a: Dragapult|13/100
+|-damage|p1a: Corviknight|48/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|54/100|[from] item: Leftovers
+|-end|p2a: Dragapult|Dynamax
+|-heal|p2a: Dragapult|13/100|[silent]
+|upkeep
+|turn|13
+|inactive|KvnLiao has 120 seconds left.
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Corviknight|Brave Bird|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Corviknight|50/100|[from] Recoil
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Corviknight|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|14
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|37/100
+|-damage|p1a: Corviknight|34/100|[from] Recoil
+|move|p2a: Conkeldurr|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-heal|p2a: Conkeldurr|53/100|[from] drain|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|15
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Dracovish
+|-damage|p1a: Dracovish|62/100
+|move|p1a: Dracovish|Outrage|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|16
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Dracovish
+|
+|win|Gotham Paladin
+|l|☆KvnLiao
+|c|☆Gotham Paladin|gg
+|l|☆Gotham Paladin

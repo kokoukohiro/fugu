@@ -1,0 +1,339 @@
+|j|☆minimax_ai
+|j|☆Pinapple321
+|t:|1665507828
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1626
+|player|p2|Pinapple321|marlon|1601
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Aegislash, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Zapdos|
+|poke|p2|Rillaboom, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1665507861
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Dragapult|atk|1
+|turn|1
+|
+|t:|1665507865
+|move|p2a: Dragapult|U-turn|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|95/100
+|
+|t:|1665507868
+|switch|p2a: Zapdos|Zapdos|100/100|[from]move: U-turn
+|move|p1a: landorustherian|Defog|p2a: Zapdos
+|-unboost|p2a: Zapdos|evasion|1
+|
+|-heal|p1a: landorustherian|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1665507870
+|move|p2a: Zapdos|Hurricane|p1a: landorustherian
+|-damage|p1a: landorustherian|67/100
+|move|p1a: landorustherian|Defog|p2a: Zapdos
+|-unboost|p2a: Zapdos|evasion|1
+|
+|-heal|p1a: landorustherian|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1665507872
+|move|p2a: Zapdos|Hurricane|p1a: landorustherian|[miss]
+|-miss|p2a: Zapdos|p1a: landorustherian
+|move|p1a: landorustherian|Defog|p2a: Zapdos
+|-unboost|p2a: Zapdos|evasion|1
+|
+|-heal|p1a: landorustherian|79/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1665507875
+|move|p2a: Zapdos|Hurricane|p1a: landorustherian
+|-damage|p1a: landorustherian|42/100
+|move|p1a: landorustherian|Defog|p2a: Zapdos
+|-unboost|p2a: Zapdos|evasion|1
+|
+|-heal|p1a: landorustherian|49/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1665507878
+|move|p2a: Zapdos|Hurricane|p1a: landorustherian
+|-damage|p1a: landorustherian|12/100
+|move|p1a: landorustherian|Defog|p2a: Zapdos
+|-unboost|p2a: Zapdos|evasion|1
+|
+|-heal|p1a: landorustherian|18/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1665507880
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|88/100
+|-start|p1a: Melmetal|confusion
+|
+|upkeep
+|turn|7
+|
+|t:|1665507884
+|move|p2a: Zapdos|Volt Switch|p1a: Melmetal
+|-damage|p1a: Melmetal|74/100
+|j| inv solak plz
+|
+|t:|1665507889
+|switch|p2a: Aegislash|Aegislash, F|100/100|[from]move: Volt Switch
+|-activate|p1a: Melmetal|confusion
+|-damage|p1a: Melmetal|65/100|[from] confusion
+|
+|upkeep
+|turn|8
+|
+|t:|1665507896
+|switch|p1a: landorustherian|Landorus-Therian, M|18/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Aegislash|atk|1
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: landorustherian
+|-crit|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1665507896
+|switch|p1a: Melmetal|Melmetal|65/100
+|turn|9
+|
+|t:|1665507900
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Melmetal|Ice Punch|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|47/100
+|-status|p1a: Melmetal|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|upkeep
+|turn|10
+|
+|t:|1665507903
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|97/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Melmetal|Double Iron Bash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|81/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|64/100
+|-hitcount|p2a: Zapdos|2
+|
+|upkeep
+|turn|11
+|
+|t:|1665507906
+|move|p2a: Zapdos|Volt Switch|p1a: Melmetal
+|-crit|p1a: Melmetal
+|-damage|p1a: Melmetal|43/100 par
+|
+|t:|1665507909
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from]move: Volt Switch
+|move|p1a: Melmetal|Double Iron Bash|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|80/100
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|59/100
+|-hitcount|p2a: Urshifu|2
+|
+|upkeep
+|turn|12
+|
+|t:|1665507938
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Urshifu|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|49/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|-damage|p2a: Urshifu|42/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|13
+|
+|t:|1665507941
+|move|p2a: Urshifu|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|-damage|p2a: Urshifu|26/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|faint|p1a: Tangrowth
+|
+|upkeep
+|
+|t:|1665507941
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|14
+|
+|t:|1665507947
+|switch|p2a: Zapdos|Zapdos|64/100
+|move|p1a: Weavile|Triple Axel|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|29/100
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-hitcount|p2: Zapdos|2
+|
+|upkeep
+|
+|t:|1665507951
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|15
+|
+|t:|1665507952
+|move|p1a: Weavile|Triple Axel|p2a: Tyranitar
+|-damage|p2a: Tyranitar|90/100
+|-hitcount|p2a: Tyranitar|1
+|move|p2a: Tyranitar|Stealth Rock|p1a: Weavile
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|96/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1665507955
+|move|p1a: Weavile|Triple Axel|p2a: Tyranitar
+|-damage|p2a: Tyranitar|84/100
+|-damage|p2a: Tyranitar|60/100
+|-damage|p2a: Tyranitar|23/100
+|-hitcount|p2a: Tyranitar|3
+|move|p2a: Tyranitar|Rock Blast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|55/100
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|15/100
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-hitcount|p1: Weavile|3
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1665507955
+|switch|p1a: Melmetal|Melmetal|43/100 par
+|-damage|p1a: Melmetal|37/100 par|[from] Stealth Rock
+|turn|17
+|
+|t:|1665507959
+|move|p2a: Tyranitar|Earthquake|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|2/100 par
+|move|p1a: Melmetal|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1665507973
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|18
+|
+|t:|1665507975
+|move|p2a: Dragapult|Shadow Ball|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1665507975
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|19
+|
+|t:|1665507983
+|move|p2a: Dragapult|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|38/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Magma Storm|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|58/100
+|-activate|p2a: Dragapult|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|none
+|-damage|p2a: Dragapult|45/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|20
+|
+|t:|1665507986
+|move|p2a: Dragapult|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-end|p2a: Dragapult|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1665507986
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1665507988
+|move|p2a: Dragapult|Shadow Ball|p1a: rotomwash
+|-damage|p1a: rotomwash|28/100
+|move|p1a: rotomwash|Hydro Pump|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|14/100
+|
+|-heal|p1a: rotomwash|34/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1665507991
+|move|p2a: Dragapult|Shadow Ball|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|win|Pinapple321
+|raw|minimax_ai's rating: 1626 &rarr; <strong>1605</strong><br />(-21 for losing)
+|raw|Pinapple321's rating: 1601 &rarr; <strong>1622</strong><br />(+21 for winning)
+|c|☆minimax_ai|gg

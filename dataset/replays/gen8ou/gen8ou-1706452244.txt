@@ -1,0 +1,332 @@
+|j|☆stimo96
+|j|☆minimax_ai
+|t:|1667992938
+|gametype|singles
+|player|p1|stimo96|alder|1635
+|player|p2|minimax_ai|169|1634
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Zapdos|
+|poke|p1|Volcanion|
+|poke|p1|Seismitoad, F|
+|poke|p1|Barraskewda, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1667992944
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|c|☆stimo96|u2
+|j| broked on bricks
+|
+|t:|1667992951
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|move|p1a: Pelipper|U-turn|p2a: rotomwash
+|-damage|p2a: rotomwash|93/100
+|
+|t:|1667992957
+|switch|p1a: Zapdos|Zapdos|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: rotomwash|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1667992963
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Zapdos|Thunder|p2a: Melmetal
+|-damage|p2a: Melmetal|66/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1667992970
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Melmetal|Thunder Punch|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|36/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1667992977
+|switch|p2a: rotomwash|Rotom-Wash|99/100
+|move|p1a: Volcanion|Steam Eruption|p2a: rotomwash
+|-resisted|p2a: rotomwash
+|-damage|p2a: rotomwash|21/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: rotomwash|27/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1667992986
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: rotomwash|Thunderbolt|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|-enditem|p1a: Ferrothorn|Eject Button
+|
+|t:|1667992999
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: rotomwash|33/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1667993004
+|move|p1a: Seismitoad|Weather Ball|p2a: rotomwash
+|-resisted|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|faint|p2a: rotomwash
+|-damage|p1a: Seismitoad|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1667993005
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|turn|7
+|
+|t:|1667993019
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Tangrowth|Focus Blast|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|82/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1667993028
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Zapdos|Thunder|p2a: Weavile
+|-damage|p2a: Weavile|21/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1667993041
+|switch|p1a: Ferrothorn|Ferrothorn, M|89/100
+|move|p2a: Weavile|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|52/100
+|-damage|p2a: Weavile|9/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|10
+|
+|t:|1667993048
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Ferrothorn|Spikes|p2a: Heatran
+|-sidestart|p2: minimax_ai|Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1667993054
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Heatran|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: stimo96|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1667993061
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Spikes
+|move|p1a: Pelipper|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|78/100
+|-damage|p1a: Pelipper|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|t:|1667993068
+|switch|p1a: Zapdos|Zapdos|82/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1667993074
+|switch|p2a: Weavile|Weavile, M|9/100
+|-damage|p2a: Weavile|0 fnt|[from] Spikes
+|faint|p2a: Weavile
+|move|p1a: Zapdos|Thunder|p2: Weavile|[notarget]
+|-fail|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1667993074
+|switch|p2a: Melmetal|Melmetal|66/100
+|-damage|p2a: Melmetal|53/100|[from] Spikes
+|turn|14
+|
+|t:|1667993085
+|move|p1a: Zapdos|Thunder|p2a: Melmetal
+|-damage|p2a: Melmetal|19/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|56/100
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|33/100
+|-hitcount|p1a: Zapdos|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1667993093
+|move|p1a: Zapdos|Weather Ball|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1667993093
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|turn|16
+|
+|t:|1667993104
+|move|p1a: Zapdos|Weather Ball|p2a: landorustherian
+|-supereffective|p2a: landorustherian
+|-damage|p2a: landorustherian|19/100
+|move|p2a: landorustherian|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: landorustherian|25/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|26/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1667993115
+|move|p1a: Zapdos|Hurricane|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zapdos|14/100 tox|[from] psn
+|upkeep
+|
+|t:|1667993115
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|18
+|
+|t:|1667993126
+|switch|p1a: Ferrothorn|Ferrothorn, M|52/100
+|-damage|p1a: Ferrothorn|46/100|[from] Stealth Rock
+|move|p2a: Heatran|Earth Power|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|18/100
+|-unboost|p1a: Ferrothorn|spd|1
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1667993136
+|switch|p1a: Pelipper|Pelipper, M|84/100
+|-damage|p1a: Pelipper|59/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Heatran|Magma Storm|p1a: Pelipper|[miss]
+|-miss|p2a: Heatran|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1667993145
+|move|p2a: Heatran|Magma Storm|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|42/100
+|-activate|p1a: Pelipper|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Pelipper|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|98/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|t:|1667993153
+|switch|p1a: Seismitoad|Seismitoad, F|91/100|[from]move: U-turn
+|-damage|p1a: Seismitoad|85/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1667993163
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Spikes
+|move|p1a: Seismitoad|Weather Ball|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|26/100
+|-damage|p1a: Seismitoad|75/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1667993172
+|move|p1a: Seismitoad|Weather Ball|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|-damage|p1a: Seismitoad|65/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1667993172
+|switch|p2a: Heatran|Heatran, M|98/100
+|-damage|p2a: Heatran|86/100|[from] Spikes
+|turn|23
+|c|☆stimo96|gg
+|
+|t:|1667993182
+|move|p1a: Seismitoad|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-damage|p1a: Seismitoad|55/100|[from] item: Life Orb
+|
+|win|stimo96
+|raw|stimo96's rating: 1635 &rarr; <strong>1655</strong><br />(+20 for winning)
+|raw|minimax_ai's rating: 1634 &rarr; <strong>1614</strong><br />(-20 for losing)
+|c|☆minimax_ai|gg

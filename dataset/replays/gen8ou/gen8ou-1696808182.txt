@@ -1,0 +1,362 @@
+|html|<div class="broadcast-blue"><strong>[Gen 8] OU is currently suspecting Melmetal! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/np-ss-ou-suspect-process-round-12-monster-mash.3709234/">suspect thread</a>.</strong></div>
+|j|☆minimax_ai
+|j|☆Redflix
+|t:|1666932249
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1477
+|player|p2|Redflix|erika|1539
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Hippowdon, M|
+|poke|p2|Clefable, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Volcarona, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Redflix)
+|inactive|minimax_ai also wants the timer to be on.
+|
+|t:|1666932269
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Clefable|Clefable, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1666932275
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Heatran|Eruption|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|83/100
+|
+|upkeep
+|turn|2
+|
+|t:|1666932280
+|move|p1a: Heatran|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: Redflix|move: Stealth Rock
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|upkeep
+|turn|3
+|
+|t:|1666932282
+|move|p1a: Heatran|Magma Storm|p2a: Dragonite|[miss]
+|-miss|p1a: Heatran|p2a: Dragonite
+|move|p2a: Dragonite|Dual Wingbeat|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|89/100
+|-enditem|p1a: Heatran|Air Balloon
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|79/100
+|-hitcount|p1a: Heatran|2
+|
+|upkeep
+|turn|4
+|
+|t:|1666932286
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1666932292
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: rotomwash
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|94/100|[from] Sandstorm
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1666932294
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|94/100|[from] Sandstorm
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1666932297
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p1a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: landorustherian
+|-start|p1a: landorustherian|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: landorustherian|94/100|[from] item: Leftovers
+|-damage|p1a: landorustherian|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1666932299
+|move|p1a: landorustherian|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|-damage|p1a: landorustherian|70/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: landorustherian|53/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|t:|1666932299
+|switch|p1a: Tangrowth|Tangrowth, M|100/100|[from]move: U-turn
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|81/100
+|-damage|p2a: Ferrothorn|71/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1666932303
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Tangrowth|Focus Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|10
+|
+|t:|1666932306
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Tangrowth|Sleep Powder|p2a: Tornadus
+|-status|p2a: Tornadus|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|11
+|
+|t:|1666932315
+|switch|p1a: landorustherian|Landorus-Therian, M|53/100
+|-damage|p1a: landorustherian|41/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|cant|p2a: Tornadus|slp
+|
+|-heal|p1a: landorustherian|47/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1666932317
+|-curestatus|p2a: Tornadus|slp|[msg]
+|move|p2a: Tornadus|Hurricane|p1a: landorustherian
+|-damage|p1a: landorustherian|14/100
+|-start|p1a: landorustherian|confusion
+|-activate|p1a: landorustherian|confusion
+|-damage|p1a: landorustherian|2/100|[from] confusion
+|
+|-heal|p1a: landorustherian|8/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1666932321
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|move|p2a: Tornadus|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|78/100
+|
+|t:|1666932325
+|switch|p2a: Ferrothorn|Ferrothorn, F|71/100|[from]move: U-turn
+|-damage|p2a: Ferrothorn|64/100|[from] Stealth Rock
+|
+|-heal|p1a: rotomwash|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1666932327
+|move|p1a: rotomwash|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|49/100
+|move|p2a: Ferrothorn|Spikes|p1a: rotomwash
+|-sidestart|p1: minimax_ai|Spikes
+|
+|-heal|p1a: rotomwash|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1666932332
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|
+|-heal|p1a: rotomwash|97/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1666932339
+|switch|p2a: Ferrothorn|Ferrothorn, F|49/100
+|-damage|p2a: Ferrothorn|43/100|[from] Stealth Rock
+|move|p1a: rotomwash|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|5/100
+|
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1666932344
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: rotomwash|Hydro Pump|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|18
+|
+|t:|1666932352
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: rotomwash|Hydro Pump|p2a: Clefable
+|-damage|p2a: Clefable|17/100
+|
+|-heal|p2a: Clefable|23/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1666932369
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: rotomwash|Hydro Pump|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|94/100|[from] Sandstorm
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1666932374
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|20
+|
+|t:|1666932376
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|-damage|p1a: rotomwash|94/100|[from] Sandstorm
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1666932380
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|move|p1a: rotomwash|Thunderbolt|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|76/100
+|-status|p2a: Dragonite|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|94/100|[from] Sandstorm
+|-damage|p2a: Dragonite|70/100 par|[from] Sandstorm
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆Redflix|lmao
+|c|☆Redflix|ofc
+|
+|t:|1666932396
+|move|p1a: rotomwash|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|94/100|[from] Sandstorm
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1666932404
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|23
+|
+|t:|1666932406
+|move|p2a: Tornadus|Hurricane|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|79/100
+|move|p1a: rotomwash|Hydro Pump|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|none
+|-heal|p1a: rotomwash|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1666932410
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|24
+|
+|t:|1666932411
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: rotomwash|Hydro Pump|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-heal|p1a: rotomwash|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1666932414
+|switch|p2a: Clefable|Clefable, M|23/100
+|turn|25
+|
+|t:|1666932415
+|move|p1a: rotomwash|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-heal|p1a: rotomwash|98/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1666932417
+|switch|p2a: Ferrothorn|Ferrothorn, F|5/100
+|-damage|p2a: Ferrothorn|0 fnt|[from] Stealth Rock
+|faint|p2a: Ferrothorn
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1477 &rarr; <strong>1501</strong><br />(+24 for winning)
+|raw|Redflix's rating: 1539 &rarr; <strong>1515</strong><br />(-24 for losing)
+|c|☆minimax_ai|gg

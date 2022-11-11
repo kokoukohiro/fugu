@@ -1,0 +1,376 @@
+|j|☆Lunar Neo
+|j|☆InCollegeATM
+|player|p1|Lunar Neo|248|1509
+|player|p2|InCollegeATM|teamrocket|1500
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Mamoswine, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Clefable, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Toxtricity, F|
+|poke|p2|Flapple, M|
+|poke|p2|Mr. Rime, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Jellicent, M|
+|teampreview
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Flapple|Flapple, M|100/100
+|turn|1
+|
+|-start|p2a: Flapple|Dynamax
+|-heal|p2a: Flapple|100/100|[silent]
+|move|p2a: Flapple|Max Overgrowth|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-fieldstart|move: Grassy Terrain
+|-damage|p2a: Flapple|96/100|[from] item: Life Orb
+|faint|p1a: Mamoswine
+|
+|-heal|p2a: Flapple|99/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|turn|2
+|
+|move|p1a: Toxtricity|Sludge Wave|p2a: Flapple
+|-supereffective|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|faint|p2a: Flapple
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|turn|3
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Toxtricity|Volt Switch|p1a: Aegislash
+|-damage|p1a: Aegislash|63/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lunar Neo)
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Aegislash|69/100|[from] item: Leftovers
+|-heal|p1a: Aegislash|75/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Jellicent|Shadow Ball|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|87/100
+|
+|-heal|p1a: Hydreigon|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|68/100
+|
+|-heal|p1a: Hydreigon|74/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: InCollegeATM|move: Light Screen
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|
+|-heal|p1a: Hydreigon|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Lunar Neo has 120 seconds left.
+|
+|move|p1a: Hydreigon|Flamethrower|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|70/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Lunar Neo has 120 seconds left.
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|77/100
+|-unboost|p1a: Toxtricity|spa|1
+|
+|upkeep
+|turn|9
+|inactive|Lunar Neo has 120 seconds left.
+|inactive|Lunar Neo has 90 seconds left.
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|move|p1a: Toxtricity|Sludge Wave|p2a: Kommo-o
+|-damage|p2a: Kommo-o|71/100
+|
+|-heal|p2a: Kommo-o|77/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Kommo-o|Stealth Rock|p1a: Clefable
+|-sidestart|p1: Lunar Neo|move: Stealth Rock
+|
+|-heal|p2a: Kommo-o|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Lunar Neo has 90 seconds left.
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|switch|p1a: Hydreigon|Hydreigon, M|86/100
+|-damage|p1a: Hydreigon|74/100|[from] Stealth Rock
+|
+|-heal|p1a: Hydreigon|80/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Aegislash|Aegislash, M|75/100
+|-damage|p1a: Aegislash|69/100|[from] Stealth Rock
+|move|p2a: Toxtricity|Boomburst|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|-heal|p1a: Aegislash|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Kommo-o|Kommo-o, F|84/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Kommo-o
+|-damage|p2a: Kommo-o|60/100
+|
+|-heal|p2a: Kommo-o|66/100|[from] item: Leftovers
+|-heal|p1a: Aegislash|81/100|[from] item: Leftovers
+|-sideend|p2: InCollegeATM|move: Light Screen
+|upkeep
+|turn|14
+|inactive|Lunar Neo has 90 seconds left.
+|
+|move|p2a: Kommo-o|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Kommo-o|72/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|15
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: Jellicent
+|-damage|p2a: Jellicent|75/100
+|-unboost|p2a: Jellicent|spa|1
+|
+|-heal|p2a: Jellicent|81/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Lunar Neo has 90 seconds left.
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|switch|p1a: Toxtricity|Toxtricity, F|77/100
+|-damage|p1a: Toxtricity|64/100|[from] Stealth Rock
+|
+|upkeep
+|turn|17
+|inactive|InCollegeATM has 120 seconds left.
+|
+|switch|p2a: Kommo-o|Kommo-o, F|72/100
+|move|p1a: Toxtricity|Boomburst|p2a: Kommo-o
+|-immune|p2a: Kommo-o|[from] ability: Soundproof
+|
+|-heal|p2a: Kommo-o|79/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Lunar Neo has 90 seconds left.
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Kommo-o|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|72/100
+|
+|-heal|p2a: Kommo-o|85/100|[from] item: Leftovers
+|-heal|p1a: Clefable|78/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|InCollegeATM has 90 seconds left.
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|100/100
+|move|p1a: Clefable|Flamethrower|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|66/100
+|-enditem|p2a: Mr. Rime|Weakness Policy
+|-boost|p2a: Mr. Rime|atk|2
+|-boost|p2a: Mr. Rime|spa|2
+|
+|-heal|p1a: Clefable|84/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆InCollegeATM|well then
+|
+|move|p2a: Mr. Rime|Rapid Spin|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|64/100
+|-boost|p2a: Mr. Rime|spe|1
+|move|p1a: Clefable|Flamethrower|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|30/100
+|-status|p2a: Mr. Rime|brn
+|
+|-heal|p1a: Clefable|70/100|[from] item: Leftovers
+|-damage|p2a: Mr. Rime|24/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Mr. Rime|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|19/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|69/100
+|
+|-heal|p1a: Clefable|75/100|[from] item: Leftovers
+|-damage|p2a: Mr. Rime|18/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Mr. Rime|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|24/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|74/100
+|
+|-heal|p1a: Clefable|80/100|[from] item: Leftovers
+|-damage|p2a: Mr. Rime|12/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Mr. Rime|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|25/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|75/100
+|
+|-heal|p1a: Clefable|81/100|[from] item: Leftovers
+|-damage|p2a: Mr. Rime|6/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Mr. Rime|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|30/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|80/100
+|
+|-heal|p1a: Clefable|86/100|[from] item: Leftovers
+|-damage|p2a: Mr. Rime|0 fnt|[from] brn
+|faint|p2a: Mr. Rime
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|turn|25
+|inactive|Lunar Neo has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Toxtricity|Sludge Wave|p1a: Rotom
+|-damage|p1a: Rotom|16/100
+|
+|-heal|p1a: Rotom|22/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Toxtricity|Sludge Wave|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|inactive|Lunar Neo has 120 seconds left.
+|
+|switch|p1a: Hydreigon|Hydreigon, M|80/100
+|-damage|p1a: Hydreigon|68/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxtricity
+|-damage|p2a: Toxtricity|34/100
+|move|p2a: Toxtricity|Sludge Wave|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|64/100
+|-damage|p1a: Toxtricity|52/100|[from] Stealth Rock
+|turn|28
+|inactive|InCollegeATM has 120 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, M|81/100
+|move|p1a: Toxtricity|Sludge Wave|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|53/100
+|
+|-heal|p2a: Jellicent|59/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|-start|p1a: Toxtricity|Dynamax
+|-heal|p1a: Toxtricity|52/100|[silent]
+|move|p1a: Toxtricity|Max Lightning|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Jellicent
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, F|85/100
+|turn|30
+|
+|move|p2a: Kommo-o|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-crit|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-heal|p2a: Kommo-o|91/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|86/100
+|turn|31
+|
+|move|p2a: Kommo-o|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|60/100
+|move|p1a: Clefable|Moonblast|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-heal|p1a: Clefable|66/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|34/100
+|turn|32
+|
+|move|p2a: Toxtricity|Sludge Wave|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|win|InCollegeATM
+|l|☆Lunar Neo

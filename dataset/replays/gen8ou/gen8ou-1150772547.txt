@@ -1,0 +1,388 @@
+|j|☆Ayante
+|j|☆carly rae jesus
+|player|p1|Ayante|koga|1741
+|player|p2|carly rae jesus|#peachyclouds|1699
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Urshifu-*, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Magearna|
+|poke|p1|Togekiss, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Cinderace, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Kyurem|
+|poke|p2|Slowbro, M|
+|poke|p2|Clefable, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Amoonguss, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ayante)
+|j| HeavenStar
+|
+|start
+|switch|p1a: NovusOrdoSeclorum|Magearna|100/100
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|turn|1
+|
+|move|p1a: NovusOrdoSeclorum|Flash Cannon|p2a: Amoonguss
+|-damage|p2a: Amoonguss|35/100
+|move|p2a: Amoonguss|Spore|p1a: NovusOrdoSeclorum
+|-status|p1a: NovusOrdoSeclorum|slp|[from] move: Spore
+|
+|-heal|p2a: Amoonguss|41/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|cant|p1a: NovusOrdoSeclorum|slp
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Wishi washi|Rotom-Wash|100/100
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|switch|p2a: Kyurem|Kyurem|100/100|[from]move: Teleport
+|-ability|p2a: Kyurem|Pressure
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Kyurem|Freeze-Dry|p1a: Wishi washi
+|-supereffective|p1a: Wishi washi
+|-damage|p1a: Wishi washi|0 fnt
+|faint|p1a: Wishi washi
+|
+|upkeep
+|inactive|Ayante has 120 seconds left.
+|
+|switch|p1a: NovusOrdoSeclorum|Magearna|100/100 slp
+|turn|5
+|
+|switch|p2a: Urshifu|Urshifu, M, shiny|100/100
+|-curestatus|p1a: NovusOrdoSeclorum|slp|[msg]
+|move|p1a: NovusOrdoSeclorum|Volt Switch|p2a: Urshifu
+|-damage|p2a: Urshifu|39/100
+|inactive|Ayante has 120 seconds left.
+|j| supstall
+|
+|switch|p1a: Typhon|Dragapult, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Typhon|Substitute|p1a: Typhon
+|-start|p1a: Typhon|Substitute
+|-damage|p1a: Typhon|76/100
+|
+|-heal|p1a: Typhon|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|j| kenshiro27
+|
+|move|p1a: Typhon|Thunder Wave|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|par
+|move|p2a: Mandibuzz|Knock Off|p1a: Typhon
+|-supereffective|p1a: Typhon
+|-end|p1a: Typhon|Substitute
+|
+|-heal|p1a: Typhon|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: NovusOrdoSeclorum|Magearna|100/100
+|move|p2a: Mandibuzz|Knock Off|p1a: NovusOrdoSeclorum
+|-resisted|p1a: NovusOrdoSeclorum
+|-damage|p1a: NovusOrdoSeclorum|90/100
+|-enditem|p1a: NovusOrdoSeclorum|Choice Specs|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Amoonguss|Amoonguss, F|74/100
+|move|p1a: NovusOrdoSeclorum|Volt Switch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|62/100
+|
+|switch|p1a: Chukla Chukla|Togekiss, F|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Amoonguss|68/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Chukla Chukla|Substitute|p1a: Chukla Chukla
+|-start|p1a: Chukla Chukla|Substitute
+|-damage|p1a: Chukla Chukla|75/100
+|
+|-heal|p1a: Chukla Chukla|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|l| supstall
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Chukla Chukla
+|-supereffective|p1a: Chukla Chukla
+|-end|p1a: Chukla Chukla|Substitute
+|move|p1a: Chukla Chukla|Air Slash|p2a: Kyurem
+|-damage|p2a: Kyurem|61/100
+|
+|-heal|p1a: Chukla Chukla|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: NovusOrdoSeclorum|Magearna|90/100
+|move|p2a: Kyurem|Ice Beam|p1a: NovusOrdoSeclorum
+|-resisted|p1a: NovusOrdoSeclorum
+|-damage|p1a: NovusOrdoSeclorum|61/100
+|
+|upkeep
+|turn|13
+|inactive|Ayante has 120 seconds left.
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: NovusOrdoSeclorum|Flash Cannon|p2a: Amoonguss
+|-damage|p2a: Amoonguss|56/100
+|
+|-heal|p2a: Amoonguss|62/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|inactive|Ayante has 120 seconds left.
+|
+|move|p1a: NovusOrdoSeclorum|Flash Cannon|p2a: Amoonguss
+|-damage|p2a: Amoonguss|19/100
+|move|p2a: Amoonguss|Spore|p1a: NovusOrdoSeclorum
+|-status|p1a: NovusOrdoSeclorum|slp|[from] move: Spore
+|
+|-heal|p2a: Amoonguss|25/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|inactive|Ayante has 120 seconds left.
+|
+|switch|p2a: Urshifu|Urshifu, M, shiny|39/100
+|cant|p1a: NovusOrdoSeclorum|slp
+|
+|upkeep
+|turn|16
+|inactive|Ayante has 120 seconds left.
+|
+|switch|p1a: Metatron|Urshifu, M|100/100
+|move|p2a: Urshifu|Iron Head|p1a: Metatron
+|-damage|p1a: Metatron|55/100
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Metatron|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|90/100
+|l| kenshiro27
+|
+|switch|p1a: Chukla Chukla|Togekiss, F|88/100|[from]move: U-turn
+|
+|-heal|p1a: Chukla Chukla|94/100|[from] item: Leftovers
+|-heal|p2a: Clefable|96/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Chukla Chukla|Substitute|p1a: Chukla Chukla
+|-start|p1a: Chukla Chukla|Substitute
+|-damage|p1a: Chukla Chukla|69/100
+|move|p2a: Clefable|Stealth Rock|p1a: Chukla Chukla
+|-sidestart|p1: Ayante|move: Stealth Rock
+|
+|-heal|p1a: Chukla Chukla|75/100|[from] item: Leftovers
+|-heal|p2a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Chukla Chukla|Nasty Plot|p1a: Chukla Chukla
+|-boost|p1a: Chukla Chukla|spa|2
+|move|p2a: Clefable|Moonblast|p1a: Chukla Chukla
+|-end|p1a: Chukla Chukla|Substitute
+|
+|-heal|p1a: Chukla Chukla|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Chukla Chukla|Air Slash|p2a: Clefable
+|-damage|p2a: Clefable|39/100
+|move|p2a: Clefable|Moonblast|p1a: Chukla Chukla
+|-damage|p1a: Chukla Chukla|54/100
+|
+|-heal|p1a: Chukla Chukla|60/100|[from] item: Leftovers
+|-heal|p2a: Clefable|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Urshifu|Urshifu, M, shiny|39/100
+|move|p1a: Chukla Chukla|Air Slash|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-heal|p1a: Chukla Chukla|67/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem|61/100
+|-ability|p2a: Kyurem|Pressure
+|turn|22
+|j| kenshiro27
+|
+|switch|p1a: Metatron|Urshifu, M|55/100
+|-damage|p1a: Metatron|49/100|[from] Stealth Rock
+|move|p2a: Kyurem|Ice Beam|p1a: Metatron
+|-damage|p1a: Metatron|0 fnt
+|faint|p1a: Metatron
+|
+|upkeep
+|
+|switch|p1a: NovusOrdoSeclorum|Magearna|61/100 slp
+|-damage|p1a: NovusOrdoSeclorum|55/100 slp|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Kyurem|Ice Beam|p1a: NovusOrdoSeclorum
+|-resisted|p1a: NovusOrdoSeclorum
+|-damage|p1a: NovusOrdoSeclorum|24/100 slp
+|cant|p1a: NovusOrdoSeclorum|slp
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Kyurem|Ice Beam|p1a: NovusOrdoSeclorum
+|-resisted|p1a: NovusOrdoSeclorum
+|-damage|p1a: NovusOrdoSeclorum|0 fnt
+|faint|p1a: NovusOrdoSeclorum
+|
+|upkeep
+|inactive|Ayante has 90 seconds left.
+|
+|switch|p1a: Volcabrona|Cinderace, F|100/100
+|-damage|p1a: Volcabrona|76/100|[from] Stealth Rock
+|turn|25
+|inactive|Ayante has 90 seconds left.
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Volcabrona|High Jump Kick|p2a: Slowbro
+|-start|p1a: Volcabrona|typechange|Fighting|[from] ability: Libero
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|82/100
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Typhon|Dragapult, M|88/100
+|-damage|p1a: Typhon|75/100|[from] Stealth Rock
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|switch|p2a: Clefable|Clefable, F|45/100|[from]move: Teleport
+|
+|-heal|p1a: Typhon|81/100|[from] item: Leftovers
+|-heal|p2a: Clefable|51/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Ayante has 90 seconds left.
+|
+|move|p1a: Typhon|Thunder Wave|p2a: Clefable|[miss]
+|-miss|p1a: Typhon|p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Typhon
+|-supereffective|p1a: Typhon
+|-damage|p1a: Typhon|0 fnt
+|faint|p1a: Typhon
+|
+|-heal|p2a: Clefable|57/100|[from] item: Leftovers
+|upkeep
+|inactive|Ayante has 90 seconds left.
+|
+|switch|p1a: Volcabrona|Cinderace, F|76/100
+|-damage|p1a: Volcabrona|51/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Volcabrona|Gunk Shot|p2a: Slowbro
+|-start|p1a: Volcabrona|typechange|Poison|[from] ability: Libero
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|46/100
+|
+|upkeep
+|turn|29
+|inactive|Ayante has 90 seconds left.
+|
+|move|p1a: Volcabrona|Gunk Shot|p2a: Slowbro
+|-damage|p2a: Slowbro|11/100
+|move|p2a: Slowbro|Thunder Wave|p1a: Volcabrona
+|-status|p1a: Volcabrona|par
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100 par
+|move|p1a: Volcabrona|Gunk Shot|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|60/100 par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Volcabrona|Gunk Shot|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|16/100 par
+|move|p2a: Mandibuzz|Knock Off|p1a: Volcabrona
+|-damage|p1a: Volcabrona|18/100 par
+|-enditem|p1a: Volcabrona|Choice Scarf|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|32
+|inactive|Ayante has 90 seconds left.
+|
+|switch|p1a: Chukla Chukla|Togekiss, F|67/100
+|-damage|p1a: Chukla Chukla|42/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|Toxic|p1a: Chukla Chukla|[miss]
+|-miss|p2a: Mandibuzz|p1a: Chukla Chukla
+|
+|-heal|p1a: Chukla Chukla|48/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Kyurem|Kyurem|61/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Chukla Chukla|Substitute|p1a: Chukla Chukla
+|-start|p1a: Chukla Chukla|Substitute
+|-damage|p1a: Chukla Chukla|23/100
+|
+|-heal|p1a: Chukla Chukla|29/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|Ayante has 90 seconds left.
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Chukla Chukla
+|-supereffective|p1a: Chukla Chukla
+|-end|p1a: Chukla Chukla|Substitute
+|move|p1a: Chukla Chukla|Air Slash|p2a: Kyurem
+|-damage|p2a: Kyurem|20/100
+|
+|-heal|p1a: Chukla Chukla|35/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|-message|Ayante forfeited.
+|
+|win|carly rae jesus
+|l|☆Ayante
+|raw|Ayante's rating: 1741 &rarr; <strong>1719</strong><br />(-22 for losing)
+|raw|carly rae jesus's rating: 1675 &rarr; <strong>1699</strong><br />(+24 for winning)
+|l|☆carly rae jesus
+|l| kenshiro27

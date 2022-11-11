@@ -1,0 +1,217 @@
+|j|☆Foolish Players
+|j|☆EmperadorSRN
+|t:|1604264364
+|player|p1|Foolish Players|swimmer-gen1rb|1528
+|player|p2|EmperadorSRN|52|1524
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Charizard, F|
+|poke|p1|Venusaur, M|
+|poke|p1|Zygarde|
+|poke|p1|Pheromosa|
+|poke|p1|Heatran, F|
+|poke|p2|Dracozolt|
+|poke|p2|Sandaconda, M|
+|poke|p2|Bronzong|
+|poke|p2|Tyranitar, M|
+|poke|p2|Nidoking, M|
+|poke|p2|Decidueye, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1604264403
+|start
+|switch|p1a: Pheromosa|Pheromosa|100/100
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|turn|1
+|
+|t:|1604264409
+|move|p1a: Pheromosa|Triple Axel|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|78/100
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|31/100
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|-hitcount|p2a: Nidoking|3
+|faint|p2a: Nidoking
+|-ability|p1a: Pheromosa|Beast Boost|boost
+|-boost|p1a: Pheromosa|atk|1
+|
+|upkeep
+|
+|t:|1604264416
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|2
+|
+|t:|1604264419
+|move|p1a: Pheromosa|Close Combat|p2a: Bronzong
+|-damage|p2a: Bronzong|6/100
+|-unboost|p1a: Pheromosa|def|1
+|-unboost|p1a: Pheromosa|spd|1
+|move|p2a: Bronzong|Zen Headbutt|p1a: Pheromosa
+|-supereffective|p1a: Pheromosa
+|-enditem|p1a: Pheromosa|Focus Sash
+|-damage|p1a: Pheromosa|1/100
+|
+|-heal|p2a: Bronzong|12/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1604264425
+|switch|p2a: Sandaconda|Sandaconda, M|100/100
+|move|p1a: Pheromosa|Close Combat|p2a: Sandaconda
+|-crit|p2a: Sandaconda
+|-damage|p2a: Sandaconda|0 fnt
+|-unboost|p1a: Pheromosa|def|1
+|-unboost|p1a: Pheromosa|spd|1
+|-damage|p1a: Pheromosa|0 fnt|[from] item: Rocky Helmet|[of] p2a: Sandaconda
+|-weather|Sandstorm|[from] ability: Sand Spit|[of] p2a: Sandaconda
+|faint|p2a: Sandaconda
+|faint|p1a: Pheromosa
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1604264438
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1604264445
+|switch|p2a: Bronzong|Bronzong|12/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: EmperadorSRN|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bronzong|18/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1604264448
+|move|p1a: Torkoal|Lava Plume|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1604264451
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|6
+|
+|t:|1604264461
+|move|p2a: Tyranitar|Stone Edge|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|39/100
+|move|p1a: Torkoal|Body Press|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Torkoal|33/100|[from] Sandstorm
+|upkeep
+|
+|t:|1604264470
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|-damage|p2a: Dracozolt|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1604264504
+|switch|p1a: Zygarde|Zygarde|100/100
+|-ability|p1a: Zygarde|Aura Break
+|move|p2a: Dracozolt|Outrage|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-damage|p1a: Zygarde|0 fnt
+|faint|p1a: Zygarde
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1604264513
+|switch|p1a: Heatran|Heatran, F|100/100
+|turn|8
+|
+|t:|1604264515
+|move|p2a: Dracozolt|Outrage|p1a: Heatran|[from]lockedmove
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|59/100
+|-start|p2a: Dracozolt|confusion|[fatigue]
+|move|p1a: Heatran|Earth Power|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|6/100
+|-unboost|p2a: Dracozolt|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1604264520
+|-activate|p2a: Dracozolt|confusion
+|move|p2a: Dracozolt|Outrage|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|16/100
+|move|p1a: Heatran|Earth Power|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1604264523
+|switch|p2a: Decidueye|Decidueye, M, shiny|100/100
+|-damage|p2a: Decidueye|88/100|[from] Stealth Rock
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Foolish Players)
+|
+|t:|1604264533
+|switch|p1a: Torkoal|Torkoal, F|33/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Decidueye|Spirit Shackle|p1a: Torkoal
+|-damage|p1a: Torkoal|16/100
+|-activate|p1a: Torkoal|trapped
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Decidueye|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1604264536
+|move|p2a: Decidueye|Spirit Shackle|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Decidueye|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1604264539
+|switch|p1a: Charizard|Charizard, F|100/100
+|turn|12
+|
+|t:|1604264542
+|move|p1a: Charizard|Weather Ball|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|win|Foolish Players
+|l|☆EmperadorSRN

@@ -1,0 +1,241 @@
+|j|☆cold.exe
+|j|☆KandicBkm
+|player|p1|cold.exe|red|1585
+|player|p2|KandicBkm|265|1621
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Bisharp, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Zeraora|
+|poke|p1|Diggersby, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Urshifu, F|
+|poke|p2|Clawitzer, M|
+|poke|p2|Pincurchin, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Skarmory, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KandicBkm)
+|
+|start
+|switch|p1a: Zeraora|Zeraora|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p1a: Zeraora|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|3/100
+|-enditem|p2a: Dragapult|Life Orb|[from] move: Knock Off|[of] p1a: Zeraora
+|move|p2a: Dragapult|Dragon Darts|p1a: Zeraora
+|-damage|p1a: Zeraora|67/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Zeraora
+|-damage|p1a: Zeraora|30/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Zeraora|Plasma Fists|p2a: Pincurchin
+|-resisted|p2a: Pincurchin
+|-damage|p2a: Pincurchin|57/100
+|-fieldactivate|move: Ion Deluge
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Electric Seed
+|move|p1a: Zeraora|Knock Off|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|90/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Hawlucha|Acrobatics|p1a: Toxapex
+|-damage|p1a: Toxapex|72/100
+|
+|-heal|p1a: Toxapex|78/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p2a: Hawlucha|Taunt|p1a: Toxapex
+|-start|p1a: Toxapex|move: Taunt
+|cant|p1a: Toxapex|move: Taunt|Haze
+|
+|-heal|p1a: Toxapex|84/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Toxapex|Scald|p2a: Hawlucha
+|-damage|p2a: Hawlucha|63/100
+|
+|-heal|p1a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Toxapex
+|-damage|p1a: Toxapex|26/100
+|move|p1a: Toxapex|Scald|p2a: Hawlucha
+|-damage|p2a: Hawlucha|37/100
+|
+|-heal|p1a: Toxapex|32/100|[from] item: Black Sludge
+|-end|p1a: Toxapex|move: Taunt
+|upkeep
+|turn|8
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|2/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|move|p1a: Toxapex|Scald|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-heal|p1a: Toxapex|8/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Clawitzer|Clawitzer, M, shiny|100/100
+|turn|9
+|
+|move|p2a: Clawitzer|Water Pulse|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Zeraora|Zeraora|30/100
+|turn|10
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Clawitzer
+|-supereffective|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p2a: Clawitzer
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|11
+|
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|12
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Skarmory|[miss]
+|-miss|p1a: Cinderace|p2a: Skarmory
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|21/100
+|-status|p2a: Skarmory|brn
+|move|p2a: Skarmory|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: cold.exe|move: Stealth Rock
+|
+|-damage|p2a: Skarmory|15/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|3/100
+|turn|15
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|94/100|[from] Stealth Rock
+|move|p2a: Dragapult|Dragon Darts|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|78/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|61/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|16
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Bisharp|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Choice Scarf|[from] move: Knock Off|[of] p1a: Bisharp
+|-damage|p1a: Bisharp|51/100|[from] item: Life Orb
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|3/100
+|turn|17
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|18
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Cinderace
+|-damage|p1a: Cinderace|65/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Cinderace
+|-damage|p1a: Cinderace|28/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|l|☆KandicBkm
+|inactive|KandicBkm disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|cold.exe also wants the timer to be on.
+|inactive|KandicBkm has 30 seconds to reconnect!
+|inactive|KandicBkm has 20 seconds to reconnect!
+|inactive|KandicBkm has 15 seconds to reconnect!
+|inactive|KandicBkm has 10 seconds to reconnect!
+|inactive|KandicBkm has 5 seconds to reconnect!
+|-message|KandicBkm lost due to inactivity.
+|
+|win|cold.exe
+|raw|cold.exe's rating: 1570 &rarr; <strong>1593</strong><br />(+23 for winning)
+|raw|KandicBkm's rating: 1621 &rarr; <strong>1598</strong><br />(-23 for losing)

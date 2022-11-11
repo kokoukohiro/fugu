@@ -1,0 +1,321 @@
+|j|☆Harzen
+|j|☆JoJo321
+|player|p1|Harzen|hiker-gen4|1334
+|player|p2|JoJo321|102|1301
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Ditto|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Corviknight, M|
+|poke|p2|Gengar, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Ditto|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Hatterene
+|-damage|p2a: Hatterene|20/100
+|-damage|p1a: Cinderace|91/100|[from] item: Life Orb
+|move|p2a: Hatterene|Psychic|p1a: Cinderace
+|-damage|p1a: Cinderace|9/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|94/100|[from] Sandstorm
+|-heal|p1a: Grimmsnarl|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Tyranitar|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: Harzen|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|94/100|[from] Sandstorm
+|-heal|p1a: Grimmsnarl|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|49/100
+|-unboost|p2a: Gengar|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|43/100|[from] Sandstorm
+|-damage|p1a: Grimmsnarl|94/100|[from] Sandstorm
+|-heal|p1a: Grimmsnarl|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|76/100
+|move|p2a: Gengar|Sludge Wave|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|37/100|[from] Sandstorm
+|-damage|p1a: Grimmsnarl|70/100|[from] Sandstorm
+|-heal|p1a: Grimmsnarl|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Gengar|Sludge Wave|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|31/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Tyranitar|Crunch|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Hatterene|Hatterene, F|20/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-damage|p1a: Aegislash|84/100|[from] item: Life Orb
+|faint|p2a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield||[still]
+|-fail|p1a: Aegislash
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Excadrill
+|-damage|p2a: Excadrill|17/100
+|-damage|p1a: Aegislash|75/100|[from] item: Life Orb
+|move|p2a: Excadrill|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-damage|p2a: Excadrill|7/100|[from] item: Life Orb
+|faint|p1a: Aegislash
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Excadrill|[from] ability: Imposter
+|turn|12
+|
+|switch|p2a: Gengar|Gengar, F|31/100
+|move|p1a: Ditto|Rapid Spin|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|25/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|move|p2a: Gengar|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|19/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|12/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|76/100
+|-damage|p1a: Grimmsnarl|63/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|32/100|[from] Sandstorm
+|-heal|p1a: Grimmsnarl|38/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Corviknight
+|-status|p2a: Corviknight|par
+|move|p2a: Corviknight|Brave Bird|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|-damage|p2a: Corviknight|92/100 par|[from] Recoil|[of] p1a: Grimmsnarl
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|32/100|[from] Sandstorm
+|-heal|p1a: Grimmsnarl|38/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|13/100
+|move|p2a: Corviknight|Brave Bird|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|-damage|p2a: Corviknight|91/100 par|[from] Recoil|[of] p1a: Grimmsnarl
+|
+|-weather|none
+|-heal|p1a: Grimmsnarl|20/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Corviknight|Brave Bird|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p2a: Corviknight|91/100 par|[from] Recoil
+|faint|p1a: Grimmsnarl
+|
+|-heal|p2a: Corviknight|97/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Corsola|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|72/100 par
+|move|p2a: Corviknight|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|83/100
+|
+|switch|p2a: Gengar|Gengar, F|12/100|[from]move: U-turn
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|10/100
+|-start|p2a: Gengar|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Night Shade|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Corsola|Disable|Night Shade|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|21
+|
+|move|p2a: Tyranitar|Crunch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|88/100
+|-damage|p1a: Ditto|76/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Tyranitar|[from] ability: Imposter
+|turn|22
+|
+|move|p1a: Ditto|Stone Edge|p2a: Tyranitar|[miss]
+|-miss|p1a: Ditto|p2a: Tyranitar
+|move|p2a: Tyranitar|Stone Edge|p1a: Ditto|[miss]
+|-miss|p2a: Tyranitar|p1a: Ditto
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p1a: Ditto|Stone Edge|p2a: Tyranitar
+|-damage|p2a: Tyranitar|53/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Ditto
+|-damage|p1a: Ditto|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p1a: Ditto|Stone Edge|p2a: Tyranitar|[miss]
+|-miss|p1a: Ditto|p2a: Tyranitar
+|move|p2a: Tyranitar|Crunch|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|9/100
+|-damage|p1a: Cinderace|0 fnt|[from] Stealth Rock
+|faint|p1a: Cinderace
+|
+|win|JoJo321

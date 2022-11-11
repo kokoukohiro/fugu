@@ -1,0 +1,323 @@
+|j|☆want and wish
+|j|☆minimax_ai
+|t:|1662860734
+|gametype|singles
+|player|p1|want and wish|wallace|1595
+|player|p2|minimax_ai|lusamine-nihilego|1532
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Heatran, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Tapu Fini|
+|poke|p1|Arctozolt|
+|poke|p1|Kartana|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|poke|p2|Melmetal|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by want and wish)
+|c|☆minimax_ai|hf
+|inactive|minimax_ai also wants the timer to be on.
+|
+|t:|1662860738
+|start
+|switch|p1a: Chaos|Heatran, M|100/100
+|switch|p2a: Melmetal|Melmetal|100/100
+|-item|p1a: Chaos|Air Balloon
+|turn|1
+|c|☆want and wish|u2
+|
+|t:|1662860742
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|move|p1a: Chaos|Stealth Rock|p2a: rotomwash
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1662860744
+|move|p1a: Chaos|Eruption|p2a: rotomwash
+|-resisted|p2a: rotomwash
+|-damage|p2a: rotomwash|58/100
+|move|p2a: rotomwash|Hydro Pump|p1a: Chaos
+|-supereffective|p1a: Chaos
+|-damage|p1a: Chaos|13/100
+|-enditem|p1a: Chaos|Air Balloon
+|
+|-heal|p2a: rotomwash|64/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1662860747
+|move|p1a: Chaos|Toxic|p2a: rotomwash
+|-status|p2a: rotomwash|tox
+|move|p2a: rotomwash|Hydro Pump|p1a: Chaos
+|-supereffective|p1a: Chaos
+|-damage|p1a: Chaos|0 fnt
+|faint|p1a: Chaos
+|
+|-heal|p2a: rotomwash|70/100 tox|[from] item: Leftovers
+|-damage|p2a: rotomwash|64/100 tox|[from] psn
+|upkeep
+|
+|t:|1662860750
+|switch|p1a: Deathstroke|Kartana, shiny|100/100
+|turn|4
+|
+|t:|1662860752
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|move|p1a: Deathstroke|Leaf Blade|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-crit|p2a: Tangrowth
+|-damage|p2a: Tangrowth|66/100
+|-damage|p1a: Deathstroke|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|5
+|
+|t:|1662860757
+|switch|p1a: Frozen Soul|Ninetales-Alola, M, shiny|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Frozen Soul
+|switch|p2a: Melmetal|Melmetal|100/100
+|-damage|p2a: Melmetal|94/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Melmetal|88/100|[from] Hail
+|upkeep
+|turn|6
+|
+|t:|1662860759
+|switch|p1a: Enten|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Enten|Intimidate|boost
+|-unboost|p2a: Melmetal|atk|1
+|move|p2a: Melmetal|Double Iron Bash|p1a: Enten
+|-damage|p1a: Enten|73/100
+|-damage|p1a: Enten|48/100
+|-hitcount|p1a: Enten|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Enten|42/100|[from] Hail
+|-damage|p2a: Melmetal|82/100|[from] Hail
+|-heal|p1a: Enten|48/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1662860760
+|move|p1a: Enten|Earthquake|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|26/100
+|move|p2a: Melmetal|Ice Punch|p1a: Enten
+|-supereffective|p1a: Enten
+|-damage|p1a: Enten|0 fnt
+|faint|p1a: Enten
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Melmetal|20/100|[from] Hail
+|upkeep
+|
+|t:|1662860763
+|switch|p1a: Destroyer|Arctozolt, shiny|100/100
+|turn|8
+|
+|t:|1662860766
+|move|p1a: Destroyer|Bolt Beak|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1662860766
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|turn|9
+|
+|t:|1662860769
+|switch|p1a: Raven|Tapu Fini, shiny|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Raven
+|move|p2a: Heatran|Magma Storm|p1a: Raven|[miss]
+|-miss|p2a: Heatran|p1a: Raven
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|82/100|[from] Hail
+|-damage|p1a: Raven|94/100|[from] Hail
+|-heal|p1a: Raven|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1662860773
+|move|p2a: Heatran|Magma Storm|p1a: Raven|[miss]
+|-miss|p2a: Heatran|p1a: Raven
+|move|p1a: Raven|Calm Mind|p1a: Raven
+|-boost|p1a: Raven|spa|1
+|-boost|p1a: Raven|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|76/100|[from] Hail
+|-damage|p1a: Raven|94/100|[from] Hail
+|-heal|p1a: Raven|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1662860774
+|switch|p2a: Tangrowth|Tangrowth, F|99/100
+|-damage|p2a: Tangrowth|87/100|[from] Stealth Rock
+|move|p1a: Raven|Surf|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|52/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Raven|94/100|[from] Hail
+|-damage|p2a: Tangrowth|46/100|[from] Hail
+|-heal|p1a: Raven|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1662860776
+|move|p1a: Raven|Draining Kiss|p2a: Tangrowth
+|-damage|p2a: Tangrowth|8/100
+|-damage|p1a: Raven|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|move|p2a: Tangrowth|Giga Drain|p1a: Raven
+|-supereffective|p1a: Raven
+|-damage|p1a: Raven|49/100
+|-heal|p2a: Tangrowth|21/100|[from] drain|[of] p1a: Raven
+|
+|-weather|none
+|-heal|p1a: Raven|55/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1662860779
+|switch|p2a: rotomwash|Rotom-Wash|64/100 tox
+|-damage|p2a: rotomwash|51/100 tox|[from] Stealth Rock
+|move|p1a: Raven|Calm Mind|p1a: Raven
+|-boost|p1a: Raven|spa|1
+|-boost|p1a: Raven|spd|1
+|
+|-heal|p2a: rotomwash|58/100 tox|[from] item: Leftovers
+|-heal|p1a: Raven|61/100|[from] item: Leftovers
+|-damage|p2a: rotomwash|51/100 tox|[from] psn
+|-fieldend|Misty Terrain
+|upkeep
+|turn|14
+|
+|t:|1662860780
+|move|p2a: rotomwash|Nasty Plot|p2a: rotomwash
+|-boost|p2a: rotomwash|spa|2
+|move|p1a: Raven|Draining Kiss|p2a: rotomwash
+|-damage|p2a: rotomwash|16/100 tox
+|-heal|p1a: Raven|88/100|[from] drain|[of] p2a: rotomwash
+|
+|-heal|p2a: rotomwash|22/100 tox|[from] item: Leftovers
+|-heal|p1a: Raven|94/100|[from] item: Leftovers
+|-damage|p2a: rotomwash|9/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1662860782
+|move|p2a: rotomwash|Thunderbolt|p1a: Raven
+|-supereffective|p1a: Raven
+|-damage|p1a: Raven|31/100
+|move|p1a: Raven|Draining Kiss|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|-heal|p1a: Raven|38/100|[from] drain|[of] p2a: rotomwash
+|faint|p2a: rotomwash
+|
+|-heal|p1a: Raven|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1662860782
+|switch|p2a: Heatran|Heatran, M|76/100
+|-damage|p2a: Heatran|63/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|turn|16
+|
+|t:|1662860785
+|move|p2a: Heatran|Magma Storm|p1a: Raven
+|-resisted|p1a: Raven
+|-damage|p1a: Raven|33/100
+|-activate|p1a: Raven|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Raven|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-enditem|p2a: Heatran|Air Balloon
+|faint|p2a: Heatran
+|
+|-heal|p1a: Raven|39/100|[from] item: Leftovers
+|-end|p1a: Raven|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1662860785
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p2a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Raven|atk|1
+|turn|17
+|
+|t:|1662860787
+|switch|p2a: Tangrowth|Tangrowth, F|54/100
+|-damage|p2a: Tangrowth|42/100|[from] Stealth Rock
+|move|p1a: Raven|Surf|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|-heal|p1a: Raven|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1662860787
+|switch|p2a: landorustherian|Landorus-Therian, M|88/100
+|-damage|p2a: landorustherian|76/100|[from] Stealth Rock
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Raven|atk|1
+|turn|18
+|
+|t:|1662860789
+|move|p1a: Raven|Surf|p2a: landorustherian
+|-supereffective|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|
+|-heal|p1a: Raven|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1662860789
+|switch|p2a: Weavile|Weavile, F|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|19
+|
+|t:|1662860791
+|move|p2a: Weavile|Knock Off|p1a: Raven
+|-resisted|p1a: Raven
+|-damage|p1a: Raven|26/100
+|-enditem|p1a: Raven|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Raven|Draining Kiss|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-crit|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-heal|p1a: Raven|77/100|[from] drain|[of] p2a: Weavile
+|faint|p2a: Weavile
+|
+|win|want and wish
+|raw|want and wish's rating: 1595 &rarr; <strong>1611</strong><br />(+16 for winning)
+|raw|minimax_ai's rating: 1532 &rarr; <strong>1516</strong><br />(-16 for losing)
+|c|☆minimax_ai|gg

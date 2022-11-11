@@ -1,0 +1,470 @@
+|j|☆minimax_ai
+|j|☆CoconutCrabs
+|t:|1662775654
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1560
+|player|p2|CoconutCrabs|chuck|1586
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CoconutCrabs)
+|c|☆minimax_ai|hf
+|inactive|minimax_ai also wants the timer to be on.
+|inactive|CoconutCrabs has 120 seconds left.
+|j| RazorForce21
+|j| iostfriend
+|
+|t:|1662775706
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Pretty|Tangrowth, F|100/100
+|turn|1
+|j| BabyPigsAreLaughin
+|
+|t:|1662775709
+|move|p2a: Pretty|Knock Off|p1a: Melmetal
+|-damage|p1a: Melmetal|89/100
+|-enditem|p1a: Melmetal|Assault Vest|[from] move: Knock Off|[of] p2a: Pretty
+|move|p1a: Melmetal|Ice Punch|p2a: Pretty
+|-supereffective|p2a: Pretty
+|-damage|p2a: Pretty|67/100
+|-damage|p1a: Melmetal|73/100|[from] item: Rocky Helmet|[of] p2a: Pretty
+|
+|upkeep
+|turn|2
+|
+|t:|1662775713
+|move|p2a: Pretty|Focus Blast|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|28/100
+|-unboost|p1a: Melmetal|spd|1
+|move|p1a: Melmetal|Double Iron Bash|p2a: Pretty
+|-damage|p2a: Pretty|47/100
+|-damage|p1a: Melmetal|12/100|[from] item: Rocky Helmet|[of] p2a: Pretty
+|-damage|p2a: Pretty|24/100
+|-damage|p1a: Melmetal|0 fnt|[from] item: Rocky Helmet|[of] p2a: Pretty
+|faint|p1a: Melmetal
+|-hitcount|p2a: Pretty|2
+|
+|upkeep
+|
+|t:|1662775713
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|3
+|
+|t:|1662775719
+|switch|p2a: Boogers|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Boogers
+|move|p1a: Heatran|Stealth Rock|p2a: Boogers
+|-sidestart|p2: CoconutCrabs|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1662775723
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Boogers|Stealth Rock|p1a: Tangrowth
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1662775726
+|switch|p2a: Baby|Toxapex, M|100/100
+|-damage|p2a: Baby|88/100|[from] Stealth Rock
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p1a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Baby|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Baby|82/100|[from] Sandstorm
+|-heal|p1a: landorustherian|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1662775728
+|move|p1a: landorustherian|Earthquake|p2a: Baby
+|-supereffective|p2a: Baby
+|-damage|p2a: Baby|27/100
+|move|p2a: Baby|Knock Off|p1a: landorustherian
+|-damage|p1a: landorustherian|84/100
+|-enditem|p1a: landorustherian|Leftovers|[from] move: Knock Off|[of] p2a: Baby
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Baby|21/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1662775731
+|switch|p2a: Paloma|Tornadus-Therian, M|100/100
+|-damage|p2a: Paloma|76/100|[from] Stealth Rock
+|move|p1a: landorustherian|Earthquake|p2a: Paloma
+|-immune|p2a: Paloma
+|
+|-weather|none
+|upkeep
+|turn|8
+|l| iostfriend
+|
+|t:|1662775733
+|move|p2a: Paloma|Icy Wind|p1a: landorustherian
+|-supereffective|p1a: landorustherian
+|-damage|p1a: landorustherian|5/100
+|-unboost|p1a: landorustherian|spe|1
+|move|p1a: landorustherian|Toxic|p2a: Paloma
+|-status|p2a: Paloma|tox
+|
+|-damage|p2a: Paloma|70/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1662775735
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|move|p2a: Paloma|Icy Wind|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|74/100
+|-unboost|p1a: rotomwash|spe|1
+|
+|-heal|p1a: rotomwash|80/100|[from] item: Leftovers
+|-damage|p2a: Paloma|58/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1662775739
+|switch|p2a: Pretty|Tangrowth, F|57/100
+|-damage|p2a: Pretty|45/100|[from] Stealth Rock
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|
+|-heal|p1a: rotomwash|86/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1662775746
+|move|p1a: rotomwash|Hydro Pump|p2a: Pretty
+|-resisted|p2a: Pretty
+|-damage|p2a: Pretty|0 fnt
+|faint|p2a: Pretty
+|
+|-heal|p1a: rotomwash|93/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1662775749
+|switch|p2a: Paloma|Tornadus-Therian, M|91/100 tox
+|-damage|p2a: Paloma|66/100 tox|[from] Stealth Rock
+|turn|12
+|
+|t:|1662775752
+|move|p2a: Paloma|Focus Blast|p1a: rotomwash
+|-damage|p1a: rotomwash|29/100
+|move|p1a: rotomwash|Hydro Pump|p2a: Paloma|[miss]
+|-miss|p1a: rotomwash|p2a: Paloma
+|
+|-heal|p1a: rotomwash|35/100|[from] item: Leftovers
+|-damage|p2a: Paloma|60/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1662775755
+|move|p2a: Paloma|Focus Blast|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|-damage|p2a: Paloma|48/100 tox|[from] psn
+|upkeep
+|
+|t:|1662775755
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|14
+|
+|t:|1662775760
+|move|p1a: Weavile|Triple Axel|p2a: Paloma
+|-supereffective|p2a: Paloma
+|-damage|p2a: Paloma|5/100 tox
+|-supereffective|p2a: Paloma
+|-damage|p2a: Paloma|0 fnt
+|faint|p2a: Paloma
+|-hitcount|p2: Paloma|2
+|
+|upkeep
+|
+|t:|1662775761
+|switch|p2a: Baby|Toxapex, M|54/100
+|-damage|p2a: Baby|42/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1662775762
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Baby|Recover|p2a: Baby
+|-heal|p2a: Baby|92/100
+|
+|upkeep
+|turn|16
+|
+|t:|1662775769
+|switch|p2a: Boogers|Tyranitar, F|100/100
+|-damage|p2a: Boogers|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Boogers
+|move|p1a: Heatran|Earth Power|p2a: Boogers
+|-supereffective|p2a: Boogers
+|-damage|p2a: Boogers|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Boogers|67/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1662775771
+|move|p1a: Heatran|Earth Power|p2a: Boogers
+|-supereffective|p2a: Boogers
+|-crit|p2a: Boogers
+|-damage|p2a: Boogers|25/100
+|move|p2a: Boogers|Rock Blast|p1a: Heatran|[miss]
+|-miss|p2a: Boogers|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Boogers|31/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1662775775
+|move|p1a: Heatran|Earth Power|p2a: Boogers
+|-supereffective|p2a: Boogers
+|-damage|p2a: Boogers|7/100
+|move|p2a: Boogers|Rock Blast|p1a: Heatran|[miss]
+|-miss|p2a: Boogers|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Boogers|13/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1662775777
+|move|p1a: Heatran|Eruption|p2a: Boogers
+|-resisted|p2a: Boogers
+|-damage|p2a: Boogers|0 fnt
+|faint|p2a: Boogers
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1662775779
+|switch|p2a: Mole Man|Excadrill, F|100/100
+|-damage|p2a: Mole Man|97/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1662775782
+|move|p2a: Mole Man|Iron Head|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|76/100
+|-enditem|p1a: Heatran|Air Balloon
+|cant|p1a: Heatran|flinch
+|
+|-weather|none
+|-heal|p2a: Mole Man|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1662775786
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Mole Man|Earthquake|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|73/100
+|
+|upkeep
+|turn|22
+|
+|t:|1662775789
+|move|p2a: Mole Man|Rapid Spin|p1a: Tangrowth
+|-damage|p1a: Tangrowth|62/100
+|-boost|p2a: Mole Man|spe|1
+|-damage|p2a: Mole Man|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-sideend|p2: CoconutCrabs|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mole Man
+|move|p1a: Tangrowth|Focus Blast|p2a: Mole Man
+|-supereffective|p2a: Mole Man
+|-damage|p2a: Mole Man|10/100
+|
+|-heal|p2a: Mole Man|16/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1662775798
+|switch|p2a: Baby|Toxapex, M|100/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Baby|[miss]
+|-miss|p1a: Tangrowth|p2a: Baby
+|
+|upkeep
+|turn|24
+|
+|t:|1662775802
+|move|p1a: Tangrowth|Focus Blast|p2a: Baby|[miss]
+|-miss|p1a: Tangrowth|p2a: Baby
+|move|p2a: Baby|Scald|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|51/100
+|
+|upkeep
+|turn|25
+|
+|t:|1662775803
+|move|p1a: Tangrowth|Focus Blast|p2a: Baby
+|-resisted|p2a: Baby
+|-damage|p2a: Baby|88/100
+|move|p2a: Baby|Scald|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|40/100
+|
+|upkeep
+|turn|26
+|
+|t:|1662775805
+|move|p1a: Tangrowth|Focus Blast|p2a: Baby
+|-resisted|p2a: Baby
+|-damage|p2a: Baby|76/100
+|move|p2a: Baby|Scald|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|28/100
+|
+|upkeep
+|turn|27
+|
+|t:|1662775807
+|move|p1a: Tangrowth|Focus Blast|p2a: Baby|[miss]
+|-miss|p1a: Tangrowth|p2a: Baby
+|move|p2a: Baby|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|21/100
+|-damage|p2a: Baby|60/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Baby
+|
+|upkeep
+|turn|28
+|
+|t:|1662775809
+|move|p1a: Tangrowth|Focus Blast|p2a: Baby|[miss]
+|-miss|p1a: Tangrowth|p2a: Baby
+|move|p2a: Baby|Scald|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|10/100
+|
+|upkeep
+|turn|29
+|
+|t:|1662775811
+|move|p1a: Tangrowth|Sleep Powder|p2a: Baby
+|-status|p2a: Baby|slp|[from] move: Sleep Powder
+|cant|p2a: Baby|slp
+|
+|upkeep
+|turn|30
+|
+|t:|1662775813
+|move|p1a: Tangrowth|Focus Blast|p2a: Baby
+|-resisted|p2a: Baby
+|-damage|p2a: Baby|48/100 slp
+|-unboost|p2a: Baby|spd|1
+|cant|p2a: Baby|slp
+|
+|upkeep
+|turn|31
+|
+|t:|1662775814
+|move|p1a: Tangrowth|Knock Off|p2a: Baby
+|-damage|p2a: Baby|33/100 slp
+|-damage|p1a: Tangrowth|0 fnt|[from] item: Rocky Helmet|[of] p2a: Baby
+|faint|p1a: Tangrowth
+|cant|p2a: Baby|slp
+|
+|upkeep
+|
+|t:|1662775814
+|switch|p1a: Heatran|Heatran, M|76/100
+|-damage|p1a: Heatran|63/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1662775822
+|move|p1a: Heatran|Earth Power|p2a: Baby
+|-supereffective|p2a: Baby
+|-damage|p2a: Baby|0 fnt
+|faint|p2a: Baby
+|
+|upkeep
+|
+|t:|1662775824
+|switch|p2a: Mole Man|Excadrill, F|16/100
+|turn|33
+|
+|t:|1662775825
+|switch|p1a: landorustherian|Landorus-Therian, M|5/100
+|-damage|p1a: landorustherian|0 fnt|[from] Stealth Rock
+|faint|p1a: landorustherian
+|move|p2a: Mole Man|Earthquake|p1: landorustherian|[notarget]
+|-fail|p2a: Mole Man
+|
+|-heal|p2a: Mole Man|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1662775825
+|switch|p1a: Weavile|Weavile, F|76/100
+|-damage|p1a: Weavile|51/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|34
+|
+|t:|1662775829
+|move|p1a: Weavile|Low Kick|p2a: Mole Man
+|-supereffective|p2a: Mole Man
+|-damage|p2a: Mole Man|0 fnt
+|faint|p2a: Mole Man
+|
+|upkeep
+|
+|t:|1662775831
+|switch|p2a: Little Man|Heatran, M|100/100
+|turn|35
+|
+|t:|1662775832
+|move|p2a: Little Man|Earth Power|p1a: Weavile
+|-damage|p1a: Weavile|5/100
+|move|p1a: Weavile|Low Kick|p2a: Little Man
+|-supereffective|p2a: Little Man
+|-damage|p2a: Little Man|0 fnt
+|faint|p2a: Little Man
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1560 &rarr; <strong>1581</strong><br />(+21 for winning)
+|raw|CoconutCrabs's rating: 1586 &rarr; <strong>1565</strong><br />(-21 for losing)
+|c|☆minimax_ai|gg

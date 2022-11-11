@@ -1,0 +1,299 @@
+|j|☆minimax_ai
+|j|☆samohi0
+|t:|1667962628
+|gametype|singles
+|player|p1|minimax_ai|169|1602
+|player|p2|samohi0|101|1730
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Mew|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Weavile, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Cloyster, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|c|☆samohi0|are you a bot
+|
+|t:|1667962639
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1667962645
+|move|p2a: Mew|Stealth Rock|p1a: Heatran
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|move|p1a: Heatran|Eruption|p2a: Mew
+|-damage|p2a: Mew|35/100
+|
+|upkeep
+|turn|2
+|
+|t:|1667962647
+|move|p2a: Mew|Spikes|p1a: Heatran
+|-sidestart|p1: minimax_ai|Spikes
+|move|p1a: Heatran|Eruption|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|t:|1667962655
+|switch|p2a: Ninetales|Ninetales-Alola, F, shiny|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|3
+|
+|t:|1667962657
+|move|p2a: Ninetales|Blizzard|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|90/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Eruption|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|84/100|[from] Hail
+|upkeep
+|
+|t:|1667962660
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|4
+|
+|t:|1667962662
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|-damage|p1a: Tangrowth|76/100|[from] Spikes
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Garchomp|94/100|[from] Hail
+|-damage|p1a: Tangrowth|70/100|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1667962664
+|move|p2a: Garchomp|Fire Fang|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|3/100
+|-damage|p2a: Garchomp|78/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-damage|p2a: Garchomp|68/100|[from] item: Life Orb
+|move|p1a: Tangrowth|Giga Drain|p2a: Garchomp
+|-damage|p2a: Garchomp|38/100
+|-heal|p1a: Tangrowth|16/100|[from] drain|[of] p2a: Garchomp
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Garchomp|32/100|[from] Hail
+|-damage|p1a: Tangrowth|10/100|[from] Hail
+|upkeep
+|turn|6
+|
+|t:|1667962666
+|move|p2a: Garchomp|Scale Shot|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|-hitcount|p1: Tangrowth|1
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|-damage|p2a: Garchomp|22/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Garchomp|16/100|[from] Hail
+|upkeep
+|
+|t:|1667962666
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p1a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|turn|7
+|
+|t:|1667962668
+|move|p2a: Garchomp|Scale Shot|p1a: landorustherian
+|-damage|p1a: landorustherian|63/100
+|-damage|p1a: landorustherian|40/100
+|-damage|p1a: landorustherian|15/100
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|-hitcount|p1: landorustherian|4
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|-damage|p2a: Garchomp|6/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1667962668
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1667962674
+|move|p2a: Garchomp|Scale Shot|p1a: rotomwash
+|-damage|p1a: rotomwash|62/100
+|-damage|p1a: rotomwash|36/100
+|-hitcount|p1a: rotomwash|2
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|-damage|p2a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2a: Garchomp
+|move|p1a: rotomwash|Hydro Pump|p2: Garchomp|[notarget]
+|-fail|p1a: rotomwash
+|
+|-heal|p1a: rotomwash|43/100|[from] item: Leftovers
+|upkeep
+|j| MiniLarry
+|
+|t:|1667962683
+|switch|p2a: Weavile|Weavile, M, shiny|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|9
+|
+|t:|1667962684
+|move|p2a: Weavile|Knock Off|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|-enditem|p1a: rotomwash|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: rotomwash
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1667962685
+|switch|p1a: Heatran|Heatran, M|84/100
+|-damage|p1a: Heatran|71/100|[from] Stealth Rock
+|-damage|p1a: Heatran|59/100|[from] Spikes
+|turn|10
+|
+|t:|1667962692
+|move|p2a: Weavile|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|12/100
+|-damage|p2a: Weavile|81/100|[from] item: Life Orb
+|move|p1a: Heatran|Magma Storm|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1667962696
+|switch|p2a: Cloyster|Cloyster, F, shiny|100/100
+|turn|11
+|
+|t:|1667962697
+|move|p1a: Heatran|Magma Storm|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|upkeep
+|
+|t:|1667962700
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|12
+|
+|t:|1667962704
+|move|p2a: Volcarona|Substitute|p2a: Volcarona
+|-start|p2a: Volcarona|Substitute
+|-damage|p2a: Volcarona|76/100
+|move|p1a: Heatran|Magma Storm|p2a: Volcarona
+|-end|p2a: Volcarona|Substitute
+|
+|-heal|p2a: Volcarona|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1667962707
+|move|p2a: Volcarona|Substitute|p2a: Volcarona
+|-start|p2a: Volcarona|Substitute
+|-damage|p2a: Volcarona|57/100
+|move|p1a: Heatran|Magma Storm|p2a: Volcarona
+|-end|p2a: Volcarona|Substitute
+|
+|-heal|p2a: Volcarona|63/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1667962709
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Heatran|Magma Storm|p2a: Volcarona
+|-damage|p2a: Volcarona|28/100
+|-activate|p2a: Volcarona|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Volcarona|34/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|22/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1667962711
+|move|p2a: Volcarona|Bug Buzz|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Volcarona|28/100|[from] item: Leftovers
+|-end|p2a: Volcarona|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1667962711
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-damage|p1a: Weavile|63/100|[from] Spikes
+|-ability|p1a: Weavile|Pressure
+|turn|16
+|
+|t:|1667962714
+|move|p1a: Weavile|Ice Shard|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|4/100
+|move|p2a: Volcarona|Flamethrower|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-heal|p2a: Volcarona|10/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667962714
+|switch|p1a: Melmetal|Melmetal|100/100
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|-damage|p1a: Melmetal|82/100|[from] Spikes
+|turn|17
+|
+|t:|1667962716
+|move|p2a: Volcarona|Flamethrower|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|4/100
+|move|p1a: Melmetal|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1602 &rarr; <strong>1629</strong><br />(+27 for winning)
+|raw|samohi0's rating: 1730 &rarr; <strong>1703</strong><br />(-27 for losing)
+|c|☆minimax_ai|gg

@@ -7,7 +7,10 @@ from poke_env.data import GEN_TO_POKEDEX,NATURES
 
 UNKNOW_FORME = {"Arceus","Genesect","Pumpkaboo","Gourgeist","Silvally","Zacian","Zamazenta","Urshifu"}
 
-def analyze(replay,statsdict):
+def analyze(replay,statsdict,format='gen8ou'):
+    directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "replays", format)
+    path = os.path.join(directory, replay[1:]+".txt")
+
     fromp1 = {}
     fromp2 = {}
 
@@ -26,8 +29,17 @@ def analyze(replay,statsdict):
         "t":None
     }
 
-    replayurl = 'https://replay.pokemonshowdown.com{replay}.log'
-    replayline = _getinfo(replayurl.format(replay=replay))
+    if not os.path.exists(path):
+        replayurl = 'https://replay.pokemonshowdown.com{replay}.log'
+        replayline = _getinfo(replayurl.format(replay=replay))
+
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        with open(path,"w",encoding='UTF-8') as f:
+            f.write(replayline)
+    else:
+        with open(path,encoding='UTF-8') as f:
+            replayline = f.read()
 
     replaylines = replayline.split('\n|poke|')
     replaylines[-1] = replaylines[-1].split('\n')[0]
@@ -37,6 +49,8 @@ def analyze(replay,statsdict):
     p2teamfromp1 = _analyzedel(pokes[6:],statsdict)
 
     replaylines = replayline.split('\n|turn|')
+    if len(replaylines) <= 1:
+        return
     start = replaylines[0].split('\n|start\n')[1]
     replaylines[-1] = replaylines[-1].split('\n|win|')[0]
     turns = replaylines[1:]
@@ -44,7 +58,7 @@ def analyze(replay,statsdict):
     fromp2["start"]["x"]["opponent_team"] = p1teamfromp2
     fromp1["start"]["x"]["opponent_team"] = p2teamfromp1
 
-    print(fromp1)
+    
 
 def _analyzedel(pokes,statsdict):
     team = {}
@@ -88,33 +102,46 @@ def _analyzedel(pokes,statsdict):
         
     return team
 
+def getreplays(format='gen8ou',refresh=False):
+    directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "replays")
+    path = os.path.join(directory, format+".txt")
 
-def collect(format='gen8ou'):
-    playerlist = []
-    replaylist = set()
+    if refresh or not os.path.exists(path):
+        playerlist = []
+        replaylist = set()
 
-    ladderurl = 'https://pokemonshowdown.com/ladder/{format}'
-    replayurl1 = 'https://replay.pokemonshowdown.com/search?user={user}'
-    replayurl2 = 'https://replay.pokemonshowdown.com/search?format={format}&rating'
+        ladderurl = 'https://pokemonshowdown.com/ladder/{format}'
+        replayurl1 = 'https://replay.pokemonshowdown.com/search?user={user}'
+        replayurl2 = 'https://replay.pokemonshowdown.com/search?format={format}&rating'
 
-    print("Searching for replays...")
+        print("Searching for replaylist of " + format + " ...")
 
-    ladderline = _getinfo(ladderurl.format(format=format))
-    playerlist = re.findall(r'<td align="right">\d+</td><td><a data-target="push" class="subtle" href="/users/[\w\d]+">(.+)</a></td><td style="text-align:center"><strong>\d+</strong></td>',ladderline)
+        ladderline = _getinfo(ladderurl.format(format=format))
+        playerlist = re.findall(r'<td align="right">\d+</td><td><a data-target="push" class="subtle" href="/users/[\w\d]+">(.+)</a></td><td style="text-align:center"><strong>\d+</strong></td>',ladderline)
 
-    for player in playerlist:
-        user = urllib.parse.quote(player)
-        replayline = _getinfo(replayurl1.format(user=user))
-        replayresultspread = re.findall(r'<li><a href="(.+)" data-target="push"><small>\['+format+']<br /></small> <strong>.+</strong> vs. <strong>.+</strong></a></li>',replayline)
+        for player in playerlist:
+            user = urllib.parse.quote(player)
+            replayline = _getinfo(replayurl1.format(user=user))
+            replayresultspread = re.findall(r'<li><a href="(.+)" data-target="push"><small>\['+format+']<br /></small> <strong>.+</strong> vs. <strong>.+</strong></a></li>',replayline)
+            replaylist |= set(replayresultspread)
+        
+        replayline = _getinfo(replayurl2.format(format=format))
+        replayresultspread = re.findall(r'<li><a href="(.+)" data-target="push"><small>\['+format+'] rating: \d+<br /></small> <strong>.+</strong> vs. <strong>.+</strong></a></li>',replayline)
         replaylist |= set(replayresultspread)
-    
-    replayline = _getinfo(replayurl2.format(format=format))
-    replayresultspread = re.findall(r'<li><a href="(.+)" data-target="push"><small>\['+format+'] rating: \d+<br /></small> <strong>.+</strong> vs. <strong>.+</strong></a></li>',replayline)
-    replaylist |= set(replayresultspread)
 
-    print("Found "+str(len(replaylist))+" replays.")
+        print("Found "+str(len(replaylist))+" replaylist.")
 
-    return replaylist
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        with open(path,"w") as f:
+            f.write("\n".join(replaylist))
+        return list(replaylist)
+
+    else:
+        with open(path) as f:
+            replaylist = f.read().splitlines()
+        return replaylist
+
 
 def getstats(format='gen8ou',forbattle=True):
     _POKEUSAGE_DICT = {}
@@ -131,8 +158,10 @@ def getstats(format='gen8ou',forbattle=True):
         month = str(lastmonth)[:7]
         url = _url.format(month=month,format=format)
         f = ur.urlopen(url)
-            
-    path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "stats", month, format+".json")
+    
+    directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "stats", month)
+    path = os.path.join(directory, format+".json")
+
     if os.path.exists(path):
         f.close()
         print('Importing usagedata from : '+path)
@@ -142,7 +171,6 @@ def getstats(format='gen8ou',forbattle=True):
         print('Importing usagedata from : '+url)
         lines = f.readlines()
         f.close()
-        directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "stats", month)
         if not os.path.exists(directory):
             os.makedirs(directory)
 
@@ -279,7 +307,7 @@ def getstats(format='gen8ou',forbattle=True):
                         _CHECKS_AND_COUNTERS = {}
             index += 1
 
-        with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), "stats", month, format+".json"),"w") as f:
+        with open(path,"w") as f:
             json.dump(_POKEUSAGE_DICT,f,indent=1)
     
     if forbattle:
@@ -332,14 +360,14 @@ def spreadscalculation(name,nature,evs,lv=100):
     
 def _getinfo(url):
     req = ur.Request(url,headers={'User-Agent': 'Mozilla/5.0'})
-    f = ur.urlopen(req)
-    lines = f.read().decode('utf-8')
-    f.close()
+    with ur.urlopen(req) as f:
+        lines = f.read().decode('utf-8')
     return lines
 
 def main():
     statsdict = getstats()
     analyze("/gen8ou-1646107486",statsdict)
+
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,472 @@
+|j|☆Le-Perpetrator
+|j|☆testotesto321
+|player|p1|Le-Perpetrator|266|1647
+|player|p2|testotesto321|bellelba|1732
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Mantine, M|
+|poke|p1|Marowak-Alola, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Crawdaunt, F|
+|poke|p2|Alakazam, M|
+|poke|p2|Magearna|
+|poke|p2|Cinderace, F|
+|poke|p2|Chansey, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Toxapex, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|61/100
+|-unboost|p2a: Magearna|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: testotesto321|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Leech Seed
+|
+|-damage|p2a: Mandibuzz|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|75/100|[silent]
+|upkeep
+|turn|4
+|
+|move|p2a: Mandibuzz|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: testotesto321|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Ferrothorn|Spikes|p2a: Mandibuzz
+|-sidestart|p2: testotesto321|Spikes
+|
+|-damage|p2a: Mandibuzz|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|90/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: testotesto321|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Marowak|Marowak-Alola, F|100/100
+|move|p2a: Cinderace|U-turn|p1a: Marowak
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|91/100
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|move|p2a: Alakazam|Shadow Ball|p1a: Mantine
+|-damage|p1a: Mantine|75/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|76/100
+|move|p1a: Mantine|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|57/100
+|-status|p2a: Mandibuzz|brn
+|
+|-damage|p2a: Mandibuzz|51/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Mandibuzz|Defog|p1a: Hatterene
+|move|p1a: Hatterene|Defog|p2a: Mandibuzz|[from]Magic Bounce
+|-unboost|p2a: Mandibuzz|evasion|1
+|-sideend|p2: testotesto321|Spikes|[from] move: Defog|[of] p1a: Hatterene
+|-sideend|p2: testotesto321|Stealth Rock|[from] move: Defog|[of] p1a: Hatterene
+|
+|-damage|p2a: Mandibuzz|45/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Hatterene|Psyshock|p2a: Chansey
+|-damage|p2a: Chansey|54/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|90/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: testotesto321|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Mantine|Mantine, M|75/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|49/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Cinderace|Gunk Shot|p1a: Mantine|[miss]
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-miss|p2a: Cinderace|p1a: Mantine
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|99/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Cinderace|U-turn|p1a: Mantine
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|85/100
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|45/100 brn|[from]move: U-turn
+|move|p1a: Mantine|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|26/100 brn
+|
+|-damage|p2a: Mandibuzz|20/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|70/100 brn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Mandibuzz|64/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Crawdaunt|Crabhammer|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|40/100
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|90/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|90/100
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|64/100 brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Leech Seed
+|
+|-damage|p2a: Mandibuzz|52/100 brn|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|-damage|p2a: Mandibuzz|45/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|96/100 brn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Mandibuzz|83/100 brn|[from] Leech Seed|[of] p1a: Hatterene
+|-damage|p2a: Mandibuzz|77/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Chansey
+|-damage|p2a: Chansey|68/100
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|95/100|[from] Stealth Rock
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Magearna|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|86/100
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Mantine|Mantine, M|85/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|63/100
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Cinderace|Gunk Shot|p1a: Mantine|[miss]
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-miss|p2a: Cinderace|p1a: Mantine
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Cinderace|U-turn|p1a: Mantine
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|86/100
+|
+|switch|p2a: Magearna|Magearna|95/100|[from]move: U-turn
+|-damage|p2a: Magearna|89/100|[from] Stealth Rock
+|move|p1a: Mantine|Scald|p2a: Magearna
+|-damage|p2a: Magearna|66/100
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Marowak|Marowak-Alola, F|91/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Marowak
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Marowak
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+|
+|switch|p1a: Urshifu|Urshifu, F|100/100
+|turn|30
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Urshifu|Wicked Blow|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|33/100
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|77/100 brn
+|move|p1a: Urshifu|Wicked Blow|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|52/100 brn
+|
+|-damage|p2a: Mandibuzz|46/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|96/100 brn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Mandibuzz|90/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Crawdaunt|Crabhammer|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|25/100 brn
+|move|p2a: Mandibuzz|Defog|p1a: Crawdaunt
+|-unboost|p1a: Crawdaunt|evasion|1
+|-sideend|p2: testotesto321|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-damage|p2a: Mandibuzz|18/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Crawdaunt|Crabhammer|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|35
+|
+|switch|p1a: Mantine|Mantine, M|86/100
+|move|p2a: Alakazam|Dazzling Gleam|p1a: Mantine
+|-damage|p1a: Mantine|59/100
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Alakazam|Psychic|p1a: Mantine
+|-damage|p1a: Mantine|18/100
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|68/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Alakazam|Dazzling Gleam|p1a: Mantine
+|-damage|p1a: Mantine|44/100
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|94/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Mantine
+|-damage|p1a: Mantine|69/100
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Alakazam|Shadow Ball|p1a: Mantine
+|-damage|p1a: Mantine|75/100
+|move|p1a: Mantine|Scald|p2a: Alakazam
+|-damage|p2a: Alakazam|65/100
+|
+|upkeep
+|turn|40
+|
+|switch|p2a: Magearna|Magearna|66/100
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|upkeep
+|turn|41
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|86/100
+|move|p2a: Magearna|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|42
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|move|p2a: Cinderace|Gunk Shot|p1a: Mantine|[miss]
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-miss|p2a: Cinderace|p1a: Mantine
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Cinderace|Gunk Shot|p1a: Mantine
+|-damage|p1a: Mantine|52/100
+|move|p1a: Mantine|Scald|p2a: Cinderace
+|-damage|p2a: Cinderace|68/100
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Cinderace|Gunk Shot|p1a: Mantine
+|-damage|p1a: Mantine|1/100
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|51/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Cinderace|Gunk Shot|p1a: Mantine|[miss]
+|-miss|p2a: Cinderace|p1a: Mantine
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|upkeep
+|turn|46
+|
+|switch|p2a: Magearna|Magearna|66/100
+|move|p1a: Mantine|Scald|p2a: Magearna
+|-damage|p2a: Magearna|41/100
+|
+|upkeep
+|turn|47
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|72/100
+|move|p2a: Magearna|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|58/100
+|
+|switch|p2a: Alakazam|Alakazam, M|65/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Alakazam|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|upkeep
+|c|☆testotesto321|LOL
+|c|☆Le-Perpetrator|lol
+|c|☆testotesto321|utter garbage
+|-message|testotesto321 forfeited.
+|
+|win|Le-Perpetrator
+|l|☆testotesto321

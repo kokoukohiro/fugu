@@ -1,0 +1,376 @@
+|j|☆Setup-bait
+|j|☆N30N3
+|player|p1|Setup-bait|1|1885
+|player|p2|N30N3|170|1856
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Hippowdon, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Gigalith, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Kyurem|
+|poke|p2|Hippowdon, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Ferrothorn, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by N30N3)
+|j| HeavenStar
+|j| cancer02
+|j| Omari P
+|inactive|N30N3 has 120 seconds left.
+|c|☆Setup-bait|Make a fucking move
+|inactive|N30N3 has 90 seconds left.
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|move|p1a: Hippowdon|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: N30N3|move: Stealth Rock
+|move|p2a: Conkeldurr|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|79/100
+|-enditem|p1a: Hippowdon|Smooth Rock|[from] move: Knock Off|[of] p2a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|94/100|[from] Sandstorm
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|j| HYper
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|66/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|94/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|63/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|94/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|51/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|94/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|65/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|94/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Conkeldurr|Defog|p1a: Dragapult
+|-unboost|p1a: Dragapult|evasion|1
+|-sideend|p2: N30N3|Stealth Rock|[from] move: Defog|[of] p2a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|95/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|82/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|45/100 brn
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|14/100 brn
+|-damage|p1a: Dragapult|85/100|[from] item: Life Orb
+|move|p2a: Conkeldurr|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Life Orb|[from] move: Knock Off|[of] p2a: Conkeldurr
+|faint|p1a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|8/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|2/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, M|65/100
+|turn|8
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Hippowdon|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: N30N3|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Kyurem|Ice Beam|p1a: Gigalith
+|-damage|p1a: Gigalith|61/100
+|-enditem|p1a: Gigalith|Eject Button
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|94/100|[from] Sandstorm
+|upkeep
+|turn|10
+|j| Duejeb/×¥÷_
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Hippowdon|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Setup-bait|move: Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Hippowdon
+|-damage|p2a: Hippowdon|82/100
+|-enditem|p2a: Hippowdon|Smooth Rock|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: N30N3|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Ferrothorn|Body Press|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|60/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Setup-bait|Spikes
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100
+|-damage|p1a: Ferrothorn|82/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|71/100
+|-damage|p2a: Ferrothorn|40/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|-damage|p1a: Excadrill|85/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Excadrill
+|-sidestart|p1: Setup-bait|Spikes
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|2/100 brn
+|-damage|p2a: Conkeldurr|0 fnt|[from] Spikes
+|faint|p2a: Conkeldurr
+|move|p1a: Excadrill|Earthquake|p2: Conkeldurr|[notarget]
+|-fail|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem|94/100
+|-damage|p2a: Kyurem|82/100|[from] Spikes
+|-damage|p2a: Kyurem|57/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|17
+|j| tapu moxo
+|
+|switch|p1a: Gigalith|Gigalith, M|61/100
+|-damage|p1a: Gigalith|49/100|[from] Stealth Rock
+|-damage|p1a: Gigalith|32/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Kyurem|Ice Beam|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|51/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|85/100
+|-damage|p1a: Excadrill|82/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|65/100|[from] Spikes
+|turn|18
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|40/100
+|-damage|p2a: Ferrothorn|33/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|21/100|[from] Spikes
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|l| tapu moxo
+|l| Omari P
+|
+|switch|p2a: Hippowdon|Hippowdon, M|82/100
+|-damage|p2a: Hippowdon|70/100|[from] Spikes
+|-damage|p2a: Hippowdon|63/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Togekiss|94/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|88/100|[from] Spikes
+|-damage|p2a: Excadrill|85/100|[from] Stealth Rock
+|move|p1a: Togekiss|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Togekiss|88/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|71/100
+|-damage|p1a: Ferrothorn|54/100|[from] Spikes
+|-damage|p1a: Ferrothorn|48/100|[from] Stealth Rock
+|move|p2a: Excadrill|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|41/100
+|-boost|p2a: Excadrill|spe|1
+|-damage|p2a: Excadrill|6/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: N30N3|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: N30N3|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem|51/100
+|-ability|p2a: Kyurem|Pressure
+|turn|22
+|
+|switch|p1a: Hippowdon|Hippowdon, M|65/100
+|-damage|p1a: Hippowdon|49/100|[from] Spikes
+|-damage|p1a: Hippowdon|43/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Kyurem|Ice Beam|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|45/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|65/100
+|-damage|p1a: Excadrill|62/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|46/100|[from] Spikes
+|turn|23
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|c|☆N30N3|Wow
+|c|☆N30N3|Gg
+|
+|move|p1a: Excadrill|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆Setup-bait|It's not
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|turn|25
+|c|☆Setup-bait|It is
+|c| HeavenStar|choice band?
+|
+|move|p1a: Excadrill|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆Setup-bait|Ofc
+|
+|switch|p2a: Kyurem|Kyurem|45/100
+|-ability|p2a: Kyurem|Pressure
+|turn|26
+|
+|move|p1a: Excadrill|Earthquake|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|win|Setup-bait
+|l|☆N30N3
+|l| HeavenStar
+|raw|Setup-bait's rating: 1858 &rarr; <strong>1876</strong><br />(+18 for winning)
+|raw|N30N3's rating: 1828 &rarr; <strong>1810</strong><br />(-18 for losing)

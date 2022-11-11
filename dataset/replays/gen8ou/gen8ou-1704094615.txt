@@ -1,0 +1,217 @@
+|j|☆minimax_ai
+|j|☆Steve Omelette
+|t:|1667742462
+|gametype|singles
+|player|p1|minimax_ai|169|1568
+|player|p2|Steve Omelette|1|1571
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Skarmory, M|
+|poke|p2|Hippowdon, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Clefable, F|
+|poke|p2|Reuniclus, F|
+|poke|p2|Tapu Koko|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1667742474
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1667742479
+|move|p1a: Heatran|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100
+|move|p2a: Toxapex|Light Screen|p2a: Toxapex
+|-sidestart|p2: Steve Omelette|move: Light Screen
+|
+|-heal|p2a: Toxapex|58/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1667742482
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Heatran|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: Steve Omelette|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1667742484
+|move|p1a: Heatran|Magma Storm|p2a: Hippowdon
+|-damage|p2a: Hippowdon|82/100
+|-activate|p2a: Hippowdon|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Hippowdon|Stealth Rock|p1a: Heatran
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|88/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|75/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1667742486
+|move|p1a: Heatran|Magma Storm|p2a: Hippowdon
+|-damage|p2a: Hippowdon|56/100
+|move|p2a: Hippowdon|Roar|p1a: Heatran
+|drag|p1a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p1a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Hippowdon|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: landorustherian|94/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|62/100|[from] item: Leftovers
+|-end|p2a: Hippowdon|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|5
+|
+|t:|1667742494
+|move|p1a: landorustherian|Toxic|p2a: Hippowdon
+|-status|p2a: Hippowdon|tox
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: landorustherian|99/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|94/100 tox|[from] psn
+|-sideend|p2: Steve Omelette|move: Light Screen
+|upkeep
+|turn|6
+|
+|t:|1667742498
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: landorustherian|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|92/100
+|-damage|p1a: landorustherian|84/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|
+|t:|1667742498
+|switch|p1a: Melmetal|Melmetal|100/100|[from]move: U-turn
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1667742503
+|switch|p2a: Toxapex|Toxapex, M|91/100
+|-damage|p2a: Toxapex|79/100|[from] Stealth Rock
+|move|p1a: Melmetal|Double Iron Bash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|66/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|53/100
+|-hitcount|p2a: Toxapex|2
+|
+|-heal|p2a: Toxapex|60/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1667742506
+|move|p1a: Melmetal|Thunder Punch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|22/100
+|move|p2a: Toxapex|Knock Off|p1a: Melmetal
+|-damage|p1a: Melmetal|85/100
+|-enditem|p1a: Melmetal|Assault Vest|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|28/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1667742512
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Melmetal|Double Iron Bash|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|77/100
+|-damage|p1a: Melmetal|69/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|66/100
+|-damage|p1a: Melmetal|52/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-hitcount|p2a: Skarmory|2
+|
+|upkeep
+|turn|10
+|
+|t:|1667742514
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p1a: rotomwash|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1667742522
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1667742526
+|move|p1a: rotomwash|Hydro Pump|p2a: Reuniclus|[miss]
+|-miss|p1a: rotomwash|p2a: Reuniclus
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1667742530
+|move|p1a: rotomwash|Hydro Pump|p2a: Reuniclus
+|-damage|p2a: Reuniclus|66/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-heal|p2a: Reuniclus|72/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1667742532
+|move|p1a: rotomwash|Hydro Pump|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|-message|Steve Omelette forfeited.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1568 &rarr; <strong>1588</strong><br />(+20 for winning)
+|raw|Steve Omelette's rating: 1571 &rarr; <strong>1551</strong><br />(-20 for losing)
+|c|☆minimax_ai|gg
+|l|☆Steve Omelette

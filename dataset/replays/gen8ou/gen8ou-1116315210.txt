@@ -1,0 +1,536 @@
+|j|☆CentralDoggma
+|j|☆4funaccount
+|player|p1|CentralDoggma|silver|1916
+|player|p2|4funaccount|volkner|1802
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Hippowdon, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Zeraora|
+|poke|p2|Excadrill, F|
+|poke|p2|Hippowdon, M|
+|poke|p2|Reuniclus, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Clefable, F|
+|poke|p2|Hydreigon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 4funaccount)
+|
+|start
+|switch|p1a: Rik|Toxapex, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Rik|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|71/100
+|-enditem|p2a: Reuniclus|Assault Vest|[from] move: Knock Off|[of] p1a: Rik
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Rik|Toxic Spikes|p2a: Reuniclus
+|-sidestart|p2: 4funaccount|move: Toxic Spikes
+|move|p2a: Reuniclus|Knock Off|p1a: Rik
+|-damage|p1a: Rik|92/100
+|-enditem|p1a: Rik|Black Sludge|[from] move: Knock Off|[of] p2a: Reuniclus
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Rik|Toxic Spikes|p2a: Reuniclus
+|-sidestart|p2: 4funaccount|move: Toxic Spikes
+|move|p2a: Reuniclus|Knock Off|p1a: Rik
+|-damage|p1a: Rik|85/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Rik|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|48/100
+|move|p2a: Reuniclus|Knock Off|p1a: Rik
+|-damage|p1a: Rik|78/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Rik|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|29/100
+|move|p2a: Reuniclus|Future Sight|p1a: Rik
+|-start|p2a: Reuniclus|move: Future Sight
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Rik|Knock Off|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|5/100
+|move|p2a: Reuniclus|Knock Off|p1a: Rik
+|-damage|p1a: Rik|72/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Fluffy|Hydreigon, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|
+|-end|p1a: Fluffy|move: Future Sight
+|-immune|p1a: Fluffy
+|upkeep
+|turn|8
+|
+|switch|p1a: Omelette|Togekiss, F|100/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Omelette
+|-immune|p1a: Omelette
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|move|p1a: Omelette|Air Slash|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|81/100
+|
+|-heal|p2a: Excadrill|87/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Noms|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Noms
+|move|p2a: Excadrill|Rapid Spin|p1a: Noms
+|-damage|p1a: Noms|90/100
+|-boost|p2a: Excadrill|spe|1
+|-damage|p2a: Excadrill|70/100|[from] item: Rocky Helmet|[of] p1a: Noms
+|-sideend|p2: 4funaccount|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Excadrill|Toxic|p1a: Noms
+|-status|p1a: Noms|tox
+|move|p1a: Noms|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: 4funaccount|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|82/100|[from] item: Leftovers
+|-damage|p1a: Noms|84/100 tox|[from] psn
+|upkeep
+|turn|12
+|j| Cycuta
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Noms|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|-damage|p1a: Noms|72/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p1a: Rik|Toxapex, M|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Rik
+|-sidestart|p1: CentralDoggma|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rik|94/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|j| left foot up
+|
+|move|p1a: Rik|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|76/100
+|-damage|p1a: Rik|82/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Rik
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Rik
+|-status|p1a: Rik|par
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Rik
+|-sidestart|p1: CentralDoggma|Spikes
+|move|p1a: Rik|Toxic Spikes|p2a: Ferrothorn
+|-sidestart|p2: 4funaccount|move: Toxic Spikes
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Excadrill|Excadrill, F|82/100
+|-damage|p2a: Excadrill|79/100|[from] Stealth Rock
+|switch|p1a: Omelette|Togekiss, F|100/100
+|
+|-heal|p2a: Excadrill|85/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Omelette
+|-damage|p1a: Omelette|82/100
+|-boost|p2a: Excadrill|spe|1
+|-sideend|p2: 4funaccount|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: 4funaccount|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Omelette|Heal Bell|p1a: Omelette
+|-activate|p1a: Omelette|move: Heal Bell
+|-curestatus|p1: Rik|par|[msg]
+|-curestatus|p1: Noms|tox|[msg]
+|
+|-heal|p2a: Excadrill|91/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Noms|Hippowdon, F|72/100
+|-damage|p1a: Noms|55/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Noms
+|move|p2a: Excadrill|Earthquake|p1a: Noms
+|-damage|p1a: Noms|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|97/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Fluffy|Hydreigon, M|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Fluffy
+|-immune|p1a: Fluffy|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fluffy|94/100|[from] Sandstorm
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|-heal|p1a: Fluffy|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Fluffy|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fluffy|94/100|[from] Sandstorm
+|-heal|p1a: Fluffy|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Guaca|Excadrill, F|100/100
+|-damage|p1a: Guaca|84/100|[from] Spikes
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Guaca|90/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|move|p1a: Guaca|Rapid Spin|p2a: Hippowdon
+|-damage|p2a: Hippowdon|91/100
+|-boost|p1a: Guaca|spe|1
+|-sideend|p1: CentralDoggma|Spikes|[from] move: Rapid Spin|[of] p1a: Guaca
+|
+|-weather|none
+|-heal|p1a: Guaca|96/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|97/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|l| Cycuta
+|
+|switch|p1a: Noms|Hippowdon, F|27/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Noms
+|move|p2a: Hippowdon|Stealth Rock|p1a: Noms
+|-sidestart|p1: CentralDoggma|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Reuniclus|Reuniclus, M|39/100
+|move|p1a: Noms|Slack Off|p1a: Noms
+|-heal|p1a: Noms|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reuniclus|33/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|move|p1a: Noms|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|j| I embarris.
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Noms|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: 4funaccount|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|switch|p1a: Omelette|Togekiss, F|82/100
+|move|p2a: Hydreigon|Flash Cannon|p1a: Omelette
+|-supereffective|p1a: Omelette
+|-damage|p1a: Omelette|29/100
+|-damage|p2a: Hydreigon|84/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|28
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Omelette
+|-supereffective|p1a: Omelette
+|-damage|p1a: Omelette|0 fnt
+|-damage|p2a: Hydreigon|75/100|[from] item: Life Orb
+|faint|p1a: Omelette
+|
+|upkeep
+|
+|switch|p1a: Ryuji|Zeraora|100/100
+|-damage|p1a: Ryuji|88/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p2a: Hippowdon|Hippowdon, M|88/100
+|-damage|p2a: Hippowdon|82/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Ryuji|Knock Off|p2a: Hippowdon
+|-damage|p2a: Hippowdon|65/100
+|-enditem|p2a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p1a: Ryuji
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ryuji|82/100|[from] Sandstorm
+|-heal|p1a: Ryuji|88/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Fluffy|Hydreigon, M|100/100
+|-damage|p1a: Fluffy|88/100|[from] Stealth Rock
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fluffy|82/100|[from] Sandstorm
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|-heal|p1a: Fluffy|88/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Excadrill|Iron Head|p1a: Fluffy
+|-damage|p1a: Fluffy|41/100
+|cant|p1a: Fluffy|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fluffy|35/100|[from] Sandstorm
+|-heal|p1a: Fluffy|41/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Noms|Hippowdon, F|77/100
+|-damage|p1a: Noms|71/100|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Noms
+|-damage|p1a: Noms|50/100
+|-damage|p2a: Excadrill|84/100|[from] item: Rocky Helmet|[of] p1a: Noms
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|90/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Clefable|Clefable, F|70/100
+|move|p1a: Noms|Slack Off|p1a: Noms
+|-heal|p1a: Noms|100/100
+|
+|-weather|none
+|upkeep
+|turn|34
+|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|move|p1a: Noms|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|65/100
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: Guaca|Excadrill, F|96/100
+|-damage|p1a: Guaca|93/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Guaca
+|-resisted|p1a: Guaca
+|-damage|p1a: Guaca|67/100
+|
+|-heal|p1a: Guaca|73/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|76/100
+|-damage|p2a: Ferrothorn|70/100|[from] Stealth Rock
+|move|p1a: Guaca|Swords Dance|p1a: Guaca
+|-boost|p1a: Guaca|atk|2
+|
+|-heal|p1a: Guaca|79/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Guaca|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|12/100
+|move|p2a: Ferrothorn|Body Press|p1a: Guaca
+|-supereffective|p1a: Guaca
+|-damage|p1a: Guaca|0 fnt
+|faint|p1a: Guaca
+|
+|upkeep
+|j| phys2000
+|
+|switch|p1a: Fluffy|Hydreigon, M|41/100
+|-damage|p1a: Fluffy|29/100|[from] Stealth Rock
+|turn|38
+|
+|move|p1a: Fluffy|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Fluffy|35/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|65/100
+|turn|39
+|
+|move|p1a: Fluffy|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|17/100
+|move|p2a: Clefable|Moonblast|p1a: Fluffy
+|-supereffective|p1a: Fluffy
+|-damage|p1a: Fluffy|0 fnt
+|faint|p1a: Fluffy
+|
+|upkeep
+|
+|switch|p1a: Ryuji|Zeraora|88/100
+|-damage|p1a: Ryuji|76/100|[from] Stealth Rock
+|turn|40
+|
+|switch|p1a: Rik|Toxapex, M|100/100
+|-damage|p1a: Rik|88/100|[from] Stealth Rock
+|switch|p2a: Hippowdon|Hippowdon, M|65/100
+|-damage|p2a: Hippowdon|59/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rik|82/100|[from] Sandstorm
+|upkeep
+|turn|41
+|
+|switch|p2a: Reuniclus|Reuniclus, M|66/100
+|-damage|p2a: Reuniclus|54/100|[from] Stealth Rock
+|move|p1a: Rik|Toxic Spikes|p2a: Reuniclus
+|-sidestart|p2: 4funaccount|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rik|75/100|[from] Sandstorm
+|-damage|p2a: Reuniclus|48/100|[from] Sandstorm
+|upkeep
+|turn|42
+|
+|switch|p1a: Noms|Hippowdon, F|100/100
+|-damage|p1a: Noms|94/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Future Sight|p1a: Noms
+|-start|p2a: Reuniclus|move: Future Sight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reuniclus|41/100|[from] Sandstorm
+|upkeep
+|turn|43
+|
+|switch|p2a: Hydreigon|Hydreigon, F|75/100
+|-damage|p2a: Hydreigon|62/100|[from] Stealth Rock
+|move|p1a: Noms|Earthquake|p2a: Hydreigon
+|-immune|p2a: Hydreigon|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|56/100|[from] Sandstorm
+|upkeep
+|turn|44
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Noms
+|-damage|p1a: Noms|8/100
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|46/100|[from] item: Life Orb
+|move|p1a: Noms|Slack Off|p1a: Noms
+|-heal|p1a: Noms|58/100
+|
+|-weather|none
+|-end|p1a: Noms|move: Future Sight
+|-damage|p1a: Noms|3/100
+|upkeep
+|turn|45
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Noms
+|-damage|p1a: Noms|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|36/100|[from] item: Life Orb
+|faint|p1a: Noms
+|
+|upkeep
+|
+|switch|p1a: Ryuji|Zeraora|76/100
+|-damage|p1a: Ryuji|64/100|[from] Stealth Rock
+|turn|46
+|
+|switch|p2a: Hippowdon|Hippowdon, M|59/100
+|-status|p2a: Hippowdon|psn
+|-damage|p2a: Hippowdon|53/100 psn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Ryuji|Bulk Up|p1a: Ryuji
+|-boost|p1a: Ryuji|atk|1
+|-boost|p1a: Ryuji|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ryuji|58/100|[from] Sandstorm
+|-heal|p1a: Ryuji|64/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|40/100 psn|[from] psn
+|upkeep
+|turn|47
+|
+|switch|p1a: Rik|Toxapex, M|100/100
+|-damage|p1a: Rik|88/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Rik
+|-supereffective|p1a: Rik
+|-damage|p1a: Rik|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rik|32/100|[from] Sandstorm
+|-damage|p2a: Hippowdon|28/100 psn|[from] psn
+|upkeep
+|turn|48
+|-message|CentralDoggma forfeited.
+|
+|win|4funaccount
+|l|☆CentralDoggma
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

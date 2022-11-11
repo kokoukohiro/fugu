@@ -1,0 +1,293 @@
+|j|☆Furries=Cringe
+|j|☆lebanesestinker
+|player|p1|Furries=Cringe|168|1441
+|player|p2|lebanesestinker|policeman|1394
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Mandibuzz, F|
+|poke|p1|Clefable, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Hydreigon, M|
+|poke|p2|Mamoswine, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Eldegoss, F|
+|poke|p2|Bisharp, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Togekiss, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Furries=Cringe)
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: Mamoswine
+|-damage|p2a: Mamoswine|75/100
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100|[from]move: U-turn
+|move|p2a: Mamoswine|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: Furries=Cringe|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100
+|-unboost|p1a: Hydreigon|spa|2
+|
+|-heal|p2a: Toxapex|62/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Toxapex|Toxapex, F|96/100
+|move|p1a: Clefable|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|84/100
+|
+|-heal|p2a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|49/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Clefable
+|-sidestart|p1: Furries=Cringe|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|55/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|move|p1a: Clefable|Moonblast|p2a: Eldegoss
+|-damage|p2a: Eldegoss|46/100
+|
+|-heal|p2a: Eldegoss|52/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|8
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Bisharp|Iron Head|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|60/100
+|-damage|p2a: Bisharp|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Excadrill|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Eldegoss|Eldegoss, F|85/100
+|move|p1a: Excadrill|Earthquake|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|67/100
+|
+|-heal|p1a: Excadrill|73/100|[from] item: Leftovers
+|-heal|p2a: Eldegoss|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Eldegoss
+|-damage|p2a: Eldegoss|60/100
+|-sideend|p1: Furries=Cringe|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: Furries=Cringe|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Eldegoss|Leech Seed|p1a: Excadrill|[miss]
+|-miss|p2a: Eldegoss|p1a: Excadrill
+|
+|-heal|p1a: Excadrill|79/100|[from] item: Leftovers
+|-heal|p2a: Eldegoss|67/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Eldegoss|Giga Drain|p1a: Clefable
+|-damage|p1a: Clefable|81/100
+|-heal|p2a: Eldegoss|78/100|[from] drain|[of] p1a: Clefable
+|
+|-heal|p2a: Eldegoss|84/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Toxapex|Toxapex, F|88/100
+|move|p1a: Clefable|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|70/100
+|
+|-heal|p2a: Toxapex|76/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Mamoswine|Mamoswine, F|75/100
+|move|p1a: Clefable|Thunderbolt|p2a: Mamoswine
+|-immune|p2a: Mamoswine
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Mamoswine|Icicle Crash|p1a: Seismitoad
+|-damage|p1a: Seismitoad|63/100
+|
+|-heal|p1a: Seismitoad|69/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|move|p1a: Seismitoad|Scald|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|90/100
+|
+|-heal|p1a: Seismitoad|75/100|[from] item: Leftovers
+|-heal|p2a: Eldegoss|96/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, F|75/100
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|76/100
+|
+|-heal|p2a: Toxapex|83/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Cinderace|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|73/100
+|
+|switch|p1a: Clefable|Clefable, F|81/100|[from]move: U-turn
+|move|p2a: Toxapex|Toxic Spikes|p1a: Clefable
+|-sidestart|p1: Furries=Cringe|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|79/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Clefable|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|61/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Clefable|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+|-unboost|p2a: Toxapex|spa|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Clefable
+|-sidestart|p1: Furries=Cringe|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|switch|p2a: Mamoswine|Mamoswine, F|75/100
+|move|p1a: Clefable|Moonblast|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|91/100
+|turn|22
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Hydreigon|Fire Blast|p2a: Togekiss
+|-damage|p2a: Togekiss|63/100
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Excadrill|Excadrill, M|79/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Togekiss|Air Slash|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|64/100
+|
+|-heal|p1a: Excadrill|70/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Togekiss|Air Slash|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|57/100
+|cant|p1a: Excadrill|flinch
+|
+|-heal|p1a: Excadrill|63/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Togekiss|Air Slash|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|50/100
+|cant|p1a: Excadrill|flinch
+|
+|-heal|p1a: Excadrill|56/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Togekiss|Air Slash|p1a: Excadrill|[miss]
+|-miss|p2a: Togekiss|p1a: Excadrill
+|move|p1a: Excadrill|Iron Head|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-heal|p1a: Excadrill|62/100|[from] item: Leftovers
+|upkeep
+|-message|lebanesestinker forfeited.
+|
+|win|Furries=Cringe
+|l|☆lebanesestinker
+|raw|Furries=Cringe's rating: 1424 &rarr; <strong>1442</strong><br />(+18 for winning)
+|raw|lebanesestinker's rating: 1394 &rarr; <strong>1376</strong><br />(-18 for losing)

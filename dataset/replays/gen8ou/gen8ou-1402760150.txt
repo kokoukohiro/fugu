@@ -1,0 +1,386 @@
+|j|☆TheonReekGreyjoy
+|j|☆Ackesh
+|t:|1629800985
+|gametype|singles
+|player|p1|TheonReekGreyjoy|7|1766
+|player|p2|Ackesh|101|1911
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Melmetal|
+|poke|p1|Dragapult, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Vanilluxe, F|
+|poke|p1|Arctozolt|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Kyurem|
+|poke|p2|Rillaboom, M|
+|poke|p2|Victini|
+|poke|p2|Heatran, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|j| ALT535
+|
+|t:|1629801018
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|1
+|
+|t:|1629801024
+|move|p1a: Melmetal|Protect|p1a: Melmetal
+|-singleturn|p1a: Melmetal|Protect
+|move|p2a: Heatran|Flamethrower|p1a: Melmetal
+|-activate|p1a: Melmetal|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1629801029
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Heatran|Flamethrower|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|48/100
+|
+|-heal|p1a: Dragapult|53/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1629801037
+|move|p1a: Dragapult|Dragon Darts|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|88/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|move|p2a: Heatran|Flamethrower|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|1/100
+|
+|-heal|p1a: Dragapult|7/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1629801055
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|move|p2a: Heatran|Flamethrower|p1a: Dragapult|[miss]
+|-miss|p2a: Heatran|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|13/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j| Iziyo
+|
+|t:|1629801071
+|move|p1a: Dragapult|Phantom Force|p2a: Heatran|[from]lockedmove
+|-damage|p2a: Heatran|32/100
+|move|p2a: Heatran|Flamethrower|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1629801077
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|turn|6
+|
+|t:|1629801082
+|move|p2a: Heatran|Flamethrower|p1a: Landorus
+|-damage|p1a: Landorus|36/100
+|move|p1a: Landorus|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1629801089
+|switch|p2a: Victini|Victini|100/100
+|turn|7
+|j| ulisesdiogenes
+|
+|t:|1629801098
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|move|p2a: Victini|V-create|p1a: Vanilluxe
+|-supereffective|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Victini|94/100|[from] Hail
+|upkeep
+|
+|t:|1629801106
+|switch|p1a: Arctozolt|Arctozolt|100/100
+|turn|8
+|
+|t:|1629801111
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Arctozolt|Substitute|p1a: Arctozolt
+|-start|p1a: Arctozolt|Substitute
+|-damage|p1a: Arctozolt|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1629801123
+|move|p1a: Arctozolt|Bolt Beak|p2a: Torkoal
+|-damage|p2a: Torkoal|56/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Arctozolt
+|-sidestart|p1: TheonReekGreyjoy|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|j| remetagross
+|
+|t:|1629801133
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-immune|p1a: Arctozolt
+|move|p1a: Arctozolt|Blizzard|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1629801137
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|11
+|j| FlyWhiteGuy
+|
+|t:|1629801145
+|move|p2a: Kyurem|Earth Power|p1a: Arctozolt
+|-supereffective|p1a: Arctozolt
+|-end|p1a: Arctozolt|Substitute
+|move|p1a: Arctozolt|Low Kick|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1629801157
+|switch|p1a: Landorus|Landorus-Therian, M|36/100
+|-damage|p1a: Landorus|24/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|move|p2a: Kyurem|Weather Ball|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1629801172
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|13
+|
+|t:|1629801178
+|switch|p2a: Torkoal|Torkoal, F|56/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ninetales|Hypnosis|p2a: Torkoal
+|-status|p2a: Torkoal|slp|[from] move: Hypnosis
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|j| Mynameisabhi
+|
+|t:|1629801186
+|switch|p1a: Melmetal|Melmetal|100/100
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|switch|p2a: Victini|Victini|94/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Melmetal|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1629801198
+|move|p1a: Melmetal|Protect|p1a: Melmetal
+|-singleturn|p1a: Melmetal|Protect
+|move|p2a: Victini|V-create|p1a: Melmetal
+|-activate|p1a: Melmetal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1629801203
+|switch|p1a: Ninetales|Ninetales-Alola, F|76/100
+|-damage|p1a: Ninetales|51/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Victini|V-create|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Victini|88/100|[from] Hail
+|upkeep
+|
+|t:|1629801209
+|switch|p1a: Arctozolt|Arctozolt|76/100
+|turn|17
+|l| Mynameisabhi
+|
+|t:|1629801212
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Arctozolt|Substitute|p1a: Arctozolt
+|-start|p1a: Arctozolt|Substitute
+|-damage|p1a: Arctozolt|51/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rillaboom|94/100|[from] Hail
+|-heal|p1a: Arctozolt|57/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1629801215
+|switch|p2a: Torkoal|Torkoal, F|56/100 slp
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Arctozolt|Blizzard|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|32/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Arctozolt|63/100|[from] Grassy Terrain
+|-heal|p2a: Torkoal|38/100 slp|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1629801226
+|move|p1a: Arctozolt|Bolt Beak|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Arctozolt|69/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1629801229
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|turn|20
+|j| wsg7ith
+|
+|t:|1629801239
+|move|p2a: Rillaboom|Grassy Glide|p1a: Arctozolt
+|-end|p1a: Arctozolt|Substitute
+|-damage|p2a: Rillaboom|91/100|[from] item: Life Orb
+|move|p1a: Arctozolt|Substitute|p1a: Arctozolt
+|-start|p1a: Arctozolt|Substitute
+|-damage|p1a: Arctozolt|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|97/100|[from] Grassy Terrain
+|-heal|p1a: Arctozolt|51/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1629801254
+|move|p2a: Rillaboom|Drain Punch|p1a: Arctozolt
+|-supereffective|p1a: Arctozolt
+|-end|p1a: Arctozolt|Substitute
+|-heal|p2a: Rillaboom|100/100|[from] drain|[of] p1a: Arctozolt
+|-damage|p2a: Rillaboom|91/100|[from] item: Life Orb
+|move|p1a: Arctozolt|Substitute|p1a: Arctozolt
+|-start|p1a: Arctozolt|Substitute
+|-damage|p1a: Arctozolt|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|97/100|[from] Grassy Terrain
+|-heal|p1a: Arctozolt|32/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1629801266
+|move|p2a: Rillaboom|Drain Punch|p1a: Arctozolt
+|-supereffective|p1a: Arctozolt
+|-crit|p1a: Arctozolt
+|-end|p1a: Arctozolt|Substitute
+|-heal|p2a: Rillaboom|100/100|[from] drain|[of] p1a: Arctozolt
+|-damage|p2a: Rillaboom|91/100|[from] item: Life Orb
+|move|p1a: Arctozolt|Blizzard|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1629801271
+|switch|p2a: Kyurem|Kyurem|32/100
+|-ability|p2a: Kyurem|Pressure
+|turn|23
+|j| Marquesa-10%
+|
+|t:|1629801281
+|move|p2a: Kyurem|Earth Power|p1a: Arctozolt
+|-supereffective|p1a: Arctozolt
+|-damage|p1a: Arctozolt|0 fnt
+|faint|p1a: Arctozolt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1629801284
+|switch|p1a: Melmetal|Melmetal|100/100
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1629801286
+|move|p1a: Melmetal|Protect|p1a: Melmetal
+|-singleturn|p1a: Melmetal|Protect
+|move|p2a: Kyurem|Earth Power|p1a: Melmetal
+|-activate|p1a: Melmetal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Melmetal|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆Ackesh|gg
+|
+|t:|1629801292
+|move|p2a: Kyurem|Weather Ball|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|win|Ackesh
+|raw|TheonReekGreyjoy's rating: 1766 &rarr; <strong>1754</strong><br />(-12 for losing)
+|raw|Ackesh's rating: 1911 &rarr; <strong>1923</strong><br />(+12 for winning)
+|l|☆TheonReekGreyjoy

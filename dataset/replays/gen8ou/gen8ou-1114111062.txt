@@ -1,0 +1,214 @@
+|j|☆Jci
+|j|☆Rorschach I
+|player|p1|Jci|nita|1608
+|player|p2|Rorschach I|cynthia|1611
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Hippowdon, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Terrakion|
+|poke|p1|Clefable, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Venusaur, M|
+|poke|p2|Charizard, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Clefable, M|
+|poke|p2|Excadrill, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Torkoal|Will-O-Wisp|p1a: Rotom
+|-immune|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Discharge|p2a: Torkoal
+|-damage|p2a: Torkoal|60/100
+|-status|p2a: Torkoal|par
+|move|p2a: Torkoal|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Jci|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Rotom|Overheat|p2a: Clefable
+|-damage|p2a: Clefable|53/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clefable|59/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Clefable|Teleport|p2a: Clefable
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100|[from]move: Teleport
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Venusaur|Weather Ball|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|69/100
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Clefable|Clefable, M|59/100
+|move|p1a: Rotom|Overheat|p2a: Clefable
+|-damage|p2a: Clefable|8/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clefable|14/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Rotom|Overheat|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Clefable
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|8
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Excadrill|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Torkoal|Torkoal, F|60/100 par
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Hippowdon|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: Rorschach I|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|16/100 par
+|move|p2a: Torkoal|Rapid Spin|p1a: Hippowdon
+|-damage|p1a: Hippowdon|61/100
+|-boost|p2a: Torkoal|spe|1
+|-damage|p2a: Torkoal|0 fnt|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|-damage|p2a: Charizard|51/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Charizard|Flamethrower|p1a: Clefable
+|-damage|p1a: Clefable|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|38/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-heal|p1a: Clefable|7/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Hippowdon|Hippowdon, F|61/100
+|-damage|p1a: Hippowdon|55/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Charizard|Flamethrower|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|32/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|69/100
+|turn|13
+|
+|move|p2a: Charizard|Flamethrower|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|39/100
+|move|p1a: Rotom|Overheat|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|3/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] Sandstorm
+|-damage|p1a: Rotom|33/100|[from] Sandstorm
+|faint|p2a: Charizard
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|14
+|j| HeavenStar
+|
+|move|p2a: Excadrill|Earthquake|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Excadrill|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|-message|Rorschach I forfeited.
+|
+|win|Jci
+|l|☆Rorschach I
+|l|☆Jci

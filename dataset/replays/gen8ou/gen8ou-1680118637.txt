@@ -1,0 +1,904 @@
+|j|☆Z-Aelogic
+|j|☆Thedebatablereaper
+|t:|1665162123
+|gametype|singles
+|player|p1|Z-Aelogic|clair|1466
+|player|p2|Thedebatablereaper|101|1403
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Clefable, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Nidoking, M|
+|poke|p1|Vaporeon, M|
+|poke|p1|Obstagoon, F|
+|poke|p1|Corviknight, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Volcarona, M|
+|poke|p2|Nidoking, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Weavile, M|
+|teampreview
+|
+|t:|1665162157
+|start
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|turn|1
+|
+|t:|1665162182
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Vaporeon|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1665162200
+|move|p2a: Landorus|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|72/100
+|
+|t:|1665162203
+|switch|p2a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Vaporeon|Toxic|p2a: Tapu Lele
+|-status|p2a: Tapu Lele|tox
+|
+|-heal|p1a: Vaporeon|78/100|[from] item: Leftovers
+|-damage|p2a: Tapu Lele|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1665162216
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Tapu Lele|Psychic|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|84/100|[from] item: Leftovers
+|-damage|p2a: Tapu Lele|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1665162235
+|move|p2a: Tapu Lele|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|34/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|40/100|[from] item: Leftovers
+|-damage|p2a: Tapu Lele|64/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1665162243
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Vaporeon|Protect||[still]
+|-fail|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|90/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|96/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1665162253
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Weavile|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|58/100
+|-damage|p2a: Weavile|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-enditem|p1a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p2a: Weavile
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|7
+|
+|t:|1665162263
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|8
+|
+|t:|1665162311
+|move|p1a: Corviknight|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|98/100
+|
+|t:|1665162314
+|switch|p1a: Clefable|Clefable, M|100/100|[from]move: U-turn
+|move|p2a: Corviknight|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|95/100
+|
+|t:|1665162326
+|switch|p2a: Nidoking|Nidoking, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|9
+|
+|t:|1665162330
+|switch|p1a: Vaporeon|Vaporeon, M|96/100
+|move|p2a: Nidoking|Sludge Wave|p1a: Vaporeon
+|-damage|p1a: Vaporeon|58/100
+|
+|-heal|p1a: Vaporeon|64/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1665162338
+|switch|p2a: Weavile|Weavile, M|84/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|70/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1665162347
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Vaporeon|Protect||[still]
+|-fail|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|12
+|
+|t:|1665162355
+|switch|p2a: Corviknight|Corviknight, F|98/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Vaporeon|Toxic|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1665162364
+|move|p2a: Corviknight|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|86/100
+|
+|t:|1665162372
+|switch|p2a: Nidoking|Nidoking, M|100/100|[from]move: U-turn
+|move|p1a: Vaporeon|Scald|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|23/100
+|
+|-heal|p1a: Vaporeon|92/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1665162380
+|move|p2a: Nidoking|Earth Power|p1a: Vaporeon
+|-damage|p1a: Vaporeon|54/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|60/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1665162388
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Vaporeon|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100
+|
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1665162397
+|move|p2a: Corviknight|Brave Bird|p1a: Vaporeon
+|-damage|p1a: Vaporeon|67/100
+|-damage|p2a: Corviknight|70/100|[from] Recoil
+|move|p1a: Vaporeon|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|47/100
+|
+|-heal|p2a: Corviknight|53/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|73/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1665162407
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|18
+|
+|t:|1665162414
+|move|p1a: Nidoking|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|24/100
+|move|p2a: Corviknight|U-turn|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|90/100
+|
+|t:|1665162421
+|switch|p2a: Tapu Lele|Tapu Lele|64/100 tox|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|-damage|p2a: Tapu Lele|58/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1665162429
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Tapu Lele|Psyshock|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|78/100
+|
+|-damage|p2a: Tapu Lele|46/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1665162439
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Corviknight|U-turn|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|94/100
+|
+|t:|1665162456
+|switch|p1a: Vaporeon|Vaporeon, M|73/100|[from]move: U-turn
+|
+|-heal|p1a: Vaporeon|79/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1665162462
+|switch|p2a: Corviknight|Corviknight, F|24/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Vaporeon|Toxic|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|31/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|85/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1665162471
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|81/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|87/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|23
+|
+|t:|1665162480
+|move|p1a: Obstagoon|Obstruct|p1a: Obstagoon
+|-singleturn|p1a: Obstagoon|Protect
+|move|p2a: Corviknight|U-turn|p1a: Obstagoon
+|-activate|p1a: Obstagoon|move: Protect
+|-unboost|p2a: Corviknight|def|2
+|
+|-heal|p2a: Corviknight|93/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1665162490
+|switch|p2a: Volcarona|Volcarona, M|94/100
+|move|p1a: Obstagoon|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|33/100
+|-enditem|p2a: Volcarona|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1665162498
+|move|p1a: Obstagoon|Facade|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1665162505
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Obstagoon|atk|1
+|turn|26
+|
+|t:|1665162510
+|move|p1a: Obstagoon|Obstruct|p1a: Obstagoon
+|-singleturn|p1a: Obstagoon|Protect
+|move|p2a: Landorus|U-turn|p1a: Obstagoon
+|-activate|p1a: Obstagoon|move: Protect
+|-unboost|p2a: Landorus|def|2
+|
+|-damage|p1a: Obstagoon|76/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1665162518
+|move|p2a: Landorus|U-turn|p1a: Obstagoon
+|-supereffective|p1a: Obstagoon
+|-damage|p1a: Obstagoon|22/100 brn
+|
+|t:|1665162521
+|switch|p2a: Corviknight|Corviknight, F|93/100|[from]move: U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Obstagoon|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100
+|
+|-heal|p2a: Corviknight|80/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|15/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1665162531
+|switch|p1a: Vaporeon|Vaporeon, M|85/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p1a: Vaporeon|91/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1665162548
+|move|p2a: Corviknight|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|77/100
+|
+|t:|1665162552
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Vaporeon|atk|1
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|83/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1665162560
+|move|p2a: Landorus|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: Z-Aelogic|move: Stealth Rock
+|move|p1a: Vaporeon|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|17/100
+|
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|31
+|
+|t:|1665162567
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|upkeep
+|turn|32
+|
+|t:|1665162573
+|move|p2a: Corviknight|Brave Bird|p1a: Vaporeon
+|-damage|p1a: Vaporeon|66/100
+|-damage|p2a: Corviknight|87/100|[from] Recoil
+|move|p1a: Vaporeon|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|63/100
+|
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Corviknight|69/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1665162584
+|move|p2a: Corviknight|Brave Bird|p1a: Vaporeon
+|-damage|p1a: Vaporeon|63/100
+|-damage|p2a: Corviknight|55/100|[from] Recoil
+|move|p1a: Vaporeon|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|29/100
+|
+|-heal|p2a: Corviknight|35/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|69/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1665162593
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|85/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Vaporeon|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|58/100
+|-status|p2a: Corviknight|brn
+|
+|-heal|p2a: Corviknight|64/100 brn|[from] item: Leftovers
+|-heal|p1a: Vaporeon|75/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|58/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1665162604
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|81/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1665162612
+|switch|p1a: Nidoking|Nidoking, M|90/100
+|-damage|p1a: Nidoking|84/100|[from] Stealth Rock
+|move|p2a: Corviknight|Brave Bird|p1a: Nidoking
+|-damage|p1a: Nidoking|59/100
+|-damage|p2a: Corviknight|88/100 brn|[from] Recoil
+|
+|-heal|p1a: Nidoking|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Corviknight|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|88/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1665162623
+|move|p1a: Nidoking|Ice Beam|p2a: Corviknight
+|-damage|p2a: Corviknight|50/100 brn
+|move|p2a: Corviknight|U-turn|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|96/100
+|
+|t:|1665162630
+|switch|p2a: Weavile|Weavile, M|84/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|38
+|
+|t:|1665162639
+|switch|p1a: Clefable|Clefable, M|95/100
+|move|p2a: Weavile|Triple Axel|p1a: Clefable
+|-damage|p1a: Clefable|85/100
+|-damage|p1a: Clefable|63/100
+|-damage|p1a: Clefable|31/100
+|-hitcount|p1a: Clefable|3
+|
+|upkeep
+|turn|39
+|
+|t:|1665162647
+|switch|p1a: Vaporeon|Vaporeon, M|81/100
+|-damage|p1a: Vaporeon|69/100|[from] Stealth Rock
+|move|p2a: Weavile|Triple Axel|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|61/100
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|46/100
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|22/100
+|-hitcount|p1a: Vaporeon|3
+|
+|-heal|p1a: Vaporeon|28/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1665162658
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Weavile|Triple Axel|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|34/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1665162665
+|switch|p1a: Corviknight|Corviknight, M|78/100
+|-damage|p1a: Corviknight|66/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Weavile|Triple Axel|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|52/100
+|-hitcount|p1a: Corviknight|1
+|
+|upkeep
+|turn|42
+|
+|t:|1665162673
+|move|p2a: Weavile|Triple Axel|p1a: Corviknight
+|-damage|p1a: Corviknight|42/100
+|-damage|p1a: Corviknight|25/100
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|-hitcount|p1: Corviknight|3
+|
+|upkeep
+|
+|t:|1665162684
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|43
+|
+|t:|1665162690
+|switch|p2a: Nidoking|Nidoking, M|23/100
+|switch|p1a: Vaporeon|Vaporeon, M|34/100
+|-damage|p1a: Vaporeon|22/100|[from] Stealth Rock
+|
+|-heal|p2a: Nidoking|29/100|[from] Grassy Terrain
+|-heal|p1a: Vaporeon|28/100|[from] Grassy Terrain
+|-heal|p1a: Vaporeon|34/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1665162706
+|switch|p2a: Landorus|Landorus-Therian, M|17/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Vaporeon|atk|1
+|move|p1a: Vaporeon|Protect||[still]
+|-fail|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|40/100|[from] Grassy Terrain
+|-heal|p1a: Vaporeon|46/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1665162716
+|move|p2a: Landorus|Knock Off|p1a: Vaporeon
+|-damage|p1a: Vaporeon|12/100
+|-enditem|p1a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p2a: Landorus
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|18/100|[from] Grassy Terrain
+|upkeep
+|turn|46
+|
+|t:|1665162724
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Landorus|Knock Off|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|68/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|74/100|[from] Grassy Terrain
+|upkeep
+|turn|47
+|
+|t:|1665162731
+|switch|p2a: Nidoking|Nidoking, M|29/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p2a: Nidoking|34/100|[from] Grassy Terrain
+|-heal|p1a: Vaporeon|80/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|48
+|
+|t:|1665162741
+|move|p2a: Nidoking|Earth Power|p1a: Vaporeon
+|-damage|p1a: Vaporeon|43/100
+|move|p1a: Vaporeon|Scald|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|-heal|p1a: Vaporeon|93/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|
+|t:|1665162751
+|switch|p2a: Weavile|Weavile, M|84/100
+|-ability|p2a: Weavile|Pressure
+|turn|49
+|
+|t:|1665162763
+|switch|p2a: Corviknight|Corviknight, F|50/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p2a: Corviknight|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|50/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|t:|1665162772
+|move|p2a: Corviknight|Brave Bird|p1a: Vaporeon
+|-damage|p1a: Vaporeon|75/100
+|-damage|p2a: Corviknight|43/100 brn|[from] Recoil
+|move|p1a: Vaporeon|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|19/100 brn
+|
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Corviknight|25/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|19/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|t:|1665162783
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|69/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p2a: Corviknight|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1665162790
+|switch|p1a: Clefable|Clefable, M|31/100
+|move|p2a: Corviknight|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|28/100
+|
+|t:|1665162795
+|switch|p2a: Tapu Lele|Tapu Lele|46/100 tox|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|-heal|p1a: Clefable|87/100|[from] move: Wish|[wisher] Vaporeon
+|-damage|p2a: Tapu Lele|40/100 tox|[from] psn
+|upkeep
+|turn|53
+|
+|t:|1665162804
+|move|p2a: Tapu Lele|Psyshock|p1a: Clefable
+|-damage|p1a: Clefable|30/100
+|move|p1a: Clefable|Moonblast|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|5/100 tox
+|
+|-damage|p2a: Tapu Lele|0 fnt|[from] psn
+|faint|p2a: Tapu Lele
+|upkeep
+|
+|t:|1665162812
+|switch|p2a: Weavile|Weavile, M|84/100
+|-ability|p2a: Weavile|Pressure
+|turn|54
+|
+|t:|1665162818
+|move|p2a: Weavile|Triple Axel|p1a: Clefable
+|-damage|p1a: Clefable|19/100
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|-hitcount|p1: Clefable|2
+|
+|upkeep
+|
+|t:|1665162831
+|switch|p1a: Rillaboom|Rillaboom, M|88/100
+|-damage|p1a: Rillaboom|76/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|55
+|
+|t:|1665162837
+|switch|p2a: Corviknight|Corviknight, F|69/100 brn
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Nidoking|Nidoking, M|96/100
+|-damage|p1a: Nidoking|90/100|[from] Stealth Rock
+|
+|-heal|p1a: Nidoking|96/100|[from] Grassy Terrain
+|-heal|p2a: Corviknight|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|t:|1665162849
+|switch|p2a: Landorus|Landorus-Therian, M|17/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Nidoking|atk|1
+|move|p1a: Nidoking|Flamethrower|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Nidoking|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1665162857
+|switch|p2a: Weavile|Weavile, M|84/100
+|-ability|p2a: Weavile|Pressure
+|turn|57
+|
+|t:|1665162862
+|switch|p1a: Obstagoon|Obstagoon, F|15/100 brn
+|-damage|p1a: Obstagoon|3/100 brn|[from] Stealth Rock
+|move|p2a: Weavile|Triple Axel|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|-hitcount|p1: Obstagoon|1
+|
+|-heal|p2a: Weavile|90/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1665162884
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|turn|58
+|l|☆Z-Aelogic
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thedebatablereaper)
+|j|☆Z-Aelogic
+|inactive|Z-Aelogic reconnected and has 125 seconds left.
+|player|p1|Z-Aelogic|clair
+|
+|t:|1665162921
+|switch|p2a: Corviknight|Corviknight, F|69/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p2a: Corviknight|75/100 brn|[from] item: Leftovers
+|-heal|p1a: Vaporeon|94/100|[from] Grassy Terrain
+|-damage|p2a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|t:|1665162930
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|-damage|p1a: Nidoking|95/100|[from] Stealth Rock
+|move|p2a: Corviknight|U-turn|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|90/100
+|
+|t:|1665162935
+|switch|p2a: Weavile|Weavile, M|90/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|-heal|p1a: Nidoking|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Weavile|96/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|60
+|inactive|Z-Aelogic has 120 seconds left.
+|
+|t:|1665162969
+|switch|p1a: Rillaboom|Rillaboom, M|76/100
+|-damage|p1a: Rillaboom|64/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Weavile|Triple Axel|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|30/100
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-hitcount|p1: Rillaboom|2
+|
+|-heal|p2a: Weavile|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1665162971
+|switch|p1a: Vaporeon|Vaporeon, M|94/100
+|-damage|p1a: Vaporeon|82/100|[from] Stealth Rock
+|turn|61
+|
+|t:|1665162984
+|switch|p2a: Corviknight|Corviknight, F|69/100 brn
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|-damage|p1a: Nidoking|95/100|[from] Stealth Rock
+|
+|-heal|p1a: Nidoking|100/100|[from] Grassy Terrain
+|-heal|p2a: Corviknight|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|62
+|
+|t:|1665162995
+|move|p1a: Nidoking|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1665163000
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|63
+|
+|t:|1665163004
+|move|p2a: Weavile|Triple Axel|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|62/100
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|-hitcount|p1: Nidoking|2
+|
+|upkeep
+|
+|t:|1665163007
+|switch|p1a: Vaporeon|Vaporeon, M|82/100
+|-damage|p1a: Vaporeon|70/100|[from] Stealth Rock
+|turn|64
+|
+|t:|1665163015
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Weavile|Triple Axel|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|76/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|65
+|
+|t:|1665163022
+|move|p2a: Weavile|Triple Axel|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|68/100
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|53/100
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|31/100
+|-hitcount|p1a: Vaporeon|3
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|upkeep
+|turn|66
+|
+|t:|1665163032
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Weavile|Triple Axel|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|81/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|67
+|
+|t:|1665163039
+|move|p2a: Weavile|Triple Axel|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|73/100
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|59/100
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|35/100
+|-hitcount|p1a: Vaporeon|3
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|upkeep
+|turn|68
+|
+|t:|1665163047
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Weavile|Triple Axel|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|85/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|69
+|
+|t:|1665163055
+|-activate|p2a: Weavile|move: Struggle
+|move|p2a: Weavile|Struggle|p1a: Vaporeon
+|-damage|p1a: Vaporeon|59/100
+|-damage|p2a: Weavile|76/100|[from] recoil
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|upkeep
+|turn|70
+|-message|Thedebatablereaper forfeited.
+|
+|win|Z-Aelogic
+|raw|Z-Aelogic's rating: 1466 &rarr; <strong>1482</strong><br />(+16 for winning)
+|raw|Thedebatablereaper's rating: 1403 &rarr; <strong>1387</strong><br />(-16 for losing)
+|l|☆Thedebatablereaper
+|c|☆Z-Aelogic|FREEEEEE FOR MEEEEEE
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

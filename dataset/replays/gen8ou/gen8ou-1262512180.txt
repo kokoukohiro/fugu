@@ -1,0 +1,358 @@
+|j|☆Contorted Lies
+|j|☆Tezile
+|t:|1610675775
+|player|p1|Contorted Lies|102|1762
+|player|p2|Tezile|rocketexecutive-gen2|1688
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Melmetal|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Swampert, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Mew|
+|poke|p2|Rillaboom, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Nidoking, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Blaziken, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1610675781
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|t:|1610675784
+|move|p2a: Mew|Stealth Rock|p1a: Slowking
+|-sidestart|p1: Contorted Lies|move: Stealth Rock
+|move|p1a: Slowking|Future Sight|p2a: Mew
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|t:|1610675786
+|move|p2a: Mew|Spikes|p1a: Slowking
+|-sidestart|p1: Contorted Lies|Spikes
+|move|p1a: Slowking|Sludge Bomb|p2a: Mew
+|-damage|p2a: Mew|64/100
+|
+|upkeep
+|turn|3
+|
+|t:|1610675790
+|move|p2a: Mew|Spikes|p1a: Slowking
+|-sidestart|p1: Contorted Lies|Spikes
+|move|p1a: Slowking|Sludge Bomb|p2a: Mew
+|-damage|p2a: Mew|22/100
+|-status|p2a: Mew|psn
+|-activate|p2a: Mew|ability: Synchronize
+|-immune|p1a: Slowking
+|
+|-end|p2a: Mew|move: Future Sight
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|upkeep
+|
+|t:|1610675795
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|turn|4
+|
+|t:|1610675802
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Obstagoon|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|88/100
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Obstagoon
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|j| sne __et-he
+|
+|t:|1610675824
+|move|p2a: Obstagoon|Taunt|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Taunt
+|cant|p1a: Mandibuzz|move: Taunt|Defog
+|
+|-damage|p2a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1610675830
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|84/100|[from] Spikes
+|-damage|p1a: Dragapult|72/100|[from] Stealth Rock
+|move|p2a: Obstagoon|Facade|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-damage|p2a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1610675835
+|move|p1a: Dragapult|U-turn|p2a: Obstagoon
+|-supereffective|p2a: Obstagoon
+|-damage|p2a: Obstagoon|53/100 brn
+|
+|t:|1610675841
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100|[from]move: U-turn
+|-damage|p1a: Mandibuzz|64/100|[from] Stealth Rock
+|move|p2a: Obstagoon|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|52/100
+|
+|-damage|p2a: Obstagoon|47/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1610675859
+|move|p2a: Obstagoon|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|1/100
+|move|p1a: Mandibuzz|Defog|p2a: Obstagoon
+|-unboost|p2a: Obstagoon|evasion|1
+|-sideend|p1: Contorted Lies|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Contorted Lies|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-damage|p2a: Obstagoon|41/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1610675864
+|move|p2a: Obstagoon|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-damage|p2a: Obstagoon|35/100 brn|[from] brn
+|upkeep
+|
+|t:|1610675871
+|switch|p1a: Dragapult|Dragapult, M|72/100
+|turn|10
+|
+|t:|1610675880
+|move|p1a: Dragapult|U-turn|p2a: Obstagoon
+|-supereffective|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|faint|p2a: Obstagoon
+|
+|t:|1610675887
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from]move: U-turn
+|
+|upkeep
+|j| Rafeal Zombie 1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Contorted Lies)
+|
+|t:|1610675932
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|11
+|
+|t:|1610675951
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Dragapult|Fire Blast|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|45/100
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Melmetal|51/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1610675960
+|move|p1a: Melmetal|Protect|p1a: Melmetal
+|-singleturn|p1a: Melmetal|Protect
+|move|p2a: Dragapult|Fire Blast|p1a: Melmetal
+|-activate|p1a: Melmetal|move: Protect
+|
+|-heal|p1a: Melmetal|57/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1610675965
+|switch|p1a: Swampert|Swampert, M|100/100
+|move|p2a: Dragapult|Fire Blast|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|91/100
+|-damage|p2a: Dragapult|81/100|[from] item: Life Orb
+|
+|-heal|p1a: Swampert|97/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1610675969
+|move|p2a: Dragapult|Dragon Darts|p1a: Swampert
+|-damage|p1a: Swampert|65/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Swampert
+|-damage|p1a: Swampert|34/100
+|-damage|p2a: Dragapult|71/100|[from] item: Life Orb
+|move|p1a: Swampert|Flip Turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|55/100
+|
+|t:|1610675975
+|switch|p1a: Dragapult|Dragapult, M|72/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|15
+|inactive|Tezile has 120 seconds left.
+|
+|t:|1610676011
+|move|p1a: Dragapult|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1610676019
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|16
+|
+|t:|1610676028
+|switch|p1a: Melmetal|Melmetal|57/100
+|move|p2a: Rillaboom|Swords Dance|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|2
+|
+|-heal|p1a: Melmetal|63/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|69/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1610676031
+|move|p1a: Melmetal|Protect|p1a: Melmetal
+|-singleturn|p1a: Melmetal|Protect
+|move|p2a: Rillaboom|Drain Punch|p1a: Melmetal
+|-activate|p1a: Melmetal|move: Protect
+|
+|-heal|p1a: Melmetal|75/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1610676036
+|move|p2a: Rillaboom|Swords Dance|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|2
+|move|p1a: Melmetal|Double Iron Bash|p2a: Rillaboom
+|-damage|p2a: Rillaboom|52/100
+|-damage|p2a: Rillaboom|4/100
+|-hitcount|p2a: Rillaboom|2
+|
+|-heal|p2a: Rillaboom|10/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|87/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|j| IM AT MY LIMIT
+|l| IM AT MY LIMIT
+|
+|t:|1610676050
+|move|p2a: Rillaboom|Grassy Glide|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|45/100
+|-damage|p2a: Rillaboom|0 fnt|[from] item: Life Orb
+|faint|p2a: Rillaboom
+|move|p1a: Melmetal|Double Iron Bash|p2: Rillaboom|[notarget]
+|-fail|p1a: Melmetal
+|
+|-heal|p1a: Melmetal|51/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1610676058
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|turn|20
+|
+|t:|1610676070
+|move|p1a: Melmetal|Protect|p1a: Melmetal
+|-singleturn|p1a: Melmetal|Protect
+|move|p2a: Nidoking|Earth Power|p1a: Melmetal
+|-activate|p1a: Melmetal|move: Protect
+|
+|-heal|p1a: Melmetal|64/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|70/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1610676073
+|switch|p1a: Swampert|Swampert, M|34/100
+|move|p2a: Nidoking|Earth Power|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|upkeep
+|
+|t:|1610676086
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|22
+|
+|t:|1610676097
+|move|p2a: Nidoking|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|39/100
+|move|p1a: Slowking|Psychic|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|upkeep
+|
+|t:|1610676102
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|turn|23
+|
+|t:|1610676111
+|move|p2a: Blaziken|Blaze Kick|p1a: Slowking|[miss]
+|-miss|p2a: Blaziken|p1a: Slowking
+|move|p1a: Slowking|Psychic|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-enditem|p2a: Blaziken|Focus Sash
+|-damage|p2a: Blaziken|1/100
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|24
+|
+|t:|1610676118
+|move|p2a: Blaziken|Blaze Kick|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1610676123
+|switch|p1a: Dragapult|Dragapult, M|72/100
+|turn|25
+|c|☆Tezile|Unlucky af
+|
+|t:|1610676128
+|move|p1a: Dragapult|Shadow Ball|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|win|Contorted Lies
+|l| sne __et-he
+|l|☆Tezile
+|l|☆Contorted Lies
+|raw|Contorted Lies's rating: 1762 &rarr; <strong>1775</strong><br />(+13 for winning)
+|raw|Tezile's rating: 1638 &rarr; <strong>1624</strong><br />(-14 for losing)

@@ -1,0 +1,317 @@
+|j|☆leaf_bernstein
+|j|☆PokemonCestDur
+|t:|1657814054
+|gametype|singles
+|player|p1|leaf_bernstein|swimmer-gen4dp|1583
+|player|p2|PokemonCestDur|#ruplixsleekslushrushers|1642
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Reuniclus, M|
+|poke|p1|Slowbro, M|
+|poke|p1|Sigilyph, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Hippowdon, M|
+|poke|p1|Crawdaunt, F|
+|poke|p2|Nihilego|
+|poke|p2|Dragapult, F|
+|poke|p2|Melmetal|
+|poke|p2|Tapu Fini|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Magnezone|
+|teampreview
+|j| Trunx
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokemonCestDur)
+|
+|t:|1657814078
+|start
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sigilyph|atk|1
+|turn|1
+|
+|t:|1657814085
+|move|p1a: Sigilyph|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1657814096
+|switch|p2a: Nihilego|Nihilego|100/100
+|turn|2
+|
+|t:|1657814102
+|move|p2a: Nihilego|Meteor Beam||[still]
+|-prepare|p2a: Nihilego|Meteor Beam
+|-boost|p2a: Nihilego|spa|1
+|-enditem|p2a: Nihilego|Power Herb
+|-anim|p2a: Nihilego|Meteor Beam|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-enditem|p1a: Sigilyph|Focus Sash
+|-damage|p1a: Sigilyph|1/100
+|move|p1a: Sigilyph|Trick Room|p1a: Sigilyph
+|-fieldstart|move: Trick Room|[of] p1a: Sigilyph
+|
+|upkeep
+|turn|3
+|
+|t:|1657814117
+|move|p1a: Sigilyph|Ice Beam|p2a: Nihilego
+|-damage|p2a: Nihilego|83/100
+|move|p2a: Nihilego|Grass Knot|p1a: Sigilyph
+|-resisted|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spe|1
+|
+|upkeep
+|
+|t:|1657814123
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|turn|4
+|
+|t:|1657814128
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Magnezone
+|-damage|p2a: Magnezone|31/100
+|-enditem|p2a: Magnezone|Expert Belt|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1657814136
+|move|p1a: Crawdaunt|Knock Off|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|-damage|p1a: Crawdaunt|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1657814141
+|switch|p2a: Melmetal|Melmetal|100/100
+|turn|6
+|
+|t:|1657814149
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Melmetal|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|82/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1657814157
+|switch|p2a: Nihilego|Nihilego|83/100
+|move|p1a: Slowbro|Trick Room|p1a: Slowbro
+|-fieldstart|move: Trick Room|[of] p1a: Slowbro
+|
+|upkeep
+|turn|8
+|
+|t:|1657814161
+|move|p2a: Nihilego|Stealth Rock|p1a: Slowbro
+|-sidestart|p1: leaf_bernstein|move: Stealth Rock
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1657814165
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100|[from]move: Teleport
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1657814171
+|move|p1a: Conkeldurr|Drain Punch|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|-heal|p1a: Conkeldurr|100/100 brn|[from] drain|[of] p2a: Nihilego
+|faint|p2a: Nihilego
+|
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1657814181
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|10
+|
+|t:|1657814188
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Conkeldurr|Facade|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|79/100
+|
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1657814195
+|move|p2a: Melmetal|Double Iron Bash|p1a: Conkeldurr
+|-crit|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|42/100 brn
+|-damage|p1a: Conkeldurr|11/100 brn
+|-hitcount|p1a: Conkeldurr|2
+|cant|p1a: Conkeldurr|flinch
+|
+|-damage|p1a: Conkeldurr|5/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1657814200
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|t:|1657814204
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|13
+|
+|t:|1657814219
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Hippowdon|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|41/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1657814224
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|move|p1a: Hippowdon|Earthquake|p2a: Dragapult|[miss]
+|-miss|p1a: Hippowdon|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|35/100|[from] Sandstorm
+|-fieldend|Misty Terrain
+|upkeep
+|turn|15
+|
+|t:|1657814227
+|move|p2a: Dragapult|Phantom Force|p1a: Hippowdon|[from]lockedmove
+|-damage|p1a: Hippowdon|59/100
+|move|p1a: Hippowdon|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|65/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1657814231
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|16
+|
+|t:|1657814243
+|move|p2a: Tapu Fini|Whirlpool|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|42/100
+|-activate|p1a: Hippowdon|move: Whirlpool|[of] p2a: Tapu Fini
+|move|p1a: Hippowdon|Earthquake|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Fini|62/100|[from] Sandstorm
+|-heal|p2a: Tapu Fini|68/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|48/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|36/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1657814251
+|move|p2a: Tapu Fini|Moonblast|p1a: Hippowdon
+|-damage|p1a: Hippowdon|7/100
+|move|p1a: Hippowdon|Earthquake|p2a: Tapu Fini
+|-crit|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|24/100
+|
+|-weather|none
+|-heal|p2a: Tapu Fini|30/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|13/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p1a: Hippowdon
+|upkeep
+|
+|t:|1657814260
+|switch|p1a: Reuniclus|Reuniclus, M, shiny|100/100
+|turn|18
+|
+|t:|1657814270
+|move|p2a: Tapu Fini|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|cant|p1a: Reuniclus|move: Taunt|Trick Room
+|
+|-heal|p2a: Tapu Fini|36/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1657814283
+|switch|p2a: Melmetal|Melmetal|79/100
+|move|p1a: Reuniclus|Thunder|p2a: Melmetal
+|-damage|p2a: Melmetal|51/100
+|
+|upkeep
+|turn|20
+|
+|t:|1657814292
+|switch|p2a: Tapu Fini|Tapu Fini|36/100
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Tapu Fini|42/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|21
+|
+|t:|1657814299
+|switch|p1a: Reuniclus|Reuniclus, M, shiny|100/100
+|move|p2a: Tapu Fini|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|
+|-heal|p2a: Tapu Fini|49/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|j| Kamomille
+|
+|t:|1657814308
+|move|p2a: Tapu Fini|Nature's Madness|p1a: Reuniclus
+|-damage|p1a: Reuniclus|51/100
+|move|p1a: Reuniclus|Thunder|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|upkeep
+|-message|PokemonCestDur forfeited.
+|
+|win|leaf_bernstein
+|raw|leaf_bernstein's rating: 1583 &rarr; <strong>1606</strong><br />(+23 for winning)
+|raw|PokemonCestDur's rating: 1642 &rarr; <strong>1619</strong><br />(-23 for losing)
+|l|☆PokemonCestDur

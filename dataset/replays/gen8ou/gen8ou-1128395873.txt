@@ -1,0 +1,567 @@
+|j|☆bro athlete
+|j|☆testotesto321
+|player|p1|bro athlete|psychicf-gen3|1778
+|player|p2|testotesto321|bellelba|1744
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Rhyperior, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Primarina, F|
+|poke|p2|Gengar, F|
+|poke|p2|Zeraora|
+|poke|p2|Hydreigon, M|
+|poke|p2|Hippowdon, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Toxapex, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| fluffy cows
+|j| xxxsaaawxxx
+|
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|j| Willycorbs
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Rillaboom|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|95/100
+|
+|switch|p1a: Primarina|Primarina, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Primarina|94/100|[from] Sandstorm
+|-heal|p1a: Primarina|100/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Primarina|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|77/100
+|move|p2a: Corviknight|Iron Head|p1a: Primarina
+|-damage|p1a: Primarina|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Primarina|66/100|[from] Sandstorm
+|-heal|p1a: Primarina|72/100|[from] item: Leftovers
+|-heal|p1a: Primarina|78/100|[from] Grassy Terrain
+|-heal|p2a: Corviknight|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Primarina|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|move|p2a: Corviknight|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|71/100
+|j| Count Riario
+|
+|switch|p2a: Zeraora|Zeraora|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeraora|95/100|[from] Sandstorm
+|-damage|p1a: Primarina|65/100|[from] Sandstorm
+|-heal|p2a: Zeraora|100/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|71/100|[from] item: Leftovers
+|-heal|p1a: Primarina|77/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|move|p2a: Zeraora|Toxic|p1a: Rillaboom
+|-status|p1a: Rillaboom|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rillaboom|94/100 tox|[from] Sandstorm
+|-damage|p2a: Zeraora|95/100|[from] Sandstorm
+|-heal|p1a: Rillaboom|100/100 tox|[from] Grassy Terrain
+|-heal|p2a: Zeraora|100/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|62/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Rillaboom|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|34/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-weather|none
+|-heal|p1a: Rillaboom|100/100 tox|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p1a: Rillaboom|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|84/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|7
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|32/100
+|move|p2a: Corviknight|U-turn|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|92/100
+|j| XxDiabloB07xX
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|8
+|j| loginwithoutname
+|
+|switch|p1a: Primarina|Primarina, F|77/100
+|move|p2a: Hydreigon|Thunder Wave|p1a: Primarina
+|-status|p1a: Primarina|par
+|
+|-heal|p1a: Primarina|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|move|p1a: Primarina|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|85/100
+|
+|-heal|p2a: Toxapex|92/100|[from] item: Black Sludge
+|-heal|p1a: Primarina|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|j| myjava
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|32/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|65/100 par
+|
+|-heal|p1a: Primarina|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|82/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Primarina|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100
+|
+|-heal|p1a: Primarina|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Corviknight|Iron Head|p1a: Primarina
+|-end|p1a: Primarina|Substitute
+|cant|p1a: Primarina|par
+|
+|-heal|p1a: Primarina|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|l| XxDiabloB07xX
+|
+|switch|p1a: Aegislash|Aegislash, M|92/100
+|move|p2a: Corviknight|Iron Head|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|79/100
+|
+|upkeep
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bro athlete)
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|13/100
+|move|p2a: Corviknight|U-turn|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|72/100
+|
+|switch|p2a: Gengar|Gengar, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Gengar|Sludge Wave|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|55/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Hydreigon|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|90/100
+|j| react or die slave
+|
+|switch|p2a: Zeraora|Zeraora|100/100|[from]move: U-turn
+|move|p1a: Mandibuzz|U-turn|p2a: Zeraora
+|-damage|p2a: Zeraora|84/100
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|18
+|j| TheJoeSwanson
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|13/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Rhyperior|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: testotesto321|move: Stealth Rock
+|
+|upkeep
+|turn|19
+|j| Eroyta
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|63/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Rhyperior|Swords Dance|p1a: Rhyperior
+|-boost|p1a: Rhyperior|atk|2
+|
+|upkeep
+|turn|20
+|j| RayVetch
+|j| Coronavirus EUW
+|
+|move|p2a: Corviknight|Iron Head|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|80/100
+|move|p1a: Rhyperior|Rock Blast|p2a: Corviknight
+|-damage|p2a: Corviknight|42/100
+|-damage|p2a: Corviknight|21/100
+|-hitcount|p2a: Corviknight|2
+|
+|-heal|p1a: Rhyperior|86/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|l| Coronavirus EUW
+|
+|move|p2a: Corviknight|Iron Head|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|66/100
+|move|p1a: Rhyperior|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p1a: Rhyperior|72/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Corviknight|Iron Head|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|51/100
+|move|p1a: Rhyperior|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p1a: Rhyperior|57/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Aegislash|Aegislash, M|72/100
+|move|p2a: Corviknight|Iron Head|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|61/100
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|32/100
+|
+|-heal|p2a: Toxapex|38/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Aegislash|Shadow Ball|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|44/100
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Primarina|Primarina, F|83/100 par
+|move|p2a: Hydreigon|Draco Meteor|p1a: Primarina
+|-immune|p1a: Primarina
+|
+|-heal|p1a: Primarina|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|21/100
+|-damage|p2a: Corviknight|9/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Aegislash|Aegislash, M|61/100
+|
+|upkeep
+|turn|28
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|29
+|j| Dragai
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|90/100
+|move|p2a: Gengar|Thunderbolt|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|32/100
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|switch|p1a: Rhyperior|Rhyperior, M|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Rhyperior|63/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|32/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: bro athlete|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32
+|
+|switch|p2a: Zeraora|Zeraora|84/100
+|-damage|p2a: Zeraora|72/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|82/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeraora|66/100|[from] Sandstorm
+|upkeep
+|turn|33
+|
+|switch|p1a: Rillaboom|Rillaboom, M|88/100 tox
+|-damage|p1a: Rillaboom|76/100 tox|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Zeraora|Plasma Fists|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|38/100 tox
+|-fieldactivate|move: Ion Deluge
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rillaboom|32/100 tox|[from] Sandstorm
+|-damage|p2a: Zeraora|60/100|[from] Sandstorm
+|-heal|p1a: Rillaboom|38/100 tox|[from] Grassy Terrain
+|-heal|p2a: Zeraora|66/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|32/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|71/100
+|-damage|p2a: Toxapex|59/100|[from] Stealth Rock
+|move|p1a: Rillaboom|Drum Beating|p2a: Toxapex
+|-damage|p2a: Toxapex|25/100
+|-unboost|p2a: Toxapex|spe|1
+|
+|-weather|none
+|-heal|p1a: Rillaboom|38/100 tox|[from] Grassy Terrain
+|-heal|p2a: Toxapex|31/100|[from] item: Black Sludge
+|-heal|p2a: Toxapex|38/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|26/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|switch|p1a: Primarina|Primarina, F|89/100 par
+|-damage|p1a: Primarina|77/100 par|[from] Stealth Rock
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|88/100
+|
+|-heal|p1a: Primarina|83/100 par|[from] item: Leftovers
+|-heal|p1a: Primarina|89/100 par|[from] Grassy Terrain
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-heal|p2a: Toxapex|99/100|[from] Grassy Terrain
+|upkeep
+|turn|36
+|
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|64/100 par
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-heal|p1a: Primarina|70/100 par|[from] item: Leftovers
+|-heal|p1a: Primarina|76/100 par|[from] Grassy Terrain
+|upkeep
+|turn|37
+|
+|move|p2a: Toxapex|Scald|p1a: Primarina
+|-resisted|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|move|p1a: Primarina|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|87/100
+|
+|-heal|p2a: Toxapex|93/100|[from] item: Black Sludge
+|-heal|p2a: Toxapex|99/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|82/100 par|[from] item: Leftovers
+|-heal|p1a: Primarina|88/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|38
+|
+|move|p2a: Toxapex|Scald|p1a: Primarina
+|-resisted|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|cant|p1a: Primarina|par
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-heal|p1a: Primarina|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Toxapex|Scald|p1a: Primarina
+|-resisted|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-fail|p1a: Primarina|move: Substitute
+|
+|-heal|p1a: Primarina|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Toxapex|Scald|p1a: Primarina
+|-resisted|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-fail|p1a: Primarina|move: Substitute
+|
+|-heal|p1a: Primarina|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Toxapex|Scald|p1a: Primarina
+|-resisted|p1a: Primarina
+|-end|p1a: Primarina|Substitute
+|cant|p1a: Primarina|par
+|
+|upkeep
+|turn|42
+|
+|switch|p2a: Gengar|Gengar, F|88/100
+|-damage|p2a: Gengar|76/100|[from] Stealth Rock
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|76/100 par
+|
+|-heal|p1a: Primarina|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Primarina
+|-end|p1a: Primarina|Substitute
+|move|p1a: Primarina|Scald|p2a: Gengar
+|-damage|p2a: Gengar|17/100
+|-status|p2a: Gengar|brn
+|
+|-heal|p1a: Primarina|88/100 par|[from] item: Leftovers
+|-damage|p2a: Gengar|11/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|switch|p2a: Zeraora|Zeraora|66/100
+|-damage|p2a: Zeraora|54/100|[from] Stealth Rock
+|switch|p1a: Mandibuzz|Mandibuzz, F|82/100
+|
+|upkeep
+|turn|45
+|
+|switch|p1a: Rhyperior|Rhyperior, M|63/100
+|-damage|p1a: Rhyperior|57/100|[from] Stealth Rock
+|move|p2a: Zeraora|Plasma Fists|p1a: Rhyperior
+|-immune|p1a: Rhyperior
+|
+|-heal|p1a: Rhyperior|63/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p2a: Zeraora|Close Combat|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|19/100
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|move|p1a: Rhyperior|Earthquake|p2a: Zeraora
+|-supereffective|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|-heal|p1a: Rhyperior|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, F|11/100 brn
+|-damage|p2a: Gengar|0 fnt|[from] Stealth Rock
+|faint|p2a: Gengar
+|
+|switch|p2a: Hydreigon|Hydreigon, M|44/100
+|-damage|p2a: Hydreigon|32/100|[from] Stealth Rock
+|turn|47
+|
+|switch|p1a: Primarina|Primarina, F|88/100 par
+|-damage|p1a: Primarina|75/100 par|[from] Stealth Rock
+|move|p2a: Hydreigon|Dark Pulse|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|62/100 par
+|
+|-heal|p1a: Primarina|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|-message|testotesto321 forfeited.
+|
+|win|bro athlete
+|l|☆testotesto321
+|raw|bro athlete's rating: 1779 &rarr; <strong>1797</strong><br />(+18 for winning)
+|raw|testotesto321's rating: 1744 &rarr; <strong>1726</strong><br />(-18 for losing)
+|l| loginwithoutname
+|l|☆bro athlete
+|l| Willycorbs
+|l| TheJoeSwanson
+|l| Count Riario
+|l| myjava

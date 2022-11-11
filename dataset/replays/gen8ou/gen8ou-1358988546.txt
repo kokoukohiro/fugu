@@ -1,0 +1,245 @@
+|j|☆Buggy's Dad
+|j|☆lebanesestinker
+|t:|1623731860
+|gametype|singles
+|player|p1|Buggy's Dad|blaine|1375
+|player|p2|lebanesestinker|policeman|1408
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Slurpuff, F|
+|poke|p1|Aggron, F|
+|poke|p1|Zapdos|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Venusaur, M|
+|poke|p2|Victini|
+|poke|p2|Darmanitan, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Garchomp, F|
+|teampreview
+|
+|t:|1623731879
+|start
+|switch|p1a: Colchita|Slurpuff, F|100/100
+|switch|p2a: Victini|Victini|100/100
+|turn|1
+|
+|t:|1623731891
+|move|p2a: Victini|U-turn|p1a: Colchita
+|-resisted|p1a: Colchita
+|-damage|p1a: Colchita|83/100
+|
+|t:|1623731894
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100|[from]move: U-turn
+|move|p1a: Colchita|Sticky Web|p2a: Mandibuzz
+|-sidestart|p2: lebanesestinker|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1623731900
+|move|p1a: Colchita|Yawn|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Yawn|[of] p1a: Colchita
+|move|p2a: Mandibuzz|Defog|p1a: Colchita
+|-unboost|p1a: Colchita|evasion|1
+|-sideend|p2: lebanesestinker|Sticky Web|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lebanesestinker)
+|
+|t:|1623731905
+|move|p1a: Colchita|Yawn||[still]
+|-fail|p1a: Colchita
+|move|p2a: Mandibuzz|U-turn|p1a: Colchita
+|-resisted|p1a: Colchita
+|-damage|p1a: Colchita|73/100
+|
+|t:|1623731912
+|switch|p2a: Darmanitan|Darmanitan, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1623731918
+|move|p2a: Darmanitan|Flare Blitz|p1a: Colchita
+|-damage|p1a: Colchita|0 fnt
+|faint|p1a: Colchita
+|-damage|p2a: Darmanitan|82/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1623731923
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|5
+|
+|t:|1623731929
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|87/100
+|
+|upkeep
+|turn|6
+|
+|t:|1623731937
+|switch|p1a: Aggron|Aggron, F|100/100
+|move|p2a: Garchomp|Stone Edge|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|85/100
+|-damage|p2a: Garchomp|77/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1623731944
+|switch|p1a: Osada|Mandibuzz, F|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Osada
+|-immune|p1a: Osada
+|
+|upkeep
+|turn|8
+|
+|t:|1623731949
+|switch|p2a: Torkoal|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Osada|Nasty Plot|p1a: Osada
+|-boost|p1a: Osada|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1623731954
+|move|p1a: Osada|Dark Pulse|p2a: Torkoal
+|-damage|p2a: Torkoal|36/100
+|cant|p2a: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1623731959
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p1a: Osada|Dark Pulse|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1623731970
+|move|p1a: Osada|Nasty Plot|p1a: Osada
+|-boost|p1a: Osada|spa|2
+|move|p2a: Mandibuzz|U-turn|p1a: Osada
+|-damage|p1a: Osada|91/100
+|-ability|p1a: Osada|Weak Armor|boost
+|-unboost|p1a: Osada|def|1
+|-boost|p1a: Osada|spe|2
+|
+|t:|1623731974
+|switch|p2a: Victini|Victini|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1623731984
+|move|p1a: Osada|Dark Pulse|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1623731987
+|switch|p2a: Venusaur|Venusaur, M, shiny|100/100
+|turn|13
+|
+|t:|1623731992
+|move|p1a: Osada|Air Slash|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1623731999
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|82/100
+|turn|14
+|
+|t:|1623732005
+|move|p1a: Osada|Air Slash|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|34/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Osada
+|-resisted|p1a: Osada
+|-damage|p1a: Osada|79/100
+|-ability|p1a: Osada|Weak Armor|boost
+|-unboost|p1a: Osada|def|1
+|-boost|p1a: Osada|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1623732013
+|move|p1a: Osada|Heat Wave|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-weather|none
+|upkeep
+|
+|t:|1623732019
+|switch|p2a: Garchomp|Garchomp, F|77/100
+|turn|16
+|
+|t:|1623732023
+|move|p1a: Osada|Dark Pulse|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1623732025
+|switch|p2a: Darmanitan|Darmanitan, F|82/100
+|turn|17
+|
+|t:|1623732033
+|move|p1a: Osada|Dark Pulse|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|upkeep
+|
+|t:|1623732035
+|switch|p2a: Torkoal|Torkoal, M, shiny|36/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|18
+|
+|t:|1623732040
+|move|p1a: Osada|Dark Pulse|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|win|Buggy's Dad
+|raw|Buggy&apos;s Dad's rating: 1375 &rarr; <strong>1397</strong><br />(+22 for winning)
+|raw|lebanesestinker's rating: 1408 &rarr; <strong>1386</strong><br />(-22 for losing)
+|l|☆lebanesestinker

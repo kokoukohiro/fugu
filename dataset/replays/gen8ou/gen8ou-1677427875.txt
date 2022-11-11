@@ -1,0 +1,277 @@
+|j|☆ywkkdzz
+|j|☆FleetFoxxx
+|t:|1664897030
+|gametype|singles
+|player|p1|ywkkdzz|roxanne|1539
+|player|p2|FleetFoxxx|101|1621
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Blaziken, M|
+|poke|p1|Darmanitan, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Garchomp, M|
+|poke|p2|Zeraora|
+|poke|p2|Volcanion|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Volcarona, F|
+|poke|p2|Blacephalon|
+|poke|p2|Moltres-Galar|
+|teampreview
+|
+|t:|1664897045
+|start
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|-ability|p1a: Zapdos|Defiant
+|-boost|p1a: Zapdos|atk|2
+|turn|1
+|
+|t:|1664897053
+|move|p1a: Zapdos|Brave Bird|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-damage|p1a: Zapdos|68/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1664897060
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|2
+|
+|t:|1664897067
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Zeraora|Knock Off|p1a: Garchomp
+|-damage|p1a: Garchomp|70/100
+|-damage|p2a: Zeraora|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-enditem|p1a: Garchomp|Life Orb|[from] move: Knock Off|[of] p2a: Zeraora
+|
+|-heal|p2a: Zeraora|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1664897076
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|move|p1a: Garchomp|Stone Edge|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|14/100
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1664897093
+|move|p2a: Moltres|Fiery Wrath|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1664897105
+|switch|p1a: Zapdos|Zapdos-Galar|68/100
+|turn|5
+|
+|t:|1664897115
+|move|p1a: Zapdos|U-turn|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|t:|1664897139
+|switch|p1a: Darmanitan|Darmanitan, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1664897150
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|6
+|
+|t:|1664897166
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Volcanion|Steam Eruption|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|14/100
+|-enditem|p1a: Torkoal|Eject Button
+|
+|t:|1664897183
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1664897189
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: ywkkdzz|Reflect
+|move|p2a: Volcanion|Steam Eruption|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|73/100
+|-status|p1a: Grimmsnarl|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Grimmsnarl|67/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1664897198
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: ywkkdzz|move: Light Screen
+|move|p2a: Volcanion|Flamethrower|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|27/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Grimmsnarl|21/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1664897204
+|move|p2a: Volcanion|Defog|p1a: Grimmsnarl
+|-unboost|p1a: Grimmsnarl|evasion|1
+|-sideend|p1: ywkkdzz|Reflect
+|-sideend|p1: ywkkdzz|move: Light Screen
+|move|p1a: Grimmsnarl|Play Rough|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|94/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Grimmsnarl|15/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1664897214
+|move|p2a: Volcanion|Defog|p1a: Grimmsnarl
+|-unboost|p1a: Grimmsnarl|evasion|1
+|move|p1a: Grimmsnarl|Play Rough|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|87/100
+|
+|-weather|none
+|-damage|p1a: Grimmsnarl|9/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1664897241
+|move|p1a: Grimmsnarl|Taunt|p2a: Volcanion
+|-start|p2a: Volcanion|move: Taunt
+|cant|p2a: Volcanion|move: Taunt|Defog
+|
+|-damage|p1a: Grimmsnarl|3/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1664897252
+|switch|p2a: Zeraora|Zeraora|94/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: ywkkdzz|move: Light Screen
+|
+|-heal|p2a: Zeraora|99/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|0 fnt|[from] brn
+|faint|p1a: Grimmsnarl
+|upkeep
+|
+|t:|1664897260
+|switch|p1a: Torkoal|Torkoal, F|14/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|13
+|
+|t:|1664897292
+|move|p2a: Zeraora|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|3/100
+|move|p1a: Torkoal|Lava Plume|p2a: Zeraora
+|-damage|p2a: Zeraora|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zeraora|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1664897302
+|move|p2a: Zeraora|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zeraora|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1664897308
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|turn|15
+|
+|t:|1664897322
+|switch|p2a: Volcanion|Volcanion|87/100
+|move|p1a: Darmanitan|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1664897328
+|move|p1a: Darmanitan|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1664897334
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|17
+|
+|t:|1664897340
+|move|p1a: Darmanitan|Earthquake|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|21/100
+|move|p2a: Volcarona|Psychic|p1a: Darmanitan
+|-damage|p1a: Darmanitan|63/100
+|-damage|p2a: Volcarona|11/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1664897348
+|move|p1a: Darmanitan|Earthquake|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|upkeep
+|
+|t:|1664897352
+|switch|p2a: Zeraora|Zeraora|67/100
+|turn|19
+|
+|t:|1664897356
+|move|p1a: Darmanitan|Earthquake|p2a: Zeraora
+|-supereffective|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|-sideend|p1: ywkkdzz|move: Light Screen
+|upkeep
+|-message|FleetFoxxx forfeited.
+|
+|win|ywkkdzz
+|raw|ywkkdzz's rating: 1539 &rarr; <strong>1564</strong><br />(+25 for winning)
+|raw|FleetFoxxx's rating: 1621 &rarr; <strong>1596</strong><br />(-25 for losing)
+|l|☆FleetFoxxx
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

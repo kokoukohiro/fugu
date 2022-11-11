@@ -1,0 +1,445 @@
+|j|☆minimax_ai
+|j|☆Candice
+|t:|1663600114
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1588
+|player|p2|Candice|psychicf-gen4|1637
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Volcanion|
+|poke|p2|Corviknight, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1663600118
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Merupi|Volcanion|100/100
+|turn|1
+|c|☆Candice|u2
+|
+|t:|1663600128
+|switch|p2a: Opal|Corviknight, F|100/100
+|-ability|p2a: Opal|Pressure
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1663600131
+|move|p1a: rotomwash|Hydro Pump|p2a: Opal
+|-damage|p2a: Opal|60/100
+|move|p2a: Opal|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|86/100
+|
+|t:|1663600136
+|switch|p2a: Evinrude|Dragapult, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: rotomwash|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1663600144
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Evinrude|Shadow Ball|p1a: Melmetal
+|-damage|p1a: Melmetal|70/100
+|
+|upkeep
+|turn|4
+|
+|t:|1663600148
+|switch|p2a: Opal|Corviknight, F|60/100
+|-ability|p2a: Opal|Pressure
+|move|p1a: Melmetal|Thunder Punch|p2a: Opal
+|-supereffective|p2a: Opal
+|-damage|p2a: Opal|21/100
+|-damage|p1a: Melmetal|53/100|[from] item: Rocky Helmet|[of] p2a: Opal
+|
+|upkeep
+|turn|5
+|
+|t:|1663600150
+|move|p2a: Opal|Roost|p2a: Opal
+|-heal|p2a: Opal|71/100
+|-singleturn|p2a: Opal|move: Roost
+|move|p1a: Melmetal|Thunder Punch|p2a: Opal
+|-damage|p2a: Opal|52/100
+|-damage|p1a: Melmetal|37/100|[from] item: Rocky Helmet|[of] p2a: Opal
+|
+|upkeep
+|turn|6
+|
+|t:|1663600152
+|move|p2a: Opal|Roost|p2a: Opal
+|-heal|p2a: Opal|100/100
+|-singleturn|p2a: Opal|move: Roost
+|move|p1a: Melmetal|Thunder Punch|p2a: Opal
+|-damage|p2a: Opal|81/100
+|-damage|p1a: Melmetal|20/100|[from] item: Rocky Helmet|[of] p2a: Opal
+|
+|upkeep
+|turn|7
+|
+|t:|1663600155
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Opal|atk|1
+|move|p2a: Opal|Roost|p2a: Opal
+|-heal|p2a: Opal|100/100
+|-singleturn|p2a: Opal|move: Roost
+|
+|upkeep
+|turn|8
+|
+|t:|1663600167
+|move|p1a: landorustherian|Earthquake|p2a: Opal
+|-immune|p2a: Opal
+|move|p2a: Opal|Brave Bird|p1a: landorustherian
+|-damage|p1a: landorustherian|78/100
+|-damage|p2a: Opal|93/100|[from] Recoil
+|
+|-heal|p1a: landorustherian|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1663600171
+|move|p1a: landorustherian|Earthquake|p2a: Opal
+|-immune|p2a: Opal
+|move|p2a: Opal|Brave Bird|p1a: landorustherian
+|-damage|p1a: landorustherian|61/100
+|-damage|p2a: Opal|86/100|[from] Recoil
+|
+|-heal|p1a: landorustherian|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1663600173
+|move|p1a: landorustherian|Earthquake|p2a: Opal
+|-immune|p2a: Opal
+|move|p2a: Opal|Brave Bird|p1a: landorustherian
+|-damage|p1a: landorustherian|42/100
+|-damage|p2a: Opal|78/100|[from] Recoil
+|
+|-heal|p1a: landorustherian|48/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1663600175
+|move|p1a: landorustherian|Earthquake|p2a: Opal
+|-immune|p2a: Opal
+|move|p2a: Opal|Brave Bird|p1a: landorustherian
+|-damage|p1a: landorustherian|24/100
+|-damage|p2a: Opal|70/100|[from] Recoil
+|
+|-heal|p1a: landorustherian|30/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1663600177
+|move|p1a: landorustherian|Earthquake|p2a: Opal
+|-immune|p2a: Opal
+|move|p2a: Opal|Brave Bird|p1a: landorustherian
+|-damage|p1a: landorustherian|5/100
+|-damage|p2a: Opal|62/100|[from] Recoil
+|
+|-heal|p1a: landorustherian|11/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1663600179
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Opal|Roost|p2a: Opal
+|-heal|p2a: Opal|100/100
+|-singleturn|p2a: Opal|move: Roost
+|
+|upkeep
+|turn|14
+|
+|t:|1663600183
+|switch|p2a: Lillith|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Lillith
+|move|p1a: Heatran|Stealth Rock|p2a: Lillith
+|-sidestart|p2: Candice|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1663600189
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Lillith|Crunch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|64/100
+|-unboost|p1a: Tangrowth|def|1
+|-damage|p2a: Lillith|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|58/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1663600192
+|move|p2a: Lillith|Crunch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|4/100
+|-damage|p2a: Lillith|67/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|move|p1a: Tangrowth|Focus Blast|p2a: Lillith|[miss]
+|-miss|p1a: Tangrowth|p2a: Lillith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|0 fnt|[from] Sandstorm
+|faint|p1a: Tangrowth
+|upkeep
+|
+|t:|1663600192
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|17
+|
+|t:|1663600196
+|switch|p2a: Opal|Corviknight, F|100/100
+|-damage|p2a: Opal|88/100|[from] Stealth Rock
+|-ability|p2a: Opal|Pressure
+|move|p1a: Weavile|Triple Axel|p2a: Opal
+|-damage|p2a: Opal|79/100
+|-damage|p1a: Weavile|84/100|[from] item: Rocky Helmet|[of] p2a: Opal
+|-damage|p2a: Opal|61/100
+|-damage|p1a: Weavile|68/100|[from] item: Rocky Helmet|[of] p2a: Opal
+|-damage|p2a: Opal|34/100
+|-damage|p1a: Weavile|51/100|[from] item: Rocky Helmet|[of] p2a: Opal
+|-hitcount|p2a: Opal|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|45/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1663600201
+|move|p1a: Weavile|Triple Axel|p2a: Opal
+|-crit|p2a: Opal
+|-damage|p2a: Opal|21/100
+|-damage|p1a: Weavile|29/100|[from] item: Rocky Helmet|[of] p2a: Opal
+|-damage|p2a: Opal|4/100
+|-damage|p1a: Weavile|13/100|[from] item: Rocky Helmet|[of] p2a: Opal
+|-damage|p2a: Opal|0 fnt
+|-damage|p1a: Weavile|0 fnt|[from] item: Rocky Helmet|[of] p2a: Opal
+|faint|p2a: Opal
+|faint|p1a: Weavile
+|-hitcount|p2: Opal|3
+|
+|-weather|none
+|upkeep
+|
+|t:|1663600217
+|switch|p1a: rotomwash|Rotom-Wash|92/100
+|switch|p2a: Evinrude|Dragapult, F|100/100
+|-damage|p2a: Evinrude|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1663600221
+|switch|p1a: landorustherian|Landorus-Therian, M|11/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Evinrude|atk|1
+|move|p2a: Evinrude|Draco Meteor|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|-unboost|p2a: Evinrude|spa|2
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1663600222
+|switch|p1a: rotomwash|Rotom-Wash|92/100
+|turn|20
+|
+|t:|1663600239
+|switch|p2a: Krokmou|Garchomp, F|100/100
+|-damage|p2a: Krokmou|94/100|[from] Stealth Rock
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|
+|-heal|p1a: rotomwash|98/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1663600242
+|move|p1a: rotomwash|Hydro Pump|p2a: Krokmou
+|-damage|p2a: Krokmou|0 fnt
+|faint|p2a: Krokmou
+|
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1663600247
+|switch|p2a: Evinrude|Dragapult, F|88/100
+|-damage|p2a: Evinrude|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1663600248
+|move|p2a: Evinrude|Draco Meteor|p1a: rotomwash
+|-damage|p1a: rotomwash|9/100
+|-unboost|p2a: Evinrude|spa|2
+|move|p1a: rotomwash|Pain Split|p2a: Evinrude
+|-sethp|p2a: Evinrude|42/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|44/100|[from] move: Pain Split
+|
+|-heal|p1a: rotomwash|50/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1663600255
+|move|p2a: Evinrude|Draco Meteor|p1a: rotomwash
+|-damage|p1a: rotomwash|1/100
+|-unboost|p2a: Evinrude|spa|2
+|move|p1a: rotomwash|Pain Split|p2a: Evinrude
+|-sethp|p2a: Evinrude|22/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|23/100|[from] move: Pain Split
+|
+|-heal|p1a: rotomwash|29/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1663600258
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Evinrude|Draco Meteor|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|85/100
+|-unboost|p2a: Evinrude|spa|2
+|-enditem|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|25
+|
+|t:|1663600261
+|switch|p2a: Lillith|Tyranitar, M|67/100
+|-damage|p2a: Lillith|55/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Lillith
+|move|p1a: Heatran|Eruption|p2a: Lillith
+|-resisted|p2a: Lillith
+|-crit|p2a: Lillith
+|-damage|p2a: Lillith|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1663600265
+|move|p1a: Heatran|Eruption|p2a: Lillith
+|-resisted|p2a: Lillith
+|-damage|p2a: Lillith|0 fnt
+|faint|p2a: Lillith
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1663600274
+|switch|p2a: Merupi|Volcanion|100/100
+|-damage|p2a: Merupi|76/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1663600276
+|switch|p1a: Melmetal|Melmetal|20/100
+|move|p2a: Merupi|Steam Eruption|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Merupi|70/100|[from] Sandstorm
+|upkeep
+|
+|t:|1663600276
+|switch|p1a: rotomwash|Rotom-Wash|29/100
+|turn|28
+|
+|t:|1663600279
+|move|p1a: rotomwash|Thunderbolt|p2a: Merupi
+|-supereffective|p2a: Merupi
+|-damage|p2a: Merupi|23/100
+|move|p2a: Merupi|Steam Eruption|p1a: rotomwash|[miss]
+|-miss|p2a: Merupi|p1a: rotomwash
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|23/100|[from] Sandstorm
+|-damage|p2a: Merupi|17/100|[from] Sandstorm
+|-heal|p1a: rotomwash|29/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1663600284
+|move|p1a: rotomwash|Thunderbolt|p2a: Merupi
+|-supereffective|p2a: Merupi
+|-damage|p2a: Merupi|0 fnt
+|faint|p2a: Merupi
+|
+|-weather|none
+|-heal|p1a: rotomwash|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1663600285
+|switch|p2a: Evinrude|Dragapult, F|22/100
+|-damage|p2a: Evinrude|9/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1663600288
+|move|p2a: Evinrude|Shadow Ball|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1663600288
+|switch|p1a: Heatran|Heatran, M|85/100
+|turn|31
+|
+|t:|1663600290
+|move|p2a: Evinrude|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|26/100
+|move|p1a: Heatran|Eruption|p2a: Evinrude
+|-resisted|p2a: Evinrude
+|-damage|p2a: Evinrude|0 fnt
+|faint|p2a: Evinrude
+|
+|upkeep
+|
+|t:|1663600293
+|switch|p2a: Lapérouse|Landorus-Therian, M|100/100
+|-damage|p2a: Lapérouse|88/100|[from] Stealth Rock
+|-ability|p2a: Lapérouse|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|32
+|
+|t:|1663600295
+|move|p1a: Heatran|Magma Storm|p2a: Lapérouse
+|-damage|p2a: Lapérouse|36/100
+|-activate|p2a: Lapérouse|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Lapérouse|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|Candice
+|raw|minimax_ai's rating: 1588 &rarr; <strong>1571</strong><br />(-17 for losing)
+|raw|Candice's rating: 1637 &rarr; <strong>1654</strong><br />(+17 for winning)
+|c|☆minimax_ai|gg

@@ -1,0 +1,256 @@
+|j|☆bulut
+|j|☆bramitoboy
+|t:|1661422625
+|gametype|singles
+|player|p1|bulut|102|1624
+|player|p2|bramitoboy|101|1880
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Blaziken, M|
+|poke|p1|Moltres-Galar|
+|poke|p1|Dragapult, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Rillaboom, F|
+|poke|p2|Zarude-Dada|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Tapu Lele|
+|poke|p2|Tapu Koko|
+|poke|p2|Heatran, M|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bramitoboy)
+|
+|t:|1661422654
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1661422663
+|move|p1a: Dragapult|Hydro Pump|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|20/100
+|-enditem|p2a: Heatran|Air Balloon
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|move|p2a: Heatran|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: bulut|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1661422672
+|switch|p2a: Zarude|Zarude-Dada|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|74/100
+|-damage|p1a: Dragapult|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1661422683
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Dragapult|Draco Meteor|p2a: Tapu Koko
+|-immune|p2a: Tapu Koko
+|
+|upkeep
+|turn|4
+|
+|t:|1661422693
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Rillaboom
+|-damage|p1a: Rillaboom|40/100
+|
+|-heal|p1a: Rillaboom|46/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1661422702
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|
+|-heal|p1a: Rillaboom|52/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1661422706
+|move|p1a: Rillaboom|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|52/100
+|-damage|p1a: Rillaboom|36/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-enditem|p2a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Rillaboom
+|-damage|p1a: Rillaboom|26/100|[from] item: Life Orb
+|move|p2a: Landorus|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-enditem|p1a: Rillaboom|Life Orb|[from] move: Knock Off|[of] p2a: Landorus
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1661422713
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|7
+|
+|t:|1661422717
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: bulut|move: Aurora Veil
+|move|p2a: Landorus|Earthquake|p1a: Ninetales
+|-damage|p1a: Ninetales|61/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Landorus|46/100|[from] Hail
+|-heal|p1a: Ninetales|67/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1661422723
+|switch|p2a: Heatran|Heatran, M|20/100
+|move|p1a: Ninetales|Encore||[still]
+|-fail|p1a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|13/100|[from] Hail
+|-heal|p1a: Ninetales|73/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|20/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1661422727
+|move|p1a: Ninetales|Moonblast|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|14/100
+|move|p2a: Heatran|Taunt|p1a: Ninetales
+|-start|p1a: Ninetales|move: Taunt
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|8/100|[from] Hail
+|upkeep
+|turn|10
+|
+|t:|1661422735
+|move|p1a: Ninetales|Moonblast|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|2/100
+|-unboost|p2a: Heatran|spa|1
+|move|p2a: Heatran|Taunt||[still]
+|-fail|p2a: Heatran
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|0 fnt|[from] Hail
+|faint|p2a: Heatran
+|upkeep
+|
+|t:|1661422747
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|11
+|
+|t:|1661422753
+|move|p1a: Ninetales|Moonblast|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|80/100
+|-unboost|p2a: Tapu Lele|spa|1
+|move|p2a: Tapu Lele|Psyshock|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|none
+|upkeep
+|
+|t:|1661422772
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|12
+|j| XPSH
+|
+|t:|1661422780
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Tapu Lele|Psyshock|p1a: Volcarona
+|-damage|p1a: Volcarona|68/100
+|
+|upkeep
+|turn|13
+|
+|t:|1661422791
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Tapu Lele|Psyshock|p1a: Volcarona
+|-damage|p1a: Volcarona|38/100
+|
+|upkeep
+|turn|14
+|
+|t:|1661422796
+|move|p1a: Volcarona|Bug Buzz|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|17/100
+|-unboost|p2a: Tapu Lele|spd|1
+|move|p2a: Tapu Lele|Psyshock|p1a: Volcarona
+|-damage|p1a: Volcarona|6/100
+|
+|-sideend|p1: bulut|move: Aurora Veil
+|upkeep
+|turn|15
+|
+|t:|1661422804
+|move|p1a: Volcarona|Bug Buzz|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1661422808
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|16
+|
+|t:|1661422810
+|move|p1a: Volcarona|Flamethrower|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|upkeep
+|
+|t:|1661422813
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|17
+|
+|t:|1661422816
+|move|p1a: Volcarona|Psychic|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|upkeep
+|-message|bramitoboy forfeited.
+|
+|win|bulut
+|raw|bulut's rating: 1624 &rarr; <strong>1657</strong><br />(+33 for winning)
+|raw|bramitoboy's rating: 1880 &rarr; <strong>1847</strong><br />(-33 for losing)
+|l|☆bramitoboy

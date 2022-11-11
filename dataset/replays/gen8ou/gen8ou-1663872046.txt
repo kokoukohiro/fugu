@@ -1,0 +1,313 @@
+|j|☆minimax_ai
+|j|☆samohi0
+|t:|1663139821
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1483
+|player|p2|samohi0|1|1530
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Kartana|
+|poke|p2|Tapu Lele|
+|poke|p2|Corviknight, F|
+|poke|p2|Slowking, M|
+|poke|p2|Nidoking, M|
+|poke|p2|Tyranitar, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1663139826
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Kartana|Kartana|100/100
+|turn|1
+|
+|t:|1663139830
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Melmetal|Double Iron Bash|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|87/100
+|-damage|p1a: Melmetal|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100
+|-damage|p1a: Melmetal|67/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-hitcount|p2a: Corviknight|2
+|
+|upkeep
+|turn|2
+|
+|t:|1663139833
+|move|p2a: Corviknight|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|63/100
+|
+|t:|1663139835
+|switch|p2a: Nidoking|Nidoking, M|100/100|[from]move: U-turn
+|move|p1a: Melmetal|Ice Punch|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|3/100
+|
+|upkeep
+|turn|3
+|
+|t:|1663139839
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Nidoking|Earth Power|p1a: Weavile
+|-damage|p1a: Weavile|6/100
+|
+|upkeep
+|turn|4
+|
+|t:|1663139842
+|switch|p2a: Corviknight|Corviknight, F|76/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Weavile|Triple Axel|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|-damage|p1a: Weavile|0 fnt|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p1a: Weavile
+|-hitcount|p2a: Corviknight|1
+|
+|upkeep
+|
+|t:|1663139842
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|5
+|
+|t:|1663139844
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Heatran|Magma Storm|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|83/100
+|-activate|p2a: Tyranitar|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|71/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1663139849
+|move|p1a: Heatran|Magma Storm|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|54/100
+|move|p2a: Tyranitar|Crunch|p1a: Heatran
+|-damage|p1a: Heatran|34/100
+|-unboost|p1a: Heatran|def|1
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|42/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1663139851
+|move|p1a: Heatran|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|1/100
+|move|p2a: Tyranitar|Crunch|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-end|p2a: Tyranitar|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1663139851
+|switch|p1a: Melmetal|Melmetal|63/100
+|turn|8
+|
+|t:|1663139854
+|move|p2a: Tyranitar|Crunch|p1a: Melmetal
+|-damage|p1a: Melmetal|21/100
+|move|p1a: Melmetal|Ice Punch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1663139864
+|switch|p2a: Kartana|Kartana|100/100
+|turn|9
+|
+|t:|1663139865
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Kartana|atk|1
+|move|p2a: Kartana|Knock Off|p1a: landorustherian
+|-damage|p1a: landorustherian|73/100
+|-enditem|p1a: landorustherian|Leftovers|[from] move: Knock Off|[of] p2a: Kartana
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1663139868
+|switch|p2a: Corviknight|Corviknight, F|66/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: landorustherian|Defog|p2a: Corviknight
+|-unboost|p2a: Corviknight|evasion|1
+|
+|upkeep
+|turn|11
+|
+|t:|1663139870
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Corviknight|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|85/100
+|-damage|p2a: Corviknight|50/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1663139873
+|switch|p2a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|upkeep
+|turn|12
+|
+|t:|1663139874
+|switch|p1a: Melmetal|Melmetal|21/100
+|move|p2a: Tapu Lele|Psychic|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1663139874
+|switch|p1a: landorustherian|Landorus-Therian, M|73/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|turn|13
+|
+|t:|1663139879
+|switch|p2a: Corviknight|Corviknight, F|50/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: landorustherian|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|14
+|
+|t:|1663139881
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|99/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|15
+|
+|t:|1663139882
+|move|p2a: Corviknight|Brave Bird|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|60/100
+|-damage|p2a: Corviknight|83/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-damage|p2a: Corviknight|70/100|[from] Recoil
+|move|p1a: Tangrowth|Sleep Powder|p2a: Corviknight
+|-status|p2a: Corviknight|slp|[from] move: Sleep Powder
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|16
+|
+|t:|1663139884
+|cant|p2a: Corviknight|slp
+|move|p1a: Tangrowth|Giga Drain|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|63/100 slp
+|-heal|p1a: Tangrowth|63/100|[from] drain|[of] p2a: Corviknight
+|
+|upkeep
+|turn|17
+|
+|t:|1663139886
+|cant|p2a: Corviknight|slp
+|move|p1a: Tangrowth|Giga Drain|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|57/100 slp
+|-heal|p1a: Tangrowth|67/100|[from] drain|[of] p2a: Corviknight
+|
+|upkeep
+|turn|18
+|
+|t:|1663139888
+|-curestatus|p2a: Corviknight|slp|[msg]
+|move|p2a: Corviknight|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|51/100
+|-damage|p2a: Corviknight|40/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1663139891
+|switch|p2a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Tangrowth|Giga Drain|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|67/100
+|-heal|p1a: Tangrowth|63/100|[from] drain|[of] p2a: Tapu Lele
+|
+|upkeep
+|turn|19
+|
+|t:|1663139893
+|switch|p1a: landorustherian|Landorus-Therian, M|73/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|move|p2a: Tapu Lele|Psychic|p1a: landorustherian
+|-damage|p1a: landorustherian|3/100
+|-unboost|p1a: landorustherian|spd|1
+|
+|upkeep
+|turn|20
+|
+|t:|1663139896
+|move|p2a: Tapu Lele|Psychic|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1663139896
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|turn|21
+|
+|t:|1663139898
+|move|p2a: Tapu Lele|Psychic|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1663139898
+|switch|p1a: Tangrowth|Tangrowth, M|96/100
+|turn|22
+|
+|t:|1663139900
+|move|p2a: Tapu Lele|Psychic|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|win|samohi0
+|raw|minimax_ai's rating: 1483 &rarr; <strong>1466</strong><br />(-17 for losing)
+|raw|samohi0's rating: 1530 &rarr; <strong>1547</strong><br />(+17 for winning)
+|c|☆minimax_ai|gg

@@ -1,0 +1,253 @@
+|j|‽minimax_ai
+|j|☆Pinks1ip
+|t:|1667363660
+|gametype|singles
+|player|p1|minimax_ai|266|1507
+|player|p2|Pinks1ip|skierf|1442
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Garchomp, M|
+|poke|p2|Weavile, M|
+|poke|p2|Blacephalon|
+|poke|p2|Mew|
+|poke|p2|Azumarill, M|
+|poke|p2|Celesteela|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|j| Memorigan
+|inactive|Pinks1ip has 120 seconds left.
+|
+|t:|1667363699
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|t:|1667363714
+|move|p2a: Mew|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|move|p1a: Melmetal|Double Iron Bash|p2a: Mew
+|-damage|p2a: Mew|66/100
+|-damage|p2a: Mew|30/100
+|-hitcount|p2a: Mew|2
+|
+|upkeep
+|turn|2
+|
+|t:|1667363716
+|move|p2a: Mew|Thunder Wave|p1a: Melmetal
+|-status|p1a: Melmetal|par
+|move|p1a: Melmetal|Double Iron Bash|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|-hitcount|p2: Mew|1
+|
+|upkeep
+|
+|t:|1667363723
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|turn|3
+|
+|t:|1667363725
+|move|p2a: Blacephalon|Overheat|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|20/100 par
+|-unboost|p2a: Blacephalon|spa|2
+|move|p1a: Melmetal|Earthquake|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|faint|p2a: Blacephalon
+|
+|upkeep
+|inactive|Pinks1ip has 120 seconds left.
+|
+|t:|1667363761
+|switch|p2a: Celesteela|Celesteela|100/100
+|turn|4
+|
+|t:|1667363763
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Celesteela|Flamethrower|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|73/100
+|
+|-heal|p1a: Rotom|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1667363768
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|-heal|p1a: Rotom|86/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1667363773
+|move|p2a: Garchomp|Scale Shot|p1a: Rotom|[miss]
+|-miss|p2a: Garchomp|p1a: Rotom
+|move|p1a: Rotom|Hydro Pump|p2a: Garchomp|[miss]
+|-miss|p1a: Rotom|p2a: Garchomp
+|
+|-heal|p1a: Rotom|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1667363775
+|move|p2a: Garchomp|Scale Shot|p1a: Rotom
+|-damage|p1a: Rotom|74/100
+|-damage|p1a: Rotom|55/100
+|-damage|p1a: Rotom|36/100
+|-damage|p1a: Rotom|17/100
+|-hitcount|p1a: Rotom|4
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Rotom|Hydro Pump|p2a: Garchomp
+|-damage|p2a: Garchomp|3/100
+|
+|-heal|p1a: Rotom|23/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1667363778
+|move|p2a: Garchomp|Scale Shot|p1a: Rotom
+|-damage|p1a: Rotom|3/100
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-hitcount|p1: Rotom|2
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|-damage|p2a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|upkeep
+|inactive|Pinks1ip has 120 seconds left.
+|inactive|Pinks1ip has 90 seconds left.
+|
+|t:|1667363860
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Azumarill|atk|1
+|turn|9
+|
+|t:|1667363862
+|move|p1a: Landorus|Defog|p2a: Azumarill
+|-unboost|p2a: Azumarill|evasion|1
+|-sideend|p1: minimax_ai|Stealth Rock|[from] move: Defog|[of] p1a: Landorus
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|50/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|75/100|[from] item: Sitrus Berry
+|
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1667363868
+|move|p1a: Landorus|Earthquake|p2a: Azumarill
+|-damage|p2a: Azumarill|20/100
+|move|p2a: Azumarill|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Azumarill
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1667363868
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|11
+|
+|t:|1667363870
+|move|p2a: Azumarill|Aqua Jet|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1667363870
+|switch|p1a: Melmetal|Melmetal|20/100 par
+|turn|12
+|
+|t:|1667363873
+|move|p2a: Azumarill|Aqua Jet|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1667363873
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|13
+|
+|t:|1667363875
+|move|p2a: Azumarill|Aqua Jet|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-enditem|p1a: Heatran|Air Balloon
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1667363875
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|turn|14
+|
+|t:|1667363876
+|move|p2a: Azumarill|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|19/100
+|-damage|p2a: Azumarill|3/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Azumarill
+|move|p1a: Tangrowth|Sleep Powder|p2a: Azumarill
+|-status|p2a: Azumarill|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|15
+|
+|t:|1667363880
+|cant|p2a: Azumarill|slp
+|move|p1a: Tangrowth|Focus Blast|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+|
+|t:|1667363882
+|switch|p2a: Celesteela|Celesteela|100/100
+|turn|16
+|
+|t:|1667363883
+|move|p2a: Celesteela|Flamethrower|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|win|Pinks1ip
+|raw|minimax_ai's rating: 1507 &rarr; <strong>1484</strong><br />(-23 for losing)
+|raw|Pinks1ip's rating: 1457 &rarr; <strong>1480</strong><br />(+23 for winning)

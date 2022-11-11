@@ -1,0 +1,512 @@
+|j|‽minimax_ai
+|j|☆AlphaTherai
+|t:|1667407681
+|gametype|singles
+|player|p1|minimax_ai|266|1595
+|player|p2|AlphaTherai|waitress-gen4|1575
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Kartana|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Dragapult, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AlphaTherai)
+|inactive|minimax_ai also wants the timer to be on.
+|
+|t:|1667407690
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|turn|1
+|
+|t:|1667407694
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|86/100
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1667407696
+|move|p1a: Landorus|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|60/100
+|-damage|p1a: Landorus|73/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|t:|1667407697
+|switch|p1a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Ferrothorn|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|-damage|p1a: Heatran|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|78/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1667407701
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Garchomp|[miss]
+|-miss|p1a: Heatran|p2a: Garchomp
+|
+|-damage|p1a: Heatran|76/100|[from] Leech Seed|[of] p2a: Garchomp
+|upkeep
+|turn|4
+|
+|t:|1667407705
+|move|p1a: Heatran|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: AlphaTherai|move: Stealth Rock
+|move|p2a: Garchomp|Dragon Tail|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|64/100
+|-enditem|p1a: Heatran|Air Balloon
+|drag|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|
+|upkeep
+|turn|5
+|
+|t:|1667407707
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Weavile|Ice Shard|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|77/100
+|-enditem|p2a: Toxapex|Eject Button
+|
+|t:|1667407711
+|switch|p2a: Ferrothorn|Ferrothorn, M|78/100
+|-damage|p2a: Ferrothorn|72/100|[from] Stealth Rock
+|
+|-heal|p2a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1667407713
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|89/100
+|-damage|p2a: Ferrothorn|61/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1667407719
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Tangrowth|Focus Blast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|79/100
+|
+|upkeep
+|turn|8
+|
+|t:|1667407721
+|move|p1a: Tangrowth|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|61/100
+|-heal|p1a: Tangrowth|96/100|[from] drain|[of] p2a: Toxapex
+|move|p2a: Toxapex|Toxic Spikes|p1a: Tangrowth
+|-sidestart|p1: minimax_ai|move: Toxic Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1667407723
+|move|p1a: Tangrowth|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|-heal|p1a: Tangrowth|100/100|[from] drain|[of] p2a: Toxapex
+|move|p2a: Toxapex|Toxic Spikes|p1a: Tangrowth
+|-sidestart|p1: minimax_ai|move: Toxic Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1667407726
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Tangrowth|Sleep Powder|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz|[from] ability: Overcoat
+|
+|upkeep
+|turn|11
+|
+|t:|1667407729
+|move|p2a: Mandibuzz|Foul Play|p1a: Tangrowth
+|-damage|p1a: Tangrowth|83/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|88/100
+|-heal|p1a: Tangrowth|90/100|[from] drain|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|12
+|
+|t:|1667407731
+|move|p2a: Mandibuzz|Foul Play|p1a: Tangrowth
+|-damage|p1a: Tangrowth|73/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Mandibuzz|[miss]
+|-miss|p1a: Tangrowth|p2a: Mandibuzz
+|
+|upkeep
+|turn|13
+|
+|t:|1667407733
+|move|p2a: Mandibuzz|Foul Play|p1a: Tangrowth
+|-damage|p1a: Tangrowth|55/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|51/100
+|
+|upkeep
+|turn|14
+|
+|t:|1667407738
+|switch|p1a: Heatran|Heatran, M|64/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Heatran
+|-damage|p1a: Heatran|35/100
+|
+|upkeep
+|turn|15
+|
+|t:|1667407746
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|74/100
+|-activate|p2a: Garchomp|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Garchomp|80/100|[from] item: Leftovers
+|-damage|p2a: Garchomp|68/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1667407748
+|switch|p1a: Landorus|Landorus-Therian, M|73/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Garchomp|74/100|[from] item: Leftovers
+|-end|p2a: Garchomp|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|17
+|
+|t:|1667407750
+|move|p2a: Garchomp|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|move|p1a: Landorus|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|38/100
+|
+|-heal|p2a: Garchomp|45/100|[from] item: Leftovers
+|-damage|p1a: Landorus|67/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1667407757
+|switch|p2a: Mandibuzz|Mandibuzz, F|51/100
+|move|p1a: Landorus|Defog|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|evasion|1
+|-sideend|p2: AlphaTherai|Stealth Rock|[from] move: Defog|[of] p1a: Landorus
+|-sideend|p1: minimax_ai|Toxic Spikes|[from] move: Defog|[of] p1a: Landorus
+|
+|-damage|p1a: Landorus|55/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1667407760
+|move|p1a: Landorus|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|39/100
+|
+|t:|1667407760
+|switch|p1a: Melmetal|Melmetal|100/100|[from]move: U-turn
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|89/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|20
+|
+|t:|1667407763
+|move|p2a: Mandibuzz|Foul Play|p1a: Melmetal
+|-damage|p1a: Melmetal|68/100
+|move|p1a: Melmetal|Ice Punch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|32/100
+|-status|p2a: Mandibuzz|frz
+|
+|upkeep
+|turn|21
+|
+|t:|1667407768
+|switch|p2a: Ferrothorn|Ferrothorn, M|68/100
+|move|p1a: Melmetal|Ice Punch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|45/100
+|-damage|p1a: Melmetal|55/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|52/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1667407777
+|switch|p2a: Mandibuzz|Mandibuzz, F|32/100 frz
+|move|p1a: Melmetal|Ice Punch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|t:|1667407780
+|switch|p2a: Garchomp|Garchomp, M|45/100
+|turn|23
+|
+|t:|1667407782
+|switch|p1a: Landorus|Landorus-Therian, M|55/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Garchomp|51/100|[from] item: Leftovers
+|-damage|p1a: Landorus|49/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1667407792
+|move|p2a: Garchomp|Stealth Rock|p1a: Landorus
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|16/100
+|
+|-heal|p2a: Garchomp|22/100|[from] item: Leftovers
+|-damage|p1a: Landorus|37/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1667407798
+|move|p2a: Garchomp|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|move|p1a: Landorus|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-damage|p1a: Landorus|19/100 tox|[from] psn
+|upkeep
+|
+|t:|1667407800
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|26
+|
+|t:|1667407801
+|move|p2a: Dragapult|Dragon Darts|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1667407801
+|switch|p1a: Melmetal|Melmetal|55/100
+|-damage|p1a: Melmetal|49/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1667407806
+|switch|p2a: Ferrothorn|Ferrothorn, M|52/100
+|move|p1a: Melmetal|Ice Punch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|29/100
+|-damage|p1a: Melmetal|37/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|35/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1667407809
+|move|p1a: Melmetal|Double Iron Bash|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|22/100
+|-damage|p1a: Melmetal|24/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|9/100
+|-damage|p1a: Melmetal|12/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-hitcount|p2a: Ferrothorn|2
+|cant|p2a: Ferrothorn|flinch
+|
+|-heal|p2a: Ferrothorn|16/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1667407813
+|move|p1a: Melmetal|Double Iron Bash|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|3/100
+|-damage|p1a: Melmetal|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Melmetal
+|-hitcount|p2a: Ferrothorn|1
+|move|p2a: Ferrothorn|Spikes|p1: Melmetal
+|-sidestart|p1: minimax_ai|Spikes
+|
+|-heal|p2a: Ferrothorn|9/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667407813
+|switch|p1a: Heatran|Heatran, M|35/100
+|-damage|p1a: Heatran|22/100|[from] Stealth Rock
+|-damage|p1a: Heatran|10/100|[from] Spikes
+|turn|30
+|
+|t:|1667407821
+|move|p1a: Heatran|Magma Storm|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1667407822
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|31
+|
+|t:|1667407824
+|move|p2a: Dragapult|Dragon Darts|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1667407824
+|switch|p1a: Tangrowth|Tangrowth, F|88/100
+|-damage|p1a: Tangrowth|76/100|[from] Stealth Rock
+|-damage|p1a: Tangrowth|64/100|[from] Spikes
+|turn|32
+|
+|t:|1667407827
+|move|p2a: Dragapult|Fire Blast|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|upkeep
+|
+|t:|1667407827
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1667407834
+|move|p2a: Dragapult|Dragon Darts|p1a: Rotom
+|-damage|p1a: Rotom|62/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Rotom
+|-damage|p1a: Rotom|34/100
+|move|p1a: Rotom|Thunderbolt|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|76/100
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|-heal|p1a: Rotom|40/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1667407835
+|move|p2a: Dragapult|Dragon Darts|p1a: Rotom
+|-damage|p1a: Rotom|13/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667407835
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-damage|p1a: Weavile|63/100|[from] Spikes
+|-ability|p1a: Weavile|Pressure
+|turn|35
+|
+|t:|1667407837
+|move|p1a: Weavile|Ice Shard|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1667407841
+|switch|p2a: Toxapex|Toxapex, M|77/100
+|turn|36
+|
+|t:|1667407846
+|move|p1a: Weavile|Ice Shard|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|65/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|37
+|
+|t:|1667407848
+|move|p1a: Weavile|Ice Shard|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|90/100
+|move|p2a: Toxapex|Scald|p1a: Weavile
+|-damage|p1a: Weavile|40/100
+|
+|upkeep
+|turn|38
+|
+|t:|1667407850
+|move|p1a: Weavile|Ice Shard|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|78/100
+|move|p2a: Toxapex|Scald|p1a: Weavile
+|-damage|p1a: Weavile|18/100
+|-status|p1a: Weavile|brn
+|
+|-damage|p1a: Weavile|12/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|t:|1667407852
+|move|p1a: Weavile|Ice Shard|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|72/100
+|move|p2a: Toxapex|Scald|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|win|AlphaTherai
+|raw|minimax_ai's rating: 1595 &rarr; <strong>1575</strong><br />(-20 for losing)
+|raw|AlphaTherai's rating: 1595 &rarr; <strong>1615</strong><br />(+20 for winning)
+|l|‽minimax_ai
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

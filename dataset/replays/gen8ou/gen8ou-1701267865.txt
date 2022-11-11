@@ -1,0 +1,429 @@
+|j|☆Gotmyvanson
+|j|☆LeaderMissingNo
+|t:|1667425863
+|gametype|singles
+|player|p1|Gotmyvanson|ghetsis|1574
+|player|p2|LeaderMissingNo|2|1561
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Buzzwole|
+|poke|p1|Clefable, F|
+|poke|p1|Weavile, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Garchomp, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Blissey, F|
+|poke|p2|Ditto|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Weezing-Galar, M|
+|teampreview
+|
+|t:|1667425881
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Ferrothorn|[from] ability: Imposter
+|turn|1
+|
+|t:|1667425890
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Weezing
+|-sidestart|p2: LeaderMissingNo|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1667425896
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Weezing|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: LeaderMissingNo|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|upkeep
+|turn|3
+|
+|t:|1667425900
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Rotom|Trick|p2a: Blissey
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Blissey
+|-item|p2a: Blissey|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|4
+|
+|t:|1667425907
+|move|p1a: Rotom|Volt Switch|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|
+|t:|1667425911
+|switch|p1a: Clefable|Clefable, F|100/100|[from]move: Volt Switch
+|move|p2a: Blissey|Teleport|p2a: Blissey
+|
+|t:|1667425914
+|switch|p2a: Toxapex|Toxapex, F|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|5
+|
+|t:|1667425917
+|move|p1a: Clefable|Trick|p2a: Toxapex
+|-activate|p1a: Clefable|move: Trick|[of] p2a: Toxapex
+|-item|p2a: Toxapex|Sticky Barb|[from] move: Trick
+|-item|p1a: Clefable|Black Sludge|[from] move: Trick
+|move|p2a: Toxapex|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|95/100
+|-enditem|p1a: Clefable|Black Sludge|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-damage|p2a: Toxapex|88/100|[from] item: Sticky Barb
+|upkeep
+|turn|6
+|
+|t:|1667425926
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|move|p2a: Toxapex|Poison Jab|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|64/100
+|
+|-damage|p2a: Toxapex|75/100|[from] item: Sticky Barb
+|upkeep
+|turn|7
+|
+|t:|1667425930
+|move|p1a: Clefable|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|60/100
+|move|p2a: Toxapex|Poison Jab|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|35/100
+|
+|-damage|p2a: Toxapex|47/100|[from] item: Sticky Barb
+|upkeep
+|turn|8
+|
+|t:|1667425934
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|85/100
+|move|p2a: Toxapex|Poison Jab|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|58/100
+|
+|-damage|p2a: Toxapex|35/100|[from] item: Sticky Barb
+|upkeep
+|turn|9
+|
+|t:|1667425937
+|switch|p2a: Blissey|Blissey, F|91/100
+|move|p1a: Clefable|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|76/100
+|-unboost|p2a: Blissey|spa|1
+|
+|upkeep
+|turn|10
+|
+|t:|1667425947
+|move|p2a: Blissey|Seismic Toss|p1a: Clefable
+|-damage|p1a: Clefable|32/100
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|82/100
+|
+|upkeep
+|turn|11
+|
+|t:|1667425954
+|move|p2a: Blissey|Seismic Toss|p1a: Clefable
+|-damage|p1a: Clefable|57/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1667425965
+|move|p2a: Blissey|Seismic Toss|p1a: Clefable
+|-damage|p1a: Clefable|31/100
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|81/100
+|
+|upkeep
+|turn|13
+|
+|t:|1667425970
+|move|p2a: Blissey|Seismic Toss|p1a: Clefable
+|-damage|p1a: Clefable|56/100
+|move|p1a: Clefable|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|56/100
+|-unboost|p2a: Blissey|spa|1
+|
+|upkeep
+|turn|14
+|
+|t:|1667425983
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1667425988
+|move|p1a: Clefable|Trick|p2a: Corsola
+|-activate|p1a: Clefable|move: Trick|[of] p2a: Corsola
+|-enditem|p2a: Corsola|Eviolite|[silent]|[from] move: Trick
+|-item|p1a: Clefable|Eviolite|[from] move: Trick
+|move|p2a: Corsola|Mirror Coat||[still]
+|-fail|p2a: Corsola
+|
+|upkeep
+|turn|16
+|
+|t:|1667426000
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|100/100
+|move|p2a: Corsola|Night Shade|p1a: Clefable
+|-damage|p1a: Clefable|75/100
+|
+|upkeep
+|turn|17
+|
+|t:|1667426019
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Corsola|Mirror Coat||[still]
+|-fail|p2a: Corsola
+|
+|upkeep
+|turn|18
+|
+|t:|1667426029
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Weezing
+|-status|p2a: Weezing|par
+|
+|upkeep
+|turn|19
+|
+|t:|1667426037
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1667426049
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100
+|
+|-heal|p1a: Rotom|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1667426056
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|82/100
+|
+|t:|1667426060
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: Volt Switch
+|move|p2a: Ferrothorn|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|-damage|p2a: Ferrothorn|70/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1667426067
+|switch|p2a: Weezing|Weezing-Galar, M|100/100 par
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Weezing
+|-sidestart|p2: LeaderMissingNo|move: Stealth Rock
+|
+|upkeep
+|turn|23
+|
+|t:|1667426073
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Weezing|Defog|p1a: Garchomp
+|-unboost|p1a: Garchomp|evasion|1
+|-sideend|p2: LeaderMissingNo|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|upkeep
+|turn|24
+|
+|t:|1667426101
+|switch|p1a: Rotom|Rotom-Wash|94/100 brn
+|cant|p2a: Weezing|par
+|
+|-heal|p1a: Rotom|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1667426109
+|switch|p2a: Ferrothorn|Ferrothorn, M|76/100
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|
+|t:|1667426127
+|switch|p1a: Garchomp|Garchomp, F|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1667426135
+|switch|p2a: Weezing|Weezing-Galar, M|100/100 par
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|upkeep
+|turn|27
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LeaderMissingNo)
+|
+|t:|1667426147
+|switch|p1a: Rotom|Rotom-Wash|94/100 brn
+|move|p2a: Weezing|Will-O-Wisp|p1a: Rotom
+|-fail|p1a: Rotom|brn
+|
+|-heal|p1a: Rotom|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1667426153
+|switch|p2a: Ferrothorn|Ferrothorn, M|73/100
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|65/100
+|
+|t:|1667426163
+|switch|p1a: Ferrothorn|Ferrothorn, F|89/100|[from]move: Volt Switch
+|
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1667426168
+|switch|p2a: Weezing|Weezing-Galar, M|100/100 par
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Weezing
+|-sidestart|p2: LeaderMissingNo|move: Stealth Rock
+|
+|upkeep
+|turn|30
+|
+|t:|1667426178
+|switch|p1a: Rotom|Rotom-Wash|94/100 brn
+|move|p2a: Weezing|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: LeaderMissingNo|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|-heal|p1a: Rotom|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1667426183
+|switch|p2a: Ferrothorn|Ferrothorn, M|71/100
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|58/100
+|
+|-heal|p1a: Rotom|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|64/100|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1667426187
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|54/100
+|
+|t:|1667426191
+|switch|p1a: Ferrothorn|Ferrothorn, F|89/100|[from]move: Volt Switch
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Gotmyvanson|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|61/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1667426204
+|switch|p2a: Weezing|Weezing-Galar, M|100/100 par
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Weezing
+|-sidestart|p2: LeaderMissingNo|move: Stealth Rock
+|
+|upkeep
+|turn|34
+|
+|t:|1667426212
+|switch|p1a: Rotom|Rotom-Wash|94/100 brn
+|-damage|p1a: Rotom|82/100 brn|[from] Stealth Rock
+|move|p2a: Weezing|Flamethrower|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|73/100 brn
+|
+|-heal|p1a: Rotom|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|73/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1667426220
+|switch|p2a: Ferrothorn|Ferrothorn, M|61/100
+|-damage|p2a: Ferrothorn|54/100|[from] Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|
+|-heal|p1a: Rotom|79/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|73/100 brn|[from] brn
+|-damage|p2a: Ferrothorn|54/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1667426227
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|46/100 brn
+|
+|t:|1667426237
+|switch|p1a: Clefable|Clefable, F|75/100|[from]move: Volt Switch
+|move|p2a: Ferrothorn|Leech Seed|p1a: Clefable
+|-start|p1a: Clefable|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|52/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|46/100 brn|[from] brn
+|upkeep
+|turn|37
+|-message|LeaderMissingNo forfeited.
+|
+|win|Gotmyvanson
+|raw|Gotmyvanson's rating: 1574 &rarr; <strong>1593</strong><br />(+19 for winning)
+|raw|LeaderMissingNo's rating: 1561 &rarr; <strong>1542</strong><br />(-19 for losing)
+|l|☆LeaderMissingNo

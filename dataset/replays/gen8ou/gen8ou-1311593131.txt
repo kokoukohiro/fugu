@@ -1,0 +1,167 @@
+|j|☆NotSoTryHard33
+|j|☆cump2
+|t:|1617064136
+|player|p1|NotSoTryHard33|1|1386
+|player|p2|cump2|102|1434
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Azumarill, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Alakazam, M|
+|poke|p1|Tapu Koko|
+|poke|p1|Hawlucha, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Swampert, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Terrakion|
+|poke|p2|Rillaboom, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1617064152
+|start
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|switch|p2a: Swampert|Swampert, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|1
+|
+|t:|1617064159
+|move|p1a: Tapu Koko|Reflect|p1a: Tapu Koko
+|-sidestart|p1: NotSoTryHard33|Reflect
+|move|p2a: Swampert|Stealth Rock|p1a: Tapu Koko
+|-sidestart|p1: NotSoTryHard33|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1617064164
+|move|p1a: Tapu Koko|U-turn|p2a: Swampert
+|-damage|p2a: Swampert|85/100
+|
+|t:|1617064177
+|switch|p1a: Hawlucha|Hawlucha, F|100/100|[from]move: U-turn
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Electric Seed
+|move|p2a: Swampert|Earthquake|p1a: Hawlucha
+|-immune|p1a: Hawlucha
+|
+|-heal|p2a: Swampert|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1617064183
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Swampert|Toxic|p1a: Hawlucha
+|-status|p1a: Hawlucha|tox
+|
+|-heal|p2a: Swampert|97/100|[from] item: Leftovers
+|-damage|p1a: Hawlucha|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1617064188
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|-damage|p1a: Hawlucha|70/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1617064193
+|move|p1a: Hawlucha|Close Combat|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Mandibuzz
+|
+|-damage|p1a: Hawlucha|52/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NotSoTryHard33)
+|
+|t:|1617064223
+|switch|p2a: Swampert|Swampert, M|97/100
+|turn|6
+|
+|t:|1617064226
+|move|p1a: Hawlucha|Acrobatics|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-damage|p1a: Hawlucha|27/100 tox|[from] psn
+|upkeep
+|
+|t:|1617064238
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|7
+|
+|t:|1617064244
+|move|p2a: Rillaboom|Grassy Glide|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|t:|1617064249
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1617064256
+|switch|p2a: Terrakion|Terrakion|100/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-heal|p1a: Dragapult|94/100|[from] Grassy Terrain
+|-sideend|p1: NotSoTryHard33|Reflect
+|upkeep
+|turn|9
+|
+|t:|1617064261
+|move|p1a: Dragapult|Dragon Darts|p2a: Terrakion
+|-damage|p2a: Terrakion|49/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-heal|p1a: Dragapult|99/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1617064267
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|100/100
+|turn|10
+|
+|t:|1617064272
+|move|p1a: Dragapult|Dragon Darts|p2a: Rillaboom
+|-damage|p2a: Rillaboom|48/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Dragapult|100/100|[from] Grassy Terrain
+|upkeep
+|-message|cump2 forfeited.
+|
+|win|NotSoTryHard33
+|raw|NotSoTryHard33's rating: 1386 &rarr; <strong>1409</strong><br />(+23 for winning)
+|raw|cump2's rating: 1434 &rarr; <strong>1411</strong><br />(-23 for losing)
+|l|☆cump2

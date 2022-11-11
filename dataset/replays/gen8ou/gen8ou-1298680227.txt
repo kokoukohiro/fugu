@@ -1,0 +1,417 @@
+|j|☆Mreow
+|j|☆Mamaw31180
+|t:|1615406600
+|player|p1|Mreow|acetrainersnowf|1774
+|player|p2|Mamaw31180|2|1766
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Victini|
+|poke|p1|Swampert, M|
+|poke|p1|Bewear, M|
+|poke|p1|Alakazam, M|
+|poke|p1|Tapu Lele|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Tapu Koko|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Tyranitar, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| VerbalSeduction
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mamaw31180)
+|
+|t:|1615406612
+|start
+|switch|p1a: Tapu Leuleu|Tapu Lele|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Leuleu
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tapu Leuleu|atk|1
+|turn|1
+|
+|t:|1615406620
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Tapu Leuleu|Psychic|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tapu Leuleu|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1615406630
+|switch|p1a: Laikteur|Bewear, M|100/100
+|move|p2a: Tyranitar|Toxic|p1a: Laikteur
+|-status|p1a: Laikteur|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Laikteur|94/100 tox|[from] Sandstorm
+|-heal|p1a: Laikteur|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Laikteur|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1615406635
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Laikteur|atk|1
+|switch|p1a: Tapu Leuleu|Tapu Lele|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tapu Leuleu|88/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1615406644
+|move|p1a: Tapu Leuleu|Moonblast|p2a: Landorus
+|-damage|p2a: Landorus|7/100
+|move|p2a: Landorus|Stealth Rock|p1a: Tapu Leuleu
+|-sidestart|p1: Mreow|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tapu Leuleu|82/100|[from] Sandstorm
+|-heal|p2a: Landorus|13/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1615406648
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Tapu Leuleu|Moonblast|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|-unboost|p2a: Ferrothorn|spa|1
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|81/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1615406653
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p1a: Mandibuzz|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Mandibuzz
+|-sidestart|p1: Mreow|Spikes
+|
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1615406656
+|move|p1a: Mandibuzz|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: Mreow|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Mreow|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|par
+|
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1615406660
+|switch|p1a: NiceBoyo|Swampert, M|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: NiceBoyo
+|-damage|p1a: NiceBoyo|81/100
+|-enditem|p1a: NiceBoyo|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1615406662
+|move|p1a: NiceBoyo|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Mamaw31180|move: Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: NiceBoyo
+|-supereffective|p1a: NiceBoyo
+|-damage|p1a: NiceBoyo|0 fnt
+|faint|p1a: NiceBoyo
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1615406666
+|switch|p1a: Jambonnix|Victini|100/100
+|turn|10
+|j| fdgdfgsdfg
+|
+|t:|1615406670
+|switch|p2a: Landorus|Landorus-Therian, M|13/100
+|-damage|p2a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p2a: Landorus
+|move|p1a: Jambonnix|Focus Blast|p2: Landorus|[notarget]
+|-fail|p1a: Jambonnix
+|
+|upkeep
+|
+|t:|1615406682
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1615406701
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Mandibuzz|Mandibuzz, F|76/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1615406711
+|move|p2a: Tyranitar|Rock Blast|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|54/100 par
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|39/100 par
+|-hitcount|p1a: Mandibuzz|2
+|cant|p1a: Mandibuzz|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|j| apronvgc ♪
+|j| Gayskeletor
+|l| Gayskeletor
+|
+|t:|1615406724
+|move|p2a: Tyranitar|Rock Blast|p1a: Mandibuzz|[miss]
+|-miss|p2a: Tyranitar|p1a: Mandibuzz
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|89/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1615406729
+|switch|p1a: Laikteur|Bewear, M|94/100 tox
+|move|p2a: Tyranitar|Rock Blast|p1a: Laikteur
+|-resisted|p1a: Laikteur
+|-damage|p1a: Laikteur|89/100 tox
+|-resisted|p1a: Laikteur
+|-damage|p1a: Laikteur|84/100 tox
+|-hitcount|p1a: Laikteur|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Laikteur|78/100 tox|[from] Sandstorm
+|-heal|p1a: Laikteur|84/100 tox|[from] item: Leftovers
+|-damage|p1a: Laikteur|78/100 tox|[from] psn
+|upkeep
+|turn|15
+|j| Lei Goo
+|
+|t:|1615406741
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Laikteur|Double-Edge|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|72/100
+|-damage|p1a: Laikteur|66/100 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Laikteur|60/100 tox|[from] Recoil
+|
+|-weather|none
+|-heal|p1a: Laikteur|66/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|78/100|[from] item: Leftovers
+|-damage|p1a: Laikteur|54/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1615406747
+|move|p1a: Laikteur|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-unboost|p1a: Laikteur|def|1
+|-unboost|p1a: Laikteur|spd|1
+|-damage|p1a: Laikteur|41/100 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Laikteur|47/100 tox|[from] item: Leftovers
+|-damage|p1a: Laikteur|29/100 tox|[from] psn
+|upkeep
+|
+|t:|1615406755
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|17
+|
+|t:|1615406761
+|switch|p1a: Tapu Leuleu|Tapu Lele|82/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Leuleu
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Tapu Leuleu
+|-damage|p1a: Tapu Leuleu|44/100
+|
+|upkeep
+|turn|18
+|l| apronvgc ♪
+|
+|t:|1615406777
+|move|p2a: Tapu Koko|U-turn|p1a: Tapu Leuleu
+|-damage|p1a: Tapu Leuleu|18/100
+|
+|t:|1615406780
+|switch|p2a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Tapu Leuleu|Moonblast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tapu Leuleu|12/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1615406790
+|move|p1a: Tapu Leuleu|Moonblast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tapu Leuleu|6/100|[from] Sandstorm
+|upkeep
+|
+|t:|1615406793
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|94/100
+|-damage|p2a: Urshifu|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1615406802
+|switch|p1a: Mandibuzz|Mandibuzz, F|89/100 par
+|move|p2a: Urshifu|Surging Strikes|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|72/100 par
+|-damage|p2a: Urshifu|72/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|52/100 par
+|-damage|p2a: Urshifu|55/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|32/100 par
+|-damage|p2a: Urshifu|39/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|-hitcount|p1a: Mandibuzz|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|33/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1615406808
+|move|p2a: Urshifu|Surging Strikes|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|13/100 par
+|-damage|p2a: Urshifu|16/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|-damage|p2a: Urshifu|0 fnt|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|-hitcount|p1a: Mandibuzz|2
+|faint|p1a: Mandibuzz
+|faint|p2a: Urshifu
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1615406814
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|switch|p1a: Laikteur|Bewear, M|29/100 tox
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|22
+|
+|t:|1615406825
+|move|p2a: Tapu Koko|U-turn|p1a: Laikteur
+|-resisted|p1a: Laikteur
+|-damage|p1a: Laikteur|25/100 tox
+|
+|t:|1615406827
+|switch|p2a: Hawlucha|Hawlucha, M|100/100|[from]move: U-turn
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Electric Seed
+|move|p1a: Laikteur|Double-Edge|p2a: Hawlucha
+|-damage|p2a: Hawlucha|20/100
+|-damage|p1a: Laikteur|10/100 tox|[from] Recoil
+|
+|-weather|none
+|-heal|p1a: Laikteur|16/100 tox|[from] item: Leftovers
+|-damage|p1a: Laikteur|10/100 tox|[from] psn
+|upkeep
+|turn|23
+|j| epsilon_xd
+|
+|t:|1615406836
+|move|p2a: Hawlucha|Acrobatics|p1a: Laikteur
+|-supereffective|p1a: Laikteur
+|-damage|p1a: Laikteur|0 fnt
+|faint|p1a: Laikteur
+|
+|upkeep
+|
+|t:|1615406840
+|switch|p1a: Jambonnix|Victini|100/100
+|turn|24
+|
+|t:|1615406844
+|move|p2a: Hawlucha|Acrobatics|p1a: Jambonnix
+|-damage|p1a: Jambonnix|56/100
+|move|p1a: Jambonnix|Glaciate|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1615406847
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|turn|25
+|
+|t:|1615406849
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Jambonnix
+|-damage|p1a: Jambonnix|29/100
+|move|p1a: Jambonnix|Glaciate|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|66/100
+|-unboost|p2a: Tapu Koko|spe|1
+|
+|upkeep
+|turn|26
+|
+|t:|1615406857
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Jambonnix
+|-damage|p1a: Jambonnix|0 fnt
+|faint|p1a: Jambonnix
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1615406858
+|switch|p1a: Tapu Leuleu|Tapu Lele|6/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Leuleu
+|turn|27
+|
+|t:|1615406864
+|move|p1a: Tapu Leuleu|Psychic|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|win|Mreow
+|raw|Mreow's rating: 1774 &rarr; <strong>1790</strong><br />(+16 for winning)
+|raw|Mamaw31180's rating: 1766 &rarr; <strong>1750</strong><br />(-16 for losing)
+|l| epsilon_xd
+|l|☆Mamaw31180
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).
+|l| VerbalSeduction

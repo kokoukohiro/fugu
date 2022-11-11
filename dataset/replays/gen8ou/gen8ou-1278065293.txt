@@ -1,0 +1,218 @@
+|j|☆Mutako Z
+|j|☆Suzeth 2.1
+|t:|1612741327
+|player|p1|Mutako Z|28|1316
+|player|p2|Suzeth 2.1|265|1330
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Dracozolt|
+|poke|p1|Hippowdon, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Dragonite, F|
+|poke|p2|Latios, M|
+|poke|p2|Tapu Fini|
+|poke|p2|Electivire, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Arcanine, M|
+|poke|p2|Garchomp, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1612741337
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|turn|1
+|
+|t:|1612741346
+|move|p2a: Arcanine|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1612741356
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|2
+|
+|t:|1612741364
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Hippowdon|Toxic|p2a: Ferrothorn|[miss]
+|-miss|p1a: Hippowdon|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1612741372
+|move|p1a: Hippowdon|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|77/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|90/100
+|-enditem|p1a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1612741388
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: Mutako Z|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1612741403
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Ferrothorn|Body Press|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1612741411
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Excadrill|0 fnt|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|faint|p1a: Excadrill
+|
+|-weather|none
+|upkeep
+|
+|t:|1612741423
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|7
+|
+|t:|1612741437
+|move|p2a: Tapu Fini|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|62/100
+|move|p1a: Tyranitar|Taunt|p2a: Tapu Fini
+|-start|p2a: Tapu Fini|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Fini|94/100|[from] Sandstorm
+|-heal|p2a: Tapu Fini|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1612741447
+|move|p2a: Tapu Fini|Moonblast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|35/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Tapu Fini
+|-sidestart|p2: Suzeth 2.1|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Fini|94/100|[from] Sandstorm
+|-heal|p2a: Tapu Fini|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1612741463
+|move|p2a: Tapu Fini|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|9/100
+|move|p1a: Tyranitar|Rock Blast|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|89/100
+|-crit|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|71/100
+|-damage|p2a: Tapu Fini|59/100
+|-hitcount|p2a: Tapu Fini|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Fini|52/100|[from] Sandstorm
+|-heal|p2a: Tapu Fini|59/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1612741476
+|move|p2a: Tapu Fini|Moonblast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Fini|52/100|[from] Sandstorm
+|-heal|p2a: Tapu Fini|59/100|[from] item: Leftovers
+|-end|p2a: Tapu Fini|move: Taunt
+|upkeep
+|
+|t:|1612741485
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|-damage|p1a: Dracozolt|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1612741514
+|move|p1a: Dracozolt|Draco Meteor|p2a: Tapu Fini
+|-immune|p2a: Tapu Fini
+|move|p2a: Tapu Fini|Moonblast|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|-weather|none
+|-heal|p2a: Tapu Fini|65/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1612741524
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|12
+|
+|t:|1612741529
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Tapu Fini|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|35/100
+|-unboost|p1a: Dragonite|spa|1
+|
+|-heal|p2a: Tapu Fini|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1612741551
+|move|p1a: Dragonite|Earthquake|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|3/100
+|move|p2a: Tapu Fini|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Tapu Fini|9/100|[from] item: Leftovers
+|upkeep
+|-message|Mutako Z forfeited.
+|
+|win|Suzeth 2.1
+|l|☆Mutako Z
+|raw|Mutako Z's rating: 1316 &rarr; <strong>1297</strong><br />(-19 for losing)
+|raw|Suzeth 2.1's rating: 1331 &rarr; <strong>1350</strong><br />(+19 for winning)

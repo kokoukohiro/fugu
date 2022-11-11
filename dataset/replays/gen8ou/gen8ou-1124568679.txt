@@ -1,0 +1,162 @@
+|j|‽GORAN EL DRACO
+|j|☆The Godstall
+|player|p1|GORAN EL DRACO|n|1747
+|player|p2|The Godstall|266|1665
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|html|<div class="broadcast-blue"><strong>OU is currently suspecting Dracovish! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3664521/">suspect thread</a>.</strong></div>
+|clearpoke
+|poke|p1|Cloyster, M|
+|poke|p1|Sigilyph, F|
+|poke|p1|Primarina, M|
+|poke|p1|Venusaur, M|
+|poke|p1|Jirachi|
+|poke|p1|Rotom-Heat|
+|poke|p2|Accelgor, F|
+|poke|p2|Reuniclus, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Mew|
+|poke|p2|Toxapex, M|
+|poke|p2|Clefable, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by The Godstall)
+|
+|start
+|switch|p1a: Primarina|Primarina, M|100/100
+|switch|p2a: Accelgor|Accelgor, F|100/100
+|turn|1
+|
+|move|p2a: Accelgor|Final Gambit|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p2a: Accelgor
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|2
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Jirachi|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Jirachi|par
+|
+|upkeep
+|turn|3
+|
+|cant|p2a: Mew|par
+|move|p1a: Jirachi|Stealth Rock|p2a: Mew
+|-sidestart|p2: The Godstall|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|cant|p2a: Mew|par
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|cant|p2a: Mew|par
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|-damage|p2a: Clefable|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Overheat|p2a: Clefable
+|-damage|p2a: Clefable|50/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-heal|p2a: Clefable|57/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Clefable
+|-status|p2a: Clefable|brn
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Clefable|57/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|34/100 brn
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100|[from]move: Volt Switch
+|move|p2a: Clefable|Heal Bell|p2a: Clefable
+|-activate|p2a: Clefable|move: Heal Bell
+|-curestatus|p2a: Clefable|brn|[msg]
+|-curestatus|p2: Mew|par|[msg]
+|
+|-heal|p2a: Clefable|84/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|-damage|p2a: Reuniclus|88/100|[from] Stealth Rock
+|move|p1a: Venusaur|Sleep Powder|p2a: Reuniclus
+|-status|p2a: Reuniclus|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|cant|p2a: Reuniclus|slp
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Mew
+|-damage|p2a: Mew|75/100
+|-damage|p2a: Mew|61/100
+|-damage|p2a: Mew|47/100
+|-damage|p2a: Mew|33/100
+|-damage|p2a: Mew|19/100
+|-hitcount|p2a: Mew|5
+|cant|p2a: Mew|flinch
+|
+|upkeep
+|turn|13
+|c|☆The Godstall|paralyzed ok
+|c|☆The Godstall|but flinch
+|c|☆The Godstall|rly
+|c|☆The Godstall|the game make all to u win
+|c|☆The Godstall|how i can fight against the choice of game
+|c|☆The Godstall|skill is irrelevant
+|inactive|The Godstall has 120 seconds left.
+|-message|The Godstall forfeited.
+|
+|win|GORAN EL DRACO
+|l|☆The Godstall
+|raw|GORAN EL DRACO's rating: 1747 &rarr; <strong>1762</strong><br />(+15 for winning)
+|raw|The Godstall's rating: 1656 &rarr; <strong>1641</strong><br />(-15 for losing)

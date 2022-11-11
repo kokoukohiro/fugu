@@ -1,0 +1,478 @@
+|j|☆N30N3
+|j|☆Let's In The Sun
+|player|p1|N30N3|2|1831
+|player|p2|Let's In The Sun|cheren-gen5bw2|1704
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Mimikyu, F|
+|poke|p1|Hippowdon, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Kyurem|
+|poke|p1|Ferrothorn, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Zeraora|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Jirachi|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by N30N3)
+|
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|1
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|75/100
+|
+|upkeep
+|turn|2
+|inactive|N30N3 has 120 seconds left.
+|j| OUTX niyexh
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Jirachi|Trick|p1a: Hippowdon
+|-activate|p2a: Jirachi|move: Trick|[of] p1a: Hippowdon
+|-item|p1a: Hippowdon|Choice Scarf|[from] move: Trick
+|-item|p2a: Jirachi|Smooth Rock|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Jirachi|U-turn|p1a: Hippowdon
+|-damage|p1a: Hippowdon|92/100
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from]move: U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hippowdon|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Let's In The Sun|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Corviknight|Defog|p1a: Kyurem
+|-unboost|p1a: Kyurem|evasion|1
+|-sideend|p2: Let's In The Sun|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Corviknight
+|-damage|p2a: Corviknight|45/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|95/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|88/100|[from] Sandstorm
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Kyurem|Ice Beam|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|82/100|[from] Sandstorm
+|-damage|p2a: Toxapex|69/100|[from] Sandstorm
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Ferrothorn
+|-sidestart|p1: N30N3|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|69/100|[from] Sandstorm
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p2a: Toxapex|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|91/100
+|-damage|p2a: Toxapex|63/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Toxapex
+|move|p1a: Ferrothorn|Spikes|p2a: Toxapex
+|-sidestart|p2: Let's In The Sun|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|57/100|[from] Sandstorm
+|-heal|p2a: Toxapex|63/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|88/100
+|-enditem|p2a: Clefable|Life Orb|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|move|p2a: Clefable|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|23/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Spikes
+|turn|11
+|j| Vccfg
+|
+|switch|p1a: Hippowdon|Hippowdon, M|92/100
+|-status|p1a: Hippowdon|psn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Zeraora|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|73/100 psn
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeraora|82/100|[from] Sandstorm
+|-heal|p2a: Zeraora|88/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|60/100 psn|[from] psn
+|upkeep
+|turn|12
+|l| Vccfg
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hippowdon|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Let's In The Sun|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hippowdon|48/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|23/100
+|move|p2a: Corviknight|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p1: N30N3|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Let's In The Sun|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Let's In The Sun|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Corviknight|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Corviknight|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem|82/100
+|-ability|p1a: Kyurem|Pressure
+|turn|15
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Corviknight
+|-damage|p2a: Corviknight|35/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|85/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|none
+|-heal|p2a: Corviknight|92/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|j| Kiru✬Silver☆Star々
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Toxapex|Toxapex, M|96/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p1a: Kyurem|Kyurem|82/100
+|-ability|p1a: Kyurem|Pressure
+|switch|p2a: Corviknight|Corviknight, M|92/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|98/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|94/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c| Kiru✬Silver☆Star々|Lits responde mp, tonta
+|l| Kiru✬Silver☆Star々
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|
+|upkeep
+|turn|20
+|j| biklad
+|
+|switch|p1a: Kyurem|Kyurem|82/100
+|-ability|p1a: Kyurem|Pressure
+|switch|p2a: Corviknight|Corviknight, M|99/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|j| HeavenStar
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Corviknight
+|-damage|p2a: Corviknight|45/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|95/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Kyurem|Ice Beam|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|74/100
+|
+|-heal|p2a: Toxapex|80/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|switch|p1a: Hippowdon|Hippowdon, M|48/100 psn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Toxapex|Toxic Spikes|p1a: Hippowdon
+|-sidestart|p1: N30N3|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|74/100|[from] Sandstorm
+|-heal|p2a: Toxapex|80/100|[from] item: Black Sludge
+|-damage|p1a: Hippowdon|36/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Let's In The Sun|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hippowdon|23/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|move|p1a: Hippowdon|Stealth Rock||[still]
+|-fail|p1a: Hippowdon
+|move|p2a: Seismitoad|Scald|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem|82/100
+|-status|p1a: Kyurem|psn
+|-ability|p1a: Kyurem|Pressure
+|turn|26
+|
+|switch|p2a: Jirachi|Jirachi|75/100
+|-damage|p2a: Jirachi|69/100|[from] Stealth Rock
+|move|p1a: Kyurem|Freeze-Dry|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|76/100 psn|[from] Sandstorm
+|-damage|p1a: Kyurem|64/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|move|p2a: Jirachi|Iron Head|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|81/100
+|
+|-weather|none
+|upkeep
+|turn|28
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Excadrill|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|79/100
+|-boost|p1a: Excadrill|spe|1
+|-sideend|p1: N30N3|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-damage|p1a: Excadrill|71/100|[from] item: Life Orb
+|
+|-heal|p2a: Corviknight|85/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|move|p2a: Corviknight|Defog|p1a: Mimikyu
+|-unboost|p1a: Mimikyu|evasion|1
+|-sideend|p2: Let's In The Sun|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|91/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Corviknight|U-turn|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Seismitoad
+|-damage|p2a: Seismitoad|31/100
+|-damage|p1a: Mimikyu|78/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Earth Power|p1a: Mimikyu
+|-damage|p1a: Mimikyu|40/100
+|
+|-heal|p2a: Seismitoad|38/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Mimikyu|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Mimikyu|70/100|[from] drain|[of] p2a: Seismitoad
+|-damage|p1a: Mimikyu|60/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Zeraora|Zeraora|88/100
+|turn|33
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Zeraora|Plasma Fists|p1a: Tyranitar
+|-damage|p1a: Tyranitar|54/100
+|-fieldactivate|move: Ion Deluge
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeraora|82/100|[from] Sandstorm
+|-heal|p2a: Zeraora|88/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Zeraora|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeraora|82/100|[from] Sandstorm
+|-heal|p2a: Zeraora|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|71/100
+|turn|35
+|
+|switch|p1a: Mimikyu|Mimikyu-Busted, F|60/100
+|switch|p2a: Corviknight|Corviknight, M|91/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|54/100|[from] Sandstorm
+|-heal|p2a: Corviknight|98/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Corviknight|U-turn|p1a: Mimikyu
+|-resisted|p1a: Mimikyu
+|-damage|p1a: Mimikyu|49/100
+|
+|switch|p2a: Zeraora|Zeraora|88/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zeraora|82/100|[from] Sandstorm
+|-damage|p1a: Mimikyu|43/100|[from] Sandstorm
+|-heal|p2a: Zeraora|88/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Zeraora
+|-damage|p2a: Zeraora|25/100
+|-damage|p1a: Mimikyu|33/100|[from] item: Life Orb
+|move|p2a: Zeraora|Plasma Fists|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p1a: Mimikyu
+|
+|-weather|none
+|-heal|p2a: Zeraora|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|71/100
+|turn|38
+|
+|move|p2a: Zeraora|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Zeraora|37/100|[from] item: Leftovers
+|upkeep
+|c|☆N30N3|Gg
+|-message|N30N3 forfeited.
+|
+|win|Let's In The Sun
+|l|☆N30N3

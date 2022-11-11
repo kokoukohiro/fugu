@@ -1,0 +1,323 @@
+|j|☆big boss 447
+|j|☆left foot up
+|player|p1|big boss 447|n|1712
+|player|p2|left foot up|lucas|1838
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Pelipper, F|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Kyurem|
+|poke|p1|Zeraora|
+|poke|p1|Ferrothorn, F|
+|poke|p2|Necrozma|
+|poke|p2|Clefable, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Zeraora|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by big boss 447)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|1
+|j| Elou2000
+|
+|switch|p2a: Necrozma|Necrozma|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Necrozma
+|-sidestart|p2: left foot up|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Necrozma|Heat Wave|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|88/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Pelipper|Weather Ball|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|60/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|j| myjava
+|inactive|left foot up has 120 seconds left.
+|
+|move|p1a: Pelipper|Weather Ball|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|move|p2a: Toxapex|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|69/100
+|-enditem|p1a: Pelipper|Choice Specs|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|32/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Pelipper|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|left foot up has 120 seconds left.
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Stealth Rock
+|turn|6
+|l| Elou2000
+|inactive|left foot up has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Zeraora|Plasma Fists|p1a: Rotom
+|-damage|p1a: Rotom|63/100
+|-fieldactivate|move: Ion Deluge
+|
+|-weather|none
+|-heal|p2a: Zeraora|94/100|[from] item: Leftovers
+|-heal|p1a: Rotom|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|left foot up has 120 seconds left.
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|66/100
+|
+|-heal|p1a: Rotom|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Hydreigon|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|8/100
+|
+|-heal|p1a: Ferrothorn|15/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Necrozma|Necrozma|100/100
+|-damage|p2a: Necrozma|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|67/100
+|-enditem|p2a: Necrozma|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|21/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Necrozma
+|-damage|p2a: Necrozma|20/100
+|move|p2a: Necrozma|Moonlight|p2a: Necrozma
+|-heal|p2a: Necrozma|70/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Necrozma
+|-damage|p2a: Necrozma|17/100
+|move|p2a: Necrozma|Moonlight|p2a: Necrozma
+|-heal|p2a: Necrozma|67/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Necrozma
+|-damage|p2a: Necrozma|17/100
+|move|p2a: Necrozma|Photon Geyser|p1a: Kyurem
+|-damage|p1a: Kyurem|45/100
+|
+|upkeep
+|turn|14
+|j| swsh is sht
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|upkeep
+|inactive|left foot up has 90 seconds left.
+|
+|switch|p2a: Zeraora|Zeraora|94/100
+|-damage|p2a: Zeraora|82/100|[from] Stealth Rock
+|turn|15
+|inactive|left foot up has 90 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|21/100
+|move|p2a: Zeraora|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|-damage|p2a: Zeraora|70/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Zeraora|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|turn|16
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Zeraora|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|87/100
+|-enditem|p2a: Clefable|Leftovers|[from] move: Knock Off|[of] p1a: Zeraora
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Clefable
+|-damage|p2a: Clefable|42/100
+|-fieldactivate|move: Ion Deluge
+|move|p2a: Clefable|Moonblast|p1a: Zeraora
+|-damage|p1a: Zeraora|60/100
+|
+|-heal|p1a: Zeraora|66/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|left foot up has 120 seconds left.
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p2a: Clefable
+|
+|-heal|p1a: Zeraora|72/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|66/100
+|-damage|p2a: Hydreigon|53/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Pelipper|Pelipper, F|69/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Hydreigon|Draco Meteor|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|turn|20
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Crawdaunt|Liquidation|p2a: Corviknight
+|-damage|p2a: Corviknight|19/100
+|-unboost|p2a: Corviknight|def|1
+|-damage|p1a: Crawdaunt|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|25/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Crawdaunt|81/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|53/100
+|-damage|p2a: Hydreigon|41/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|6/100
+|-damage|p1a: Crawdaunt|71/100|[from] item: Life Orb
+|move|p2a: Hydreigon|Draco Meteor|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Crawdaunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Zeraora|Zeraora|72/100
+|turn|23
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Zeraora
+|-damage|p1a: Zeraora|33/100
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Zeraora|Knock Off|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-enditem|p2a: Hydreigon|Choice Scarf|[from] move: Knock Off|[of] p1a: Zeraora
+|faint|p2a: Hydreigon
+|
+|-weather|none
+|-heal|p1a: Zeraora|39/100|[from] item: Leftovers
+|upkeep
+|j| tapu moxo
+|
+|switch|p2a: Zeraora|Zeraora|76/100
+|-damage|p2a: Zeraora|63/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Zeraora|Knock Off|p2a: Zeraora
+|-damage|p2a: Zeraora|25/100
+|-enditem|p2a: Zeraora|Leftovers|[from] move: Knock Off|[of] p1a: Zeraora
+|move|p2a: Zeraora|Bulk Up|p2a: Zeraora
+|-boost|p2a: Zeraora|atk|1
+|-boost|p2a: Zeraora|def|1
+|
+|-heal|p1a: Zeraora|45/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Zeraora|Close Combat|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|faint|p2a: Zeraora
+|
+|win|big boss 447
+|raw|big boss 447's rating: 1712 &rarr; <strong>1739</strong><br />(+27 for winning)
+|raw|left foot up's rating: 1838 &rarr; <strong>1811</strong><br />(-27 for losing)
+|l|☆left foot up
+|l|☆big boss 447

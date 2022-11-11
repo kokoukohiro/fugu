@@ -1,0 +1,351 @@
+|j|☆minimax_ai
+|j|☆bizarman
+|t:|1661623770
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1562
+|player|p2|bizarman|scientist-gen4|1633
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Nidoking, M|
+|poke|p2|Slowbro, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Heatran, M|
+|poke|p2|Buzzwole|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1661623792
+|start
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|switch|p2a: Domas|Landorus-Therian, M|100/100
+|-ability|p2a: Domas|Intimidate|boost
+|-unboost|p1a: rotomwash|atk|1
+|turn|1
+|
+|t:|1661623801
+|move|p1a: rotomwash|Hydro Pump|p2a: Domas
+|-supereffective|p2a: Domas
+|-damage|p2a: Domas|37/100
+|move|p2a: Domas|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|76/100
+|
+|t:|1661623807
+|switch|p2a: Bebin|Dragapult, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: rotomwash|83/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1661623815
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Bebin|Shadow Ball|p1a: Melmetal
+|-damage|p1a: Melmetal|74/100
+|
+|upkeep
+|turn|3
+|
+|t:|1661623822
+|switch|p2a: Dorshe|Buzzwole|100/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Dorshe
+|-damage|p2a: Dorshe|74/100
+|-damage|p1a: Melmetal|57/100|[from] item: Rocky Helmet|[of] p2a: Dorshe
+|-damage|p2a: Dorshe|48/100
+|-damage|p1a: Melmetal|41/100|[from] item: Rocky Helmet|[of] p2a: Dorshe
+|-hitcount|p2a: Dorshe|2
+|
+|upkeep
+|turn|4
+|
+|t:|1661623830
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Dorshe|Roost|p2a: Dorshe
+|-heal|p2a: Dorshe|98/100
+|-singleturn|p2a: Dorshe|move: Roost
+|
+|upkeep
+|turn|5
+|
+|t:|1661623836
+|switch|p2a: Domas|Landorus-Therian, M|37/100
+|-ability|p2a: Domas|Intimidate|boost
+|-unboost|p1a: Tangrowth|atk|1
+|move|p1a: Tangrowth|Sleep Powder|p2a: Domas
+|-status|p2a: Domas|slp|[from] move: Sleep Powder
+|
+|-heal|p2a: Domas|43/100 slp|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1661623845
+|switch|p2a: Apeas|Heatran, M|100/100
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|7
+|
+|t:|1661623856
+|move|p1a: Heatran|Earth Power|p2a: Apeas
+|-supereffective|p2a: Apeas
+|-damage|p2a: Apeas|20/100
+|-unboost|p2a: Apeas|spd|1
+|move|p2a: Apeas|Stealth Rock|p1a: Heatran
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-heal|p2a: Apeas|26/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1661623874
+|switch|p2a: Domas|Landorus-Therian, M|43/100 slp
+|-ability|p2a: Domas|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Stealth Rock|p2a: Domas
+|-sidestart|p2: bizarman|move: Stealth Rock
+|
+|-heal|p2a: Domas|49/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1661623881
+|move|p1a: Heatran|Magma Storm|p2a: Domas
+|-crit|p2a: Domas
+|-damage|p2a: Domas|0 fnt
+|faint|p2a: Domas
+|
+|upkeep
+|
+|t:|1661623885
+|switch|p2a: Bebin|Dragapult, M|100/100
+|-damage|p2a: Bebin|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1661623889
+|move|p2a: Bebin|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|52/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Magma Storm|p2a: Bebin
+|-resisted|p2a: Bebin
+|-damage|p2a: Bebin|52/100
+|-activate|p2a: Bebin|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Bebin|40/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|t:|1661623898
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p1a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Bebin|atk|1
+|move|p2a: Bebin|Shadow Ball|p1a: landorustherian
+|-damage|p1a: landorustherian|50/100
+|-unboost|p1a: landorustherian|spd|1
+|
+|-heal|p1a: landorustherian|56/100|[from] item: Leftovers
+|-end|p2a: Bebin|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|12
+|
+|t:|1661623908
+|switch|p1a: Melmetal|Melmetal|41/100
+|-damage|p1a: Melmetal|35/100|[from] Stealth Rock
+|move|p2a: Bebin|Shadow Ball|p1a: Melmetal
+|-damage|p1a: Melmetal|7/100
+|
+|upkeep
+|turn|13
+|
+|t:|1661623914
+|move|p2a: Bebin|Shadow Ball|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1661623914
+|switch|p1a: landorustherian|Landorus-Therian, M|56/100
+|-damage|p1a: landorustherian|44/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Bebin|atk|1
+|turn|14
+|
+|t:|1661623922
+|switch|p2a: Hiling|Slowbro, F|100/100
+|-damage|p2a: Hiling|88/100|[from] Stealth Rock
+|move|p1a: landorustherian|Earthquake|p2a: Hiling
+|-damage|p2a: Hiling|58/100
+|
+|-heal|p1a: landorustherian|50/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1661623930
+|move|p1a: landorustherian|Earthquake|p2a: Hiling
+|-damage|p2a: Hiling|32/100
+|move|p2a: Hiling|Teleport|p2a: Hiling
+|
+|t:|1661623936
+|switch|p2a: Dorshe|Buzzwole|98/100|[from]move: Teleport
+|-damage|p2a: Dorshe|86/100|[from] Stealth Rock
+|
+|-heal|p1a: landorustherian|56/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1661623942
+|switch|p2a: Bebin|Dragapult, M|40/100
+|-damage|p2a: Bebin|27/100|[from] Stealth Rock
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1661623950
+|switch|p1a: landorustherian|Landorus-Therian, M|56/100
+|-damage|p1a: landorustherian|44/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Bebin|atk|1
+|move|p2a: Bebin|Draco Meteor|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|-unboost|p2a: Bebin|spa|2
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1661623950
+|switch|p1a: rotomwash|Rotom-Wash|83/100
+|-damage|p1a: rotomwash|70/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1661623970
+|switch|p2a: Apeas|Heatran, M|26/100
+|-damage|p2a: Apeas|13/100|[from] Stealth Rock
+|move|p1a: rotomwash|Hydro Pump|p2a: Apeas|[miss]
+|-miss|p1a: rotomwash|p2a: Apeas
+|
+|-heal|p1a: rotomwash|76/100|[from] item: Leftovers
+|-heal|p2a: Apeas|20/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1661623979
+|move|p1a: rotomwash|Thunderbolt|p2a: Apeas
+|-damage|p2a: Apeas|0 fnt
+|faint|p2a: Apeas
+|
+|-heal|p1a: rotomwash|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1661623985
+|switch|p2a: Bebin|Dragapult, M|27/100
+|-damage|p2a: Bebin|15/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1661623992
+|move|p2a: Bebin|Shadow Ball|p1a: rotomwash
+|-damage|p1a: rotomwash|28/100
+|move|p1a: rotomwash|Thunderbolt|p2a: Bebin
+|-resisted|p2a: Bebin
+|-damage|p2a: Bebin|0 fnt
+|faint|p2a: Bebin
+|
+|-heal|p1a: rotomwash|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1661624004
+|switch|p2a: Boji|Nidoking, M|100/100
+|-damage|p2a: Boji|95/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1661624007
+|move|p2a: Boji|Sludge Wave|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1661624007
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|22
+|
+|t:|1661624016
+|switch|p2a: Dorshe|Buzzwole|86/100
+|-damage|p2a: Dorshe|74/100|[from] Stealth Rock
+|move|p1a: Weavile|Triple Axel|p2a: Dorshe
+|-damage|p2a: Dorshe|64/100
+|-damage|p1a: Weavile|59/100|[from] item: Rocky Helmet|[of] p2a: Dorshe
+|-damage|p2a: Dorshe|44/100
+|-damage|p1a: Weavile|43/100|[from] item: Rocky Helmet|[of] p2a: Dorshe
+|-damage|p2a: Dorshe|16/100
+|-damage|p1a: Weavile|26/100|[from] item: Rocky Helmet|[of] p2a: Dorshe
+|-hitcount|p2a: Dorshe|3
+|
+|upkeep
+|turn|23
+|
+|t:|1661624032
+|move|p1a: Weavile|Triple Axel|p2a: Dorshe
+|-damage|p2a: Dorshe|6/100
+|-damage|p1a: Weavile|10/100|[from] item: Rocky Helmet|[of] p2a: Dorshe
+|-damage|p2a: Dorshe|0 fnt
+|-damage|p1a: Weavile|0 fnt|[from] item: Rocky Helmet|[of] p2a: Dorshe
+|faint|p2a: Dorshe
+|faint|p1a: Weavile
+|-hitcount|p2: Dorshe|2
+|
+|upkeep
+|
+|t:|1661624041
+|switch|p1a: Heatran|Heatran, M|52/100
+|switch|p2a: Boji|Nidoking, M|95/100
+|-damage|p2a: Boji|89/100|[from] Stealth Rock
+|-damage|p1a: Heatran|40/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1661624046
+|move|p2a: Boji|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1661624046
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1661624053
+|move|p2a: Boji|Sludge Wave|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|win|bizarman
+|raw|minimax_ai's rating: 1562 &rarr; <strong>1546</strong><br />(-16 for losing)
+|raw|bizarman's rating: 1633 &rarr; <strong>1649</strong><br />(+16 for winning)
+|c|☆minimax_ai|gg

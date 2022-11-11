@@ -1,0 +1,336 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|player|p1|Redemption|baker|
+|player|p2|Pohjis|ethan|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|clearpoke
+|poke|p1|Hawlucha, F|
+|poke|p1|Cloyster, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Terrakion|
+|poke|p1|Accelgor, F|
+|poke|p1|Zeraora|
+|poke|p2|Zeraora|
+|poke|p2|Primarina, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Clefable, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Corviknight, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Pohjis|hf
+|c|+Ayouko|go red
+|c|+Team Pokepals|GO POHJIS
+|inactive|Redemption has 270 seconds left.
+|inactive|Pohjis has 270 seconds left.
+|c|☆Redemption|hf
+|c|+kratosmana|go pohjid
+|c|+kratosmana|s
+|c|%Aurella|POHJY!
+|c|+Brayz|let's go red
+|raw|<div class="broadcast-red"><strong>Moderated chat was set to ☆!</strong><br />Only users of rank ☆ and higher can talk.</div>
+|inactive|Redemption has 240 seconds left.
+|inactive|Pohjis has 240 seconds left.
+|inactive|Pohjis has 210 seconds left.
+|inactive|Pohjis has 180 seconds left.
+|inactive|Pohjis has 150 seconds left.
+|inactive|Pohjis has 120 seconds left.
+|
+|start
+|switch|p1a: Quitronche|Accelgor, F|100/100
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|1
+|inactive|Redemption has 270 seconds left.
+|inactive|Redemption has 240 seconds left.
+|
+|move|p1a: Quitronche|Yawn|p2a: Zeraora
+|-start|p2a: Zeraora|move: Yawn|[of] p1a: Quitronche
+|move|p2a: Zeraora|Plasma Fists|p1a: Quitronche
+|-damage|p1a: Quitronche|17/100
+|-fieldactivate|move: Ion Deluge
+|
+|upkeep
+|turn|2
+|inactive|Pohjis has 150 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Quitronche|Spikes|p2a: Clefable
+|-sidestart|p2: Pohjis|Spikes
+|
+|upkeep
+|turn|3
+|inactive|Redemption has 240 seconds left.
+|
+|move|p1a: Quitronche|Yawn|p2a: Clefable
+|-start|p2a: Clefable|move: Yawn|[of] p1a: Quitronche
+|move|p2a: Clefable|Moonblast|p1a: Quitronche
+|-damage|p1a: Quitronche|0 fnt
+|faint|p1a: Quitronche
+|
+|upkeep
+|inactive|Redemption has 240 seconds left.
+|inactive|Redemption has 210 seconds left.
+|
+|switch|p1a: Fiblombette|Hawlucha, F|100/100
+|turn|4
+|inactive|Pohjis has 120 seconds left.
+|inactive|Pohjis has 90 seconds left.
+|
+|move|p1a: Fiblombette|Substitute|p1a: Fiblombette
+|-start|p1a: Fiblombette|Substitute
+|-damage|p1a: Fiblombette|75/100
+|move|p2a: Clefable|Moonblast|p1a: Fiblombette
+|-supereffective|p1a: Fiblombette
+|-end|p1a: Fiblombette|Substitute
+|
+|-end|p2a: Clefable|move: Yawn|[silent]
+|-status|p2a: Clefable|slp
+|upkeep
+|turn|5
+|inactive|Redemption has 210 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Fiblombette|Substitute|p1a: Fiblombette
+|-start|p1a: Fiblombette|Substitute
+|-damage|p1a: Fiblombette|50/100
+|-enditem|p1a: Fiblombette|Sitrus Berry|[eat]
+|-heal|p1a: Fiblombette|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|6
+|inactive|Pohjis has 60 seconds left.
+|
+|move|p1a: Fiblombette|Swords Dance|p1a: Fiblombette
+|-boost|p1a: Fiblombette|atk|2
+|move|p2a: Corviknight|Brave Bird|p1a: Fiblombette
+|-supereffective|p1a: Fiblombette
+|-crit|p1a: Fiblombette
+|-end|p1a: Fiblombette|Substitute
+|-damage|p2a: Corviknight|94/100|[from] Recoil|[of] p1a: Fiblombette
+|
+|-heal|p2a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Pohjis has 60 seconds left.
+|inactive|Redemption has 210 seconds left.
+|inactive|Redemption has 180 seconds left.
+|
+|move|p1a: Fiblombette|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|-unboost|p1a: Fiblombette|def|1
+|-unboost|p1a: Fiblombette|spd|1
+|move|p2a: Corviknight|Brave Bird|p1a: Fiblombette
+|-supereffective|p1a: Fiblombette
+|-damage|p1a: Fiblombette|0 fnt
+|-damage|p2a: Corviknight|4/100|[from] Recoil
+|faint|p1a: Fiblombette
+|
+|-heal|p2a: Corviknight|10/100|[from] item: Leftovers
+|upkeep
+|inactive|Redemption has 180 seconds left.
+|inactive|Redemption has 150 seconds left.
+|inactive|Redemption has 120 seconds left.
+|
+|switch|p1a: Socochore|Cloyster, M|100/100
+|turn|8
+|
+|move|p1a: Socochore|Shell Smash|p1a: Socochore
+|-unboost|p1a: Socochore|def|1
+|-unboost|p1a: Socochore|spd|1
+|-boost|p1a: Socochore|atk|2
+|-boost|p1a: Socochore|spa|2
+|-boost|p1a: Socochore|spe|2
+|move|p2a: Corviknight|Body Press|p1a: Socochore
+|-supereffective|p1a: Socochore
+|-damage|p1a: Socochore|47/100
+|
+|-heal|p2a: Corviknight|16/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Socochore|Icicle Spear|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-hitcount|p2a: Corviknight|1
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Primarina|Primarina, F|100/100
+|-damage|p2a: Primarina|88/100|[from] Spikes
+|turn|10
+|
+|move|p1a: Socochore|Rock Blast|p2a: Primarina
+|-damage|p2a: Primarina|72/100
+|-damage|p2a: Primarina|55/100
+|-damage|p2a: Primarina|37/100
+|-damage|p2a: Primarina|20/100
+|-damage|p2a: Primarina|3/100
+|-hitcount|p2a: Primarina|5
+|move|p2a: Primarina|Moonblast|p1a: Socochore
+|-damage|p1a: Socochore|0 fnt
+|faint|p1a: Socochore
+|
+|-heal|p2a: Primarina|9/100|[from] item: Leftovers
+|upkeep
+|inactive|Redemption has 120 seconds left.
+|inactive|Redemption has 90 seconds left.
+|
+|switch|p1a: Bouliburde|Terrakion|100/100
+|turn|11
+|inactive|Redemption has 90 seconds left.
+|
+|move|p1a: Bouliburde|Close Combat|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|-unboost|p1a: Bouliburde|def|1
+|-unboost|p1a: Bouliburde|spd|1
+|faint|p2a: Primarina
+|
+|upkeep
+|inactive|Pohjis has 60 seconds left.
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Spikes
+|turn|12
+|inactive|Pohjis has 30 seconds left.
+|
+|move|p2a: Zeraora|Plasma Fists|p1a: Bouliburde
+|-damage|p1a: Bouliburde|24/100
+|-fieldactivate|move: Ion Deluge
+|move|p1a: Bouliburde|Rock Tomb|p2a: Zeraora
+|-damage|p2a: Zeraora|48/100
+|-unboost|p2a: Zeraora|spe|1
+|
+|-heal|p2a: Zeraora|54/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Pohjis has 30 seconds left.
+|inactive|Redemption has 90 seconds left.
+|inactive|Pohjis has 20 seconds left.
+|inactive|Pohjis has 15 seconds left.
+|inactive|Pohjis has 10 seconds left.
+|
+|move|p1a: Bouliburde|Stealth Rock|p2a: Zeraora
+|-sidestart|p2: Pohjis|move: Stealth Rock
+|move|p2a: Zeraora|Plasma Fists|p1a: Bouliburde
+|-damage|p1a: Bouliburde|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p1a: Bouliburde
+|
+|-heal|p2a: Zeraora|60/100|[from] item: Leftovers
+|upkeep
+|inactive|Pohjis has 15 seconds left this turn.
+|inactive|Redemption has 60 seconds left.
+|inactive|Redemption has 30 seconds left.
+|
+|switch|p1a: Bouboufou|Zeraora|100/100
+|turn|14
+|inactive|Pohjis has 25 seconds left this turn.
+|inactive|Redemption has 30 seconds left.
+|
+|move|p1a: Bouboufou|Bulk Up|p1a: Bouboufou
+|-boost|p1a: Bouboufou|atk|1
+|-boost|p1a: Bouboufou|def|1
+|move|p2a: Zeraora|Toxic|p1a: Bouboufou|[miss]
+|-miss|p2a: Zeraora|p1a: Bouboufou
+|
+|-heal|p2a: Zeraora|66/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Pohjis has 30 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F|100/100 slp
+|move|p1a: Bouboufou|Close Combat|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|57/100 slp
+|-unboost|p1a: Bouboufou|def|1
+|-unboost|p1a: Bouboufou|spd|1
+|-damage|p1a: Bouboufou|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Clefable|63/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Pohjis has 30 seconds left.
+|
+|move|p1a: Bouboufou|Plasma Fists|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Bouboufou|81/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|upkeep
+|inactive|Pohjis has 30 seconds left.
+|inactive|Pohjis has 20 seconds left.
+|inactive|Pohjis has 15 seconds left.
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|-damage|p2a: Kommo-o|82/100|[from] Spikes
+|turn|17
+|inactive|Pohjis has 25 seconds left this turn.
+|inactive|Pohjis has 20 seconds left.
+|inactive|Pohjis has 15 seconds left.
+|
+|move|p1a: Bouboufou|Close Combat|p2a: Kommo-o
+|-damage|p2a: Kommo-o|30/100
+|-unboost|p1a: Bouboufou|def|1
+|-unboost|p1a: Bouboufou|spd|1
+|-damage|p1a: Bouboufou|65/100|[from] item: Rocky Helmet|[of] p2a: Kommo-o
+|-damage|p1a: Bouboufou|55/100|[from] item: Life Orb
+|move|p2a: Kommo-o|Body Press|p1a: Bouboufou
+|-damage|p1a: Bouboufou|0 fnt
+|faint|p1a: Bouboufou
+|
+|upkeep
+|inactive|Pohjis has 20 seconds left this turn.
+|
+|switch|p1a: Yordigonde|Mimikyu, M|100/100
+|turn|18
+|inactive|Pohjis has 30 seconds left this turn.
+|inactive|Pohjis has 20 seconds left.
+|
+|move|p1a: Yordigonde|Swords Dance|p1a: Yordigonde
+|-boost|p1a: Yordigonde|atk|2
+|move|p2a: Kommo-o|Flamethrower|p1a: Yordigonde
+|-activate|p1a: Yordigonde|ability: Disguise
+|-damage|p1a: Yordigonde|100/100
+|detailschange|p1a: Yordigonde|Mimikyu-Busted, M
+|-damage|p1a: Yordigonde|88/100|[from] pokemon: Mimikyu-Busted
+|
+|upkeep
+|turn|19
+|inactive|Pohjis has 30 seconds left this turn.
+|
+|move|p1a: Yordigonde|Shadow Claw|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|-damage|p1a: Yordigonde|72/100|[from] item: Rocky Helmet|[of] p2a: Kommo-o
+|-damage|p1a: Yordigonde|62/100|[from] item: Life Orb
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|20
+|inactive|Redemption has 60 seconds left.
+|
+|move|p2a: Salazzle|Sludge Wave|p1a: Yordigonde
+|-damage|p1a: Yordigonde|9/100
+|move|p1a: Yordigonde|Shadow Claw|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|-damage|p1a: Yordigonde|0 fnt|[from] item: Life Orb
+|faint|p2a: Salazzle
+|faint|p1a: Yordigonde
+|
+|win|Pohjis
+|c|☆Pohjis|gg
+|c|☆Redemption|gg

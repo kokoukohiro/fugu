@@ -1,0 +1,201 @@
+|j|☆LolzMachine
+|j|‽agent garbodr
+|t:|1610649418
+|player|p1|LolzMachine|294|1591
+|player|p2|agent garbodr|swimmerf-gen4dp|1627
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Regidrago|
+|poke|p1|Klefki, M|
+|poke|p1|Regieleki|
+|poke|p1|Spectrier|
+|poke|p1|Haxorus, M|
+|poke|p1|Nidoking, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Clefable, F|
+|poke|p2|Blissey, F|
+|poke|p2|Quagsire, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1610649428
+|start
+|switch|p1a: Klefki|Klefki, M|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|1
+|
+|t:|1610649446
+|move|p1a: Klefki|Switcheroo|p2a: Clefable
+|-activate|p1a: Klefki|move: Trick|[of] p2a: Clefable
+|-item|p2a: Clefable|Ring Target|[from] move: Switcheroo
+|-item|p1a: Klefki|Sticky Barb|[from] move: Switcheroo
+|move|p2a: Clefable|Trick|p1a: Klefki
+|-activate|p2a: Clefable|move: Trick|[of] p1a: Klefki
+|-item|p1a: Klefki|Ring Target|[from] move: Trick
+|-item|p2a: Clefable|Sticky Barb|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1610649475
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|move|p1a: Klefki|Spikes|p2a: Toxapex
+|-sidestart|p2: agent garbodr|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1610649479
+|move|p1a: Klefki|Thunder Wave|p2a: Toxapex|[miss]
+|-miss|p1a: Klefki|p2a: Toxapex
+|move|p2a: Toxapex|Scald|p1a: Klefki
+|-damage|p1a: Klefki|80/100
+|
+|upkeep
+|turn|4
+|
+|t:|1610649481
+|move|p1a: Klefki|Thunder Wave|p2a: Toxapex
+|-status|p2a: Toxapex|par
+|move|p2a: Toxapex|Scald|p1a: Klefki
+|-damage|p1a: Klefki|59/100
+|
+|upkeep
+|turn|5
+|
+|t:|1610649486
+|move|p1a: Klefki|Spikes|p2a: Toxapex
+|-sidestart|p2: agent garbodr|Spikes
+|cant|p2a: Toxapex|par
+|
+|upkeep
+|turn|6
+|
+|t:|1610649489
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Toxapex|Scald|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|88/100
+|
+|upkeep
+|turn|7
+|
+|t:|1610649494
+|move|p1a: Haxorus|Swords Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|2
+|move|p2a: Toxapex|Toxic|p1a: Haxorus
+|-status|p1a: Haxorus|tox
+|
+|-damage|p1a: Haxorus|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1610649496
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Haxorus|Scale Shot|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|91/100
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|-hitcount|p2a: Corviknight|4
+|-unboost|p1a: Haxorus|def|1
+|-boost|p1a: Haxorus|spe|1
+|
+|-damage|p1a: Haxorus|70/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1610649499
+|move|p1a: Haxorus|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|8/100
+|-unboost|p1a: Haxorus|def|1
+|-unboost|p1a: Haxorus|spd|1
+|-damage|p1a: Haxorus|53/100 tox|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|58/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p1a: Haxorus|35/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1610649507
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Haxorus|Close Combat|p2a: Clefable
+|-resisted|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|46/100
+|-unboost|p1a: Haxorus|def|1
+|-unboost|p1a: Haxorus|spd|1
+|
+|-damage|p1a: Haxorus|10/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1610649514
+|move|p1a: Haxorus|Poison Jab|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-damage|p1a: Haxorus|0 fnt|[from] psn
+|faint|p1a: Haxorus
+|upkeep
+|
+|t:|1610649531
+|switch|p1a: Regidrago|Regidrago|100/100
+|switch|p2a: Quagsire|Quagsire, F, shiny|100/100
+|-damage|p2a: Quagsire|84/100|[from] Spikes
+|turn|12
+|
+|t:|1610649540
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Blissey
+|-damage|p2a: Blissey|50/100
+|
+|upkeep
+|turn|13
+|
+|t:|1610649547
+|move|p1a: Regidrago|Dragon Energy|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|upkeep
+|
+|t:|1610649552
+|switch|p2a: Corviknight|Corviknight, M, shiny|58/100
+|-ability|p2a: Corviknight|Pressure
+|turn|14
+|
+|t:|1610649564
+|move|p1a: Regidrago|Dragon Energy|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|-message|agent garbodr forfeited.
+|
+|win|LolzMachine
+|l|‽agent garbodr
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

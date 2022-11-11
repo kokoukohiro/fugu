@@ -1,0 +1,359 @@
+|j|☆X-Kreig
+|j|☆JoeyOwesMeMoney
+|player|p1|X-Kreig|brawly|1742
+|player|p2|JoeyOwesMeMoney|102|1809
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Lucario, F|
+|poke|p1|Pincurchin, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Raichu-Alola, F|
+|poke|p2|Chansey, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Mew|
+|poke|p2|Mandibuzz, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Urshifu|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|89/100
+|
+|switch|p1a: Pincurchin|Pincurchin, F|100/100|[from]move: U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Toxapex|Knock Off|p1a: Pincurchin
+|-damage|p1a: Pincurchin|86/100
+|-enditem|p1a: Pincurchin|Terrain Extender|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|j| brick girl
+|
+|move|p2a: Toxapex|Scald|p1a: Pincurchin
+|-damage|p1a: Pincurchin|66/100
+|-status|p1a: Pincurchin|brn
+|move|p1a: Pincurchin|Spikes|p2a: Toxapex
+|-sidestart|p2: JoeyOwesMeMoney|Spikes
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Pincurchin|60/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Spikes
+|move|p1a: Pincurchin|Spikes|p2a: Chansey
+|-sidestart|p2: JoeyOwesMeMoney|Spikes
+|
+|-damage|p1a: Pincurchin|54/100 brn|[from] brn
+|upkeep
+|turn|4
+|j| zjy1998
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JoeyOwesMeMoney)
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p2a: Chansey|Stealth Rock|p1a: Urshifu
+|-sidestart|p1: X-Kreig|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p1a: Urshifu|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|80/100
+|
+|switch|p1a: Raichu|Raichu-Alola, F|100/100|[from]move: U-turn
+|-damage|p1a: Raichu|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Chansey|Chansey, F|88/100
+|-damage|p2a: Chansey|71/100|[from] Spikes
+|move|p1a: Raichu|Rising Voltage|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|25/100
+|
+|upkeep
+|turn|7
+|inactive|X-Kreig has 120 seconds left.
+|inactive|JoeyOwesMeMoney has 120 seconds left.
+|inactive|JoeyOwesMeMoney has 90 seconds left.
+|inactive|JoeyOwesMeMoney has 60 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Raichu|Rising Voltage|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|6/100
+|
+|upkeep
+|turn|8
+|inactive|X-Kreig has 120 seconds left.
+|j| cancer02
+|inactive|X-Kreig has 90 seconds left.
+|l| cancer02
+|
+|move|p1a: Raichu|Rising Voltage|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|-damage|p2a: Clefable|84/100|[from] Spikes
+|turn|9
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|JoeyOwesMeMoney has 60 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|80/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|41/100
+|
+|-heal|p2a: Mandibuzz|88/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|11
+|inactive|JoeyOwesMeMoney has 60 seconds left.
+|
+|move|p1a: Cinderace|U-turn|p2a: Mandibuzz
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Mandibuzz|66/100
+|
+|switch|p1a: Pincurchin|Pincurchin, F|54/100 brn|[from]move: U-turn
+|-damage|p1a: Pincurchin|42/100 brn|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Mandibuzz|Toxic||[still]
+|-fail|p2a: Mandibuzz
+|
+|-damage|p1a: Pincurchin|36/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|JoeyOwesMeMoney has 60 seconds left.
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Pincurchin|Recover|p1a: Pincurchin
+|-heal|p1a: Pincurchin|86/100 brn
+|
+|-damage|p1a: Pincurchin|80/100 brn|[from] brn
+|upkeep
+|turn|13
+|j| Asshai da Sombra
+|j| Wardskidoedels
+|inactive|JoeyOwesMeMoney has 60 seconds left.
+|
+|move|p2a: Mandibuzz|Defog|p1a: Pincurchin
+|-unboost|p1a: Pincurchin|evasion|1
+|-sideend|p1: X-Kreig|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: JoeyOwesMeMoney|Spikes|[from] move: Defog|[of] p2a: Mandibuzz
+|-fieldend|move: Electric Terrain
+|move|p1a: Pincurchin|Rising Voltage|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|66/100
+|
+|-damage|p1a: Pincurchin|74/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Pincurchin|Spikes|p2a: Mandibuzz
+|-sidestart|p2: JoeyOwesMeMoney|Spikes
+|
+|-damage|p1a: Pincurchin|68/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|move|p2a: Mandibuzz|Defog|p1a: Lucario
+|-unboost|p1a: Lucario|evasion|1
+|-sideend|p2: JoeyOwesMeMoney|Spikes|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|move|p1a: Lucario|Nasty Plot|p1a: Lucario
+|-boost|p1a: Lucario|spa|2
+|
+|upkeep
+|turn|17
+|j| Blop_Le_Slime
+|
+|switch|p1a: Pincurchin|Pincurchin, F|68/100 brn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Toxapex|Scald|p1a: Pincurchin
+|-damage|p1a: Pincurchin|46/100 brn
+|
+|-damage|p1a: Pincurchin|40/100 brn|[from] brn
+|upkeep
+|turn|18
+|inactive|JoeyOwesMeMoney has 60 seconds left.
+|inactive|X-Kreig has 120 seconds left.
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Pincurchin
+|-sidestart|p1: X-Kreig|move: Toxic Spikes
+|move|p1a: Pincurchin|Recover|p1a: Pincurchin
+|-heal|p1a: Pincurchin|90/100 brn
+|
+|-damage|p1a: Pincurchin|84/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Chansey|Chansey, F|25/100
+|move|p1a: Pincurchin|Rising Voltage|p2a: Chansey
+|-damage|p2a: Chansey|7/100
+|
+|-damage|p1a: Pincurchin|78/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-sideend|p1: X-Kreig|move: Toxic Spikes|[of] p1a: Toxapex
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|58/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Chansey|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: X-Kreig|move: Stealth Rock
+|move|p1a: Toxapex|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|49/100
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Toxapex
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|22
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|99/100
+|
+|upkeep
+|turn|23
+|l| Blop_Le_Slime
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p1a: Urshifu|Close Combat|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|42/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|upkeep
+|turn|24
+|inactive|X-Kreig has 120 seconds left.
+|l| Asshai da Sombra
+|inactive|JoeyOwesMeMoney has 60 seconds left.
+|
+|switch|p1a: Pincurchin|Pincurchin, F|78/100 brn
+|-damage|p1a: Pincurchin|65/100 brn|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|
+|-damage|p1a: Pincurchin|59/100 brn|[from] brn
+|upkeep
+|turn|25
+|inactive|JoeyOwesMeMoney has 60 seconds left.
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|42/100
+|switch|p1a: Lucario|Lucario, F|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|
+|upkeep
+|turn|26
+|j| Nana Baba
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|move|p1a: Lucario|Nasty Plot|p1a: Lucario
+|-boost|p1a: Lucario|spa|2
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Lucario|Terrain Pulse|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-damage|p1a: Lucario|88/100|[from] item: Life Orb
+|faint|p2a: Toxapex
+|
+|upkeep
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F|90/100
+|turn|28
+|inactive|X-Kreig has 120 seconds left.
+|
+|move|p1a: Lucario|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Lucario|78/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p2a: Chansey|Chansey, F|99/100
+|turn|29
+|inactive|X-Kreig has 120 seconds left.
+|c| zjy1998|cool
+|inactive|X-Kreig has 90 seconds left.
+|
+|move|p1a: Lucario|Aura Sphere|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-damage|p1a: Lucario|68/100|[from] item: Life Orb
+|faint|p2a: Chansey
+|
+|upkeep
+|c| Wardskidoedels|that ohko's
+|c| Wardskidoedels|whew
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|j| Hykadurain
+|inactive|JoeyOwesMeMoney has 20 seconds left.
+|inactive|JoeyOwesMeMoney has 15 seconds left.
+|c|☆X-Kreig|Terrain Pulse heat
+|inactive|JoeyOwesMeMoney has 10 seconds left.
+|inactive|JoeyOwesMeMoney has 5 seconds left.
+|-message|JoeyOwesMeMoney lost due to inactivity.
+|
+|win|X-Kreig
+|raw|X-Kreig's rating: 1711 &rarr; <strong>1737</strong><br />(+26 for winning)
+|raw|JoeyOwesMeMoney's rating: 1809 &rarr; <strong>1784</strong><br />(-25 for losing)
+|c| Hykadurain|Anytime stall gets 6-0d i smile
+|c| Hykadurain|Smashed tumor
+|c|☆X-Kreig|haha

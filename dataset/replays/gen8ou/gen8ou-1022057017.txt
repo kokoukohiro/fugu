@@ -1,0 +1,230 @@
+|j|☆outm jeronipuff
+|j|☆groundt
+|player|p1|outm jeronipuff|lusamine-nihilego|1470
+|player|p2|groundt|winona-gen3|1457
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Barraskewda, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Drednaw, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Jellicent, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Ditto|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Mandibuzz, F|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|j| TaLiAK
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|71/100
+|
+|upkeep
+|turn|2
+|
+|-start|p1a: Dragapult|Dynamax
+|-heal|p1a: Dragapult|100/100|[silent]
+|move|p1a: Dragapult|Max Lightning|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|11/100
+|-fieldstart|move: Electric Terrain
+|move|p2a: Mandibuzz|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|66/100
+|-enditem|p1a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Dragapult|Max Phantasm|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|4
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Dragapult|[from] ability: Imposter
+|move|p1a: Dragapult|Max Flare|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|72/100
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Dragapult|Dynamax
+|-heal|p1a: Dragapult|66/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Ditto|Shadow Ball|p1a: Pelipper
+|-damage|p1a: Pelipper|54/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Ditto|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|68/100
+|-unboost|p1a: Ferrothorn|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|
+|-start|p2a: Ditto|Dynamax
+|-heal|p2a: Ditto|72/100|[silent]
+|move|p2a: Ditto|Max Flare|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, M|54/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|8
+|
+|move|p2a: Ditto|Max Phantasm|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|9
+|
+|move|p1a: Barraskewda|Crunch|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|8/100
+|-unboost|p2a: Ditto|def|1
+|move|p2a: Ditto|Max Flare|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|78/100
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Ditto|Dynamax
+|-heal|p2a: Ditto|8/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Barraskewda|Crunch|p2a: Excadrill
+|-damage|p2a: Excadrill|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Excadrill|48/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Barraskewda|Crunch|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|12
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Barraskewda|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Dragapult|Disable|p1a: Barraskewda
+|-start|p1a: Barraskewda|Disable|Crunch
+|cant|p1a: Barraskewda|Disable|Crunch
+|
+|-weather|none
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Dragapult|Dragapult, M|66/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|63/100
+|
+|-heal|p2a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Dragapult|Hex|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Drednaw|Drednaw, F|100/100
+|turn|16
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Drednaw
+|-status|p1a: Drednaw|brn
+|move|p1a: Drednaw|Stone Edge|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|-damage|p1a: Drednaw|91/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Dragapult|81/100|[from] item: Leftovers
+|-damage|p1a: Drednaw|84/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Dragapult|Disable|p1a: Drednaw
+|-start|p1a: Drednaw|Disable|Stone Edge
+|move|p1a: Drednaw|Liquidation|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|61/100
+|-damage|p1a: Drednaw|74/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Dragapult|67/100|[from] item: Leftovers
+|-damage|p1a: Drednaw|68/100 brn|[from] brn
+|upkeep
+|turn|18
+|-message|outm jeronipuff forfeited.
+|
+|win|groundt

@@ -1,0 +1,339 @@
+|j|☆groundt
+|j|☆Maotralex01
+|player|p1|groundt|winona-gen3|1419
+|player|p2|Maotralex01|1|1438
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Jellicent, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Ditto|
+|poke|p1|Dragapult, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Darmanitan-Galar, F|
+|poke|p2|Ditto|
+|poke|p2|Dragapult, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Hawlucha, M|
+|teampreview
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Jellicent|[from] ability: Imposter
+|turn|1
+|
+|move|p2a: Ditto|Taunt|p1a: Jellicent
+|-start|p1a: Jellicent|move: Taunt
+|cant|p1a: Jellicent|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|
+|upkeep
+|turn|3
+|
+|-start|p2a: Hydreigon|Dynamax
+|-heal|p2a: Hydreigon|100/100|[silent]
+|move|p2a: Hydreigon|Max Steelspike|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|3/100
+|-boost|p2a: Hydreigon|def|1
+|move|p1a: Hatterene|Draining Kiss|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|48/100
+|-heal|p1a: Hatterene|83/100|[from] drain|[of] p2a: Hydreigon
+|
+|-heal|p2a: Hydreigon|54/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Hydreigon|Max Steelspike|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|68/100
+|-boost|p2a: Hydreigon|def|1
+|
+|-heal|p2a: Hydreigon|60/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by groundt)
+|
+|move|p2a: Hydreigon|Max Steelspike|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|35/100
+|-boost|p2a: Hydreigon|def|1
+|move|p1a: Mandibuzz|Knock Off|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|58/100
+|-enditem|p2a: Hydreigon|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|-end|p2a: Hydreigon|Dynamax
+|-heal|p2a: Hydreigon|58/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|85/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|33/100
+|move|p1a: Mandibuzz|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Substitute|[damage]
+|
+|switch|p1a: Hatterene|Hatterene, F|89/100|[from]move: U-turn
+|
+|-heal|p1a: Hatterene|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|-start|p1a: Hatterene|Dynamax
+|-formechange|p1a: Hatterene|Hatterene-Gmax|
+|-heal|p1a: Hatterene|95/100|[silent]
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|35/100
+|move|p1a: Hatterene|G-Max Smite|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-start|p2a: Hydreigon|confusion
+|
+|-heal|p1a: Hatterene|41/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Hatterene|Max Guard|p1a: Hatterene
+|-singleturn|p1a: Hatterene|Max Guard
+|-activate|p2a: Hydreigon|confusion
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hatterene
+|-activate|p1a: Hatterene|move: Max Guard
+|
+|-heal|p1a: Hatterene|47/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|-activate|p2a: Hydreigon|confusion
+|move|p2a: Hydreigon|Dark Pulse|p1a: Hatterene
+|-damage|p1a: Hatterene|4/100
+|move|p1a: Hatterene|G-Max Smite|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Hatterene|10/100|[from] item: Leftovers
+|-end|p1a: Hatterene|Dynamax
+|-formechange|p1a: Hatterene|Hatterene|
+|-heal|p1a: Hatterene|10/100|[silent]
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|11
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Hawlucha|Thunder Punch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|62/100
+|
+|-heal|p1a: Jellicent|69/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Jellicent|[from] ability: Imposter
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Ditto
+|-status|p2a: Ditto|brn
+|
+|-heal|p1a: Jellicent|75/100|[from] item: Leftovers
+|-damage|p2a: Ditto|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Ditto|Hex|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|45/100
+|move|p1a: Jellicent|Strength Sap|p2a: Ditto
+|-unboost|p2a: Ditto|atk|1
+|-heal|p1a: Jellicent|73/100
+|
+|-heal|p1a: Jellicent|79/100|[from] item: Leftovers
+|-damage|p2a: Ditto|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Ditto|Hex|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|44/100
+|move|p1a: Jellicent|Hex|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|8/100 brn
+|
+|-heal|p1a: Jellicent|50/100|[from] item: Leftovers
+|-damage|p2a: Ditto|2/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|85/100
+|move|p2a: Ditto|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|78/100
+|
+|-damage|p2a: Ditto|0 fnt|[from] brn
+|faint|p2a: Ditto
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan-Galar, F|100/100
+|turn|16
+|
+|switch|p1a: Hatterene|Hatterene, F|10/100
+|move|p2a: Darmanitan|Icicle Crash|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M|50/100
+|turn|17
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Jellicent|Strength Sap|p2a: Corsola
+|-unboost|p2a: Corsola|atk|1
+|-heal|p1a: Jellicent|76/100
+|
+|-heal|p1a: Jellicent|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Corsola
+|-status|p2a: Corsola|brn
+|move|p2a: Corsola|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: groundt|move: Stealth Rock
+|
+|-heal|p1a: Jellicent|88/100|[from] item: Leftovers
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Jellicent|Hex|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|38/100 brn
+|move|p2a: Corsola|Will-O-Wisp|p1a: Jellicent
+|-status|p1a: Jellicent|brn
+|
+|-heal|p1a: Jellicent|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|88/100 brn|[from] brn
+|-damage|p2a: Corsola|32/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p1a: Jellicent|Hex|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|-heal|p1a: Jellicent|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|21
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Hawlucha
+|-status|p2a: Hawlucha|brn
+|
+|-heal|p1a: Jellicent|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Hawlucha|94/100 brn|[from] brn
+|-damage|p1a: Jellicent|88/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Jellicent|Strength Sap|p2a: Hawlucha
+|-unboost|p2a: Hawlucha|atk|1
+|-heal|p1a: Jellicent|100/100 brn
+|
+|-damage|p2a: Hawlucha|88/100 brn|[from] brn
+|-damage|p1a: Jellicent|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Jellicent|Hex|p2a: Hawlucha
+|-damage|p2a: Hawlucha|26/100 brn
+|
+|-heal|p1a: Jellicent|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Hawlucha|20/100 brn|[from] brn
+|-damage|p1a: Jellicent|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Hawlucha|Thunder Punch|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|-damage|p2a: Hawlucha|14/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Excadrill
+|
+|-damage|p2a: Hawlucha|8/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Hawlucha|[from] ability: Imposter
+|turn|26
+|
+|move|p1a: Ditto|Acrobatics|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan-Galar, F|100/100
+|turn|27
+|
+|move|p1a: Ditto|Acrobatics|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|upkeep
+|-message|Maotralex01 forfeited.
+|
+|win|groundt
+|l|☆Maotralex01

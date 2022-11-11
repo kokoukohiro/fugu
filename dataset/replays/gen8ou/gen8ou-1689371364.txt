@@ -1,0 +1,133 @@
+|html|<div class="broadcast-blue"><strong>[Gen 8] OU is currently suspecting Melmetal! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/np-ss-ou-suspect-process-round-12-monster-mash.3709234/">suspect thread</a>.</strong></div>
+|j|☆minimax_ai
+|j|☆Amane Misa
+|t:|1666165704
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1646
+|player|p2|Amane Misa|#amanemisa|1592
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Victini|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Melmetal|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tapu Fini|
+|poke|p2|Kartana|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1666165710
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Melmetal|atk|1
+|turn|1
+|
+|t:|1666165713
+|move|p2a: Landorus|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|94/100
+|
+|t:|1666165714
+|switch|p2a: Tapu Fini|Tapu Fini|100/100|[from]move: U-turn
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Melmetal|Ice Punch|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|93/100
+|
+|-heal|p2a: Tapu Fini|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1666165720
+|move|p2a: Tapu Fini|Whirlpool|p1a: Melmetal
+|-damage|p1a: Melmetal|88/100
+|-activate|p1a: Melmetal|move: Whirlpool|[of] p2a: Tapu Fini
+|move|p1a: Melmetal|Double Iron Bash|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|78/100
+|-damage|p2a: Tapu Fini|60/100
+|-hitcount|p2a: Tapu Fini|2
+|
+|-heal|p2a: Tapu Fini|66/100|[from] item: Leftovers
+|-damage|p1a: Melmetal|76/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1666165724
+|move|p2a: Tapu Fini|Nature's Madness|p1a: Melmetal
+|-damage|p1a: Melmetal|38/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|46/100
+|-damage|p2a: Tapu Fini|25/100
+|-hitcount|p2a: Tapu Fini|2
+|
+|-heal|p2a: Tapu Fini|31/100|[from] item: Leftovers
+|-damage|p1a: Melmetal|26/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1666165726
+|move|p2a: Tapu Fini|Nature's Madness|p1a: Melmetal|[miss]
+|-miss|p2a: Tapu Fini|p1a: Melmetal
+|move|p1a: Melmetal|Double Iron Bash|p2a: Tapu Fini
+|-crit|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|-hitcount|p2: Tapu Fini|1
+|
+|-end|p1a: Melmetal|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1666165729
+|switch|p2a: Victini|Victini|100/100
+|turn|5
+|
+|t:|1666165731
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Victini|V-create|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|60/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|-heal|p1a: rotomwash|67/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+|
+|t:|1666165734
+|move|p1a: rotomwash|Hydro Pump|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|-heal|p1a: rotomwash|73/100|[from] item: Leftovers
+|upkeep
+|-message|Amane Misa forfeited.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1646 &rarr; <strong>1663</strong><br />(+17 for winning)
+|raw|Amane Misa's rating: 1592 &rarr; <strong>1575</strong><br />(-17 for losing)
+|c|☆minimax_ai|gg
+|l|☆Amane Misa

@@ -1,0 +1,404 @@
+|j|☆damorush
+|j|☆Dysipius
+|t:|1608051216
+|player|p1|damorush|steven|1467
+|player|p2|Dysipius|cynthia-gen4|1518
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Shuckle, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Tapu Bulu|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Spectrier|
+|poke|p1|Heatran, M|
+|poke|p2|Buzzwole|
+|poke|p2|Excadrill, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Heatran, F|
+|poke|p2|Regieleki|
+|poke|p2|Toxapex, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dysipius)
+|
+|t:|1608051234
+|start
+|switch|p1a: Shuckle|Shuckle, F|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|1
+|
+|t:|1608051240
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Stealth Rock|p1a: Landorus
+|-sidestart|p1: damorush|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1608051249
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|move|p1a: Landorus|U-turn|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|94/100
+|-damage|p1a: Landorus|84/100|[from] item: Rocky Helmet|[of] p2a: Buzzwole
+|
+|t:|1608051255
+|switch|p1a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1608051266
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Heatran|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100
+|-unboost|p2a: Toxapex|spd|1
+|
+|-heal|p2a: Toxapex|53/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1608051279
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|5
+|
+|t:|1608051285
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|move|p1a: Heatran|Earth Power|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|6
+|
+|t:|1608051296
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|-damage|p1a: Landorus|72/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|-ability|p2a: Zapdos|Defiant
+|-boost|p2a: Zapdos|atk|2
+|move|p2a: Zapdos|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|41/100
+|
+|t:|1608051308
+|switch|p2a: Buzzwole|Buzzwole|94/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1608051313
+|move|p1a: Landorus|Defog|p2a: Buzzwole
+|-unboost|p2a: Buzzwole|evasion|1
+|-sideend|p1: damorush|Stealth Rock|[from] move: Defog|[of] p1a: Landorus
+|move|p2a: Buzzwole|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|def|1
+|
+|upkeep
+|
+|t:|1608051321
+|switch|p1a: Heatran|Heatran, M|88/100
+|-item|p1a: Heatran|Air Balloon
+|turn|8
+|
+|t:|1608051335
+|switch|p2a: Toxapex|Toxapex, M|87/100
+|move|p1a: Heatran|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|2/100
+|-unboost|p2a: Toxapex|spd|1
+|
+|-heal|p2a: Toxapex|8/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1608051345
+|move|p1a: Heatran|Flash Cannon|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1608051351
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|10
+|
+|t:|1608051357
+|move|p2a: Regieleki|Volt Switch|p1a: Heatran
+|-damage|p1a: Heatran|43/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|t:|1608051371
+|switch|p2a: Excadrill|Excadrill, M|100/100|[from]move: Volt Switch
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Heatran|Earth Power|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|63/100
+|
+|upkeep
+|turn|11
+|
+|t:|1608051380
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Excadrill|Earthquake|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|89/100
+|
+|-heal|p1a: Tapu Bulu|95/100|[from] Grassy Terrain
+|-heal|p2a: Excadrill|69/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1608051393
+|switch|p1a: Urshifu|Urshifu, M|100/100
+|switch|p2a: Buzzwole|Buzzwole|94/100
+|
+|-heal|p2a: Buzzwole|100/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1608051401
+|switch|p1a: Shuckle|Shuckle, F|100/100
+|move|p2a: Buzzwole|Dual Wingbeat|p1a: Shuckle
+|-damage|p1a: Shuckle|92/100
+|-damage|p1a: Shuckle|84/100
+|-hitcount|p1a: Shuckle|2
+|-enditem|p1a: Shuckle|Red Card|[of] p2a: Buzzwole
+|drag|p2a: Excadrill|Excadrill, M|69/100
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-heal|p2a: Excadrill|75/100|[from] Grassy Terrain
+|-heal|p1a: Shuckle|90/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1608051413
+|move|p2a: Excadrill|Iron Head|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|38/100
+|move|p1a: Shuckle|Sticky Web|p2a: Excadrill
+|-sidestart|p2: Dysipius|move: Sticky Web
+|
+|-heal|p2a: Excadrill|81/100|[from] Grassy Terrain
+|-heal|p1a: Shuckle|44/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1608051420
+|move|p2a: Excadrill|Rapid Spin|p1a: Shuckle
+|-resisted|p1a: Shuckle
+|-damage|p1a: Shuckle|38/100
+|-boost|p2a: Excadrill|spe|1
+|-sideend|p2: Dysipius|Sticky Web|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Shuckle|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Dysipius|move: Stealth Rock
+|
+|-heal|p2a: Excadrill|88/100|[from] Grassy Terrain
+|-heal|p1a: Shuckle|45/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1608051430
+|move|p2a: Excadrill|Iron Head|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|faint|p1a: Shuckle
+|
+|upkeep
+|
+|t:|1608051439
+|switch|p1a: Tapu Bulu|Tapu Bulu|95/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|17
+|
+|t:|1608051444
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|-damage|p2a: Buzzwole|88/100|[from] Stealth Rock
+|move|p1a: Tapu Bulu|Wood Hammer|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|66/100
+|-damage|p1a: Tapu Bulu|79/100|[from] item: Rocky Helmet|[of] p2a: Buzzwole
+|-damage|p1a: Tapu Bulu|69/100|[from] Recoil
+|
+|-heal|p1a: Tapu Bulu|75/100|[from] Grassy Terrain
+|-heal|p2a: Buzzwole|72/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1608051460
+|move|p1a: Tapu Bulu|Wood Hammer|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|50/100
+|-damage|p1a: Tapu Bulu|58/100|[from] item: Rocky Helmet|[of] p2a: Buzzwole
+|-damage|p1a: Tapu Bulu|48/100|[from] Recoil
+|move|p2a: Buzzwole|Dual Wingbeat|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|25/100
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|1/100
+|-hitcount|p1a: Tapu Bulu|2
+|
+|-heal|p1a: Tapu Bulu|7/100|[from] Grassy Terrain
+|-heal|p2a: Buzzwole|56/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1608051474
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|41/100
+|-heal|p1a: Tapu Bulu|17/100|[from] drain|[of] p2a: Buzzwole
+|-damage|p1a: Tapu Bulu|0 fnt|[from] item: Rocky Helmet|[of] p2a: Buzzwole
+|faint|p1a: Tapu Bulu
+|move|p2a: Buzzwole|Roost|p2a: Buzzwole
+|-heal|p2a: Buzzwole|91/100
+|-singleturn|p2a: Buzzwole|move: Roost
+|
+|-heal|p2a: Buzzwole|98/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1608051484
+|switch|p1a: Heatran|Heatran, M|43/100
+|turn|20
+|
+|t:|1608051493
+|switch|p2a: Excadrill|Excadrill, M|88/100
+|-damage|p2a: Excadrill|85/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Heatran|Magma Storm|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|19/100
+|-activate|p2a: Excadrill|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Excadrill|25/100|[from] Grassy Terrain
+|-heal|p1a: Heatran|49/100|[from] Grassy Terrain
+|-damage|p2a: Excadrill|13/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|21
+|
+|t:|1608051516
+|switch|p1a: Spectrier|Spectrier|100/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Spectrier
+|-immune|p1a: Spectrier
+|
+|-heal|p2a: Excadrill|19/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-end|p2a: Excadrill|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|22
+|
+|t:|1608051528
+|move|p1a: Spectrier|Substitute|p1a: Spectrier
+|-start|p1a: Spectrier|Substitute
+|-damage|p1a: Spectrier|76/100
+|move|p2a: Excadrill|Earthquake|p1a: Spectrier
+|-end|p1a: Spectrier|Substitute
+|
+|-heal|p1a: Spectrier|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1608051537
+|move|p1a: Spectrier|Shadow Ball|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|-ability|p1a: Spectrier|Grim Neigh|boost
+|-boost|p1a: Spectrier|spa|1
+|
+|-heal|p1a: Spectrier|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1608051549
+|switch|p2a: Regieleki|Regieleki|100/100
+|-damage|p2a: Regieleki|88/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1608051553
+|move|p2a: Regieleki|Volt Switch|p1a: Spectrier
+|-damage|p1a: Spectrier|21/100
+|
+|t:|1608051556
+|switch|p2a: Heatran|Heatran, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Spectrier|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|43/100
+|-unboost|p2a: Heatran|spd|1
+|
+|-heal|p1a: Spectrier|27/100|[from] item: Leftovers
+|-heal|p2a: Heatran|49/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1608051568
+|move|p1a: Spectrier|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-ability|p1a: Spectrier|Grim Neigh|boost
+|-boost|p1a: Spectrier|spa|1
+|
+|-heal|p1a: Spectrier|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1608051575
+|switch|p2a: Regieleki|Regieleki|88/100
+|-damage|p2a: Regieleki|76/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1608051580
+|move|p2a: Regieleki|Volt Switch|p1a: Spectrier
+|-damage|p1a: Spectrier|0 fnt
+|faint|p1a: Spectrier
+|
+|t:|1608051584
+|switch|p2a: Zapdos|Zapdos-Galar|100/100|[from]move: Volt Switch
+|-damage|p2a: Zapdos|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1608051589
+|switch|p1a: Heatran|Heatran, M|49/100
+|turn|27
+|
+|t:|1608051593
+|move|p2a: Zapdos|Thunderous Kick|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|c|☆damorush|gg
+|c|☆Dysipius|gg
+|-message|damorush forfeited.
+|
+|win|Dysipius
+|l|☆damorush
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

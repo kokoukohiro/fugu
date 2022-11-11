@@ -1,0 +1,349 @@
+|j|☆Rheinmetal
+|j|☆shadow poochyena
+|player|p1|Rheinmetal|cynthia|1440
+|player|p2|shadow poochyena|102|1435
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Crawdaunt, F|
+|poke|p1|Clefable, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragapult, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Primarina, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Jirachi|
+|poke|p2|Tsareena, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rheinmetal)
+|
+|start
+|switch|p1a: GOAT|Dragapult, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|move|p1a: GOAT|Shadow Ball|p2a: Tsareena
+|-damage|p2a: Tsareena|75/100
+|-unboost|p2a: Tsareena|spd|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|switch|p2a: Primarina|Primarina, F|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Wall|Ferrothorn, F|100/100
+|move|p2a: Primarina|Psychic|p1a: Wall
+|-resisted|p1a: Wall
+|-damage|p1a: Wall|79/100
+|
+|-heal|p1a: Wall|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Wall|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|72/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Wall
+|
+|-heal|p1a: Wall|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: GOAT|Dragapult, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: GOAT
+|-resisted|p1a: GOAT
+|-damage|p1a: GOAT|63/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: GOAT
+|-supereffective|p1a: GOAT
+|-damage|p1a: GOAT|1/100
+|move|p1a: GOAT|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|19/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Washed|Rotom-Wash|100/100
+|move|p2a: Cinderace|U-turn|p1a: Washed
+|-damage|p1a: Washed|77/100
+|
+|switch|p2a: Tsareena|Tsareena, F|75/100|[from]move: U-turn
+|
+|-heal|p1a: Washed|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Wall|Ferrothorn, F|92/100
+|move|p2a: Tsareena|Knock Off|p1a: Wall
+|-damage|p1a: Wall|72/100
+|-damage|p2a: Tsareena|62/100|[from] ability: Iron Barbs|[of] p1a: Wall
+|-enditem|p1a: Wall|Leftovers|[from] move: Knock Off|[of] p2a: Tsareena
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Wall|Knock Off|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|67/100
+|-enditem|p2a: Jirachi|Leftovers|[from] move: Knock Off|[of] p1a: Wall
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Jirachi|Stealth Rock|p1a: Wall
+|-sidestart|p1: Rheinmetal|move: Stealth Rock
+|move|p1a: Wall|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: shadow poochyena|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Wall|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Wall
+|-sidestart|p1: Rheinmetal|Spikes
+|move|p1a: Wall|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|81/100
+|-damage|p1a: Wall|59/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Wall|43/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Rocky Helmet|[from] move: Knock Off|[of] p1a: Wall
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Tsareena|Tsareena, F|62/100
+|-damage|p2a: Tsareena|50/100|[from] Stealth Rock
+|move|p1a: Wall|Body Press|p2a: Tsareena
+|-damage|p2a: Tsareena|15/100
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|-damage|p1a: Weezing|76/100|[from] Spikes
+|move|p2a: Tsareena|Rapid Spin|p1a: Weezing
+|-damage|p1a: Weezing|60/100
+|-boost|p2a: Tsareena|spe|1
+|-sideend|p2: shadow poochyena|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tsareena
+|
+|-heal|p1a: Weezing|66/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: Tsareena|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|61/100
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|move|p1a: Weezing|Defog|p2a: Toxtricity
+|-unboost|p2a: Toxtricity|evasion|1
+|-sideend|p1: Rheinmetal|Spikes|[from] move: Defog|[of] p1a: Weezing
+|-sideend|p1: Rheinmetal|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|
+|-heal|p1a: Weezing|67/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Weezing
+|-damage|p1a: Weezing|8/100
+|-damage|p2a: Toxtricity|91/100|[from] item: Life Orb
+|move|p1a: Weezing|Will-O-Wisp|p2a: Toxtricity
+|-status|p2a: Toxtricity|brn
+|
+|-heal|p1a: Weezing|14/100|[from] item: Black Sludge
+|-damage|p2a: Toxtricity|84/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Magic G|Clefable, F, shiny|100/100
+|move|p2a: Toxtricity|Volt Switch|p1a: Magic G
+|-damage|p1a: Magic G|70/100
+|-damage|p2a: Toxtricity|74/100 brn|[from] item: Life Orb
+|
+|switch|p2a: Jirachi|Jirachi|67/100|[from]move: Volt Switch
+|
+|-heal|p1a: Magic G|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Jirachi|Stealth Rock|p1a: Magic G
+|-sidestart|p1: Rheinmetal|move: Stealth Rock
+|move|p1a: Magic G|Wish|p1a: Magic G
+|
+|-heal|p1a: Magic G|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Wall|Ferrothorn, F|43/100
+|-damage|p1a: Wall|36/100|[from] Stealth Rock
+|move|p2a: Jirachi|Iron Head|p1a: Wall
+|-resisted|p1a: Wall
+|-damage|p1a: Wall|28/100
+|-damage|p2a: Jirachi|54/100|[from] ability: Iron Barbs|[of] p1a: Wall
+|
+|-heal|p1a: Wall|84/100|[from] move: Wish|[wisher] Magic G
+|upkeep
+|turn|20
+|inactive|Rheinmetal has 120 seconds left.
+|inactive|shadow poochyena has 120 seconds left.
+|
+|move|p2a: Jirachi|Healing Wish|p2a: Jirachi
+|faint|p2a: Jirachi
+|move|p1a: Wall|Body Press|p2: Jirachi|[notarget]
+|-fail|p1a: Wall
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|19/100
+|-heal|p2a: Cinderace|100/100|[from] move: Healing Wish
+|turn|21
+|inactive|Rheinmetal has 120 seconds left.
+|
+|switch|p1a: Washed|Rotom-Wash|83/100
+|-damage|p1a: Washed|71/100|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Washed
+|-resisted|p1a: Washed
+|-damage|p1a: Washed|43/100
+|
+|-heal|p1a: Washed|49/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|81/100
+|move|p1a: Washed|Substitute|p1a: Washed
+|-start|p1a: Washed|Substitute
+|-damage|p1a: Washed|24/100
+|
+|-heal|p1a: Washed|30/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Washed|Discharge|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Washed
+|-activate|p1a: Washed|move: Substitute|[damage]
+|
+|-heal|p1a: Washed|36/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Toxtricity|Toxtricity, M|74/100 brn
+|move|p1a: Washed|Discharge|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|47/100 brn
+|
+|-heal|p1a: Washed|43/100|[from] item: Leftovers
+|-damage|p2a: Toxtricity|40/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Magic G|Clefable, F, shiny|82/100
+|move|p2a: Toxtricity|Overdrive|p1a: Magic G
+|-damage|p1a: Magic G|33/100
+|-damage|p2a: Toxtricity|30/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: Magic G|39/100|[from] item: Leftovers
+|-damage|p2a: Toxtricity|24/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Magic G|Protect||[still]
+|-fail|p1a: Magic G
+|
+|-heal|p1a: Magic G|45/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Magic G|Protect|p1a: Magic G
+|-singleturn|p1a: Magic G|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Magic G
+|-activate|p1a: Magic G|move: Protect
+|
+|-heal|p1a: Magic G|52/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Dauntless|Crawdaunt, F|100/100
+|-damage|p1a: Dauntless|88/100|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Dauntless
+|-resisted|p1a: Dauntless
+|-damage|p1a: Dauntless|48/100
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Primarina|Primarina, F|100/100
+|move|p1a: Dauntless|Aqua Jet|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|73/100
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Dauntless|Aqua Jet|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|45/100
+|move|p2a: Primarina|Hydro Pump|p1a: Dauntless
+|-resisted|p1a: Dauntless
+|-damage|p1a: Dauntless|0 fnt
+|faint|p1a: Dauntless
+|
+|upkeep
+|
+|switch|p1a: Magic G|Clefable, F, shiny|52/100
+|turn|31
+|
+|move|p1a: Magic G|Protect|p1a: Magic G
+|-singleturn|p1a: Magic G|Protect
+|move|p2a: Primarina|Hydro Pump|p1a: Magic G
+|-activate|p1a: Magic G|move: Protect
+|
+|-heal|p1a: Magic G|58/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Primarina|Hydro Pump|p1a: Magic G
+|-damage|p1a: Magic G|0 fnt
+|faint|p1a: Magic G
+|
+|upkeep
+|-message|Rheinmetal forfeited.
+|
+|win|shadow poochyena
+|l|☆Rheinmetal
+|raw|Rheinmetal's rating: 1420 &rarr; <strong>1401</strong><br />(-19 for losing)
+|raw|shadow poochyena's rating: 1435 &rarr; <strong>1454</strong><br />(+19 for winning)

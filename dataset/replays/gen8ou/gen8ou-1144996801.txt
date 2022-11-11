@@ -1,0 +1,271 @@
+|j|☆ElTester2000
+|j|☆Charli91
+|player|p1|ElTester2000|126|1566
+|player|p2|Charli91|101|1612
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Poliwrath, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Kingdra, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Barraskewda, M|
+|poke|p1|Scizor, M|
+|poke|p2|Magearna|
+|poke|p2|Darmanitan, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Mew|
+|poke|p2|Scizor, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ElTester2000)
+|
+|start
+|switch|p1a: Sniper|Barraskewda, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|move|p1a: Sniper|Flip Turn|p2a: Mew
+|-damage|p2a: Mew|50/100
+|j| NewMetaBot1
+|
+|switch|p1a: Cacharcas|Ferrothorn, M|100/100|[from]move: Flip Turn
+|move|p2a: Mew|Volt Switch|p1a: Cacharcas
+|-resisted|p1a: Cacharcas
+|-damage|p1a: Cacharcas|92/100
+|
+|switch|p2a: Darmanitan|Darmanitan, M|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Cacharcas|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Cacharcas
+|-supereffective|p1a: Cacharcas
+|-damage|p1a: Cacharcas|0 fnt
+|-damage|p2a: Darmanitan|88/100|[from] ability: Iron Barbs|[of] p1a: Cacharcas
+|-damage|p2a: Darmanitan|56/100|[from] Recoil
+|faint|p1a: Cacharcas
+|
+|upkeep
+|
+|switch|p1a: Pelikan|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelikan
+|turn|3
+|
+|move|p2a: Darmanitan|Flare Blitz|p1a: Pelikan
+|-resisted|p1a: Pelikan
+|-damage|p1a: Pelikan|84/100
+|-damage|p2a: Darmanitan|51/100|[from] Recoil
+|move|p1a: Pelikan|U-turn|p2a: Darmanitan
+|-resisted|p2a: Darmanitan
+|-crit|p2a: Darmanitan
+|-damage|p2a: Darmanitan|42/100
+|
+|switch|p1a: Sniper|Barraskewda, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Sniper|Flip Turn|p2a: Darmanitan
+|-supereffective|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|faint|p2a: Darmanitan
+|
+|switch|p1a: X|Scizor, M|100/100|[from]move: Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|5
+|
+|move|p2a: Toxtricity|Overdrive|p1a: X
+|-damage|p1a: X|2/100
+|move|p1a: X|U-turn|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|56/100
+|
+|switch|p1a: Sniper|Barraskewda, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|l| NewMetaBot1
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Sniper|Flip Turn|p2a: Scizor
+|-damage|p2a: Scizor|26/100
+|
+|switch|p1a: Drake|Kingdra, M|100/100|[from]move: Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|j| NewMetaBot1
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Drake
+|-resisted|p1a: Drake
+|-damage|p1a: Drake|69/100
+|move|p1a: Drake|Surf|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|turn|8
+|
+|switch|p1a: Pelikan|Pelipper, M|84/100
+|move|p2a: Barraskewda|Close Combat|p1a: Pelikan
+|-resisted|p1a: Pelikan
+|-damage|p1a: Pelikan|61/100
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|-damage|p2a: Barraskewda|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Pelikan|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|99/100
+|
+|switch|p1a: X|Scizor, M|2/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: X|Bullet Punch|p2a: Magearna
+|-damage|p2a: Magearna|55/100
+|move|p2a: Magearna|Energy Ball|p1a: X
+|-resisted|p1a: X
+|-damage|p1a: X|0 fnt
+|faint|p1a: X
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Pelikan|Pelipper, M|61/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelikan
+|turn|11
+|
+|switch|p1a: Buffo|Poliwrath, M|100/100
+|move|p2a: Magearna|Energy Ball|p1a: Buffo
+|-supereffective|p1a: Buffo
+|-damage|p1a: Buffo|0 fnt
+|faint|p1a: Buffo
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Drake|Kingdra, M|69/100
+|turn|12
+|
+|move|p1a: Drake|Surf|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|91/100
+|turn|13
+|
+|move|p2a: Barraskewda|Flip Turn|p1a: Drake
+|-resisted|p1a: Drake
+|-damage|p1a: Drake|50/100
+|-damage|p2a: Barraskewda|81/100|[from] item: Life Orb
+|
+|switch|p2a: Toxtricity|Toxtricity, M|56/100|[from]move: Flip Turn
+|move|p1a: Drake|Surf|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|81/100
+|turn|14
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Drake
+|-damage|p1a: Drake|0 fnt
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|-damage|p2a: Barraskewda|71/100|[from] item: Life Orb
+|faint|p1a: Drake
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Pelikan|Pelipper, M|61/100
+|turn|15
+|
+|move|p2a: Barraskewda|Flip Turn|p1a: Pelikan
+|-resisted|p1a: Pelikan
+|-damage|p1a: Pelikan|37/100
+|-damage|p2a: Barraskewda|61/100|[from] item: Life Orb
+|
+|switch|p2a: Mew|Mew|50/100|[from]move: Flip Turn
+|move|p1a: Pelikan|Roost|p1a: Pelikan
+|-heal|p1a: Pelikan|87/100
+|-singleturn|p1a: Pelikan|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Mew|Volt Switch|p1a: Pelikan
+|-supereffective|p1a: Pelikan
+|-damage|p1a: Pelikan|0 fnt
+|faint|p1a: Pelikan
+|
+|switch|p2a: Barraskewda|Barraskewda, M|61/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Sniper|Barraskewda, M|100/100
+|turn|17
+|
+|move|p1a: Sniper|Flip Turn|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Mew|Mew|50/100
+|turn|18
+|
+|move|p1a: Sniper|Flip Turn|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|ElTester2000
+|c|☆Charli91|Gg
+|raw|ElTester2000's rating: 1566 &rarr; <strong>1589</strong><br />(+23 for winning)
+|raw|Charli91's rating: 1612 &rarr; <strong>1589</strong><br />(-23 for losing)
+|c|☆ElTester2000|Gg
+|l|☆ElTester2000

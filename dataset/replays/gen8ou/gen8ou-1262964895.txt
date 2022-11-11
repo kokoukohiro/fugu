@@ -1,0 +1,300 @@
+|j|☆Contorted Lies
+|j|☆Selah
+|t:|1610737311
+|player|p1|Contorted Lies|265|1820
+|player|p2|Selah|burglar-gen1|1868
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Melmetal|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Swampert, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Tapu Lele|
+|poke|p2|Spectrier|
+|poke|p2|Heatran, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Hippowdon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1610737338
+|start
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Spectrier|Spectrier|100/100
+|turn|1
+|
+|t:|1610737342
+|move|p2a: Spectrier|Will-O-Wisp|p1a: Swampert
+|-status|p1a: Swampert|brn
+|move|p1a: Swampert|Stealth Rock|p2a: Spectrier
+|-sidestart|p2: Selah|move: Stealth Rock
+|
+|-damage|p1a: Swampert|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1610737346
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Swampert|Flip Turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|93/100
+|
+|t:|1610737350
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|3
+|
+|t:|1610737353
+|move|p2a: Mandibuzz|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|94/100
+|
+|t:|1610737356
+|switch|p2a: Heatran|Heatran, F|100/100|[from]move: U-turn
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Toxic|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1610737358
+|switch|p1a: Swampert|Swampert, M|94/100 brn
+|move|p2a: Heatran|Magma Storm|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|77/100 brn
+|-activate|p1a: Swampert|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-heal|p1a: Swampert|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Swampert|77/100 brn|[from] brn
+|-damage|p1a: Swampert|65/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1610737364
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Swampert|Earthquake|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p1a: Swampert|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Swampert|65/100 brn|[from] brn
+|-damage|p1a: Swampert|53/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1610737370
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Swampert|Flip Turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|85/100
+|-damage|p1a: Swampert|36/100 brn|[from] item: Rocky Helmet|[of] p2a: Toxapex
+|
+|t:|1610737373
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|7
+|
+|t:|1610737375
+|move|p2a: Toxapex|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|71/100
+|-enditem|p1a: Slowking|Assault Vest|[from] move: Knock Off|[of] p2a: Toxapex
+|move|p1a: Slowking|Future Sight|p2a: Toxapex
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|8
+|
+|t:|1610737385
+|switch|p2a: Mandibuzz|Mandibuzz, F|93/100
+|move|p1a: Slowking|Psychic|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|9
+|
+|t:|1610737390
+|move|p2a: Mandibuzz|Defog|p1a: Slowking
+|-unboost|p1a: Slowking|evasion|1
+|-sideend|p2: Selah|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Slowking|Sludge Bomb|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|59/100
+|
+|-end|p2a: Mandibuzz|move: Future Sight
+|-immune|p2a: Mandibuzz
+|upkeep
+|turn|10
+|
+|t:|1610737392
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Slowking|Sludge Bomb|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|67/100
+|
+|upkeep
+|turn|11
+|
+|t:|1610737394
+|move|p2a: Mandibuzz|Foul Play|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|34/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|15/100
+|-status|p2a: Mandibuzz|psn
+|
+|-damage|p2a: Mandibuzz|3/100 psn|[from] psn
+|upkeep
+|turn|12
+|j| Director S
+|
+|t:|1610737399
+|switch|p1a: Swampert|Swampert, M|36/100 brn
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|53/100 psn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Swampert|42/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|41/100 psn|[from] psn
+|-damage|p1a: Swampert|36/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1610737402
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|91/100 psn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Swampert|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: Selah|move: Stealth Rock
+|
+|-heal|p1a: Swampert|42/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|79/100 psn|[from] psn
+|-damage|p1a: Swampert|36/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1610737405
+|move|p2a: Mandibuzz|Defog|p1a: Swampert
+|-unboost|p1a: Swampert|evasion|1
+|-sideend|p2: Selah|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Swampert|Flip Turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|71/100 psn
+|
+|t:|1610737410
+|switch|p1a: Melmetal|Melmetal|100/100|[from]move: Flip Turn
+|
+|-damage|p2a: Mandibuzz|58/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1610737416
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 psn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Melmetal|Earthquake|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|72/100 psn
+|
+|-damage|p2a: Mandibuzz|60/100 psn|[from] psn
+|upkeep
+|turn|16
+|j| Windows 98 SE
+|
+|t:|1610737422
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Melmetal|Thunder Punch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100
+|-damage|p1a: Melmetal|84/100|[from] item: Rocky Helmet|[of] p2a: Toxapex
+|
+|-heal|p1a: Melmetal|90/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1610737428
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Melmetal|Earthquake|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|74/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|96/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1610737436
+|switch|p1a: Swampert|Swampert, M|36/100 brn
+|move|p2a: Hippowdon|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1610737439
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|19
+|
+|t:|1610737442
+|switch|p2a: Mandibuzz|Mandibuzz, F|60/100 psn
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rillaboom|94/100|[from] Sandstorm
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|-damage|p2a: Mandibuzz|48/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1610737445
+|move|p1a: Rillaboom|Superpower|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1a: Rillaboom|def|1
+|faint|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rillaboom|94/100|[from] Sandstorm
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1610737447
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|21
+|
+|t:|1610737450
+|move|p2a: Heatran|Magma Storm|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|none
+|upkeep
+|-message|Contorted Lies forfeited.
+|
+|win|Selah
+|l|☆Contorted Lies
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

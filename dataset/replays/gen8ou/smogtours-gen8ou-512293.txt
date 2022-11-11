@@ -1,0 +1,380 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|player|p1|Redemption|flint|
+|player|p2|Valentine|#wcop2019uswest|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|clearpoke
+|poke|p1|Togekiss, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Zeraora|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Marowak-Alola, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Zeraora|
+|poke|p2|Scizor, M|
+|poke|p2|Slowbro, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Redemption|hf
+|c|+HYDREIGON SPECS|wcop???
+|inactive|Redemption has 270 seconds left.
+|inactive|Valentine has 270 seconds left.
+|c|+Orange DBJ|Let's gooo france
+|raw|<div class="broadcast-red"><strong>Moderated chat was set to ☆!</strong><br />Only users of rank ☆ and higher can talk.</div>
+|inactive|Redemption has 240 seconds left.
+|inactive|Valentine has 240 seconds left.
+|inactive|Valentine has 210 seconds left.
+|inactive|Valentine has 180 seconds left.
+|
+|start
+|switch|p1a: Risotto|Urshifu, F|100/100
+|switch|p2a: nights|Urshifu, M|100/100
+|turn|1
+|inactive|Valentine has 240 seconds left.
+|inactive|Redemption has 270 seconds left.
+|inactive|Redemption has 240 seconds left.
+|
+|move|p1a: Risotto|U-turn|p2a: nights
+|-damage|p2a: nights|78/100
+|inactive|Redemption has 240 seconds left.
+|
+|switch|p1a: Soupe|Togekiss, F|100/100|[from]move: U-turn
+|move|p2a: nights|Close Combat|p1a: Soupe
+|-resisted|p1a: Soupe
+|-damage|p1a: Soupe|80/100
+|-unboost|p2a: nights|def|1
+|-unboost|p2a: nights|spd|1
+|
+|-heal|p1a: Soupe|86/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Redemption has 240 seconds left.
+|
+|switch|p2a: love galore|Zeraora|100/100
+|move|p1a: Soupe|Flamethrower|p2a: love galore
+|-damage|p2a: love galore|56/100
+|
+|-heal|p1a: Soupe|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Valentine has 240 seconds left.
+|inactive|Redemption has 210 seconds left.
+|
+|switch|p2a: nights|Urshifu, M|78/100
+|switch|p1a: Chou|Zeraora|100/100
+|
+|upkeep
+|turn|4
+|inactive|Redemption has 180 seconds left.
+|inactive|Valentine has 210 seconds left.
+|inactive|Redemption has 150 seconds left.
+|inactive|Valentine has 180 seconds left.
+|
+|move|p2a: nights|Stone Edge|p1a: Chou|[miss]
+|-miss|p2a: nights|p1a: Chou
+|move|p1a: Chou|Close Combat|p2a: nights
+|-supereffective|p2a: nights
+|-damage|p2a: nights|6/100
+|-unboost|p1a: Chou|def|1
+|-unboost|p1a: Chou|spd|1
+|
+|upkeep
+|turn|5
+|inactive|Valentine has 180 seconds left.
+|inactive|Redemption has 150 seconds left.
+|
+|switch|p2a: stargazing|Slowbro, M|100/100
+|switch|p1a: Risotto|Urshifu, F|100/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Risotto|Wicked Blow|p2a: stargazing
+|-supereffective|p2a: stargazing
+|-crit|p2a: stargazing
+|-enditem|p2a: stargazing|Colbur Berry|[eat]
+|-enditem|p2a: stargazing|Colbur Berry|[weaken]
+|-damage|p2a: stargazing|61/100
+|move|p2a: stargazing|Scald|p1a: Risotto
+|-damage|p1a: Risotto|59/100
+|
+|upkeep
+|turn|7
+|inactive|Valentine has 180 seconds left.
+|
+|switch|p2a: nights|Urshifu, M|6/100
+|move|p1a: Risotto|Wicked Blow|p2a: nights
+|-resisted|p2a: nights
+|-crit|p2a: nights
+|-damage|p2a: nights|0 fnt
+|faint|p2a: nights
+|
+|upkeep
+|inactive|Valentine has 150 seconds left.
+|
+|switch|p2a: sing about me|Scizor, M|100/100
+|turn|8
+|inactive|Redemption has 150 seconds left.
+|inactive|Valentine has 120 seconds left.
+|
+|switch|p1a: Chou|Zeraora|100/100
+|move|p2a: sing about me|U-turn|p1a: Chou
+|-damage|p1a: Chou|58/100
+|inactive|Valentine has 120 seconds left.
+|
+|switch|p2a: money trees|Cinderace, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Chou|64/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Chou|Plasma Fists|p2a: money trees
+|-damage|p2a: money trees|31/100
+|-fieldactivate|move: Ion Deluge
+|move|p2a: money trees|Pyro Ball|p1a: Chou
+|-damage|p1a: Chou|0 fnt
+|faint|p1a: Chou
+|
+|upkeep
+|
+|switch|p1a: Risotto|Urshifu, F|59/100
+|turn|10
+|inactive|Valentine has 120 seconds left.
+|
+|switch|p2a: love galore|Zeraora|56/100
+|move|p1a: Risotto|Wicked Blow|p2a: love galore
+|-crit|p2a: love galore
+|-damage|p2a: love galore|0 fnt
+|faint|p2a: love galore
+|
+|upkeep
+|
+|switch|p2a: sing about me|Scizor, M|100/100
+|turn|11
+|inactive|Redemption has 180 seconds left.
+|inactive|Redemption has 150 seconds left.
+|
+|move|p1a: Risotto|Wicked Blow|p2a: sing about me
+|-crit|p2a: sing about me
+|-damage|p2a: sing about me|39/100
+|move|p2a: sing about me|U-turn|p1a: Risotto
+|-damage|p1a: Risotto|31/100
+|
+|switch|p2a: stargazing|Slowbro, M|95/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+|inactive|Redemption has 150 seconds left.
+|inactive|Redemption has 120 seconds left.
+|
+|switch|p1a: Gratin|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Gratin
+|-enditem|p1a: Gratin|Grassy Seed
+|-boost|p1a: Gratin|def|1|[from] item: Grassy Seed
+|move|p2a: stargazing|Scald|p1a: Gratin
+|-resisted|p1a: Gratin
+|-damage|p1a: Gratin|83/100
+|-status|p1a: Gratin|brn
+|
+|-heal|p1a: Gratin|89/100 brn|[from] Grassy Terrain
+|-heal|p2a: stargazing|100/100|[from] Grassy Terrain
+|-damage|p1a: Gratin|83/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|Valentine has 90 seconds left.
+|
+|move|p1a: Gratin|Swords Dance|p1a: Gratin
+|-boost|p1a: Gratin|atk|2
+|move|p2a: stargazing|Future Sight|p1a: Gratin
+|-start|p2a: stargazing|move: Future Sight
+|
+|-heal|p1a: Gratin|89/100 brn|[from] Grassy Terrain
+|-damage|p1a: Gratin|83/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Gratin|Acrobatics|p2a: stargazing
+|-damage|p2a: stargazing|77/100
+|move|p2a: stargazing|Teleport|p2a: stargazing
+|
+|switch|p2a: sing about me|Scizor, M|39/100|[from]move: Teleport
+|
+|-heal|p1a: Gratin|89/100 brn|[from] Grassy Terrain
+|-heal|p2a: sing about me|45/100|[from] item: Leftovers
+|-heal|p2a: sing about me|52/100|[from] Grassy Terrain
+|-damage|p1a: Gratin|83/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Gratin|Acrobatics|p2a: sing about me
+|-damage|p2a: sing about me|13/100
+|move|p2a: sing about me|Roost|p2a: sing about me
+|-heal|p2a: sing about me|63/100
+|-singleturn|p2a: sing about me|move: Roost
+|
+|-end|p1a: Gratin|move: Future Sight
+|-damage|p1a: Gratin|30/100 brn
+|-heal|p1a: Gratin|36/100 brn|[from] Grassy Terrain
+|-heal|p2a: sing about me|70/100|[from] item: Leftovers
+|-heal|p2a: sing about me|76/100|[from] Grassy Terrain
+|-damage|p1a: Gratin|30/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Amande|Cinderace, M|100/100
+|move|p2a: sing about me|Roost|p2a: sing about me
+|-heal|p2a: sing about me|100/100
+|-singleturn|p2a: sing about me|move: Roost
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|
+|switch|p2a: stargazing|Slowbro, M|100/100
+|move|p1a: Amande|Pyro Ball|p2a: stargazing
+|-resisted|p2a: stargazing
+|-damage|p2a: stargazing|81/100
+|-damage|p1a: Amande|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Amande|Electro Ball|p2a: stargazing
+|-start|p1a: Amande|typechange|Electric|[from] ability: Libero
+|-supereffective|p2a: stargazing
+|-crit|p2a: stargazing
+|-damage|p2a: stargazing|0 fnt
+|-damage|p1a: Amande|81/100|[from] item: Life Orb
+|faint|p2a: stargazing
+|
+|upkeep
+|
+|switch|p2a: hold on|Marowak-Alola, M|100/100
+|turn|19
+|inactive|Redemption has 120 seconds left.
+|
+|switch|p1a: Gratin|Rillaboom, M|30/100 brn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Gratin
+|move|p2a: hold on|Stealth Rock|p1a: Gratin
+|-sidestart|p1: Redemption|move: Stealth Rock
+|
+|-heal|p1a: Gratin|36/100 brn|[from] Grassy Terrain
+|-damage|p1a: Gratin|30/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|Valentine has 90 seconds left.
+|inactive|Redemption has 90 seconds left.
+|inactive|Valentine has 60 seconds left.
+|inactive|Redemption has 60 seconds left.
+|inactive|Redemption has 30 seconds left.
+|
+|switch|p1a: Soupe|Togekiss, F|92/100
+|-damage|p1a: Soupe|68/100|[from] Stealth Rock
+|switch|p2a: sing about me|Scizor, M|100/100
+|
+|-heal|p1a: Soupe|74/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Redemption has 30 seconds left.
+|inactive|Redemption has 20 seconds left.
+|inactive|Valentine has 30 seconds left.
+|inactive|Redemption has 15 seconds left.
+|inactive|Valentine has 20 seconds left.
+|
+|switch|p2a: money trees|Cinderace, M|31/100
+|move|p1a: Soupe|Flamethrower|p2a: money trees
+|-resisted|p2a: money trees
+|-damage|p2a: money trees|10/100
+|
+|-heal|p2a: money trees|16/100|[from] Grassy Terrain
+|-heal|p1a: Soupe|80/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Redemption has 25 seconds left this turn.
+|inactive|Valentine has 30 seconds left this turn.
+|inactive|Redemption has 20 seconds left.
+|inactive|Redemption has 15 seconds left.
+|inactive|Valentine has 20 seconds left.
+|inactive|Redemption has 10 seconds left.
+|inactive|Valentine has 15 seconds left.
+|
+|switch|p1a: Gratin|Rillaboom, M|30/100 brn
+|-damage|p1a: Gratin|17/100 brn|[from] Stealth Rock
+|move|p2a: money trees|Zen Headbutt|p1a: Gratin
+|-start|p2a: money trees|typechange|Psychic|[from] ability: Libero
+|-damage|p1a: Gratin|0 fnt
+|faint|p1a: Gratin
+|
+|-heal|p2a: money trees|22/100|[from] Grassy Terrain
+|upkeep
+|inactive|Redemption has 15 seconds left this turn.
+|inactive|Valentine has 20 seconds left this turn.
+|
+|switch|p1a: Macaron|Hawlucha, F|100/100
+|-damage|p1a: Macaron|88/100|[from] Stealth Rock
+|-enditem|p1a: Macaron|Grassy Seed
+|-boost|p1a: Macaron|def|1|[from] item: Grassy Seed
+|turn|23
+|inactive|Redemption has 25 seconds left this turn.
+|inactive|Valentine has 30 seconds left this turn.
+|
+|move|p1a: Macaron|Acrobatics|p2a: money trees
+|-damage|p2a: money trees|0 fnt
+|faint|p2a: money trees
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|inactive|Redemption has 30 seconds left this turn.
+|
+|switch|p2a: hold on|Marowak-Alola, M|100/100
+|turn|24
+|
+|move|p1a: Macaron|Acrobatics|p2a: hold on
+|-damage|p2a: hold on|48/100
+|move|p2a: hold on|Flare Blitz|p1a: Macaron
+|-damage|p1a: Macaron|0 fnt
+|faint|p1a: Macaron
+|
+|upkeep
+|inactive|Redemption has 30 seconds left.
+|
+|switch|p1a: Soupe|Togekiss, F|80/100
+|-damage|p1a: Soupe|55/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p2a: sing about me|Scizor, M|100/100
+|move|p1a: Soupe|Air Slash|p2a: sing about me
+|-damage|p2a: sing about me|70/100
+|
+|-heal|p1a: Soupe|61/100|[from] item: Leftovers
+|-heal|p2a: sing about me|76/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: sing about me|Bullet Punch|p1a: Soupe
+|-supereffective|p1a: Soupe
+|-damage|p1a: Soupe|1/100
+|move|p1a: Soupe|Flamethrower|p2a: sing about me
+|-supereffective|p2a: sing about me
+|-damage|p2a: sing about me|0 fnt
+|faint|p2a: sing about me
+|
+|-heal|p1a: Soupe|8/100|[from] item: Leftovers
+|upkeep
+|-message|Valentine forfeited.
+|
+|win|Redemption
+|c|☆Redemption|LETS GO FRANCE
+|player|p2|Valentine|#wcop2019uswest

@@ -1,0 +1,291 @@
+|j|☆Mickey m
+|j|☆Likee3#
+|t:|1608455256
+|player|p1|Mickey m|hilbert-dueldisk|1369
+|player|p2|Likee3#|lucas|1302
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Zapdos|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Garchomp, M|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Clefable, M|
+|poke|p2|Blissey, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Blastoise, F|
+|poke|p2|Ferrothorn, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Likee3#)
+|
+|t:|1608455273
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|1
+|
+|t:|1608455282
+|move|p1a: Garchomp|Scale Shot|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|84/100
+|-enditem|p2a: Dragonite|Weakness Policy
+|-boost|p2a: Dragonite|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Dragonite|spa|2|[from] item: Weakness Policy
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|50/100
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|19/100
+|-hitcount|p2a: Dragonite|3
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|move|p2a: Dragonite|Dragon Claw|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Dragonite|6/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Dragonite|0 fnt|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1608455308
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|2
+|
+|t:|1608455314
+|move|p2a: Cinderace|U-turn|p1a: Ferrothorn
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Ferrothorn|70/100
+|-damage|p2a: Cinderace|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Cinderace|72/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|
+|t:|1608455323
+|switch|p2a: Clefable|Clefable, M|100/100|[from]move: U-turn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Clefable
+|-start|p2a: Clefable|move: Leech Seed
+|
+|-damage|p2a: Clefable|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|83/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1608455333
+|move|p2a: Clefable|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Clefable|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1608455347
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|4
+|
+|t:|1608455353
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Clefable|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-heal|p2a: Clefable|100/100|[from] item: Leftovers
+|-damage|p2a: Clefable|88/100|[from] Leech Seed|[of] p1a: Dragonite
+|-damage|p1a: Dragonite|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1608455365
+|move|p1a: Dragonite|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|57/100
+|move|p2a: Clefable|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|29/100 tox
+|-enditem|p1a: Dragonite|Weakness Policy
+|-boost|p1a: Dragonite|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Dragonite|spa|2|[from] item: Weakness Policy
+|
+|-heal|p2a: Clefable|63/100|[from] item: Leftovers
+|-damage|p2a: Clefable|51/100|[from] Leech Seed|[of] p1a: Dragonite
+|-heal|p1a: Dragonite|43/100 tox|[silent]
+|-damage|p1a: Dragonite|31/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1608455379
+|move|p1a: Dragonite|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|19/100
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|69/100
+|
+|-heal|p2a: Clefable|75/100|[from] item: Leftovers
+|-damage|p2a: Clefable|62/100|[from] Leech Seed|[of] p1a: Dragonite
+|-heal|p1a: Dragonite|45/100 tox|[silent]
+|-damage|p1a: Dragonite|26/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1608455391
+|move|p1a: Dragonite|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|33/100
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|83/100
+|
+|-heal|p2a: Clefable|89/100|[from] item: Leftovers
+|-damage|p2a: Clefable|77/100|[from] Leech Seed|[of] p1a: Dragonite
+|-heal|p1a: Dragonite|40/100 tox|[silent]
+|-damage|p1a: Dragonite|16/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1608455403
+|move|p1a: Dragonite|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|42/100
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|92/100
+|
+|-heal|p2a: Clefable|99/100|[from] item: Leftovers
+|-damage|p2a: Clefable|86/100|[from] Leech Seed|[of] p1a: Dragonite
+|-heal|p1a: Dragonite|30/100 tox|[silent]
+|-damage|p1a: Dragonite|0 fnt|[from] psn
+|faint|p1a: Dragonite
+|upkeep
+|
+|t:|1608455416
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|9
+|
+|t:|1608455421
+|move|p1a: Cinderace|Bulk Up|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-boost|p1a: Cinderace|atk|1
+|-boost|p1a: Cinderace|def|1
+|move|p2a: Clefable|Toxic|p1a: Cinderace
+|-status|p1a: Cinderace|tox
+|
+|-heal|p2a: Clefable|92/100|[from] item: Leftovers
+|-damage|p2a: Clefable|80/100|[from] Leech Seed|[of] p1a: Cinderace
+|-damage|p1a: Cinderace|95/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1608455436
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-start|p1a: Cinderace|typechange|Fire|[from] ability: Libero
+|-damage|p2a: Clefable|13/100
+|-damage|p1a: Cinderace|85/100 tox|[from] item: Life Orb
+|move|p2a: Clefable|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|63/100 tox
+|
+|-heal|p2a: Clefable|19/100|[from] item: Leftovers
+|-damage|p2a: Clefable|6/100|[from] Leech Seed|[of] p1a: Cinderace
+|-heal|p1a: Cinderace|79/100 tox|[silent]
+|-damage|p1a: Cinderace|67/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1608455452
+|move|p1a: Cinderace|Zen Headbutt|p2a: Clefable
+|-start|p1a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Cinderace|57/100 tox|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|-damage|p1a: Cinderace|39/100 tox|[from] psn
+|upkeep
+|
+|t:|1608455463
+|switch|p2a: Cinderace|Cinderace, F|72/100
+|turn|12
+|
+|t:|1608455466
+|move|p2a: Cinderace|Sucker Punch|p1a: Cinderace
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1608455476
+|switch|p1a: Urshifu|Urshifu, M|100/100
+|turn|13
+|
+|t:|1608455483
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Urshifu|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-damage|p1a: Urshifu|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1608455498
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|turn|14
+|
+|t:|1608455502
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|
+|upkeep
+|turn|15
+|
+|t:|1608455514
+|move|p2a: Blastoise|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|8/100
+|move|p1a: Zapdos|Discharge|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|12/100
+|
+|upkeep
+|turn|16
+|
+|t:|1608455522
+|move|p2a: Blastoise|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1608455529
+|switch|p1a: Urshifu|Urshifu, M|88/100
+|turn|17
+|
+|t:|1608455535
+|move|p2a: Blastoise|Surf|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|win|Likee3#
+|raw|Mickey m's rating: 1369 &rarr; <strong>1345</strong><br />(-24 for losing)
+|raw|Likee3#'s rating: 1302 &rarr; <strong>1325</strong><br />(+23 for winning)
+|l|☆Mickey m

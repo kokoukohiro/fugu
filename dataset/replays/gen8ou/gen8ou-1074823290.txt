@@ -1,0 +1,288 @@
+|j|☆4G3NC Fusien
+|j|☆PokeDa
+|player|p1|4G3NC Fusien|265|1606
+|player|p2|PokeDa|wallace|1630
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Chandelure, M|
+|poke|p1|Gastrodon-East, F|
+|poke|p1|Shiinotic, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Cramorant, M|
+|poke|p1|Dracovish|
+|poke|p2|Pelipper, M|
+|poke|p2|Dracovish|
+|poke|p2|Mantine, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Jirachi|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆4G3NC Fusien|glhf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 4G3NC Fusien)
+|
+|start
+|switch|p1a: Dracovish|Dracovish, shiny|100/100
+|switch|p2a: Jirachi|Jirachi, shiny|100/100
+|turn|1
+|
+|move|p2a: Jirachi|U-turn|p1a: Dracovish
+|-damage|p1a: Dracovish|77/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|100/100|[from]move: U-turn
+|move|p1a: Dracovish|Fishious Rend|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|-damage|p1a: Dracovish|65/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Dracovish|48/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|66/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Chandelure|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|12/100
+|-unboost|p2a: Pelipper|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Mantine
+|-damage|p2a: Mantine|36/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Dracovish|Dracovish, shiny|48/100
+|move|p2a: Mantine|Hurricane|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Cramorant|Cramorant, M|100/100
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|68/100
+|move|p1a: Cramorant|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-formechange|p1a: Cramorant|Cramorant-Gulping|
+|-damage|p2a: Ferrothorn|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Cramorant|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|24/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Cramorant
+|-damage|p1a: Cramorant|58/100
+|-damage|p2a: Ferrothorn|0 fnt|[from] ability: Gulp Missile|[of] p1a: Cramorant
+|-formechange|p1a: Cramorant|Cramorant|
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Mantine|Mantine, M|36/100
+|turn|8
+|
+|move|p2a: Mantine|Hurricane|p1a: Cramorant
+|-crit|p1a: Cramorant
+|-damage|p1a: Cramorant|0 fnt
+|faint|p1a: Cramorant
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|9
+|
+|switch|p2a: Jirachi|Jirachi, shiny|100/100
+|move|p1a: Hatterene|Psychic|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|88/100
+|-unboost|p2a: Jirachi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p1a: Gastrodon|Gastrodon-East, F|100/100
+|move|p2a: Jirachi|Trick|p1a: Gastrodon
+|-activate|p2a: Jirachi|move: Trick|[of] p1a: Gastrodon
+|-item|p1a: Gastrodon|Choice Scarf|[from] move: Trick
+|-item|p2a: Jirachi|Leftovers|[from] move: Trick
+|
+|-weather|none
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Jirachi|U-turn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|86/100
+|
+|switch|p2a: Dracovish|Dracovish, shiny|100/100|[from]move: U-turn
+|move|p1a: Gastrodon|Toxic|p2a: Dracovish
+|-status|p2a: Dracovish|tox
+|
+|-damage|p2a: Dracovish|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Jirachi|Jirachi, shiny|94/100
+|move|p1a: Gastrodon|Toxic|p2a: Jirachi
+|-immune|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Chandelure|Chandelure, M|66/100
+|move|p2a: Jirachi|Iron Head|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|41/100
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Jirachi|Iron Head|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|15/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish, shiny|94/100 tox
+|turn|15
+|
+|switch|p1a: Shiinotic|Shiinotic, M, shiny|100/100
+|move|p2a: Dracovish|Crunch|p1a: Shiinotic
+|-resisted|p1a: Shiinotic
+|-damage|p1a: Shiinotic|86/100
+|-unboost|p1a: Shiinotic|def|1
+|
+|-heal|p1a: Shiinotic|92/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|88/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Pelipper|Pelipper, M|12/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Shiinotic|Spore|p2a: Pelipper
+|-status|p2a: Pelipper|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Shiinotic|98/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Dracovish|Dracovish, shiny|88/100 tox
+|switch|p1a: Chandelure|Chandelure, M|15/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dracovish|82/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Gastrodon|Gastrodon-East, F|86/100
+|move|p2a: Dracovish|Crunch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|58/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dracovish|69/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Dracovish|Crunch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|33/100
+|move|p1a: Gastrodon|Toxic|p2a: Dracovish
+|-fail|p2a: Dracovish|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dracovish|51/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Dracovish|Crunch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|8/100
+|move|p1a: Gastrodon|Toxic|p2a: Dracovish
+|-fail|p2a: Dracovish|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dracovish|26/100 tox|[from] psn
+|upkeep
+|turn|21
+|j| watr sucks
+|
+|move|p2a: Dracovish|Crunch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dracovish|0 fnt|[from] psn
+|faint|p2a: Dracovish
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|22
+|
+|move|p2a: Seismitoad|Liquidation|p1a: Hatterene
+|-damage|p1a: Hatterene|18/100
+|-damage|p2a: Seismitoad|91/100|[from] item: Life Orb
+|move|p1a: Hatterene|Giga Drain|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Hatterene|68/100|[from] drain|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Mantine|Mantine, M|36/100
+|turn|23
+|
+|move|p2a: Mantine|Surf|p1a: Hatterene
+|-damage|p1a: Hatterene|6/100
+|move|p1a: Hatterene|Psychic|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|-weather|none
+|upkeep
+|-message|PokeDa forfeited.
+|
+|win|4G3NC Fusien
+|c|☆4G3NC Fusien|gg
+|l|☆PokeDa
+|raw|4G3NC Fusien's rating: 1594 &rarr; <strong>1616</strong><br />(+22 for winning)
+|raw|PokeDa's rating: 1629 &rarr; <strong>1607</strong><br />(-22 for losing)

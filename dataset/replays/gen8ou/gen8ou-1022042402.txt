@@ -1,0 +1,288 @@
+|j|☆Captain Doofus
+|j|☆groundt
+|player|p1|Captain Doofus|165|1447
+|player|p2|groundt|winona-gen3|1440
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Darmanitan-Galar, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Excadrill, F|
+|poke|p1|Hydreigon, M|
+|poke|p2|Jellicent, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ditto|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Mandibuzz, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Captain Doofus)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: groundt|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Darmanitan|Darmanitan-Galar, M|100/100
+|move|p2a: Mandibuzz|Defog|p1a: Darmanitan
+|-unboost|p1a: Darmanitan|evasion|1
+|-sideend|p2: groundt|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Darmanitan|Icicle Crash|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|14/100
+|move|p2a: Mandibuzz|U-turn|p1a: Darmanitan
+|-crit|p1a: Darmanitan
+|-damage|p1a: Darmanitan|74/100
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Hydreigon
+|-status|p1a: Hydreigon|brn
+|
+|-damage|p1a: Hydreigon|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|69/100 brn
+|move|p2a: Jellicent|Hex|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p1a: Hydreigon|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|69/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Jellicent|Hex|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|69/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Hydreigon|[from] ability: Imposter
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|44/100 brn
+|
+|-heal|p1a: Hydreigon|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|44/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|-start|p2a: Ditto|Dynamax
+|-heal|p2a: Ditto|100/100|[silent]
+|move|p2a: Ditto|Max Darkness|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|-unboost|p1a: Hydreigon|spd|1
+|move|p1a: Hydreigon|Flash Cannon|p2a: Ditto
+|-damage|p2a: Ditto|69/100
+|-unboost|p2a: Ditto|spd|1
+|
+|-heal|p1a: Hydreigon|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|44/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Ditto|Max Steelspike|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-boost|p2a: Ditto|def|1
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|10
+|
+|move|p2a: Ditto|Max Darkness|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|-unboost|p1a: Excadrill|spd|1
+|move|p1a: Excadrill|Stealth Rock|p2a: Ditto
+|-sidestart|p2: groundt|move: Stealth Rock
+|
+|-end|p2a: Ditto|Dynamax
+|-heal|p2a: Ditto|69/100|[silent]
+|upkeep
+|turn|11
+|
+|move|p2a: Ditto|Dark Pulse|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|12
+|
+|-start|p1a: Gyarados|Dynamax
+|-heal|p1a: Gyarados|100/100|[silent]
+|move|p2a: Ditto|Dark Pulse|p1a: Gyarados
+|-damage|p1a: Gyarados|55/100
+|move|p1a: Gyarados|Max Airstream|p2a: Ditto
+|-damage|p2a: Ditto|14/100
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|groundt has 120 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|14/100
+|move|p1a: Gyarados|Max Geyser|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-weather|RainDance
+|faint|p2a: Mandibuzz
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|68/100|[from] item: Leftovers
+|upkeep
+|inactive|groundt has 90 seconds left.
+|inactive|groundt has 60 seconds left.
+|inactive|groundt has 30 seconds left.
+|inactive|groundt has 20 seconds left.
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|14
+|inactive|groundt has 30 seconds left this turn.
+|
+|move|p1a: Gyarados|Max Airstream|p2a: Hatterene
+|-damage|p2a: Hatterene|4/100
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Gyarados
+|-damage|p1a: Gyarados|55/100
+|-heal|p2a: Hatterene|24/100|[from] drain|[of] p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|62/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|30/100|[from] item: Leftovers
+|-end|p1a: Gyarados|Dynamax
+|-heal|p1a: Gyarados|62/100|[silent]
+|upkeep
+|turn|15
+|
+|move|p1a: Gyarados|Waterfall|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Gyarados|Power Whip|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gyarados|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|14/100
+|-damage|p2a: Ditto|2/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Gyarados|[from] ability: Imposter
+|turn|17
+|
+|move|p2a: Ditto|Power Whip|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|-ability|p2a: Ditto|Moxie|boost
+|-boost|p2a: Ditto|atk|1
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|44/100 brn
+|turn|18
+|
+|move|p2a: Ditto|Power Whip|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|-ability|p2a: Ditto|Moxie|boost
+|-boost|p2a: Ditto|atk|1
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|19
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Ditto|Power Whip|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Ditto|Power Whip|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-ability|p2a: Ditto|Moxie|boost
+|-boost|p2a: Ditto|atk|1
+|
+|upkeep
+|
+|switch|p1a: Darmanitan|Darmanitan-Galar, M|74/100
+|turn|21
+|
+|move|p2a: Ditto|Power Whip|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|win|groundt
+|l|☆Captain Doofus
+||Ladder (probably) updated, but score could not be retrieved (Response not received).
+|error|Unexpected response null from ladder server.

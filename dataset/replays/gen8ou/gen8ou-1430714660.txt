@@ -1,0 +1,308 @@
+|j|☆Bassyxx
+|j|☆Daglet
+|t:|1633570885
+|gametype|singles
+|player|p1|Bassyxx|rocketgruntf|1439
+|player|p2|Daglet|drayden|1408
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Dracozolt|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Moltres|
+|poke|p1|Rotom-Wash|
+|poke|p1|Melmetal|
+|poke|p2|Regieleki|
+|poke|p2|Tapu Koko|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Snorlax, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Daglet)
+|
+|t:|1633570896
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|turn|1
+|
+|t:|1633570910
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ninetales|Aurora Veil||[still]
+|-fail|p2a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ninetales|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1633570920
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2a: Rillaboom|Grassy Seed
+|-boost|p2a: Rillaboom|def|1|[from] item: Grassy Seed
+|move|p1a: Tyranitar|Ancient Power|p2a: Rillaboom
+|-damage|p2a: Rillaboom|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|64/100|[from] Sandstorm
+|-heal|p2a: Rillaboom|70/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1633570927
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Rillaboom|Swords Dance|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|64/100|[from] Sandstorm
+|-damage|p1a: Moltres|94/100|[from] Sandstorm
+|-heal|p2a: Rillaboom|70/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1633570931
+|move|p2a: Rillaboom|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|41/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1a: Moltres|Flamethrower|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moltres|35/100|[from] Sandstorm
+|upkeep
+|
+|t:|1633570940
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|5
+|
+|t:|1633570948
+|move|p2a: Regieleki|Ancient Power|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Regieleki|95/100|[from] Sandstorm
+|-heal|p2a: Regieleki|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1633570957
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|turn|6
+|
+|t:|1633570961
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: Daglet|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1633570966
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Tyranitar|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1633570976
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1633570981
+|move|p2a: Garchomp|Stone Edge|p1a: Landorus|[miss]
+|-miss|p2a: Garchomp|p1a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Landorus|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Landorus|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|t:|1633570987
+|switch|p1a: Melmetal|Melmetal|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1633570994
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-damage|p2a: Tapu Koko|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|10
+|
+|t:|1633570997
+|switch|p1a: Landorus|Landorus-Therian, M|72/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tapu Koko|atk|1
+|move|p2a: Tapu Koko|Defog|p1a: Landorus
+|-unboost|p1a: Landorus|evasion|1
+|-sideend|p2: Daglet|Stealth Rock|[from] move: Defog|[of] p2a: Tapu Koko
+|-fieldend|move: Electric Terrain
+|
+|upkeep
+|turn|11
+|
+|t:|1633571003
+|switch|p2a: Ninetales|Ninetales-Alola, M|95/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Landorus|Earthquake|p2a: Ninetales
+|-damage|p2a: Ninetales|11/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Landorus|66/100|[from] Hail
+|upkeep
+|turn|12
+|inactive|Bassyxx has 120 seconds left.
+|
+|t:|1633571040
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ninetales|Moonblast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ninetales|5/100|[from] Sandstorm
+|upkeep
+|turn|13
+|inactive|Bassyxx has 120 seconds left.
+|
+|t:|1633571049
+|switch|p2a: Tapu Koko|Tapu Koko|88/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Tyranitar|Stealth Rock|p2a: Tapu Koko
+|-sidestart|p2: Daglet|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Koko|82/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1633571056
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|79/100
+|-damage|p2a: Tapu Koko|72/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Koko|66/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1633571064
+|move|p2a: Tapu Koko|Volt Switch|p1a: Melmetal
+|-damage|p1a: Melmetal|25/100
+|-damage|p2a: Tapu Koko|56/100|[from] item: Life Orb
+|
+|t:|1633571068
+|switch|p2a: Snorlax|Snorlax, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|move|p1a: Melmetal|Double Iron Bash|p2a: Snorlax
+|-damage|p2a: Snorlax|29/100
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|-hitcount|p2: Snorlax|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1633571071
+|switch|p2a: Tapu Koko|Tapu Koko|56/100
+|-damage|p2a: Tapu Koko|44/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1633571081
+|switch|p1a: Landorus|Landorus-Therian, M|66/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tapu Koko|atk|1
+|move|p2a: Tapu Koko|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Koko|38/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1633571088
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Rotom
+|-damage|p1a: Rotom|52/100
+|-damage|p2a: Tapu Koko|28/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Koko|21/100|[from] Sandstorm
+|-damage|p1a: Rotom|46/100|[from] Sandstorm
+|-heal|p1a: Rotom|52/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|18
+|
+|t:|1633571095
+|move|p2a: Tapu Koko|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: Daglet|Stealth Rock|[from] move: Defog|[of] p2a: Tapu Koko
+|move|p1a: Rotom|Volt Switch|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|t:|1633571099
+|switch|p1a: Landorus|Landorus-Therian, M|66/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1633571105
+|switch|p2a: Ninetales|Ninetales-Alola, M|5/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|19
+|
+|t:|1633571113
+|switch|p1a: Tyranitar|Tyranitar, M|68/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ninetales|Freeze-Dry|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ninetales|0 fnt|[from] Sandstorm
+|faint|p2a: Ninetales
+|upkeep
+|-message|Daglet forfeited.
+|
+|win|Bassyxx
+|raw|Bassyxx's rating: 1439 &rarr; <strong>1457</strong><br />(+18 for winning)
+|raw|Daglet's rating: 1408 &rarr; <strong>1390</strong><br />(-18 for losing)
+|l|☆Daglet

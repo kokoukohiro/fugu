@@ -1,0 +1,362 @@
+|j|☆minimax_ai
+|j|☆Darkman64
+|t:|1661651987
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1563
+|player|p2|Darkman64|juan|1593
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Weavile, F|
+|poke|p2|Slowbro, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Clefable, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1661651992
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Weavile|atk|1
+|turn|1
+|
+|t:|1661652008
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Weavile|Triple Axel|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|91/100
+|-damage|p2a: Weavile|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|72/100
+|-damage|p2a: Weavile|68/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|40/100
+|-damage|p2a: Weavile|51/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-hitcount|p1a: Tangrowth|3
+|
+|upkeep
+|turn|2
+|
+|t:|1661652013
+|move|p2a: Weavile|Triple Axel|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|29/100
+|-damage|p2a: Weavile|35/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|10/100
+|-damage|p2a: Weavile|19/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|-damage|p2a: Weavile|2/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|faint|p1a: Tangrowth
+|-hitcount|p1: Tangrowth|3
+|
+|upkeep
+|
+|t:|1661652013
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|3
+|
+|t:|1661652018
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Eruption|p2a: Landorus
+|-damage|p2a: Landorus|38/100
+|
+|-heal|p2a: Landorus|44/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1661652022
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Heatran|Eruption|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|63/100
+|
+|upkeep
+|turn|5
+|
+|t:|1661652025
+|move|p1a: Heatran|Stealth Rock|p2a: Slowbro
+|-sidestart|p2: Darkman64|move: Stealth Rock
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1661652026
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from]move: Teleport
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1661652031
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Urshifu|Close Combat|p1a: rotomwash
+|-damage|p1a: rotomwash|3/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|-heal|p1a: rotomwash|9/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1661652035
+|move|p2a: Urshifu|Close Combat|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1661652035
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|8
+|
+|t:|1661652040
+|switch|p2a: Weavile|Weavile, F|2/100
+|-damage|p2a: Weavile|0 fnt|[from] Stealth Rock
+|faint|p2a: Weavile
+|move|p1a: Weavile|Knock Off|p2: Weavile|[notarget]
+|-fail|p1a: Weavile
+|
+|upkeep
+|
+|t:|1661652044
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|94/100
+|-damage|p2a: Urshifu|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1661652045
+|move|p1a: Weavile|Knock Off|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|53/100
+|-enditem|p2a: Urshifu|Choice Band|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Urshifu|Surging Strikes|p1a: Weavile
+|-crit|p1a: Weavile
+|-damage|p1a: Weavile|63/100
+|-crit|p1a: Weavile
+|-damage|p1a: Weavile|29/100
+|-crit|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-hitcount|p1: Weavile|3
+|
+|upkeep
+|
+|t:|1661652045
+|switch|p1a: Melmetal|Melmetal|100/100
+|turn|10
+|
+|t:|1661652048
+|move|p2a: Urshifu|Close Combat|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|32/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|move|p1a: Melmetal|Thunder Punch|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|upkeep
+|
+|t:|1661652051
+|switch|p2a: Slowbro|Slowbro, M|97/100
+|turn|11
+|
+|t:|1661652052
+|move|p1a: Melmetal|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|75/100
+|move|p2a: Slowbro|Scald|p1a: Melmetal
+|-crit|p1a: Melmetal
+|-damage|p1a: Melmetal|9/100
+|
+|upkeep
+|turn|12
+|
+|t:|1661652068
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Melmetal|Thunder Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100
+|-status|p2a: Ferrothorn|par
+|-damage|p1a: Melmetal|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Melmetal
+|
+|-heal|p2a: Ferrothorn|91/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1661652068
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|13
+|
+|t:|1661652072
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Heatran|Eruption|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|61/100
+|
+|upkeep
+|turn|14
+|
+|t:|1661652074
+|move|p1a: Heatran|Magma Storm|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|35/100
+|-activate|p2a: Slowbro|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Slowbro|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|48/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-damage|p2a: Slowbro|23/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1661652076
+|move|p1a: Heatran|Magma Storm|p2a: Slowbro|[miss]
+|-miss|p1a: Heatran|p2a: Slowbro
+|move|p2a: Slowbro|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-end|p2a: Slowbro|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1661652076
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|turn|16
+|
+|t:|1661652080
+|switch|p2a: Landorus|Landorus-Therian, M|44/100
+|-damage|p2a: Landorus|32/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: landorustherian|atk|1
+|move|p1a: landorustherian|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|25/100
+|
+|-heal|p2a: Landorus|31/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1661652081
+|move|p1a: landorustherian|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|move|p2a: Landorus|Defog|p1a: landorustherian
+|-unboost|p1a: landorustherian|evasion|1
+|-sideend|p2: Darkman64|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|
+|-heal|p2a: Landorus|37/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|31/100 tox|[from] psn
+|upkeep
+|turn|18
+|c|☆Darkman64|gg
+|
+|t:|1661652086
+|move|p1a: landorustherian|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|Toxic|p1a: landorustherian
+|-status|p1a: landorustherian|tox
+|
+|-heal|p2a: Landorus|37/100 tox|[from] item: Leftovers
+|-damage|p1a: landorustherian|94/100 tox|[from] psn
+|-damage|p2a: Landorus|25/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1661652088
+|move|p1a: landorustherian|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|85/100 tox
+|
+|t:|1661652097
+|switch|p2a: Slowbro|Slowbro, M|56/100|[from]move: U-turn
+|
+|-heal|p1a: landorustherian|91/100 tox|[from] item: Leftovers
+|-damage|p1a: landorustherian|79/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1661652099
+|switch|p2a: Landorus|Landorus-Therian, M|25/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: landorustherian|atk|1
+|move|p1a: landorustherian|Toxic|p2a: Landorus|[miss]
+|-miss|p1a: landorustherian|p2a: Landorus
+|
+|-heal|p1a: landorustherian|85/100 tox|[from] item: Leftovers
+|-heal|p2a: Landorus|31/100 tox|[from] item: Leftovers
+|-damage|p1a: landorustherian|67/100 tox|[from] psn
+|-damage|p2a: Landorus|25/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1661652102
+|switch|p2a: Slowbro|Slowbro, M|89/100
+|move|p1a: landorustherian|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|75/100
+|
+|-heal|p1a: landorustherian|73/100 tox|[from] item: Leftovers
+|-damage|p1a: landorustherian|49/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1661652104
+|move|p1a: landorustherian|Toxic|p2a: Slowbro
+|-status|p2a: Slowbro|tox
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100/100 tox
+|
+|-heal|p1a: landorustherian|55/100 tox|[from] item: Leftovers
+|-damage|p1a: landorustherian|24/100 tox|[from] psn
+|-damage|p2a: Slowbro|94/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1661652106
+|move|p1a: landorustherian|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|79/100 tox
+|move|p2a: Slowbro|Scald|p1a: landorustherian
+|-supereffective|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|win|Darkman64
+|raw|minimax_ai's rating: 1563 &rarr; <strong>1545</strong><br />(-18 for losing)
+|raw|Darkman64's rating: 1593 &rarr; <strong>1611</strong><br />(+18 for winning)
+|c|☆minimax_ai|gg

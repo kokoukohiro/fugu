@@ -1,0 +1,359 @@
+|j|☆IIIodyne
+|j|☆Munua
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1667678232
+|gametype|singles
+|player|p1|IIIodyne|265|
+|player|p2|Munua|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Druddigon, M|
+|poke|p1|Slowbro, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Aggron, F|
+|poke|p1|Avalugg, F|
+|poke|p1|Snorlax, F|
+|poke|p2|Lapras, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Slowbro, M|
+|poke|p2|Swampert, M|
+|poke|p2|Nidoking, M|
+|teampreview
+|inactive|IIIodyne also wants the timer to be on.
+|c|☆IIIodyne|hf
+|j| IExistYouDont
+|j| testingteams888
+|j| huhgfh
+|j| Xsage93
+|c|☆Munua|u2
+|
+|t:|1667678239
+|start
+|switch|p1a: Druddigon|Druddigon, M|100/100
+|switch|p2a: Lapras|Lapras, F|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|1
+|l| IExistYouDont
+|
+|t:|1667678256
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Lapras|Whirlpool|p1a: Slowking
+|-damage|p1a: Slowking|92/100
+|-activate|p1a: Slowking|move: Whirlpool|[of] p2a: Lapras
+|
+|-damage|p1a: Slowking|80/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|2
+|n| huhgfh|huhgfh
+|c| huhgfh|such an annoying crit
+|
+|t:|1667678270
+|move|p2a: Lapras|Reflect|p2a: Lapras
+|-sidestart|p2: Munua|Reflect
+|move|p1a: Slowking|Psyshock|p2a: Lapras
+|-damage|p2a: Lapras|43/100
+|
+|-heal|p2a: Lapras|49/100|[from] item: Leftovers
+|-damage|p1a: Slowking|68/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1667678276
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Slowking|Psyshock|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|83/100
+|
+|-end|p1a: Slowking|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|4
+|
+|t:|1667678282
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Slowbro|Light Screen|p2a: Slowbro
+|-sidestart|p2: Munua|move: Light Screen
+|
+|upkeep
+|turn|5
+|
+|t:|1667678287
+|move|p1a: Slowbro|Future Sight|p2a: Slowbro
+|-start|p1a: Slowbro|move: Future Sight
+|move|p2a: Slowbro|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|
+|upkeep
+|turn|6
+|
+|t:|1667678294
+|switch|p1a: Druddigon|Druddigon, M|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1667678310
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100|[from]move: Teleport
+|
+|-sideend|p2: Munua|Reflect
+|upkeep
+|turn|7
+|
+|t:|1667678314
+|move|p2a: Garchomp|Substitute|p2a: Garchomp
+|-start|p2a: Garchomp|Substitute
+|-damage|p2a: Garchomp|75/100
+|move|p1a: Druddigon|Glare||[still]
+|-fail|p1a: Druddigon
+|
+|-end|p2a: Garchomp|move: Future Sight
+|-activate|p2a: Garchomp|move: Substitute|[damage]
+|-heal|p2a: Garchomp|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|l| huhgfh
+|
+|t:|1667678339
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Druddigon|Stomping Tantrum|p2a: Garchomp
+|-end|p2a: Garchomp|Substitute
+|
+|-heal|p2a: Garchomp|88/100|[from] item: Leftovers
+|-sideend|p2: Munua|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1667678348
+|move|p2a: Garchomp|Substitute|p2a: Garchomp
+|-start|p2a: Garchomp|Substitute
+|-damage|p2a: Garchomp|63/100
+|move|p1a: Druddigon|Stomping Tantrum|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Substitute|[damage]
+|
+|-heal|p2a: Garchomp|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1667678351
+|move|p2a: Garchomp|Scale Shot|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|49/100
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|-hitcount|p1: Druddigon|2
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|
+|-heal|p2a: Garchomp|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667678355
+|switch|p1a: Slowbro|Slowbro, F|100/100 par
+|turn|11
+|
+|t:|1667678367
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Slowbro|Trick Room|p1a: Slowbro
+|-fieldstart|move: Trick Room|[of] p1a: Slowbro
+|
+|-heal|p2a: Garchomp|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1667678372
+|move|p1a: Slowbro|Future Sight|p2a: Garchomp
+|-start|p1a: Slowbro|move: Future Sight
+|move|p2a: Garchomp|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|22/100 par
+|
+|-heal|p2a: Garchomp|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1667678379
+|cant|p1a: Slowbro|par
+|move|p2a: Garchomp|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|-heal|p2a: Garchomp|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667678385
+|switch|p1a: Avalugg|Avalugg, F|100/100
+|turn|14
+|
+|t:|1667678389
+|move|p1a: Avalugg|Body Press|p2a: Garchomp
+|-end|p2a: Garchomp|Substitute
+|move|p2a: Garchomp|Earthquake|p1a: Avalugg
+|-damage|p1a: Avalugg|45/100
+|
+|-end|p2a: Garchomp|move: Future Sight
+|-damage|p2a: Garchomp|54/100
+|-heal|p2a: Garchomp|60/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1667678402
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Avalugg|Body Press|p2a: Swampert
+|-damage|p2a: Swampert|64/100
+|-damage|p1a: Avalugg|29/100|[from] item: Rocky Helmet|[of] p2a: Swampert
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|16
+|
+|t:|1667678406
+|move|p2a: Swampert|Scald|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|upkeep
+|
+|t:|1667678412
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|turn|17
+|
+|t:|1667678415
+|switch|p2a: Lapras|Lapras, F|49/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Lapras|55/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1667678418
+|move|p2a: Lapras|Whirlpool|p1a: Snorlax
+|-damage|p1a: Snorlax|96/100
+|-activate|p1a: Snorlax|move: Whirlpool|[of] p2a: Lapras
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|13/100
+|
+|-heal|p2a: Lapras|19/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|-damage|p1a: Snorlax|88/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|19
+|
+|t:|1667678426
+|move|p2a: Lapras|Perish Song|p2a: Lapras
+|-start|p1a: Snorlax|perish3|[silent]
+|-start|p2a: Lapras|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|-end|p1a: Snorlax|Whirlpool|[partiallytrapped]|[silent]
+|-start|p1a: Snorlax|perish3
+|upkeep
+|
+|t:|1667678439
+|switch|p2a: Garchomp|Garchomp, M, shiny|60/100
+|turn|20
+|
+|t:|1667678444
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Snorlax|Body Slam|p2a: Garchomp
+|-damage|p2a: Garchomp|27/100
+|-damage|p1a: Snorlax|82/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|-heal|p2a: Garchomp|34/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|88/100|[from] item: Leftovers
+|-start|p1a: Snorlax|perish2
+|upkeep
+|turn|21
+|
+|t:|1667678448
+|move|p2a: Garchomp|Substitute|p2a: Garchomp
+|-start|p2a: Garchomp|Substitute
+|-damage|p2a: Garchomp|9/100
+|move|p1a: Snorlax|Body Slam|p2a: Garchomp
+|-end|p2a: Garchomp|Substitute
+|
+|-heal|p2a: Garchomp|15/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|-start|p1a: Snorlax|perish1
+|upkeep
+|turn|22
+|
+|t:|1667678459
+|switch|p1a: Aggron|Aggron, F|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|-heal|p2a: Garchomp|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667678464
+|switch|p1a: Snorlax|Snorlax, F|94/100
+|turn|23
+|
+|t:|1667678468
+|move|p2a: Garchomp|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|11/100
+|move|p1a: Snorlax|Body Slam|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Snorlax|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|faint|p1a: Snorlax
+|
+|upkeep
+|
+|t:|1667678477
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|24
+|
+|t:|1667678480
+|move|p2a: Nidoking|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|25/100
+|move|p1a: Slowking|Psyshock|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|upkeep
+|c|☆IIIodyne|gg
+|
+|t:|1667678487
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|25
+|c|☆Munua|gg
+|
+|t:|1667678491
+|move|p2a: Tyranitar|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|win|Munua
+|n|☆IIIodyne|iiiodyne
+|n|☆Munua|munua
+|n| testingteams888|testingteams888
+|n| Xsage93|xsage93

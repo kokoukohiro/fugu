@@ -1,0 +1,318 @@
+|j|☆T.B Qc
+|j|‽GORAN EL DRACO
+|player|p1|T.B Qc|gambler|1941
+|player|p2|GORAN EL DRACO|n|1774
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|html|<div class="broadcast-blue"><strong>OU is currently suspecting Dracovish! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3664521/">suspect thread</a>.</strong></div>
+|clearpoke
+|poke|p1|Weavile, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Necrozma|
+|poke|p1|Mew|
+|poke|p1|Gengar, M|
+|poke|p1|Cloyster, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Clefable, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Primarina, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|1
+|
+|move|p2a: Salazzle|Sludge Wave|p1a: Mew
+|-damage|p1a: Mew|65/100
+|move|p1a: Mew|Taunt|p2a: Salazzle
+|-start|p2a: Salazzle|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Salazzle|Sludge Wave|p1a: Mew
+|-damage|p1a: Mew|29/100
+|move|p1a: Mew|Stealth Rock|p2a: Salazzle
+|-sidestart|p2: GORAN EL DRACO|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|j| phys2000
+|j| subgenio
+|
+|move|p2a: Salazzle|Sludge Wave|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|4
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Gengar
+|-damage|p1a: Gengar|30/100
+|move|p1a: Gengar|Shadow Ball|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|-damage|p1a: Gengar|20/100|[from] item: Life Orb
+|faint|p2a: Salazzle
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|5
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|11/100
+|-status|p2a: Clefable|psn
+|-damage|p1a: Gengar|10/100|[from] item: Life Orb
+|move|p2a: Clefable|Moonblast|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-heal|p2a: Clefable|17/100 psn|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|6
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|cant|p2a: Clefable|move: Taunt|Wish
+|
+|-heal|p2a: Clefable|23/100 psn|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: T.B Qc|move: Light Screen
+|move|p2a: Clefable|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|69/100
+|
+|-heal|p2a: Clefable|29/100 psn|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: T.B Qc|Reflect
+|move|p2a: Clefable|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|36/100
+|-unboost|p1a: Grimmsnarl|spa|1
+|
+|-heal|p2a: Clefable|35/100 psn|[from] item: Leftovers
+|-end|p2a: Clefable|move: Taunt
+|upkeep
+|turn|9
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|cant|p2a: Clefable|move: Taunt|Teleport
+|
+|-heal|p2a: Clefable|41/100 psn|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Necrozma|Necrozma|100/100
+|move|p2a: Clefable|Moonblast|p1a: Necrozma
+|-damage|p1a: Necrozma|89/100
+|-unboost|p1a: Necrozma|spa|1
+|
+|-heal|p1a: Necrozma|95/100|[from] item: Leftovers
+|-heal|p2a: Clefable|47/100 psn|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|move|p1a: Necrozma|Calm Mind|p1a: Necrozma
+|-boost|p1a: Necrozma|spa|1
+|-boost|p1a: Necrozma|spd|1
+|
+|-heal|p2a: Kommo-o|100/100|[from] item: Leftovers
+|-heal|p1a: Necrozma|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Kommo-o|Toxic|p1a: Necrozma
+|-status|p1a: Necrozma|tox
+|move|p1a: Necrozma|Iron Defense|p1a: Necrozma
+|-boost|p1a: Necrozma|def|2
+|
+|-damage|p1a: Necrozma|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Necrozma|Calm Mind|p1a: Necrozma
+|-boost|p1a: Necrozma|spa|1
+|-boost|p1a: Necrozma|spd|1
+|
+|-heal|p1a: Necrozma|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p1a: Necrozma|88/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Necrozma|Stored Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-heal|p1a: Necrozma|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Necrozma|76/100 tox|[from] psn
+|-sideend|p1: T.B Qc|move: Light Screen
+|upkeep
+|
+|switch|p2a: Primarina|Primarina, F|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Necrozma|Stored Power|p2a: Primarina
+|-damage|p2a: Primarina|16/100
+|move|p2a: Primarina|Calm Mind|p2a: Primarina
+|-boost|p2a: Primarina|spa|1
+|-boost|p2a: Primarina|spd|1
+|
+|-heal|p1a: Necrozma|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Primarina|22/100|[from] item: Leftovers
+|-damage|p1a: Necrozma|58/100 tox|[from] psn
+|-sideend|p1: T.B Qc|Reflect
+|upkeep
+|turn|16
+|
+|move|p1a: Necrozma|Stored Power|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-heal|p1a: Necrozma|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Necrozma|34/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Necrozma|Rest|p1a: Necrozma
+|-status|p1a: Necrozma|slp|[from] move: Rest
+|-heal|p1a: Necrozma|100/100 slp|[silent]
+|move|p2a: Conkeldurr|Knock Off|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|75/100 slp
+|-enditem|p1a: Necrozma|Leftovers|[from] move: Knock Off|[of] p2a: Conkeldurr
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|18
+|
+|cant|p1a: Necrozma|slp
+|move|p2a: Conkeldurr|Facade|p1a: Necrozma
+|-damage|p1a: Necrozma|36/100 slp
+|
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|19
+|l| subgenio
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|move|p2a: Conkeldurr|Facade|p1a: Cloyster
+|-damage|p1a: Cloyster|34/100
+|
+|-damage|p2a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|-damage|p2a: Conkeldurr|75/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|36/100
+|turn|21
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: T.B Qc|Reflect
+|move|p2a: Conkeldurr|Close Combat|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|faint|p1a: Grimmsnarl
+|
+|-damage|p2a: Conkeldurr|69/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|turn|22
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-enditem|p1a: Weavile|Focus Sash
+|-damage|p1a: Weavile|1/100
+|-enditem|p2a: Conkeldurr|Flame Orb|[silent]|[from] ability: Pickpocket|[of] p2a: Conkeldurr
+|-item|p1a: Weavile|Flame Orb|[from] ability: Pickpocket|[of] p2a: Conkeldurr
+|move|p1a: Weavile|Icicle Crash|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|5/100 brn
+|
+|-damage|p2a: Conkeldurr|0 fnt|[from] brn
+|faint|p2a: Conkeldurr
+|-status|p1a: Weavile|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Weavile|Knock Off|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|87/100
+|-enditem|p2a: Kommo-o|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Kommo-o|Iron Defense|p2a: Kommo-o
+|-boost|p2a: Kommo-o|def|2
+|
+|-damage|p1a: Weavile|0 fnt|[from] brn
+|faint|p1a: Weavile
+|upkeep
+|j| OUTZ don2
+|
+|switch|p1a: Necrozma|Necrozma|36/100 slp
+|turn|24
+|
+|move|p2a: Kommo-o|Body Press|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|17/100 slp
+|cant|p1a: Necrozma|slp
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Kommo-o|Body Press|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|win|GORAN EL DRACO
+|l|☆T.B Qc
+|raw|T.B Qc's rating: 1942 &rarr; <strong>1913</strong><br />(-29 for losing)
+|raw|GORAN EL DRACO's rating: 1774 &rarr; <strong>1803</strong><br />(+29 for winning)
+|l|‽GORAN EL DRACO
+|l| OUTZ don2

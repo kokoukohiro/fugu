@@ -1,0 +1,440 @@
+|j|☆drag me in
+|j|☆El Stefano
+|t:|1658175423
+|gametype|singles
+|player|p1|drag me in|102|1686
+|player|p2|El Stefano|265|1709
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Tapu Lele|
+|poke|p1|Tyranitar, F|
+|poke|p1|Zapdos|
+|poke|p1|Buzzwole|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Seismitoad, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Melmetal|
+|poke|p2|Tapu Bulu|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Krookodile, M|
+|poke|p2|Magnezone|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by drag me in)
+|
+|t:|1658175438
+|start
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|switch|p2a: Melmetal|Melmetal|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|1
+|
+|t:|1658175446
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Melmetal|Protect||[still]
+|-fail|p2a: Melmetal
+|
+|upkeep
+|turn|2
+|j| Copoy
+|
+|t:|1658175454
+|move|p1a: Zapdos|Heat Wave|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|45/100
+|-status|p2a: Melmetal|brn
+|move|p2a: Melmetal|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-heal|p2a: Melmetal|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|-damage|p2a: Melmetal|45/100 brn|[from] brn
+|upkeep
+|turn|3
+|l| Copoy
+|
+|t:|1658175472
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1658175478
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Seismitoad|Knock Off|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|90/100
+|-enditem|p2a: Tapu Bulu|Choice Band|[from] move: Knock Off|[of] p1a: Seismitoad
+|
+|-heal|p2a: Tapu Bulu|96/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1658175489
+|switch|p1a: Buzzwole|Buzzwole|100/100
+|move|p2a: Tapu Bulu|Stone Edge|p1a: Buzzwole
+|-damage|p1a: Buzzwole|84/100
+|
+|-heal|p1a: Buzzwole|90/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|100/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1658175501
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Buzzwole|Toxic|p2a: Pelipper
+|-status|p2a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Buzzwole|96/100|[from] Grassy Terrain
+|-damage|p2a: Pelipper|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1658175509
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Pelipper|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|92/100
+|
+|t:|1658175516
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|98/100|[from] Grassy Terrain
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1658175524
+|switch|p1a: Buzzwole|Buzzwole|96/100
+|move|p2a: Tapu Bulu|Wood Hammer|p1a: Buzzwole
+|-resisted|p1a: Buzzwole
+|-damage|p1a: Buzzwole|76/100
+|-damage|p2a: Tapu Bulu|84/100|[from] item: Rocky Helmet|[of] p1a: Buzzwole
+|-damage|p2a: Tapu Bulu|76/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Buzzwole|82/100|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|82/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|j| HaloKappa
+|
+|t:|1658175533
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Buzzwole|Ice Punch|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|45/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1658175546
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Tornadus|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100
+|-damage|p2a: Tornadus|32/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|t:|1658175551
+|switch|p2a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1658175556
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|76/100
+|move|p1a: Ferrothorn|Leech Seed||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p2a: Magnezone|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1658175561
+|move|p2a: Magnezone|Iron Defense|p2a: Magnezone
+|-boost|p2a: Magnezone|def|2
+|move|p1a: Ferrothorn|Spikes|p2a: Magnezone
+|-sidestart|p2: El Stefano|Spikes
+|
+|-heal|p2a: Magnezone|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1658175564
+|move|p2a: Magnezone|Iron Defense|p2a: Magnezone
+|-boost|p2a: Magnezone|def|2
+|move|p1a: Ferrothorn|Spikes|p2a: Magnezone
+|-sidestart|p2: El Stefano|Spikes
+|
+|-heal|p2a: Magnezone|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1658175567
+|move|p2a: Magnezone|Iron Defense|p2a: Magnezone
+|-boost|p2a: Magnezone|def|2
+|move|p1a: Ferrothorn|Spikes|p2a: Magnezone
+|-sidestart|p2: El Stefano|Spikes
+|
+|-heal|p2a: Magnezone|99/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|j| t-yeu
+|
+|t:|1658175571
+|move|p2a: Magnezone|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Magnezone|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Magnezone|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1658175589
+|switch|p1a: Zapdos|Zapdos|94/100 tox
+|turn|16
+|
+|t:|1658175597
+|move|p1a: Zapdos|Heat Wave|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|69/100
+|
+|-heal|p2a: Magnezone|75/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|j| isduffbidfhjgb
+|
+|t:|1658175609
+|move|p1a: Zapdos|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|move: Substitute|[damage]
+|
+|t:|1658175613
+|switch|p1a: Seismitoad|Seismitoad, F|100/100|[from]move: Volt Switch
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-fail|p2a: Magnezone|move: Substitute
+|
+|-heal|p2a: Magnezone|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1658175621
+|switch|p1a: Zapdos|Zapdos|88/100 tox
+|move|p2a: Magnezone|Body Press|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|58/100 tox
+|
+|-heal|p2a: Magnezone|88/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|52/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1658175633
+|move|p1a: Zapdos|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|move: Substitute|[damage]
+|
+|t:|1658175639
+|switch|p1a: Seismitoad|Seismitoad, F|100/100|[from]move: Volt Switch
+|move|p2a: Magnezone|Body Press|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-heal|p2a: Magnezone|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1658175645
+|switch|p1a: Zapdos|Zapdos|52/100 tox
+|turn|20
+|j| whyad
+|
+|t:|1658175653
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100 tox
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-fail|p2a: Magnezone|move: Substitute
+|
+|-heal|p2a: Magnezone|99/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1658175667
+|move|p1a: Zapdos|Heat Wave|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|75/100
+|
+|-heal|p2a: Magnezone|81/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|82/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1658175678
+|move|p1a: Zapdos|Heat Wave|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|56/100
+|
+|-heal|p2a: Magnezone|63/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|64/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1658175689
+|move|p1a: Zapdos|Volt Switch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-activate|p2a: Magnezone|move: Substitute|[damage]
+|
+|t:|1658175694
+|switch|p1a: Buzzwole|Buzzwole|82/100|[from]move: Volt Switch
+|move|p2a: Magnezone|Discharge|p1a: Buzzwole
+|-damage|p1a: Buzzwole|36/100
+|
+|-heal|p2a: Magnezone|69/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1658175704
+|move|p1a: Buzzwole|Roost|p1a: Buzzwole
+|-heal|p1a: Buzzwole|86/100
+|-singleturn|p1a: Buzzwole|move: Roost
+|move|p2a: Magnezone|Discharge|p1a: Buzzwole
+|-damage|p1a: Buzzwole|40/100
+|
+|-heal|p2a: Magnezone|75/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|l| HaloKappa
+|
+|t:|1658175714
+|move|p1a: Buzzwole|Roost|p1a: Buzzwole
+|-heal|p1a: Buzzwole|90/100
+|-singleturn|p1a: Buzzwole|move: Roost
+|move|p2a: Magnezone|Discharge|p1a: Buzzwole
+|-damage|p1a: Buzzwole|40/100
+|-status|p1a: Buzzwole|par
+|
+|-heal|p2a: Magnezone|81/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1658175717
+|move|p2a: Magnezone|Discharge|p1a: Buzzwole
+|-damage|p1a: Buzzwole|0 fnt
+|faint|p1a: Buzzwole
+|
+|-heal|p2a: Magnezone|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1658175722
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|27
+|
+|t:|1658175729
+|move|p1a: Tapu Lele|Calm Mind|p1a: Tapu Lele
+|-boost|p1a: Tapu Lele|spa|1
+|-boost|p1a: Tapu Lele|spd|1
+|move|p2a: Magnezone|Discharge|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|75/100
+|-status|p1a: Tapu Lele|par
+|
+|-heal|p2a: Magnezone|93/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1658175744
+|cant|p1a: Tapu Lele|par
+|move|p2a: Magnezone|Discharge|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|49/100 par
+|
+|-heal|p2a: Magnezone|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1658175754
+|cant|p1a: Tapu Lele|par
+|move|p2a: Magnezone|Discharge|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|26/100 par
+|
+|-heal|p2a: Magnezone|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1658175781
+|cant|p1a: Tapu Lele|par
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-fail|p2a: Magnezone|move: Substitute
+|
+|upkeep
+|turn|31
+|c|☆drag me in|gg
+|
+|t:|1658175790
+|move|p1a: Tapu Lele|Focus Blast|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|move|p2a: Magnezone|Discharge|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1658175794
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|32
+|
+|t:|1658175800
+|move|p1a: Tyranitar|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|47/100
+|move|p2a: Magnezone|Body Press|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Magnezone|53/100|[from] item: Leftovers
+|upkeep
+|-message|drag me in forfeited.
+|
+|win|El Stefano
+|raw|drag me in's rating: 1686 &rarr; <strong>1667</strong><br />(-19 for losing)
+|raw|El Stefano's rating: 1709 &rarr; <strong>1728</strong><br />(+19 for winning)
+|l|☆drag me in

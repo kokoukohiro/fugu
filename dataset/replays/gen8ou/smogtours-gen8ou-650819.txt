@@ -1,0 +1,178 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1664116894
+|gametype|singles
+|player|p1|Akalli|265|
+|player|p2|Antonazz|cyrus-masters|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Melmetal|
+|poke|p1|Dragapult, F|
+|poke|p1|Heatran, F|
+|poke|p1|Zapdos|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Melmetal|
+|poke|p2|Pelipper, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Weavile, F|
+|poke|p2|Volcanion|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|c|☆Akalli|hf
+|c|☆Antonazz|hf
+|inactive|Akalli has 270 seconds left.
+|inactive|Antonazz has 270 seconds left.
+|inactive|Antonazz has 240 seconds left.
+|
+|t:|1664116959
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1664116966
+|move|p2a: Dragapult|Draco Meteor|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Urshifu
+|
+|upkeep
+|
+|t:|1664116969
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|2
+|
+|t:|1664116979
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Melmetal
+|-damage|p2a: Melmetal|72/100
+|-unboost|p2a: Melmetal|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1664116993
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1664116996
+|move|p1a: Heatran|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|move|p2a: Landorus|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Akalli|move: Stealth Rock
+|
+|-damage|p2a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1664117000
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Landorus|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|91/100
+|
+|t:|1664117004
+|switch|p2a: Weavile|Weavile, F|100/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|6
+|
+|t:|1664117008
+|move|p2a: Weavile|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|49/100
+|-status|p2a: Weavile|par|[from] ability: Static|[of] p1a: Zapdos
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Zapdos|Volt Switch|p2a: Weavile
+|-damage|p2a: Weavile|59/100 par
+|
+|t:|1664117022
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1664117027
+|move|p2a: Weavile|Ice Shard|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|33/100
+|move|p1a: Dragapult|U-turn|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|2/100 par
+|
+|t:|1664117032
+|switch|p1a: Melmetal|Melmetal|100/100|[from]move: U-turn
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Melmetal|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1664117035
+|move|p2a: Weavile|Knock Off|p1a: Melmetal
+|-damage|p1a: Melmetal|71/100
+|-enditem|p1a: Melmetal|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Melmetal|Thunder Punch|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1664117044
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|9
+|
+|t:|1664117049
+|move|p2a: Volcanion|Steam Eruption|p1a: Melmetal
+|-damage|p1a: Melmetal|10/100
+|move|p1a: Melmetal|Thunder Punch|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|44/100
+|
+|upkeep
+|turn|10
+|
+|t:|1664117059
+|move|p2a: Volcanion|Flamethrower|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1664117060
+|switch|p1a: Dragapult|Dragapult, F|33/100
+|-damage|p1a: Dragapult|20/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1664117076
+|move|p1a: Dragapult|Flamethrower|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|35/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|c|☆Akalli|gg
+|-message|Akalli forfeited.
+|
+|win|Antonazz

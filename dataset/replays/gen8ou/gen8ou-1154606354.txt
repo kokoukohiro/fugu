@@ -1,0 +1,109 @@
+|j|☆Vxtc
+|j|☆ArcanineSquad
+|player|p1|Vxtc|1|
+|player|p2|ArcanineSquad|cynthia-gen4|
+|teamsize|p1|2
+|teamsize|p2|2
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|clearpoke
+|poke|p1|Azumarill, F|
+|poke|p1|Palossand, M|
+|poke|p2|Clefable, F|
+|poke|p2|Hydreigon, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Palossand|Palossand, M|100/100
+|switch|p2a: Clefable|Clefable, F, shiny|100/100
+|turn|1
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Palossand|Scorching Sands|p2a: Hydreigon
+|-immune|p2a: Hydreigon|[from] ability: Levitate
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Azumarill|Play Rough|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|51/100
+|move|p1a: Azumarill|Play Rough|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|26/100
+|move|p1a: Azumarill|Play Rough|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|1/100
+|-enditem|p2a: Hydreigon|Salac Berry|[eat]
+|-boost|p2a: Hydreigon|spe|1|[from] item: Salac Berry
+|move|p1a: Azumarill|Play Rough|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Hydreigon|Belch|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+|
+|switch|p1a: Palossand|Palossand, M|100/100
+|turn|8
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Palossand|Poltergeist||[still]
+|-fail|p1a: Palossand
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Palossand
+|-supereffective|p1a: Palossand
+|-damage|p1a: Palossand|0 fnt
+|faint|p1a: Palossand
+|
+|win|ArcanineSquad
+|l|☆Vxtc

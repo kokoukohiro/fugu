@@ -1,0 +1,139 @@
+|j|☆PokeDa
+|j|☆georgiethefirst
+|player|p1|PokeDa|wallace|1325
+|player|p2|georgiethefirst|10|1295
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Ludicolo, M|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Diggersby, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Gastrodon, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by georgiethefirst)
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Diggersby|Diggersby, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2a: Diggersby|Wild Charge|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: georgiethefirst|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|34/100
+|-enditem|p2a: Toxapex|Eject Button
+|-damage|p1a: Seismitoad|91/100|[from] item: Life Orb
+|
+|switch|p2a: Diggersby|Diggersby, M|100/100
+|-damage|p2a: Diggersby|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Diggersby|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|42/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|48/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|move|p2a: Diggersby|Earthquake|p1a: Pelipper
+|-immune|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, M|67/100
+|-damage|p2a: Toxapex|55/100|[from] Stealth Rock
+|move|p1a: Pelipper|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|move|p1a: Crawdaunt|Swords Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|2
+|
+|-weather|none
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-enditem|p2a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|91/100|[from] item: Life Orb
+|faint|p2a: Gastrodon
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|85/100
+|-damage|p2a: Toxapex|73/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-damage|p1a: Crawdaunt|81/100|[from] item: Life Orb
+|faint|p2a: Toxapex
+|
+|upkeep
+|-message|georgiethefirst forfeited.
+|
+|win|PokeDa
+|l|☆georgiethefirst
+|raw|PokeDa's rating: 1326 &rarr; <strong>1344</strong><br />(+18 for winning)
+|raw|georgiethefirst's rating: 1295 &rarr; <strong>1272</strong><br />(-23 for losing)

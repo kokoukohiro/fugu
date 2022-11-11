@@ -1,0 +1,309 @@
+|j|☆stopthreat
+|j|☆minimax_ai
+|t:|1663348983
+|gametype|singles
+|player|p1|stopthreat|skier|1716
+|player|p2|minimax_ai|lusamine-nihilego|1723
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Kommo-o, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Mew|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, M|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1663348993
+|start
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|turn|1
+|
+|t:|1663348996
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: landorustherian|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|59/100
+|
+|upkeep
+|turn|2
+|
+|t:|1663348999
+|move|p1a: Volcarona|Fiery Dance|p2a: landorustherian
+|-damage|p2a: landorustherian|61/100
+|-boost|p1a: Volcarona|spa|1
+|move|p2a: landorustherian|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|17/100
+|
+|-heal|p2a: landorustherian|67/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1663349007
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|67/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: landorustherian|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|24/100
+|
+|-heal|p2a: landorustherian|73/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1663349009
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|74/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: landorustherian|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|32/100
+|
+|-heal|p2a: landorustherian|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1663349011
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|82/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: landorustherian|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|38/100
+|
+|-heal|p2a: landorustherian|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1663349012
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|88/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: landorustherian|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|42/100
+|
+|-heal|p2a: landorustherian|91/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1663349015
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|92/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: landorustherian|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|50/100
+|
+|-heal|p2a: landorustherian|97/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1663349016
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|100/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: landorustherian|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|55/100
+|
+|-heal|p2a: landorustherian|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1663349018
+|move|p1a: Volcarona|Fiery Dance|p2a: landorustherian
+|-damage|p2a: landorustherian|49/100
+|-boost|p1a: Volcarona|spa|1
+|move|p2a: landorustherian|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|16/100
+|
+|-heal|p2a: landorustherian|55/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1663349023
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|66/100
+|-singleturn|p1a: Volcarona|move: Roost
+|
+|upkeep
+|turn|11
+|
+|t:|1663349026
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Heatran|Magma Storm|p1a: Volcarona|[miss]
+|-miss|p2a: Heatran|p1a: Volcarona
+|
+|upkeep
+|turn|12
+|
+|t:|1663349028
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Heatran|Magma Storm|p1a: Volcarona|[miss]
+|-miss|p2a: Heatran|p1a: Volcarona
+|
+|upkeep
+|turn|13
+|
+|t:|1663349034
+|switch|p2a: landorustherian|Landorus-Therian, M|55/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: landorustherian|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1663349037
+|move|p1a: Volcarona|Fiery Dance|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|
+|upkeep
+|
+|t:|1663349037
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|15
+|
+|t:|1663349041
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|0
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Heatran|Stealth Rock|p1a: Volcarona
+|-sidestart|p1: stopthreat|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|t:|1663349043
+|move|p1a: Volcarona|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|45/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Magma Storm|p1a: Volcarona
+|-damage|p1a: Volcarona|51/100
+|-activate|p1a: Volcarona|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Volcarona|39/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1663349046
+|move|p1a: Volcarona|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Volcarona|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1663349046
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|18
+|
+|t:|1663349049
+|move|p1a: Volcarona|Fiery Dance|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1663349049
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|turn|19
+|
+|t:|1663349053
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|89/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: rotomwash|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|66/100
+|
+|upkeep
+|turn|20
+|
+|t:|1663349055
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|100/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: rotomwash|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|78/100
+|
+|upkeep
+|turn|21
+|
+|t:|1663349056
+|move|p1a: Volcarona|Psychic|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|faint|p2a: rotomwash
+|
+|upkeep
+|
+|t:|1663349056
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|turn|22
+|
+|t:|1663349058
+|move|p1a: Volcarona|Fiery Dance|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|upkeep
+|
+|t:|1663349058
+|switch|p2a: Melmetal|Melmetal|100/100
+|turn|23
+|
+|t:|1663349060
+|move|p1a: Volcarona|Fiery Dance|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-crit|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|win|stopthreat
+|raw|stopthreat's rating: 1716 &rarr; <strong>1736</strong><br />(+20 for winning)
+|raw|minimax_ai's rating: 1723 &rarr; <strong>1703</strong><br />(-20 for losing)
+|c|☆minimax_ai|gg
+|l|☆minimax_ai
+|c|☆stopthreat|my bad
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

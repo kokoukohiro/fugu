@@ -1,0 +1,412 @@
+|j|☆minimax_ai
+|j|☆Mamaw31180
+|t:|1667854956
+|gametype|singles
+|player|p1|minimax_ai|169|1569
+|player|p2|Mamaw31180|lucas|1595
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Kartana|
+|poke|p2|Blacephalon|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowbro, M|
+|poke|p2|Zapdos|
+|poke|p2|Tyranitar, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1667854970
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|turn|1
+|
+|t:|1667854979
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1667854984
+|switch|p2a: Kartana|Kartana|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|2
+|
+|t:|1667854991
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1667854997
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Blacephalon|atk|1
+|move|p2a: Blacephalon|Shadow Ball|p1a: landorustherian
+|-damage|p1a: landorustherian|47/100
+|
+|-heal|p1a: landorustherian|53/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1667855000
+|move|p2a: Blacephalon|Shadow Ball|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1667855000
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|5
+|
+|t:|1667855009
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Weavile|atk|1
+|move|p1a: Weavile|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|52/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|
+|upkeep
+|turn|6
+|
+|t:|1667855013
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: rotomwash
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1667855016
+|move|p1a: rotomwash|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1667855019
+|switch|p2a: Kartana|Kartana|100/100
+|turn|8
+|
+|t:|1667855024
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1667855027
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|move|p2a: Blacephalon|Shadow Ball|p1a: rotomwash
+|-damage|p1a: rotomwash|19/100
+|-unboost|p1a: rotomwash|spd|1
+|
+|-heal|p1a: rotomwash|25/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1667855030
+|switch|p1a: Melmetal|Melmetal|100/100
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|move|p2a: Blacephalon|Shadow Ball|p1a: Melmetal
+|-damage|p1a: Melmetal|55/100
+|
+|upkeep
+|turn|11
+|
+|t:|1667855034
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Melmetal|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|12
+|
+|t:|1667855038
+|move|p2a: Zapdos|Volt Switch|p1a: Melmetal
+|-damage|p1a: Melmetal|40/100
+|
+|t:|1667855040
+|switch|p2a: Slowbro|Slowbro, M|100/100|[from]move: Volt Switch
+|move|p1a: Melmetal|Ice Punch|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|90/100
+|
+|upkeep
+|turn|13
+|
+|t:|1667855043
+|move|p1a: Melmetal|Thunder Punch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|51/100
+|move|p2a: Slowbro|Body Press|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|6/100
+|
+|upkeep
+|turn|14
+|
+|t:|1667855049
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|85/100
+|-status|p1a: Melmetal|par|[from] ability: Static|[of] p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|69/100
+|-hitcount|p2a: Zapdos|2
+|
+|upkeep
+|turn|15
+|
+|t:|1667855053
+|move|p2a: Zapdos|Volt Switch|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|t:|1667855055
+|switch|p2a: Slowbro|Slowbro, M|85/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|t:|1667855055
+|switch|p1a: rotomwash|Rotom-Wash|25/100
+|-damage|p1a: rotomwash|13/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1667855060
+|move|p1a: rotomwash|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|13/100
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1667855065
+|switch|p2a: Blacephalon|Blacephalon|100/100|[from]move: Teleport
+|
+|-heal|p1a: rotomwash|19/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1667855067
+|move|p2a: Blacephalon|Shadow Ball|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1667855067
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|18
+|
+|t:|1667855075
+|switch|p2a: Zapdos|Zapdos|69/100
+|move|p1a: Weavile|Triple Axel|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|46/100
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|2/100
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-hitcount|p2: Zapdos|3
+|
+|upkeep
+|
+|t:|1667855078
+|switch|p2a: Kartana|Kartana|100/100
+|turn|19
+|
+|t:|1667855081
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Kartana|Smart Strike|p1a: Tangrowth
+|-damage|p1a: Tangrowth|64/100
+|-damage|p2a: Kartana|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|20
+|
+|t:|1667855086
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Tangrowth|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|90/100
+|-enditem|p2a: Tyranitar|Choice Band|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|57/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1667855090
+|move|p2a: Tyranitar|Fire Punch|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|28/100
+|-damage|p2a: Tyranitar|74/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|move|p1a: Tangrowth|Giga Drain|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|38/100
+|-heal|p1a: Tangrowth|43/100|[from] drain|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|37/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1667855093
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Tyranitar|Fire Punch|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1667855096
+|move|p1a: Heatran|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1667855102
+|switch|p2a: Slowbro|Slowbro, M|46/100
+|turn|24
+|
+|t:|1667855105
+|move|p1a: Heatran|Earth Power|p2a: Slowbro
+|-damage|p2a: Slowbro|16/100
+|move|p2a: Slowbro|Body Press|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|35/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-weather|none
+|upkeep
+|turn|25
+|
+|t:|1667855108
+|move|p1a: Heatran|Earth Power|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|upkeep
+|
+|t:|1667855111
+|switch|p2a: Kartana|Kartana|84/100
+|turn|26
+|
+|t:|1667855113
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Tangrowth|Tangrowth, F|70/100
+|-damage|p1a: Tangrowth|58/100|[from] Stealth Rock
+|move|p2a: Kartana|Sacred Sword|p1a: Tangrowth
+|-damage|p1a: Tangrowth|38/100
+|-damage|p2a: Kartana|67/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|27
+|
+|t:|1667855118
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Blacephalon
+|-resisted|p2a: Blacephalon
+|-damage|p2a: Blacephalon|75/100
+|-heal|p1a: Tangrowth|46/100|[from] drain|[of] p2a: Blacephalon
+|
+|upkeep
+|turn|28
+|
+|t:|1667855122
+|switch|p1a: Heatran|Heatran, M|35/100
+|-damage|p1a: Heatran|23/100|[from] Stealth Rock
+|move|p2a: Blacephalon|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1667855122
+|switch|p1a: Weavile|Weavile, M|76/100
+|-damage|p1a: Weavile|51/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|29
+|
+|t:|1667855127
+|move|p1a: Weavile|Triple Axel|p2a: Blacephalon
+|-resisted|p2a: Blacephalon
+|-damage|p2a: Blacephalon|58/100
+|-resisted|p2a: Blacephalon
+|-damage|p2a: Blacephalon|23/100
+|-resisted|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|faint|p2a: Blacephalon
+|-hitcount|p2: Blacephalon|3
+|
+|upkeep
+|
+|t:|1667855133
+|switch|p2a: Kartana|Kartana|67/100
+|turn|30
+|
+|t:|1667855135
+|switch|p1a: Tangrowth|Tangrowth, F|79/100
+|-damage|p1a: Tangrowth|67/100|[from] Stealth Rock
+|move|p2a: Kartana|Smart Strike|p1a: Tangrowth
+|-damage|p1a: Tangrowth|42/100
+|-damage|p2a: Kartana|51/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|31
+|
+|t:|1667855138
+|move|p2a: Kartana|Smart Strike|p1a: Tangrowth
+|-damage|p1a: Tangrowth|19/100
+|-damage|p2a: Kartana|34/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|move|p1a: Tangrowth|Focus Blast|p2a: Kartana
+|-supereffective|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1569 &rarr; <strong>1590</strong><br />(+21 for winning)
+|raw|Mamaw31180's rating: 1595 &rarr; <strong>1574</strong><br />(-21 for losing)
+|c|☆minimax_ai|gg

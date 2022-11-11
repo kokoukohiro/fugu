@@ -1,0 +1,510 @@
+|j|☆Darkortex
+|j|☆mkyn
+|t:|1656192295
+|gametype|singles
+|player|p1|Darkortex|hilbert|1698
+|player|p2|mkyn|morty|1765
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Slowbro, F|
+|poke|p1|Excadrill, M|
+|poke|p2|Sigilyph, M|
+|poke|p2|Krookodile, F|
+|poke|p2|Buzzwole|
+|poke|p2|Blissey, F|
+|poke|p2|Heatran, F|
+|poke|p2|Toxapex, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Darkortex)
+|
+|t:|1656192305
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|1
+|
+|t:|1656192307
+|move|p1a: Tornadus|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|79/100
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Heatran|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: Darkortex|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1656192311
+|move|p1a: Tornadus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|
+|t:|1656192317
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Heatran|Magma Storm|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|72/100
+|-activate|p1a: Tyranitar|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|60/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1656192321
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|84/100
+|-damage|p1a: Tyranitar|43/100|[from] item: Rocky Helmet|[of] p2a: Buzzwole
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Buzzwole|78/100|[from] Sandstorm
+|-end|p1a: Tyranitar|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|4
+|
+|t:|1656192325
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Buzzwole|Toxic|p1a: Slowbro
+|-status|p1a: Slowbro|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Buzzwole|72/100|[from] Sandstorm
+|-damage|p1a: Slowbro|82/100 tox|[from] Sandstorm
+|-damage|p1a: Slowbro|76/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1656192330
+|switch|p2a: Sigilyph|Sigilyph, M|100/100
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1656192336
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100|[from]move: Teleport
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|70/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1656192339
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Tornadus|Knock Off|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|76/100
+|-enditem|p2a: Blissey|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tornadus
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1656192344
+|move|p1a: Tornadus|U-turn|p2a: Blissey
+|-damage|p2a: Blissey|65/100
+|
+|t:|1656192346
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Blissey|atk|1
+|move|p2a: Blissey|Thunder Wave|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1656192348
+|switch|p2a: Sigilyph|Sigilyph, M|100/100
+|move|p1a: Landorus|Defog|p2a: Sigilyph
+|-unboost|p2a: Sigilyph|evasion|1
+|-sideend|p1: Darkortex|Stealth Rock|[from] move: Defog|[of] p1a: Landorus
+|
+|-heal|p1a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1656192352
+|switch|p1a: Slowbro|Slowbro, F|100/100 tox
+|move|p2a: Sigilyph|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|82/100 tox
+|
+|-damage|p1a: Slowbro|76/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1656192357
+|move|p2a: Sigilyph|Energy Ball|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|1/100 tox
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1656192361
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|11
+|
+|t:|1656192365
+|switch|p2a: Heatran|Heatran, F|75/100
+|move|p1a: Tornadus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|72/100
+|
+|t:|1656192367
+|switch|p1a: Tyranitar|Tyranitar, M|43/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1656192371
+|switch|p2a: Buzzwole|Buzzwole|72/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Buzzwole|[miss]
+|-miss|p1a: Tyranitar|p2a: Buzzwole
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Buzzwole|66/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1656192376
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Buzzwole|Roost|p2a: Buzzwole
+|-heal|p2a: Buzzwole|100/100
+|-singleturn|p2a: Buzzwole|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|94/100|[from] Sandstorm
+|-damage|p2a: Buzzwole|94/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1656192380
+|move|p1a: Tornadus|U-turn|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|91/100
+|-damage|p1a: Tornadus|78/100|[from] item: Rocky Helmet|[of] p2a: Buzzwole
+|
+|t:|1656192385
+|switch|p1a: Slowbro|Slowbro, F|34/100 tox|[from]move: U-turn
+|move|p2a: Buzzwole|Toxic|p1a: Slowbro
+|-fail|p1a: Slowbro|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Buzzwole|84/100|[from] Sandstorm
+|-damage|p1a: Slowbro|28/100 tox|[from] Sandstorm
+|-damage|p1a: Slowbro|22/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1656192395
+|switch|p2a: Heatran|Heatran, F|72/100
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1656192400
+|move|p1a: Tornadus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|68/100
+|
+|t:|1656192402
+|switch|p1a: Landorus|Landorus-Therian, M|99/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Darkortex|move: Stealth Rock
+|
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1656192405
+|switch|p2a: Sigilyph|Sigilyph, M|100/100
+|move|p1a: Landorus|Defog|p2a: Sigilyph
+|-unboost|p2a: Sigilyph|evasion|1
+|-sideend|p1: Darkortex|Stealth Rock|[from] move: Defog|[of] p1a: Landorus
+|
+|upkeep
+|turn|18
+|
+|t:|1656192410
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Sigilyph|Ice Beam|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|58/100
+|
+|upkeep
+|turn|19
+|
+|t:|1656192416
+|switch|p2a: Heatran|Heatran, F|68/100
+|move|p1a: Tornadus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|65/100
+|
+|t:|1656192418
+|switch|p1a: Tyranitar|Tyranitar, M|43/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1656192422
+|move|p2a: Heatran|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1656192424
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|21
+|
+|t:|1656192434
+|switch|p2a: Buzzwole|Buzzwole|84/100
+|move|p1a: Excadrill|Earthquake|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Buzzwole|66/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1656192436
+|switch|p1a: Tornadus|Tornadus-Therian, M|91/100
+|move|p2a: Buzzwole|Roost|p2a: Buzzwole
+|-heal|p2a: Buzzwole|100/100
+|-singleturn|p2a: Buzzwole|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|85/100|[from] Sandstorm
+|-damage|p2a: Buzzwole|94/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1656192440
+|switch|p2a: Heatran|Heatran, F|65/100
+|move|p1a: Tornadus|Hurricane|p2a: Heatran|[miss]
+|-miss|p1a: Tornadus|p2a: Heatran
+|
+|-weather|none
+|upkeep
+|turn|24
+|
+|t:|1656192444
+|move|p1a: Tornadus|Hurricane|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|44/100
+|move|p2a: Heatran|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: Darkortex|move: Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|t:|1656192447
+|move|p1a: Tornadus|Hurricane|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|23/100
+|move|p2a: Heatran|Magma Storm|p1a: Tornadus
+|-damage|p1a: Tornadus|52/100
+|-activate|p1a: Tornadus|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Tornadus|40/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|26
+|
+|t:|1656192452
+|move|p1a: Tornadus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|19/100
+|-status|p1a: Tornadus|brn|[from] ability: Flame Body|[of] p2a: Heatran
+|
+|t:|1656192455
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Magma Storm|p1a: Landorus
+|-damage|p1a: Landorus|46/100
+|-activate|p1a: Landorus|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Landorus|52/100|[from] item: Leftovers
+|-damage|p1a: Landorus|40/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|27
+|
+|t:|1656192459
+|move|p2a: Heatran|Magma Storm|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1656192462
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1656192465
+|switch|p2a: Buzzwole|Buzzwole|94/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Buzzwole
+|-damage|p2a: Buzzwole|86/100
+|-boost|p1a: Excadrill|spe|1
+|-damage|p1a: Excadrill|81/100|[from] item: Rocky Helmet|[of] p2a: Buzzwole
+|-sideend|p1: Darkortex|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-heal|p1a: Excadrill|87/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1656192467
+|switch|p1a: Tornadus|Tornadus-Therian, M|73/100 brn
+|move|p2a: Buzzwole|Ice Punch|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|23/100 brn
+|
+|-damage|p1a: Tornadus|17/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1656192474
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Tornadus|Hurricane|p2a: Toxapex|[miss]
+|-miss|p1a: Tornadus|p2a: Toxapex
+|
+|-damage|p1a: Tornadus|10/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1656192479
+|switch|p1a: Slowbro|Slowbro, F|55/100 tox
+|move|p2a: Toxapex|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|15/100 tox
+|-damage|p2a: Toxapex|84/100|[from] item: Rocky Helmet|[of] p1a: Slowbro
+|-enditem|p1a: Slowbro|Rocky Helmet|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-damage|p1a: Slowbro|9/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1656192483
+|move|p2a: Toxapex|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|upkeep
+|
+|t:|1656192486
+|switch|p1a: Excadrill|Excadrill, M|87/100
+|turn|33
+|
+|t:|1656192489
+|switch|p2a: Buzzwole|Buzzwole|86/100
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|-heal|p1a: Excadrill|93/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1656192491
+|move|p1a: Excadrill|Iron Head|p2a: Buzzwole
+|-damage|p2a: Buzzwole|45/100
+|-damage|p1a: Excadrill|76/100|[from] item: Rocky Helmet|[of] p2a: Buzzwole
+|move|p2a: Buzzwole|Drain Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-heal|p2a: Buzzwole|77/100|[from] drain|[of] p1a: Excadrill
+|faint|p1a: Excadrill
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|def|1
+|
+|upkeep
+|
+|t:|1656192496
+|switch|p1a: Tornadus|Tornadus-Therian, M|44/100 brn
+|turn|35
+|
+|t:|1656192501
+|switch|p2a: Blissey|Blissey, F|65/100
+|move|p1a: Tornadus|Hurricane|p2a: Blissey
+|-damage|p2a: Blissey|50/100
+|
+|-damage|p1a: Tornadus|38/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1656192505
+|move|p1a: Tornadus|U-turn|p2a: Blissey
+|-damage|p2a: Blissey|43/100
+|
+|t:|1656192507
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|move|p2a: Blissey|Teleport|p2a: Blissey
+|
+|t:|1656192509
+|switch|p2a: Heatran|Heatran, F|19/100|[from]move: Teleport
+|
+|upkeep
+|turn|37
+|
+|t:|1656192512
+|move|p2a: Heatran|Magma Storm|p1a: Ferrothorn|[miss]
+|-miss|p2a: Heatran|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Body Press|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1656192514
+|switch|p2a: Sigilyph|Sigilyph, M|100/100
+|turn|38
+|
+|t:|1656192518
+|move|p2a: Sigilyph|Heat Wave|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|-message|Darkortex forfeited.
+|
+|win|mkyn
+|raw|Darkortex's rating: 1698 &rarr; <strong>1682</strong><br />(-16 for losing)
+|raw|mkyn's rating: 1765 &rarr; <strong>1781</strong><br />(+16 for winning)
+|l|☆Darkortex
+|j|☆Darkortex
+|player|p1|Darkortex|hilbert

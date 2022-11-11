@@ -1,0 +1,225 @@
+|j|☆Meracx
+|j|☆minimax_ai
+|t:|1661645572
+|gametype|singles
+|player|p1|Meracx|thorton|1683
+|player|p2|minimax_ai|lusamine-nihilego|1616
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Blaziken, F|
+|poke|p1|Moltres-Galar|
+|poke|p1|Dragapult, F|
+|poke|p1|Volcarona, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Rillaboom, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, M|
+|poke|p2|Melmetal|
+|teampreview
+|
+|t:|1661645574
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|turn|1
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1661645582
+|move|p1a: Dragapult|Hydro Pump|p2a: landorustherian
+|-supereffective|p2a: landorustherian
+|-damage|p2a: landorustherian|36/100
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|move|p2a: landorustherian|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|25/100
+|
+|-heal|p2a: landorustherian|42/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c|☆Meracx|hf
+|
+|t:|1661645588
+|move|p1a: Dragapult|Shadow Ball|p2a: landorustherian
+|-damage|p2a: landorustherian|10/100
+|-unboost|p2a: landorustherian|spd|1
+|-damage|p1a: Dragapult|16/100|[from] item: Life Orb
+|move|p2a: landorustherian|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: landorustherian|17/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1661645595
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|3
+|
+|t:|1661645599
+|move|p1a: Ninetales|Freeze-Dry|p2a: landorustherian
+|-supereffective|p2a: landorustherian
+|-crit|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1661645599
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|4
+|
+|t:|1661645604
+|move|p1a: Ninetales|Moonblast|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|94/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Earth Power|p1a: Ninetales
+|-damage|p1a: Ninetales|68/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|87/100|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1661645610
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Meracx|move: Aurora Veil
+|move|p2a: Heatran|Earth Power|p1a: Ninetales
+|-damage|p1a: Ninetales|51/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|81/100|[from] Hail
+|upkeep
+|turn|6
+|
+|t:|1661645612
+|move|p1a: Ninetales|Encore|p2a: Heatran
+|-start|p2a: Heatran|Encore
+|move|p2a: Heatran|Earth Power|p1a: Ninetales
+|-damage|p1a: Ninetales|37/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Heatran|75/100|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1661645616
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|-item|p1a: Blaziken|Air Balloon
+|move|p2a: Heatran|Earth Power|p1a: Blaziken
+|-immune|p1a: Blaziken
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1661645618
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|9
+|
+|t:|1661645622
+|move|p1a: Blaziken|Flare Blitz|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|-damage|p1a: Blaziken|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|faint|p2a: Tangrowth
+|-damage|p1a: Blaziken|40/100|[from] Recoil
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1661645622
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|turn|10
+|
+|t:|1661645625
+|move|p1a: Blaziken|Close Combat|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: rotomwash
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1661645625
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|11
+|
+|t:|1661645628
+|move|p2a: Weavile|Ice Shard|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|23/100
+|-enditem|p1a: Blaziken|Air Balloon
+|move|p1a: Blaziken|Close Combat|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: Weavile
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1661645628
+|switch|p2a: Heatran|Heatran, M|75/100
+|turn|12
+|
+|t:|1661645630
+|move|p1a: Blaziken|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: Heatran
+|
+|-sideend|p1: Meracx|move: Aurora Veil
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1661645630
+|switch|p2a: Melmetal|Melmetal|100/100
+|turn|13
+|
+|t:|1661645632
+|move|p1a: Blaziken|Close Combat|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: Melmetal
+|
+|win|Meracx
+|raw|Meracx's rating: 1683 &rarr; <strong>1698</strong><br />(+15 for winning)
+|raw|minimax_ai's rating: 1599 &rarr; <strong>1584</strong><br />(-15 for losing)
+|c|☆minimax_ai|gg

@@ -1,0 +1,340 @@
+|j|☆maxinyuuu
+|j|☆kwodrunk
+|t:|1657683569
+|gametype|singles
+|player|p1|maxinyuuu|101|1317
+|player|p2|kwodrunk|tuberf|1296
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Melmetal|
+|poke|p1|Porygon2|
+|poke|p1|Cresselia, F|
+|poke|p1|Marowak-Alola, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Heatran, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Magnezone|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Blissey, F|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Slowbro, M|
+|teampreview
+|
+|t:|1657683574
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|1
+|
+|t:|1657683578
+|move|p2a: Magnezone|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-enditem|p1a: Hatterene|Focus Sash
+|-damage|p1a: Hatterene|1/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1657683582
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Magnezone|Flash Cannon|p1: Hatterene|[notarget]
+|-fail|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1657683589
+|switch|p1a: Melmetal|Melmetal|100/100
+|turn|3
+|
+|t:|1657683593
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Melmetal|High Horsepower|p2a: Slowbro
+|-damage|p2a: Slowbro|69/100
+|
+|upkeep
+|turn|4
+|
+|t:|1657683601
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Slowbro|Future Sight|p1a: Heatran
+|-start|p2a: Slowbro|move: Future Sight
+|
+|upkeep
+|turn|5
+|
+|t:|1657683605
+|move|p2a: Slowbro|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|52/100
+|move|p1a: Heatran|Solar Beam||[still]
+|-prepare|p1a: Heatran|Solar Beam
+|-enditem|p1a: Heatran|Power Herb
+|-anim|p1a: Heatran|Solar Beam|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1657683621
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|6
+|
+|t:|1657683626
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Landorus|U-turn|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|73/100
+|-damage|p2a: Landorus|84/100|[from] item: Rocky Helmet|[of] p1a: Cresselia
+|
+|t:|1657683632
+|switch|p2a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|
+|-end|p1a: Cresselia|move: Future Sight
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|60/100
+|upkeep
+|turn|7
+|
+|t:|1657683636
+|move|p2a: Magnezone|Thunderbolt|p1a: Cresselia
+|-damage|p1a: Cresselia|9/100
+|-status|p1a: Cresselia|par
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|8
+|
+|t:|1657683649
+|cant|p1a: Cresselia|par
+|move|p2a: Magnezone|Thunderbolt|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|upkeep
+|
+|t:|1657683656
+|switch|p1a: Marowak|Marowak-Alola, M|100/100
+|turn|9
+|
+|t:|1657683661
+|switch|p2a: Landorus|Landorus-Therian, M|84/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Marowak|atk|1
+|move|p1a: Marowak|Flare Blitz|p2a: Landorus
+|-damage|p2a: Landorus|9/100
+|-status|p2a: Landorus|brn
+|
+|-heal|p2a: Landorus|15/100 brn|[from] item: Leftovers
+|-damage|p2a: Landorus|9/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1657683678
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Marowak|Flare Blitz|p2a: Blissey
+|-damage|p2a: Blissey|44/100
+|
+|upkeep
+|turn|11
+|
+|t:|1657683685
+|move|p1a: Marowak|Flare Blitz|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1657683690
+|switch|p2a: Landorus|Landorus-Therian, M|9/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Marowak|atk|1
+|turn|12
+|
+|t:|1657683698
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|move|p2a: Landorus|U-turn|p1a: Porygon2
+|-damage|p1a: Porygon2|91/100
+|
+|t:|1657683703
+|switch|p2a: Zapdos|Zapdos-Galar|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|13
+|
+|t:|1657683709
+|move|p2a: Zapdos|Thunderous Kick|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|2/100
+|-unboost|p1a: Porygon2|def|1
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|14
+|
+|t:|1657683716
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Porygon2|Ice Beam|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|81/100
+|
+|upkeep
+|turn|15
+|
+|t:|1657683726
+|switch|p1a: Marowak|Marowak-Alola, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|9/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Marowak|atk|1
+|
+|-heal|p2a: Landorus|15/100 brn|[from] item: Leftovers
+|-damage|p2a: Landorus|9/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1657683729
+|move|p1a: Marowak|Power-Up Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-boost|p1a: Marowak|atk|1
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1657683736
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|17
+|
+|t:|1657683741
+|switch|p2a: Magnezone|Magnezone|81/100
+|move|p1a: Marowak|Poltergeist|p2a: Magnezone|[miss]
+|-miss|p1a: Marowak|p2a: Magnezone
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|18
+|
+|t:|1657683749
+|switch|p1a: Porygon2|Porygon2|2/100
+|-heal|p1a: Porygon2|100/100|[from] move: Healing Wish
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|move|p2a: Magnezone|Thunderbolt|p1a: Porygon2
+|-damage|p1a: Porygon2|64/100
+|
+|upkeep
+|turn|19
+|
+|t:|1657683756
+|move|p2a: Magnezone|Thunderbolt|p1a: Porygon2
+|-damage|p1a: Porygon2|26/100
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|20
+|
+|t:|1657683761
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|move|p1a: Porygon2|Teleport|p1a: Porygon2
+|
+|t:|1657683764
+|switch|p1a: Melmetal|Melmetal|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|21
+|
+|t:|1657683767
+|switch|p2a: Magnezone|Magnezone|81/100
+|move|p1a: Melmetal|High Horsepower|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1657683772
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|22
+|
+|t:|1657683777
+|switch|p1a: Marowak|Marowak-Alola, M|100/100
+|move|p2a: Zapdos|U-turn|p1a: Marowak
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|92/100
+|
+|t:|1657683780
+|switch|p2a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|upkeep
+|turn|23
+|
+|t:|1657683786
+|move|p1a: Marowak|Poltergeist|p2a: Tapu Lele
+|-activate|p2a: Tapu Lele|move: Poltergeist|Choice Scarf
+|-supereffective|p2a: Tapu Lele
+|-crit|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1657683789
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|24
+|
+|t:|1657683791
+|move|p2a: Zapdos|Brave Bird|p1a: Marowak
+|-crit|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|-damage|p2a: Zapdos|70/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1657683795
+|switch|p1a: Melmetal|Melmetal|100/100
+|turn|25
+|
+|t:|1657683797
+|move|p2a: Zapdos|Brave Bird|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|74/100
+|-damage|p2a: Zapdos|58/100|[from] Recoil
+|move|p1a: Melmetal|Double Iron Bash|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-hitcount|p2: Zapdos|1
+|
+|win|maxinyuuu
+|raw|maxinyuuu's rating: 1317 &rarr; <strong>1336</strong><br />(+19 for winning)
+|raw|kwodrunk's rating: 1296 &rarr; <strong>1273</strong><br />(-23 for losing)
+|l|☆kwodrunk
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

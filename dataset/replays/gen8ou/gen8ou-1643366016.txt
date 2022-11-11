@@ -1,0 +1,501 @@
+|j|☆cump4
+|j|☆Kwaga
+|t:|1660930068
+|gametype|singles
+|player|p1|cump4|pilot|1668
+|player|p2|Kwaga|bruno-gen3|1643
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Heatran, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Magnezone|
+|poke|p1|Dragapult, F|
+|poke|p1|Latios, M|
+|poke|p1|Rillaboom, F|
+|poke|p2|Weavile, F|
+|poke|p2|Melmetal|
+|poke|p2|Buzzwole|
+|poke|p2|Zapdos|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tapu Fini|
+|teampreview
+|
+|t:|1660930077
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|1
+|
+|t:|1660930082
+|move|p2a: Landorus|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|move|p1a: Landorus|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|
+|-damage|p2a: Landorus|94/100 tox|[from] psn
+|-damage|p1a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1660930088
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|87/100 tox
+|
+|t:|1660930091
+|switch|p1a: Heatran|Heatran, F|100/100|[from]move: U-turn
+|move|p2a: Landorus|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|98/100
+|
+|t:|1660930095
+|switch|p2a: Buzzwole|Buzzwole|100/100|[from]move: U-turn
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1660930101
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Buzzwole|Close Combat|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1660930108
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1660930119
+|switch|p1a: Magnezone|Magnezone, shiny|100/100
+|move|p2a: Tapu Fini|Moonblast|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-crit|p1a: Magnezone
+|-damage|p1a: Magnezone|72/100
+|
+|-heal|p1a: Magnezone|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1660930125
+|switch|p2a: Landorus|Landorus-Therian, M|87/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magnezone|atk|1
+|move|p1a: Magnezone|Magnet Rise|p1a: Magnezone
+|-start|p1a: Magnezone|Magnet Rise
+|
+|-heal|p2a: Landorus|93/100 tox|[from] item: Leftovers
+|-heal|p1a: Magnezone|84/100|[from] item: Leftovers
+|-damage|p2a: Landorus|87/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1660930135
+|move|p2a: Landorus|U-turn|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|76/100
+|
+|t:|1660930137
+|switch|p2a: Buzzwole|Buzzwole|100/100|[from]move: U-turn
+|move|p1a: Magnezone|Discharge|p2a: Buzzwole
+|-damage|p2a: Buzzwole|46/100
+|
+|-heal|p1a: Magnezone|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1660930143
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|move|p2a: Buzzwole|Ice Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1660930145
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|turn|9
+|
+|t:|1660930152
+|switch|p1a: Magnezone|Magnezone, shiny|83/100
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|
+|-heal|p1a: Magnezone|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1660930158
+|switch|p2a: Landorus|Landorus-Therian, M|87/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magnezone|atk|1
+|move|p1a: Magnezone|Discharge|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p2a: Landorus|93/100 tox|[from] item: Leftovers
+|-heal|p1a: Magnezone|95/100|[from] item: Leftovers
+|-damage|p2a: Landorus|87/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1660930163
+|switch|p1a: Landorus|Landorus-Therian, M|94/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|88/100 tox
+|
+|t:|1660930169
+|switch|p2a: Weavile|Weavile, F|100/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|-heal|p1a: Landorus|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|88/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1660930172
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Weavile|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|50/100
+|-enditem|p1a: Heatran|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|
+|upkeep
+|turn|13
+|
+|t:|1660930183
+|switch|p2a: Landorus|Landorus-Therian, M|87/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Kwaga|move: Stealth Rock
+|
+|-heal|p2a: Landorus|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|87/100 tox|[from] psn
+|-fieldend|Misty Terrain
+|upkeep
+|turn|14
+|
+|t:|1660930189
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Landorus|Stealth Rock|p1a: Heatran
+|-sidestart|p1: cump4|move: Stealth Rock
+|
+|-heal|p2a: Landorus|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|81/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1660930194
+|switch|p1a: Landorus|Landorus-Therian, M|88/100 tox
+|-damage|p1a: Landorus|75/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|68/100 tox
+|
+|t:|1660930202
+|switch|p2a: Weavile|Weavile, F|100/100|[from]move: U-turn
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|
+|-heal|p1a: Landorus|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|68/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1660930209
+|switch|p1a: Heatran|Heatran, F|50/100
+|-damage|p1a: Heatran|37/100|[from] Stealth Rock
+|move|p2a: Weavile|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|4/100
+|-status|p2a: Weavile|brn|[from] ability: Flame Body|[of] p1a: Heatran
+|
+|-damage|p2a: Weavile|70/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1660930213
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Weavile|Knock Off|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-damage|p2a: Weavile|63/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1660930215
+|move|p2a: Weavile|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-damage|p2a: Weavile|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1660930225
+|switch|p1a: Magnezone|Magnezone, shiny|95/100
+|-damage|p1a: Magnezone|89/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1660930232
+|move|p2a: Weavile|Knock Off|p1a: Magnezone
+|-damage|p1a: Magnezone|63/100
+|-enditem|p1a: Magnezone|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Magnezone|Body Press|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1660930240
+|switch|p2a: Buzzwole|Buzzwole|46/100
+|-damage|p2a: Buzzwole|34/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1660930250
+|switch|p1a: Landorus|Landorus-Therian, M|68/100 tox
+|-damage|p1a: Landorus|56/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Buzzwole|atk|1
+|move|p2a: Buzzwole|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|22/100 tox
+|-unboost|p2a: Buzzwole|def|1
+|-unboost|p2a: Buzzwole|spd|1
+|
+|-heal|p1a: Landorus|28/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|22/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1660930254
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Buzzwole|Close Combat|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|46/100
+|-unboost|p2a: Buzzwole|def|1
+|-unboost|p2a: Buzzwole|spd|1
+|
+|upkeep
+|turn|22
+|
+|t:|1660930260
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-damage|p2a: Tapu Fini|88/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Latios|Psyshock|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|46/100
+|
+|-heal|p2a: Tapu Fini|52/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1660930269
+|switch|p1a: Landorus|Landorus-Therian, M|22/100 tox
+|-damage|p1a: Landorus|10/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tapu Fini|atk|1
+|switch|p2a: Buzzwole|Buzzwole|34/100
+|-damage|p2a: Buzzwole|21/100|[from] Stealth Rock
+|
+|-heal|p1a: Landorus|16/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|10/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1660930279
+|move|p2a: Buzzwole|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Buzzwole|def|1
+|-unboost|p2a: Buzzwole|spd|1
+|faint|p1a: Landorus
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|upkeep
+|
+|t:|1660930283
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|25
+|
+|t:|1660930286
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|75/100
+|
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|upkeep
+|turn|26
+|
+|t:|1660930289
+|switch|p1a: Latios|Latios, M, shiny|46/100
+|-damage|p1a: Latios|33/100|[from] Stealth Rock
+|move|p2a: Zapdos|Defog|p1a: Latios
+|-unboost|p1a: Latios|evasion|1
+|-sideend|p1: cump4|Stealth Rock|[from] move: Defog|[of] p2a: Zapdos
+|-sideend|p2: Kwaga|Stealth Rock|[from] move: Defog|[of] p2a: Zapdos
+|-fieldend|move: Grassy Terrain
+|
+|upkeep
+|turn|27
+|
+|t:|1660930302
+|switch|p2a: Landorus|Landorus-Therian, M|81/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|move|p1a: Latios|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|9/100 tox
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Landorus|15/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|9/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1660930306
+|move|p1a: Latios|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1660930311
+|switch|p2a: Melmetal|Melmetal|100/100
+|turn|29
+|
+|t:|1660930314
+|switch|p1a: Rillaboom|Rillaboom, F|94/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Melmetal|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|82/100
+|
+|-heal|p1a: Rillaboom|88/100|[from] Grassy Terrain
+|upkeep
+|turn|30
+|
+|t:|1660930318
+|switch|p2a: Zapdos|Zapdos|75/100
+|move|p1a: Rillaboom|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|
+|t:|1660930320
+|switch|p1a: Latios|Latios, M, shiny|33/100|[from]move: U-turn
+|
+|upkeep
+|turn|31
+|
+|t:|1660930325
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Latios|Psyshock|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|82/100
+|
+|-heal|p2a: Melmetal|88/100|[from] Grassy Terrain
+|-heal|p2a: Melmetal|94/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1660930329
+|switch|p1a: Magnezone|Magnezone, shiny|63/100
+|move|p2a: Melmetal|Earthquake|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-heal|p2a: Melmetal|99/100|[from] Grassy Terrain
+|-heal|p2a: Melmetal|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1660930332
+|switch|p1a: Rillaboom|Rillaboom, F|88/100
+|turn|33
+|
+|t:|1660930339
+|switch|p2a: Buzzwole|Buzzwole|21/100
+|move|p1a: Rillaboom|Superpower|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1a: Rillaboom|def|1
+|faint|p2a: Buzzwole
+|
+|-heal|p1a: Rillaboom|95/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1660930345
+|switch|p2a: Melmetal|Melmetal|100/100
+|turn|34
+|
+|t:|1660930350
+|switch|p1a: Latios|Latios, M, shiny|33/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|-hitcount|p1: Latios|1
+|
+|upkeep
+|
+|t:|1660930352
+|switch|p1a: Rillaboom|Rillaboom, F|95/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|35
+|
+|t:|1660930355
+|switch|p2a: Tapu Fini|Tapu Fini|52/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Rillaboom|Superpower|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|26/100
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1a: Rillaboom|def|1
+|
+|-heal|p2a: Tapu Fini|33/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|c|☆cump4|gg
+|-message|cump4 forfeited.
+|
+|win|Kwaga
+|raw|cump4's rating: 1668 &rarr; <strong>1647</strong><br />(-21 for losing)
+|raw|Kwaga's rating: 1643 &rarr; <strong>1664</strong><br />(+21 for winning)

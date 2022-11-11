@@ -1,0 +1,316 @@
+|j|☆erkikemelo
+|j|☆PokeDa
+|player|p1|erkikemelo|1|1180
+|player|p2|PokeDa|wallace|1231
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Slurpuff, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Mr. Rime, F|
+|poke|p1|Roserade, M|
+|poke|p1|Bisharp, F|
+|poke|p2|Gengar, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Hippowdon, F|
+|poke|p2|Jellicent, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by erkikemelo)
+|
+|start
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|-item|p1a: Pincurchin|Air Balloon
+|turn|1
+|
+|move|p2a: Hippowdon|Stealth Rock|p1a: Pincurchin
+|-sidestart|p1: erkikemelo|move: Stealth Rock
+|move|p1a: Pincurchin|Liquidation|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|48/100
+|-unboost|p2a: Hippowdon|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pincurchin|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|54/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Pincurchin|Toxic Spikes|p2a: Jellicent
+|-sidestart|p2: PokeDa|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-damage|p1a: Pincurchin|88/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|move|p1a: Pincurchin|Zing Zap|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pincurchin|82/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Pincurchin
+|-damage|p1a: Pincurchin|59/100
+|-enditem|p1a: Pincurchin|Air Balloon
+|-sideend|p2: PokeDa|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|move|p1a: Pincurchin|Liquidation|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|28/100
+|-unboost|p2a: Excadrill|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pincurchin|53/100|[from] Sandstorm
+|-heal|p2a: Excadrill|35/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Pincurchin|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|inactive|PokeDa has 120 seconds left.
+|
+|switch|p2a: Gengar|Gengar, M, shiny|100/100
+|turn|6
+|inactive|PokeDa has 120 seconds left.
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|move|p1a: Pincurchin|Zing Zap|p2a: Obstagoon
+|-damage|p2a: Obstagoon|62/100
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|inactive|PokeDa has 120 seconds left.
+|
+|switch|p1a: Roserade|Roserade, M|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|move|p2a: Obstagoon|Facade|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-damage|p2a: Obstagoon|56/100 brn|[from] brn
+|upkeep
+|inactive|erkikemelo has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|8
+|inactive|PokeDa has 120 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|70/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|-heal|p2a: Corviknight|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|PokeDa has 120 seconds left.
+|
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|48/100
+|-damage|p2a: Corviknight|63/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Mr. Rime|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|-sideend|p1: erkikemelo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Mr. Rime
+|-boost|p1a: Mr. Rime|spe|1
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Mr. Rime|Encore|p2a: Corviknight
+|-start|p2a: Corviknight|Encore
+|move|p2a: Corviknight|Roost||[still]
+|-fail|p2a: Corviknight|heal
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Mr. Rime|Thunderbolt|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|58/100
+|
+|-heal|p2a: Jellicent|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|PokeDa has 90 seconds left.
+|
+|switch|p2a: Hippowdon|Hippowdon, F|54/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mr. Rime|42/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|13/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mr. Rime|36/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M, shiny|100/100
+|turn|15
+|
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Gengar
+|-damage|p2a: Gengar|47/100
+|move|p2a: Gengar|Shadow Ball|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|0 fnt
+|faint|p1a: Mr. Rime
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|41/100|[from] Sandstorm
+|-heal|p2a: Gengar|47/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Pincurchin|Pincurchin, M|53/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|16
+|inactive|PokeDa has 90 seconds left.
+|
+|switch|p2a: Obstagoon|Obstagoon, M|56/100 brn
+|move|p1a: Pincurchin|Sucker Punch||[still]
+|-fail|p1a: Pincurchin
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Obstagoon|50/100 brn|[from] Sandstorm
+|-damage|p1a: Pincurchin|47/100|[from] Sandstorm
+|-damage|p2a: Obstagoon|44/100 brn|[from] brn
+|upkeep
+|turn|17
+|inactive|PokeDa has 90 seconds left.
+|
+|move|p1a: Pincurchin|Sucker Punch||[still]
+|-fail|p1a: Pincurchin
+|move|p2a: Obstagoon|Bulk Up|p2a: Obstagoon
+|-boost|p2a: Obstagoon|atk|1
+|-boost|p2a: Obstagoon|def|1
+|
+|-weather|none
+|-damage|p2a: Obstagoon|38/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Obstagoon|Facade|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-damage|p2a: Obstagoon|31/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Slurpuff|Slurpuff, F|100/100
+|-enditem|p1a: Slurpuff|Electric Seed
+|-boost|p1a: Slurpuff|def|1
+|turn|19
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Obstagoon
+|-supereffective|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|faint|p2a: Obstagoon
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|20
+|
+|move|p1a: Slurpuff|Calm Mind|p1a: Slurpuff
+|-boost|p1a: Slurpuff|spa|1
+|-boost|p1a: Slurpuff|spd|1
+|move|p2a: Corviknight|Brave Bird|p1a: Slurpuff
+|-crit|p1a: Slurpuff
+|-damage|p1a: Slurpuff|35/100
+|-damage|p2a: Corviknight|84/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|90/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|21
+|inactive|PokeDa has 90 seconds left.
+|
+|move|p1a: Slurpuff|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|35/100
+|move|p2a: Corviknight|Brave Bird|p1a: Slurpuff
+|-damage|p1a: Slurpuff|3/100
+|-damage|p2a: Corviknight|27/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|33/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|PokeDa has 90 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, F|65/100
+|move|p1a: Slurpuff|Flamethrower|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|48/100
+|
+|-heal|p2a: Jellicent|54/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆erkikemelo|no crits today
+|inactive|PokeDa has 90 seconds left.
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Jellicent
+|-damage|p2a: Jellicent|9/100
+|move|p2a: Jellicent|Strength Sap|p1a: Slurpuff
+|-unboost|p1a: Slurpuff|atk|1
+|-heal|p2a: Jellicent|46/100
+|
+|-heal|p2a: Jellicent|52/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|PokeDa has 90 seconds left.
+|-message|PokeDa forfeited.
+|
+|win|erkikemelo
+|l|☆PokeDa

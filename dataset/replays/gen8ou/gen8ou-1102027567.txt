@@ -1,0 +1,199 @@
+|j|☆slimyquagsire
+|j|☆JoJo321
+|player|p1|slimyquagsire|burglar-gen1rb|1566
+|player|p2|JoJo321|1|1514
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Kyurem|
+|poke|p1|Excadrill, F|
+|poke|p1|Hippowdon, M|
+|poke|p1|Clefable, F|
+|poke|p1|Corviknight, M|
+|poke|p2|Obstagoon, F|
+|poke|p2|Clefable, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Dracozolt|
+|poke|p2|Seismitoad, F|
+|poke|p2|Ferrothorn, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Clefable|Clefable, M|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|1
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|60/100
+|-unboost|p1a: Excadrill|spa|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|20/100
+|move|p2a: Corviknight|U-turn|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|89/100
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Obstagoon|94/100|[from] Sandstorm
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|move|p2a: Obstagoon|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|67/100
+|-damage|p2a: Obstagoon|78/100 brn|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|-enditem|p1a: Hippowdon|Rocky Helmet|[from] move: Knock Off|[of] p2a: Obstagoon
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Obstagoon|72/100 brn|[from] Sandstorm
+|-damage|p2a: Obstagoon|66/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Hippowdon|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|77/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Seismitoad|Toxic|p1a: Kyurem
+|-status|p1a: Kyurem|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|94/100 tox|[from] Sandstorm
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Excadrill|Excadrill, F|60/100
+|switch|p2a: Corviknight|Corviknight, M|20/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|none
+|-heal|p2a: Corviknight|27/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Corviknight|[miss]
+|-miss|p1a: Excadrill|p2a: Corviknight
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|77/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Corviknight|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|50/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Cinderace|Cinderace, F|89/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|61/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Seismitoad|Seismitoad, F|83/100
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|57/100
+|
+|switch|p1a: Kyurem|Kyurem|88/100 tox|[from]move: U-turn
+|-ability|p1a: Kyurem|Pressure
+|
+|-heal|p2a: Seismitoad|63/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Kyurem|Freeze-Dry|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Kyurem|70/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|14
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Dracozolt|Substitute|p2a: Dracozolt
+|-start|p2a: Dracozolt|Substitute
+|-damage|p2a: Dracozolt|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracozolt|69/100|[from] Sandstorm
+|-heal|p2a: Dracozolt|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Dracozolt|Dragon Claw|p1a: Hippowdon|[miss]
+|-miss|p2a: Dracozolt|p1a: Hippowdon
+|move|p1a: Hippowdon|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-end|p2a: Dracozolt|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracozolt|69/100|[from] Sandstorm
+|-heal|p2a: Dracozolt|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|-message|JoJo321 forfeited.
+|
+|win|slimyquagsire
+|l|☆JoJo321

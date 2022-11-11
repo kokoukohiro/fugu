@@ -1,0 +1,264 @@
+|j|☆Out of Eden
+|j|☆minimax_ai
+|t:|1662262225
+|gametype|singles
+|player|p1|Out of Eden|youngcouple-gen4dp|1296
+|player|p2|minimax_ai|lusamine-nihilego|1302
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Shiftry, M|
+|poke|p1|Tapu Fini|
+|poke|p1|Venusaur, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Blaziken, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, M|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|c|☆Out of Eden|hf
+|
+|t:|1662262236
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1662262241
+|move|p2a: landorustherian|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|49/100
+|move|p1a: Torkoal|Stealth Rock|p2a: landorustherian
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1662262248
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: landorustherian|Earthquake|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|55/100
+|-enditem|p1a: Tapu Fini|Eject Button
+|
+|t:|1662262250
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1662262252
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: landorustherian|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1662262255
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Venusaur|Giga Drain|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|67/100
+|-heal|p1a: Venusaur|47/100|[from] drain|[of] p2a: Heatran
+|-enditem|p2a: Heatran|Air Balloon
+|-damage|p1a: Venusaur|37/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1662262257
+|move|p1a: Venusaur|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-damage|p1a: Venusaur|27/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1662262257
+|switch|p2a: Weavile|Weavile, F|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|6
+|
+|t:|1662262262
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|move|p2a: Weavile|Ice Shard|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Blaziken|84/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|7
+|
+|t:|1662262264
+|move|p2a: Weavile|Ice Shard|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|62/100
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Blaziken|68/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|8
+|
+|t:|1662262270
+|move|p2a: Weavile|Ice Shard|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|49/100
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-weather|none
+|-heal|p1a: Blaziken|55/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|9
+|
+|t:|1662262272
+|move|p2a: Weavile|Ice Shard|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|36/100
+|move|p1a: Blaziken|Close Combat|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: Weavile
+|
+|-heal|p1a: Blaziken|42/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1662262272
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p2a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Blaziken|atk|1
+|turn|10
+|
+|t:|1662262274
+|move|p1a: Blaziken|Flare Blitz|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|-damage|p1a: Blaziken|9/100|[from] Recoil
+|
+|-heal|p1a: Blaziken|15/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1662262274
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1662262277
+|move|p1a: Blaziken|Flare Blitz|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|-damage|p1a: Blaziken|0 fnt|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|faint|p2a: Tangrowth
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1662262280
+|switch|p1a: Torkoal|Torkoal, M|49/100
+|switch|p2a: Melmetal|Melmetal|100/100
+|-damage|p2a: Melmetal|94/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|12
+|
+|t:|1662262283
+|move|p2a: Melmetal|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|5/100
+|move|p1a: Torkoal|Lava Plume|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1662262285
+|move|p2a: Melmetal|Ice Punch|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1662262289
+|switch|p1a: Venusaur|Venusaur, M|27/100
+|turn|14
+|
+|t:|1662262290
+|move|p1a: Venusaur|Weather Ball|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|-damage|p1a: Venusaur|17/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1662262290
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|-damage|p2a: rotomwash|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1662262292
+|move|p1a: Venusaur|Giga Drain|p2a: rotomwash
+|-supereffective|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|-heal|p1a: Venusaur|62/100|[from] drain|[of] p2a: rotomwash
+|faint|p2a: rotomwash
+|-damage|p1a: Venusaur|52/100|[from] item: Life Orb
+|
+|win|Out of Eden
+|raw|Out of Eden's rating: 1296 &rarr; <strong>1321</strong><br />(+25 for winning)
+|raw|minimax_ai's rating: 1302 &rarr; <strong>1282</strong><br />(-20 for losing)
+|c|☆minimax_ai|gg
+|l|☆minimax_ai
+|c|☆Out of Eden|gg
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

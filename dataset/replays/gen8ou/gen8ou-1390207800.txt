@@ -1,0 +1,371 @@
+|j|☆mediicant
+|j|☆corumba
+|t:|1628101972
+|gametype|singles
+|player|p1|mediicant|cameraman|1614
+|player|p2|corumba|265|1604
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Marowak-Alola, F|
+|poke|p1|Melmetal|
+|poke|p1|Cresselia, F|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Porygon2|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Mew|
+|poke|p2|Tapu Fini|
+|poke|p2|Tapu Koko|
+|poke|p2|Nidoqueen, F|
+|teampreview
+|
+|t:|1628102005
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|t:|1628102010
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Mew|Spikes|p1a: Hatterene
+|move|p1a: Hatterene|Spikes|p2a: Mew|[from]ability: Magic Bounce
+|-sidestart|p2: corumba|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1628102013
+|move|p2a: Mew|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|84/100
+|-enditem|p1a: Hatterene|Focus Sash|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|3
+|
+|t:|1628102017
+|switch|p1a: Marowak|Marowak-Alola, F|100/100
+|move|p2a: Mew|Knock Off|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|57/100
+|-enditem|p1a: Marowak|Thick Club|[from] move: Knock Off|[of] p2a: Mew
+|
+|upkeep
+|turn|4
+|
+|t:|1628102022
+|move|p1a: Marowak|Flare Blitz|p2a: Mew
+|-damage|p2a: Mew|59/100
+|move|p2a: Mew|Knock Off|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|27/100
+|
+|-heal|p2a: Mew|65/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j| ppev
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mediicant)
+|
+|t:|1628102031
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Marowak|Poltergeist|p2a: Tornadus
+|-activate|p2a: Tornadus|move: Poltergeist|Heavy-Duty Boots
+|-damage|p2a: Tornadus|61/100
+|
+|upkeep
+|turn|6
+|
+|t:|1628102036
+|move|p1a: Marowak|Poltergeist|p2a: Tornadus|[miss]
+|-miss|p1a: Marowak|p2a: Tornadus
+|move|p2a: Tornadus|Knock Off|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|1/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1628102042
+|move|p2a: Tornadus|Knock Off|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|upkeep
+|
+|t:|1628102045
+|switch|p1a: Melmetal|Melmetal|100/100
+|turn|8
+|
+|t:|1628102051
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Spikes
+|move|p1a: Melmetal|Thunder Punch|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|24/100
+|-damage|p1a: Melmetal|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Heatran|30/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1628102056
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Flash Fire|[from] ability: Trace|[of] p2a: Heatran
+|move|p2a: Heatran|Magma Storm|p1a: Porygon2
+|-start|p1a: Porygon2|ability: Flash Fire
+|
+|-heal|p2a: Heatran|36/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1628102062
+|move|p2a: Heatran|Taunt|p1a: Porygon2
+|-start|p1a: Porygon2|move: Taunt
+|cant|p1a: Porygon2|move: Taunt|Trick Room
+|
+|-heal|p2a: Heatran|42/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1628102066
+|move|p2a: Heatran|Toxic|p1a: Porygon2
+|-status|p1a: Porygon2|tox
+|move|p1a: Porygon2|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|25/100
+|
+|-heal|p2a: Heatran|32/100|[from] item: Leftovers
+|-damage|p1a: Porygon2|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1628102070
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|-damage|p2a: Nidoqueen|88/100|[from] Spikes
+|-end|p1a: Porygon2|ability: Flash Fire|[silent]
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|
+|-heal|p2a: Nidoqueen|94/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1628102076
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-damage|p2a: Tapu Fini|88/100|[from] Spikes
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|switch|p1a: Melmetal|Melmetal|91/100
+|
+|-heal|p2a: Tapu Fini|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1628102083
+|switch|p2a: Heatran|Heatran, M|32/100
+|-damage|p2a: Heatran|19/100|[from] Spikes
+|move|p1a: Melmetal|Double Iron Bash|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|8/100
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-hitcount|p2: Heatran|2
+|-damage|p1a: Melmetal|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1628102088
+|switch|p2a: Nidoqueen|Nidoqueen, F|94/100
+|-damage|p2a: Nidoqueen|82/100|[from] Spikes
+|turn|15
+|
+|t:|1628102094
+|move|p2a: Nidoqueen|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: mediicant|move: Stealth Rock
+|move|p1a: Melmetal|Double Iron Bash|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|22/100
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|-hitcount|p2: Nidoqueen|2
+|-damage|p1a: Melmetal|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1628102103
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|16
+|
+|t:|1628102109
+|switch|p1a: Porygon2|Porygon2|94/100 tox
+|-damage|p1a: Porygon2|82/100 tox|[from] Stealth Rock
+|-ability|p1a: Porygon2|Electric Surge|[from] ability: Trace|[of] p2a: Tapu Koko
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Porygon2
+|-crit|p1a: Porygon2
+|-damage|p1a: Porygon2|50/100 tox
+|
+|-damage|p1a: Porygon2|44/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1628102116
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Porygon2
+|-damage|p1a: Porygon2|22/100 tox
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|-damage|p1a: Porygon2|9/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1628102123
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|upkeep
+|
+|t:|1628102124
+|switch|p1a: Melmetal|Melmetal|71/100
+|-damage|p1a: Melmetal|65/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1628102131
+|move|p1a: Melmetal|Double Iron Bash|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|26/100
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|-hitcount|p2: Tapu Koko|2
+|-damage|p1a: Melmetal|55/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1628102135
+|switch|p2a: Mew|Mew|65/100
+|-damage|p2a: Mew|52/100|[from] Spikes
+|turn|20
+|
+|t:|1628102149
+|move|p1a: Melmetal|Double Iron Bash|p2a: Mew
+|-damage|p2a: Mew|7/100
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|-hitcount|p2: Mew|2
+|-damage|p1a: Melmetal|45/100|[from] item: Life Orb
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1628102153
+|switch|p2a: Tornadus|Tornadus-Therian, M|95/100
+|turn|21
+|
+|t:|1628102159
+|move|p1a: Melmetal|Thunder Punch|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|11/100
+|-damage|p1a: Melmetal|35/100|[from] item: Life Orb
+|move|p2a: Tornadus|Nasty Plot|p2a: Tornadus
+|-boost|p2a: Tornadus|spa|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|22
+|
+|t:|1628102169
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|move|p2a: Tornadus|Air Slash|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|
+|t:|1628102172
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|-damage|p1a: Cresselia|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1628102179
+|move|p2a: Tornadus|Taunt|p1a: Cresselia
+|-start|p1a: Cresselia|move: Taunt
+|cant|p1a: Cresselia|move: Taunt|Trick Room
+|
+|upkeep
+|turn|24
+|
+|t:|1628102182
+|switch|p1a: Hatterene|Hatterene, F|84/100
+|-damage|p1a: Hatterene|72/100|[from] Stealth Rock
+|move|p2a: Tornadus|Air Slash|p1a: Hatterene
+|-damage|p1a: Hatterene|3/100
+|
+|upkeep
+|turn|25
+|
+|t:|1628102188
+|move|p2a: Tornadus|Air Slash|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1628102189
+|switch|p1a: Cresselia|Cresselia, F|88/100
+|-damage|p1a: Cresselia|76/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1628102195
+|move|p1a: Cresselia|Magic Coat|p1a: Cresselia
+|-singleturn|p1a: Cresselia|move: Magic Coat
+|move|p2a: Tornadus|Taunt|p1a: Cresselia
+|move|p1a: Cresselia|Taunt|p2a: Tornadus|[from]Magic Coat
+|-start|p2a: Tornadus|move: Taunt
+|
+|upkeep
+|turn|27
+|
+|t:|1628102198
+|move|p2a: Tornadus|Air Slash|p1a: Cresselia
+|-damage|p1a: Cresselia|39/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|28
+|
+|t:|1628102203
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Tornadus|Air Slash|p1: Cresselia|[notarget]
+|-fail|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1628102206
+|switch|p1a: Melmetal|Melmetal|35/100
+|-heal|p1a: Melmetal|100/100|[from] move: Lunar Dance
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|turn|29
+|c|☆mediicant|gg
+|-message|corumba forfeited.
+|
+|win|mediicant
+|raw|mediicant's rating: 1613 &rarr; <strong>1632</strong><br />(+19 for winning)
+|raw|corumba's rating: 1604 &rarr; <strong>1585</strong><br />(-19 for losing)
+|l|☆corumba
+|l|☆mediicant
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

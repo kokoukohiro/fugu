@@ -1,0 +1,662 @@
+|j|☆ztxw
+|j|☆JoeyOwesMeMoney
+|player|p1|ztxw|170|1780
+|player|p2|JoeyOwesMeMoney|101|1814
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Venusaur, F|
+|poke|p1|Shiftry, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Ninetales, M|
+|poke|p2|Chansey, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Magearna|
+|poke|p2|Blissey, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ztxw)
+|inactive|JoeyOwesMeMoney has 120 seconds left.
+|
+|start
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|switch|p2a: Chansey|Chansey, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Chansey|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: ztxw|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: JoeyOwesMeMoney|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|1/100
+|move|p2a: Toxapex|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|77/100
+|-status|p1a: Excadrill|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|7/100|[from] item: Black Sludge
+|-damage|p1a: Excadrill|71/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Excadrill|Stealth Rock||[still]
+|-fail|p1a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Excadrill|65/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|86/100
+|-boost|p1a: Excadrill|spe|1
+|-damage|p1a: Excadrill|48/100 brn|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-sideend|p1: ztxw|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Corviknight|Defog|p1a: Excadrill
+|-unboost|p1a: Excadrill|evasion|1
+|-sideend|p2: JoeyOwesMeMoney|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Excadrill|42/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Corviknight|Defog|p1a: Cinderace
+|-unboost|p1a: Cinderace|evasion|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|JoeyOwesMeMoney has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clefable|30/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j| fs run
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-weather|none
+|-heal|p2a: Clefable|36/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|n| fs run|fsrun
+|inactive|JoeyOwesMeMoney has 120 seconds left.
+|inactive|JoeyOwesMeMoney has 90 seconds left.
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Chansey
+|-damage|p2a: Chansey|59/100
+|
+|upkeep
+|turn|10
+|j| neusrel
+|j| Coronavirus EUW
+|inactive|JoeyOwesMeMoney has 60 seconds left.
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|l| neusrel
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Chansey|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: ztxw|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|inactive|JoeyOwesMeMoney has 20 seconds left.
+|inactive|JoeyOwesMeMoney has 15 seconds left.
+|inactive|JoeyOwesMeMoney has 10 seconds left.
+|inactive|JoeyOwesMeMoney has 5 seconds left.
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Chansey
+|-damage|p2a: Chansey|34/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|inactive|JoeyOwesMeMoney has 15 seconds left this turn.
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Chansey
+|-damage|p2a: Chansey|28/100
+|-status|p2a: Chansey|brn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|78/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chansey|71/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|JoeyOwesMeMoney has 25 seconds left this turn.
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Chansey|[miss]
+|-miss|p1a: Cinderace|p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chansey|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Chansey
+|-damage|p2a: Chansey|28/100 brn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|78/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chansey|72/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Chansey
+|-damage|p2a: Chansey|9/100 brn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|59/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chansey|53/100 brn|[from] brn
+|upkeep
+|turn|17
+|j| DragonHunter994
+|j| Authiel
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, F|42/100 brn
+|-damage|p1a: Excadrill|39/100 brn|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|switch|p2a: Clefable|Clefable, F|36/100
+|
+|-weather|none
+|-heal|p2a: Clefable|42/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|33/100 brn|[from] brn
+|upkeep
+|turn|18
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Clefable
+|-sidestart|p2: JoeyOwesMeMoney|move: Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|49/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|27/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Toxapex|Toxapex, M|40/100
+|-damage|p2a: Toxapex|28/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Toxapex
+|-damage|p2a: Toxapex|23/100
+|-boost|p1a: Excadrill|spe|1
+|-sideend|p1: ztxw|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-heal|p2a: Toxapex|88/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p1a: Excadrill|21/100 brn|[from] brn
+|upkeep
+|turn|20
+|j| MikoForPresident
+|j| MizuGios
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|inactive|JoeyOwesMeMoney has 20 seconds left.
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|switch|p2a: Corviknight|Corviknight, F|86/100
+|-damage|p2a: Corviknight|73/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|inactive|JoeyOwesMeMoney has 30 seconds left this turn.
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|j| Xhp
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|
+|move|p1a: Togekiss|Trick|p2a: Toxapex
+|-activate|p1a: Togekiss|move: Trick|[of] p2a: Toxapex
+|-item|p2a: Toxapex|Choice Scarf|[from] move: Trick
+|-item|p1a: Togekiss|Black Sludge|[from] move: Trick
+|move|p2a: Toxapex|Knock Off|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|92/100
+|-enditem|p1a: Togekiss|Black Sludge|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|l| Authiel
+|inactive|JoeyOwesMeMoney has 20 seconds left.
+|inactive|JoeyOwesMeMoney has 15 seconds left.
+|inactive|JoeyOwesMeMoney has 10 seconds left.
+|
+|switch|p2a: Chansey|Chansey, F|53/100
+|-damage|p2a: Chansey|40/100|[from] Stealth Rock
+|move|p1a: Togekiss|Trick|p2a: Chansey
+|-activate|p1a: Togekiss|move: Trick|[of] p2a: Chansey
+|-enditem|p2a: Chansey|Eviolite|[silent]|[from] move: Trick
+|-item|p1a: Togekiss|Eviolite|[from] move: Trick
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|inactive|JoeyOwesMeMoney has 20 seconds left this turn.
+|
+|move|p1a: Togekiss|Flamethrower|p2a: Chansey
+|-damage|p2a: Chansey|21/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|inactive|JoeyOwesMeMoney has 30 seconds left this turn.
+|
+|switch|p1a: Shiftry|Shiftry, F|100/100
+|move|p2a: Chansey|Stealth Rock|p1a: Shiftry
+|-sidestart|p1: ztxw|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|26
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|
+|move|p1a: Shiftry|Growth|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|-boost|p1a: Shiftry|spa|2
+|move|p2a: Chansey|Toxic|p1a: Shiftry
+|-status|p1a: Shiftry|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Shiftry|94/100 tox|[from] psn
+|upkeep
+|turn|27
+|c| DragonHunter994|this feel like a massacre
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, F|73/100
+|-damage|p2a: Corviknight|61/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Shiftry|Leaf Blade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|45/100
+|-damage|p1a: Shiftry|78/100 tox|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Shiftry|68/100 tox|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p1a: Shiftry|55/100 tox|[from] psn
+|upkeep
+|turn|28
+|j| ROB3R
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|inactive|JoeyOwesMeMoney has 20 seconds left.
+|
+|move|p1a: Shiftry|Heat Wave|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Shiftry|45/100 tox|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|-damage|p1a: Shiftry|27/100 tox|[from] psn
+|upkeep
+|inactive|JoeyOwesMeMoney has 25 seconds left this turn.
+|inactive|JoeyOwesMeMoney has 20 seconds left.
+|inactive|JoeyOwesMeMoney has 15 seconds left.
+|inactive|JoeyOwesMeMoney has 10 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F|49/100
+|-damage|p2a: Clefable|36/100|[from] Stealth Rock
+|turn|29
+|inactive|JoeyOwesMeMoney has 20 seconds left this turn.
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Clefable|Protect||[still]
+|-fail|p2a: Clefable
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clefable|42/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|JoeyOwesMeMoney has 30 seconds left this turn.
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Ninetales|Encore|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clefable|48/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, F|21/100 brn
+|-damage|p1a: Excadrill|18/100 brn|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Excadrill|12/100 brn|[from] brn
+|upkeep
+|turn|32
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|inactive|JoeyOwesMeMoney has 20 seconds left.
+|inactive|JoeyOwesMeMoney has 15 seconds left.
+|
+|switch|p2a: Chansey|Chansey, F|71/100
+|-damage|p2a: Chansey|59/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Chansey
+|-damage|p2a: Chansey|50/100
+|-boost|p1a: Excadrill|spe|1
+|-sideend|p1: ztxw|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Excadrill|6/100 brn|[from] brn
+|upkeep
+|turn|33
+|inactive|JoeyOwesMeMoney has 25 seconds left this turn.
+|
+|switch|p1a: Shiftry|Shiftry, F|27/100 tox
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|99/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Shiftry|20/100 tox|[from] psn
+|upkeep
+|turn|34
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|j| dark5111
+|l| dark5111
+|inactive|JoeyOwesMeMoney has 20 seconds left.
+|inactive|JoeyOwesMeMoney has 15 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Shiftry|Leaf Blade|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100
+|-damage|p1a: Shiftry|10/100 tox|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Shiftry|0 fnt|[from] psn
+|faint|p1a: Shiftry
+|upkeep
+|inactive|JoeyOwesMeMoney has 20 seconds left this turn.
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|35
+|inactive|JoeyOwesMeMoney has 30 seconds left this turn.
+|inactive|JoeyOwesMeMoney has 20 seconds left.
+|inactive|JoeyOwesMeMoney has 15 seconds left.
+|inactive|JoeyOwesMeMoney has 10 seconds left.
+|inactive|JoeyOwesMeMoney has 5 seconds left.
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|move|p1a: Cinderace|Electro Ball|p2a: Magearna
+|-start|p1a: Cinderace|typechange|Electric|[from] ability: Libero
+|-damage|p2a: Magearna|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|36
+|inactive|JoeyOwesMeMoney has 15 seconds left this turn.
+|inactive|JoeyOwesMeMoney has 10 seconds left.
+|inactive|JoeyOwesMeMoney has 5 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, F|6/100 brn
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Magearna|Thunderbolt|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-weather|none
+|-damage|p1a: Excadrill|0 fnt|[from] brn
+|faint|p1a: Excadrill
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|upkeep
+|inactive|JoeyOwesMeMoney has 10 seconds left this turn.
+|
+|switch|p1a: Ninetales|Ninetales, M|76/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|37
+|inactive|JoeyOwesMeMoney has 20 seconds left this turn.
+|inactive|JoeyOwesMeMoney has 15 seconds left.
+|j| addictedtomethlol
+|
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|switch|p2a: Chansey|Chansey, F|99/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|38
+|inactive|JoeyOwesMeMoney has 25 seconds left this turn.
+|
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Chansey|Seismic Toss|p1a: Venusaur
+|-damage|p1a: Venusaur|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|39
+|
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Chansey|Seismic Toss|p1a: Venusaur
+|-damage|p1a: Venusaur|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|40
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Chansey
+|-damage|p2a: Chansey|29/100
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|move|p2a: Chansey|Seismic Toss|p1a: Venusaur
+|-damage|p1a: Venusaur|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|41
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-heal|p1a: Venusaur|91/100|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Venusaur|81/100|[from] item: Life Orb
+|faint|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|48/100
+|-damage|p2a: Clefable|36/100|[from] Stealth Rock
+|turn|42
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Venusaur|Giga Drain|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clefable|42/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|c| ROB3R|lol
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Venusaur|Giga Drain|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clefable|48/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|6/100
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Clefable
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-weather|none
+|-heal|p2a: Clefable|12/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p2a: Magearna|Magearna|70/100
+|-damage|p2a: Magearna|64/100|[from] Stealth Rock
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|1
+|-boost|p1a: Venusaur|spa|1
+|
+|-heal|p2a: Magearna|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|46
+|inactive|JoeyOwesMeMoney has 90 seconds left.
+|
+|switch|p1a: Ninetales|Ninetales, M|76/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Magearna|Steel Beam|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|4/100
+|-damage|p2a: Magearna|50/100|[from] mindblown
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|47
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Blissey
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|89/100
+|-damage|p2a: Toxapex|77/100|[from] Stealth Rock
+|turn|49
+|
+|switch|p1a: Togekiss|Togekiss, F|92/100
+|move|p2a: Toxapex|Knock Off|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|83/100
+|-enditem|p1a: Togekiss|Eviolite|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|50
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Toxapex|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|79/100
+|-enditem|p1a: Cinderace|Choice Scarf|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|51
+|j| AgentXborn
+|c|☆ztxw|gg
+|inactive|JoeyOwesMeMoney has 90 seconds left.
+|inactive|JoeyOwesMeMoney has 60 seconds left.
+|j| wsdwqdwqqwd
+|j| Maiora
+|inactive|JoeyOwesMeMoney has 30 seconds left.
+|inactive|JoeyOwesMeMoney has 20 seconds left.
+|inactive|JoeyOwesMeMoney has 15 seconds left.
+|inactive|JoeyOwesMeMoney has 10 seconds left.
+|j| ScumGaang
+|inactive|JoeyOwesMeMoney has 5 seconds left.
+|l| ScumGaang
+|-message|JoeyOwesMeMoney lost due to inactivity.
+|
+|win|ztxw
+|c| ROB3R|stall puss get murkt?
+|raw|ztxw's rating: 1781 &rarr; <strong>1803</strong><br />(+22 for winning)
+|raw|JoeyOwesMeMoney's rating: 1829 &rarr; <strong>1806</strong><br />(-23 for losing)
+|l| ROB3R
+|l| MizuGios

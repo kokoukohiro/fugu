@@ -1,0 +1,305 @@
+|j|☆maxinyuuu
+|j|☆mosty_kant
+|t:|1664597617
+|gametype|singles
+|player|p1|maxinyuuu|lusamine-nihilego|
+|player|p2|mosty_kant|policeman-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Heatran, F|
+|poke|p1|Kartana|
+|poke|p1|Regieleki|
+|poke|p1|Rotom-Wash|
+|poke|p1|Excadrill, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Marowak-Alola, M|
+|poke|p2|Porygon2|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Stakataka|
+|poke|p2|Weavile, M|
+|teampreview
+|
+|t:|1664597625
+|start
+|switch|p1a: Regieleki|Regieleki|100/100
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|t:|1664597634
+|switch|p2a: Marowak|Marowak-Alola, M|100/100
+|move|p1a: Regieleki|Ancient Power|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|31/100
+|
+|upkeep
+|turn|2
+|
+|t:|1664597643
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Stakataka|Stakataka|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1664597653
+|move|p1a: Heatran|Earth Power|p2a: Stakataka
+|-supereffective|p2a: Stakataka
+|-damage|p2a: Stakataka|0 fnt
+|faint|p2a: Stakataka
+|
+|upkeep
+|
+|t:|1664597666
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|4
+|
+|t:|1664597670
+|move|p1a: Heatran|Magma Storm|p2a: Cresselia
+|-damage|p2a: Cresselia|80/100
+|-activate|p2a: Cresselia|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-damage|p2a: Cresselia|68/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1664597678
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|move|p1a: Heatran|Taunt|p2: Cresselia|[notarget]
+|-fail|p1a: Heatran
+|
+|upkeep
+|
+|t:|1664597683
+|switch|p2a: Marowak|Marowak-Alola, M|31/100
+|-heal|p2a: Marowak|100/100|[from] move: Lunar Dance
+|turn|6
+|
+|t:|1664597688
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Marowak|Swords Dance|p2a: Marowak
+|-boost|p2a: Marowak|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1664597697
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Marowak|Poltergeist|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Poltergeist|Leftovers
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1664597704
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|8
+|
+|t:|1664597711
+|move|p2a: Marowak|Bonemerang|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-hitcount|p1: Excadrill|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1664597717
+|switch|p1a: Kartana|Kartana|100/100
+|turn|9
+|
+|t:|1664597723
+|switch|p2a: Porygon2|Porygon2|100/100
+|move|p1a: Kartana|Knock Off|p2a: Porygon2
+|-damage|p2a: Porygon2|69/100
+|-enditem|p2a: Porygon2|Eviolite|[from] move: Knock Off|[of] p1a: Kartana
+|
+|upkeep
+|turn|10
+|
+|t:|1664597733
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|11
+|
+|t:|1664597741
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|move|p1a: Heatran|Taunt|p2a: Porygon2
+|-start|p2a: Porygon2|move: Taunt
+|
+|upkeep
+|turn|12
+|
+|t:|1664597748
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|62/100
+|-activate|p2a: Crawdaunt|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Crawdaunt|50/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1664597758
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|
+|-damage|p2a: Crawdaunt|37/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1664597767
+|move|p2a: Crawdaunt|Crabhammer|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-damage|p2a: Crawdaunt|27/100|[from] item: Life Orb
+|
+|-end|p2a: Crawdaunt|Magma Storm|[partiallytrapped]|[silent]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1664597770
+|switch|p1a: Kartana|Kartana|100/100
+|turn|15
+|
+|t:|1664597785
+|move|p1a: Kartana|Leaf Blade|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|upkeep
+|
+|t:|1664597793
+|switch|p2a: Marowak|Marowak-Alola, M|100/100
+|turn|16
+|
+|t:|1664597802
+|switch|p1a: Regieleki|Regieleki|100/100
+|switch|p2a: Porygon2|Porygon2|100/100
+|
+|upkeep
+|turn|17
+|
+|t:|1664597811
+|move|p1a: Regieleki|Thunderbolt|p2a: Porygon2
+|-damage|p2a: Porygon2|21/100
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|18
+|
+|t:|1664597817
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Porygon2|Teleport|p2a: Porygon2
+|
+|t:|1664597822
+|switch|p2a: Marowak|Marowak-Alola, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|19
+|
+|t:|1664597836
+|move|p2a: Marowak|Poltergeist|p1a: Rotom
+|-activate|p1a: Rotom|move: Poltergeist|Aguav Berry
+|-damage|p1a: Rotom|13/100
+|-enditem|p1a: Rotom|Aguav Berry|[eat]
+|-heal|p1a: Rotom|46/100|[from] item: Aguav Berry
+|move|p1a: Rotom|Hydro Pump|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|9/100
+|
+|upkeep
+|turn|20
+|
+|t:|1664597848
+|move|p2a: Marowak|Poltergeist||[still]
+|-fail|p2a: Marowak
+|move|p1a: Rotom|Hydro Pump|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|upkeep
+|
+|t:|1664597857
+|switch|p2a: Porygon2|Porygon2|21/100
+|turn|21
+|
+|t:|1664597863
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|71/100
+|move|p1a: Rotom|Volt Switch|p2a: Porygon2
+|-damage|p2a: Porygon2|49/100
+|
+|t:|1664597866
+|switch|p1a: Kartana|Kartana|100/100|[from]move: Volt Switch
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|22
+|
+|t:|1664597878
+|move|p1a: Kartana|Sacred Sword|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|upkeep
+|
+|t:|1664597885
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|23
+|
+|t:|1664597890
+|move|p2a: Weavile|Triple Axel|p1a: Kartana
+|-damage|p1a: Kartana|86/100
+|-damage|p1a: Kartana|57/100
+|-damage|p1a: Kartana|7/100
+|-hitcount|p1a: Kartana|3
+|move|p1a: Kartana|Sacred Sword|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|win|maxinyuuu
+|l|☆maxinyuuu
+|l|☆mosty_kant

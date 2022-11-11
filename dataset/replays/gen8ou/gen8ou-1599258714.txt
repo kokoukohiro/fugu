@@ -1,0 +1,380 @@
+|j|☆tryhardlegacy
+|j|☆2(H2O)-Alt
+|t:|1655590602
+|gametype|singles
+|player|p1|tryhardlegacy|101|1560
+|player|p2|2(H2O)-Alt|lady|1605
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Heatran, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Dracozolt|
+|poke|p2|Tapu Lele|
+|poke|p2|Victini|
+|poke|p2|Melmetal|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|t:|1655590632
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 2(H2O)-Alt)
+|
+|t:|1655590638
+|move|p1a: Tornadus|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|88/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Landorus|Toxic|p1a: Tornadus
+|-status|p1a: Tornadus|tox
+|
+|-damage|p1a: Tornadus|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1655590641
+|move|p1a: Tornadus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|83/100
+|
+|t:|1655590649
+|switch|p1a: Tangrowth|Tangrowth, M|100/100|[from]move: U-turn
+|move|p2a: Landorus|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|77/100
+|
+|t:|1655590656
+|switch|p2a: Victini|Victini|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1655590661
+|switch|p1a: Fire Gospel|Heatran, M|100/100
+|-item|p1a: Fire Gospel|Air Balloon
+|move|p2a: Victini|U-turn|p1a: Fire Gospel
+|-resisted|p1a: Fire Gospel
+|-damage|p1a: Fire Gospel|95/100
+|-enditem|p1a: Fire Gospel|Air Balloon
+|
+|t:|1655590664
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1655590669
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Urshifu|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|63/100
+|
+|t:|1655590672
+|switch|p2a: Victini|Victini|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1655590683
+|switch|p1a: Fire Gospel|Heatran, M|95/100
+|move|p2a: Victini|Bolt Strike|p1a: Fire Gospel
+|-damage|p1a: Fire Gospel|55/100
+|
+|upkeep
+|turn|6
+|
+|t:|1655590688
+|move|p2a: Victini|U-turn|p1a: Fire Gospel
+|-resisted|p1a: Fire Gospel
+|-damage|p1a: Fire Gospel|50/100
+|
+|t:|1655590691
+|switch|p2a: Landorus|Landorus-Therian, M|83/100|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Fire Gospel|atk|1
+|move|p1a: Fire Gospel|Flash Cannon|p2a: Landorus
+|-damage|p2a: Landorus|49/100
+|
+|upkeep
+|turn|7
+|
+|t:|1655590697
+|move|p1a: Fire Gospel|Magma Storm|p2a: Landorus
+|-damage|p2a: Landorus|4/100
+|-activate|p2a: Landorus|move: Magma Storm|[of] p1a: Fire Gospel
+|move|p2a: Landorus|Earthquake|p1a: Fire Gospel
+|-supereffective|p1a: Fire Gospel
+|-crit|p1a: Fire Gospel
+|-damage|p1a: Fire Gospel|0 fnt
+|faint|p1a: Fire Gospel
+|
+|-end|p2a: Landorus|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1655590700
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100 tox
+|turn|8
+|
+|t:|1655590702
+|move|p1a: Tornadus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|t:|1655590707
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1655590709
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|9
+|
+|t:|1655590713
+|switch|p1a: Tangrowth|Tangrowth, M|96/100
+|move|p2a: Urshifu|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|49/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|94/100|[from] Sandstorm
+|-damage|p1a: Tangrowth|43/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1655590719
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100 tox
+|move|p2a: Urshifu|Close Combat|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|50/100 tox
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|44/100 tox|[from] Sandstorm
+|-damage|p2a: Urshifu|88/100|[from] Sandstorm
+|-damage|p1a: Tornadus|38/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1655590725
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Tornadus|U-turn|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|97/100
+|
+|t:|1655590730
+|switch|p1a: Tangrowth|Tangrowth, M|76/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|70/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1655590736
+|switch|p2a: Victini|Victini|100/100
+|move|p1a: Tangrowth|Sleep Powder|p2a: Victini
+|-status|p2a: Victini|slp|[from] move: Sleep Powder
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Victini|94/100 slp|[from] Sandstorm
+|-damage|p1a: Tangrowth|64/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1655590739
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|cant|p2a: Victini|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Victini|88/100 slp|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1655590741
+|-curestatus|p2a: Victini|slp|[msg]
+|move|p2a: Victini|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|67/100
+|
+|t:|1655590743
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|88/100|[from]move: U-turn
+|move|p1a: Tyranitar|Stealth Rock|p2a: Urshifu
+|-sidestart|p2: 2(H2O)-Alt|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|82/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1655590749
+|switch|p1a: Tornadus|Tornadus-Therian, M|71/100 tox
+|move|p2a: Urshifu|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|52/100 tox
+|
+|t:|1655590752
+|switch|p2a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|-damage|p2a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|-weather|none
+|-damage|p1a: Tornadus|46/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1655590758
+|switch|p1a: Tyranitar|Tyranitar, F|67/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Tapu Lele|Psyshock|p1a: Tyranitar
+|-immune|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Lele|82/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1655590781
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|82/100
+|-damage|p2a: Urshifu|76/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Earthquake|p2a: Urshifu
+|-damage|p2a: Urshifu|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|42/100|[from] Sandstorm
+|upkeep
+|turn|18
+|inactive|tryhardlegacy has 120 seconds left.
+|
+|t:|1655590826
+|switch|p1a: Tangrowth|Tangrowth, M|97/100
+|move|p2a: Urshifu|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|47/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|35/100|[from] Sandstorm
+|-damage|p1a: Tangrowth|41/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1655590831
+|switch|p1a: Tornadus|Tornadus-Therian, M|79/100 tox
+|move|p2a: Urshifu|Close Combat|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|32/100 tox
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|26/100 tox|[from] Sandstorm
+|-damage|p2a: Urshifu|29/100|[from] Sandstorm
+|-damage|p1a: Tornadus|20/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|20
+|
+|t:|1655590836
+|switch|p2a: Melmetal|Melmetal|97/100
+|-damage|p2a: Melmetal|91/100|[from] Stealth Rock
+|move|p1a: Tornadus|U-turn|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|86/100
+|
+|t:|1655590840
+|switch|p1a: Diesel|Excadrill, M|100/100|[from]move: U-turn
+|-item|p1a: Diesel|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1655590846
+|move|p1a: Diesel|Swords Dance|p1a: Diesel
+|-boost|p1a: Diesel|atk|2
+|move|p2a: Melmetal|Ice Punch|p1a: Diesel
+|-damage|p1a: Diesel|54/100
+|-enditem|p1a: Diesel|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1655590856
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Diesel|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1655590874
+|switch|p2a: Victini|Victini|88/100
+|move|p1a: Diesel|Rock Slide|p2a: Victini
+|-supereffective|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|-weather|none
+|upkeep
+|
+|t:|1655590875
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|29/100
+|-damage|p2a: Urshifu|23/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1655590881
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|move|p2a: Urshifu|U-turn|p1a: Dracozolt
+|-damage|p1a: Dracozolt|56/100
+|
+|t:|1655590885
+|switch|p2a: Dragonite|Dragonite, M|94/100|[from]move: U-turn
+|
+|upkeep
+|turn|25
+|
+|t:|1655590888
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Dracozolt|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Dracozolt|spa|2
+|faint|p2a: Dragonite
+|-damage|p1a: Dracozolt|46/100|[from] item: Life Orb
+|
+|upkeep
+|-message|2(H2O)-Alt forfeited.
+|
+|win|tryhardlegacy
+|raw|tryhardlegacy's rating: 1560 &rarr; <strong>1583</strong><br />(+23 for winning)
+|raw|2(H2O)-Alt's rating: 1605 &rarr; <strong>1582</strong><br />(-23 for losing)
+|l|☆2(H2O)-Alt
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

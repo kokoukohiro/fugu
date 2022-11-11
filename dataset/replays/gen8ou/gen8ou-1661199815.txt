@@ -1,0 +1,374 @@
+|j|☆Kikoobuster
+|j|☆minimax_ai
+|t:|1662853719
+|gametype|singles
+|player|p1|Kikoobuster|1|1493
+|player|p2|minimax_ai|lusamine-nihilego|1548
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Roserade, M|
+|poke|p1|Jirachi|
+|poke|p1|Rotom-Heat|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Garchomp, F|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1662853724
+|start
+|switch|p1a: Roserade|Roserade, M|100/100
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Roserade|atk|1
+|turn|1
+|
+|t:|1662853728
+|move|p1a: Roserade|Spikes|p2a: landorustherian
+|-sidestart|p2: minimax_ai|Spikes
+|move|p2a: landorustherian|Earthquake|p1a: Roserade
+|-damage|p1a: Roserade|14/100
+|
+|-heal|p1a: Roserade|20/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1662853730
+|move|p1a: Roserade|Giga Drain|p2a: landorustherian
+|-damage|p2a: landorustherian|70/100
+|-heal|p1a: Roserade|42/100|[from] drain|[of] p2a: landorustherian
+|move|p2a: landorustherian|Defog|p1a: Roserade
+|-unboost|p1a: Roserade|evasion|1
+|-sideend|p2: minimax_ai|Spikes|[from] move: Defog|[of] p2a: landorustherian
+|
+|-heal|p1a: Roserade|48/100|[from] item: Black Sludge
+|-heal|p2a: landorustherian|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1662853736
+|move|p1a: Roserade|Spikes|p2a: landorustherian
+|-sidestart|p2: minimax_ai|Spikes
+|move|p2a: landorustherian|Earthquake|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-heal|p2a: landorustherian|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1662853740
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|4
+|
+|t:|1662853742
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Spikes
+|move|p1a: Urshifu|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|51/100
+|-damage|p1a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|t:|1662853746
+|switch|p1a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1662853750
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: rotomwash
+|-status|p2a: rotomwash|brn
+|
+|-damage|p2a: rotomwash|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1662853757
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: rotomwash|Nasty Plot|p2a: rotomwash
+|-boost|p2a: rotomwash|spa|2
+|
+|-heal|p2a: rotomwash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: rotomwash|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1662853760
+|move|p1a: Jirachi|Trick|p2a: rotomwash
+|-activate|p1a: Jirachi|move: Trick|[of] p2a: rotomwash
+|-item|p2a: rotomwash|Choice Scarf|[from] move: Trick
+|-item|p1a: Jirachi|Leftovers|[from] move: Trick
+|move|p2a: rotomwash|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|14/100
+|
+|-heal|p1a: Jirachi|20/100|[from] item: Leftovers
+|-damage|p2a: rotomwash|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1662853765
+|move|p2a: rotomwash|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-damage|p2a: rotomwash|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1662853771
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|84/100
+|turn|9
+|
+|t:|1662853775
+|switch|p2a: Tangrowth|Tangrowth, F|85/100
+|-damage|p2a: Tangrowth|72/100|[from] Spikes
+|move|p1a: Urshifu|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|24/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-damage|p1a: Urshifu|68/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|10
+|
+|t:|1662853777
+|switch|p2a: landorustherian|Landorus-Therian, M|82/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Urshifu|atk|1
+|move|p1a: Urshifu|Close Combat|p2a: landorustherian
+|-resisted|p2a: landorustherian
+|-damage|p2a: landorustherian|51/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|-heal|p2a: landorustherian|57/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1662853786
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: landorustherian|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p2a: landorustherian|63/100|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1662853793
+|move|p1a: Rotom|Overheat|p2a: landorustherian
+|-damage|p2a: landorustherian|19/100
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: landorustherian|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: minimax_ai|Spikes|[from] move: Defog|[of] p2a: landorustherian
+|
+|-heal|p2a: landorustherian|25/100|[from] item: Leftovers
+|-damage|p1a: Rotom|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1662853798
+|move|p1a: Rotom|Volt Switch|p2a: landorustherian
+|-immune|p2a: landorustherian
+|move|p2a: landorustherian|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-heal|p2a: landorustherian|31/100|[from] item: Leftovers
+|-damage|p1a: Rotom|63/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1662853802
+|move|p1a: Rotom|Overheat|p2a: landorustherian
+|-damage|p2a: landorustherian|8/100
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: landorustherian|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-heal|p2a: landorustherian|14/100|[from] item: Leftovers
+|-damage|p1a: Rotom|38/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1662853805
+|move|p1a: Rotom|Overheat|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: landorustherian
+|
+|-damage|p1a: Rotom|7/100 tox|[from] psn
+|upkeep
+|
+|t:|1662853805
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|16
+|
+|t:|1662853813
+|move|p2a: Weavile|Triple Axel|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-hitcount|p1: Rotom|1
+|
+|upkeep
+|
+|t:|1662853815
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|68/100
+|turn|17
+|
+|t:|1662853817
+|switch|p2a: Tangrowth|Tangrowth, F|57/100
+|move|p1a: Urshifu|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|8/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-damage|p1a: Urshifu|51/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|18
+|
+|t:|1662853820
+|move|p1a: Urshifu|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-damage|p1a: Urshifu|35/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|faint|p2a: Tangrowth
+|
+|upkeep
+|
+|t:|1662853820
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|19
+|
+|t:|1662853824
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Weavile|Triple Axel|p1a: Mandibuzz|[miss]
+|-miss|p2a: Weavile|p1a: Mandibuzz
+|
+|upkeep
+|turn|20
+|
+|t:|1662853826
+|move|p2a: Weavile|Triple Axel|p1a: Mandibuzz|[miss]
+|-miss|p2a: Weavile|p1a: Mandibuzz
+|move|p1a: Mandibuzz|U-turn|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|59/100
+|
+|t:|1662853831
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|35/100|[from]move: U-turn
+|
+|upkeep
+|turn|21
+|
+|t:|1662853832
+|move|p1a: Urshifu|Aqua Jet|p2a: Weavile
+|-damage|p2a: Weavile|8/100
+|move|p2a: Weavile|Triple Axel|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|28/100
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|13/100
+|-hitcount|p1a: Urshifu|2
+|
+|upkeep
+|turn|22
+|
+|t:|1662853835
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Urshifu|Aqua Jet|p2a: Melmetal
+|-damage|p2a: Melmetal|83/100
+|
+|upkeep
+|turn|23
+|
+|t:|1662853839
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Melmetal|Ice Punch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|56/100
+|
+|upkeep
+|turn|24
+|
+|t:|1662853841
+|move|p1a: Mandibuzz|Foul Play|p2a: Melmetal
+|-damage|p2a: Melmetal|51/100
+|move|p2a: Melmetal|Ice Punch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|16/100
+|
+|upkeep
+|turn|25
+|
+|t:|1662853844
+|move|p1a: Mandibuzz|Foul Play|p2a: Melmetal
+|-damage|p2a: Melmetal|23/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|-hitcount|p1: Mandibuzz|1
+|
+|upkeep
+|
+|t:|1662853846
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|26
+|
+|t:|1662853848
+|move|p1a: Garchomp|Earthquake|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|upkeep
+|
+|t:|1662853848
+|switch|p2a: Weavile|Weavile, M|8/100
+|-ability|p2a: Weavile|Pressure
+|turn|27
+|
+|t:|1662853852
+|move|p2a: Weavile|Ice Shard|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1662853854
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|13/100
+|turn|28
+|
+|t:|1662853857
+|move|p2a: Weavile|Ice Shard|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|win|minimax_ai
+|raw|Kikoobuster's rating: 1493 &rarr; <strong>1476</strong><br />(-17 for losing)
+|raw|minimax_ai's rating: 1548 &rarr; <strong>1565</strong><br />(+17 for winning)
+|c|☆minimax_ai|gg

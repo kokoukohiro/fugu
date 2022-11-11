@@ -1,0 +1,297 @@
+|j|☆minimax_ai
+|j|☆samohi0
+|t:|1662764063
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1594
+|player|p2|samohi0|101|1621
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Tapu Koko|
+|poke|p2|Zapdos|
+|poke|p2|Raichu-Alola, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Tapu Fini|
+|teampreview
+|
+|t:|1662764066
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|1
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1662764069
+|move|p2a: Tapu Koko|Volt Switch|p1a: Melmetal
+|-damage|p1a: Melmetal|80/100
+|
+|t:|1662764071
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from]move: Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Melmetal|Thunder Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|50/100
+|-damage|p1a: Melmetal|64/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|upkeep
+|turn|2
+|
+|t:|1662764076
+|move|p2a: Corviknight|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|59/100
+|
+|t:|1662764078
+|switch|p2a: Garchomp|Garchomp, F|100/100|[from]move: U-turn
+|move|p1a: Melmetal|Ice Punch|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Melmetal|47/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1662764084
+|switch|p2a: Corviknight|Corviknight, F|50/100
+|-ability|p2a: Corviknight|Pressure
+|turn|3
+|
+|t:|1662764085
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|99/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Melmetal|Thunder Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100
+|-damage|p1a: Melmetal|30/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|upkeep
+|turn|4
+|
+|t:|1662764087
+|move|p2a: Corviknight|Body Press|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1662764087
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|5
+|
+|t:|1662764091
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Heatran|Magma Storm|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|82/100
+|-activate|p2a: Tapu Fini|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Tapu Fini|88/100|[from] item: Leftovers
+|-damage|p2a: Tapu Fini|76/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1662764092
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Tapu Fini|Scald|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|87/100
+|
+|-heal|p1a: rotomwash|93/100|[from] item: Leftovers
+|-heal|p2a: Tapu Fini|82/100|[from] item: Leftovers
+|-end|p2a: Tapu Fini|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|7
+|
+|t:|1662764095
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: rotomwash|Thunderbolt|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|75/100
+|
+|-heal|p1a: rotomwash|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1662764097
+|move|p2a: Tapu Koko|Nature's Madness|p1a: rotomwash
+|-damage|p1a: rotomwash|50/100
+|move|p1a: rotomwash|Hydro Pump|p2a: Tapu Koko
+|-crit|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|-heal|p1a: rotomwash|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1662764103
+|switch|p2a: Raichu|Raichu-Alola, F|100/100
+|turn|9
+|
+|t:|1662764107
+|move|p2a: Raichu|Rising Voltage|p1a: rotomwash
+|-damage|p1a: rotomwash|2/100
+|-damage|p2a: Raichu|91/100|[from] item: Life Orb
+|move|p1a: rotomwash|Hydro Pump|p2a: Raichu|[miss]
+|-miss|p1a: rotomwash|p2a: Raichu
+|
+|-heal|p1a: rotomwash|8/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1662764110
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Raichu|atk|1
+|move|p2a: Raichu|Psyshock|p1a: landorustherian
+|-damage|p1a: landorustherian|50/100
+|-damage|p2a: Raichu|81/100|[from] item: Life Orb
+|
+|-heal|p1a: landorustherian|56/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1662764112
+|move|p2a: Raichu|Magnet Rise|p2a: Raichu
+|-start|p2a: Raichu|Magnet Rise
+|move|p1a: landorustherian|Earthquake|p2a: Raichu
+|-immune|p2a: Raichu
+|
+|-heal|p1a: landorustherian|62/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1662764116
+|move|p2a: Raichu|Psyshock|p1a: landorustherian
+|-damage|p1a: landorustherian|15/100
+|-damage|p2a: Raichu|71/100|[from] item: Life Orb
+|move|p1a: landorustherian|U-turn|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|t:|1662764116
+|switch|p1a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|-item|p1a: Heatran|Air Balloon
+|
+|upkeep
+|
+|t:|1662764122
+|switch|p2a: Tapu Fini|Tapu Fini|82/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|13
+|
+|t:|1662764124
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Tapu Fini|Scald|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|81/100
+|
+|-heal|p2a: Tapu Fini|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1662764127
+|move|p2a: Tapu Fini|Taunt|p1a: Tangrowth
+|-start|p1a: Tangrowth|move: Taunt
+|move|p1a: Tangrowth|Giga Drain|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|47/100
+|-heal|p1a: Tangrowth|98/100|[from] drain|[of] p2a: Tapu Fini
+|
+|-heal|p2a: Tapu Fini|53/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1662764128
+|move|p2a: Tapu Fini|Moonblast|p1a: Tangrowth
+|-damage|p1a: Tangrowth|53/100
+|-unboost|p1a: Tangrowth|spa|1
+|move|p1a: Tangrowth|Giga Drain|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|27/100
+|-heal|p1a: Tangrowth|64/100|[from] drain|[of] p2a: Tapu Fini
+|
+|-heal|p2a: Tapu Fini|33/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1662764134
+|switch|p1a: landorustherian|Landorus-Therian, M|15/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tapu Fini|atk|1
+|move|p2a: Tapu Fini|Moonblast|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|-heal|p2a: Tapu Fini|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1662764134
+|switch|p1a: rotomwash|Rotom-Wash|8/100
+|turn|17
+|
+|t:|1662764135
+|move|p1a: rotomwash|Thunderbolt|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|-heal|p1a: rotomwash|15/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1662764138
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|18
+|
+|t:|1662764140
+|move|p1a: rotomwash|Hydro Pump|p2a: Zapdos
+|-damage|p2a: Zapdos|62/100
+|move|p2a: Zapdos|Rising Voltage|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1662764140
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|19
+|
+|t:|1662764143
+|move|p1a: Heatran|Eruption|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|-message|samohi0 forfeited.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1594 &rarr; <strong>1616</strong><br />(+22 for winning)
+|raw|samohi0's rating: 1621 &rarr; <strong>1599</strong><br />(-22 for losing)
+|c|☆minimax_ai|gg
+|l|☆samohi0

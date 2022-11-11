@@ -1,0 +1,455 @@
+|j|☆Mutako Z
+|j|☆Homyouyou
+|t:|1620530975
+|gametype|singles
+|player|p1|Mutako Z|28|1460
+|player|p2|Homyouyou|gambler|1477
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Zapdos-Galar|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Melmetal|
+|poke|p1|Hydreigon, M|
+|poke|p1|Blacephalon|
+|poke|p2|Blissey, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Victini|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowbro, F|
+|poke|p2|Dragonite, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Homyouyou)
+|
+|t:|1620531021
+|start
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|t:|1620531027
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Zapdos|U-turn|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1620531032
+|move|p1a: Zapdos|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|-damage|p1a: Zapdos|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Zapdos|72/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|t:|1620531041
+|switch|p1a: Hydreigon|Hydreigon, M|100/100|[from]move: U-turn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hydreigon
+|-start|p1a: Hydreigon|move: Leech Seed
+|
+|-damage|p1a: Hydreigon|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|98/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1620531049
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Hydreigon|Taunt|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Hydreigon|94/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1620531057
+|move|p1a: Hydreigon|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1620531065
+|switch|p2a: Victini|Victini|100/100
+|turn|5
+|
+|t:|1620531070
+|move|p2a: Victini|U-turn|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|39/100
+|
+|t:|1620531073
+|switch|p2a: Slowbro|Slowbro, F|100/100|[from]move: U-turn
+|move|p1a: Hydreigon|Dark Pulse|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|21/100
+|
+|-heal|p1a: Hydreigon|45/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|27/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|33/100|[from] Leech Seed|[of] p2a: Slowbro
+|-heal|p2a: Slowbro|37/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1620531085
+|switch|p1a: Blacephalon|Blacephalon|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1620531091
+|move|p1a: Blacephalon|Taunt|p2a: Blissey
+|-start|p2a: Blissey|move: Taunt
+|cant|p2a: Blissey|move: Taunt|Toxic
+|
+|upkeep
+|turn|8
+|
+|t:|1620531096
+|switch|p2a: Victini|Victini|100/100
+|move|p1a: Blacephalon|Psyshock|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|79/100
+|-damage|p1a: Blacephalon|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1620531103
+|move|p2a: Victini|V-create|p1a: Blacephalon
+|-resisted|p1a: Blacephalon
+|-crit|p1a: Blacephalon
+|-damage|p1a: Blacephalon|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Blacephalon
+|
+|upkeep
+|
+|t:|1620531121
+|switch|p1a: Zapdos|Zapdos-Galar|72/100
+|turn|10
+|
+|t:|1620531124
+|switch|p2a: Slowbro|Slowbro, F|70/100
+|move|p1a: Zapdos|Brave Bird|p2a: Slowbro
+|-damage|p2a: Slowbro|37/100
+|-damage|p1a: Zapdos|58/100|[from] Recoil
+|
+|-heal|p2a: Slowbro|43/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1620531136
+|switch|p1a: Hydreigon|Hydreigon, M|33/100
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|93/100
+|
+|-heal|p1a: Hydreigon|39/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1620531144
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hydreigon|atk|1
+|move|p1a: Hydreigon|Dark Pulse|p2a: Landorus
+|-damage|p2a: Landorus|59/100
+|
+|-heal|p1a: Hydreigon|45/100|[from] item: Leftovers
+|-heal|p2a: Landorus|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1620531156
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-heal|p2a: Landorus|71/100|[from] item: Leftovers
+|-damage|p1a: Landorus|95/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1620531165
+|move|p1a: Landorus|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|46/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Landorus
+|move|p2a: Landorus|Defog|p1a: Landorus
+|-unboost|p1a: Landorus|evasion|1
+|
+|-damage|p1a: Landorus|83/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1620531174
+|switch|p1a: Zapdos|Zapdos-Galar|58/100
+|move|p2a: Landorus|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: Mutako Z|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|t:|1620531181
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|move|p1a: Zapdos|Brave Bird|p2a: Slowbro
+|-damage|p2a: Slowbro|64/100
+|-damage|p1a: Zapdos|43/100|[from] Recoil
+|
+|-heal|p2a: Slowbro|70/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1620531192
+|switch|p1a: Melmetal|Melmetal|100/100
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1620531194
+|switch|p2a: Victini|Victini|79/100|[from]move: Teleport
+|
+|upkeep
+|turn|18
+|
+|t:|1620531206
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Victini|V-create|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|-damage|p2a: Victini|66/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Victini|50/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1620531220
+|switch|p1a: Landorus|Landorus-Therian, M|83/100 tox
+|-damage|p1a: Landorus|70/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Victini|atk|1
+|turn|19
+|
+|t:|1620531226
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|70/100
+|
+|t:|1620531238
+|switch|p1a: Hydreigon|Hydreigon, M|45/100|[from]move: U-turn
+|-damage|p1a: Hydreigon|33/100|[from] Stealth Rock
+|
+|-heal|p1a: Hydreigon|39/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1620531245
+|switch|p1a: Melmetal|Melmetal|94/100
+|-damage|p1a: Melmetal|88/100|[from] Stealth Rock
+|move|p2a: Slowbro|Scald|p1a: Melmetal
+|-damage|p1a: Melmetal|74/100
+|
+|-heal|p2a: Slowbro|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1620531254
+|move|p1a: Melmetal|Thunder Punch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|49/100
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1620531257
+|switch|p2a: Victini|Victini|50/100|[from]move: Teleport
+|
+|upkeep
+|turn|22
+|
+|t:|1620531271
+|switch|p1a: Landorus|Landorus-Therian, M|70/100 tox
+|-damage|p1a: Landorus|58/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Victini|atk|1
+|move|p2a: Victini|V-create|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1620531284
+|switch|p1a: Zapdos|Zapdos-Galar|43/100
+|-damage|p1a: Zapdos|30/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1620531288
+|switch|p2a: Slowbro|Slowbro, F|82/100
+|move|p1a: Zapdos|U-turn|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|52/100
+|
+|t:|1620531294
+|switch|p1a: Hydreigon|Hydreigon, M|39/100|[from]move: U-turn
+|-damage|p1a: Hydreigon|27/100|[from] Stealth Rock
+|
+|-heal|p1a: Hydreigon|33/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|58/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1620531301
+|move|p1a: Hydreigon|Dark Pulse|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|-heal|p1a: Hydreigon|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1620531303
+|switch|p2a: Victini|Victini|50/100
+|turn|25
+|
+|t:|1620531315
+|move|p2a: Victini|V-create|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|t:|1620531326
+|switch|p1a: Zapdos|Zapdos-Galar|30/100
+|-damage|p1a: Zapdos|18/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1620531333
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Zapdos|U-turn|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|71/100
+|j| orange rinds
+|l| orange rinds
+|
+|t:|1620531337
+|switch|p1a: Melmetal|Melmetal|74/100|[from]move: U-turn
+|-damage|p1a: Melmetal|68/100|[from] Stealth Rock
+|
+|upkeep
+|turn|27
+|
+|t:|1620531342
+|move|p1a: Melmetal|Double Iron Bash|p2a: Blissey
+|-damage|p2a: Blissey|41/100
+|-damage|p2a: Blissey|7/100
+|-hitcount|p2a: Blissey|2
+|cant|p2a: Blissey|flinch
+|
+|upkeep
+|turn|28
+|
+|t:|1620531348
+|move|p2a: Blissey|Seismic Toss|p1a: Melmetal
+|-damage|p1a: Melmetal|45/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-hitcount|p2a: Blissey|1
+|faint|p2a: Blissey
+|
+|upkeep
+|
+|t:|1620531351
+|switch|p2a: Victini|Victini|50/100
+|turn|29
+|
+|t:|1620531366
+|move|p2a: Victini|V-create|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1620531372
+|switch|p1a: Zapdos|Zapdos-Galar|18/100
+|-damage|p1a: Zapdos|5/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1620531383
+|switch|p2a: Landorus|Landorus-Therian, M|46/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|-ability|p1a: Zapdos|Defiant
+|-boost|p1a: Zapdos|atk|2
+|move|p1a: Zapdos|Close Combat|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|13/100
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|
+|upkeep
+|turn|31
+|
+|t:|1620531394
+|move|p1a: Zapdos|Close Combat|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1620531396
+|switch|p2a: Victini|Victini|50/100
+|turn|32
+|
+|t:|1620531401
+|move|p1a: Zapdos|Close Combat|p2a: Victini
+|-resisted|p2a: Victini
+|-damage|p2a: Victini|2/100
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|move|p2a: Victini|V-create|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Zapdos
+|
+|win|Homyouyou
+|raw|Mutako Z's rating: 1460 &rarr; <strong>1441</strong><br />(-19 for losing)
+|raw|Homyouyou's rating: 1477 &rarr; <strong>1496</strong><br />(+19 for winning)

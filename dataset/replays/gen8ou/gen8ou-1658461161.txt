@@ -1,0 +1,919 @@
+|j|☆minimax_ai
+|j|☆Cowsrule247
+|t:|1662569498
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1565
+|player|p2|Cowsrule247|skyla|1596
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Corviknight, M|
+|poke|p2|Gastrodon-East, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Buzzwole|
+|poke|p2|Clefable, M|
+|poke|p2|Blissey, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cowsrule247)
+|c|☆minimax_ai|hf
+|inactive|minimax_ai also wants the timer to be on.
+|
+|t:|1662569510
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: HitEmFromTheEast|Gastrodon-East, F|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: HitEmFromTheEast|atk|1
+|turn|1
+|
+|t:|1662569513
+|switch|p2a: Caw Bitch|Corviknight, M|100/100
+|-ability|p2a: Caw Bitch|Pressure
+|move|p1a: landorustherian|U-turn|p2a: Caw Bitch
+|-resisted|p2a: Caw Bitch
+|-damage|p2a: Caw Bitch|97/100
+|
+|t:|1662569513
+|switch|p1a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|-item|p1a: Heatran|Air Balloon
+|
+|-heal|p2a: Caw Bitch|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1662569516
+|switch|p2a: ;)|Toxapex, M|100/100
+|move|p1a: Heatran|Magma Storm|p2a: ;)
+|-resisted|p2a: ;)
+|-damage|p2a: ;)|80/100
+|-activate|p2a: ;)|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: ;)|68/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1662569518
+|move|p1a: Heatran|Magma Storm|p2a: ;)
+|-resisted|p2a: ;)
+|-damage|p2a: ;)|48/100
+|move|p2a: ;)|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|65/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-damage|p2a: ;)|35/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1662569527
+|switch|p2a: HitEmFromTheEast|Gastrodon-East, F|100/100
+|move|p1a: Heatran|Magma Storm|p2a: HitEmFromTheEast
+|-resisted|p2a: HitEmFromTheEast
+|-damage|p2a: HitEmFromTheEast|84/100
+|-activate|p2a: HitEmFromTheEast|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: HitEmFromTheEast|90/100|[from] item: Leftovers
+|-damage|p2a: HitEmFromTheEast|78/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1662569529
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: HitEmFromTheEast|Earthquake|p1a: rotomwash
+|-immune|p1a: rotomwash|[from] ability: Levitate
+|
+|-heal|p2a: HitEmFromTheEast|84/100|[from] item: Leftovers
+|-end|p2a: HitEmFromTheEast|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|6
+|
+|t:|1662569532
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|switch|p2a: thicc|Blissey, F|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1662569536
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: thicc|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1662569539
+|switch|p2a: SWOLE|Buzzwole, shiny|100/100
+|move|p1a: Melmetal|Ice Punch|p2a: SWOLE
+|-damage|p2a: SWOLE|81/100
+|
+|upkeep
+|turn|9
+|
+|t:|1662569543
+|move|p2a: SWOLE|Ice Punch|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|94/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: SWOLE
+|-damage|p2a: SWOLE|60/100
+|-damage|p2a: SWOLE|36/100
+|-hitcount|p2a: SWOLE|2
+|
+|upkeep
+|turn|10
+|
+|t:|1662569545
+|move|p2a: SWOLE|Roost|p2a: SWOLE
+|-heal|p2a: SWOLE|86/100
+|-singleturn|p2a: SWOLE|move: Roost
+|move|p1a: Melmetal|Double Iron Bash|p2a: SWOLE
+|-damage|p2a: SWOLE|66/100
+|-damage|p2a: SWOLE|46/100
+|-hitcount|p2a: SWOLE|2
+|
+|upkeep
+|turn|11
+|
+|t:|1662569548
+|move|p2a: SWOLE|Roost|p2a: SWOLE
+|-heal|p2a: SWOLE|96/100
+|-singleturn|p2a: SWOLE|move: Roost
+|move|p1a: Melmetal|Double Iron Bash|p2a: SWOLE
+|-damage|p2a: SWOLE|75/100
+|-damage|p2a: SWOLE|53/100
+|-hitcount|p2a: SWOLE|2
+|
+|upkeep
+|turn|12
+|
+|t:|1662569549
+|move|p2a: SWOLE|Roost|p2a: SWOLE
+|-heal|p2a: SWOLE|100/100
+|-singleturn|p2a: SWOLE|move: Roost
+|move|p1a: Melmetal|Double Iron Bash|p2a: SWOLE
+|-damage|p2a: SWOLE|79/100
+|-damage|p2a: SWOLE|59/100
+|-hitcount|p2a: SWOLE|2
+|
+|upkeep
+|turn|13
+|
+|t:|1662569550
+|move|p2a: SWOLE|Roost|p2a: SWOLE
+|-heal|p2a: SWOLE|100/100
+|-singleturn|p2a: SWOLE|move: Roost
+|move|p1a: Melmetal|Double Iron Bash|p2a: SWOLE
+|-damage|p2a: SWOLE|80/100
+|-damage|p2a: SWOLE|59/100
+|-hitcount|p2a: SWOLE|2
+|
+|upkeep
+|turn|14
+|
+|t:|1662569552
+|move|p2a: SWOLE|Roost|p2a: SWOLE
+|-heal|p2a: SWOLE|100/100
+|-singleturn|p2a: SWOLE|move: Roost
+|move|p1a: Melmetal|Double Iron Bash|p2a: SWOLE
+|-damage|p2a: SWOLE|77/100
+|-damage|p2a: SWOLE|56/100
+|-hitcount|p2a: SWOLE|2
+|
+|upkeep
+|turn|15
+|
+|t:|1662569553
+|move|p2a: SWOLE|Roost|p2a: SWOLE
+|-heal|p2a: SWOLE|100/100
+|-singleturn|p2a: SWOLE|move: Roost
+|move|p1a: Melmetal|Double Iron Bash|p2a: SWOLE
+|-damage|p2a: SWOLE|78/100
+|-damage|p2a: SWOLE|58/100
+|-hitcount|p2a: SWOLE|2
+|
+|upkeep
+|turn|16
+|
+|t:|1662569554
+|move|p2a: SWOLE|Roost|p2a: SWOLE
+|-heal|p2a: SWOLE|100/100
+|-singleturn|p2a: SWOLE|move: Roost
+|move|p1a: Melmetal|Double Iron Bash|p2a: SWOLE
+|-damage|p2a: SWOLE|80/100
+|-damage|p2a: SWOLE|59/100
+|-hitcount|p2a: SWOLE|2
+|
+|upkeep
+|turn|17
+|
+|t:|1662569556
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: SWOLE|Roost|p2a: SWOLE
+|-heal|p2a: SWOLE|100/100
+|-singleturn|p2a: SWOLE|move: Roost
+|
+|upkeep
+|turn|18
+|
+|t:|1662569561
+|move|p2a: SWOLE|Leech Life|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-crit|p1a: Tangrowth
+|-damage|p1a: Tangrowth|27/100
+|-damage|p2a: SWOLE|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|move|p1a: Tangrowth|Sleep Powder|p2a: SWOLE
+|-status|p2a: SWOLE|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|19
+|
+|t:|1662569568
+|switch|p2a: Treble|Clefable, M|100/100
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p1a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Treble|atk|1
+|
+|-heal|p1a: landorustherian|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1662569573
+|move|p1a: landorustherian|Defog|p2a: Treble
+|-unboost|p2a: Treble|evasion|1
+|-sideend|p1: minimax_ai|Stealth Rock|[from] move: Defog|[of] p1a: landorustherian
+|move|p2a: Treble|Heal Bell|p2a: Treble
+|-activate|p2a: Treble|move: Heal Bell
+|-curestatus|p2: SWOLE|slp|[msg]
+|
+|-heal|p1a: landorustherian|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1662569574
+|switch|p2a: Caw Bitch|Corviknight, M|100/100
+|-ability|p2a: Caw Bitch|Pressure
+|move|p1a: landorustherian|Earthquake|p2a: Caw Bitch
+|-immune|p2a: Caw Bitch
+|
+|-heal|p1a: landorustherian|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1662569579
+|switch|p1a: Tangrowth|Tangrowth, M|60/100
+|move|p2a: Caw Bitch|Iron Defense|p2a: Caw Bitch
+|-boost|p2a: Caw Bitch|def|2
+|
+|upkeep
+|turn|23
+|
+|t:|1662569581
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Caw Bitch|Body Press|p1a: rotomwash
+|-damage|p1a: rotomwash|46/100
+|
+|-heal|p1a: rotomwash|52/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1662569585
+|switch|p2a: thicc|Blissey, F|100/100
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|
+|-heal|p1a: rotomwash|59/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1662569588
+|move|p1a: rotomwash|Thunderbolt|p2a: thicc
+|-damage|p2a: thicc|74/100
+|-status|p2a: thicc|par
+|cant|p2a: thicc|par
+|
+|-heal|p1a: rotomwash|65/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1662569590
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|cant|p2a: thicc|par
+|
+|-heal|p1a: rotomwash|71/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1662569591
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|move|p2a: thicc|Toxic|p1a: rotomwash
+|-status|p1a: rotomwash|tox
+|
+|-heal|p1a: rotomwash|77/100 tox|[from] item: Leftovers
+|-damage|p1a: rotomwash|71/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1662569594
+|-curestatus|p2a: thicc|par|[from] ability: Natural Cure
+|switch|p2a: Treble|Clefable, M|100/100
+|move|p1a: rotomwash|Thunderbolt|p2a: Treble
+|-damage|p2a: Treble|73/100
+|
+|-heal|p1a: rotomwash|77/100 tox|[from] item: Leftovers
+|-heal|p2a: Treble|79/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|65/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1662569596
+|move|p1a: rotomwash|Hydro Pump|p2a: Treble
+|-damage|p2a: Treble|43/100
+|move|p2a: Treble|Wish|p2a: Treble
+|
+|-heal|p1a: rotomwash|71/100 tox|[from] item: Leftovers
+|-heal|p2a: Treble|49/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|52/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1662569599
+|switch|p1a: Heatran|Heatran, M|65/100
+|move|p2a: Treble|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|58/100
+|
+|-heal|p2a: Treble|99/100|[from] move: Wish|[wisher] Treble
+|-heal|p2a: Treble|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1662569602
+|switch|p2a: HitEmFromTheEast|Gastrodon-East, F|84/100
+|move|p1a: Heatran|Stealth Rock|p2a: HitEmFromTheEast
+|-sidestart|p2: Cowsrule247|move: Stealth Rock
+|
+|-heal|p2a: HitEmFromTheEast|90/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1662569606
+|switch|p1a: Tangrowth|Tangrowth, M|94/100
+|move|p2a: HitEmFromTheEast|Scald|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|76/100
+|-status|p1a: Tangrowth|brn
+|
+|-heal|p2a: HitEmFromTheEast|96/100|[from] item: Leftovers
+|-damage|p1a: Tangrowth|70/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1662569614
+|switch|p1a: rotomwash|Rotom-Wash|52/100 tox
+|switch|p2a: thicc|Blissey, F|74/100
+|
+|-heal|p1a: rotomwash|59/100 tox|[from] item: Leftovers
+|-damage|p1a: rotomwash|52/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1662569617
+|switch|p1a: Melmetal|Melmetal|94/100
+|move|p2a: thicc|Seismic Toss|p1a: Melmetal
+|-damage|p1a: Melmetal|71/100
+|
+|upkeep
+|turn|35
+|
+|t:|1662569620
+|switch|p2a: SWOLE|Buzzwole, shiny|84/100
+|move|p1a: Melmetal|Earthquake|p2a: SWOLE
+|-resisted|p2a: SWOLE
+|-damage|p2a: SWOLE|73/100
+|
+|upkeep
+|turn|36
+|
+|t:|1662569624
+|switch|p1a: Heatran|Heatran, M|58/100
+|move|p2a: SWOLE|Ice Punch|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|52/100
+|-status|p1a: Heatran|frz
+|
+|upkeep
+|turn|37
+|
+|t:|1662569632
+|switch|p2a: ;)|Toxapex, M|68/100
+|-damage|p2a: ;)|56/100|[from] Stealth Rock
+|cant|p1a: Heatran|frz
+|
+|upkeep
+|turn|38
+|
+|t:|1662569634
+|switch|p2a: HitEmFromTheEast|Gastrodon-East, F|96/100
+|-damage|p2a: HitEmFromTheEast|90/100|[from] Stealth Rock
+|cant|p1a: Heatran|frz
+|
+|-heal|p2a: HitEmFromTheEast|96/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1662569641
+|switch|p1a: rotomwash|Rotom-Wash|52/100 tox
+|move|p2a: HitEmFromTheEast|Scald|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|38/100 tox
+|
+|-heal|p1a: rotomwash|44/100 tox|[from] item: Leftovers
+|-heal|p2a: HitEmFromTheEast|100/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|38/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1662569648
+|move|p1a: rotomwash|Thunderbolt|p2a: HitEmFromTheEast
+|-immune|p2a: HitEmFromTheEast
+|move|p2a: HitEmFromTheEast|Scald|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|25/100 tox
+|
+|-heal|p1a: rotomwash|31/100 tox|[from] item: Leftovers
+|-damage|p1a: rotomwash|19/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1662569657
+|move|p1a: rotomwash|Pain Split|p2a: HitEmFromTheEast
+|-sethp|p2a: HitEmFromTheEast|57/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|79/100 tox|[from] move: Pain Split
+|move|p2a: HitEmFromTheEast|Recover|p2a: HitEmFromTheEast
+|-heal|p2a: HitEmFromTheEast|100/100
+|
+|-heal|p1a: rotomwash|86/100 tox|[from] item: Leftovers
+|-damage|p1a: rotomwash|67/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1662569662
+|switch|p2a: thicc|Blissey, F|74/100
+|move|p1a: rotomwash|Hydro Pump|p2a: thicc
+|-damage|p2a: thicc|58/100
+|
+|-heal|p1a: rotomwash|73/100 tox|[from] item: Leftovers
+|-damage|p1a: rotomwash|48/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1662569664
+|switch|p1a: Melmetal|Melmetal|71/100
+|move|p2a: thicc|Soft-Boiled|p2a: thicc
+|-heal|p2a: thicc|100/100
+|
+|upkeep
+|turn|44
+|
+|t:|1662569666
+|switch|p2a: SWOLE|Buzzwole, shiny|73/100
+|move|p1a: Melmetal|Ice Punch|p2a: SWOLE
+|-crit|p2a: SWOLE
+|-damage|p2a: SWOLE|47/100
+|
+|upkeep
+|turn|45
+|
+|t:|1662569668
+|switch|p1a: Heatran|Heatran, M|52/100 frz
+|move|p2a: SWOLE|Roost|p2a: SWOLE
+|-heal|p2a: SWOLE|97/100
+|-singleturn|p2a: SWOLE|move: Roost
+|
+|upkeep
+|turn|46
+|
+|t:|1662569677
+|switch|p2a: ;)|Toxapex, M|89/100
+|-damage|p2a: ;)|76/100|[from] Stealth Rock
+|cant|p1a: Heatran|frz
+|
+|upkeep
+|turn|47
+|
+|t:|1662569678
+|cant|p1a: Heatran|frz
+|move|p2a: ;)|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|18/100 frz
+|-curestatus|p1a: Heatran|frz|[msg]
+|
+|upkeep
+|turn|48
+|
+|t:|1662569683
+|move|p1a: Heatran|Earth Power|p2a: ;)
+|-supereffective|p2a: ;)
+|-crit|p2a: ;)
+|-damage|p2a: ;)|0 fnt
+|faint|p2a: ;)
+|
+|upkeep
+|
+|t:|1662569694
+|switch|p2a: HitEmFromTheEast|Gastrodon-East, F|100/100
+|-damage|p2a: HitEmFromTheEast|94/100|[from] Stealth Rock
+|turn|49
+|
+|t:|1662569695
+|switch|p1a: rotomwash|Rotom-Wash|48/100 tox
+|move|p2a: HitEmFromTheEast|Scald|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|34/100 tox
+|
+|-heal|p1a: rotomwash|41/100 tox|[from] item: Leftovers
+|-heal|p2a: HitEmFromTheEast|100/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|34/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|t:|1662569697
+|move|p1a: rotomwash|Pain Split|p2a: HitEmFromTheEast
+|-sethp|p2a: HitEmFromTheEast|62/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|87/100 tox|[from] move: Pain Split
+|move|p2a: HitEmFromTheEast|Scald|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|75/100 tox
+|
+|-heal|p1a: rotomwash|81/100 tox|[from] item: Leftovers
+|-heal|p2a: HitEmFromTheEast|69/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|68/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|t:|1662569700
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|move|p2a: HitEmFromTheEast|Scald|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|55/100 tox
+|
+|-heal|p1a: rotomwash|62/100 tox|[from] item: Leftovers
+|-heal|p2a: HitEmFromTheEast|75/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|43/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|t:|1662569702
+|move|p1a: rotomwash|Pain Split|p2a: HitEmFromTheEast
+|-sethp|p2a: HitEmFromTheEast|53/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|74/100 tox|[from] move: Pain Split
+|move|p2a: HitEmFromTheEast|Recover|p2a: HitEmFromTheEast
+|-heal|p2a: HitEmFromTheEast|100/100
+|
+|-heal|p1a: rotomwash|80/100 tox|[from] item: Leftovers
+|-damage|p1a: rotomwash|55/100 tox|[from] psn
+|upkeep
+|turn|53
+|
+|t:|1662569704
+|move|p1a: rotomwash|Pain Split|p2a: HitEmFromTheEast
+|-sethp|p2a: HitEmFromTheEast|70/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|98/100 tox|[from] move: Pain Split
+|move|p2a: HitEmFromTheEast|Scald|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|85/100 tox
+|
+|-heal|p1a: rotomwash|91/100 tox|[from] item: Leftovers
+|-heal|p2a: HitEmFromTheEast|76/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|60/100 tox|[from] psn
+|upkeep
+|turn|54
+|
+|t:|1662569707
+|move|p1a: rotomwash|Thunderbolt|p2a: HitEmFromTheEast
+|-immune|p2a: HitEmFromTheEast
+|move|p2a: HitEmFromTheEast|Scald|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|46/100 tox
+|
+|-heal|p1a: rotomwash|52/100 tox|[from] item: Leftovers
+|-heal|p2a: HitEmFromTheEast|82/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|15/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|t:|1662569709
+|move|p1a: rotomwash|Pain Split|p2a: HitEmFromTheEast
+|-sethp|p2a: HitEmFromTheEast|46/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|65/100 tox|[from] move: Pain Split
+|move|p2a: HitEmFromTheEast|Scald|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|51/100 tox
+|
+|-heal|p1a: rotomwash|57/100 tox|[from] item: Leftovers
+|-heal|p2a: HitEmFromTheEast|52/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|13/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|t:|1662569711
+|switch|p1a: Tangrowth|Tangrowth, M|100/100 brn
+|move|p2a: HitEmFromTheEast|Recover|p2a: HitEmFromTheEast
+|-heal|p2a: HitEmFromTheEast|100/100
+|
+|-damage|p1a: Tangrowth|94/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|t:|1662569716
+|switch|p2a: thicc|Blissey, F|100/100
+|move|p1a: Tangrowth|Knock Off|p2a: thicc
+|-damage|p2a: thicc|91/100
+|-enditem|p2a: thicc|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|-damage|p1a: Tangrowth|88/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|t:|1662569720
+|switch|p1a: Melmetal|Melmetal|71/100
+|move|p2a: thicc|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|59
+|
+|t:|1662569722
+|switch|p2a: SWOLE|Buzzwole, shiny|97/100
+|move|p1a: Melmetal|Ice Punch|p2a: SWOLE
+|-damage|p2a: SWOLE|78/100
+|
+|upkeep
+|turn|60
+|
+|t:|1662569726
+|switch|p1a: rotomwash|Rotom-Wash|13/100 tox
+|-damage|p1a: rotomwash|1/100 tox|[from] Stealth Rock
+|move|p2a: SWOLE|Ice Punch|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|-ability|p2a: SWOLE|Beast Boost|boost
+|-boost|p2a: SWOLE|atk|1
+|
+|upkeep
+|
+|t:|1662569726
+|switch|p1a: Heatran|Heatran, M|18/100
+|-damage|p1a: Heatran|6/100|[from] Stealth Rock
+|turn|61
+|
+|t:|1662569734
+|switch|p2a: HitEmFromTheEast|Gastrodon-East, F|100/100
+|-damage|p2a: HitEmFromTheEast|94/100|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: HitEmFromTheEast
+|-resisted|p2a: HitEmFromTheEast
+|-damage|p2a: HitEmFromTheEast|77/100
+|-activate|p2a: HitEmFromTheEast|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: HitEmFromTheEast|83/100|[from] item: Leftovers
+|-damage|p2a: HitEmFromTheEast|71/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|62
+|
+|t:|1662569736
+|switch|p1a: Tangrowth|Tangrowth, M|100/100 brn
+|-damage|p1a: Tangrowth|88/100 brn|[from] Stealth Rock
+|move|p2a: HitEmFromTheEast|Scald|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|68/100 brn
+|
+|-heal|p2a: HitEmFromTheEast|77/100|[from] item: Leftovers
+|-damage|p1a: Tangrowth|62/100 brn|[from] brn
+|-end|p2a: HitEmFromTheEast|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|63
+|
+|t:|1662569747
+|switch|p2a: thicc|Blissey, F|91/100
+|-damage|p2a: thicc|78/100|[from] Stealth Rock
+|move|p1a: Tangrowth|Giga Drain|p2a: thicc
+|-crit|p2a: thicc
+|-damage|p2a: thicc|64/100
+|-heal|p1a: Tangrowth|75/100 brn|[from] drain|[of] p2a: thicc
+|
+|-damage|p1a: Tangrowth|69/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|t:|1662569754
+|switch|p1a: Melmetal|Melmetal|71/100
+|-damage|p1a: Melmetal|65/100|[from] Stealth Rock
+|move|p2a: thicc|Soft-Boiled|p2a: thicc
+|-heal|p2a: thicc|100/100
+|
+|upkeep
+|turn|65
+|
+|t:|1662569756
+|switch|p2a: SWOLE|Buzzwole, shiny|78/100
+|move|p1a: Melmetal|Ice Punch|p2a: SWOLE
+|-damage|p2a: SWOLE|61/100
+|
+|upkeep
+|turn|66
+|
+|t:|1662569758
+|move|p2a: SWOLE|Roost|p2a: SWOLE
+|-heal|p2a: SWOLE|100/100
+|-singleturn|p2a: SWOLE|move: Roost
+|move|p1a: Melmetal|Thunder Punch|p2a: SWOLE
+|-damage|p2a: SWOLE|83/100
+|
+|upkeep
+|turn|67
+|
+|t:|1662569761
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p1a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: SWOLE|atk|1
+|move|p2a: SWOLE|Leech Life|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|75/100
+|-heal|p2a: SWOLE|89/100|[from] drain|[of] p1a: landorustherian
+|
+|-heal|p1a: landorustherian|81/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1662569763
+|move|p1a: landorustherian|U-turn|p2a: SWOLE
+|-resisted|p2a: SWOLE
+|-damage|p2a: SWOLE|84/100
+|
+|t:|1662569764
+|switch|p1a: Melmetal|Melmetal|65/100|[from]move: U-turn
+|-damage|p1a: Melmetal|59/100|[from] Stealth Rock
+|move|p2a: SWOLE|Ice Punch|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|54/100
+|
+|upkeep
+|turn|69
+|
+|t:|1662569769
+|switch|p1a: Tangrowth|Tangrowth, M|100/100 brn
+|-damage|p1a: Tangrowth|88/100 brn|[from] Stealth Rock
+|move|p2a: SWOLE|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|68/100 brn
+|-unboost|p2a: SWOLE|def|1
+|-unboost|p2a: SWOLE|spd|1
+|-damage|p2a: SWOLE|67/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|-damage|p1a: Tangrowth|62/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|t:|1662569775
+|switch|p2a: thicc|Blissey, F|100/100
+|-damage|p2a: thicc|88/100|[from] Stealth Rock
+|switch|p1a: Melmetal|Melmetal|54/100
+|-damage|p1a: Melmetal|48/100|[from] Stealth Rock
+|
+|upkeep
+|turn|71
+|
+|t:|1662569777
+|switch|p2a: SWOLE|Buzzwole, shiny|67/100
+|move|p1a: Melmetal|Ice Punch|p2a: SWOLE
+|-damage|p2a: SWOLE|50/100
+|
+|upkeep
+|turn|72
+|
+|t:|1662569779
+|move|p2a: SWOLE|Roost|p2a: SWOLE
+|-heal|p2a: SWOLE|99/100
+|-singleturn|p2a: SWOLE|move: Roost
+|move|p1a: Melmetal|Ice Punch|p2a: SWOLE
+|-damage|p2a: SWOLE|80/100
+|
+|upkeep
+|turn|73
+|
+|t:|1662569781
+|move|p2a: SWOLE|Close Combat|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|-unboost|p2a: SWOLE|def|1
+|-unboost|p2a: SWOLE|spd|1
+|faint|p1a: Melmetal
+|-ability|p2a: SWOLE|Beast Boost|boost
+|-boost|p2a: SWOLE|atk|1
+|
+|upkeep
+|
+|t:|1662569781
+|switch|p1a: Tangrowth|Tangrowth, M|95/100 brn
+|-damage|p1a: Tangrowth|83/100 brn|[from] Stealth Rock
+|turn|74
+|
+|t:|1662569784
+|move|p2a: SWOLE|Leech Life|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|19/100 brn
+|-heal|p2a: SWOLE|100/100|[from] drain|[of] p1a: Tangrowth
+|-damage|p2a: SWOLE|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|move|p1a: Tangrowth|Giga Drain|p2a: SWOLE
+|-resisted|p2a: SWOLE
+|-damage|p2a: SWOLE|56/100
+|-heal|p1a: Tangrowth|33/100 brn|[from] drain|[of] p2a: SWOLE
+|
+|-damage|p1a: Tangrowth|27/100 brn|[from] brn
+|upkeep
+|turn|75
+|
+|t:|1662569786
+|move|p2a: SWOLE|Leech Life|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|-heal|p2a: SWOLE|69/100|[from] drain|[of] p1a: Tangrowth
+|-damage|p2a: SWOLE|52/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|faint|p1a: Tangrowth
+|-ability|p2a: SWOLE|Beast Boost|boost
+|-boost|p2a: SWOLE|atk|1
+|
+|upkeep
+|
+|t:|1662569786
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|76
+|
+|t:|1662569790
+|move|p1a: Weavile|Triple Axel|p2a: SWOLE
+|-damage|p2a: SWOLE|40/100
+|-hitcount|p2a: SWOLE|1
+|move|p2a: SWOLE|Leech Life|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-heal|p2a: SWOLE|65/100|[from] drain|[of] p1a: Weavile
+|faint|p1a: Weavile
+|-ability|p2a: SWOLE|Beast Boost|boost
+|-boost|p2a: SWOLE|atk|1
+|
+|upkeep
+|
+|t:|1662569790
+|switch|p1a: landorustherian|Landorus-Therian, M|81/100
+|-damage|p1a: landorustherian|68/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: SWOLE|atk|1
+|turn|77
+|
+|t:|1662569796
+|move|p1a: landorustherian|Earthquake|p2a: SWOLE
+|-resisted|p2a: SWOLE
+|-damage|p2a: SWOLE|46/100
+|move|p2a: SWOLE|Ice Punch|p1a: landorustherian
+|-supereffective|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|-ability|p2a: SWOLE|Beast Boost|boost
+|-boost|p2a: SWOLE|atk|1
+|
+|upkeep
+|
+|t:|1662569796
+|switch|p1a: Heatran|Heatran, M|6/100
+|-damage|p1a: Heatran|0 fnt|[from] Stealth Rock
+|faint|p1a: Heatran
+|
+|win|Cowsrule247
+|raw|minimax_ai's rating: 1565 &rarr; <strong>1547</strong><br />(-18 for losing)
+|raw|Cowsrule247's rating: 1596 &rarr; <strong>1614</strong><br />(+18 for winning)
+|c|☆minimax_ai|gg

@@ -1,0 +1,203 @@
+|j|☆Spenny0107
+|j|☆Pinks1ip
+|t:|1659746035
+|gametype|singles
+|player|p1|Spenny0107|biker|1409
+|player|p2|Pinks1ip|skierf|1420
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Venusaur, M|
+|poke|p1|Heatran, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Regieleki|
+|poke|p1|Torkoal, M|
+|poke|p1|Weavile, M|
+|poke|p2|Aerodactyl, M|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Gengar, F|
+|poke|p2|Blaziken, M|
+|poke|p2|Moltres-Galar|
+|teampreview
+|
+|t:|1659746050
+|start
+|switch|p1a: Regieleki|Regieleki, shiny|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Pressure
+|turn|1
+|
+|t:|1659746053
+|move|p1a: Regieleki|Volt Switch|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-enditem|p2a: Aerodactyl|Focus Sash
+|-damage|p2a: Aerodactyl|1/100
+|
+|t:|1659746060
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100|[from]move: Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|move|p2a: Aerodactyl|Rock Tomb|p1a: Landorus
+|-damage|p1a: Landorus|82/100
+|-unboost|p1a: Landorus|spe|1
+|
+|-heal|p1a: Landorus|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1659746063
+|move|p2a: Aerodactyl|Taunt|p1a: Landorus
+|-start|p1a: Landorus|move: Taunt
+|move|p1a: Landorus|U-turn|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|t:|1659746069
+|switch|p1a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|-item|p1a: Heatran|Air Balloon
+|
+|upkeep
+|
+|t:|1659746076
+|switch|p2a: Blaziken|Blaziken, M, shiny|100/100
+|-item|p2a: Blaziken|Air Balloon
+|turn|3
+|
+|t:|1659746082
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|move|p1a: Heatran|Toxic|p2a: Blaziken|[miss]
+|-miss|p1a: Heatran|p2a: Blaziken
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|4
+|
+|t:|1659746090
+|switch|p1a: Torkoal|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Blaziken|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|31/100
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|5
+|
+|t:|1659746102
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|88/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Blaziken|atk|1
+|move|p2a: Blaziken|Flare Blitz|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-damage|p2a: Blaziken|64/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1659746110
+|switch|p1a: Venusaur|Venusaur, M, shiny|100/100
+|turn|6
+|
+|t:|1659746113
+|move|p2a: Blaziken|Flare Blitz|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|-damage|p2a: Blaziken|31/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1659746119
+|switch|p1a: Weavile|Weavile, M, shiny|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|7
+|
+|t:|1659746122
+|move|p1a: Weavile|Ice Shard|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|7/100
+|-enditem|p2a: Blaziken|Air Balloon
+|move|p2a: Blaziken|Close Combat|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Weavile
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1659746127
+|switch|p1a: Torkoal|Torkoal, M, shiny|31/100
+|turn|8
+|
+|t:|1659746131
+|move|p2a: Blaziken|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1659746135
+|switch|p1a: Regieleki|Regieleki, shiny|100/100
+|turn|9
+|
+|t:|1659746138
+|move|p2a: Blaziken|Close Combat|p1a: Regieleki
+|-damage|p1a: Regieleki|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Regieleki
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1659746140
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|10
+|
+|t:|1659746142
+|move|p2a: Blaziken|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|-enditem|p1a: Heatran|Air Balloon
+|faint|p1a: Heatran
+|
+|win|Pinks1ip
+|raw|Spenny0107's rating: 1409 &rarr; <strong>1390</strong><br />(-19 for losing)
+|raw|Pinks1ip's rating: 1420 &rarr; <strong>1439</strong><br />(+19 for winning)
+|l|☆Spenny0107

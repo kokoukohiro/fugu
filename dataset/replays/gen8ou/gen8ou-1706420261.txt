@@ -1,0 +1,404 @@
+|j|☆demgeilem
+|j|☆Agent Strike
+|t:|1667988514
+|gametype|singles
+|player|p1|demgeilem|ethan-masters|1507
+|player|p2|Agent Strike|policeman-gen4|1544
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Melmetal|
+|poke|p1|Dragapult, M|
+|poke|p1|Slowbro, M|
+|poke|p1|Clefable, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Buzzwole|
+|poke|p2|Melmetal|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Kartana|
+|poke|p2|Volcanion|
+|poke|p2|Tapu Lele|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Agent Strike)
+|
+|t:|1667988546
+|start
+|switch|p1a: Slowbro|Slowbro, M, shiny|100/100
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|1
+|
+|t:|1667988550
+|move|p2a: Volcanion|Steam Eruption|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|50/100
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1667988559
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|2
+|
+|t:|1667988562
+|move|p1a: Dragapult|Shadow Ball|p2a: Volcanion
+|-damage|p2a: Volcanion|32/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Dragapult|[miss]
+|-miss|p2a: Volcanion|p1a: Dragapult
+|
+|upkeep
+|turn|3
+|
+|t:|1667988569
+|switch|p2a: Melmetal|Melmetal, shiny|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Melmetal
+|-damage|p2a: Melmetal|74/100
+|
+|upkeep
+|turn|4
+|
+|t:|1667988575
+|switch|p1a: Slowbro|Slowbro, M, shiny|83/100
+|switch|p2a: Volcanion|Volcanion|32/100
+|
+|upkeep
+|turn|5
+|
+|t:|1667988584
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1667988589
+|switch|p1a: Melmetal|Melmetal|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|6
+|
+|t:|1667988592
+|move|p2a: Tornadus|Heat Wave|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|48/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-hitcount|p2: Tornadus|1
+|
+|upkeep
+|
+|t:|1667988596
+|switch|p2a: Volcanion|Volcanion|32/100
+|turn|7
+|
+|t:|1667988608
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|39/100
+|
+|upkeep
+|turn|8
+|
+|t:|1667988616
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|move|p1a: Dragapult|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|55/100
+|
+|-heal|p2a: Landorus|61/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1667988627
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Landorus|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|85/100
+|-enditem|p1a: Clefable|Leftovers|[from] move: Knock Off|[of] p2a: Landorus
+|
+|-heal|p2a: Landorus|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1667988637
+|move|p2a: Landorus|Stealth Rock|p1a: Clefable
+|-sidestart|p1: demgeilem|move: Stealth Rock
+|move|p1a: Clefable|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Agent Strike|move: Stealth Rock
+|
+|-heal|p2a: Landorus|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1667988643
+|switch|p1a: Slowbro|Slowbro, M, shiny|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|62/100
+|
+|-heal|p2a: Landorus|80/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1667988650
+|move|p2a: Landorus|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|25/100
+|-damage|p2a: Landorus|63/100|[from] item: Rocky Helmet|[of] p1a: Slowbro
+|-enditem|p1a: Slowbro|Rocky Helmet|[from] move: Knock Off|[of] p2a: Landorus
+|move|p1a: Slowbro|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|22/100
+|
+|-heal|p2a: Landorus|28/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1667988663
+|switch|p1a: Melmetal|Melmetal|48/100
+|-damage|p1a: Melmetal|42/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|-heal|p2a: Landorus|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667988669
+|switch|p1a: Slowbro|Slowbro, M, shiny|58/100
+|-damage|p1a: Slowbro|46/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1667988672
+|move|p2a: Landorus|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|17/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|67/100
+|
+|-heal|p2a: Landorus|40/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1667988677
+|move|p2a: Landorus|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|37/100
+|move|p1a: Slowbro|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|2/100
+|
+|-heal|p2a: Landorus|8/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1667988683
+|move|p2a: Landorus|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|10/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|60/100
+|
+|-heal|p2a: Landorus|14/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1667988689
+|move|p2a: Landorus|U-turn|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|35/100
+|
+|t:|1667988699
+|switch|p2a: Volcanion|Volcanion|32/100|[from]move: U-turn
+|-damage|p2a: Volcanion|7/100|[from] Stealth Rock
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1667988704
+|switch|p1a: Dragapult|Dragapult, M|39/100|[from]move: Teleport
+|-damage|p1a: Dragapult|27/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1667988707
+|move|p1a: Dragapult|Shadow Ball|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|upkeep
+|
+|t:|1667988715
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|100/100
+|-damage|p2a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|19
+|
+|t:|1667988723
+|move|p2a: Tapu Lele|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1667988728
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|turn|20
+|
+|t:|1667988732
+|switch|p2a: Landorus|Landorus-Therian, M|14/100
+|-damage|p2a: Landorus|2/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Landorus
+|faint|p2a: Landorus
+|
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667988738
+|switch|p2a: Kartana|Kartana, shiny|100/100
+|-damage|p2a: Kartana|94/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1667988757
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|88/100
+|-damage|p2a: Tapu Lele|76/100|[from] Stealth Rock
+|switch|p1a: Clefable|Clefable, M|85/100
+|
+|upkeep
+|turn|22
+|
+|t:|1667988773
+|move|p2a: Tapu Lele|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|50/100
+|-unboost|p1a: Clefable|spa|1
+|move|p1a: Clefable|Moonblast|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|52/100
+|
+|upkeep
+|turn|23
+|
+|t:|1667988784
+|move|p2a: Tapu Lele|Moonblast|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1667988795
+|switch|p1a: Landorus|Landorus-Therian, M|94/100
+|-damage|p1a: Landorus|82/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|turn|24
+|
+|t:|1667988799
+|move|p2a: Tapu Lele|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|46/100
+|move|p1a: Landorus|Knock Off|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|6/100
+|-enditem|p2a: Tapu Lele|Choice Scarf|[from] move: Knock Off|[of] p1a: Landorus
+|
+|-heal|p1a: Landorus|52/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1667988811
+|move|p2a: Tapu Lele|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|18/100
+|-unboost|p1a: Landorus|spa|1
+|move|p1a: Landorus|Earthquake|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|-heal|p1a: Landorus|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667988814
+|switch|p2a: Kartana|Kartana, shiny|94/100
+|-damage|p2a: Kartana|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1667988828
+|move|p2a: Kartana|Swords Dance|p2a: Kartana
+|-boost|p2a: Kartana|atk|2
+|move|p1a: Landorus|Knock Off|p2a: Kartana
+|-damage|p2a: Kartana|55/100
+|-enditem|p2a: Kartana|Protective Pads|[from] move: Knock Off|[of] p1a: Landorus
+|
+|-heal|p1a: Landorus|30/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1667988836
+|move|p2a: Kartana|Swords Dance|p2a: Kartana
+|-boost|p2a: Kartana|atk|2
+|move|p1a: Landorus|Earthquake|p2a: Kartana
+|-damage|p2a: Kartana|1/100
+|
+|-heal|p1a: Landorus|36/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1667988842
+|move|p2a: Kartana|Leaf Blade|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+|
+|t:|1667988845
+|switch|p1a: Buzzwole|Buzzwole|100/100
+|-damage|p1a: Buzzwole|88/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1667988850
+|move|p1a: Buzzwole|Close Combat|p2a: Kartana
+|-supereffective|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|-unboost|p1a: Buzzwole|def|1
+|-unboost|p1a: Buzzwole|spd|1
+|faint|p2a: Kartana
+|-ability|p1a: Buzzwole|Beast Boost|boost
+|-boost|p1a: Buzzwole|atk|1
+|
+|upkeep
+|
+|t:|1667988854
+|switch|p2a: Melmetal|Melmetal, shiny|74/100
+|-damage|p2a: Melmetal|68/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1667988865
+|move|p1a: Buzzwole|Close Combat|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|-unboost|p1a: Buzzwole|def|1
+|-unboost|p1a: Buzzwole|spd|1
+|faint|p2a: Melmetal
+|
+|win|demgeilem
+|raw|demgeilem's rating: 1507 &rarr; <strong>1529</strong><br />(+22 for winning)
+|raw|Agent Strike's rating: 1544 &rarr; <strong>1522</strong><br />(-22 for losing)
+|l|☆Agent Strike

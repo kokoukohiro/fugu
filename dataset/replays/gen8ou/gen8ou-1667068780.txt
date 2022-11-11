@@ -1,0 +1,511 @@
+|j|☆Darkman64
+|j|☆minimax_ai
+|t:|1663475545
+|gametype|singles
+|player|p1|Darkman64|juan|1542
+|player|p2|minimax_ai|lusamine-nihilego|1568
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Weavile, F|
+|poke|p1|Slowbro, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Clefable, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, M|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|c|☆Darkman64|u2+
+|
+|t:|1663475555
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: Weavile|Pressure
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Weavile|atk|1
+|turn|1
+|
+|t:|1663475561
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Weavile|Triple Axel|p2a: Tangrowth|[miss]
+|-miss|p1a: Weavile|p2a: Tangrowth
+|
+|upkeep
+|turn|2
+|
+|t:|1663475567
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Tangrowth|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100
+|
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1663475569
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Ferrothorn|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|79/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1663475574
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Darkman64|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1663475576
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|move|p1a: Landorus|Defog|p2a: rotomwash
+|-unboost|p2a: rotomwash|evasion|1
+|-sideend|p1: Darkman64|Stealth Rock|[from] move: Defog|[of] p1a: Landorus
+|
+|upkeep
+|turn|6
+|
+|t:|1663475578
+|move|p2a: rotomwash|Hydro Pump|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|41/100
+|move|p1a: Landorus|Toxic|p2a: rotomwash
+|-status|p2a: rotomwash|tox
+|
+|-heal|p1a: Landorus|47/100|[from] item: Leftovers
+|-damage|p2a: rotomwash|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1663475582
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: rotomwash|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|82/100
+|
+|-heal|p2a: rotomwash|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|88/100|[from] item: Leftovers
+|-damage|p2a: rotomwash|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1663475585
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|switch|p1a: Landorus|Landorus-Therian, M|47/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: landorustherian|atk|1
+|
+|-heal|p1a: Landorus|53/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1663475587
+|move|p2a: landorustherian|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|46/100
+|
+|t:|1663475588
+|switch|p2a: rotomwash|Rotom-Wash|88/100 tox|[from]move: U-turn
+|move|p1a: Landorus|Toxic|p2a: rotomwash
+|-fail|p2a: rotomwash|tox
+|
+|-heal|p2a: rotomwash|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Landorus|52/100|[from] item: Leftovers
+|-damage|p2a: rotomwash|88/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1663475593
+|move|p2a: rotomwash|Hydro Pump|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: rotomwash|94/100 tox|[from] item: Leftovers
+|-damage|p2a: rotomwash|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1663475595
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|11
+|
+|t:|1663475596
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Urshifu|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|50/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-damage|p1a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|12
+|
+|t:|1663475599
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Urshifu|atk|1
+|move|p1a: Urshifu|Close Combat|p2a: landorustherian
+|-resisted|p2a: landorustherian
+|-damage|p2a: landorustherian|71/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|-heal|p2a: landorustherian|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1663475603
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: landorustherian|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|71/100
+|
+|-heal|p2a: landorustherian|83/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1663475608
+|move|p2a: landorustherian|U-turn|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|43/100
+|
+|t:|1663475609
+|switch|p2a: Tangrowth|Tangrowth, M|84/100|[from]move: U-turn
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1663475612
+|switch|p1a: Weavile|Weavile, F|100/100|[from]move: Teleport
+|-ability|p1a: Weavile|Pressure
+|
+|upkeep
+|turn|15
+|
+|t:|1663475616
+|switch|p2a: Heatran|Heatran, M|79/100
+|move|p1a: Weavile|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|33/100
+|
+|upkeep
+|turn|16
+|
+|t:|1663475618
+|switch|p2a: landorustherian|Landorus-Therian, M|83/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Weavile|atk|1
+|move|p1a: Weavile|Knock Off|p2a: landorustherian
+|-damage|p2a: landorustherian|35/100
+|-enditem|p2a: landorustherian|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|
+|upkeep
+|turn|17
+|
+|t:|1663475621
+|move|p1a: Weavile|Knock Off|p2a: landorustherian
+|-damage|p2a: landorustherian|4/100
+|move|p2a: landorustherian|Earthquake|p1a: Weavile
+|-damage|p1a: Weavile|21/100
+|
+|upkeep
+|turn|18
+|
+|t:|1663475624
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Weavile|Knock Off|p2a: Tangrowth
+|-damage|p2a: Tangrowth|75/100
+|-damage|p1a: Weavile|5/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-enditem|p2a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p1a: Weavile
+|
+|upkeep
+|turn|19
+|
+|t:|1663475629
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Tangrowth|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|92/100
+|-enditem|p1a: Clefable|Leftovers|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|20
+|
+|t:|1663475632
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Clefable|Teleport|p1a: Clefable
+|
+|t:|1663475634
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|84/100|[from]move: Teleport
+|
+|upkeep
+|turn|21
+|
+|t:|1663475636
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Urshifu|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|52/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|upkeep
+|turn|22
+|
+|t:|1663475638
+|move|p1a: Urshifu|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Tangrowth
+|
+|upkeep
+|
+|t:|1663475638
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|23
+|
+|t:|1663475643
+|switch|p1a: Ferrothorn|Ferrothorn, M|88/100
+|move|p2a: Weavile|Knock Off|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|26/100
+|-damage|p2a: Weavile|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|
+|upkeep
+|turn|24
+|
+|t:|1663475645
+|move|p2a: Weavile|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Weavile|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1663475649
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|84/100
+|turn|25
+|
+|t:|1663475650
+|switch|p2a: landorustherian|Landorus-Therian, M|4/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Urshifu|atk|1
+|move|p1a: Urshifu|U-turn|p2a: landorustherian
+|-resisted|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|
+|t:|1663475654
+|switch|p1a: Weavile|Weavile, F|5/100|[from]move: U-turn
+|-ability|p1a: Weavile|Pressure
+|
+|upkeep
+|
+|t:|1663475654
+|switch|p2a: Melmetal|Melmetal|100/100
+|turn|26
+|
+|t:|1663475663
+|switch|p1a: Slowbro|Slowbro, M|76/100
+|move|p2a: Melmetal|Thunder Punch|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|34/100
+|
+|upkeep
+|turn|27
+|
+|t:|1663475668
+|switch|p1a: Clefable|Clefable, M|92/100
+|move|p2a: Melmetal|Thunder Punch|p1a: Clefable
+|-damage|p1a: Clefable|66/100
+|
+|upkeep
+|turn|28
+|
+|t:|1663475675
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Melmetal|Thunder Punch|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|upkeep
+|turn|29
+|
+|t:|1663475677
+|move|p1a: Clefable|Wish|p1a: Clefable
+|move|p2a: Melmetal|Thunder Punch|p1a: Clefable
+|-damage|p1a: Clefable|42/100
+|
+|upkeep
+|turn|30
+|
+|t:|1663475680
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Melmetal|Thunder Punch|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|92/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|31
+|
+|t:|1663475683
+|move|p1a: Clefable|Wish|p1a: Clefable
+|move|p2a: Melmetal|Thunder Punch|p1a: Clefable
+|-damage|p1a: Clefable|67/100
+|
+|upkeep
+|turn|32
+|
+|t:|1663475687
+|switch|p1a: Slowbro|Slowbro, M|67/100
+|move|p2a: Melmetal|Thunder Punch|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|22/100
+|
+|-heal|p1a: Slowbro|72/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|33
+|
+|t:|1663475690
+|move|p2a: Melmetal|Thunder Punch|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|30/100
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1663475692
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|84/100|[from]move: Teleport
+|
+|upkeep
+|turn|34
+|
+|t:|1663475694
+|switch|p2a: rotomwash|Rotom-Wash|82/100 tox
+|move|p1a: Urshifu|Close Combat|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: rotomwash
+|
+|upkeep
+|
+|t:|1663475694
+|switch|p2a: Weavile|Weavile, F|76/100
+|-ability|p2a: Weavile|Pressure
+|turn|35
+|
+|t:|1663475700
+|move|p2a: Weavile|Knock Off|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|28/100
+|-enditem|p1a: Urshifu|Choice Band|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Urshifu|Close Combat|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1663475700
+|switch|p2a: Melmetal|Melmetal|100/100
+|turn|36
+|
+|t:|1663475705
+|move|p1a: Urshifu|U-turn|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|94/100
+|
+|t:|1663475708
+|switch|p1a: Clefable|Clefable, M|67/100|[from]move: U-turn
+|move|p2a: Melmetal|Double Iron Bash|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|7/100
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|-hitcount|p1: Clefable|2
+|
+|upkeep
+|
+|t:|1663475710
+|switch|p1a: Weavile|Weavile, F|5/100
+|-ability|p1a: Weavile|Pressure
+|turn|37
+|
+|t:|1663475713
+|move|p1a: Weavile|Low Kick|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|30/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-hitcount|p1: Weavile|1
+|
+|upkeep
+|
+|t:|1663475715
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|28/100
+|turn|38
+|
+|t:|1663475717
+|switch|p2a: Heatran|Heatran, M|33/100
+|move|p1a: Urshifu|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1663475717
+|switch|p2a: Melmetal|Melmetal|30/100
+|turn|39
+|c|☆Darkman64|gg
+|
+|t:|1663475723
+|move|p1a: Urshifu|Surging Strikes|p2a: Melmetal
+|-crit|p2a: Melmetal
+|-damage|p2a: Melmetal|18/100
+|-crit|p2a: Melmetal
+|-damage|p2a: Melmetal|7/100
+|-crit|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|-hitcount|p2: Melmetal|3
+|
+|win|Darkman64
+|raw|Darkman64's rating: 1542 &rarr; <strong>1563</strong><br />(+21 for winning)
+|raw|minimax_ai's rating: 1568 &rarr; <strong>1547</strong><br />(-21 for losing)
+|c|☆minimax_ai|gg

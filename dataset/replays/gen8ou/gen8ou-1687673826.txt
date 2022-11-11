@@ -1,0 +1,239 @@
+|html|<div class="broadcast-blue"><strong>[Gen 8] OU is currently suspecting Melmetal! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/np-ss-ou-suspect-process-round-12-monster-mash.3709234/">suspect thread</a>.</strong></div>
+|j|☆hadahada
+|j|‽minimax_ai
+|t:|1665991016
+|gametype|singles
+|player|p1|hadahada|170|1482
+|player|p2|minimax_ai|265|1537
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Swampert, M|
+|poke|p1|Tapu Fini|
+|poke|p1|Rillaboom, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Zapdos|
+|poke|p1|Heatran, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, M|
+|poke|p2|Melmetal|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hadahada)
+|inactive|minimax_ai also wants the timer to be on.
+|
+|t:|1665991021
+|start
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|t:|1665991024
+|move|p2a: Weavile|Knock Off|p1a: Swampert
+|-damage|p1a: Swampert|40/100
+|-enditem|p1a: Swampert|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Swampert|Stealth Rock|p2a: Weavile
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1665991030
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Weavile|Knock Off|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|77/100
+|-enditem|p1a: Tapu Fini|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|
+|upkeep
+|turn|3
+|
+|t:|1665991039
+|switch|p2a: Melmetal|Melmetal|100/100
+|-damage|p2a: Melmetal|94/100|[from] Stealth Rock
+|switch|p1a: Heatran|Heatran, M|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1665991041
+|move|p1a: Heatran|Eruption|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|10/100
+|move|p2a: Melmetal|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1665991046
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|turn|5
+|
+|t:|1665991048
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|move|p1a: Obstagoon|Knock Off|p2a: Tangrowth
+|-damage|p2a: Tangrowth|67/100
+|-damage|p1a: Obstagoon|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-enditem|p2a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|upkeep
+|turn|6
+|
+|t:|1665991056
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Tangrowth|Focus Blast|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|86/100
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|7
+|
+|t:|1665991057
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Volt Switch|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1665991060
+|move|p1a: Zapdos|Hurricane|p2a: Landorus|[miss]
+|-miss|p1a: Zapdos|p2a: Landorus
+|move|p2a: Landorus|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|80/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1665991065
+|move|p1a: Zapdos|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|66/100
+|move|p2a: Landorus|Defog|p1a: Zapdos
+|-unboost|p1a: Zapdos|evasion|1
+|-sideend|p2: minimax_ai|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|
+|-heal|p2a: Landorus|72/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|68/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1665991072
+|move|p1a: Zapdos|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|35/100
+|-start|p2a: Landorus|confusion
+|-activate|p2a: Landorus|confusion
+|move|p2a: Landorus|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-heal|p2a: Landorus|41/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|50/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1665991076
+|move|p1a: Zapdos|Volt Switch|p2a: Landorus
+|-immune|p2a: Landorus
+|-activate|p2a: Landorus|confusion
+|move|p2a: Landorus|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-heal|p2a: Landorus|47/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|26/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1665991080
+|switch|p1a: Obstagoon|Obstagoon, M|84/100
+|-activate|p2a: Landorus|confusion
+|-damage|p2a: Landorus|35/100|[from] confusion
+|
+|-heal|p2a: Landorus|41/100|[from] item: Leftovers
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|
+|t:|1665991081
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Obstagoon|Knock Off|p2a: Tangrowth
+|-damage|p2a: Tangrowth|79/100
+|
+|-damage|p1a: Obstagoon|78/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1665991086
+|move|p1a: Obstagoon|Ice Punch|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|47/100
+|move|p2a: Tangrowth|Focus Blast|p1a: Obstagoon
+|-supereffective|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|upkeep
+|
+|t:|1665991095
+|switch|p1a: Zapdos|Zapdos|26/100 tox
+|turn|15
+|
+|t:|1665991096
+|switch|p2a: Landorus|Landorus-Therian, M|41/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|9/100
+|
+|-heal|p2a: Landorus|15/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|20/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1665991098
+|move|p1a: Zapdos|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-damage|p1a: Zapdos|8/100 tox|[from] psn
+|upkeep
+|
+|t:|1665991098
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|17
+|
+|t:|1665991100
+|move|p2a: Heatran|Magma Storm|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|-message|hadahada forfeited.
+|
+|win|minimax_ai
+|raw|hadahada's rating: 1482 &rarr; <strong>1465</strong><br />(-17 for losing)
+|raw|minimax_ai's rating: 1537 &rarr; <strong>1554</strong><br />(+17 for winning)

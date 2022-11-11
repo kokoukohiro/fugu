@@ -1,0 +1,180 @@
+|j|☆TheLindomar
+|j|☆Perfect lDark
+|player|p1|TheLindomar|red|1730
+|player|p2|Perfect lDark|az|1673
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Golurk|
+|poke|p1|Dragapult, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Amoonguss, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Magearna|
+|poke|p2|Cinderace, M|
+|poke|p2|Mew|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Clefable, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheLindomar)
+|
+|start
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Mew|Mew, shiny|100/100
+|turn|1
+|
+|move|p2a: Mew|Taunt|p1a: Golurk
+|-start|p1a: Golurk|move: Taunt
+|cant|p1a: Golurk|move: Taunt|Trick
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Stealth Rock|p1a: Golurk
+|-sidestart|p1: TheLindomar|move: Stealth Rock
+|move|p1a: Golurk|Poltergeist|p2a: Mew
+|-activate|p2a: Mew|move: Poltergeist|Leftovers
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Urshifu|Urshifu, M, shiny|100/100
+|turn|3
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|move|p2a: Urshifu|Wicked Blow|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|7/100
+|-damage|p2a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Urshifu|Wicked Blow|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2a: Urshifu|68/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|faint|p1a: Amoonguss
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|5
+|inactive|Perfect lDark has 120 seconds left.
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Mandibuzz|Defog|p2a: Magearna
+|-unboost|p2a: Magearna|evasion|1
+|-sideend|p1: TheLindomar|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|6
+|inactive|Perfect lDark has 120 seconds left.
+|
+|switch|p1a: Golurk|Golurk|100/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Golurk
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|7
+|inactive|Perfect lDark has 120 seconds left.
+|
+|switch|p2a: Urshifu|Urshifu, M, shiny|68/100
+|move|p1a: Cinderace|Bulk Up|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-boost|p1a: Cinderace|atk|1
+|-boost|p1a: Cinderace|def|1
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Urshifu|[miss]
+|-start|p1a: Cinderace|typechange|Fire|[from] ability: Libero
+|-miss|p1a: Cinderace|p2a: Urshifu
+|move|p2a: Urshifu|Close Combat|p1a: Cinderace
+|-damage|p1a: Cinderace|2/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|upkeep
+|inactive|Perfect lDark has 90 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F, shiny|100/100
+|turn|10
+|inactive|Perfect lDark has 90 seconds left.
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|41/100
+|move|p2a: Clefable|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Clefable|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|12
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Clefable
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|13
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Magearna|Flash Cannon|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|45/100
+|
+|upkeep
+|turn|14
+|-message|TheLindomar forfeited.
+|
+|win|Perfect lDark
+|l|☆TheLindomar
+|raw|TheLindomar's rating: 1730 &rarr; <strong>1707</strong><br />(-23 for losing)
+|raw|Perfect lDark's rating: 1673 &rarr; <strong>1696</strong><br />(+23 for winning)

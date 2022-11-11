@@ -1,0 +1,370 @@
+|j|☆Mael "El Sol"
+|j|☆COMUNICADO OFICIAL
+|player|p1|Mael "El Sol"|165|1400
+|player|p2|COMUNICADO OFICIAL|170|1317
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Jirachi|
+|poke|p1|Cinderace, F|
+|poke|p1|Gyarados, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Clefable, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Zeraora|
+|poke|p2|Bisharp, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mael "El Sol")
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|1
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Kommo-o|atk|1
+|move|p2a: Kommo-o|Stealth Rock|p1a: Gyarados
+|-sidestart|p1: Mael "El Sol"|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Gyarados|Waterfall|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|86/100
+|move|p2a: Kommo-o|Toxic|p1a: Gyarados
+|-status|p1a: Gyarados|tox
+|
+|-heal|p2a: Kommo-o|92/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Kommo-o|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|-unboost|p2a: Kommo-o|spa|2
+|
+|-heal|p2a: Kommo-o|99/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Kommo-o|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|26/100
+|-damage|p2a: Kommo-o|86/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Kommo-o
+|-sidestart|p2: COMUNICADO OFICIAL|move: Stealth Rock
+|
+|-heal|p2a: Kommo-o|92/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|32/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Kommo-o|Body Press|p1a: Jirachi
+|-damage|p1a: Jirachi|53/100
+|
+|-heal|p2a: Kommo-o|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Jirachi|Zen Headbutt|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|77/100
+|
+|-heal|p2a: Corviknight|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Zeraora|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|66/100
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Zeraora
+|move|p1a: Rotom|Will-O-Wisp|p2a: Zeraora|[miss]
+|-miss|p1a: Rotom|p2a: Zeraora
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|95/100|[from] Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Conkeldurr
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|16/100
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Rotom
+|-damage|p1a: Rotom|37/100
+|move|p1a: Rotom|Volt Switch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|switch|p1a: Gyarados|Gyarados, M|94/100 tox|[from]move: Volt Switch
+|
+|-damage|p1a: Gyarados|88/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Zeraora|Zeraora|88/100
+|-damage|p2a: Zeraora|76/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|32/100
+|-damage|p1a: Ferrothorn|26/100|[from] Stealth Rock
+|move|p2a: Zeraora|Plasma Fists|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|10/100
+|-fieldactivate|move: Ion Deluge
+|-damage|p2a: Zeraora|64/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|16/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Zeraora|Close Combat|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|22/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Gyarados|Gyarados, M|88/100 tox
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Zeraora|atk|1
+|move|p2a: Zeraora|Knock Off|p1a: Gyarados
+|-damage|p1a: Gyarados|63/100 tox
+|-enditem|p1a: Gyarados|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Zeraora
+|
+|-damage|p1a: Gyarados|57/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|22/100
+|-damage|p1a: Ferrothorn|16/100|[from] Stealth Rock
+|move|p2a: Zeraora|Plasma Fists|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|4/100
+|-fieldactivate|move: Ion Deluge
+|-damage|p2a: Zeraora|51/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|10/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Zeraora|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|-damage|p2a: Zeraora|39/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Mamoswine|Ice Shard|p2a: Clefable
+|-damage|p2a: Clefable|74/100
+|
+|-heal|p2a: Clefable|80/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|16/100
+|move|p2a: Clefable|Moonblast|p1a: Mamoswine
+|-damage|p1a: Mamoswine|40/100
+|
+|-heal|p2a: Clefable|22/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, F|99/100
+|-damage|p2a: Kommo-o|92/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Gyarados|Gyarados, M|57/100 tox
+|-damage|p1a: Gyarados|32/100 tox|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Kommo-o|atk|1
+|move|p2a: Kommo-o|Body Press|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|3/100 tox
+|
+|-heal|p2a: Kommo-o|99/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|0 fnt|[from] psn
+|faint|p1a: Gyarados
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|53/100
+|-damage|p1a: Jirachi|47/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Rotom|Rotom-Wash|37/100
+|-damage|p1a: Rotom|24/100|[from] Stealth Rock
+|switch|p2a: Corviknight|Corviknight, F|83/100
+|-damage|p2a: Corviknight|70/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|77/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Zeraora|Zeraora|39/100
+|-damage|p2a: Zeraora|27/100|[from] Stealth Rock
+|move|p1a: Rotom|Pain Split|p2a: Zeraora
+|-sethp|p2a: Zeraora|24/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|26/100|[from] move: Pain Split
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Mamoswine|Mamoswine, M|40/100
+|-damage|p1a: Mamoswine|28/100|[from] Stealth Rock
+|move|p2a: Zeraora|Close Combat|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|47/100
+|-damage|p1a: Jirachi|41/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Jirachi|Iron Head|p2a: Zeraora
+|-resisted|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Jirachi|Iron Head|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-damage|p2a: Bisharp|61/100
+|move|p2a: Bisharp|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-enditem|p1a: Jirachi|Choice Scarf|[from] move: Knock Off|[of] p2a: Bisharp
+|faint|p1a: Jirachi
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Kommo-o|Kommo-o, F|99/100
+|-damage|p2a: Kommo-o|92/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Kommo-o
+|-immune|p2a: Kommo-o|[from] ability: Bulletproof
+|
+|-heal|p2a: Kommo-o|99/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Kommo-o
+|-damage|p2a: Kommo-o|68/100
+|-damage|p1a: Cinderace|66/100|[from] item: Life Orb
+|move|p2a: Kommo-o|Body Press|p1a: Cinderace
+|-damage|p1a: Cinderace|4/100
+|
+|-heal|p2a: Kommo-o|75/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Kommo-o
+|-damage|p2a: Kommo-o|39/100
+|-damage|p1a: Cinderace|0 fnt|[from] item: Life Orb
+|faint|p1a: Cinderace
+|move|p2a: Kommo-o|Toxic|p1: Cinderace|[notarget]
+|-fail|p2a: Kommo-o
+|
+|-heal|p2a: Kommo-o|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|26/100
+|-damage|p1a: Rotom|14/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Rotom|Pain Split|p2a: Kommo-o
+|-sethp|p2a: Kommo-o|28/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|34/100|[from] move: Pain Split
+|move|p2a: Kommo-o|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p2a: Kommo-o|35/100|[from] item: Leftovers
+|-damage|p1a: Rotom|28/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Kommo-o
+|-status|p2a: Kommo-o|brn
+|move|p2a: Kommo-o|Body Press|p1a: Rotom
+|-damage|p1a: Rotom|11/100 tox
+|
+|-heal|p2a: Kommo-o|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|0 fnt|[from] psn
+|faint|p1a: Rotom
+|
+|win|COMUNICADO OFICIAL
+|upkeep

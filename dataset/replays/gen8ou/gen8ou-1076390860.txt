@@ -1,0 +1,323 @@
+|j|☆05luisyo
+|j|☆Flashybee
+|player|p1|05luisyo|248|1389
+|player|p2|Flashybee|70|1335
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Zeraora|
+|poke|p1|Darmanitan, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Clefable, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Rotom-Mow|
+|poke|p2|Alcremie, F|
+|poke|p2|Zeraora|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Gengar, M|
+|poke|p2|Mamoswine, F|
+|poke|p2|Milotic, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|1
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|turn|2
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Zeraora|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|92/100
+|-enditem|p2a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Zeraora
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|move|p1a: Zeraora|Knock Off|p2a: Mamoswine
+|-damage|p2a: Mamoswine|65/100
+|-enditem|p2a: Mamoswine|Never-Melt Ice|[from] move: Knock Off|[of] p1a: Zeraora
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Zeraora|Close Combat|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|5
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Zeraora|Close Combat|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|82/100
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|-damage|p2a: Zeraora|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pelipper|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Zeraora|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|57/100
+|-enditem|p1a: Pelipper|Leftovers|[from] move: Knock Off|[of] p2a: Zeraora
+|-damage|p2a: Zeraora|81/100|[from] item: Life Orb
+|move|p1a: Pelipper|Scald|p2a: Zeraora
+|-damage|p2a: Zeraora|7/100
+|-status|p2a: Zeraora|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Zeraora|1/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|move|p2a: Zeraora|Knock Off|p1a: Zeraora
+|-damage|p1a: Zeraora|73/100
+|-enditem|p1a: Zeraora|Expert Belt|[from] move: Knock Off|[of] p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt|[from] item: Life Orb
+|faint|p2a: Zeraora
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|8
+|
+|switch|p1a: Pelipper|Pelipper, M|57/100
+|move|p2a: Gengar|Sludge Wave|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|9
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|92/100
+|move|p1a: Dragapult|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|30/100
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Alcremie|Alcremie, F|100/100
+|turn|11
+|
+|switch|p1a: Zeraora|Zeraora|73/100
+|move|p2a: Alcremie|Acid Armor|p2a: Alcremie
+|-boost|p2a: Alcremie|def|2
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Zeraora|Volt Switch|p2a: Alcremie
+|-damage|p2a: Alcremie|85/100
+|
+|switch|p1a: Darmanitan|Darmanitan, F|100/100|[from]move: Volt Switch
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|91/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Alcremie
+|-damage|p2a: Alcremie|19/100
+|-damage|p1a: Darmanitan|78/100|[from] Recoil
+|move|p2a: Alcremie|Recover|p2a: Alcremie
+|-heal|p2a: Alcremie|69/100
+|
+|-heal|p2a: Alcremie|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Darmanitan|Flare Blitz|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|50/100
+|-damage|p1a: Darmanitan|59/100|[from] Recoil
+|
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|15
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|21/100 brn
+|-damage|p1a: Darmanitan|49/100|[from] Recoil
+|move|p2a: Milotic|Scald|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|-damage|p2a: Milotic|15/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|16
+|
+|move|p2a: Milotic|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|move|p1a: Clefable|Stealth Rock|p2a: Milotic
+|-sidestart|p2: Flashybee|move: Stealth Rock
+|
+|-damage|p2a: Milotic|9/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|59/100 brn
+|move|p1a: Clefable|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|38/100 brn
+|-unboost|p2a: Milotic|spa|1
+|
+|-damage|p2a: Milotic|32/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Milotic|Scald|p1a: Clefable
+|-damage|p1a: Clefable|88/100 tox
+|move|p1a: Clefable|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|11/100 brn
+|
+|-heal|p1a: Clefable|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|5/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|55/100 brn
+|move|p1a: Clefable|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|31/100 brn
+|
+|-heal|p1a: Clefable|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|25/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Zeraora|Zeraora|73/100
+|move|p2a: Milotic|Scald|p1a: Zeraora
+|-damage|p1a: Zeraora|49/100
+|
+|-damage|p2a: Milotic|19/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Zeraora|Volt Switch|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|switch|p1a: Clefable|Clefable, F|99/100 tox|[from]move: Volt Switch
+|
+|-heal|p1a: Clefable|100/100 tox|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Zeraora|Zeraora|49/100
+|move|p2a: Gengar|Sludge Wave|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|23
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 05luisyo)
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|70/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|switch|p2a: Alcremie|Alcremie, F|75/100
+|-damage|p2a: Alcremie|63/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Alcremie
+|-damage|p2a: Alcremie|19/100
+|move|p2a: Alcremie|Recover|p2a: Alcremie
+|-heal|p2a: Alcremie|69/100
+|
+|-heal|p2a: Alcremie|75/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Alcremie
+|-damage|p2a: Alcremie|33/100
+|-unboost|p2a: Alcremie|spd|1
+|move|p2a: Alcremie|Recover|p2a: Alcremie
+|-heal|p2a: Alcremie|83/100
+|
+|-heal|p2a: Alcremie|89/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Alcremie
+|-damage|p2a: Alcremie|32/100
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|38/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Alcremie
+|-damage|p2a: Alcremie|0 fnt
+|faint|p2a: Alcremie
+|
+|win|05luisyo
+|l|☆Flashybee
+|raw|05luisyo's rating: 1389 &rarr; <strong>1406</strong><br />(+17 for winning)
+|raw|Flashybee's rating: 1335 &rarr; <strong>1318</strong><br />(-17 for losing)

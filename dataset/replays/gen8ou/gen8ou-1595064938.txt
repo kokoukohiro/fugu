@@ -1,0 +1,393 @@
+|j|☆SDK04
+|j|☆cump6
+|t:|1655083045
+|gametype|singles
+|player|p1|SDK04|nate|1568
+|player|p2|cump6|gentleman-gen4|1512
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Blacephalon|
+|poke|p1|Dragapult, M|
+|poke|p1|Weavile, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Skarmory, F|
+|poke|p2|Scizor, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Suicune|
+|poke|p2|Volcarona, F|
+|poke|p2|Hawlucha, F|
+|teampreview
+|
+|t:|1655083051
+|start
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|switch|p2a: Skarmory|Skarmory, F, shiny|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SDK04)
+|
+|t:|1655083055
+|move|p2a: Skarmory|Stealth Rock|p1a: Rotom
+|-sidestart|p1: SDK04|move: Stealth Rock
+|move|p1a: Rotom|Thunder Wave|p2a: Skarmory|[miss]
+|-miss|p1a: Rotom|p2a: Skarmory
+|
+|upkeep
+|turn|2
+|
+|t:|1655083064
+|move|p2a: Skarmory|Spikes|p1a: Rotom
+|-sidestart|p1: SDK04|Spikes
+|move|p1a: Rotom|Thunder Wave|p2a: Skarmory
+|-status|p2a: Skarmory|par
+|
+|upkeep
+|turn|3
+|
+|t:|1655083069
+|move|p1a: Rotom|Volt Switch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|20/100 par
+|
+|t:|1655083071
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100|[from]move: Volt Switch
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Skarmory|atk|1
+|cant|p2a: Skarmory|par
+|
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|-enditem|p2a: Skarmory|Custap Berry|[eat]
+|-activate|p2a: Skarmory|item: Custap Berry|[consumed]
+|
+|t:|1655083075
+|move|p2a: Skarmory|Brave Bird|p1a: Landorus
+|-damage|p1a: Landorus|62/100
+|-damage|p2a: Skarmory|5/100 par|[from] Recoil
+|move|p1a: Landorus|Defog|p2a: Skarmory
+|-unboost|p2a: Skarmory|evasion|1
+|-sideend|p1: SDK04|Spikes|[from] move: Defog|[of] p1a: Landorus
+|-sideend|p1: SDK04|Stealth Rock|[from] move: Defog|[of] p1a: Landorus
+|
+|-heal|p1a: Landorus|68/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1655083081
+|move|p1a: Landorus|Knock Off|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-heal|p1a: Landorus|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1655083087
+|switch|p2a: Suicune|Suicune, shiny|100/100
+|-ability|p2a: Suicune|Pressure
+|turn|6
+|
+|t:|1655083093
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1655083099
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Rotom|Volt Switch|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|
+|t:|1655083102
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1655083105
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Dragapult|Dragon Darts|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1655083110
+|move|p1a: Dragapult|Dragon Darts|p2a: Suicune
+|-damage|p2a: Suicune|71/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Suicune
+|-damage|p2a: Suicune|44/100
+|move|p2a: Suicune|Scald|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|75/100
+|
+|-heal|p2a: Suicune|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1655083114
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Dragapult|Dragon Darts|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p2a: Suicune|56/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1655083117
+|switch|p2a: Scizor|Scizor, M, shiny|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|80/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|60/100
+|
+|upkeep
+|turn|12
+|
+|t:|1655083121
+|move|p1a: Dragapult|Dragon Darts|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|38/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|17/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|68/100
+|-singleturn|p2a: Scizor|move: Roost
+|
+|upkeep
+|turn|13
+|
+|t:|1655083128
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100/100
+|-singleturn|p2a: Scizor|move: Roost
+|
+|upkeep
+|turn|14
+|
+|t:|1655083132
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Volcarona
+|-start|p2a: Volcarona|move: Leech Seed
+|
+|-damage|p2a: Volcarona|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|15
+|
+|t:|1655083137
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|move|p2a: Volcarona|Bug Buzz|p1a: Rotom
+|-damage|p1a: Rotom|68/100
+|
+|-heal|p1a: Rotom|74/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|76/100|[from] Leech Seed|[of] p1a: Rotom
+|-heal|p1a: Rotom|89/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1655083147
+|switch|p2a: Scizor|Scizor, M, shiny|100/100
+|move|p1a: Rotom|Thunder Wave|p2a: Scizor
+|-status|p2a: Scizor|par
+|
+|-heal|p1a: Rotom|95/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1655083152
+|move|p1a: Rotom|Hydro Pump|p2a: Scizor|[miss]
+|-miss|p1a: Rotom|p2a: Scizor
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1655083159
+|switch|p2a: Suicune|Suicune, shiny|56/100
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Rotom|Hydro Pump|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|42/100
+|
+|-heal|p2a: Suicune|49/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1655083163
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p2a: Suicune|55/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1655083168
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Rotom|Volt Switch|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|85/100
+|
+|t:|1655083176
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Rillaboom|91/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1655083179
+|move|p2a: Rillaboom|Swords Dance|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|2
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Rillaboom
+|-sidestart|p2: cump6|move: Stealth Rock
+|
+|-heal|p2a: Rillaboom|98/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1655083181
+|move|p2a: Rillaboom|Superpower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|5/100
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2a: Rillaboom|def|1
+|-damage|p2a: Rillaboom|85/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Rillaboom|69/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Body Press|p2a: Rillaboom
+|-damage|p2a: Rillaboom|18/100
+|
+|-heal|p2a: Rillaboom|24/100|[from] Grassy Terrain
+|-heal|p1a: Ferrothorn|11/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1655083186
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|75/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|move|p2a: Rillaboom|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|45/100
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-heal|p2a: Rillaboom|30/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1655083191
+|switch|p1a: Dragapult|Dragapult, M|75/100
+|move|p2a: Rillaboom|Swords Dance|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|2
+|
+|-heal|p1a: Dragapult|81/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|36/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|25
+|
+|t:|1655083202
+|switch|p2a: Scizor|Scizor, M, shiny|100/100 par
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|
+|upkeep
+|turn|26
+|
+|t:|1655083209
+|move|p1a: Dragapult|Phantom Force|p2a: Scizor|[from]lockedmove
+|-damage|p2a: Scizor|31/100 par
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|82/100 par
+|-singleturn|p2a: Scizor|move: Roost
+|
+|upkeep
+|turn|27
+|
+|t:|1655083215
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|28
+|
+|t:|1655083218
+|move|p1a: Rotom|Hydro Pump|p2a: Scizor
+|-damage|p2a: Scizor|37/100 par
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|87/100 par
+|-singleturn|p2a: Scizor|move: Roost
+|
+|upkeep
+|turn|29
+|
+|t:|1655083222
+|move|p1a: Rotom|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|58/100 par
+|
+|t:|1655083223
+|switch|p1a: Blacephalon|Blacephalon, shiny|100/100|[from]move: Volt Switch
+|cant|p2a: Scizor|par
+|
+|upkeep
+|turn|30
+|
+|t:|1655083227
+|move|p1a: Blacephalon|Shadow Ball|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|-ability|p1a: Blacephalon|Beast Boost|boost
+|-boost|p1a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1655083232
+|switch|p2a: Volcarona|Volcarona, F|76/100
+|turn|31
+|
+|t:|1655083234
+|move|p1a: Blacephalon|Shadow Ball|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|-ability|p1a: Blacephalon|Beast Boost|boost
+|-boost|p1a: Blacephalon|spa|1
+|
+|upkeep
+|-message|cump6 forfeited.
+|
+|win|SDK04
+|raw|SDK04's rating: 1568 &rarr; <strong>1585</strong><br />(+17 for winning)
+|raw|cump6's rating: 1512 &rarr; <strong>1495</strong><br />(-17 for losing)
+|l|☆cump6
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

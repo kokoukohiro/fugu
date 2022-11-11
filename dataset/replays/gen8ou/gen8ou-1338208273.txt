@@ -1,0 +1,737 @@
+|j|☆Donphan Domain
+|j|☆Wheezer
+|t:|1620685466
+|gametype|singles
+|player|p1|Donphan Domain|hiker-gen4|1618
+|player|p2|Wheezer|102|1538
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Garchomp, F|
+|poke|p1|Heatran, M|
+|poke|p1|Clefable, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Jirachi|
+|poke|p2|Hippowdon, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Eldegoss, M|
+|poke|p2|Drampa, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Donphan Domain)
+|
+|t:|1620685484
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|turn|1
+|
+|t:|1620685486
+|move|p1a: Landorus|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|move|p2a: Dragonite|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-damage|p2a: Dragonite|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1620685491
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|2
+|
+|t:|1620685498
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Clefable|Teleport|p1a: Clefable
+|
+|t:|1620685517
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|3
+|
+|t:|1620685522
+|move|p2a: Jirachi|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|88/100
+|
+|t:|1620685526
+|switch|p2a: Drampa|Drampa, F|100/100|[from]move: U-turn
+|move|p1a: Dragapult|Shadow Ball|p2a: Drampa
+|-immune|p2a: Drampa
+|
+|upkeep
+|turn|4
+|
+|t:|1620685529
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Drampa|Glare|p1a: Heatran
+|-status|p1a: Heatran|par
+|
+|upkeep
+|turn|5
+|
+|t:|1620685535
+|switch|p2a: Dragonite|Dragonite, F|94/100 tox
+|cant|p1a: Heatran|par
+|
+|-damage|p2a: Dragonite|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1620685546
+|switch|p2a: Drampa|Drampa, F|100/100
+|switch|p1a: Clefable|Clefable, M|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1620685553
+|switch|p1a: Heatran|Heatran, M|100/100 par
+|move|p2a: Drampa|Glare|p1a: Heatran
+|-fail|p1a: Heatran|par
+|
+|upkeep
+|turn|8
+|
+|t:|1620685557
+|switch|p2a: Dragonite|Dragonite, F|88/100 tox
+|move|p1a: Heatran|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: Wheezer|move: Stealth Rock
+|
+|-damage|p2a: Dragonite|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1620685564
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Dragonite|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p2: Wheezer|Stealth Rock|[from] move: Defog|[of] p2a: Dragonite
+|
+|-damage|p2a: Dragonite|69/100 tox|[from] psn
+|upkeep
+|turn|10
+|j| Mikooko
+|
+|t:|1620685569
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|move|p1a: Clefable|Teleport|p1a: Clefable
+|l| Mikooko
+|
+|t:|1620685579
+|switch|p1a: Heatran|Heatran, M|100/100 par|[from]move: Teleport
+|
+|upkeep
+|turn|11
+|
+|t:|1620685584
+|move|p2a: Eldegoss|Aromatherapy|p2a: Eldegoss
+|-activate|p2a: Eldegoss|move: Aromatherapy
+|-curestatus|p2: Dragonite|tox|[msg]
+|cant|p1a: Heatran|par
+|
+|upkeep
+|turn|12
+|
+|t:|1620685592
+|switch|p2a: Dragonite|Dragonite, F|69/100
+|move|p1a: Heatran|Magma Storm|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|43/100
+|-activate|p2a: Dragonite|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Dragonite|31/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1620685601
+|switch|p1a: Dragapult|Dragapult, F|88/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|81/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-end|p2a: Dragonite|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|14
+|
+|t:|1620685608
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Dragapult|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|89/100
+|
+|t:|1620685615
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1620685620
+|move|p2a: Hippowdon|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Donphan Domain|move: Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Hippowdon
+|-damage|p2a: Hippowdon|80/100
+|-enditem|p2a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1620685636
+|switch|p2a: Drampa|Drampa, F|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Drampa
+|-start|p2a: Drampa|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drampa|94/100|[from] Sandstorm
+|-damage|p2a: Drampa|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|17
+|
+|t:|1620685641
+|switch|p1a: Heatran|Heatran, M|100/100 par
+|-damage|p1a: Heatran|88/100 par|[from] Stealth Rock
+|move|p2a: Drampa|Glare|p1a: Heatran
+|-fail|p1a: Heatran|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drampa|76/100|[from] Sandstorm
+|-heal|p1a: Heatran|94/100 par|[from] item: Leftovers
+|-damage|p2a: Drampa|63/100|[from] Leech Seed|[of] p1a: Heatran
+|-heal|p1a: Heatran|100/100 par|[silent]
+|upkeep
+|turn|18
+|
+|t:|1620685647
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Togekiss
+|-sidestart|p2: Wheezer|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1620685658
+|move|p2a: Togekiss|Air Slash|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|89/100 par
+|cant|p1a: Heatran|flinch
+|
+|-heal|p1a: Heatran|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1620685662
+|move|p2a: Togekiss|Substitute|p2a: Togekiss
+|-start|p2a: Togekiss|Substitute
+|-damage|p2a: Togekiss|76/100
+|move|p1a: Heatran|Magma Storm|p2a: Togekiss
+|-end|p2a: Togekiss|Substitute
+|
+|-heal|p1a: Heatran|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Wheezer has 120 seconds left.
+|
+|t:|1620685703
+|move|p2a: Togekiss|Substitute|p2a: Togekiss
+|-start|p2a: Togekiss|Substitute
+|-damage|p2a: Togekiss|51/100
+|move|p1a: Heatran|Taunt|p2a: Togekiss
+|-start|p2a: Togekiss|move: Taunt
+|
+|upkeep
+|turn|22
+|
+|t:|1620685713
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Togekiss|Air Slash|p1a: Clefable
+|-damage|p1a: Clefable|80/100
+|
+|-heal|p1a: Clefable|87/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1620685719
+|move|p2a: Togekiss|Air Slash|p1a: Clefable
+|-damage|p1a: Clefable|68/100
+|cant|p1a: Clefable|flinch
+|
+|-heal|p1a: Clefable|74/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1620685725
+|move|p2a: Togekiss|Air Slash|p1a: Clefable|[miss]
+|-miss|p2a: Togekiss|p1a: Clefable
+|move|p1a: Clefable|Moonblast|p2a: Togekiss
+|-end|p2a: Togekiss|Substitute
+|
+|-heal|p1a: Clefable|80/100|[from] item: Leftovers
+|-end|p2a: Togekiss|move: Taunt
+|upkeep
+|turn|25
+|
+|t:|1620685738
+|switch|p1a: Heatran|Heatran, M|100/100 par
+|-damage|p1a: Heatran|88/100 par|[from] Stealth Rock
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|100/100
+|-singleturn|p2a: Togekiss|move: Roost
+|
+|-heal|p1a: Heatran|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1620685741
+|move|p2a: Togekiss|Substitute|p2a: Togekiss
+|-start|p2a: Togekiss|Substitute
+|-damage|p2a: Togekiss|76/100
+|move|p1a: Heatran|Taunt|p2a: Togekiss
+|-start|p2a: Togekiss|move: Taunt
+|
+|-heal|p1a: Heatran|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1620685749
+|switch|p1a: Clefable|Clefable, M|80/100
+|move|p2a: Togekiss|Air Slash|p1a: Clefable
+|-damage|p1a: Clefable|59/100
+|
+|-heal|p1a: Clefable|65/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1620685755
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Togekiss|Air Slash|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|71/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1620685758
+|move|p2a: Togekiss|Air Slash|p1a: Clefable
+|-damage|p1a: Clefable|51/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|57/100|[from] item: Leftovers
+|-end|p2a: Togekiss|move: Taunt
+|upkeep
+|turn|30
+|
+|t:|1620685764
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|move|p1a: Clefable|Moonblast|p2a: Togekiss
+|-end|p2a: Togekiss|Substitute
+|
+|-heal|p1a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|31
+|
+|t:|1620685780
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Togekiss|Air Slash|p1a: Garchomp
+|-damage|p1a: Garchomp|24/100
+|
+|upkeep
+|turn|32
+|
+|t:|1620685784
+|move|p1a: Garchomp|Stone Edge|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|-damage|p1a: Garchomp|14/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1620685789
+|switch|p2a: Dragonite|Dragonite, F|81/100
+|turn|33
+|
+|t:|1620685801
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|-damage|p2a: Eldegoss|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|34
+|
+|t:|1620685807
+|move|p2a: Eldegoss|Rapid Spin|p1a: Clefable
+|-damage|p1a: Clefable|95/100
+|-boost|p2a: Eldegoss|spe|1
+|-sideend|p2: Wheezer|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Eldegoss
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1620685815
+|move|p2a: Eldegoss|Stun Spore|p1a: Clefable|[miss]
+|-miss|p2a: Eldegoss|p1a: Clefable
+|move|p1a: Clefable|Teleport|p1a: Clefable
+|
+|t:|1620685818
+|switch|p1a: Garchomp|Garchomp, F|14/100|[from]move: Teleport
+|-damage|p1a: Garchomp|8/100|[from] Stealth Rock
+|
+|-heal|p1a: Garchomp|63/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|36
+|
+|t:|1620685822
+|switch|p1a: Heatran|Heatran, M|100/100 par
+|-damage|p1a: Heatran|88/100 par|[from] Stealth Rock
+|move|p2a: Eldegoss|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-heal|p1a: Heatran|94/100 par|[from] item: Leftovers
+|-damage|p1a: Heatran|82/100 par|[from] Leech Seed|[of] p2a: Eldegoss
+|-heal|p2a: Eldegoss|100/100|[silent]
+|upkeep
+|turn|37
+|
+|t:|1620685834
+|switch|p2a: Dragonite|Dragonite, F|81/100
+|switch|p1a: Dragapult|Dragapult, F|88/100
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|38
+|
+|t:|1620685840
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|61/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|upkeep
+|turn|39
+|
+|t:|1620685846
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Jirachi|Trick|p1a: Ferrothorn
+|-activate|p2a: Jirachi|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Choice Scarf|[from] move: Trick
+|-item|p2a: Jirachi|Rocky Helmet|[from] move: Trick
+|
+|upkeep
+|turn|40
+|
+|t:|1620685859
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Eldegoss
+|-damage|p2a: Eldegoss|82/100
+|-enditem|p2a: Eldegoss|Protective Pads|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|41
+|
+|t:|1620685869
+|move|p2a: Eldegoss|Stun Spore|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Eldegoss
+|-damage|p2a: Eldegoss|69/100
+|
+|upkeep
+|turn|42
+|
+|t:|1620685887
+|switch|p2a: Hippowdon|Hippowdon, M|80/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|switch|p1a: Clefable|Clefable, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|43
+|
+|t:|1620685903
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|94/100|[from] Sandstorm
+|upkeep
+|turn|44
+|
+|t:|1620685916
+|switch|p1a: Heatran|Heatran, M|82/100 par
+|-damage|p1a: Heatran|69/100 par|[from] Stealth Rock
+|move|p2a: Eldegoss|Stun Spore|p1a: Heatran
+|-fail|p1a: Heatran|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|88/100|[from] Sandstorm
+|-heal|p1a: Heatran|100/100 par|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|45
+|
+|t:|1620685924
+|switch|p2a: Dragonite|Dragonite, F|81/100
+|move|p1a: Heatran|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: Wheezer|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|74/100|[from] Sandstorm
+|upkeep
+|turn|46
+|
+|t:|1620685931
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Dragonite|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p1: Donphan Domain|Stealth Rock|[from] move: Defog|[of] p2a: Dragonite
+|-sideend|p2: Wheezer|Stealth Rock|[from] move: Defog|[of] p2a: Dragonite
+|
+|-weather|none
+|upkeep
+|turn|47
+|
+|t:|1620685942
+|switch|p2a: Hippowdon|Hippowdon, M|80/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|48
+|
+|t:|1620685947
+|move|p2a: Hippowdon|Stealth Rock|p1a: Clefable
+|-sidestart|p1: Donphan Domain|move: Stealth Rock
+|move|p1a: Clefable|Teleport|p1a: Clefable
+|
+|t:|1620685949
+|switch|p1a: Garchomp|Garchomp, F|63/100|[from]move: Teleport
+|-damage|p1a: Garchomp|57/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Garchomp|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|49
+|
+|t:|1620685955
+|switch|p1a: Ferrothorn|Ferrothorn, M|95/100
+|-damage|p1a: Ferrothorn|89/100|[from] Stealth Rock
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|94/100|[from] Sandstorm
+|upkeep
+|turn|50
+|
+|t:|1620685964
+|move|p2a: Eldegoss|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Eldegoss
+|-sidestart|p2: Wheezer|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|88/100|[from] Sandstorm
+|upkeep
+|turn|51
+|
+|t:|1620685970
+|move|p2a: Eldegoss|Stun Spore|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Eldegoss
+|-sidestart|p2: Wheezer|Spikes
+|
+|-weather|none
+|upkeep
+|turn|52
+|
+|t:|1620685978
+|move|p2a: Eldegoss|Stun Spore|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Eldegoss
+|-sidestart|p2: Wheezer|Spikes
+|
+|upkeep
+|turn|53
+|
+|t:|1620685983
+|switch|p1a: Heatran|Heatran, M|100/100 par
+|-damage|p1a: Heatran|88/100 par|[from] Stealth Rock
+|move|p2a: Eldegoss|Rapid Spin|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|86/100 par
+|-boost|p2a: Eldegoss|spe|1
+|-sideend|p2: Wheezer|Spikes|[from] move: Rapid Spin|[of] p2a: Eldegoss
+|
+|-heal|p1a: Heatran|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1620685995
+|switch|p2a: Dragonite|Dragonite, F|74/100
+|cant|p1a: Heatran|par
+|
+|-heal|p1a: Heatran|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1620686001
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Dragonite|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|61/100
+|
+|-heal|p1a: Clefable|67/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1620686008
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: Eldegoss
+|-damage|p2a: Eldegoss|71/100
+|
+|-heal|p1a: Clefable|73/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1620686013
+|switch|p2a: Dragonite|Dragonite, F|74/100
+|move|p1a: Clefable|Protect||[still]
+|-fail|p1a: Clefable
+|
+|-heal|p1a: Clefable|79/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1620686019
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|move|p1a: Clefable|Teleport|p1a: Clefable
+|
+|t:|1620686026
+|switch|p1a: Dragapult|Dragapult, F|76/100|[from]move: Teleport
+|-damage|p1a: Dragapult|63/100|[from] Stealth Rock
+|
+|upkeep
+|turn|59
+|inactive|Wheezer has 120 seconds left.
+|
+|t:|1620686074
+|move|p1a: Dragapult|U-turn|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|71/100
+|j| Xxkillerdu06xX
+|l| Xxkillerdu06xX
+|
+|t:|1620686085
+|switch|p1a: Ferrothorn|Ferrothorn, M|89/100|[from]move: U-turn
+|-damage|p1a: Ferrothorn|83/100|[from] Stealth Rock
+|move|p2a: Eldegoss|Stun Spore|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|upkeep
+|turn|60
+|
+|t:|1620686091
+|move|p2a: Eldegoss|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Eldegoss
+|-sidestart|p2: Wheezer|Spikes
+|
+|upkeep
+|turn|61
+|j| ForestCave
+|inactive|Wheezer has 120 seconds left.
+|l| ForestCave
+|
+|t:|1620686100
+|switch|p2a: Drampa|Drampa, F|63/100
+|move|p1a: Ferrothorn|Spikes|p2a: Drampa
+|-sidestart|p2: Wheezer|Spikes
+|
+|upkeep
+|turn|62
+|j| Ladder clip
+|
+|t:|1620686104
+|switch|p1a: Heatran|Heatran, M|98/100 par
+|-damage|p1a: Heatran|86/100 par|[from] Stealth Rock
+|move|p2a: Drampa|Roost|p2a: Drampa
+|-heal|p2a: Drampa|100/100
+|-singleturn|p2a: Drampa|move: Roost
+|
+|-heal|p1a: Heatran|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1620686115
+|switch|p2a: Dragonite|Dragonite, F|74/100
+|switch|p1a: Dragapult|Dragapult, F|63/100
+|-damage|p1a: Dragapult|51/100|[from] Stealth Rock
+|
+|upkeep
+|turn|64
+|l| Ladder clip
+|
+|t:|1620686139
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|-damage|p2a: Eldegoss|84/100|[from] Spikes
+|move|p1a: Dragapult|Draco Meteor|p2a: Eldegoss
+|-damage|p2a: Eldegoss|7/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|upkeep
+|turn|65
+|
+|t:|1620686152
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|switch|p2a: Dragonite|Dragonite, F|74/100
+|
+|upkeep
+|turn|66
+|inactive|Donphan Domain has 120 seconds left.
+|
+|t:|1620686207
+|move|p1a: Garchomp|Scale Shot|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|39/100
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|5/100
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-hitcount|p2a: Dragonite|3
+|faint|p2a: Dragonite
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|-damage|p1a: Garchomp|85/100|[from] item: Life Orb
+|
+|upkeep
+|-message|Wheezer forfeited.
+|
+|win|Donphan Domain
+|l|☆Wheezer
+|raw|Donphan Domain's rating: 1618 &rarr; <strong>1633</strong><br />(+15 for winning)
+|raw|Wheezer's rating: 1538 &rarr; <strong>1523</strong><br />(-15 for losing)

@@ -1,0 +1,535 @@
+|j|☆Spindrat Test
+|j|☆Wheezer
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1615185611
+|player|p1|Spindrat Test|psychicf-gen3|
+|player|p2|Wheezer|petrel|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|Tournament battle
+|clearpoke
+|poke|p1|Sandaconda, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Cloyster, F|
+|poke|p1|Garchomp, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Hippowdon, F|
+|poke|p2|Suicune|
+|poke|p2|Corviknight, F|
+|poke|p2|Latias, F|
+|poke|p2|Clefable, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1615185624
+|start
+|switch|p1a: Snek|Sandaconda, M|100/100
+|switch|p2a: Latias|Latias, F|100/100
+|turn|1
+|j| assweasswecan
+|
+|t:|1615185630
+|move|p2a: Latias|Trick|p1a: Snek
+|-activate|p2a: Latias|move: Trick|[of] p1a: Snek
+|-item|p1a: Snek|Choice Scarf|[from] move: Trick
+|-item|p2a: Latias|Focus Sash|[from] move: Trick
+|move|p1a: Snek|Glare|p2a: Latias
+|-status|p2a: Latias|par
+|
+|upkeep
+|turn|2
+|
+|t:|1615185636
+|move|p1a: Snek|Glare|p2a: Latias
+|-fail|p2a: Latias|par
+|cant|p2a: Latias|par
+|
+|upkeep
+|turn|3
+|j| AgencyMan
+|
+|t:|1615185640
+|move|p1a: Snek|Glare|p2a: Latias
+|-fail|p2a: Latias|par
+|cant|p2a: Latias|par
+|
+|upkeep
+|turn|4
+|
+|t:|1615185646
+|switch|p1a: Hax|Grimmsnarl, M|100/100
+|cant|p2a: Latias|par
+|
+|upkeep
+|turn|5
+|
+|t:|1615185652
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Hax|Taunt|p2a: Hippowdon
+|-start|p2a: Hippowdon|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hax|94/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1615185656
+|move|p1a: Hax|Reflect|p1a: Hax
+|-sidestart|p1: Spindrat Test|Reflect
+|move|p2a: Hippowdon|Earthquake|p1a: Hax
+|-damage|p1a: Hax|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hax|64/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1615185665
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Hax|Light Screen|p1a: Hax
+|-sidestart|p1: Spindrat Test|move: Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hax|58/100|[from] Sandstorm
+|-damage|p2a: Toxapex|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1615185668
+|move|p1a: Hax|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|cant|p2a: Toxapex|move: Taunt|Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hax|52/100|[from] Sandstorm
+|-damage|p2a: Toxapex|88/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1615185683
+|switch|p1a: Snek|Sandaconda, M|100/100
+|move|p2a: Toxapex|Knock Off|p1a: Snek
+|-damage|p1a: Snek|95/100
+|-enditem|p1a: Snek|Choice Scarf|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1615185691
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Snek|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: Wheezer|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1615185693
+|move|p1a: Snek|Glare|p2a: Hippowdon
+|-status|p2a: Hippowdon|par
+|cant|p2a: Hippowdon|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|inactive|Wheezer has 120 seconds left.
+|
+|t:|1615185738
+|switch|p1a: Pure Skill|Cloyster, F|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Pure Skill
+|-sidestart|p1: Spindrat Test|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pure Skill|94/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1615185744
+|move|p1a: Pure Skill|Shell Smash|p1a: Pure Skill
+|-unboost|p1a: Pure Skill|def|1
+|-unboost|p1a: Pure Skill|spd|1
+|-boost|p1a: Pure Skill|atk|2
+|-boost|p1a: Pure Skill|spa|2
+|-boost|p1a: Pure Skill|spe|2
+|move|p2a: Hippowdon|Whirlwind|p1a: Pure Skill
+|drag|p1a: Luck|Excadrill, F|100/100
+|-damage|p1a: Luck|97/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-sideend|p1: Spindrat Test|Reflect
+|upkeep
+|turn|14
+|
+|t:|1615185753
+|move|p1a: Luck|Rapid Spin|p2a: Hippowdon
+|-damage|p2a: Hippowdon|92/100 par
+|-boost|p1a: Luck|spe|1
+|-sideend|p1: Spindrat Test|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Luck
+|move|p2a: Hippowdon|Earthquake|p1a: Luck
+|-supereffective|p1a: Luck
+|-damage|p1a: Luck|0 fnt
+|faint|p1a: Luck
+|
+|-weather|none
+|-heal|p2a: Hippowdon|98/100 par|[from] item: Leftovers
+|-sideend|p1: Spindrat Test|move: Light Screen
+|upkeep
+|
+|t:|1615185760
+|switch|p1a: Hax|Grimmsnarl, M|52/100
+|turn|15
+|
+|t:|1615185774
+|move|p1a: Hax|Light Screen|p1a: Hax
+|-sidestart|p1: Spindrat Test|move: Light Screen
+|move|p2a: Hippowdon|Stealth Rock|p1a: Hax
+|-sidestart|p1: Spindrat Test|move: Stealth Rock
+|
+|-heal|p2a: Hippowdon|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1615185778
+|switch|p2a: Clefable|Clefable, F|100/100
+|-damage|p2a: Clefable|88/100|[from] Stealth Rock
+|move|p1a: Hax|Reflect|p1a: Hax
+|-sidestart|p1: Spindrat Test|Reflect
+|
+|-heal|p2a: Clefable|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1615185782
+|move|p1a: Hax|Thunder Wave|p2a: Clefable|[miss]
+|-miss|p1a: Hax|p2a: Clefable
+|move|p2a: Clefable|Aromatherapy|p2a: Clefable
+|-activate|p2a: Clefable|move: Aromatherapy
+|-curestatus|p2: Latias|par|[msg]
+|-curestatus|p2: Hippowdon|par|[msg]
+|
+|-heal|p2a: Clefable|99/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|j| Dialkia89
+|
+|t:|1615185788
+|move|p1a: Hax|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|move|p2a: Clefable|Moonblast|p1a: Hax
+|-supereffective|p1a: Hax
+|-crit|p1a: Hax
+|-damage|p1a: Hax|0 fnt
+|faint|p1a: Hax
+|
+|-heal|p2a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1615185794
+|switch|p1a: Pure Skill|Cloyster, F|94/100
+|-damage|p1a: Pure Skill|69/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1615185800
+|move|p1a: Pure Skill|Shell Smash|p1a: Pure Skill
+|-unboost|p1a: Pure Skill|def|1
+|-unboost|p1a: Pure Skill|spd|1
+|-boost|p1a: Pure Skill|atk|2
+|-boost|p1a: Pure Skill|spa|2
+|-boost|p1a: Pure Skill|spe|2
+|move|p2a: Clefable|Moonblast|p1a: Pure Skill
+|-damage|p1a: Pure Skill|25/100
+|
+|upkeep
+|turn|20
+|
+|t:|1615185807
+|move|p1a: Pure Skill|Icicle Spear|p2a: Clefable
+|-damage|p2a: Clefable|91/100
+|-damage|p2a: Clefable|82/100
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|68/100
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|54/100
+|-damage|p2a: Clefable|45/100
+|-hitcount|p2a: Clefable|5
+|move|p2a: Clefable|Moonblast|p1a: Pure Skill
+|-damage|p1a: Pure Skill|0 fnt
+|faint|p1a: Pure Skill
+|
+|-heal|p2a: Clefable|52/100|[from] item: Leftovers
+|-end|p2a: Clefable|move: Taunt
+|upkeep
+|
+|t:|1615185833
+|switch|p1a: Snek|Sandaconda, M|95/100
+|-damage|p1a: Snek|89/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1615185837
+|move|p1a: Snek|Glare|p2a: Clefable
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100/100 par
+|
+|upkeep
+|turn|22
+|l| Dialkia89
+|
+|t:|1615185840
+|move|p1a: Snek|Wrap|p2a: Clefable
+|-damage|p2a: Clefable|98/100 par
+|-activate|p2a: Clefable|move: Wrap|[of] p1a: Snek
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|100/100 par|[from] item: Leftovers
+|-damage|p2a: Clefable|88/100 par|[from] move: Wrap|[partiallytrapped]
+|-sideend|p1: Spindrat Test|move: Light Screen
+|upkeep
+|turn|23
+|
+|t:|1615185848
+|move|p1a: Snek|Earthquake|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|46/100 par
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|52/100 par|[from] item: Leftovers
+|-damage|p2a: Clefable|40/100 par|[from] move: Wrap|[partiallytrapped]
+|-sideend|p1: Spindrat Test|Reflect
+|upkeep
+|turn|24
+|
+|t:|1615185852
+|move|p1a: Snek|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|12/100 par
+|move|p2a: Clefable|Aromatherapy|p2a: Clefable
+|-activate|p2a: Clefable|move: Aromatherapy
+|-curestatus|p2a: Clefable|par|[msg]
+|
+|-heal|p2a: Clefable|18/100|[from] item: Leftovers
+|-damage|p2a: Clefable|6/100|[from] move: Wrap|[partiallytrapped]
+|upkeep
+|turn|25
+|
+|t:|1615185856
+|move|p1a: Snek|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|c|☆Wheezer|can i get that sandaconda set
+|j| JezebelleXX
+|
+|t:|1615185867
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|turn|26
+|
+|t:|1615185874
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|move|p1a: Snek|Glare|p2a: Suicune
+|-status|p2a: Suicune|par
+|
+|-heal|p2a: Suicune|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1615185879
+|move|p1a: Snek|Wrap|p2a: Suicune
+|-damage|p2a: Suicune|92/100 par
+|-activate|p2a: Suicune|move: Wrap|[of] p1a: Snek
+|move|p2a: Suicune|Scald|p1a: Snek
+|-supereffective|p1a: Snek
+|-damage|p1a: Snek|0 fnt
+|-weather|Sandstorm|[from] ability: Sand Spit|[of] p1a: Snek
+|faint|p1a: Snek
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Suicune|85/100 par|[from] Sandstorm
+|-heal|p2a: Suicune|92/100 par|[from] item: Leftovers
+|-end|p2a: Suicune|Wrap|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1615185884
+|switch|p1a: Lukk|Dragapult, M|100/100
+|-damage|p1a: Lukk|88/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1615185887
+|move|p1a: Lukk|Substitute|p1a: Lukk
+|-start|p1a: Lukk|Substitute
+|-damage|p1a: Lukk|63/100
+|move|p2a: Suicune|Scald|p1a: Lukk
+|-resisted|p1a: Lukk
+|-activate|p1a: Lukk|move: Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lukk|57/100|[from] Sandstorm
+|-damage|p2a: Suicune|85/100 par|[from] Sandstorm
+|-heal|p2a: Suicune|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1615185891
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|move|p1a: Lukk|Dragon Darts|p2a: Hippowdon
+|-damage|p2a: Hippowdon|79/100
+|-anim|p1a: Lukk|Dragon Darts|p2a: Hippowdon
+|-damage|p2a: Hippowdon|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lukk|51/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|70/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1615185893
+|move|p1a: Lukk|Dragon Dance|p1a: Lukk
+|-boost|p1a: Lukk|atk|1
+|-boost|p1a: Lukk|spe|1
+|move|p2a: Hippowdon|Whirlwind|p1a: Lukk
+|drag|p1a: Lucc|Garchomp, M|100/100
+|-damage|p1a: Lucc|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|76/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1615185900
+|move|p1a: Lucc|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|45/100
+|move|p2a: Hippowdon|Earthquake|p1a: Lucc|[miss]
+|-miss|p2a: Hippowdon|p1a: Lucc
+|
+|-weather|none
+|-heal|p2a: Hippowdon|51/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1615185906
+|move|p1a: Lucc|Swords Dance|p1a: Lucc
+|-boost|p1a: Lucc|atk|2
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|upkeep
+|turn|33
+|
+|t:|1615185910
+|move|p1a: Lucc|Scale Shot|p2a: Hippowdon
+|-damage|p2a: Hippowdon|85/100
+|-damage|p2a: Hippowdon|70/100
+|-damage|p2a: Hippowdon|54/100
+|-hitcount|p2a: Hippowdon|3
+|-unboost|p1a: Lucc|def|1
+|-boost|p1a: Lucc|spe|1
+|cant|p2a: Hippowdon|flinch
+|
+|-heal|p2a: Hippowdon|60/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1615185919
+|move|p1a: Lucc|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|upkeep
+|
+|t:|1615185925
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|35
+|
+|t:|1615185928
+|move|p1a: Lucc|Scale Shot|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|69/100
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|54/100
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100
+|-hitcount|p2a: Corviknight|4
+|-unboost|p1a: Lucc|def|1
+|-boost|p1a: Lucc|spe|1
+|cant|p2a: Corviknight|flinch
+|
+|-heal|p2a: Corviknight|51/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1615185938
+|move|p1a: Lucc|Fire Fang|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1615185955
+|switch|p2a: Suicune|Suicune|92/100 par
+|-damage|p2a: Suicune|79/100 par|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|turn|37
+|
+|t:|1615185958
+|move|p1a: Lucc|Scale Shot|p2a: Suicune
+|-damage|p2a: Suicune|57/100 par
+|-damage|p2a: Suicune|35/100 par
+|-hitcount|p2a: Suicune|2
+|-unboost|p1a: Lucc|def|1
+|-boost|p1a: Lucc|spe|1
+|cant|p2a: Suicune|flinch
+|
+|-heal|p2a: Suicune|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1615185965
+|move|p1a: Lucc|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|upkeep
+|-message|Wheezer forfeited.
+|
+|win|Spindrat Test
+|n|☆Spindrat Test|spindrattest
+|n|☆Wheezer|wheezer
+|n| assweasswecan|assweasswecan
+|n| AgencyMan|agencyman
+|n| JezebelleXX|jezebellexx
+|l|☆Wheezer
+|c|☆Spindrat Test|Pure skill
+|c| JezebelleXX|sandaqueen
+|l|☆Spindrat Test
+|l| JezebelleXX
+|j|☆Spindrat Test
+|player|p1|Spindrat Test|psychicf-gen3

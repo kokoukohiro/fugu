@@ -1,0 +1,342 @@
+|j|☆wsdfg
+|j|☆Talon 5
+|t:|1602253069
+|player|p1|wsdfg|lady|1773
+|player|p2|Talon 5|blue|1789
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Zeraora|
+|poke|p1|Clefable, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Hippowdon, F|
+|poke|p2|Slowbro, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Marowak-Alola, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Talonflame, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1602253095
+|start
+|switch|p1a: Zeraora|Zeraora|100/100
+|switch|p2a: K-O|Kommo-o, M|100/100
+|turn|1
+|
+|t:|1602253101
+|switch|p2a: Thorns|Ferrothorn, M|100/100
+|move|p1a: Zeraora|Knock Off|p2a: Thorns
+|-crit|p2a: Thorns
+|-damage|p2a: Thorns|66/100
+|-damage|p1a: Zeraora|88/100|[from] ability: Iron Barbs|[of] p2a: Thorns
+|-enditem|p2a: Thorns|Leftovers|[from] move: Knock Off|[of] p1a: Zeraora
+|
+|upkeep
+|turn|2
+|
+|t:|1602253111
+|move|p1a: Zeraora|Close Combat|p2a: Thorns
+|-supereffective|p2a: Thorns
+|-damage|p2a: Thorns|13/100
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|-damage|p1a: Zeraora|76/100|[from] ability: Iron Barbs|[of] p2a: Thorns
+|move|p2a: Thorns|Stealth Rock|p1a: Zeraora
+|-sidestart|p1: wsdfg|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1602253123
+|switch|p2a: Sonso|Slowbro, M|100/100
+|move|p1a: Zeraora|Knock Off|p2a: Sonso
+|-supereffective|p2a: Sonso
+|-enditem|p2a: Sonso|Colbur Berry|[eat]
+|-enditem|p2a: Sonso|Colbur Berry|[weaken]
+|-damage|p2a: Sonso|83/100
+|
+|upkeep
+|turn|4
+|j| stormorax
+|
+|t:|1602253131
+|move|p1a: Zeraora|Volt Switch|p2a: Sonso
+|-supereffective|p2a: Sonso
+|-damage|p2a: Sonso|39/100
+|
+|t:|1602253134
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Sonso|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|
+|upkeep
+|turn|5
+|j| paladica
+|l| stormorax
+|j| abcqwqQAQ
+|
+|t:|1602253142
+|switch|p2a: Gorra|Hatterene, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Gorra
+|move|p2a: Gorra|Stealth Rock||[from]Magic Bounce|[still]
+|-fail|p2a: Gorra
+|
+|upkeep
+|turn|6
+|
+|t:|1602253149
+|switch|p1a: Clefable|Clefable, M|100/100
+|-damage|p1a: Clefable|88/100|[from] Stealth Rock
+|move|p2a: Gorra|Mystical Fire|p1a: Clefable
+|-damage|p1a: Clefable|72/100
+|-unboost|p1a: Clefable|spa|1
+|
+|-heal|p1a: Clefable|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1602253159
+|move|p1a: Clefable|Moonblast|p2a: Gorra
+|-damage|p2a: Gorra|84/100
+|move|p2a: Gorra|Trick Room|p2a: Gorra
+|-fieldstart|move: Trick Room|[of] p2a: Gorra
+|
+|-heal|p1a: Clefable|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1602253165
+|switch|p2a: Billy B.|Marowak-Alola, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: Billy B.
+|-resisted|p2a: Billy B.
+|-damage|p2a: Billy B.|88/100
+|
+|-heal|p1a: Clefable|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1602253172
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Billy B.|Swords Dance|p2a: Billy B.
+|-boost|p2a: Billy B.|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Billy B.|82/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|j| fdfdddddddd
+|
+|t:|1602253183
+|move|p2a: Billy B.|Flare Blitz|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Billy B.|76/100|[from] Sandstorm
+|upkeep
+|j| DmitriVerdant
+|
+|t:|1602253192
+|switch|p1a: Clefable|Clefable, M|90/100
+|-damage|p1a: Clefable|78/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1602253198
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Billy B.|Substitute|p2a: Billy B.
+|-start|p2a: Billy B.|Substitute
+|-damage|p2a: Billy B.|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Billy B.|45/100|[from] Sandstorm
+|-damage|p1a: Clefable|72/100|[from] Sandstorm
+|-heal|p1a: Clefable|78/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|j| eleve3
+|
+|t:|1602253207
+|move|p1a: Clefable|Moonblast|p2a: Billy B.
+|-resisted|p2a: Billy B.
+|-activate|p2a: Billy B.|move: Substitute|[damage]
+|move|p2a: Billy B.|Flare Blitz|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Billy B.|39/100|[from] Sandstorm
+|upkeep
+|j| SlickL7690
+|l| fdfdddddddd
+|
+|t:|1602253213
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1602253220
+|move|p1a: Hydreigon|Flamethrower|p2a: Billy B.
+|-resisted|p2a: Billy B.
+|-end|p2a: Billy B.|Substitute
+|-damage|p1a: Hydreigon|78/100|[from] item: Life Orb
+|move|p2a: Billy B.|Flare Blitz|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-weather|none
+|upkeep
+|
+|t:|1602253233
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1602253238
+|switch|p2a: K-O|Kommo-o, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: K-O
+|-damage|p2a: K-O|53/100
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|j| zxzxoizxpozxpozx
+|
+|t:|1602253245
+|switch|p1a: Ferrothorn|Ferrothorn, M|83/100
+|-damage|p1a: Ferrothorn|77/100|[from] Stealth Rock
+|move|p2a: K-O|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|34/100
+|-heal|p2a: K-O|79/100|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: K-O|66/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: K-O|50/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-enditem|p2a: K-O|Sitrus Berry|[eat]
+|-heal|p2a: K-O|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|16
+|
+|t:|1602253260
+|move|p2a: K-O|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-heal|p2a: K-O|95/100|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: K-O|83/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: K-O|66/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|l| zxzxoizxpozxpozx
+|
+|t:|1602253269
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1602253275
+|move|p1a: Excadrill|Iron Head|p2a: K-O
+|-damage|p2a: K-O|21/100
+|cant|p2a: K-O|flinch
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1602253282
+|switch|p2a: Thorns|Ferrothorn, M|13/100
+|move|p1a: Excadrill|Iron Head|p2a: Thorns
+|-resisted|p2a: Thorns
+|-damage|p2a: Thorns|0 fnt
+|-damage|p1a: Excadrill|88/100|[from] ability: Iron Barbs|[of] p2a: Thorns
+|faint|p2a: Thorns
+|
+|-heal|p1a: Excadrill|94/100|[from] item: Leftovers
+|upkeep
+|j| lastmagic
+|
+|t:|1602253292
+|switch|p2a: Sonso|Slowbro, M|73/100
+|turn|19
+|
+|t:|1602253297
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Sonso|Trick Room|p2a: Sonso
+|-fieldstart|move: Trick Room|[of] p2a: Sonso
+|
+|-heal|p1a: Excadrill|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1602253303
+|move|p2a: Sonso|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|30/100
+|move|p1a: Excadrill|Earthquake|p2a: Sonso
+|-damage|p2a: Sonso|12/100
+|
+|-heal|p1a: Excadrill|36/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1602253313
+|move|p2a: Sonso|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1602253317
+|switch|p1a: Zeraora|Zeraora|76/100
+|turn|22
+|
+|t:|1602253320
+|move|p2a: Sonso|Scald|p1a: Zeraora
+|-damage|p1a: Zeraora|42/100
+|move|p1a: Zeraora|Volt Switch|p2a: Sonso
+|-supereffective|p2a: Sonso
+|-damage|p2a: Sonso|0 fnt
+|faint|p2a: Sonso
+|
+|upkeep
+|
+|t:|1602253328
+|switch|p2a: K-O|Kommo-o, M|21/100
+|turn|23
+|
+|t:|1602253331
+|move|p2a: K-O|Drain Punch|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|-heal|p2a: K-O|44/100|[from] drain|[of] p1a: Zeraora
+|faint|p1a: Zeraora
+|
+|win|Talon 5
+|l|☆wsdfg
+|c| abcqwqQAQ|0.0
+|raw|wsdfg's rating: 1785 &rarr; <strong>1765</strong><br />(-20 for losing)
+|raw|Talon 5's rating: 1789 &rarr; <strong>1808</strong><br />(+19 for winning)
+|l| abcqwqQAQ
+|l| SlickL7690

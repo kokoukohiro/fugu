@@ -1,0 +1,559 @@
+|j|☆CoconutCrabs
+|j|☆yiyiyi2
+|t:|1632965419
+|gametype|singles
+|player|p1|CoconutCrabs|chuck|1797
+|player|p2|yiyiyi2|caitlin|1679
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p2|Mamoswine, M|
+|poke|p2|Kartana|
+|poke|p2|Magnezone|
+|poke|p2|Toxapex, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tornadus-Therian, M|
+|teampreview
+|
+|t:|1632965434
+|start
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tangrowth|atk|1
+|turn|1
+|
+|t:|1632965436
+|move|p2a: Landorus|Stealth Rock|p1a: Tangrowth
+|-sidestart|p1: CoconutCrabs|move: Stealth Rock
+|move|p1a: Tangrowth|Sleep Powder|p2a: Landorus|[miss]
+|-miss|p1a: Tangrowth|p2a: Landorus
+|
+|upkeep
+|turn|2
+|
+|t:|1632965442
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Tangrowth|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100
+|-enditem|p2a: Toxapex|Eject Button|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|3
+|
+|t:|1632965446
+|move|p1a: Tangrowth|Sleep Powder|p2a: Toxapex
+|-status|p2a: Toxapex|slp|[from] move: Sleep Powder
+|cant|p2a: Toxapex|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1632965448
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1632965451
+|move|p2a: Tornadus|Heat Wave|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|42/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Tornadus
+|-damage|p2a: Tornadus|79/100
+|-boost|p1a: Excadrill|spe|1
+|-sideend|p1: CoconutCrabs|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-heal|p1a: Excadrill|48/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1632965457
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Tornadus|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|79/100
+|j| wudiace
+|
+|t:|1632965461
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1632965464
+|move|p2a: Landorus|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: CoconutCrabs|move: Stealth Rock
+|move|p1a: Tyranitar|Stealth Rock|p2a: Landorus
+|-sidestart|p2: yiyiyi2|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1632965470
+|switch|p2a: Toxapex|Toxapex, M|100/100 slp
+|-damage|p2a: Toxapex|88/100 slp|[from] Stealth Rock
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|82/100|[from] Sandstorm
+|-damage|p2a: Toxapex|82/100 slp|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1632965476
+|move|p1a: Tangrowth|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100 slp
+|-heal|p1a: Tangrowth|91/100|[from] drain|[of] p2a: Toxapex
+|cant|p2a: Toxapex|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|85/100|[from] Sandstorm
+|-damage|p2a: Toxapex|52/100 slp|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1632965484
+|switch|p1a: Excadrill|Excadrill, M|48/100
+|-damage|p1a: Excadrill|45/100|[from] Stealth Rock
+|-curestatus|p2a: Toxapex|slp|[msg]
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-weather|none
+|-heal|p1a: Excadrill|51/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1632965492
+|move|p1a: Excadrill|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|31/100
+|move|p2a: Toxapex|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|4/100
+|-status|p1a: Excadrill|brn
+|
+|-heal|p1a: Excadrill|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Excadrill|4/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1632965503
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Tornadus
+|-damage|p2a: Tornadus|91/100
+|-boost|p1a: Excadrill|spe|1
+|-sideend|p1: CoconutCrabs|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-heal|p1a: Excadrill|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Excadrill|4/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1632965509
+|move|p1a: Excadrill|Iron Head|p2a: Tornadus
+|-damage|p2a: Tornadus|67/100
+|move|p2a: Tornadus|Defog|p1a: Excadrill
+|-unboost|p1a: Excadrill|evasion|1
+|-sideend|p2: yiyiyi2|Stealth Rock|[from] move: Defog|[of] p2a: Tornadus
+|
+|-heal|p1a: Excadrill|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Excadrill|4/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1632965516
+|move|p1a: Excadrill|Iron Head|p2a: Tornadus
+|-damage|p2a: Tornadus|42/100
+|cant|p2a: Tornadus|flinch
+|
+|-heal|p1a: Excadrill|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Excadrill|4/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1632965520
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Tornadus|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|96/100
+|-damage|p2a: Tornadus|25/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|t:|1632965524
+|switch|p2a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+|
+|t:|1632965527
+|switch|p1a: Excadrill|Excadrill, M|4/100 brn
+|move|p2a: Magnezone|Volt Switch|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-heal|p1a: Excadrill|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Excadrill|4/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1632965532
+|switch|p2a: Tornadus|Tornadus-Therian, M|58/100
+|move|p1a: Excadrill|Iron Head|p2a: Tornadus
+|-damage|p2a: Tornadus|34/100
+|
+|-heal|p1a: Excadrill|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Excadrill|4/100 brn|[from] brn
+|upkeep
+|turn|18
+|l| wudiace
+|
+|t:|1632965536
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Tornadus|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|96/100
+|-damage|p2a: Tornadus|17/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|t:|1632965543
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Toxapex|atk|1
+|
+|upkeep
+|turn|19
+|
+|t:|1632965545
+|move|p2a: Landorus|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: CoconutCrabs|move: Stealth Rock
+|move|p1a: Toxapex|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|88/100
+|-enditem|p2a: Landorus|Choice Scarf|[from] move: Knock Off|[of] p1a: Toxapex
+|
+|upkeep
+|turn|20
+|
+|t:|1632965551
+|switch|p1a: Excadrill|Excadrill, M|4/100 brn
+|-damage|p1a: Excadrill|1/100 brn|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1632965553
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1632965557
+|move|p1a: Tornadus|Focus Blast|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|51/100
+|move|p2a: Landorus|Stone Edge|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1632965562
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1632965565
+|move|p1a: Heatran|Eruption|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|j| wudiace
+|
+|t:|1632965577
+|switch|p2a: Toxapex|Toxapex, M|65/100
+|turn|23
+|
+|t:|1632965581
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|24
+|
+|t:|1632965584
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|94/100
+|move|p2a: Toxapex|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|80/100
+|-damage|p2a: Toxapex|77/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|-enditem|p1a: Toxapex|Rocky Helmet|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|upkeep
+|turn|25
+|
+|t:|1632965589
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Toxapex|Scald|p2a: Magnezone
+|-damage|p2a: Magnezone|80/100
+|-status|p2a: Magnezone|brn
+|
+|-damage|p2a: Magnezone|74/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1632965595
+|switch|p1a: Tyranitar|Tyranitar, M|91/100
+|-damage|p1a: Tyranitar|79/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Magnezone|Volt Switch|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100
+|
+|t:|1632965603
+|switch|p2a: Mamoswine|Mamoswine, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|63/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1632965606
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Mamoswine|Substitute|p2a: Mamoswine
+|-start|p2a: Mamoswine|Substitute
+|-damage|p2a: Mamoswine|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|82/100|[from] Sandstorm
+|-heal|p2a: Mamoswine|82/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1632965609
+|move|p2a: Mamoswine|Icicle Crash|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|27/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-end|p2a: Mamoswine|Substitute
+|-heal|p1a: Tangrowth|38/100|[from] drain|[of] p2a: Mamoswine
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|32/100|[from] Sandstorm
+|-heal|p2a: Mamoswine|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1632965613
+|move|p2a: Mamoswine|Icicle Crash|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Mamoswine|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1632965615
+|switch|p1a: Heatran|Heatran, M|88/100
+|-damage|p1a: Heatran|76/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1632965617
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Heatran|Eruption|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|76/100
+|
+|-weather|none
+|upkeep
+|turn|31
+|
+|t:|1632965623
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|81/100
+|
+|upkeep
+|turn|32
+|
+|t:|1632965627
+|switch|p1a: Heatran|Heatran, M|76/100
+|-damage|p1a: Heatran|63/100|[from] Stealth Rock
+|switch|p2a: Magnezone|Magnezone|74/100 brn
+|
+|-damage|p2a: Magnezone|68/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1632965629
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Heatran|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|44/100
+|
+|upkeep
+|turn|34
+|
+|t:|1632965634
+|switch|p1a: Tyranitar|Tyranitar, M|63/100
+|-damage|p1a: Tyranitar|51/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Tornadus|Tornadus-Therian, M|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|44/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|57/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1632965636
+|move|p2a: Tornadus|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|34/100
+|
+|t:|1632965639
+|switch|p2a: Kartana|Kartana|100/100|[from]move: U-turn
+|move|p1a: Tyranitar|Stealth Rock|p2a: Kartana
+|-sidestart|p2: yiyiyi2|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|41/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1632965649
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Kartana|Sacred Sword|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|71/100|[from] Sandstorm
+|upkeep
+|turn|37
+|l| wudiace
+|
+|t:|1632965653
+|move|p2a: Kartana|Swords Dance|p2a: Kartana
+|-boost|p2a: Kartana|atk|2
+|move|p1a: Toxapex|Knock Off|p2a: Kartana
+|-damage|p2a: Kartana|87/100
+|-enditem|p2a: Kartana|Leftovers|[from] move: Knock Off|[of] p1a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|66/100|[from] Sandstorm
+|upkeep
+|turn|38
+|
+|t:|1632965655
+|move|p2a: Kartana|Leaf Blade|p1a: Toxapex
+|-damage|p1a: Toxapex|1/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|51/100
+|
+|-weather|none
+|upkeep
+|turn|39
+|
+|t:|1632965659
+|move|p2a: Kartana|Leaf Blade|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+|
+|t:|1632965660
+|switch|p1a: Heatran|Heatran, M|63/100
+|-damage|p1a: Heatran|51/100|[from] Stealth Rock
+|turn|40
+|
+|t:|1632965672
+|switch|p2a: Toxapex|Toxapex, M|77/100
+|-damage|p2a: Toxapex|65/100|[from] Stealth Rock
+|move|p1a: Heatran|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100
+|
+|upkeep
+|turn|41
+|
+|t:|1632965675
+|move|p1a: Heatran|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|25/100
+|move|p2a: Toxapex|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|19/100
+|
+|upkeep
+|turn|42
+|
+|t:|1632965678
+|move|p1a: Heatran|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|6/100
+|move|p2a: Toxapex|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|j| wudiace
+|l|☆CoconutCrabs
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yiyiyi2)
+|c|☆yiyiyi2|gg
+|inactive|CoconutCrabs has 30 seconds to reconnect!
+|inactive|CoconutCrabs has 20 seconds to reconnect!
+|inactive|CoconutCrabs has 15 seconds to reconnect!
+|inactive|CoconutCrabs has 10 seconds to reconnect!
+|inactive|CoconutCrabs has 5 seconds to reconnect!
+|-message|CoconutCrabs lost due to inactivity.
+|
+|win|yiyiyi2
+|raw|CoconutCrabs's rating: 1797 &rarr; <strong>1770</strong><br />(-27 for losing)
+|raw|yiyiyi2's rating: 1679 &rarr; <strong>1706</strong><br />(+27 for winning)
+|l| wudiace
+|j| wudiace
+|l| wudiace
+|l|☆yiyiyi2
+|j|☆yiyiyi2
+|player|p2|yiyiyi2|caitlin

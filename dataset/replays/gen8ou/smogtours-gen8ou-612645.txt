@@ -1,0 +1,202 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1647094139
+|gametype|singles
+|player|p1|freezai|#scl1breakers|
+|player|p2|gaijineagle|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Zapdos-Galar|
+|poke|p1|Slowking, F|
+|poke|p1|Melmetal|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Tapu Fini|
+|poke|p1|Zeraora|
+|poke|p2|Slowbro-Galar, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Slurpuff, F|
+|poke|p2|Latios, M|
+|poke|p2|Salamence, F|
+|poke|p2|Azumarill, F|
+|teampreview
+|inactive|freezai also wants the timer to be on.
+|c|☆gaijineagle|hf
+|inactive|freezai has 270 seconds left.
+|
+|t:|1647094191
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Roald|Latios, M|100/100
+|turn|1
+|
+|t:|1647094198
+|move|p2a: Roald|Reflect|p2a: Roald
+|-sidestart|p2: gaijineagle|Reflect
+|move|p1a: Melmetal|Double Iron Bash|p2a: Roald
+|-damage|p2a: Roald|77/100
+|-damage|p2a: Roald|54/100
+|-hitcount|p2a: Roald|2
+|
+|upkeep
+|turn|2
+|
+|t:|1647094215
+|move|p2a: Roald|Light Screen|p2a: Roald
+|-sidestart|p2: gaijineagle|move: Light Screen
+|move|p1a: Melmetal|Double Iron Bash|p2a: Roald
+|-damage|p2a: Roald|29/100
+|-damage|p2a: Roald|3/100
+|-hitcount|p2a: Roald|2
+|
+|upkeep
+|turn|3
+|
+|t:|1647094232
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|move|p2a: Roald|Memento|p1a: Zapdos
+|-unboost|p1a: Zapdos|atk|2
+|-ability|p1a: Zapdos|Defiant
+|-boost|p1a: Zapdos|atk|2
+|-unboost|p1a: Zapdos|spa|2
+|-ability|p1a: Zapdos|Defiant
+|-boost|p1a: Zapdos|atk|2
+|faint|p2a: Roald
+|
+|upkeep
+|
+|t:|1647094243
+|switch|p2a: Gatsby|Azumarill, F|100/100
+|turn|4
+|
+|t:|1647094246
+|move|p1a: Zapdos|Brave Bird|p2a: Gatsby
+|-damage|p2a: Gatsby|0 fnt
+|faint|p2a: Gatsby
+|-damage|p1a: Zapdos|65/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1647094253
+|switch|p2a: Jam|Salamence, F|100/100
+|turn|5
+|
+|t:|1647094265
+|move|p2a: Jam|Dual Wingbeat|p1a: Zapdos|[miss]
+|-miss|p2a: Jam|p1a: Zapdos
+|move|p1a: Zapdos|Brave Bird|p2a: Jam
+|-damage|p2a: Jam|0 fnt
+|faint|p2a: Jam
+|-damage|p1a: Zapdos|31/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1647094268
+|switch|p2a: Jiggy|Slowbro-Galar, M|100/100
+|turn|6
+|-activate|p2a: Jiggy|ability: Quick Draw
+|
+|t:|1647094281
+|move|p2a: Jiggy|Zen Headbutt|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1647094292
+|switch|p1a: Zeraora|Zeraora|100/100
+|turn|7
+|inactive|gaijineagle has 270 seconds left.
+|
+|t:|1647094324
+|move|p1a: Zeraora|Knock Off|p2a: Jiggy
+|-supereffective|p2a: Jiggy
+|-damage|p2a: Jiggy|75/100
+|-enditem|p2a: Jiggy|Quick Claw|[from] move: Knock Off|[of] p1a: Zeraora
+|move|p2a: Jiggy|Belly Drum|p2a: Jiggy
+|-damage|p2a: Jiggy|25/100
+|-setboost|p2a: Jiggy|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|8
+|-activate|p2a: Jiggy|ability: Quick Draw
+|
+|t:|1647094345
+|move|p2a: Jiggy|Drain Punch|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|-heal|p2a: Jiggy|65/100|[from] drain|[of] p1a: Zeraora
+|faint|p1a: Zeraora
+|
+|-sideend|p2: gaijineagle|Reflect
+|upkeep
+|
+|t:|1647094350
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jiggy|atk|1
+|turn|9
+|-activate|p2a: Jiggy|ability: Quick Draw
+|
+|t:|1647094360
+|move|p2a: Jiggy|Zen Headbutt|p1a: Landorus|[miss]
+|-miss|p2a: Jiggy|p1a: Landorus
+|move|p1a: Landorus|Earthquake|p2a: Jiggy
+|-supereffective|p2a: Jiggy
+|-damage|p2a: Jiggy|0 fnt
+|faint|p2a: Jiggy
+|
+|-sideend|p2: gaijineagle|move: Light Screen
+|upkeep
+|
+|t:|1647094364
+|switch|p2a: Panzer Dragoon|Kommo-o, F|100/100
+|turn|10
+|
+|t:|1647094376
+|move|p2a: Panzer Dragoon|Substitute|p2a: Panzer Dragoon
+|-start|p2a: Panzer Dragoon|Substitute
+|-damage|p2a: Panzer Dragoon|75/100
+|move|p1a: Landorus|Earthquake|p2a: Panzer Dragoon
+|-end|p2a: Panzer Dragoon|Substitute
+|
+|upkeep
+|turn|11
+|
+|t:|1647094384
+|move|p2a: Panzer Dragoon|Drain Punch|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|85/100
+|-heal|p2a: Panzer Dragoon|86/100|[from] drain|[of] p1a: Landorus
+|move|p1a: Landorus|Earthquake|p2a: Panzer Dragoon
+|-damage|p2a: Panzer Dragoon|36/100
+|
+|-heal|p1a: Landorus|91/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1647094391
+|move|p2a: Panzer Dragoon|Substitute|p2a: Panzer Dragoon
+|-start|p2a: Panzer Dragoon|Substitute
+|-damage|p2a: Panzer Dragoon|11/100
+|-enditem|p2a: Panzer Dragoon|Salac Berry|[eat]
+|-boost|p2a: Panzer Dragoon|spe|1|[from] item: Salac Berry
+|move|p1a: Landorus|Earthquake|p2a: Panzer Dragoon
+|-end|p2a: Panzer Dragoon|Substitute
+|
+|-heal|p1a: Landorus|97/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆gaijineagle|gg
+|-message|gaijineagle forfeited.
+|
+|win|freezai
+|c|☆freezai|gg

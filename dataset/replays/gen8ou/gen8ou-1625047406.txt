@@ -1,0 +1,657 @@
+|j|☆El Stefano
+|j|☆GraceZi
+|t:|1658774988
+|gametype|singles
+|player|p1|El Stefano|102|1809
+|player|p2|GraceZi|aromalady|1793
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Melmetal|
+|poke|p1|Tapu Bulu|
+|poke|p1|Zapdos|
+|poke|p1|Seismitoad, M|
+|poke|p1|Magnezone|
+|poke|p2|Dragapult, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Clefable, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|t:|1658775001
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Eeveon|Clefable, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1658775009
+|move|p1a: Pelipper|Weather Ball|p2a: Eeveon
+|-damage|p2a: Eeveon|16/100
+|move|p2a: Eeveon|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|82/100
+|-enditem|p1a: Pelipper|Choice Specs|[from] move: Knock Off|[of] p2a: Eeveon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1658775016
+|switch|p2a: Blim|Slowking-Galar, M, shiny|100/100
+|move|p1a: Pelipper|Weather Ball|p2a: Blim
+|-damage|p2a: Blim|66/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1658775024
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Blim|Future Sight|p1a: Melmetal
+|-start|p2a: Blim|move: Future Sight
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1658775031
+|switch|p2a: Amir|Corviknight, F|100/100
+|-ability|p2a: Amir|Pressure
+|move|p1a: Melmetal|Toxic|p2a: Amir|[miss]
+|-miss|p1a: Melmetal|p2a: Amir
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1658775040
+|move|p2a: Amir|Roost||[still]
+|-fail|p2a: Amir|heal
+|move|p1a: Melmetal|Double Iron Bash|p2a: Amir
+|-resisted|p2a: Amir
+|-damage|p2a: Amir|84/100
+|-resisted|p2a: Amir
+|-damage|p2a: Amir|68/100
+|-hitcount|p2a: Amir|2
+|
+|-weather|none
+|-end|p1a: Melmetal|move: Future Sight
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|70/100
+|-heal|p2a: Amir|74/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1658775044
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Amir|U-turn|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|96/100
+|
+|t:|1658775051
+|switch|p2a: Fevzi|Garchomp, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Magnezone|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1658775055
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Fevzi|Stone Edge|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|70/100
+|
+|-heal|p1a: Tapu Bulu|76/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1658775061
+|switch|p2a: Amir|Corviknight, F|74/100
+|-ability|p2a: Amir|Pressure
+|switch|p1a: Magnezone|Magnezone|100/100
+|
+|-heal|p2a: Amir|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1658775064
+|move|p2a: Amir|U-turn|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|96/100
+|
+|t:|1658775066
+|switch|p2a: Fevzi|Garchomp, M|100/100|[from]move: U-turn
+|move|p1a: Magnezone|Discharge|p2a: Fevzi
+|-immune|p2a: Fevzi
+|
+|-heal|p1a: Magnezone|100/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1658775083
+|switch|p1a: Tapu Bulu|Tapu Bulu|76/100
+|move|p2a: Fevzi|Swords Dance|p2a: Fevzi
+|-boost|p2a: Fevzi|atk|2
+|
+|-heal|p1a: Tapu Bulu|82/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1658775088
+|move|p2a: Fevzi|Stone Edge|p1a: Tapu Bulu|[miss]
+|-miss|p2a: Fevzi|p1a: Tapu Bulu
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Fevzi
+|-damage|p2a: Fevzi|49/100
+|-heal|p1a: Tapu Bulu|100/100|[from] drain|[of] p2a: Fevzi
+|-damage|p1a: Tapu Bulu|88/100|[from] ability: Rough Skin|[of] p2a: Fevzi
+|
+|-heal|p2a: Fevzi|55/100|[from] Grassy Terrain
+|-heal|p2a: Fevzi|61/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|94/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1658775094
+|move|p2a: Fevzi|Stone Edge|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|35/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Fevzi
+|-damage|p2a: Fevzi|15/100
+|-heal|p1a: Tapu Bulu|59/100|[from] drain|[of] p2a: Fevzi
+|-damage|p1a: Tapu Bulu|46/100|[from] ability: Rough Skin|[of] p2a: Fevzi
+|
+|-heal|p2a: Fevzi|21/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1658775101
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Fevzi|Stone Edge|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|46/100
+|
+|-heal|p2a: Fevzi|27/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|52/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1658775104
+|switch|p1a: Tapu Bulu|Tapu Bulu|46/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Fevzi|Scale Shot|p1a: Tapu Bulu
+|-immune|p1a: Tapu Bulu
+|
+|-heal|p2a: Fevzi|33/100|[from] Grassy Terrain
+|-heal|p2a: Fevzi|40/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|52/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1658775124
+|switch|p1a: Melmetal|Melmetal|76/100
+|move|p2a: Fevzi|Stone Edge|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|59/100
+|
+|-heal|p2a: Fevzi|46/100|[from] Grassy Terrain
+|-heal|p2a: Fevzi|52/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|65/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|71/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1658775132
+|switch|p2a: Amir|Corviknight, F|81/100
+|-ability|p2a: Amir|Pressure
+|move|p1a: Melmetal|Protect||[still]
+|-fail|p1a: Melmetal
+|
+|-heal|p2a: Amir|87/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|77/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|83/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1658775141
+|switch|p1a: Pelipper|Pelipper, M|82/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Amir|Body Press|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amir|93/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1658775146
+|move|p2a: Amir|Roost|p2a: Amir
+|-heal|p2a: Amir|100/100
+|-singleturn|p2a: Amir|move: Roost
+|move|p1a: Pelipper|Hurricane|p2a: Amir
+|-resisted|p2a: Amir
+|-damage|p2a: Amir|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amir|83/100|[from] Grassy Terrain
+|-heal|p2a: Amir|90/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1658775150
+|move|p2a: Amir|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|61/100
+|
+|t:|1658775153
+|switch|p2a: Blim|Slowking-Galar, M, shiny|99/100|[from]move: U-turn
+|move|p1a: Pelipper|Weather Ball|p2a: Blim
+|-damage|p2a: Blim|66/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1658775159
+|switch|p1a: Melmetal|Melmetal|83/100
+|move|p2a: Blim|Future Sight|p1a: Melmetal
+|-start|p2a: Blim|move: Future Sight
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Melmetal|90/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1658775164
+|switch|p1a: Tapu Bulu|Tapu Bulu|52/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|switch|p2a: Amir|Corviknight, F|90/100
+|-ability|p2a: Amir|Pressure
+|
+|-weather|none
+|-heal|p2a: Amir|96/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|58/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1658775170
+|switch|p1a: Melmetal|Melmetal|90/100
+|move|p2a: Amir|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|86/100
+|
+|t:|1658775173
+|switch|p2a: Fevzi|Garchomp, M|52/100|[from]move: U-turn
+|
+|-end|p1a: Melmetal|move: Future Sight
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|59/100
+|-heal|p2a: Fevzi|58/100|[from] Grassy Terrain
+|-heal|p2a: Fevzi|64/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|65/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|71/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GraceZi)
+|
+|t:|1658775183
+|switch|p2a: Amir|Corviknight, F|96/100
+|-ability|p2a: Amir|Pressure
+|move|p1a: Melmetal|Toxic|p2a: Amir
+|-immune|p2a: Amir
+|
+|-heal|p2a: Amir|100/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|77/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|83/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1658775190
+|move|p1a: Melmetal|Protect|p1a: Melmetal
+|-singleturn|p1a: Melmetal|Protect
+|move|p2a: Amir|U-turn|p1a: Melmetal
+|-activate|p1a: Melmetal|move: Protect
+|
+|-heal|p1a: Melmetal|89/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|95/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1658775197
+|switch|p1a: Pelipper|Pelipper, M|61/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Amir|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|53/100
+|
+|t:|1658775200
+|switch|p2a: Marco|Dragapult, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|26
+|
+|t:|1658775207
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Marco|Shadow Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|46/100
+|-unboost|p1a: Zapdos|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1658775215
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Marco|Shadow Ball|p1a: Magnezone
+|-damage|p1a: Magnezone|34/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|40/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1658775218
+|move|p2a: Marco|Shadow Ball|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1658775227
+|switch|p1a: Tapu Bulu|Tapu Bulu|58/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|29
+|
+|t:|1658775230
+|move|p2a: Marco|Shadow Ball|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|0 fnt
+|faint|p1a: Tapu Bulu
+|
+|-weather|none
+|upkeep
+|
+|t:|1658775234
+|switch|p1a: Seismitoad|Seismitoad, M|52/100
+|turn|30
+|
+|t:|1658775236
+|move|p2a: Marco|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|12/100
+|-unboost|p1a: Seismitoad|spd|1
+|move|p1a: Seismitoad|Knock Off|p2a: Marco
+|-supereffective|p2a: Marco
+|-damage|p2a: Marco|43/100
+|-enditem|p2a: Marco|Choice Specs|[from] move: Knock Off|[of] p1a: Seismitoad
+|
+|-heal|p2a: Marco|49/100|[from] Grassy Terrain
+|-heal|p1a: Seismitoad|18/100|[from] Grassy Terrain
+|-heal|p1a: Seismitoad|24/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1658775245
+|move|p2a: Marco|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-heal|p2a: Marco|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1658775247
+|switch|p1a: Melmetal|Melmetal|95/100
+|turn|32
+|j| Tokantolov
+|
+|t:|1658775250
+|switch|p2a: Amir|Corviknight, F|100/100
+|-ability|p2a: Amir|Pressure
+|move|p1a: Melmetal|Double Iron Bash|p2a: Amir
+|-resisted|p2a: Amir
+|-damage|p2a: Amir|83/100
+|-resisted|p2a: Amir
+|-damage|p2a: Amir|66/100
+|-hitcount|p2a: Amir|2
+|
+|-heal|p2a: Amir|73/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|100/100|[from] Grassy Terrain
+|upkeep
+|turn|33
+|
+|t:|1658775255
+|move|p2a: Amir|Body Press|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|78/100
+|move|p1a: Melmetal|Earthquake|p2a: Amir
+|-immune|p2a: Amir
+|
+|-heal|p2a: Amir|79/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|84/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|90/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|34
+|
+|t:|1658775259
+|move|p2a: Amir|Body Press|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|68/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Amir
+|-resisted|p2a: Amir
+|-damage|p2a: Amir|62/100
+|-resisted|p2a: Amir
+|-damage|p2a: Amir|45/100
+|-hitcount|p2a: Amir|2
+|
+|-heal|p2a: Amir|51/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|74/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1658775264
+|switch|p1a: Zapdos|Zapdos|46/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Amir|Body Press|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|37/100
+|
+|-heal|p2a: Amir|57/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|j| Riquelme❈14
+|
+|t:|1658775267
+|switch|p2a: Blim|Slowking-Galar, M, shiny|99/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|87/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|37
+|
+|t:|1658775270
+|move|p1a: Zapdos|Volt Switch|p2a: Blim
+|-damage|p2a: Blim|87/100
+|
+|t:|1658775273
+|switch|p1a: Melmetal|Melmetal|74/100|[from]move: Volt Switch
+|move|p2a: Blim|Future Sight|p1a: Melmetal
+|-start|p2a: Blim|move: Future Sight
+|
+|-heal|p1a: Melmetal|80/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1658775277
+|move|p1a: Melmetal|Earthquake|p2a: Blim
+|-supereffective|p2a: Blim
+|-crit|p2a: Blim
+|-damage|p2a: Blim|0 fnt
+|faint|p2a: Blim
+|
+|-heal|p1a: Melmetal|86/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1658775285
+|switch|p2a: Fevzi|Garchomp, M|64/100
+|turn|39
+|j| xxcryptoxx
+|
+|t:|1658775290
+|switch|p2a: Amir|Corviknight, F|57/100
+|-ability|p2a: Amir|Pressure
+|move|p1a: Melmetal|Toxic|p2a: Amir|[miss]
+|-miss|p1a: Melmetal|p2a: Amir
+|
+|-end|p1a: Melmetal|move: Future Sight
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|56/100
+|-heal|p2a: Amir|63/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|62/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1658775299
+|switch|p1a: Zapdos|Zapdos|87/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Amir|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|82/100
+|
+|t:|1658775302
+|switch|p2a: GuardArc|Bisharp, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|41
+|l| xxcryptoxx
+|
+|t:|1658775307
+|move|p1a: Zapdos|Volt Switch|p2a: GuardArc
+|-damage|p2a: GuardArc|53/100
+|
+|t:|1658775315
+|switch|p1a: Pelipper|Pelipper, M|53/100|[from]move: Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: GuardArc|Knock Off|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1658775318
+|switch|p1a: Zapdos|Zapdos|82/100
+|-ability|p1a: Zapdos|Pressure
+|turn|42
+|j| hyperrot
+|
+|t:|1658775326
+|switch|p2a: Eeveon|Clefable, F|16/100
+|move|p1a: Zapdos|Hurricane|p2a: Eeveon
+|-damage|p2a: Eeveon|0 fnt
+|faint|p2a: Eeveon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1658775328
+|switch|p2a: Fevzi|Garchomp, M|64/100
+|turn|43
+|
+|t:|1658775332
+|move|p2a: Fevzi|Stone Edge|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|29/100
+|move|p1a: Zapdos|Hurricane|p2a: Fevzi
+|-damage|p2a: Fevzi|14/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Fevzi|21/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1658775339
+|move|p2a: Fevzi|Scale Shot|p1a: Zapdos
+|-damage|p1a: Zapdos|19/100
+|-damage|p1a: Zapdos|9/100
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-hitcount|p1: Zapdos|3
+|-unboost|p2a: Fevzi|def|1
+|-boost|p2a: Fevzi|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Fevzi|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1658775342
+|switch|p1a: Melmetal|Melmetal|62/100
+|turn|45
+|
+|t:|1658775344
+|move|p1a: Melmetal|Protect|p1a: Melmetal
+|-singleturn|p1a: Melmetal|Protect
+|move|p2a: Fevzi|Earthquake|p1a: Melmetal
+|-activate|p1a: Melmetal|move: Protect
+|
+|-weather|none
+|-heal|p2a: Fevzi|33/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|68/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1658775347
+|move|p2a: Fevzi|Earthquake|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|9/100
+|move|p1a: Melmetal|Earthquake|p2a: Fevzi
+|-damage|p2a: Fevzi|0 fnt
+|faint|p2a: Fevzi
+|
+|-heal|p1a: Melmetal|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1658775350
+|switch|p2a: GuardArc|Bisharp, M|53/100
+|turn|47
+|
+|t:|1658775353
+|move|p1a: Melmetal|Protect|p1a: Melmetal
+|-singleturn|p1a: Melmetal|Protect
+|move|p2a: GuardArc|Knock Off|p1a: Melmetal
+|-activate|p1a: Melmetal|move: Protect
+|
+|-heal|p1a: Melmetal|21/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1658775355
+|move|p2a: GuardArc|Knock Off|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|-enditem|p1a: Melmetal|Leftovers|[from] move: Knock Off|[of] p2a: GuardArc
+|faint|p1a: Melmetal
+|
+|win|GraceZi
+|raw|El Stefano's rating: 1809 &rarr; <strong>1788</strong><br />(-21 for losing)
+|raw|GraceZi's rating: 1793 &rarr; <strong>1814</strong><br />(+21 for winning)
+|l| Riquelme❈14

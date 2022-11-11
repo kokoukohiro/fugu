@@ -1,0 +1,199 @@
+|j|☆OUTM MACACO
+|j|☆Lunar Neo
+|player|p1|OUTM MACACO|guzma|1602
+|player|p2|Lunar Neo|248|1576
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ditto|
+|poke|p1|Darmanitan-Galar, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Diggersby, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Mamoswine, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Clefable, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Toxtricity, F|
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|1
+|j| rabbitwhole
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Clefable
+|-damage|p2a: Clefable|61/100
+|
+|-heal|p2a: Clefable|67/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Rotom|Thunder Wave|p2a: Hydreigon
+|-status|p2a: Hydreigon|par
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|cant|p2a: Hydreigon|par
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100 par
+|move|p1a: Toxapex|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p2a: Hydreigon|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Darmanitan|Darmanitan-Galar, M|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Darmanitan|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100|[from]move: U-turn
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|63/100 par
+|
+|-heal|p2a: Hydreigon|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|76/100
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|82/100|[from] item: Leftovers
+|-heal|p2a: Hydreigon|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|57/100
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|63/100|[from] item: Leftovers
+|-heal|p2a: Hydreigon|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hydreigon
+|-damage|p1a: Hydreigon|5/100
+|
+|-heal|p1a: Hydreigon|12/100|[from] item: Leftovers
+|-heal|p2a: Hydreigon|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Hydreigon
+|-damage|p2a: Hydreigon|58/100 par
+|move|p2a: Hydreigon|Dark Pulse|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Hydreigon|64/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Hydreigon|[from] ability: Imposter
+|turn|11
+|
+|-start|p1a: Ditto|Dynamax
+|-heal|p1a: Ditto|100/100|[silent]
+|move|p1a: Ditto|Max Steelspike|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-boost|p1a: Ditto|def|1
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|67/100
+|turn|12
+|j| Serena Gorilliams
+|l| Serena Gorilliams
+|
+|-start|p2a: Clefable|Dynamax
+|-heal|p2a: Clefable|67/100|[silent]
+|move|p2a: Clefable|Max Guard|p2a: Clefable
+|-singleturn|p2a: Clefable|Max Guard
+|move|p1a: Ditto|Max Steelspike|p2a: Clefable
+|-activate|p2a: Clefable|move: Max Guard
+|
+|-heal|p2a: Clefable|70/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Ditto|Max Steelspike|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-boost|p1a: Ditto|def|1
+|faint|p2a: Clefable
+|
+|-end|p1a: Ditto|Dynamax
+|-heal|p1a: Ditto|100/100|[silent]
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|turn|14
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Ditto|Dark Pulse|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Ditto|Dark Pulse|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|-message|Lunar Neo forfeited.
+|
+|win|OUTM MACACO
+|l|☆Lunar Neo
+|l|☆OUTM MACACO
+|l| rabbitwhole
+||Ladder (probably) updated, but score could not be retrieved (Response not received).
+|error|Unexpected response null from ladder server.
+|j|☆OUTM MACACO
+|player|p1|OUTM MACACO|guzma
+|c|☆OUTM MACACO|confirming as Neosong

@@ -1,0 +1,345 @@
+|j|☆Ctrl Z-Move
+|j|☆Lunar Neo
+|player|p1|Ctrl Z-Move|188|1442
+|player|p2|Lunar Neo|248|1468
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Flapple, M|
+|poke|p1|Clefable, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Gigalith, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Hippowdon, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Mamoswine, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Clefable, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Toxtricity, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lunar Neo)
+|inactive|Ctrl Z-Move also wants the timer to be on.
+|
+|start
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Hippowdon
+|-status|p1a: Hippowdon|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|94/100|[from] Sandstorm
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|20/100 brn
+|move|p1a: Hippowdon|Yawn|p2a: Rotom
+|-start|p2a: Rotom|move: Yawn|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|94/100|[from] Sandstorm
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|14/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|64/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hippowdon|58/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|move|p2a: Mamoswine|Stealth Rock|p1a: Gigalith
+|-sidestart|p1: Ctrl Z-Move|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|15/100
+|-enditem|p1a: Gigalith|Eject Button
+|inactive|Ctrl Z-Move has 120 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p1a: Excadrill|Iron Head|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|7
+|inactive|Ctrl Z-Move has 120 seconds left.
+|
+|switch|p1a: Gigalith|Gigalith, M|15/100
+|-damage|p1a: Gigalith|2/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Rotom|Hydro Pump|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|94/100|[from] Sandstorm
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|inactive|Ctrl Z-Move has 120 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|-enditem|p1a: Ferrothorn|Eject Button
+|
+|switch|p1a: Flapple|Flapple, M|100/100
+|-damage|p1a: Flapple|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flapple|82/100|[from] Sandstorm
+|-damage|p2a: Rotom|94/100|[from] Sandstorm
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|83/100
+|-damage|p1a: Ferrothorn|77/100|[from] Stealth Rock
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Hydreigon|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|11
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Clefable|Gravity|p1a: Clefable
+|-fieldstart|move: Gravity
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|switch|p1a: Hippowdon|Hippowdon, M|58/100 brn
+|-damage|p1a: Hippowdon|51/100 brn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Hippowdon
+|-damage|p1a: Hippowdon|15/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hippowdon|9/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Aegislash|Flash Cannon|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|97/100
+|-damage|p1a: Excadrill|94/100|[from] Stealth Rock
+|turn|14
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Excadrill|Earthquake|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Gravity
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|16
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Hydreigon|Flamethrower|p1a: Clefable
+|-damage|p1a: Clefable|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|-heal|p1a: Clefable|80/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|move|p1a: Clefable|Gravity|p1a: Clefable
+|-fieldstart|move: Gravity
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxtricity|94/100|[from] Sandstorm
+|-heal|p1a: Clefable|86/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Excadrill|Excadrill, F|94/100
+|-damage|p1a: Excadrill|91/100|[from] Stealth Rock
+|move|p2a: Toxtricity|Boomburst|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxtricity|88/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|20
+|
+|switch|p1a: Clefable|Clefable, M|86/100
+|move|p2a: Clefable|Flamethrower|p1a: Clefable
+|-damage|p1a: Clefable|68/100
+|-status|p1a: Clefable|brn
+|
+|-heal|p1a: Clefable|74/100 brn|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Toxtricity|Toxtricity, M|88/100
+|move|p1a: Clefable|Moonblast|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|64/100
+|
+|-heal|p1a: Clefable|80/100 brn|[from] item: Leftovers
+|-fieldend|move: Gravity
+|upkeep
+|turn|22
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Clefable
+|-damage|p1a: Clefable|4/100 brn
+|move|p1a: Clefable|Gravity|p1a: Clefable
+|-fieldstart|move: Gravity
+|
+|-heal|p1a: Clefable|10/100 brn|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|31/100
+|-damage|p1a: Excadrill|28/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Excadrill|Earthquake|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|25
+|
+|move|p1a: Excadrill|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|18/100
+|move|p2a: Clefable|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Clefable|24/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Flapple|Flapple, M|82/100
+|-damage|p1a: Flapple|70/100|[from] Stealth Rock
+|turn|26
+|inactive|Lunar Neo has 120 seconds left.
+|
+|move|p1a: Flapple|Grav Apple|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Flapple|60/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|-fieldend|move: Gravity
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|turn|27
+|
+|move|p1a: Flapple|Sucker Punch|p2a: Aegislash|[miss]
+|-miss|p1a: Flapple|p2a: Aegislash
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Flapple
+|-damage|p1a: Flapple|0 fnt
+|faint|p1a: Flapple
+|
+|win|Lunar Neo
+|raw|Ctrl Z-Move's rating: 1423 &rarr; <strong>1406</strong><br />(-17 for losing)
+|raw|Lunar Neo's rating: 1472 &rarr; <strong>1490</strong><br />(+18 for winning)
+|l|☆Lunar Neo
+|c|☆Ctrl Z-Move|unfort
+|c|☆Ctrl Z-Move|gg

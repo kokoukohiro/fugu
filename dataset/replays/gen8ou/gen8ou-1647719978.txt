@@ -1,0 +1,165 @@
+|j|☆playeraccount
+|j|☆KeystoneRecords
+|t:|1661409510
+|gametype|singles
+|player|p1|playeraccount|265|1219
+|player|p2|KeystoneRecords|ghetsis|1232
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Kommo-o, F|
+|poke|p1|Regieleki|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Slowbro, M|
+|poke|p1|Blissey, F|
+|poke|p1|Scizor, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Clefable, F|
+|poke|p2|Blissey, F|
+|poke|p2|Ferrothorn, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by playeraccount)
+|
+|t:|1661409527
+|start
+|switch|p1a: Kommo-o|Kommo-o, F, shiny|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|turn|1
+|
+|t:|1661409535
+|switch|p2a: Clefable|Clefable, F, shiny|100/100
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|68/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|turn|2
+|
+|t:|1661409547
+|move|p1a: Kommo-o|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|61/100
+|move|p2a: Clefable|Moonblast|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-heal|p2a: Clefable|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1661409551
+|switch|p1a: Scizor|Scizor, M, shiny|100/100
+|turn|3
+|
+|t:|1661409566
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|91/100
+|-damage|p1a: Scizor|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1661409572
+|move|p1a: Scizor|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|-damage|p1a: Scizor|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Scizor
+|move|p2a: Ferrothorn|Leech Seed|p1a: Scizor
+|-start|p1a: Scizor|move: Leech Seed
+|
+|-damage|p1a: Scizor|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|84/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1661409579
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Spikes|p1a: Landorus
+|-sidestart|p1: playeraccount|Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1661409590
+|move|p1a: Landorus|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Landorus|[miss]
+|-miss|p2a: Ferrothorn|p1a: Landorus
+|
+|upkeep
+|turn|7
+|
+|t:|1661409605
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|8
+|
+|t:|1661409613
+|move|p1a: Landorus|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|96/100
+|-damage|p1a: Landorus|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|t:|1661409618
+|switch|p1a: Regieleki|Regieleki, shiny|100/100|[from]move: U-turn
+|-damage|p1a: Regieleki|88/100|[from] Spikes
+|move|p2a: Corviknight|Body Press|p1a: Regieleki
+|-damage|p1a: Regieleki|33/100
+|
+|upkeep
+|turn|9
+|
+|t:|1661409631
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p1a: Regieleki|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|76/100
+|-status|p2a: Slowking|par
+|
+|upkeep
+|turn|10
+|
+|t:|1661409654
+|switch|p1a: Scizor|Scizor, M, shiny|63/100
+|-damage|p1a: Scizor|51/100|[from] Spikes
+|move|p2a: Slowking|Scald|p1a: Scizor
+|-damage|p1a: Scizor|20/100
+|-status|p1a: Scizor|brn
+|
+|-damage|p1a: Scizor|14/100 brn|[from] brn
+|upkeep
+|turn|11
+|-message|playeraccount forfeited.
+|
+|win|KeystoneRecords
+|raw|playeraccount's rating: 1219 &rarr; <strong>1195</strong><br />(-24 for losing)
+|raw|KeystoneRecords's rating: 1232 &rarr; <strong>1256</strong><br />(+24 for winning)
+|l|☆playeraccount
+|c|☆KeystoneRecords|lol

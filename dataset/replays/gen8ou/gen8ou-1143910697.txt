@@ -1,0 +1,410 @@
+|j|☆Meroz
+|j|☆flowre
+|player|p1|Meroz|101|1890
+|player|p2|flowre|27|1849
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Gengar, F|
+|poke|p1|Magearna|
+|poke|p1|Kommo-o, M|
+|poke|p1|Terrakion|
+|poke|p1|Comfey, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Necrozma|
+|poke|p2|Zeraora|
+|poke|p2|Excadrill, M|
+|poke|p2|Cloyster, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by flowre)
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Ribombee|Ribombee, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Ribombee|Sticky Web|p1a: Magearna
+|-sidestart|p1: Meroz|move: Sticky Web
+|move|p1a: Magearna|Iron Head|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Ribombee|Stun Spore|p1a: Magearna
+|-status|p1a: Magearna|par
+|cant|p1a: Magearna|par
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Ribombee|Moonblast|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|86/100 par
+|move|p1a: Magearna|Volt Switch|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|4
+|
+|move|p1a: Cinderace|U-turn|p2a: Excadrill
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|77/100
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100|[from]move: U-turn
+|-activate|p1a: Kommo-o|move: Sticky Web
+|-unboost|p1a: Kommo-o|spe|1
+|move|p2a: Excadrill|Earthquake|p1a: Kommo-o
+|-damage|p1a: Kommo-o|66/100
+|
+|-heal|p1a: Kommo-o|73/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Excadrill|Iron Head|p1a: Kommo-o
+|-damage|p1a: Kommo-o|46/100
+|move|p1a: Kommo-o|Body Press|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Kommo-o|52/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, M, shiny|100/100
+|turn|6
+|raw|<div class="broadcast-red"><b>The server is restarting soon.</b><br />Please finish your battles quickly. No new battles can be started until the server resets in a few minutes.</div>
+|inactive|staff also wants the timer to be on.
+|raw|<div class="broadcast-red"><b>Moderated chat was set to +!</b><br />Only users of rank + and higher can talk.</div>
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|-activate|p1a: Gengar|move: Sticky Web
+|-unboost|p1a: Gengar|spe|1
+|move|p2a: Cloyster|Icicle Spear|p1a: Gengar
+|-damage|p1a: Gengar|78/100
+|-start|p2a: Cloyster|Disable|Icicle Spear|[from] ability: Cursed Body|[of] p1a: Gengar
+|-damage|p1a: Gengar|53/100
+|-damage|p1a: Gengar|29/100
+|-damage|p1a: Gengar|7/100
+|-damage|p1a: Gengar|0 fnt
+|-hitcount|p1a: Gengar|5
+|faint|p1a: Gengar
+|
+|upkeep
+|inactive|Meroz has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|7
+|inactive|flowre has 120 seconds left.
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-sideend|p1: Meroz|Sticky Web|[silent]
+|-sidestart|p2: flowre|Sticky Web|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Cloyster|Liquidation|p1a: Cinderace
+|-damage|p1a: Cinderace|43/100
+|
+|upkeep
+|turn|8
+|inactive|flowre has 120 seconds left.
+|
+|move|p1a: Cinderace|U-turn|p2a: Cloyster
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|58/100
+|
+|switch|p1a: Magearna|Magearna|86/100 par|[from]move: U-turn
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Cloyster|Liquidation|p1a: Magearna
+|-damage|p1a: Magearna|31/100 par
+|-enditem|p1a: Magearna|Sitrus Berry|[eat]
+|-heal|p1a: Magearna|56/100 par|[from] item: Sitrus Berry
+|cant|p1a: Magearna|par
+|
+|-end|p2a: Cloyster|Disable
+|upkeep
+|turn|10
+|inactive|flowre has 120 seconds left.
+|
+|move|p2a: Cloyster|Liquidation|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|upkeep
+|
+|switch|p1a: Comfey|Comfey, F|100/100
+|turn|11
+|
+|move|p1a: Comfey|Giga Drain|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-damage|p1a: Comfey|91/100|[from] item: Life Orb
+|faint|p2a: Cloyster
+|
+|upkeep
+|
+|switch|p2a: Necrozma|Necrozma, shiny|100/100
+|-activate|p2a: Necrozma|move: Sticky Web
+|-unboost|p2a: Necrozma|spe|1
+|turn|12
+|
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|
+|upkeep
+|turn|13
+|inactive|flowre has 120 seconds left.
+|
+|move|p1a: Comfey|Encore|p2a: Necrozma
+|-start|p2a: Necrozma|Encore
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Kommo-o|Kommo-o, M|52/100
+|switch|p2a: Zeraora|Zeraora|100/100
+|-activate|p2a: Zeraora|move: Sticky Web
+|-unboost|p2a: Zeraora|spe|1
+|
+|-heal|p1a: Kommo-o|59/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Togekiss|Togekiss, M, shiny|100/100
+|move|p1a: Kommo-o|Earthquake|p2a: Togekiss
+|-immune|p2a: Togekiss
+|
+|-heal|p1a: Kommo-o|65/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|
+|upkeep
+|turn|17
+|inactive|flowre has 120 seconds left.
+|
+|move|p1a: Terrakion|Rock Slide|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|33/100
+|move|p2a: Togekiss|Draining Kiss|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|13/100
+|-heal|p2a: Togekiss|90/100|[from] drain|[of] p1a: Terrakion
+|
+|-heal|p2a: Togekiss|96/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Terrakion|Rock Slide|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|25/100
+|cant|p2a: Togekiss|flinch
+|
+|-heal|p2a: Togekiss|31/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Terrakion|Rock Slide|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Necrozma|Necrozma, shiny|100/100
+|-activate|p2a: Necrozma|move: Sticky Web
+|-unboost|p2a: Necrozma|spe|1
+|turn|20
+|
+|switch|p1a: Comfey|Comfey, F|91/100
+|move|p2a: Necrozma|Iron Defense|p2a: Necrozma
+|-boost|p2a: Necrozma|def|2
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-activate|p2a: Zeraora|move: Sticky Web
+|-unboost|p2a: Zeraora|spe|1
+|move|p1a: Comfey|Encore||[still]
+|-fail|p1a: Comfey
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Necrozma|Necrozma, shiny|100/100
+|-activate|p2a: Necrozma|move: Sticky Web
+|-unboost|p2a: Necrozma|spe|1
+|switch|p1a: Terrakion|Terrakion|13/100
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Kommo-o|Kommo-o, M|65/100
+|move|p2a: Necrozma|Iron Defense|p2a: Necrozma
+|-boost|p2a: Necrozma|def|2
+|
+|-heal|p1a: Kommo-o|71/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Kommo-o|Toxic|p2a: Necrozma
+|-status|p2a: Necrozma|tox
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|
+|-heal|p1a: Kommo-o|77/100|[from] item: Leftovers
+|-damage|p2a: Necrozma|94/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p1a: Comfey|Comfey, F|91/100
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|
+|-damage|p2a: Necrozma|82/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-activate|p2a: Zeraora|move: Sticky Web
+|-unboost|p2a: Zeraora|spe|1
+|move|p1a: Comfey|Encore||[still]
+|-fail|p1a: Comfey
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Necrozma|Necrozma, shiny|82/100 tox
+|-activate|p2a: Necrozma|move: Sticky Web
+|-unboost|p2a: Necrozma|spe|1
+|switch|p1a: Terrakion|Terrakion|13/100
+|
+|-damage|p2a: Necrozma|76/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p1a: Comfey|Comfey, F|91/100
+|move|p2a: Necrozma|Iron Defense|p2a: Necrozma
+|-boost|p2a: Necrozma|def|2
+|
+|-damage|p2a: Necrozma|64/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-activate|p2a: Zeraora|move: Sticky Web
+|-unboost|p2a: Zeraora|spe|1
+|move|p1a: Comfey|Encore||[still]
+|-fail|p1a: Comfey
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Terrakion|Terrakion|13/100
+|move|p2a: Zeraora|Plasma Fists|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p1a: Terrakion
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|77/100
+|turn|31
+|
+|switch|p2a: Necrozma|Necrozma, shiny|64/100 tox
+|-activate|p2a: Necrozma|move: Sticky Web
+|-unboost|p2a: Necrozma|spe|1
+|move|p1a: Kommo-o|Stealth Rock|p2a: Necrozma
+|-sidestart|p2: flowre|move: Stealth Rock
+|
+|-heal|p1a: Kommo-o|84/100|[from] item: Leftovers
+|-damage|p2a: Necrozma|58/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p1a: Comfey|Comfey, F|91/100
+|move|p2a: Necrozma|Rest|p2a: Necrozma
+|-status|p2a: Necrozma|slp|[from] move: Rest
+|-heal|p2a: Necrozma|100/100 slp|[silent]
+|-enditem|p2a: Necrozma|Chesto Berry|[eat]
+|-curestatus|p2a: Necrozma|slp|[msg]
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Stealth Rock
+|-activate|p2a: Zeraora|move: Sticky Web
+|-unboost|p2a: Zeraora|spe|1
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|
+|-heal|p2a: Zeraora|94/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Comfey|Draining Kiss|p2a: Zeraora
+|-damage|p2a: Zeraora|35/100
+|-heal|p1a: Comfey|100/100|[from] drain|[of] p2a: Zeraora
+|-damage|p1a: Comfey|91/100|[from] item: Life Orb
+|move|p2a: Zeraora|Plasma Fists|p1a: Comfey
+|-damage|p1a: Comfey|32/100
+|-fieldactivate|move: Ion Deluge
+|
+|-heal|p2a: Zeraora|41/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|-message|flowre forfeited.
+|
+|win|Meroz
+|l|☆flowre
+|raw|Meroz's rating: 1909 &rarr; <strong>1924</strong><br />(+15 for winning)
+|raw|flowre's rating: 1828 &rarr; <strong>1812</strong><br />(-16 for losing)

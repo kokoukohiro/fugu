@@ -1,0 +1,459 @@
+|j|☆madness10
+|j|☆Sneaky IRL
+|player|p1|madness10|170|1518
+|player|p2|Sneaky IRL|hilbert|1482
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Togekiss, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Clefable, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Vanilluxe, F|
+|poke|p2|Weavile, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sneaky IRL)
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|88/100
+|-enditem|p2a: Clefable|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Clefable|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: madness10|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mandibuzz|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|-sideend|p1: madness10|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|82/100
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|move|p2a: Clefable|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: madness10|move: Stealth Rock
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Cinderace|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|78/100
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|58/100
+|-status|p1a: Mandibuzz|par
+|move|p1a: Mandibuzz|Defog|p2a: Dragapult
+|-unboost|p2a: Dragapult|evasion|1
+|-sideend|p1: madness10|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Clefable|Stealth Rock|p1a: Togekiss
+|-sidestart|p1: madness10|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Togekiss|Air Slash|p2a: Clefable
+|-damage|p2a: Clefable|77/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Togekiss|94/100|[from] Hail
+|-heal|p1a: Togekiss|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Vanilluxe|Blizzard|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|8/100
+|move|p1a: Togekiss|Air Slash|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|6/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Togekiss|2/100|[from] Hail
+|-heal|p1a: Togekiss|8/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|move|p2a: Vanilluxe|Blizzard|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|41/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cinderace|35/100|[from] Hail
+|upkeep
+|turn|13
+|
+|switch|p2a: Dragapult|Dragapult, M|78/100
+|move|p1a: Cinderace|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|56/100
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100 par|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragapult|50/100|[from] Hail
+|upkeep
+|turn|14
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|45/100 par
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Mandibuzz|Defog|p2a: Dragapult
+|-unboost|p2a: Dragapult|evasion|1
+|-sideend|p1: madness10|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Mandibuzz|U-turn|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|64/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100|[from]move: U-turn
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|switch|p2a: Dragapult|Dragapult, M|50/100
+|move|p1a: Conkeldurr|Ice Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|77/100
+|turn|17
+|
+|switch|p1a: Togekiss|Togekiss, M|8/100
+|move|p2a: Clefable|Moonblast|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|35/100
+|turn|18
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|30/100
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|6/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|21
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|45/100 par
+|move|p2a: Vanilluxe|Blizzard|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|94/100 brn
+|turn|22
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Conkeldurr|Ice Punch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|-damage|p1a: Conkeldurr|82/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Conkeldurr|76/100 brn|[from] Hail
+|-damage|p2a: Ferrothorn|67/100|[from] Hail
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|70/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-heal|p1a: Conkeldurr|100/100 brn|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|88/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Conkeldurr|82/100 brn|[from] Hail
+|-damage|p1a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|77/100
+|turn|24
+|
+|switch|p1a: Cinderace|Cinderace, M|35/100
+|move|p2a: Clefable|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|11/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cinderace|5/100|[from] Hail
+|upkeep
+|turn|25
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Cinderace|U-turn|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|26
+|
+|switch|p2a: Weavile|Weavile, F|64/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Cinderace|U-turn|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|76/100 brn|[from]move: U-turn
+|
+|-damage|p1a: Conkeldurr|70/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|77/100
+|turn|27
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|6/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p1a: Conkeldurr|Ice Punch|p2a: Vanilluxe
+|-resisted|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|0 fnt
+|faint|p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Conkeldurr|64/100 brn|[from] Hail
+|-damage|p1a: Conkeldurr|58/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|77/100
+|turn|28
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|move|p1a: Conkeldurr|Ice Punch|p2a: Clefable
+|-damage|p2a: Clefable|27/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Conkeldurr|52/100 brn|[from] Hail
+|-damage|p1a: Conkeldurr|46/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p1a: Cinderace|Cinderace, M|5/100
+|move|p2a: Clefable|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Clefable|77/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|30
+|
+|move|p1a: Dragapult|Disable|p2a: Clefable
+|-start|p2a: Clefable|Disable|Moonblast
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Dragapult|94/100|[from] Hail
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Clefable
+|-status|p2a: Clefable|brn
+|move|p2a: Clefable|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: madness10|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Clefable|100/100 brn|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|32
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Dragapult|Hex|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Dragapult|Hex|p2a: Clefable
+|-damage|p2a: Clefable|63/100 brn
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-end|p2a: Clefable|Disable
+|upkeep
+|turn|34
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|75/100
+|move|p2a: Clefable|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p2a: Clefable|100/100 brn|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Dragapult|Disable|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|63/100
+|move|p2a: Clefable|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Dragapult|Hex|p2a: Clefable
+|-damage|p2a: Clefable|62/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|turn|38
+|
+|move|p1a: Seismitoad|Liquidation|p2a: Clefable
+|-damage|p2a: Clefable|28/100 brn
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Seismitoad|Liquidation|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|78/100 brn|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|40
+|
+|move|p1a: Seismitoad|Liquidation|p2a: Clefable
+|-damage|p2a: Clefable|46/100 brn
+|-unboost|p2a: Clefable|def|1
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|win|madness10
+|raw|madness10's rating: 1518 &rarr; <strong>1536</strong><br />(+18 for winning)
+|raw|Sneaky IRL's rating: 1483 &rarr; <strong>1465</strong><br />(-18 for losing)
+|c|☆Sneaky IRL|Gg

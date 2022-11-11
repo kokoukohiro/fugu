@@ -1,0 +1,268 @@
+|j|☆sadongxi
+|j|☆Groundt
+|player|p1|sadongxi|170|1700
+|player|p2|Groundt|winona|1688
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Clefable, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Zeraora|
+|poke|p1|Kyurem|
+|poke|p2|Cloyster, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Bronzong|
+|poke|p2|Gardevoir, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Zeraora|Zeraora|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|
+|move|p1a: Zeraora|Knock Off|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|39/100
+|-enditem|p2a: Bronzong|Focus Sash|[from] move: Knock Off|[of] p1a: Zeraora
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Bronzong|Steel Beam|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|76/100
+|-damage|p2a: Bronzong|0 fnt|[from] mindblown
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Torkoal|Eruption|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|51/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Torkoal|Eruption|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|58/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p2a: Torkoal|Eruption|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|turn|6
+|
+|move|p1a: Zeraora|Volt Switch|p2a: Torkoal
+|-damage|p2a: Torkoal|71/100
+|
+|switch|p1a: Clefable|Clefable, M|100/100|[from]move: Volt Switch
+|move|p2a: Torkoal|Eruption|p1a: Clefable
+|-damage|p1a: Clefable|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clefable|29/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Clefable|Moonblast|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|49/100
+|move|p2a: Torkoal|Eruption|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|8
+|c|☆sadongxi|huh
+|c|☆sadongxi|what a torkoal
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sadongxi)
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Hatterene|Psyshock|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|64/100
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Hatterene|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|47/100
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Hatterene
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Hatterene|Psyshock|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|67/100
+|-damage|p2a: Hatterene|38/100|[from] item: Life Orb
+|move|p1a: Hatterene|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-heal|p1a: Hatterene|95/100|[from] drain|[of] p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|100/100
+|-ability|p2a: Gardevoir|Magic Bounce|[from] ability: Trace|[of] p1a: Hatterene
+|turn|12
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: Gardevoir
+|-damage|p2a: Gardevoir|68/100
+|move|p2a: Gardevoir|Teleport|p2a: Gardevoir
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100|[from]move: Teleport
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|
+|switch|p1a: Corviknight|Corviknight, F|76/100
+|move|p2a: Conkeldurr|Facade|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100
+|-damage|p2a: Conkeldurr|84/100 brn|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|-damage|p2a: Conkeldurr|78/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Conkeldurr|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|-damage|p2a: Conkeldurr|61/100 brn|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|-damage|p2a: Conkeldurr|55/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|turn|15
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Zeraora
+|-damage|p1a: Zeraora|45/100
+|move|p1a: Zeraora|Plasma Fists|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|68/100
+|-ability|p2a: Gardevoir|Volt Absorb|[from] ability: Trace|[of] p1a: Zeraora
+|turn|16
+|
+|move|p1a: Zeraora|Knock Off|p2a: Gardevoir
+|-damage|p2a: Gardevoir|26/100
+|-enditem|p2a: Gardevoir|Kasib Berry|[from] move: Knock Off|[of] p1a: Zeraora
+|move|p2a: Gardevoir|Trick Room|p2a: Gardevoir
+|-fieldstart|move: Trick Room|[of] p2a: Gardevoir
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Gardevoir|Healing Wish|p2a: Gardevoir
+|faint|p2a: Gardevoir
+|move|p1a: Zeraora|Knock Off|p2: Gardevoir|[notarget]
+|-fail|p1a: Zeraora
+|
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, M|49/100
+|-heal|p2a: Torkoal|100/100|[from] move: Healing Wish
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|18
+|
+|move|p2a: Torkoal|Eruption|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|19
+|
+|move|p2a: Torkoal|Eruption|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆sadongxi|huh
+|c|☆sadongxi|nice team
+|inactive|sadongxi has 120 seconds left.
+|c|☆Groundt|Testing lol
+|c|☆sadongxi|i never wonder the torkal can kill ateam
+|inactive|sadongxi has 90 seconds left.
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|20
+|c|☆Groundt|Xd
+|
+|move|p2a: Torkoal|Eruption|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|Groundt
+|raw|sadongxi's rating: 1700 &rarr; <strong>1680</strong><br />(-20 for losing)
+|raw|Groundt's rating: 1688 &rarr; <strong>1709</strong><br />(+21 for winning)

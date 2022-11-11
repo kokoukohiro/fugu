@@ -1,0 +1,424 @@
+|j|☆Koen_DW
+|j|☆blacksponge
+|t:|1655102243
+|gametype|singles
+|player|p1|Koen_DW|101|1447
+|player|p2|blacksponge|lucas|1433
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Tapu Fini|
+|poke|p1|Blacephalon|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Blastoise, F|
+|poke|p2|Moltres|
+|poke|p2|Amoonguss, M|
+|poke|p2|Sharpedo, M|
+|poke|p2|Excadrill, F|
+|teampreview
+|
+|t:|1655102253
+|start
+|switch|p1a: Rillaboom|Rillaboom, M, shiny|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1655102258
+|switch|p1a: Tapu Fini|Tapu Fini, shiny|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Excadrill|Toxic|p1a: Tapu Fini
+|-activate|p1a: Tapu Fini|move: Misty Terrain
+|
+|upkeep
+|turn|2
+|
+|t:|1655102262
+|move|p1a: Tapu Fini|Trick|p2a: Excadrill
+|-activate|p1a: Tapu Fini|move: Trick|[of] p2a: Excadrill
+|-item|p2a: Excadrill|Choice Scarf|[from] move: Trick
+|-item|p1a: Tapu Fini|Focus Sash|[from] move: Trick
+|move|p2a: Excadrill|Earthquake|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|52/100
+|
+|upkeep
+|turn|3
+|
+|t:|1655102267
+|move|p2a: Excadrill|Earthquake|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|2/100
+|move|p1a: Tapu Fini|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|34/100
+|
+|upkeep
+|turn|4
+|
+|t:|1655102271
+|switch|p1a: Rillaboom|Rillaboom, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Excadrill|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|85/100
+|
+|-heal|p2a: Excadrill|40/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|91/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1655102274
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|71/100
+|-damage|p1a: Rillaboom|75/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|t:|1655102278
+|switch|p1a: Blacephalon|Blacephalon, shiny|100/100|[from]move: U-turn
+|
+|-heal|p2a: Amoonguss|77/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1655102283
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Blacephalon|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|35/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1655102295
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Blacephalon|Shadow Ball|p2a: Amoonguss
+|-damage|p2a: Amoonguss|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|66/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1655102304
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|move|p2a: Amoonguss|Foul Play|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|-damage|p2a: Amoonguss|53/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|60/100|[from] Grassy Terrain
+|-heal|p1a: Ferrothorn|94/100|[from] Grassy Terrain
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1655102309
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Moltres|[miss]
+|-miss|p1a: Ferrothorn|p2a: Moltres
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1655102312
+|move|p2a: Moltres|Hurricane|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100
+|-start|p1a: Ferrothorn|confusion
+|-activate|p1a: Ferrothorn|confusion
+|move|p1a: Ferrothorn|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|85/100
+|-enditem|p2a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1655102318
+|switch|p1a: Tapu Fini|Tapu Fini, shiny|2/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Moltres|Hurricane|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|faint|p1a: Tapu Fini
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1655102323
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|turn|12
+|
+|t:|1655102326
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Moltres|Hurricane|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1655102330
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Moltres|Hurricane|p1a: Dragapult
+|-damage|p1a: Dragapult|15/100
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1655102339
+|move|p1a: Dragapult|Dragon Darts|p2a: Moltres
+|-damage|p2a: Moltres|56/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Moltres
+|-damage|p2a: Moltres|28/100
+|move|p2a: Moltres|Scorching Sands|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1655102355
+|switch|p1a: Blacephalon|Blacephalon, shiny|100/100
+|turn|15
+|
+|t:|1655102359
+|switch|p2a: Amoonguss|Amoonguss, M|93/100
+|move|p1a: Blacephalon|Shadow Ball|p2a: Amoonguss
+|-damage|p2a: Amoonguss|56/100
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|16
+|
+|t:|1655102364
+|move|p1a: Blacephalon|Shadow Ball|p2a: Amoonguss
+|-damage|p2a: Amoonguss|18/100
+|move|p2a: Amoonguss|Spore|p1a: Blacephalon
+|-status|p1a: Blacephalon|slp|[from] move: Spore
+|
+|upkeep
+|turn|17
+|
+|t:|1655102369
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|66/100
+|move|p2a: Amoonguss|Foul Play|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|54/100
+|-damage|p2a: Amoonguss|5/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1655102373
+|switch|p2a: Moltres|Moltres|28/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|18/100
+|
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1655102377
+|move|p2a: Moltres|Scorching Sands|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|51/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Moltres
+|-sidestart|p2: blacksponge|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|57/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1655102381
+|switch|p1a: Blacephalon|Blacephalon, shiny|100/100 slp
+|move|p2a: Moltres|Defog|p1a: Blacephalon
+|-unboost|p1a: Blacephalon|evasion|1
+|-sideend|p2: blacksponge|Stealth Rock|[from] move: Defog|[of] p2a: Moltres
+|
+|upkeep
+|turn|21
+|
+|t:|1655102384
+|cant|p1a: Blacephalon|slp
+|move|p2a: Moltres|Scorching Sands|p1a: Blacephalon
+|-supereffective|p1a: Blacephalon
+|-damage|p1a: Blacephalon|33/100 slp
+|
+|upkeep
+|turn|22
+|
+|t:|1655102387
+|cant|p1a: Blacephalon|slp
+|move|p2a: Moltres|Scorching Sands|p1a: Blacephalon
+|-supereffective|p1a: Blacephalon
+|-damage|p1a: Blacephalon|0 fnt
+|faint|p1a: Blacephalon
+|
+|upkeep
+|
+|t:|1655102389
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|23
+|
+|t:|1655102392
+|move|p1a: Urshifu|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|11/100
+|
+|t:|1655102395
+|switch|p1a: Rillaboom|Rillaboom, M, shiny|75/100|[from]move: U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|61/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|-heal|p1a: Rillaboom|81/100|[from] Grassy Terrain
+|-heal|p2a: Moltres|68/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1655102398
+|move|p1a: Rillaboom|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|45/100
+|move|p2a: Moltres|Hurricane|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1655102401
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|25
+|
+|t:|1655102405
+|switch|p2a: Amoonguss|Amoonguss, M|39/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|26/100
+|-damage|p1a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|15/100
+|-damage|p1a: Urshifu|68/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|3/100
+|-damage|p1a: Urshifu|51/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-hitcount|p2a: Amoonguss|3
+|
+|-heal|p1a: Urshifu|57/100|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|10/100|[from] Grassy Terrain
+|upkeep
+|turn|26
+|
+|t:|1655102411
+|switch|p2a: Pelipper|Pelipper, M|35/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Urshifu|Surging Strikes|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|19/100
+|-resisted|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|4/100
+|-resisted|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-hitcount|p2: Pelipper|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Urshifu|64/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1655102420
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|turn|27
+|
+|t:|1655102423
+|move|p1a: Urshifu|Surging Strikes|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|77/100
+|-resisted|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|54/100
+|-resisted|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|30/100
+|-hitcount|p2a: Blastoise|3
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blastoise|36/100|[from] Grassy Terrain
+|-heal|p1a: Urshifu|70/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|28
+|
+|t:|1655102426
+|move|p2a: Blastoise|Surf|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1655102428
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|57/100
+|turn|29
+|
+|t:|1655102433
+|move|p2a: Blastoise|Focus Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Blastoise|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Blastoise
+|-start|p2a: Blastoise|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|63/100|[from] item: Leftovers
+|-damage|p2a: Blastoise|24/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|74/100|[silent]
+|upkeep
+|turn|30
+|
+|t:|1655102437
+|move|p2a: Blastoise|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|win|blacksponge
+|raw|Koen_DW's rating: 1447 &rarr; <strong>1426</strong><br />(-21 for losing)
+|raw|blacksponge's rating: 1433 &rarr; <strong>1454</strong><br />(+21 for winning)
+|l|☆Koen_DW

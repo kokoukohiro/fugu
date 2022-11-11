@@ -1,0 +1,634 @@
+|j|‽dont giv a duck
+|j|☆64j3t3hrt3h
+|t:|1664754983
+|gametype|singles
+|player|p1|dont giv a duck|cyclist|1694
+|player|p2|64j3t3hrt3h|170|1682
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Chansey, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p2|Buzzwole|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Magnezone|
+|poke|p2|Tyranitar, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Toxapex, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dont giv a duck)
+|
+|t:|1664755001
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|1
+|
+|t:|1664755006
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Tornadus|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1664755009
+|move|p1a: Tornadus|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|90/100
+|-damage|p1a: Tornadus|84/100|[from] item: Rocky Helmet|[of] p2a: Toxapex
+|-enditem|p2a: Toxapex|Rocky Helmet|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Toxapex|Knock Off|p1a: Tornadus
+|-damage|p1a: Tornadus|62/100
+|-enditem|p1a: Tornadus|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|upkeep
+|turn|3
+|
+|t:|1664755021
+|move|p1a: Tornadus|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|85/100
+|
+|t:|1664755024
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100|[from]move: U-turn
+|move|p2a: Toxapex|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|91/100
+|-damage|p2a: Toxapex|69/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|-enditem|p1a: Toxapex|Rocky Helmet|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-end|p2a: Toxapex|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1664755030
+|move|p1a: Toxapex|Toxic Spikes|p2a: Toxapex
+|-sidestart|p2: 64j3t3hrt3h|move: Toxic Spikes
+|move|p2a: Toxapex|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|85/100
+|
+|upkeep
+|turn|5
+|
+|t:|1664755035
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Toxapex|atk|1
+|move|p1a: Toxapex|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|76/100
+|
+|-heal|p2a: Landorus|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1664755041
+|move|p2a: Landorus|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|33/100
+|move|p1a: Toxapex|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|58/100
+|
+|-heal|p2a: Landorus|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1664755047
+|switch|p1a: Tornadus|Tornadus-Therian, M|95/100
+|move|p2a: Landorus|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|79/100
+|
+|t:|1664755049
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from]move: U-turn
+|-sideend|p2: 64j3t3hrt3h|move: Toxic Spikes|[of] p2a: Toxapex
+|
+|upkeep
+|turn|8
+|
+|t:|1664755054
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Tornadus|Taunt|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|73/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1664755062
+|move|p1a: Tornadus|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100
+|
+|t:|1664755065
+|switch|p1a: Toxapex|Toxapex, F, shiny|66/100|[from]move: U-turn
+|move|p2a: Tyranitar|Rock Blast|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100
+|-damage|p1a: Toxapex|51/100
+|-damage|p1a: Toxapex|44/100
+|-hitcount|p1a: Toxapex|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|38/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|75/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1664755074
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Rock Blast|p1a: Landorus|[miss]
+|-miss|p2a: Tyranitar|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|82/100|[from] item: Leftovers
+|-end|p2a: Tyranitar|move: Taunt
+|upkeep
+|turn|11
+|
+|t:|1664755080
+|switch|p2a: Landorus|Landorus-Therian, M|64/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: 64j3t3hrt3h|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1664755083
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Landorus|Defog|p1a: Tornadus
+|-unboost|p1a: Tornadus|evasion|1
+|-sideend|p2: 64j3t3hrt3h|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|
+|-weather|none
+|-heal|p2a: Landorus|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1664755088
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Tornadus|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|90/100
+|
+|upkeep
+|turn|14
+|
+|t:|1664755091
+|move|p1a: Tornadus|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|84/100
+|
+|t:|1664755093
+|switch|p1a: Toxapex|Toxapex, F, shiny|71/100|[from]move: U-turn
+|move|p2a: Toxapex|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|
+|upkeep
+|turn|15
+|
+|t:|1664755096
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|
+|upkeep
+|turn|16
+|
+|t:|1664755103
+|move|p1a: Tornadus|Knock Off|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|60/100
+|-enditem|p2a: Tapu Lele|Choice Specs|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Tapu Lele|Psychic|p1a: Tornadus
+|-damage|p1a: Tornadus|15/100
+|-unboost|p1a: Tornadus|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1664755109
+|move|p1a: Tornadus|U-turn|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|27/100
+|
+|t:|1664755112
+|switch|p1a: Chansey|Chansey, F|100/100|[from]move: U-turn
+|move|p2a: Tapu Lele|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|65/100
+|
+|upkeep
+|turn|18
+|
+|t:|1664755115
+|move|p2a: Tapu Lele|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|29/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|79/100
+|
+|upkeep
+|turn|19
+|
+|t:|1664755124
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|20
+|
+|t:|1664755128
+|switch|p1a: Tornadus|Tornadus-Therian, M|48/100
+|move|p2a: Toxapex|Toxic|p1a: Tornadus
+|-status|p1a: Tornadus|tox
+|
+|-heal|p1a: Tornadus|100/100 tox|[from] move: Wish|[wisher] Chansey
+|-damage|p1a: Tornadus|94/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1664755136
+|move|p1a: Tornadus|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|95/100
+|
+|t:|1664755138
+|switch|p1a: Toxapex|Toxapex, F, shiny|99/100|[from]move: U-turn
+|move|p2a: Toxapex|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|92/100
+|
+|upkeep
+|turn|22
+|
+|t:|1664755141
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|27/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100 tox
+|
+|-damage|p1a: Tornadus|94/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1664755146
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Tornadus|Knock Off|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|
+|-damage|p1a: Tornadus|82/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1664755153
+|move|p1a: Tornadus|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|77/100
+|
+|t:|1664755156
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100|[from]move: U-turn
+|move|p2a: Toxapex|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|94/100
+|
+|upkeep
+|turn|25
+|
+|t:|1664755161
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100 tox
+|move|p2a: Toxapex|Knock Off|p1a: Tornadus
+|-damage|p1a: Tornadus|85/100 tox
+|
+|-damage|p1a: Tornadus|79/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1664755174
+|switch|p2a: Landorus|Landorus-Therian, M|76/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|move|p1a: Tornadus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|70/100
+|
+|t:|1664755180
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Landorus|76/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|27
+|
+|t:|1664755183
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Landorus|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|-heal|p2a: Landorus|82/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1664755190
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Landorus
+|-status|p2a: Landorus|brn
+|move|p2a: Landorus|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|47/100
+|-enditem|p1a: Dragapult|Leftovers|[from] move: Knock Off|[of] p2a: Landorus
+|
+|-heal|p2a: Landorus|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Landorus|82/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1664755193
+|move|p1a: Dragapult|Hex|p2a: Landorus
+|-damage|p2a: Landorus|47/100 brn
+|move|p2a: Landorus|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|40/100
+|
+|t:|1664755195
+|switch|p2a: Buzzwole|Buzzwole|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|30
+|
+|t:|1664755203
+|move|p2a: Buzzwole|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|upkeep
+|
+|t:|1664755207
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Buzzwole|atk|1
+|turn|31
+|
+|t:|1664755218
+|switch|p2a: Landorus|Landorus-Therian, M|47/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: 64j3t3hrt3h|move: Stealth Rock
+|
+|-heal|p2a: Landorus|53/100 brn|[from] item: Leftovers
+|-damage|p2a: Landorus|47/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1664755234
+|move|p2a: Landorus|Defog|p1a: Landorus
+|-unboost|p1a: Landorus|evasion|1
+|-sideend|p2: 64j3t3hrt3h|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|38/100 brn
+|
+|t:|1664755245
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100|[from]move: U-turn
+|
+|-heal|p2a: Landorus|44/100 brn|[from] item: Leftovers
+|-damage|p2a: Landorus|38/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1664755257
+|move|p2a: Landorus|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|97/100
+|
+|t:|1664755261
+|switch|p2a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|move|p1a: Toxapex|Scald|p2a: Magnezone
+|-damage|p2a: Magnezone|80/100
+|
+|-heal|p2a: Magnezone|86/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1664755268
+|move|p2a: Magnezone|Magnet Rise|p2a: Magnezone
+|-start|p2a: Magnezone|Magnet Rise
+|move|p1a: Toxapex|Scald|p2a: Magnezone
+|-damage|p2a: Magnezone|67/100
+|
+|-heal|p2a: Magnezone|74/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1664755274
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Magnezone|atk|1
+|move|p2a: Magnezone|Thunderbolt|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Magnezone|80/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1664755278
+|move|p1a: Landorus|Gravity|p1a: Landorus
+|-fieldstart|move: Gravity
+|-activate|p2a: Magnezone|move: Gravity
+|move|p2a: Magnezone|Iron Defense|p2a: Magnezone
+|-boost|p2a: Magnezone|def|2
+|
+|-heal|p2a: Magnezone|86/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1664755285
+|switch|p2a: Landorus|Landorus-Therian, M|38/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Earthquake|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1664755287
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|turn|38
+|
+|t:|1664755294
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|move|p2a: Buzzwole|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|56/100
+|
+|upkeep
+|turn|39
+|
+|t:|1664755300
+|move|p2a: Buzzwole|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|11/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|61/100
+|
+|upkeep
+|turn|40
+|
+|t:|1664755303
+|move|p2a: Buzzwole|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|19/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|69/100
+|
+|-fieldend|move: Gravity
+|upkeep
+|turn|41
+|
+|t:|1664755309
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|27/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|upkeep
+|turn|42
+|
+|t:|1664755318
+|switch|p1a: Chansey|Chansey, F|79/100
+|move|p2a: Tapu Lele|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|40/100
+|
+|upkeep
+|turn|43
+|
+|t:|1664755321
+|move|p2a: Tapu Lele|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|upkeep
+|
+|t:|1664755332
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100 tox
+|turn|44
+|
+|t:|1664755334
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Tornadus|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|94/100
+|
+|t:|1664755337
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Toxapex|atk|1
+|
+|upkeep
+|turn|45
+|j| Stally bully uwa
+|
+|t:|1664755343
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|move|p1a: Landorus|Earthquake|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|73/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|46
+|
+|t:|1664755349
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|move|p2a: Buzzwole|Ice Punch|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|92/100
+|-status|p1a: Toxapex|frz
+|
+|upkeep
+|turn|47
+|l| Stally bully uwa
+|
+|t:|1664755352
+|switch|p2a: Magnezone|Magnezone|86/100
+|-curestatus|p1a: Toxapex|frz|[from] move: Scald
+|move|p1a: Toxapex|Scald|p2a: Magnezone
+|-damage|p2a: Magnezone|67/100
+|
+|-heal|p2a: Magnezone|74/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1664755358
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Magnezone|atk|1
+|move|p2a: Magnezone|Thunderbolt|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Magnezone|80/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1664755365
+|switch|p2a: Buzzwole|Buzzwole|73/100
+|move|p1a: Landorus|Stealth Rock|p2a: Buzzwole
+|-sidestart|p2: 64j3t3hrt3h|move: Stealth Rock
+|
+|upkeep
+|turn|50
+|
+|t:|1664755370
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|move|p2a: Buzzwole|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|57/100
+|
+|upkeep
+|turn|51
+|
+|t:|1664755373
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|27/100
+|-damage|p2a: Tapu Lele|14/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100 tox
+|
+|-damage|p1a: Tornadus|94/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|t:|1664755376
+|move|p1a: Tornadus|U-turn|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|-message|64j3t3hrt3h forfeited.
+|
+|win|dont giv a duck
+|raw|dont giv a duck's rating: 1694 &rarr; <strong>1713</strong><br />(+19 for winning)
+|raw|64j3t3hrt3h's rating: 1682 &rarr; <strong>1663</strong><br />(-19 for losing)
+|l|☆64j3t3hrt3h

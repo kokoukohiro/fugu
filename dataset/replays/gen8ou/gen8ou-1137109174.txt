@@ -1,0 +1,118 @@
+|j|☆early_human
+|j|☆guy42
+|player|p1|early_human|265|1550
+|player|p2|guy42|265|1543
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Magnezone|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Marowak-Alola, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Marowak-Alola, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Weavile, F|
+|poke|p2|Azumarill, M|
+|poke|p2|Slowbro, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|switch|p2a: Marowak|Marowak-Alola, F, shiny|100/100
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Marowak|Poltergeist|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Poltergeist|Black Sludge
+|-damage|p1a: Toxapex|35/100
+|move|p1a: Toxapex|Knock Off|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|71/100
+|-enditem|p2a: Marowak|Thick Club|[from] move: Knock Off|[of] p1a: Toxapex
+|
+|-heal|p1a: Toxapex|42/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Marowak|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: early_human|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Mandibuzz|Defog|p2a: Marowak
+|-unboost|p2a: Marowak|evasion|1
+|-sideend|p1: early_human|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Marowak|Thunder Punch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|70/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Mandibuzz|Foul Play|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|62/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Toxapex|Toxapex, M|75/100
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|-heal|p1a: Toxapex|81/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p2a: Weavile|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-enditem|p1a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|52/100|[from] item: Life Orb
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|8
+|
+|move|p2a: Weavile|Triple Axel|p1a: Weezing
+|-damage|p1a: Weezing|79/100
+|-damage|p1a: Weezing|33/100
+|-damage|p1a: Weezing|0 fnt
+|-hitcount|p1a: Weezing|3
+|-damage|p2a: Weavile|42/100|[from] item: Life Orb
+|faint|p1a: Weezing
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|-message|early_human forfeited.
+|
+|win|guy42
+|l|☆early_human
+|raw|early_human's rating: 1564 &rarr; <strong>1543</strong><br />(-21 for losing)
+|raw|guy42's rating: 1543 &rarr; <strong>1564</strong><br />(+21 for winning)
