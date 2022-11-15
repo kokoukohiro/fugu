@@ -1,0 +1,480 @@
+|j|☆White Robin
+|j|☆Steveurkle
+|player|p1|White Robin|138|1439
+|player|p2|Steveurkle|9|1593
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Haxorus, M|
+|poke|p1|Pangoro, M|
+|poke|p1|Ribombee, F|
+|poke|p1|Dhelmise|
+|poke|p1|Hippowdon, F|
+|poke|p1|Barraskewda, M|
+|poke|p2|Sirfetch'd, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Doublade, F|
+|poke|p2|Arctovish|
+|poke|p2|Orbeetle, F|
+|poke|p2|Haxorus, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by White Robin)
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|switch|p2a: Orbeetle|Orbeetle, F|100/100
+|-item|p1a: Hippowdon|Leftovers|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|move|p1a: Hippowdon|Stealth Rock|p2a: Orbeetle
+|-sidestart|p2: Steveurkle|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Orbeetle|94/100|[from] Sandstorm
+|-heal|p2a: Orbeetle|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Orbeetle|Bug Buzz|p1a: Hippowdon
+|-damage|p1a: Hippowdon|62/100
+|move|p1a: Hippowdon|Whirlwind|p2a: Orbeetle
+|drag|p2a: Haxorus|Haxorus, F|100/100
+|-damage|p2a: Haxorus|88/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haxorus|82/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|j| JustKarpingAround
+|
+|move|p2a: Haxorus|Outrage|p1a: Hippowdon
+|-damage|p1a: Hippowdon|12/100
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haxorus|76/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|68/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Haxorus|Outrage|p1a: Hippowdon|[from]lockedmove
+|-damage|p1a: Hippowdon|13/100
+|-start|p2a: Haxorus|confusion|[fatigue]
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haxorus|70/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|70/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Arctovish|Arctovish|100/100
+|-damage|p2a: Arctovish|76/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Whirlwind|p2a: Arctovish
+|drag|p2a: Orbeetle|Orbeetle, F|100/100
+|-damage|p2a: Orbeetle|75/100|[from] Stealth Rock
+|-item|p1a: Hippowdon|Leftovers|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|
+|-weather|none
+|-heal|p2a: Orbeetle|82/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Orbeetle|Bug Buzz|p1a: Hippowdon
+|-damage|p1a: Hippowdon|47/100
+|-unboost|p1a: Hippowdon|spd|1
+|move|p1a: Hippowdon|Whirlwind|p2a: Orbeetle
+|drag|p2a: Weezing|Weezing-Galar, M|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Weezing|94/100|[from] item: Black Sludge
+|-heal|p1a: Hippowdon|53/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Weezing|Will-O-Wisp|p1a: Hippowdon
+|-status|p1a: Hippowdon|brn
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100 brn
+|
+|-heal|p2a: Weezing|99/100|[from] item: Black Sludge
+|-damage|p1a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Weezing|Defog|p1a: Hippowdon
+|-unboost|p1a: Hippowdon|evasion|1
+|-sideend|p2: Steveurkle|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|move|p1a: Hippowdon|Whirlwind|p2a: Weezing
+|drag|p2a: Sirfetch'd|Sirfetch'd, M|100/100
+|
+|-heal|p1a: Hippowdon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Sirfetch'd|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|74/100 brn
+|-enditem|p1a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p2a: Sirfetch'd
+|move|p1a: Hippowdon|Stealth Rock|p2a: Sirfetch'd
+|-sidestart|p2: Steveurkle|move: Stealth Rock
+|
+|-damage|p1a: Hippowdon|67/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Weezing|Weezing-Galar, M|99/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Whirlwind|p2a: Weezing
+|drag|p2a: Sirfetch'd|Sirfetch'd, M|100/100
+|-damage|p2a: Sirfetch'd|94/100|[from] Stealth Rock
+|
+|-damage|p1a: Hippowdon|61/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Sirfetch'd|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|23/100 brn
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|move|p1a: Hippowdon|Whirlwind|p2a: Sirfetch'd
+|drag|p2a: Arctovish|Arctovish|76/100
+|-damage|p2a: Arctovish|51/100|[from] Stealth Rock
+|
+|-damage|p1a: Hippowdon|16/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Arctovish|Icicle Crash|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|13
+|
+|switch|p2a: Doublade|Doublade, F|100/100
+|-damage|p2a: Doublade|94/100|[from] Stealth Rock
+|move|p1a: Barraskewda|Psychic Fangs|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|82/100
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|move|p2a: Doublade|Iron Head|p1a: Dhelmise
+|-crit|p1a: Dhelmise
+|-damage|p1a: Dhelmise|60/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Dhelmise|Shadow Claw|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|52/100
+|move|p2a: Doublade|Swords Dance|p2a: Doublade
+|-boost|p2a: Doublade|atk|2
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|move|p2a: Doublade|Swords Dance|p2a: Doublade
+|-boost|p2a: Doublade|atk|2
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Weezing|Weezing-Galar, M|88/100
+|-damage|p2a: Weezing|76/100|[from] Stealth Rock
+|move|p1a: Pangoro|Darkest Lariat|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|55/100
+|
+|-heal|p2a: Weezing|61/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|switch|p1a: Dhelmise|Dhelmise|60/100
+|move|p2a: Weezing|Defog|p1a: Dhelmise
+|-unboost|p1a: Dhelmise|evasion|1
+|-sideend|p2: Steveurkle|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|-heal|p2a: Weezing|67/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, M|94/100
+|move|p1a: Dhelmise|Anchor Shot|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|59/100
+|-activate|p2a: Sirfetch'd|trapped
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Sirfetch'd|Brave Bird|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|-damage|p2a: Sirfetch'd|38/100|[from] Recoil
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|21
+|
+|move|p1a: Barraskewda|Crunch|p2a: Sirfetch'd
+|-resisted|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|16/100
+|move|p2a: Sirfetch'd|Brave Bird|p1a: Barraskewda
+|-damage|p1a: Barraskewda|6/100
+|-damage|p2a: Sirfetch'd|0 fnt|[from] Recoil
+|faint|p2a: Sirfetch'd
+|
+|upkeep
+|
+|switch|p2a: Weezing|Weezing-Galar, M|67/100
+|turn|22
+|
+|move|p1a: Barraskewda|Crunch|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|51/100
+|-unboost|p2a: Weezing|def|1
+|move|p2a: Weezing|Fire Blast|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-heal|p2a: Weezing|57/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|23
+|
+|move|p1a: Haxorus|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, F|70/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|24
+|
+|move|p1a: Haxorus|Earthquake|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|switch|p2a: Arctovish|Arctovish|51/100
+|turn|25
+|
+|move|p2a: Arctovish|Icicle Crash|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|4/100
+|cant|p1a: Haxorus|flinch
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Arctovish|Icicle Crash|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|turn|27
+|
+|switch|p2a: Orbeetle|Orbeetle, F|82/100
+|-item|p1a: Ribombee|Focus Sash|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|move|p1a: Ribombee|Moonblast|p2a: Orbeetle
+|-damage|p2a: Orbeetle|53/100
+|
+|-heal|p2a: Orbeetle|59/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|j| subteste
+|
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Orbeetle|Bug Buzz|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|85/100
+|
+|-heal|p2a: Orbeetle|65/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Ribombee|Moonblast|p2a: Orbeetle
+|-damage|p2a: Orbeetle|25/100
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|
+|-heal|p2a: Orbeetle|31/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Ribombee|Moonblast|p2a: Orbeetle
+|-damage|p2a: Orbeetle|5/100
+|-unboost|p2a: Orbeetle|spa|1
+|move|p2a: Orbeetle|Recover|p2a: Orbeetle
+|-heal|p2a: Orbeetle|55/100
+|
+|-heal|p2a: Orbeetle|61/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|move|p2a: Orbeetle|Recover|p2a: Orbeetle
+|-heal|p2a: Orbeetle|100/100
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Doublade|Doublade, F|52/100
+|move|p1a: Pangoro|Darkest Lariat|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|upkeep
+|
+|switch|p2a: Arctovish|Arctovish|51/100
+|turn|33
+|
+|move|p2a: Arctovish|Fishious Rend|p1a: Pangoro
+|-damage|p1a: Pangoro|10/100
+|move|p1a: Pangoro|Darkest Lariat|p2a: Arctovish
+|-damage|p2a: Arctovish|0 fnt
+|faint|p2a: Arctovish
+|
+|upkeep
+|
+|switch|p2a: Orbeetle|Orbeetle, F|100/100
+|-item|p1a: Pangoro|Choice Band|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|turn|34
+|
+|move|p2a: Orbeetle|Bug Buzz|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|faint|p1a: Pangoro
+|
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, F|85/100
+|turn|35
+|
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Orbeetle|Calm Mind|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spa|1
+|-boost|p2a: Orbeetle|spd|1
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Ribombee|Moonblast|p2a: Orbeetle
+|-damage|p2a: Orbeetle|75/100
+|move|p2a: Orbeetle|Psychic|p1a: Ribombee
+|-damage|p1a: Ribombee|44/100
+|
+|-heal|p2a: Orbeetle|82/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Ribombee|Moonblast|p2a: Orbeetle
+|-crit|p2a: Orbeetle
+|-damage|p2a: Orbeetle|0 fnt
+|faint|p2a: Orbeetle
+|
+|win|White Robin
+|raw|White Robin's rating: 1439 &rarr; <strong>1467</strong><br />(+28 for winning)
+|raw|Steveurkle's rating: 1593 &rarr; <strong>1564</strong><br />(-29 for losing)
+|c|☆Steveurkle|Wooow

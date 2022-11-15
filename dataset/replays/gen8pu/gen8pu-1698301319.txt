@@ -1,0 +1,437 @@
+|j|☆JoJo Reference #11
+|j|☆Peanutchew
+|t:|1667098471
+|gametype|singles
+|player|p1|JoJo Reference #11|169|1334
+|player|p2|Peanutchew|265|1216
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Doublade, M|
+|poke|p1|Gourgeist-*, F|
+|poke|p1|Glastrier|
+|poke|p1|Ribombee, F|
+|poke|p1|Aromatisse, M|
+|poke|p1|Audino, F|
+|poke|p2|Aurorus, F|
+|poke|p2|Drifblim, M|
+|poke|p2|Boltund, M|
+|poke|p2|Mawile, M|
+|poke|p2|Audino, F|
+|poke|p2|Lurantis, F|
+|teampreview
+|
+|t:|1667098477
+|start
+|switch|p1a: Gourgeist|Gourgeist-Super, F|100/100
+|switch|p2a: Boltund|Boltund, M|100/100
+|-item|p2a: Boltund|Choice Band|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|1
+|
+|t:|1667098484
+|move|p2a: Boltund|Fire Fang|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|42/100
+|move|p1a: Gourgeist|Trick Room|p1a: Gourgeist
+|-fieldstart|move: Trick Room|[of] p1a: Gourgeist
+|
+|upkeep
+|turn|2
+|
+|t:|1667098490
+|move|p1a: Gourgeist|Poltergeist|p2a: Boltund
+|-activate|p2a: Boltund|move: Poltergeist|Choice Band
+|-damage|p2a: Boltund|0 fnt
+|faint|p2a: Boltund
+|
+|upkeep
+|
+|t:|1667098505
+|switch|p2a: Audino|Audino, F|100/100
+|turn|3
+|
+|t:|1667098510
+|switch|p1a: Doublade|Doublade, M|100/100
+|move|p2a: Audino|Reflect|p2a: Audino
+|-sidestart|p2: Peanutchew|Reflect
+|
+|upkeep
+|turn|4
+|
+|t:|1667098517
+|switch|p2a: Mawile|Mawile, M|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Doublade|atk|1
+|move|p1a: Doublade|Swords Dance|p1a: Doublade
+|-boost|p1a: Doublade|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1667098531
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|move|p1a: Doublade|Iron Head|p2a: Drifblim
+|-damage|p2a: Drifblim|56/100
+|
+|-fieldend|move: Trick Room
+|-status|p2a: Drifblim|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1667098539
+|move|p1a: Doublade|Shadow Sneak|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|13/100 brn
+|move|p2a: Drifblim|Shadow Ball|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|faint|p1a: Doublade
+|
+|-damage|p2a: Drifblim|7/100 brn|[from] brn
+|upkeep
+|
+|t:|1667098543
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|turn|7
+|
+|t:|1667098551
+|move|p1a: Ribombee|Moonblast|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|-sideend|p2: Peanutchew|Reflect
+|upkeep
+|
+|t:|1667098558
+|switch|p2a: Aurorus|Aurorus, F|100/100
+|turn|8
+|
+|t:|1667098576
+|move|p1a: Ribombee|Moonblast|p2a: Aurorus
+|-damage|p2a: Aurorus|63/100
+|-unboost|p2a: Aurorus|spa|1
+|move|p2a: Aurorus|Hyper Voice|p1a: Ribombee
+|-damage|p1a: Ribombee|36/100
+|
+|upkeep
+|turn|9
+|
+|t:|1667098585
+|switch|p2a: Audino|Audino, F|100/100
+|move|p1a: Ribombee|Moonblast|p2a: Audino
+|-damage|p2a: Audino|75/100
+|
+|upkeep
+|turn|10
+|
+|t:|1667098592
+|move|p1a: Ribombee|Roost|p1a: Ribombee
+|-heal|p1a: Ribombee|86/100
+|-singleturn|p1a: Ribombee|move: Roost
+|move|p2a: Audino|Light Screen|p2a: Audino
+|-sidestart|p2: Peanutchew|move: Light Screen
+|
+|upkeep
+|turn|11
+|
+|t:|1667098597
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|upkeep
+|turn|12
+|
+|t:|1667098604
+|switch|p2a: Lurantis|Lurantis, F|100/100
+|move|p1a: Ribombee|Moonblast|p2a: Lurantis
+|-damage|p2a: Lurantis|67/100
+|
+|-heal|p2a: Lurantis|100/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|13
+|
+|t:|1667098612
+|move|p1a: Ribombee|Bug Buzz|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|41/100
+|move|p2a: Lurantis|Poison Jab|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1667098618
+|switch|p1a: Audino|Audino, F|100/100
+|turn|14
+|
+|t:|1667098623
+|move|p2a: Lurantis|Superpower|p1a: Audino
+|-supereffective|p1a: Audino
+|-damage|p1a: Audino|41/100
+|-boost|p2a: Lurantis|atk|1
+|-boost|p2a: Lurantis|def|1
+|move|p1a: Audino|Trick Room|p1a: Audino
+|-fieldstart|move: Trick Room|[of] p1a: Audino
+|
+|-sideend|p2: Peanutchew|move: Light Screen
+|upkeep
+|turn|15
+|
+|t:|1667098631
+|switch|p1a: Gourgeist|Gourgeist-Super, F|42/100
+|-item|p2a: Lurantis|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Lurantis|Superpower|p1a: Gourgeist
+|-immune|p1a: Gourgeist
+|
+|upkeep
+|turn|16
+|
+|t:|1667098641
+|switch|p2a: Audino|Audino, F|100/100
+|move|p1a: Gourgeist|Poltergeist|p2a: Audino
+|-immune|p2a: Audino
+|
+|upkeep
+|turn|17
+|
+|t:|1667098648
+|switch|p1a: Glastrier|Glastrier|100/100
+|move|p2a: Audino|Reflect|p2a: Audino
+|-sidestart|p2: Peanutchew|Reflect
+|
+|upkeep
+|turn|18
+|
+|t:|1667098653
+|move|p1a: Glastrier|Substitute|p1a: Glastrier
+|-start|p1a: Glastrier|Substitute
+|-damage|p1a: Glastrier|76/100
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|
+|t:|1667098660
+|switch|p2a: Mawile|Mawile, M|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-immune|p1a: Glastrier
+|move|p1a: Glastrier|Swords Dance|p1a: Glastrier
+|-boost|p1a: Glastrier|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1667098668
+|move|p2a: Mawile|Iron Head|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-end|p1a: Glastrier|Substitute
+|move|p1a: Glastrier|Substitute|p1a: Glastrier
+|-start|p1a: Glastrier|Substitute
+|-damage|p1a: Glastrier|51/100
+|
+|upkeep
+|turn|21
+|
+|t:|1667098675
+|move|p2a: Mawile|Iron Head|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-end|p1a: Glastrier|Substitute
+|move|p1a: Glastrier|Substitute|p1a: Glastrier
+|-start|p1a: Glastrier|Substitute
+|-damage|p1a: Glastrier|26/100
+|
+|-sideend|p2: Peanutchew|Reflect
+|upkeep
+|turn|22
+|
+|t:|1667098683
+|move|p2a: Mawile|Iron Head|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-end|p1a: Glastrier|Substitute
+|move|p1a: Glastrier|High Horsepower|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|upkeep
+|
+|t:|1667098693
+|switch|p2a: Aurorus|Aurorus, F|63/100
+|turn|23
+|
+|t:|1667098696
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|move|p2a: Aurorus|Ancient Power|p1a: Aromatisse
+|-damage|p1a: Aromatisse|72/100
+|-boost|p2a: Aurorus|atk|1
+|-boost|p2a: Aurorus|def|1
+|-boost|p2a: Aurorus|spa|1
+|-boost|p2a: Aurorus|spd|1
+|-boost|p2a: Aurorus|spe|1
+|
+|upkeep
+|turn|24
+|
+|t:|1667098705
+|move|p2a: Aurorus|Hyper Voice|p1a: Aromatisse
+|-damage|p1a: Aromatisse|7/100
+|move|p1a: Aromatisse|Trick Room|p1a: Aromatisse
+|-fieldstart|move: Trick Room|[of] p1a: Aromatisse
+|
+|upkeep
+|turn|25
+|
+|t:|1667098723
+|move|p1a: Aromatisse|Moonblast|p2a: Aurorus
+|-damage|p2a: Aurorus|34/100
+|-unboost|p2a: Aurorus|spa|1
+|move|p2a: Aurorus|Hyper Voice|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|upkeep
+|
+|t:|1667098729
+|switch|p1a: Glastrier|Glastrier|26/100
+|turn|26
+|
+|t:|1667098736
+|switch|p2a: Audino|Audino, F|100/100
+|move|p1a: Glastrier|High Horsepower|p2a: Audino|[miss]
+|-miss|p1a: Glastrier|p2a: Audino
+|
+|upkeep
+|turn|27
+|
+|t:|1667098747
+|move|p1a: Glastrier|Substitute|p1a: Glastrier
+|-start|p1a: Glastrier|Substitute
+|-damage|p1a: Glastrier|1/100
+|move|p2a: Audino|Reflect|p2a: Audino
+|-sidestart|p2: Peanutchew|Reflect
+|
+|upkeep
+|turn|28
+|
+|t:|1667098752
+|move|p1a: Glastrier|Swords Dance|p1a: Glastrier
+|-boost|p1a: Glastrier|atk|2
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|29
+|
+|t:|1667098760
+|switch|p2a: Aurorus|Aurorus, F|34/100
+|move|p1a: Glastrier|Icicle Crash|p2a: Aurorus
+|-resisted|p2a: Aurorus
+|-damage|p2a: Aurorus|7/100
+|
+|-heal|p2a: Aurorus|60/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|30
+|
+|t:|1667098769
+|switch|p1a: Audino|Audino, F|75/100
+|move|p2a: Aurorus|Hyper Voice|p1a: Audino
+|-damage|p1a: Audino|29/100
+|
+|upkeep
+|turn|31
+|
+|t:|1667098776
+|switch|p1a: Gourgeist|Gourgeist-Super, F|42/100
+|-item|p2a: Aurorus|Weakness Policy|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Aurorus|Hyper Voice|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|-sideend|p2: Peanutchew|Reflect
+|upkeep
+|
+|t:|1667098777
+|switch|p1a: Audino|Audino, F|62/100
+|turn|32
+|
+|t:|1667098799
+|switch|p2a: Audino|Audino, F|100/100
+|move|p1a: Audino|Trick Room|p1a: Audino
+|-fieldstart|move: Trick Room|[of] p1a: Audino
+|
+|upkeep
+|turn|33
+|
+|t:|1667098804
+|move|p1a: Audino|Healing Wish|p1a: Audino
+|faint|p1a: Audino
+|move|p2a: Audino|Reflect|p2a: Audino
+|-sidestart|p2: Peanutchew|Reflect
+|
+|upkeep
+|
+|t:|1667098806
+|switch|p1a: Glastrier|Glastrier|1/100
+|-heal|p1a: Glastrier|100/100|[from] move: Healing Wish
+|turn|34
+|
+|t:|1667098812
+|switch|p2a: Lurantis|Lurantis, F|41/100
+|move|p1a: Glastrier|Substitute|p1a: Glastrier
+|-start|p1a: Glastrier|Substitute
+|-damage|p1a: Glastrier|76/100
+|
+|upkeep
+|turn|35
+|
+|t:|1667098819
+|move|p1a: Glastrier|Icicle Crash|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|0 fnt
+|faint|p2a: Lurantis
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|upkeep
+|
+|t:|1667098826
+|switch|p2a: Aurorus|Aurorus, F|60/100
+|turn|36
+|
+|t:|1667098829
+|move|p1a: Glastrier|High Horsepower|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-crit|p2a: Aurorus
+|-damage|p2a: Aurorus|0 fnt
+|faint|p2a: Aurorus
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|-message|Peanutchew forfeited.
+|
+|win|JoJo Reference #11
+|raw|JoJo Reference #11's rating: 1334 &rarr; <strong>1347</strong><br />(+13 for winning)
+|raw|Peanutchew's rating: 1216 &rarr; <strong>1199</strong><br />(-17 for losing)
+|l|☆Peanutchew
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

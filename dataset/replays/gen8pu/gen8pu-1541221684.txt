@@ -1,0 +1,545 @@
+|j|☆Monsieur Diro
+|j|☆Haffling test
+|t:|1648548970
+|gametype|singles
+|player|p1|Monsieur Diro|aaron|1299
+|player|p2|Haffling test|cyrus|1392
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Charizard, F|
+|poke|p1|Ribombee, M|
+|poke|p1|Regirock|
+|poke|p1|Lanturn, M|
+|poke|p1|Cryogonal|
+|poke|p1|Togedemaru, F|
+|poke|p2|Centiskorch, F|
+|poke|p2|Gigalith, M|
+|poke|p2|Cramorant, M|
+|poke|p2|Aromatisse, M|
+|poke|p2|Togedemaru, M|
+|poke|p2|Shiftry, M|
+|teampreview
+|
+|t:|1648548979
+|start
+|switch|p1a: Regirock|Regirock|100/100
+|switch|p2a: Togedemaru|Togedemaru, M|100/100
+|turn|1
+|
+|t:|1648548984
+|move|p2a: Togedemaru|U-turn|p1a: Regirock
+|-damage|p1a: Regirock|94/100
+|
+|t:|1648548989
+|switch|p2a: Cramorant|Cramorant, M|100/100|[from]move: U-turn
+|move|p1a: Regirock|Stealth Rock|p2a: Cramorant
+|-sidestart|p2: Haffling test|move: Stealth Rock
+|
+|-heal|p1a: Regirock|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1648549006
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|move|p2a: Cramorant|Defog|p1a: Lanturn
+|-unboost|p1a: Lanturn|evasion|1
+|-sideend|p2: Haffling test|Stealth Rock|[from] move: Defog|[of] p2a: Cramorant
+|
+|upkeep
+|turn|3
+|j| 2008crisis
+|
+|t:|1648549011
+|switch|p2a: Togedemaru|Togedemaru, M|100/100
+|move|p1a: Lanturn|Volt Switch|p2a: Togedemaru
+|-ability|p2a: Togedemaru|Lightning Rod|boost
+|-boost|p2a: Togedemaru|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1648549020
+|move|p2a: Togedemaru|Wish|p2a: Togedemaru
+|move|p1a: Lanturn|Scald|p2a: Togedemaru
+|-damage|p2a: Togedemaru|79/100
+|-status|p2a: Togedemaru|brn
+|
+|-heal|p2a: Togedemaru|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Togedemaru|79/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1648549035
+|switch|p1a: Regirock|Regirock|99/100
+|move|p2a: Togedemaru|U-turn|p1a: Regirock
+|-damage|p1a: Regirock|97/100
+|
+|t:|1648549040
+|switch|p2a: Shiftry|Shiftry, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Regirock|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1648549051
+|switch|p1a: Togedemaru|Togedemaru, F|100/100
+|move|p2a: Shiftry|Leaf Storm|p1a: Togedemaru
+|-resisted|p1a: Togedemaru
+|-damage|p1a: Togedemaru|59/100
+|-unboost|p2a: Shiftry|spa|2
+|-damage|p2a: Shiftry|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1648549061
+|switch|p2a: Togedemaru|Togedemaru, M|79/100 brn
+|move|p1a: Togedemaru|U-turn|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|64/100 brn
+|
+|t:|1648549071
+|switch|p1a: Charizard|Charizard, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Togedemaru|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Togedemaru|64/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1648549089
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lanturn|94/100|[from] Sandstorm
+|-heal|p1a: Lanturn|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1648549094
+|move|p1a: Lanturn|Volt Switch|p2a: Gigalith
+|-damage|p2a: Gigalith|91/100
+|
+|t:|1648549097
+|switch|p1a: Regirock|Regirock|100/100|[from]move: Volt Switch
+|move|p2a: Gigalith|Stealth Rock|p1a: Regirock
+|-sidestart|p1: Monsieur Diro|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|97/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1648549107
+|switch|p2a: Cramorant|Cramorant, M|100/100
+|move|p1a: Regirock|Toxic|p2a: Cramorant
+|-status|p2a: Cramorant|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cramorant|94/100 tox|[from] Sandstorm
+|-damage|p2a: Cramorant|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1648549120
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|move|p2a: Cramorant|Surf|p1a: Cryogonal
+|-formechange|p2a: Cramorant|Cramorant-Gulping|
+|-damage|p1a: Cryogonal|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cryogonal|74/100|[from] Sandstorm
+|-damage|p2a: Cramorant|82/100 tox|[from] Sandstorm
+|-damage|p2a: Cramorant|70/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1648549127
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|88/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1648549133
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Centiskorch|Knock Off|p1a: Charizard
+|-damage|p1a: Charizard|49/100
+|-enditem|p1a: Charizard|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Centiskorch
+|
+|upkeep
+|turn|14
+|
+|t:|1648549141
+|switch|p2a: Gigalith|Gigalith, M|97/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Charizard|Defog|p2a: Gigalith
+|-unboost|p2a: Gigalith|evasion|1
+|-sideend|p1: Monsieur Diro|Stealth Rock|[from] move: Defog|[of] p1a: Charizard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|43/100|[from] Sandstorm
+|-heal|p2a: Gigalith|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1648549145
+|switch|p1a: Regirock|Regirock|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Regirock
+|-sidestart|p1: Monsieur Diro|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1648549155
+|switch|p1a: Cryogonal|Cryogonal|74/100
+|switch|p2a: Cramorant|Cramorant, M|70/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cryogonal|68/100|[from] Sandstorm
+|-damage|p2a: Cramorant|64/100 tox|[from] Sandstorm
+|-damage|p2a: Cramorant|58/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1648549166
+|switch|p2a: Togedemaru|Togedemaru, M|64/100 brn
+|move|p1a: Cryogonal|Rapid Spin|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|60/100 brn
+|-boost|p1a: Cryogonal|spe|1
+|-sideend|p1: Monsieur Diro|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cryogonal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cryogonal|62/100|[from] Sandstorm
+|-heal|p2a: Togedemaru|66/100 brn|[from] item: Leftovers
+|-damage|p2a: Togedemaru|60/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1648549184
+|switch|p1a: Togedemaru|Togedemaru, F|59/100
+|move|p2a: Togedemaru|U-turn|p1a: Togedemaru
+|-resisted|p1a: Togedemaru
+|-damage|p1a: Togedemaru|51/100
+|
+|t:|1648549191
+|switch|p2a: Centiskorch|Centiskorch, F|88/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1648549199
+|move|p1a: Togedemaru|U-turn|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|74/100
+|
+|t:|1648549206
+|switch|p1a: Regirock|Regirock|100/100|[from]move: U-turn
+|move|p2a: Centiskorch|Knock Off|p1a: Regirock
+|-damage|p1a: Regirock|86/100
+|-enditem|p1a: Regirock|Leftovers|[from] move: Knock Off|[of] p2a: Centiskorch
+|
+|upkeep
+|turn|20
+|
+|t:|1648549216
+|switch|p2a: Shiftry|Shiftry, M|91/100
+|move|p1a: Regirock|Stone Edge|p2a: Shiftry
+|-damage|p2a: Shiftry|33/100
+|
+|upkeep
+|turn|21
+|
+|t:|1648549226
+|switch|p1a: Charizard|Charizard, F|43/100
+|move|p2a: Shiftry|Leaf Storm|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|26/100
+|-unboost|p2a: Shiftry|spa|2
+|-damage|p2a: Shiftry|23/100|[from] item: Life Orb
+|
+|upkeep
+|turn|22
+|
+|t:|1648549234
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|76/100
+|-singleturn|p1a: Charizard|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|70/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1648549243
+|switch|p1a: Regirock|Regirock|86/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Regirock
+|-sidestart|p1: Monsieur Diro|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1648549259
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|move|p1a: Regirock|Stone Edge|p2a: Aromatisse
+|-damage|p2a: Aromatisse|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aromatisse|69/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|t:|1648549267
+|switch|p1a: Cryogonal|Cryogonal|62/100
+|move|p2a: Aromatisse|Aromatherapy|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Aromatherapy
+|-curestatus|p2: Cramorant|tox|[msg]
+|-curestatus|p2: Togedemaru|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cryogonal|56/100|[from] Sandstorm
+|-damage|p2a: Aromatisse|63/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|t:|1648549273
+|move|p1a: Cryogonal|Rapid Spin|p2a: Aromatisse
+|-damage|p2a: Aromatisse|58/100
+|-boost|p1a: Cryogonal|spe|1
+|-sideend|p1: Monsieur Diro|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cryogonal
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-weather|none
+|upkeep
+|turn|27
+|
+|t:|1648549288
+|switch|p1a: Charizard|Charizard, F|70/100
+|move|p2a: Aromatisse|Moonblast|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|48/100
+|
+|-heal|p2a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|28
+|
+|t:|1648549299
+|switch|p1a: Regirock|Regirock|86/100
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1648549308
+|move|p1a: Regirock|Body Press|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|34/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Regirock
+|-sidestart|p1: Monsieur Diro|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|40/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1648549316
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|move|p1a: Regirock|Body Press|p2a: Aromatisse
+|-resisted|p2a: Aromatisse
+|-damage|p2a: Aromatisse|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aromatisse|78/100|[from] Sandstorm
+|upkeep
+|turn|31
+|
+|t:|1648549322
+|move|p1a: Regirock|Toxic|p2a: Aromatisse
+|-status|p2a: Aromatisse|tox
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aromatisse|72/100 tox|[from] Sandstorm
+|-damage|p2a: Aromatisse|66/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1648549333
+|switch|p1a: Cryogonal|Cryogonal|56/100
+|move|p2a: Aromatisse|Aromatherapy|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Aromatherapy
+|-curestatus|p2a: Aromatisse|tox|[msg]
+|
+|-weather|none
+|-heal|p2a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|33
+|
+|t:|1648549337
+|move|p1a: Cryogonal|Rapid Spin|p2a: Aromatisse
+|-damage|p2a: Aromatisse|96/100
+|-boost|p1a: Cryogonal|spe|1
+|-sideend|p1: Monsieur Diro|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cryogonal
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|upkeep
+|turn|34
+|
+|t:|1648549348
+|switch|p1a: Regirock|Regirock|86/100
+|switch|p2a: Gigalith|Gigalith, M|40/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|94/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Gigalith|99/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1648549356
+|move|p1a: Regirock|Body Press|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|36/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Regirock
+|-sidestart|p1: Monsieur Diro|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|42/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1648549366
+|switch|p1a: Togedemaru|Togedemaru, F|51/100
+|-damage|p1a: Togedemaru|45/100|[from] Stealth Rock
+|move|p2a: Gigalith|Protect||[still]
+|-fail|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|48/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1648549373
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Togedemaru|Iron Head|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|55/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1648549378
+|switch|p2a: Togedemaru|Togedemaru, M|60/100
+|move|p1a: Togedemaru|Iron Head|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|47/100
+|
+|-weather|none
+|-heal|p2a: Togedemaru|53/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1648549387
+|switch|p1a: Regirock|Regirock|86/100
+|-damage|p1a: Regirock|73/100|[from] Stealth Rock
+|move|p2a: Togedemaru|U-turn|p1a: Regirock
+|-damage|p1a: Regirock|67/100
+|
+|t:|1648549392
+|switch|p2a: Cramorant|Cramorant, M|58/100|[from]move: U-turn
+|
+|upkeep
+|turn|40
+|
+|t:|1648549397
+|switch|p1a: Cryogonal|Cryogonal|56/100
+|move|p2a: Cramorant|Surf|p1a: Cryogonal
+|-formechange|p2a: Cramorant|Cramorant-Gulping|
+|-damage|p1a: Cryogonal|38/100
+|
+|upkeep
+|turn|41
+|
+|t:|1648549403
+|switch|p2a: Togedemaru|Togedemaru, M|53/100
+|move|p1a: Cryogonal|Recover|p1a: Cryogonal
+|-heal|p1a: Cryogonal|88/100
+|
+|-heal|p2a: Togedemaru|59/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1648549408
+|move|p1a: Cryogonal|Rapid Spin|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|54/100
+|-boost|p1a: Cryogonal|spe|1
+|-sideend|p1: Monsieur Diro|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cryogonal
+|move|p2a: Togedemaru|Iron Head|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|faint|p1a: Cryogonal
+|
+|-heal|p2a: Togedemaru|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1648549424
+|switch|p1a: Charizard|Charizard, F|48/100
+|turn|43
+|
+|t:|1648549436
+|switch|p2a: Gigalith|Gigalith, M|55/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Charizard|Fire Blast|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|42/100|[from] Sandstorm
+|-heal|p2a: Gigalith|47/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1648549443
+|move|p1a: Charizard|Focus Blast|p2a: Gigalith|[miss]
+|-miss|p1a: Charizard|p2a: Gigalith
+|move|p2a: Gigalith|Stealth Rock|p1a: Charizard
+|-sidestart|p1: Monsieur Diro|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|36/100|[from] Sandstorm
+|-heal|p2a: Gigalith|53/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|-message|Monsieur Diro forfeited.
+|
+|win|Haffling test
+|raw|Monsieur Diro's rating: 1299 &rarr; <strong>1281</strong><br />(-18 for losing)
+|raw|Haffling test's rating: 1392 &rarr; <strong>1407</strong><br />(+15 for winning)
+|l|☆Monsieur Diro
+|l| 2008crisis

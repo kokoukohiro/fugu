@@ -1,0 +1,397 @@
+|j|☆cfgdghgjkhhjfg
+|j|☆panned bomb
+|t:|1643669716
+|gametype|singles
+|player|p1|cfgdghgjkhhjfg|169|1191
+|player|p2|panned bomb|102|1529
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Flareon, M|
+|poke|p1|Gloom, F|
+|poke|p1|Palossand, F|
+|poke|p1|Lunatone|
+|poke|p1|Scrafty, M|
+|poke|p1|Silvally-*|
+|poke|p2|Frosmoth, F|
+|poke|p2|Lunatone|
+|poke|p2|Charizard, M|
+|poke|p2|Quagsire, F|
+|poke|p2|Skuntank, M|
+|poke|p2|Flapple, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cfgdghgjkhhjfg)
+|
+|t:|1643669801
+|start
+|switch|p1a: Palossand|Palossand, F|100/100
+|switch|p2a: Flapple|Flapple, F|100/100
+|turn|1
+|
+|t:|1643669820
+|move|p2a: Flapple|Grav Apple|p1a: Palossand
+|-supereffective|p1a: Palossand
+|-damage|p1a: Palossand|21/100
+|-unboost|p1a: Palossand|def|1
+|move|p1a: Palossand|Stealth Rock|p2a: Flapple
+|-sidestart|p2: panned bomb|move: Stealth Rock
+|
+|-heal|p1a: Palossand|28/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1643669828
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|move|p2a: Flapple|Grav Apple|p1a: Silvally
+|-damage|p1a: Silvally|46/100
+|-unboost|p1a: Silvally|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1643669837
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|move|p1a: Silvally|Multi-Attack|p2a: Quagsire
+|-damage|p2a: Quagsire|75/100
+|
+|upkeep
+|turn|4
+|
+|t:|1643669844
+|move|p1a: Silvally|Toxic|p2a: Quagsire
+|-status|p2a: Quagsire|tox
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100 tox
+|
+|-damage|p2a: Quagsire|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1643669852
+|move|p1a: Silvally|Parting Shot|p2a: Quagsire
+|-unboost|p2a: Quagsire|atk|1
+|-unboost|p2a: Quagsire|spa|1
+|
+|t:|1643669858
+|switch|p1a: Gloom|Gloom, F|100/100|[from]move: Parting Shot
+|move|p2a: Quagsire|Earthquake|p1a: Gloom
+|-damage|p1a: Gloom|86/100
+|
+|-damage|p2a: Quagsire|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1643669864
+|switch|p2a: Skuntank|Skuntank, M|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|move|p1a: Gloom|Infestation|p2a: Skuntank
+|-damage|p2a: Skuntank|82/100
+|-activate|p2a: Skuntank|move: Infestation|[of] p1a: Gloom
+|
+|-heal|p2a: Skuntank|88/100|[from] item: Leftovers
+|-damage|p2a: Skuntank|76/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1643669873
+|switch|p1a: Flareon|Flareon, M|100/100
+|move|p2a: Skuntank|Substitute|p2a: Skuntank
+|-start|p2a: Skuntank|Substitute
+|-end|p2a: Skuntank|Infestation|[partiallytrapped]|[silent]
+|-damage|p2a: Skuntank|51/100
+|
+|-heal|p2a: Skuntank|57/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643669880
+|move|p2a: Skuntank|Crunch|p1a: Flareon
+|-damage|p1a: Flareon|55/100
+|move|p1a: Flareon|Flare Blitz|p2a: Skuntank
+|-end|p2a: Skuntank|Substitute
+|-damage|p1a: Flareon|46/100|[from] Recoil|[of] p2a: Skuntank
+|
+|-heal|p2a: Skuntank|63/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|j| eruza02
+|
+|t:|1643669893
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|move|p2a: Skuntank|Substitute|p2a: Skuntank
+|-start|p2a: Skuntank|Substitute
+|-damage|p2a: Skuntank|38/100
+|
+|-heal|p2a: Skuntank|44/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1643669901
+|move|p2a: Skuntank|Corrosive Gas|p1a: Scrafty
+|-enditem|p1a: Scrafty|Leftovers|[from] move: Corrosive Gas|[of] p2a: Skuntank
+|move|p1a: Scrafty|Drain Punch|p2a: Skuntank
+|-end|p2a: Skuntank|Substitute
+|
+|-heal|p2a: Skuntank|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1643669912
+|move|p2a: Skuntank|Poison Jab|p1a: Scrafty
+|-damage|p1a: Scrafty|67/100
+|move|p1a: Scrafty|Drain Punch|p2a: Skuntank
+|-damage|p2a: Skuntank|12/100
+|-heal|p1a: Scrafty|94/100|[from] drain|[of] p2a: Skuntank
+|
+|-heal|p2a: Skuntank|18/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1643669920
+|move|p2a: Skuntank|Poison Jab|p1a: Scrafty
+|-damage|p1a: Scrafty|61/100
+|move|p1a: Scrafty|Drain Punch|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-heal|p1a: Scrafty|73/100|[from] drain|[of] p2a: Skuntank
+|-damage|p1a: Scrafty|48/100|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p2a: Skuntank
+|
+|upkeep
+|
+|t:|1643669923
+|switch|p2a: Flapple|Flapple, F|100/100
+|-damage|p2a: Flapple|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1643669944
+|switch|p1a: Palossand|Palossand, F|28/100
+|move|p2a: Flapple|Grav Apple|p1a: Palossand
+|-supereffective|p1a: Palossand
+|-damage|p1a: Palossand|0 fnt
+|faint|p1a: Palossand
+|
+|upkeep
+|
+|t:|1643669953
+|switch|p1a: Flareon|Flareon, M|46/100
+|turn|14
+|
+|t:|1643669959
+|move|p2a: Flapple|Sucker Punch||[still]
+|-fail|p2a: Flapple
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|upkeep
+|turn|15
+|
+|t:|1643669973
+|move|p1a: Flareon|Protect|p1a: Flareon
+|-singleturn|p1a: Flareon|Protect
+|move|p2a: Flapple|U-turn|p1a: Flareon
+|-activate|p1a: Flareon|move: Protect
+|
+|-heal|p1a: Flareon|96/100|[from] move: Wish|[wisher] Flareon
+|upkeep
+|turn|16
+|
+|t:|1643669983
+|move|p2a: Flapple|U-turn|p1a: Flareon|[miss]
+|-miss|p2a: Flapple|p1a: Flareon
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|upkeep
+|turn|17
+|
+|t:|1643669988
+|move|p2a: Flapple|U-turn|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|66/100
+|
+|t:|1643669991
+|switch|p2a: Charizard|Charizard, M|100/100|[from]move: U-turn
+|move|p1a: Flareon|Flare Blitz|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|63/100
+|-damage|p1a: Flareon|55/100|[from] Recoil
+|
+|-heal|p1a: Flareon|100/100|[from] move: Wish|[wisher] Flareon
+|upkeep
+|turn|18
+|
+|t:|1643670000
+|switch|p1a: Lunatone|Lunatone|100/100
+|move|p2a: Charizard|Defog|p1a: Lunatone
+|-unboost|p1a: Lunatone|evasion|1
+|-sideend|p2: panned bomb|Stealth Rock|[from] move: Defog|[of] p2a: Charizard
+|
+|upkeep
+|turn|19
+|
+|t:|1643670010
+|move|p1a: Lunatone|Power Gem|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+|
+|t:|1643670014
+|switch|p2a: Flapple|Flapple, F|88/100
+|turn|20
+|
+|t:|1643670021
+|switch|p1a: Flareon|Flareon, M|100/100
+|move|p2a: Flapple|Grav Apple|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|52/100
+|-unboost|p1a: Flareon|def|1
+|
+|upkeep
+|turn|21
+|
+|t:|1643670029
+|move|p2a: Flapple|Grav Apple|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|upkeep
+|
+|t:|1643670053
+|switch|p1a: Gloom|Gloom, F|86/100
+|turn|22
+|
+|t:|1643670056
+|move|p2a: Flapple|U-turn|p1a: Gloom
+|-damage|p1a: Gloom|65/100
+|
+|t:|1643670061
+|switch|p2a: Frosmoth|Frosmoth, F|100/100|[from]move: U-turn
+|move|p1a: Gloom|Sludge Bomb|p2a: Frosmoth
+|-damage|p2a: Frosmoth|85/100
+|-status|p2a: Frosmoth|psn
+|
+|-damage|p2a: Frosmoth|72/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1643670073
+|switch|p1a: Scrafty|Scrafty, M|48/100
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|-damage|p2a: Frosmoth|60/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1643670082
+|move|p2a: Frosmoth|Ice Beam|p1a: Scrafty
+|-crit|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|-damage|p2a: Frosmoth|47/100 psn|[from] psn
+|upkeep
+|
+|t:|1643670087
+|switch|p1a: Lunatone|Lunatone|100/100
+|turn|25
+|
+|t:|1643670090
+|move|p1a: Lunatone|Power Gem|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|
+|t:|1643670093
+|switch|p2a: Flapple|Flapple, F|88/100
+|turn|26
+|
+|t:|1643670103
+|move|p1a: Lunatone|Power Gem|p2a: Flapple
+|-damage|p2a: Flapple|30/100
+|move|p2a: Flapple|Grav Apple|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-damage|p1a: Lunatone|0 fnt
+|faint|p1a: Lunatone
+|
+|upkeep
+|
+|t:|1643670109
+|switch|p1a: Gloom|Gloom, F|65/100
+|turn|27
+|
+|t:|1643670122
+|move|p2a: Flapple|U-turn|p1a: Gloom
+|-damage|p1a: Gloom|43/100
+|
+|t:|1643670124
+|switch|p2a: Lunatone|Lunatone|100/100|[from]move: U-turn
+|move|p1a: Gloom|Strength Sap|p2a: Lunatone
+|-unboost|p2a: Lunatone|atk|1
+|-heal|p1a: Gloom|75/100
+|
+|upkeep
+|turn|28
+|
+|t:|1643670132
+|switch|p1a: Silvally|Silvally-Fairy|46/100
+|move|p2a: Lunatone|Future Sight|p1a: Silvally
+|-start|p2a: Lunatone|move: Future Sight
+|
+|upkeep
+|turn|29
+|
+|t:|1643670145
+|switch|p2a: Quagsire|Quagsire, F|82/100 tox
+|move|p1a: Silvally|Parting Shot|p2a: Quagsire
+|-unboost|p2a: Quagsire|atk|1
+|-unboost|p2a: Quagsire|spa|1
+|
+|t:|1643670150
+|switch|p1a: Gloom|Gloom, F|75/100|[from]move: Parting Shot
+|
+|-damage|p2a: Quagsire|76/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1643670154
+|switch|p2a: Flapple|Flapple, F|30/100
+|move|p1a: Gloom|Giga Drain|p2a: Flapple
+|-resisted|p2a: Flapple
+|-damage|p2a: Flapple|20/100
+|-heal|p1a: Gloom|79/100|[from] drain|[of] p2a: Flapple
+|
+|-end|p1a: Gloom|move: Future Sight
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|upkeep
+|
+|t:|1643670164
+|switch|p1a: Silvally|Silvally-Fairy|46/100
+|turn|31
+|
+|t:|1643670168
+|move|p2a: Flapple|Grav Apple|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|win|panned bomb
+|raw|cfgdghgjkhhjfg's rating: 1191 &rarr; <strong>1185</strong><br />(-6 for losing)
+|raw|panned bomb's rating: 1529 &rarr; <strong>1534</strong><br />(+5 for winning)
+|l|☆cfgdghgjkhhjfg

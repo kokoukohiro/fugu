@@ -1,0 +1,303 @@
+|j|☆Lnua
+|j|☆Charle Martel
+|player|p1|Lnua|misty-gen2|1425
+|player|p2|Charle Martel|gentleman-gen4|1194
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Noivern, M|
+|poke|p1|Rhyperior, F|
+|poke|p1|Sylveon, M|
+|poke|p1|Reuniclus, F|
+|poke|p1|Milotic, F|
+|poke|p1|Cobalion|
+|poke|p2|Ninetales, F|
+|poke|p2|Venusaur, M|
+|poke|p2|Blastoise, F|
+|poke|p2|Charizard, F|
+|poke|p2|Persian, F|
+|poke|p2|Weezing, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| warzoid
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Charle Martel)
+|
+|start
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|switch|p2a: Weezing|Weezing, F|100/100
+|turn|1
+|
+|move|p2a: Weezing|Fire Blast|p1a: Reuniclus
+|-damage|p1a: Reuniclus|92/100
+|move|p1a: Reuniclus|Psychic|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|25/100
+|
+|-heal|p2a: Weezing|31/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|j| kindora
+|
+|move|p2a: Weezing|Explosion|p1a: Reuniclus
+|-damage|p1a: Reuniclus|34/100
+|faint|p2a: Weezing
+|move|p1a: Reuniclus|Future Sight|p2: Weezing|[notarget]
+|-fail|p1a: Reuniclus
+|
+|upkeep
+|
+|switch|p2a: Persian|Persian, F|100/100
+|turn|3
+|c|☆Lnua|oh
+|c|☆Lnua|didn't know that
+|
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|move|p2a: Persian|Fake Out|p1a: Rhyperior
+|-resisted|p1a: Rhyperior
+|-damage|p1a: Rhyperior|94/100
+|
+|-heal|p1a: Rhyperior|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Persian|Taunt|p1a: Rhyperior
+|-start|p1a: Rhyperior|move: Taunt
+|cant|p1a: Rhyperior|move: Taunt|Stealth Rock
+|
+|-heal|p1a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Persian|Knock Off|p1a: Rhyperior
+|-damage|p1a: Rhyperior|85/100
+|-enditem|p1a: Rhyperior|Leftovers|[from] move: Knock Off|[of] p2a: Persian
+|move|p1a: Rhyperior|Earthquake|p2a: Persian
+|-damage|p2a: Persian|5/100
+|
+|upkeep
+|turn|6
+|l| kindora
+|
+|move|p2a: Persian|Body Slam|p1a: Rhyperior
+|-resisted|p1a: Rhyperior
+|-damage|p1a: Rhyperior|75/100
+|move|p1a: Rhyperior|Stone Edge|p2a: Persian|[miss]
+|-miss|p1a: Rhyperior|p2a: Persian
+|
+|-end|p1a: Rhyperior|move: Taunt
+|upkeep
+|turn|7
+|
+|move|p2a: Persian|Taunt|p1a: Rhyperior
+|-start|p1a: Rhyperior|move: Taunt
+|move|p1a: Rhyperior|Earthquake|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|8
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|-item|p2a: Ninetales|Heat Rock|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam|p1a: Noivern
+|-anim|p2a: Ninetales|Solar Beam|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Ninetales
+|-damage|p2a: Ninetales|36/100
+|-unboost|p1a: Noivern|spa|2
+|move|p2a: Ninetales|Fire Blast|p1a: Noivern|[miss]
+|-miss|p2a: Ninetales|p1a: Noivern
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|move|p1a: Noivern|Draco Meteor|p2a: Venusaur
+|-damage|p2a: Venusaur|68/100
+|-unboost|p1a: Noivern|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Venusaur|74/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|move|p1a: Noivern|Flamethrower|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Venusaur|49/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p2a: Venusaur|Sludge Bomb|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Venusaur|55/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|67/100
+|turn|13
+|
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam|p1a: Reuniclus
+|-anim|p2a: Venusaur|Solar Beam|p1a: Reuniclus
+|-damage|p1a: Reuniclus|23/100
+|move|p1a: Reuniclus|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, F|100/100
+|turn|14
+|
+|switch|p1a: Rhyperior|Rhyperior, F|75/100
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam|p1a: Rhyperior
+|-anim|p2a: Charizard|Solar Beam|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|57/100
+|turn|15
+|
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam|p1a: Reuniclus
+|-anim|p2a: Charizard|Solar Beam|p1a: Reuniclus
+|-damage|p1a: Reuniclus|24/100
+|move|p1a: Reuniclus|Future Sight|p2a: Charizard
+|-start|p1a: Reuniclus|move: Future Sight
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|switch|p2a: Ninetales|Ninetales, F|36/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Reuniclus|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|turn|17
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Blastoise|move: Future Sight
+|-damage|p2a: Blastoise|57/100
+|upkeep
+|turn|18
+|
+|switch|p2a: Charizard|Charizard, F|88/100
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|76/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|19
+|
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Charizard|Air Slash|p1a: Cobalion
+|-damage|p1a: Cobalion|2/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|63/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-heal|p1a: Cobalion|8/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|j| geotal
+|
+|move|p1a: Cobalion|Iron Head|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|42/100
+|move|p2a: Charizard|Air Slash|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|29/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|switch|p1a: yawn|Sylveon, M|100/100
+|turn|21
+|
+|switch|p2a: Blastoise|Blastoise, F|57/100
+|move|p1a: yawn|Calm Mind|p1a: yawn
+|-boost|p1a: yawn|spa|1
+|-boost|p1a: yawn|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p2a: Blastoise|Liquidation|p1a: yawn
+|-damage|p1a: yawn|87/100
+|move|p1a: yawn|Hyper Voice|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: yawn|93/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, F|29/100
+|turn|23
+|
+|move|p2a: Charizard|Fire Blast|p1a: yawn
+|-damage|p1a: yawn|16/100
+|move|p1a: yawn|Hyper Voice|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|win|Lnua
+|raw|Lnua's rating: 1425 &rarr; <strong>1433</strong><br />(+8 for winning)
+|raw|Charle Martel's rating: 1194 &rarr; <strong>1184</strong><br />(-10 for losing)
+|l|☆Charle Martel

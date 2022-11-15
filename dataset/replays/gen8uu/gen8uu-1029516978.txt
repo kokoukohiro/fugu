@@ -1,0 +1,339 @@
+|j|☆test 10002
+|j|☆greyheracross
+|player|p1|test 10002|unknownf|1000
+|player|p2|greyheracross|162|1083
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Leafeon, F|
+|poke|p1|Jolteon, F|
+|poke|p1|Charizard, M|
+|poke|p1|Flygon, M|
+|poke|p1|Coalossal, F|
+|poke|p2|Mew|
+|poke|p2|Cloyster, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Mantine, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Drednaw, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by test 10002)
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|move|p2a: Mew|Taunt|p1a: Torkoal
+|-start|p1a: Torkoal|move: Taunt
+|cant|p1a: Torkoal|move: Taunt|Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Mew|Rain Dance|p2a: Mew
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Flygon|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|69/100
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Mew|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|96/100
+|
+|switch|p2a: Drednaw|Drednaw, M|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Drednaw|Stone Edge|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|15/100
+|-damage|p2a: Drednaw|91/100|[from] item: Life Orb
+|move|p1a: Torkoal|Earthquake|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Drednaw|Superpower|p1a: Flygon
+|-damage|p1a: Flygon|23/100
+|-unboost|p2a: Drednaw|atk|1
+|-unboost|p2a: Drednaw|def|1
+|-damage|p2a: Drednaw|30/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: Flygon|U-turn|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|86/100
+|
+|switch|p1a: Jolteon|Jolteon, F|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Jolteon|Electro Ball|p2a: Snorlax
+|-damage|p2a: Snorlax|55/100
+|-damage|p1a: Jolteon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Jolteon|Yawn|p2a: Snorlax
+|-start|p2a: Snorlax|move: Yawn|[of] p1a: Jolteon
+|move|p2a: Snorlax|Recycle||[still]
+|-fail|p2a: Snorlax
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Jolteon|Electro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|89/100
+|-damage|p1a: Jolteon|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Jolteon|Weather Ball|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Jolteon|71/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Mew|Mew|69/100
+|turn|11
+|
+|move|p1a: Jolteon|Yawn|p2a: Mew
+|-start|p2a: Mew|move: Yawn|[of] p1a: Jolteon
+|move|p2a: Mew|Rain Dance|p2a: Mew
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Jolteon|Volt Switch|p2a: Mew
+|-damage|p2a: Mew|32/100
+|-damage|p1a: Jolteon|61/100|[from] item: Life Orb
+|
+|switch|p1a: Torkoal|Torkoal, M|15/100|[from]move: Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Mew|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|11/100
+|inactive|greyheracross has 120 seconds left.
+|
+|switch|p2a: Mantine|Mantine, M|86/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|inactive|greyheracross has 120 seconds left.
+|
+|switch|p1a: Leafeon|Leafeon, F|100/100
+|-start|p2a: Mantine|Dynamax
+|-heal|p2a: Mantine|86/100|[silent]
+|move|p2a: Mantine|Max Geyser|p1a: Leafeon
+|-resisted|p1a: Leafeon
+|-damage|p1a: Leafeon|77/100
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Torkoal|Torkoal, M|11/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Mantine|Max Airstream|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-boost|p2a: Mantine|spe|1
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Jolteon|Jolteon, F|61/100
+|turn|15
+|inactive|test 10002 has 120 seconds left.
+|inactive|greyheracross has 120 seconds left.
+|
+|-end|p2a: Mantine|Dynamax
+|-heal|p2a: Mantine|86/100|[silent]
+|switch|p2a: Drednaw|Drednaw, M|30/100
+|move|p1a: Jolteon|Volt Switch|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|-damage|p1a: Jolteon|51/100|[from] item: Life Orb
+|faint|p2a: Drednaw
+|inactive|test 10002 has 90 seconds left.
+|
+|switch|p1a: Leafeon|Leafeon, F|77/100|[from]move: Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|turn|16
+|
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade|p2a: Cloyster
+|-anim|p1a: Leafeon|Solar Blade|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-damage|p1a: Leafeon|67/100|[from] item: Life Orb
+|faint|p2a: Cloyster
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M|55/100
+|turn|17
+|
+|-start|p1a: Leafeon|Dynamax
+|-heal|p1a: Leafeon|67/100|[silent]
+|move|p1a: Leafeon|Max Steelspike|p2a: Snorlax
+|-damage|p2a: Snorlax|10/100
+|-boost|p1a: Leafeon|def|1
+|-enditem|p2a: Snorlax|Figy Berry|[eat]
+|-heal|p2a: Snorlax|43/100|[from] item: Figy Berry
+|-damage|p1a: Leafeon|62/100|[from] item: Life Orb
+|move|p2a: Snorlax|Body Slam|p1a: Leafeon
+|-damage|p1a: Leafeon|51/100
+|-status|p1a: Leafeon|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|inactive|greyheracross has 120 seconds left.
+|inactive|greyheracross has 90 seconds left.
+|
+|move|p1a: Leafeon|Max Overgrowth|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-fieldstart|move: Grassy Terrain
+|-damage|p1a: Leafeon|46/100 par|[from] item: Life Orb
+|faint|p2a: Snorlax
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Leafeon|49/100 par|[from] Grassy Terrain
+|upkeep
+|
+|switch|p2a: Mew|Mew|32/100
+|turn|19
+|
+|move|p2a: Mew|Rain Dance|p2a: Mew
+|-weather|RainDance
+|move|p1a: Leafeon|Max Overgrowth|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-damage|p1a: Leafeon|44/100 par|[from] item: Life Orb
+|faint|p2a: Mew
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Leafeon|47/100 par|[from] Grassy Terrain
+|-end|p1a: Leafeon|Dynamax
+|-heal|p1a: Leafeon|47/100 par|[silent]
+|upkeep
+|
+|switch|p2a: Mantine|Mantine, M|86/100
+|turn|20
+|
+|move|p2a: Mantine|Surf|p1a: Leafeon
+|-resisted|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Jolteon|Jolteon, F|51/100
+|turn|21
+|
+|move|p2a: Mantine|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆greyheracross|can mantine bring it home
+|
+|switch|p1a: Coalossal|Coalossal, F|100/100
+|turn|22
+|
+|move|p2a: Mantine|Surf|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|faint|p1a: Coalossal
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|23
+|
+|move|p2a: Mantine|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆greyheracross|ohh
+|c|☆greyheracross|lets go
+|
+|switch|p1a: Flygon|Flygon, M|23/100
+|turn|24
+|
+|move|p1a: Flygon|Outrage|p2a: Mantine
+|-damage|p2a: Mantine|6/100
+|move|p2a: Mantine|Surf|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|win|greyheracross
+|c|☆greyheracross|gg
+|c|☆test 10002|AHHH
+|c|☆test 10002|gg
+|l|☆greyheracross
+|raw|test 10002's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|greyheracross's rating: 1110 &rarr; <strong>1128</strong><br />(+18 for winning)
+|j|☆greyheracross
+|player|p2|greyheracross|162

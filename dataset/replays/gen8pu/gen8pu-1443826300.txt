@@ -1,0 +1,368 @@
+|j|☆kingqueso141
+|j|☆doodieray
+|t:|1635394115
+|gametype|singles
+|player|p1|kingqueso141|marley|1122
+|player|p2|doodieray|1|1272
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Gigalith, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Drampa, F|
+|poke|p1|Ribombee, M|
+|poke|p1|Weezing, F|
+|poke|p1|Froslass, F|
+|poke|p2|Beheeyem, F|
+|poke|p2|Magneton|
+|poke|p2|Sandslash, F|
+|poke|p2|Sandaconda, F|
+|poke|p2|Silvally-*|
+|poke|p2|Haunter, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by doodieray)
+|
+|t:|1635394132
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Beheeyem|Beheeyem, F, shiny|100/100
+|turn|1
+|
+|t:|1635394139
+|move|p1a: Froslass|Poltergeist|p2a: Beheeyem
+|-activate|p2a: Beheeyem|move: Poltergeist|Life Orb
+|-supereffective|p2a: Beheeyem
+|-damage|p2a: Beheeyem|0 fnt
+|faint|p2a: Beheeyem
+|
+|upkeep
+|
+|t:|1635394144
+|switch|p2a: Haunter|Haunter, F|100/100
+|turn|2
+|
+|t:|1635394147
+|move|p1a: Froslass|Poltergeist|p2a: Haunter
+|-activate|p2a: Haunter|move: Poltergeist|Focus Sash
+|-supereffective|p2a: Haunter
+|-enditem|p2a: Haunter|Focus Sash
+|-damage|p2a: Haunter|1/100
+|move|p2a: Haunter|Shadow Ball|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-start|p2a: Haunter|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p1a: Froslass
+|faint|p1a: Froslass
+|
+|upkeep
+|
+|t:|1635394163
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|3
+|
+|t:|1635394166
+|move|p2a: Haunter|Destiny Bond|p2a: Haunter
+|-singlemove|p2a: Haunter|Destiny Bond
+|move|p1a: Gigalith|Stealth Rock|p2a: Haunter
+|-sidestart|p2: doodieray|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haunter|0 fnt|[from] Sandstorm
+|faint|p2a: Haunter
+|upkeep
+|
+|t:|1635394172
+|switch|p2a: Sandslash|Sandslash, F|100/100
+|-damage|p2a: Sandslash|94/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1635394176
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|move|p2a: Sandslash|Substitute|p2a: Sandslash
+|-start|p2a: Sandslash|Substitute
+|-damage|p2a: Sandslash|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tsareena|95/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1635394183
+|move|p2a: Sandslash|Poison Jab|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|37/100
+|move|p1a: Tsareena|Knock Off|p2a: Sandslash
+|-end|p2a: Sandslash|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tsareena|31/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1635394192
+|move|p2a: Sandslash|Substitute|p2a: Sandslash
+|-start|p2a: Sandslash|Substitute
+|-damage|p2a: Sandslash|44/100
+|move|p1a: Tsareena|Power Whip|p2a: Sandslash|[miss]
+|-miss|p1a: Tsareena|p2a: Sandslash
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tsareena|25/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1635394199
+|switch|p1a: Weezing|Weezing, F|100/100
+|move|p2a: Sandslash|Poison Jab|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|93/100
+|
+|-weather|none
+|-heal|p1a: Weezing|99/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1635394206
+|-singleturn|p2a: Sandslash|move: Focus Punch
+|move|p1a: Weezing|Sludge Bomb|p2a: Sandslash|[miss]
+|-miss|p1a: Weezing|p2a: Sandslash
+|move|p2a: Sandslash|Focus Punch|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|85/100
+|
+|-heal|p1a: Weezing|91/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1635394215
+|move|p2a: Sandslash|Earthquake|p1a: Weezing
+|-immune|p1a: Weezing|[from] ability: Levitate
+|move|p1a: Weezing|Sludge Bomb|p2a: Sandslash
+|-resisted|p2a: Sandslash
+|-end|p2a: Sandslash|Substitute
+|
+|-heal|p1a: Weezing|97/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1635394222
+|switch|p2a: Magneton|Magneton|100/100
+|-damage|p2a: Magneton|94/100|[from] Stealth Rock
+|move|p1a: Weezing|Sludge Bomb|p2a: Magneton
+|-immune|p2a: Magneton
+|
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1635394226
+|move|p2a: Magneton|Thunderbolt|p1a: Weezing
+|-damage|p1a: Weezing|44/100
+|move|p1a: Weezing|Toxic Spikes|p2a: Magneton
+|-sidestart|p2: doodieray|move: Toxic Spikes
+|
+|-heal|p1a: Weezing|50/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1635394229
+|move|p2a: Magneton|Thunderbolt|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|t:|1635394235
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|13
+|
+|t:|1635394240
+|move|p2a: Magneton|Steel Beam|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|25/100
+|-damage|p2a: Magneton|44/100|[from] mindblown
+|move|p1a: Gigalith|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1635394247
+|switch|p2a: Silvally|Silvally-Poison|100/100
+|-sideend|p2: doodieray|move: Toxic Spikes|[of] p2a: Silvally
+|-damage|p2a: Silvally|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1635394254
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Silvally|Surf|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Silvally|82/100|[from] Sandstorm
+|-heal|p1a: Gigalith|37/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1635394262
+|move|p2a: Silvally|Work Up|p2a: Silvally
+|-boost|p2a: Silvally|atk|1
+|-boost|p2a: Silvally|spa|1
+|move|p1a: Gigalith|Earthquake|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Silvally|17/100|[from] Sandstorm
+|-heal|p1a: Gigalith|43/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1635394275
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Silvally|Surf|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Silvally|11/100|[from] Sandstorm
+|-heal|p1a: Gigalith|49/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1635394284
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|move|p2a: Silvally|Surf|p1a: Ribombee
+|-damage|p1a: Ribombee|32/100
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1635394293
+|move|p1a: Ribombee|Sticky Web|p2a: Silvally
+|-sidestart|p2: doodieray|move: Sticky Web
+|move|p2a: Silvally|Multi-Attack|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1635394300
+|switch|p1a: Drampa|Drampa, F|100/100
+|-ability|p1a: Drampa|Cloud Nine
+|turn|19
+|
+|t:|1635394307
+|move|p2a: Silvally|Multi-Attack|p1a: Drampa
+|-damage|p1a: Drampa|30/100
+|move|p1a: Drampa|Hyper Voice|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|t:|1635394310
+|switch|p2a: Sandaconda|Sandaconda, F|100/100
+|-damage|p2a: Sandaconda|94/100|[from] Stealth Rock
+|-activate|p2a: Sandaconda|move: Sticky Web
+|-unboost|p2a: Sandaconda|spe|1
+|turn|20
+|
+|t:|1635394314
+|move|p1a: Drampa|Hyper Voice|p2a: Sandaconda
+|-damage|p2a: Sandaconda|18/100
+|-weather|Sandstorm|[from] ability: Sand Spit|[of] p2a: Sandaconda
+|move|p2a: Sandaconda|Glare|p1a: Drampa
+|-status|p1a: Drampa|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1635394319
+|move|p2a: Sandaconda|Stone Edge|p1a: Drampa
+|-damage|p1a: Drampa|0 fnt
+|faint|p1a: Drampa
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1635394324
+|switch|p1a: Gigalith|Gigalith, M|49/100
+|turn|22
+|
+|t:|1635394330
+|move|p2a: Sandaconda|Glare|p1a: Gigalith
+|-status|p1a: Gigalith|par
+|move|p1a: Gigalith|Earthquake|p2a: Sandaconda
+|-damage|p2a: Sandaconda|0 fnt
+|faint|p2a: Sandaconda
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|55/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1635394332
+|switch|p2a: Sandslash|Sandslash, F|44/100
+|-damage|p2a: Sandslash|38/100|[from] Stealth Rock
+|-activate|p2a: Sandslash|move: Sticky Web
+|-unboost|p2a: Sandslash|spe|1
+|turn|23
+|
+|t:|1635394335
+|move|p2a: Sandslash|Substitute|p2a: Sandslash
+|-start|p2a: Sandslash|Substitute
+|-damage|p2a: Sandslash|13/100
+|move|p1a: Gigalith|Earthquake|p2a: Sandslash
+|-end|p2a: Sandslash|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1635394343
+|move|p2a: Sandslash|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1635394345
+|switch|p1a: Tsareena|Tsareena, F|25/100
+|turn|25
+|c|☆doodieray|Gg
+|
+|t:|1635394350
+|move|p1a: Tsareena|Knock Off|p2a: Sandslash|[miss]
+|-miss|p1a: Tsareena|p2a: Sandslash
+|move|p2a: Sandslash|Poison Jab|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|
+|win|doodieray
+|raw|kingqueso141's rating: 1122 &rarr; <strong>1107</strong><br />(-15 for losing)
+|raw|doodieray's rating: 1272 &rarr; <strong>1287</strong><br />(+15 for winning)
+|c|☆doodieray|Sand veillll
+|c|☆doodieray|And bright powder ftw
+|l|☆kingqueso141

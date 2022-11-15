@@ -1,0 +1,609 @@
+|j|☆bebo7788
+|j|☆Jisai
+|player|p1|bebo7788|266|1597
+|player|p2|Jisai|dahlia|1317
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Silvally-*|
+|poke|p1|Sigilyph, F|
+|poke|p1|Passimian, F|
+|poke|p1|Vaporeon, M|
+|poke|p1|Vileplume, F|
+|poke|p1|Gigalith, F|
+|poke|p2|Toxicroak, M|
+|poke|p2|Sigilyph, F|
+|poke|p2|Drifblim, F|
+|poke|p2|Gigalith, F|
+|poke|p2|Vaporeon, M|
+|poke|p2|Goodra, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Jisai|glhf
+|c|☆bebo7788|hf
+|
+|start
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|switch|p2a: Drifblim|Drifblim, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|move|p1a: Gigalith|Rock Blast|p2a: Vaporeon
+|-damage|p2a: Vaporeon|92/100
+|-damage|p2a: Vaporeon|84/100
+|-hitcount|p2a: Vaporeon|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|78/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bebo7788)
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Gigalith|Stealth Rock|p2a: Vaporeon
+|-sidestart|p2: Jisai|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|78/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Vaporeon|Scald|p1a: Vaporeon
+|-immune|p1a: Vaporeon|[from] ability: Water Absorb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|94/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|78/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Scald|p2a: Toxicroak
+|-heal|p2a: Toxicroak|100/100|[from] ability: Dry Skin|[of] p1a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|94/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|94/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Silvally|Silvally-Steel|100/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|10/100
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: Silvally
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p1a: Passimian|Passimian, F|100/100
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: Passimian|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|66/100
+|-enditem|p2a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p1a: Passimian
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Passimian|Passimian, F|100/100
+|move|p2a: Vaporeon|Haze|p2a: Vaporeon
+|-clearallboost
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|10
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Passimian|U-turn|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Passimian|U-turn|p2a: Vaporeon
+|-damage|p2a: Vaporeon|85/100
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100|[from]move: U-turn
+|move|p2a: Vaporeon|Haze|p2a: Vaporeon
+|-clearallboost
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Sigilyph|Psyshock|p2a: Vaporeon
+|-damage|p2a: Vaporeon|54/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|14
+|
+|switch|p2a: Goodra|Goodra, F|100/100
+|-damage|p2a: Goodra|88/100|[from] Stealth Rock
+|move|p1a: Vileplume|Sludge Bomb|p2a: Goodra
+|-damage|p2a: Goodra|61/100
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Goodra|Draco Meteor|p1a: Gigalith
+|-damage|p1a: Gigalith|49/100
+|-unboost|p2a: Goodra|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Goodra|54/100|[from] Sandstorm
+|-heal|p1a: Gigalith|55/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|82/100|[from] Sandstorm
+|-damage|p1a: Vileplume|94/100|[from] Sandstorm
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|1
+|-boost|p1a: Vileplume|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|75/100|[from] Sandstorm
+|-damage|p1a: Vileplume|94/100|[from] Sandstorm
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|switch|p2a: Sigilyph|Sigilyph, F|100/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Sigilyph
+|-damage|p2a: Sigilyph|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|94/100|[from] Sandstorm
+|-heal|p2a: Sigilyph|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Sigilyph|Air Slash|p1a: Vaporeon
+|-damage|p1a: Vaporeon|68/100
+|
+|-weather|none
+|-heal|p1a: Vaporeon|74/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Vaporeon|Vaporeon, M|75/100
+|-damage|p2a: Vaporeon|63/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|80/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Silvally|Silvally-Steel|10/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Silvally|80/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|22
+|
+|move|p1a: Silvally|U-turn|p2a: Vaporeon
+|-damage|p2a: Vaporeon|49/100
+|
+|switch|p1a: Vaporeon|Vaporeon, M|80/100|[from]move: U-turn
+|move|p2a: Vaporeon|Scald|p1a: Vaporeon
+|-heal|p1a: Vaporeon|100/100|[from] ability: Water Absorb|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|99/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|23
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|move|p2a: Vaporeon|Haze|p2a: Vaporeon
+|-clearallboost
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Vaporeon|Scald|p1a: Vaporeon
+|-immune|p1a: Vaporeon|[from] ability: Water Absorb
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Vaporeon|Haze|p2a: Vaporeon
+|-clearallboost
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Goodra|Goodra, F|54/100
+|-damage|p2a: Goodra|42/100|[from] Stealth Rock
+|move|p1a: Sigilyph|Psyshock|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-damage|p2a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|28
+|
+|switch|p1a: Silvally|Silvally-Steel|80/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Silvally
+|-sidestart|p1: bebo7788|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Drifblim|Drifblim, F|100/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifblim|94/100|[from] Sandstorm
+|upkeep
+|turn|30
+|
+|move|p1a: Silvally|U-turn|p2a: Drifblim
+|-resisted|p2a: Drifblim
+|-damage|p2a: Drifblim|85/100
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100|[from]move: U-turn
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Sigilyph
+|-status|p1a: Sigilyph|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifblim|79/100|[from] Sandstorm
+|upkeep
+|turn|31
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|move|p2a: Drifblim|Hex|p1a: Vaporeon
+|-damage|p1a: Vaporeon|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifblim|73/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|65/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|71/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: Gigalith|Gigalith, F|94/100
+|-damage|p2a: Gigalith|82/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Ice Beam|p2a: Gigalith
+|-damage|p2a: Gigalith|67/100
+|
+|-weather|none
+|-heal|p1a: Vaporeon|77/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|73/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|83/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|80/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Gigalith|Gigalith, F|55/100
+|-damage|p1a: Gigalith|43/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Gigalith|Superpower|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|86/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Steel|80/100
+|-damage|p1a: Silvally|74/100|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|92/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p2a: Drifblim|Drifblim, F|73/100
+|move|p1a: Silvally|Multi-Attack|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|-damage|p1a: Silvally|49/100|[from] ability: Aftermath|[of] p2a: Drifblim
+|faint|p2a: Drifblim
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, M|91/100
+|-damage|p2a: Toxicroak|85/100|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Silvally
+|-damage|p1a: Silvally|20/100
+|-damage|p2a: Toxicroak|75/100|[from] item: Life Orb
+|move|p1a: Silvally|Multi-Attack|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆Jisai|should have calced that
+|
+|switch|p2a: Sigilyph|Sigilyph, F|100/100
+|turn|38
+|c|☆bebo7788|for sure
+|
+|move|p2a: Sigilyph|Heat Wave|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, F|100/100
+|-damage|p1a: Passimian|94/100|[from] Stealth Rock
+|turn|39
+|
+|switch|p2a: Vaporeon|Vaporeon, M|99/100
+|-damage|p2a: Vaporeon|87/100|[from] Stealth Rock
+|move|p1a: Passimian|U-turn|p2a: Vaporeon
+|-damage|p2a: Vaporeon|69/100
+|
+|switch|p1a: Vaporeon|Vaporeon, M|83/100|[from]move: U-turn
+|-damage|p1a: Vaporeon|71/100|[from] Stealth Rock
+|
+|-heal|p1a: Vaporeon|77/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Vaporeon|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|60/100
+|-status|p2a: Vaporeon|frz
+|cant|p2a: Vaporeon|frz
+|
+|-heal|p1a: Vaporeon|83/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100 brn
+|-curestatus|p2a: Vaporeon|frz|[from] move: Scald
+|move|p2a: Vaporeon|Scald|p1a: Sigilyph
+|-damage|p1a: Sigilyph|60/100 brn
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Sigilyph|Psyshock|p2a: Vaporeon
+|-damage|p2a: Vaporeon|25/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Sigilyph|Calm Mind|p1a: Sigilyph
+|-boost|p1a: Sigilyph|spa|1
+|-boost|p1a: Sigilyph|spd|1
+|
+|-heal|p2a: Vaporeon|75/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|44
+|
+|move|p1a: Sigilyph|Psyshock|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|2/100
+|move|p2a: Vaporeon|Haze|p2a: Vaporeon
+|-clearallboost
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Sigilyph|Psyshock|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|upkeep
+|turn|46
+|
+|move|p1a: Sigilyph|Psyshock|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|upkeep
+|
+|switch|p2a: Sigilyph|Sigilyph, F|100/100
+|turn|47
+|
+|move|p2a: Sigilyph|Air Slash|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, F|94/100
+|-damage|p1a: Passimian|88/100|[from] Stealth Rock
+|turn|48
+|
+|move|p1a: Passimian|U-turn|p2a: Sigilyph
+|-damage|p2a: Sigilyph|70/100
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100|[from]move: U-turn
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|move|p2a: Sigilyph|Psyshock|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|11/100
+|
+|-heal|p1a: Vileplume|17/100|[from] item: Black Sludge
+|upkeep
+|turn|49
+|
+|move|p2a: Sigilyph|Psyshock|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, F|88/100
+|-damage|p1a: Passimian|82/100|[from] Stealth Rock
+|turn|50
+|
+|switch|p2a: Gigalith|Gigalith, F|92/100
+|-damage|p2a: Gigalith|80/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Passimian|Knock Off|p2a: Gigalith
+|-damage|p2a: Gigalith|56/100
+|-enditem|p2a: Gigalith|Leftovers|[from] move: Knock Off|[of] p1a: Passimian
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Passimian|76/100|[from] Sandstorm
+|upkeep
+|turn|51
+|
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Passimian|Knock Off|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Passimian|70/100|[from] Sandstorm
+|upkeep
+|turn|52
+|
+|switch|p1a: Vaporeon|Vaporeon, M|83/100
+|-damage|p1a: Vaporeon|71/100|[from] Stealth Rock
+|move|p2a: Gigalith|Stone Edge|p1a: Vaporeon
+|-damage|p1a: Vaporeon|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|25/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|31/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|inactive|Jisai has 120 seconds left.
+|
+|switch|p1a: Passimian|Passimian, F|70/100
+|-damage|p1a: Passimian|64/100|[from] Stealth Rock
+|move|p2a: Gigalith|Superpower|p1a: Passimian
+|-damage|p1a: Passimian|14/100
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Passimian|8/100|[from] Sandstorm
+|upkeep
+|turn|54
+|
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Passimian|U-turn|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|55
+|j| Ramolost
+|
+|switch|p2a: Sigilyph|Sigilyph, F|70/100
+|move|p1a: Passimian|U-turn|p2a: Sigilyph
+|-damage|p2a: Sigilyph|34/100
+|
+|switch|p1a: Vaporeon|Vaporeon, M|31/100|[from]move: U-turn
+|-damage|p1a: Vaporeon|19/100|[from] Stealth Rock
+|
+|-heal|p1a: Vaporeon|25/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Sigilyph|Energy Ball|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|31/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|-message|bebo7788 forfeited.
+|
+|win|Jisai
+|l|☆bebo7788
+|raw|bebo7788's rating: 1597 &rarr; <strong>1564</strong><br />(-33 for losing)
+|raw|Jisai's rating: 1317 &rarr; <strong>1350</strong><br />(+33 for winning)

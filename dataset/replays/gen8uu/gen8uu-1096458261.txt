@@ -1,0 +1,126 @@
+|j|☆UU baz
+|j|☆Lnua
+|player|p1|UU baz|ltsurge|1522
+|player|p2|Lnua|misty-gen2|1469
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Sylveon, F|
+|poke|p1|Gigalith, F|
+|poke|p1|Noivern, F|
+|poke|p1|Pangoro, F|
+|poke|p1|Inteleon, F|
+|poke|p1|Haxorus, F|
+|poke|p2|Noivern, M|
+|poke|p2|Rhyperior, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Reuniclus, F|
+|poke|p2|Milotic, F|
+|poke|p2|Cobalion|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|switch|p2a: DrReuniclus3|Reuniclus, F|100/100
+|turn|1
+|l|☆UU baz
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lnua)
+|j|☆UU baz
+|inactive|UU baz reconnected and has 150 seconds left.
+|player|p1|UU baz|ltsurge
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: DrReuniclus3|Knock Off|p1a: Gigalith
+|-damage|p1a: Gigalith|88/100
+|-enditem|p1a: Gigalith|Leftovers|[from] move: Knock Off|[of] p2a: DrReuniclus3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: DrReuniclus3|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|switch|p2a: yawn|Sylveon, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|94/100|[from] Sandstorm
+|-damage|p2a: yawn|94/100|[from] Sandstorm
+|-heal|p2a: yawn|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: yawn
+|-damage|p2a: yawn|41/100
+|move|p2a: yawn|Calm Mind|p2a: yawn
+|-boost|p2a: yawn|spa|1
+|-boost|p2a: yawn|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|88/100|[from] Sandstorm
+|-damage|p2a: yawn|35/100|[from] Sandstorm
+|-heal|p2a: yawn|41/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: yawn
+|-damage|p2a: yawn|2/100
+|move|p2a: yawn|Rest|p2a: yawn
+|-status|p2a: yawn|slp|[from] move: Rest
+|-heal|p2a: yawn|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|82/100|[from] Sandstorm
+|-damage|p2a: yawn|94/100 slp|[from] Sandstorm
+|-heal|p2a: yawn|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: yawn
+|-damage|p2a: yawn|65/100 slp
+|cant|p2a: yawn|slp
+|move|p2a: yawn|Snore|p1a: Sylveon
+|-damage|p1a: Sylveon|54/100
+|
+|-weather|none
+|-heal|p2a: yawn|71/100 slp|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: yawn
+|-damage|p2a: yawn|35/100 slp
+|cant|p2a: yawn|slp
+|move|p2a: yawn|Snore|p1a: Sylveon
+|-damage|p1a: Sylveon|28/100
+|
+|-heal|p2a: yawn|41/100 slp|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: yawn
+|-damage|p2a: yawn|2/100 slp
+|-curestatus|p2a: yawn|slp|[msg]
+|move|p2a: yawn|Rest|p2a: yawn
+|-status|p2a: yawn|slp|[from] move: Rest
+|-heal|p2a: yawn|100/100 slp|[silent]
+|
+|upkeep
+|turn|8
+|-message|UU baz forfeited.
+|
+|win|Lnua
+|l|☆UU baz
+|raw|UU baz's rating: 1523 &rarr; <strong>1500</strong><br />(-23 for losing)
+|raw|Lnua's rating: 1469 &rarr; <strong>1492</strong><br />(+23 for winning)

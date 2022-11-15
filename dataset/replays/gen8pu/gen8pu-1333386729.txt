@@ -1,0 +1,305 @@
+|j|☆Speccy Bam
+|j|☆Vy8
+|t:|1620047189
+|gametype|singles
+|player|p1|Speccy Bam|170|1303
+|player|p2|Vy8|picnicker|1375
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Magneton|
+|poke|p1|Piloswine, M|
+|poke|p1|Xatu, M|
+|poke|p1|Silvally-*|
+|poke|p1|Passimian, F|
+|poke|p1|Lanturn, F|
+|poke|p2|Stoutland, M|
+|poke|p2|Garbodor, M|
+|poke|p2|Runerigus, M|
+|poke|p2|Poliwrath, F|
+|poke|p2|Cryogonal|
+|poke|p2|Persian-Alola, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1620047199
+|start
+|switch|p1a: Magneton|Magneton|100/100
+|switch|p2a: Persian|Persian-Alola, M|100/100
+|turn|1
+|
+|t:|1620047206
+|move|p2a: Persian|Knock Off|p1a: Magneton
+|-damage|p1a: Magneton|67/100
+|-enditem|p1a: Magneton|Choice Specs|[from] move: Knock Off|[of] p2a: Persian
+|move|p1a: Magneton|Flash Cannon|p2a: Persian
+|-damage|p2a: Persian|30/100
+|
+|-heal|p2a: Persian|36/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1620047216
+|move|p2a: Persian|Parting Shot|p1a: Magneton
+|-unboost|p1a: Magneton|atk|1
+|-unboost|p1a: Magneton|spa|1
+|
+|t:|1620047219
+|switch|p2a: Runerigus|Runerigus, M|100/100|[from]move: Parting Shot
+|move|p1a: Magneton|Flash Cannon|p2a: Runerigus
+|-damage|p2a: Runerigus|68/100
+|
+|upkeep
+|turn|3
+|
+|t:|1620047233
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|move|p2a: Runerigus|Poltergeist|p1a: Piloswine|[miss]
+|-miss|p2a: Runerigus|p1a: Piloswine
+|
+|upkeep
+|turn|4
+|
+|t:|1620047241
+|move|p1a: Piloswine|Stealth Rock|p2a: Runerigus
+|-sidestart|p2: Vy8|move: Stealth Rock
+|move|p2a: Runerigus|Stealth Rock|p1a: Piloswine
+|-sidestart|p1: Speccy Bam|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1620047247
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|move|p1a: Piloswine|Icicle Crash|p2a: Cryogonal
+|-resisted|p2a: Cryogonal
+|-damage|p2a: Cryogonal|67/100
+|
+|upkeep
+|turn|6
+|
+|t:|1620047254
+|move|p2a: Cryogonal|Rapid Spin|p1a: Piloswine
+|-damage|p1a: Piloswine|97/100
+|-boost|p2a: Cryogonal|spe|1
+|-sideend|p2: Vy8|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|move|p1a: Piloswine|Earthquake|p2a: Cryogonal
+|-immune|p2a: Cryogonal|[from] ability: Levitate
+|
+|upkeep
+|turn|7
+|
+|t:|1620047263
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Piloswine
+|-crit|p1a: Piloswine
+|-damage|p1a: Piloswine|81/100
+|move|p1a: Piloswine|Stealth Rock|p2a: Cryogonal
+|-sidestart|p2: Vy8|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1620047269
+|move|p2a: Cryogonal|Toxic|p1a: Piloswine
+|-status|p1a: Piloswine|tox
+|move|p1a: Piloswine|Icicle Crash|p2a: Cryogonal
+|-resisted|p2a: Cryogonal
+|-damage|p2a: Cryogonal|32/100
+|
+|-damage|p1a: Piloswine|75/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1620047279
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|83/100
+|
+|upkeep
+|turn|10
+|
+|t:|1620047287
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-damage|p2a: Garbodor|88/100|[from] Stealth Rock
+|move|p1a: Silvally|Multi-Attack|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|59/100
+|
+|-heal|p2a: Garbodor|65/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1620047297
+|move|p1a: Silvally|Parting Shot|p2a: Garbodor
+|-unboost|p2a: Garbodor|atk|1
+|-unboost|p2a: Garbodor|spa|1
+|
+|t:|1620047301
+|switch|p1a: Magneton|Magneton|67/100|[from]move: Parting Shot
+|-damage|p1a: Magneton|61/100|[from] Stealth Rock
+|move|p2a: Garbodor|Gunk Shot|p1a: Magneton
+|-immune|p1a: Magneton
+|
+|-heal|p2a: Garbodor|71/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1620047311
+|move|p1a: Magneton|Flash Cannon|p2a: Garbodor
+|-damage|p2a: Garbodor|29/100
+|-unboost|p2a: Garbodor|spd|1
+|move|p2a: Garbodor|Stomping Tantrum|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|-heal|p2a: Garbodor|35/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1620047337
+|switch|p1a: Xatu|Xatu, M|100/100
+|-damage|p1a: Xatu|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1620047342
+|switch|p2a: Persian|Persian-Alola, M|36/100
+|-damage|p2a: Persian|23/100|[from] Stealth Rock
+|move|p1a: Xatu|Air Slash|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|upkeep
+|
+|t:|1620047346
+|switch|p2a: Stoutland|Stoutland, M|100/100
+|-damage|p2a: Stoutland|88/100|[from] Stealth Rock
+|turn|14
+|j| Meujeuh
+|
+|t:|1620047356
+|move|p2a: Stoutland|Retaliate|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|t:|1620047364
+|switch|p1a: Silvally|Silvally-Fairy|88/100
+|-damage|p1a: Silvally|76/100|[from] Stealth Rock
+|turn|15
+|j| darkman_31
+|
+|t:|1620047372
+|move|p2a: Stoutland|Retaliate|p1a: Silvally
+|-damage|p1a: Silvally|42/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|upkeep
+|turn|16
+|
+|t:|1620047383
+|switch|p2a: Runerigus|Runerigus, M|68/100
+|-damage|p2a: Runerigus|62/100|[from] Stealth Rock
+|move|p1a: Silvally|Flame Charge|p2a: Runerigus
+|-damage|p2a: Runerigus|46/100
+|-boost|p1a: Silvally|spe|1
+|-damage|p1a: Silvally|25/100|[from] item: Rocky Helmet|[of] p2a: Runerigus
+|
+|upkeep
+|turn|17
+|
+|t:|1620047393
+|switch|p2a: Garbodor|Garbodor, M|35/100
+|-damage|p2a: Garbodor|23/100|[from] Stealth Rock
+|move|p1a: Silvally|Multi-Attack|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Silvally|0 fnt|[from] ability: Aftermath|[of] p2a: Garbodor
+|faint|p2a: Garbodor
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|t:|1620047407
+|switch|p1a: Passimian|Passimian, F|100/100
+|switch|p2a: Stoutland|Stoutland, M|88/100
+|-damage|p2a: Stoutland|76/100|[from] Stealth Rock
+|-damage|p1a: Passimian|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1620047418
+|move|p2a: Stoutland|Retaliate|p1a: Passimian
+|-damage|p1a: Passimian|24/100
+|move|p1a: Passimian|Close Combat|p2a: Stoutland
+|-supereffective|p2a: Stoutland
+|-damage|p2a: Stoutland|0 fnt
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|faint|p2a: Stoutland
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vy8)
+|
+|t:|1620047426
+|switch|p2a: Poliwrath|Poliwrath, F|100/100
+|-damage|p2a: Poliwrath|94/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1620047435
+|switch|p1a: Lanturn|Lanturn, F|100/100
+|-damage|p1a: Lanturn|88/100|[from] Stealth Rock
+|move|p2a: Poliwrath|Vacuum Wave|p1a: Lanturn
+|-damage|p1a: Lanturn|67/100
+|
+|-heal|p1a: Lanturn|73/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1620047446
+|switch|p2a: Cryogonal|Cryogonal|83/100
+|move|p1a: Lanturn|Whirlpool|p2a: Cryogonal|[miss]
+|-miss|p1a: Lanturn|p2a: Cryogonal
+|
+|-heal|p1a: Lanturn|79/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1620047455
+|move|p2a: Cryogonal|Rapid Spin|p1a: Lanturn
+|-damage|p1a: Lanturn|75/100
+|-boost|p2a: Cryogonal|spe|1
+|-sideend|p2: Vy8|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|move|p1a: Lanturn|Volt Switch|p2a: Cryogonal
+|-damage|p2a: Cryogonal|68/100
+|
+|t:|1620047462
+|switch|p1a: Passimian|Passimian, F|24/100|[from]move: Volt Switch
+|-damage|p1a: Passimian|18/100|[from] Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|t:|1620047469
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|faint|p1a: Passimian
+|
+|upkeep
+|-message|Speccy Bam forfeited.
+|
+|win|Vy8
+|l|☆Speccy Bam
+|raw|Speccy Bam's rating: 1303 &rarr; <strong>1287</strong><br />(-16 for losing)
+|raw|Vy8's rating: 1375 &rarr; <strong>1391</strong><br />(+16 for winning)
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

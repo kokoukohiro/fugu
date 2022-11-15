@@ -1,0 +1,493 @@
+|j|☆allstarapology
+|j|☆estarossa
+|player|p1|allstarapology|169|
+|player|p2|estarossa|bertha|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|Tournament battle
+|clearpoke
+|poke|p1|Glaceon, M|
+|poke|p1|Palpitoad, M|
+|poke|p1|Musharna, M|
+|poke|p1|Manectric, F|
+|poke|p1|Throh, M|
+|poke|p1|Vespiquen, F|
+|poke|p2|Raboot, M|
+|poke|p2|Mareanie, M|
+|poke|p2|Mawile, F|
+|poke|p2|Gourgeist-*, F|
+|poke|p2|Rapidash-Galar, M|
+|poke|p2|Raichu, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Procopius
+|j| LettuceLeaf07
+|j|+royesk
+|j| piikiki4
+|c|+royesk|rossa fl0p
+|c|☆estarossa|rossa big fl0p
+|c|+royesk|asa goat
+|j| Hiddenlake
+|c|☆allstarapology|hf man
+|c|☆estarossa|u2
+|
+|start
+|switch|p1a: Palpitoad|Palpitoad, M|100/100
+|switch|p2a: Mareanie|Mareanie, M|100/100
+|turn|1
+|
+|move|p1a: Palpitoad|Earth Power|p2a: Mareanie
+|-supereffective|p2a: Mareanie
+|-damage|p2a: Mareanie|39/100
+|move|p2a: Mareanie|Knock Off|p1a: Palpitoad
+|-damage|p1a: Palpitoad|91/100
+|-enditem|p1a: Palpitoad|Eviolite|[from] move: Knock Off|[of] p2a: Mareanie
+|
+|upkeep
+|turn|2
+|j| avarice
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, F, shiny|100/100
+|move|p1a: Palpitoad|Toxic|p2a: Gourgeist
+|-status|p2a: Gourgeist|tox
+|
+|-damage|p2a: Gourgeist|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Vespiquen|Vespiquen, F|100/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Vespiquen
+|-status|p1a: Vespiquen|brn
+|
+|-damage|p2a: Gourgeist|82/100 tox|[from] psn
+|-damage|p1a: Vespiquen|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Raichu|Raichu, M, shiny|100/100
+|move|p1a: Vespiquen|U-turn|p2a: Raichu
+|-damage|p2a: Raichu|83/100
+|c| avarice|wow esta still abusing rapidash
+|
+|switch|p1a: Throh|Throh, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Raichu|89/100|[from] item: Leftovers
+|-status|p1a: Throh|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|move|p2a: Raichu|Volt Switch|p1a: Throh
+|-damage|p1a: Throh|80/100 brn
+|j| Mrdin69
+|
+|switch|p2a: Mawile|Mawile, F, shiny|100/100|[from]move: Volt Switch
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Throh|atk|1
+|move|p1a: Throh|Knock Off|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|81/100
+|-damage|p1a: Throh|64/100 brn|[from] item: Rocky Helmet|[of] p2a: Mawile
+|-enditem|p2a: Mawile|Rocky Helmet|[from] move: Knock Off|[of] p1a: Throh
+|
+|-damage|p1a: Throh|58/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Glaceon|Glaceon, M|100/100
+|move|p2a: Mawile|Stealth Rock|p1a: Glaceon
+|-sidestart|p1: allstarapology|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Palpitoad|Palpitoad, M|91/100
+|-damage|p1a: Palpitoad|85/100|[from] Stealth Rock
+|move|p2a: Mawile|Pain Split|p1a: Palpitoad
+|-sethp|p1a: Palpitoad|77/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Mawile|90/100|[from] move: Pain Split
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, F, shiny|82/100 tox
+|move|p1a: Palpitoad|Stealth Rock|p2a: Gourgeist
+|-sidestart|p2: estarossa|move: Stealth Rock
+|
+|-damage|p2a: Gourgeist|76/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Vespiquen|Vespiquen, F|94/100 brn
+|-ability|p1a: Vespiquen|Pressure
+|switch|p2a: Mareanie|Mareanie, M|72/100
+|-damage|p2a: Mareanie|60/100|[from] Stealth Rock
+|
+|-damage|p1a: Vespiquen|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Mareanie|Toxic Spikes|p1a: Vespiquen
+|-sidestart|p1: allstarapology|move: Toxic Spikes
+|move|p1a: Vespiquen|U-turn|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|57/100
+|
+|switch|p1a: Throh|Throh, M|58/100 brn|[from]move: U-turn
+|-damage|p1a: Throh|51/100 brn|[from] Stealth Rock
+|
+|-damage|p1a: Throh|45/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Throh|Knock Off|p2a: Mareanie
+|-damage|p2a: Mareanie|24/100
+|-enditem|p2a: Mareanie|Eviolite|[from] move: Knock Off|[of] p1a: Throh
+|move|p2a: Mareanie|Recover|p2a: Mareanie
+|-heal|p2a: Mareanie|74/100
+|
+|-damage|p1a: Throh|39/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Throh|Knock Off|p2a: Mareanie
+|-damage|p2a: Mareanie|39/100
+|move|p2a: Mareanie|Recover|p2a: Mareanie
+|-heal|p2a: Mareanie|89/100
+|
+|-damage|p1a: Throh|33/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Mawile|Mawile, F, shiny|90/100
+|-damage|p2a: Mawile|84/100|[from] Stealth Rock
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Throh|atk|1
+|move|p1a: Throh|Earthquake|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|2/100
+|
+|-damage|p1a: Throh|27/100 brn|[from] brn
+|upkeep
+|turn|14
+|j| Watiplouf
+|
+|move|p1a: Throh|Knock Off|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|-damage|p1a: Throh|21/100 brn|[from] brn
+|upkeep
+|l| Watiplouf
+|
+|switch|p2a: Raboot|Raboot, M|100/100
+|turn|15
+|j| ichatot
+|
+|move|p2a: Raboot|Flare Blitz|p1a: Throh
+|-damage|p1a: Throh|0 fnt
+|-damage|p2a: Raboot|90/100|[from] Recoil
+|faint|p1a: Throh
+|
+|upkeep
+|
+|switch|p1a: Palpitoad|Palpitoad, M|77/100
+|-damage|p1a: Palpitoad|71/100|[from] Stealth Rock
+|-status|p1a: Palpitoad|psn
+|turn|16
+|j| Metool B
+|
+|move|p2a: Raboot|Bulk Up|p2a: Raboot
+|-start|p2a: Raboot|typechange|Fighting|[from] ability: Libero
+|-boost|p2a: Raboot|atk|1
+|-boost|p2a: Raboot|def|1
+|move|p1a: Palpitoad|Earth Power|p2a: Raboot
+|-damage|p2a: Raboot|50/100
+|
+|-damage|p1a: Palpitoad|59/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Raboot|High Jump Kick|p1a: Palpitoad
+|-damage|p1a: Palpitoad|0 fnt
+|faint|p1a: Palpitoad
+|
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, F|100/100
+|-status|p1a: Manectric|psn
+|-damage|p1a: Manectric|88/100 psn|[from] Stealth Rock
+|turn|18
+|j|@Jungle Fox ㋛
+|
+|move|p2a: Raboot|Sucker Punch|p1a: Manectric
+|-start|p2a: Raboot|typechange|Dark|[from] ability: Libero
+|-damage|p1a: Manectric|8/100 psn
+|move|p1a: Manectric|Flamethrower|p2a: Raboot
+|-damage|p2a: Raboot|0 fnt
+|faint|p2a: Raboot
+|
+|-damage|p1a: Manectric|0 fnt|[from] psn
+|faint|p1a: Manectric
+|upkeep
+|j| Moo the Panda
+|j| Oathkeepre
+|
+|switch|p1a: Glaceon|Glaceon, M|100/100
+|switch|p2a: Rapidash|Rapidash-Galar, M|100/100
+|-damage|p2a: Rapidash|88/100|[from] Stealth Rock
+|-damage|p1a: Glaceon|76/100|[from] Stealth Rock
+|-status|p1a: Glaceon|psn
+|turn|19
+|
+|switch|p2a: Mareanie|Mareanie, M|100/100
+|-damage|p2a: Mareanie|88/100|[from] Stealth Rock
+|move|p1a: Glaceon|Ice Beam|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|9/100
+|
+|-damage|p1a: Glaceon|64/100 psn|[from] psn
+|upkeep
+|turn|20
+|l| Moo the Panda
+|
+|move|p1a: Glaceon|Ice Beam|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|0 fnt
+|faint|p2a: Mareanie
+|
+|-damage|p1a: Glaceon|51/100 psn|[from] psn
+|upkeep
+|j|%tlenit1
+|j| un vigoroth
+|
+|switch|p2a: Raichu|Raichu, M, shiny|89/100
+|-damage|p2a: Raichu|77/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Raichu|Protect|p2a: Raichu
+|-singleturn|p2a: Raichu|Protect
+|move|p1a: Glaceon|Ice Beam|p2a: Raichu
+|-activate|p2a: Raichu|move: Protect
+|
+|-heal|p2a: Raichu|83/100|[from] item: Leftovers
+|-damage|p1a: Glaceon|39/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Raichu|Volt Switch|p1a: Glaceon
+|-damage|p1a: Glaceon|12/100 psn
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, F, shiny|76/100 tox|[from]move: Volt Switch
+|-damage|p2a: Gourgeist|64/100 tox|[from] Stealth Rock
+|-item|p1a: Glaceon|Choice Specs|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Glaceon|Ice Beam|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|faint|p2a: Gourgeist
+|
+|-damage|p1a: Glaceon|0 fnt|[from] psn
+|faint|p1a: Glaceon
+|upkeep
+|
+|switch|p1a: Musharna|Musharna, M|100/100
+|switch|p2a: Rapidash|Rapidash-Galar, M|88/100
+|-damage|p2a: Rapidash|76/100|[from] Stealth Rock
+|-damage|p1a: Musharna|88/100|[from] Stealth Rock
+|-status|p1a: Musharna|psn
+|turn|23
+|
+|move|p2a: Rapidash|Calm Mind|p2a: Rapidash
+|-boost|p2a: Rapidash|spa|1
+|-boost|p2a: Rapidash|spd|1
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|-heal|p2a: Rapidash|82/100|[from] item: Leftovers
+|-damage|p1a: Musharna|76/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Rapidash|Mystical Fire|p1a: Musharna
+|-damage|p1a: Musharna|60/100 psn
+|-unboost|p1a: Musharna|spa|1
+|move|p1a: Musharna|Heal Bell|p1a: Musharna
+|-activate|p1a: Musharna|move: Heal Bell
+|-curestatus|p1a: Musharna|psn|[msg]
+|-curestatus|p1: Vespiquen|brn|[msg]
+|
+|-heal|p2a: Rapidash|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Raichu|Raichu, M, shiny|83/100
+|-damage|p2a: Raichu|71/100|[from] Stealth Rock
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|-heal|p2a: Raichu|77/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Raichu|Toxic|p1a: Musharna
+|-status|p1a: Musharna|tox
+|-activate|p1a: Musharna|ability: Synchronize
+|-status|p2a: Raichu|tox
+|move|p1a: Musharna|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|18/100 tox
+|
+|-heal|p2a: Raichu|24/100 tox|[from] item: Leftovers
+|-damage|p2a: Raichu|18/100 tox|[from] psn
+|-damage|p1a: Musharna|54/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p2a: Raichu|Volt Switch|p1a: Musharna
+|-damage|p1a: Musharna|45/100 tox
+|
+|switch|p2a: Rapidash|Rapidash-Galar, M|88/100|[from]move: Volt Switch
+|-damage|p2a: Rapidash|76/100|[from] Stealth Rock
+|move|p1a: Musharna|Heal Bell|p1a: Musharna
+|-activate|p1a: Musharna|move: Heal Bell
+|-curestatus|p1a: Musharna|tox|[msg]
+|
+|-heal|p2a: Rapidash|82/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Rapidash|Mystical Fire|p1a: Musharna
+|-damage|p1a: Musharna|38/100
+|-unboost|p1a: Musharna|spa|1
+|move|p1a: Musharna|Moonlight|p1a: Musharna
+|-heal|p1a: Musharna|88/100
+|
+|-heal|p2a: Rapidash|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Rapidash|Mystical Fire|p1a: Musharna
+|-damage|p1a: Musharna|80/100
+|-unboost|p1a: Musharna|spa|1
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|-heal|p2a: Rapidash|93/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Rapidash|Calm Mind|p2a: Rapidash
+|-boost|p2a: Rapidash|spa|1
+|-boost|p2a: Rapidash|spd|1
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|-heal|p2a: Rapidash|99/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Rapidash|Calm Mind|p2a: Rapidash
+|-boost|p2a: Rapidash|spa|1
+|-boost|p2a: Rapidash|spd|1
+|move|p1a: Musharna|Psychic|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|82/100
+|
+|-heal|p2a: Rapidash|88/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Rapidash|Mystical Fire|p1a: Musharna
+|-damage|p1a: Musharna|70/100
+|-unboost|p1a: Musharna|spa|1
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|-heal|p2a: Rapidash|93/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Rapidash|Calm Mind|p2a: Rapidash
+|-boost|p2a: Rapidash|spa|1
+|-boost|p2a: Rapidash|spd|1
+|move|p1a: Musharna|Psychic|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|79/100
+|
+|-heal|p2a: Rapidash|85/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Rapidash|Calm Mind|p2a: Rapidash
+|-boost|p2a: Rapidash|spa|1
+|-boost|p2a: Rapidash|spd|1
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|1
+|
+|-heal|p2a: Rapidash|91/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Rapidash|Mystical Fire|p1a: Musharna
+|-damage|p1a: Musharna|59/100
+|-unboost|p1a: Musharna|spa|1
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|0
+|
+|-heal|p2a: Rapidash|96/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Rapidash|Calm Mind|p2a: Rapidash
+|-boost|p2a: Rapidash|spa|1
+|-boost|p2a: Rapidash|spd|1
+|move|p1a: Musharna|Calm Mind|p1a: Musharna
+|-boost|p1a: Musharna|spa|1
+|-boost|p1a: Musharna|spd|0
+|
+|-heal|p2a: Rapidash|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Rapidash|Calm Mind|p2a: Rapidash
+|-boost|p2a: Rapidash|spa|1
+|-boost|p2a: Rapidash|spd|1
+|move|p1a: Musharna|Psychic|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|11/100
+|
+|-heal|p2a: Rapidash|17/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Rapidash|Morning Sun|p2a: Rapidash
+|-heal|p2a: Rapidash|67/100
+|move|p1a: Musharna|Psychic|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|upkeep
+|c| LettuceLeaf07|dang
+|c|☆estarossa|welp
+|-message|estarossa forfeited.
+|
+|win|allstarapology

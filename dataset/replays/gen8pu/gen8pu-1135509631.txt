@@ -1,0 +1,506 @@
+|j|☆TimBasedGod
+|j|☆HornetIsntVoid
+|player|p1|TimBasedGod|rood|1247
+|player|p2|HornetIsntVoid|janitor|1112
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Thwackey, M|
+|poke|p1|Lickitung, F|
+|poke|p1|Mr. Rime, F|
+|poke|p1|Sandshrew, M|
+|poke|p1|Kadabra, M|
+|poke|p1|Farfetch’d, F|
+|poke|p2|Raichu, M|
+|poke|p2|Meowstic-F, F|
+|poke|p2|Lapras, M|
+|poke|p2|Ludicolo, M|
+|poke|p2|Vibrava, M|
+|poke|p2|Mawile, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆HornetIsntVoid|gl hf
+|c|☆TimBasedGod|u2
+|
+|start
+|switch|p1a: Lickitung|Lickitung, F|100/100
+|switch|p2a: Raichu|Raichu, M|100/100
+|turn|1
+|
+|move|p2a: Raichu|Reflect|p2a: Raichu
+|-sidestart|p2: HornetIsntVoid|Reflect
+|move|p1a: Lickitung|Wish|p1a: Lickitung
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Raichu|Light Screen|p2a: Raichu
+|-sidestart|p2: HornetIsntVoid|move: Light Screen
+|move|p1a: Lickitung|Toxic|p2a: Raichu
+|-status|p2a: Raichu|tox
+|
+|-damage|p2a: Raichu|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Raichu|Wish|p2a: Raichu
+|move|p1a: Lickitung|Knock Off|p2a: Raichu
+|-damage|p2a: Raichu|82/100 tox
+|-enditem|p2a: Raichu|Light Clay|[from] move: Knock Off|[of] p1a: Lickitung
+|
+|-damage|p2a: Raichu|70/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Mawile|Mawile, M|100/100
+|move|p1a: Lickitung|Knock Off|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|95/100
+|-enditem|p2a: Mawile|Choice Scarf|[from] move: Knock Off|[of] p1a: Lickitung
+|
+|-heal|p2a: Mawile|100/100|[from] move: Wish|[wisher] Raichu
+|upkeep
+|turn|5
+|
+|move|p1a: Lickitung|Protect|p1a: Lickitung
+|-singleturn|p1a: Lickitung|Protect
+|move|p2a: Mawile|Iron Head|p1a: Lickitung
+|-activate|p1a: Lickitung|move: Protect
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Sandshrew|Sandshrew, M|100/100
+|move|p2a: Mawile|Iron Head|p1a: Sandshrew
+|-damage|p1a: Sandshrew|75/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|move|p1a: Sandshrew|Stealth Rock|p2a: Vibrava
+|-sidestart|p2: HornetIsntVoid|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Vibrava|Earthquake|p1a: Sandshrew
+|-damage|p1a: Sandshrew|59/100
+|move|p1a: Sandshrew|Toxic|p2a: Vibrava
+|-status|p2a: Vibrava|tox
+|
+|-damage|p2a: Vibrava|94/100 tox|[from] psn
+|-sideend|p2: HornetIsntVoid|Reflect
+|upkeep
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TimBasedGod)
+|
+|move|p2a: Vibrava|Defog|p1a: Sandshrew
+|-unboost|p1a: Sandshrew|evasion|1
+|-sideend|p2: HornetIsntVoid|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|move|p1a: Sandshrew|Super Fang|p2a: Vibrava
+|-damage|p2a: Vibrava|47/100 tox
+|
+|-damage|p2a: Vibrava|35/100 tox|[from] psn
+|-sideend|p2: HornetIsntVoid|move: Light Screen
+|upkeep
+|turn|10
+|
+|move|p2a: Vibrava|U-turn|p1a: Sandshrew
+|-crit|p1a: Sandshrew
+|-damage|p1a: Sandshrew|49/100
+|
+|switch|p2a: Lapras|Lapras, M|100/100|[from]move: U-turn
+|move|p1a: Sandshrew|Stealth Rock|p2a: Lapras
+|-sidestart|p2: HornetIsntVoid|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Lickitung|Lickitung, F|100/100
+|move|p2a: Lapras|Liquidation|p1a: Lickitung
+|-damage|p1a: Lickitung|78/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Vibrava|Vibrava, M|35/100 tox
+|-damage|p2a: Vibrava|29/100 tox|[from] Stealth Rock
+|move|p1a: Lickitung|Toxic|p2a: Vibrava
+|-fail|p2a: Vibrava|tox
+|
+|-damage|p2a: Vibrava|22/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Vibrava|Defog|p1a: Lickitung
+|-unboost|p1a: Lickitung|evasion|1
+|-sideend|p2: HornetIsntVoid|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|move|p1a: Lickitung|Wish|p1a: Lickitung
+|
+|-damage|p2a: Vibrava|10/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Sandshrew|Sandshrew, M|49/100
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|60/100 tox
+|-singleturn|p2a: Vibrava|move: Roost
+|
+|-heal|p1a: Sandshrew|100/100|[from] move: Wish|[wisher] Lickitung
+|-damage|p2a: Vibrava|42/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Raichu|Raichu, M|70/100 tox
+|move|p1a: Sandshrew|Stealth Rock|p2a: Raichu
+|-sidestart|p2: HornetIsntVoid|move: Stealth Rock
+|
+|-damage|p2a: Raichu|63/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Raichu|Reflect|p2a: Raichu
+|-sidestart|p2: HornetIsntVoid|Reflect
+|move|p1a: Sandshrew|Seismic Toss|p2a: Raichu
+|-damage|p2a: Raichu|33/100 tox
+|
+|-damage|p2a: Raichu|20/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p2a: Ludicolo|Ludicolo, M|100/100
+|-damage|p2a: Ludicolo|88/100|[from] Stealth Rock
+|switch|p1a: Lickitung|Lickitung, F|78/100
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|move|p1a: Lickitung|Toxic|p2a: Ludicolo
+|-status|p2a: Ludicolo|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ludicolo|82/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Ludicolo|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|39/100
+|-damage|p2a: Ludicolo|72/100 tox|[from] item: Life Orb
+|move|p1a: Lickitung|Wish|p1a: Lickitung
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ludicolo|60/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Lickitung|Protect|p1a: Lickitung
+|-singleturn|p1a: Lickitung|Protect
+|move|p2a: Ludicolo|Giga Drain|p1a: Lickitung
+|-activate|p1a: Lickitung|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lickitung|89/100|[from] move: Wish|[wisher] Lickitung
+|-damage|p2a: Ludicolo|43/100 tox|[from] psn
+|-sideend|p2: HornetIsntVoid|Reflect
+|upkeep
+|turn|21
+|
+|move|p2a: Ludicolo|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|49/100
+|-damage|p2a: Ludicolo|33/100 tox|[from] item: Life Orb
+|move|p1a: Lickitung|Wish|p1a: Lickitung
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ludicolo|9/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Lickitung|Protect|p1a: Lickitung
+|-singleturn|p1a: Lickitung|Protect
+|move|p2a: Ludicolo|Giga Drain|p1a: Lickitung
+|-activate|p1a: Lickitung|move: Protect
+|
+|-weather|none
+|-heal|p1a: Lickitung|99/100|[from] move: Wish|[wisher] Lickitung
+|-damage|p2a: Ludicolo|0 fnt|[from] psn
+|faint|p2a: Ludicolo
+|upkeep
+|
+|switch|p2a: Vibrava|Vibrava, M|42/100 tox
+|-damage|p2a: Vibrava|35/100 tox|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Sandshrew|Sandshrew, M|100/100
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|86/100 tox
+|-singleturn|p2a: Vibrava|move: Roost
+|
+|-damage|p2a: Vibrava|79/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Vibrava|Earthquake|p1a: Sandshrew
+|-damage|p1a: Sandshrew|85/100
+|move|p1a: Sandshrew|Super Fang|p2a: Vibrava
+|-damage|p2a: Vibrava|40/100 tox
+|
+|-damage|p2a: Vibrava|27/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|78/100 tox
+|-singleturn|p2a: Vibrava|move: Roost
+|move|p1a: Sandshrew|Stealth Rock||[still]
+|-fail|p1a: Sandshrew
+|
+|-damage|p2a: Vibrava|59/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Vibrava|Defog|p1a: Sandshrew
+|-unboost|p1a: Sandshrew|evasion|1
+|-sideend|p2: HornetIsntVoid|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|move|p1a: Sandshrew|Seismic Toss|p2a: Vibrava
+|-damage|p2a: Vibrava|18/100 tox
+|
+|-damage|p2a: Vibrava|0 fnt|[from] psn
+|faint|p2a: Vibrava
+|upkeep
+|
+|switch|p2a: Lapras|Lapras, M|100/100
+|turn|27
+|
+|switch|p1a: Lickitung|Lickitung, F|99/100
+|move|p2a: Lapras|Liquidation|p1a: Lickitung
+|-damage|p1a: Lickitung|79/100
+|-unboost|p1a: Lickitung|def|1
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Lapras|Liquidation|p1a: Lickitung
+|-damage|p1a: Lickitung|46/100
+|-unboost|p1a: Lickitung|def|1
+|move|p1a: Lickitung|Wish|p1a: Lickitung
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Thwackey|Thwackey, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Thwackey
+|move|p2a: Lapras|Dragon Dance|p2a: Lapras
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|spe|1
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Lapras|Ice Shard|p1a: Thwackey
+|-supereffective|p1a: Thwackey
+|-damage|p1a: Thwackey|23/100
+|move|p1a: Thwackey|Grassy Glide|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|7/100
+|-damage|p1a: Thwackey|13/100|[from] item: Life Orb
+|
+|-heal|p2a: Lapras|14/100|[from] item: Leftovers
+|-heal|p2a: Lapras|20/100|[from] Grassy Terrain
+|-heal|p1a: Thwackey|19/100|[from] Grassy Terrain
+|upkeep
+|turn|31
+|
+|switch|p1a: Lickitung|Lickitung, F|46/100
+|move|p2a: Lapras|Ice Shard|p1a: Lickitung
+|-damage|p1a: Lickitung|29/100
+|
+|-heal|p2a: Lapras|26/100|[from] item: Leftovers
+|-heal|p2a: Lapras|32/100|[from] Grassy Terrain
+|-heal|p1a: Lickitung|35/100|[from] Grassy Terrain
+|upkeep
+|turn|32
+|
+|move|p2a: Lapras|Liquidation|p1a: Lickitung
+|-damage|p1a: Lickitung|4/100
+|move|p1a: Lickitung|Wish|p1a: Lickitung
+|
+|-heal|p2a: Lapras|39/100|[from] item: Leftovers
+|-heal|p2a: Lapras|45/100|[from] Grassy Terrain
+|-heal|p1a: Lickitung|10/100|[from] Grassy Terrain
+|upkeep
+|turn|33
+|j| BigConns
+|
+|move|p1a: Lickitung|Protect|p1a: Lickitung
+|-singleturn|p1a: Lickitung|Protect
+|move|p2a: Lapras|Liquidation|p1a: Lickitung
+|-activate|p1a: Lickitung|move: Protect
+|
+|-heal|p1a: Lickitung|60/100|[from] move: Wish|[wisher] Lickitung
+|-heal|p2a: Lapras|51/100|[from] item: Leftovers
+|-heal|p2a: Lapras|57/100|[from] Grassy Terrain
+|-heal|p1a: Lickitung|66/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|34
+|
+|switch|p1a: Thwackey|Thwackey, M|19/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Thwackey
+|move|p2a: Lapras|Liquidation|p1a: Thwackey
+|-resisted|p1a: Thwackey
+|-damage|p1a: Thwackey|0 fnt
+|faint|p1a: Thwackey
+|
+|-heal|p2a: Lapras|63/100|[from] item: Leftovers
+|-heal|p2a: Lapras|70/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Kadabra|Kadabra, M|100/100
+|turn|35
+|
+|move|p2a: Lapras|Dragon Dance|p2a: Lapras
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|spe|1
+|move|p1a: Kadabra|Counter||[still]
+|-fail|p1a: Kadabra
+|
+|-heal|p2a: Lapras|76/100|[from] item: Leftovers
+|-heal|p2a: Lapras|82/100|[from] Grassy Terrain
+|upkeep
+|turn|36
+|
+|move|p2a: Lapras|Dragon Dance|p2a: Lapras
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|spe|1
+|move|p1a: Kadabra|Counter||[still]
+|-fail|p1a: Kadabra
+|
+|-heal|p2a: Lapras|88/100|[from] item: Leftovers
+|-heal|p2a: Lapras|95/100|[from] Grassy Terrain
+|upkeep
+|turn|37
+|
+|move|p2a: Lapras|Dragon Dance|p2a: Lapras
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|spe|1
+|move|p1a: Kadabra|Counter||[still]
+|-fail|p1a: Kadabra
+|
+|-heal|p2a: Lapras|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Lapras|Dragon Dance|p2a: Lapras
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|spe|1
+|move|p1a: Kadabra|Counter||[still]
+|-fail|p1a: Kadabra
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|39
+|
+|move|p2a: Lapras|Dragon Dance|p2a: Lapras
+|-boost|p2a: Lapras|atk|1
+|-boost|p2a: Lapras|spe|1
+|move|p1a: Kadabra|Counter||[still]
+|-fail|p1a: Kadabra
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Lapras|Dragon Dance|p2a: Lapras
+|-boost|p2a: Lapras|atk|0
+|-boost|p2a: Lapras|spe|0
+|move|p1a: Kadabra|Counter||[still]
+|-fail|p1a: Kadabra
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Lapras|Dragon Dance|p2a: Lapras
+|-boost|p2a: Lapras|atk|0
+|-boost|p2a: Lapras|spe|0
+|move|p1a: Kadabra|Counter||[still]
+|-fail|p1a: Kadabra
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Lapras|Dragon Dance|p2a: Lapras
+|-boost|p2a: Lapras|atk|0
+|-boost|p2a: Lapras|spe|0
+|move|p1a: Kadabra|Counter||[still]
+|-fail|p1a: Kadabra
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Lapras|Liquidation|p1a: Kadabra
+|-enditem|p1a: Kadabra|Focus Sash
+|-damage|p1a: Kadabra|1/100
+|move|p1a: Kadabra|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|62/100
+|
+|-heal|p2a: Lapras|68/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Lapras|Ice Shard|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|-heal|p2a: Lapras|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Farfetch’d|Farfetch’d, F|100/100
+|turn|45
+|
+|move|p1a: Farfetch’d|First Impression|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|35/100
+|move|p2a: Lapras|Ice Shard|p1a: Farfetch’d
+|-supereffective|p1a: Farfetch’d
+|-damage|p1a: Farfetch’d|0 fnt
+|faint|p1a: Farfetch’d
+|
+|-heal|p2a: Lapras|41/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Lickitung|Lickitung, F|66/100
+|turn|46
+|
+|move|p2a: Lapras|Liquidation|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|-heal|p2a: Lapras|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|turn|47
+|
+|move|p2a: Lapras|Liquidation|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|0 fnt
+|faint|p1a: Mr. Rime
+|
+|-heal|p2a: Lapras|53/100|[from] item: Leftovers
+|upkeep
+|-message|TimBasedGod forfeited.
+|
+|win|HornetIsntVoid
+|l|☆TimBasedGod
+|c|☆HornetIsntVoid|stall is fun

@@ -1,0 +1,355 @@
+|j|☆confide
+|j|☆ruzboob
+|player|p1|confide|buck|
+|player|p2|ruzboob|morty-gen2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|clearpoke
+|poke|p1|Rotom|
+|poke|p1|Steelix, F|
+|poke|p1|Virizion|
+|poke|p1|Jellicent, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Silvally-*|
+|poke|p2|Inteleon, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Mudsdale, M|
+|poke|p2|Silvally-*|
+|poke|p2|Drapion, F|
+|poke|p2|Charizard, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|
+|switch|p1a: Virizion|Virizion|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|86/100
+|
+|switch|p2a: Drapion|Drapion, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|move|p2a: Drapion|Knock Off|p1a: Steelix
+|-damage|p1a: Steelix|83/100
+|-enditem|p1a: Steelix|Leftovers|[from] move: Knock Off|[of] p2a: Drapion
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Mudsdale|Mudsdale, M|100/100
+|move|p1a: Steelix|Stealth Rock|p2a: Mudsdale
+|-sidestart|p2: ruzboob|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Mudsdale|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: confide|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Rotom
+|-status|p2a: Rotom|brn
+|
+|-damage|p2a: Rotom|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Rotom|Leaf Storm|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|76/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-damage|p2a: Rotom|76/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Salazzle|Nasty Plot|p1a: Salazzle
+|-boost|p1a: Salazzle|spa|2
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Salazzle|Sludge Wave|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, F|100/100
+|-damage|p2a: Inteleon|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: Inteleon|Dark Pulse|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|29/100
+|
+|-heal|p1a: Jellicent|35/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|-damage|p2a: Silvally|88/100|[from] Stealth Rock
+|switch|p1a: Virizion|Virizion|86/100
+|-damage|p1a: Virizion|80/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Steelix|Steelix, F|83/100
+|-damage|p1a: Steelix|80/100|[from] Stealth Rock
+|move|p2a: Silvally|U-turn|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|75/100
+|
+|switch|p2a: Inteleon|Inteleon, F|88/100|[from]move: U-turn
+|-damage|p2a: Inteleon|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Inteleon|U-turn|p1a: Steelix
+|-resisted|p1a: Steelix
+|-crit|p1a: Steelix
+|-damage|p1a: Steelix|70/100
+|
+|switch|p2a: Mudsdale|Mudsdale, M|100/100|[from]move: U-turn
+|-damage|p2a: Mudsdale|94/100|[from] Stealth Rock
+|move|p1a: Steelix|Earthquake|p2a: Mudsdale
+|-damage|p2a: Mudsdale|68/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|-heal|p2a: Mudsdale|74/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Rotom|Rotom|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Mudsdale|Rock Slide|p1a: Rotom
+|-damage|p1a: Rotom|42/100
+|
+|-heal|p2a: Mudsdale|81/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Rotom|Trick|p2a: Mudsdale
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Mudsdale
+|-item|p2a: Mudsdale|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Mudsdale|Rock Slide|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Virizion|Virizion|80/100
+|-damage|p1a: Virizion|74/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Drapion|Drapion, F|100/100
+|-damage|p2a: Drapion|88/100|[from] Stealth Rock
+|move|p1a: Virizion|Close Combat|p2a: Drapion
+|-crit|p2a: Drapion
+|-damage|p2a: Drapion|13/100
+|-unboost|p1a: Virizion|def|1
+|-unboost|p1a: Virizion|spd|1
+|
+|-heal|p2a: Drapion|19/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p1a: Steelix|Steelix, F|70/100
+|-damage|p1a: Steelix|67/100|[from] Stealth Rock
+|move|p2a: Drapion|Poison Jab|p1a: Steelix
+|-immune|p1a: Steelix
+|
+|-heal|p2a: Drapion|25/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p2a: Drapion|Poison Jab|p1a: Steelix
+|-immune|p1a: Steelix
+|move|p1a: Steelix|Heavy Slam|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|faint|p2a: Drapion
+|
+|upkeep
+|
+|switch|p2a: Mudsdale|Mudsdale, M|81/100
+|-damage|p2a: Mudsdale|74/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Mudsdale|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|17/100
+|move|p1a: Steelix|Earthquake|p2a: Mudsdale
+|-damage|p2a: Mudsdale|50/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Mudsdale|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|upkeep
+|
+|switch|p1a: Virizion|Virizion|74/100
+|-damage|p1a: Virizion|67/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Virizion|Leaf Blade|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|9/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Earthquake|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|30/100
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Virizion|Leaf Blade|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|faint|p2a: Mudsdale
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, F|76/100
+|-damage|p2a: Inteleon|63/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Jellicent|Jellicent, M|35/100
+|-damage|p1a: Jellicent|23/100|[from] Stealth Rock
+|move|p2a: Inteleon|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|6/100
+|-status|p1a: Jellicent|frz
+|
+|-heal|p1a: Jellicent|12/100 frz|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Inteleon|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|76/100
+|turn|24
+|
+|switch|p2a: Rotom|Rotom-Mow|76/100 brn
+|-damage|p2a: Rotom|63/100 brn|[from] Stealth Rock
+|move|p1a: Salazzle|Sludge Wave|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, F|63/100
+|-damage|p2a: Inteleon|51/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Virizion|Virizion|30/100
+|-damage|p1a: Virizion|23/100|[from] Stealth Rock
+|move|p2a: Inteleon|Hydro Pump|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Dark|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Silvally|Silvally-Fairy|88/100
+|-damage|p2a: Silvally|76/100|[from] Stealth Rock
+|move|p1a: Silvally|Multi-Attack|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|49/100
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Salazzle|Salazzle, F|76/100
+|move|p2a: Silvally|U-turn|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|66/100
+|
+|switch|p2a: Inteleon|Inteleon, F|51/100|[from]move: U-turn
+|-damage|p2a: Inteleon|38/100|[from] Stealth Rock
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Inteleon|Hydro Pump|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Dark|88/100
+|-damage|p1a: Silvally|76/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Inteleon|Hydro Pump|p1a: Silvally|[miss]
+|-miss|p2a: Inteleon|p1a: Silvally
+|move|p1a: Silvally|Multi-Attack|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Fairy|49/100
+|-damage|p2a: Silvally|36/100|[from] Stealth Rock
+|turn|30
+|c|☆confide|that
+|c|☆confide|was a misclick
+|c|☆confide|dam
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|12/100
+|move|p2a: Silvally|Multi-Attack|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|win|ruzboob
+|c|☆ruzboob|sorry
+|l|☆confide

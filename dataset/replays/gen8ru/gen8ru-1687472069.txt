@@ -1,0 +1,330 @@
+|j|☆its oyster time
+|j|☆JoeBidem
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1665963661
+|gametype|singles
+|player|p1|its oyster time|101|
+|player|p2|JoeBidem|brawly|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] RU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Polteageist|
+|poke|p1|Xatu, F|
+|poke|p1|Flygon, M|
+|poke|p1|Sigilyph, F|
+|poke|p1|Roserade, M|
+|poke|p1|Lucario, F|
+|poke|p2|Gigalith, F|
+|poke|p2|Lycanroc, F|
+|poke|p2|Crobat, M|
+|poke|p2|Sableye, F|
+|poke|p2|Golisopod, F|
+|poke|p2|Machamp, M|
+|teampreview
+|inactive|its oyster time also wants the timer to be on.
+|c|☆JoeBidem|yo
+|c|☆JoeBidem|glhf
+|c|☆its oyster time|yooo
+|c|☆its oyster time|u2
+|
+|t:|1665963678
+|start
+|switch|p1a: Roserade|Roserade, M|100/100
+|switch|p2a: Machamp|Machamp, M|100/100
+|turn|1
+|
+|t:|1665963682
+|move|p1a: Roserade|Sleep Powder|p2a: Machamp
+|-status|p2a: Machamp|slp|[from] move: Sleep Powder
+|cant|p2a: Machamp|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1665963686
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|move|p1a: Roserade|Spikes|p2a: Golisopod
+|-sidestart|p2: JoeBidem|Spikes
+|
+|upkeep
+|turn|3
+|j|+Oathkeeper
+|
+|t:|1665963691
+|move|p2a: Golisopod|First Impression|p1a: Roserade
+|-enditem|p1a: Roserade|Focus Sash
+|-damage|p1a: Roserade|1/100
+|move|p1a: Roserade|Sludge Bomb|p2a: Golisopod
+|-damage|p2a: Golisopod|50/100
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|
+|t:|1665963695
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-damage|p2a: Gigalith|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Roserade|0 fnt|[from] Sandstorm
+|faint|p1a: Roserade
+|-heal|p2a: Gigalith|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1665963704
+|switch|p1a: Flygon|Flygon, M|100/100
+|turn|4
+|
+|t:|1665963707
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Flygon|Dragon Dance|p1a: Flygon
+|-boost|p1a: Flygon|atk|1
+|-boost|p1a: Flygon|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sableye|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1665963715
+|switch|p1a: Xatu|Xatu, F|100/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Xatu
+|move|p1a: Xatu|Will-O-Wisp|p2a: Sableye|[from]ability: Magic Bounce
+|-status|p2a: Sableye|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|95/100|[from] Sandstorm
+|-damage|p2a: Sableye|88/100 brn|[from] Sandstorm
+|-damage|p2a: Sableye|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|c|☆JoeBidem|smart
+|j| PokemonCestDur
+|
+|t:|1665963735
+|switch|p2a: Golisopod|Golisopod, F|50/100
+|move|p1a: Xatu|Teleport|p1a: Xatu
+|
+|t:|1665963741
+|switch|p1a: Polteageist|Polteageist|100/100|[from]move: Teleport
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Polteageist|94/100|[from] Sandstorm
+|-damage|p2a: Golisopod|44/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1665963745
+|move|p1a: Polteageist|Shadow Ball|p2a: Golisopod
+|-damage|p2a: Golisopod|0 fnt
+|faint|p2a: Golisopod
+|
+|-weather|none
+|upkeep
+|
+|t:|1665963752
+|switch|p2a: Gigalith|Gigalith, F|94/100
+|-damage|p2a: Gigalith|82/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|8
+|
+|t:|1665963757
+|switch|p1a: Xatu|Xatu, F|95/100
+|move|p2a: Gigalith|Toxic|p1a: Xatu
+|move|p1a: Xatu|Toxic|p2a: Gigalith|[from]ability: Magic Bounce
+|-status|p2a: Gigalith|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|89/100|[from] Sandstorm
+|-heal|p2a: Gigalith|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Gigalith|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1665963764
+|move|p1a: Xatu|Calm Mind|p1a: Xatu
+|-boost|p1a: Xatu|spa|1
+|-boost|p1a: Xatu|spd|1
+|move|p2a: Gigalith|Rock Slide|p1a: Xatu|[miss]
+|-miss|p2a: Gigalith|p1a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|83/100|[from] Sandstorm
+|-heal|p2a: Gigalith|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Gigalith|76/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1665963773
+|switch|p2a: Lycanroc|Lycanroc, F|100/100
+|-damage|p2a: Lycanroc|88/100|[from] Spikes
+|move|p1a: Xatu|Calm Mind|p1a: Xatu
+|-boost|p1a: Xatu|spa|1
+|-boost|p1a: Xatu|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|77/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1665963778
+|switch|p1a: Flygon|Flygon, M|100/100
+|move|p2a: Lycanroc|Stone Edge|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|52/100
+|-damage|p2a: Lycanroc|78/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|c|☆its oyster time|ho killer
+|c|☆JoeBidem|yup
+|
+|t:|1665963793
+|move|p2a: Lycanroc|Play Rough|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|-damage|p2a: Lycanroc|68/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1665963798
+|switch|p1a: Polteageist|Polteageist|94/100
+|turn|13
+|c|☆JoeBidem|Machamp is the anti stall
+|
+|t:|1665963807
+|switch|p2a: Gigalith|Gigalith, F|76/100 tox
+|-damage|p2a: Gigalith|64/100 tox|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Polteageist|Giga Drain|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-crit|p2a: Gigalith
+|-damage|p2a: Gigalith|22/100 tox
+|-heal|p1a: Polteageist|100/100|[from] drain|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Polteageist|94/100|[from] Sandstorm
+|-heal|p2a: Gigalith|28/100 tox|[from] item: Leftovers
+|-damage|p2a: Gigalith|22/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1665963813
+|move|p1a: Polteageist|Giga Drain|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-heal|p1a: Polteageist|100/100|[from] drain|[of] p2a: Gigalith
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Polteageist|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1665963820
+|switch|p2a: Lycanroc|Lycanroc, F|68/100
+|-damage|p2a: Lycanroc|56/100|[from] Spikes
+|turn|15
+|
+|t:|1665963822
+|move|p2a: Lycanroc|Stone Edge|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|-damage|p2a: Lycanroc|46/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1665963825
+|switch|p1a: Lucario|Lucario, F|100/100
+|turn|16
+|
+|t:|1665963828
+|move|p1a: Lucario|Extreme Speed|p2a: Lycanroc
+|-resisted|p2a: Lycanroc
+|-damage|p2a: Lycanroc|26/100
+|move|p2a: Lycanroc|Close Combat|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|faint|p1a: Lucario
+|-damage|p2a: Lycanroc|16/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|j|%btboy
+|
+|t:|1665963837
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|turn|17
+|
+|t:|1665963840
+|move|p2a: Lycanroc|Stone Edge|p1a: Sigilyph|[miss]
+|-miss|p2a: Lycanroc|p1a: Sigilyph
+|move|p1a: Sigilyph|Air Slash|p2a: Lycanroc|[miss]
+|-miss|p1a: Sigilyph|p2a: Lycanroc
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1665963844
+|move|p2a: Lycanroc|Stone Edge|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|-damage|p2a: Lycanroc|6/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1665963847
+|switch|p1a: Xatu|Xatu, F|77/100
+|turn|19
+|c|+Oathkeeper|...
+|c|☆JoeBidem|no thoughts
+|c|☆its oyster time|v unfort indeed
+|c|☆JoeBidem|head empty
+|
+|t:|1665963866
+|move|p2a: Lycanroc|Accelerock|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|29/100
+|-enditem|p1a: Xatu|Weakness Policy
+|-boost|p1a: Xatu|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Xatu|spa|2|[from] item: Weakness Policy
+|-damage|p2a: Lycanroc|0 fnt|[from] item: Life Orb
+|faint|p2a: Lycanroc
+|move|p1a: Xatu|Air Slash|p2: Lycanroc|[notarget]
+|-fail|p1a: Xatu
+|
+|upkeep
+|c|☆JoeBidem|what
+|
+|t:|1665963875
+|switch|p2a: Crobat|Crobat, M|100/100
+|turn|20
+|
+|t:|1665963878
+|move|p2a: Crobat|Brave Bird|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|-damage|p2a: Crobat|92/100|[from] Recoil
+|
+|win|JoeBidem
+|n|☆its oyster time|itsoystertime
+|n|☆JoeBidem|joebidem
+|n|+Oathkeeper|oathkeeper
+|n| PokemonCestDur|pokemoncestdur
+|n| btboy|btboy

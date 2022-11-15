@@ -1,0 +1,267 @@
+|j|☆gijion chilli
+|j|☆cobra arbok
+|player|p1|gijion chilli|2|1335
+|player|p2|cobra arbok|steven|1388
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Tsareena, F|
+|poke|p1|Jellicent, F|
+|poke|p1|Gigalith, F|
+|poke|p1|Durant, M|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Diggersby, F|
+|poke|p2|Reuniclus, M|
+|poke|p2|Umbreon, F|
+|poke|p2|Flygon, M|
+|poke|p2|Milotic, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Centiskorch, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|switch|p2a: Milotic|Milotic, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|
+|move|p2a: Milotic|Scald|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|68/100
+|move|p1a: Gigalith|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100 tox|[from] Sandstorm
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Gigalith|74/100|[from] item: Leftovers
+|-damage|p2a: Milotic|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tsareena|95/100|[from] Sandstorm
+|-damage|p2a: Weezing|95/100|[from] Sandstorm
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p1a: Tsareena|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|97/100
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100|[from]move: U-turn
+|move|p2a: Weezing|Aromatherapy|p2a: Weezing
+|-activate|p2a: Weezing|move: Aromatherapy
+|-curestatus|p2: Milotic|tox|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-damage|p2a: Weezing|91/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-heal|p2a: Weezing|97/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Milotic|Milotic, M, shiny|94/100
+|move|p1a: Jellicent|Taunt|p2a: Milotic
+|-start|p2a: Milotic|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|88/100|[from] Sandstorm
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Umbreon|Umbreon, F, shiny|100/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Umbreon|[miss]
+|-miss|p1a: Jellicent|p2a: Umbreon
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p1a: Jellicent|Taunt|p2a: Umbreon
+|-start|p2a: Umbreon|move: Taunt
+|cant|p2a: Umbreon|move: Taunt|Toxic
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|switch|p2a: Centiskorch|Centiskorch, M|100/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Centiskorch|Knock Off|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|92/100
+|-enditem|p1a: Weezing|Black Sludge|[from] move: Knock Off|[of] p2a: Centiskorch
+|move|p1a: Weezing|Toxic Spikes|p2a: Centiskorch
+|-sidestart|p2: cobra arbok|move: Toxic Spikes
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Weezing|Weezing-Galar, M|97/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Weezing
+|-damage|p2a: Weezing|57/100
+|
+|-heal|p2a: Weezing|63/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p1a: Weezing|Sludge Bomb|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|9/100
+|move|p2a: Weezing|Defog|p1a: Weezing
+|-unboost|p1a: Weezing|evasion|1
+|-sideend|p2: cobra arbok|Toxic Spikes|[from] move: Defog|[of] p2a: Weezing
+|
+|-heal|p2a: Weezing|15/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Weezing|Toxic Spikes|p2a: Weezing
+|-sidestart|p2: cobra arbok|move: Toxic Spikes
+|move|p2a: Weezing|Defog|p1a: Weezing
+|-unboost|p1a: Weezing|evasion|1
+|-sideend|p2: cobra arbok|Toxic Spikes|[from] move: Defog|[of] p2a: Weezing
+|
+|-heal|p2a: Weezing|21/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Weezing|Toxic Spikes|p2a: Weezing
+|-sidestart|p2: cobra arbok|move: Toxic Spikes
+|move|p2a: Weezing|Will-O-Wisp|p1a: Weezing
+|-status|p1a: Weezing|brn
+|
+|-heal|p2a: Weezing|27/100|[from] item: Black Sludge
+|-damage|p1a: Weezing|86/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Weezing|Sludge Bomb|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|-damage|p1a: Weezing|80/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, M, shiny|100/100
+|-status|p2a: Reuniclus|psn
+|turn|14
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Reuniclus|Psyshock|p1a: Jellicent
+|-damage|p1a: Jellicent|55/100
+|
+|-heal|p1a: Jellicent|61/100|[from] item: Leftovers
+|-damage|p2a: Reuniclus|88/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Umbreon|Umbreon, F, shiny|100/100
+|-status|p2a: Umbreon|psn
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100
+|
+|-damage|p2a: Umbreon|88/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Jellicent|Taunt|p2a: Umbreon
+|-start|p2a: Umbreon|move: Taunt
+|move|p2a: Umbreon|Foul Play|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|72/100
+|
+|-heal|p1a: Jellicent|78/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Umbreon|82/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p2a: Milotic|Milotic, M, shiny|94/100
+|-status|p2a: Milotic|psn
+|move|p1a: Jellicent|Hex|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|60/100 psn
+|
+|-heal|p2a: Milotic|66/100 psn|[from] item: Leftovers
+|-heal|p1a: Jellicent|85/100|[from] item: Leftovers
+|-damage|p2a: Milotic|54/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Tsareena|Tsareena, F|95/100
+|move|p2a: Milotic|Toxic|p1a: Tsareena
+|-status|p1a: Tsareena|tox
+|
+|-heal|p2a: Milotic|60/100 psn|[from] item: Leftovers
+|-damage|p1a: Tsareena|89/100 tox|[from] psn
+|-damage|p2a: Milotic|47/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Tsareena|Power Whip|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-damage|p1a: Tsareena|77/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Centiskorch|Centiskorch, M|100/100
+|turn|20
+|
+|move|p1a: Tsareena|Knock Off|p2a: Centiskorch
+|-damage|p2a: Centiskorch|59/100
+|-enditem|p2a: Centiskorch|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tsareena
+|move|p2a: Centiskorch|Knock Off|p1a: Tsareena
+|-damage|p1a: Tsareena|44/100 tox
+|-enditem|p1a: Tsareena|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Centiskorch
+|
+|-damage|p1a: Tsareena|26/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Tsareena|Knock Off|p2a: Centiskorch
+|-damage|p2a: Centiskorch|33/100
+|move|p2a: Centiskorch|Knock Off|p1a: Tsareena
+|-damage|p1a: Tsareena|4/100 tox
+|
+|-damage|p1a: Tsareena|0 fnt|[from] psn
+|faint|p1a: Tsareena
+|upkeep
+|
+|switch|p1a: Diggersby|Diggersby, F|100/100
+|turn|22
+|
+|move|p1a: Diggersby|Body Slam|p2a: Centiskorch
+|-damage|p2a: Centiskorch|0 fnt
+|faint|p2a: Centiskorch
+|
+|upkeep
+|-message|cobra arbok forfeited.
+|
+|win|gijion chilli
+|l|☆cobra arbok

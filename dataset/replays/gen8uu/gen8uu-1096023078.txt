@@ -1,0 +1,707 @@
+|j|☆Lnua
+|j|☆zizi festif
+|player|p1|Lnua|misty-gen2|1219
+|player|p2|zizi festif|bugcatcher-gen2|1360
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Noivern, F|
+|poke|p1|Rhyperior, F|
+|poke|p1|Sylveon, M|
+|poke|p1|Reuniclus, F|
+|poke|p1|Milotic, M|
+|poke|p1|Cobalion|
+|poke|p2|Rotom-Wash|
+|poke|p2|Sylveon, M|
+|poke|p2|Reuniclus, M|
+|poke|p2|Cobalion|
+|poke|p2|Haxorus, F|
+|poke|p2|Braviary, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zizi festif)
+|j| Masskeau
+|
+|start
+|switch|p1a: Noivern|Noivern, F|100/100
+|switch|p2a: Vaillant !|Cobalion|100/100
+|-item|p2a: Vaillant !|Shuca Berry|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|turn|1
+|
+|switch|p2a: RikkaTakanashi|Sylveon, M|100/100
+|move|p1a: Noivern|Flamethrower|p2a: RikkaTakanashi
+|-damage|p2a: RikkaTakanashi|87/100
+|
+|-heal|p2a: RikkaTakanashi|93/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|j| NekoNecross
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|switch|p2a: Une Bite|Rotom-Wash|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Une Bite|Nasty Plot|p2a: Une Bite
+|-boost|p2a: Une Bite|spa|2
+|move|p1a: Reuniclus|Future Sight|p2a: Une Bite
+|-start|p1a: Reuniclus|move: Future Sight
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Une Bite|Hydro Pump|p1a: Reuniclus
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|48/100
+|move|p1a: Reuniclus|Psychic|p2a: Une Bite
+|-damage|p2a: Une Bite|63/100
+|-unboost|p2a: Une Bite|spd|1
+|
+|-heal|p2a: Une Bite|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Une Bite|Volt Switch|p1a: Reuniclus
+|-damage|p1a: Reuniclus|26/100
+|
+|switch|p2a: Fausse Couche|Reuniclus, M|100/100|[from]move: Volt Switch
+|move|p1a: Reuniclus|Psychic|p2a: Fausse Couche
+|-resisted|p2a: Fausse Couche
+|-damage|p2a: Fausse Couche|84/100
+|
+|-end|p2a: Fausse Couche|move: Future Sight
+|-resisted|p2a: Fausse Couche
+|-damage|p2a: Fausse Couche|63/100
+|-heal|p2a: Fausse Couche|70/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: BRAVE OISEAU|Braviary, M|100/100
+|switch|p1a: yawn|Sylveon, M|100/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|move|p2a: BRAVE OISEAU|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|84/100
+|
+|switch|p2a: Une Bite|Rotom-Wash|69/100|[from]move: U-turn
+|
+|-heal|p2a: Une Bite|75/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: yawn|Sylveon, M|100/100
+|move|p2a: Une Bite|Nasty Plot|p2a: Une Bite
+|-boost|p2a: Une Bite|spa|2
+|
+|-heal|p2a: Une Bite|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Une Bite|Volt Switch|p1a: yawn
+|-damage|p1a: yawn|66/100
+|
+|switch|p2a: Vaillant !|Cobalion|100/100|[from]move: Volt Switch
+|move|p1a: yawn|Calm Mind|p1a: yawn
+|-boost|p1a: yawn|spa|1
+|-boost|p1a: yawn|spd|1
+|
+|-heal|p1a: yawn|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|-item|p2a: Vaillant !|Shuca Berry|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|move|p2a: Vaillant !|Iron Head|p1a: Noivern
+|-damage|p1a: Noivern|55/100
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: RikkaTakanashi|Sylveon, M|93/100
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|100/100
+|-singleturn|p1a: Noivern|move: Roost
+|
+|-heal|p2a: RikkaTakanashi|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Reuniclus|Reuniclus, F|59/100
+|move|p2a: RikkaTakanashi|Hyper Voice|p1a: Reuniclus
+|-damage|p1a: Reuniclus|43/100
+|
+|-heal|p2a: RikkaTakanashi|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: RikkaTakanashi|Wish|p2a: RikkaTakanashi
+|move|p1a: Reuniclus|Future Sight|p2a: RikkaTakanashi
+|-start|p1a: Reuniclus|move: Future Sight
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Fausse Couche|Reuniclus, M|70/100
+|switch|p1a: yawn|Sylveon, M|72/100
+|
+|-heal|p2a: Fausse Couche|100/100|[from] move: Wish|[wisher] RikkaTakanashi
+|-heal|p1a: yawn|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|zizi festif has 120 seconds left.
+|
+|move|p1a: yawn|Calm Mind|p1a: yawn
+|-boost|p1a: yawn|spa|1
+|-boost|p1a: yawn|spd|1
+|move|p2a: Fausse Couche|Calm Mind|p2a: Fausse Couche
+|-boost|p2a: Fausse Couche|spa|1
+|-boost|p2a: Fausse Couche|spd|1
+|
+|-end|p2a: Fausse Couche|move: Future Sight
+|-resisted|p2a: Fausse Couche
+|-damage|p2a: Fausse Couche|85/100
+|-heal|p1a: yawn|84/100|[from] item: Leftovers
+|-heal|p2a: Fausse Couche|91/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Milotic|Milotic, M|100/100
+|move|p2a: Fausse Couche|Calm Mind|p2a: Fausse Couche
+|-boost|p2a: Fausse Couche|spa|1
+|-boost|p2a: Fausse Couche|spd|1
+|
+|-heal|p2a: Fausse Couche|97/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|move|p2a: Fausse Couche|Calm Mind|p2a: Fausse Couche
+|-boost|p2a: Fausse Couche|spa|1
+|-boost|p2a: Fausse Couche|spd|1
+|
+|-heal|p2a: Fausse Couche|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Milotic|Toxic|p2a: Fausse Couche
+|-status|p2a: Fausse Couche|tox
+|move|p2a: Fausse Couche|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|61/100
+|-unboost|p1a: Milotic|spd|1
+|
+|-heal|p1a: Milotic|68/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|move|p2a: Fausse Couche|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|44/100
+|
+|-heal|p1a: Milotic|50/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|99/100
+|move|p2a: Fausse Couche|Calm Mind|p2a: Fausse Couche
+|-boost|p2a: Fausse Couche|spa|1
+|-boost|p2a: Fausse Couche|spd|1
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|move|p2a: Fausse Couche|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|78/100
+|
+|-heal|p1a: Milotic|84/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Milotic|Toxic|p2a: Fausse Couche
+|-fail|p2a: Fausse Couche|tox
+|move|p2a: Fausse Couche|Calm Mind|p2a: Fausse Couche
+|-boost|p2a: Fausse Couche|spa|1
+|-boost|p2a: Fausse Couche|spd|1
+|
+|-heal|p1a: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|move|p2a: Fausse Couche|Calm Mind|p2a: Fausse Couche
+|-boost|p2a: Fausse Couche|spa|1
+|-boost|p2a: Fausse Couche|spd|1
+|
+|-heal|p1a: Milotic|97/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Milotic|Toxic|p2a: Fausse Couche
+|-fail|p2a: Fausse Couche|tox
+|move|p2a: Fausse Couche|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|59/100
+|
+|-heal|p1a: Milotic|65/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Une Bite|Rotom-Wash|81/100
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|
+|-heal|p2a: Une Bite|88/100|[from] item: Leftovers
+|-heal|p1a: Milotic|71/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Une Bite|Volt Switch|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|40/100
+|
+|switch|p2a: Noir.|Haxorus, F, shiny|100/100|[from]move: Volt Switch
+|-ability|p2a: Noir.|Mold Breaker
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|90/100
+|
+|-heal|p1a: Milotic|96/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Noir.|Outrage|p1a: Milotic
+|-damage|p1a: Milotic|14/100
+|move|p1a: Milotic|Toxic|p2a: Noir.
+|-status|p2a: Noir.|tox
+|
+|-heal|p1a: Milotic|20/100|[from] item: Leftovers
+|-damage|p2a: Noir.|94/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p1a: yawn|Sylveon, M|84/100
+|move|p2a: Noir.|Outrage|p1a: yawn|[from]lockedmove
+|-immune|p1a: yawn
+|
+|-heal|p1a: yawn|90/100|[from] item: Leftovers
+|-damage|p2a: Noir.|82/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|switch|p2a: Vaillant !|Cobalion|100/100
+|move|p1a: yawn|Calm Mind|p1a: yawn
+|-boost|p1a: yawn|spa|1
+|-boost|p1a: yawn|spd|1
+|
+|-heal|p1a: yawn|96/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Vaillant !|Iron Head|p1a: yawn
+|-supereffective|p1a: yawn
+|-damage|p1a: yawn|41/100
+|cant|p1a: yawn|flinch
+|
+|-heal|p1a: yawn|47/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|-item|p2a: Vaillant !|Shuca Berry|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|move|p2a: Vaillant !|Iron Head|p1a: Noivern
+|-crit|p1a: Noivern
+|-damage|p1a: Noivern|41/100
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|91/100
+|-singleturn|p1a: Noivern|move: Roost
+|move|p2a: Vaillant !|Iron Head|p1a: Noivern
+|-damage|p1a: Noivern|46/100
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: RikkaTakanashi|Sylveon, M|100/100
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|96/100
+|-singleturn|p1a: Noivern|move: Roost
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: yawn|Sylveon, M|47/100
+|move|p2a: RikkaTakanashi|Heal Bell|p2a: RikkaTakanashi
+|-activate|p2a: RikkaTakanashi|move: Heal Bell
+|-curestatus|p2: Fausse Couche|tox|[msg]
+|-curestatus|p2: Noir.|tox|[msg]
+|
+|-heal|p1a: yawn|53/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Vaillant !|Cobalion|100/100
+|move|p1a: yawn|Calm Mind|p1a: yawn
+|-boost|p1a: yawn|spa|1
+|-boost|p1a: yawn|spd|1
+|
+|-heal|p1a: yawn|59/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Noivern|Noivern, F|96/100
+|-item|p2a: Vaillant !|Shuca Berry|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|move|p2a: Vaillant !|Iron Head|p1a: Noivern
+|-damage|p1a: Noivern|53/100
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: RikkaTakanashi|Sylveon, M|100/100
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|100/100
+|-singleturn|p1a: Noivern|move: Roost
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: Reuniclus|Reuniclus, F|76/100
+|switch|p2a: Vaillant !|Cobalion|100/100
+|
+|upkeep
+|turn|39
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|-item|p2a: Vaillant !|Shuca Berry|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|move|p2a: Vaillant !|Swords Dance|p2a: Vaillant !
+|-boost|p2a: Vaillant !|atk|2
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Noivern|Flamethrower|p2a: Vaillant !
+|-supereffective|p2a: Vaillant !
+|-damage|p2a: Vaillant !|34/100
+|move|p2a: Vaillant !|Iron Head|p1a: Noivern
+|-damage|p1a: Noivern|9/100
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Noivern|Flamethrower|p2a: Vaillant !
+|-supereffective|p2a: Vaillant !
+|-damage|p2a: Vaillant !|0 fnt
+|faint|p2a: Vaillant !
+|
+|upkeep
+|
+|switch|p2a: BRAVE OISEAU|Braviary, M|100/100
+|turn|42
+|
+|switch|p1a: Rhyperior|Rhyperior, F|91/100
+|move|p2a: BRAVE OISEAU|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|76/100
+|
+|switch|p2a: Fausse Couche|Reuniclus, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Rhyperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Rhyperior|Stealth Rock|p2a: Fausse Couche
+|-sidestart|p2: zizi festif|move: Stealth Rock
+|move|p2a: Fausse Couche|Focus Blast|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|33/100
+|
+|-heal|p1a: Rhyperior|39/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p1a: Noivern|Noivern, F|9/100
+|-item|p2a: Fausse Couche|Leftovers|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|move|p2a: Fausse Couche|Psychic|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|upkeep
+|
+|switch|p1a: Milotic|Milotic, M|20/100
+|turn|45
+|
+|switch|p2a: Noir.|Haxorus, F, shiny|82/100
+|-damage|p2a: Noir.|70/100|[from] Stealth Rock
+|-ability|p2a: Noir.|Mold Breaker
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|70/100
+|
+|-heal|p1a: Milotic|76/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Noir.|Earthquake|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|upkeep
+|
+|switch|p1a: Milotic|Milotic, M|76/100
+|turn|47
+|inactive|zizi festif has 120 seconds left.
+|
+|switch|p2a: Une Bite|Rotom-Wash|88/100
+|-damage|p2a: Une Bite|75/100|[from] Stealth Rock
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-heal|p2a: Une Bite|81/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p2a: Une Bite|Defog|p1a: Milotic
+|-unboost|p1a: Milotic|evasion|1
+|-sideend|p2: zizi festif|Stealth Rock|[from] move: Defog|[of] p2a: Une Bite
+|move|p1a: Milotic|Toxic|p2a: Une Bite
+|-status|p2a: Une Bite|tox
+|
+|-heal|p2a: Une Bite|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Une Bite|81/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|switch|p1a: Rhyperior|Rhyperior, F|39/100
+|move|p2a: Une Bite|Volt Switch|p1a: Rhyperior
+|-immune|p1a: Rhyperior
+|
+|-heal|p2a: Une Bite|88/100 tox|[from] item: Leftovers
+|-heal|p1a: Rhyperior|46/100|[from] item: Leftovers
+|-damage|p2a: Une Bite|75/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Une Bite|Volt Switch|p1a: Reuniclus
+|-damage|p1a: Reuniclus|89/100
+|inactive|zizi festif has 120 seconds left.
+|l| NekoNecross
+|c|☆Lnua|is it band brav too
+|c|☆Lnua|?
+|c|☆Lnua|too lazy to calc
+|inactive|zizi festif has 90 seconds left.
+|c|☆zizi festif|idk
+|c|☆zizi festif|hehe
+|c|☆Lnua|..
+|
+|switch|p2a: Noir.|Haxorus, F, shiny|70/100|[from]move: Volt Switch
+|-ability|p2a: Noir.|Mold Breaker
+|
+|upkeep
+|turn|51
+|c|☆Lnua|it doesn't change the game at all lol
+|c|☆Lnua|pretty sure band hax wins no matter what
+|
+|move|p2a: Noir.|Outrage|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+|
+|switch|p1a: yawn|Sylveon, M|59/100
+|turn|52
+|c|☆zizi festif|nop
+|
+|move|p2a: Noir.|Outrage|p1a: yawn|[from]lockedmove
+|-immune|p1a: yawn
+|-start|p2a: Noir.|confusion|[fatigue]
+|move|p1a: yawn|Hyper Voice|p2a: Noir.
+|-supereffective|p2a: Noir.
+|-damage|p2a: Noir.|0 fnt
+|faint|p2a: Noir.
+|
+|-heal|p1a: yawn|65/100|[from] item: Leftovers
+|upkeep
+|c|☆Lnua|oh
+|
+|switch|p2a: Fausse Couche|Reuniclus, M|100/100
+|turn|53
+|
+|switch|p1a: Milotic|Milotic, M|100/100
+|move|p2a: Fausse Couche|Calm Mind|p2a: Fausse Couche
+|-boost|p2a: Fausse Couche|spa|1
+|-boost|p2a: Fausse Couche|spd|1
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|move|p2a: Fausse Couche|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|77/100
+|
+|-heal|p1a: Milotic|83/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p1a: Milotic|Scald|p2a: Fausse Couche
+|-damage|p2a: Fausse Couche|77/100
+|move|p2a: Fausse Couche|Calm Mind|p2a: Fausse Couche
+|-boost|p2a: Fausse Couche|spa|1
+|-boost|p2a: Fausse Couche|spd|1
+|
+|-heal|p1a: Milotic|90/100|[from] item: Leftovers
+|-heal|p2a: Fausse Couche|83/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|switch|p2a: RikkaTakanashi|Sylveon, M|100/100
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|
+|-heal|p1a: Milotic|96/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|switch|p1a: yawn|Sylveon, M|65/100
+|move|p2a: RikkaTakanashi|Heal Bell|p2a: RikkaTakanashi
+|-activate|p2a: RikkaTakanashi|move: Heal Bell
+|-curestatus|p2: Une Bite|tox|[msg]
+|
+|-heal|p1a: yawn|71/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|switch|p2a: BRAVE OISEAU|Braviary, M|100/100
+|move|p1a: yawn|Calm Mind|p1a: yawn
+|-boost|p1a: yawn|spa|1
+|-boost|p1a: yawn|spd|1
+|
+|-heal|p1a: yawn|78/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|switch|p1a: Milotic|Milotic, M|96/100
+|move|p2a: BRAVE OISEAU|Brave Bird|p1a: Milotic
+|-damage|p1a: Milotic|49/100
+|-damage|p2a: BRAVE OISEAU|83/100|[from] Recoil
+|
+|-heal|p1a: Milotic|56/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|switch|p2a: Une Bite|Rotom-Wash|75/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-heal|p2a: Une Bite|81/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p2a: Une Bite|Nasty Plot|p2a: Une Bite
+|-boost|p2a: Une Bite|spa|2
+|move|p1a: Milotic|Toxic|p2a: Une Bite|[miss]
+|-miss|p1a: Milotic|p2a: Une Bite
+|
+|-heal|p2a: Une Bite|88/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|c|☆zizi festif|sry
+|l| Masskeau
+|c|☆Lnua|for what
+|c|☆zizi festif|the miss
+|c|☆Lnua|oh I missed lol
+|c|☆Lnua|oh dear
+|
+|move|p2a: Une Bite|Volt Switch|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|31/100
+|
+|switch|p2a: BRAVE OISEAU|Braviary, M|83/100|[from]move: Volt Switch
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|81/100
+|
+|-heal|p1a: Milotic|87/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|move|p2a: BRAVE OISEAU|Facade|p1a: Milotic
+|-damage|p1a: Milotic|58/100
+|move|p1a: Milotic|Toxic|p2a: BRAVE OISEAU
+|-status|p2a: BRAVE OISEAU|tox
+|
+|-heal|p1a: Milotic|64/100|[from] item: Leftovers
+|-damage|p2a: BRAVE OISEAU|77/100 tox|[from] psn
+|upkeep
+|turn|64
+|c|☆Lnua|oh nice
+|
+|move|p2a: BRAVE OISEAU|Facade|p1a: Milotic
+|-damage|p1a: Milotic|5/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|55/100
+|
+|-heal|p1a: Milotic|61/100|[from] item: Leftovers
+|-damage|p2a: BRAVE OISEAU|64/100 tox|[from] psn
+|upkeep
+|turn|65
+|c|☆zizi festif|oh shit
+|
+|move|p2a: BRAVE OISEAU|Facade|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|-damage|p2a: BRAVE OISEAU|46/100 tox|[from] psn
+|upkeep
+|c|☆Lnua|ah dw
+|c|☆Lnua|crits got you
+|c|☆zizi festif|OH SHIT
+|c|☆Lnua|gg!
+|c|☆zizi festif|I will calc
+|c|☆zizi festif|gg
+|c|☆Lnua|no dw
+|c|☆Lnua|it's just a game
+|inactive|Lnua has 120 seconds left.
+|c|☆zizi festif|it can be a roll
+|c|☆Lnua|I was more interested in your team
+|c|☆zizi festif|I'll check
+|c|☆Lnua|is it band brav lol
+|c|☆zizi festif|Scarf
+|c|☆Lnua|oh cool
+|c|☆Lnua|I like it
+|c|☆zizi festif|thx
+|c|☆zizi festif|ytoo
+|c|☆zizi festif|the reuni
+|inactive|Lnua has 90 seconds left.
+|c|☆zizi festif|Is so good
+|c|☆Lnua|oh yeah it's cool
+|c|☆zizi festif|And you wp
+|c|☆Lnua|anyway gg
+|c|☆zizi festif|with Noivern
+|c|☆zizi festif|gg
+|-message|Lnua forfeited.
+|
+|win|zizi festif
+|l|☆Lnua

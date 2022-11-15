@@ -1,0 +1,310 @@
+|j|☆TimBasedGod
+|j|☆LukeHarry
+|player|p1|TimBasedGod|184|1261
+|player|p2|LukeHarry|290|1090
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Mudsdale, M|
+|poke|p1|Qwilfish, M|
+|poke|p1|Mr. Rime, M|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Boltund, F|
+|poke|p2|Vikavolt, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Claydol|
+|poke|p2|Rillaboom, F|
+|poke|p2|Quagsire, F|
+|poke|p2|Silvally-*|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mr. Rime|Mr. Rime, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|1
+|
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|76/100
+|move|p1a: Mr. Rime|Psychic|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|
+|-heal|p2a: Salazzle|82/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|54/100
+|move|p1a: Mr. Rime|Psychic|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|turn|3
+|
+|switch|p1a: Mudsdale|Mudsdale, M|100/100
+|move|p2a: Silvally|Flame Charge|p1a: Mudsdale
+|-damage|p1a: Mudsdale|92/100
+|-boost|p2a: Silvally|spe|1
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|-heal|p1a: Mudsdale|98/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TimBasedGod)
+|
+|move|p2a: Silvally|Parting Shot|p1a: Mudsdale
+|-unboost|p1a: Mudsdale|atk|1
+|-unboost|p1a: Mudsdale|spa|1
+|
+|switch|p2a: Quagsire|Quagsire, F|100/100|[from]move: Parting Shot
+|move|p1a: Mudsdale|Toxic|p2a: Quagsire
+|-status|p2a: Quagsire|tox
+|
+|-heal|p1a: Mudsdale|100/100|[from] item: Leftovers
+|-damage|p2a: Quagsire|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Mr. Rime|Mr. Rime, M|54/100
+|move|p2a: Quagsire|Toxic|p1a: Mr. Rime
+|-status|p1a: Mr. Rime|tox
+|
+|-heal|p2a: Quagsire|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Mr. Rime|48/100 tox|[from] psn
+|-damage|p2a: Quagsire|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Silvally
+|-damage|p2a: Silvally|63/100
+|
+|-damage|p1a: Mr. Rime|36/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Mudsdale|Mudsdale, M|100/100
+|move|p2a: Silvally|Parting Shot|p1a: Mudsdale
+|-unboost|p1a: Mudsdale|atk|1
+|-unboost|p1a: Mudsdale|spa|1
+|
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|move|p2a: Rillaboom|Wood Hammer|p1a: Qwilfish
+|-damage|p1a: Qwilfish|42/100
+|-damage|p2a: Rillaboom|86/100|[from] Recoil
+|
+|-heal|p1a: Qwilfish|49/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p2a: Quagsire|Quagsire, F|88/100 tox
+|move|p1a: Qwilfish|Thunder Wave|p2a: Quagsire
+|-immune|p2a: Quagsire
+|
+|-heal|p1a: Qwilfish|55/100|[from] item: Black Sludge
+|-heal|p2a: Quagsire|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Quagsire|88/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Qwilfish|Taunt|p2a: Quagsire
+|-start|p2a: Quagsire|move: Taunt
+|move|p2a: Quagsire|Scald|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|36/100
+|
+|-heal|p1a: Qwilfish|42/100|[from] item: Black Sludge
+|-heal|p2a: Quagsire|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Quagsire|82/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Qwilfish|Spikes|p2a: Quagsire
+|-sidestart|p2: LukeHarry|Spikes
+|move|p2a: Quagsire|Scald|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|24/100
+|
+|-heal|p1a: Qwilfish|30/100|[from] item: Black Sludge
+|-heal|p2a: Quagsire|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Quagsire|70/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Qwilfish|Spikes|p2a: Quagsire
+|-sidestart|p2: LukeHarry|Spikes
+|move|p2a: Quagsire|Scald|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|13/100
+|
+|-heal|p1a: Qwilfish|19/100|[from] item: Black Sludge
+|-heal|p2a: Quagsire|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Quagsire|52/100 tox|[from] psn
+|-end|p2a: Quagsire|move: Taunt
+|upkeep
+|turn|13
+|
+|move|p1a: Qwilfish|Taunt|p2a: Quagsire
+|-start|p2a: Quagsire|move: Taunt
+|move|p2a: Quagsire|Scald|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|
+|-heal|p2a: Quagsire|58/100 tox|[from] item: Leftovers
+|-damage|p2a: Quagsire|27/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mr. Rime|Mr. Rime, M|36/100 tox
+|turn|14
+|
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Mr. Rime|Rapid Spin|p2a: Claydol
+|-damage|p2a: Claydol|93/100
+|-boost|p1a: Mr. Rime|spe|1
+|
+|-heal|p2a: Claydol|99/100|[from] item: Leftovers
+|-damage|p1a: Mr. Rime|30/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|53/100
+|move|p2a: Claydol|Rapid Spin|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|22/100 tox
+|-boost|p2a: Claydol|spe|1
+|-sideend|p2: LukeHarry|Spikes|[from] move: Rapid Spin|[of] p2a: Claydol
+|
+|-heal|p2a: Claydol|59/100|[from] item: Leftovers
+|-damage|p1a: Mr. Rime|10/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Claydol|Stealth Rock|p1a: Mr. Rime
+|-sidestart|p1: TimBasedGod|move: Stealth Rock
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|11/100
+|
+|-heal|p2a: Claydol|17/100|[from] item: Leftovers
+|-damage|p1a: Mr. Rime|0 fnt|[from] psn
+|faint|p1a: Mr. Rime
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|17
+|
+|move|p1a: Indeedee|Psyshock|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|upkeep
+|inactive|LukeHarry has 120 seconds left.
+|
+|switch|p2a: Rillaboom|Rillaboom, F|86/100
+|turn|18
+|
+|move|p1a: Indeedee|Psyshock|p2a: Rillaboom
+|-damage|p2a: Rillaboom|39/100
+|move|p2a: Rillaboom|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-enditem|p1a: Indeedee|Wise Glasses|[from] move: Knock Off|[of] p2a: Rillaboom
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p1a: Hitmonlee|94/100|[from] Stealth Rock
+|-enditem|p1a: Hitmonlee|Psychic Seed
+|-boost|p1a: Hitmonlee|spd|1|[from] item: Psychic Seed
+|turn|19
+|
+|move|p1a: Hitmonlee|Close Combat|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-unboost|p1a: Hitmonlee|def|1
+|-unboost|p1a: Hitmonlee|spd|1
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Fairy|63/100
+|turn|20
+|
+|move|p1a: Hitmonlee|Poison Jab|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|4/100
+|move|p2a: Silvally|Multi-Attack|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|upkeep
+|
+|switch|p1a: Boltund|Boltund, F|100/100
+|-damage|p1a: Boltund|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Boltund|Crunch|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|turn|22
+|
+|move|p1a: Boltund|Fire Fang|p2a: Vikavolt|[miss]
+|-miss|p1a: Boltund|p2a: Vikavolt
+|move|p2a: Vikavolt|Bug Buzz|p1a: Boltund
+|-damage|p1a: Boltund|0 fnt
+|-enditem|p2a: Vikavolt|Throat Spray
+|-boost|p2a: Vikavolt|spa|1|[from] item: Throat Spray
+|faint|p1a: Boltund
+|
+|upkeep
+|
+|switch|p1a: Mudsdale|Mudsdale, M|100/100
+|-damage|p1a: Mudsdale|94/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Vikavolt|Energy Ball|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|win|LukeHarry
+|raw|TimBasedGod's rating: 1261 &rarr; <strong>1225</strong><br />(-36 for losing)
+|raw|LukeHarry's rating: 1090 &rarr; <strong>1129</strong><br />(+39 for winning)

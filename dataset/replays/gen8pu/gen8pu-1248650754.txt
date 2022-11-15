@@ -1,0 +1,177 @@
+|j|☆xenon filled lungs
+|j|☆mr ding dong games
+|t:|1608673081
+|player|p1|xenon filled lungs|molayne|1340
+|player|p2|mr ding dong games|101|1175
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Ribombee, M|
+|poke|p1|Sigilyph, M|
+|poke|p1|Malamar, F|
+|poke|p1|Virizion|
+|poke|p1|Aggron, M|
+|poke|p1|Silvally-*|
+|poke|p2|Appletun, M|
+|poke|p2|Druddigon, M|
+|poke|p2|Garbodor, F|
+|poke|p2|Throh, M|
+|poke|p2|Omastar, M|
+|poke|p2|Jolteon, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1608673087
+|start
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|turn|1
+|
+|t:|1608673097
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|move|p2a: Druddigon|Stealth Rock|p1a: Ribombee
+|-sidestart|p1: xenon filled lungs|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1608673107
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|move|p1a: Ribombee|Sticky Web|p2a: Garbodor
+|-sidestart|p2: mr ding dong games|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|t:|1608673120
+|switch|p1a: Aggron|Aggron, M|100/100
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|move|p2a: Garbodor|Gunk Shot|p1a: Aggron
+|-immune|p1a: Aggron
+|
+|-heal|p1a: Aggron|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1608673132
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|-activate|p2a: Druddigon|move: Sticky Web
+|-unboost|p2a: Druddigon|spe|1
+|move|p1a: Aggron|Head Smash|p2a: Druddigon
+|-damage|p2a: Druddigon|43/100
+|-damage|p1a: Aggron|88/100|[from] ability: Rough Skin|[of] p2a: Druddigon
+|-damage|p1a: Aggron|72/100|[from] item: Rocky Helmet|[of] p2a: Druddigon
+|
+|-heal|p1a: Aggron|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1608673144
+|move|p1a: Aggron|Head Smash|p2a: Druddigon|[miss]
+|-miss|p1a: Aggron|p2a: Druddigon
+|move|p2a: Druddigon|Earthquake|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+|
+|t:|1608673150
+|switch|p1a: Malamar|Malamar, F|100/100
+|-damage|p1a: Malamar|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1608673154
+|move|p1a: Malamar|Substitute|p1a: Malamar
+|-start|p1a: Malamar|Substitute
+|-damage|p1a: Malamar|63/100
+|move|p2a: Druddigon|Dragon Tail|p1a: Malamar|[miss]
+|-miss|p2a: Druddigon|p1a: Malamar
+|
+|-heal|p1a: Malamar|70/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1608673163
+|move|p1a: Malamar|Superpower|p2a: Druddigon
+|-damage|p2a: Druddigon|23/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|-damage|p1a: Malamar|57/100|[from] ability: Rough Skin|[of] p2a: Druddigon
+|-damage|p1a: Malamar|41/100|[from] item: Rocky Helmet|[of] p2a: Druddigon
+|move|p2a: Druddigon|Earthquake|p1a: Malamar
+|-activate|p1a: Malamar|move: Substitute|[damage]
+|
+|-heal|p1a: Malamar|47/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1608673175
+|move|p1a: Malamar|Psycho Cut|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|faint|p2a: Druddigon
+|
+|-heal|p1a: Malamar|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1608673182
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|-activate|p2a: Jolteon|move: Sticky Web
+|-unboost|p2a: Jolteon|spe|1
+|turn|9
+|
+|t:|1608673188
+|move|p1a: Malamar|Knock Off|p2a: Jolteon
+|-damage|p2a: Jolteon|16/100
+|-enditem|p2a: Jolteon|Life Orb|[from] move: Knock Off|[of] p1a: Malamar
+|move|p2a: Jolteon|Thunderbolt|p1a: Malamar
+|-crit|p1a: Malamar
+|-end|p1a: Malamar|Substitute
+|
+|-heal|p1a: Malamar|59/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1608673198
+|move|p1a: Malamar|Superpower|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Jolteon
+|
+|-heal|p1a: Malamar|65/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1608673213
+|switch|p2a: Appletun|Appletun, M|100/100
+|-activate|p2a: Appletun|move: Sticky Web
+|-unboost|p2a: Appletun|spe|1
+|turn|11
+|
+|t:|1608673222
+|move|p1a: Malamar|Superpower|p2a: Appletun
+|-damage|p2a: Appletun|50/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Appletun|Dragon Pulse|p1a: Malamar
+|-damage|p1a: Malamar|22/100
+|
+|-heal|p1a: Malamar|28/100|[from] item: Leftovers
+|-heal|p2a: Appletun|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|-message|mr ding dong games forfeited.
+|
+|win|xenon filled lungs
+|l|☆mr ding dong games
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

@@ -1,0 +1,151 @@
+|j|☆above the j
+|j|☆denis not p3nis
+|player|p1|above the j|erika|1302
+|player|p2|denis not p3nis|dawn|1383
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Roserade, F|
+|poke|p1|Rhyperior, F|
+|poke|p1|Incineroar, M|
+|poke|p1|Doublade, F|
+|poke|p1|Noivern, F|
+|poke|p1|Milotic, F|
+|poke|p2|Froslass, F|
+|poke|p2|Rotom-Frost|
+|poke|p2|Haxorus, F|
+|poke|p2|Barbaracle, F|
+|poke|p2|Polteageist|
+|poke|p2|Indeedee, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by above the j)
+|inactive|denis not p3nis has 120 seconds left.
+|
+|start
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|switch|p2a: Froslass|Froslass, F, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Froslass|atk|1
+|turn|1
+|
+|move|p2a: Froslass|Spikes|p1a: Incineroar
+|-sidestart|p1: above the j|Spikes
+|move|p1a: Incineroar|Knock Off|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-enditem|p2a: Froslass|Focus Sash
+|-damage|p2a: Froslass|1/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Froslass|Destiny Bond|p2a: Froslass
+|-singlemove|p2a: Froslass|Destiny Bond
+|move|p1a: Incineroar|Toxic|p2a: Froslass
+|-status|p2a: Froslass|tox
+|
+|-damage|p2a: Froslass|0 fnt|[from] psn
+|faint|p2a: Froslass
+|upkeep
+|
+|switch|p2a: Barbaracle|Barbaracle, F, shiny|100/100
+|turn|3
+|
+|move|p2a: Barbaracle|Stealth Rock|p1a: Incineroar
+|-sidestart|p1: above the j|move: Stealth Rock
+|move|p1a: Incineroar|Toxic|p2a: Barbaracle
+|-status|p2a: Barbaracle|tox
+|
+|-damage|p2a: Barbaracle|95/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Barbaracle|Liquidation|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|18/100
+|-unboost|p1a: Incineroar|def|1
+|move|p1a: Incineroar|Parting Shot|p2a: Barbaracle
+|-unboost|p2a: Barbaracle|atk|1
+|-unboost|p2a: Barbaracle|spa|1
+|inactive|above the j has 120 seconds left.
+|
+|switch|p1a: Roserade|Roserade, F|100/100|[from]move: Parting Shot
+|-damage|p1a: Roserade|88/100|[from] Spikes
+|-damage|p1a: Roserade|76/100|[from] Stealth Rock
+|
+|-damage|p2a: Barbaracle|83/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Roserade|Leaf Storm|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-unboost|p1a: Roserade|spa|2
+|-damage|p1a: Roserade|66/100|[from] item: Life Orb
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist, shiny|100/100
+|turn|6
+|inactive|above the j has 120 seconds left.
+|
+|switch|p1a: Incineroar|Incineroar, M|18/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Polteageist|atk|1
+|-enditem|p2a: Polteageist|White Herb
+|-clearnegativeboost|p2a: Polteageist|[silent]
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|7
+|inactive|above the j has 120 seconds left.
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|-damage|p1a: Milotic|88/100|[from] Stealth Rock
+|-damage|p1a: Milotic|76/100|[from] Spikes
+|turn|8
+|
+|move|p2a: Polteageist|Stored Power|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|upkeep
+|inactive|above the j has 90 seconds left.
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|turn|9
+|inactive|above the j has 90 seconds left.
+|
+|move|p2a: Polteageist|Stored Power|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|upkeep
+|-message|above the j forfeited.
+|
+|win|denis not p3nis
+|l|☆above the j

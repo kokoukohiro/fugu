@@ -1,0 +1,300 @@
+|j|☆MoneyMachine
+|j|☆one of the bouys
+|t:|1634739640
+|gametype|singles
+|player|p1|MoneyMachine|burglar|1312
+|player|p2|one of the bouys|clown|1650
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Pawniard, M|
+|poke|p1|Gurdurr, M|
+|poke|p1|Lanturn, F|
+|poke|p1|Ludicolo, M|
+|poke|p1|Crustle, F|
+|poke|p1|Silvally-*|
+|poke|p2|Flapple, F|
+|poke|p2|Frosmoth, F|
+|poke|p2|Gigalith, M|
+|poke|p2|Weezing, M|
+|poke|p2|Persian-Alola, M|
+|poke|p2|Drifblim, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MoneyMachine)
+|
+|t:|1634739661
+|start
+|switch|p1a: Crustle|Crustle, F|100/100
+|switch|p2a: Persian|Persian-Alola, M|100/100
+|turn|1
+|
+|t:|1634739669
+|move|p2a: Persian|Switcheroo|p1a: Crustle
+|-activate|p2a: Persian|move: Trick|[of] p1a: Crustle
+|-item|p1a: Crustle|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Persian|Focus Sash|[from] move: Switcheroo
+|move|p1a: Crustle|Stealth Rock|p2a: Persian
+|-sidestart|p2: one of the bouys|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1634739682
+|switch|p1a: Lanturn|Lanturn, F|100/100
+|move|p2a: Persian|Parting Shot|p1a: Lanturn
+|-unboost|p1a: Lanturn|atk|1
+|-unboost|p1a: Lanturn|spa|1
+|
+|t:|1634739689
+|switch|p2a: Flapple|Flapple, F|100/100|[from]move: Parting Shot
+|-damage|p2a: Flapple|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1634739696
+|switch|p1a: Gurdurr|Gurdurr, M|100/100
+|move|p2a: Flapple|Grav Apple|p1a: Gurdurr
+|-damage|p1a: Gurdurr|54/100
+|-unboost|p1a: Gurdurr|def|1
+|-damage|p2a: Flapple|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1634739706
+|switch|p1a: Crustle|Crustle, F|100/100
+|move|p2a: Flapple|Grav Apple|p1a: Crustle
+|-damage|p1a: Crustle|20/100
+|-unboost|p1a: Crustle|def|1
+|-ability|p1a: Crustle|Weak Armor|boost
+|-unboost|p1a: Crustle|def|1
+|-boost|p1a: Crustle|spe|2
+|-damage|p2a: Flapple|68/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1634739716
+|switch|p2a: Persian|Persian-Alola, M|100/100
+|-damage|p2a: Persian|88/100|[from] Stealth Rock
+|move|p1a: Crustle|Knock Off|p2a: Persian
+|-resisted|p2a: Persian
+|-damage|p2a: Persian|77/100
+|-enditem|p2a: Persian|Focus Sash|[from] move: Knock Off|[of] p1a: Crustle
+|
+|upkeep
+|turn|6
+|
+|t:|1634739723
+|move|p1a: Crustle|Knock Off|p2a: Persian
+|-resisted|p2a: Persian
+|-damage|p2a: Persian|69/100
+|move|p2a: Persian|Parting Shot|p1a: Crustle
+|-unboost|p1a: Crustle|atk|1
+|-unboost|p1a: Crustle|spa|1
+|
+|t:|1634739726
+|switch|p2a: Drifblim|Drifblim, M|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|7
+|
+|t:|1634739730
+|move|p1a: Crustle|Knock Off|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|61/100
+|-enditem|p2a: Drifblim|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Crustle
+|move|p2a: Drifblim|Defog|p1a: Crustle
+|-unboost|p1a: Crustle|evasion|1
+|-sideend|p2: one of the bouys|Stealth Rock|[from] move: Defog|[of] p2a: Drifblim
+|
+|upkeep
+|turn|8
+|
+|t:|1634739738
+|switch|p1a: Lanturn|Lanturn, F|100/100
+|move|p2a: Drifblim|Knock Off|p1a: Lanturn
+|-damage|p1a: Lanturn|76/100
+|-enditem|p1a: Lanturn|Assault Vest|[from] move: Knock Off|[of] p2a: Drifblim
+|
+|upkeep
+|turn|9
+|j| ProfSimonov
+|
+|t:|1634739768
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|move|p1a: Lanturn|Volt Switch|p2a: Frosmoth
+|-damage|p2a: Frosmoth|85/100
+|
+|t:|1634739783
+|switch|p1a: Pawniard|Pawniard, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|10
+|
+|t:|1634739799
+|switch|p2a: Persian|Persian-Alola, M|69/100
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1634739810
+|move|p2a: Persian|Parting Shot|p1a: Ludicolo
+|-unboost|p1a: Ludicolo|atk|1
+|-unboost|p1a: Ludicolo|spa|1
+|
+|t:|1634739811
+|switch|p2a: Frosmoth|Frosmoth, F|85/100|[from]move: Parting Shot
+|move|p1a: Ludicolo|Hydro Pump|p2a: Frosmoth
+|-damage|p2a: Frosmoth|59/100
+|-damage|p1a: Ludicolo|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1634739821
+|switch|p1a: Crustle|Crustle, F|20/100
+|move|p2a: Frosmoth|Ice Beam|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|faint|p1a: Crustle
+|
+|upkeep
+|
+|t:|1634739842
+|switch|p1a: Lanturn|Lanturn, F|76/100
+|turn|13
+|
+|t:|1634739848
+|move|p2a: Frosmoth|Substitute|p2a: Frosmoth
+|-start|p2a: Frosmoth|Substitute
+|-damage|p2a: Frosmoth|34/100
+|move|p1a: Lanturn|Discharge|p2a: Frosmoth
+|-activate|p2a: Frosmoth|move: Substitute|[damage]
+|
+|upkeep
+|turn|14
+|
+|t:|1634739856
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Lanturn|Volt Switch|p2a: Frosmoth
+|-end|p2a: Frosmoth|Substitute
+|
+|t:|1634739861
+|switch|p1a: Silvally|Silvally-Ghost|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|15
+|
+|t:|1634739864
+|switch|p2a: Persian|Persian-Alola, M|69/100
+|move|p1a: Silvally|Multi-Attack|p2a: Persian
+|-resisted|p2a: Persian
+|-damage|p2a: Persian|49/100
+|
+|upkeep
+|turn|16
+|
+|t:|1634739871
+|switch|p1a: Lanturn|Lanturn, F|76/100
+|move|p2a: Persian|Foul Play|p1a: Lanturn
+|-damage|p1a: Lanturn|51/100
+|
+|upkeep
+|turn|17
+|
+|t:|1634739881
+|move|p2a: Persian|Parting Shot|p1a: Lanturn
+|-unboost|p1a: Lanturn|atk|1
+|-unboost|p1a: Lanturn|spa|1
+|
+|t:|1634739882
+|switch|p2a: Flapple|Flapple, F|68/100|[from]move: Parting Shot
+|move|p1a: Lanturn|Scald|p2a: Flapple
+|-resisted|p2a: Flapple
+|-damage|p2a: Flapple|57/100
+|
+|upkeep
+|turn|18
+|
+|t:|1634739892
+|move|p2a: Flapple|Grav Apple|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|-damage|p2a: Flapple|47/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1634739901
+|switch|p1a: Silvally|Silvally-Ghost|100/100
+|turn|19
+|
+|t:|1634739910
+|move|p2a: Flapple|Sucker Punch||[still]
+|-fail|p2a: Flapple
+|move|p1a: Silvally|Parting Shot|p2a: Flapple
+|-unboost|p2a: Flapple|atk|1
+|-unboost|p2a: Flapple|spa|1
+|
+|t:|1634739921
+|switch|p1a: Ludicolo|Ludicolo, M|91/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|20
+|
+|t:|1634739930
+|move|p2a: Flapple|Outrage|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|-damage|p2a: Flapple|37/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1634739936
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|turn|21
+|
+|t:|1634739938
+|move|p1a: Pawniard|Swords Dance|p1a: Pawniard
+|-boost|p1a: Pawniard|atk|2
+|move|p2a: Flapple|Outrage|p1a: Pawniard|[from]lockedmove
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|48/100
+|-damage|p2a: Flapple|27/100|[from] item: Life Orb
+|-start|p2a: Flapple|confusion|[fatigue]
+|
+|upkeep
+|turn|22
+|
+|t:|1634739950
+|move|p1a: Pawniard|Swords Dance|p1a: Pawniard
+|-boost|p1a: Pawniard|atk|2
+|-activate|p2a: Flapple|confusion
+|move|p2a: Flapple|Outrage|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|-damage|p2a: Flapple|17/100|[from] item: Life Orb
+|
+|upkeep
+|-message|MoneyMachine forfeited.
+|
+|win|one of the bouys
+|raw|MoneyMachine's rating: 1312 &rarr; <strong>1307</strong><br />(-5 for losing)
+|raw|one of the bouys's rating: 1650 &rarr; <strong>1655</strong><br />(+5 for winning)
+|l|☆MoneyMachine

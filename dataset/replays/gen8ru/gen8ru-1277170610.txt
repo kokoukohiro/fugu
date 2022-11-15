@@ -1,0 +1,417 @@
+|j|☆jhgvbn
+|j|☆polar_geass
+|t:|1612606872
+|player|p1|jhgvbn|2|1430
+|player|p2|polar_geass|skyla|1157
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Incineroar, M|
+|poke|p1|Entei|
+|poke|p1|Rhyperior, F|
+|poke|p1|Raikou|
+|poke|p1|Sceptile, M|
+|poke|p1|Suicune|
+|poke|p2|Toxtricity, M|
+|poke|p2|Reuniclus, M|
+|poke|p2|Noivern, M|
+|poke|p2|Milotic, F|
+|poke|p2|Zarude|
+|poke|p2|Steelix, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1612606891
+|start
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|1
+|
+|t:|1612606907
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Rhyperior|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|59/100
+|
+|upkeep
+|turn|2
+|
+|t:|1612606914
+|switch|p1a: Suicune|Suicune|100/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Milotic|Flip Turn|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|97/100
+|
+|t:|1612606922
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: Flip Turn
+|
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1612606927
+|move|p2a: Toxtricity|Boomburst|p1a: Suicune
+|-damage|p1a: Suicune|43/100
+|move|p1a: Suicune|Scald|p2a: Toxtricity
+|-damage|p2a: Toxtricity|58/100
+|
+|-heal|p1a: Suicune|49/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1612606935
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Toxtricity|Boomburst|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|55/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1612606945
+|move|p1a: Suicune|Protect||[still]
+|-fail|p1a: Suicune
+|move|p2a: Toxtricity|Boomburst|p1a: Suicune
+|-crit|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|upkeep
+|
+|t:|1612606948
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|turn|6
+|
+|t:|1612606953
+|switch|p2a: Zarude|Zarude|100/100
+|move|p1a: Rhyperior|Stealth Rock|p2a: Zarude
+|-sidestart|p2: polar_geass|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1612606961
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zarude|atk|1
+|move|p2a: Zarude|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|87/100
+|
+|t:|1612606968
+|switch|p2a: Toxtricity|Toxtricity, M|58/100|[from]move: U-turn
+|-damage|p2a: Toxtricity|46/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1612606974
+|move|p1a: Incineroar|Fake Out|p2a: Toxtricity
+|-damage|p2a: Toxtricity|25/100
+|cant|p2a: Toxtricity|flinch
+|
+|upkeep
+|turn|9
+|
+|t:|1612606981
+|move|p2a: Toxtricity|Boomburst|p1a: Incineroar
+|-damage|p1a: Incineroar|5/100
+|move|p1a: Incineroar|Knock Off|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-enditem|p2a: Toxtricity|Choice Specs|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|t:|1612607009
+|switch|p2a: Noivern|Noivern, M|100/100
+|turn|10
+|
+|t:|1612607016
+|move|p2a: Noivern|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|t:|1612607022
+|switch|p2a: Zarude|Zarude|100/100|[from]move: U-turn
+|-damage|p2a: Zarude|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1612607028
+|switch|p1a: Entei|Entei|100/100
+|-ability|p1a: Entei|Pressure
+|turn|11
+|
+|t:|1612607048
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|-damage|p2a: Reuniclus|88/100|[from] Stealth Rock
+|move|p1a: Entei|Toxic|p2a: Reuniclus
+|-status|p2a: Reuniclus|tox
+|
+|-damage|p2a: Reuniclus|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1612607062
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|move|p2a: Reuniclus|Knock Off|p1a: Rhyperior
+|-damage|p1a: Rhyperior|91/100
+|-enditem|p1a: Rhyperior|Weakness Policy|[from] move: Knock Off|[of] p2a: Reuniclus
+|
+|-damage|p2a: Reuniclus|70/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1612607078
+|move|p1a: Rhyperior|Stone Edge|p2a: Reuniclus
+|-damage|p2a: Reuniclus|9/100 tox
+|move|p2a: Reuniclus|Focus Blast|p1a: Rhyperior|[miss]
+|-miss|p2a: Reuniclus|p1a: Rhyperior
+|
+|-damage|p2a: Reuniclus|0 fnt|[from] psn
+|faint|p2a: Reuniclus
+|upkeep
+|
+|t:|1612607088
+|switch|p2a: Milotic|Milotic, F|59/100
+|turn|14
+|
+|t:|1612607103
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1612607117
+|switch|p2a: Noivern|Noivern, M|100/100
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|76/100
+|
+|-heal|p1a: Raikou|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1612607125
+|move|p2a: Noivern|Defog|p1a: Raikou
+|-unboost|p1a: Raikou|evasion|1
+|-sideend|p2: polar_geass|Stealth Rock|[from] move: Defog|[of] p2a: Noivern
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|
+|-heal|p1a: Raikou|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1612607133
+|move|p2a: Noivern|U-turn|p1a: Raikou
+|-damage|p1a: Raikou|74/100
+|
+|t:|1612607135
+|switch|p2a: Steelix|Steelix, M|100/100|[from]move: U-turn
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|
+|-heal|p1a: Raikou|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1612607144
+|move|p1a: Raikou|Scald|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|13/100
+|move|p2a: Steelix|Earthquake|p1a: Raikou
+|-supereffective|p1a: Raikou
+|-end|p1a: Raikou|Substitute
+|
+|-heal|p1a: Raikou|87/100|[from] item: Leftovers
+|-heal|p2a: Steelix|20/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1612607153
+|move|p1a: Raikou|Scald|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|-heal|p1a: Raikou|93/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1612607160
+|switch|p2a: Zarude|Zarude|88/100
+|turn|20
+|
+|t:|1612607172
+|move|p2a: Zarude|Darkest Lariat|p1a: Raikou
+|-damage|p1a: Raikou|41/100
+|move|p1a: Raikou|Thunderbolt|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|45/100
+|
+|-heal|p1a: Raikou|47/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1612607185
+|switch|p1a: Entei|Entei|100/100
+|-ability|p1a: Entei|Pressure
+|move|p2a: Zarude|Darkest Lariat|p1a: Entei
+|-damage|p1a: Entei|53/100
+|
+|upkeep
+|turn|22
+|
+|t:|1612607194
+|switch|p2a: Noivern|Noivern, M|100/100
+|move|p1a: Entei|Toxic|p2a: Noivern
+|-status|p2a: Noivern|tox
+|
+|-damage|p2a: Noivern|94/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1612607208
+|switch|p1a: Raikou|Raikou|47/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Noivern|Draco Meteor|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|-unboost|p2a: Noivern|spa|2
+|faint|p1a: Raikou
+|
+|-damage|p2a: Noivern|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1612607225
+|switch|p1a: Rhyperior|Rhyperior, F|91/100
+|turn|24
+|
+|t:|1612607228
+|move|p2a: Noivern|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|83/100
+|
+|t:|1612607231
+|switch|p2a: Milotic|Milotic, F|100/100|[from]move: U-turn
+|move|p1a: Rhyperior|Stealth Rock|p2a: Milotic
+|-sidestart|p2: polar_geass|move: Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|t:|1612607238
+|move|p2a: Milotic|Flip Turn|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|61/100
+|
+|t:|1612607242
+|switch|p2a: Noivern|Noivern, M|82/100 tox|[from]move: Flip Turn
+|move|p1a: Rhyperior|Earthquake|p2a: Noivern
+|-immune|p2a: Noivern
+|
+|-damage|p2a: Noivern|76/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1612607258
+|move|p2a: Noivern|Draco Meteor|p1a: Rhyperior|[miss]
+|-miss|p2a: Noivern|p1a: Rhyperior
+|move|p1a: Rhyperior|Stone Edge|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|t:|1612607269
+|switch|p2a: Milotic|Milotic, F|100/100
+|turn|27
+|
+|t:|1612607274
+|move|p2a: Milotic|Scald|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|
+|t:|1612607278
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|turn|28
+|
+|t:|1612607288
+|move|p1a: Sceptile|Swords Dance|p1a: Sceptile
+|-boost|p1a: Sceptile|atk|2
+|move|p2a: Milotic|Flip Turn|p1a: Sceptile
+|-resisted|p1a: Sceptile
+|-damage|p1a: Sceptile|89/100
+|
+|t:|1612607293
+|switch|p2a: Zarude|Zarude|45/100|[from]move: Flip Turn
+|-damage|p2a: Zarude|32/100|[from] Stealth Rock
+|
+|upkeep
+|turn|29
+|
+|t:|1612607307
+|move|p2a: Zarude|U-turn|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|16/100
+|
+|t:|1612607310
+|switch|p2a: Milotic|Milotic, F|100/100|[from]move: U-turn
+|move|p1a: Sceptile|Acrobatics|p2a: Milotic
+|-damage|p2a: Milotic|75/100
+|
+|upkeep
+|turn|30
+|
+|t:|1612607317
+|move|p1a: Sceptile|Leaf Blade|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|t:|1612607322
+|switch|p2a: Zarude|Zarude|32/100
+|-damage|p2a: Zarude|20/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1612607327
+|move|p2a: Zarude|Darkest Lariat|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|upkeep
+|
+|t:|1612607328
+|switch|p1a: Entei|Entei|53/100
+|-ability|p1a: Entei|Pressure
+|turn|32
+|
+|t:|1612607333
+|move|p1a: Entei|Extreme Speed|p2a: Zarude
+|-damage|p2a: Zarude|0 fnt
+|faint|p2a: Zarude
+|
+|win|jhgvbn
+|raw|jhgvbn's rating: 1430 &rarr; <strong>1437</strong><br />(+7 for winning)
+|raw|polar_geass's rating: 1157 &rarr; <strong>1148</strong><br />(-9 for losing)
+|l|☆jhgvbn

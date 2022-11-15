@@ -1,0 +1,384 @@
+|j|☆Big Daddy Mango
+|j|☆WellnessC
+|t:|1609406639
+|player|p1|Big Daddy Mango|biker-gen4|1112
+|player|p2|WellnessC|lenora|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Kabutops, F|
+|poke|p1|Alcremie, F|
+|poke|p1|Braviary, M|
+|poke|p1|Hitmontop, M|
+|poke|p1|Lycanroc, M|
+|poke|p1|Appletun, M|
+|poke|p2|Regigigas|
+|poke|p2|Absol, M|
+|poke|p2|Vespiquen, F|
+|poke|p2|Carracosta, M|
+|poke|p2|Boltund, M|
+|poke|p2|Sceptile, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Big Daddy Mango)
+|
+|t:|1609406645
+|start
+|switch|p1a: Lycanroc|Lycanroc, M|100/100
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|turn|1
+|
+|t:|1609406658
+|move|p2a: Sceptile|Leaf Blade|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-enditem|p1a: Lycanroc|Focus Sash
+|-damage|p1a: Lycanroc|1/100
+|move|p1a: Lycanroc|Endeavor|p2a: Sceptile
+|-damage|p2a: Sceptile|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1609406671
+|move|p1a: Lycanroc|Accelerock|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+|
+|t:|1609406674
+|switch|p2a: Carracosta|Carracosta, M|100/100
+|turn|3
+|
+|t:|1609406678
+|move|p2a: Carracosta|Aqua Jet|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|upkeep
+|
+|t:|1609406682
+|switch|p1a: Appletun|Appletun, M|100/100
+|turn|4
+|
+|t:|1609406685
+|switch|p2a: Vespiquen|Vespiquen, F|100/100
+|-ability|p2a: Vespiquen|Pressure
+|move|p1a: Appletun|Reflect|p1a: Appletun
+|-sidestart|p1: Big Daddy Mango|Reflect
+|
+|upkeep
+|turn|5
+|
+|t:|1609406692
+|move|p2a: Vespiquen|Toxic Spikes|p1a: Appletun
+|-sidestart|p1: Big Daddy Mango|move: Toxic Spikes
+|move|p1a: Appletun|Light Screen|p1a: Appletun
+|-sidestart|p1: Big Daddy Mango|move: Light Screen
+|
+|upkeep
+|turn|6
+|
+|t:|1609406701
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-status|p1a: Hitmontop|psn
+|move|p2a: Vespiquen|Infestation|p1a: Hitmontop
+|-resisted|p1a: Hitmontop
+|-damage|p1a: Hitmontop|99/100 psn
+|-activate|p1a: Hitmontop|move: Infestation|[of] p2a: Vespiquen
+|
+|-damage|p1a: Hitmontop|86/100 psn|[from] psn
+|-damage|p1a: Hitmontop|74/100 psn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1609406711
+|move|p2a: Vespiquen|Protect|p2a: Vespiquen
+|-singleturn|p2a: Vespiquen|Protect
+|move|p1a: Hitmontop|Triple Axel|p2a: Vespiquen
+|-activate|p2a: Vespiquen|move: Protect
+|
+|-damage|p1a: Hitmontop|61/100 psn|[from] psn
+|-damage|p1a: Hitmontop|49/100 psn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1609406721
+|move|p1a: Hitmontop|Rapid Spin|p2a: Vespiquen
+|-damage|p2a: Vespiquen|81/100
+|-boost|p1a: Hitmontop|spe|1
+|-sideend|p1: Big Daddy Mango|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|-end|p1a: Hitmontop|Infestation|[partiallytrapped]
+|-damage|p1a: Hitmontop|39/100 psn|[from] item: Life Orb
+|move|p2a: Vespiquen|Air Slash|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|9/100 psn
+|
+|-damage|p1a: Hitmontop|0 fnt|[from] psn
+|faint|p1a: Hitmontop
+|upkeep
+|
+|t:|1609406731
+|switch|p1a: Alcremie|Alcremie, F|100/100
+|turn|9
+|
+|t:|1609406741
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|move|p2a: Vespiquen|Infestation|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|99/100
+|-activate|p1a: Alcremie|move: Infestation|[of] p2a: Vespiquen
+|
+|-heal|p1a: Alcremie|100/100|[from] item: Leftovers
+|-damage|p1a: Alcremie|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1609406746
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|move|p2a: Vespiquen|Toxic Spikes|p1a: Alcremie
+|-sidestart|p1: Big Daddy Mango|move: Toxic Spikes
+|
+|-heal|p1a: Alcremie|94/100|[from] item: Leftovers
+|-damage|p1a: Alcremie|82/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|t:|1609406751
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|move|p2a: Vespiquen|Air Slash|p1a: Alcremie
+|-damage|p1a: Alcremie|79/100
+|
+|-heal|p1a: Alcremie|85/100|[from] item: Leftovers
+|-damage|p1a: Alcremie|73/100|[from] move: Infestation|[partiallytrapped]
+|-sideend|p1: Big Daddy Mango|Reflect
+|upkeep
+|turn|12
+|
+|t:|1609406766
+|move|p1a: Alcremie|Acid Armor|p1a: Alcremie
+|-boost|p1a: Alcremie|def|2
+|move|p2a: Vespiquen|Air Slash|p1a: Alcremie
+|-damage|p1a: Alcremie|70/100
+|
+|-heal|p1a: Alcremie|76/100|[from] item: Leftovers
+|-damage|p1a: Alcremie|64/100|[from] move: Infestation|[partiallytrapped]
+|-sideend|p1: Big Daddy Mango|move: Light Screen
+|upkeep
+|turn|13
+|
+|t:|1609406773
+|move|p1a: Alcremie|Draining Kiss|p2a: Vespiquen
+|-damage|p2a: Vespiquen|33/100
+|-heal|p1a: Alcremie|99/100|[from] drain|[of] p2a: Vespiquen
+|move|p2a: Vespiquen|Air Slash|p1a: Alcremie
+|-damage|p1a: Alcremie|95/100
+|
+|-heal|p1a: Alcremie|100/100|[from] item: Leftovers
+|-end|p1a: Alcremie|Infestation|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1609406782
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|move|p2a: Vespiquen|Infestation|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|99/100
+|-activate|p1a: Alcremie|move: Infestation|[of] p2a: Vespiquen
+|
+|-heal|p1a: Alcremie|100/100|[from] item: Leftovers
+|-damage|p1a: Alcremie|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1609406788
+|move|p2a: Vespiquen|Protect|p2a: Vespiquen
+|-singleturn|p2a: Vespiquen|Protect
+|move|p1a: Alcremie|Acid Armor|p1a: Alcremie
+|-boost|p1a: Alcremie|def|2
+|
+|-heal|p1a: Alcremie|94/100|[from] item: Leftovers
+|-damage|p1a: Alcremie|82/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1609406793
+|move|p1a: Alcremie|Draining Kiss|p2a: Vespiquen
+|-damage|p2a: Vespiquen|0 fnt
+|-heal|p1a: Alcremie|100/100|[from] drain|[of] p2a: Vespiquen
+|faint|p2a: Vespiquen
+|
+|-end|p1a: Alcremie|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|c|☆Big Daddy Mango|Good game
+|
+|t:|1609406797
+|switch|p2a: Absol|Absol, M|100/100
+|turn|17
+|
+|t:|1609406801
+|move|p2a: Absol|Iron Tail|p1a: Alcremie
+|-supereffective|p1a: Alcremie
+|-crit|p1a: Alcremie
+|-damage|p1a: Alcremie|0 fnt
+|faint|p1a: Alcremie
+|
+|upkeep
+|c|☆Big Daddy Mango|Lol
+|
+|t:|1609406815
+|switch|p1a: Appletun|Appletun, M|100/100
+|-status|p1a: Appletun|psn
+|turn|18
+|
+|t:|1609406822
+|switch|p2a: Regigigas|Regigigas|100/100
+|-start|p2a: Regigigas|ability: Slow Start
+|move|p1a: Appletun|Reflect|p1a: Appletun
+|-sidestart|p1: Big Daddy Mango|Reflect
+|
+|-damage|p1a: Appletun|88/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1609406833
+|move|p2a: Regigigas|Knock Off|p1a: Appletun
+|-damage|p1a: Appletun|79/100 psn
+|-enditem|p1a: Appletun|Light Clay|[from] move: Knock Off|[of] p2a: Regigigas
+|move|p1a: Appletun|Iron Defense|p1a: Appletun
+|-boost|p1a: Appletun|def|2
+|
+|-damage|p1a: Appletun|66/100 psn|[from] psn
+|upkeep
+|turn|20
+|inactive|WellnessC has 120 seconds left.
+|
+|t:|1609406864
+|-end|p2a: Regigigas|Slow Start|[silent]
+|switch|p2a: Absol|Absol, M|100/100
+|move|p1a: Appletun|Apple Acid|p2a: Absol
+|-damage|p2a: Absol|50/100
+|-unboost|p2a: Absol|spd|1
+|
+|-damage|p1a: Appletun|54/100 psn|[from] psn
+|upkeep
+|turn|21
+|inactive|WellnessC has 120 seconds left.
+|
+|t:|1609406876
+|move|p2a: Absol|Knock Off|p1a: Appletun
+|-damage|p1a: Appletun|46/100 psn
+|move|p1a: Appletun|Apple Acid|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|
+|-damage|p1a: Appletun|34/100 psn|[from] psn
+|upkeep
+|inactive|WellnessC has 120 seconds left.
+|
+|t:|1609406888
+|switch|p2a: Boltund|Boltund, M|100/100
+|turn|22
+|
+|t:|1609406894
+|move|p2a: Boltund|Psychic Fangs|p1a: Appletun
+|-sideend|p1: Big Daddy Mango|Reflect
+|-damage|p1a: Appletun|17/100 psn
+|move|p1a: Appletun|Light Screen|p1a: Appletun
+|-sidestart|p1: Big Daddy Mango|move: Light Screen
+|
+|-damage|p1a: Appletun|5/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1609406899
+|move|p2a: Boltund|Psychic Fangs|p1a: Appletun
+|-sideend|p1: Big Daddy Mango|move: Light Screen
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|upkeep
+|
+|t:|1609406902
+|switch|p1a: Braviary|Braviary, M|100/100
+|turn|24
+|
+|t:|1609406906
+|move|p1a: Braviary|U-turn|p2a: Boltund
+|-damage|p2a: Boltund|56/100
+|
+|t:|1609406908
+|switch|p1a: Kabutops|Kabutops, F, shiny|100/100|[from]move: U-turn
+|-status|p1a: Kabutops|psn
+|move|p2a: Boltund|Thunder Fang|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|5/100 psn
+|-ability|p1a: Kabutops|Weak Armor|boost
+|-unboost|p1a: Kabutops|def|1
+|-boost|p1a: Kabutops|spe|2
+|-enditem|p1a: Kabutops|Weakness Policy
+|-boost|p1a: Kabutops|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Kabutops|spa|2|[from] item: Weakness Policy
+|
+|-damage|p1a: Kabutops|0 fnt|[from] psn
+|faint|p1a: Kabutops
+|upkeep
+|
+|t:|1609406910
+|switch|p1a: Braviary|Braviary, M|100/100
+|turn|25
+|
+|t:|1609406918
+|move|p1a: Braviary|Close Combat|p2a: Boltund
+|-damage|p2a: Boltund|0 fnt
+|-unboost|p1a: Braviary|def|1
+|-unboost|p1a: Braviary|spd|1
+|faint|p2a: Boltund
+|
+|upkeep
+|
+|t:|1609406921
+|switch|p2a: Carracosta|Carracosta, M|100/100
+|turn|26
+|
+|t:|1609406924
+|move|p1a: Braviary|Close Combat|p2a: Carracosta
+|-supereffective|p2a: Carracosta
+|-damage|p2a: Carracosta|56/100
+|-unboost|p1a: Braviary|def|1
+|-unboost|p1a: Braviary|spd|1
+|move|p2a: Carracosta|Liquidation|p1a: Braviary
+|-damage|p1a: Braviary|7/100
+|
+|upkeep
+|turn|27
+|c|☆WellnessC|gg
+|
+|t:|1609406933
+|move|p2a: Carracosta|Aqua Jet|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|win|WellnessC
+|l|☆Big Daddy Mango
+|raw|Big Daddy Mango's rating: 1112 &rarr; <strong>1084</strong><br />(-28 for losing)
+|raw|WellnessC's rating: 1073 &rarr; <strong>1106</strong><br />(+33 for winning)

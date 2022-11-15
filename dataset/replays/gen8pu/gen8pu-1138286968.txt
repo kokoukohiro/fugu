@@ -1,0 +1,175 @@
+|j|☆Tbolt6Slashes
+|j|☆Gumboyball
+|player|p1|Tbolt6Slashes|emmet|
+|player|p2|Gumboyball|acetrainer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|Tournament battle
+|clearpoke
+|poke|p1|Kadabra, F|
+|poke|p1|Falinks|
+|poke|p1|Crustle, M|
+|poke|p1|Mienfoo, F|
+|poke|p1|Pikachu, F|
+|poke|p1|Dusknoir, M|
+|poke|p2|Musharna, F|
+|poke|p2|Meowstic, M|
+|poke|p2|Shiinotic, M|
+|poke|p2|Vibrava, M|
+|poke|p2|Wartortle, M|
+|poke|p2|Mawile, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gumboyball)
+|j| userneme
+|j| Blue Knees
+|j| xitrxA
+|j| scarf lanturn
+|
+|start
+|switch|p1a: Crustle|Crustle, M|100/100
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|turn|1
+|
+|switch|p1a: Mienfoo|Mienfoo, F|100/100
+|move|p2a: Vibrava|U-turn|p1a: Mienfoo
+|-resisted|p1a: Mienfoo
+|-damage|p1a: Mienfoo|79/100
+|
+|switch|p2a: Meowstic|Meowstic, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mienfoo|Fake Out|p2a: Meowstic
+|-damage|p2a: Meowstic|78/100
+|-damage|p1a: Mienfoo|69/100|[from] item: Life Orb
+|cant|p2a: Meowstic|flinch
+|
+|-heal|p2a: Meowstic|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|j| mega2527
+|c| userneme|hello
+|
+|move|p2a: Meowstic|Psyshock|p1a: Mienfoo
+|-supereffective|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|-heal|p2a: Meowstic|90/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Crustle|Crustle, M|100/100
+|turn|4
+|j| bigredmaschine
+|
+|switch|p2a: Mawile|Mawile, F|100/100
+|move|p1a: Crustle|Stealth Rock|p2a: Mawile
+|-sidestart|p2: Gumboyball|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Crustle|Earthquake|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|15/100
+|move|p2a: Mawile|Swords Dance|p2a: Mawile
+|-boost|p2a: Mawile|atk|2
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Mawile|Sucker Punch||[still]
+|-fail|p2a: Mawile
+|move|p1a: Crustle|Spikes|p2a: Mawile
+|-sidestart|p2: Gumboyball|Spikes
+|
+|upkeep
+|turn|7
+|l| Blue Knees
+|
+|move|p1a: Crustle|Earthquake|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|upkeep
+|
+|switch|p2a: Wartortle|Wartortle, M|100/100
+|-damage|p2a: Wartortle|88/100|[from] Spikes
+|-damage|p2a: Wartortle|76/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-item|p2a: Wartortle|White Herb|[from] ability: Frisk|[of] p1a: Dusknoir|[identify]
+|move|p2a: Wartortle|Shell Smash|p2a: Wartortle
+|-unboost|p2a: Wartortle|def|1
+|-unboost|p2a: Wartortle|spd|1
+|-boost|p2a: Wartortle|atk|2
+|-boost|p2a: Wartortle|spa|2
+|-boost|p2a: Wartortle|spe|2
+|-enditem|p2a: Wartortle|White Herb
+|-clearnegativeboost|p2a: Wartortle|[silent]
+|
+|upkeep
+|turn|9
+|j| finally understand
+|
+|move|p2a: Wartortle|Scald|p1a: Dusknoir
+|-damage|p1a: Dusknoir|38/100
+|move|p1a: Dusknoir|Toxic|p2a: Wartortle|[miss]
+|-miss|p1a: Dusknoir|p2a: Wartortle
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Dusknoir|Shadow Sneak|p2a: Wartortle
+|-damage|p2a: Wartortle|48/100
+|move|p2a: Wartortle|Scald|p1a: Dusknoir
+|-damage|p1a: Dusknoir|0 fnt
+|faint|p1a: Dusknoir
+|
+|upkeep
+|
+|switch|p1a: Pikachu|Pikachu, F|100/100
+|turn|11
+|
+|move|p1a: Pikachu|Fake Out|p2a: Wartortle
+|-damage|p2a: Wartortle|18/100
+|cant|p2a: Wartortle|flinch
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Pikachu|Extreme Speed|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|upkeep
+|
+|switch|p2a: Vibrava|Vibrava, M|100/100
+|-damage|p2a: Vibrava|94/100|[from] Stealth Rock
+|turn|13
+|l|☆Gumboyball
+|inactive|Gumboyball disconnected and has a minute to reconnect!
+|player|p2|
+|j| micromorphic ‽
+|inactive|Gumboyball has 30 seconds to reconnect!
+|inactive|Gumboyball has 20 seconds to reconnect!
+|inactive|Gumboyball has 15 seconds to reconnect!
+|inactive|Gumboyball has 10 seconds to reconnect!
+|inactive|Gumboyball has 5 seconds to reconnect!
+|c| userneme|gg?
+|-message|Gumboyball lost due to inactivity.
+|
+|win|Tbolt6Slashes

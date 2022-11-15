@@ -1,0 +1,752 @@
+|j|☆Haffling
+|j|☆MZ
+|t:|1665412330
+|gametype|singles
+|player|p1|Haffling|cyrus|
+|player|p2|MZ|#megazard|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Arctovish|
+|poke|p1|Gigalith, F|
+|poke|p1|Mesprit|
+|poke|p1|Eldegoss, F|
+|poke|p1|Scrafty, M|
+|poke|p1|Weezing, F|
+|poke|p2|Archeops, F|
+|poke|p2|Trevenant, F|
+|poke|p2|Gigalith, M|
+|poke|p2|Wishiwashi, M|
+|poke|p2|Togedemaru, M|
+|poke|p2|Whimsicott, M|
+|teampreview
+|c|☆Haffling|hf
+|c|☆MZ|u2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Haffling)
+|
+|t:|1665412357
+|start
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|switch|p2a: Archeops|Archeops, F|100/100
+|turn|1
+|
+|t:|1665412368
+|move|p2a: Archeops|U-turn|p1a: Scrafty
+|-damage|p1a: Scrafty|76/100
+|
+|t:|1665412372
+|switch|p2a: Wishiwashi|Wishiwashi, M|100/100|[from]move: U-turn
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p1a: Scrafty|Knock Off|p2a: Wishiwashi
+|-crit|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|70/100
+|-enditem|p2a: Wishiwashi|Leftovers|[from] move: Knock Off|[of] p1a: Scrafty
+|
+|-heal|p1a: Scrafty|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1665412379
+|move|p1a: Scrafty|Drain Punch|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|54/100
+|-heal|p1a: Scrafty|89/100|[from] drain|[of] p2a: Wishiwashi
+|move|p2a: Wishiwashi|U-turn|p1a: Scrafty
+|-damage|p1a: Scrafty|69/100
+|
+|t:|1665412386
+|switch|p2a: Whimsicott|Whimsicott, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Scrafty|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1665412394
+|switch|p1a: Weezing|Weezing, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Whimsicott|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|97/100
+|
+|t:|1665412419
+|switch|p2a: Wishiwashi|Wishiwashi, M|54/100|[from]move: U-turn
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1665412424
+|move|p1a: Weezing|Toxic Spikes|p2a: Wishiwashi
+|-sidestart|p2: MZ|move: Toxic Spikes
+|move|p2a: Wishiwashi|Rest|p2a: Wishiwashi
+|-status|p2a: Wishiwashi|slp|[from] move: Rest
+|-heal|p2a: Wishiwashi|100/100 slp|[silent]
+|
+|upkeep
+|turn|5
+|
+|t:|1665412430
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Arctovish|Arctovish|100/100
+|cant|p2a: Wishiwashi|slp
+|move|p2a: Wishiwashi|Sleep Talk|p2a: Wishiwashi
+|move|p2a: Wishiwashi|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Wishiwashi
+|
+|upkeep
+|turn|6
+|
+|t:|1665412435
+|move|p1a: Arctovish|Fishious Rend|p2a: Wishiwashi
+|-resisted|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|61/100 slp
+|cant|p2a: Wishiwashi|slp
+|move|p2a: Wishiwashi|Sleep Talk|p2a: Wishiwashi
+|move|p2a: Wishiwashi|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Wishiwashi
+|
+|upkeep
+|turn|7
+|
+|t:|1665412441
+|move|p1a: Arctovish|Fishious Rend|p2a: Wishiwashi
+|-resisted|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|20/100 slp
+|-curestatus|p2a: Wishiwashi|slp|[msg]
+|move|p2a: Wishiwashi|Rest|p2a: Wishiwashi
+|-status|p2a: Wishiwashi|slp|[from] move: Rest
+|-heal|p2a: Wishiwashi|100/100 slp|[silent]
+|
+|upkeep
+|turn|8
+|
+|t:|1665412445
+|move|p1a: Arctovish|Fishious Rend|p2a: Wishiwashi
+|-resisted|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|63/100 slp
+|cant|p2a: Wishiwashi|slp
+|move|p2a: Wishiwashi|Sleep Talk|p2a: Wishiwashi
+|move|p2a: Wishiwashi|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Wishiwashi
+|
+|upkeep
+|turn|9
+|
+|t:|1665412461
+|move|p1a: Arctovish|Fishious Rend|p2a: Wishiwashi
+|-resisted|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|23/100 slp
+|cant|p2a: Wishiwashi|slp
+|move|p2a: Wishiwashi|Sleep Talk|p2a: Wishiwashi
+|move|p2a: Wishiwashi|U-turn|p1a: Arctovish|[from]move: Sleep Talk
+|-damage|p1a: Arctovish|77/100
+|inactive|MZ has 270 seconds left.
+|
+|t:|1665412487
+|switch|p2a: Archeops|Archeops, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1665412494
+|switch|p1a: Eldegoss|Eldegoss, F|100/100
+|move|p2a: Archeops|U-turn|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|59/100
+|inactive|MZ has 270 seconds left.
+|
+|t:|1665412505
+|switch|p2a: Trevenant|Trevenant, F|100/100|[from]move: U-turn
+|-status|p2a: Trevenant|psn
+|
+|-damage|p2a: Trevenant|88/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1665412512
+|switch|p1a: Weezing|Weezing, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Trevenant|Poltergeist|p1a: Weezing
+|-activate|p1a: Weezing|move: Poltergeist|Black Sludge
+|-damage|p1a: Weezing|47/100
+|-damage|p2a: Trevenant|78/100 psn|[from] item: Life Orb
+|
+|-heal|p1a: Weezing|53/100|[from] item: Black Sludge
+|-damage|p2a: Trevenant|66/100 psn|[from] psn
+|upkeep
+|turn|12
+|inactive|MZ has 270 seconds left.
+|
+|t:|1665412553
+|switch|p2a: Togedemaru|Togedemaru, M|100/100
+|move|p1a: Weezing|Flamethrower|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|68/100
+|
+|-heal|p1a: Weezing|59/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1665412564
+|move|p2a: Togedemaru|Wish|p2a: Togedemaru
+|move|p1a: Weezing|Flamethrower|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|36/100
+|
+|-heal|p1a: Weezing|65/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1665412569
+|move|p2a: Togedemaru|Iron Head|p1a: Weezing
+|-damage|p1a: Weezing|46/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Togedemaru
+|-immune|p2a: Togedemaru
+|
+|-heal|p2a: Togedemaru|86/100|[from] move: Wish|[wisher] Togedemaru
+|-heal|p1a: Weezing|52/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1665412573
+|move|p2a: Togedemaru|Wish|p2a: Togedemaru
+|move|p1a: Weezing|Flamethrower|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|55/100
+|
+|-heal|p1a: Weezing|58/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1665412577
+|move|p2a: Togedemaru|Iron Head|p1a: Weezing
+|-damage|p1a: Weezing|40/100
+|cant|p1a: Weezing|flinch
+|
+|-heal|p2a: Togedemaru|100/100|[from] move: Wish|[wisher] Togedemaru
+|-heal|p1a: Weezing|46/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1665412582
+|move|p2a: Togedemaru|Wish|p2a: Togedemaru
+|move|p1a: Weezing|Pain Split|p2a: Togedemaru
+|-sethp|p2a: Togedemaru|74/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|72/100|[from] move: Pain Split
+|
+|-heal|p1a: Weezing|78/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1665412588
+|move|p2a: Togedemaru|Iron Head|p1a: Weezing
+|-damage|p1a: Weezing|59/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Togedemaru
+|-immune|p2a: Togedemaru
+|
+|-heal|p2a: Togedemaru|100/100|[from] move: Wish|[wisher] Togedemaru
+|-heal|p1a: Weezing|65/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1665412592
+|move|p2a: Togedemaru|Iron Head|p1a: Weezing
+|-damage|p1a: Weezing|45/100
+|move|p1a: Weezing|Flamethrower|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|68/100
+|
+|-heal|p1a: Weezing|51/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|j|+Wildfiree ❤
+|
+|t:|1665412603
+|move|p2a: Togedemaru|Wish|p2a: Togedemaru
+|move|p1a: Weezing|Flamethrower|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|36/100
+|
+|-heal|p1a: Weezing|57/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1665412613
+|move|p2a: Togedemaru|Spiky Shield|p2a: Togedemaru
+|-singleturn|p2a: Togedemaru|move: Protect
+|move|p1a: Weezing|Flamethrower|p2a: Togedemaru
+|-activate|p2a: Togedemaru|move: Protect
+|
+|-heal|p2a: Togedemaru|86/100|[from] move: Wish|[wisher] Togedemaru
+|-heal|p1a: Weezing|63/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1665412621
+|move|p2a: Togedemaru|Iron Head|p1a: Weezing
+|-damage|p1a: Weezing|44/100
+|cant|p1a: Weezing|flinch
+|
+|-heal|p1a: Weezing|50/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|t:|1665412636
+|move|p2a: Togedemaru|Spiky Shield|p2a: Togedemaru
+|-singleturn|p2a: Togedemaru|move: Protect
+|move|p1a: Weezing|Pain Split|p2a: Togedemaru
+|-activate|p2a: Togedemaru|move: Protect
+|
+|-heal|p1a: Weezing|56/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|t:|1665412644
+|move|p2a: Togedemaru|Iron Head|p1a: Weezing
+|-damage|p1a: Weezing|36/100
+|move|p1a: Weezing|Flamethrower|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|53/100
+|-status|p2a: Togedemaru|brn
+|
+|-heal|p1a: Weezing|42/100|[from] item: Black Sludge
+|-damage|p2a: Togedemaru|46/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1665412652
+|move|p2a: Togedemaru|Wish|p2a: Togedemaru
+|move|p1a: Weezing|Flamethrower|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|13/100 brn
+|
+|-heal|p1a: Weezing|48/100|[from] item: Black Sludge
+|-damage|p2a: Togedemaru|7/100 brn|[from] brn
+|upkeep
+|turn|26
+|inactive|MZ has 270 seconds left.
+|
+|t:|1665412692
+|move|p2a: Togedemaru|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|46/100
+|
+|t:|1665412695
+|switch|p2a: Archeops|Archeops, F|100/100|[from]move: U-turn
+|move|p1a: Weezing|Sludge Bomb|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|76/100
+|
+|-heal|p2a: Archeops|100/100|[from] move: Wish|[wisher] Togedemaru
+|-heal|p1a: Weezing|52/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|t:|1665412702
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Eldegoss|Eldegoss, F|92/100
+|move|p2a: Archeops|U-turn|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|49/100
+|
+|t:|1665412711
+|switch|p2a: Trevenant|Trevenant, F|66/100 psn|[from]move: U-turn
+|
+|-damage|p2a: Trevenant|53/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1665412736
+|switch|p1a: Scrafty|Scrafty, M|75/100
+|move|p2a: Trevenant|Horn Leech|p1a: Scrafty
+|-damage|p1a: Scrafty|29/100
+|-heal|p2a: Trevenant|77/100 psn|[from] drain|[of] p1a: Scrafty
+|-damage|p2a: Trevenant|67/100 psn|[from] item: Life Orb
+|
+|-heal|p1a: Scrafty|35/100|[from] item: Leftovers
+|-damage|p2a: Trevenant|55/100 psn|[from] psn
+|upkeep
+|turn|29
+|inactive|MZ has 270 seconds left.
+|
+|t:|1665412759
+|move|p2a: Trevenant|Horn Leech|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|-heal|p2a: Trevenant|73/100 psn|[from] drain|[of] p1a: Scrafty
+|faint|p1a: Scrafty
+|-damage|p2a: Trevenant|63/100 psn|[from] item: Life Orb
+|
+|-damage|p2a: Trevenant|51/100 psn|[from] psn
+|upkeep
+|
+|t:|1665412762
+|switch|p1a: Mesprit|Mesprit|100/100
+|turn|30
+|inactive|MZ has 270 seconds left.
+|
+|t:|1665412796
+|-curestatus|p2a: Trevenant|psn|[from] ability: Natural Cure
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-status|p2a: Gigalith|psn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Mesprit|Psychic|p2a: Gigalith
+|-damage|p2a: Gigalith|79/100 psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mesprit|95/100|[from] Sandstorm
+|-heal|p2a: Gigalith|85/100 psn|[from] item: Leftovers
+|-damage|p2a: Gigalith|72/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1665412812
+|move|p1a: Mesprit|U-turn|p2a: Gigalith
+|-damage|p2a: Gigalith|62/100 psn
+|
+|t:|1665412814
+|switch|p1a: Gigalith|Gigalith, F|100/100|[from]move: U-turn
+|move|p2a: Gigalith|Stealth Rock|p1a: Gigalith
+|-sidestart|p1: Haffling|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|68/100 psn|[from] item: Leftovers
+|-damage|p2a: Gigalith|56/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1665412829
+|switch|p2a: Trevenant|Trevenant, F|51/100
+|-status|p2a: Trevenant|psn
+|move|p1a: Gigalith|Stealth Rock|p2a: Trevenant
+|-sidestart|p2: MZ|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Trevenant|44/100 psn|[from] Sandstorm
+|-damage|p2a: Trevenant|32/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1665412840
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Trevenant|Poltergeist|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Trevenant|26/100 psn|[from] Sandstorm
+|-damage|p2a: Trevenant|14/100 psn|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1665412852
+|switch|p1a: Weezing|Weezing, F|52/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-damage|p1a: Weezing|39/100|[from] Stealth Rock
+|move|p2a: Trevenant|Horn Leech|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|21/100
+|-heal|p2a: Trevenant|23/100 psn|[from] drain|[of] p1a: Weezing
+|-damage|p2a: Trevenant|13/100 psn|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1a: Weezing|27/100|[from] item: Black Sludge
+|-damage|p2a: Trevenant|1/100 psn|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1665412865
+|move|p2a: Trevenant|Poltergeist|p1a: Weezing
+|-activate|p1a: Weezing|move: Poltergeist|Black Sludge
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-damage|p2a: Trevenant|0 fnt|[from] item: Life Orb
+|faint|p2a: Trevenant
+|
+|upkeep
+|
+|t:|1665412873
+|switch|p2a: Archeops|Archeops, F|100/100
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|-damage|p1a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|36
+|
+|t:|1665412876
+|move|p2a: Archeops|U-turn|p1a: Gigalith
+|-damage|p1a: Gigalith|70/100
+|inactive|MZ has 270 seconds left.
+|
+|t:|1665412891
+|switch|p2a: Togedemaru|Togedemaru, M|7/100 brn|[from]move: U-turn
+|-damage|p2a: Togedemaru|0 fnt|[from] Stealth Rock
+|faint|p2a: Togedemaru
+|move|p1a: Gigalith|Rock Blast|p2: Togedemaru|[notarget]
+|-fail|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|76/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1665412909
+|switch|p2a: Wishiwashi|Wishiwashi, M|23/100 slp
+|-damage|p2a: Wishiwashi|11/100 slp|[from] Stealth Rock
+|turn|37
+|
+|t:|1665412915
+|move|p1a: Gigalith|Earthquake|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|0 fnt
+|faint|p2a: Wishiwashi
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|82/100|[from] item: Leftovers
+|upkeep
+|c|☆MZ|do u creep that?
+|c|☆Haffling|no
+|c|☆MZ|am i dumb
+|c|☆MZ|oh it's -spe
+|inactive|MZ has 240 seconds left.
+|c|☆MZ|frick
+|inactive|MZ has 210 seconds left.
+|c|☆Haffling|it should outspeed at 30 ivs - nature tho in single
+|c|☆MZ|im 0 IVs
+|c|☆MZ|no clue why at all
+|c|☆MZ|dont remmeber doing anything like that
+|inactive|MZ has 180 seconds left.
+|
+|t:|1665413003
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|38
+|c|☆Haffling|to have a slower utrun then the 30 ivs ig
+|l|+Wildfiree ❤
+|c|☆MZ|yeah but
+|c|☆MZ|not worth lol
+|
+|t:|1665413012
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Whimsicott|Knock Off|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Whimsicott|94/100|[from] Sandstorm
+|-heal|p1a: Gigalith|88/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|c|☆MZ|silly way to lose this one
+|c|☆Haffling|yea i defo dont go lower then 30
+|
+|t:|1665413038
+|switch|p1a: Mesprit|Mesprit|95/100
+|-damage|p1a: Mesprit|82/100|[from] Stealth Rock
+|move|p2a: Whimsicott|Knock Off|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-enditem|p1a: Mesprit|Colbur Berry|[eat]
+|-enditem|p1a: Mesprit|Colbur Berry|[weaken]
+|-damage|p1a: Mesprit|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Whimsicott|88/100|[from] Sandstorm
+|-damage|p1a: Mesprit|59/100|[from] Sandstorm
+|upkeep
+|turn|40
+|
+|t:|1665413048
+|move|p2a: Whimsicott|U-turn|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|36/100
+|
+|t:|1665413050
+|switch|p2a: Gigalith|Gigalith, M|56/100 psn|[from]move: U-turn
+|-damage|p2a: Gigalith|44/100 psn|[from] Stealth Rock
+|move|p1a: Mesprit|Psychic|p2a: Gigalith
+|-damage|p2a: Gigalith|24/100 psn
+|
+|-weather|none
+|-heal|p2a: Gigalith|30/100 psn|[from] item: Leftovers
+|-damage|p2a: Gigalith|18/100 psn|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1665413060
+|move|p1a: Mesprit|Healing Wish|p1a: Mesprit
+|faint|p1a: Mesprit
+|move|p2a: Gigalith|Rock Blast|p1: Mesprit|[notarget]
+|-fail|p2a: Gigalith
+|
+|-heal|p2a: Gigalith|24/100 psn|[from] item: Leftovers
+|-damage|p2a: Gigalith|12/100 psn|[from] psn
+|upkeep
+|inactive|Haffling has 270 seconds left.
+|
+|t:|1665413089
+|switch|p1a: Eldegoss|Eldegoss, F|83/100
+|-heal|p1a: Eldegoss|100/100|[from] move: Healing Wish
+|turn|42
+|
+|t:|1665413098
+|switch|p2a: Whimsicott|Whimsicott, M|88/100
+|move|p1a: Eldegoss|Giga Drain|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|74/100
+|
+|upkeep
+|turn|43
+|
+|t:|1665413110
+|move|p2a: Whimsicott|Moonblast|p1a: Eldegoss
+|-damage|p1a: Eldegoss|78/100
+|move|p1a: Eldegoss|Rapid Spin|p2a: Whimsicott
+|-damage|p2a: Whimsicott|67/100
+|-boost|p1a: Eldegoss|spe|1
+|-sideend|p1: Haffling|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|
+|upkeep
+|turn|44
+|
+|t:|1665413115
+|move|p2a: Whimsicott|Moonblast|p1a: Eldegoss
+|-crit|p1a: Eldegoss
+|-damage|p1a: Eldegoss|42/100
+|move|p1a: Eldegoss|Rapid Spin|p2a: Whimsicott
+|-damage|p2a: Whimsicott|59/100
+|-boost|p1a: Eldegoss|spe|1
+|
+|upkeep
+|turn|45
+|inactive|MZ has 240 seconds left.
+|
+|t:|1665413120
+|move|p2a: Whimsicott|Moonblast|p1a: Eldegoss
+|-damage|p1a: Eldegoss|18/100
+|move|p1a: Eldegoss|Giga Drain|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|45/100
+|-heal|p1a: Eldegoss|25/100|[from] drain|[of] p2a: Whimsicott
+|
+|upkeep
+|turn|46
+|
+|t:|1665413139
+|switch|p1a: Arctovish|Arctovish|77/100
+|move|p2a: Whimsicott|Knock Off|p1a: Arctovish
+|-damage|p1a: Arctovish|62/100
+|-enditem|p1a: Arctovish|Choice Band|[from] move: Knock Off|[of] p2a: Whimsicott
+|
+|upkeep
+|turn|47
+|
+|t:|1665413145
+|move|p2a: Whimsicott|U-turn|p1a: Arctovish
+|-damage|p1a: Arctovish|51/100
+|
+|t:|1665413146
+|switch|p2a: Gigalith|Gigalith, M|12/100 psn|[from]move: U-turn
+|-damage|p2a: Gigalith|0 fnt|[from] Stealth Rock
+|faint|p2a: Gigalith
+|move|p1a: Arctovish|Icicle Crash|p2: Gigalith|[notarget]
+|-fail|p1a: Arctovish
+|
+|upkeep
+|
+|t:|1665413147
+|switch|p2a: Archeops|Archeops, F|100/100
+|turn|48
+|
+|t:|1665413150
+|move|p2a: Archeops|Stone Edge|p1a: Arctovish|[miss]
+|-miss|p2a: Archeops|p1a: Arctovish
+|move|p1a: Arctovish|Fishious Rend|p2a: Archeops
+|-supereffective|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|upkeep
+|c|☆MZ|ah damn
+|inactive|MZ has 270 seconds left.
+|c|☆MZ|well gg
+|
+|t:|1665413157
+|switch|p2a: Whimsicott|Whimsicott, M|45/100
+|turn|49
+|
+|t:|1665413161
+|move|p2a: Whimsicott|Moonblast|p1a: Arctovish
+|-damage|p1a: Arctovish|19/100
+|move|p1a: Arctovish|Fishious Rend|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|22/100
+|
+|upkeep
+|turn|50
+|
+|t:|1665413172
+|move|p2a: Whimsicott|Moonblast|p1a: Arctovish
+|-damage|p1a: Arctovish|0 fnt
+|faint|p1a: Arctovish
+|
+|upkeep
+|
+|t:|1665413175
+|switch|p1a: Eldegoss|Eldegoss, F|59/100
+|turn|51
+|
+|t:|1665413183
+|move|p2a: Whimsicott|Moonblast|p1a: Eldegoss
+|-damage|p1a: Eldegoss|34/100
+|-unboost|p1a: Eldegoss|spa|1
+|move|p1a: Eldegoss|Giga Drain|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|12/100
+|-heal|p1a: Eldegoss|39/100|[from] drain|[of] p2a: Whimsicott
+|
+|upkeep
+|turn|52
+|c|☆Haffling|gg
+|
+|t:|1665413188
+|move|p2a: Whimsicott|Moonblast|p1a: Eldegoss
+|-damage|p1a: Eldegoss|15/100
+|move|p1a: Eldegoss|Giga Drain|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|3/100
+|-heal|p1a: Eldegoss|20/100|[from] drain|[of] p2a: Whimsicott
+|
+|upkeep
+|turn|53
+|
+|t:|1665413191
+|move|p2a: Whimsicott|Moonblast|p1a: Eldegoss
+|-crit|p1a: Eldegoss
+|-damage|p1a: Eldegoss|0 fnt
+|faint|p1a: Eldegoss
+|
+|upkeep
+|
+|t:|1665413194
+|switch|p1a: Gigalith|Gigalith, F|88/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|54
+|
+|t:|1665413199
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Whimsicott|Defog|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Whimsicott|0 fnt|[from] Sandstorm
+|faint|p2a: Whimsicott
+|
+|win|Haffling
+|upkeep

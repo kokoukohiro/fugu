@@ -1,0 +1,197 @@
+|j|☆Commander 7.0
+|j|☆Lnua
+|player|p1|Commander 7.0|102|1385
+|player|p2|Lnua|misty-gen2|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Haxorus, M|
+|poke|p1|Golisopod, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Passimian, M|
+|poke|p1|Bronzong|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Noivern, M|
+|poke|p2|Rhyperior, F|
+|poke|p2|Sylveon, F|
+|poke|p2|Reuniclus, F|
+|poke|p2|Milotic, M|
+|poke|p2|Cobalion|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Commander 7.0)
+|inactive|Lnua has 120 seconds left.
+|inactive|Lnua has 90 seconds left.
+|
+|start
+|switch|p1a: Passimian|Passimian, M|100/100
+|switch|p2a: yawn|Sylveon, F|100/100
+|turn|1
+|
+|move|p1a: Passimian|U-turn|p2a: yawn
+|-resisted|p2a: yawn
+|-damage|p2a: yawn|91/100
+|
+|switch|p1a: Bronzong|Bronzong|100/100|[from]move: U-turn
+|move|p2a: yawn|Hyper Voice|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|88/100
+|
+|-heal|p2a: yawn|97/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|95/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|move|p1a: Bronzong|Toxic|p2a: Cobalion
+|-immune|p2a: Cobalion
+|
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Passimian|Passimian, M|100/100
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: yawn|Sylveon, F|97/100
+|move|p1a: Passimian|Close Combat|p2a: yawn
+|-resisted|p2a: yawn
+|-damage|p2a: yawn|71/100
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|
+|-heal|p2a: yawn|77/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|switch|p2a: Cobalion|Cobalion|100/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|move|p1a: Weezing|Fire Blast|p2a: Reuniclus
+|-damage|p2a: Reuniclus|88/100
+|
+|upkeep
+|turn|7
+|inactive|Commander 7.0 has 120 seconds left.
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Reuniclus|Knock Off|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|73/100
+|-enditem|p1a: Bronzong|Leftovers|[from] move: Knock Off|[of] p2a: Reuniclus
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|move|p1a: Bronzong|Stealth Rock|p2a: Cobalion
+|-sidestart|p2: Lnua|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Passimian|Passimian, M|100/100
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Passimian|Knock Off|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|86/100
+|-ability|p2a: Cobalion|Justified|boost
+|-boost|p2a: Cobalion|atk|1
+|-enditem|p2a: Cobalion|Leftovers|[from] move: Knock Off|[of] p1a: Passimian
+|move|p2a: Cobalion|Close Combat|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|faint|p1a: Passimian
+|
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, M|100/100
+|turn|11
+|
+|move|p2a: Cobalion|Iron Head|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|70/100
+|cant|p1a: Golisopod|flinch
+|
+|upkeep
+|turn|12
+|j| foode
+|
+|move|p2a: Cobalion|Iron Head|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|40/100
+|-activate|p1a: Golisopod|ability: Emergency Exit
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|
+|upkeep
+|turn|13
+|c| foode|don't u win
+|c| foode|or is he scarf
+|c|☆Lnua|no I lost
+|c|☆Lnua|scarf lol
+|c| foode|how did u lose
+|c|☆Lnua|so coba won
+|c|☆Lnua|I went coba first
+|inactive|Lnua has 120 seconds left.
+|c| foode|I'm talking about this game
+|c| foode|not last game
+|c|☆Lnua|oh this game
+|c|☆Lnua|I'm still playing
+|c| foode|...
+|
+|move|p2a: Cobalion|Close Combat|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|faint|p1a: Haxorus
+|
+|upkeep
+|c| foode|That's why I'm asking
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|turn|14
+|c| foode|don't u just
+|c| foode|win
+|c|☆Lnua|ohhh
+|c|☆Lnua|sorry read it as didn't you
+|c|☆Lnua|yes
+|
+|move|p2a: Cobalion|Iron Head|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|c| foode|silly luna pie
+|c| foode|x3
+|-message|Commander 7.0 forfeited.
+|
+|win|Lnua
+|c|☆Lnua|a fool!
+|l|☆Commander 7.0

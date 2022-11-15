@@ -1,0 +1,430 @@
+|j|‽ABSENCEOFSWITCHINS
+|j|☆dragon124
+|player|p1|ABSENCEOFSWITCHINS|265|1339
+|player|p2|dragon124|1|1208
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Dhelmise|
+|poke|p1|Slowpoke, F|
+|poke|p1|Pincurchin, F|
+|poke|p1|Wishiwashi, F|
+|poke|p1|Porygon2|
+|poke|p1|Drampa, F|
+|poke|p2|Vaporeon, F|
+|poke|p2|Exeggutor-Alola, M|
+|poke|p2|Machamp, F|
+|poke|p2|Porygon2|
+|poke|p2|Xatu, F|
+|poke|p2|Rhydon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Slowpoke|Slowpoke, F, shiny|100/100
+|switch|p2a: Exeggutor|Exeggutor-Alola, M|100/100
+|-item|p1a: Slowpoke|Eviolite|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|turn|1
+|
+|switch|p1a: Porygon2|Porygon2, shiny|100/100
+|-ability|p1a: Porygon2|Frisk|[from] ability: Trace|[of] p2a: Exeggutor
+|-item|p2a: Exeggutor|Choice Specs|[from] ability: Frisk|[of] p1a: Porygon2|[identify]
+|move|p2a: Exeggutor|Draco Meteor|p1a: Porygon2
+|-damage|p1a: Porygon2|54/100
+|-unboost|p2a: Exeggutor|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rhydon|Rhydon, F|100/100
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Dhelmise|Dhelmise, shiny|100/100
+|move|p2a: Rhydon|Swords Dance|p2a: Rhydon
+|-boost|p2a: Rhydon|atk|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Dhelmise|Swords Dance|p1a: Dhelmise
+|-boost|p1a: Dhelmise|atk|2
+|move|p2a: Rhydon|Rock Blast|p1a: Dhelmise
+|-damage|p1a: Dhelmise|76/100
+|-damage|p1a: Dhelmise|52/100
+|-damage|p1a: Dhelmise|25/100
+|-hitcount|p1a: Dhelmise|3
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Dhelmise|Power Whip|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|-damage|p1a: Dhelmise|15/100|[from] item: Life Orb
+|faint|p2a: Rhydon
+|
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, F|100/100
+|turn|6
+|
+|switch|p1a: Slowpoke|Slowpoke, F, shiny|100/100
+|move|p2a: Machamp|Bullet Punch|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|97/100
+|
+|-fieldend|move: Trick Room
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|move|p2a: Machamp|Knock Off|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|35/100
+|-enditem|p1a: Slowpoke|Eviolite|[from] move: Knock Off|[of] p2a: Machamp
+|move|p1a: Slowpoke|Trick Room|p1a: Slowpoke
+|-fieldstart|move: Trick Room|[of] p1a: Slowpoke
+|
+|-damage|p2a: Machamp|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Regenerator|[from] ability: Trace|[of] p1a: Slowpoke
+|move|p1a: Slowpoke|Scald|p2a: Porygon2
+|-damage|p2a: Porygon2|93/100
+|-status|p2a: Porygon2|brn
+|
+|-damage|p2a: Porygon2|87/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Pincurchin|Pincurchin, F, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Porygon2|Ice Beam|p1a: Pincurchin
+|-damage|p1a: Pincurchin|65/100
+|
+|-damage|p2a: Porygon2|81/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Pincurchin|Rising Voltage|p2a: Porygon2
+|-damage|p2a: Porygon2|30/100 brn
+|-damage|p1a: Pincurchin|55/100|[from] item: Life Orb
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|80/100 brn
+|
+|-damage|p2a: Porygon2|74/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Porygon2|Porygon2, shiny|54/100
+|-ability|p1a: Porygon2|Regenerator|[from] ability: Trace|[of] p2a: Porygon2
+|move|p2a: Porygon2|Teleport|p2a: Porygon2
+|
+|switch|p2a: Machamp|Machamp, F|94/100 brn|[from]move: Teleport
+|
+|-damage|p2a: Machamp|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|switch|p1a: Wishiwashi|Wishiwashi, F, shiny|100/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p2a: Machamp|Close Combat|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|1/100
+|-unboost|p2a: Machamp|def|1
+|-unboost|p2a: Machamp|spd|1
+|
+|-damage|p2a: Machamp|82/100 brn|[from] brn
+|-formechange|p1a: Wishiwashi|Wishiwashi||[from] ability: Schooling
+|upkeep
+|turn|13
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Wishiwashi
+|-resisted|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|0 fnt
+|faint|p1a: Wishiwashi
+|
+|-damage|p2a: Machamp|76/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Slowpoke|Slowpoke, F, shiny|68/100
+|turn|14
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Slowpoke|Trick Room|p1a: Slowpoke
+|-fieldstart|move: Trick Room|[of] p1a: Slowpoke
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Slowpoke|Teleport|p1a: Slowpoke
+|
+|switch|p1a: Pincurchin|Pincurchin, F, shiny|55/100|[from]move: Teleport
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Dhelmise|Dhelmise, shiny|15/100
+|switch|p2a: Exeggutor|Exeggutor-Alola, M|100/100
+|-item|p1a: Dhelmise|Life Orb|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Dhelmise|Steel Roller|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|-fieldend|move: Electric Terrain
+|-damage|p1a: Dhelmise|5/100|[from] item: Life Orb
+|faint|p2a: Exeggutor
+|
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, F|76/100 brn
+|turn|18
+|
+|switch|p1a: Slowpoke|Slowpoke, F, shiny|100/100
+|move|p2a: Machamp|Bullet Punch|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|90/100
+|
+|-damage|p2a: Machamp|69/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|
+|move|p2a: Machamp|Knock Off|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|22/100
+|move|p1a: Slowpoke|Trick Room|p1a: Slowpoke
+|-fieldstart|move: Trick Room|[of] p1a: Slowpoke
+|
+|-damage|p2a: Machamp|63/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Dhelmise|Dhelmise, shiny|5/100
+|move|p2a: Machamp|Knock Off|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|-enditem|p1a: Dhelmise|Life Orb|[from] move: Knock Off|[of] p2a: Machamp
+|faint|p1a: Dhelmise
+|
+|-damage|p2a: Machamp|57/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Pincurchin|Pincurchin, F, shiny|55/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|21
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Pincurchin|Rising Voltage|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-damage|p1a: Pincurchin|46/100|[from] item: Life Orb
+|faint|p2a: Xatu
+|
+|upkeep
+|
+|switch|p2a: Porygon2|Porygon2|100/100 brn
+|-ability|p2a: Porygon2|Electric Surge|[from] ability: Trace|[of] p1a: Pincurchin
+|turn|22
+|
+|switch|p1a: Slowpoke|Slowpoke, F, shiny|56/100
+|move|p2a: Porygon2|Recover||[still]
+|-fail|p2a: Porygon2|heal
+|
+|-damage|p2a: Porygon2|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p1a: Porygon2|Porygon2, shiny|87/100
+|-ability|p1a: Porygon2|Electric Surge|[from] ability: Trace|[of] p2a: Porygon2
+|move|p2a: Porygon2|Teleport|p2a: Porygon2
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100|[from]move: Teleport
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|24
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Vaporeon|Flip Turn|p1a: Porygon2
+|-damage|p1a: Porygon2|78/100
+|
+|switch|p2a: Machamp|Machamp, F|57/100 brn|[from]move: Flip Turn
+|move|p1a: Porygon2|Teleport|p1a: Porygon2
+|
+|switch|p1a: Drampa|Drampa, F, shiny|100/100|[from]move: Teleport
+|
+|-heal|p2a: Machamp|100/100 brn|[from] move: Wish|[wisher] Vaporeon
+|-damage|p2a: Machamp|94/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|26
+|
+|switch|p2a: Porygon2|Porygon2|94/100 brn
+|-ability|p2a: Porygon2|Sap Sipper|[from] ability: Trace|[of] p1a: Drampa
+|move|p1a: Drampa|Draco Meteor|p2a: Porygon2
+|-damage|p2a: Porygon2|43/100 brn
+|-unboost|p1a: Drampa|spa|2
+|
+|-damage|p2a: Porygon2|37/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Drampa|Draco Meteor|p2a: Porygon2
+|-damage|p2a: Porygon2|7/100 brn
+|-unboost|p1a: Drampa|spa|2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|57/100 brn
+|
+|-damage|p2a: Porygon2|50/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|switch|p1a: Slowpoke|Slowpoke, F, shiny|89/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100 brn
+|
+|-damage|p2a: Porygon2|94/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|29
+|j| nM_SAVAGE
+|
+|switch|p1a: Porygon2|Porygon2, shiny|78/100
+|-ability|p1a: Porygon2|Sap Sipper|[from] ability: Trace|[of] p2a: Porygon2
+|move|p2a: Porygon2|Teleport|p2a: Porygon2
+|
+|switch|p2a: Machamp|Machamp, F|94/100 brn|[from]move: Teleport
+|
+|-damage|p2a: Machamp|88/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Machamp|Knock Off|p1a: Porygon2
+|-damage|p1a: Porygon2|42/100
+|-enditem|p1a: Porygon2|Eviolite|[from] move: Knock Off|[of] p2a: Machamp
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|-damage|p2a: Machamp|82/100 brn|[from] brn
+|upkeep
+|turn|31
+|j| Burger King CEO
+|
+|move|p2a: Machamp|Facade|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|-damage|p2a: Machamp|76/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Pincurchin|Pincurchin, F, shiny|46/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|32
+|
+|switch|p2a: Porygon2|Porygon2|94/100 brn
+|-ability|p2a: Porygon2|Electric Surge|[from] ability: Trace|[of] p1a: Pincurchin
+|move|p1a: Pincurchin|Rising Voltage|p2a: Porygon2
+|-damage|p2a: Porygon2|38/100 brn
+|-damage|p1a: Pincurchin|36/100|[from] item: Life Orb
+|
+|-damage|p2a: Porygon2|32/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Pincurchin|Rising Voltage|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-damage|p1a: Pincurchin|26/100|[from] item: Life Orb
+|faint|p2a: Vaporeon
+|
+|upkeep
+|
+|switch|p2a: Porygon2|Porygon2|32/100 brn
+|-ability|p2a: Porygon2|Electric Surge|[from] ability: Trace|[of] p1a: Pincurchin
+|turn|34
+|
+|move|p1a: Pincurchin|Rising Voltage|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|-damage|p1a: Pincurchin|17/100|[from] item: Life Orb
+|faint|p2a: Porygon2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, F|76/100 brn
+|turn|35
+|
+|move|p1a: Pincurchin|Sucker Punch|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|59/100 brn
+|-damage|p1a: Pincurchin|7/100|[from] item: Life Orb
+|move|p2a: Machamp|Knock Off|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|-enditem|p1a: Pincurchin|Life Orb|[from] move: Knock Off|[of] p2a: Machamp
+|faint|p1a: Pincurchin
+|
+|-damage|p2a: Machamp|53/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Slowpoke|Slowpoke, F, shiny|100/100
+|turn|36
+|
+|move|p2a: Machamp|Knock Off|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|40/100
+|move|p1a: Slowpoke|Trick Room|p1a: Slowpoke
+|-fieldstart|move: Trick Room|[of] p1a: Slowpoke
+|
+|-damage|p2a: Machamp|47/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|37
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ABSENCEOFSWITCHINS)
+|
+|move|p1a: Slowpoke|Scald|p2a: Machamp
+|-damage|p2a: Machamp|32/100 brn
+|move|p2a: Machamp|Knock Off|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|
+|-damage|p2a: Machamp|25/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Drampa|Drampa, F, shiny|100/100
+|turn|38
+|
+|move|p1a: Drampa|Hyper Voice|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|win|ABSENCEOFSWITCHINS

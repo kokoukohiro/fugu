@@ -1,0 +1,609 @@
+|j|☆Sneakyplanner
+|j|☆v1olette2
+|t:|1661299755
+|gametype|singles
+|player|p1|Sneakyplanner|rocketgruntf|1341
+|player|p2|v1olette2|266|1344
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Jirachi|
+|poke|p1|Amoonguss, F|
+|poke|p1|Lycanroc-Dusk, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Swampert, M|
+|poke|p1|Moltres|
+|poke|p2|Azelf|
+|poke|p2|Hydreigon, F|
+|poke|p2|Celebi|
+|poke|p2|Skarmory, M|
+|poke|p2|Chansey, F|
+|poke|p2|Swampert, M|
+|teampreview
+|
+|t:|1661299779
+|start
+|switch|p1a: Breloomish|Amoonguss, F|100/100
+|switch|p2a: Celebi|Celebi|100/100
+|turn|1
+|
+|t:|1661299786
+|switch|p1a: Buzby|Mandibuzz, F|100/100
+|move|p2a: Celebi|Future Sight|p1a: Buzby
+|-start|p2a: Celebi|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|t:|1661299801
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Buzby|U-turn|p2a: Chansey
+|-damage|p2a: Chansey|93/100
+|
+|t:|1661299805
+|switch|p1a: Jirachi|Jirachi|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1661299823
+|move|p1a: Jirachi|U-turn|p2a: Chansey
+|-damage|p2a: Chansey|79/100
+|
+|t:|1661299827
+|switch|p1a: Buzby|Mandibuzz, F|100/100|[from]move: U-turn
+|move|p2a: Chansey|Teleport|p2a: Chansey
+|
+|t:|1661299848
+|switch|p2a: Swampert|Swampert, M|100/100|[from]move: Teleport
+|
+|-end|p1a: Buzby|move: Future Sight
+|-immune|p1a: Buzby
+|upkeep
+|turn|4
+|
+|t:|1661299854
+|move|p1a: Buzby|Knock Off|p2a: Swampert
+|-damage|p2a: Swampert|85/100
+|-enditem|p2a: Swampert|Leftovers|[from] move: Knock Off|[of] p1a: Buzby
+|move|p2a: Swampert|Stealth Rock|p1a: Buzby
+|-sidestart|p1: Sneakyplanner|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1661299860
+|move|p1a: Buzby|Defog|p2a: Swampert
+|-unboost|p2a: Swampert|evasion|1
+|-sideend|p1: Sneakyplanner|Stealth Rock|[from] move: Defog|[of] p1a: Buzby
+|move|p2a: Swampert|Flip Turn|p1a: Buzby
+|-damage|p1a: Buzby|83/100
+|
+|t:|1661299893
+|switch|p2a: Chansey|Chansey, F|79/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|6
+|
+|t:|1661299899
+|move|p1a: Buzby|U-turn|p2a: Chansey
+|-damage|p2a: Chansey|73/100
+|
+|t:|1661299902
+|switch|p1a: Jirachi|Jirachi|100/100|[from]move: U-turn
+|move|p2a: Chansey|Toxic|p1a: Jirachi|[miss]
+|-miss|p2a: Chansey|p1a: Jirachi
+|
+|upkeep
+|turn|7
+|
+|t:|1661299907
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Jirachi|Trick|p2a: Skarmory
+|-activate|p1a: Jirachi|move: Trick|[of] p2a: Skarmory
+|-item|p2a: Skarmory|Choice Scarf|[from] move: Trick
+|-item|p1a: Jirachi|Rocky Helmet|[from] move: Trick
+|
+|upkeep
+|turn|8
+|
+|t:|1661299917
+|move|p1a: Jirachi|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|97/100
+|
+|t:|1661299929
+|switch|p1a: Deluge|Swampert, M|100/100|[from]move: U-turn
+|move|p2a: Skarmory|Spikes|p1a: Deluge
+|-sidestart|p1: Sneakyplanner|Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1661299936
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Deluge|Flip Turn|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|91/100
+|
+|t:|1661299942
+|switch|p1a: Buzby|Mandibuzz, F|83/100|[from]move: Flip Turn
+|
+|-heal|p2a: Celebi|98/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1661299948
+|switch|p2a: Skarmory|Skarmory, M|97/100
+|move|p1a: Buzby|Defog|p2a: Skarmory
+|-unboost|p2a: Skarmory|evasion|1
+|-sideend|p1: Sneakyplanner|Spikes|[from] move: Defog|[of] p1a: Buzby
+|
+|upkeep
+|turn|11
+|
+|t:|1661299955
+|move|p2a: Skarmory|Spikes|p1a: Buzby
+|-sidestart|p1: Sneakyplanner|Spikes
+|move|p1a: Buzby|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|96/100
+|
+|t:|1661299974
+|switch|p1a: Deluge|Swampert, M|100/100|[from]move: U-turn
+|-damage|p1a: Deluge|88/100|[from] Spikes
+|
+|-heal|p1a: Deluge|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1661299987
+|switch|p2a: Celebi|Celebi|98/100
+|move|p1a: Deluge|Stealth Rock|p2a: Celebi
+|-sidestart|p2: v1olette2|move: Stealth Rock
+|
+|-heal|p2a: Celebi|100/100|[from] item: Leftovers
+|-heal|p1a: Deluge|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1661299996
+|switch|p1a: Buzby|Mandibuzz, F|83/100
+|move|p2a: Celebi|Future Sight|p1a: Buzby
+|-start|p2a: Celebi|move: Future Sight
+|
+|upkeep
+|turn|14
+|
+|t:|1661300002
+|switch|p2a: Skarmory|Skarmory, M|96/100
+|-damage|p2a: Skarmory|83/100|[from] Stealth Rock
+|move|p1a: Buzby|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|82/100
+|
+|t:|1661300009
+|switch|p1a: Return|Moltres|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+|
+|t:|1661300015
+|switch|p2a: Chansey|Chansey, F|73/100
+|-damage|p2a: Chansey|60/100|[from] Stealth Rock
+|move|p1a: Return|Will-O-Wisp|p2a: Chansey|[miss]
+|-miss|p1a: Return|p2a: Chansey
+|
+|-end|p1a: Return|move: Future Sight
+|-damage|p1a: Return|39/100
+|upkeep
+|turn|16
+|
+|t:|1661300025
+|move|p1a: Return|Roost|p1a: Return
+|-heal|p1a: Return|89/100
+|-singleturn|p1a: Return|move: Roost
+|move|p2a: Chansey|Toxic|p1a: Return
+|-status|p1a: Return|tox
+|
+|-damage|p1a: Return|83/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1661300035
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|88/100|[from] Spikes
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|upkeep
+|turn|18
+|
+|t:|1661300044
+|switch|p2a: Skarmory|Skarmory, M|82/100
+|-damage|p2a: Skarmory|70/100|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100
+|
+|t:|1661300058
+|switch|p1a: Return|Moltres|83/100 tox|[from]move: U-turn
+|
+|-damage|p1a: Return|76/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1661300063
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|88/100|[from] Stealth Rock
+|move|p1a: Return|Will-O-Wisp|p2a: Chansey
+|-status|p2a: Chansey|brn
+|
+|-damage|p1a: Return|64/100 tox|[from] psn
+|-damage|p2a: Chansey|82/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1661300076
+|move|p1a: Return|Roost|p1a: Return
+|-heal|p1a: Return|100/100 tox
+|-singleturn|p1a: Return|move: Roost
+|move|p2a: Chansey|Teleport|p2a: Chansey
+|
+|t:|1661300084
+|-curestatus|p2a: Chansey|brn|[from] ability: Natural Cure
+|switch|p2a: Swampert|Swampert, M|85/100|[from]move: Teleport
+|-damage|p2a: Swampert|78/100|[from] Stealth Rock
+|
+|-damage|p1a: Return|82/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1661300092
+|switch|p1a: Breloomish|Amoonguss, F|100/100
+|-damage|p1a: Breloomish|88/100|[from] Spikes
+|move|p2a: Swampert|Flip Turn|p1a: Breloomish
+|-resisted|p1a: Breloomish
+|-damage|p1a: Breloomish|80/100
+|-damage|p2a: Swampert|62/100|[from] item: Rocky Helmet|[of] p1a: Breloomish
+|
+|t:|1661300101
+|switch|p2a: Azelf|Azelf|100/100|[from]move: Flip Turn
+|-damage|p2a: Azelf|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|t:|1661300107
+|switch|p1a: Buzby|Mandibuzz, F|83/100
+|move|p2a: Azelf|Psyshock|p1a: Buzby
+|-immune|p1a: Buzby
+|
+|upkeep
+|turn|23
+|
+|t:|1661300114
+|switch|p2a: Skarmory|Skarmory, M|67/100
+|-damage|p2a: Skarmory|54/100|[from] Stealth Rock
+|move|p1a: Buzby|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|53/100
+|
+|t:|1661300120
+|switch|p1a: Return|Moltres|82/100 tox|[from]move: U-turn
+|
+|-damage|p1a: Return|75/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1661300126
+|switch|p2a: Chansey|Chansey, F|82/100
+|-damage|p2a: Chansey|69/100|[from] Stealth Rock
+|move|p1a: Return|Mystical Fire|p2a: Chansey
+|-damage|p2a: Chansey|60/100
+|-unboost|p2a: Chansey|spa|1
+|
+|-damage|p1a: Return|63/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1661300135
+|move|p1a: Return|Roost|p1a: Return
+|-heal|p1a: Return|100/100 tox
+|-singleturn|p1a: Return|move: Roost
+|move|p2a: Chansey|Seismic Toss|p1a: Return
+|-damage|p1a: Return|74/100 tox
+|
+|-damage|p1a: Return|56/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1661300150
+|switch|p1a: Jirachi|Jirachi|88/100
+|-damage|p1a: Jirachi|76/100|[from] Spikes
+|move|p2a: Chansey|Teleport|p2a: Chansey
+|
+|t:|1661300159
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from]move: Teleport
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Hydreigon|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1661300166
+|move|p1a: Jirachi|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|57/100
+|
+|t:|1661300168
+|switch|p1a: Buzby|Mandibuzz, F|83/100|[from]move: U-turn
+|move|p2a: Hydreigon|Dark Pulse|p1a: Buzby
+|-resisted|p1a: Buzby
+|-damage|p1a: Buzby|70/100
+|
+|-heal|p2a: Hydreigon|63/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1661300176
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|100/100
+|-singleturn|p2a: Hydreigon|move: Roost
+|move|p1a: Buzby|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|71/100
+|
+|t:|1661300183
+|switch|p1a: Sunset|Lycanroc-Dusk, M|100/100|[from]move: U-turn
+|-damage|p1a: Sunset|88/100|[from] Spikes
+|
+|-heal|p2a: Hydreigon|77/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1661300190
+|switch|p2a: Celebi|Celebi|100/100
+|-damage|p2a: Celebi|88/100|[from] Stealth Rock
+|move|p1a: Sunset|Close Combat|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|59/100
+|-unboost|p1a: Sunset|def|1
+|-unboost|p1a: Sunset|spd|1
+|-damage|p1a: Sunset|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Celebi|65/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1661300256
+|switch|p1a: Buzby|Mandibuzz, F|70/100
+|move|p2a: Celebi|Energy Ball|p1a: Buzby
+|-resisted|p1a: Buzby
+|-damage|p1a: Buzby|55/100
+|
+|-heal|p2a: Celebi|71/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1661300264
+|switch|p2a: Skarmory|Skarmory, M|53/100
+|-damage|p2a: Skarmory|40/100|[from] Stealth Rock
+|move|p1a: Buzby|Roost|p1a: Buzby
+|-heal|p1a: Buzby|100/100
+|-singleturn|p1a: Buzby|move: Roost
+|
+|upkeep
+|turn|32
+|
+|t:|1661300272
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|91/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Buzby|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|87/100
+|
+|t:|1661300279
+|switch|p1a: Return|Moltres|56/100 tox|[from]move: U-turn
+|
+|-damage|p1a: Return|49/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1661300289
+|switch|p2a: Hydreigon|Hydreigon, F|77/100
+|-damage|p2a: Hydreigon|65/100|[from] Stealth Rock
+|move|p1a: Return|Roost|p1a: Return
+|-heal|p1a: Return|99/100 tox
+|-singleturn|p1a: Return|move: Roost
+|
+|-heal|p2a: Hydreigon|71/100|[from] item: Leftovers
+|-damage|p1a: Return|87/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1661300303
+|switch|p1a: Buzby|Mandibuzz, F|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Buzby
+|-resisted|p1a: Buzby
+|-damage|p1a: Buzby|87/100
+|
+|-heal|p2a: Hydreigon|77/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1661300311
+|switch|p2a: Skarmory|Skarmory, M|87/100
+|-damage|p2a: Skarmory|75/100|[from] Stealth Rock
+|move|p1a: Buzby|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|73/100
+|
+|t:|1661300318
+|switch|p1a: Return|Moltres|87/100 tox|[from]move: U-turn
+|
+|-damage|p1a: Return|81/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1661300324
+|switch|p2a: Chansey|Chansey, F|60/100
+|-damage|p2a: Chansey|47/100|[from] Stealth Rock
+|move|p1a: Return|Will-O-Wisp|p2a: Chansey
+|-status|p2a: Chansey|brn
+|
+|-damage|p1a: Return|68/100 tox|[from] psn
+|-damage|p2a: Chansey|41/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1661300344
+|switch|p1a: Sunset|Lycanroc-Dusk, M|78/100
+|-damage|p1a: Sunset|66/100|[from] Spikes
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|91/100 brn
+|
+|-damage|p2a: Chansey|85/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1661300357
+|-curestatus|p2a: Chansey|brn|[from] ability: Natural Cure
+|switch|p2a: Swampert|Swampert, M|62/100
+|-damage|p2a: Swampert|56/100|[from] Stealth Rock
+|move|p1a: Sunset|Stone Edge|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|34/100
+|-damage|p1a: Sunset|56/100|[from] item: Life Orb
+|
+|upkeep
+|turn|39
+|
+|t:|1661300368
+|move|p1a: Sunset|Close Combat|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|-unboost|p1a: Sunset|def|1
+|-unboost|p1a: Sunset|spd|1
+|faint|p2a: Swampert
+|-damage|p1a: Sunset|46/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1661300376
+|switch|p2a: Skarmory|Skarmory, M|73/100
+|-damage|p2a: Skarmory|61/100|[from] Stealth Rock
+|turn|40
+|
+|t:|1661300397
+|switch|p1a: Breloomish|Amoonguss, F|100/100
+|-damage|p1a: Breloomish|88/100|[from] Spikes
+|move|p2a: Skarmory|Body Press|p1a: Breloomish
+|-resisted|p1a: Breloomish
+|-damage|p1a: Breloomish|76/100
+|-damage|p2a: Skarmory|44/100|[from] item: Rocky Helmet|[of] p1a: Breloomish
+|
+|upkeep
+|turn|41
+|
+|t:|1661300412
+|switch|p2a: Celebi|Celebi|71/100
+|-damage|p2a: Celebi|59/100|[from] Stealth Rock
+|move|p1a: Breloomish|Spore|p2a: Celebi
+|-immune|p2a: Celebi
+|
+|-heal|p2a: Celebi|65/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1661300421
+|move|p2a: Celebi|Future Sight|p1a: Breloomish
+|-start|p2a: Celebi|move: Future Sight
+|move|p1a: Breloomish|Sludge Bomb|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|20/100
+|
+|-heal|p2a: Celebi|26/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1661300435
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|76/100
+|move|p1a: Breloomish|Sludge Bomb|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|34/100
+|
+|-heal|p2a: Celebi|40/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1661300442
+|switch|p1a: Buzby|Mandibuzz, F|87/100
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|90/100
+|
+|-end|p1a: Buzby|move: Future Sight
+|-immune|p1a: Buzby
+|-heal|p2a: Celebi|96/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1661300451
+|move|p2a: Celebi|Future Sight|p1a: Buzby
+|-start|p2a: Celebi|move: Future Sight
+|move|p1a: Buzby|U-turn|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|53/100
+|
+|t:|1661300458
+|switch|p1a: Return|Moltres|68/100 tox|[from]move: U-turn
+|
+|-heal|p2a: Celebi|60/100|[from] item: Leftovers
+|-damage|p1a: Return|62/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1661300469
+|switch|p2a: Hydreigon|Hydreigon, F|77/100
+|-damage|p2a: Hydreigon|65/100|[from] Stealth Rock
+|move|p1a: Return|Hurricane|p2a: Hydreigon|[miss]
+|-miss|p1a: Return|p2a: Hydreigon
+|
+|-heal|p2a: Hydreigon|71/100|[from] item: Leftovers
+|-damage|p1a: Return|49/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|t:|1661300480
+|switch|p1a: Buzby|Mandibuzz, F|87/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Buzby
+|-resisted|p1a: Buzby
+|-damage|p1a: Buzby|75/100
+|
+|-end|p1a: Buzby|move: Future Sight
+|-immune|p1a: Buzby
+|-heal|p2a: Hydreigon|77/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|c|☆v1olette2|boring
+|-message|v1olette2 forfeited.
+|
+|win|Sneakyplanner
+|raw|Sneakyplanner's rating: 1341 &rarr; <strong>1361</strong><br />(+20 for winning)
+|raw|v1olette2's rating: 1344 &rarr; <strong>1324</strong><br />(-20 for losing)
+|l|☆v1olette2
+|c|☆Sneakyplanner|You are the one with the Chansey and Skarm
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

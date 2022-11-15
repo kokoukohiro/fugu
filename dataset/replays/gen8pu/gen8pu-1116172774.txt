@@ -1,0 +1,100 @@
+|j|☆Start Fresh 4
+|j|☆Lechugasismica
+|player|p1|Start Fresh 4|170|1116
+|player|p2|Lechugasismica|unknownf|1398
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Dubwool, F|
+|poke|p1|Throh, M|
+|poke|p1|Manectric, F|
+|poke|p1|Carkol, M|
+|poke|p1|Glaceon, F|
+|poke|p1|Basculin, F|
+|poke|p2|Throh, M|
+|poke|p2|Pawniard, M|
+|poke|p2|Gastly, M|
+|poke|p2|Swirlix, M|
+|poke|p2|Glaceon, M|
+|poke|p2|Stonjourner, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lechugasismica)
+|inactive|Start Fresh 4 has 120 seconds left.
+|
+|start
+|switch|p1a: Carkol|Carkol, M|100/100
+|switch|p2a: Swirlix|Swirlix, M|100/100
+|turn|1
+|
+|move|p2a: Swirlix|Magic Coat|p2a: Swirlix
+|-singleturn|p2a: Swirlix|move: Magic Coat
+|move|p1a: Carkol|Stealth Rock|p2a: Swirlix
+|move|p2a: Swirlix|Stealth Rock|p1a: Carkol|[from]Magic Coat
+|-sidestart|p1: Start Fresh 4|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Swirlix|Sticky Web|p1a: Carkol
+|-sidestart|p1: Start Fresh 4|move: Sticky Web
+|move|p1a: Carkol|Stealth Rock|p2a: Swirlix
+|-sidestart|p2: Lechugasismica|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Swirlix|Yawn|p1a: Carkol
+|-start|p1a: Carkol|move: Yawn|[of] p2a: Swirlix
+|move|p1a: Carkol|Rapid Spin|p2a: Swirlix
+|-damage|p2a: Swirlix|86/100
+|-boost|p1a: Carkol|spe|1
+|-sideend|p1: Start Fresh 4|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Carkol
+|-sideend|p1: Start Fresh 4|Sticky Web|[from] move: Rapid Spin|[of] p1a: Carkol
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Basculin|Basculin, F|100/100
+|move|p2a: Swirlix|Sticky Web|p1a: Basculin
+|-sidestart|p1: Start Fresh 4|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Basculin|Liquidation|p2a: Swirlix
+|-damage|p2a: Swirlix|0 fnt
+|faint|p2a: Swirlix
+|
+|upkeep
+|inactive|Lechugasismica has 120 seconds left.
+|
+|switch|p2a: Gastly|Gastly, M|100/100
+|-damage|p2a: Gastly|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Gastly|Trick|p1a: Basculin
+|-activate|p2a: Gastly|move: Trick|[of] p1a: Basculin
+|-item|p1a: Basculin|Choice Scarf|[from] move: Trick
+|-item|p2a: Gastly|Choice Band|[from] move: Trick
+|move|p1a: Basculin|Liquidation|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|upkeep
+|-message|Lechugasismica forfeited.
+|
+|win|Start Fresh 4
+|l|☆Lechugasismica
+|raw|Start Fresh 4's rating: 1116 &rarr; <strong>1156</strong><br />(+40 for winning)
+|raw|Lechugasismica's rating: 1370 &rarr; <strong>1338</strong><br />(-32 for losing)

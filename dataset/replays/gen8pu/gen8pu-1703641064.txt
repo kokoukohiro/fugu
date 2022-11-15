@@ -1,0 +1,539 @@
+|j|☆sugar ovens
+|j|☆Call Me Crimson
+|t:|1667682083
+|gametype|singles
+|player|p1|sugar ovens|twins|
+|player|p2|Call Me Crimson|gambler|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Cinccino, M|
+|poke|p1|Magneton|
+|poke|p1|Marowak, M|
+|poke|p1|Gigalith, M|
+|poke|p1|Eldegoss, M|
+|poke|p1|Ribombee, F|
+|poke|p2|Lycanroc, F|
+|poke|p2|Gigalith, F|
+|poke|p2|Weezing, F|
+|poke|p2|Sandslash, M|
+|poke|p2|Doublade, F|
+|poke|p2|Eldegoss, M|
+|teampreview
+|
+|t:|1667682106
+|start
+|switch|p1a: Cinccino|Cinccino, M|100/100
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|1
+|j|%Haffling
+|
+|t:|1667682114
+|move|p1a: Cinccino|U-turn|p2a: Gigalith
+|-damage|p2a: Gigalith|86/100
+|j| Jnho
+|
+|t:|1667682117
+|switch|p1a: Marowak|Marowak, M|100/100|[from]move: U-turn
+|move|p2a: Gigalith|Toxic|p1a: Marowak
+|-status|p1a: Marowak|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Marowak|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1667682135
+|move|p1a: Marowak|Knock Off|p2a: Gigalith
+|-damage|p2a: Gigalith|44/100
+|-enditem|p2a: Gigalith|Smooth Rock|[from] move: Knock Off|[of] p1a: Marowak
+|move|p2a: Gigalith|Stealth Rock|p1a: Marowak
+|-sidestart|p1: sugar ovens|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Marowak|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1667682145
+|switch|p1a: Eldegoss|Eldegoss, M|100/100
+|switch|p2a: Doublade|Doublade, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eldegoss|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1667682154
+|move|p1a: Eldegoss|Leech Seed|p2a: Doublade
+|-start|p2a: Doublade|move: Leech Seed
+|move|p2a: Doublade|Swords Dance|p2a: Doublade
+|-boost|p2a: Doublade|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eldegoss|88/100|[from] Sandstorm
+|-damage|p2a: Doublade|88/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|100/100|[silent]
+|upkeep
+|turn|5
+|c|☆Call Me Crimson|!weak eldegoss
+|c| Call Me Crimson|/raw <div class="infobox">Eldegoss (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Bug, Fire, Flying, Ice, Poison<br /><span class="message-effect-resist">Resistances</span>: Electric, Grass, Ground, Water<br /><span class="message-effect-immune">Immunities</span>: Powder moves</div>
+|
+|t:|1667682174
+|move|p1a: Eldegoss|Charm|p2a: Doublade
+|-unboost|p2a: Doublade|atk|2
+|move|p2a: Doublade|Close Combat|p1a: Eldegoss
+|-damage|p1a: Eldegoss|68/100
+|-unboost|p2a: Doublade|def|1
+|-unboost|p2a: Doublade|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eldegoss|62/100|[from] Sandstorm
+|-damage|p2a: Doublade|76/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|74/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1667682185
+|move|p1a: Eldegoss|Leech Seed||[still]
+|-fail|p1a: Eldegoss
+|move|p2a: Doublade|Shadow Claw|p1a: Eldegoss
+|-damage|p1a: Eldegoss|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eldegoss|39/100|[from] Sandstorm
+|-damage|p2a: Doublade|63/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|51/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1667682195
+|move|p1a: Eldegoss|Rapid Spin|p2a: Doublade
+|-immune|p2a: Doublade
+|move|p2a: Doublade|Shadow Claw|p1a: Eldegoss
+|-damage|p1a: Eldegoss|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eldegoss|15/100|[from] Sandstorm
+|-damage|p2a: Doublade|51/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|27/100|[silent]
+|upkeep
+|turn|8
+|j| EhOuiJamy
+|
+|t:|1667682205
+|move|p1a: Eldegoss|Charm|p2a: Doublade
+|-unboost|p2a: Doublade|atk|2
+|move|p2a: Doublade|Shadow Claw|p1a: Eldegoss
+|-damage|p1a: Eldegoss|13/100
+|
+|-weather|none
+|-damage|p2a: Doublade|38/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|25/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1667682222
+|switch|p2a: Weezing|Weezing, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Eldegoss|Rapid Spin|p2a: Weezing
+|-damage|p2a: Weezing|96/100
+|-boost|p1a: Eldegoss|spe|1
+|-sideend|p1: sugar ovens|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|l| EhOuiJamy
+|
+|t:|1667682232
+|switch|p1a: Marowak|Marowak, M|82/100 tox
+|move|p2a: Weezing|Clear Smog|p1a: Marowak
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|71/100 tox
+|-clearboost|p1a: Marowak
+|
+|-damage|p1a: Marowak|64/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1667682245
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|move|p1a: Marowak|Fire Punch|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|33/100
+|
+|-damage|p1a: Marowak|52/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1667682255
+|move|p1a: Marowak|Earthquake|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|2/100
+|move|p2a: Eldegoss|Charm|p1a: Marowak
+|-unboost|p1a: Marowak|atk|2
+|
+|-damage|p1a: Marowak|34/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1667682265
+|switch|p2a: Gigalith|Gigalith, F|44/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Marowak|Knock Off|p2a: Gigalith
+|-damage|p2a: Gigalith|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Marowak|9/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1667682283
+|switch|p1a: Cinccino|Cinccino, M|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Cinccino
+|-sidestart|p1: sugar ovens|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinccino|94/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1667682294
+|move|p1a: Cinccino|U-turn|p2a: Gigalith
+|-damage|p2a: Gigalith|17/100
+|
+|t:|1667682306
+|switch|p1a: Gigalith|Gigalith, M|100/100|[from]move: U-turn
+|-damage|p1a: Gigalith|88/100|[from] Stealth Rock
+|move|p2a: Gigalith|Rest|p2a: Gigalith
+|-status|p2a: Gigalith|slp|[from] move: Rest
+|-heal|p2a: Gigalith|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1667682323
+|switch|p2a: Weezing|Weezing, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Gigalith|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Call Me Crimson|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|95/100|[from] Sandstorm
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|-heal|p1a: Gigalith|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1667682338
+|switch|p1a: Magneton|Magneton|100/100
+|-damage|p1a: Magneton|94/100|[from] Stealth Rock
+|move|p2a: Weezing|Will-O-Wisp|p1a: Magneton
+|-status|p1a: Magneton|brn
+|
+|-weather|none
+|-damage|p1a: Magneton|88/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1667682358
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Gigalith|Gigalith, F|100/100 slp
+|-damage|p2a: Gigalith|88/100 slp|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Magneton|Flash Cannon|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|36/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Magneton|82/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1667682394
+|switch|p1a: Eldegoss|Eldegoss, M|25/100
+|cant|p2a: Gigalith|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eldegoss|19/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1667682408
+|switch|p2a: Weezing|Weezing, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Eldegoss|Rapid Spin|p2a: Weezing
+|-damage|p2a: Weezing|84/100
+|-boost|p1a: Eldegoss|spe|1
+|-sideend|p1: sugar ovens|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eldegoss|13/100|[from] Sandstorm
+|-damage|p2a: Weezing|78/100|[from] Sandstorm
+|-heal|p2a: Weezing|84/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|j| Gennarobullo4gen
+|
+|t:|1667682422
+|switch|p1a: Magneton|Magneton|82/100 brn
+|move|p2a: Weezing|Clear Smog|p1a: Magneton
+|-immune|p1a: Magneton
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|78/100|[from] Sandstorm
+|-heal|p2a: Weezing|84/100|[from] item: Black Sludge
+|-damage|p1a: Magneton|76/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1667682435
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Eldegoss|Eldegoss, M|35/100
+|move|p1a: Magneton|Flash Cannon|p2a: Eldegoss
+|-damage|p2a: Eldegoss|0 fnt
+|faint|p2a: Eldegoss
+|
+|-weather|none
+|-damage|p1a: Magneton|69/100 brn|[from] brn
+|upkeep
+|
+|t:|1667682444
+|switch|p2a: Doublade|Doublade, F|38/100
+|-damage|p2a: Doublade|32/100|[from] Stealth Rock
+|turn|23
+|l| Gennarobullo4gen
+|j| cuervolucas
+|
+|t:|1667682499
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Doublade|Shadow Claw|p1a: Gigalith
+|-damage|p1a: Gigalith|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|79/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1667682536
+|switch|p2a: Sandslash|Sandslash, M|100/100
+|-damage|p2a: Sandslash|94/100|[from] Stealth Rock
+|move|p1a: Gigalith|Earthquake|p2a: Sandslash
+|-damage|p2a: Sandslash|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|85/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1667682547
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|move|p1a: Gigalith|Earthquake|p2a: Sandslash
+|-damage|p2a: Sandslash|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|91/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1667682567
+|switch|p1a: Marowak|Marowak, M|9/100 tox
+|move|p2a: Sandslash|Earthquake|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|-damage|p2a: Sandslash|20/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1667682577
+|switch|p1a: Gigalith|Gigalith, M|91/100
+|turn|27
+|
+|t:|1667682580
+|move|p2a: Sandslash|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|-damage|p2a: Sandslash|10/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1667682595
+|switch|p1a: Cinccino|Cinccino, M|94/100
+|turn|28
+|
+|t:|1667682599
+|move|p1a: Cinccino|U-turn|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|t:|1667682606
+|switch|p1a: Magneton|Magneton|69/100 brn|[from]move: U-turn
+|
+|-damage|p1a: Magneton|63/100 brn|[from] brn
+|upkeep
+|
+|t:|1667682631
+|switch|p2a: Doublade|Doublade, F|32/100
+|-damage|p2a: Doublade|26/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1667682638
+|move|p1a: Magneton|Volt Switch|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|t:|1667682645
+|switch|p1a: Eldegoss|Eldegoss, M|13/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|t:|1667682649
+|switch|p2a: Weezing|Weezing, F|84/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-damage|p2a: Weezing|72/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1667682663
+|move|p2a: Weezing|Sludge Bomb|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|0 fnt
+|faint|p1a: Eldegoss
+|
+|-heal|p2a: Weezing|78/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1667682667
+|switch|p1a: Magneton|Magneton|63/100 brn
+|turn|31
+|
+|t:|1667682682
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Gigalith|Gigalith, F|36/100 slp
+|-damage|p2a: Gigalith|24/100 slp|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Magneton|Volt Switch|p2a: Gigalith
+|-damage|p2a: Gigalith|2/100 slp
+|
+|t:|1667682698
+|switch|p1a: Ribombee|Ribombee, F|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ribombee|94/100|[from] Sandstorm
+|upkeep
+|turn|32
+|
+|t:|1667682708
+|move|p1a: Ribombee|Aromatherapy|p1a: Ribombee
+|-activate|p1a: Ribombee|move: Aromatherapy
+|-curestatus|p1: Magneton|brn|[msg]
+|cant|p2a: Gigalith|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ribombee|88/100|[from] Sandstorm
+|upkeep
+|turn|33
+|
+|t:|1667682731
+|move|p1a: Ribombee|U-turn|p2a: Gigalith
+|-crit|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|t:|1667682737
+|switch|p1a: Magneton|Magneton|63/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1667682742
+|switch|p2a: Lycanroc|Lycanroc, F|100/100
+|-damage|p2a: Lycanroc|88/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1667682749
+|switch|p1a: Ribombee|Ribombee, F|88/100
+|move|p2a: Lycanroc|Swords Dance|p2a: Lycanroc
+|-boost|p2a: Lycanroc|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ribombee|82/100|[from] Sandstorm
+|upkeep
+|turn|35
+|
+|t:|1667682760
+|move|p2a: Lycanroc|Stone Edge|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|-damage|p2a: Lycanroc|78/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1667682767
+|switch|p1a: Magneton|Magneton|63/100
+|turn|36
+|c|☆Call Me Crimson|!weak magneton
+|c| Call Me Crimson|/raw <div class="infobox">Magneton (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Fighting, Fire, <b>Ground</b><br /><span class="message-effect-resist">Resistances</span>: Bug, Dragon, Electric, Fairy, <b>Flying</b>, Grass, Ice, Normal, Psychic, Rock, <b>Steel</b><br /><span class="message-effect-immune">Immunities</span>: Poison, Paralysis, Sandstorm damage, Toxic</div>
+|
+|t:|1667682783
+|move|p1a: Magneton|Flash Cannon|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|upkeep
+|
+|t:|1667682788
+|switch|p2a: Weezing|Weezing, F|78/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-damage|p2a: Weezing|65/100|[from] Stealth Rock
+|turn|37
+|
+|t:|1667682794
+|move|p1a: Magneton|Flash Cannon|p2a: Weezing
+|-damage|p2a: Weezing|9/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Magneton
+|-status|p1a: Magneton|brn
+|
+|-heal|p2a: Weezing|15/100|[from] item: Black Sludge
+|-damage|p1a: Magneton|57/100 brn|[from] brn
+|upkeep
+|turn|38
+|c|☆Call Me Crimson|gg
+|c|☆sugar ovens|gg
+|l| cuervolucas
+|
+|t:|1667682803
+|move|p1a: Magneton|Flash Cannon|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|win|sugar ovens
+|n|☆sugar ovens|sugarovens
+|n|☆Call Me Crimson|callmecrimson
+|n| Haffling|haffling
+|n| Jnho|jnho

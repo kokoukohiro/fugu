@@ -1,0 +1,464 @@
+|j|☆faless
+|j|☆karrakarra
+|t:|1608259343
+|player|p1|faless|pokemonranger-gen4|
+|player|p2|karrakarra|saturn|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|Tournament battle
+|clearpoke
+|poke|p1|Claydol|
+|poke|p1|Ribombee, M|
+|poke|p1|Silvally-*|
+|poke|p1|Machamp, M|
+|poke|p1|Absol, M|
+|poke|p1|Talonflame, F|
+|poke|p2|Roserade, F|
+|poke|p2|Rotom|
+|poke|p2|Weezing, F|
+|poke|p2|Aggron, M|
+|poke|p2|Toxicroak, F|
+|poke|p2|Absol, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Bob Barker's Ghost
+|c|☆faless|hf
+|j|@Tone
+|
+|t:|1608259362
+|start
+|switch|p1a: Silvally|Silvally-Steel|100/100
+|switch|p2a: Roserade|Roserade, F|100/100
+|turn|1
+|
+|t:|1608259376
+|switch|p2a: Weezing|Weezing, F|100/100
+|move|p1a: Silvally|Parting Shot|p2a: Weezing
+|-unboost|p2a: Weezing|atk|1
+|-unboost|p2a: Weezing|spa|1
+|
+|t:|1608259382
+|switch|p1a: Claydol|Claydol|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|2
+|j| t04ster
+|
+|t:|1608259388
+|move|p1a: Claydol|Stealth Rock|p2a: Weezing
+|-sidestart|p2: karrakarra|move: Stealth Rock
+|move|p2a: Weezing|Toxic Spikes|p1a: Claydol
+|-sidestart|p1: faless|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|l| t04ster
+|
+|t:|1608259393
+|switch|p2a: Rotom|Rotom|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Claydol|Teleport|p1a: Claydol
+|
+|t:|1608259420
+|switch|p1a: Absol|Absol, M|100/100|[from]move: Teleport
+|-status|p1a: Absol|psn
+|
+|-damage|p1a: Absol|88/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1608259444
+|switch|p2a: Weezing|Weezing, F|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Absol|Knock Off|p2a: Weezing
+|-damage|p2a: Weezing|44/100
+|-damage|p1a: Absol|72/100 psn|[from] item: Rocky Helmet|[of] p2a: Weezing
+|-enditem|p2a: Weezing|Rocky Helmet|[from] move: Knock Off|[of] p1a: Absol
+|-damage|p1a: Absol|62/100 psn|[from] item: Life Orb
+|
+|-damage|p1a: Absol|50/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1608259461
+|switch|p1a: Silvally|Silvally-Steel|100/100
+|move|p2a: Weezing|Flamethrower|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|68/100
+|
+|upkeep
+|turn|6
+|
+|t:|1608259465
+|move|p1a: Silvally|Defog|p2a: Weezing
+|-unboost|p2a: Weezing|evasion|1
+|-sideend|p2: karrakarra|Stealth Rock|[from] move: Defog|[of] p1a: Silvally
+|-sideend|p1: faless|Toxic Spikes|[from] move: Defog|[of] p1a: Silvally
+|move|p2a: Weezing|Pain Split|p1a: Silvally
+|-sethp|p1a: Silvally|53/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|62/100|[from] move: Pain Split
+|
+|upkeep
+|turn|7
+|
+|t:|1608259471
+|move|p1a: Silvally|Parting Shot|p2a: Weezing
+|-unboost|p2a: Weezing|atk|1
+|-unboost|p2a: Weezing|spa|1
+|
+|t:|1608259487
+|switch|p1a: Fire Penguin|Talonflame, F|100/100|[from]move: Parting Shot
+|move|p2a: Weezing|Toxic Spikes|p1a: Fire Penguin
+|-sidestart|p1: faless|move: Toxic Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1608259494
+|switch|p2a: Aggron|Aggron, M|100/100
+|move|p1a: Fire Penguin|Dual Wingbeat|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|98/100
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|96/100
+|-hitcount|p2a: Aggron|2
+|
+|-heal|p2a: Aggron|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1608259504
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Aggron|Stealth Rock|p1a: Claydol
+|-sidestart|p1: faless|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|j| Elian-San
+|
+|t:|1608259510
+|switch|p2a: Rotom|Rotom|88/100
+|move|p1a: Claydol|Teleport|p1a: Claydol
+|
+|t:|1608259517
+|switch|p1a: Absol|Absol, M|50/100 psn|[from]move: Teleport
+|-damage|p1a: Absol|37/100 psn|[from] Stealth Rock
+|
+|-damage|p1a: Absol|25/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1608259522
+|switch|p1a: Silvally|Silvally-Steel|53/100
+|-damage|p1a: Silvally|46/100|[from] Stealth Rock
+|switch|p2a: Weezing|Weezing, F|62/100
+|
+|upkeep
+|turn|12
+|
+|t:|1608259528
+|move|p1a: Silvally|Defog|p2a: Weezing
+|-unboost|p2a: Weezing|evasion|1
+|-sideend|p1: faless|Toxic Spikes|[from] move: Defog|[of] p1a: Silvally
+|-sideend|p1: faless|Stealth Rock|[from] move: Defog|[of] p1a: Silvally
+|move|p2a: Weezing|Flamethrower|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|12/100
+|
+|upkeep
+|turn|13
+|l| Elian-San
+|
+|t:|1608259532
+|move|p1a: Silvally|Multi-Attack|p2a: Weezing
+|-damage|p2a: Weezing|37/100
+|move|p2a: Weezing|Toxic Spikes|p1a: Silvally
+|-sidestart|p1: faless|move: Toxic Spikes
+|
+|upkeep
+|turn|14
+|j| O Man2020
+|
+|t:|1608259544
+|move|p1a: Silvally|Defog|p2a: Weezing
+|-unboost|p2a: Weezing|evasion|1
+|-sideend|p1: faless|Toxic Spikes|[from] move: Defog|[of] p1a: Silvally
+|move|p2a: Weezing|Flamethrower|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|l| O Man2020
+|
+|t:|1608259553
+|switch|p1a: Absol|Absol, M|25/100 psn
+|turn|15
+|
+|t:|1608259561
+|move|p1a: Absol|Swords Dance|p1a: Absol
+|-boost|p1a: Absol|atk|2
+|move|p2a: Weezing|Toxic Spikes|p1a: Absol
+|-sidestart|p1: faless|move: Toxic Spikes
+|
+|-damage|p1a: Absol|13/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1608259565
+|move|p1a: Absol|Knock Off|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Absol|3/100 psn|[from] item: Life Orb
+|faint|p2a: Weezing
+|
+|-damage|p1a: Absol|0 fnt|[from] psn
+|faint|p1a: Absol
+|upkeep
+|
+|t:|1608259579
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Rotom|Rotom|88/100
+|turn|17
+|
+|t:|1608259586
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Rotom|Volt Switch|p1a: Ribombee
+|-damage|p1a: Ribombee|74/100
+|
+|t:|1608259589
+|switch|p2a: Aggron|Aggron, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|18
+|j| huityweb
+|
+|t:|1608259597
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Aggron|Heavy Slam|p1a: Claydol
+|-damage|p1a: Claydol|73/100
+|
+|-heal|p1a: Claydol|79/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1608259605
+|switch|p2a: Rotom|Rotom|88/100
+|move|p1a: Claydol|Stealth Rock|p2a: Rotom
+|-sidestart|p2: karrakarra|move: Stealth Rock
+|
+|-heal|p1a: Claydol|85/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1608259614
+|switch|p1a: Ribombee|Ribombee, M|74/100
+|move|p2a: Rotom|Hex|p1a: Ribombee
+|-damage|p1a: Ribombee|36/100
+|
+|upkeep
+|turn|21
+|j| zoowi
+|
+|t:|1608259621
+|move|p1a: Ribombee|Moonblast|p2a: Rotom
+|-damage|p2a: Rotom|47/100
+|move|p2a: Rotom|Volt Switch|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|t:|1608259633
+|switch|p2a: Roserade|Roserade, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1608259637
+|switch|p1a: Fire Penguin|Talonflame, F|100/100
+|turn|22
+|
+|t:|1608259641
+|switch|p2a: Aggron|Aggron, M|100/100
+|-damage|p2a: Aggron|94/100|[from] Stealth Rock
+|move|p1a: Fire Penguin|Overheat|p2a: Aggron
+|-damage|p2a: Aggron|59/100
+|-unboost|p1a: Fire Penguin|spa|2
+|
+|-heal|p2a: Aggron|65/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1608259649
+|switch|p1a: Claydol|Claydol|85/100
+|move|p2a: Aggron|Head Smash|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|57/100
+|
+|-heal|p1a: Claydol|63/100|[from] item: Leftovers
+|-heal|p2a: Aggron|71/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1608259653
+|switch|p2a: Absol|Absol, F|100/100
+|-damage|p2a: Absol|88/100|[from] Stealth Rock
+|move|p1a: Claydol|Teleport|p1a: Claydol
+|
+|t:|1608259656
+|switch|p1a: Machamp|Machamp, M|100/100|[from]move: Teleport
+|-status|p1a: Machamp|psn
+|
+|-damage|p1a: Machamp|88/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1608259667
+|switch|p2a: Rotom|Rotom|47/100
+|-damage|p2a: Rotom|34/100|[from] Stealth Rock
+|move|p1a: Machamp|Close Combat|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|-damage|p1a: Machamp|76/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1608259673
+|switch|p1a: Claydol|Claydol|63/100
+|move|p2a: Rotom|Hex|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|36/100
+|
+|-heal|p1a: Claydol|42/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|j| pooba4
+|
+|t:|1608259683
+|move|p2a: Rotom|Toxic|p1a: Claydol
+|-status|p1a: Claydol|tox
+|move|p1a: Claydol|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p1a: Claydol|48/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|29/100 tox|[from] psn
+|-damage|p1a: Claydol|42/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1608259687
+|move|p2a: Rotom|Hex|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|-damage|p2a: Rotom|17/100 tox|[from] psn
+|upkeep
+|
+|t:|1608259693
+|switch|p1a: Fire Penguin|Talonflame, F|100/100
+|turn|29
+|j| Rimahhhh
+|
+|t:|1608259699
+|move|p1a: Fire Penguin|Overheat|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Fire Penguin|spa|2
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1608259702
+|switch|p2a: Aggron|Aggron, M|71/100
+|-damage|p2a: Aggron|65/100|[from] Stealth Rock
+|turn|30
+|l| Rimahhhh
+|
+|t:|1608259712
+|move|p1a: Fire Penguin|Dual Wingbeat|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|62/100
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|60/100
+|-hitcount|p2a: Aggron|2
+|move|p2a: Aggron|Heavy Slam|p1a: Fire Penguin
+|-resisted|p1a: Fire Penguin
+|-damage|p1a: Fire Penguin|68/100
+|
+|-heal|p2a: Aggron|66/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1608259718
+|move|p1a: Fire Penguin|Dual Wingbeat|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|63/100
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|61/100
+|-hitcount|p2a: Aggron|2
+|move|p2a: Aggron|Head Smash|p1a: Fire Penguin|[miss]
+|-miss|p2a: Aggron|p1a: Fire Penguin
+|
+|-heal|p2a: Aggron|67/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1608259724
+|move|p1a: Fire Penguin|Overheat|p2a: Aggron
+|-damage|p2a: Aggron|51/100
+|-unboost|p1a: Fire Penguin|spa|2
+|move|p2a: Aggron|Head Smash|p1a: Fire Penguin
+|-supereffective|p1a: Fire Penguin
+|-damage|p1a: Fire Penguin|0 fnt
+|faint|p1a: Fire Penguin
+|
+|-heal|p2a: Aggron|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1608259727
+|switch|p1a: Machamp|Machamp, M|76/100 psn
+|turn|33
+|j| BigConns
+|
+|t:|1608259733
+|move|p1a: Machamp|Close Combat|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|-unboost|p1a: Machamp|def|1
+|-unboost|p1a: Machamp|spd|1
+|faint|p2a: Aggron
+|
+|-damage|p1a: Machamp|63/100 psn|[from] psn
+|upkeep
+|
+|t:|1608259737
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1608259740
+|move|p2a: Toxicroak|Venoshock|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|-damage|p2a: Toxicroak|85/100|[from] item: Life Orb
+|faint|p1a: Machamp
+|
+|win|karrakarra
+|n|☆faless|faless
+|n|☆karrakarra|karrakarra
+|n| Bob Barker's Ghost|bobbarkersghost
+|n|+Tone|tone
+|n| huityweb|huityweb
+|n| zoowi|zoowi
+|n| pooba4|pooba4
+|n| BigConns|bigconns

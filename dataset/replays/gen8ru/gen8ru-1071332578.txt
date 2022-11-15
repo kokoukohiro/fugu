@@ -1,0 +1,353 @@
+|j|☆Umbra Soul
+|j|☆FE6 Fir
+|player|p1|Umbra Soul|69|1435
+|player|p2|FE6 Fir|swimmerf|1524
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Goodra, F|
+|poke|p1|Sawk, M|
+|poke|p1|Xatu, M|
+|poke|p1|Silvally-*|
+|poke|p1|Qwilfish, M|
+|poke|p1|Rotom|
+|poke|p2|Sableye, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Xatu, M|
+|poke|p2|Vileplume, F|
+|poke|p2|Jellicent, M|
+|poke|p2|Gigalith, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom|100/100
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|1
+|
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Volt Switch|p2a: Gigalith
+|-damage|p2a: Gigalith|85/100
+|
+|switch|p1a: Xatu|Xatu, M|100/100|[from]move: Volt Switch
+|move|p2a: Gigalith|Rock Blast|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|80/100
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|60/100
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|38/100
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|15/100
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-hitcount|p1a: Xatu|5
+|faint|p1a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|91/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Qwilfish|Qwilfish, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Gigalith|atk|1
+|turn|3
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Qwilfish|Liquidation|p2a: Xatu
+|-damage|p2a: Xatu|72/100
+|-unboost|p2a: Xatu|def|1
+|-damage|p1a: Qwilfish|84/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Qwilfish|78/100|[from] Sandstorm
+|-damage|p2a: Xatu|66/100|[from] Sandstorm
+|-heal|p1a: Qwilfish|84/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p1a: Qwilfish|Liquidation|p2a: Xatu
+|-damage|p2a: Xatu|24/100
+|-damage|p1a: Qwilfish|68/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|74/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Qwilfish|62/100|[from] Sandstorm
+|-damage|p2a: Xatu|68/100|[from] Sandstorm
+|-heal|p1a: Qwilfish|68/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Qwilfish|Liquidation|p2a: Xatu
+|-damage|p2a: Xatu|25/100
+|-damage|p1a: Qwilfish|51/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|75/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|-weather|none
+|-heal|p1a: Qwilfish|57/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Qwilfish|Liquidation|p2a: Xatu
+|-damage|p2a: Xatu|34/100
+|-unboost|p2a: Xatu|def|1
+|-damage|p1a: Qwilfish|41/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|84/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|-heal|p1a: Qwilfish|47/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: Rotom|Rotom|94/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Gigalith|Gigalith, F|91/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Rotom|Trick|p2a: Gigalith
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Gigalith
+|-item|p2a: Gigalith|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|88/100|[from] Sandstorm
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Volt Switch|p2a: Gigalith
+|-damage|p2a: Gigalith|77/100
+|
+|switch|p1a: Qwilfish|Qwilfish, M|47/100|[from]move: Volt Switch
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Gigalith|atk|1
+|move|p2a: Gigalith|Stealth Rock|p1a: Qwilfish
+|-sidestart|p1: Umbra Soul|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Qwilfish|41/100|[from] Sandstorm
+|-heal|p1a: Qwilfish|47/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Rotom|Rotom|94/100
+|-damage|p1a: Rotom|82/100|[from] Stealth Rock
+|switch|p2a: Xatu|Xatu, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|76/100|[from] Sandstorm
+|-damage|p2a: Xatu|95/100|[from] Sandstorm
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Rotom|Thunderbolt|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|76/100|[from] Sandstorm
+|-damage|p2a: Vileplume|73/100|[from] Sandstorm
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|79/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Rotom|Shadow Ball|p2a: Vileplume
+|-damage|p2a: Vileplume|45/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|42/100
+|
+|-weather|none
+|-heal|p1a: Rotom|48/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|51/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p1a: Rotom|Volt Switch|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|35/100
+|
+|switch|p1a: Goodra|Goodra, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Goodra|88/100|[from] Stealth Rock
+|move|p2a: Vileplume|Strength Sap|p1a: Goodra
+|-ability|p1a: Goodra|Sap Sipper|boost
+|-boost|p1a: Goodra|atk|1
+|
+|-heal|p2a: Vileplume|42/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|switch|p2a: Gigalith|Gigalith, F|77/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Goodra|Draco Meteor|p2a: Gigalith
+|-damage|p2a: Gigalith|31/100
+|-unboost|p1a: Goodra|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Goodra|82/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|switch|p1a: Qwilfish|Qwilfish, M|47/100
+|-damage|p1a: Qwilfish|34/100|[from] Stealth Rock
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Gigalith|atk|1
+|move|p2a: Gigalith|Rock Blast|p1a: Qwilfish
+|-damage|p1a: Qwilfish|27/100
+|-damage|p1a: Qwilfish|19/100
+|-damage|p1a: Qwilfish|12/100
+|-damage|p1a: Qwilfish|5/100
+|-hitcount|p1a: Qwilfish|4
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Qwilfish|0 fnt|[from] Sandstorm
+|faint|p1a: Qwilfish
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|94/100|[from] Sandstorm
+|-damage|p1a: Silvally|82/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|switch|p1a: Goodra|Goodra, F|82/100
+|-damage|p1a: Goodra|69/100|[from] Stealth Rock
+|move|p2a: Salazzle|Sludge Bomb|p1a: Goodra
+|-damage|p1a: Goodra|45/100
+|-status|p1a: Goodra|psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|88/100|[from] Sandstorm
+|-damage|p1a: Goodra|39/100 psn|[from] Sandstorm
+|-damage|p1a: Goodra|26/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Gigalith|Gigalith, F|31/100
+|move|p1a: Goodra|Draco Meteor|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-unboost|p1a: Goodra|spa|2
+|faint|p2a: Gigalith
+|
+|-weather|none
+|-damage|p1a: Goodra|14/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Salazzle|Salazzle, F|88/100
+|turn|19
+|
+|move|p2a: Salazzle|Sludge Bomb|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|upkeep
+|
+|switch|p1a: Sawk|Sawk, M|100/100
+|-damage|p1a: Sawk|94/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Xatu|Xatu, M|95/100
+|move|p1a: Sawk|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-damage|p1a: Sawk|78/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|-enditem|p2a: Xatu|Rocky Helmet|[from] move: Knock Off|[of] p1a: Sawk
+|faint|p2a: Xatu
+|
+|upkeep
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|turn|21
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Sawk
+|-status|p1a: Sawk|brn
+|move|p1a: Sawk|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|60/100
+|-enditem|p2a: Sableye|Leftovers|[from] move: Knock Off|[of] p1a: Sawk
+|
+|-damage|p1a: Sawk|72/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Rotom|Rotom|48/100
+|-damage|p1a: Rotom|35/100|[from] Stealth Rock
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|
+|-heal|p1a: Rotom|42/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Rotom|Shadow Ball|p2a: Sableye
+|-damage|p2a: Sableye|65/100
+|move|p2a: Sableye|Knock Off|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy|82/100
+|-damage|p1a: Silvally|70/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p2a: Salazzle|Salazzle, F|88/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Salazzle|Sludge Bomb|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|-message|Umbra Soul forfeited.
+|
+|win|FE6 Fir
+|l|☆Umbra Soul

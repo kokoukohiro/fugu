@@ -1,0 +1,373 @@
+|j|☆Earlio2
+|j|☆Dollarsalt
+|player|p1|Earlio2|226|
+|player|p2|Dollarsalt|107|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|clearpoke
+|poke|p1|Vanilluxe, M|
+|poke|p1|Barbaracle, M|
+|poke|p1|Cinccino, F|
+|poke|p1|Flapple, M|
+|poke|p1|Cursola, F|
+|poke|p1|Falinks|
+|poke|p2|Vileplume, M|
+|poke|p2|Gigalith, F|
+|poke|p2|Sableye, F|
+|poke|p2|Vaporeon, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Xatu, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinccino|Cinccino, F|100/100
+|switch|p2a: Sableye|Sableye, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dollarsalt)
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Cinccino
+|-status|p1a: Cinccino|brn
+|move|p1a: Cinccino|U-turn|p2a: Sableye
+|-damage|p2a: Sableye|85/100
+|-damage|p1a: Cinccino|91/100 brn|[from] item: Life Orb
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M|100/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Sableye|79/100|[from] Hail
+|-heal|p2a: Sableye|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Vanilluxe|Blizzard|p2a: Gigalith
+|-damage|p2a: Gigalith|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vanilluxe|94/100|[from] Sandstorm
+|-heal|p2a: Gigalith|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Cursola|Cursola, F|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Cursola
+|-sidestart|p1: Earlio2|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cursola|94/100|[from] Sandstorm
+|-heal|p2a: Gigalith|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Cursola|Stealth Rock|p2a: Gigalith
+|-sidestart|p2: Dollarsalt|move: Stealth Rock
+|move|p2a: Gigalith|Stone Edge|p1a: Cursola
+|-damage|p1a: Cursola|8/100
+|-ability|p1a: Cursola|Weak Armor|boost
+|-unboost|p1a: Cursola|def|1
+|-boost|p1a: Cursola|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cursola|1/100|[from] Sandstorm
+|-heal|p2a: Gigalith|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|-damage|p2a: Xatu|76/100|[from] Stealth Rock
+|move|p1a: Cursola|Earth Power|p2a: Xatu
+|-immune|p2a: Xatu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|70/100|[from] Sandstorm
+|-damage|p1a: Cursola|0 fnt|[from] Sandstorm
+|faint|p1a: Cursola
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M|94/100
+|-damage|p1a: Vanilluxe|70/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|6
+|
+|switch|p2a: Gigalith|Gigalith, F|86/100
+|-damage|p2a: Gigalith|73/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|switch|p1a: Cinccino|Cinccino, F|91/100 brn
+|-damage|p1a: Cinccino|78/100 brn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinccino|72/100 brn|[from] Sandstorm
+|-heal|p2a: Gigalith|80/100|[from] item: Leftovers
+|-damage|p1a: Cinccino|66/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Cinccino|Bullet Seed|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|74/100
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|68/100
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|63/100
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|57/100
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|51/100
+|-hitcount|p2a: Gigalith|5
+|-damage|p1a: Cinccino|56/100 brn|[from] item: Life Orb
+|move|p2a: Gigalith|Earthquake|p1a: Cinccino
+|-damage|p1a: Cinccino|6/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinccino|0 fnt|[from] Sandstorm
+|faint|p1a: Cinccino
+|-heal|p2a: Gigalith|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M|70/100
+|-damage|p1a: Vanilluxe|45/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|8
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: Vanilluxe|Aurora Veil|p1a: Vanilluxe
+|-sidestart|p1: Earlio2|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vaporeon|82/100|[from] Hail
+|-heal|p2a: Vaporeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Vanilluxe|Taunt|p2a: Vaporeon
+|-start|p2a: Vaporeon|move: Taunt
+|cant|p2a: Vaporeon|move: Taunt|Wish
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vaporeon|82/100|[from] Hail
+|-heal|p2a: Vaporeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Gigalith|Gigalith, F|57/100
+|-damage|p2a: Gigalith|45/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Vanilluxe|Explosion|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|29/100
+|faint|p1a: Vanilluxe
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Flapple|Flapple, M|100/100
+|-damage|p1a: Flapple|88/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|-damage|p2a: Vileplume|88/100|[from] Stealth Rock
+|move|p1a: Flapple|Grav Apple|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|72/100
+|-unboost|p2a: Vileplume|def|1
+|-damage|p1a: Flapple|78/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flapple|72/100|[from] Sandstorm
+|-damage|p2a: Vileplume|65/100|[from] Sandstorm
+|-heal|p2a: Vileplume|72/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p2a: Gigalith|Gigalith, F|36/100
+|-damage|p2a: Gigalith|23/100|[from] Stealth Rock
+|move|p1a: Flapple|Outrage|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-damage|p1a: Flapple|62/100|[from] item: Life Orb
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flapple|56/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Sableye|Sableye, F|85/100
+|-damage|p2a: Sableye|73/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Flapple|[miss]
+|-miss|p2a: Sableye|p1a: Flapple
+|move|p1a: Flapple|Outrage|p2a: Sableye|[from]lockedmove
+|-damage|p2a: Sableye|0 fnt
+|-damage|p1a: Flapple|46/100|[from] item: Life Orb
+|-start|p1a: Flapple|confusion|[fatigue]
+|faint|p2a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flapple|40/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|14
+|
+|-activate|p1a: Flapple|confusion
+|move|p1a: Flapple|Sucker Punch||[still]
+|-fail|p1a: Flapple
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|76/100
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|move|p2a: Salazzle|Toxic|p1a: Flapple
+|-status|p1a: Flapple|tox
+|-activate|p1a: Flapple|confusion
+|-damage|p1a: Flapple|1/100 tox|[from] confusion
+|
+|-damage|p1a: Flapple|0 fnt|[from] psn
+|faint|p1a: Flapple
+|-sideend|p1: Earlio2|move: Aurora Veil
+|upkeep
+|
+|switch|p1a: Falinks|Falinks|100/100
+|-damage|p1a: Falinks|95/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Salazzle|Toxic|p1a: Falinks
+|-status|p1a: Falinks|tox
+|move|p1a: Falinks|Throat Chop|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|
+|-damage|p1a: Falinks|89/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|51/100
+|move|p1a: Falinks|No Retreat|p1a: Falinks
+|-boost|p1a: Falinks|atk|1
+|-boost|p1a: Falinks|def|1
+|-boost|p1a: Falinks|spa|1
+|-boost|p1a: Falinks|spd|1
+|-boost|p1a: Falinks|spe|1
+|-start|p1a: Falinks|move: No Retreat
+|
+|-damage|p1a: Falinks|77/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Falinks|Throat Chop|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-damage|p1a: Falinks|59/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Falinks|Throat Chop|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|26/100
+|
+|-damage|p1a: Falinks|36/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Falinks|Throat Chop|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-damage|p1a: Falinks|6/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Falinks|Throat Chop|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|1/100
+|
+|-damage|p1a: Falinks|0 fnt|[from] psn
+|faint|p1a: Falinks
+|upkeep
+|
+|switch|p1a: Barbaracle|Barbaracle, M|100/100
+|-damage|p1a: Barbaracle|88/100|[from] Stealth Rock
+|turn|22
+|c|☆Dollarsalt|gg
+|
+|move|p2a: Salazzle|Toxic|p1a: Barbaracle
+|-status|p1a: Barbaracle|tox
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|-enditem|p1a: Barbaracle|White Herb
+|-clearnegativeboost|p1a: Barbaracle|[silent]
+|
+|-damage|p1a: Barbaracle|82/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Barbaracle|Liquidation|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-damage|p1a: Barbaracle|70/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p1a: Barbaracle|Liquidation|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-crit|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|move|p2a: Salazzle|Flamethrower|p1a: Barbaracle
+|-resisted|p1a: Barbaracle
+|-damage|p1a: Barbaracle|59/100 tox
+|
+|-damage|p1a: Barbaracle|41/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Barbaracle|Liquidation|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-damage|p1a: Barbaracle|17/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p1a: Barbaracle|Liquidation|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|-damage|p1a: Barbaracle|0 fnt|[from] psn
+|faint|p1a: Barbaracle
+|
+|win|Dollarsalt
+|upkeep
+|c|☆Earlio2|gg

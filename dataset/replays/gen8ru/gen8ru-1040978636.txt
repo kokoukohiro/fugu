@@ -1,0 +1,697 @@
+|j|☆Robjr
+|j|☆bebo7788
+|player|p1|Robjr|lance|
+|player|p2|bebo7788|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gigalith, M|
+|poke|p1|Vileplume, F|
+|poke|p1|Sigilyph, M|
+|poke|p1|Passimian, M|
+|poke|p1|Mr. Rime, F|
+|poke|p1|Gastrodon, M|
+|poke|p2|Mareanie, M|
+|poke|p2|Escavalier, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Xatu, F|
+|poke|p2|Rhydon, M|
+|poke|p2|Silvally-*|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆bebo7788|hf
+|c|☆Robjr|hf
+|
+|start
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|turn|1
+|
+|move|p2a: Rillaboom|U-turn|p1a: Sigilyph
+|-damage|p1a: Sigilyph|64/100
+|
+|switch|p2a: Rhydon|Rhydon, M|100/100|[from]move: U-turn
+|move|p1a: Sigilyph|Air Slash|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|87/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|move|p2a: Rhydon|Stealth Rock|p1a: Vileplume
+|-sidestart|p1: Robjr|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|switch|p2a: Escavalier|Escavalier, M|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|move|p2a: Escavalier|Megahorn|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|17/100
+|
+|-heal|p1a: Vileplume|23/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Vileplume|Strength Sap|p2a: Escavalier
+|-unboost|p2a: Escavalier|atk|1
+|-heal|p1a: Vileplume|100/100
+|move|p2a: Escavalier|Knock Off|p1a: Vileplume
+|-damage|p1a: Vileplume|84/100
+|-status|p2a: Escavalier|par|[from] ability: Effect Spore|[of] p1a: Vileplume
+|-enditem|p1a: Vileplume|Black Sludge|[from] move: Knock Off|[of] p2a: Escavalier
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Passimian|Passimian, M|100/100
+|-damage|p1a: Passimian|94/100|[from] Stealth Rock
+|move|p2a: Escavalier|Knock Off|p1a: Passimian
+|-resisted|p1a: Passimian
+|-damage|p1a: Passimian|82/100
+|-enditem|p1a: Passimian|Choice Scarf|[from] move: Knock Off|[of] p2a: Escavalier
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|move|p1a: Passimian|Knock Off|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|89/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Vileplume|Vileplume, F|84/100
+|-damage|p1a: Vileplume|72/100|[from] Stealth Rock
+|move|p2a: Silvally|Multi-Attack|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|53/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Vileplume|Strength Sap|p2a: Xatu
+|move|p2a: Xatu|Strength Sap|p1a: Vileplume|[from]Magic Bounce
+|-unboost|p1a: Vileplume|atk|1
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100|[from]move: Teleport
+|
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Vileplume|Vileplume, F|53/100
+|-damage|p1a: Vileplume|41/100|[from] Stealth Rock
+|move|p2a: Rillaboom|U-turn|p1a: Vileplume
+|-damage|p1a: Vileplume|24/100
+|
+|switch|p2a: Xatu|Xatu, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|move|p2a: Xatu|Air Slash|p1a: Mr. Rime|[miss]
+|-miss|p2a: Xatu|p1a: Mr. Rime
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Escavalier|Escavalier, M|100/100 par
+|move|p1a: Mr. Rime|Rapid Spin|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|97/100 par
+|-sideend|p1: Robjr|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Mr. Rime
+|-boost|p1a: Mr. Rime|spe|1
+|
+|-heal|p2a: Escavalier|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Passimian|Passimian, M|82/100
+|move|p2a: Escavalier|Megahorn|p1a: Passimian
+|-resisted|p1a: Passimian
+|-damage|p1a: Passimian|47/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Silvally|Silvally-Fairy|89/100
+|move|p1a: Passimian|U-turn|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|77/100
+|
+|switch|p1a: Gigalith|Gigalith, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Silvally|71/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|switch|p2a: Rhydon|Rhydon, M|87/100
+|move|p1a: Gigalith|Stone Edge|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Rhydon|Stealth Rock|p1a: Gigalith
+|-sidestart|p1: Robjr|move: Stealth Rock
+|move|p1a: Gigalith|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Rhydon|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|37/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Rhydon
+|-sidestart|p2: bebo7788|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|44/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Rhydon|Rock Blast|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|none
+|-heal|p1a: Gigalith|50/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Rhydon|Earthquake|p1a: Gastrodon
+|-damage|p1a: Gastrodon|65/100
+|
+|-heal|p1a: Gastrodon|71/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Escavalier|Escavalier, M|100/100 par
+|-damage|p2a: Escavalier|88/100 par|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Escavalier
+|-damage|p2a: Escavalier|68/100 par
+|
+|-heal|p1a: Gastrodon|77/100|[from] item: Leftovers
+|-heal|p2a: Escavalier|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Escavalier
+|-damage|p2a: Escavalier|53/100 par
+|move|p2a: Escavalier|Megahorn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|31/100
+|
+|-heal|p1a: Gastrodon|38/100|[from] item: Leftovers
+|-heal|p2a: Escavalier|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|88/100
+|move|p2a: Escavalier|Megahorn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|45/100
+|
+|-heal|p1a: Gastrodon|51/100|[from] item: Leftovers
+|-heal|p2a: Escavalier|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|move|p2a: Escavalier|Rest|p2a: Escavalier
+|-status|p2a: Escavalier|slp|[from] move: Rest
+|-heal|p2a: Escavalier|100/100 slp|[silent]
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Escavalier
+|-damage|p2a: Escavalier|76/100 slp
+|-unboost|p2a: Escavalier|spd|1
+|cant|p2a: Escavalier|slp
+|move|p2a: Escavalier|Sleep Talk|p2a: Escavalier
+|move|p2a: Escavalier|Knock Off|p1a: Gastrodon|[from]Sleep Talk
+|-damage|p1a: Gastrodon|75/100
+|-enditem|p1a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p2a: Escavalier
+|
+|-heal|p2a: Escavalier|82/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Gastrodon|Scald|p2a: Escavalier
+|-damage|p2a: Escavalier|51/100 slp
+|cant|p2a: Escavalier|slp
+|move|p2a: Escavalier|Sleep Talk|p2a: Escavalier
+|move|p2a: Escavalier|Knock Off|p1a: Gastrodon|[from]Sleep Talk
+|-damage|p1a: Gastrodon|58/100
+|
+|-heal|p2a: Escavalier|57/100 slp|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|-curestatus|p2a: Escavalier|slp|[msg]
+|move|p2a: Escavalier|Rest|p2a: Escavalier
+|-status|p2a: Escavalier|slp|[from] move: Rest
+|-heal|p2a: Escavalier|100/100 slp|[silent]
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Escavalier
+|-damage|p2a: Escavalier|66/100 slp
+|cant|p2a: Escavalier|slp
+|move|p2a: Escavalier|Sleep Talk|p2a: Escavalier
+|move|p2a: Escavalier|Rest|p2a: Escavalier|[from]Sleep Talk
+|-fail|p2a: Escavalier
+|
+|-heal|p2a: Escavalier|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Escavalier
+|-damage|p2a: Escavalier|38/100 slp
+|cant|p2a: Escavalier|slp
+|move|p2a: Escavalier|Sleep Talk|p2a: Escavalier
+|move|p2a: Escavalier|Knock Off|p1a: Gastrodon|[from]Sleep Talk
+|-damage|p1a: Gastrodon|85/100
+|
+|-heal|p2a: Escavalier|44/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Escavalier
+|-damage|p2a: Escavalier|9/100 slp
+|-curestatus|p2a: Escavalier|slp|[msg]
+|move|p2a: Escavalier|Rest|p2a: Escavalier
+|-status|p2a: Escavalier|slp|[from] move: Rest
+|-heal|p2a: Escavalier|100/100 slp|[silent]
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|-damage|p2a: Xatu|76/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Earth Power|p2a: Xatu
+|-immune|p2a: Xatu
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Gastrodon|Scald|p2a: Xatu
+|-damage|p2a: Xatu|37/100
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Escavalier|Escavalier, M|100/100 slp|[from]move: Teleport
+|-damage|p2a: Escavalier|88/100 slp|[from] Stealth Rock
+|
+|-heal|p2a: Escavalier|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Escavalier
+|-damage|p2a: Escavalier|73/100 slp
+|cant|p2a: Escavalier|slp
+|move|p2a: Escavalier|Sleep Talk|p2a: Escavalier
+|move|p2a: Escavalier|Megahorn|p1a: Gastrodon|[from]Sleep Talk
+|-damage|p1a: Gastrodon|36/100
+|
+|-heal|p2a: Escavalier|79/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|86/100
+|cant|p2a: Escavalier|slp
+|move|p2a: Escavalier|Sleep Talk|p2a: Escavalier
+|move|p2a: Escavalier|Megahorn|p1a: Gastrodon|[from]Sleep Talk
+|-damage|p1a: Gastrodon|40/100
+|
+|-heal|p2a: Escavalier|85/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|90/100
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Vileplume|Vileplume, F|24/100
+|-damage|p1a: Vileplume|11/100|[from] Stealth Rock
+|move|p2a: Rillaboom|Wood Hammer|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-damage|p2a: Rillaboom|84/100|[from] Recoil
+|faint|p1a: Vileplume
+|
+|upkeep
+|
+|switch|p1a: Sigilyph|Sigilyph, M|64/100
+|turn|37
+|
+|switch|p2a: Xatu|Xatu, F|37/100
+|-damage|p2a: Xatu|13/100|[from] Stealth Rock
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|100/100
+|-singleturn|p1a: Sigilyph|move: Roost
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Sigilyph|Psyshock|p2a: Xatu
+|-resisted|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Fairy|71/100
+|-damage|p2a: Silvally|58/100|[from] Stealth Rock
+|turn|39
+|
+|move|p1a: Sigilyph|Air Slash|p2a: Silvally
+|-damage|p2a: Silvally|11/100
+|move|p2a: Silvally|Multi-Attack|p1a: Sigilyph
+|-damage|p1a: Sigilyph|24/100
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Sigilyph|Psyshock|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, M|84/100
+|-damage|p2a: Rillaboom|72/100|[from] Stealth Rock
+|turn|41
+|
+|switch|p1a: Gigalith|Gigalith, M|50/100
+|-damage|p1a: Gigalith|37/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Rillaboom|Wood Hammer|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|-damage|p2a: Rillaboom|59/100|[from] Recoil
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|52/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|turn|42
+|
+|switch|p2a: Escavalier|Escavalier, M|85/100 slp
+|-damage|p2a: Escavalier|73/100 slp|[from] Stealth Rock
+|move|p1a: Mr. Rime|Rapid Spin|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|70/100 slp
+|-sideend|p1: Robjr|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Mr. Rime
+|-boost|p1a: Mr. Rime|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mr. Rime|94/100|[from] Sandstorm
+|-heal|p2a: Escavalier|76/100 slp|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p1a: Gastrodon|Gastrodon, M|90/100
+|-curestatus|p2a: Escavalier|slp|[msg]
+|move|p2a: Escavalier|Megahorn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Escavalier|82/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|95/100
+|move|p2a: Escavalier|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Escavalier|88/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Gastrodon|Scald|p2a: Escavalier
+|-damage|p2a: Escavalier|67/100
+|move|p2a: Escavalier|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|64/100
+|
+|-weather|none
+|-heal|p2a: Escavalier|73/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Gastrodon|Scald|p2a: Escavalier
+|-damage|p2a: Escavalier|51/100
+|move|p2a: Escavalier|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|48/100
+|
+|-heal|p2a: Escavalier|57/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|98/100
+|move|p2a: Escavalier|Megahorn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|50/100
+|
+|-heal|p2a: Escavalier|63/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p1a: Gastrodon|Scald|p2a: Escavalier
+|-damage|p2a: Escavalier|43/100
+|-status|p2a: Escavalier|brn
+|move|p2a: Escavalier|Megahorn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|29/100
+|
+|-heal|p2a: Escavalier|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Escavalier|43/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|79/100
+|move|p2a: Escavalier|Rest|p2a: Escavalier
+|-status|p2a: Escavalier|slp|[from] move: Rest
+|-heal|p2a: Escavalier|100/100 slp|[silent]
+|
+|upkeep
+|turn|50
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Escavalier
+|-damage|p2a: Escavalier|76/100 slp
+|cant|p2a: Escavalier|slp
+|move|p2a: Escavalier|Sleep Talk|p2a: Escavalier
+|move|p2a: Escavalier|Rest|p2a: Escavalier|[from]Sleep Talk
+|-fail|p2a: Escavalier
+|
+|-heal|p2a: Escavalier|82/100 slp|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Escavalier
+|-damage|p2a: Escavalier|59/100 slp
+|cant|p2a: Escavalier|slp
+|
+|-heal|p2a: Escavalier|65/100 slp|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Escavalier
+|-damage|p2a: Escavalier|43/100 slp
+|-unboost|p2a: Escavalier|spd|1
+|-curestatus|p2a: Escavalier|slp|[msg]
+|move|p2a: Escavalier|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|63/100
+|
+|-heal|p2a: Escavalier|49/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|switch|p1a: Passimian|Passimian, M|47/100
+|move|p2a: Escavalier|Rest|p2a: Escavalier
+|-status|p2a: Escavalier|slp|[from] move: Rest
+|-heal|p2a: Escavalier|100/100 slp|[silent]
+|
+|upkeep
+|turn|54
+|
+|switch|p2a: Mareanie|Mareanie, M|100/100
+|-damage|p2a: Mareanie|88/100|[from] Stealth Rock
+|move|p1a: Passimian|Knock Off|p2a: Mareanie
+|-damage|p2a: Mareanie|65/100
+|-enditem|p2a: Mareanie|Eviolite|[from] move: Knock Off|[of] p1a: Passimian
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Passimian|U-turn|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|54/100
+|
+|switch|p1a: Sigilyph|Sigilyph, M|24/100|[from]move: U-turn
+|move|p2a: Mareanie|Scald|p1a: Sigilyph
+|-damage|p1a: Sigilyph|3/100
+|-status|p1a: Sigilyph|brn
+|
+|upkeep
+|turn|56
+|
+|switch|p2a: Rhydon|Rhydon, M|45/100
+|-damage|p2a: Rhydon|39/100|[from] Stealth Rock
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|53/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|
+|upkeep
+|turn|57
+|
+|switch|p1a: Gastrodon|Gastrodon, M|63/100
+|move|p2a: Rhydon|Rock Blast|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|59/100
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|55/100
+|-hitcount|p1a: Gastrodon|2
+|
+|upkeep
+|turn|58
+|j|+killin'time
+|
+|switch|p2a: Escavalier|Escavalier, M|100/100 slp
+|-damage|p2a: Escavalier|88/100 slp|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Escavalier
+|-damage|p2a: Escavalier|67/100 slp
+|
+|-heal|p2a: Escavalier|73/100 slp|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|cant|p2a: Escavalier|slp
+|
+|-heal|p2a: Escavalier|80/100 slp|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|switch|p1a: Passimian|Passimian, M|47/100
+|cant|p2a: Escavalier|slp
+|
+|-heal|p2a: Escavalier|86/100 slp|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p1a: Passimian|Knock Off|p2a: Escavalier
+|-damage|p2a: Escavalier|54/100 slp
+|-enditem|p2a: Escavalier|Leftovers|[from] move: Knock Off|[of] p1a: Passimian
+|-curestatus|p2a: Escavalier|slp|[msg]
+|move|p2a: Escavalier|Megahorn|p1a: Passimian
+|-resisted|p1a: Passimian
+|-damage|p1a: Passimian|14/100
+|
+|upkeep
+|turn|62
+|
+|switch|p2a: Mareanie|Mareanie, M|87/100
+|-damage|p2a: Mareanie|75/100|[from] Stealth Rock
+|move|p1a: Passimian|Close Combat|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|44/100
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|
+|upkeep
+|turn|63
+|
+|move|p1a: Passimian|U-turn|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|30/100
+|
+|switch|p1a: Sigilyph|Sigilyph, M|53/100 brn|[from]move: U-turn
+|move|p2a: Mareanie|Recover|p2a: Mareanie
+|-heal|p2a: Mareanie|80/100
+|
+|upkeep
+|turn|64
+|
+|switch|p2a: Rillaboom|Rillaboom, M|52/100
+|-damage|p2a: Rillaboom|40/100|[from] Stealth Rock
+|move|p1a: Sigilyph|Psyshock|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|switch|p2a: Escavalier|Escavalier, M|54/100
+|-damage|p2a: Escavalier|42/100|[from] Stealth Rock
+|turn|65
+|
+|move|p1a: Sigilyph|Heat Wave|p2a: Escavalier
+|-supereffective|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|upkeep
+|c|☆bebo7788|gg man
+|c|☆Robjr|gg
+|c|☆bebo7788|was a fun series
+|c|☆Robjr|indeed
+|c|☆bebo7788|srry ab g1
+|-message|bebo7788 forfeited.
+|
+|win|Robjr
+|l|☆bebo7788
+|j| critsomnia
+|j|☆bebo7788
+|player|p2|bebo7788|2
+|l| critsomnia

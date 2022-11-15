@@ -1,0 +1,276 @@
+|j|☆monotypewhat
+|j|☆canaan3
+|player|p1|monotypewhat|165|1500
+|player|p2|canaan3|265|1448
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Steelix, M|
+|poke|p1|Accelgor, F|
+|poke|p1|Machamp, M|
+|poke|p1|Goodra, M|
+|poke|p1|Aromatisse, M|
+|poke|p1|Dhelmise|
+|poke|p2|Drednaw, F|
+|poke|p2|Jellicent, M|
+|poke|p2|Flapple, F|
+|poke|p2|Pangoro, F|
+|poke|p2|Rotom-Frost|
+|poke|p2|Xatu, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by monotypewhat)
+|
+|start
+|switch|p1a: Goodra|Goodra, M|100/100
+|switch|p2a: Drednaw|Drednaw, F|100/100
+|turn|1
+|inactive|canaan3 has 120 seconds left.
+|
+|move|p2a: Drednaw|Rock Tomb|p1a: Goodra
+|-damage|p1a: Goodra|63/100
+|-unboost|p1a: Goodra|spe|1
+|move|p1a: Goodra|Dragon Pulse|p2a: Drednaw
+|-damage|p2a: Drednaw|36/100
+|
+|-heal|p1a: Goodra|69/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Drednaw|Stealth Rock|p1a: Goodra
+|-sidestart|p1: monotypewhat|move: Stealth Rock
+|move|p1a: Goodra|Dragon Pulse|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|faint|p2a: Drednaw
+|
+|-heal|p1a: Goodra|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Pangoro|Pangoro, F|100/100
+|turn|3
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|-damage|p1a: Aromatisse|88/100|[from] Stealth Rock
+|move|p2a: Pangoro|Close Combat|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-damage|p1a: Aromatisse|49/100
+|-unboost|p2a: Pangoro|def|1
+|-unboost|p2a: Pangoro|spd|1
+|
+|-heal|p1a: Aromatisse|55/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|canaan3 has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|61/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Rotom|Substitute|p2a: Rotom
+|-start|p2a: Rotom|Substitute
+|-damage|p2a: Rotom|76/100
+|
+|-heal|p1a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: Aromatisse|Moonblast|p2a: Rotom
+|-end|p2a: Rotom|Substitute
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|-damage|p1a: Steelix|97/100|[from] Stealth Rock
+|move|p2a: Rotom|Blizzard|p1a: Steelix|[miss]
+|-miss|p2a: Rotom|p1a: Steelix
+|
+|-heal|p1a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Blizzard|p1a: Steelix
+|-ability|p1a: Steelix|Sturdy
+|-damage|p1a: Steelix|1/100
+|move|p1a: Steelix|Heavy Slam|p2a: Rotom
+|-damage|p2a: Rotom|12/100
+|
+|-heal|p1a: Steelix|7/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆canaan3|sighs
+|c|☆canaan3|i am so done after this crap
+|
+|move|p2a: Rotom|Blizzard|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|upkeep
+|
+|switch|p1a: Accelgor|Accelgor, F|100/100
+|-damage|p1a: Accelgor|76/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Accelgor|Bug Buzz|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|85/100
+|
+|-heal|p2a: Jellicent|91/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|-damage|p1a: Machamp|94/100|[from] Stealth Rock
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Machamp
+|-status|p1a: Machamp|brn
+|
+|-heal|p2a: Jellicent|97/100|[from] item: Leftovers
+|-damage|p1a: Machamp|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Machamp|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|3/100
+|-damage|p1a: Machamp|72/100 brn|[from] item: Rocky Helmet|[of] p2a: Xatu
+|-enditem|p2a: Xatu|Rocky Helmet|[from] move: Knock Off|[of] p1a: Machamp
+|
+|-damage|p1a: Machamp|65/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Machamp|Bullet Punch|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|-damage|p1a: Machamp|59/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Flapple|Flapple, F|100/100
+|turn|14
+|
+|switch|p1a: Goodra|Goodra, M|75/100
+|-damage|p1a: Goodra|63/100|[from] Stealth Rock
+|move|p2a: Flapple|Outrage|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|upkeep
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|-damage|p1a: Aromatisse|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Flapple|Outrage|p1a: Aromatisse|[from]lockedmove
+|-immune|p1a: Aromatisse
+|move|p1a: Aromatisse|Moonblast|p2a: Flapple
+|-supereffective|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|faint|p2a: Flapple
+|
+|-heal|p1a: Aromatisse|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Pangoro|Pangoro, F|100/100
+|turn|16
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Pangoro|Gunk Shot|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Pangoro|Gunk Shot|p1a: Aromatisse
+|-supereffective|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|upkeep
+|
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|-damage|p1a: Dhelmise|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Pangoro|Gunk Shot|p1a: Dhelmise|[miss]
+|-miss|p2a: Pangoro|p1a: Dhelmise
+|move|p1a: Dhelmise|Power Whip|p2a: Pangoro
+|-damage|p2a: Pangoro|15/100
+|
+|upkeep
+|turn|19
+|c|☆canaan3|yup
+|
+|switch|p2a: Rotom|Rotom-Frost|12/100
+|move|p1a: Dhelmise|Rapid Spin|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-sideend|p1: monotypewhat|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Dhelmise
+|-boost|p1a: Dhelmise|spe|1
+|faint|p2a: Rotom
+|
+|upkeep
+|inactive|canaan3 has 120 seconds left.
+|c|☆canaan3|enjoy you"re fuking win
+|c|☆canaan3|jeesh
+|inactive|canaan3 has 90 seconds left.
+|c|☆monotypewhat|damn
+|c|☆monotypewhat|thx
+|inactive|canaan3 has 60 seconds left.
+|inactive|canaan3 has 30 seconds left.
+|inactive|canaan3 has 20 seconds left.
+|inactive|canaan3 has 15 seconds left.
+|inactive|canaan3 has 10 seconds left.
+|
+|switch|p2a: Pangoro|Pangoro, F|15/100
+|turn|20
+|inactive|canaan3 has 20 seconds left this turn.
+|inactive|canaan3 has 15 seconds left.
+|inactive|canaan3 has 10 seconds left.
+|inactive|canaan3 has 5 seconds left.
+|
+|move|p1a: Dhelmise|Anchor Shot|p2a: Pangoro
+|-damage|p2a: Pangoro|0 fnt
+|faint|p2a: Pangoro
+|
+|upkeep
+|inactive|canaan3 has 10 seconds left this turn.
+|inactive|canaan3 has 5 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, M|97/100
+|turn|21
+|inactive|canaan3 has 15 seconds left this turn.
+|inactive|canaan3 has 10 seconds left.
+|inactive|canaan3 has 5 seconds left.
+|
+|move|p1a: Dhelmise|Power Whip|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|win|monotypewhat
+|inactive|canaan3 has 10 seconds left this turn.
+|raw|monotypewhat's rating: 1500 &rarr; <strong>1517</strong><br />(+17 for winning)
+|raw|canaan3's rating: 1448 &rarr; <strong>1431</strong><br />(-17 for losing)
+|l|☆monotypewhat

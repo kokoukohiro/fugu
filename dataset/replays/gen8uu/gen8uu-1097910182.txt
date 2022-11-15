@@ -1,0 +1,305 @@
+|j|☆NebbyGetInTheBag
+|j|☆VinceMcMahonDamnit
+|player|p1|NebbyGetInTheBag|lillie|1438
+|player|p2|VinceMcMahonDamnit|giovanni|1265
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Toxtricity, M|
+|poke|p1|Rhyperior, M|
+|poke|p1|Araquanid, M|
+|poke|p1|Braviary, M|
+|poke|p1|Sirfetch'd, M|
+|poke|p1|Polteageist|
+|poke|p2|Gigalith, F|
+|poke|p2|Golisopod, F|
+|poke|p2|Chandelure, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Polteageist|
+|poke|p2|Umbreon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Da Duke BAN
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VinceMcMahonDamnit)
+|inactive|NebbyGetInTheBag has 120 seconds left.
+|
+|start
+|switch|p1a: Dimitri-Shock|Toxtricity, M|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Dimitri-Shock
+|-resisted|p1a: Dimitri-Shock
+|-damage|p1a: Dimitri-Shock|78/100
+|
+|switch|p2a: Gigalith|Gigalith, F|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Dimitri-Shock|Volt Switch|p2a: Gigalith
+|-damage|p2a: Gigalith|55/100
+|
+|switch|p1a: White Knight|Sirfetch'd, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: White Knight|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p1a: White Knight|Close Combat|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-unboost|p1a: White Knight|def|1
+|-unboost|p1a: White Knight|spd|1
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: White Knight|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|turn|3
+|
+|switch|p1a: Grounder|Rhyperior, M|100/100
+|move|p2a: Golisopod|Liquidation|p1a: Grounder
+|-supereffective|p1a: Grounder
+|-damage|p1a: Grounder|0 fnt
+|faint|p1a: Grounder
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Golisopod|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Dimitri-Shock|Toxtricity, M|78/100
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Dimitri-Shock|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|85/100
+|
+|switch|p1a: Bubbles|Araquanid, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|79/100|[from] Sandstorm
+|-damage|p1a: Bubbles|94/100|[from] Sandstorm
+|-heal|p1a: Bubbles|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Bubbles|Protect|p1a: Bubbles
+|-singleturn|p1a: Bubbles|Protect
+|move|p2a: Rotom|Trick|p1a: Bubbles
+|-activate|p1a: Bubbles|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Trick|p1a: Bubbles
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Bubbles
+|-item|p1a: Bubbles|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Bubbles|Sticky Web|p2a: Rotom
+|-sidestart|p2: VinceMcMahonDamnit|move: Sticky Web
+|
+|-heal|p2a: Rotom|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Dimitri-Shock|Toxtricity, M|78/100
+|move|p2a: Rotom|Defog|p1a: Dimitri-Shock
+|-unboost|p1a: Dimitri-Shock|evasion|1
+|-sideend|p2: VinceMcMahonDamnit|Sticky Web|[from] move: Defog|[of] p2a: Rotom
+|
+|-heal|p2a: Rotom|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|move|p1a: Dimitri-Shock|Boomburst|p2a: Chandelure
+|-immune|p2a: Chandelure
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Bubbles|Araquanid, M|100/100
+|move|p2a: Chandelure|Substitute|p2a: Chandelure
+|-start|p2a: Chandelure|Substitute
+|-damage|p2a: Chandelure|76/100
+|
+|-heal|p2a: Chandelure|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Chandelure|Flamethrower|p1a: Bubbles
+|-damage|p1a: Bubbles|85/100
+|move|p1a: Bubbles|Liquidation|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-end|p2a: Chandelure|Substitute
+|
+|-heal|p2a: Chandelure|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Mow|91/100
+|move|p1a: Bubbles|Liquidation|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|64/100
+|
+|-heal|p2a: Rotom|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Volt Switch|p1a: Bubbles
+|-supereffective|p1a: Bubbles
+|-damage|p1a: Bubbles|47/100
+|
+|switch|p2a: Golisopod|Golisopod, F|94/100|[from]move: Volt Switch
+|move|p1a: Bubbles|Liquidation|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|80/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Golisopod|First Impression|p1a: Bubbles
+|-damage|p1a: Bubbles|0 fnt
+|faint|p1a: Bubbles
+|
+|upkeep
+|
+|switch|p1a: Dimitri-Shock|Toxtricity, M|78/100
+|turn|14
+|
+|switch|p2a: Chandelure|Chandelure, F|88/100
+|move|p1a: Dimitri-Shock|Volt Switch|p2a: Chandelure
+|-damage|p2a: Chandelure|12/100
+|
+|switch|p1a: White Knight|Sirfetch'd, M|88/100|[from]move: Volt Switch
+|
+|-heal|p2a: Chandelure|18/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: White Knight|First Impression|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|6/100
+|move|p2a: Chandelure|Flamethrower|p1a: White Knight
+|-damage|p1a: White Knight|8/100
+|
+|-heal|p2a: Chandelure|12/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: #MAGA|Braviary, M|100/100
+|move|p2a: Chandelure|Flamethrower|p1a: #MAGA
+|-damage|p1a: #MAGA|40/100
+|
+|-heal|p2a: Chandelure|18/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: #MAGA|Brave Bird|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-damage|p1a: #MAGA|35/100|[from] Recoil
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Golisopod|Golisopod, F|80/100
+|turn|18
+|
+|move|p2a: Golisopod|First Impression|p1a: #MAGA
+|-resisted|p1a: #MAGA
+|-damage|p1a: #MAGA|0 fnt
+|faint|p1a: #MAGA
+|
+|upkeep
+|
+|switch|p1a: Dimitri-Shock|Toxtricity, M|78/100
+|turn|19
+|
+|switch|p2a: Rotom|Rotom-Mow|70/100
+|move|p1a: Dimitri-Shock|Overdrive|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|33/100
+|
+|-heal|p2a: Rotom|39/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Rotom|Volt Switch|p1a: Dimitri-Shock
+|-resisted|p1a: Dimitri-Shock
+|-damage|p1a: Dimitri-Shock|54/100
+|
+|switch|p2a: Umbreon|Umbreon, F|100/100|[from]move: Volt Switch
+|move|p1a: Dimitri-Shock|Overdrive|p2a: Umbreon
+|-damage|p2a: Umbreon|64/100
+|
+|-heal|p2a: Umbreon|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Dimitri-Shock|Overdrive|p2a: Umbreon
+|-damage|p2a: Umbreon|29/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|36/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Rotom|Rotom-Mow|39/100
+|move|p1a: Dimitri-Shock|Overdrive|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|15/100
+|
+|-heal|p2a: Rotom|96/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Twinings|Polteageist|100/100
+|move|p2a: Rotom|Leaf Storm|p1a: Twinings
+|-damage|p1a: Twinings|30/100
+|-unboost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Twinings
+|-damage|p1a: Twinings|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Twinings
+|
+|upkeep
+|
+|switch|p1a: White Knight|Sirfetch'd, M|8/100
+|turn|25
+|
+|switch|p2a: Golisopod|Golisopod, F|80/100
+|move|p1a: White Knight|Close Combat|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-crit|p2a: Golisopod
+|-damage|p2a: Golisopod|41/100
+|-unboost|p1a: White Knight|def|1
+|-unboost|p1a: White Knight|spd|1
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|
+|upkeep
+|turn|26
+|-message|NebbyGetInTheBag forfeited.
+|
+|win|VinceMcMahonDamnit
+|l|☆NebbyGetInTheBag

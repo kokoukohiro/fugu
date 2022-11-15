@@ -1,0 +1,303 @@
+|j|☆Artemis_V13
+|j|☆Ash's Revenge
+|player|p1|Artemis_V13|juan|1384
+|player|p2|Ash's Revenge|169|1297
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Appletun, M|
+|poke|p1|Jellicent, M|
+|poke|p1|Dhelmise|
+|poke|p1|Toxicroak, F|
+|poke|p1|Stunfisk-Galar, M|
+|poke|p1|Slurpuff, F|
+|poke|p2|Charizard, F|
+|poke|p2|Ninetales, M|
+|poke|p2|Vileplume, M|
+|poke|p2|Leafeon, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Steelix, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|switch|p2a: Steelix|Steelix, M, shiny|100/100
+|turn|1
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|move|p1a: Jellicent|Taunt|p2a: Vileplume
+|-start|p2a: Vileplume|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ninetales|Ninetales, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|switch|p1a: Stunfisk|Stunfisk-Galar, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Steelix|Steelix, M, shiny|100/100
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Leafeon
+|-status|p2a: Leafeon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Leafeon|95/100 brn|[from] brn
+|upkeep
+|turn|5
+|c|☆Ash's Revenge|ha
+|c|☆Ash's Revenge|jokes on you
+|c|☆Ash's Revenge|in the sun you cant deduct my atk damage
+|
+|switch|p1a: Stunfisk|Stunfisk-Galar, M|100/100
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Leafeon|89/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Leafeon|Solar Blade||[still]
+|-prepare|p2a: Leafeon|Solar Blade|p1a: Stunfisk
+|-anim|p2a: Leafeon|Solar Blade|p1a: Stunfisk
+|-damage|p1a: Stunfisk|31/100
+|-damage|p2a: Leafeon|79/100 brn|[from] item: Life Orb
+|move|p1a: Stunfisk|Stealth Rock|p2a: Leafeon
+|-sidestart|p2: Ash's Revenge|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Stunfisk|37/100|[from] item: Leftovers
+|-damage|p2a: Leafeon|73/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Appletun|Appletun, M|100/100
+|move|p2a: Leafeon|Solar Blade||[still]
+|-prepare|p2a: Leafeon|Solar Blade|p1a: Appletun
+|-anim|p2a: Leafeon|Solar Blade|p1a: Appletun
+|-resisted|p1a: Appletun
+|-damage|p1a: Appletun|87/100
+|-damage|p2a: Leafeon|63/100 brn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Appletun|93/100|[from] item: Leftovers
+|-damage|p2a: Leafeon|57/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Leafeon|Knock Off|p1a: Appletun
+|-damage|p1a: Appletun|67/100
+|-enditem|p1a: Appletun|Leftovers|[from] move: Knock Off|[of] p2a: Leafeon
+|-damage|p2a: Leafeon|47/100 brn|[from] item: Life Orb
+|move|p1a: Appletun|Recover|p1a: Appletun
+|-heal|p1a: Appletun|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Leafeon|41/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Steelix|Steelix, M, shiny|100/100
+|-damage|p2a: Steelix|97/100|[from] Stealth Rock
+|move|p1a: Appletun|Dragon Pulse|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|83/100
+|
+|-weather|none
+|-heal|p2a: Steelix|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Steelix|Stealth Rock|p1a: Appletun
+|-sidestart|p1: Artemis_V13|move: Stealth Rock
+|move|p1a: Appletun|Leech Seed|p2a: Steelix
+|-start|p2a: Steelix|move: Leech Seed
+|
+|-heal|p2a: Steelix|95/100|[from] item: Leftovers
+|-damage|p2a: Steelix|83/100|[from] Leech Seed|[of] p1a: Appletun
+|upkeep
+|turn|11
+|
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|-damage|p1a: Dhelmise|88/100|[from] Stealth Rock
+|switch|p2a: Ninetales|Ninetales, M, shiny|100/100
+|-damage|p2a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: Ninetales|Nasty Plot|p2a: Ninetales
+|-boost|p2a: Ninetales|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam|p1a: Jellicent
+|-anim|p2a: Ninetales|Solar Beam|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|18/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jellicent|74/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Appletun|Appletun, M|100/100
+|-damage|p1a: Appletun|88/100|[from] Stealth Rock
+|move|p2a: Ninetales|Nasty Plot|p2a: Ninetales
+|-boost|p2a: Ninetales|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p1a: Slurpuff|Slurpuff, F|100/100
+|-damage|p1a: Slurpuff|88/100|[from] Stealth Rock
+|move|p2a: Ninetales|Weather Ball|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Stunfisk|Stunfisk-Galar, M|37/100
+|-damage|p1a: Stunfisk|34/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Stunfisk|Protect|p1a: Stunfisk
+|-singleturn|p1a: Stunfisk|Protect
+|move|p2a: Ninetales|Weather Ball|p1a: Stunfisk
+|-activate|p1a: Stunfisk|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Stunfisk|41/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Dhelmise|Dhelmise|88/100
+|-damage|p1a: Dhelmise|76/100|[from] Stealth Rock
+|move|p2a: Ninetales|Weather Ball|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Stunfisk|Stunfisk-Galar, M|41/100
+|-damage|p1a: Stunfisk|37/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Ninetales|Flamethrower|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|0 fnt
+|faint|p1a: Stunfisk
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M|74/100
+|-damage|p1a: Jellicent|61/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Leafeon|Leafeon, M|41/100 brn
+|-damage|p2a: Leafeon|29/100 brn|[from] Stealth Rock
+|move|p1a: Jellicent|Hex|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|-heal|p1a: Jellicent|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales, M, shiny|76/100
+|-damage|p2a: Ninetales|51/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|20
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|-damage|p2a: Vileplume|88/100|[from] Stealth Rock
+|move|p1a: Jellicent|Hex|p2a: Vileplume
+|-damage|p2a: Vileplume|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jellicent|74/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Vileplume|Growth|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|-boost|p2a: Vileplume|spa|2
+|move|p1a: Jellicent|Hex|p2a: Vileplume
+|-damage|p2a: Vileplume|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jellicent|80/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Appletun|Appletun, M|88/100
+|-damage|p1a: Appletun|75/100|[from] Stealth Rock
+|move|p2a: Vileplume|Giga Drain|p1a: Appletun
+|-resisted|p1a: Appletun
+|-damage|p1a: Appletun|55/100
+|-heal|p2a: Vileplume|57/100|[from] drain|[of] p1a: Appletun
+|-damage|p2a: Vileplume|47/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p2a: Vileplume|Sludge Wave|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|-damage|p2a: Vileplume|37/100|[from] item: Life Orb
+|faint|p1a: Appletun
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Vileplume|Dazzling Gleam|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|-damage|p2a: Vileplume|27/100|[from] item: Life Orb
+|faint|p1a: Toxicroak
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Artemis_V13 forfeited.
+|
+|win|Ash's Revenge
+|l|☆Artemis_V13

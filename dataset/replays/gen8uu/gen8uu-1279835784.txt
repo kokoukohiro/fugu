@@ -1,0 +1,533 @@
+|j|☆lanouille
+|j|☆Cramdis
+|t:|1612978671
+|player|p1|lanouille|tuber|1417
+|player|p2|Cramdis|184|1296
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Incineroar, M|
+|poke|p1|Ditto|
+|poke|p1|Rotom-Heat|
+|poke|p1|Nihilego|
+|poke|p1|Jirachi|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Krookodile, F|
+|poke|p2|Mew|
+|poke|p2|Kyurem|
+|poke|p2|Scizor, F|
+|poke|p2|Salamence, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1612978686
+|start
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Krookodile|atk|1
+|turn|1
+|
+|t:|1612978695
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Krookodile|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|71/100
+|-enditem|p1a: Rotom|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Krookodile
+|
+|upkeep
+|turn|2
+|j| stanyejilia
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lanouille)
+|
+|t:|1612978729
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|move|p1a: Rotom|Overheat|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|77/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1612978738
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Rotom|Pain Split|p2a: Kyurem
+|-sethp|p2a: Kyurem|77/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|100/100|[from] move: Pain Split
+|
+|-heal|p2a: Kyurem|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1612978757
+|switch|p1a: Nihilego|Nihilego|100/100
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|58/100
+|
+|-heal|p2a: Kyurem|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1612978766
+|move|p1a: Nihilego|Power Gem|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Earth Power|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|22/100
+|
+|-heal|p2a: Kyurem|71/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1612978778
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Nihilego|Meteor Beam||[still]
+|-prepare|p1a: Nihilego|Meteor Beam
+|-boost|p1a: Nihilego|spa|1
+|-enditem|p1a: Nihilego|Power Herb
+|-anim|p1a: Nihilego|Meteor Beam|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spe|1
+|
+|upkeep
+|
+|t:|1612978783
+|switch|p2a: Mew|Mew|100/100
+|turn|7
+|
+|t:|1612978800
+|move|p1a: Nihilego|Power Gem|p2a: Mew
+|-damage|p2a: Mew|52/100
+|move|p2a: Mew|Psychic|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|faint|p1a: Nihilego
+|
+|-heal|p2a: Mew|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1612978812
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Mew|atk|1
+|turn|8
+|
+|t:|1612978824
+|switch|p2a: Salamence|Salamence, F|77/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|move|p1a: Incineroar|Knock Off|p2a: Salamence
+|-damage|p2a: Salamence|59/100
+|-enditem|p2a: Salamence|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|9
+|
+|t:|1612978835
+|move|p2a: Salamence|Dual Wingbeat|p1a: Incineroar
+|-damage|p1a: Incineroar|82/100
+|-damage|p1a: Incineroar|64/100
+|-hitcount|p1a: Incineroar|2
+|move|p1a: Incineroar|Toxic|p2a: Salamence
+|-status|p2a: Salamence|tox
+|
+|-damage|p2a: Salamence|53/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1612978844
+|move|p2a: Salamence|Dual Wingbeat|p1a: Incineroar
+|-damage|p1a: Incineroar|47/100
+|-damage|p1a: Incineroar|31/100
+|-hitcount|p1a: Incineroar|2
+|move|p1a: Incineroar|Parting Shot|p2a: Salamence
+|-unboost|p2a: Salamence|atk|1
+|-unboost|p2a: Salamence|spa|1
+|
+|t:|1612978854
+|switch|p1a: Kommo-o|Kommo-o, M|100/100|[from]move: Parting Shot
+|
+|-damage|p2a: Salamence|41/100 tox|[from] psn
+|upkeep
+|turn|11
+|j| kawasakicompany
+|c| kawasakicompany|hello
+|c|☆lanouille|hello
+|
+|t:|1612978886
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Salamence|Dual Wingbeat|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|97/100
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|93/100
+|-hitcount|p1a: Jirachi|2
+|
+|-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+|-damage|p2a: Salamence|22/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1612978897
+|move|p1a: Jirachi|Stealth Rock|p2a: Salamence
+|-sidestart|p2: Cramdis|move: Stealth Rock
+|move|p2a: Salamence|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|78/100
+|
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|-damage|p2a: Salamence|0 fnt|[from] psn
+|faint|p2a: Salamence
+|upkeep
+|
+|t:|1612978904
+|switch|p2a: Mew|Mew|58/100
+|-damage|p2a: Mew|46/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1612978912
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|96/100
+|
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1612978925
+|move|p2a: Mew|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|66/100
+|move|p1a: Rotom|Volt Switch|p2a: Mew
+|-damage|p2a: Mew|78/100
+|
+|t:|1612978930
+|switch|p1a: Incineroar|Incineroar, M|31/100|[from]move: Volt Switch
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Mew|atk|1
+|
+|-heal|p2a: Mew|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1612978943
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|-damage|p2a: Krookodile|94/100|[from] Stealth Rock
+|move|p1a: Incineroar|Knock Off|p2a: Krookodile
+|-resisted|p2a: Krookodile
+|-damage|p2a: Krookodile|71/100
+|-enditem|p2a: Krookodile|Choice Scarf|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|16
+|
+|t:|1612978953
+|switch|p1a: Rotom|Rotom-Heat|66/100
+|move|p2a: Krookodile|Stealth Rock|p1a: Rotom
+|-sidestart|p1: lanouille|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1612978961
+|move|p2a: Krookodile|Stone Edge|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|6/100
+|move|p1a: Rotom|Overheat|p2a: Krookodile|[miss]
+|-miss|p1a: Rotom|p2a: Krookodile
+|
+|upkeep
+|turn|18
+|
+|t:|1612978969
+|move|p2a: Krookodile|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|upkeep
+|
+|t:|1612978977
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1612978983
+|move|p2a: Krookodile|Earthquake|p1a: Kommo-o
+|-damage|p1a: Kommo-o|29/100
+|move|p1a: Kommo-o|Drain Punch|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|-heal|p1a: Kommo-o|69/100|[from] drain|[of] p2a: Krookodile
+|faint|p2a: Krookodile
+|
+|-heal|p1a: Kommo-o|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1612978987
+|switch|p2a: Mew|Mew|84/100
+|-damage|p2a: Mew|72/100|[from] Stealth Rock
+|turn|20
+|l| kawasakicompany
+|
+|t:|1612979005
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Mew|[from] ability: Imposter
+|move|p2a: Mew|Will-O-Wisp|p1a: Ditto
+|-status|p1a: Ditto|brn
+|-activate|p1a: Ditto|ability: Synchronize
+|-status|p2a: Mew|brn
+|-activate|p2a: Mew|ability: Synchronize
+|-fail|p1a: Ditto|brn
+|
+|-heal|p2a: Mew|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Ditto|82/100 brn|[from] brn
+|-damage|p2a: Mew|72/100 brn|[from] brn
+|upkeep
+|turn|21
+|inactive|lanouille has 120 seconds left.
+|
+|t:|1612979033
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|move|p1a: Ditto|Taunt|p2a: Thundurus
+|-start|p2a: Thundurus|move: Taunt
+|
+|-damage|p1a: Ditto|76/100 brn|[from] brn
+|upkeep
+|turn|22
+|inactive|lanouille has 120 seconds left.
+|
+|t:|1612979046
+|switch|p1a: Incineroar|Incineroar, M|31/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Thundurus|atk|1
+|move|p2a: Thundurus|Dark Pulse|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|16/100
+|-damage|p2a: Thundurus|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|23
+|inactive|lanouille has 120 seconds left.
+|
+|t:|1612979060
+|switch|p1a: Ditto|Ditto|76/100 brn
+|-damage|p1a: Ditto|64/100 brn|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Thundurus|[from] ability: Imposter
+|move|p2a: Thundurus|Thunderbolt|p1a: Ditto
+|-heal|p1a: Ditto|88/100 brn|[from] ability: Volt Absorb|[of] p2a: Thundurus
+|
+|-damage|p1a: Ditto|82/100 brn|[from] brn
+|-end|p2a: Thundurus|move: Taunt
+|upkeep
+|turn|24
+|inactive|lanouille has 120 seconds left.
+|
+|t:|1612979073
+|switch|p2a: Mew|Mew|72/100 brn
+|-damage|p2a: Mew|59/100 brn|[from] Stealth Rock
+|move|p1a: Ditto|Dark Pulse|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|12/100 brn
+|
+|-heal|p2a: Mew|18/100 brn|[from] item: Leftovers
+|-damage|p1a: Ditto|76/100 brn|[from] brn
+|-damage|p2a: Mew|12/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1612979083
+|move|p1a: Ditto|Dark Pulse|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-damage|p1a: Ditto|70/100 brn|[from] brn
+|upkeep
+|
+|t:|1612979085
+|switch|p2a: Kyurem|Kyurem|71/100
+|-damage|p2a: Kyurem|46/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|26
+|
+|t:|1612979094
+|switch|p1a: Jirachi|Jirachi|84/100
+|-damage|p1a: Jirachi|78/100|[from] Stealth Rock
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|96/100
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-heal|p2a: Kyurem|100/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1612979104
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|76/100
+|move|p1a: Jirachi|Iron Head|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|-heal|p2a: Kyurem|82/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1612979112
+|switch|p2a: Thundurus|Thundurus-Therian, M|66/100
+|-damage|p2a: Thundurus|41/100|[from] Stealth Rock
+|move|p1a: Jirachi|Iron Head|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|19/100
+|
+|-heal|p1a: Jirachi|96/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1612979125
+|move|p2a: Thundurus|Dark Pulse|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|30/100
+|-damage|p2a: Thundurus|9/100|[from] item: Life Orb
+|move|p1a: Jirachi|Iron Head|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-heal|p1a: Jirachi|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1612979128
+|switch|p2a: Kyurem|Kyurem|82/100
+|-damage|p2a: Kyurem|57/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|30
+|
+|t:|1612979138
+|move|p2a: Kyurem|Earth Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-heal|p2a: Kyurem|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1612979146
+|switch|p1a: Ditto|Ditto|70/100 brn
+|-damage|p1a: Ditto|58/100 brn|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Kyurem|[from] ability: Imposter
+|-ability|p1a: Ditto|Pressure
+|turn|31
+|
+|t:|1612979155
+|move|p1a: Ditto|Freeze-Dry|p2a: Kyurem
+|-damage|p2a: Kyurem|29/100
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|79/100
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-heal|p2a: Kyurem|85/100|[from] item: Leftovers
+|-damage|p1a: Ditto|52/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1612979165
+|move|p1a: Ditto|Freeze-Dry|p2a: Kyurem
+|-damage|p2a: Kyurem|54/100
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|29/100
+|
+|-heal|p2a: Kyurem|35/100|[from] item: Leftovers
+|-damage|p1a: Ditto|46/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1612979173
+|move|p1a: Ditto|Freeze-Dry|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Roost|p2a: Kyurem
+|-heal|p2a: Kyurem|85/100
+|-singleturn|p2a: Kyurem|move: Roost
+|
+|-heal|p2a: Kyurem|91/100|[from] item: Leftovers
+|-damage|p1a: Ditto|40/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1612979184
+|switch|p1a: Kommo-o|Kommo-o, M|75/100
+|-damage|p1a: Kommo-o|69/100|[from] Stealth Rock
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|66/100
+|
+|-heal|p2a: Kyurem|73/100|[from] item: Leftovers
+|-heal|p1a: Kommo-o|75/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1612979195
+|move|p2a: Kyurem|Freeze-Dry|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-heal|p2a: Kyurem|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1612979201
+|switch|p1a: Incineroar|Incineroar, M|16/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-immune|p2a: Kyurem
+|turn|36
+|
+|t:|1612979208
+|move|p2a: Kyurem|Earth Power|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-heal|p2a: Kyurem|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1612979214
+|switch|p1a: Ditto|Ditto|40/100 brn
+|-damage|p1a: Ditto|28/100 brn|[from] Stealth Rock
+|turn|37
+|
+|t:|1612979222
+|move|p2a: Kyurem|Freeze-Dry|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|win|Cramdis
+|c| stanyejilia|Gg
+|c|☆Cramdis|gg again
+|l|☆lanouille
+|l| stanyejilia
+|c|☆Cramdis|kyurem is your bane, lanouille
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

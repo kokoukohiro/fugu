@@ -1,0 +1,104 @@
+|j|☆A floor mat
+|j|☆quimbs
+|player|p1|A floor mat|unknown|1286
+|player|p2|quimbs|1|1331
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Morpeko, M|
+|poke|p1|Quagsire, F|
+|poke|p1|Slurpuff, F|
+|poke|p1|Drampa, M|
+|poke|p1|Hitmonchan, M|
+|poke|p1|Braviary, M|
+|poke|p2|Passimian, F|
+|poke|p2|Duraludon, M|
+|poke|p2|Inteleon, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Vikavolt, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Youthful Draco|Drampa, M|100/100
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|turn|1
+|
+|move|p2a: Vikavolt|Volt Switch|p1a: Youthful Draco
+|-resisted|p1a: Youthful Draco
+|-damage|p1a: Youthful Draco|75/100
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100|[from]move: Volt Switch
+|move|p1a: Youthful Draco|Draco Meteor|p2a: Snorlax|[miss]
+|-miss|p1a: Youthful Draco|p2a: Snorlax
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|57/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|move|p1a: Hitmonchan|Drain Punch|p2a: Vikavolt
+|-resisted|p2a: Vikavolt
+|-damage|p2a: Vikavolt|71/100
+|-heal|p1a: Hitmonchan|71/100|[from] drain|[of] p2a: Vikavolt
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Hitmonchan|Fire Punch|p2a: Vikavolt
+|-supereffective|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|faint|p2a: Vikavolt
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|turn|5
+|
+|move|p2a: Inteleon|Hydro Pump|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|13/100
+|move|p1a: Hitmonchan|Drain Punch|p2a: Inteleon
+|-damage|p2a: Inteleon|19/100
+|-heal|p1a: Hitmonchan|51/100|[from] drain|[of] p2a: Inteleon
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Hitmonchan|Mach Punch|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|7
+|
+|switch|p1a: Youthful Draco|Drampa, M|75/100
+|move|p2a: Rotom|Leaf Storm|p1a: Youthful Draco
+|-ability|p1a: Youthful Draco|Sap Sipper|boost
+|-boost|p1a: Youthful Draco|atk|1
+|
+|upkeep
+|turn|8
+|-message|quimbs forfeited.
+|
+|win|A floor mat
+|l|☆quimbs
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

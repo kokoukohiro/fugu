@@ -1,0 +1,402 @@
+|j|☆Eltoras
+|j|☆bruhthor
+|player|p1|Eltoras|blue|1283
+|player|p2|bruhthor|1|1156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Noivern, M|
+|poke|p1|Umbreon, M|
+|poke|p1|Inteleon, F|
+|poke|p1|Gigalith, F|
+|poke|p1|Cobalion|
+|poke|p1|Celebi|
+|poke|p2|Runerigus, M|
+|poke|p2|Froslass, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Charizard, M|
+|poke|p2|Venusaur, F|
+|poke|p2|Heliolisk, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Anubis|Gigalith, F|100/100
+|switch|p2a: Froslass|Froslass, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Anubis
+|turn|1
+|
+|move|p2a: Froslass|Trick|p1a: Anubis
+|-activate|p2a: Froslass|move: Trick|[of] p1a: Anubis
+|-item|p1a: Anubis|Choice Scarf|[from] move: Trick
+|-item|p2a: Froslass|Leftovers|[from] move: Trick
+|move|p1a: Anubis|Rock Blast|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|69/100
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|40/100
+|-start|p1a: Anubis|Disable|Rock Blast|[from] ability: Cursed Body|[of] p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|10/100
+|-hitcount|p2a: Froslass|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Froslass|4/100|[from] Sandstorm
+|-heal|p2a: Froslass|10/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Isis|Umbreon, M|100/100
+|move|p2a: Froslass|Spikes|p1a: Isis
+|-sidestart|p1: Eltoras|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Froslass|4/100|[from] Sandstorm
+|-damage|p1a: Isis|94/100|[from] Sandstorm
+|-heal|p2a: Froslass|10/100|[from] item: Leftovers
+|-heal|p1a: Isis|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Apis|Noivern, M|100/100
+|-item|p2a: Froslass|Leftovers|[from] ability: Frisk|[of] p1a: Apis|[identify]
+|move|p2a: Froslass|Destiny Bond|p2a: Froslass
+|-singlemove|p2a: Froslass|Destiny Bond
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Apis|94/100|[from] Sandstorm
+|-damage|p2a: Froslass|4/100|[from] Sandstorm
+|-heal|p2a: Froslass|10/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Apis|Defog|p2a: Froslass
+|-unboost|p2a: Froslass|evasion|1
+|-sideend|p1: Eltoras|Spikes|[from] move: Defog|[of] p1a: Apis
+|move|p2a: Froslass|Spikes|p1a: Apis
+|-sidestart|p1: Eltoras|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Apis|88/100|[from] Sandstorm
+|-damage|p2a: Froslass|4/100|[from] Sandstorm
+|-heal|p2a: Froslass|10/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Apis|Air Slash|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|-start|p1a: Apis|Disable|Air Slash|[from] ability: Cursed Body|[of] p2a: Froslass
+|faint|p2a: Froslass
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|6
+|
+|move|p1a: Apis|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|97/100
+|
+|switch|p1a: Anubis|Gigalith, F|100/100|[from]move: U-turn
+|-damage|p1a: Anubis|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Anubis
+|move|p2a: Torkoal|Stealth Rock|p1a: Anubis
+|-sidestart|p1: Eltoras|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Torkoal|91/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|move|p1a: Anubis|Stealth Rock|p2a: Runerigus
+|-sidestart|p2: bruhthor|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Amon|Celebi|100/100
+|-damage|p1a: Amon|88/100|[from] Stealth Rock
+|-damage|p1a: Amon|76/100|[from] Spikes
+|move|p2a: Runerigus|Will-O-Wisp|p1a: Amon
+|-status|p1a: Amon|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amon|70/100 brn|[from] Sandstorm
+|-heal|p1a: Amon|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Amon|70/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Amon|Energy Ball|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|32/100
+|move|p2a: Runerigus|Toxic Spikes|p1a: Amon
+|-sidestart|p1: Eltoras|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amon|64/100 brn|[from] Sandstorm
+|-heal|p1a: Amon|70/100 brn|[from] item: Leftovers
+|-heal|p2a: Runerigus|39/100|[from] item: Leftovers
+|-damage|p1a: Amon|64/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Amon|Energy Ball|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|0 fnt
+|faint|p2a: Runerigus
+|
+|-weather|none
+|-heal|p1a: Amon|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Amon|64/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Burnt Toast|Charizard, M, shiny|100/100
+|turn|11
+|
+|switch|p1a: Apis|Noivern, M|88/100
+|-item|p2a: Burnt Toast|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Apis|[identify]
+|move|p2a: Burnt Toast|Flamethrower|p1a: Apis
+|-resisted|p1a: Apis
+|-damage|p1a: Apis|65/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Apis|Defog|p2a: Burnt Toast
+|-unboost|p2a: Burnt Toast|evasion|1
+|-sideend|p2: bruhthor|Stealth Rock|[from] move: Defog|[of] p1a: Apis
+|-sideend|p1: Eltoras|Spikes|[from] move: Defog|[of] p1a: Apis
+|-sideend|p1: Eltoras|Toxic Spikes|[from] move: Defog|[of] p1a: Apis
+|-sideend|p1: Eltoras|Stealth Rock|[from] move: Defog|[of] p1a: Apis
+|move|p2a: Burnt Toast|Toxic|p1a: Apis|[miss]
+|-miss|p2a: Burnt Toast|p1a: Apis
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Isis|Umbreon, M|100/100
+|move|p2a: Burnt Toast|Toxic|p1a: Isis
+|-status|p1a: Isis|tox
+|-activate|p1a: Isis|ability: Synchronize
+|-status|p2a: Burnt Toast|tox
+|
+|-damage|p2a: Burnt Toast|94/100 tox|[from] psn
+|-damage|p1a: Isis|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p2a: Torkoal|Torkoal, F|91/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Isis|Foul Play|p2a: Torkoal
+|-damage|p2a: Torkoal|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Isis|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Isis|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Anubis|Gigalith, F|88/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Anubis
+|move|p2a: Torkoal|Solar Beam||[still]
+|-prepare|p2a: Torkoal|Solar Beam|p1a: Anubis
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Torkoal|69/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|move|p1a: Anubis|Rock Blast|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|52/100
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|32/100
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|14/100
+|-hitcount|p2a: Torkoal|3
+|move|p2a: Torkoal|Solar Beam|p1a: Anubis|[from]lockedmove
+|-supereffective|p1a: Anubis
+|-damage|p1a: Anubis|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Torkoal|8/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|move|p1a: Anubis|Rock Blast|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-hitcount|p2a: Torkoal|1
+|faint|p2a: Torkoal
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|turn|18
+|
+|switch|p1a: Isis|Umbreon, M|88/100 tox
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|1
+|-boost|p2a: Venusaur|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Venusaur|94/100|[from] Sandstorm
+|-damage|p1a: Isis|82/100 tox|[from] Sandstorm
+|-heal|p1a: Isis|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Isis|82/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|1
+|-boost|p2a: Venusaur|spa|1
+|move|p1a: Isis|Heal Bell|p1a: Isis
+|-activate|p1a: Isis|move: Heal Bell
+|-curestatus|p1a: Isis|tox|[msg]
+|
+|-weather|none
+|-heal|p1a: Isis|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|1
+|-boost|p2a: Venusaur|spa|1
+|move|p1a: Isis|Foul Play|p2a: Venusaur
+|-damage|p2a: Venusaur|25/100
+|
+|-heal|p1a: Isis|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Isis
+|-damage|p1a: Isis|55/100
+|-heal|p2a: Venusaur|50/100|[from] drain|[of] p1a: Isis
+|move|p1a: Isis|Foul Play|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-heal|p1a: Isis|61/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|turn|22
+|
+|move|p2a: Heliolisk|Thunderbolt|p1a: Isis
+|-crit|p1a: Isis
+|-damage|p1a: Isis|13/100
+|move|p1a: Isis|Wish|p1a: Isis
+|
+|-heal|p1a: Isis|20/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Burnt Toast|Charizard, M, shiny|94/100 tox
+|move|p1a: Isis|Protect||[still]
+|-fail|p1a: Isis
+|
+|-heal|p1a: Isis|70/100|[from] move: Wish|[wisher] Isis
+|-heal|p1a: Isis|76/100|[from] item: Leftovers
+|-damage|p2a: Burnt Toast|88/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p1a: Isis|Protect|p1a: Isis
+|-singleturn|p1a: Isis|Protect
+|move|p2a: Burnt Toast|Toxic|p1a: Isis
+|-activate|p1a: Isis|move: Protect
+|
+|-heal|p1a: Isis|82/100|[from] item: Leftovers
+|-damage|p2a: Burnt Toast|76/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|switch|p1a: Anubis|Gigalith, F|63/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Anubis
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Heliolisk|94/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|switch|p1a: Amon|Celebi|64/100
+|move|p2a: Heliolisk|Surf|p1a: Amon
+|-resisted|p1a: Amon
+|-damage|p1a: Amon|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Heliolisk|88/100|[from] Sandstorm
+|-damage|p1a: Amon|39/100|[from] Sandstorm
+|-heal|p1a: Amon|45/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Burnt Toast|Charizard, M, shiny|76/100 tox
+|move|p1a: Amon|Recover|p1a: Amon
+|-heal|p1a: Amon|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Burnt Toast|70/100 tox|[from] Sandstorm
+|-damage|p1a: Amon|89/100|[from] Sandstorm
+|-heal|p1a: Amon|95/100|[from] item: Leftovers
+|-damage|p2a: Burnt Toast|64/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p1a: Anubis|Gigalith, F|63/100
+|move|p2a: Burnt Toast|Toxic|p1a: Anubis
+|-status|p1a: Anubis|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Burnt Toast|58/100 tox|[from] Sandstorm
+|-damage|p2a: Burnt Toast|46/100 tox|[from] psn
+|-damage|p1a: Anubis|57/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|switch|p2a: Heliolisk|Heliolisk, F|88/100
+|move|p1a: Anubis|Rock Blast|p2a: Heliolisk
+|-damage|p2a: Heliolisk|64/100
+|-damage|p2a: Heliolisk|41/100
+|-damage|p2a: Heliolisk|15/100
+|-damage|p2a: Heliolisk|0 fnt
+|-hitcount|p2a: Heliolisk|4
+|faint|p2a: Heliolisk
+|
+|-weather|none
+|-damage|p1a: Anubis|45/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Burnt Toast|Charizard, M, shiny|46/100 tox
+|turn|30
+|c|☆bruhthor|gg
+|
+|switch|p1a: Isis|Umbreon, M|82/100
+|move|p2a: Burnt Toast|Air Slash|p1a: Isis
+|-damage|p1a: Isis|63/100
+|
+|-heal|p1a: Isis|69/100|[from] item: Leftovers
+|-damage|p2a: Burnt Toast|40/100 tox|[from] psn
+|upkeep
+|turn|31
+|-message|bruhthor forfeited.
+|
+|win|Eltoras
+|l|☆bruhthor

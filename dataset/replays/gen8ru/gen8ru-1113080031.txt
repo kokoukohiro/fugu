@@ -1,0 +1,376 @@
+|j|☆4G3NC KD Burner
+|j|☆Umbra Soul
+|player|p1|4G3NC KD Burner|214|1499
+|player|p2|Umbra Soul|69|1471
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Rapidash, M|
+|poke|p1|Steelix, F|
+|poke|p1|Vikavolt, F|
+|poke|p1|Passimian, M|
+|poke|p1|Silvally-*|
+|poke|p1|Snorlax, F|
+|poke|p2|Inteleon, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Piloswine, F|
+|poke|p2|Charizard, F|
+|poke|p2|Haunter, M|
+|poke|p2|Scrafty, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| parabola22
+|
+|start
+|switch|p1a: Passimian|Passimian, M|100/100
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|turn|1
+|
+|switch|p2a: Charizard|Charizard, F|100/100
+|move|p1a: Passimian|Close Combat|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|67/100
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|100/100
+|-singleturn|p2a: Charizard|move: Roost
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Charizard|Toxic|p1a: Snorlax
+|-status|p1a: Snorlax|tox
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-damage|p1a: Snorlax|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Scrafty|Scrafty, F|100/100
+|move|p1a: Snorlax|Facade|p2a: Scrafty
+|-damage|p2a: Scrafty|33/100
+|
+|-heal|p2a: Scrafty|39/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Snorlax|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Passimian|Passimian, M|100/100
+|move|p2a: Scrafty|Drain Punch|p1a: Passimian
+|-damage|p1a: Passimian|75/100
+|-heal|p2a: Scrafty|52/100|[from] drain|[of] p1a: Passimian
+|
+|-heal|p2a: Scrafty|58/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Charizard|Charizard, F|100/100
+|move|p1a: Passimian|U-turn|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|94/100
+|
+|switch|p1a: Rapidash|Rapidash, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Rapidash|Wild Charge|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|37/100
+|-damage|p1a: Rapidash|82/100|[from] Recoil
+|move|p2a: Charizard|Toxic|p1a: Rapidash
+|-status|p1a: Rapidash|tox
+|
+|-damage|p1a: Rapidash|76/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|switch|p2a: Piloswine|Piloswine, F|100/100
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Vikavolt|Sticky Web|p2a: Piloswine
+|-sidestart|p2: Umbra Soul|move: Sticky Web
+|move|p2a: Piloswine|Icicle Crash|p1a: Vikavolt
+|-damage|p1a: Vikavolt|51/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Vikavolt|Energy Ball|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|42/100
+|move|p2a: Piloswine|Icicle Crash|p1a: Vikavolt
+|-damage|p1a: Vikavolt|1/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|move|p2a: Piloswine|Ice Shard|p1a: Steelix
+|-damage|p1a: Steelix|91/100
+|
+|-heal|p1a: Steelix|97/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Piloswine|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|52/100
+|move|p1a: Steelix|Heavy Slam|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|faint|p2a: Piloswine
+|
+|-heal|p1a: Steelix|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, F|37/100
+|turn|13
+|
+|switch|p1a: Rapidash|Rapidash, M|76/100 tox
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|87/100
+|-singleturn|p2a: Charizard|move: Roost
+|
+|-damage|p1a: Rapidash|70/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Rapidash|Wild Charge|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|28/100
+|-damage|p1a: Rapidash|50/100 tox|[from] Recoil
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|78/100
+|-singleturn|p2a: Charizard|move: Roost
+|
+|-damage|p1a: Rapidash|38/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Rapidash|Swords Dance|p1a: Rapidash
+|-boost|p1a: Rapidash|atk|2
+|move|p2a: Charizard|Defog|p1a: Rapidash
+|-unboost|p1a: Rapidash|evasion|1
+|-sideend|p2: Umbra Soul|Sticky Web|[from] move: Defog|[of] p2a: Charizard
+|
+|-damage|p1a: Rapidash|20/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Rapidash|Flare Blitz|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Rapidash|0 fnt|[from] Recoil
+|faint|p2a: Rotom
+|faint|p1a: Rapidash
+|
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, M|75/100
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|turn|17
+|
+|move|p1a: Passimian|U-turn|p2a: Inteleon
+|-damage|p2a: Inteleon|62/100
+|
+|switch|p1a: Vikavolt|Vikavolt, F|1/100|[from]move: U-turn
+|move|p2a: Inteleon|Hydro Pump|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, M|75/100
+|turn|18
+|
+|switch|p2a: Charizard|Charizard, F|78/100
+|move|p1a: Passimian|Knock Off|p2a: Charizard
+|-damage|p2a: Charizard|43/100
+|-enditem|p2a: Charizard|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Passimian
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Snorlax|Snorlax, F|88/100 tox
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|93/100
+|-singleturn|p2a: Charizard|move: Roost
+|
+|-heal|p1a: Snorlax|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Snorlax|88/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Scrafty|Scrafty, F|58/100
+|move|p1a: Snorlax|Darkest Lariat|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|53/100
+|
+|-heal|p2a: Scrafty|59/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Snorlax|82/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p1a: Steelix|Steelix, F|59/100
+|move|p2a: Scrafty|Drain Punch|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|36/100
+|-heal|p2a: Scrafty|71/100|[from] drain|[of] p1a: Steelix
+|
+|-heal|p2a: Scrafty|77/100|[from] item: Leftovers
+|-heal|p1a: Steelix|43/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|move|p1a: Steelix|Stealth Rock|p2a: Scrafty
+|-sidestart|p2: Umbra Soul|move: Stealth Rock
+|
+|-heal|p2a: Scrafty|83/100|[from] item: Leftovers
+|-heal|p1a: Steelix|49/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|move|p1a: Steelix|Toxic|p2a: Scrafty
+|-status|p2a: Scrafty|tox
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|tox|[msg]
+|-heal|p2a: Scrafty|89/100|[from] item: Leftovers
+|-heal|p1a: Steelix|55/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|move|p1a: Steelix|Toxic|p2a: Scrafty
+|-status|p2a: Scrafty|tox
+|
+|-heal|p2a: Scrafty|95/100 tox|[from] item: Leftovers
+|-heal|p1a: Steelix|61/100|[from] item: Leftovers
+|-damage|p2a: Scrafty|89/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Scrafty|Drain Punch|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|9/100
+|-heal|p2a: Scrafty|100/100 tox|[from] drain|[of] p1a: Steelix
+|move|p1a: Steelix|Heavy Slam|p2a: Scrafty
+|-damage|p2a: Scrafty|86/100 tox
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|tox|[msg]
+|-heal|p2a: Scrafty|92/100|[from] item: Leftovers
+|-heal|p1a: Steelix|15/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|move|p1a: Steelix|Heavy Slam|p2a: Scrafty
+|-damage|p2a: Scrafty|80/100
+|
+|-heal|p2a: Scrafty|86/100|[from] item: Leftovers
+|-heal|p1a: Steelix|21/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|move|p1a: Steelix|Heavy Slam|p2a: Scrafty
+|-damage|p2a: Scrafty|76/100
+|
+|-heal|p2a: Scrafty|82/100|[from] item: Leftovers
+|-heal|p1a: Steelix|27/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|move|p1a: Steelix|Heavy Slam|p2a: Scrafty
+|-damage|p2a: Scrafty|74/100
+|
+|-heal|p2a: Scrafty|80/100|[from] item: Leftovers
+|-heal|p1a: Steelix|34/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Scrafty|Drain Punch|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|-heal|p2a: Scrafty|97/100|[from] drain|[of] p1a: Steelix
+|faint|p1a: Steelix
+|
+|-heal|p2a: Scrafty|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, M|75/100
+|turn|30
+|
+|move|p1a: Passimian|Close Combat|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|72/100
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|move|p2a: Scrafty|Drain Punch|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|-heal|p2a: Scrafty|100/100|[from] drain|[of] p1a: Passimian
+|faint|p1a: Passimian
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Ghost|100/100
+|turn|31
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Scrafty|Knock Off|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|-message|4G3NC KD Burner forfeited.
+|
+|win|Umbra Soul
+|l|☆4G3NC KD Burner
+|c|☆Umbra Soul|gg
+|raw|4G3NC KD Burner's rating: 1499 &rarr; <strong>1478</strong><br />(-21 for losing)
+|raw|Umbra Soul's rating: 1471 &rarr; <strong>1492</strong><br />(+21 for winning)

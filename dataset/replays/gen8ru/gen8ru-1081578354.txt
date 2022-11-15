@@ -1,0 +1,268 @@
+|j|☆nathancarter20033
+|j|☆GreedentFan69
+|player|p1|nathancarter20033|1|1040
+|player|p2|GreedentFan69|greta-gen3|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Sableye, F|
+|poke|p1|Gurdurr, M|
+|poke|p1|Cinccino, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Silvally-*|
+|poke|p1|Vanilluxe, F|
+|poke|p2|Sableye, F|
+|poke|p2|Mantine, F|
+|poke|p2|Snorlax, M|
+|poke|p2|Steelix, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Cramorant, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|1
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Vanilluxe
+|-supereffective|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|14/100
+|move|p1a: Vanilluxe|Aurora Veil|p1a: Vanilluxe
+|-sidestart|p1: nathancarter20033|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Salazzle|94/100|[from] Hail
+|-heal|p2a: Salazzle|100/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|76/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Barraskewda|94/100|[from] Hail
+|-damage|p2a: Salazzle|69/100|[from] Hail
+|-heal|p2a: Salazzle|76/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|-damage|p1a: Barraskewda|85/100|[from] item: Life Orb
+|move|p2a: Salazzle|Toxic|p1a: Barraskewda
+|-status|p1a: Barraskewda|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Barraskewda|78/100 tox|[from] Hail
+|-damage|p2a: Salazzle|69/100|[from] Hail
+|-heal|p2a: Salazzle|76/100|[from] item: Black Sludge
+|-damage|p1a: Barraskewda|72/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Barraskewda|Psychic Fangs|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Barraskewda|66/100 tox|[from] Hail
+|-damage|p2a: Salazzle|69/100|[from] Hail
+|-heal|p2a: Salazzle|76/100|[from] item: Black Sludge
+|-damage|p1a: Barraskewda|54/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Mantine|Mantine, F|100/100
+|move|p1a: Barraskewda|Psychic Fangs|p2a: Mantine
+|-damage|p2a: Mantine|69/100
+|-damage|p1a: Barraskewda|44/100 tox|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p1a: Barraskewda|26/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Barraskewda|Crunch|p2a: Mantine
+|-damage|p2a: Mantine|39/100
+|-damage|p1a: Barraskewda|16/100 tox|[from] item: Life Orb
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|89/100
+|-singleturn|p2a: Mantine|move: Roost
+|
+|-damage|p1a: Barraskewda|0 fnt|[from] psn
+|faint|p1a: Barraskewda
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, F|14/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|7
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Snorlax
+|-damage|p2a: Snorlax|92/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Snorlax|86/100|[from] Hail
+|-heal|p2a: Snorlax|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Vanilluxe|Flash Cannon|p2a: Snorlax
+|-damage|p2a: Snorlax|77/100
+|move|p2a: Snorlax|Darkest Lariat|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|1/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Snorlax|71/100|[from] Hail
+|-heal|p2a: Snorlax|77/100|[from] item: Leftovers
+|-sideend|p1: nathancarter20033|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|switch|p1a: Gurdurr|Gurdurr, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Gurdurr
+|-crit|p1a: Gurdurr
+|-damage|p1a: Gurdurr|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gurdurr|42/100|[from] Hail
+|-damage|p2a: Snorlax|71/100|[from] Hail
+|-heal|p2a: Snorlax|77/100|[from] item: Leftovers
+|-status|p1a: Gurdurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Gurdurr|Mach Punch|p2a: Sableye
+|-immune|p2a: Sableye
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Sableye|94/100|[from] Hail
+|-damage|p1a: Gurdurr|36/100 brn|[from] Hail
+|-heal|p2a: Sableye|100/100|[from] item: Leftovers
+|-damage|p1a: Gurdurr|30/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Sableye|Knock Off|p1a: Gurdurr
+|-resisted|p1a: Gurdurr
+|-damage|p1a: Gurdurr|17/100 brn
+|-enditem|p1a: Gurdurr|Flame Orb|[from] move: Knock Off|[of] p2a: Sableye
+|move|p1a: Gurdurr|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|55/100
+|-enditem|p2a: Sableye|Leftovers|[from] move: Knock Off|[of] p1a: Gurdurr
+|
+|-weather|none
+|-damage|p1a: Gurdurr|11/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|move|p1a: Gurdurr|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|68/100
+|
+|-damage|p1a: Gurdurr|5/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Silvally|Silvally-Fairy, shiny|100/100
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Silvally
+|-status|p1a: Silvally|brn
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-damage|p1a: Silvally|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Sableye|Encore|p1a: Silvally
+|-start|p1a: Silvally|Encore
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-damage|p1a: Silvally|88/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Salazzle|Salazzle, F|76/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-heal|p2a: Salazzle|82/100|[from] item: Black Sludge
+|-damage|p1a: Silvally|82/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Silvally
+|-damage|p1a: Silvally|37/100 brn
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|0
+|
+|-heal|p2a: Salazzle|88/100|[from] item: Black Sludge
+|-damage|p1a: Silvally|31/100 brn|[from] brn
+|-end|p1a: Silvally|Encore
+|upkeep
+|turn|18
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|-heal|p2a: Salazzle|94/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Cinccino|Cinccino, M|100/100
+|turn|19
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Cinccino|Rock Blast|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|99/100
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|98/100
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|97/100
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|96/100
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|95/100
+|-hitcount|p2a: Steelix|5
+|
+|-heal|p2a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|move|p2a: Steelix|Stealth Rock|p1a: Sableye
+|-sidestart|p1: nathancarter20033|move: Stealth Rock
+|
+|upkeep
+|turn|21
+|-message|nathancarter20033 forfeited.
+|
+|win|GreedentFan69
+|raw|nathancarter20033's rating: 1040 &rarr; <strong>1023</strong><br />(-17 for losing)
+|raw|GreedentFan69's rating: 1000 &rarr; <strong>1045</strong><br />(+45 for winning)

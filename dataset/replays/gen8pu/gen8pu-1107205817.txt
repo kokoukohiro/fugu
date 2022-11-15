@@ -1,0 +1,161 @@
+|j|☆allstarapology
+|j|☆Cartsoul
+|player|p1|allstarapology|shelly-gen3|1429
+|player|p2|Cartsoul|170|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Shuckle, F|
+|poke|p1|Pawniard, F|
+|poke|p1|Gastly, F|
+|poke|p1|Fraxure, M|
+|poke|p1|Manectric, M|
+|poke|p1|Silvally-*|
+|poke|p2|Octillery, F|
+|poke|p2|Lapras, M|
+|poke|p2|Silvally-*|
+|poke|p2|Manectric, M|
+|poke|p2|Persian, M|
+|poke|p2|Hattrem, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by allstarapology)
+|
+|start
+|switch|p1a: Pawniard|Pawniard, F|100/100
+|switch|p2a: Silvally|Silvally-Dragon|100/100
+|turn|1
+|j|+tjay
+|
+|switch|p1a: Shuckle|Shuckle, F|100/100
+|move|p2a: Silvally|Thunder Wave|p1a: Shuckle
+|-status|p1a: Shuckle|par
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Pawniard|Pawniard, F|100/100
+|move|p2a: Silvally|U-turn|p1a: Pawniard
+|-damage|p1a: Pawniard|75/100
+|
+|switch|p2a: Lapras|Lapras, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Pawniard|Knock Off|p2a: Lapras
+|-damage|p2a: Lapras|63/100
+|-enditem|p2a: Lapras|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Pawniard
+|move|p2a: Lapras|Surf|p1a: Pawniard
+|-damage|p1a: Pawniard|24/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Pawniard|Iron Head|p2a: Lapras
+|-damage|p2a: Lapras|31/100
+|cant|p2a: Lapras|flinch
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Pawniard|Iron Head|p2a: Lapras
+|-damage|p2a: Lapras|3/100
+|move|p2a: Lapras|Surf|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|j| Skoun
+|
+|switch|p1a: Fraxure|Fraxure, M|100/100
+|-ability|p1a: Fraxure|Mold Breaker
+|turn|6
+|
+|move|p1a: Fraxure|Dragon Claw|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Dragon|100/100
+|turn|7
+|
+|switch|p1a: Shuckle|Shuckle, F|100/100 par
+|move|p2a: Silvally|Multi-Attack|p1a: Shuckle
+|-damage|p1a: Shuckle|66/100 par
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Silvally|U-turn|p1a: Shuckle
+|-damage|p1a: Shuckle|54/100 par
+|
+|switch|p2a: Hattrem|Hattrem, F|100/100|[from]move: U-turn
+|move|p1a: Shuckle|Final Gambit|p2a: Hattrem
+|-damage|p2a: Hattrem|60/100
+|faint|p1a: Shuckle
+|
+|upkeep
+|
+|switch|p1a: Fraxure|Fraxure, M|100/100
+|-ability|p1a: Fraxure|Mold Breaker
+|turn|9
+|
+|move|p1a: Fraxure|Substitute|p1a: Fraxure
+|-start|p1a: Fraxure|Substitute
+|-damage|p1a: Fraxure|76/100
+|move|p2a: Hattrem|Nuzzle|p1a: Fraxure
+|-resisted|p1a: Fraxure
+|-activate|p1a: Fraxure|move: Substitute|[damage]
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Fraxure|Dragon Dance|p1a: Fraxure
+|-boost|p1a: Fraxure|atk|1
+|-boost|p1a: Fraxure|spe|1
+|move|p2a: Hattrem|Draining Kiss|p1a: Fraxure
+|-supereffective|p1a: Fraxure
+|-end|p1a: Fraxure|Substitute
+|-heal|p2a: Hattrem|75/100|[from] drain|[of] p1a: Fraxure
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Fraxure|Dragon Claw|p2a: Hattrem
+|-damage|p2a: Hattrem|34/100
+|move|p2a: Hattrem|Draining Kiss|p1a: Fraxure
+|-supereffective|p1a: Fraxure
+|-damage|p1a: Fraxure|43/100
+|-heal|p2a: Hattrem|55/100|[from] drain|[of] p1a: Fraxure
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Fraxure|Dragon Claw|p2a: Hattrem
+|-damage|p2a: Hattrem|15/100
+|move|p2a: Hattrem|Draining Kiss|p1a: Fraxure
+|-supereffective|p1a: Fraxure
+|-crit|p1a: Fraxure
+|-damage|p1a: Fraxure|0 fnt
+|-heal|p2a: Hattrem|43/100|[from] drain|[of] p1a: Fraxure
+|faint|p1a: Fraxure
+|
+|upkeep
+|-message|allstarapology forfeited.
+|
+|win|Cartsoul
+|l|☆allstarapology
+|raw|allstarapology's rating: 1429 &rarr; <strong>1401</strong><br />(-28 for losing)
+|raw|Cartsoul's rating: 1291 &rarr; <strong>1325</strong><br />(+34 for winning)

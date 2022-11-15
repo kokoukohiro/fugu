@@ -1,0 +1,184 @@
+|j|☆Olihax
+|j|☆Darkortex
+|t:|1649023059
+|gametype|singles
+|player|p1|Olihax|102|1260
+|player|p2|Darkortex|hilbert|1484
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Vanilluxe, F|
+|poke|p1|Salamence, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Azelf|
+|poke|p1|Slowking, M|
+|poke|p1|Zarude-Dada|
+|poke|p2|Hippowdon, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Skarmory, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Amoonguss, M|
+|poke|p2|Keldeo-Resolute|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Darkortex)
+|c|☆Olihax|Glhf
+|inactive|Darkortex has 120 seconds left.
+|
+|t:|1649023093
+|start
+|switch|p1a: Slowking|Slowking, M|100/100
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|1
+|
+|t:|1649023102
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Slowking|Future Sight|p2a: Amoonguss
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|t:|1649023108
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|move|p2a: Amoonguss|Spore|p1a: Vanilluxe
+|-status|p1a: Vanilluxe|slp|[from] move: Spore
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Amoonguss|94/100|[from] Hail
+|upkeep
+|turn|3
+|
+|t:|1649023115
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|cant|p1a: Vanilluxe|slp
+|move|p1a: Vanilluxe|Sleep Talk|p1a: Vanilluxe
+|move|p1a: Vanilluxe|Blizzard|p2a: Hippowdon|[from]move: Sleep Talk
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vanilluxe|94/100 slp|[from] Sandstorm
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1649023126
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|4
+|
+|t:|1649023131
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Keldeo|Secret Sword|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|94/100|[from] Sandstorm
+|-damage|p1a: Slowking|69/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1649023144
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Slowking|Future Sight|p2a: Rotom
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|94/100|[from] Sandstorm
+|-damage|p1a: Slowking|63/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1649023147
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1649023154
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from]move: Teleport
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|88/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1649023156
+|move|p1a: Excadrill|Earthquake|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1649023159
+|switch|p2a: Keldeo|Keldeo-Resolute|94/100
+|turn|8
+|
+|t:|1649023169
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-item|p2a: Excadrill|Air Balloon
+|switch|p1a: Slowking|Slowking, M|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowking|90/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1649023175
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Slowking|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|23/100
+|-enditem|p2a: Excadrill|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowking|84/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1649023181
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Rock Blast|p1a: Salamence|[miss]
+|-miss|p2a: Excadrill|p1a: Salamence
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1649023189
+|move|p1a: Salamence|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|l|☆Darkortex
+|inactive|Darkortex disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Darkortex
+|inactive|Darkortex reconnected and has 135 seconds left.
+|player|p2|Darkortex|hilbert
+|-message|Darkortex forfeited.
+|
+|win|Olihax
+|raw|Olihax's rating: 1260 &rarr; <strong>1299</strong><br />(+39 for winning)
+|raw|Darkortex's rating: 1484 &rarr; <strong>1453</strong><br />(-31 for losing)
+|l|☆Darkortex

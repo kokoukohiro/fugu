@@ -1,0 +1,693 @@
+|j|☆Str8 Garbo
+|j|☆INT Tom
+|player|p1|Str8 Garbo|skier|1204
+|player|p2|INT Tom|emmet|1335
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Coalossal, M|
+|poke|p1|Vaporeon, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Rotom-Mow|
+|poke|p1|Silvally-*|
+|poke|p2|Coalossal, F|
+|poke|p2|Vileplume, F|
+|poke|p2|Scrafty, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Duraludon, F|
+|poke|p2|Braviary, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|switch|p2a: Braviary|Braviary, M|100/100
+|turn|1
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|move|p1a: Coalossal|Will-O-Wisp|p2a: Scrafty|[miss]
+|-miss|p1a: Coalossal|p2a: Scrafty
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|move|p2a: Scrafty|Knock Off|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|91/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Coalossal|Coalossal, F|100/100
+|move|p1a: Silvally|Substitute|p1a: Silvally
+|-start|p1a: Silvally|Substitute
+|-damage|p1a: Silvally|66/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Vileplume|Giga Drain|p1a: Silvally
+|-end|p1a: Silvally|Substitute
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Silvally|Fire Fang|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|29/100
+|move|p2a: Vileplume|Strength Sap|p1a: Silvally
+|-unboost|p1a: Silvally|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|move|p2a: Vileplume|Strength Sap|p1a: Coalossal
+|-unboost|p1a: Coalossal|atk|1
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|move|p1a: Coalossal|Stealth Rock|p2a: Scrafty
+|-sidestart|p2: INT Tom|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Coalossal|Coalossal, F|100/100
+|move|p1a: Coalossal|Will-O-Wisp|p2a: Coalossal
+|-immune|p2a: Coalossal
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Coalossal|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: Str8 Garbo|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|-damage|p2a: Vileplume|88/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p2a: Vileplume|94/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Vileplume|Sleep Powder|p1a: Indeedee|[miss]
+|-miss|p2a: Vileplume|p1a: Indeedee
+|
+|-heal|p1a: Indeedee|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Coalossal|Coalossal, F|100/100
+|move|p1a: Indeedee|Hyper Voice|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-crit|p2a: Coalossal
+|-damage|p2a: Coalossal|83/100
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|move|p2a: Coalossal|Rapid Spin|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-crit|p1a: Coalossal
+|-damage|p1a: Coalossal|96/100
+|-boost|p2a: Coalossal|spe|1
+|-sideend|p2: INT Tom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Coalossal
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Coalossal|Rock Blast|p1a: Rotom
+|-damage|p1a: Rotom|81/100
+|-damage|p1a: Rotom|74/100
+|-hitcount|p1a: Rotom|2
+|
+|-heal|p1a: Rotom|80/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Coalossal
+|-status|p2a: Coalossal|par
+|move|p2a: Coalossal|Flamethrower|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|33/100
+|
+|-heal|p1a: Rotom|39/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|17
+|
+|move|p1a: Rotom|Volt Switch|p2a: Coalossal
+|-damage|p2a: Coalossal|66/100 par
+|
+|switch|p1a: Coalossal|Coalossal, M|96/100|[from]move: Volt Switch
+|move|p2a: Coalossal|Flamethrower|p1a: Coalossal
+|-start|p1a: Coalossal|ability: Flash Fire
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Coalossal|Rapid Spin|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|63/100 par
+|-boost|p1a: Coalossal|spe|1
+|-sideend|p1: Str8 Garbo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Coalossal
+|move|p2a: Coalossal|Rock Blast|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|86/100
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|77/100
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|68/100
+|-hitcount|p1a: Coalossal|3
+|
+|upkeep
+|turn|19
+|
+|-end|p1a: Coalossal|ability: Flash Fire|[silent]
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Coalossal|Rock Blast|p1a: Vaporeon
+|-damage|p1a: Vaporeon|95/100
+|-damage|p1a: Vaporeon|89/100
+|-hitcount|p1a: Vaporeon|2
+|
+|-heal|p1a: Vaporeon|96/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Coalossal|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: Str8 Garbo|move: Stealth Rock
+|
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Vaporeon|Scald|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|84/100
+|
+|-heal|p2a: Vileplume|90/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Vileplume|Sludge Bomb|p1a: Vaporeon
+|-damage|p1a: Vaporeon|76/100
+|
+|-heal|p1a: Vaporeon|82/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|96/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|switch|p1a: Coalossal|Coalossal, M|68/100
+|move|p2a: Vileplume|Sleep Powder|p1a: Coalossal
+|-status|p1a: Coalossal|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Coalossal|100/100 slp|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|cant|p1a: Coalossal|slp
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Rotom|Rotom-Mow|39/100
+|-damage|p1a: Rotom|26/100|[from] Stealth Rock
+|move|p2a: Rillaboom|High Horsepower|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-heal|p1a: Rotom|33/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Rotom|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|
+|-heal|p1a: Rotom|39/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|85/100
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Rillaboom|91/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|upkeep
+|turn|28
+|
+|move|p2a: Rillaboom|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|37/100
+|-enditem|p1a: Rillaboom|Choice Band|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1a: Rillaboom|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|40/100
+|
+|switch|p1a: Silvally|Silvally-Fairy|66/100|[from]move: U-turn
+|-damage|p1a: Silvally|54/100|[from] Stealth Rock
+|
+|-heal|p1a: Silvally|60/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|46/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|29
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100 par
+|move|p1a: Silvally|Substitute|p1a: Silvally
+|-start|p1a: Silvally|Substitute
+|-damage|p1a: Silvally|35/100
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Vileplume|Sludge Bomb|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-end|p1a: Silvally|Substitute
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100 slp
+|move|p2a: Vileplume|Sludge Bomb|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|90/100 slp
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Rillaboom|Rillaboom, F|46/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-curestatus|p1a: Coalossal|slp|[msg]
+|move|p1a: Coalossal|Rapid Spin|p2a: Rillaboom
+|-damage|p2a: Rillaboom|37/100
+|-boost|p1a: Coalossal|spe|1
+|-sideend|p1: Str8 Garbo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Coalossal
+|
+|-heal|p2a: Rillaboom|44/100|[from] Grassy Terrain
+|-heal|p1a: Coalossal|96/100|[from] Grassy Terrain
+|upkeep
+|turn|33
+|
+|move|p2a: Rillaboom|U-turn|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|85/100
+|
+|switch|p2a: Coalossal|Coalossal, F|63/100 par|[from]move: U-turn
+|move|p1a: Coalossal|Will-O-Wisp||[still]
+|-fail|p1a: Coalossal
+|
+|-heal|p1a: Coalossal|91/100|[from] Grassy Terrain
+|-heal|p2a: Coalossal|69/100 par|[from] Grassy Terrain
+|upkeep
+|turn|34
+|
+|switch|p1a: Vaporeon|Vaporeon, M|82/100
+|move|p2a: Coalossal|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: Str8 Garbo|move: Stealth Rock
+|
+|-heal|p1a: Vaporeon|88/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|94/100|[from] Grassy Terrain
+|-heal|p2a: Coalossal|75/100 par|[from] Grassy Terrain
+|upkeep
+|turn|35
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100 par
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|cant|p2a: Vileplume|par
+|
+|-heal|p1a: Indeedee|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|37
+|
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|87/100 par
+|move|p2a: Vileplume|Sleep Powder|p1a: Indeedee
+|-status|p1a: Indeedee|slp|[from] move: Sleep Powder
+|
+|-heal|p2a: Vileplume|93/100 par|[from] item: Black Sludge
+|upkeep
+|turn|38
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|switch|p2a: Rillaboom|Rillaboom, F|44/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-heal|p2a: Rillaboom|50/100|[from] Grassy Terrain
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|100/100|[from] Grassy Terrain
+|upkeep
+|turn|39
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Rillaboom|Wood Hammer|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p2a: Rillaboom|56/100|[from] Grassy Terrain
+|upkeep
+|turn|40
+|
+|switch|p1a: Rotom|Rotom-Mow|39/100
+|-damage|p1a: Rotom|26/100|[from] Stealth Rock
+|move|p2a: Rillaboom|Wood Hammer|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Rillaboom|48/100|[from] Recoil
+|faint|p1a: Rotom
+|
+|-heal|p2a: Rillaboom|54/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Coalossal|Coalossal, M|91/100
+|turn|41
+|
+|switch|p2a: Coalossal|Coalossal, F|75/100 par
+|move|p1a: Coalossal|Rapid Spin|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|72/100 par
+|-boost|p1a: Coalossal|spe|1
+|-sideend|p1: Str8 Garbo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Coalossal
+|
+|-heal|p1a: Coalossal|97/100|[from] Grassy Terrain
+|-heal|p2a: Coalossal|79/100 par|[from] Grassy Terrain
+|upkeep
+|turn|42
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|cant|p2a: Coalossal|par
+|
+|-heal|p2a: Coalossal|85/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|43
+|
+|switch|p2a: Vileplume|Vileplume, F|93/100 par
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p2a: Vileplume|99/100 par|[from] item: Black Sludge
+|upkeep
+|turn|44
+|
+|move|p1a: Vaporeon|Heal Bell|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Heal Bell
+|-curestatus|p1: Indeedee|slp|[msg]
+|move|p2a: Vileplume|Sludge Bomb|p1a: Vaporeon
+|-damage|p1a: Vaporeon|76/100
+|
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vileplume|100/100 par|[from] item: Black Sludge
+|upkeep
+|turn|45
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Vileplume|Sleep Powder|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|46
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Vileplume|Sludge Bomb|p1a: Indeedee
+|-damage|p1a: Indeedee|51/100
+|-status|p1a: Indeedee|psn
+|
+|-heal|p1a: Indeedee|100/100 psn|[from] move: Wish|[wisher] Vaporeon
+|-damage|p1a: Indeedee|88/100 psn|[from] psn
+|upkeep
+|turn|47
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|move|p1a: Indeedee|Psychic|p2a: Scrafty
+|-immune|p2a: Scrafty
+|
+|-damage|p1a: Indeedee|76/100 psn|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p1a: Silvally|Silvally-Fairy|35/100
+|switch|p2a: Rillaboom|Rillaboom, F|54/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-heal|p1a: Silvally|41/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|61/100|[from] Grassy Terrain
+|upkeep
+|turn|49
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Rillaboom
+|-damage|p2a: Rillaboom|18/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|-damage|p2a: Rillaboom|2/100|[from] Recoil
+|faint|p1a: Silvally
+|
+|-heal|p2a: Rillaboom|8/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Coalossal|Coalossal, M|97/100
+|turn|50
+|
+|move|p2a: Rillaboom|Wood Hammer|p1a: Coalossal
+|-damage|p1a: Coalossal|17/100
+|-damage|p2a: Rillaboom|0 fnt|[from] Recoil
+|faint|p2a: Rillaboom
+|move|p1a: Coalossal|Stealth Rock|p2: Rillaboom
+|-sidestart|p2: INT Tom|move: Stealth Rock
+|
+|-heal|p1a: Coalossal|23/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p2a: Duraludon|Duraludon, F|100/100
+|-damage|p2a: Duraludon|94/100|[from] Stealth Rock
+|turn|51
+|
+|move|p2a: Duraludon|Draco Meteor|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|-unboost|p2a: Duraludon|spa|2
+|-enditem|p2a: Duraludon|Eject Pack
+|faint|p1a: Coalossal
+|
+|switch|p2a: Braviary|Braviary, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100 slp
+|turn|52
+|
+|move|p2a: Braviary|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|84/100 slp
+|
+|switch|p2a: Coalossal|Coalossal, F|85/100 par|[from]move: U-turn
+|cant|p1a: Vaporeon|slp
+|
+|-heal|p1a: Vaporeon|90/100 slp|[from] item: Leftovers
+|-heal|p1a: Vaporeon|96/100 slp|[from] Grassy Terrain
+|-heal|p2a: Coalossal|91/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|53
+|
+|cant|p1a: Vaporeon|slp
+|move|p2a: Coalossal|Rapid Spin|p1a: Vaporeon
+|-damage|p1a: Vaporeon|90/100 slp
+|-boost|p2a: Coalossal|spe|1
+|-sideend|p2: INT Tom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Coalossal
+|
+|-heal|p1a: Vaporeon|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Coalossal|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: Str8 Garbo|move: Stealth Rock
+|
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|switch|p1a: Rillaboom|Rillaboom, F|37/100
+|-damage|p1a: Rillaboom|24/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|switch|p2a: Duraludon|Duraludon, F|94/100
+|
+|-heal|p1a: Rillaboom|92/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Duraludon|100/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|98/100|[from] Grassy Terrain
+|upkeep
+|turn|56
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100 par
+|move|p1a: Rillaboom|U-turn|p2a: Vileplume
+|-damage|p2a: Vileplume|81/100 par
+|
+|switch|p1a: Indeedee|Indeedee, M|76/100 psn|[from]move: U-turn
+|-damage|p1a: Indeedee|64/100 psn|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|
+|-heal|p2a: Vileplume|87/100 par|[from] item: Black Sludge
+|-damage|p1a: Indeedee|51/100 psn|[from] psn
+|upkeep
+|turn|57
+|
+|switch|p2a: Coalossal|Coalossal, F|91/100 par
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|83/100 par
+|
+|-damage|p1a: Indeedee|39/100 psn|[from] psn
+|upkeep
+|turn|58
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|switch|p2a: Vileplume|Vileplume, F|87/100 par
+|
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|94/100 par|[from] item: Black Sludge
+|upkeep
+|turn|59
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|cant|p2a: Vileplume|par
+|
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|99/100 par|[from] item: Black Sludge
+|upkeep
+|turn|60
+|
+|move|p1a: Vaporeon|Heal Bell|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Heal Bell
+|-curestatus|p1: Indeedee|psn|[msg]
+|move|p2a: Vileplume|Sludge Bomb|p1a: Vaporeon
+|-damage|p1a: Vaporeon|73/100
+|-status|p1a: Vaporeon|psn
+|
+|-heal|p1a: Vaporeon|100/100 psn|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vileplume|100/100 par|[from] item: Black Sludge
+|-damage|p1a: Vaporeon|88/100 psn|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|61
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|82/100 psn|[from] psn
+|upkeep
+|turn|62
+|
+|move|p2a: Scrafty|Knock Off|p1a: Vaporeon
+|-damage|p1a: Vaporeon|60/100 psn
+|-enditem|p1a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p2a: Scrafty
+|move|p1a: Vaporeon|Scald|p2a: Scrafty
+|-damage|p2a: Scrafty|77/100
+|-status|p2a: Scrafty|brn
+|
+|-heal|p1a: Vaporeon|100/100 psn|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Scrafty|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|77/100 brn|[from] brn
+|-damage|p1a: Vaporeon|88/100 psn|[from] psn
+|upkeep
+|turn|63
+|
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|move|p1a: Vaporeon|Heal Bell|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Heal Bell
+|-curestatus|p1a: Vaporeon|psn|[msg]
+|
+|-heal|p2a: Scrafty|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|77/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|brn|[msg]
+|-heal|p2a: Scrafty|83/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|switch|p1a: Indeedee|Indeedee, M|39/100
+|-damage|p1a: Indeedee|27/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Scrafty|Drain Punch|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-heal|p2a: Scrafty|93/100|[from] drain|[of] p1a: Indeedee
+|faint|p1a: Indeedee
+|
+|-heal|p2a: Scrafty|99/100|[from] item: Leftovers
+|upkeep
+|-message|Str8 Garbo forfeited.
+|
+|win|INT Tom
+|l|☆Str8 Garbo
+|raw|Str8 Garbo's rating: 1180 &rarr; <strong>1165</strong><br />(-15 for losing)
+|raw|INT Tom's rating: 1336 &rarr; <strong>1347</strong><br />(+11 for winning)

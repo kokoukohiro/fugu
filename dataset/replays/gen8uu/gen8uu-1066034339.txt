@@ -1,0 +1,324 @@
+|j|☆Luna Rox
+|j|☆gijion chilli
+|player|p1|Luna Rox|plumeria|1418
+|player|p2|gijion chilli|2|1309
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Sigilyph, F|
+|poke|p1|Vaporeon, F|
+|poke|p1|Roserade, M|
+|poke|p1|Gigalith, M|
+|poke|p1|Doublade, F|
+|poke|p1|Weavile, M|
+|poke|p2|Tsareena, F|
+|poke|p2|Jellicent, F|
+|poke|p2|Gigalith, M|
+|poke|p2|Durant, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Diggersby, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆gijion chilli|hf
+|c|☆Luna Rox|ty u too
+|j| 467 11 11p
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|switch|p2a: Durant|Durant, M|100/100
+|turn|1
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Vaporeon|Scald|p2a: Jellicent
+|-immune|p2a: Jellicent|[from] ability: Water Absorb
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Roserade|Roserade, M|100/100
+|move|p2a: Jellicent|Taunt|p1a: Roserade
+|-start|p1a: Roserade|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|switch|p2a: Durant|Durant, M|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Durant|First Impression|p1a: Vaporeon
+|-damage|p1a: Vaporeon|34/100
+|move|p1a: Vaporeon|Toxic|p2a: Durant
+|-immune|p2a: Durant
+|
+|-heal|p1a: Vaporeon|40/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|46/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Tsareena|Knock Off|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|96/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Tsareena|Power Whip|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|18/100
+|move|p1a: Vaporeon|Scald|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-crit|p2a: Tsareena
+|-damage|p2a: Tsareena|74/100
+|
+|-heal|p1a: Vaporeon|24/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Tsareena|Knock Off|p1a: Vaporeon
+|-damage|p1a: Vaporeon|1/100
+|-enditem|p1a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p2a: Tsareena
+|move|p1a: Vaporeon|Scald|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|58/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Tsareena|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p2a: Diggersby|Diggersby, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|turn|10
+|
+|move|p2a: Diggersby|U-turn|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|7/100
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100|[from]move: U-turn
+|move|p1a: Weavile|Icicle Crash|p2a: Weezing
+|-damage|p2a: Weezing|71/100
+|
+|-heal|p2a: Weezing|77/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|move|p2a: Weezing|Fire Blast|p1a: Sigilyph|[miss]
+|-miss|p2a: Weezing|p1a: Sigilyph
+|
+|-heal|p2a: Weezing|83/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Sigilyph|Psychic|p2a: Gigalith
+|-damage|p2a: Gigalith|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|move|p2a: Gigalith|Stone Edge|p1a: Gigalith
+|-damage|p1a: Gigalith|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|76/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|83/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Gigalith|Stealth Rock|p2a: Gigalith
+|-sidestart|p2: gijion chilli|move: Stealth Rock
+|move|p2a: Gigalith|Stealth Rock|p1a: Gigalith
+|-sidestart|p1: Luna Rox|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|82/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|90/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Weezing|Weezing-Galar, M|83/100
+|-damage|p2a: Weezing|70/100|[from] Stealth Rock
+|move|p1a: Gigalith|Earthquake|p2a: Weezing
+|-immune|p2a: Weezing|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|64/100|[from] Sandstorm
+|-heal|p2a: Weezing|70/100|[from] item: Black Sludge
+|-heal|p1a: Gigalith|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Roserade|Roserade, M|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|move|p2a: Weezing|Strange Steam|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|71/100
+|-start|p1a: Roserade|confusion
+|
+|-weather|none
+|-heal|p1a: Roserade|77/100|[from] item: Black Sludge
+|-heal|p2a: Weezing|76/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|-activate|p1a: Roserade|confusion
+|move|p1a: Roserade|Stun Spore|p2a: Weezing
+|-status|p2a: Weezing|par
+|move|p2a: Weezing|Fire Blast|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|17/100
+|-status|p1a: Roserade|brn
+|
+|-heal|p1a: Roserade|23/100 brn|[from] item: Black Sludge
+|-heal|p2a: Weezing|82/100 par|[from] item: Black Sludge
+|-damage|p1a: Roserade|17/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|-activate|p1a: Roserade|confusion
+|move|p1a: Roserade|Sludge Bomb|p2a: Weezing
+|-damage|p2a: Weezing|19/100 par
+|cant|p2a: Weezing|par
+|
+|-heal|p1a: Roserade|23/100 brn|[from] item: Black Sludge
+|-heal|p2a: Weezing|25/100 par|[from] item: Black Sludge
+|-damage|p1a: Roserade|17/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Durant|Durant, M|100/100
+|-damage|p2a: Durant|88/100|[from] Stealth Rock
+|-activate|p1a: Roserade|confusion
+|move|p1a: Roserade|Sludge Bomb|p2a: Durant
+|-immune|p2a: Durant
+|
+|-heal|p1a: Roserade|23/100 brn|[from] item: Black Sludge
+|-damage|p1a: Roserade|17/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Durant|Crunch|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|switch|p1a: Gigalith|Gigalith, M|88/100
+|-damage|p1a: Gigalith|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|21
+|
+|switch|p2a: Weezing|Weezing-Galar, M|25/100 par
+|-damage|p2a: Weezing|13/100 par|[from] Stealth Rock
+|switch|p1a: Weavile|Weavile, M|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|0 fnt|[from] Sandstorm
+|-damage|p2a: Weezing|7/100 par|[from] Sandstorm
+|faint|p1a: Weavile
+|-heal|p2a: Weezing|13/100 par|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|turn|22
+|
+|move|p1a: Sigilyph|Psychic|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Durant|Durant, M|88/100
+|-damage|p2a: Durant|76/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Gigalith|Gigalith, M|76/100
+|-damage|p1a: Gigalith|64/100|[from] Stealth Rock
+|move|p2a: Durant|Crunch|p1a: Gigalith|[miss]
+|-miss|p2a: Durant|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|70/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Diggersby|Diggersby, M|100/100
+|-damage|p2a: Diggersby|94/100|[from] Stealth Rock
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|25
+|
+|switch|p1a: Doublade|Doublade, F|100/100
+|-damage|p1a: Doublade|94/100|[from] Stealth Rock
+|move|p2a: Diggersby|U-turn|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|91/100
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100|[from]move: U-turn
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Sigilyph
+|-status|p1a: Sigilyph|brn
+|
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Sigilyph|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|60/100
+|-unboost|p2a: Jellicent|spd|1
+|move|p2a: Jellicent|Hex|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|-heal|p2a: Jellicent|66/100|[from] item: Leftovers
+|upkeep
+|-message|Luna Rox forfeited.
+|
+|win|gijion chilli
+|l|☆Luna Rox
+|raw|Luna Rox's rating: 1418 &rarr; <strong>1392</strong><br />(-26 for losing)
+|raw|gijion chilli's rating: 1309 &rarr; <strong>1335</strong><br />(+26 for winning)

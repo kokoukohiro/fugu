@@ -1,0 +1,226 @@
+|j|☆ayo bb
+|j|☆refine to 1400
+|player|p1|ayo bb|266|1483
+|player|p2|refine to 1400|265|1384
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Butterfree, F|
+|poke|p1|Perrserker, F|
+|poke|p1|Exeggutor, F|
+|poke|p1|Stunfisk, F|
+|poke|p1|Mr. Rime, F|
+|poke|p1|Wigglytuff, M|
+|poke|p2|Tangela, M|
+|poke|p2|Hattrem, F|
+|poke|p2|Wigglytuff, F|
+|poke|p2|Pyukumuku, M|
+|poke|p2|Sandslash, M|
+|poke|p2|Type: Null|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor, F|100/100
+|switch|p2a: Sandslash|Sandslash, M|100/100
+|turn|1
+|
+|switch|p2a: Type: Null|Type: Null|100/100
+|move|p1a: Exeggutor|Future Sight|p2a: Type: Null
+|-start|p1a: Exeggutor|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Type: Null|U-turn|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|54/100
+|
+|switch|p2a: Hattrem|Hattrem, F|100/100|[from]move: U-turn
+|move|p1a: Exeggutor|Teleport|p1a: Exeggutor
+|
+|switch|p1a: Perrserker|Perrserker, F|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Pyukumuku|Pyukumuku, M|100/100
+|move|p1a: Perrserker|Iron Tail|p2a: Pyukumuku
+|-resisted|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|71/100
+|
+|-end|p2a: Pyukumuku|move: Future Sight
+|-crit|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|6/100
+|-heal|p2a: Pyukumuku|12/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Sandslash|Sandslash, M|100/100
+|move|p1a: Perrserker|Iron Head|p2a: Sandslash
+|-damage|p2a: Sandslash|50/100
+|-damage|p1a: Perrserker|84/100|[from] item: Rocky Helmet|[of] p2a: Sandslash
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Exeggutor|Exeggutor, F|54/100
+|move|p2a: Sandslash|Stealth Rock|p1a: Exeggutor
+|-sidestart|p1: ayo bb|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Sandslash|Knock Off|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|21/100
+|-enditem|p1a: Exeggutor|Sitrus Berry|[from] move: Knock Off|[of] p2a: Sandslash
+|move|p1a: Exeggutor|Giga Drain|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|-heal|p1a: Exeggutor|44/100|[from] drain|[of] p2a: Sandslash
+|faint|p2a: Sandslash
+|
+|upkeep
+|
+|switch|p2a: Type: Null|Type: Null|100/100
+|turn|7
+|
+|switch|p1a: Wigglytuff|Wigglytuff, M|100/100
+|-damage|p1a: Wigglytuff|88/100|[from] Stealth Rock
+|move|p2a: Type: Null|U-turn|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|77/100
+|j| grauNerf
+|
+|switch|p2a: Wigglytuff|Wigglytuff, F|100/100|[from]move: U-turn
+|-item|p1a: Wigglytuff|Leftovers|[from] ability: Frisk|[of] p2a: Wigglytuff|[identify]
+|
+|-heal|p1a: Wigglytuff|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|move|p2a: Wigglytuff|Teleport|p2a: Wigglytuff
+|
+|switch|p2a: Type: Null|Type: Null|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Mr. Rime|Rapid Spin|p2a: Type: Null
+|-damage|p2a: Type: Null|95/100
+|-boost|p1a: Mr. Rime|spe|1
+|-sideend|p1: ayo bb|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Mr. Rime
+|move|p2a: Type: Null|Swords Dance|p2a: Type: Null
+|-boost|p2a: Type: Null|atk|2
+|
+|upkeep
+|turn|10
+|l| grauNerf
+|
+|switch|p1a: Stunfisk|Stunfisk, F|100/100
+|move|p2a: Type: Null|Crush Claw|p1a: Stunfisk
+|-damage|p1a: Stunfisk|70/100
+|
+|-heal|p1a: Stunfisk|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Type: Null|U-turn|p1a: Stunfisk
+|-damage|p1a: Stunfisk|58/100
+|
+|switch|p2a: Hattrem|Hattrem, F|100/100|[from]move: U-turn
+|move|p1a: Stunfisk|Discharge|p2a: Hattrem
+|-damage|p2a: Hattrem|81/100
+|
+|-heal|p1a: Stunfisk|64/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Wigglytuff|Wigglytuff, M|83/100
+|move|p2a: Hattrem|Mystical Fire|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|69/100
+|-unboost|p1a: Wigglytuff|spa|1
+|-ability|p1a: Wigglytuff|Competitive
+|-boost|p1a: Wigglytuff|spa|2
+|
+|-heal|p1a: Wigglytuff|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Hattrem|Nuzzle|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|72/100
+|-status|p1a: Wigglytuff|par
+|move|p1a: Wigglytuff|Dazzling Gleam|p2a: Hattrem
+|-damage|p2a: Hattrem|38/100
+|
+|-heal|p1a: Wigglytuff|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Type: Null|Type: Null|95/100
+|move|p1a: Wigglytuff|Teleport|p1a: Wigglytuff
+|
+|switch|p1a: Perrserker|Perrserker, F|84/100|[from]move: Teleport
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Tangela|Tangela, M|100/100
+|move|p1a: Perrserker|Swords Dance|p1a: Perrserker
+|-boost|p1a: Perrserker|atk|2
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Perrserker|Iron Head|p2a: Tangela
+|-damage|p2a: Tangela|32/100
+|move|p2a: Tangela|Knock Off|p1a: Perrserker
+|-damage|p1a: Perrserker|68/100
+|-enditem|p1a: Perrserker|Metal Coat|[from] move: Knock Off|[of] p2a: Tangela
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Pyukumuku|Pyukumuku, M|12/100
+|move|p1a: Perrserker|Iron Head|p2a: Pyukumuku
+|-resisted|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|0 fnt
+|faint|p2a: Pyukumuku
+|
+|upkeep
+|
+|switch|p2a: Tangela|Tangela, M|65/100
+|turn|18
+|
+|move|p1a: Perrserker|Iron Tail|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|upkeep
+|
+|switch|p2a: Hattrem|Hattrem, F|38/100
+|turn|19
+|
+|move|p1a: Perrserker|Iron Head|p2a: Hattrem
+|-damage|p2a: Hattrem|0 fnt
+|faint|p2a: Hattrem
+|
+|upkeep
+|-message|refine to 1400 forfeited.
+|
+|win|ayo bb
+|l|☆refine to 1400
+|raw|ayo bb's rating: 1483 &rarr; <strong>1498</strong><br />(+15 for winning)
+|raw|refine to 1400's rating: 1384 &rarr; <strong>1370</strong><br />(-14 for losing)

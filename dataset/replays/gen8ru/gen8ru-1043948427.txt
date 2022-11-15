@@ -1,0 +1,781 @@
+|j|☆DollarsAlt
+|j|☆DaniellePkmn
+|player|p1|DollarsAlt|pokekid|1202
+|player|p2|DaniellePkmn|lady-gen4|1172
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Sableye, F|
+|poke|p1|Gigalith, F|
+|poke|p1|Vileplume, M|
+|poke|p1|Vaporeon, F|
+|poke|p1|Xatu, F|
+|poke|p1|Salazzle, F|
+|poke|p2|Drifblim, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Pangoro, F|
+|poke|p2|Gigalith, M|
+|poke|p2|Togedemaru, M|
+|poke|p2|Roserade, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DollarsAlt)
+|inactive|DollarsAlt has 120 seconds left.
+|c|☆DollarsAlt|Gl
+|inactive|DollarsAlt has 90 seconds left.
+|
+|start
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|switch|p2a: Togedemaru|Togedemaru, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|move|p2a: Togedemaru|U-turn|p1a: Sableye
+|-damage|p1a: Sableye|78/100
+|
+|switch|p2a: Roserade|Roserade, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|94/100|[from] Sandstorm
+|-damage|p1a: Sableye|72/100|[from] Sandstorm
+|-heal|p2a: Roserade|100/100|[from] item: Black Sludge
+|-heal|p1a: Sableye|78/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Roserade|Toxic|p1a: Salazzle
+|-immune|p1a: Salazzle
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salazzle|94/100|[from] Sandstorm
+|-damage|p2a: Roserade|94/100|[from] Sandstorm
+|-heal|p2a: Roserade|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|move|p1a: Salazzle|Toxic|p2a: Gigalith
+|-status|p2a: Gigalith|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salazzle|88/100|[from] Sandstorm
+|-damage|p2a: Gigalith|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Gigalith
+|-sidestart|p1: DollarsAlt|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Gigalith|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|DollarsAlt has 120 seconds left.
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Vaporeon
+|-sidestart|p2: DaniellePkmn|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Vileplume|94/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|-damage|p2a: Drifblim|76/100|[from] Stealth Rock
+|move|p1a: Vileplume|Sludge Bomb|p2a: Drifblim
+|-resisted|p2a: Drifblim
+|-damage|p2a: Drifblim|55/100
+|
+|-heal|p2a: Drifblim|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p2a: Drifblim|Psychic|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|45/100
+|move|p1a: Vileplume|Sleep Powder|p2a: Drifblim
+|-status|p2a: Drifblim|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Vileplume|51/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|cant|p2a: Drifblim|slp
+|move|p1a: Vileplume|Strength Sap|p2a: Drifblim
+|-unboost|p2a: Drifblim|atk|1
+|-heal|p1a: Vileplume|93/100
+|
+|-heal|p1a: Vileplume|99/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|-damage|p1a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|-curestatus|p2a: Drifblim|slp|[msg]
+|move|p2a: Drifblim|Psychic|p1a: Gigalith
+|-damage|p1a: Gigalith|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifblim|94/100|[from] Sandstorm
+|-heal|p1a: Gigalith|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: Gigalith|Stone Edge|p2a: Vaporeon
+|-damage|p2a: Vaporeon|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|47/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|53/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Vileplume|Vileplume, M|99/100
+|-damage|p1a: Vileplume|87/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|47/100|[from] Sandstorm
+|-damage|p1a: Vileplume|81/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|53/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|87/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|47/100|[from] Sandstorm
+|-damage|p1a: Vileplume|81/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|97/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|87/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|switch|p2a: Roserade|Roserade, F|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|move|p1a: Vileplume|Sleep Powder|p2a: Roserade
+|-immune|p2a: Roserade
+|
+|-weather|none
+|-heal|p2a: Roserade|94/100|[from] item: Black Sludge
+|-heal|p1a: Vileplume|93/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p1a: Salazzle|Salazzle, F|88/100
+|move|p2a: Roserade|Spikes|p1a: Salazzle
+|-sidestart|p1: DollarsAlt|Spikes
+|
+|-heal|p2a: Roserade|100/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p1a: Vileplume|Vileplume, M|93/100
+|-damage|p1a: Vileplume|81/100|[from] Spikes
+|-damage|p1a: Vileplume|68/100|[from] Stealth Rock
+|switch|p2a: Gigalith|Gigalith, M|88/100 tox
+|-damage|p2a: Gigalith|76/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|62/100|[from] Sandstorm
+|-heal|p1a: Vileplume|68/100|[from] item: Black Sludge
+|-heal|p2a: Gigalith|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Gigalith|76/100 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|DaniellePkmn has 120 seconds left.
+|
+|switch|p2a: Drifblim|Drifblim, M|94/100
+|-damage|p2a: Drifblim|69/100|[from] Stealth Rock
+|move|p1a: Vileplume|Strength Sap|p2a: Drifblim
+|-unboost|p2a: Drifblim|atk|1
+|-heal|p1a: Vileplume|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifblim|63/100|[from] Sandstorm
+|-damage|p1a: Vileplume|94/100|[from] Sandstorm
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|inactive|DaniellePkmn has 120 seconds left.
+|
+|switch|p1a: Sableye|Sableye, F|78/100
+|-damage|p1a: Sableye|65/100|[from] Spikes
+|-damage|p1a: Sableye|53/100|[from] Stealth Rock
+|move|p2a: Drifblim|Psychic|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifblim|57/100|[from] Sandstorm
+|-damage|p1a: Sableye|47/100|[from] Sandstorm
+|-heal|p1a: Sableye|53/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|DaniellePkmn has 120 seconds left.
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: Drifblim|Shadow Ball|p1a: Sableye
+|-damage|p1a: Sableye|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifblim|51/100|[from] Sandstorm
+|-damage|p1a: Sableye|47/100|[from] Sandstorm
+|-heal|p1a: Sableye|53/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|DaniellePkmn has 120 seconds left.
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: Drifblim|Calm Mind|p2a: Drifblim
+|-boost|p2a: Drifblim|spa|1
+|-boost|p2a: Drifblim|spd|1
+|
+|-weather|none
+|upkeep
+|turn|21
+|
+|move|p1a: Sableye|Encore|p2a: Drifblim
+|-start|p2a: Drifblim|Encore
+|move|p2a: Drifblim|Calm Mind|p2a: Drifblim
+|-boost|p2a: Drifblim|spa|1
+|-boost|p2a: Drifblim|spd|1
+|
+|upkeep
+|turn|22
+|inactive|DaniellePkmn has 120 seconds left.
+|
+|switch|p2a: Gigalith|Gigalith, M|76/100 tox
+|-damage|p2a: Gigalith|64/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Sableye|Knock Off|p2a: Gigalith
+|-damage|p2a: Gigalith|45/100 tox
+|-enditem|p2a: Gigalith|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sableye|94/100|[from] Sandstorm
+|-heal|p1a: Sableye|100/100|[from] item: Leftovers
+|-damage|p2a: Gigalith|39/100 tox|[from] psn
+|upkeep
+|turn|23
+|inactive|DaniellePkmn has 120 seconds left.
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|-damage|p1a: Vileplume|88/100|[from] Spikes
+|-damage|p1a: Vileplume|76/100|[from] Stealth Rock
+|move|p2a: Gigalith|Stone Edge|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|20/100|[from] Sandstorm
+|-heal|p1a: Vileplume|26/100|[from] item: Black Sludge
+|-damage|p2a: Gigalith|27/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Vileplume|Strength Sap|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|20/100|[from] Sandstorm
+|-heal|p1a: Vileplume|26/100|[from] item: Black Sludge
+|-damage|p2a: Gigalith|8/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p2a: Drifblim|Drifblim, M|51/100
+|-damage|p2a: Drifblim|26/100|[from] Stealth Rock
+|-enditem|p2a: Drifblim|Sitrus Berry|[eat]
+|-heal|p2a: Drifblim|51/100|[from] item: Sitrus Berry
+|move|p1a: Vileplume|Strength Sap|p2a: Drifblim
+|-unboost|p2a: Drifblim|atk|1
+|-heal|p1a: Vileplume|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifblim|44/100|[from] Sandstorm
+|-damage|p1a: Vileplume|62/100|[from] Sandstorm
+|-heal|p1a: Vileplume|68/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|-damage|p1a: Sableye|88/100|[from] Stealth Rock
+|-damage|p1a: Sableye|75/100|[from] Spikes
+|move|p2a: Drifblim|Psychic|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|-weather|none
+|-heal|p1a: Sableye|82/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Drifblim|Shadow Ball|p1a: Sableye
+|-damage|p1a: Sableye|33/100
+|move|p1a: Sableye|Knock Off|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|-heal|p1a: Sableye|40/100|[from] item: Leftovers
+|upkeep
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|switch|p2a: Roserade|Roserade, F|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|turn|28
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|switch|p2a: Togedemaru|Togedemaru, M|100/100
+|-damage|p2a: Togedemaru|95/100|[from] Stealth Rock
+|switch|p1a: Xatu|Xatu, F|100/100
+|-damage|p1a: Xatu|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|29
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|move|p2a: Togedemaru|Zing Zap|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-damage|p2a: Togedemaru|78/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|switch|p1a: Vileplume|Vileplume, M|68/100
+|-damage|p1a: Vileplume|56/100|[from] Spikes
+|-damage|p1a: Vileplume|43/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p2a: Roserade|Roserade, F|88/100
+|-damage|p2a: Roserade|76/100|[from] Stealth Rock
+|move|p1a: Vileplume|Strength Sap|p2a: Roserade
+|-unboost|p2a: Roserade|atk|1
+|-heal|p1a: Vileplume|80/100
+|
+|-heal|p2a: Roserade|82/100|[from] item: Black Sludge
+|-heal|p1a: Vileplume|86/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|switch|p1a: Salazzle|Salazzle, F|88/100
+|move|p2a: Roserade|Spikes|p1a: Salazzle
+|-sidestart|p1: DollarsAlt|Spikes
+|
+|-heal|p2a: Roserade|88/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|switch|p2a: Gigalith|Gigalith, M|8/100 tox
+|-damage|p2a: Gigalith|0 fnt|[from] Stealth Rock
+|faint|p2a: Gigalith
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|63/100
+|
+|upkeep
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|switch|p2a: Pangoro|Pangoro, F|100/100
+|-damage|p2a: Pangoro|94/100|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Salazzle|Toxic|p2a: Pangoro
+|-status|p2a: Pangoro|tox
+|move|p2a: Pangoro|Darkest Lariat|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-damage|p2a: Pangoro|88/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Pangoro|Darkest Lariat|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-damage|p2a: Pangoro|76/100 tox|[from] psn
+|upkeep
+|turn|35
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|38/100
+|move|p2a: Pangoro|Darkest Lariat|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-damage|p2a: Pangoro|58/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|switch|p2a: Togedemaru|Togedemaru, M|78/100
+|-damage|p2a: Togedemaru|72/100|[from] Stealth Rock
+|move|p1a: Salazzle|Protect||[still]
+|-fail|p1a: Salazzle
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Togedemaru|Zing Zap|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Pangoro|Pangoro, F|58/100 tox
+|-damage|p2a: Pangoro|52/100 tox|[from] Stealth Rock
+|switch|p1a: Vileplume|Vileplume, M|86/100
+|-damage|p1a: Vileplume|74/100|[from] Stealth Rock
+|-damage|p1a: Vileplume|57/100|[from] Spikes
+|
+|-heal|p1a: Vileplume|63/100|[from] item: Black Sludge
+|-damage|p2a: Pangoro|46/100 tox|[from] psn
+|upkeep
+|turn|39
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|move|p2a: Pangoro|Ice Punch|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|-damage|p2a: Pangoro|33/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|38/100
+|turn|40
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Pangoro|Ice Punch|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-damage|p2a: Pangoro|15/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Pangoro
+|-damage|p2a: Pangoro|0 fnt
+|faint|p2a: Pangoro
+|
+|upkeep
+|
+|switch|p2a: Togedemaru|Togedemaru, M|72/100
+|-damage|p2a: Togedemaru|66/100|[from] Stealth Rock
+|turn|42
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Togedemaru|Zing Zap|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|upkeep
+|turn|43
+|inactive|DaniellePkmn has 120 seconds left.
+|
+|switch|p1a: Gigalith|Gigalith, F|81/100
+|-damage|p1a: Gigalith|69/100|[from] Stealth Rock
+|-damage|p1a: Gigalith|52/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Togedemaru|Zing Zap|p1a: Gigalith
+|-damage|p1a: Gigalith|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|39/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|DaniellePkmn has 120 seconds left.
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: Gigalith|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|60/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|66/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|45/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|inactive|DaniellePkmn has 120 seconds left.
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|-damage|p1a: Vaporeon|71/100|[from] Spikes
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|60/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|65/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|66/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|71/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|inactive|DaniellePkmn has 120 seconds left.
+|
+|switch|p2a: Togedemaru|Togedemaru, M|66/100
+|-damage|p2a: Togedemaru|60/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|65/100|[from] Sandstorm
+|-heal|p2a: Togedemaru|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|71/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Togedemaru|Zing Zap|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-weather|none
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|48
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|move|p2a: Togedemaru|Zing Zap|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|28/100
+|cant|p1a: Vaporeon|flinch
+|
+|-heal|p1a: Vaporeon|34/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Togedemaru|Zing Zap|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|40/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|switch|p1a: Gigalith|Gigalith, F|45/100
+|-damage|p1a: Gigalith|33/100|[from] Stealth Rock
+|-damage|p1a: Gigalith|16/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Togedemaru|Zing Zap|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Sableye|Sableye, F|40/100
+|-damage|p1a: Sableye|27/100|[from] Stealth Rock
+|-damage|p1a: Sableye|11/100|[from] Spikes
+|turn|51
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|61/100
+|move|p2a: Togedemaru|Zing Zap|p1a: Sableye
+|-damage|p1a: Sableye|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sableye|14/100|[from] Sandstorm
+|-heal|p1a: Sableye|20/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|switch|p2a: Roserade|Roserade, F|88/100
+|-damage|p2a: Roserade|76/100|[from] Stealth Rock
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|70/100|[from] Sandstorm
+|-damage|p1a: Sableye|64/100|[from] Sandstorm
+|-heal|p2a: Roserade|76/100|[from] item: Black Sludge
+|-heal|p1a: Sableye|70/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|switch|p2a: Togedemaru|Togedemaru, M|100/100
+|-damage|p2a: Togedemaru|95/100|[from] Stealth Rock
+|move|p1a: Sableye|Knock Off|p2a: Togedemaru
+|-damage|p2a: Togedemaru|48/100
+|-enditem|p2a: Togedemaru|Choice Scarf|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sableye|64/100|[from] Sandstorm
+|-heal|p1a: Sableye|70/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Togedemaru
+|-status|p2a: Togedemaru|brn
+|move|p2a: Togedemaru|U-turn|p1a: Sableye
+|-damage|p1a: Sableye|58/100
+|
+|switch|p2a: Vaporeon|Vaporeon, F|66/100|[from]move: U-turn
+|-damage|p2a: Vaporeon|54/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Vaporeon|60/100|[from] item: Leftovers
+|-heal|p1a: Sableye|64/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Sableye|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|42/100
+|-enditem|p2a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|71/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|
+|-heal|p2a: Vaporeon|92/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|57
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|move|p1a: Sableye|Encore|p2a: Vaporeon
+|-start|p2a: Vaporeon|Encore
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|
+|upkeep
+|turn|58
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|switch|p2a: Roserade|Roserade, F|76/100
+|-damage|p2a: Roserade|63/100|[from] Stealth Rock
+|move|p1a: Sableye|Will-O-Wisp|p2a: Roserade
+|-status|p2a: Roserade|brn
+|
+|-heal|p2a: Roserade|70/100 brn|[from] item: Black Sludge
+|-damage|p2a: Roserade|63/100 brn|[from] brn
+|upkeep
+|turn|59
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|move|p2a: Roserade|Toxic|p1a: Sableye
+|-status|p1a: Sableye|tox
+|move|p1a: Sableye|Knock Off|p2a: Roserade
+|-damage|p2a: Roserade|21/100 brn
+|-enditem|p2a: Roserade|Black Sludge|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-damage|p2a: Roserade|15/100 brn|[from] brn
+|-damage|p1a: Sableye|94/100 tox|[from] psn
+|upkeep
+|turn|60
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|move|p1a: Sableye|Encore|p2a: Roserade
+|-start|p2a: Roserade|Encore
+|move|p2a: Roserade|Toxic|p1a: Sableye
+|-fail|p1a: Sableye|tox
+|
+|-heal|p1a: Sableye|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Roserade|9/100 brn|[from] brn
+|-damage|p1a: Sableye|88/100 tox|[from] psn
+|upkeep
+|turn|61
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|switch|p2a: Togedemaru|Togedemaru, M|48/100 brn
+|-damage|p2a: Togedemaru|42/100 brn|[from] Stealth Rock
+|move|p1a: Sableye|Knock Off|p2a: Togedemaru
+|-damage|p2a: Togedemaru|11/100 brn
+|
+|-heal|p1a: Sableye|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Togedemaru|5/100 brn|[from] brn
+|-damage|p1a: Sableye|75/100 tox|[from] psn
+|upkeep
+|turn|62
+|inactive|DaniellePkmn has 90 seconds left.
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100 tox
+|move|p2a: Togedemaru|Zing Zap|p1a: Sableye
+|-damage|p1a: Sableye|81/100 tox
+|
+|-heal|p1a: Sableye|87/100 tox|[from] item: Leftovers
+|-damage|p2a: Togedemaru|0 fnt|[from] brn
+|faint|p2a: Togedemaru
+|-damage|p1a: Sableye|62/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, F|92/100
+|-damage|p2a: Vaporeon|79/100|[from] Stealth Rock
+|turn|63
+|
+|switch|p1a: Vaporeon|Vaporeon, F|40/100
+|-damage|p1a: Vaporeon|28/100|[from] Stealth Rock
+|-damage|p1a: Vaporeon|11/100|[from] Spikes
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Vaporeon|17/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|switch|p2a: Roserade|Roserade, F|9/100
+|-damage|p2a: Roserade|0 fnt|[from] Stealth Rock
+|faint|p2a: Roserade
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|24/100|[from] item: Leftovers
+|upkeep
+|c|☆DollarsAlt|Gg
+|
+|switch|p2a: Vaporeon|Vaporeon, F|79/100
+|-damage|p2a: Vaporeon|67/100|[from] Stealth Rock
+|turn|65
+|-message|DaniellePkmn forfeited.
+|
+|win|DollarsAlt
+|l|☆DaniellePkmn
+|raw|DollarsAlt's rating: 1202 &rarr; <strong>1225</strong><br />(+23 for winning)
+|raw|DaniellePkmn's rating: 1172 &rarr; <strong>1149</strong><br />(-23 for losing)

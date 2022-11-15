@@ -1,0 +1,341 @@
+|j|☆R3d_VGC
+|j|☆danielloking
+|t:|1664660498
+|gametype|singles
+|player|p1|R3d_VGC|1|1441
+|player|p2|danielloking|170|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Lucario, F|
+|poke|p1|Slurpuff, M|
+|poke|p1|Incineroar, F|
+|poke|p1|Milotic, F|
+|poke|p1|Tsareena, F|
+|poke|p1|Polteageist|
+|poke|p2|Incineroar, M|
+|poke|p2|Milotic, M|
+|poke|p2|Registeel|
+|poke|p2|Xurkitree|
+|poke|p2|Heracross, M|
+|poke|p2|Crobat, F|
+|teampreview
+|
+|t:|1664660522
+|start
+|switch|p1a: Slurpuff|Slurpuff, M|100/100
+|switch|p2a: Xurkitree|Xurkitree|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by R3d_VGC)
+|
+|t:|1664660532
+|move|p2a: Xurkitree|Thunderbolt|p1a: Slurpuff
+|-damage|p1a: Slurpuff|20/100
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|45/100|[from] item: Sitrus Berry
+|move|p1a: Slurpuff|Sticky Web|p2a: Xurkitree
+|-sidestart|p2: danielloking|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1664660536
+|move|p1a: Slurpuff|Play Rough|p2a: Xurkitree
+|-damage|p2a: Xurkitree|50/100
+|move|p2a: Xurkitree|Thunderbolt|p1a: Slurpuff
+|-crit|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|
+|upkeep
+|
+|t:|1664660544
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|turn|3
+|
+|t:|1664660547
+|move|p2a: Xurkitree|Thunderbolt|p1a: Tsareena
+|-resisted|p1a: Tsareena
+|-damage|p1a: Tsareena|51/100
+|move|p1a: Tsareena|Power Whip|p2a: Xurkitree
+|-crit|p2a: Xurkitree
+|-damage|p2a: Xurkitree|0 fnt
+|faint|p2a: Xurkitree
+|
+|upkeep
+|
+|t:|1664660554
+|switch|p2a: Crobat|Crobat, F|100/100
+|turn|4
+|
+|t:|1664660556
+|move|p2a: Crobat|Defog|p1a: Tsareena
+|-unboost|p1a: Tsareena|evasion|1
+|-sideend|p2: danielloking|Sticky Web|[from] move: Defog|[of] p2a: Crobat
+|move|p1a: Tsareena|Triple Axel|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|87/100
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|58/100
+|-supereffective|p2a: Crobat
+|-crit|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|-hitcount|p2: Crobat|3
+|
+|upkeep
+|
+|t:|1664660562
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tsareena|atk|1
+|turn|5
+|
+|t:|1664660566
+|move|p1a: Tsareena|U-turn|p2a: Incineroar
+|-damage|p2a: Incineroar|86/100
+|
+|t:|1664660570
+|switch|p1a: Incineroar|Incineroar, F|100/100|[from]move: U-turn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|move|p2a: Incineroar|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|89/100
+|-enditem|p1a: Incineroar|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|6
+|
+|t:|1664660575
+|move|p1a: Incineroar|Parting Shot|p2a: Incineroar
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2a: Incineroar|spa|1
+|
+|t:|1664660577
+|switch|p1a: Milotic|Milotic, F|100/100|[from]move: Parting Shot
+|move|p2a: Incineroar|Parting Shot|p1a: Milotic
+|-unboost|p1a: Milotic|atk|1
+|-ability|p1a: Milotic|Competitive
+|-boost|p1a: Milotic|spa|2
+|-unboost|p1a: Milotic|spa|1
+|-ability|p1a: Milotic|Competitive
+|-boost|p1a: Milotic|spa|2
+|
+|t:|1664660605
+|switch|p2a: Milotic|Milotic, M|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|7
+|
+|t:|1664660608
+|move|p2a: Milotic|Haze|p2a: Milotic
+|-clearallboost
+|move|p1a: Milotic|Scald|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|89/100
+|-status|p2a: Milotic|brn
+|
+|-heal|p2a: Milotic|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Milotic|89/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1664660615
+|move|p2a: Milotic|Scald|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|91/100
+|move|p1a: Milotic|Flip Turn|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|86/100 brn
+|
+|t:|1664660621
+|switch|p1a: Tsareena|Tsareena, F|51/100|[from]move: Flip Turn
+|
+|-heal|p2a: Milotic|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Milotic|86/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1664660630
+|switch|p2a: Heracross|Heracross, M|100/100
+|move|p1a: Tsareena|Power Whip|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|61/100
+|
+|-status|p2a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1664660641
+|switch|p1a: Incineroar|Incineroar, F|89/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Heracross|atk|1
+|move|p2a: Heracross|Megahorn|p1a: Incineroar
+|-damage|p1a: Incineroar|28/100
+|
+|-damage|p2a: Heracross|55/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1664660649
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Heracross|Facade|p1a: Polteageist
+|-immune|p1a: Polteageist
+|
+|-damage|p2a: Heracross|49/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1664660655
+|switch|p1a: Incineroar|Incineroar, F|28/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Heracross|atk|1
+|move|p2a: Heracross|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|7/100
+|
+|-damage|p2a: Heracross|43/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1664660660
+|move|p2a: Heracross|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-damage|p2a: Heracross|37/100 brn|[from] brn
+|upkeep
+|
+|t:|1664660663
+|switch|p1a: Lucario|Lucario, F|100/100
+|turn|14
+|
+|t:|1664660669
+|switch|p2a: Milotic|Milotic, M|86/100 brn
+|move|p1a: Lucario|Meteor Mash|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|72/100 brn
+|-damage|p1a: Lucario|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Milotic|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Milotic|72/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1664660676
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Milotic|Ice Beam|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|73/100
+|
+|-heal|p2a: Milotic|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Milotic|72/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1664660682
+|move|p1a: Lucario|Close Combat|p2a: Milotic
+|-damage|p2a: Milotic|2/100 brn
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|63/100|[from] item: Life Orb
+|move|p2a: Milotic|Haze|p2a: Milotic
+|-clearallboost
+|
+|-heal|p2a: Milotic|8/100 brn|[from] item: Leftovers
+|-damage|p2a: Milotic|2/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1664660688
+|move|p1a: Lucario|Meteor Mash|p2a: Milotic|[miss]
+|-miss|p1a: Lucario|p2a: Milotic
+|move|p2a: Milotic|Scald|p1a: Lucario
+|-damage|p1a: Lucario|21/100
+|
+|-heal|p2a: Milotic|8/100 brn|[from] item: Leftovers
+|-damage|p2a: Milotic|2/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1664660701
+|move|p1a: Lucario|Meteor Mash|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|-damage|p1a: Lucario|11/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1664660707
+|switch|p2a: Incineroar|Incineroar, M|86/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Lucario|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Lucario
+|turn|19
+|
+|t:|1664660715
+|move|p1a: Lucario|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|faint|p2a: Incineroar
+|-damage|p1a: Lucario|1/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1664660719
+|switch|p2a: Registeel|Registeel|100/100
+|turn|20
+|
+|t:|1664660725
+|move|p1a: Lucario|Close Combat|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|faint|p2a: Registeel
+|-damage|p1a: Lucario|0 fnt|[from] item: Life Orb
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|t:|1664660734
+|switch|p1a: Polteageist|Polteageist|100/100
+|switch|p2a: Heracross|Heracross, M|37/100 brn
+|turn|21
+|
+|t:|1664660736
+|move|p2a: Heracross|Knock Off|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|move|p1a: Polteageist|Shadow Ball|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|win|R3d_VGC
+|raw|R3d_VGC's rating: 1441 &rarr; <strong>1455</strong><br />(+14 for winning)
+|raw|danielloking's rating: 1326 &rarr; <strong>1312</strong><br />(-14 for losing)
+|l|☆danielloking
+|c|☆R3d_VGC|gg

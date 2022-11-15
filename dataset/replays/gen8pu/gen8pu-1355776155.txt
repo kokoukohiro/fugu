@@ -1,0 +1,609 @@
+|j|☆FNC_Urgot
+|j|☆teenage bream
+|t:|1623240367
+|gametype|singles
+|player|p1|FNC_Urgot|169|1521
+|player|p2|teenage bream|1|1442
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Togedemaru, M|
+|poke|p1|Altaria, M|
+|poke|p1|Eldegoss, M|
+|poke|p1|Miltank, F|
+|poke|p1|Pyukumuku, M|
+|poke|p1|Tangela, M|
+|poke|p2|Gigalith, M|
+|poke|p2|Eldegoss, M|
+|poke|p2|Accelgor, F|
+|poke|p2|Aromatisse, M|
+|poke|p2|Turtonator, F|
+|poke|p2|Boltund, M|
+|teampreview
+|
+|t:|1623240379
+|start
+|switch|p1a: Altaria|Altaria, M|100/100
+|switch|p2a: Accelgor|Accelgor, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FNC_Urgot)
+|
+|t:|1623240383
+|move|p2a: Accelgor|Knock Off|p1a: Altaria
+|-damage|p1a: Altaria|88/100
+|-enditem|p1a: Altaria|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Accelgor
+|move|p1a: Altaria|Fire Spin|p2a: Accelgor
+|-supereffective|p2a: Accelgor
+|-damage|p2a: Accelgor|84/100
+|-activate|p2a: Accelgor|move: Fire Spin|[of] p1a: Altaria
+|
+|-damage|p2a: Accelgor|72/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1623240388
+|move|p2a: Accelgor|Spikes|p1a: Altaria
+|-sidestart|p1: FNC_Urgot|Spikes
+|move|p1a: Altaria|Perish Song|p1a: Altaria
+|-start|p1a: Altaria|perish3|[silent]
+|-start|p2a: Accelgor|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-damage|p2a: Accelgor|59/100|[from] move: Fire Spin|[partiallytrapped]
+|-start|p2a: Accelgor|perish3
+|-start|p1a: Altaria|perish3
+|upkeep
+|turn|3
+|
+|t:|1623240394
+|move|p2a: Accelgor|U-turn|p1a: Altaria
+|-resisted|p1a: Altaria
+|-crit|p1a: Altaria
+|-damage|p1a: Altaria|78/100
+|
+|t:|1623240396
+|switch|p2a: Gigalith|Gigalith, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|100/100
+|-singleturn|p1a: Altaria|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Altaria|94/100|[from] Sandstorm
+|-start|p1a: Altaria|perish2
+|upkeep
+|turn|4
+|
+|t:|1623240405
+|switch|p1a: Tangela|Tangela, M|100/100
+|-damage|p1a: Tangela|88/100|[from] Spikes
+|move|p2a: Gigalith|Stealth Rock|p1a: Tangela
+|-sidestart|p1: FNC_Urgot|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangela|82/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1623240411
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|move|p1a: Tangela|Knock Off|p2a: Eldegoss
+|-damage|p2a: Eldegoss|81/100
+|-enditem|p2a: Eldegoss|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tangela
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|74/100|[from] Sandstorm
+|-damage|p1a: Tangela|76/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1623240415
+|switch|p1a: Eldegoss|Eldegoss, M|100/100
+|move|p2a: Eldegoss|Weather Ball|p1a: Eldegoss
+|-damage|p1a: Eldegoss|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|68/100|[from] Sandstorm
+|-damage|p1a: Eldegoss|77/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1623240420
+|move|p2a: Eldegoss|Pollen Puff|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|44/100
+|move|p1a: Eldegoss|Rapid Spin|p2a: Eldegoss
+|-damage|p2a: Eldegoss|60/100
+|-boost|p1a: Eldegoss|spe|1
+|-sideend|p1: FNC_Urgot|Spikes|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|-sideend|p1: FNC_Urgot|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1623240427
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|move|p2a: Eldegoss|Sleep Powder|p1a: Togedemaru|[miss]
+|-miss|p2a: Eldegoss|p1a: Togedemaru
+|
+|upkeep
+|turn|9
+|
+|t:|1623240434
+|switch|p2a: Turtonator|Turtonator, F|100/100
+|move|p1a: Togedemaru|Toxic|p2a: Turtonator
+|-status|p2a: Turtonator|tox
+|
+|-damage|p2a: Turtonator|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1623240445
+|move|p1a: Togedemaru|U-turn|p2a: Turtonator
+|-resisted|p2a: Turtonator
+|-damage|p2a: Turtonator|86/100 tox
+|
+|t:|1623240450
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100|[from]move: U-turn
+|move|p2a: Turtonator|Draco Meteor|p1a: Pyukumuku
+|-crit|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|29/100
+|-unboost|p2a: Turtonator|spa|2
+|
+|-heal|p1a: Pyukumuku|35/100|[from] item: Leftovers
+|-damage|p2a: Turtonator|73/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1623240456
+|move|p2a: Turtonator|Draco Meteor|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|0 fnt
+|-unboost|p2a: Turtonator|spa|2
+|faint|p1a: Pyukumuku
+|
+|-damage|p2a: Turtonator|55/100 tox|[from] psn
+|upkeep
+|
+|t:|1623240466
+|switch|p1a: Miltank|Miltank, F|100/100
+|turn|12
+|
+|t:|1623240469
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|move|p1a: Miltank|Stealth Rock|p2a: Aromatisse
+|-sidestart|p2: teenage bream|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1623240480
+|move|p1a: Miltank|Body Slam|p2a: Aromatisse
+|-damage|p2a: Aromatisse|83/100
+|move|p2a: Aromatisse|Heal Bell|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Heal Bell
+|-curestatus|p2: Turtonator|tox|[msg]
+|
+|upkeep
+|turn|14
+|
+|t:|1623240485
+|move|p1a: Miltank|Body Slam|p2a: Aromatisse
+|-damage|p2a: Aromatisse|65/100
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|upkeep
+|turn|15
+|
+|t:|1623240494
+|switch|p2a: Turtonator|Turtonator, F|55/100
+|move|p1a: Miltank|Body Slam|p2a: Turtonator
+|-damage|p2a: Turtonator|29/100
+|
+|-heal|p2a: Turtonator|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|16
+|
+|t:|1623240502
+|move|p1a: Miltank|Body Slam|p2a: Turtonator
+|-damage|p2a: Turtonator|74/100
+|-status|p2a: Turtonator|par
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|
+|upkeep
+|turn|17
+|
+|t:|1623240519
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-damage|p2a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Miltank|Body Slam|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Miltank|94/100|[from] Sandstorm
+|-heal|p1a: Miltank|100/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|85/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1623240525
+|switch|p1a: Tangela|Tangela, M|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Tangela
+|-sidestart|p1: FNC_Urgot|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangela|95/100|[from] Sandstorm
+|-heal|p2a: Gigalith|91/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1623240532
+|switch|p2a: Eldegoss|Eldegoss, M|94/100
+|-damage|p2a: Eldegoss|81/100|[from] Stealth Rock
+|move|p1a: Tangela|Infestation|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|71/100
+|-activate|p2a: Eldegoss|move: Infestation|[of] p1a: Tangela
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|65/100|[from] Sandstorm
+|-damage|p1a: Tangela|89/100|[from] Sandstorm
+|-damage|p2a: Eldegoss|52/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|20
+|
+|t:|1623240539
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|-damage|p1a: Togedemaru|95/100|[from] Stealth Rock
+|move|p2a: Eldegoss|Pollen Puff|p1a: Togedemaru
+|-resisted|p1a: Togedemaru
+|-damage|p1a: Togedemaru|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|46/100|[from] Sandstorm
+|-heal|p1a: Togedemaru|89/100|[from] item: Leftovers
+|-end|p2a: Eldegoss|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|21
+|
+|t:|1623240543
+|switch|p2a: Turtonator|Turtonator, F|74/100 par
+|move|p1a: Togedemaru|U-turn|p2a: Turtonator
+|-resisted|p2a: Turtonator
+|-damage|p2a: Turtonator|67/100 par
+|
+|t:|1623240559
+|switch|p1a: Miltank|Miltank, F|100/100|[from]move: U-turn
+|-damage|p1a: Miltank|88/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Miltank|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1623240563
+|switch|p2a: Gigalith|Gigalith, M|91/100
+|-damage|p2a: Gigalith|79/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Miltank|Body Slam|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Miltank|88/100|[from] Sandstorm
+|-heal|p1a: Miltank|94/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|77/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1623240568
+|switch|p1a: Tangela|Tangela, M|100/100
+|-damage|p1a: Tangela|88/100|[from] Stealth Rock
+|move|p2a: Gigalith|Sand Tomb|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|86/100
+|-activate|p1a: Tangela|move: Sand Tomb|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangela|80/100|[from] Sandstorm
+|-heal|p2a: Gigalith|83/100|[from] item: Leftovers
+|-damage|p1a: Tangela|68/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|24
+|
+|t:|1623240579
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Tangela|Sleep Powder|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangela|62/100|[from] Sandstorm
+|-heal|p2a: Gigalith|89/100|[from] item: Leftovers
+|-damage|p1a: Tangela|49/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|25
+|
+|t:|1623240596
+|move|p1a: Tangela|Leech Seed|p2a: Gigalith
+|-start|p2a: Gigalith|move: Leech Seed
+|move|p2a: Gigalith|Rock Blast|p1a: Tangela
+|-damage|p1a: Tangela|45/100
+|-damage|p1a: Tangela|40/100
+|-damage|p1a: Tangela|34/100
+|-damage|p1a: Tangela|29/100
+|-hitcount|p1a: Tangela|4
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangela|23/100|[from] Sandstorm
+|-heal|p2a: Gigalith|95/100|[from] item: Leftovers
+|-damage|p2a: Gigalith|83/100|[from] Leech Seed|[of] p1a: Tangela
+|-heal|p1a: Tangela|37/100|[silent]
+|-damage|p1a: Tangela|25/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|26
+|
+|t:|1623240609
+|switch|p2a: Accelgor|Accelgor, F|59/100
+|move|p1a: Tangela|Sleep Powder|p2a: Accelgor
+|-status|p2a: Accelgor|slp|[from] move: Sleep Powder
+|
+|-weather|none
+|-end|p1a: Tangela|Sand Tomb|[partiallytrapped]|[silent]
+|upkeep
+|turn|27
+|
+|t:|1623240634
+|switch|p2a: Eldegoss|Eldegoss, M|79/100
+|-damage|p2a: Eldegoss|67/100|[from] Stealth Rock
+|switch|p1a: Eldegoss|Eldegoss, M|77/100
+|
+|upkeep
+|turn|28
+|
+|t:|1623240642
+|move|p2a: Eldegoss|Pollen Puff|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|41/100
+|move|p1a: Eldegoss|Rapid Spin|p2a: Eldegoss
+|-damage|p2a: Eldegoss|58/100
+|-boost|p1a: Eldegoss|spe|1
+|-sideend|p1: FNC_Urgot|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|
+|upkeep
+|turn|29
+|inactive|teenage bream has 120 seconds left.
+|
+|t:|1623240664
+|switch|p1a: Togedemaru|Togedemaru, M|89/100
+|move|p2a: Eldegoss|Sleep Powder|p1a: Togedemaru
+|-status|p1a: Togedemaru|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Togedemaru|95/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|teenage bream has 120 seconds left.
+|
+|t:|1623240675
+|switch|p1a: Miltank|Miltank, F|94/100
+|switch|p2a: Aromatisse|Aromatisse, M|65/100
+|
+|-heal|p1a: Miltank|99/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1623240691
+|switch|p1a: Altaria|Altaria, M|94/100
+|move|p2a: Aromatisse|Heal Bell|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Heal Bell
+|-curestatus|p2: Accelgor|slp|[msg]
+|-curestatus|p2: Turtonator|par|[msg]
+|
+|upkeep
+|turn|32
+|
+|t:|1623240701
+|switch|p2a: Accelgor|Accelgor, F|59/100
+|move|p1a: Altaria|Fire Spin|p2a: Accelgor
+|-supereffective|p2a: Accelgor
+|-damage|p2a: Accelgor|42/100
+|-activate|p2a: Accelgor|move: Fire Spin|[of] p1a: Altaria
+|
+|-damage|p2a: Accelgor|30/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|33
+|
+|t:|1623240709
+|move|p2a: Accelgor|Recover|p2a: Accelgor
+|-heal|p2a: Accelgor|80/100
+|move|p1a: Altaria|Fire Spin|p2a: Accelgor
+|-supereffective|p2a: Accelgor
+|-damage|p2a: Accelgor|64/100
+|
+|-damage|p2a: Accelgor|52/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|34
+|
+|t:|1623240716
+|switch|p1a: Tangela|Tangela, M|58/100
+|move|p2a: Accelgor|Spikes|p1a: Tangela
+|-sidestart|p1: FNC_Urgot|Spikes
+|
+|-end|p2a: Accelgor|Fire Spin|[partiallytrapped]|[silent]
+|upkeep
+|turn|35
+|
+|t:|1623240721
+|switch|p1a: Miltank|Miltank, F|99/100
+|-damage|p1a: Miltank|88/100|[from] Spikes
+|move|p2a: Accelgor|Knock Off|p1a: Miltank
+|-damage|p1a: Miltank|74/100
+|-enditem|p1a: Miltank|Leftovers|[from] move: Knock Off|[of] p2a: Accelgor
+|
+|upkeep
+|turn|36
+|
+|t:|1623240724
+|move|p2a: Accelgor|Spikes|p1a: Miltank
+|-sidestart|p1: FNC_Urgot|Spikes
+|move|p1a: Miltank|Heal Bell|p1a: Miltank
+|-activate|p1a: Miltank|move: Heal Bell
+|-curestatus|p1: Togedemaru|slp|[msg]
+|
+|upkeep
+|turn|37
+|
+|t:|1623240730
+|move|p2a: Accelgor|Knock Off|p1a: Miltank
+|-damage|p1a: Miltank|64/100
+|move|p1a: Miltank|Body Slam|p2a: Accelgor
+|-damage|p2a: Accelgor|19/100
+|
+|upkeep
+|turn|38
+|
+|t:|1623240741
+|move|p2a: Accelgor|Recover|p2a: Accelgor
+|-heal|p2a: Accelgor|69/100
+|move|p1a: Miltank|Body Slam|p2a: Accelgor
+|-damage|p2a: Accelgor|39/100
+|-status|p2a: Accelgor|par
+|
+|upkeep
+|turn|39
+|
+|t:|1623240745
+|switch|p2a: Gigalith|Gigalith, M|83/100
+|-damage|p2a: Gigalith|71/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Miltank|Body Slam|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Miltank|58/100|[from] Sandstorm
+|-heal|p2a: Gigalith|68/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|FNC_Urgot has 120 seconds left.
+|
+|t:|1623240787
+|switch|p1a: Tangela|Tangela, M|91/100
+|-damage|p1a: Tangela|75/100|[from] Spikes
+|move|p2a: Gigalith|Sand Tomb|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|72/100
+|-activate|p1a: Tangela|move: Sand Tomb|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangela|66/100|[from] Sandstorm
+|-heal|p2a: Gigalith|74/100|[from] item: Leftovers
+|-damage|p1a: Tangela|54/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|41
+|
+|t:|1623240796
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Tangela|Leech Seed|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangela|48/100|[from] Sandstorm
+|-heal|p2a: Gigalith|80/100|[from] item: Leftovers
+|-damage|p1a: Tangela|36/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|42
+|inactive|FNC_Urgot has 120 seconds left.
+|
+|t:|1623240801
+|move|p1a: Tangela|Leech Seed|p2a: Gigalith
+|-start|p2a: Gigalith|move: Leech Seed
+|move|p2a: Gigalith|Rock Blast|p1a: Tangela|[miss]
+|-miss|p2a: Gigalith|p1a: Tangela
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangela|30/100|[from] Sandstorm
+|-heal|p2a: Gigalith|86/100|[from] item: Leftovers
+|-damage|p2a: Gigalith|74/100|[from] Leech Seed|[of] p1a: Tangela
+|-heal|p1a: Tangela|44/100|[silent]
+|-damage|p1a: Tangela|31/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|43
+|
+|t:|1623240811
+|switch|p2a: Eldegoss|Eldegoss, M|92/100
+|-damage|p2a: Eldegoss|79/100|[from] Stealth Rock
+|move|p1a: Tangela|Infestation|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|68/100
+|-activate|p2a: Eldegoss|move: Infestation|[of] p1a: Tangela
+|
+|-weather|none
+|-damage|p2a: Eldegoss|56/100|[from] move: Infestation|[partiallytrapped]
+|-end|p1a: Tangela|Sand Tomb|[partiallytrapped]|[silent]
+|upkeep
+|turn|44
+|
+|t:|1623240820
+|switch|p1a: Altaria|Altaria, M|94/100
+|move|p2a: Eldegoss|Pollen Puff|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|84/100
+|
+|-end|p2a: Eldegoss|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|45
+|
+|t:|1623240833
+|switch|p2a: Turtonator|Turtonator, F|67/100
+|move|p1a: Altaria|Defog|p2a: Turtonator
+|-unboost|p2a: Turtonator|evasion|1
+|-sideend|p2: teenage bream|Stealth Rock|[from] move: Defog|[of] p1a: Altaria
+|-sideend|p1: FNC_Urgot|Spikes|[from] move: Defog|[of] p1a: Altaria
+|
+|upkeep
+|turn|46
+|
+|t:|1623240847
+|switch|p1a: Miltank|Miltank, F|58/100
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|
+|upkeep
+|turn|47
+|
+|t:|1623240859
+|move|p2a: Turtonator|Draco Meteor|p1a: Miltank
+|-damage|p1a: Miltank|0 fnt
+|-unboost|p2a: Turtonator|spa|2
+|faint|p1a: Miltank
+|
+|upkeep
+|-message|FNC_Urgot forfeited.
+|
+|win|teenage bream
+|raw|FNC_Urgot's rating: 1521 &rarr; <strong>1497</strong><br />(-24 for losing)
+|raw|teenage bream's rating: 1442 &rarr; <strong>1466</strong><br />(+24 for winning)
+|l|☆FNC_Urgot

@@ -1,0 +1,383 @@
+|j|☆ASSOLO IL RE
+|j|☆ruznoob
+|player|p1|ASSOLO IL RE|biker-gen2|1531
+|player|p2|ruznoob|morty-gen2|1553
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Scrafty, M|
+|poke|p1|Vileplume, M|
+|poke|p1|Steelix, M|
+|poke|p1|Mantine, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Rillaboom, F|
+|poke|p2|Vikavolt, M|
+|poke|p2|Mantine, F|
+|poke|p2|Steelix, M|
+|poke|p2|Passimian, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Xatu, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Steelix|Steelix, M|100/100
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ASSOLO IL RE)
+|
+|move|p2a: Vikavolt|Substitute|p2a: Vikavolt
+|-start|p2a: Vikavolt|Substitute
+|-damage|p2a: Vikavolt|76/100
+|move|p1a: Steelix|Toxic||[still]
+|-fail|p1a: Steelix
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Vikavolt|Bug Buzz|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|76/100
+|move|p1a: Steelix|Heavy Slam|p2a: Vikavolt
+|-resisted|p2a: Vikavolt
+|-activate|p2a: Vikavolt|move: Substitute|[damage]
+|
+|-heal|p1a: Steelix|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Vikavolt|Bug Buzz|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|50/100
+|move|p1a: Steelix|Stealth Rock|p2a: Vikavolt
+|-sidestart|p2: ruznoob|move: Stealth Rock
+|
+|-heal|p1a: Steelix|57/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|move|p2a: Vikavolt|Bug Buzz|p1a: Scrafty
+|-damage|p1a: Scrafty|46/100
+|
+|-heal|p1a: Scrafty|52/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Scrafty|Knock Off|p2a: Vikavolt
+|-end|p2a: Vikavolt|Substitute
+|move|p2a: Vikavolt|Bug Buzz|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|6
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|move|p1a: Indeedee|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|65/100
+|
+|-heal|p2a: Snorlax|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|70/100
+|
+|-heal|p1a: Vileplume|76/100|[from] item: Black Sludge
+|-heal|p2a: Snorlax|77/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|-damage|p2a: Xatu|76/100|[from] Stealth Rock
+|move|p1a: Vileplume|Sludge Bomb|p2a: Xatu
+|-damage|p2a: Xatu|29/100
+|-status|p2a: Xatu|psn
+|
+|-heal|p1a: Vileplume|82/100|[from] item: Black Sludge
+|-damage|p2a: Xatu|16/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|move|p2a: Xatu|Psychic|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|82/100
+|
+|-damage|p2a: Xatu|4/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Indeedee|Psyshock|p2a: Xatu
+|-resisted|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p2a: Mantine|Mantine, F, shiny|100/100
+|turn|11
+|
+|switch|p1a: Vileplume|Vileplume, M|82/100
+|move|p2a: Mantine|Defog|p1a: Vileplume
+|-unboost|p1a: Vileplume|evasion|1
+|-sideend|p2: ruznoob|Stealth Rock|[from] move: Defog|[of] p2a: Mantine
+|
+|-heal|p1a: Vileplume|88/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p2a: Vikavolt|Vikavolt, M|76/100
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|1
+|-boost|p1a: Vileplume|spa|1
+|
+|-heal|p1a: Vileplume|95/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vikavolt
+|-damage|p2a: Vikavolt|13/100
+|move|p2a: Vikavolt|Bug Buzz|p1a: Vileplume
+|-damage|p1a: Vileplume|35/100
+|
+|-heal|p1a: Vileplume|41/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Vileplume|Giga Drain|p2a: Vikavolt
+|-resisted|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|-heal|p1a: Vileplume|47/100|[from] drain|[of] p2a: Vikavolt
+|faint|p2a: Vikavolt
+|
+|-heal|p1a: Vileplume|54/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M|77/100
+|turn|15
+|
+|move|p1a: Vileplume|Strength Sap|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|-heal|p1a: Vileplume|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|83/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|1
+|-boost|p1a: Vileplume|spa|1
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|89/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|1
+|-boost|p1a: Vileplume|spa|1
+|move|p2a: Snorlax|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|55/100
+|
+|-heal|p1a: Vileplume|61/100|[from] item: Black Sludge
+|-heal|p2a: Snorlax|96/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Vileplume|Strength Sap|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|-heal|p1a: Vileplume|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|73/100
+|
+|-heal|p1a: Vileplume|79/100|[from] item: Black Sludge
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Vileplume|Giga Drain|p2a: Snorlax
+|-damage|p2a: Snorlax|70/100
+|-heal|p1a: Vileplume|100/100|[from] drain|[of] p2a: Snorlax
+|move|p2a: Snorlax|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|69/100
+|-status|p1a: Vileplume|par
+|-status|p2a: Snorlax|slp|[from] ability: Effect Spore|[of] p1a: Vileplume
+|
+|-heal|p1a: Vileplume|75/100 par|[from] item: Black Sludge
+|-heal|p2a: Snorlax|76/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|cant|p1a: Vileplume|par
+|cant|p2a: Snorlax|slp
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|move|p2a: Snorlax|Curse|p2a: Snorlax|[from]Sleep Talk
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Vileplume|81/100 par|[from] item: Black Sludge
+|-heal|p2a: Snorlax|82/100 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Vileplume|Giga Drain|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|38/100 slp
+|-heal|p1a: Vileplume|100/100 par|[from] drain|[of] p2a: Snorlax
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|60/100 par
+|
+|-heal|p1a: Vileplume|66/100 par|[from] item: Black Sludge
+|-heal|p2a: Snorlax|44/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Snorlax
+|-damage|p2a: Snorlax|8/100
+|move|p2a: Snorlax|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|20/100 par
+|-status|p2a: Snorlax|slp|[from] ability: Effect Spore|[of] p1a: Vileplume
+|
+|-heal|p1a: Vileplume|26/100 par|[from] item: Black Sludge
+|-heal|p2a: Snorlax|14/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|cant|p1a: Vileplume|par
+|cant|p2a: Snorlax|slp
+|
+|-heal|p1a: Vileplume|32/100 par|[from] item: Black Sludge
+|-heal|p2a: Snorlax|20/100 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Vileplume|Strength Sap|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|-heal|p1a: Vileplume|100/100 par
+|cant|p2a: Snorlax|slp
+|
+|-heal|p2a: Snorlax|26/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|cant|p1a: Vileplume|par
+|cant|p2a: Snorlax|slp
+|
+|-heal|p2a: Snorlax|32/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, M, shiny|100/100
+|turn|27
+|
+|move|p2a: Passimian|Knock Off|p1a: Vileplume
+|-damage|p1a: Vileplume|70/100 par
+|-status|p2a: Passimian|slp|[from] ability: Effect Spore|[of] p1a: Vileplume
+|-enditem|p1a: Vileplume|Black Sludge|[from] move: Knock Off|[of] p2a: Passimian
+|move|p1a: Vileplume|Giga Drain|p2a: Passimian
+|-damage|p2a: Passimian|2/100 slp
+|-heal|p1a: Vileplume|100/100 par|[from] drain|[of] p2a: Passimian
+|
+|upkeep
+|turn|28
+|
+|cant|p2a: Passimian|slp
+|move|p1a: Vileplume|Giga Drain|p2a: Passimian
+|-damage|p2a: Passimian|0 fnt
+|faint|p2a: Passimian
+|
+|upkeep
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|turn|29
+|
+|move|p2a: Steelix|Heavy Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|66/100 par
+|move|p1a: Vileplume|Giga Drain|p2a: Steelix
+|-damage|p2a: Steelix|35/100
+|-heal|p1a: Vileplume|99/100 par|[from] drain|[of] p2a: Steelix
+|
+|-heal|p2a: Steelix|41/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Steelix|Heavy Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|63/100 par
+|move|p1a: Vileplume|Strength Sap|p2a: Steelix
+|-unboost|p2a: Steelix|atk|1
+|-heal|p1a: Vileplume|100/100 par
+|
+|-heal|p2a: Steelix|47/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Steelix|Heavy Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|78/100 par
+|cant|p1a: Vileplume|par
+|
+|-heal|p2a: Steelix|54/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Steelix|Heavy Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|57/100 par
+|move|p1a: Vileplume|Giga Drain|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|-heal|p1a: Vileplume|83/100 par|[from] drain|[of] p2a: Steelix
+|faint|p2a: Steelix
+|
+|upkeep
+|
+|switch|p2a: Mantine|Mantine, F, shiny|100/100
+|turn|33
+|
+|move|p2a: Mantine|Scald|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|72/100 par
+|move|p1a: Vileplume|Sludge Bomb|p2a: Mantine
+|-damage|p2a: Mantine|46/100
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Mantine|Scald|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|59/100 par
+|move|p1a: Vileplume|Sludge Bomb|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|win|ASSOLO IL RE

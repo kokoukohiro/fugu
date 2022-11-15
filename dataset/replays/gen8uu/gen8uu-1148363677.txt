@@ -1,0 +1,388 @@
+|j|☆Above n Beyond
+|j|☆Bamarah
+|player|p1|Above n Beyond|firebreather|1473
+|player|p2|Bamarah|eusine-gen2|1456
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Scolipede, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Barbaracle, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Hatterene, F|
+|poke|p2|Noivern, M|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Darmanitan, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Skarmory, M|
+|poke|p2|Blissey, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bamarah)
+|
+|start
+|switch|p1a: Barbaracle|Barbaracle, M|100/100
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Darmanitan|U-turn|p1a: Barbaracle
+|-damage|p1a: Barbaracle|71/100
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100|[from]move: U-turn
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Barbaracle|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: Bamarah|move: Stealth Rock
+|move|p2a: Keldeo|Surf|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|-damage|p2a: Keldeo|91/100|[from] item: Life Orb
+|faint|p1a: Barbaracle
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|3
+|
+|switch|p2a: Noivern|Noivern, M, shiny|100/100
+|-damage|p2a: Noivern|76/100|[from] Stealth Rock
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Noivern|Defog|p1a: Hatterene
+|move|p1a: Hatterene|Defog|p2a: Noivern|[from]Magic Bounce
+|-unboost|p2a: Noivern|evasion|1
+|-sideend|p2: Bamarah|Stealth Rock|[from] move: Defog|[of] p1a: Hatterene
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Noivern|Hurricane|p1a: Hatterene|[miss]
+|-miss|p2a: Noivern|p1a: Hatterene
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Noivern|Hurricane|p1a: Hatterene
+|-damage|p1a: Hatterene|56/100
+|-damage|p2a: Noivern|66/100|[from] item: Life Orb
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|62/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Noivern|Hurricane|p1a: Hatterene|[miss]
+|-miss|p2a: Noivern|p1a: Hatterene
+|move|p1a: Hatterene|Draining Kiss|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Noivern
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|100/100
+|turn|8
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Darmanitan|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|49/100
+|-enditem|p1a: Tyranitar|Weakness Policy
+|-boost|p1a: Tyranitar|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Tyranitar|spa|2|[from] item: Weakness Policy
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|91/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|84/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Keldeo|74/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|68/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|10
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Above n Beyond|move: Light Screen
+|move|p2a: Keldeo|Surf|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|78/100
+|-damage|p2a: Keldeo|58/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|52/100|[from] Sandstorm
+|-damage|p1a: Grimmsnarl|72/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|100/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Above n Beyond|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|66/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Skarmory
+|-start|p2a: Skarmory|move: Taunt
+|cant|p2a: Skarmory|move: Taunt|Toxic
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|switch|p1a: Scolipede|Scolipede, M|100/100
+|move|p2a: Skarmory|Body Press|p1a: Scolipede
+|-resisted|p1a: Scolipede
+|-damage|p1a: Scolipede|95/100
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Scolipede|Swords Dance|p1a: Scolipede
+|-boost|p1a: Scolipede|atk|2
+|move|p2a: Skarmory|Body Press|p1a: Scolipede
+|-resisted|p1a: Scolipede
+|-damage|p1a: Scolipede|89/100
+|
+|-end|p2a: Skarmory|move: Taunt
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|15
+|
+|move|p1a: Scolipede|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|57/100
+|-damage|p1a: Scolipede|79/100|[from] item: Life Orb
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|-heal|p2a: Skarmory|63/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|16
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|
+|-sideend|p1: Above n Beyond|move: Light Screen
+|upkeep
+|turn|18
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-sideend|p1: Above n Beyond|Reflect
+|upkeep
+|turn|19
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|66/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|40/100
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Above n Beyond|move: Light Screen
+|move|p2a: Chandelure|Shadow Ball|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|24/100
+|-unboost|p1a: Grimmsnarl|spd|1
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Above n Beyond|Reflect
+|move|p2a: Chandelure|Shadow Ball|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|22
+|
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Rotom|Substitute|p1a: Rotom
+|-start|p1a: Rotom|Substitute
+|-damage|p1a: Rotom|76/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Blissey|Seismic Toss|p1a: Rotom
+|-end|p1a: Rotom|Substitute
+|
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Rotom|Substitute|p1a: Rotom
+|-start|p1a: Rotom|Substitute
+|-damage|p1a: Rotom|63/100
+|move|p2a: Blissey|Seismic Toss|p1a: Rotom
+|-end|p1a: Rotom|Substitute
+|
+|-heal|p1a: Rotom|69/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Blissey|Seismic Toss|p1a: Rotom
+|-damage|p1a: Rotom|28/100
+|
+|-heal|p1a: Rotom|34/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|42/100
+|move|p2a: Blissey|Seismic Toss|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Blissey|49/100|[from] item: Leftovers
+|-sideend|p1: Above n Beyond|move: Light Screen
+|upkeep
+|
+|switch|p1a: Scolipede|Scolipede, M|79/100
+|turn|28
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|100/100
+|move|p1a: Scolipede|Swords Dance|p1a: Scolipede
+|-boost|p1a: Scolipede|atk|2
+|
+|-sideend|p1: Above n Beyond|Reflect
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|29
+|
+|move|p1a: Scolipede|Rock Slide|p2a: Skarmory|[miss]
+|-miss|p1a: Scolipede|p2a: Skarmory
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|30
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Skarmory|Body Press|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|88/100
+|
+|-heal|p1a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|switch|p1a: Scolipede|Scolipede, M|79/100
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Chandelure|Flamethrower|p1a: Scolipede
+|-supereffective|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|faint|p1a: Scolipede
+|
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|94/100
+|turn|33
+|
+|move|p2a: Chandelure|Flamethrower|p1a: Hatterene
+|-damage|p1a: Hatterene|45/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|50/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Chandelure|Flamethrower|p1a: Hatterene
+|-damage|p1a: Hatterene|12/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|78/100
+|-heal|p1a: Hatterene|27/100|[from] drain|[of] p2a: Chandelure
+|
+|-heal|p1a: Hatterene|33/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Chandelure|Flamethrower|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|win|Bamarah
+|l|☆Above n Beyond

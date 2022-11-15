@@ -1,0 +1,186 @@
+|j|☆Adil
+|j|☆Bamarah
+|player|p1|Adil|ghetsis|1444
+|player|p2|Bamarah|eusine-gen2|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Toxtricity, F|
+|poke|p1|Scolipede, F|
+|poke|p1|Kyurem|
+|poke|p1|Seismitoad, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Mantine, F|
+|poke|p2|Noivern, M|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Darmanitan, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Skarmory, M|
+|poke|p2|Blissey, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bamarah)
+|inactive|Adil also wants the timer to be on.
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Darmanitan|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|81/100
+|
+|switch|p2a: Noivern|Noivern, M, shiny|100/100|[from]move: U-turn
+|move|p1a: Seismitoad|Stealth Rock|p2a: Noivern
+|-sidestart|p2: Bamarah|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|87/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Mantine|Mantine, F|100/100
+|move|p2a: Noivern|Defog|p1a: Mantine
+|-unboost|p1a: Mantine|evasion|1
+|-sideend|p2: Bamarah|Stealth Rock|[from] move: Defog|[of] p2a: Noivern
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|move|p1a: Mantine|Scald|p2a: Blissey
+|-damage|p2a: Blissey|94/100
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Seismitoad|Seismitoad, M|87/100
+|move|p2a: Blissey|Thunder Wave|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|93/100|[from] item: Leftovers
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Adil has 120 seconds left.
+|
+|switch|p2a: Noivern|Noivern, M, shiny|100/100
+|move|p1a: Seismitoad|Knock Off|p2a: Noivern
+|-damage|p2a: Noivern|75/100
+|-enditem|p2a: Noivern|Life Orb|[from] move: Knock Off|[of] p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Mantine|Mantine, F|100/100
+|move|p2a: Noivern|Hurricane|p1a: Mantine
+|-damage|p1a: Mantine|70/100
+|
+|upkeep
+|turn|7
+|inactive|Adil has 120 seconds left.
+|
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Noivern|Noivern, M, shiny|75/100
+|move|p1a: Keldeo|Flip Turn|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|65/100
+|
+|switch|p1a: Scolipede|Scolipede, F|100/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Mantine|Mantine, F|70/100
+|move|p2a: Noivern|Hurricane|p1a: Mantine
+|-damage|p1a: Mantine|36/100
+|-start|p1a: Mantine|confusion
+|
+|upkeep
+|turn|10
+|inactive|Bamarah has 120 seconds left.
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|-unboost|p2a: Noivern|spa|2
+|faint|p1a: Mantine
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|turn|11
+|inactive|Bamarah has 120 seconds left.
+|
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|100/100
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Darmanitan|U-turn|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|87/100
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100|[from]move: U-turn
+|move|p1a: Keldeo|Secret Sword|p2a: Keldeo
+|-damage|p2a: Keldeo|31/100
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|switch|p1a: Seismitoad|Seismitoad, M|99/100
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Chandelure|Energy Ball|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|86/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|move|p1a: Kyurem|Draco Meteor|p2a: Blissey|[miss]
+|-miss|p1a: Kyurem|p2a: Blissey
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Noivern|Noivern, M, shiny|65/100
+|move|p1a: Seismitoad|Knock Off|p2a: Noivern
+|-damage|p2a: Noivern|45/100
+|
+|-heal|p2a: Noivern|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|18
+|-message|Adil forfeited.
+|
+|win|Bamarah
+|l|☆Adil

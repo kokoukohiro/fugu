@@ -1,0 +1,320 @@
+|j|☆YungBlackBWilson
+|j|☆Yung Johto Ya Digg
+|player|p1|YungBlackBWilson|50|1255
+|player|p2|Yung Johto Ya Digg|red|1133
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Eldegoss, M|
+|poke|p1|Runerigus, M|
+|poke|p1|Vaporeon, F|
+|poke|p1|Bewear, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Boltund, F|
+|poke|p2|Cinccino, F|
+|poke|p2|Hitmonchan, M|
+|poke|p2|Klinklang|
+|poke|p2|Dhelmise|
+|poke|p2|Jolteon, M|
+|poke|p2|Gastrodon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yung Johto Ya Digg)
+|
+|start
+|switch|p1a: Boltund|Boltund, F|100/100
+|switch|p2a: Gears of war|Klinklang, shiny|100/100
+|turn|1
+|
+|move|p1a: Boltund|Volt Switch|p2a: Gears of war
+|-damage|p2a: Gears of war|65/100
+|
+|switch|p1a: Runerigus|Runerigus, M|100/100|[from]move: Volt Switch
+|move|p2a: Gears of war|Shift Gear|p2a: Gears of war
+|-boost|p2a: Gears of war|spe|2
+|-boost|p2a: Gears of war|atk|1
+|
+|-heal|p2a: Gears of war|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Gears of war|Substitute|p2a: Gears of war
+|-start|p2a: Gears of war|Substitute
+|-damage|p2a: Gears of war|46/100
+|move|p1a: Runerigus|Earthquake|p2a: Gears of war
+|-supereffective|p2a: Gears of war
+|-end|p2a: Gears of war|Substitute
+|
+|-heal|p2a: Gears of war|52/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Gears of war|Gear Grind|p1a: Runerigus
+|-damage|p1a: Runerigus|76/100
+|-activate|p2a: Gears of war|ability: Wandering Spirit|Wandering Spirit|Clear Body|[of] p1a: Runerigus
+|-damage|p1a: Runerigus|52/100
+|-hitcount|p1a: Runerigus|2
+|move|p1a: Runerigus|Earthquake|p2a: Gears of war
+|-supereffective|p2a: Gears of war
+|-damage|p2a: Gears of war|0 fnt
+|faint|p2a: Gears of war
+|
+|upkeep
+|
+|switch|p2a: Rusty|Dhelmise, shiny|100/100
+|turn|4
+|
+|switch|p1a: Bewear|Bewear, F|100/100
+|move|p2a: Rusty|Earthquake|p1a: Bewear
+|-damage|p1a: Bewear|61/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Bewear|Darkest Lariat|p2a: Rusty
+|-supereffective|p2a: Rusty
+|-damage|p2a: Rusty|24/100
+|-damage|p1a: Bewear|51/100|[from] item: Life Orb
+|move|p2a: Rusty|Anchor Shot|p1a: Bewear
+|-damage|p1a: Bewear|25/100
+|-activate|p1a: Bewear|trapped
+|
+|-heal|p2a: Rusty|30/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: One punch|Hitmonchan, M, shiny|100/100
+|move|p1a: Bewear|Darkest Lariat|p2a: One punch
+|-resisted|p2a: One punch
+|-damage|p2a: One punch|75/100
+|-damage|p1a: Bewear|15/100|[from] item: Life Orb
+|
+|-heal|p2a: One punch|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Runerigus|Runerigus, M|52/100
+|switch|p2a: Mink coat|Cinccino, F, shiny|100/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100
+|move|p2a: Mink coat|Bullet Seed|p1a: Eldegoss
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|97/100
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|94/100
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|90/100
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|86/100
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|83/100
+|-hitcount|p1a: Eldegoss|5
+|
+|-heal|p1a: Eldegoss|89/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Runerigus|Runerigus, M|52/100
+|move|p2a: Mink coat|Tail Slap|p1a: Runerigus
+|-immune|p1a: Runerigus
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Mink coat|Bullet Seed|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|43/100
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|33/100
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|23/100
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|13/100
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|3/100
+|-hitcount|p1a: Runerigus|5
+|cant|p1a: Runerigus|flinch
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Mink coat|Bullet Seed|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|0 fnt
+|-hitcount|p1a: Runerigus|1
+|faint|p1a: Runerigus
+|
+|upkeep
+|
+|switch|p1a: Boltund|Boltund, F|100/100
+|turn|12
+|
+|switch|p2a: Bolt|Jolteon, M, shiny|100/100
+|move|p1a: Boltund|Thunder Fang|p2a: Bolt
+|-immune|p2a: Bolt|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100
+|move|p2a: Bolt|Thunderbolt|p1a: Eldegoss
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|78/100
+|-status|p1a: Eldegoss|par
+|
+|-heal|p1a: Eldegoss|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Rusty|Dhelmise, shiny|30/100
+|cant|p1a: Eldegoss|par
+|
+|-heal|p2a: Rusty|36/100|[from] item: Leftovers
+|-heal|p1a: Eldegoss|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Bewear|Bewear, F|15/100
+|move|p2a: Rusty|Rapid Spin|p1a: Bewear
+|-damage|p1a: Bewear|5/100
+|-boost|p2a: Rusty|spe|1
+|
+|-heal|p2a: Rusty|42/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Bewear|Body Slam|p2a: Rusty
+|-immune|p2a: Rusty
+|move|p2a: Rusty|Rapid Spin|p1a: Bewear
+|-damage|p1a: Bewear|0 fnt
+|-boost|p2a: Rusty|spe|1
+|faint|p1a: Bewear
+|
+|-heal|p2a: Rusty|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Boltund|Boltund, F|100/100
+|turn|17
+|
+|move|p1a: Boltund|Psychic Fangs|p2a: Rusty
+|-damage|p2a: Rusty|0 fnt
+|faint|p2a: Rusty
+|
+|upkeep
+|
+|switch|p2a: Sluggin|Gastrodon, F, shiny|100/100
+|turn|18
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100 par
+|move|p2a: Sluggin|Earth Power|p1a: Eldegoss
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|90/100 par
+|-unboost|p1a: Eldegoss|spd|1
+|
+|-heal|p1a: Eldegoss|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Sluggin|Clear Smog|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|71/100 par
+|-clearboost|p1a: Eldegoss
+|move|p1a: Eldegoss|Leech Seed|p2a: Sluggin|[miss]
+|-miss|p1a: Eldegoss|p2a: Sluggin
+|
+|-heal|p1a: Eldegoss|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: One punch|Hitmonchan, M, shiny|81/100
+|move|p1a: Eldegoss|Aromatherapy|p1a: Eldegoss
+|-activate|p1a: Eldegoss|move: Aromatherapy
+|-curestatus|p1a: Eldegoss|par|[msg]
+|
+|-heal|p2a: One punch|87/100|[from] item: Leftovers
+|-heal|p1a: Eldegoss|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: One punch|Bulk Up|p2a: One punch
+|-boost|p2a: One punch|atk|1
+|-boost|p2a: One punch|def|1
+|move|p1a: Eldegoss|Leech Seed|p2a: One punch
+|-start|p2a: One punch|move: Leech Seed
+|
+|-heal|p2a: One punch|94/100|[from] item: Leftovers
+|-heal|p1a: Eldegoss|90/100|[from] item: Leftovers
+|-damage|p2a: One punch|81/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|100/100|[silent]
+|upkeep
+|turn|22
+|
+|move|p2a: One punch|Rapid Spin|p1a: Eldegoss
+|-damage|p1a: Eldegoss|76/100
+|-end|p2a: One punch|Leech Seed|[from] move: Rapid Spin|[of] p2a: One punch
+|-boost|p2a: One punch|spe|1
+|move|p1a: Eldegoss|Rapid Spin|p2a: One punch
+|-damage|p2a: One punch|77/100
+|-boost|p1a: Eldegoss|spe|1
+|
+|-heal|p2a: One punch|83/100|[from] item: Leftovers
+|-heal|p1a: Eldegoss|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: One punch|Rapid Spin|p1a: Eldegoss
+|-damage|p1a: Eldegoss|56/100
+|-boost|p2a: One punch|spe|1
+|move|p1a: Eldegoss|Leech Seed|p2a: One punch
+|-start|p2a: One punch|move: Leech Seed
+|
+|-heal|p2a: One punch|90/100|[from] item: Leftovers
+|-heal|p1a: Eldegoss|62/100|[from] item: Leftovers
+|-damage|p2a: One punch|77/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|74/100|[silent]
+|upkeep
+|turn|24
+|
+|move|p2a: One punch|Rapid Spin|p1a: Eldegoss
+|-damage|p1a: Eldegoss|49/100
+|-end|p2a: One punch|Leech Seed|[from] move: Rapid Spin|[of] p2a: One punch
+|-boost|p2a: One punch|spe|1
+|move|p1a: Eldegoss|Giga Drain|p2a: One punch
+|-damage|p2a: One punch|54/100
+|-heal|p1a: Eldegoss|60/100|[from] drain|[of] p2a: One punch
+|
+|-heal|p2a: One punch|61/100|[from] item: Leftovers
+|-heal|p1a: Eldegoss|66/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: One punch|Drain Punch|p1a: Eldegoss
+|-damage|p1a: Eldegoss|0 fnt
+|-heal|p2a: One punch|96/100|[from] drain|[of] p1a: Eldegoss
+|faint|p1a: Eldegoss
+|
+|-heal|p2a: One punch|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|turn|26
+|-message|YungBlackBWilson forfeited.
+|
+|win|Yung Johto Ya Digg
+|l|☆YungBlackBWilson
+|c|☆Yung Johto Ya Digg|gg blunder
+|raw|YungBlackBWilson's rating: 1224 &rarr; <strong>1191</strong><br />(-33 for losing)
+|raw|Yung Johto Ya Digg's rating: 1106 &rarr; <strong>1139</strong><br />(+33 for winning)

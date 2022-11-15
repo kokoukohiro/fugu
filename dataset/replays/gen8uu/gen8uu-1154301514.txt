@@ -1,0 +1,264 @@
+|j|☆pokemonisfun
+|j|☆radioactivate69
+|player|p1|pokemonisfun|preschooler|1748
+|player|p2|radioactivate69|skyla|1729
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Jirachi|
+|poke|p1|Rotom-Wash|
+|poke|p1|Escavalier, M|
+|poke|p1|Krookodile, M|
+|poke|p1|Slowking, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Talonflame, M|
+|poke|p2|Decidueye, F|
+|poke|p2|Golisopod, F|
+|poke|p2|Toxicroak, F|
+|poke|p2|Mamoswine, M|
+|poke|p2|Grimmsnarl, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by radioactivate69)
+|
+|start
+|switch|p1a: flinchflinchflinch|Jirachi|100/100
+|switch|p2a: Decidueye|Decidueye, F|100/100
+|turn|1
+|
+|switch|p1a: pouty snouty|Krookodile, M|100/100
+|-ability|p1a: pouty snouty|Intimidate|boost
+|-unboost|p2a: Decidueye|atk|1
+|move|p2a: Decidueye|Poltergeist|p1a: pouty snouty
+|-activate|p1a: pouty snouty|move: Poltergeist|Chople Berry
+|-resisted|p1a: pouty snouty
+|-damage|p1a: pouty snouty|70/100
+|-damage|p2a: Decidueye|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|move|p1a: pouty snouty|Knock Off|p2a: Mamoswine
+|-crit|p2a: Mamoswine
+|-damage|p2a: Mamoswine|38/100
+|-enditem|p2a: Mamoswine|Assault Vest|[from] move: Knock Off|[of] p1a: pouty snouty
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: pouty snouty
+|-supereffective|p1a: pouty snouty
+|-damage|p1a: pouty snouty|8/100
+|move|p1a: pouty snouty|Earthquake|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|turn|4
+|
+|switch|p1a: lincoln stinkin|Weezing-Galar, M|100/100
+|-ability|p1a: lincoln stinkin|Neutralizing Gas
+|move|p2a: Talonflame|U-turn|p1a: lincoln stinkin
+|-resisted|p1a: lincoln stinkin
+|-damage|p1a: lincoln stinkin|95/100
+|
+|switch|p2a: Decidueye|Decidueye, F|91/100|[from]move: U-turn
+|
+|-heal|p1a: lincoln stinkin|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: pouty snouty|Krookodile, M|8/100
+|-ability|p1a: pouty snouty|Intimidate|boost
+|-unboost|p2a: Decidueye|atk|1
+|move|p2a: Decidueye|Poltergeist|p1a: pouty snouty
+|-activate|p1a: pouty snouty|move: Poltergeist|Chople Berry
+|-resisted|p1a: pouty snouty
+|-damage|p1a: pouty snouty|0 fnt
+|-damage|p2a: Decidueye|81/100|[from] item: Life Orb
+|faint|p1a: pouty snouty
+|
+|upkeep
+|
+|switch|p1a: stab n jab|Escavalier, M|100/100
+|turn|6
+|
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|-item|p2a: Toxicroak|Air Balloon
+|move|p1a: stab n jab|Knock Off|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|81/100
+|-enditem|p2a: Toxicroak|Air Balloon
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Toxicroak|Bulk Up|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|1
+|-boost|p2a: Toxicroak|def|1
+|move|p1a: stab n jab|Swords Dance|p1a: stab n jab
+|-boost|p1a: stab n jab|atk|2
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: stab n jab
+|-damage|p1a: stab n jab|51/100
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: stab n jab
+|move|p1a: stab n jab|Iron Head|p2a: Toxicroak
+|-damage|p2a: Toxicroak|35/100
+|
+|-heal|p1a: stab n jab|57/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: stab n jab
+|-damage|p1a: stab n jab|13/100
+|-heal|p2a: Toxicroak|59/100|[from] drain|[of] p1a: stab n jab
+|move|p1a: stab n jab|Iron Head|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-heal|p1a: stab n jab|19/100|[from] item: Leftovers
+|upkeep
+|j| Art Imitates Me
+|
+|switch|p2a: Decidueye|Decidueye, F|81/100
+|turn|10
+|
+|move|p2a: Decidueye|Poltergeist|p1a: stab n jab
+|-activate|p1a: stab n jab|move: Poltergeist|Leftovers
+|-damage|p1a: stab n jab|0 fnt
+|-damage|p2a: Decidueye|71/100|[from] item: Life Orb
+|faint|p1a: stab n jab
+|
+|upkeep
+|
+|switch|p1a: lincoln stinkin|Weezing-Galar, M|100/100
+|-ability|p1a: lincoln stinkin|Neutralizing Gas
+|turn|11
+|
+|move|p2a: Decidueye|Poltergeist|p1a: lincoln stinkin
+|-activate|p1a: lincoln stinkin|move: Poltergeist|Black Sludge
+|-damage|p1a: lincoln stinkin|35/100
+|-damage|p2a: Decidueye|61/100|[from] item: Life Orb
+|move|p1a: lincoln stinkin|Fire Blast|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|-heal|p1a: lincoln stinkin|41/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|turn|12
+|
+|switch|p1a: wishy washy|Rotom-Wash|100/100
+|move|p2a: Golisopod|Liquidation|p1a: wishy washy
+|-resisted|p1a: wishy washy
+|-damage|p1a: wishy washy|79/100
+|
+|-heal|p1a: wishy washy|85/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: wishy washy|Volt Switch|p2a: Golisopod
+|-supereffective|p2a: Golisopod
+|-damage|p2a: Golisopod|49/100
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|
+|-heal|p1a: wishy washy|91/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|move|p1a: wishy washy|Volt Switch|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|25/100
+|
+|switch|p1a: flinchflinchflinch|Jirachi|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|15
+|
+|move|p1a: flinchflinchflinch|Protect|p1a: flinchflinchflinch
+|-singleturn|p1a: flinchflinchflinch|Protect
+|move|p2a: Talonflame|Flare Blitz|p1a: flinchflinchflinch
+|-activate|p1a: flinchflinchflinch|move: Protect
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: think PINK|Slowking, M|100/100
+|move|p2a: Talonflame|Flare Blitz|p1a: think PINK
+|-resisted|p1a: think PINK
+|-damage|p1a: think PINK|63/100
+|-damage|p2a: Talonflame|9/100|[from] Recoil
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Talonflame|Flare Blitz|p1a: think PINK
+|-resisted|p1a: think PINK
+|-damage|p1a: think PINK|24/100
+|-damage|p2a: Talonflame|0 fnt|[from] Recoil
+|faint|p2a: Talonflame
+|move|p1a: think PINK|Teleport|p1a: think PINK
+|
+|switch|p1a: lincoln stinkin|Weezing-Galar, M|41/100|[from]move: Teleport
+|-ability|p1a: lincoln stinkin|Neutralizing Gas
+|
+|-heal|p1a: lincoln stinkin|47/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Golisopod|Golisopod, F|49/100
+|turn|18
+|
+|switch|p1a: wishy washy|Rotom-Wash|91/100
+|move|p2a: Golisopod|Liquidation|p1a: wishy washy
+|-resisted|p1a: wishy washy
+|-damage|p1a: wishy washy|70/100
+|
+|-heal|p1a: wishy washy|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: wishy washy|Volt Switch|p2a: Golisopod
+|-supereffective|p2a: Golisopod
+|-damage|p2a: Golisopod|0 fnt
+|faint|p2a: Golisopod
+|
+|switch|p1a: lincoln stinkin|Weezing-Galar, M|47/100|[from]move: Volt Switch
+|-ability|p1a: lincoln stinkin|Neutralizing Gas
+|
+|-heal|p1a: lincoln stinkin|53/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|20
+|
+|move|p1a: lincoln stinkin|Sludge Bomb|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|win|pokemonisfun
+|l|☆radioactivate69
+|raw|pokemonisfun's rating: 1748 &rarr; <strong>1767</strong><br />(+19 for winning)
+|raw|radioactivate69's rating: 1729 &rarr; <strong>1710</strong><br />(-19 for losing)
+|l| Art Imitates Me

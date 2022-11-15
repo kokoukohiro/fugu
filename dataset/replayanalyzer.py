@@ -14,7 +14,7 @@ def analyze(replay,statsdict,format='gen8ou'):
     fromp1 = {}
     fromp2 = {}
 
-    fromp1["start"] = {
+    """fromp1["start"] = {
         "x":{
             "team":{},
             "opponent_team":{}
@@ -27,7 +27,7 @@ def analyze(replay,statsdict,format='gen8ou'):
             "opponent_team":{}
         },
         "t":None
-    }
+    }"""
 
     if not os.path.exists(path):
         replayurl = 'https://replay.pokemonshowdown.com{replay}.log'
@@ -42,11 +42,13 @@ def analyze(replay,statsdict,format='gen8ou'):
             replayline = f.read()
 
     replaylines = replayline.split('\n|poke|')
+    if replaylines[0].find("|rated|Tournament battle") >= 0 or replaylines[0].find("|rule|Dynamax Clause: You cannot dynamax") < 0 or replaylines[-1].find("|Metronome|") >= 0:
+        return
     replaylines[-1] = replaylines[-1].split('\n')[0]
     pokes = replaylines[1:]
 
-    p1teamfromp2 = _analyzedel(pokes[:6],statsdict)
-    p2teamfromp1 = _analyzedel(pokes[6:],statsdict)
+    #p1teamfromp2 = _analyzedel(pokes[:6],statsdict)
+    #p2teamfromp1 = _analyzedel(pokes[6:],statsdict)
 
     replaylines = replayline.split('\n|turn|')
     if len(replaylines) <= 1:
@@ -55,10 +57,19 @@ def analyze(replay,statsdict,format='gen8ou'):
     replaylines[-1] = replaylines[-1].split('\n|win|')[0]
     turns = replaylines[1:]
 
-    fromp2["start"]["x"]["opponent_team"] = p1teamfromp2
-    fromp1["start"]["x"]["opponent_team"] = p2teamfromp1
+    #fromp2["start"]["x"]["opponent_team"] = p1teamfromp2
+    #fromp1["start"]["x"]["opponent_team"] = p2teamfromp1
 
+    flags = {}
+    for line in [start]+turns:
+        flag = re.findall(r'\n(\|-?\w+\|)',line)
+        for f in flag:
+            if f not in flags:
+                flags[f] = set()
+            flags[f].add(replay)
     
+    return flags
+
 
 def _analyzedel(pokes,statsdict):
     team = {}
@@ -114,7 +125,7 @@ def getreplays(format='gen8ou',refresh=False):
         replayurl1 = 'https://replay.pokemonshowdown.com/search?user={user}'
         replayurl2 = 'https://replay.pokemonshowdown.com/search?format={format}&rating'
 
-        print("Searching for replaylist of " + format + " ...")
+        print("Searching for replays of " + format + " ...")
 
         ladderline = _getinfo(ladderurl.format(format=format))
         playerlist = re.findall(r'<td align="right">\d+</td><td><a data-target="push" class="subtle" href="/users/[\w\d]+">(.+)</a></td><td style="text-align:center"><strong>\d+</strong></td>',ladderline)
@@ -129,7 +140,7 @@ def getreplays(format='gen8ou',refresh=False):
         replayresultspread = re.findall(r'<li><a href="(.+)" data-target="push"><small>\['+format+'] rating: \d+<br /></small> <strong>.+</strong> vs. <strong>.+</strong></a></li>',replayline)
         replaylist |= set(replayresultspread)
 
-        print("Found "+str(len(replaylist))+" replaylist.")
+        print("Found "+str(len(replaylist))+" replays.")
 
         if not os.path.exists(directory):
             os.makedirs(directory)
@@ -365,8 +376,44 @@ def _getinfo(url):
     return lines
 
 def main():
-    statsdict = getstats()
-    analyze("/gen8ou-1646107486",statsdict)
+    """statsdict = getstats()
+    analyze("/gen8ou-1646107486",statsdict)"""
+
+    flags = {}
+    path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "flags.json")
+    
+    if os.path.exists(path):
+        with open(path) as f:
+            flags = orjson.loads(f.read())
+        
+        for f in flags:
+            flags[f] = set(flags[f])
+
+
+    replays = getreplays("gen8ru")
+    for replay in replays:
+        result = analyze(replay,None,"gen8ru")
+        if result is not None:
+            if len(flags) >= 1:
+                for flag in result:
+                    if flag in flags:
+                        if len(flags[flag]) <=3:
+                            flags[flag] |= result[flag]
+                    else:
+                        flags[flag] = result[flag]
+            else:
+                flags = result
+    
+    for f in flags:
+        flags[f] = list(flags[f])
+    
+    with open(path,"w") as f:
+        json.dump(flags,f,indent=1)    
+    
+
+
+
+
 
 
 if __name__ == '__main__':

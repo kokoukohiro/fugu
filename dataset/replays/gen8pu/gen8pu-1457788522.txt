@@ -1,0 +1,316 @@
+|j|☆one of the bouys
+|j|☆Toad to the top
+|t:|1637423393
+|gametype|singles
+|player|p1|one of the bouys|clown|1618
+|player|p2|Toad to the top|volkner|1517
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Flapple, F|
+|poke|p1|Frosmoth, M|
+|poke|p1|Mawile, M|
+|poke|p1|Archeops, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Jellicent, F|
+|poke|p2|Charizard, F|
+|poke|p2|Liepard, F|
+|poke|p2|Onix, M|
+|poke|p2|Shiftry, F|
+|poke|p2|Leafeon, M|
+|poke|p2|Jolteon, F|
+|teampreview
+|
+|t:|1637423412
+|start
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|switch|p2a: Coil|Onix, M|100/100
+|turn|1
+|
+|t:|1637423419
+|move|p2a: Coil|Sunny Day|p2a: Coil
+|-weather|SunnyDay
+|move|p1a: Tsareena|Rapid Spin|p2a: Coil
+|-resisted|p2a: Coil
+|-damage|p2a: Coil|92/100
+|-boost|p1a: Tsareena|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1637423426
+|move|p1a: Tsareena|Power Whip|p2a: Coil
+|-supereffective|p2a: Coil
+|-damage|p2a: Coil|0 fnt
+|faint|p2a: Coil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1637423434
+|switch|p2a: Overheat|Charizard, F|100/100
+|turn|3
+|
+|t:|1637423439
+|move|p1a: Tsareena|High Jump Kick|p2a: Overheat
+|-resisted|p2a: Overheat
+|-damage|p2a: Overheat|70/100
+|move|p2a: Overheat|Weather Ball|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Overheat|57/100|[from] ability: Solar Power|[of] p2a: Overheat
+|upkeep
+|
+|t:|1637423442
+|switch|p1a: Archeops|Archeops, M|100/100
+|turn|4
+|
+|t:|1637423451
+|switch|p2a: Spark|Jolteon, F|100/100
+|move|p1a: Archeops|Stone Edge|p2a: Spark|[miss]
+|-miss|p1a: Archeops|p2a: Spark
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1637423459
+|switch|p1a: Flapple|Flapple, F|100/100
+|move|p2a: Spark|Thunderbolt|p1a: Flapple
+|-resisted|p1a: Flapple
+|-damage|p1a: Flapple|80/100
+|-status|p1a: Flapple|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1637423465
+|move|p1a: Flapple|Sucker Punch|p2a: Spark
+|-damage|p2a: Spark|12/100
+|-damage|p1a: Flapple|70/100 par|[from] item: Life Orb
+|move|p2a: Spark|Weather Ball|p1a: Flapple
+|-damage|p1a: Flapple|0 fnt
+|faint|p1a: Flapple
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1637423476
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|turn|7
+|
+|t:|1637423480
+|move|p2a: Spark|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|30/100
+|-start|p2a: Spark|Disable|Thunderbolt|[from] ability: Cursed Body|[of] p1a: Jellicent
+|move|p1a: Jellicent|Hex|p2a: Spark
+|-damage|p2a: Spark|0 fnt
+|faint|p2a: Spark
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1637423501
+|switch|p2a: Slash|Shiftry, F|100/100
+|turn|8
+|
+|t:|1637423505
+|switch|p1a: Mawile|Mawile, M|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Slash|atk|1
+|move|p2a: Slash|Solar Blade||[still]
+|-prepare|p2a: Slash|Solar Blade
+|-anim|p2a: Slash|Solar Blade|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|83/100
+|-damage|p2a: Slash|84/100|[from] item: Rocky Helmet|[of] p1a: Mawile
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1637423512
+|switch|p2a: Overheat|Charizard, F|57/100
+|move|p1a: Mawile|Knock Off|p2a: Overheat
+|-damage|p2a: Overheat|30/100
+|-enditem|p2a: Overheat|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mawile
+|
+|upkeep
+|turn|10
+|
+|t:|1637423517
+|switch|p1a: Archeops|Archeops, M|100/100
+|move|p2a: Overheat|Roost|p2a: Overheat
+|-heal|p2a: Overheat|80/100
+|-singleturn|p2a: Overheat|move: Roost
+|
+|upkeep
+|turn|11
+|
+|t:|1637423522
+|switch|p2a: Slash|Shiftry, F|84/100
+|move|p1a: Archeops|Stone Edge|p2a: Slash
+|-damage|p2a: Slash|7/100
+|
+|upkeep
+|turn|12
+|
+|t:|1637423525
+|switch|p1a: Mawile|Mawile, M|83/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Slash|atk|1
+|move|p2a: Slash|Sucker Punch||[still]
+|-fail|p2a: Slash
+|
+|upkeep
+|turn|13
+|
+|t:|1637423531
+|move|p2a: Slash|Swords Dance|p2a: Slash
+|-boost|p2a: Slash|atk|2
+|move|p1a: Mawile|Stealth Rock|p2a: Slash
+|-sidestart|p2: Toad to the top|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1637423536
+|move|p2a: Slash|Knock Off|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|53/100
+|-damage|p2a: Slash|0 fnt|[from] item: Rocky Helmet|[of] p1a: Mawile
+|faint|p2a: Slash
+|move|p1a: Mawile|Knock Off|p2: Slash|[notarget]
+|-fail|p1a: Mawile
+|
+|upkeep
+|
+|t:|1637423544
+|switch|p2a: Overheat|Charizard, F|80/100
+|-damage|p2a: Overheat|30/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1637423549
+|switch|p1a: Archeops|Archeops, M|100/100
+|move|p2a: Overheat|Sunny Day|p2a: Overheat
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Overheat|18/100|[from] ability: Solar Power|[of] p2a: Overheat
+|upkeep
+|turn|16
+|
+|t:|1637423555
+|move|p1a: Archeops|Stone Edge|p2a: Overheat
+|-supereffective|p2a: Overheat
+|-damage|p2a: Overheat|0 fnt
+|faint|p2a: Overheat
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1637423560
+|switch|p2a: Sunnyday|Leafeon, M|100/100
+|-damage|p2a: Sunnyday|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1637423568
+|move|p2a: Sunnyday|Solar Blade||[still]
+|-prepare|p2a: Sunnyday|Solar Blade
+|-anim|p2a: Sunnyday|Solar Blade|p1a: Archeops
+|-damage|p1a: Archeops|0 fnt
+|faint|p1a: Archeops
+|-damage|p2a: Sunnyday|79/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1637423573
+|switch|p1a: Mawile|Mawile, M|53/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Sunnyday|atk|1
+|turn|18
+|
+|t:|1637423577
+|switch|p1a: Jellicent|Jellicent, F|30/100
+|move|p2a: Sunnyday|Weather Ball|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|18/100
+|-damage|p2a: Sunnyday|69/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1637423583
+|move|p2a: Sunnyday|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-start|p2a: Sunnyday|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Jellicent
+|faint|p1a: Jellicent
+|-damage|p2a: Sunnyday|59/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1637423588
+|switch|p1a: Frosmoth|Frosmoth, M|100/100
+|turn|20
+|
+|t:|1637423591
+|switch|p2a: Taunt|Liepard, F|100/100
+|-damage|p2a: Taunt|88/100|[from] Stealth Rock
+|move|p1a: Frosmoth|Ice Beam|p2a: Taunt
+|-damage|p2a: Taunt|38/100
+|
+|upkeep
+|turn|21
+|
+|t:|1637423597
+|move|p2a: Taunt|Sunny Day|p2a: Taunt
+|-weather|SunnyDay
+|move|p1a: Frosmoth|Ice Beam|p2a: Taunt
+|-damage|p2a: Taunt|0 fnt
+|faint|p2a: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1637423599
+|switch|p2a: Sunnyday|Leafeon, M|59/100
+|-damage|p2a: Sunnyday|47/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1637423608
+|move|p2a: Sunnyday|Solar Blade||[still]
+|-prepare|p2a: Sunnyday|Solar Blade
+|-anim|p2a: Sunnyday|Solar Blade|p1a: Frosmoth
+|-resisted|p1a: Frosmoth
+|-damage|p1a: Frosmoth|37/100
+|-damage|p2a: Sunnyday|37/100|[from] item: Life Orb
+|move|p1a: Frosmoth|Ice Beam|p2a: Sunnyday
+|-supereffective|p2a: Sunnyday
+|-damage|p2a: Sunnyday|0 fnt
+|faint|p2a: Sunnyday
+|
+|win|one of the bouys
+|raw|one of the bouys's rating: 1618 &rarr; <strong>1632</strong><br />(+14 for winning)
+|raw|Toad to the top's rating: 1517 &rarr; <strong>1503</strong><br />(-14 for losing)
+|c|☆one of the bouys|gg
+|l|☆Toad to the top

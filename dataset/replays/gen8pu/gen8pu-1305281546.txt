@@ -1,0 +1,297 @@
+|j|☆zEclipsy
+|j|☆siegbackto
+|t:|1616247489
+|player|p1|zEclipsy|alder|
+|player|p2|siegbackto|hiker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|Tournament battle
+|clearpoke
+|poke|p1|Octillery, M|
+|poke|p1|Hitmontop, M|
+|poke|p1|Talonflame, M|
+|poke|p1|Archeops, F|
+|poke|p1|Lurantis, F|
+|poke|p1|Gallade, M|
+|poke|p2|Lanturn, M|
+|poke|p2|Toxicroak, F|
+|poke|p2|Lycanroc, F|
+|poke|p2|Claydol|
+|poke|p2|Charizard, M|
+|poke|p2|Gourgeist-*, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1616247503
+|start
+|switch|p1a: Octillery|Octillery, M|100/100
+|switch|p2a: Lycanroc|Lycanroc, F|100/100
+|turn|1
+|
+|t:|1616247506
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|move|p1a: Octillery|Hydro Pump|p2a: Lanturn|[miss]
+|-miss|p1a: Octillery|p2a: Lanturn
+|
+|upkeep
+|turn|2
+|
+|t:|1616247511
+|move|p2a: Lanturn|Volt Switch|p1a: Octillery
+|-supereffective|p1a: Octillery
+|-damage|p1a: Octillery|58/100
+|
+|t:|1616247515
+|switch|p2a: Toxicroak|Toxicroak, F|100/100|[from]move: Volt Switch
+|move|p1a: Octillery|Energy Ball|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|76/100
+|
+|upkeep
+|turn|3
+|
+|t:|1616247528
+|move|p2a: Toxicroak|Sludge Wave|p1a: Octillery
+|-damage|p1a: Octillery|0 fnt
+|-damage|p2a: Toxicroak|66/100|[from] item: Life Orb
+|faint|p1a: Octillery
+|
+|upkeep
+|
+|t:|1616247533
+|switch|p1a: Gallade|Gallade, M|100/100
+|turn|4
+|
+|t:|1616247536
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Gallade|Psycho Cut|p2a: Claydol
+|-resisted|p2a: Claydol
+|-damage|p2a: Claydol|78/100
+|-damage|p1a: Gallade|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1616247542
+|move|p1a: Gallade|Leaf Blade|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|-damage|p1a: Gallade|81/100|[from] item: Life Orb
+|faint|p2a: Claydol
+|
+|upkeep
+|
+|t:|1616247550
+|switch|p2a: Gourgeist|Gourgeist-Small, F|100/100
+|-item|p1a: Gallade|Life Orb|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|6
+|
+|t:|1616247556
+|move|p2a: Gourgeist|Poltergeist|p1a: Gallade
+|-activate|p1a: Gallade|move: Poltergeist|Life Orb
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|-damage|p2a: Gourgeist|91/100|[from] item: Life Orb
+|faint|p1a: Gallade
+|
+|upkeep
+|
+|t:|1616247563
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|turn|7
+|
+|t:|1616247571
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|move|p1a: Talonflame|Brave Bird|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|66/100
+|-damage|p1a: Talonflame|85/100|[from] Recoil
+|
+|-heal|p2a: Lanturn|73/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1616247584
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|move|p2a: Lanturn|Volt Switch|p1a: Hitmontop
+|-damage|p1a: Hitmontop|80/100
+|
+|t:|1616247606
+|switch|p2a: Toxicroak|Toxicroak, F|66/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|9
+|
+|t:|1616247616
+|move|p2a: Toxicroak|Sludge Wave|p1a: Hitmontop
+|-damage|p1a: Hitmontop|22/100
+|-damage|p2a: Toxicroak|56/100|[from] item: Life Orb
+|move|p1a: Hitmontop|Aerial Ace|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|-damage|p1a: Hitmontop|12/100|[from] item: Life Orb
+|faint|p2a: Toxicroak
+|
+|upkeep
+|
+|t:|1616247622
+|switch|p2a: Gourgeist|Gourgeist-Small, F|91/100
+|-item|p1a: Hitmontop|Life Orb|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|10
+|
+|t:|1616247627
+|move|p2a: Gourgeist|Shadow Sneak|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|-damage|p2a: Gourgeist|81/100|[from] item: Life Orb
+|faint|p1a: Hitmontop
+|
+|upkeep
+|
+|t:|1616247631
+|switch|p1a: Talonflame|Talonflame, M|85/100
+|turn|11
+|
+|t:|1616247639
+|switch|p2a: Lanturn|Lanturn, M|73/100
+|move|p1a: Talonflame|Steel Wing|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|66/100
+|
+|-heal|p2a: Lanturn|72/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1616247647
+|switch|p1a: Lurantis|Lurantis, F|100/100
+|move|p2a: Lanturn|Volt Switch|p1a: Lurantis
+|-resisted|p1a: Lurantis
+|-damage|p1a: Lurantis|88/100
+|
+|t:|1616247650
+|switch|p2a: Charizard|Charizard, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|13
+|
+|t:|1616247654
+|switch|p1a: Archeops|Archeops, F|100/100
+|move|p2a: Charizard|Flamethrower|p1a: Archeops
+|-resisted|p1a: Archeops
+|-damage|p1a: Archeops|64/100
+|
+|upkeep
+|turn|14
+|
+|t:|1616247663
+|switch|p2a: Gourgeist|Gourgeist-Small, F|81/100
+|-item|p1a: Archeops|Life Orb|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Archeops|Rock Slide|p2a: Gourgeist
+|-damage|p2a: Gourgeist|14/100
+|-damage|p1a: Archeops|54/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|
+|t:|1616247671
+|move|p2a: Gourgeist|Shadow Sneak|p1a: Archeops
+|-damage|p1a: Archeops|22/100
+|-damage|p2a: Gourgeist|4/100|[from] item: Life Orb
+|move|p1a: Archeops|Acrobatics|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|-damage|p1a: Archeops|12/100|[from] item: Life Orb
+|faint|p2a: Gourgeist
+|
+|upkeep
+|
+|t:|1616247685
+|switch|p2a: Lanturn|Lanturn, M|72/100
+|turn|16
+|
+|t:|1616247693
+|move|p1a: Archeops|Crunch|p2a: Lanturn
+|-damage|p2a: Lanturn|54/100
+|-damage|p1a: Archeops|2/100|[from] item: Life Orb
+|move|p2a: Lanturn|Volt Switch|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-damage|p1a: Archeops|0 fnt
+|faint|p1a: Archeops
+|
+|t:|1616247709
+|switch|p2a: Charizard|Charizard, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|t:|1616247714
+|switch|p1a: Talonflame|Talonflame, M|85/100
+|turn|17
+|
+|t:|1616247718
+|switch|p2a: Lanturn|Lanturn, M|54/100
+|move|p1a: Talonflame|Brave Bird|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|20/100
+|-damage|p1a: Talonflame|70/100|[from] Recoil
+|
+|-heal|p2a: Lanturn|26/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1616247729
+|move|p1a: Talonflame|Brave Bird|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|-damage|p1a: Talonflame|58/100|[from] Recoil
+|faint|p2a: Lanturn
+|
+|upkeep
+|
+|t:|1616247731
+|switch|p2a: Lycanroc|Lycanroc, F|100/100
+|turn|19
+|
+|t:|1616247734
+|switch|p1a: Lurantis|Lurantis, F|88/100
+|move|p2a: Lycanroc|Stone Edge|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|
+|upkeep
+|
+|t:|1616247738
+|switch|p1a: Talonflame|Talonflame, M|58/100
+|turn|20
+|
+|t:|1616247742
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Talonflame|Brave Bird|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-damage|p1a: Talonflame|25/100|[from] Recoil
+|faint|p2a: Charizard
+|
+|upkeep
+|c|☆zEclipsy|gg
+|
+|t:|1616247747
+|switch|p2a: Lycanroc|Lycanroc, F|100/100
+|turn|21
+|c|☆siegbackto|gg
+|
+|t:|1616247751
+|move|p2a: Lycanroc|Accelerock|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|win|siegbackto
+|n|☆zEclipsy|zeclipsy
+|n|☆siegbackto|siegbackto

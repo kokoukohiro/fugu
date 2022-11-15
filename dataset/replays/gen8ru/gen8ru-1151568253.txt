@@ -1,0 +1,329 @@
+|j|☆spiderjockie
+|j|☆Nemris
+|player|p1|spiderjockie|ninjaboy-gen3|1437
+|player|p2|Nemris|1|1310
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Ninjask, M|
+|poke|p1|Lunatone|
+|poke|p1|Dhelmise|
+|poke|p1|Sneasel, F|
+|poke|p1|Rotom-Mow|
+|poke|p1|Coalossal, M|
+|poke|p2|Machamp, M|
+|poke|p2|Xatu, F|
+|poke|p2|Porygon2|
+|poke|p2|Vikavolt, M|
+|poke|p2|Runerigus, M|
+|poke|p2|Dhelmise|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by spiderjockie)
+|
+|start
+|switch|p1a: Ninjask|Ninjask, M, shiny|100/100
+|switch|p2a: Machamp|Machamp, M|100/100
+|turn|1
+|
+|move|p1a: Ninjask|Acrobatics|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Mow, shiny|100/100
+|move|p2a: Runerigus|Stealth Rock|p1a: Rotom
+|-sidestart|p1: spiderjockie|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Leaf Storm|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|4/100
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Runerigus|Trick Room|p2a: Runerigus
+|-fieldstart|move: Trick Room|[of] p2a: Runerigus
+|
+|-heal|p2a: Runerigus|10/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Runerigus|Destiny Bond|p2a: Runerigus
+|-singlemove|p2a: Runerigus|Destiny Bond
+|move|p1a: Rotom|Leaf Storm|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Runerigus
+|-activate|p2a: Runerigus|move: Destiny Bond
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|switch|p1a: Dhelmise|Dhelmise, shiny|100/100
+|-damage|p1a: Dhelmise|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p2a: Vikavolt|Volt Switch|p1a: Dhelmise
+|-resisted|p1a: Dhelmise
+|-damage|p1a: Dhelmise|73/100
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100|[from]move: Volt Switch
+|move|p1a: Dhelmise|Rapid Spin|p2a: Dhelmise
+|-immune|p2a: Dhelmise
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Dhelmise|Poltergeist|p1a: Dhelmise
+|-activate|p1a: Dhelmise|move: Poltergeist|Assault Vest
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|switch|p1a: Ninjask|Ninjask, M, shiny|100/100
+|-damage|p1a: Ninjask|51/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Ninjask|Protect|p1a: Ninjask
+|-singleturn|p1a: Ninjask|Protect
+|move|p2a: Dhelmise|Poltergeist||[still]
+|-fail|p2a: Dhelmise
+|
+|-fieldend|move: Trick Room
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|8
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Speed Boost|[from] ability: Trace|[of] p1a: Ninjask
+|move|p1a: Ninjask|Acrobatics|p2a: Porygon2
+|-damage|p2a: Porygon2|71/100
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|9
+|
+|move|p1a: Ninjask|U-turn|p2a: Porygon2
+|-damage|p2a: Porygon2|50/100
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100|[from]move: U-turn
+|-damage|p1a: Coalossal|76/100|[from] Stealth Rock
+|-item|p1a: Coalossal|Air Balloon
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-ability|p2a: Porygon2|Speed Boost|boost
+|-boost|p2a: Porygon2|spe|1
+|upkeep
+|turn|10
+|
+|move|p1a: Coalossal|Flamethrower|p2a: Porygon2
+|-damage|p2a: Porygon2|38/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|88/100
+|
+|-ability|p2a: Porygon2|Speed Boost|boost
+|-boost|p2a: Porygon2|spe|1
+|upkeep
+|turn|11
+|
+|move|p1a: Coalossal|Spikes|p2a: Porygon2
+|-sidestart|p2: Nemris|Spikes
+|move|p2a: Porygon2|Tri Attack|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|67/100
+|-status|p1a: Coalossal|frz
+|-enditem|p1a: Coalossal|Air Balloon
+|
+|-ability|p2a: Porygon2|Speed Boost|boost
+|-boost|p2a: Porygon2|spe|1
+|upkeep
+|turn|12
+|
+|cant|p1a: Coalossal|frz
+|move|p2a: Porygon2|Teleport|p2a: Porygon2
+|
+|switch|p2a: Vikavolt|Vikavolt, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|13
+|
+|cant|p1a: Coalossal|frz
+|move|p2a: Vikavolt|Volt Switch|p1a: Coalossal
+|-damage|p1a: Coalossal|41/100 frz
+|
+|switch|p2a: Porygon2|Porygon2|88/100|[from]move: Volt Switch
+|-damage|p2a: Porygon2|76/100|[from] Spikes
+|-ability|p2a: Porygon2|Flash Fire|[from] ability: Trace|[of] p1a: Coalossal
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|cant|p1a: Coalossal|frz
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|15
+|inactive|Nemris has 120 seconds left.
+|
+|cant|p1a: Coalossal|frz
+|move|p2a: Porygon2|Tri Attack|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|32/100 frz
+|
+|upkeep
+|turn|16
+|inactive|Nemris has 120 seconds left.
+|
+|switch|p2a: Xatu|Xatu, F, shiny|100/100
+|-curestatus|p1a: Coalossal|frz|[msg]
+|move|p1a: Coalossal|Stealth Rock|p2a: Xatu
+|move|p2a: Xatu|Stealth Rock||[from]Magic Bounce|[still]
+|-fail|p2a: Xatu
+|
+|upkeep
+|turn|17
+|c|☆spiderjockie|ofc
+|inactive|Nemris has 120 seconds left.
+|
+|move|p1a: Coalossal|Rock Blast|p2a: Xatu|[miss]
+|-miss|p1a: Coalossal|p2a: Xatu
+|move|p2a: Xatu|Psychic|p1a: Coalossal
+|-damage|p1a: Coalossal|13/100
+|
+|upkeep
+|turn|18
+|inactive|Nemris has 120 seconds left.
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|-damage|p2a: Dhelmise|88/100|[from] Spikes
+|move|p1a: Coalossal|Rock Blast|p2a: Dhelmise
+|-damage|p2a: Dhelmise|80/100
+|-damage|p2a: Dhelmise|73/100
+|-damage|p2a: Dhelmise|66/100
+|-hitcount|p2a: Dhelmise|3
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|c|☆spiderjockie|predicted the thaw and miss
+|inactive|Nemris has 120 seconds left.
+|
+|move|p2a: Dhelmise|Anchor Shot|p1a: Coalossal
+|-crit|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|faint|p1a: Coalossal
+|
+|upkeep
+|
+|switch|p1a: Sneasel|Sneasel, F|100/100
+|-damage|p1a: Sneasel|76/100|[from] Stealth Rock
+|turn|20
+|inactive|Nemris has 120 seconds left.
+|
+|switch|p2a: Xatu|Xatu, F, shiny|100/100
+|move|p1a: Sneasel|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-enditem|p2a: Xatu|Leftovers|[from] move: Knock Off|[of] p1a: Sneasel
+|faint|p2a: Xatu
+|
+|upkeep
+|inactive|Nemris has 120 seconds left.
+|
+|switch|p2a: Porygon2|Porygon2|76/100
+|-damage|p2a: Porygon2|64/100|[from] Spikes
+|-ability|p2a: Porygon2|Inner Focus|[from] ability: Trace|[of] p1a: Sneasel
+|turn|21
+|
+|move|p1a: Sneasel|Knock Off|p2a: Porygon2
+|-damage|p2a: Porygon2|20/100
+|-enditem|p2a: Porygon2|Eviolite|[from] move: Knock Off|[of] p1a: Sneasel
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Porygon2|Tri Attack|p1a: Sneasel
+|-damage|p1a: Sneasel|22/100
+|move|p1a: Sneasel|Knock Off|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|upkeep
+|
+|switch|p2a: Dhelmise|Dhelmise|66/100
+|-damage|p2a: Dhelmise|53/100|[from] Spikes
+|turn|23
+|
+|move|p2a: Dhelmise|Anchor Shot|p1a: Sneasel
+|-supereffective|p1a: Sneasel
+|-damage|p1a: Sneasel|0 fnt
+|faint|p1a: Sneasel
+|
+|upkeep
+|
+|switch|p1a: Ninjask|Ninjask, M, shiny|51/100
+|-damage|p1a: Ninjask|1/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Ninjask|Protect|p1a: Ninjask
+|-singleturn|p1a: Ninjask|Protect
+|move|p2a: Dhelmise|Anchor Shot|p1a: Ninjask
+|-activate|p1a: Ninjask|move: Protect
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|25
+|
+|move|p2a: Dhelmise|Anchor Shot|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|faint|p1a: Ninjask
+|
+|-fieldend|move: Trick Room
+|upkeep
+|c|☆spiderjockie|gg ig
+|
+|switch|p1a: Lunatone|Lunatone, shiny|100/100
+|-damage|p1a: Lunatone|88/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Lunatone|Power Gem|p2a: Dhelmise
+|-damage|p2a: Dhelmise|18/100
+|move|p2a: Dhelmise|Anchor Shot|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-damage|p1a: Lunatone|0 fnt
+|faint|p1a: Lunatone
+|
+|win|Nemris
+|raw|spiderjockie's rating: 1438 &rarr; <strong>1411</strong><br />(-27 for losing)
+|raw|Nemris's rating: 1310 &rarr; <strong>1337</strong><br />(+27 for winning)

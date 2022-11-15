@@ -1,0 +1,325 @@
+|j|☆Eltoras
+|j|☆s4g3?
+|t:|1648571866
+|gametype|singles
+|player|p1|Eltoras|blue|1476
+|player|p2|s4g3?|cynthia-gen4|1357
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Azumarill, M|
+|poke|p1|Salamence, F|
+|poke|p1|Azelf|
+|poke|p1|Polteageist|
+|poke|p1|Nihilego|
+|poke|p1|Cloyster, M|
+|poke|p2|Tsareena, F|
+|poke|p2|Registeel|
+|poke|p2|Vaporeon, F|
+|poke|p2|Roserade, F|
+|poke|p2|Galvantula, F|
+|poke|p2|Darmanitan, F|
+|teampreview
+|
+|t:|1648571873
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|1
+|
+|t:|1648571880
+|move|p1a: Azelf|Explosion|p2a: Tsareena
+|-damage|p2a: Tsareena|15/100
+|faint|p1a: Azelf
+|move|p2a: Tsareena|Rapid Spin|p1: Azelf|[notarget]
+|-fail|p2a: Tsareena
+|
+|upkeep
+|j| WorldPeaceMadam
+|l| WorldPeaceMadam
+|
+|t:|1648571934
+|switch|p1a: Salamence|Salamence, F|100/100
+|turn|2
+|
+|t:|1648571939
+|switch|p2a: Registeel|Registeel|100/100
+|move|p1a: Salamence|Earthquake|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|60/100
+|
+|-heal|p2a: Registeel|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1648571962
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1648571972
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|5
+|
+|t:|1648571981
+|move|p1a: Cloyster|Icicle Spear|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|93/100
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|84/100
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|76/100
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|68/100
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|60/100
+|-hitcount|p2a: Vaporeon|5
+|move|p2a: Vaporeon|Haze|p2a: Vaporeon
+|-clearallboost
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|6
+|
+|t:|1648572012
+|switch|p1a: Nihilego|Nihilego|100/100
+|move|p2a: Vaporeon|Scald|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|60/100
+|-status|p1a: Nihilego|brn
+|
+|-damage|p1a: Nihilego|54/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1648572021
+|move|p1a: Nihilego|Meteor Beam||[still]
+|-prepare|p1a: Nihilego|Meteor Beam
+|-boost|p1a: Nihilego|spa|1
+|-enditem|p1a: Nihilego|Power Herb
+|-anim|p1a: Nihilego|Meteor Beam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|37/100
+|move|p2a: Vaporeon|Haze|p2a: Vaporeon
+|-clearallboost
+|
+|-heal|p2a: Vaporeon|43/100|[from] item: Leftovers
+|-damage|p1a: Nihilego|48/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1648572032
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Nihilego|Sludge Wave|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|49/100|[from] item: Leftovers
+|-damage|p1a: Nihilego|42/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1648572053
+|switch|p2a: Registeel|Registeel|66/100
+|move|p1a: Nihilego|Sludge Wave|p2a: Registeel
+|-immune|p2a: Registeel
+|
+|-heal|p2a: Registeel|72/100|[from] item: Leftovers
+|-damage|p1a: Nihilego|36/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1648572061
+|move|p1a: Nihilego|Grass Knot|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|62/100
+|move|p2a: Registeel|Stealth Rock|p1a: Nihilego
+|-sidestart|p1: Eltoras|move: Stealth Rock
+|
+|-heal|p2a: Registeel|68/100|[from] item: Leftovers
+|-damage|p1a: Nihilego|30/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1648572069
+|move|p1a: Nihilego|Power Gem|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|58/100
+|move|p2a: Registeel|Iron Defense|p2a: Registeel
+|-boost|p2a: Registeel|def|2
+|
+|-heal|p2a: Registeel|64/100|[from] item: Leftovers
+|-damage|p1a: Nihilego|24/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1648572080
+|move|p1a: Nihilego|Power Gem|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|54/100
+|move|p2a: Registeel|Iron Defense|p2a: Registeel
+|-boost|p2a: Registeel|def|2
+|
+|-heal|p2a: Registeel|60/100|[from] item: Leftovers
+|-damage|p1a: Nihilego|18/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1648572089
+|move|p1a: Nihilego|Power Gem|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|49/100
+|move|p2a: Registeel|Iron Defense|p2a: Registeel
+|-boost|p2a: Registeel|def|2
+|
+|-heal|p2a: Registeel|55/100|[from] item: Leftovers
+|-damage|p1a: Nihilego|12/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1648572097
+|move|p1a: Nihilego|Power Gem|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|45/100
+|move|p2a: Registeel|Body Press|p1a: Nihilego
+|-crit|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|faint|p1a: Nihilego
+|
+|-heal|p2a: Registeel|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1648572105
+|switch|p1a: Polteageist|Polteageist|100/100
+|-damage|p1a: Polteageist|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1648572109
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Registeel|Toxic|p1a: Polteageist
+|-status|p1a: Polteageist|tox
+|
+|-heal|p2a: Registeel|57/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1648572133
+|switch|p2a: Tsareena|Tsareena, F|15/100
+|move|p1a: Polteageist|Stored Power|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|
+|-damage|p1a: Polteageist|70/100 tox|[from] psn
+|upkeep
+|
+|t:|1648572138
+|switch|p2a: Vaporeon|Vaporeon, F|49/100
+|turn|17
+|
+|t:|1648572143
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Polteageist|Giga Drain|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|56/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|51/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1648572150
+|switch|p2a: Registeel|Registeel|57/100
+|move|p1a: Polteageist|Stored Power|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|29/100
+|
+|-heal|p2a: Registeel|35/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|27/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1648572176
+|switch|p2a: Roserade|Roserade, F|100/100
+|move|p1a: Polteageist|Shadow Ball|p2a: Roserade
+|-damage|p2a: Roserade|2/100
+|-unboost|p2a: Roserade|spd|1
+|
+|-heal|p2a: Roserade|8/100|[from] item: Black Sludge
+|-damage|p1a: Polteageist|0 fnt|[from] psn
+|faint|p1a: Polteageist
+|upkeep
+|
+|t:|1648572188
+|switch|p1a: Salamence|Salamence, F|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1648572208
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Roserade|Leech Seed|p1a: Salamence
+|-start|p1a: Salamence|move: Leech Seed
+|
+|-heal|p2a: Roserade|14/100|[from] item: Black Sludge
+|-damage|p1a: Salamence|63/100|[from] Leech Seed|[of] p2a: Roserade
+|-heal|p2a: Roserade|27/100|[silent]
+|upkeep
+|turn|21
+|
+|t:|1648572224
+|switch|p2a: Vaporeon|Vaporeon, F|56/100
+|move|p1a: Salamence|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|21/100
+|
+|-heal|p2a: Vaporeon|27/100|[from] item: Leftovers
+|-damage|p1a: Salamence|51/100|[from] Leech Seed|[of] p2a: Vaporeon
+|-heal|p2a: Vaporeon|36/100|[silent]
+|upkeep
+|turn|22
+|
+|t:|1648572236
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Vaporeon|Haze|p2a: Vaporeon
+|-clearallboost
+|
+|-heal|p2a: Vaporeon|42/100|[from] item: Leftovers
+|-damage|p1a: Salamence|39/100|[from] Leech Seed|[of] p2a: Vaporeon
+|-heal|p2a: Vaporeon|51/100|[silent]
+|upkeep
+|turn|23
+|-message|Eltoras forfeited.
+|
+|win|s4g3?
+|raw|Eltoras's rating: 1476 &rarr; <strong>1449</strong><br />(-27 for losing)
+|raw|s4g3?'s rating: 1357 &rarr; <strong>1384</strong><br />(+27 for winning)
+|l|☆Eltoras

@@ -1,0 +1,304 @@
+|j|☆You're a Karen
+|j|☆ChrisL) Zapador
+|player|p1|You're a Karen|dawn|1450
+|player|p2|ChrisL) Zapador|wally|1362
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Machamp, M|
+|poke|p1|Dhelmise|
+|poke|p1|Mudsdale, F|
+|poke|p1|Duraludon, F|
+|poke|p1|Braviary, M|
+|poke|p1|Ditto|
+|poke|p2|Porygon2|
+|poke|p2|Silvally-*|
+|poke|p2|Drapion, F|
+|poke|p2|Machamp, F|
+|poke|p2|Vaporeon, M|
+|poke|p2|Rotom-Mow|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mudsdale|Mudsdale, F|100/100
+|switch|p2a: Machamp|Machamp, F|100/100
+|turn|1
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Mudsdale
+|-damage|p1a: Mudsdale|25/100
+|-start|p1a: Mudsdale|confusion
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-activate|p1a: Mudsdale|confusion
+|-damage|p1a: Mudsdale|17/100|[from] confusion
+|
+|-heal|p1a: Mudsdale|23/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|j| Hoenn(❤)Life
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|upkeep
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|turn|3
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Defiant|[from] ability: Trace|[of] p1a: Braviary
+|move|p1a: Braviary|Brave Bird|p2a: Porygon2
+|-damage|p2a: Porygon2|61/100
+|-damage|p1a: Braviary|86/100|[from] Recoil
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|move|p1a: Machamp|Knock Off|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|88/100
+|
+|upkeep
+|turn|6
+|l| Hoenn(❤)Life
+|
+|switch|p1a: Duraludon|Duraludon, F|100/100
+|move|p2a: Silvally|Multi-Attack|p1a: Duraludon
+|-damage|p1a: Duraludon|56/100
+|
+|-heal|p1a: Duraludon|62/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Stalwart|[from] ability: Trace|[of] p1a: Duraludon
+|move|p1a: Duraludon|Thunder Wave|p2a: Porygon2
+|-status|p2a: Porygon2|par
+|
+|-heal|p1a: Duraludon|68/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|move|p2a: Porygon2|Ice Beam|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|70/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Drapion|Drapion, F|100/100
+|move|p1a: Dhelmise|Power Whip|p2a: Drapion
+|-resisted|p2a: Drapion
+|-damage|p2a: Drapion|67/100
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Duraludon|Duraludon, F|68/100
+|move|p2a: Drapion|Knock Off|p1a: Duraludon
+|-damage|p1a: Duraludon|38/100
+|-enditem|p1a: Duraludon|Leftovers|[from] move: Knock Off|[of] p2a: Drapion
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Porygon2|Porygon2|100/100 par
+|-ability|p2a: Porygon2|Stalwart|[from] ability: Trace|[of] p1a: Duraludon
+|move|p1a: Duraludon|Flash Cannon|p2a: Porygon2
+|-damage|p2a: Porygon2|84/100 par
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|cant|p2a: Porygon2|par
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Silvally|Silvally-Fairy|88/100
+|move|p1a: Machamp|Close Combat|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|50/100
+|-unboost|p1a: Machamp|def|1
+|-unboost|p1a: Machamp|spd|1
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Dhelmise|Dhelmise|70/100
+|move|p2a: Silvally|Multi-Attack|p1a: Dhelmise
+|-crit|p1a: Dhelmise
+|-damage|p1a: Dhelmise|4/100
+|
+|upkeep
+|turn|15
+|j| Hoenn(❤)Life
+|
+|move|p2a: Silvally|Flame Charge|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|-boost|p2a: Silvally|spe|1
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|switch|p1a: Duraludon|Duraludon, F|38/100
+|turn|16
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Silvally|[from] ability: Imposter
+|turn|17
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|move|p1a: Ditto|Multi-Attack|p2a: Vaporeon
+|-damage|p2a: Vaporeon|76/100
+|
+|-heal|p2a: Vaporeon|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|move|p2a: Vaporeon|Scald|p1a: Machamp
+|-damage|p1a: Machamp|79/100
+|
+|-heal|p2a: Vaporeon|89/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Vaporeon|Scald|p1a: Machamp
+|-damage|p1a: Machamp|57/100
+|-status|p1a: Machamp|brn
+|move|p1a: Machamp|Close Combat|p2a: Vaporeon
+|-damage|p2a: Vaporeon|10/100
+|-unboost|p1a: Machamp|def|1
+|-unboost|p1a: Machamp|spd|1
+|
+|-heal|p2a: Vaporeon|16/100|[from] item: Leftovers
+|-damage|p1a: Machamp|51/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Braviary|Braviary, M|86/100
+|move|p2a: Vaporeon|Scald|p1a: Braviary
+|-damage|p1a: Braviary|51/100
+|
+|-heal|p2a: Vaporeon|22/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Braviary|Brave Bird|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-damage|p1a: Braviary|41/100|[from] Recoil
+|faint|p2a: Vaporeon
+|
+|upkeep
+|
+|switch|p2a: Drapion|Drapion, F|67/100
+|turn|22
+|
+|move|p2a: Drapion|Knock Off|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|-enditem|p1a: Braviary|Choice Scarf|[from] move: Knock Off|[of] p2a: Drapion
+|faint|p1a: Braviary
+|
+|upkeep
+|
+|switch|p1a: Machamp|Machamp, M|51/100 brn
+|turn|23
+|j| ClaudioINK58
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by You're a Karen)
+|inactive|ChrisL) Zapador has 120 seconds left.
+|
+|move|p2a: Drapion|Knock Off|p1a: Machamp
+|-resisted|p1a: Machamp
+|-damage|p1a: Machamp|31/100 brn
+|-enditem|p1a: Machamp|Assault Vest|[from] move: Knock Off|[of] p2a: Drapion
+|move|p1a: Machamp|Close Combat|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|-unboost|p1a: Machamp|def|1
+|-unboost|p1a: Machamp|spd|1
+|faint|p2a: Drapion
+|
+|-damage|p1a: Machamp|25/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|24
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Machamp
+|
+|upkeep
+|inactive|You're a Karen has 120 seconds left.
+|c|☆ChrisL) Zapador|gg
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Rotom|[from] ability: Imposter
+|turn|25
+|
+|move|p1a: Ditto|Leaf Storm|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|82/100
+|-unboost|p1a: Ditto|spa|2
+|move|p2a: Rotom|Volt Switch|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|96/100
+|
+|switch|p2a: Machamp|Machamp, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|26
+|c|☆You're a Karen|Gg
+|
+|move|p1a: Ditto|Leaf Storm|p2a: Machamp
+|-damage|p2a: Machamp|75/100
+|-unboost|p1a: Ditto|spa|2
+|move|p2a: Machamp|Dynamic Punch|p1a: Ditto
+|-damage|p1a: Ditto|5/100
+|-start|p1a: Ditto|confusion
+|
+|upkeep
+|turn|27
+|
+|-activate|p1a: Ditto|confusion
+|move|p1a: Ditto|Leaf Storm|p2a: Machamp
+|-damage|p2a: Machamp|58/100
+|move|p2a: Machamp|Dynamic Punch|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|win|ChrisL) Zapador
+|l|☆You're a Karen
+|l|☆ChrisL) Zapador
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).
+|l| ClaudioINK58

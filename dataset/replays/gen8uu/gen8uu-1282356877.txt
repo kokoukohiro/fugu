@@ -1,0 +1,200 @@
+|j|☆Final Retribution
+|j|☆lanouille
+|t:|1613313873
+|player|p1|Final Retribution|blue|1345
+|player|p2|lanouille|schoolkid|1462
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Zeraora|
+|poke|p1|Krookodile, M|
+|poke|p1|Celesteela|
+|poke|p1|Tapu Bulu|
+|poke|p1|Scizor, M|
+|poke|p1|Salamence, M|
+|poke|p2|Nihilego|
+|poke|p2|Ditto|
+|poke|p2|Thundurus, M|
+|poke|p2|Azumarill, M|
+|poke|p2|Salamence, F|
+|poke|p2|Jirachi|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Final Retribution)
+|
+|t:|1613313896
+|start
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Krookodile|[from] ability: Imposter
+|turn|1
+|
+|t:|1613313905
+|move|p1a: Krookodile|High Horsepower|p2a: Ditto
+|-damage|p2a: Ditto|37/100
+|move|p2a: Ditto|Knock Off|p1a: Krookodile
+|-resisted|p1a: Krookodile
+|-damage|p1a: Krookodile|69/100
+|-enditem|p1a: Krookodile|Choice Scarf|[from] move: Knock Off|[of] p2a: Ditto
+|
+|upkeep
+|turn|2
+|
+|t:|1613313916
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Krookodile|atk|1
+|move|p1a: Krookodile|Knock Off|p2a: Salamence
+|-damage|p2a: Salamence|69/100
+|-enditem|p2a: Salamence|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Krookodile
+|
+|upkeep
+|turn|3
+|
+|t:|1613313930
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|move|p2a: Salamence|Roost|p2a: Salamence
+|-heal|p2a: Salamence|100/100
+|-singleturn|p2a: Salamence|move: Roost
+|
+|upkeep
+|turn|4
+|
+|t:|1613313938
+|move|p1a: Salamence|Draco Meteor|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|-unboost|p1a: Salamence|spa|2
+|faint|p2a: Salamence
+|
+|upkeep
+|j| chwnvv
+|
+|t:|1613313944
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|turn|5
+|l| chwnvv
+|inactive|Final Retribution has 120 seconds left.
+|
+|t:|1613313975
+|switch|p1a: Krookodile|Krookodile, M|69/100
+|move|p2a: Thundurus|Sludge Wave|p1a: Krookodile
+|-resisted|p1a: Krookodile
+|-damage|p1a: Krookodile|37/100
+|
+|upkeep
+|turn|6
+|inactive|Final Retribution has 120 seconds left.
+|
+|t:|1613313988
+|move|p2a: Thundurus|Sludge Wave|p1a: Krookodile
+|-resisted|p1a: Krookodile
+|-damage|p1a: Krookodile|6/100
+|move|p1a: Krookodile|Stealth Rock|p2a: Thundurus
+|-sidestart|p2: lanouille|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1613313995
+|move|p2a: Thundurus|Sludge Wave|p1a: Krookodile
+|-resisted|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|
+|upkeep
+|
+|t:|1613314004
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Thundurus|atk|1
+|turn|8
+|
+|t:|1613314014
+|switch|p2a: Nihilego|Nihilego|100/100
+|-damage|p2a: Nihilego|88/100|[from] Stealth Rock
+|move|p1a: Salamence|Fire Blast|p2a: Nihilego
+|-resisted|p2a: Nihilego
+|-damage|p2a: Nihilego|76/100
+|
+|upkeep
+|turn|9
+|
+|t:|1613314027
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Nihilego|Meteor Beam||[still]
+|-prepare|p2a: Nihilego|Meteor Beam
+|-boost|p2a: Nihilego|spa|1
+|-enditem|p2a: Nihilego|Power Herb
+|-anim|p2a: Nihilego|Meteor Beam|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spe|1
+|
+|upkeep
+|inactive|Final Retribution has 120 seconds left.
+|
+|t:|1613314050
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Nihilego|atk|1
+|turn|10
+|
+|t:|1613314060
+|move|p2a: Nihilego|Meteor Beam||[still]
+|-prepare|p2a: Nihilego|Meteor Beam
+|-boost|p2a: Nihilego|spa|1
+|move|p1a: Salamence|Draco Meteor|p2a: Nihilego
+|-damage|p2a: Nihilego|35/100
+|-unboost|p1a: Salamence|spa|2
+|
+|upkeep
+|turn|11
+|inactive|Final Retribution has 120 seconds left.
+|
+|t:|1613314076
+|switch|p1a: Celesteela|Celesteela|100/100
+|move|p2a: Nihilego|Meteor Beam|p1a: Celesteela|[from]lockedmove|[miss]
+|-miss|p2a: Nihilego|p1a: Celesteela
+|
+|upkeep
+|turn|12
+|inactive|Final Retribution has 120 seconds left.
+|
+|t:|1613314096
+|move|p2a: Nihilego|Power Gem|p1a: Celesteela
+|-damage|p1a: Celesteela|28/100
+|move|p1a: Celesteela|Autotomize|p1a: Celesteela
+|-boost|p1a: Celesteela|spe|2
+|-start|p1a: Celesteela|Autotomize
+|
+|upkeep
+|turn|13
+|
+|t:|1613314103
+|move|p2a: Nihilego|Power Gem|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|faint|p1a: Celesteela
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spe|1
+|
+|upkeep
+|-message|Final Retribution forfeited.
+|
+|win|lanouille
+|l|☆Final Retribution
+|raw|Final Retribution's rating: 1346 &rarr; <strong>1331</strong><br />(-15 for losing)
+|raw|lanouille's rating: 1432 &rarr; <strong>1447</strong><br />(+15 for winning)

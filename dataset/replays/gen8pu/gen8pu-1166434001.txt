@@ -1,0 +1,494 @@
+|j|☆fieands
+|j|☆DDD Reveal
+|t:|1597065112
+|player|p1|fieands|169|
+|player|p2|DDD Reveal|morty|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|Tournament battle
+|clearpoke
+|poke|p1|Pinsir, M|
+|poke|p1|Pawniard, M|
+|poke|p1|Tangela, M|
+|poke|p1|Palpitoad, F|
+|poke|p1|Hitmonchan, M|
+|poke|p1|Manectric, F|
+|poke|p2|Dusknoir, F|
+|poke|p2|Lilligant, F|
+|poke|p2|Morpeko, M|
+|poke|p2|Golduck, F|
+|poke|p2|Sandslash, M|
+|poke|p2|Klinklang|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DDD Reveal)
+|
+|t:|1597065145
+|start
+|switch|p1a: Tangela|Tangela, M|100/100
+|switch|p2a: Golduck|Golduck, F|100/100
+|-ability|p2a: Golduck|Cloud Nine
+|turn|1
+|
+|t:|1597065155
+|move|p2a: Golduck|Ice Beam|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|25/100
+|move|p1a: Tangela|Knock Off|p2a: Golduck
+|-damage|p2a: Golduck|84/100
+|-enditem|p2a: Golduck|Choice Scarf|[from] move: Knock Off|[of] p1a: Tangela
+|
+|upkeep
+|turn|2
+|
+|t:|1597065165
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|move|p2a: Golduck|Ice Beam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|75/100
+|
+|-heal|p1a: Hitmonchan|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1597065175
+|switch|p2a: Sandslash|Sandslash, M|100/100
+|move|p1a: Hitmonchan|Toxic|p2a: Sandslash
+|-status|p2a: Sandslash|tox
+|
+|-heal|p1a: Hitmonchan|87/100|[from] item: Leftovers
+|-damage|p2a: Sandslash|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1597065188
+|switch|p1a: Tangela|Tangela, M|58/100
+|move|p2a: Sandslash|Stealth Rock|p1a: Tangela
+|-sidestart|p1: fieands|move: Stealth Rock
+|
+|-damage|p2a: Sandslash|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1597065197
+|switch|p2a: Klinklang|Klinklang|100/100
+|move|p1a: Tangela|Knock Off|p2a: Klinklang
+|-damage|p2a: Klinklang|89/100
+|-enditem|p2a: Klinklang|Leftovers|[from] move: Knock Off|[of] p1a: Tangela
+|
+|upkeep
+|turn|6
+|
+|t:|1597065205
+|switch|p1a: Hitmonchan|Hitmonchan, M|87/100
+|-damage|p1a: Hitmonchan|81/100|[from] Stealth Rock
+|move|p2a: Klinklang|Toxic|p1a: Hitmonchan
+|-status|p1a: Hitmonchan|tox
+|
+|-heal|p1a: Hitmonchan|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Hitmonchan|81/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1597065216
+|move|p2a: Klinklang|Volt Switch|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|69/100 tox
+|
+|t:|1597065222
+|switch|p2a: Sandslash|Sandslash, M|82/100 tox|[from]move: Volt Switch
+|move|p1a: Hitmonchan|Toxic|p2a: Sandslash
+|-fail|p2a: Sandslash|tox
+|
+|-heal|p1a: Hitmonchan|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Hitmonchan|64/100 tox|[from] psn
+|-damage|p2a: Sandslash|76/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1597065235
+|switch|p1a: Palpitoad|Palpitoad, F|100/100
+|-damage|p1a: Palpitoad|94/100|[from] Stealth Rock
+|move|p2a: Sandslash|Knock Off|p1a: Palpitoad
+|-damage|p1a: Palpitoad|72/100
+|-enditem|p1a: Palpitoad|Eviolite|[from] move: Knock Off|[of] p2a: Sandslash
+|
+|-damage|p2a: Sandslash|63/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1597065248
+|switch|p2a: Lilligant|Lilligant, F|100/100
+|move|p1a: Palpitoad|Stealth Rock|p2a: Lilligant
+|-sidestart|p2: DDD Reveal|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1597065258
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Palpitoad|Toxic|p2a: Lilligant
+|-status|p2a: Lilligant|tox
+|
+|-damage|p2a: Lilligant|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1597065268
+|switch|p1a: Hitmonchan|Hitmonchan, M|64/100 tox
+|-damage|p1a: Hitmonchan|58/100 tox|[from] Stealth Rock
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|
+|-heal|p1a: Hitmonchan|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Lilligant|82/100 tox|[from] psn
+|-damage|p1a: Hitmonchan|58/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1597065283
+|move|p1a: Hitmonchan|Mach Punch|p2a: Lilligant
+|-crit|p2a: Lilligant
+|-damage|p2a: Lilligant|31/100 tox
+|move|p2a: Lilligant|Petal Dance|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|-damage|p2a: Lilligant|13/100 tox|[from] psn
+|upkeep
+|
+|t:|1597065295
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|-damage|p1a: Pawniard|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1597065302
+|move|p1a: Pawniard|Sucker Punch|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|upkeep
+|
+|t:|1597065318
+|switch|p2a: Morpeko|Morpeko, M|100/100
+|turn|14
+|
+|t:|1597065343
+|move|p2a: Morpeko|Aura Wheel|p1a: Pawniard
+|-damage|p1a: Pawniard|39/100
+|-boost|p2a: Morpeko|spe|1
+|move|p1a: Pawniard|Swords Dance|p1a: Pawniard
+|-boost|p1a: Pawniard|atk|2
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|15
+|
+|t:|1597065356
+|move|p2a: Morpeko|Protect|p2a: Morpeko
+|-singleturn|p2a: Morpeko|Protect
+|move|p1a: Pawniard|Knock Off|p2a: Morpeko
+|-activate|p2a: Morpeko|move: Protect
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|16
+|
+|t:|1597065370
+|switch|p1a: Tangela|Tangela, M|91/100
+|-damage|p1a: Tangela|78/100|[from] Stealth Rock
+|move|p2a: Morpeko|Aura Wheel|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|67/100
+|-boost|p2a: Morpeko|spe|1
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|17
+|
+|t:|1597065382
+|move|p2a: Morpeko|Aura Wheel|p1a: Tangela
+|-damage|p1a: Tangela|46/100
+|-boost|p2a: Morpeko|spe|1
+|move|p1a: Tangela|Giga Drain|p2a: Morpeko
+|-damage|p2a: Morpeko|47/100
+|-heal|p1a: Tangela|67/100|[from] drain|[of] p2a: Morpeko
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|18
+|
+|t:|1597065402
+|move|p2a: Morpeko|Parting Shot|p1a: Tangela
+|-unboost|p1a: Tangela|atk|1
+|-unboost|p1a: Tangela|spa|1
+|
+|t:|1597065405
+|switch|p2a: Klinklang|Klinklang|89/100|[from]move: Parting Shot
+|-damage|p2a: Klinklang|83/100|[from] Stealth Rock
+|move|p1a: Tangela|Giga Drain|p2a: Klinklang
+|-resisted|p2a: Klinklang
+|-damage|p2a: Klinklang|73/100
+|-heal|p1a: Tangela|72/100|[from] drain|[of] p2a: Klinklang
+|
+|upkeep
+|turn|19
+|
+|t:|1597065420
+|switch|p1a: Manectric|Manectric, F|100/100
+|-damage|p1a: Manectric|88/100|[from] Stealth Rock
+|move|p2a: Klinklang|Toxic|p1a: Manectric
+|-status|p1a: Manectric|tox
+|
+|-damage|p1a: Manectric|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1597065431
+|move|p2a: Klinklang|Protect|p2a: Klinklang
+|-singleturn|p2a: Klinklang|Protect
+|move|p1a: Manectric|Overheat|p2a: Klinklang
+|-activate|p2a: Klinklang|move: Protect
+|
+|-damage|p1a: Manectric|70/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1597065450
+|switch|p2a: Sandslash|Sandslash, M|63/100 tox
+|-damage|p2a: Sandslash|57/100 tox|[from] Stealth Rock
+|move|p1a: Manectric|Overheat|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|-unboost|p1a: Manectric|spa|2
+|faint|p2a: Sandslash
+|
+|-damage|p1a: Manectric|52/100 tox|[from] psn
+|upkeep
+|
+|t:|1597065455
+|switch|p2a: Dusknoir|Dusknoir, F|100/100
+|-damage|p2a: Dusknoir|88/100|[from] Stealth Rock
+|-item|p1a: Manectric|Choice Specs|[from] ability: Frisk|[of] p2a: Dusknoir|[identify]
+|turn|22
+|
+|t:|1597065460
+|switch|p1a: Tangela|Tangela, M|100/100
+|-damage|p1a: Tangela|88/100|[from] Stealth Rock
+|move|p2a: Dusknoir|Power-Up Punch|p1a: Tangela
+|-damage|p1a: Tangela|82/100
+|-boost|p2a: Dusknoir|atk|1
+|
+|upkeep
+|turn|23
+|
+|t:|1597065472
+|move|p1a: Tangela|Knock Off|p2a: Dusknoir
+|-supereffective|p2a: Dusknoir
+|-damage|p2a: Dusknoir|64/100
+|-enditem|p2a: Dusknoir|Assault Vest|[from] move: Knock Off|[of] p1a: Tangela
+|move|p2a: Dusknoir|Power-Up Punch|p1a: Tangela
+|-damage|p1a: Tangela|73/100
+|-boost|p2a: Dusknoir|atk|1
+|
+|upkeep
+|turn|24
+|
+|t:|1597065484
+|move|p1a: Tangela|Giga Drain|p2a: Dusknoir
+|-damage|p2a: Dusknoir|41/100
+|-heal|p1a: Tangela|83/100|[from] drain|[of] p2a: Dusknoir
+|move|p2a: Dusknoir|Poltergeist|p1a: Tangela
+|-activate|p1a: Tangela|move: Poltergeist|Eviolite
+|-crit|p1a: Tangela
+|-damage|p1a: Tangela|6/100
+|
+|upkeep
+|turn|25
+|
+|t:|1597065510
+|move|p1a: Tangela|Leaf Storm|p2a: Dusknoir
+|-crit|p2a: Dusknoir
+|-damage|p2a: Dusknoir|0 fnt
+|-unboost|p1a: Tangela|spa|2
+|faint|p2a: Dusknoir
+|
+|upkeep
+|
+|t:|1597065517
+|switch|p2a: Morpeko|Morpeko, M|47/100
+|turn|26
+|inactive|fieands has 120 seconds left.
+|
+|t:|1597065540
+|switch|p1a: Palpitoad|Palpitoad, F|72/100
+|-damage|p1a: Palpitoad|66/100|[from] Stealth Rock
+|move|p2a: Morpeko|Rapid Spin|p1a: Palpitoad
+|-damage|p1a: Palpitoad|44/100
+|-boost|p2a: Morpeko|spe|1
+|-sideend|p2: DDD Reveal|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Morpeko
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|27
+|inactive|fieands has 120 seconds left.
+|
+|t:|1597065552
+|move|p2a: Morpeko|Aura Wheel|p1a: Palpitoad
+|-damage|p1a: Palpitoad|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Palpitoad
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|inactive|fieands has 120 seconds left.
+|
+|t:|1597065561
+|switch|p1a: Tangela|Tangela, M|39/100
+|-damage|p1a: Tangela|27/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1597065568
+|move|p2a: Morpeko|Parting Shot|p1a: Tangela
+|-unboost|p1a: Tangela|atk|1
+|-unboost|p1a: Tangela|spa|1
+|
+|t:|1597065572
+|switch|p2a: Klinklang|Klinklang|73/100|[from]move: Parting Shot
+|move|p1a: Tangela|Giga Drain|p2a: Klinklang
+|-resisted|p2a: Klinklang
+|-damage|p2a: Klinklang|63/100
+|-heal|p1a: Tangela|32/100|[from] drain|[of] p2a: Klinklang
+|
+|upkeep
+|turn|29
+|
+|t:|1597065589
+|switch|p1a: Pawniard|Pawniard, M|39/100
+|-damage|p1a: Pawniard|33/100|[from] Stealth Rock
+|move|p2a: Klinklang|Volt Switch|p1a: Pawniard
+|-damage|p1a: Pawniard|12/100
+|
+|t:|1597065597
+|switch|p2a: Morpeko|Morpeko, M|47/100|[from]move: Volt Switch
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|30
+|
+|t:|1597065607
+|move|p1a: Pawniard|Sucker Punch|p2a: Morpeko
+|-resisted|p2a: Morpeko
+|-damage|p2a: Morpeko|15/100
+|move|p2a: Morpeko|Aura Wheel|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Pawniard
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|inactive|fieands has 120 seconds left.
+|
+|t:|1597065631
+|switch|p1a: Tangela|Tangela, M|65/100
+|-damage|p1a: Tangela|53/100|[from] Stealth Rock
+|turn|31
+|inactive|fieands has 120 seconds left.
+|
+|t:|1597065647
+|move|p2a: Morpeko|Parting Shot|p1a: Tangela
+|-unboost|p1a: Tangela|atk|1
+|-unboost|p1a: Tangela|spa|1
+|
+|t:|1597065650
+|switch|p2a: Klinklang|Klinklang|63/100|[from]move: Parting Shot
+|move|p1a: Tangela|Leaf Storm|p2a: Klinklang
+|-resisted|p2a: Klinklang
+|-damage|p2a: Klinklang|45/100
+|-unboost|p1a: Tangela|spa|2
+|
+|upkeep
+|turn|32
+|inactive|fieands has 120 seconds left.
+|
+|t:|1597065662
+|switch|p1a: Manectric|Manectric, F|52/100 tox
+|-damage|p1a: Manectric|39/100 tox|[from] Stealth Rock
+|move|p2a: Klinklang|Gear Grind|p1a: Manectric
+|-resisted|p1a: Manectric
+|-damage|p1a: Manectric|21/100 tox
+|-resisted|p1a: Manectric
+|-damage|p1a: Manectric|4/100 tox
+|-hitcount|p1a: Manectric|2
+|
+|-damage|p1a: Manectric|0 fnt|[from] psn
+|faint|p1a: Manectric
+|upkeep
+|inactive|fieands has 120 seconds left.
+|
+|t:|1597065678
+|switch|p1a: Pinsir|Pinsir, M|100/100
+|-damage|p1a: Pinsir|76/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1597065690
+|move|p2a: Klinklang|Protect|p2a: Klinklang
+|-singleturn|p2a: Klinklang|Protect
+|move|p1a: Pinsir|Earthquake|p2a: Klinklang
+|-activate|p2a: Klinklang|move: Protect
+|
+|upkeep
+|turn|34
+|
+|t:|1597065705
+|move|p1a: Pinsir|Earthquake|p2a: Klinklang
+|-supereffective|p2a: Klinklang
+|-damage|p2a: Klinklang|0 fnt
+|faint|p2a: Klinklang
+|-ability|p1a: Pinsir|Moxie|boost
+|-boost|p1a: Pinsir|atk|1
+|
+|upkeep
+|
+|t:|1597065709
+|switch|p2a: Golduck|Golduck, F|84/100
+|-ability|p2a: Golduck|Cloud Nine
+|turn|35
+|inactive|fieands has 120 seconds left.
+|
+|t:|1597065747
+|move|p1a: Pinsir|Earthquake|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|-ability|p1a: Pinsir|Moxie|boost
+|-boost|p1a: Pinsir|atk|1
+|
+|upkeep
+|
+|t:|1597065753
+|switch|p2a: Morpeko|Morpeko, M|15/100
+|turn|36
+|c|☆fieands|gg
+|c|☆DDD Reveal|ㅎㅎ
+|c|☆DDD Reveal|gg
+|
+|t:|1597065761
+|move|p1a: Pinsir|Earthquake|p2a: Morpeko
+|-supereffective|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|faint|p2a: Morpeko
+|
+|win|fieands
+|l|☆DDD Reveal

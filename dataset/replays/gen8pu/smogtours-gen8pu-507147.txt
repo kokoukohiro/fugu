@@ -1,0 +1,495 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|player|p1|watashi|#flcl|
+|player|p2|palle piene|youngster-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|clearpoke
+|poke|p1|Grapploct, M|
+|poke|p1|Mareanie, M|
+|poke|p1|Gourgeist-*, M|
+|poke|p1|Pawniard, F|
+|poke|p1|Carkol, F|
+|poke|p1|Manectric, F|
+|poke|p2|Crustle, F|
+|poke|p2|Mr. Rime, M|
+|poke|p2|Hitmontop, M|
+|poke|p2|Roselia, F|
+|poke|p2|Silvally-*|
+|poke|p2|Stunfisk, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆palle piene|hf
+|c|☆watashi|u too
+|inactive|watashi has 270 seconds left.
+|inactive|palle piene has 270 seconds left.
+|c|☆palle piene|its timer obligatory?
+|c|☆palle piene|im playing with hotspot
+|c|+ChillShadow|yes it is
+|c|☆palle piene|k
+|inactive|watashi has 240 seconds left.
+|inactive|palle piene has 240 seconds left.
+|
+|start
+|switch|p1a: Manectric|Manectric, F|100/100
+|switch|p2a: Roselia|Roselia, F|100/100
+|turn|1
+|
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|move|p1a: Manectric|Volt Switch|p2a: Stunfisk
+|-immune|p2a: Stunfisk
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Gourgeist|Gourgeist, M|100/100
+|-item|p2a: Stunfisk|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Stunfisk|Stealth Rock|p1a: Gourgeist
+|-sidestart|p1: watashi|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Pawniard|Pawniard, F|100/100
+|-damage|p1a: Pawniard|94/100|[from] Stealth Rock
+|switch|p2a: Roselia|Roselia, F|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Pawniard|Knock Off|p2a: Roselia
+|-damage|p2a: Roselia|51/100
+|-enditem|p2a: Roselia|Eviolite|[from] move: Knock Off|[of] p1a: Pawniard
+|move|p2a: Roselia|Sleep Powder|p1a: Pawniard
+|-status|p1a: Pawniard|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|5
+|inactive|palle piene has 270 seconds left.
+|inactive|palle piene has 240 seconds left.
+|
+|switch|p2a: Crustle|Crustle, F|100/100
+|cant|p1a: Pawniard|slp
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Manectric|Manectric, F|100/100
+|-damage|p1a: Manectric|88/100|[from] Stealth Rock
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|move|p1a: Manectric|Volt Switch|p2a: Stunfisk
+|-immune|p2a: Stunfisk
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Gourgeist|Gourgeist, M|100/100
+|-damage|p1a: Gourgeist|88/100|[from] Stealth Rock
+|-item|p2a: Stunfisk|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Stunfisk|Discharge|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|71/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|move|p1a: Gourgeist|Power Whip|p2a: Hitmontop|[miss]
+|-miss|p1a: Gourgeist|p2a: Hitmontop
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|-damage|p1a: Mareanie|88/100|[from] Stealth Rock
+|move|p2a: Hitmontop|Thief|p1a: Mareanie
+|-damage|p1a: Mareanie|63/100
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|100/100
+|move|p1a: Mareanie|Scald|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|86/100
+|-status|p2a: Mr. Rime|brn
+|
+|-damage|p2a: Mr. Rime|80/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|palle piene has 270 seconds left.
+|
+|switch|p1a: Pawniard|Pawniard, F|94/100 slp
+|-damage|p1a: Pawniard|88/100 slp|[from] Stealth Rock
+|move|p2a: Mr. Rime|Psyshock|p1a: Pawniard
+|-immune|p1a: Pawniard
+|
+|-damage|p2a: Mr. Rime|74/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|cant|p1a: Pawniard|slp
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Gourgeist|Gourgeist, M|71/100
+|-damage|p1a: Gourgeist|58/100|[from] Stealth Rock
+|-item|p2a: Stunfisk|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Stunfisk|Earth Power|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-crit|p1a: Gourgeist
+|-damage|p1a: Gourgeist|26/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Silvally|Silvally-Bug|100/100
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|75/100
+|
+|upkeep
+|turn|16
+|inactive|palle piene has 270 seconds left.
+|
+|switch|p1a: Carkol|Carkol, F|100/100
+|-damage|p1a: Carkol|76/100|[from] Stealth Rock
+|move|p2a: Silvally|U-turn|p1a: Carkol
+|-resisted|p1a: Carkol
+|-damage|p1a: Carkol|69/100
+|
+|switch|p2a: Crustle|Crustle, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Gourgeist|Gourgeist, M|75/100
+|-damage|p1a: Gourgeist|63/100|[from] Stealth Rock
+|-item|p2a: Crustle|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Crustle|Earthquake|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|47/100
+|
+|upkeep
+|turn|18
+|inactive|palle piene has 270 seconds left.
+|
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|97/100
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|
+|upkeep
+|turn|19
+|inactive|palle piene has 270 seconds left.
+|c|+Stone Cold|watashi, are you playing games instead of doing your home work again?
+|inactive|watashi has 270 seconds left.
+|inactive|watashi has 240 seconds left.
+|
+|switch|p1a: Pawniard|Pawniard, F|88/100 slp
+|-damage|p1a: Pawniard|82/100 slp|[from] Stealth Rock
+|move|p2a: Crustle|Stone Edge|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|27/100 slp
+|
+|upkeep
+|turn|20
+|
+|-curestatus|p1a: Pawniard|slp|[msg]
+|move|p1a: Pawniard|Sucker Punch|p2a: Crustle
+|-damage|p2a: Crustle|59/100
+|move|p2a: Crustle|X-Scissor|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, F|88/100
+|-damage|p1a: Manectric|76/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Gourgeist|Gourgeist, M|97/100
+|-damage|p1a: Gourgeist|85/100|[from] Stealth Rock
+|-item|p2a: Crustle|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Silvally|Silvally-Bug|100/100
+|move|p1a: Gourgeist|Power Whip|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|71/100
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Silvally|U-turn|p1a: Gourgeist
+|-damage|p1a: Gourgeist|51/100
+|
+|switch|p2a: Roselia|Roselia, F|51/100|[from]move: U-turn
+|move|p1a: Gourgeist|Flame Charge|p2a: Roselia
+|-supereffective|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|-boost|p1a: Gourgeist|spe|1
+|faint|p2a: Roselia
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Bug|71/100
+|turn|24
+|
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|100/100
+|move|p2a: Silvally|Multi-Attack|p1a: Gourgeist
+|-damage|p1a: Gourgeist|44/100
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|94/100
+|move|p2a: Silvally|Multi-Attack|p1a: Gourgeist
+|-damage|p1a: Gourgeist|45/100
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Carkol|Carkol, F|69/100
+|-damage|p1a: Carkol|44/100|[from] Stealth Rock
+|move|p2a: Silvally|Multi-Attack|p1a: Carkol
+|-resisted|p1a: Carkol
+|-damage|p1a: Carkol|32/100
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|move|p1a: Carkol|Stealth Rock|p2a: Stunfisk
+|-sidestart|p2: palle piene|move: Stealth Rock
+|
+|upkeep
+|turn|28
+|inactive|palle piene has 270 seconds left.
+|
+|move|p1a: Carkol|Rapid Spin|p2a: Stunfisk
+|-damage|p2a: Stunfisk|97/100
+|-boost|p1a: Carkol|spe|1
+|-sideend|p1: watashi|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Carkol
+|move|p2a: Stunfisk|Toxic|p1a: Carkol
+|-status|p1a: Carkol|tox
+|
+|-heal|p2a: Stunfisk|100/100|[from] item: Leftovers
+|-damage|p1a: Carkol|26/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|move|p1a: Carkol|Spikes|p2a: Stunfisk
+|-sidestart|p2: palle piene|Spikes
+|move|p2a: Stunfisk|Stealth Rock|p1a: Carkol
+|-sidestart|p1: watashi|move: Stealth Rock
+|
+|-damage|p1a: Carkol|14/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-damage|p2a: Hitmontop|88/100|[from] Spikes
+|-damage|p2a: Hitmontop|82/100|[from] Stealth Rock
+|move|p1a: Carkol|Spikes|p2a: Hitmontop
+|-sidestart|p2: palle piene|Spikes
+|
+|-damage|p1a: Carkol|0 fnt|[from] psn
+|faint|p1a: Carkol
+|upkeep
+|
+|switch|p1a: Gourgeist|Gourgeist, M|45/100
+|-damage|p1a: Gourgeist|33/100|[from] Stealth Rock
+|-item|p2a: Hitmontop|Assault Vest|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|31
+|inactive|palle piene has 270 seconds left.
+|inactive|palle piene has 240 seconds left.
+|inactive|palle piene has 210 seconds left.
+|inactive|palle piene has 180 seconds left.
+|inactive|palle piene has 150 seconds left.
+|inactive|palle piene has 120 seconds left.
+|
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|-damage|p2a: Stunfisk|84/100|[from] Spikes
+|-damage|p2a: Stunfisk|78/100|[from] Stealth Rock
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|82/100
+|
+|-heal|p2a: Stunfisk|84/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Gourgeist|Power Whip|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|12/100
+|-status|p1a: Gourgeist|par|[from] ability: Static|[of] p2a: Stunfisk
+|move|p2a: Stunfisk|Discharge|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|63/100 par
+|
+|-heal|p2a: Stunfisk|19/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|palle piene has 120 seconds left.
+|
+|move|p1a: Gourgeist|Flame Charge|p2a: Stunfisk
+|-damage|p2a: Stunfisk|8/100
+|-boost|p1a: Gourgeist|spe|1
+|move|p2a: Stunfisk|Earth Power|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|43/100 par
+|
+|-heal|p2a: Stunfisk|14/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: Hitmontop|Hitmontop, M|82/100
+|-damage|p2a: Hitmontop|76/100|[from] Stealth Rock
+|-damage|p2a: Hitmontop|60/100|[from] Spikes
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|93/100 par
+|
+|upkeep
+|turn|35
+|inactive|palle piene has 120 seconds left.
+|
+|move|p2a: Hitmontop|Aerial Ace|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|37/100 par
+|-enditem|p1a: Gourgeist|Weakness Policy
+|-boost|p1a: Gourgeist|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Gourgeist|spa|2|[from] item: Weakness Policy
+|move|p1a: Gourgeist|Flame Charge|p2a: Hitmontop
+|-damage|p2a: Hitmontop|20/100
+|-boost|p1a: Gourgeist|spe|1
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Gourgeist|Flame Charge|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|-boost|p1a: Gourgeist|spe|1
+|faint|p2a: Hitmontop
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Bug|71/100
+|-damage|p2a: Silvally|54/100|[from] Spikes
+|-damage|p2a: Silvally|30/100|[from] Stealth Rock
+|turn|37
+|
+|move|p1a: Gourgeist|Flame Charge|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|-boost|p1a: Gourgeist|spe|1
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Crustle|Crustle, F|59/100
+|turn|38
+|inactive|palle piene has 120 seconds left.
+|
+|cant|p1a: Gourgeist|par
+|move|p2a: Crustle|Stone Edge|p1a: Gourgeist|[miss]
+|-miss|p2a: Crustle|p1a: Gourgeist
+|
+|upkeep
+|turn|39
+|
+|cant|p1a: Gourgeist|par
+|move|p2a: Crustle|Stone Edge|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|upkeep
+|
+|switch|p1a: Grapploct|Grapploct, M|100/100
+|-damage|p1a: Grapploct|94/100|[from] Stealth Rock
+|turn|40
+|
+|move|p2a: Crustle|Earthquake|p1a: Grapploct
+|-damage|p1a: Grapploct|60/100
+|move|p1a: Grapploct|Drain Punch|p2a: Crustle
+|-damage|p2a: Crustle|18/100
+|-heal|p1a: Grapploct|77/100|[from] drain|[of] p2a: Crustle
+|
+|upkeep
+|turn|41
+|
+|switch|p2a: Stunfisk|Stunfisk, M|14/100
+|-damage|p2a: Stunfisk|8/100|[from] Stealth Rock
+|-damage|p2a: Stunfisk|0 fnt|[from] Spikes
+|faint|p2a: Stunfisk
+|move|p1a: Grapploct|Drain Punch|p2: Stunfisk|[notarget]
+|-fail|p1a: Grapploct
+|
+|upkeep
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|74/100 brn
+|-damage|p2a: Mr. Rime|57/100 brn|[from] Spikes
+|-damage|p2a: Mr. Rime|32/100 brn|[from] Stealth Rock
+|turn|42
+|
+|move|p1a: Grapploct|Sucker Punch||[still]
+|-fail|p1a: Grapploct
+|move|p2a: Mr. Rime|Healing Wish|p2a: Mr. Rime
+|faint|p2a: Mr. Rime
+|
+|upkeep
+|
+|switch|p2a: Crustle|Crustle, F|18/100
+|-heal|p2a: Crustle|100/100|[from] move: Healing Wish
+|turn|43
+|
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|move|p1a: Grapploct|Drain Punch|p2a: Crustle
+|-damage|p2a: Crustle|37/100
+|-heal|p1a: Grapploct|100/100|[from] drain|[of] p2a: Crustle
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Crustle|Earthquake|p1a: Grapploct
+|-damage|p1a: Grapploct|35/100
+|move|p1a: Grapploct|Drain Punch|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|-heal|p1a: Grapploct|50/100|[from] drain|[of] p2a: Crustle
+|faint|p2a: Crustle
+|
+|win|watashi
+|c|☆palle piene|gg
+|c|☆watashi|gg
+|player|p1|watashi|#flcl

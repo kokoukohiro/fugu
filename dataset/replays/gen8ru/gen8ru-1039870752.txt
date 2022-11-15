@@ -1,0 +1,313 @@
+|j|☆yung centibro
+|j|☆scraggy but bad
+|player|p1|yung centibro|1|1400
+|player|p2|scraggy but bad|beauty-gen7|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Passimian, M|
+|poke|p1|Sigilyph, F|
+|poke|p1|Silvally-*|
+|poke|p1|Vaporeon, F|
+|poke|p1|Vileplume, M|
+|poke|p1|Gigalith, M|
+|poke|p2|Drampa, F|
+|poke|p2|Jellicent, M|
+|poke|p2|Gallade, M|
+|poke|p2|Turtonator, M|
+|poke|p2|Roserade, F|
+|poke|p2|Boltund, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆yung centibro|but scarggy __is__ bad
+|c|☆scraggy but bad|:(
+|
+|start
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|switch|p2a: Boltund|Boltund, F|100/100
+|turn|1
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Boltund|Crunch|p1a: Vileplume
+|-damage|p1a: Vileplume|64/100
+|-damage|p2a: Boltund|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Vileplume|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Boltund|Psychic Fangs|p1a: Gigalith
+|-damage|p1a: Gigalith|63/100
+|-damage|p2a: Boltund|81/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Boltund|75/100|[from] Sandstorm
+|-heal|p1a: Gigalith|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Roserade|Roserade, F|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Roserade
+|-sidestart|p2: scraggy but bad|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|94/100|[from] Sandstorm
+|-heal|p1a: Gigalith|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Silvally|Silvally-Steel|100/100
+|move|p2a: Roserade|Spikes|p1a: Silvally
+|-sidestart|p1: yung centibro|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|88/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|82/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p1a: Silvally|Thunder Fang|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|24/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Silvally
+|-status|p1a: Silvally|brn
+|
+|-weather|none
+|-damage|p1a: Silvally|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Silvally|Thunder Fang|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|-damage|p1a: Silvally|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Turtonator|Turtonator, M|100/100
+|turn|8
+|c|☆yung centibro|that's so weak
+|c|☆yung centibro|my lord
+|
+|move|p1a: Silvally|U-turn|p2a: Turtonator
+|-resisted|p2a: Turtonator
+|-damage|p2a: Turtonator|90/100
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100|[from]move: U-turn
+|-damage|p1a: Vaporeon|88/100|[from] Spikes
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Turtonator|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|30/100
+|-unboost|p2a: Turtonator|spa|2
+|move|p1a: Vaporeon|Scald|p2a: Turtonator
+|-damage|p2a: Turtonator|23/100
+|
+|-heal|p1a: Vaporeon|36/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|43/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Turtonator|Draco Meteor|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|93/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Turtonator|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|34/100
+|-unboost|p2a: Turtonator|spa|2
+|move|p1a: Vaporeon|Scald|p2a: Turtonator
+|-damage|p2a: Turtonator|0 fnt
+|faint|p2a: Turtonator
+|
+|-heal|p1a: Vaporeon|41/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Roserade|Roserade, F|88/100
+|-damage|p2a: Roserade|76/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Roserade|Leaf Storm|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|47/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Silvally|Silvally-Steel|88/100 brn
+|-damage|p1a: Silvally|76/100 brn|[from] Spikes
+|move|p2a: Roserade|Spikes|p1a: Silvally
+|-sidestart|p1: yung centibro|Spikes
+|
+|-damage|p1a: Silvally|70/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Roserade
+|-damage|p2a: Roserade|32/100
+|move|p2a: Roserade|Leaf Storm|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|25/100 brn
+|-unboost|p2a: Roserade|spa|2
+|-damage|p2a: Roserade|22/100|[from] item: Life Orb
+|
+|-damage|p1a: Silvally|19/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|-damage|p1a: Silvally|13/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Boltund|Boltund, F|75/100
+|-damage|p2a: Boltund|63/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Boltund|Crunch|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|-damage|p2a: Boltund|53/100|[from] item: Life Orb
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, M|100/100
+|-damage|p1a: Passimian|84/100|[from] Spikes
+|turn|18
+|
+|move|p1a: Passimian|Close Combat|p2a: Boltund
+|-damage|p2a: Boltund|0 fnt
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|faint|p2a: Boltund
+|
+|upkeep
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|-damage|p2a: Gallade|94/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Vaporeon|Vaporeon, F|47/100
+|-damage|p1a: Vaporeon|30/100|[from] Spikes
+|move|p2a: Gallade|Knock Off|p1a: Vaporeon
+|-damage|p1a: Vaporeon|2/100
+|-enditem|p1a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p2a: Gallade
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Gallade|Knock Off|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, M|84/100
+|-damage|p1a: Passimian|68/100|[from] Spikes
+|turn|21
+|
+|move|p1a: Passimian|Earthquake|p2a: Gallade
+|-damage|p2a: Gallade|38/100
+|move|p2a: Gallade|Knock Off|p1a: Passimian
+|-resisted|p1a: Passimian
+|-damage|p1a: Passimian|49/100
+|-enditem|p1a: Passimian|Choice Scarf|[from] move: Knock Off|[of] p2a: Gallade
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Drampa|Drampa, F|100/100
+|-damage|p2a: Drampa|88/100|[from] Stealth Rock
+|-ability|p2a: Drampa|Cloud Nine
+|move|p1a: Passimian|Earthquake|p2a: Drampa
+|-damage|p2a: Drampa|53/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Passimian|Close Combat|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|0 fnt
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|faint|p2a: Drampa
+|
+|upkeep
+|
+|switch|p2a: Gallade|Gallade, M|38/100
+|-damage|p2a: Gallade|32/100|[from] Stealth Rock
+|turn|24
+|c|☆yung centibro|gg
+|c|☆scraggy but bad|gg
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Passimian
+|-supereffective|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|faint|p1a: Passimian
+|
+|upkeep
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|turn|25
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Sigilyph
+|-resisted|p1a: Sigilyph
+|-damage|p1a: Sigilyph|73/100
+|move|p1a: Sigilyph|Psychic|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|win|yung centibro
+|l|☆scraggy but bad

@@ -1,0 +1,301 @@
+|j|☆fat flop
+|j|☆Toxicidad fuera
+|t:|1619090872
+|gametype|singles
+|player|p1|fat flop|102|1428
+|player|p2|Toxicidad fuera|argenta|1554
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Drednaw, F|
+|poke|p1|Morpeko, M|
+|poke|p1|Wishiwashi, M|
+|poke|p1|Sandaconda, F|
+|poke|p1|Aromatisse, M|
+|poke|p1|Articuno|
+|poke|p2|Thwackey, M|
+|poke|p2|Thievul, F|
+|poke|p2|Gourgeist-*, M|
+|poke|p2|Garbodor, M|
+|poke|p2|Regirock|
+|poke|p2|Xatu, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1619090911
+|start
+|switch|p1a: Articuno|Articuno|100/100
+|switch|p2a: Thwackey|Thwackey, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|-ability|p1a: Articuno|Pressure
+|turn|1
+|
+|t:|1619090917
+|switch|p2a: Regirock|Regirock|100/100
+|move|p1a: Articuno|U-turn|p2a: Regirock
+|-damage|p2a: Regirock|95/100
+|
+|t:|1619090923
+|switch|p1a: Wishiwashi|Wishiwashi, M|100/100|[from]move: U-turn
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|
+|-heal|p2a: Regirock|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1619090928
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Wishiwashi|U-turn|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|88/100
+|
+|t:|1619090934
+|switch|p1a: Sandaconda|Sandaconda, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Garbodor|94/100|[from] Grassy Terrain
+|-heal|p2a: Garbodor|99/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1619090944
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Sandaconda|Earthquake|p2a: Xatu
+|-immune|p2a: Xatu
+|
+|upkeep
+|turn|4
+|
+|t:|1619090948
+|move|p2a: Xatu|Psychic|p1a: Sandaconda
+|-crit|p1a: Sandaconda
+|-damage|p1a: Sandaconda|44/100
+|move|p1a: Sandaconda|Rock Slide|p2a: Xatu|[miss]
+|-miss|p1a: Sandaconda|p2a: Xatu
+|
+|-heal|p1a: Sandaconda|50/100|[from] Grassy Terrain
+|-heal|p1a: Sandaconda|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1619090958
+|switch|p2a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p1a: Sandaconda|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|switch|p1a: Wishiwashi|Wishiwashi, M|100/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1619090963
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Gourgeist|Poltergeist|p1a: Articuno
+|-activate|p1a: Articuno|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Articuno|44/100
+|
+|upkeep
+|turn|7
+|
+|t:|1619090976
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|move|p2a: Gourgeist|Poltergeist|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Aromatisse|51/100
+|
+|upkeep
+|turn|8
+|
+|t:|1619090983
+|move|p2a: Gourgeist|Poltergeist|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Aromatisse|4/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|upkeep
+|turn|9
+|
+|t:|1619090991
+|switch|p2a: Garbodor|Garbodor, M|99/100
+|move|p1a: Aromatisse|Protect||[still]
+|-fail|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|54/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Garbodor|100/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1619090998
+|switch|p2a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p1a: Aromatisse|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|switch|p1a: Wishiwashi|Wishiwashi, M|100/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|
+|upkeep
+|turn|11
+|
+|t:|1619091003
+|move|p1a: Wishiwashi|Protect|p1a: Wishiwashi
+|-singleturn|p1a: Wishiwashi|Protect
+|move|p2a: Gourgeist|Power Whip|p1a: Wishiwashi
+|-activate|p1a: Wishiwashi|move: Protect
+|
+|upkeep
+|turn|12
+|
+|t:|1619091019
+|switch|p1a: Articuno|Articuno|44/100
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Gourgeist|Power Whip|p1a: Articuno
+|-resisted|p1a: Articuno
+|-damage|p1a: Articuno|15/100
+|
+|upkeep
+|turn|13
+|
+|t:|1619091026
+|move|p2a: Gourgeist|Power Whip|p1a: Articuno
+|-resisted|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|upkeep
+|
+|t:|1619091032
+|switch|p1a: Aromatisse|Aromatisse, M|54/100
+|turn|14
+|
+|t:|1619091035
+|move|p2a: Gourgeist|Power Whip|p1a: Aromatisse
+|-damage|p1a: Aromatisse|1/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|upkeep
+|turn|15
+|
+|t:|1619091044
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Aromatisse|Protect||[still]
+|-fail|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|51/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|16
+|
+|t:|1619091047
+|move|p2a: Garbodor|Gunk Shot|p1a: Aromatisse|[miss]
+|-miss|p2a: Garbodor|p1a: Aromatisse
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|upkeep
+|turn|17
+|
+|t:|1619091054
+|switch|p2a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p1a: Aromatisse|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Aromatisse|Protect||[still]
+|-fail|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|18
+|
+|t:|1619091061
+|switch|p2a: Thwackey|Thwackey, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|move|p1a: Aromatisse|Moonblast|p2a: Thwackey
+|-damage|p2a: Thwackey|40/100
+|
+|-heal|p2a: Thwackey|46/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1619091066
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|move|p1a: Aromatisse|Moonblast|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-crit|p2a: Garbodor
+|-damage|p2a: Garbodor|82/100
+|-unboost|p2a: Garbodor|spa|1
+|
+|-heal|p2a: Garbodor|88/100|[from] Grassy Terrain
+|-heal|p2a: Garbodor|94/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1619091074
+|switch|p1a: Wishiwashi|Wishiwashi, M|100/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p2a: Garbodor|Gunk Shot|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|66/100
+|-status|p1a: Wishiwashi|psn
+|
+|-heal|p2a: Garbodor|99/100|[from] Grassy Terrain
+|-heal|p2a: Garbodor|100/100|[from] item: Black Sludge
+|-heal|p1a: Wishiwashi|73/100 psn|[from] Grassy Terrain
+|-heal|p1a: Wishiwashi|79/100 psn|[from] item: Leftovers
+|-damage|p1a: Wishiwashi|66/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1619091079
+|move|p2a: Garbodor|Spikes|p1a: Wishiwashi
+|-sidestart|p1: fat flop|Spikes
+|move|p1a: Wishiwashi|Scald|p2a: Garbodor
+|-damage|p2a: Garbodor|75/100
+|-status|p2a: Garbodor|brn
+|
+|-heal|p2a: Garbodor|81/100 brn|[from] Grassy Terrain
+|-heal|p2a: Garbodor|87/100 brn|[from] item: Black Sludge
+|-heal|p1a: Wishiwashi|73/100 psn|[from] Grassy Terrain
+|-heal|p1a: Wishiwashi|79/100 psn|[from] item: Leftovers
+|-damage|p2a: Garbodor|81/100 brn|[from] brn
+|-damage|p1a: Wishiwashi|66/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1619091083
+|move|p2a: Garbodor|Spikes|p1a: Wishiwashi
+|-sidestart|p1: fat flop|Spikes
+|move|p1a: Wishiwashi|U-turn|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|67/100 brn
+|
+|t:|1619091085
+|switch|p1a: Morpeko|Morpeko, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Garbodor|73/100 brn|[from] Grassy Terrain
+|-heal|p2a: Garbodor|79/100 brn|[from] item: Black Sludge
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Garbodor|73/100 brn|[from] brn
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|23
+|
+|t:|1619091091
+|switch|p2a: Regirock|Regirock|100/100
+|move|p1a: Morpeko|Aura Wheel|p2a: Regirock
+|-damage|p2a: Regirock|82/100
+|-boost|p1a: Morpeko|spe|1
+|
+|-heal|p2a: Regirock|88/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|24
+|c|☆fat flop|gg
+|-message|fat flop forfeited.
+|
+|win|Toxicidad fuera
+|raw|fat flop's rating: 1428 &rarr; <strong>1415</strong><br />(-13 for losing)
+|raw|Toxicidad fuera's rating: 1553 &rarr; <strong>1566</strong><br />(+13 for winning)
+|l|☆fat flop
+|c|☆Toxicidad fuera|gg

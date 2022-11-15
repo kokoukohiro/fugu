@@ -1,0 +1,143 @@
+|j|☆kpbuster
+|j|☆box of wine
+|player|p1|kpbuster|cynthia-gen4|1266
+|player|p2|box of wine|nate|1354
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lucario, M|
+|poke|p1|Noivern, M|
+|poke|p1|Mamoswine, M|
+|poke|p1|Ribombee, F|
+|poke|p1|Gengar, M|
+|poke|p1|Milotic, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Gengar, F|
+|poke|p2|Golisopod, F|
+|poke|p2|Obstagoon, F|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Copperajah, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Milotic|Milotic, F, shiny|100/100
+|switch|p2a: Copperajah|Copperajah, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kpbuster)
+|
+|move|p1a: Milotic|Scald|p2a: Copperajah
+|-damage|p2a: Copperajah|82/100
+|move|p2a: Copperajah|Power Whip|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|23/100
+|
+|-heal|p1a: Milotic|29/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|move|p1a: Noivern|Draco Meteor|p2a: Weezing
+|-immune|p2a: Weezing
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|move|p2a: Weezing|Strange Steam|p1a: Lucario
+|-damage|p1a: Lucario|54/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|move|p1a: Lucario|Close Combat|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|71/100
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|44/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|move|p2a: Golisopod|First Impression|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|68/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Copperajah|Copperajah, F|82/100
+|move|p1a: Noivern|Hurricane|p2a: Copperajah
+|-resisted|p2a: Copperajah
+|-damage|p2a: Copperajah|67/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Noivern|Flamethrower|p2a: Copperajah
+|-supereffective|p2a: Copperajah
+|-damage|p2a: Copperajah|31/100
+|move|p2a: Copperajah|Heavy Slam|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|44/100
+|turn|9
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Lucario|Close Combat|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Ribombee|Ribombee, F, shiny|100/100
+|move|p2a: Gengar|Shadow Ball|p1a: Ribombee
+|-damage|p1a: Ribombee|32/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M, shiny|100/100
+|turn|12
+|
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|move|p1a: Gengar|Shadow Ball|p2a: Obstagoon
+|-immune|p2a: Obstagoon
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|-message|kpbuster forfeited.
+|
+|win|box of wine
+|l|☆kpbuster
+|raw|kpbuster's rating: 1266 &rarr; <strong>1247</strong><br />(-19 for losing)
+|raw|box of wine's rating: 1354 &rarr; <strong>1369</strong><br />(+15 for winning)

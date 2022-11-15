@@ -1,0 +1,272 @@
+|j|☆big baz
+|j|☆schizoidpersona
+|player|p1|big baz|ltsurge|1462
+|player|p2|schizoidpersona|2|1334
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Pangoro, M|
+|poke|p1|Sigilyph, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Umbreon, F|
+|poke|p1|Coalossal, M|
+|poke|p2|Bronzong|
+|poke|p2|Arcanine, M|
+|poke|p2|Escavalier, F|
+|poke|p2|Vaporeon, F|
+|poke|p2|Whimsicott, M|
+|poke|p2|Xatu, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|switch|p2a: Water Eon|Vaporeon, F|100/100
+|turn|1
+|
+|switch|p2a: BL|Escavalier, F|100/100
+|move|p1a: Sigilyph|Energy Ball|p2a: BL
+|-resisted|p2a: BL
+|-damage|p2a: BL|95/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rae Sremmurd|Arcanine, M|100/100
+|-ability|p2a: Rae Sremmurd|Intimidate|boost
+|-unboost|p1a: Sigilyph|atk|1
+|move|p1a: Sigilyph|Heat Wave|p2a: Rae Sremmurd
+|-resisted|p2a: Rae Sremmurd
+|-crit|p2a: Rae Sremmurd
+|-damage|p2a: Rae Sremmurd|80/100
+|
+|-heal|p2a: Rae Sremmurd|86/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|move|p2a: Rae Sremmurd|Burn Up|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|91/100
+|-start|p2a: Rae Sremmurd|typechange|???|[from] move: Burn Up
+|
+|-heal|p2a: Rae Sremmurd|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Water Eon|Vaporeon, F|100/100
+|move|p1a: Coalossal|Rock Tomb|p2a: Water Eon
+|-damage|p2a: Water Eon|88/100
+|-unboost|p2a: Water Eon|spe|1
+|
+|-heal|p2a: Water Eon|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Water Absorb|[from] ability: Trace|[of] p2a: Water Eon
+|move|p2a: Water Eon|Scald|p1a: Gardevoir
+|-immune|p1a: Gardevoir|[from] ability: Water Absorb
+|
+|-heal|p2a: Water Eon|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Gardevoir|Thunderbolt|p2a: Water Eon
+|-supereffective|p2a: Water Eon
+|-damage|p2a: Water Eon|36/100
+|move|p2a: Water Eon|Toxic|p1a: Gardevoir
+|-status|p1a: Gardevoir|tox
+|
+|-heal|p2a: Water Eon|43/100|[from] item: Leftovers
+|-damage|p1a: Gardevoir|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: 3rd Place|Bronzong|100/100
+|move|p1a: Gardevoir|Thunderbolt|p2a: 3rd Place
+|-damage|p2a: 3rd Place|71/100
+|
+|-heal|p2a: 3rd Place|77/100|[from] item: Leftovers
+|-damage|p1a: Gardevoir|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|move|p2a: 3rd Place|Stealth Rock|p1a: Pangoro
+|-sidestart|p1: big baz|move: Stealth Rock
+|
+|-heal|p2a: 3rd Place|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Darkie|Whimsicott, M|100/100
+|move|p1a: Pangoro|Knock Off|p2a: Darkie
+|-resisted|p2a: Darkie
+|-damage|p2a: Darkie|41/100
+|-enditem|p2a: Darkie|Leftovers|[from] move: Knock Off|[of] p1a: Pangoro
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Coalossal|Coalossal, M|91/100
+|move|p2a: Darkie|Moonblast|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|75/100
+|-unboost|p1a: Coalossal|spa|1
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Crosshair|Xatu, F|100/100
+|move|p1a: Coalossal|Rapid Spin|p2a: Crosshair
+|-crit|p2a: Crosshair
+|-damage|p2a: Crosshair|76/100
+|-boost|p1a: Coalossal|spe|1
+|-sideend|p1: big baz|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Coalossal
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|move|p2a: Crosshair|Psychic|p1a: Pangoro
+|-immune|p1a: Pangoro
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Rae Sremmurd|Arcanine, M|93/100
+|-ability|p2a: Rae Sremmurd|Intimidate|boost
+|-immune|p1a: Pangoro|[from] ability: Scrappy
+|move|p1a: Pangoro|Knock Off|p2a: Rae Sremmurd
+|-damage|p2a: Rae Sremmurd|0 fnt
+|-enditem|p2a: Rae Sremmurd|Leftovers|[from] move: Knock Off|[of] p1a: Pangoro
+|faint|p2a: Rae Sremmurd
+|
+|upkeep
+|
+|switch|p2a: Darkie|Whimsicott, M|41/100
+|turn|14
+|
+|switch|p1a: Coalossal|Coalossal, M|75/100
+|move|p2a: Darkie|Leech Seed|p1a: Coalossal
+|-start|p1a: Coalossal|move: Leech Seed
+|
+|-damage|p1a: Coalossal|63/100|[from] Leech Seed|[of] p2a: Darkie
+|-heal|p2a: Darkie|61/100|[silent]
+|upkeep
+|turn|15
+|
+|switch|p2a: Water Eon|Vaporeon, F|43/100
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|
+|-heal|p2a: Water Eon|49/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Pangoro|Knock Off|p2a: Water Eon
+|-damage|p2a: Water Eon|0 fnt
+|-enditem|p2a: Water Eon|Leftovers|[from] move: Knock Off|[of] p1a: Pangoro
+|faint|p2a: Water Eon
+|
+|upkeep
+|
+|switch|p2a: Darkie|Whimsicott, M|61/100
+|turn|17
+|
+|switch|p1a: Coalossal|Coalossal, M|63/100
+|move|p2a: Darkie|Stun Spore|p1a: Coalossal
+|-status|p1a: Coalossal|par
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: 3rd Place|Bronzong|84/100
+|cant|p1a: Coalossal|par
+|
+|-heal|p2a: 3rd Place|90/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|move|p2a: 3rd Place|Stealth Rock|p1a: Pangoro
+|-sidestart|p1: big baz|move: Stealth Rock
+|
+|-heal|p2a: 3rd Place|96/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: BL|Escavalier, F|95/100
+|move|p1a: Pangoro|Close Combat|p2a: BL
+|-damage|p2a: BL|0 fnt
+|-unboost|p1a: Pangoro|def|1
+|-unboost|p1a: Pangoro|spd|1
+|faint|p2a: BL
+|
+|upkeep
+|
+|switch|p2a: Darkie|Whimsicott, M|61/100
+|turn|21
+|
+|switch|p1a: Coalossal|Coalossal, M|63/100 par
+|move|p2a: Darkie|Moonblast|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|47/100 par
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Darkie|Leech Seed|p1a: Coalossal|[miss]
+|-miss|p2a: Darkie|p1a: Coalossal
+|move|p1a: Coalossal|Rapid Spin|p2a: Darkie
+|-damage|p2a: Darkie|46/100
+|-boost|p1a: Coalossal|spe|1
+|-sideend|p1: big baz|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Coalossal
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|move|p2a: Darkie|Encore||[still]
+|-fail|p2a: Darkie
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Crosshair|Xatu, F|76/100
+|move|p1a: Weezing|Strange Steam|p2a: Crosshair
+|-damage|p2a: Crosshair|27/100
+|-start|p2a: Crosshair|confusion
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: 3rd Place|Bronzong|96/100
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|
+|-heal|p2a: 3rd Place|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Pangoro|Knock Off|p2a: 3rd Place
+|-supereffective|p2a: 3rd Place
+|-damage|p2a: 3rd Place|0 fnt
+|-enditem|p2a: 3rd Place|Leftovers|[from] move: Knock Off|[of] p1a: Pangoro
+|faint|p2a: 3rd Place
+|
+|upkeep
+|-message|schizoidpersona forfeited.
+|
+|win|big baz
+|l|☆schizoidpersona

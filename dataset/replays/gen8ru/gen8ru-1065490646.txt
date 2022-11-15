@@ -1,0 +1,339 @@
+|j|☆eclecticempiricist
+|j|☆BlackScizor84
+|player|p1|eclecticempiricist|1|1297
+|player|p2|BlackScizor84|1|1362
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Salazzle, F|
+|poke|p1|Swoobat, M|
+|poke|p1|Indeedee-F, F|
+|poke|p1|Rotom-Fan|
+|poke|p1|Thievul, M|
+|poke|p1|Gigalith, M|
+|poke|p2|Crustle, F|
+|poke|p2|Passimian, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Steelix, F|
+|poke|p2|Jellicent, M|
+|poke|p2|Mr. Rime, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eclecticempiricist)
+|
+|start
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|turn|1
+|
+|switch|p2a: Steelix|Steelix, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Steelix
+|-immune|p2a: Steelix
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Steelix
+|-status|p2a: Steelix|brn
+|move|p2a: Steelix|Stealth Rock|p1a: Rotom
+|-sidestart|p1: eclecticempiricist|move: Stealth Rock
+|
+|-damage|p2a: Steelix|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Defog|p2a: Steelix
+|-unboost|p2a: Steelix|evasion|1
+|-sideend|p1: eclecticempiricist|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|move|p2a: Steelix|Roar|p1a: Rotom
+|drag|p1a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Steelix|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Steelix|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Jellicent
+|-sidestart|p2: BlackScizor84|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100 brn|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p1a: Rotom|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Rotom|Volt Switch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|63/100
+|
+|switch|p1a: Indeedee|Indeedee-F, F|100/100|[from]move: Volt Switch
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Jellicent|Hex|p1a: Indeedee
+|-immune|p1a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|94/100|[from] Sandstorm
+|-damage|p2a: Jellicent|57/100|[from] Sandstorm
+|-heal|p2a: Jellicent|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Indeedee|Trick|p2a: Jellicent
+|-activate|p1a: Indeedee|move: Trick|[of] p2a: Jellicent
+|-item|p2a: Jellicent|Choice Scarf|[from] move: Trick
+|-item|p1a: Indeedee|Leftovers|[from] move: Trick
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100
+|
+|-weather|none
+|-heal|p1a: Indeedee|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|100/100
+|move|p1a: Indeedee|Psychic|p2a: Mr. Rime
+|-resisted|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|74/100
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|29/100
+|-unboost|p2a: Mr. Rime|spa|1
+|move|p2a: Mr. Rime|Rapid Spin|p1a: Indeedee
+|-damage|p1a: Indeedee|87/100
+|-boost|p2a: Mr. Rime|spe|1
+|-sideend|p2: BlackScizor84|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mr. Rime
+|
+|-heal|p1a: Indeedee|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Indeedee|Mystical Fire|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|83/100
+|-unboost|p2a: Ninetales|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Indeedee|99/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|11
+|
+|switch|p2a: Passimian|Passimian, M|100/100
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Passimian|94/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Passimian|Close Combat|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Passimian|88/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|switch|p1a: Rotom|Rotom-Fan|88/100 brn
+|move|p2a: Passimian|Close Combat|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|44/100 brn
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|38/100 brn|[from] Sandstorm
+|-damage|p2a: Passimian|82/100|[from] Sandstorm
+|-damage|p1a: Rotom|32/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Steelix|Steelix, F|94/100 brn
+|move|p1a: Rotom|Pain Split|p2a: Steelix
+|-sethp|p2a: Steelix|61/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|71/100 brn|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|64/100 brn|[from] Sandstorm
+|-heal|p2a: Steelix|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|58/100 brn|[from] brn
+|-damage|p2a: Steelix|61/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|move|p2a: Steelix|Stealth Rock|p1a: Gigalith
+|-sidestart|p1: eclecticempiricist|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Steelix|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Steelix|61/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Jellicent
+|-sidestart|p2: BlackScizor84|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Jellicent|Scald|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Indeedee|Indeedee-F, F|99/100
+|-damage|p1a: Indeedee|87/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Jellicent|Scald|p1a: Indeedee
+|-damage|p1a: Indeedee|57/100
+|
+|-heal|p1a: Indeedee|63/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Indeedee|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|63/100
+|-start|p1a: Indeedee|Disable|Psychic|[from] ability: Cursed Body|[of] p2a: Jellicent
+|move|p2a: Jellicent|Scald|p1a: Indeedee
+|-damage|p1a: Indeedee|34/100
+|
+|-heal|p1a: Indeedee|40/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|55/100
+|-unboost|p2a: Jellicent|spa|1
+|move|p2a: Jellicent|Scald|p1a: Indeedee
+|-damage|p1a: Indeedee|22/100
+|-status|p1a: Indeedee|brn
+|
+|-heal|p1a: Indeedee|28/100 brn|[from] item: Leftovers
+|-damage|p1a: Indeedee|22/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|46/100
+|-unboost|p2a: Jellicent|spa|1
+|move|p2a: Jellicent|Scald|p1a: Indeedee
+|-damage|p1a: Indeedee|8/100 brn
+|
+|-heal|p1a: Indeedee|14/100 brn|[from] item: Leftovers
+|-damage|p1a: Indeedee|8/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|37/100
+|-unboost|p2a: Jellicent|spa|1
+|move|p2a: Jellicent|Scald|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Swoobat|Swoobat, M|100/100
+|-damage|p1a: Swoobat|76/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p2a: Steelix|Steelix, F|61/100 brn
+|-damage|p2a: Steelix|58/100 brn|[from] Stealth Rock
+|move|p1a: Swoobat|Calm Mind|p1a: Swoobat
+|-boost|p1a: Swoobat|spa|2
+|-boost|p1a: Swoobat|spd|2
+|
+|-heal|p2a: Steelix|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Steelix|58/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Swoobat|Heat Wave|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|upkeep
+|
+|switch|p2a: Crustle|Crustle, F|100/100
+|-damage|p2a: Crustle|76/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Swoobat|Stored Power|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, M|82/100
+|-damage|p2a: Passimian|76/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Swoobat|Stored Power|p2a: Passimian
+|-supereffective|p2a: Passimian
+|-damage|p2a: Passimian|0 fnt
+|faint|p2a: Passimian
+|
+|upkeep
+|c|☆eclecticempiricist|gg
+|
+|switch|p2a: Ninetales|Ninetales, M|83/100
+|-damage|p2a: Ninetales|59/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|27
+|
+|move|p1a: Swoobat|Stored Power|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|BlackScizor84 forfeited.
+|
+|win|eclecticempiricist
+|l|☆BlackScizor84
+|raw|eclecticempiricist's rating: 1297 &rarr; <strong>1327</strong><br />(+30 for winning)
+|raw|BlackScizor84's rating: 1363 &rarr; <strong>1339</strong><br />(-24 for losing)

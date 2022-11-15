@@ -1,0 +1,514 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1664294578
+|gametype|singles
+|player|p1|RoyalReloaded|#bltixsnorlaxes|
+|player|p2|sugar ovens|twins|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Scrafty, M|
+|poke|p1|Articuno-Galar|
+|poke|p1|Aggron, M|
+|poke|p1|Weezing, M|
+|poke|p1|Silvally-*|
+|poke|p1|Ribombee, M|
+|poke|p2|Lanturn, F|
+|poke|p2|Mesprit|
+|poke|p2|Aggron, M|
+|poke|p2|Magmortar, M|
+|poke|p2|Gourgeist-*, M|
+|poke|p2|Silvally-*|
+|teampreview
+|c|☆RoyalReloaded|glhf
+|c|☆sugar ovens|u2
+|inactive|RoyalReloaded has 270 seconds left.
+|inactive|sugar ovens has 270 seconds left.
+|
+|t:|1664294633
+|start
+|switch|p1a: Weezing|Weezing, M|100/100
+|switch|p2a: Lanturn|Lanturn, F|100/100
+|turn|1
+|
+|t:|1664294657
+|move|p1a: Weezing|Toxic Spikes|p2a: Lanturn
+|-sidestart|p2: sugar ovens|move: Toxic Spikes
+|move|p2a: Lanturn|Hydro Pump|p1a: Weezing
+|-damage|p1a: Weezing|43/100
+|
+|-heal|p1a: Weezing|49/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1664294674
+|move|p1a: Weezing|Pain Split|p2a: Lanturn
+|-sethp|p2a: Lanturn|71/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|83/100|[from] move: Pain Split
+|move|p2a: Lanturn|Charge Beam|p1a: Weezing|[miss]
+|-miss|p2a: Lanturn|p1a: Weezing
+|
+|-heal|p1a: Weezing|89/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1664294682
+|move|p1a: Weezing|Sludge Bomb|p2a: Lanturn
+|-damage|p2a: Lanturn|53/100
+|move|p2a: Lanturn|Charge Beam|p1a: Weezing
+|-damage|p1a: Weezing|59/100
+|
+|-heal|p1a: Weezing|65/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|inactive|sugar ovens disconnected and has 300 seconds to reconnect!
+|player|p2|
+|inactive|sugar ovens reconnected and has 275 seconds left.
+|player|p2|sugar ovens|twins
+|inactive|sugar ovens has 270 seconds left.
+|
+|t:|1664294721
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Lanturn|atk|1
+|move|p2a: Lanturn|Volt Switch|p1a: Scrafty
+|-damage|p1a: Scrafty|71/100
+|inactive|sugar ovens has 270 seconds left.
+|
+|t:|1664294742
+|switch|p2a: Mesprit|Mesprit|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|5
+|
+|t:|1664294749
+|switch|p1a: Silvally|Silvally-Ghost|100/100
+|move|p2a: Mesprit|Trick||[still]
+|-fail|p2a: Mesprit
+|
+|upkeep
+|turn|6
+|
+|t:|1664294759
+|switch|p2a: Aggron|Aggron, M|100/100
+|move|p1a: Silvally|Parting Shot|p2a: Aggron
+|-unboost|p2a: Aggron|atk|1
+|-unboost|p2a: Aggron|spa|1
+|
+|t:|1664294765
+|switch|p1a: Scrafty|Scrafty, M|71/100|[from]move: Parting Shot
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Aggron|atk|1
+|
+|upkeep
+|turn|7
+|
+|t:|1664294769
+|move|p2a: Aggron|Protect|p2a: Aggron
+|-singleturn|p2a: Aggron|Protect
+|move|p1a: Scrafty|Knock Off|p2a: Aggron
+|-activate|p2a: Aggron|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1664294778
+|switch|p2a: Silvally|Silvally-Fighting|100/100
+|-status|p2a: Silvally|psn
+|move|p1a: Scrafty|Knock Off|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|81/100 psn
+|
+|-damage|p2a: Silvally|68/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1664294796
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|move|p2a: Silvally|Defog|p1a: Articuno
+|-unboost|p1a: Articuno|evasion|1
+|-ability|p1a: Articuno|Competitive
+|-boost|p1a: Articuno|spa|2
+|-sideend|p2: sugar ovens|Toxic Spikes|[from] move: Defog|[of] p2a: Silvally
+|
+|-damage|p2a: Silvally|56/100 psn|[from] psn
+|upkeep
+|turn|10
+|inactive|sugar ovens has 270 seconds left.
+|inactive|sugar ovens has 240 seconds left.
+|
+|t:|1664294864
+|switch|p2a: Lanturn|Lanturn, F|53/100
+|move|p1a: Articuno|Future Sight|p2a: Lanturn
+|-start|p1a: Articuno|move: Future Sight
+|
+|upkeep
+|turn|11
+|inactive|sugar ovens has 240 seconds left.
+|
+|t:|1664294875
+|move|p1a: Articuno|U-turn|p2a: Lanturn
+|-damage|p2a: Lanturn|36/100
+|
+|t:|1664294882
+|switch|p1a: Silvally|Silvally-Ghost|100/100|[from]move: U-turn
+|move|p2a: Lanturn|Volt Switch|p1a: Silvally
+|-damage|p1a: Silvally|74/100
+|inactive|sugar ovens has 240 seconds left.
+|
+|t:|1664294897
+|switch|p2a: Aggron|Aggron, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|12
+|inactive|sugar ovens has 240 seconds left.
+|
+|t:|1664294902
+|move|p1a: Silvally|Parting Shot|p2a: Aggron
+|-unboost|p2a: Aggron|atk|1
+|-unboost|p2a: Aggron|spa|1
+|
+|t:|1664294916
+|switch|p1a: Scrafty|Scrafty, M|71/100|[from]move: Parting Shot
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Aggron|atk|1
+|move|p2a: Aggron|Stealth Rock|p1a: Scrafty
+|-sidestart|p1: RoyalReloaded|move: Stealth Rock
+|
+|-end|p2a: Aggron|move: Future Sight
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|73/100
+|-heal|p2a: Aggron|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1664294926
+|move|p2a: Aggron|Protect|p2a: Aggron
+|-singleturn|p2a: Aggron|Protect
+|move|p1a: Scrafty|Knock Off|p2a: Aggron
+|-activate|p2a: Aggron|move: Protect
+|
+|-heal|p2a: Aggron|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|sugar ovens has 240 seconds left.
+|
+|t:|1664294950
+|switch|p2a: Silvally|Silvally-Fighting|56/100 psn
+|move|p1a: Scrafty|Knock Off|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|35/100 psn
+|
+|-damage|p2a: Silvally|22/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1664294959
+|move|p2a: Silvally|U-turn|p1a: Scrafty
+|-crit|p1a: Scrafty
+|-damage|p1a: Scrafty|40/100
+|
+|t:|1664294964
+|switch|p2a: Lanturn|Lanturn, F|36/100|[from]move: U-turn
+|move|p1a: Scrafty|Knock Off|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|-enditem|p2a: Lanturn|Assault Vest|[from] move: Knock Off|[of] p1a: Scrafty
+|faint|p2a: Lanturn
+|
+|upkeep
+|
+|t:|1664294973
+|switch|p2a: Magmortar|Magmortar, M|100/100
+|turn|16
+|
+|t:|1664294990
+|switch|p1a: Aggron|Aggron, M|100/100
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|move|p2a: Magmortar|Fire Blast|p1a: Aggron
+|-damage|p1a: Aggron|35/100
+|
+|-heal|p1a: Aggron|41/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|RoyalReloaded has 270 seconds left.
+|
+|t:|1664295037
+|move|p1a: Aggron|Protect|p1a: Aggron
+|-singleturn|p1a: Aggron|Protect
+|move|p2a: Magmortar|Fire Blast|p1a: Aggron
+|-activate|p1a: Aggron|move: Protect
+|
+|-heal|p1a: Aggron|47/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1664295056
+|move|p2a: Magmortar|Fire Blast|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+|
+|t:|1664295058
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|turn|19
+|
+|t:|1664295084
+|switch|p2a: Aggron|Aggron, M|85/100
+|move|p1a: Articuno|Hurricane|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|72/100
+|-start|p2a: Aggron|confusion
+|
+|-heal|p2a: Aggron|78/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|sugar ovens has 240 seconds left.
+|
+|t:|1664295103
+|move|p1a: Articuno|U-turn|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|75/100
+|
+|t:|1664295107
+|switch|p1a: Weezing|Weezing, M|65/100|[from]move: U-turn
+|-damage|p1a: Weezing|53/100|[from] Stealth Rock
+|-activate|p2a: Aggron|confusion
+|move|p2a: Aggron|Body Press|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|41/100
+|
+|-heal|p1a: Weezing|47/100|[from] item: Black Sludge
+|-heal|p2a: Aggron|81/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|sugar ovens has 240 seconds left.
+|
+|t:|1664295122
+|switch|p2a: Magmortar|Magmortar, M|100/100
+|move|p1a: Weezing|Pain Split|p2a: Magmortar
+|-sethp|p2a: Magmortar|77/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|67/100|[from] move: Pain Split
+|
+|-heal|p1a: Weezing|73/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|inactive|sugar ovens has 240 seconds left.
+|
+|t:|1664295133
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|move|p2a: Magmortar|Fire Blast|p1a: Articuno
+|-damage|p1a: Articuno|40/100
+|
+|upkeep
+|turn|23
+|inactive|sugar ovens has 240 seconds left.
+|inactive|sugar ovens has 210 seconds left.
+|
+|t:|1664295182
+|switch|p2a: Aggron|Aggron, M|81/100
+|move|p1a: Articuno|Recover|p1a: Articuno
+|-heal|p1a: Articuno|91/100
+|
+|-heal|p2a: Aggron|87/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|sugar ovens has 210 seconds left.
+|
+|t:|1664295190
+|move|p1a: Articuno|Recover|p1a: Articuno
+|-heal|p1a: Articuno|100/100
+|move|p2a: Aggron|Head Smash|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|-heal|p2a: Aggron|93/100|[from] item: Leftovers
+|upkeep
+|c|☆RoyalReloaded|misclick
+|c|☆RoyalReloaded|sadge
+|
+|t:|1664295195
+|switch|p1a: Weezing|Weezing, M|73/100
+|-damage|p1a: Weezing|61/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1664295207
+|switch|p2a: Mesprit|Mesprit|100/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Mesprit
+|-damage|p2a: Mesprit|72/100
+|
+|-heal|p1a: Weezing|67/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|t:|1664295215
+|switch|p1a: Scrafty|Scrafty, M|40/100
+|-damage|p1a: Scrafty|34/100|[from] Stealth Rock
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Mesprit|atk|1
+|move|p2a: Mesprit|Psychic|p1a: Scrafty
+|-immune|p1a: Scrafty
+|
+|upkeep
+|turn|27
+|
+|t:|1664295223
+|switch|p2a: Silvally|Silvally-Fighting|22/100 psn
+|move|p1a: Scrafty|Drain Punch|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|-heal|p1a: Scrafty|47/100|[from] drain|[of] p2a: Silvally
+|faint|p2a: Silvally
+|
+|upkeep
+|inactive|sugar ovens has 210 seconds left.
+|
+|t:|1664295244
+|switch|p2a: Magmortar|Magmortar, M|77/100
+|turn|28
+|
+|t:|1664295257
+|move|p2a: Magmortar|Fire Blast|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|upkeep
+|
+|t:|1664295260
+|switch|p1a: Silvally|Silvally-Ghost|74/100
+|-damage|p1a: Silvally|61/100|[from] Stealth Rock
+|turn|29
+|inactive|sugar ovens has 210 seconds left.
+|
+|t:|1664295309
+|switch|p2a: Aggron|Aggron, M|93/100
+|move|p1a: Silvally|Multi-Attack|p2a: Aggron
+|-damage|p2a: Aggron|71/100
+|
+|-heal|p2a: Aggron|77/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1664295316
+|move|p1a: Silvally|Defog|p2a: Aggron
+|-unboost|p2a: Aggron|evasion|1
+|-sideend|p1: RoyalReloaded|Stealth Rock|[from] move: Defog|[of] p1a: Silvally
+|move|p2a: Aggron|Head Smash|p1a: Silvally
+|-damage|p1a: Silvally|20/100
+|
+|-heal|p2a: Aggron|83/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1664295324
+|move|p1a: Silvally|Parting Shot|p2a: Aggron
+|-unboost|p2a: Aggron|atk|1
+|-unboost|p2a: Aggron|spa|1
+|
+|t:|1664295335
+|switch|p1a: Weezing|Weezing, M|67/100|[from]move: Parting Shot
+|move|p2a: Aggron|Head Smash|p1a: Weezing
+|-damage|p1a: Weezing|34/100
+|
+|-heal|p1a: Weezing|40/100|[from] item: Black Sludge
+|-heal|p2a: Aggron|89/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|sugar ovens has 210 seconds left.
+|
+|t:|1664295344
+|switch|p2a: Mesprit|Mesprit|72/100
+|move|p1a: Weezing|Pain Split|p2a: Mesprit
+|-sethp|p2a: Mesprit|58/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|52/100|[from] move: Pain Split
+|
+|-heal|p1a: Weezing|58/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|t:|1664295352
+|switch|p1a: Silvally|Silvally-Ghost|20/100
+|move|p2a: Mesprit|Psychic|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|t:|1664295354
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|34
+|
+|t:|1664295356
+|switch|p2a: Aggron|Aggron, M|89/100
+|move|p1a: Ribombee|Moonblast|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|69/100
+|
+|-heal|p2a: Aggron|75/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1664295361
+|switch|p1a: Weezing|Weezing, M|58/100
+|move|p2a: Aggron|Head Smash|p1a: Weezing
+|-damage|p1a: Weezing|14/100
+|
+|-heal|p1a: Weezing|20/100|[from] item: Black Sludge
+|-heal|p2a: Aggron|82/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|c|☆RoyalReloaded|gg
+|c|☆sugar ovens|gg
+|
+|t:|1664295369
+|switch|p2a: Mesprit|Mesprit|58/100
+|move|p1a: Weezing|Toxic Spikes|p2a: Mesprit
+|-sidestart|p2: sugar ovens|move: Toxic Spikes
+|
+|-heal|p1a: Weezing|26/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|
+|t:|1664295372
+|move|p2a: Mesprit|Psychic|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|t:|1664295374
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|38
+|
+|t:|1664295375
+|switch|p2a: Aggron|Aggron, M|82/100
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|
+|-heal|p2a: Aggron|88/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1664295378
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Aggron|Head Smash|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|win|sugar ovens

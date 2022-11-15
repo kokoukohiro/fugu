@@ -1,0 +1,269 @@
+|j|☆uult1 freitas
+|j|☆Naturday
+|player|p1|uult1 freitas|swimmerm-gen3|1383
+|player|p2|Naturday|shadowtriad|1446
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Dugtrio-Alola, F|
+|poke|p1|Xatu, F|
+|poke|p1|Haxorus, M|
+|poke|p1|Necrozma|
+|poke|p1|Barbaracle, M|
+|poke|p1|Toxtricity, M|
+|poke|p2|Flapple, M|
+|poke|p2|Gigalith, F|
+|poke|p2|Dugtrio-Alola, F|
+|poke|p2|Braviary, M|
+|poke|p2|Clefairy, F|
+|poke|p2|Togedemaru, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio-Alola, F|100/100
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|1
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|53/100
+|move|p2a: Gigalith|Earthquake|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|j| Angelborn
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Gigalith
+|-sidestart|p2: Naturday|move: Stealth Rock
+|move|p2a: Gigalith|Stealth Rock|p1a: Dugtrio
+|-sidestart|p1: uult1 freitas|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|2/100
+|move|p2a: Gigalith|Gravity|p2a: Gigalith
+|-fieldstart|move: Gravity
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-crit|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Flapple|Flapple, M|100/100
+|-damage|p2a: Flapple|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p2a: Flapple|Sucker Punch||[still]
+|-fail|p2a: Flapple
+|move|p1a: Dugtrio|Memento|p2a: Flapple
+|-unboost|p2a: Flapple|atk|2
+|-unboost|p2a: Flapple|spa|2
+|faint|p1a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Flapple|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma|100/100
+|-damage|p1a: Necrozma|88/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Clefairy|Clefairy, F|100/100
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Necrozma|82/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p1a: Necrozma|Knock Off|p2a: Clefairy
+|-resisted|p2a: Clefairy
+|-damage|p2a: Clefairy|82/100
+|-enditem|p2a: Clefairy|Eviolite|[from] move: Knock Off|[of] p1a: Necrozma
+|move|p2a: Clefairy|Teleport|p2a: Clefairy
+|
+|switch|p2a: Braviary|Braviary, M|100/100|[from]move: Teleport
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Necrozma|76/100|[from] Sandstorm
+|-damage|p2a: Braviary|94/100|[from] Sandstorm
+|-fieldend|move: Gravity
+|upkeep
+|turn|8
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Braviary
+|-damage|p2a: Braviary|9/100
+|move|p2a: Braviary|Brave Bird|p1a: Necrozma
+|-damage|p1a: Necrozma|12/100
+|-damage|p2a: Braviary|0 fnt|[from] Recoil
+|faint|p2a: Braviary
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio-Alola, F|100/100
+|-damage|p2a: Dugtrio|98/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-crit|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|upkeep
+|
+|switch|p1a: Barbaracle|Barbaracle, M|100/100
+|-damage|p1a: Barbaracle|88/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Clefairy|Clefairy, F|82/100
+|move|p1a: Barbaracle|Liquidation|p2a: Clefairy
+|-damage|p2a: Clefairy|22/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Barbaracle|Liquidation|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|
+|upkeep
+|
+|switch|p2a: Togedemaru|Togedemaru, M|100/100
+|-damage|p2a: Togedemaru|95/100|[from] Stealth Rock
+|-item|p2a: Togedemaru|Air Balloon
+|turn|12
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-damage|p1a: Haxorus|88/100|[from] Stealth Rock
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Togedemaru|Spiky Shield||[still]
+|-fail|p2a: Togedemaru
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Togedemaru|Gravity|p2a: Togedemaru
+|-fieldstart|move: Gravity
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Haxorus|Earthquake|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|0 fnt
+|-enditem|p2a: Togedemaru|Air Balloon
+|-damage|p1a: Haxorus|78/100|[from] item: Life Orb
+|faint|p2a: Togedemaru
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio-Alola, F|98/100
+|-damage|p2a: Dugtrio|95/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Haxorus
+|-damage|p1a: Haxorus|37/100
+|move|p1a: Haxorus|Earthquake|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-damage|p1a: Haxorus|27/100|[from] item: Life Orb
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Flapple|Flapple, M|82/100
+|-damage|p2a: Flapple|70/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Flapple|Sucker Punch|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|-damage|p2a: Flapple|60/100|[from] item: Life Orb
+|faint|p1a: Haxorus
+|
+|upkeep
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|-damage|p1a: Xatu|76/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Xatu|Reflect|p1a: Xatu
+|-sidestart|p1: uult1 freitas|Reflect
+|move|p2a: Flapple|Dragon Dance|p2a: Flapple
+|-boost|p2a: Flapple|atk|1
+|-boost|p2a: Flapple|spe|1
+|
+|-fieldend|move: Gravity
+|upkeep
+|turn|18
+|
+|move|p2a: Flapple|Dragon Rush|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-damage|p2a: Flapple|50/100|[from] item: Life Orb
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Flapple|Sucker Punch|p1a: Toxtricity
+|-crit|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-damage|p2a: Flapple|40/100|[from] item: Life Orb
+|faint|p1a: Toxtricity
+|
+|upkeep
+|c|☆uult1 freitas|,
+|c|☆uult1 freitas|LOL
+|
+|switch|p1a: Barbaracle|Barbaracle, M|88/100
+|-damage|p1a: Barbaracle|76/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Flapple|Grav Apple|p1a: Barbaracle|[miss]
+|-miss|p2a: Flapple|p1a: Barbaracle
+|move|p1a: Barbaracle|Stone Edge|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|faint|p2a: Flapple
+|
+|win|uult1 freitas
+|raw|uult1 freitas's rating: 1383 &rarr; <strong>1407</strong><br />(+24 for winning)
+|raw|Naturday's rating: 1446 &rarr; <strong>1422</strong><br />(-24 for losing)
+|l|☆Naturday
+|l|☆uult1 freitas

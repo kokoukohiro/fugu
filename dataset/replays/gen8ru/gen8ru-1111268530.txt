@@ -1,0 +1,152 @@
+|j|☆Delphox News
+|j|☆rwilke3
+|player|p1|Delphox News|lucy-gen3|1531
+|player|p2|rwilke3|swimmer-gen4|1210
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Ninetales, M|
+|poke|p1|Silvally-*|
+|poke|p1|Steelix, F|
+|poke|p1|Sableye, F|
+|poke|p2|Decidueye, M|
+|poke|p2|Inteleon, F|
+|poke|p2|Mudsdale, M|
+|poke|p2|Hattrem, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Duraludon, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rwilke3)
+|
+|start
+|switch|p1a: Steelix|Steelix, F|100/100
+|switch|p2a: Hattrem|Hattrem, F|100/100
+|turn|1
+|
+|move|p1a: Steelix|Earthquake|p2a: Hattrem
+|-crit|p2a: Hattrem
+|-damage|p2a: Hattrem|30/100
+|move|p2a: Hattrem|Mystical Fire|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|32/100
+|-unboost|p1a: Steelix|spa|1
+|
+|-heal|p1a: Steelix|38/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|move|p1a: Steelix|Earthquake|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|76/100
+|
+|-heal|p1a: Steelix|44/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Rillaboom|Knock Off|p1a: Steelix
+|-damage|p1a: Steelix|24/100
+|-enditem|p1a: Steelix|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1a: Steelix|Explosion|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p1a: Steelix
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|switch|p2a: Hattrem|Hattrem, F|30/100
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|4
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Hattrem
+|-damage|p2a: Hattrem|0 fnt
+|faint|p2a: Hattrem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, F|100/100
+|turn|5
+|
+|switch|p1a: Silvally|Silvally-Water|100/100
+|move|p2a: Inteleon|Hydro Pump|p1a: Silvally|[miss]
+|-miss|p2a: Inteleon|p1a: Silvally
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Mudsdale|Mudsdale, M|100/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Mudsdale|Body Press|p1a: Silvally
+|-damage|p1a: Silvally|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|14/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Earthquake|p1a: Silvally
+|-damage|p1a: Silvally|26/100
+|
+|-weather|none
+|-heal|p2a: Mudsdale|20/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Decidueye|Decidueye, M|100/100
+|move|p1a: Silvally|Multi-Attack|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, F|100/100
+|turn|10
+|
+|move|p2a: Inteleon|Hydro Pump|p1a: Silvally|[miss]
+|-miss|p2a: Inteleon|p1a: Silvally
+|move|p1a: Silvally|Flame Charge|p2a: Inteleon
+|-resisted|p2a: Inteleon
+|-damage|p2a: Inteleon|58/100
+|-boost|p1a: Silvally|spe|1
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Silvally|Psychic Fangs|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|upkeep
+|-message|rwilke3 forfeited.
+|
+|win|Delphox News
+|l|☆rwilke3

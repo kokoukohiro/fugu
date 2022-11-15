@@ -1,0 +1,451 @@
+|j|☆Mindblade
+|j|☆scrufty
+|player|p1|Mindblade|pokemonbreeder-gen4|1525
+|player|p2|scrufty|1|1305
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Sableye, F|
+|poke|p1|Steelix, F|
+|poke|p1|Sigilyph, F|
+|poke|p1|Qwilfish, F|
+|poke|p1|Passimian, F|
+|poke|p1|Goodra, F|
+|poke|p2|Vileplume, M|
+|poke|p2|Drifblim, M|
+|poke|p2|Escavalier, F|
+|poke|p2|Passimian, M|
+|poke|p2|Gigalith, M|
+|poke|p2|Sigilyph, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cocohelm Kratzcot|Passimian, F|100/100
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|turn|1
+|
+|switch|p1a: GelatinousGuardian|Goodra, F|100/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: GelatinousGuardian
+|-damage|p1a: GelatinousGuardian|75/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Thorny Seafood|Qwilfish, F|100/100
+|-ability|p1a: Thorny Seafood|Intimidate|boost
+|-unboost|p2a: Vileplume|atk|1
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thorny Seafood|95/100|[from] Sandstorm
+|-heal|p1a: Thorny Seafood|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Sigilyph|Sigilyph, F|100/100
+|move|p1a: Thorny Seafood|Taunt|p2a: Sigilyph
+|-start|p2a: Sigilyph|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thorny Seafood|95/100|[from] Sandstorm
+|-heal|p1a: Thorny Seafood|100/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p1a: Moon Imp|Sableye, F|100/100
+|move|p2a: Sigilyph|Psyshock|p1a: Moon Imp
+|-immune|p1a: Moon Imp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moon Imp|95/100|[from] Sandstorm
+|-heal|p1a: Moon Imp|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|move|p1a: Moon Imp|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|80/100
+|-enditem|p2a: Vileplume|Black Sludge|[from] move: Knock Off|[of] p1a: Moon Imp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|74/100|[from] Sandstorm
+|-damage|p1a: Moon Imp|95/100|[from] Sandstorm
+|-heal|p1a: Moon Imp|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Thorny Seafood|Qwilfish, F|100/100
+|-ability|p1a: Thorny Seafood|Intimidate|boost
+|-unboost|p2a: Vileplume|atk|1
+|move|p2a: Vileplume|Sludge Bomb|p1a: Thorny Seafood
+|-resisted|p1a: Thorny Seafood
+|-damage|p1a: Thorny Seafood|75/100
+|
+|-weather|none
+|-heal|p1a: Thorny Seafood|81/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Thorny Seafood|Spikes|p2a: Vileplume
+|-sidestart|p2: scrufty|Spikes
+|move|p2a: Vileplume|Giga Drain|p1a: Thorny Seafood
+|-damage|p1a: Thorny Seafood|36/100
+|-heal|p2a: Vileplume|95/100|[from] drain|[of] p1a: Thorny Seafood
+|
+|-heal|p1a: Thorny Seafood|42/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: GelatinousGuardian|Goodra, F|75/100
+|switch|p2a: Sigilyph|Sigilyph, F|100/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Sigilyph|Psyshock|p1a: GelatinousGuardian
+|-damage|p1a: GelatinousGuardian|8/100
+|move|p1a: GelatinousGuardian|Draco Meteor|p2a: Sigilyph
+|-damage|p2a: Sigilyph|0 fnt
+|-unboost|p1a: GelatinousGuardian|spa|2
+|faint|p2a: Sigilyph
+|
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, M|100/100
+|-damage|p2a: Passimian|88/100|[from] Spikes
+|turn|10
+|
+|switch|p1a: Moon Imp|Sableye, F|100/100
+|move|p2a: Passimian|Knock Off|p1a: Moon Imp
+|-damage|p1a: Moon Imp|71/100
+|-enditem|p1a: Moon Imp|Leftovers|[from] move: Knock Off|[of] p2a: Passimian
+|
+|upkeep
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by scrufty)
+|
+|switch|p2a: Vileplume|Vileplume, M|95/100
+|-damage|p2a: Vileplume|83/100|[from] Spikes
+|switch|p1a: GelatinousGuardian|Goodra, F|8/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-damage|p2a: Gigalith|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: GelatinousGuardian|Draco Meteor|p2a: Gigalith
+|-damage|p2a: Gigalith|30/100
+|-unboost|p1a: GelatinousGuardian|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: GelatinousGuardian|1/100|[from] Sandstorm
+|-heal|p2a: Gigalith|36/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Alloy Wyrm|Steelix, F|100/100
+|move|p2a: Gigalith|Protect||[still]
+|-fail|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|42/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|move|p1a: Alloy Wyrm|Stealth Rock|p2a: Drifblim
+|-sidestart|p2: scrufty|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifblim|94/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|switch|p1a: Cocohelm Kratzcot|Passimian, F|100/100
+|move|p2a: Drifblim|Defog|p1a: Cocohelm Kratzcot
+|-unboost|p1a: Cocohelm Kratzcot|evasion|1
+|-ability|p1a: Cocohelm Kratzcot|Defiant
+|-boost|p1a: Cocohelm Kratzcot|atk|2
+|-sideend|p2: scrufty|Spikes|[from] move: Defog|[of] p2a: Drifblim
+|-sideend|p2: scrufty|Stealth Rock|[from] move: Defog|[of] p2a: Drifblim
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cocohelm Kratzcot|94/100|[from] Sandstorm
+|-damage|p2a: Drifblim|88/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|switch|p2a: Vileplume|Vileplume, M|83/100
+|move|p1a: Cocohelm Kratzcot|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|47/100
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|switch|p1a: GelatinousGuardian|Goodra, F|1/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: GelatinousGuardian
+|-damage|p1a: GelatinousGuardian|0 fnt
+|faint|p1a: GelatinousGuardian
+|
+|upkeep
+|
+|switch|p1a: Totem Angel|Sigilyph, F|100/100
+|turn|18
+|
+|switch|p2a: Gigalith|Gigalith, M|42/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Totem Angel|Psyshock|p2a: Gigalith
+|-damage|p2a: Gigalith|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|16/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Totem Angel|Psyshock|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, M|88/100
+|turn|20
+|
+|switch|p1a: Moon Imp|Sableye, F|71/100
+|move|p2a: Passimian|U-turn|p1a: Moon Imp
+|-damage|p1a: Moon Imp|47/100
+|
+|switch|p2a: Escavalier|Escavalier, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Moon Imp|41/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|move|p1a: Moon Imp|Will-O-Wisp|p2a: Escavalier
+|-status|p2a: Escavalier|brn
+|move|p2a: Escavalier|Megahorn|p1a: Moon Imp
+|-damage|p1a: Moon Imp|0 fnt
+|faint|p1a: Moon Imp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Escavalier|94/100 brn|[from] brn
+|upkeep
+|inactive|Mindblade has 120 seconds left.
+|
+|switch|p1a: Totem Angel|Sigilyph, F|100/100
+|turn|22
+|
+|move|p1a: Totem Angel|Heat Wave|p2a: Escavalier
+|-supereffective|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, M|88/100
+|turn|23
+|inactive|Mindblade has 120 seconds left.
+|
+|switch|p1a: Thorny Seafood|Qwilfish, F|42/100
+|-ability|p1a: Thorny Seafood|Intimidate|boost
+|-unboost|p2a: Passimian|atk|1
+|-ability|p2a: Passimian|Defiant
+|-boost|p2a: Passimian|atk|2
+|move|p2a: Passimian|Knock Off|p1a: Thorny Seafood
+|-damage|p1a: Thorny Seafood|0 fnt
+|-enditem|p1a: Thorny Seafood|Black Sludge|[from] move: Knock Off|[of] p2a: Passimian
+|faint|p1a: Thorny Seafood
+|
+|upkeep
+|inactive|Mindblade has 120 seconds left.
+|
+|switch|p1a: Alloy Wyrm|Steelix, F|100/100
+|turn|24
+|
+|switch|p2a: Drifblim|Drifblim, M|88/100
+|move|p1a: Alloy Wyrm|Heavy Slam|p2a: Drifblim
+|-damage|p2a: Drifblim|57/100
+|
+|upkeep
+|turn|25
+|inactive|Mindblade has 120 seconds left.
+|
+|switch|p1a: Totem Angel|Sigilyph, F|100/100
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Totem Angel
+|-status|p1a: Totem Angel|brn
+|
+|upkeep
+|turn|26
+|inactive|Mindblade has 120 seconds left.
+|
+|switch|p1a: Cocohelm Kratzcot|Passimian, F|94/100
+|move|p2a: Drifblim|Hex|p1a: Cocohelm Kratzcot
+|-damage|p1a: Cocohelm Kratzcot|62/100
+|
+|upkeep
+|turn|27
+|inactive|Mindblade has 120 seconds left.
+|inactive|scrufty has 120 seconds left.
+|
+|switch|p2a: Vileplume|Vileplume, M|47/100
+|move|p1a: Cocohelm Kratzcot|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|30/100
+|
+|upkeep
+|turn|28
+|inactive|scrufty has 120 seconds left.
+|
+|switch|p1a: Totem Angel|Sigilyph, F|100/100 brn
+|switch|p2a: Drifblim|Drifblim, M|57/100
+|
+|upkeep
+|turn|29
+|inactive|Mindblade has 120 seconds left.
+|inactive|Mindblade has 90 seconds left.
+|
+|switch|p1a: Cocohelm Kratzcot|Passimian, F|62/100
+|move|p2a: Drifblim|Hex|p1a: Cocohelm Kratzcot
+|-damage|p1a: Cocohelm Kratzcot|31/100
+|
+|upkeep
+|turn|30
+|inactive|Mindblade has 90 seconds left.
+|
+|switch|p2a: Vileplume|Vileplume, M|30/100
+|move|p1a: Cocohelm Kratzcot|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|14/100
+|
+|upkeep
+|turn|31
+|inactive|Mindblade has 90 seconds left.
+|inactive|scrufty has 120 seconds left.
+|
+|move|p1a: Cocohelm Kratzcot|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+|c|☆scrufty|!dt effect spore
+|raw|<ul class="utilichart"><li class="result"><span class="col namecol"><a href="https://dex.pokemonshowdown.com/abilities/effectspore">Effect Spore</a></span> <span class="col abilitydesccol">30% chance of poison/paralysis/sleep on others making contact with this Pokemon.</span> </li><li style="clear:both"></li></ul>
+
+|c|☆scrufty|is it bugged
+|
+|switch|p2a: Passimian|Passimian, M|88/100
+|turn|32
+|inactive|Mindblade has 90 seconds left.
+|inactive|scrufty has 90 seconds left.
+|inactive|Mindblade has 60 seconds left.
+|
+|move|p2a: Passimian|Close Combat|p1a: Cocohelm Kratzcot
+|-damage|p1a: Cocohelm Kratzcot|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|faint|p1a: Cocohelm Kratzcot
+|
+|upkeep
+|
+|switch|p1a: Totem Angel|Sigilyph, F|100/100 brn
+|turn|33
+|
+|move|p2a: Passimian|Close Combat|p1a: Totem Angel
+|-resisted|p1a: Totem Angel
+|-damage|p1a: Totem Angel|79/100 brn
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|move|p1a: Totem Angel|Psyshock|p2a: Passimian
+|-supereffective|p2a: Passimian
+|-damage|p2a: Passimian|0 fnt
+|faint|p2a: Passimian
+|
+|upkeep
+|
+|switch|p2a: Drifblim|Drifblim, M|57/100
+|turn|34
+|
+|move|p1a: Totem Angel|Air Slash|p2a: Drifblim
+|-damage|p2a: Drifblim|9/100
+|move|p2a: Drifblim|Hex|p1a: Totem Angel
+|-supereffective|p1a: Totem Angel
+|-damage|p1a: Totem Angel|0 fnt
+|faint|p1a: Totem Angel
+|
+|upkeep
+|
+|switch|p1a: Alloy Wyrm|Steelix, F|100/100
+|turn|35
+|
+|move|p2a: Drifblim|Strength Sap|p1a: Alloy Wyrm
+|-unboost|p1a: Alloy Wyrm|atk|1
+|-heal|p2a: Drifblim|56/100
+|move|p1a: Alloy Wyrm|Heavy Slam|p2a: Drifblim
+|-damage|p2a: Drifblim|33/100
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Alloy Wyrm
+|-status|p1a: Alloy Wyrm|brn
+|move|p1a: Alloy Wyrm|Heavy Slam|p2a: Drifblim
+|-damage|p2a: Drifblim|22/100
+|
+|-damage|p1a: Alloy Wyrm|94/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p2a: Drifblim|Hex|p1a: Alloy Wyrm
+|-damage|p1a: Alloy Wyrm|50/100 brn
+|move|p1a: Alloy Wyrm|Heavy Slam|p2a: Drifblim
+|-damage|p2a: Drifblim|12/100
+|
+|-heal|p1a: Alloy Wyrm|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Alloy Wyrm|50/100 brn|[from] brn
+|upkeep
+|turn|38
+|inactive|Mindblade has 90 seconds left.
+|
+|move|p2a: Drifblim|Strength Sap|p1a: Alloy Wyrm
+|-unboost|p1a: Alloy Wyrm|atk|1
+|-heal|p2a: Drifblim|43/100
+|move|p1a: Alloy Wyrm|Heavy Slam|p2a: Drifblim
+|-crit|p2a: Drifblim
+|-damage|p2a: Drifblim|21/100
+|
+|-heal|p1a: Alloy Wyrm|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Alloy Wyrm|50/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p2a: Drifblim|Hex|p1a: Alloy Wyrm
+|-damage|p1a: Alloy Wyrm|12/100 brn
+|move|p1a: Alloy Wyrm|Heavy Slam|p2a: Drifblim
+|-damage|p2a: Drifblim|13/100
+|
+|-heal|p1a: Alloy Wyrm|18/100 brn|[from] item: Leftovers
+|-damage|p1a: Alloy Wyrm|12/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Drifblim|Hex|p1a: Alloy Wyrm
+|-damage|p1a: Alloy Wyrm|0 fnt
+|faint|p1a: Alloy Wyrm
+|
+|win|scrufty
+|c|☆scrufty|gg
+|l|☆Mindblade

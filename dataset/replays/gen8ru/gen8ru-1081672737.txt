@@ -1,0 +1,73 @@
+|j|☆GreedentFan69
+|j|☆Testmctestyface1
+|player|p1|GreedentFan69|greta-gen3|1534
+|player|p2|Testmctestyface1|169|1251
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Sableye, M|
+|poke|p1|Mantine, F|
+|poke|p1|Snorlax, F|
+|poke|p1|Steelix, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Scrafty, M|
+|poke|p2|Charizard, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Quagsire, M|
+|poke|p2|Vileplume, M|
+|poke|p2|Passimian, M|
+|poke|p2|Eldegoss, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GreedentFan69)
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|76/100
+|move|p2a: Eldegoss|Sleep Powder||[still]
+|-fail|p2a: Eldegoss
+|
+|-heal|p1a: Salazzle|82/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Salazzle|Toxic|p2a: Ninetales
+|-status|p2a: Ninetales|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|88/100|[from] item: Black Sludge
+|-damage|p2a: Ninetales|95/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Ninetales|Psyshock|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|94/100|[from] item: Black Sludge
+|-damage|p2a: Ninetales|83/100 tox|[from] psn
+|upkeep
+|turn|4
+|-message|Testmctestyface1 forfeited.
+|
+|win|GreedentFan69
+|l|☆Testmctestyface1

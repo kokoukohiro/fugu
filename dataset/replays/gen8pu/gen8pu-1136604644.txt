@@ -1,0 +1,286 @@
+|j|☆Joke sets
+|j|☆Yekard
+|player|p1|Joke sets|beauty-gen2|1338
+|player|p2|Yekard|hugh|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Beheeyem, F|
+|poke|p1|Mareanie, F|
+|poke|p1|Gourgeist-*, M|
+|poke|p1|Thievul, M|
+|poke|p1|Pawniard, M|
+|poke|p1|Manectric, F|
+|poke|p2|Stonjourner, F|
+|poke|p2|Pincurchin, F|
+|poke|p2|Thievul, M|
+|poke|p2|Pawniard, M|
+|poke|p2|Silvally-*|
+|poke|p2|Fraxure, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Beheeyem|Beheeyem, F|100/100
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|turn|1
+|
+|move|p2a: Pawniard|Knock Off|p1a: Beheeyem
+|-supereffective|p1a: Beheeyem
+|-enditem|p1a: Beheeyem|Colbur Berry|[eat]
+|-enditem|p1a: Beheeyem|Colbur Berry|[weaken]
+|-damage|p1a: Beheeyem|52/100
+|move|p1a: Beheeyem|Thunderbolt|p2a: Pawniard
+|-damage|p2a: Pawniard|19/100
+|
+|upkeep
+|turn|2
+|j| adhadda
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|move|p2a: Pawniard|Stealth Rock|p1a: Pawniard
+|-sidestart|p1: Joke sets|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Stonjourner|Stonjourner, F|100/100
+|move|p1a: Pawniard|Stealth Rock|p2a: Stonjourner
+|-sidestart|p2: Yekard|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|l| adhadda
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|-damage|p1a: Gourgeist|88/100|[from] Stealth Rock
+|-item|p2a: Stonjourner|Choice Scarf|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Stonjourner|Heat Crash|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|10/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Gourgeist|Shadow Sneak|p2a: Stonjourner
+|-damage|p2a: Stonjourner|80/100
+|move|p2a: Stonjourner|Heat Crash|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|upkeep
+|
+|switch|p1a: Mareanie|Mareanie, F|100/100
+|-damage|p1a: Mareanie|88/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-damage|p2a: Pincurchin|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Mareanie|Toxic Spikes|p2a: Pincurchin
+|-sidestart|p2: Yekard|move: Toxic Spikes
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Mareanie|Toxic Spikes|p2a: Pincurchin
+|-sidestart|p2: Yekard|move: Toxic Spikes
+|move|p2a: Pincurchin|Discharge|p1a: Mareanie
+|-supereffective|p1a: Mareanie
+|-damage|p1a: Mareanie|4/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Manectric|Manectric, F|100/100
+|-damage|p1a: Manectric|88/100|[from] Stealth Rock
+|move|p2a: Pincurchin|Discharge|p1a: Manectric
+|-ability|p1a: Manectric|Lightning Rod|boost
+|-boost|p1a: Manectric|spa|1
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Manectric|Flamethrower|p2a: Pincurchin
+|-damage|p2a: Pincurchin|37/100
+|move|p2a: Pincurchin|Spikes|p1a: Manectric
+|-sidestart|p1: Joke sets|Spikes
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Manectric|Flamethrower|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|switch|p2a: Stonjourner|Stonjourner, F|80/100
+|-status|p2a: Stonjourner|tox
+|-damage|p2a: Stonjourner|68/100 tox|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Manectric|Flamethrower|p2a: Stonjourner
+|-resisted|p2a: Stonjourner
+|-damage|p2a: Stonjourner|5/100 tox
+|move|p2a: Stonjourner|Earthquake|p1a: Manectric
+|-supereffective|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|-damage|p2a: Stonjourner|0 fnt|[from] psn
+|faint|p2a: Stonjourner
+|upkeep
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|switch|p2a: Pawniard|Pawniard, M|19/100
+|-damage|p1a: Pawniard|88/100|[from] Spikes
+|-damage|p1a: Pawniard|82/100|[from] Stealth Rock
+|-damage|p2a: Pawniard|13/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Pawniard|Sucker Punch|p2a: Pawniard
+|-resisted|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|
+|upkeep
+|
+|switch|p2a: Fraxure|Fraxure, M|100/100
+|-damage|p2a: Fraxure|88/100|[from] Stealth Rock
+|-status|p2a: Fraxure|tox
+|-ability|p2a: Fraxure|Mold Breaker
+|turn|13
+|
+|switch|p1a: Mareanie|Mareanie, F|38/100
+|-damage|p1a: Mareanie|26/100|[from] Spikes
+|-damage|p1a: Mareanie|13/100|[from] Stealth Rock
+|move|p2a: Fraxure|Dragon Dance|p2a: Fraxure
+|-boost|p2a: Fraxure|atk|1
+|-boost|p2a: Fraxure|spe|1
+|
+|-damage|p2a: Fraxure|82/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|14
+|
+|move|p2a: Fraxure|Poison Jab|p1a: Mareanie
+|-resisted|p1a: Mareanie
+|-damage|p1a: Mareanie|0 fnt
+|faint|p1a: Mareanie
+|
+|-damage|p2a: Fraxure|69/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Beheeyem|Beheeyem, F|52/100
+|-damage|p1a: Beheeyem|40/100|[from] Spikes
+|-damage|p1a: Beheeyem|27/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Fraxure|Poison Jab|p1a: Beheeyem
+|-damage|p1a: Beheeyem|0 fnt
+|faint|p1a: Beheeyem
+|
+|-damage|p2a: Fraxure|51/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Pawniard|Pawniard, M|82/100
+|-damage|p1a: Pawniard|70/100|[from] Spikes
+|-damage|p1a: Pawniard|64/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Pawniard|Sucker Punch|p2a: Fraxure
+|-damage|p2a: Fraxure|21/100 tox
+|move|p2a: Fraxure|Outrage|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|4/100
+|
+|-damage|p2a: Fraxure|0 fnt|[from] psn
+|faint|p2a: Fraxure
+|upkeep
+|
+|switch|p2a: Thievul|Thievul, M|100/100
+|-status|p2a: Thievul|tox
+|-damage|p2a: Thievul|88/100 tox|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|-damage|p2a: Thievul|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Thievul|Thievul, M|100/100
+|-damage|p1a: Thievul|88/100|[from] Spikes
+|-damage|p1a: Thievul|76/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Thievul|Nasty Plot|p1a: Thievul
+|-boost|p1a: Thievul|spa|2
+|move|p2a: Thievul|Dark Pulse|p1a: Thievul
+|-resisted|p1a: Thievul
+|-damage|p1a: Thievul|52/100
+|
+|-damage|p2a: Thievul|70/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Thievul|Dark Pulse|p2a: Thievul
+|-resisted|p2a: Thievul
+|-damage|p2a: Thievul|26/100 tox
+|cant|p2a: Thievul|flinch
+|
+|-damage|p2a: Thievul|7/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Thievul|Dark Pulse|p2a: Thievul
+|-resisted|p2a: Thievul
+|-damage|p2a: Thievul|0 fnt
+|faint|p2a: Thievul
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Bug|100/100
+|-status|p2a: Silvally|tox
+|-damage|p2a: Silvally|76/100 tox|[from] Stealth Rock
+|turn|21
+|j| yogibears
+|
+|move|p1a: Thievul|Endure|p1a: Thievul
+|-singleturn|p1a: Thievul|move: Endure
+|move|p2a: Silvally|Multi-Attack|p1a: Thievul
+|-supereffective|p1a: Thievul
+|-activate|p1a: Thievul|move: Endure
+|-damage|p1a: Thievul|1/100
+|-enditem|p1a: Thievul|Weakness Policy
+|-boost|p1a: Thievul|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Thievul|spa|2|[from] item: Weakness Policy
+|
+|-damage|p2a: Silvally|70/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Thievul|Dark Pulse|p2a: Silvally
+|-crit|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|win|Joke sets
+|c|☆Yekard|wtf
+|l|☆Yekard
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).
+|l| yogibears

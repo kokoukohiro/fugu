@@ -1,0 +1,243 @@
+|j|☆young frisbee
+|j|☆gijion chilli
+|player|p1|young frisbee|hilda-dueldisk|1469
+|player|p2|gijion chilli|twins-gen4dp|1633
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Doublade, M|
+|poke|p1|Noivern, F|
+|poke|p1|Weavile, F|
+|poke|p1|Gardevoir, M|
+|poke|p1|Pangoro, M|
+|poke|p1|Duraludon, M|
+|poke|p2|Machamp, F|
+|poke|p2|Weavile, F|
+|poke|p2|Duraludon, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Doublade, F|
+|poke|p2|Gardevoir, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| wooden chair
+|
+|start
+|switch|p1a: Noivern|Noivern, F|100/100
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|turn|1
+|c|☆young frisbee|is this ht
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Duraludon
+|-enditem|p2a: Duraludon|Focus Sash
+|-damage|p2a: Duraludon|1/100
+|-unboost|p1a: Noivern|spa|2
+|move|p2a: Duraludon|Thunder Wave|p1a: Noivern
+|-status|p1a: Noivern|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Duraludon|Stealth Rock|p1a: Noivern
+|-sidestart|p1: young frisbee|move: Stealth Rock
+|move|p1a: Noivern|Draco Meteor|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|-unboost|p1a: Noivern|spa|2
+|faint|p2a: Duraludon
+|
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|3
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|-damage|p1a: Duraludon|94/100|[from] Stealth Rock
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Weavile|Knock Off|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|-enditem|p1a: Duraludon|Focus Sash|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|faint|p1a: Duraludon
+|
+|upkeep
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Pressure|[from] ability: Trace|[of] p2a: Weavile
+|-ability|p1a: Gardevoir|Pressure
+|turn|5
+|
+|move|p2a: Weavile|Ice Shard|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|-damage|p2a: Weavile|81/100|[from] item: Life Orb
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|-damage|p1a: Pangoro|94/100|[from] Stealth Rock
+|-ability|p1a: Pangoro|Mold Breaker
+|turn|6
+|
+|switch|p2a: Machamp|Machamp, F|100/100
+|move|p1a: Pangoro|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|33/100
+|
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Pangoro
+|-damage|p1a: Pangoro|66/100
+|move|p1a: Pangoro|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by young frisbee)
+|j| Adrift and Alone
+|
+|switch|p2a: Doublade|Doublade, F|100/100
+|turn|8
+|
+|switch|p1a: Noivern|Noivern, F|100/100 par
+|-damage|p1a: Noivern|76/100 par|[from] Stealth Rock
+|move|p2a: Doublade|Iron Head|p1a: Noivern
+|-damage|p1a: Noivern|24/100 par
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|upkeep
+|
+|switch|p1a: Pangoro|Pangoro, M|66/100
+|-damage|p1a: Pangoro|60/100|[from] Stealth Rock
+|-ability|p1a: Pangoro|Mold Breaker
+|turn|10
+|inactive|gijion chilli has 120 seconds left.
+|
+|move|p1a: Pangoro|Earthquake|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|40/100
+|move|p2a: Doublade|Iron Head|p1a: Pangoro
+|-damage|p1a: Pangoro|13/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Pangoro
+|-resisted|p1a: Pangoro
+|-damage|p1a: Pangoro|2/100
+|move|p1a: Pangoro|Earthquake|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|upkeep
+|inactive|gijion chilli has 120 seconds left.
+|inactive|gijion chilli has 90 seconds left.
+|
+|switch|p2a: Weavile|Weavile, F|81/100
+|-ability|p2a: Weavile|Pressure
+|turn|12
+|
+|move|p2a: Weavile|Knock Off|p1a: Pangoro
+|-resisted|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|-enditem|p1a: Pangoro|Choice Band|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|71/100|[from] item: Life Orb
+|faint|p1a: Pangoro
+|
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|13
+|
+|move|p2a: Weavile|Ice Shard|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|52/100
+|-damage|p2a: Weavile|61/100|[from] item: Life Orb
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Weavile|Brick Break|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-damage|p1a: Weavile|42/100|[from] item: Life Orb
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Pressure|[from] ability: Trace|[of] p1a: Weavile
+|-ability|p2a: Gardevoir|Pressure
+|turn|15
+|
+|move|p1a: Weavile|Ice Shard|p2a: Gardevoir
+|-damage|p2a: Gardevoir|8/100
+|-damage|p1a: Weavile|32/100|[from] item: Life Orb
+|move|p2a: Gardevoir|Mystical Fire|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|switch|p1a: Doublade|Doublade, M|100/100
+|-damage|p1a: Doublade|94/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Gardevoir|Mystical Fire|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|26/100
+|-unboost|p1a: Doublade|spa|1
+|move|p1a: Doublade|Swords Dance|p1a: Doublade
+|-boost|p1a: Doublade|atk|2
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Doublade|Shadow Sneak|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|turn|18
+|
+|move|p2a: Weezing|Fire Blast|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|faint|p1a: Doublade
+|
+|win|gijion chilli
+|c|☆gijion chilli|Gg
+|raw|young frisbee's rating: 1469 &rarr; <strong>1458</strong><br />(-11 for losing)
+|raw|gijion chilli's rating: 1633 &rarr; <strong>1644</strong><br />(+11 for winning)
+|c|☆young frisbee|gg

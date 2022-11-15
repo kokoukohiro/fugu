@@ -1,0 +1,538 @@
+|j|☆DBasso
+|j|☆Twerkulous
+|player|p1|DBasso|drake-gen3|1408
+|player|p2|Twerkulous|backersf|1215
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Basculin, F|
+|poke|p1|Mawile, M|
+|poke|p1|Manectric, F|
+|poke|p1|Roselia, F|
+|poke|p1|Vibrava, M|
+|poke|p1|Silvally-*|
+|poke|p2|Pyukumuku, F|
+|poke|p2|Silvally-*|
+|poke|p2|Musharna, F|
+|poke|p2|Roselia, F|
+|poke|p2|Carkol, M|
+|poke|p2|Basculin-Blue-Striped, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Twerkulous)
+|
+|start
+|switch|p1a: Manectric|Manectric, F|100/100
+|switch|p2a: Basculin-Blue-Stri|Basculin-Blue-Striped, M|100/100
+|turn|1
+|
+|switch|p2a: Roselia|Roselia, F|100/100
+|move|p1a: Manectric|Volt Switch|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|81/100
+|
+|switch|p1a: Silvally|Silvally-Dark|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Carkol|Carkol, M|100/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|move|p2a: Carkol|Will-O-Wisp|p1a: Vibrava
+|-status|p1a: Vibrava|brn
+|
+|-damage|p1a: Vibrava|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Basculin-Blue-Stri|Basculin-Blue-Striped, M|100/100
+|move|p1a: Vibrava|Earth Power|p2a: Basculin-Blue-Stri
+|-damage|p2a: Basculin-Blue-Stri|64/100
+|
+|-damage|p1a: Vibrava|89/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Basculin-Blue-Stri|atk|1
+|move|p2a: Basculin-Blue-Stri|Ice Beam|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|75/100
+|-damage|p2a: Basculin-Blue-Stri|54/100|[from] item: Life Orb
+|
+|-heal|p1a: Mawile|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Basculin-Blue-Stri|Hydro Pump|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|-damage|p2a: Basculin-Blue-Stri|44/100|[from] item: Life Orb
+|faint|p1a: Mawile
+|
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, F|100/100
+|turn|7
+|
+|switch|p2a: Carkol|Carkol, M|100/100
+|move|p1a: Manectric|Volt Switch|p2a: Carkol
+|-damage|p2a: Carkol|76/100
+|
+|switch|p1a: Basculin|Basculin, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F|100/100
+|move|p1a: Basculin|Liquidation|p2a: Pyukumuku
+|-resisted|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|74/100
+|-damage|p1a: Basculin|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Pyukumuku|80/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Roselia|Roselia, F|100/100
+|move|p2a: Pyukumuku|Toxic|p1a: Roselia
+|-immune|p1a: Roselia
+|
+|-heal|p2a: Pyukumuku|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Musharna|Musharna, F|100/100
+|move|p1a: Roselia|Sludge Bomb|p2a: Musharna
+|-damage|p2a: Musharna|75/100
+|
+|-heal|p2a: Musharna|81/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Silvally|Silvally-Dark|100/100
+|switch|p2a: Roselia|Roselia, F|81/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Roselia|Sleep Powder|p1a: Silvally
+|-status|p1a: Silvally|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|13
+|
+|cant|p1a: Silvally|slp
+|move|p2a: Roselia|Spikes|p1a: Silvally
+|-sidestart|p1: DBasso|Spikes
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F|86/100
+|cant|p1a: Silvally|slp
+|
+|-heal|p2a: Pyukumuku|93/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Roselia|Roselia, F|100/100
+|-damage|p1a: Roselia|88/100|[from] Spikes
+|move|p2a: Pyukumuku|Soak|p1a: Roselia
+|-start|p1a: Roselia|typechange|Water
+|
+|-heal|p2a: Pyukumuku|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Roselia|Spikes|p2a: Pyukumuku
+|-sidestart|p2: Twerkulous|Spikes
+|move|p2a: Pyukumuku|Toxic|p1a: Roselia
+|-status|p1a: Roselia|tox
+|
+|-heal|p2a: Pyukumuku|100/100|[from] item: Leftovers
+|-damage|p1a: Roselia|82/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Vibrava|Vibrava, M|89/100 brn
+|switch|p2a: Carkol|Carkol, M|76/100
+|-damage|p2a: Carkol|63/100|[from] Spikes
+|
+|-damage|p1a: Vibrava|83/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F|100/100
+|-damage|p2a: Pyukumuku|88/100|[from] Spikes
+|move|p1a: Vibrava|Earth Power|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|75/100
+|
+|-heal|p2a: Pyukumuku|81/100|[from] item: Leftovers
+|-damage|p1a: Vibrava|77/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Vibrava|U-turn|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|76/100
+|
+|switch|p1a: Roselia|Roselia, F|82/100|[from]move: U-turn
+|-damage|p1a: Roselia|69/100|[from] Spikes
+|move|p2a: Pyukumuku|Soak|p1a: Roselia
+|-start|p1a: Roselia|typechange|Water
+|
+|-heal|p2a: Pyukumuku|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Roselia|Sludge Bomb|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|68/100
+|-status|p2a: Pyukumuku|psn
+|move|p2a: Pyukumuku|Toxic|p1a: Roselia
+|-status|p1a: Roselia|tox
+|
+|-heal|p2a: Pyukumuku|74/100 psn|[from] item: Leftovers
+|-damage|p1a: Roselia|63/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|62/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Roselia|Spikes|p2a: Pyukumuku
+|-sidestart|p2: Twerkulous|Spikes
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|100/100 psn
+|
+|-damage|p1a: Roselia|50/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|88/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p2a: Carkol|Carkol, M|63/100
+|-damage|p2a: Carkol|47/100|[from] Spikes
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|100/100 tox
+|
+|-damage|p1a: Roselia|82/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|-curestatus|p1a: Roselia|tox|[from] ability: Natural Cure
+|switch|p1a: Vibrava|Vibrava, M|77/100 brn
+|move|p2a: Carkol|Rapid Spin|p1a: Vibrava
+|-damage|p1a: Vibrava|69/100 brn
+|-boost|p2a: Carkol|spe|1
+|-sideend|p2: Twerkulous|Spikes|[from] move: Rapid Spin|[of] p2a: Carkol
+|
+|-damage|p1a: Vibrava|63/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Musharna|Musharna, F|81/100
+|move|p1a: Vibrava|Defog|p2a: Musharna
+|-unboost|p2a: Musharna|evasion|1
+|-sideend|p1: DBasso|Spikes|[from] move: Defog|[of] p1a: Vibrava
+|
+|-heal|p2a: Musharna|87/100|[from] item: Leftovers
+|-damage|p1a: Vibrava|57/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Vibrava|U-turn|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|77/100
+|
+|switch|p1a: Silvally|Silvally-Dark|100/100 slp|[from]move: U-turn
+|move|p2a: Musharna|Psyshock|p1a: Silvally
+|-immune|p1a: Silvally
+|
+|-heal|p2a: Musharna|83/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|-curestatus|p1a: Silvally|slp|[msg]
+|move|p1a: Silvally|Multi-Attack|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|faint|p2a: Musharna
+|
+|upkeep
+|
+|switch|p2a: Carkol|Carkol, M|47/100
+|turn|27
+|
+|switch|p1a: Vibrava|Vibrava, M|57/100 brn
+|move|p2a: Carkol|Stealth Rock|p1a: Vibrava
+|-sidestart|p1: DBasso|move: Stealth Rock
+|
+|-damage|p1a: Vibrava|51/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|switch|p2a: Silvally|Silvally-Dark|100/100
+|move|p1a: Vibrava|Roost|p1a: Vibrava
+|-heal|p1a: Vibrava|100/100 brn
+|-singleturn|p1a: Vibrava|move: Roost
+|
+|-damage|p1a: Vibrava|95/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|move|p1a: Vibrava|Defog|p2a: Silvally
+|-unboost|p2a: Silvally|evasion|1
+|-sideend|p1: DBasso|Stealth Rock|[from] move: Defog|[of] p1a: Vibrava
+|
+|-damage|p1a: Vibrava|89/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Vibrava
+|-damage|p1a: Vibrava|0 fnt
+|faint|p1a: Vibrava
+|
+|upkeep
+|
+|switch|p1a: Basculin|Basculin, F|91/100
+|turn|31
+|
+|switch|p2a: Roselia|Roselia, F|81/100
+|move|p1a: Basculin|Superpower|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|51/100
+|-unboost|p1a: Basculin|atk|1
+|-unboost|p1a: Basculin|def|1
+|-damage|p1a: Basculin|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Roselia|Roselia, F|82/100
+|move|p2a: Roselia|Spikes|p1a: Roselia
+|-sidestart|p1: DBasso|Spikes
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Carkol|Carkol, M|47/100
+|move|p1a: Roselia|Spikes|p2a: Carkol
+|-sidestart|p2: Twerkulous|Spikes
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Roselia|Giga Drain|p2a: Carkol
+|-damage|p2a: Carkol|31/100
+|-heal|p1a: Roselia|91/100|[from] drain|[of] p2a: Carkol
+|move|p2a: Carkol|Stealth Rock|p1a: Roselia
+|-sidestart|p1: DBasso|move: Stealth Rock
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Roselia|Sludge Bomb|p2a: Carkol
+|-resisted|p2a: Carkol
+|-damage|p2a: Carkol|21/100
+|move|p2a: Carkol|Flamethrower|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|62/100
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Roselia|Sludge Bomb|p2a: Carkol
+|-resisted|p2a: Carkol
+|-damage|p2a: Carkol|13/100
+|move|p2a: Carkol|Rapid Spin|p1a: Roselia
+|-damage|p1a: Roselia|54/100
+|-boost|p2a: Carkol|spe|1
+|-sideend|p2: Twerkulous|Spikes|[from] move: Rapid Spin|[of] p2a: Carkol
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Carkol|Flamethrower|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|26/100
+|-status|p1a: Roselia|brn
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|76/100 brn
+|
+|-damage|p1a: Roselia|70/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Carkol|Flamethrower|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|43/100 brn
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|93/100 brn
+|
+|-damage|p1a: Roselia|87/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p2a: Carkol|Flamethrower|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|61/100 brn
+|move|p1a: Roselia|Sludge Bomb|p2a: Carkol
+|-resisted|p2a: Carkol
+|-damage|p2a: Carkol|3/100
+|
+|-damage|p1a: Roselia|55/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Carkol|Flamethrower|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|27/100 brn
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|77/100 brn
+|
+|-damage|p1a: Roselia|71/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p2a: Carkol|Flamethrower|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|45/100 brn
+|move|p1a: Roselia|Giga Drain|p2a: Carkol
+|-damage|p2a: Carkol|0 fnt
+|-heal|p1a: Roselia|46/100 brn|[from] drain|[of] p2a: Carkol
+|faint|p2a: Carkol
+|
+|-damage|p1a: Roselia|40/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Basculin-Blue-Stri|Basculin-Blue-Striped, M|44/100
+|turn|42
+|
+|-curestatus|p1a: Roselia|brn|[from] ability: Natural Cure
+|switch|p1a: Silvally|Silvally-Dark|100/100
+|-damage|p1a: Silvally|88/100|[from] Spikes
+|-damage|p1a: Silvally|76/100|[from] Stealth Rock
+|move|p2a: Basculin-Blue-Stri|Ice Beam|p1a: Silvally
+|-damage|p1a: Silvally|46/100
+|-damage|p2a: Basculin-Blue-Stri|34/100|[from] item: Life Orb
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Basculin-Blue-Stri|Scald|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|-damage|p2a: Basculin-Blue-Stri|24/100|[from] item: Life Orb
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, F|100/100
+|-damage|p1a: Manectric|88/100|[from] Spikes
+|-damage|p1a: Manectric|76/100|[from] Stealth Rock
+|turn|44
+|
+|switch|p2a: Roselia|Roselia, F|51/100
+|move|p1a: Manectric|Thunderbolt|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|24/100
+|-status|p2a: Roselia|par
+|
+|upkeep
+|turn|45
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|faint|p2a: Roselia
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Dark|100/100
+|turn|46
+|
+|switch|p1a: Roselia|Roselia, F|40/100
+|-damage|p1a: Roselia|27/100|[from] Spikes
+|-damage|p1a: Roselia|15/100|[from] Stealth Rock
+|move|p2a: Silvally|Multi-Attack|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|faint|p1a: Roselia
+|
+|upkeep
+|
+|switch|p1a: Basculin|Basculin, F|81/100
+|-damage|p1a: Basculin|68/100|[from] Stealth Rock
+|-damage|p1a: Basculin|56/100|[from] Spikes
+|turn|47
+|
+|switch|p1a: Manectric|Manectric, F|76/100
+|-damage|p1a: Manectric|63/100|[from] Spikes
+|-damage|p1a: Manectric|51/100|[from] Stealth Rock
+|switch|p2a: Pyukumuku|Pyukumuku, F|88/100 psn
+|
+|-heal|p2a: Pyukumuku|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Pyukumuku|82/100 psn|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p2a: Silvally|Silvally-Dark|100/100
+|move|p1a: Manectric|Thunderbolt|p2a: Silvally
+|-damage|p2a: Silvally|33/100
+|-status|p2a: Silvally|par
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Basculin-Blue-Stri|Basculin-Blue-Striped, M|24/100
+|turn|50
+|
+|move|p2a: Basculin-Blue-Stri|Aqua Jet|p1a: Manectric
+|-damage|p1a: Manectric|11/100
+|-damage|p2a: Basculin-Blue-Stri|14/100|[from] item: Life Orb
+|move|p1a: Manectric|Thunderbolt|p2a: Basculin-Blue-Stri
+|-supereffective|p2a: Basculin-Blue-Stri
+|-damage|p2a: Basculin-Blue-Stri|0 fnt
+|faint|p2a: Basculin-Blue-Stri
+|
+|upkeep
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F|82/100 psn
+|turn|51
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Pyukumuku
+|-supereffective|p2a: Pyukumuku
+|-crit|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|0 fnt
+|faint|p2a: Pyukumuku
+|
+|win|DBasso
+|c|☆Twerkulous|nice hax
+|c|☆DBasso|nope
+|l|☆Twerkulous
+|c|☆DBasso|nice choke
+||Ladder (probably) updated, but score could not be retrieved (Response not received).
+|l|☆DBasso
+|j|☆DBasso
+|player|p1|DBasso|drake-gen3

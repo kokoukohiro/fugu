@@ -1,0 +1,774 @@
+|j|☆AlissonDilaurentis
+|j|☆bababi
+|t:|1633367485
+|gametype|singles
+|player|p1|AlissonDilaurentis|guitarist|1421
+|player|p2|bababi|cress|1492
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Hitmonlee, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Sandaconda, M|
+|poke|p1|Vikavolt, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Silvally-*|
+|poke|p2|Perrserker, M|
+|poke|p2|Gigalith, F|
+|poke|p2|Ribombee, M|
+|poke|p2|Altaria, M|
+|poke|p2|Persian-Alola, F|
+|poke|p2|Gallade, M|
+|teampreview
+|
+|t:|1633367498
+|start
+|switch|p1a: Sandaconda|Sandaconda, M|100/100
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|1
+|
+|t:|1633367516
+|switch|p2a: Altaria|Altaria, M|100/100
+|move|p1a: Sandaconda|Earthquake|p2a: Altaria
+|-immune|p2a: Altaria
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Altaria|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1633367532
+|move|p2a: Altaria|Toxic|p1a: Sandaconda
+|-status|p1a: Sandaconda|tox
+|move|p1a: Sandaconda|Stone Edge|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Altaria|46/100|[from] Sandstorm
+|-damage|p1a: Sandaconda|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1633367541
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|96/100
+|-singleturn|p2a: Altaria|move: Roost
+|move|p1a: Sandaconda|Glare|p2a: Altaria
+|-status|p2a: Altaria|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Altaria|90/100 par|[from] Sandstorm
+|-damage|p1a: Sandaconda|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1633367556
+|move|p1a: Sandaconda|Glare|p2a: Altaria
+|-fail|p2a: Altaria|par
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100 par
+|-singleturn|p2a: Altaria|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Altaria|94/100 par|[from] Sandstorm
+|-activate|p1a: Sandaconda|ability: Shed Skin
+|-curestatus|p1a: Sandaconda|tox|[msg]
+|upkeep
+|turn|5
+|
+|t:|1633367567
+|move|p1a: Sandaconda|Stone Edge|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|51/100 par
+|move|p2a: Altaria|Toxic|p1a: Sandaconda
+|-status|p1a: Sandaconda|tox
+|
+|-weather|none
+|-activate|p1a: Sandaconda|ability: Shed Skin
+|-curestatus|p1a: Sandaconda|tox|[msg]
+|upkeep
+|turn|6
+|
+|t:|1633367570
+|move|p1a: Sandaconda|Stone Edge|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-crit|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|upkeep
+|
+|t:|1633367577
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|7
+|
+|t:|1633367584
+|move|p2a: Ribombee|Moonblast|p1a: Sandaconda
+|-damage|p1a: Sandaconda|32/100
+|-unboost|p1a: Sandaconda|spa|1
+|move|p1a: Sandaconda|Glare|p2a: Ribombee
+|-status|p2a: Ribombee|par
+|
+|upkeep
+|turn|8
+|
+|t:|1633367592
+|switch|p2a: Perrserker|Perrserker, M|100/100
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1633367595
+|move|p2a: Perrserker|Substitute|p2a: Perrserker
+|-start|p2a: Perrserker|Substitute
+|-damage|p2a: Perrserker|76/100
+|move|p1a: Corsola|Will-O-Wisp||[still]
+|-fail|p1a: Corsola
+|
+|-heal|p2a: Perrserker|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1633367599
+|move|p2a: Perrserker|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|64/100
+|cant|p1a: Corsola|flinch
+|
+|-heal|p2a: Perrserker|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1633367603
+|move|p2a: Perrserker|Seed Bomb|p1a: Corsola
+|-damage|p1a: Corsola|45/100
+|move|p1a: Corsola|Night Shade|p2a: Perrserker
+|-end|p2a: Perrserker|Substitute
+|
+|-heal|p2a: Perrserker|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1633367611
+|switch|p2a: Persian|Persian-Alola, F|100/100
+|move|p1a: Corsola|Night Shade|p2a: Persian
+|-damage|p2a: Persian|71/100
+|
+|upkeep
+|turn|13
+|
+|t:|1633367619
+|switch|p1a: Sandaconda|Sandaconda, M|32/100
+|move|p2a: Persian|Knock Off|p1a: Sandaconda
+|-damage|p1a: Sandaconda|17/100
+|-damage|p2a: Persian|54/100|[from] item: Rocky Helmet|[of] p1a: Sandaconda
+|-enditem|p1a: Sandaconda|Rocky Helmet|[from] move: Knock Off|[of] p2a: Persian
+|
+|upkeep
+|turn|14
+|
+|t:|1633367625
+|move|p2a: Persian|Foul Play|p1a: Sandaconda
+|-damage|p1a: Sandaconda|0 fnt
+|faint|p1a: Sandaconda
+|
+|upkeep
+|
+|t:|1633367630
+|switch|p1a: Vikavolt|Vikavolt, M, shiny|100/100
+|turn|15
+|
+|t:|1633367633
+|move|p2a: Persian|Parting Shot|p1a: Vikavolt
+|-unboost|p1a: Vikavolt|atk|1
+|-unboost|p1a: Vikavolt|spa|1
+|
+|t:|1633367635
+|switch|p2a: Gigalith|Gigalith, F|100/100|[from]move: Parting Shot
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Vikavolt|Sticky Web|p2a: Gigalith
+|-sidestart|p2: bababi|move: Sticky Web
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|94/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1633367645
+|switch|p1a: Corsola|Corsola-Galar, F|45/100
+|move|p2a: Gigalith|Rock Blast|p1a: Corsola
+|-damage|p1a: Corsola|37/100
+|-damage|p1a: Corsola|29/100
+|-hitcount|p1a: Corsola|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|22/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1633367650
+|move|p1a: Corsola|Strength Sap|p2a: Gigalith
+|-unboost|p2a: Gigalith|atk|1
+|-heal|p1a: Corsola|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Corsola
+|-sidestart|p1: AlissonDilaurentis|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1633367655
+|switch|p2a: Ribombee|Ribombee, M|100/100 par
+|move|p1a: Corsola|Stealth Rock|p2a: Ribombee
+|-sidestart|p2: bababi|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ribombee|94/100 par|[from] Sandstorm
+|-damage|p1a: Corsola|88/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1633367659
+|cant|p2a: Ribombee|par
+|move|p1a: Corsola|Night Shade|p2a: Ribombee
+|-damage|p2a: Ribombee|56/100 par
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1633367661
+|cant|p2a: Ribombee|par
+|move|p1a: Corsola|Night Shade|p2a: Ribombee
+|-damage|p2a: Ribombee|18/100 par
+|
+|upkeep
+|turn|21
+|
+|t:|1633367664
+|switch|p1a: Silvally|Silvally-Poison|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|move|p2a: Ribombee|Roost|p2a: Ribombee
+|-heal|p2a: Ribombee|68/100 par
+|-singleturn|p2a: Ribombee|move: Roost
+|
+|upkeep
+|turn|22
+|
+|t:|1633367671
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-damage|p2a: Gigalith|88/100|[from] Stealth Rock
+|-activate|p2a: Gigalith|move: Sticky Web
+|-unboost|p2a: Gigalith|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Silvally|Multi-Attack|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silvally|82/100|[from] Sandstorm
+|-heal|p2a: Gigalith|79/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1633367676
+|move|p1a: Silvally|Parting Shot|p2a: Gigalith
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|spa|1
+|
+|t:|1633367679
+|switch|p1a: Corsola|Corsola-Galar, F|88/100|[from]move: Parting Shot
+|-damage|p1a: Corsola|76/100|[from] Stealth Rock
+|move|p2a: Gigalith|Rock Blast|p1a: Corsola
+|-damage|p1a: Corsola|70/100
+|-damage|p1a: Corsola|64/100
+|-damage|p1a: Corsola|59/100
+|-damage|p1a: Corsola|53/100
+|-damage|p1a: Corsola|47/100
+|-hitcount|p1a: Corsola|5
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|41/100|[from] Sandstorm
+|-heal|p2a: Gigalith|85/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1633367683
+|switch|p2a: Ribombee|Ribombee, M|68/100 par
+|move|p1a: Corsola|Strength Sap|p2a: Ribombee
+|-unboost|p2a: Ribombee|atk|1
+|-heal|p1a: Corsola|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ribombee|62/100 par|[from] Sandstorm
+|-damage|p1a: Corsola|67/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|t:|1633367685
+|move|p2a: Ribombee|Aromatherapy|p2a: Ribombee
+|-activate|p2a: Ribombee|move: Aromatherapy
+|-curestatus|p2a: Ribombee|par|[msg]
+|move|p1a: Corsola|Night Shade|p2a: Ribombee
+|-damage|p2a: Ribombee|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ribombee|17/100|[from] Sandstorm
+|-damage|p1a: Corsola|61/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|t:|1633367688
+|move|p2a: Ribombee|Roost|p2a: Ribombee
+|-heal|p2a: Ribombee|68/100
+|-singleturn|p2a: Ribombee|move: Roost
+|move|p1a: Corsola|Night Shade|p2a: Ribombee
+|-damage|p2a: Ribombee|29/100
+|
+|-weather|none
+|upkeep
+|turn|27
+|
+|t:|1633367690
+|move|p2a: Ribombee|Roost|p2a: Ribombee
+|-heal|p2a: Ribombee|79/100
+|-singleturn|p2a: Ribombee|move: Roost
+|move|p1a: Corsola|Night Shade|p2a: Ribombee
+|-damage|p2a: Ribombee|41/100
+|
+|upkeep
+|turn|28
+|
+|t:|1633367694
+|move|p2a: Ribombee|Roost|p2a: Ribombee
+|-heal|p2a: Ribombee|91/100
+|-singleturn|p2a: Ribombee|move: Roost
+|move|p1a: Corsola|Will-O-Wisp|p2a: Ribombee
+|-status|p2a: Ribombee|brn
+|
+|-damage|p2a: Ribombee|85/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1633367696
+|move|p2a: Ribombee|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|41/100
+|-unboost|p1a: Corsola|spa|1
+|move|p1a: Corsola|Strength Sap|p2a: Ribombee
+|-unboost|p2a: Ribombee|atk|1
+|-heal|p1a: Corsola|62/100
+|
+|-damage|p2a: Ribombee|79/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1633367700
+|move|p2a: Ribombee|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|43/100
+|-start|p2a: Ribombee|Disable|Moonblast|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Night Shade|p2a: Ribombee
+|-damage|p2a: Ribombee|41/100 brn
+|
+|-damage|p2a: Ribombee|35/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1633367704
+|move|p2a: Ribombee|Roost|p2a: Ribombee
+|-heal|p2a: Ribombee|85/100 brn
+|-singleturn|p2a: Ribombee|move: Roost
+|move|p1a: Corsola|Strength Sap|p2a: Ribombee
+|-unboost|p2a: Ribombee|atk|1
+|-heal|p1a: Corsola|59/100
+|
+|-damage|p2a: Ribombee|79/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1633367710
+|switch|p1a: Vikavolt|Vikavolt, M, shiny|94/100
+|move|p2a: Ribombee|Psychic|p1a: Vikavolt
+|-damage|p1a: Vikavolt|63/100
+|
+|-damage|p2a: Ribombee|73/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1633367716
+|switch|p2a: Gigalith|Gigalith, F|85/100
+|-activate|p2a: Gigalith|move: Sticky Web
+|-unboost|p2a: Gigalith|spe|1
+|-damage|p2a: Gigalith|72/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|100/100
+|-singleturn|p1a: Vikavolt|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|94/100|[from] Sandstorm
+|-heal|p2a: Gigalith|79/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1633367719
+|switch|p1a: Corsola|Corsola-Galar, F|59/100
+|-damage|p1a: Corsola|46/100|[from] Stealth Rock
+|move|p2a: Gigalith|Rock Blast|p1a: Corsola
+|-damage|p1a: Corsola|39/100
+|-damage|p1a: Corsola|31/100
+|-damage|p1a: Corsola|23/100
+|-damage|p1a: Corsola|15/100
+|-start|p2a: Gigalith|Disable|Rock Blast|[from] ability: Cursed Body|[of] p1a: Corsola
+|-hitcount|p1a: Corsola|4
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|9/100|[from] Sandstorm
+|-heal|p2a: Gigalith|85/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1633367723
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Corsola|Strength Sap|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|3/100|[from] Sandstorm
+|-heal|p2a: Gigalith|91/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1633367728
+|switch|p2a: Ribombee|Ribombee, M|73/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Ribombee
+|-unboost|p2a: Ribombee|atk|1
+|-heal|p1a: Corsola|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ribombee|66/100 brn|[from] Sandstorm
+|-damage|p1a: Corsola|28/100|[from] Sandstorm
+|-damage|p2a: Ribombee|60/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1633367734
+|switch|p1a: Silvally|Silvally-Poison|82/100
+|-damage|p1a: Silvally|70/100|[from] Stealth Rock
+|move|p2a: Ribombee|Moonblast|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|51/100
+|
+|-weather|none
+|-damage|p2a: Ribombee|54/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1633367738
+|switch|p2a: Gigalith|Gigalith, F|91/100
+|-activate|p2a: Gigalith|move: Sticky Web
+|-unboost|p2a: Gigalith|spe|1
+|-damage|p2a: Gigalith|79/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silvally|45/100|[from] Sandstorm
+|-heal|p2a: Gigalith|85/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1633367743
+|move|p1a: Silvally|Multi-Attack|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|54/100
+|move|p2a: Gigalith|Earthquake|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1633367748
+|switch|p1a: Corsola|Corsola-Galar, F|28/100
+|-damage|p1a: Corsola|16/100|[from] Stealth Rock
+|turn|40
+|
+|t:|1633367751
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Corsola|Strength Sap|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|10/100|[from] Sandstorm
+|-heal|p2a: Gigalith|67/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1633367753
+|switch|p2a: Ribombee|Ribombee, M|54/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Ribombee
+|-unboost|p2a: Ribombee|atk|1
+|-heal|p1a: Corsola|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ribombee|48/100 brn|[from] Sandstorm
+|-damage|p1a: Corsola|35/100|[from] Sandstorm
+|-damage|p2a: Ribombee|42/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1633367755
+|move|p2a: Ribombee|Roost|p2a: Ribombee
+|-heal|p2a: Ribombee|92/100 brn
+|-singleturn|p2a: Ribombee|move: Roost
+|move|p1a: Corsola|Night Shade|p2a: Ribombee
+|-damage|p2a: Ribombee|54/100 brn
+|
+|-weather|none
+|-damage|p2a: Ribombee|48/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1633367759
+|move|p2a: Ribombee|Roost|p2a: Ribombee
+|-heal|p2a: Ribombee|98/100 brn
+|-singleturn|p2a: Ribombee|move: Roost
+|move|p1a: Corsola|Night Shade|p2a: Ribombee
+|-damage|p2a: Ribombee|60/100 brn
+|
+|-damage|p2a: Ribombee|53/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1633367764
+|switch|p1a: Vikavolt|Vikavolt, M, shiny|94/100
+|move|p2a: Ribombee|Roost|p2a: Ribombee
+|-heal|p2a: Ribombee|100/100 brn
+|-singleturn|p2a: Ribombee|move: Roost
+|
+|-damage|p2a: Ribombee|94/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1633367771
+|switch|p2a: Gigalith|Gigalith, F|67/100
+|-activate|p2a: Gigalith|move: Sticky Web
+|-unboost|p2a: Gigalith|spe|1
+|-damage|p2a: Gigalith|54/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Vikavolt|Discharge|p2a: Gigalith
+|-damage|p2a: Gigalith|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|88/100|[from] Sandstorm
+|-heal|p2a: Gigalith|35/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1633367774
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Vikavolt|Discharge|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|82/100|[from] Sandstorm
+|-heal|p2a: Gigalith|41/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1633367782
+|switch|p1a: Tsareena|Tsareena, F, shiny|100/100
+|move|p2a: Gigalith|Rock Blast|p1a: Tsareena|[miss]
+|-miss|p2a: Gigalith|p1a: Tsareena
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tsareena|95/100|[from] Sandstorm
+|-heal|p2a: Gigalith|47/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1633367786
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Tsareena|Rapid Spin|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tsareena|89/100|[from] Sandstorm
+|-heal|p2a: Gigalith|53/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1633367790
+|move|p1a: Tsareena|Trop Kick|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|3/100
+|-unboost|p2a: Gigalith|atk|1
+|move|p2a: Gigalith|Rock Blast|p1a: Tsareena
+|-damage|p1a: Tsareena|80/100
+|-damage|p1a: Tsareena|70/100
+|-hitcount|p1a: Tsareena|2
+|
+|-weather|none
+|-heal|p2a: Gigalith|10/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1633367798
+|move|p1a: Tsareena|Rapid Spin|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|4/100
+|-boost|p1a: Tsareena|spe|1
+|-sideend|p1: AlissonDilaurentis|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tsareena
+|move|p2a: Gigalith|Rock Blast|p1a: Tsareena
+|-damage|p1a: Tsareena|61/100
+|-damage|p1a: Tsareena|52/100
+|-damage|p1a: Tsareena|42/100
+|-hitcount|p1a: Tsareena|3
+|
+|-heal|p2a: Gigalith|10/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1633367808
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Tsareena|Trop Kick|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-heal|p2a: Gigalith|16/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1633367811
+|move|p1a: Tsareena|Trop Kick|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|upkeep
+|
+|t:|1633367814
+|switch|p2a: Persian|Persian-Alola, F|54/100
+|turn|53
+|
+|t:|1633367822
+|move|p1a: Tsareena|Trop Kick|p2a: Persian
+|-damage|p2a: Persian|25/100
+|-unboost|p2a: Persian|atk|1
+|move|p2a: Persian|Foul Play|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|
+|upkeep
+|
+|t:|1633367829
+|switch|p1a: Vikavolt|Vikavolt, M, shiny|82/100
+|turn|54
+|
+|t:|1633367843
+|move|p2a: Persian|Toxic|p1a: Vikavolt
+|-status|p1a: Vikavolt|tox
+|move|p1a: Vikavolt|Discharge|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|-damage|p1a: Vikavolt|76/100 tox|[from] psn
+|upkeep
+|
+|t:|1633367851
+|switch|p2a: Gallade|Gallade, M|100/100
+|-activate|p2a: Gallade|move: Sticky Web
+|-unboost|p2a: Gallade|spe|1
+|-damage|p2a: Gallade|94/100|[from] Stealth Rock
+|turn|55
+|
+|t:|1633367858
+|move|p2a: Gallade|Swords Dance|p2a: Gallade
+|-boost|p2a: Gallade|atk|2
+|move|p1a: Vikavolt|Bug Buzz|p2a: Gallade
+|-damage|p2a: Gallade|38/100
+|
+|-damage|p1a: Vikavolt|64/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|t:|1633367861
+|move|p2a: Gallade|Psycho Cut|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|t:|1633367866
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|turn|57
+|
+|t:|1633367871
+|move|p1a: Hitmonlee|Endure|p1a: Hitmonlee
+|-singleturn|p1a: Hitmonlee|move: Endure
+|move|p2a: Gallade|Psycho Cut|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-activate|p1a: Hitmonlee|move: Endure
+|-damage|p1a: Hitmonlee|1/100
+|-enditem|p1a: Hitmonlee|Liechi Berry|[eat]
+|-boost|p1a: Hitmonlee|atk|1|[from] item: Liechi Berry
+|
+|upkeep
+|turn|58
+|
+|t:|1633367880
+|move|p1a: Hitmonlee|Sucker Punch|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+|
+|t:|1633367882
+|switch|p2a: Ribombee|Ribombee, M|94/100 brn
+|turn|59
+|
+|t:|1633367884
+|move|p1a: Hitmonlee|Poison Jab|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1633367887
+|switch|p2a: Perrserker|Perrserker, M|94/100
+|-activate|p2a: Perrserker|move: Sticky Web
+|-unboost|p2a: Perrserker|spe|1
+|-damage|p2a: Perrserker|88/100|[from] Stealth Rock
+|turn|60
+|
+|t:|1633367889
+|move|p1a: Hitmonlee|Reversal|p2a: Perrserker
+|-supereffective|p2a: Perrserker
+|-damage|p2a: Perrserker|0 fnt
+|faint|p2a: Perrserker
+|
+|win|AlissonDilaurentis
+|raw|AlissonDilaurentis's rating: 1421 &rarr; <strong>1445</strong><br />(+24 for winning)
+|raw|bababi's rating: 1492 &rarr; <strong>1468</strong><br />(-24 for losing)
+|l|☆bababi

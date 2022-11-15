@@ -1,0 +1,363 @@
+|j|☆c rien c la RU
+|j|☆AstroLaPorte
+|t:|1599321565
+|player|p1|c rien c la RU|104|1399
+|player|p2|AstroLaPorte|ingo|1311
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Leafeon, M|
+|poke|p1|Maractus, F|
+|poke|p1|Bronzong|
+|poke|p1|Heliolisk, M|
+|poke|p1|Coalossal, F|
+|poke|p2|Gigalith, M|
+|poke|p2|Lycanroc, M|
+|poke|p2|Xatu, F|
+|poke|p2|Sandslash, M|
+|poke|p2|Copperajah, M|
+|poke|p2|Virizion|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| LT73IU Kuzakii
+|c|☆AstroLaPorte|hf
+|c|☆c rien c la RU|hf
+|
+|t:|1599321637
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Gigalith|Gigalith, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|1
+|
+|t:|1599321648
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Bronzong|Block|p2a: Xatu
+|move|p2a: Xatu|Block|p1a: Bronzong|[from]Magic Bounce
+|-activate|p1a: Bronzong|trapped
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1599321664
+|move|p1a: Bronzong|Psyshock|p2a: Xatu
+|-resisted|p2a: Xatu
+|-damage|p2a: Xatu|80/100
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|t:|1599321670
+|switch|p2a: Sandslash|Sandslash, M, shiny|100/100|[from]move: Teleport
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1599321706
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|move|p1a: Bronzong|Toxic|p2a: Sandslash
+|-status|p2a: Sandslash|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sandslash|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1599321738
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Sandslash|Knock Off|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sandslash|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1599321764
+|move|p2a: Sandslash|Knock Off|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|5/100
+|-enditem|p1a: Bronzong|Leftovers|[from] move: Knock Off|[of] p2a: Sandslash
+|move|p1a: Bronzong|Psyshock|p2a: Sandslash
+|-damage|p2a: Sandslash|57/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sandslash|39/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1599321798
+|switch|p2a: Copperajah|Copperajah, M|100/100
+|move|p1a: Bronzong|Protect||[still]
+|-fail|p1a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1599321816
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Copperajah|Heavy Slam|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|77/100
+|-damage|p2a: Copperajah|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1599321868
+|switch|p2a: Gigalith|Gigalith, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Torkoal|Lava Plume|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|91/100
+|-status|p2a: Gigalith|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Torkoal|70/100|[from] Sandstorm
+|-damage|p2a: Gigalith|85/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1599321926
+|switch|p1a: Bronzong|Bronzong|5/100
+|move|p2a: Gigalith|Rock Blast|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|2/100
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|-hitcount|p1a: Bronzong|2
+|faint|p1a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gigalith|79/100 brn|[from] brn
+|upkeep
+|
+|t:|1599321954
+|switch|p1a: Torkoal|Torkoal, M|70/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|10
+|
+|t:|1599321968
+|switch|p2a: Sandslash|Sandslash, M, shiny|39/100 tox
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Sandslash|32/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1599321981
+|move|p1a: Leafeon|Work Up|p1a: Leafeon
+|-boost|p1a: Leafeon|atk|1
+|-boost|p1a: Leafeon|spa|1
+|move|p2a: Sandslash|Poison Jab|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Sandslash|20/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1599321995
+|move|p1a: Leafeon|Knock Off|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|-enditem|p2a: Sandslash|Focus Sash|[from] move: Knock Off|[of] p1a: Leafeon
+|-damage|p1a: Leafeon|35/100|[from] item: Life Orb
+|faint|p2a: Sandslash
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1599321999
+|switch|p2a: Gigalith|Gigalith, M, shiny|79/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|13
+|
+|t:|1599322061
+|move|p1a: Leafeon|Knock Off|p2a: Gigalith
+|-damage|p2a: Gigalith|29/100 brn
+|-enditem|p2a: Gigalith|Smooth Rock|[from] move: Knock Off|[of] p1a: Leafeon
+|-damage|p1a: Leafeon|25/100|[from] item: Life Orb
+|move|p2a: Gigalith|Toxic|p1a: Leafeon
+|-status|p1a: Leafeon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leafeon|19/100 tox|[from] Sandstorm
+|-damage|p1a: Leafeon|13/100 tox|[from] psn
+|-damage|p2a: Gigalith|22/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1599322094
+|switch|p2a: Virizion|Virizion|100/100
+|move|p1a: Leafeon|Knock Off|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|59/100
+|-ability|p2a: Virizion|Justified|boost
+|-boost|p2a: Virizion|atk|1
+|-enditem|p2a: Virizion|Leftovers|[from] move: Knock Off|[of] p1a: Leafeon
+|-damage|p1a: Leafeon|3/100 tox|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Virizion|53/100|[from] Sandstorm
+|-damage|p1a: Leafeon|0 fnt|[from] Sandstorm
+|faint|p1a: Leafeon
+|upkeep
+|
+|t:|1599322106
+|switch|p1a: Torkoal|Torkoal, M|70/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|15
+|
+|t:|1599322126
+|switch|p2a: Gigalith|Gigalith, M, shiny|22/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Torkoal|Lava Plume|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|14/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Torkoal|64/100|[from] Sandstorm
+|-damage|p2a: Gigalith|8/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1599322145
+|move|p2a: Gigalith|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|40/100
+|move|p1a: Torkoal|Lava Plume|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Torkoal|34/100|[from] Sandstorm
+|upkeep
+|
+|t:|1599322150
+|switch|p2a: Lycanroc|Lycanroc, M|100/100
+|turn|17
+|
+|t:|1599322161
+|switch|p1a: Coalossal|Coalossal, F|100/100
+|move|p2a: Lycanroc|Close Combat|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-crit|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|-status|p2a: Lycanroc|brn|[from] ability: Flame Body|[of] p1a: Coalossal
+|faint|p1a: Coalossal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lycanroc|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1599322175
+|switch|p1a: Torkoal|Torkoal, M|34/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|18
+|
+|t:|1599322210
+|move|p2a: Lycanroc|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|16/100
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|move|p1a: Torkoal|Lava Plume|p2a: Lycanroc
+|-resisted|p2a: Lycanroc
+|-damage|p2a: Lycanroc|34/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Lycanroc|28/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1599322230
+|move|p2a: Lycanroc|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Lycanroc|22/100 brn|[from] brn
+|upkeep
+|
+|t:|1599322239
+|switch|p1a: Maractus|Maractus, F|100/100
+|turn|20
+|
+|t:|1599322250
+|move|p1a: Maractus|Weather Ball|p2a: Lycanroc
+|-resisted|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|-damage|p1a: Maractus|91/100|[from] item: Life Orb
+|faint|p2a: Lycanroc
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1599322273
+|switch|p2a: Copperajah|Copperajah, M|91/100
+|turn|21
+|
+|t:|1599322282
+|move|p1a: Maractus|Weather Ball|p2a: Copperajah
+|-supereffective|p2a: Copperajah
+|-damage|p2a: Copperajah|0 fnt
+|-damage|p1a: Maractus|81/100|[from] item: Life Orb
+|faint|p2a: Copperajah
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1599322289
+|switch|p2a: Virizion|Virizion|53/100
+|turn|22
+|
+|t:|1599322296
+|move|p1a: Maractus|Weather Ball|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|-damage|p1a: Maractus|71/100|[from] item: Life Orb
+|faint|p2a: Virizion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1599322299
+|switch|p2a: Xatu|Xatu, F|80/100
+|turn|23
+|
+|t:|1599322305
+|move|p1a: Maractus|Weather Ball|p2a: Xatu
+|-crit|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-damage|p1a: Maractus|61/100|[from] item: Life Orb
+|faint|p2a: Xatu
+|
+|win|c rien c la RU
+|c|☆AstroLaPorte|j'ai été sweep par maractus
+|c|☆AstroLaPorte|voilà
+|raw|c rien c la RU's rating: 1399 &rarr; <strong>1414</strong><br />(+15 for winning)
+|raw|AstroLaPorte's rating: 1312 &rarr; <strong>1297</strong><br />(-15 for losing)
+|c|☆AstroLaPorte|gg

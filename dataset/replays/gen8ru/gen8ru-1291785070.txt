@@ -1,0 +1,664 @@
+|j|☆purple mountains
+|j|☆Kansbol
+|t:|1614553670
+|player|p1|purple mountains|teammagmagruntf-gen3|1456
+|player|p2|Kansbol|102|1323
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Mienshao, M|
+|poke|p1|Raikou|
+|poke|p1|Zarude|
+|poke|p1|Gastrodon, M|
+|poke|p1|Cobalion|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Shedinja|
+|poke|p2|Umbreon, M|
+|poke|p2|Registeel|
+|poke|p2|Pyukumuku, M|
+|poke|p2|Crobat, F|
+|poke|p2|Tangela, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kansbol)
+|
+|t:|1614553688
+|start
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|switch|p2a: Pyukumuku|Pyukumuku, M|100/100
+|turn|1
+|
+|t:|1614553697
+|move|p1a: Mienshao|U-turn|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|85/100
+|
+|t:|1614553700
+|switch|p1a: Raikou|Raikou|100/100|[from]move: U-turn
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Pyukumuku|Toxic|p1a: Raikou
+|-status|p1a: Raikou|tox
+|
+|-heal|p2a: Pyukumuku|91/100|[from] item: Leftovers
+|-damage|p1a: Raikou|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1614553713
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Raikou|Volt Switch|p2a: Umbreon
+|-damage|p2a: Umbreon|83/100
+|
+|t:|1614553719
+|switch|p1a: Cobalion|Cobalion|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Umbreon|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1614553725
+|switch|p2a: Shedinja|Shedinja|100/100
+|move|p1a: Cobalion|Stealth Rock|p2a: Shedinja
+|-sidestart|p2: Kansbol|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1614553736
+|switch|p1a: Zarude|Zarude|100/100
+|move|p2a: Shedinja|Protect||[still]
+|-fail|p2a: Shedinja
+|
+|upkeep
+|turn|5
+|
+|t:|1614553745
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|switch|p2a: Tangela|Tangela, M|100/100
+|-damage|p2a: Tangela|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1614553756
+|switch|p2a: Pyukumuku|Pyukumuku, M|91/100
+|-damage|p2a: Pyukumuku|78/100|[from] Stealth Rock
+|move|p1a: Weezing|Toxic Spikes|p2a: Pyukumuku
+|-sidestart|p2: Kansbol|move: Toxic Spikes
+|
+|-heal|p2a: Pyukumuku|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1614553768
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Raikou|Raikou|94/100 tox
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Pyukumuku|Block|p1a: Raikou
+|-activate|p1a: Raikou|trapped
+|
+|-heal|p2a: Pyukumuku|90/100|[from] item: Leftovers
+|-damage|p1a: Raikou|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1614553779
+|switch|p2a: Shedinja|Shedinja|100/100
+|move|p1a: Raikou|Volt Switch|p2a: Shedinja
+|-immune|p2a: Shedinja|[from] ability: Wonder Guard
+|
+|-damage|p1a: Raikou|76/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1614553790
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Shedinja|Protect||[still]
+|-fail|p2a: Shedinja
+|
+|upkeep
+|turn|10
+|
+|t:|1614553802
+|switch|p2a: Crobat|Crobat, F|100/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Crobat
+|-status|p2a: Crobat|brn
+|
+|-damage|p2a: Crobat|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1614553815
+|move|p2a: Crobat|Defog|p1a: Weezing
+|-unboost|p1a: Weezing|evasion|1
+|-sideend|p2: Kansbol|Toxic Spikes|[from] move: Defog|[of] p2a: Crobat
+|-sideend|p2: Kansbol|Stealth Rock|[from] move: Defog|[of] p2a: Crobat
+|move|p1a: Weezing|Sludge Bomb|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|79/100 brn
+|
+|-damage|p2a: Crobat|73/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1614553832
+|move|p2a: Crobat|Air Slash|p1a: Weezing
+|-damage|p1a: Weezing|74/100
+|move|p1a: Weezing|Toxic Spikes|p2a: Crobat
+|-sidestart|p2: Kansbol|move: Toxic Spikes
+|
+|-damage|p2a: Crobat|67/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1614553838
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|100/100 brn
+|-singleturn|p2a: Crobat|move: Roost
+|move|p1a: Weezing|Sludge Bomb|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|86/100 brn
+|
+|-damage|p2a: Crobat|80/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1614553851
+|move|p2a: Crobat|Defog|p1a: Weezing
+|-unboost|p1a: Weezing|evasion|1
+|-sideend|p2: Kansbol|Toxic Spikes|[from] move: Defog|[of] p2a: Crobat
+|move|p1a: Weezing|Strange Steam|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|65/100 brn
+|
+|-damage|p2a: Crobat|59/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1614553856
+|move|p2a: Crobat|Air Slash|p1a: Weezing
+|-damage|p1a: Weezing|48/100
+|move|p1a: Weezing|Toxic Spikes|p2a: Crobat
+|-sidestart|p2: Kansbol|move: Toxic Spikes
+|
+|-damage|p2a: Crobat|53/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1614553861
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Raikou|Raikou|76/100 tox
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|100/100 brn
+|-singleturn|p2a: Crobat|move: Roost
+|
+|-damage|p2a: Crobat|94/100 brn|[from] brn
+|-damage|p1a: Raikou|69/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1614553869
+|switch|p2a: Shedinja|Shedinja|100/100
+|switch|p1a: Zarude|Zarude|100/100
+|
+|upkeep
+|turn|18
+|
+|t:|1614553877
+|switch|p2a: Crobat|Crobat, F|94/100 brn
+|move|p1a: Zarude|Darkest Lariat|p2a: Crobat
+|-damage|p2a: Crobat|57/100 brn
+|
+|-damage|p2a: Crobat|50/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1614553885
+|move|p2a: Crobat|Defog|p1a: Zarude
+|-unboost|p1a: Zarude|evasion|1
+|-sideend|p2: Kansbol|Toxic Spikes|[from] move: Defog|[of] p2a: Crobat
+|move|p1a: Zarude|Darkest Lariat|p2a: Crobat
+|-damage|p2a: Crobat|13/100 brn
+|
+|-damage|p2a: Crobat|7/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1614553893
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|57/100 brn
+|-singleturn|p2a: Crobat|move: Roost
+|move|p1a: Zarude|Darkest Lariat|p2a: Crobat
+|-crit|p2a: Crobat
+|-damage|p2a: Crobat|1/100 brn
+|
+|-damage|p2a: Crobat|0 fnt|[from] brn
+|faint|p2a: Crobat
+|upkeep
+|
+|t:|1614553903
+|switch|p2a: Tangela|Tangela, M|88/100
+|turn|21
+|
+|t:|1614553921
+|move|p1a: Zarude|U-turn|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|68/100
+|
+|t:|1614553924
+|switch|p1a: Cobalion|Cobalion|100/100|[from]move: U-turn
+|move|p2a: Tangela|Knock Off|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|95/100
+|-damage|p2a: Tangela|51/100|[from] item: Rocky Helmet|[of] p1a: Cobalion
+|-ability|p1a: Cobalion|Justified|boost
+|-boost|p1a: Cobalion|atk|1
+|-enditem|p1a: Cobalion|Rocky Helmet|[from] move: Knock Off|[of] p2a: Tangela
+|
+|upkeep
+|turn|22
+|
+|t:|1614553936
+|switch|p2a: Shedinja|Shedinja|100/100
+|move|p1a: Cobalion|Stealth Rock|p2a: Shedinja
+|-sidestart|p2: Kansbol|move: Stealth Rock
+|
+|upkeep
+|turn|23
+|
+|t:|1614553946
+|switch|p1a: Weezing|Weezing-Galar, M|48/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Shedinja|Toxic|p1a: Weezing|[miss]
+|-miss|p2a: Shedinja|p1a: Weezing
+|
+|upkeep
+|turn|24
+|
+|t:|1614553963
+|switch|p2a: Registeel|Registeel|100/100
+|-damage|p2a: Registeel|94/100|[from] Stealth Rock
+|move|p1a: Weezing|Toxic Spikes|p2a: Registeel
+|-sidestart|p2: Kansbol|move: Toxic Spikes
+|
+|-heal|p2a: Registeel|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1614553973
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|switch|p2a: Pyukumuku|Pyukumuku, M|90/100
+|-damage|p2a: Pyukumuku|78/100|[from] Stealth Rock
+|-status|p2a: Pyukumuku|psn
+|
+|-heal|p2a: Pyukumuku|84/100 psn|[from] item: Leftovers
+|-damage|p2a: Pyukumuku|72/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1614553987
+|move|p1a: Mienshao|U-turn|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|54/100 psn
+|
+|t:|1614553993
+|switch|p1a: Zarude|Zarude|100/100|[from]move: U-turn
+|move|p2a: Pyukumuku|Toxic|p1a: Zarude
+|-status|p1a: Zarude|tox
+|
+|-heal|p2a: Pyukumuku|60/100 psn|[from] item: Leftovers
+|-damage|p1a: Zarude|95/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|48/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1614554007
+|switch|p2a: Tangela|Tangela, M|85/100
+|-damage|p2a: Tangela|72/100|[from] Stealth Rock
+|-status|p2a: Tangela|psn
+|move|p1a: Zarude|U-turn|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|53/100 psn
+|
+|t:|1614554016
+|switch|p1a: Mienshao|Mienshao, M|100/100|[from]move: U-turn
+|
+|-damage|p2a: Tangela|41/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1614554022
+|move|p1a: Mienshao|Knock Off|p2a: Tangela
+|-damage|p2a: Tangela|26/100 psn
+|-enditem|p2a: Tangela|Eviolite|[from] move: Knock Off|[of] p1a: Mienshao
+|move|p2a: Tangela|Synthesis|p2a: Tangela
+|-heal|p2a: Tangela|76/100 psn
+|
+|-damage|p2a: Tangela|64/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1614554032
+|switch|p1a: Cobalion|Cobalion|95/100
+|move|p2a: Tangela|Giga Drain|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|79/100
+|-heal|p2a: Tangela|72/100 psn|[from] drain|[of] p1a: Cobalion
+|
+|-damage|p2a: Tangela|60/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1614554041
+|switch|p2a: Shedinja|Shedinja|100/100
+|move|p1a: Cobalion|Iron Head|p2a: Shedinja
+|-immune|p2a: Shedinja|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|31
+|
+|t:|1614554048
+|switch|p1a: Weezing|Weezing-Galar, M|48/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Shedinja|Hex|p1a: Weezing
+|-damage|p1a: Weezing|29/100
+|
+|upkeep
+|turn|32
+|
+|t:|1614554057
+|switch|p2a: Registeel|Registeel|100/100
+|-damage|p2a: Registeel|94/100|[from] Stealth Rock
+|move|p1a: Weezing|Will-O-Wisp|p2a: Registeel
+|-status|p2a: Registeel|brn
+|
+|-heal|p2a: Registeel|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Registeel|94/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1614554067
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|move|p2a: Registeel|Stealth Rock|p1a: Mienshao
+|-sidestart|p1: purple mountains|move: Stealth Rock
+|
+|-heal|p2a: Registeel|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Registeel|94/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1614554077
+|switch|p2a: Tangela|Tangela, M|93/100 psn
+|-damage|p2a: Tangela|81/100 psn|[from] Stealth Rock
+|move|p1a: Mienshao|Knock Off|p2a: Tangela
+|-damage|p2a: Tangela|65/100 psn
+|
+|-damage|p2a: Tangela|53/100 psn|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1614554087
+|move|p1a: Mienshao|Knock Off|p2a: Tangela
+|-damage|p2a: Tangela|39/100 psn
+|move|p2a: Tangela|Synthesis|p2a: Tangela
+|-heal|p2a: Tangela|89/100 psn
+|
+|-damage|p2a: Tangela|77/100 psn|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1614554091
+|move|p1a: Mienshao|Knock Off|p2a: Tangela
+|-damage|p2a: Tangela|61/100 psn
+|move|p2a: Tangela|Giga Drain|p1a: Mienshao
+|-damage|p1a: Mienshao|47/100
+|-heal|p2a: Tangela|83/100 psn|[from] drain|[of] p1a: Mienshao
+|
+|-damage|p2a: Tangela|70/100 psn|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1614554097
+|switch|p1a: Zarude|Zarude|95/100 tox
+|move|p2a: Tangela|Giga Drain|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|83/100 tox
+|-heal|p2a: Tangela|77/100 psn|[from] drain|[of] p1a: Zarude
+|
+|-damage|p1a: Zarude|77/100 tox|[from] psn
+|-damage|p2a: Tangela|64/100 psn|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1614554103
+|move|p1a: Zarude|Jungle Healing|p1a: Zarude
+|-heal|p1a: Zarude|100/100 tox
+|-curestatus|p1a: Zarude|tox|[msg]
+|move|p2a: Tangela|Knock Off|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|95/100
+|-enditem|p1a: Zarude|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tangela
+|
+|-damage|p2a: Tangela|52/100 psn|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1614554113
+|move|p1a: Zarude|Darkest Lariat|p2a: Tangela
+|-damage|p2a: Tangela|26/100 psn
+|move|p2a: Tangela|Synthesis|p2a: Tangela
+|-heal|p2a: Tangela|76/100 psn
+|
+|-damage|p2a: Tangela|63/100 psn|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1614554120
+|move|p1a: Zarude|Darkest Lariat|p2a: Tangela
+|-damage|p2a: Tangela|36/100 psn
+|move|p2a: Tangela|Sludge Bomb|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|56/100
+|
+|-damage|p2a: Tangela|24/100 psn|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1614554130
+|switch|p2a: Registeel|Registeel|94/100 brn
+|-damage|p2a: Registeel|88/100 brn|[from] Stealth Rock
+|move|p1a: Zarude|Darkest Lariat|p2a: Registeel
+|-damage|p2a: Registeel|62/100 brn
+|
+|-heal|p2a: Registeel|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Registeel|62/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1614554141
+|move|p1a: Zarude|U-turn|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|55/100 brn
+|
+|t:|1614554146
+|switch|p1a: Gastrodon|Gastrodon, M|100/100|[from]move: U-turn
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Registeel|Toxic|p1a: Gastrodon
+|-status|p1a: Gastrodon|tox
+|
+|-heal|p2a: Registeel|61/100 brn|[from] item: Leftovers
+|-heal|p1a: Gastrodon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Registeel|55/100 brn|[from] brn
+|-damage|p1a: Gastrodon|94/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1614554153
+|switch|p2a: Tangela|Tangela, M|57/100 psn
+|-damage|p2a: Tangela|45/100 psn|[from] Stealth Rock
+|move|p1a: Gastrodon|Earth Power|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|18/100 psn
+|
+|-heal|p1a: Gastrodon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Tangela|5/100 psn|[from] psn
+|-damage|p1a: Gastrodon|88/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|t:|1614554163
+|switch|p1a: Cobalion|Cobalion|79/100
+|-damage|p1a: Cobalion|75/100|[from] Stealth Rock
+|move|p2a: Tangela|Giga Drain|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|58/100
+|-heal|p2a: Tangela|14/100 psn|[from] drain|[of] p1a: Cobalion
+|
+|-damage|p2a: Tangela|1/100 psn|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1614554183
+|switch|p1a: Mienshao|Mienshao, M|81/100
+|-damage|p1a: Mienshao|75/100|[from] Stealth Rock
+|switch|p2a: Shedinja|Shedinja|100/100
+|
+|upkeep
+|turn|46
+|
+|t:|1614554191
+|move|p2a: Shedinja|Protect|p2a: Shedinja
+|-singleturn|p2a: Shedinja|Protect
+|move|p1a: Mienshao|Knock Off|p2a: Shedinja
+|-activate|p2a: Shedinja|move: Protect
+|
+|upkeep
+|turn|47
+|
+|t:|1614554197
+|switch|p2a: Umbreon|Umbreon, M|90/100
+|-status|p2a: Umbreon|psn
+|-damage|p2a: Umbreon|77/100 psn|[from] Stealth Rock
+|move|p1a: Mienshao|Knock Off|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|63/100 psn
+|-enditem|p2a: Umbreon|Leftovers|[from] move: Knock Off|[of] p1a: Mienshao
+|
+|-damage|p2a: Umbreon|51/100 psn|[from] psn
+|upkeep
+|turn|48
+|
+|t:|1614554211
+|switch|p1a: Cobalion|Cobalion|58/100
+|-damage|p1a: Cobalion|55/100|[from] Stealth Rock
+|move|p2a: Umbreon|Protect||[still]
+|-fail|p2a: Umbreon
+|
+|-damage|p2a: Umbreon|39/100 psn|[from] psn
+|upkeep
+|turn|49
+|
+|t:|1614554220
+|move|p1a: Cobalion|Close Combat|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|faint|p2a: Umbreon
+|
+|upkeep
+|
+|t:|1614554225
+|switch|p2a: Pyukumuku|Pyukumuku, M|48/100 psn
+|-damage|p2a: Pyukumuku|36/100 psn|[from] Stealth Rock
+|turn|50
+|
+|t:|1614554231
+|move|p1a: Cobalion|Volt Switch|p2a: Pyukumuku
+|-supereffective|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|14/100 psn
+|
+|t:|1614554245
+|switch|p1a: Mienshao|Mienshao, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|64/100 psn
+|
+|-heal|p2a: Pyukumuku|70/100 psn|[from] item: Leftovers
+|-damage|p2a: Pyukumuku|58/100 psn|[from] psn
+|upkeep
+|turn|51
+|
+|t:|1614554261
+|move|p1a: Mienshao|U-turn|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|40/100 psn
+|
+|t:|1614554264
+|switch|p1a: Raikou|Raikou|69/100 tox|[from]move: U-turn
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|90/100 psn
+|
+|-heal|p2a: Pyukumuku|96/100 psn|[from] item: Leftovers
+|-damage|p1a: Raikou|63/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|84/100 psn|[from] psn
+|upkeep
+|turn|52
+|
+|t:|1614554274
+|switch|p1a: Zarude|Zarude|56/100
+|-damage|p1a: Zarude|44/100|[from] Stealth Rock
+|switch|p2a: Shedinja|Shedinja|100/100
+|
+|upkeep
+|turn|53
+|
+|t:|1614554281
+|switch|p2a: Registeel|Registeel|55/100 brn
+|-damage|p2a: Registeel|49/100 brn|[from] Stealth Rock
+|move|p1a: Zarude|Darkest Lariat|p2a: Registeel
+|-damage|p2a: Registeel|22/100 brn
+|
+|-heal|p2a: Registeel|28/100 brn|[from] item: Leftovers
+|-damage|p2a: Registeel|22/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|t:|1614554289
+|move|p1a: Zarude|Darkest Lariat|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|faint|p2a: Registeel
+|
+|upkeep
+|
+|t:|1614554293
+|switch|p2a: Tangela|Tangela, M|35/100 psn
+|-damage|p2a: Tangela|22/100 psn|[from] Stealth Rock
+|turn|55
+|
+|t:|1614554299
+|move|p1a: Zarude|Darkest Lariat|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|upkeep
+|-message|Kansbol forfeited.
+|
+|win|purple mountains
+|l|☆Kansbol
+|c|☆purple mountains|thanks
+|raw|purple mountains's rating: 1456 &rarr; <strong>1469</strong><br />(+13 for winning)
+|raw|Kansbol's rating: 1324 &rarr; <strong>1311</strong><br />(-13 for losing)

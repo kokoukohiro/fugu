@@ -1,0 +1,339 @@
+|j|☆m3p0
+|j|☆temp89
+|player|p1|m3p0|130|1447
+|player|p2|temp89|266|1220
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Greedent, F|
+|poke|p1|Wishiwashi, F|
+|poke|p1|Musharna, M|
+|poke|p1|Gourgeist-*, M|
+|poke|p1|Pawniard, M|
+|poke|p1|Silvally-*|
+|poke|p2|Ninjask, M|
+|poke|p2|Pikachu, F|
+|poke|p2|Silvally-*|
+|poke|p2|Throh, M|
+|poke|p2|Carkol, M|
+|poke|p2|Pyukumuku, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by temp89)
+|
+|start
+|switch|p1a: Wishiwashi|Wishiwashi, F|100/100
+|switch|p2a: Pikachu|Pikachu, F|100/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|1
+|
+|switch|p1a: Silvally|Silvally-Fire|100/100
+|move|p2a: Pikachu|Volt Switch|p1a: Silvally
+|-damage|p1a: Silvally|71/100
+|
+|switch|p2a: Silvally|Silvally-Poison|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Silvally|Parting Shot|p2a: Silvally
+|-unboost|p2a: Silvally|atk|1
+|-unboost|p2a: Silvally|spa|1
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100|[from]move: Parting Shot
+|move|p2a: Silvally|Toxic|p1a: Pawniard
+|-immune|p1a: Pawniard
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Pawniard|Stealth Rock|p2a: Silvally
+|-sidestart|p2: temp89|move: Stealth Rock
+|move|p2a: Silvally|Flamethrower|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|28/100
+|-status|p1a: Pawniard|brn
+|
+|-damage|p1a: Pawniard|22/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Pawniard|Iron Head|p2a: Silvally
+|-damage|p2a: Silvally|86/100
+|move|p2a: Silvally|Defog|p1a: Pawniard
+|-unboost|p1a: Pawniard|evasion|1
+|-ability|p1a: Pawniard|Defiant
+|-boost|p1a: Pawniard|atk|2
+|-sideend|p2: temp89|Stealth Rock|[from] move: Defog|[of] p2a: Silvally
+|
+|-damage|p1a: Pawniard|16/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Pawniard|Iron Head|p2a: Silvally
+|-damage|p2a: Silvally|57/100
+|move|p2a: Silvally|Flamethrower|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|
+|switch|p1a: Wishiwashi|Wishiwashi, F|100/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|6
+|
+|move|p2a: Silvally|Parting Shot|p1a: Wishiwashi
+|-unboost|p1a: Wishiwashi|atk|1
+|-unboost|p1a: Wishiwashi|spa|1
+|
+|switch|p2a: Pyukumuku|Pyukumuku, M|100/100|[from]move: Parting Shot
+|move|p1a: Wishiwashi|Surf|p2a: Pyukumuku
+|-resisted|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|74/100
+|
+|-heal|p2a: Pyukumuku|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p2a: Pyukumuku|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Pyukumuku|Toxic|p1a: Gourgeist
+|-status|p1a: Gourgeist|tox
+|
+|-heal|p2a: Pyukumuku|86/100|[from] item: Leftovers
+|-damage|p1a: Gourgeist|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Pyukumuku|Protect|p2a: Pyukumuku
+|-singleturn|p2a: Pyukumuku|Protect
+|move|p1a: Gourgeist|Leech Seed|p2a: Pyukumuku
+|-activate|p2a: Pyukumuku|move: Protect
+|
+|-heal|p2a: Pyukumuku|92/100|[from] item: Leftovers
+|-damage|p1a: Gourgeist|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Silvally|Silvally-Poison|57/100
+|move|p1a: Gourgeist|Leech Seed|p2a: Silvally
+|-start|p2a: Silvally|move: Leech Seed
+|
+|-damage|p2a: Silvally|45/100|[from] Leech Seed|[of] p1a: Gourgeist
+|-heal|p1a: Gourgeist|95/100 tox|[silent]
+|-damage|p1a: Gourgeist|77/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Wishiwashi|Wishiwashi, F|100/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p2a: Silvally|Parting Shot|p1a: Wishiwashi
+|-unboost|p1a: Wishiwashi|atk|1
+|-unboost|p1a: Wishiwashi|spa|1
+|
+|switch|p2a: Pikachu|Pikachu, F|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Silvally|Silvally-Fire|71/100
+|move|p2a: Pikachu|Volt Switch|p1a: Silvally
+|-damage|p1a: Silvally|39/100
+|
+|switch|p2a: Silvally|Silvally-Poison|45/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Silvally|Flamethrower|p2a: Silvally
+|-damage|p2a: Silvally|20/100
+|move|p2a: Silvally|Parting Shot|p1a: Silvally
+|-unboost|p1a: Silvally|atk|1
+|-unboost|p1a: Silvally|spa|1
+|
+|switch|p2a: Pikachu|Pikachu, F|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Pikachu|Fake Out|p1a: Silvally
+|-damage|p1a: Silvally|23/100
+|cant|p1a: Silvally|flinch
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Silvally|Flamethrower|p2a: Pikachu
+|-damage|p2a: Pikachu|28/100
+|move|p2a: Pikachu|Volt Switch|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|switch|p2a: Silvally|Silvally-Poison|20/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p1a: Greedent|Greedent, F|100/100
+|turn|15
+|
+|move|p2a: Silvally|Toxic|p1a: Greedent
+|-status|p1a: Greedent|tox
+|move|p1a: Greedent|Earthquake|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-damage|p1a: Greedent|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Pyukumuku|Pyukumuku, M|92/100
+|turn|16
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, M|77/100 tox
+|-item|p2a: Pyukumuku|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Pyukumuku|Block||[still]
+|-fail|p2a: Pyukumuku
+|
+|-heal|p2a: Pyukumuku|98/100|[from] item: Leftovers
+|-damage|p1a: Gourgeist|70/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Pyukumuku|Protect|p2a: Pyukumuku
+|-singleturn|p2a: Pyukumuku|Protect
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|100/100 tox
+|
+|-heal|p2a: Pyukumuku|100/100|[from] item: Leftovers
+|-damage|p1a: Gourgeist|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Carkol|Carkol, M|100/100
+|move|p1a: Gourgeist|Leech Seed|p2a: Carkol
+|-start|p2a: Carkol|move: Leech Seed
+|
+|-damage|p2a: Carkol|88/100|[from] Leech Seed|[of] p1a: Gourgeist
+|-heal|p1a: Gourgeist|99/100 tox|[silent]
+|-damage|p1a: Gourgeist|82/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Wishiwashi|Wishiwashi, F|100/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p2a: Carkol|Stealth Rock|p1a: Wishiwashi
+|-sidestart|p1: m3p0|move: Stealth Rock
+|
+|-damage|p2a: Carkol|76/100|[from] Leech Seed|[of] p1a: Wishiwashi
+|upkeep
+|turn|20
+|
+|switch|p2a: Pyukumuku|Pyukumuku, M|100/100
+|move|p1a: Wishiwashi|Uproar|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|63/100
+|-start|p1a: Wishiwashi|Uproar
+|
+|-heal|p2a: Pyukumuku|69/100|[from] item: Leftovers
+|-start|p1a: Wishiwashi|Uproar|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p1a: Wishiwashi|Uproar|p2a: Pyukumuku|[from]lockedmove
+|-damage|p2a: Pyukumuku|36/100
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|86/100
+|
+|-heal|p2a: Pyukumuku|92/100|[from] item: Leftovers
+|-start|p1a: Wishiwashi|Uproar|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p1a: Wishiwashi|Uproar|p2a: Pyukumuku|[from]lockedmove
+|-damage|p2a: Pyukumuku|58/100
+|move|p2a: Pyukumuku|Toxic|p1a: Wishiwashi
+|-status|p1a: Wishiwashi|tox
+|
+|-heal|p2a: Pyukumuku|64/100|[from] item: Leftovers
+|-damage|p1a: Wishiwashi|94/100 tox|[from] psn
+|-end|p1a: Wishiwashi|Uproar
+|upkeep
+|turn|23
+|
+|switch|p1a: Musharna|Musharna, M|100/100
+|-damage|p1a: Musharna|88/100|[from] Stealth Rock
+|move|p2a: Pyukumuku|Protect||[still]
+|-fail|p2a: Pyukumuku
+|
+|-heal|p2a: Pyukumuku|70/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|move|p1a: Musharna|Psyshock|p2a: Ninjask
+|-damage|p2a: Ninjask|31/100
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Ninjask|U-turn|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|29/100
+|
+|switch|p2a: Carkol|Carkol, M|76/100|[from]move: U-turn
+|move|p1a: Musharna|Trick Room|p1a: Musharna
+|-fieldstart|move: Trick Room|[of] p1a: Musharna
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Musharna|Healing Wish|p1a: Musharna
+|faint|p1a: Musharna
+|move|p2a: Carkol|Spikes|p1: Musharna
+|-sidestart|p1: m3p0|Spikes
+|
+|upkeep
+|
+|switch|p1a: Greedent|Greedent, F|94/100 tox
+|-heal|p1a: Greedent|100/100|[from] move: Healing Wish
+|-damage|p1a: Greedent|88/100|[from] Spikes
+|-damage|p1a: Greedent|76/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p2a: Pyukumuku|Pyukumuku, M|70/100
+|move|p1a: Greedent|Belly Drum|p1a: Greedent
+|-damage|p1a: Greedent|26/100
+|-setboost|p1a: Greedent|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Greedent|Sitrus Berry|[eat]
+|-heal|p1a: Greedent|50/100|[from] item: Sitrus Berry
+|-heal|p1a: Greedent|84/100|[from] ability: Cheek Pouch
+|
+|-heal|p2a: Pyukumuku|76/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Greedent|Body Slam|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|45/100
+|move|p2a: Pyukumuku|Toxic|p1a: Greedent
+|-status|p1a: Greedent|tox
+|
+|-heal|p2a: Pyukumuku|51/100|[from] item: Leftovers
+|-damage|p1a: Greedent|78/100 tox|[from] psn
+|upkeep
+|turn|29
+|-message|m3p0 forfeited.
+|
+|win|temp89
+|l|☆m3p0
+|raw|m3p0's rating: 1447 &rarr; <strong>1416</strong><br />(-31 for losing)
+|raw|temp89's rating: 1220 &rarr; <strong>1259</strong><br />(+39 for winning)

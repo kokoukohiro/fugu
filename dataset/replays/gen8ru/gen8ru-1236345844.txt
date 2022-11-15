@@ -1,0 +1,268 @@
+|j|☆chi core
+|j|☆Nemris
+|t:|1607007143
+|player|p1|chi core|rancher|1312
+|player|p2|Nemris|169|1355
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Noivern, F|
+|poke|p1|Scolipede, F|
+|poke|p1|Thundurus, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Kyurem|
+|poke|p1|Darmanitan, M|
+|poke|p2|Obstagoon, M|
+|poke|p2|Araquanid, M|
+|poke|p2|Metagross|
+|poke|p2|Tyrantrum, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Noivern, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1607007156
+|start
+|switch|p1a: Speedy|Scolipede, F|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|turn|1
+|
+|t:|1607007168
+|move|p1a: Speedy|Spikes|p2a: Metagross
+|-sidestart|p2: Nemris|Spikes
+|move|p2a: Metagross|Stealth Rock|p1a: Speedy
+|-sidestart|p1: chi core|move: Stealth Rock
+|
+|-ability|p1a: Speedy|Speed Boost|boost
+|-boost|p1a: Speedy|spe|1
+|upkeep
+|turn|2
+|
+|t:|1607007175
+|move|p1a: Speedy|Toxic Spikes|p2a: Metagross
+|-sidestart|p2: Nemris|move: Toxic Spikes
+|move|p2a: Metagross|Zen Headbutt|p1a: Speedy
+|-supereffective|p1a: Speedy
+|-enditem|p1a: Speedy|Focus Sash
+|-damage|p1a: Speedy|1/100
+|
+|-ability|p1a: Speedy|Speed Boost|boost
+|-boost|p1a: Speedy|spe|1
+|upkeep
+|turn|3
+|
+|t:|1607007183
+|switch|p1a: High jump miss|Tsareena, F|100/100
+|move|p2a: Metagross|Bullet Punch||[still]
+|cant|p1a: High jump miss|ability: Queenly Majesty|Bullet Punch|[of] p2a: Metagross
+|
+|upkeep
+|turn|4
+|
+|t:|1607007190
+|move|p1a: High jump miss|Knock Off|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|50/100
+|-enditem|p2a: Metagross|Weakness Policy
+|-boost|p2a: Metagross|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Metagross|spa|2|[from] item: Weakness Policy
+|move|p2a: Metagross|Zen Headbutt|p1a: High jump miss|[miss]
+|-miss|p2a: Metagross|p1a: High jump miss
+|
+|upkeep
+|turn|5
+|
+|t:|1607007199
+|move|p1a: High jump miss|Rapid Spin|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|44/100
+|-boost|p1a: High jump miss|spe|1
+|-sideend|p1: chi core|Stealth Rock|[from] move: Rapid Spin|[of] p1a: High jump miss
+|move|p2a: Metagross|Zen Headbutt|p1a: High jump miss
+|-damage|p1a: High jump miss|0 fnt
+|faint|p1a: High jump miss
+|
+|upkeep
+|
+|t:|1607007215
+|switch|p1a: Louis|Darmanitan, M|100/100
+|turn|6
+|
+|t:|1607007223
+|move|p2a: Metagross|Bullet Punch|p1a: Louis
+|-resisted|p1a: Louis
+|-damage|p1a: Louis|63/100
+|move|p1a: Louis|Flare Blitz|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|-damage|p1a: Louis|48/100|[from] Recoil
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1607007230
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|7
+|
+|t:|1607007235
+|move|p1a: Louis|Flare Blitz|p2a: Araquanid
+|-damage|p2a: Araquanid|43/100
+|-damage|p1a: Louis|33/100|[from] Recoil
+|move|p2a: Araquanid|Sticky Web|p1a: Louis
+|-sidestart|p1: chi core|move: Sticky Web
+|
+|upkeep
+|turn|8
+|
+|t:|1607007241
+|move|p1a: Louis|Flare Blitz|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-damage|p1a: Louis|22/100|[from] Recoil
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1607007261
+|switch|p2a: Mimikyu|Mimikyu, M, shiny|100/100
+|-damage|p2a: Mimikyu|88/100|[from] Spikes
+|-status|p2a: Mimikyu|psn
+|turn|9
+|
+|t:|1607007266
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Louis
+|-damage|p1a: Louis|0 fnt
+|-damage|p2a: Mimikyu|78/100 psn|[from] item: Life Orb
+|faint|p1a: Louis
+|
+|-damage|p2a: Mimikyu|66/100 psn|[from] psn
+|upkeep
+|
+|t:|1607007275
+|switch|p1a: Fisherman|Thundurus, M|100/100
+|turn|10
+|
+|t:|1607007284
+|switch|p2a: Noivern|Noivern, F, shiny|100/100
+|move|p1a: Fisherman|Thunderbolt|p2a: Noivern
+|-damage|p2a: Noivern|42/100
+|
+|upkeep
+|turn|11
+|
+|t:|1607007300
+|move|p1a: Fisherman|Thunder Wave|p2a: Noivern
+|-status|p2a: Noivern|par
+|cant|p2a: Noivern|par
+|
+|upkeep
+|turn|12
+|
+|t:|1607007305
+|move|p1a: Fisherman|Thunderbolt|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|t:|1607007310
+|switch|p2a: Tyrantrum|Tyrantrum, M|100/100
+|-damage|p2a: Tyrantrum|88/100|[from] Spikes
+|-status|p2a: Tyrantrum|psn
+|turn|13
+|
+|t:|1607007318
+|move|p2a: Tyrantrum|Head Smash|p1a: Fisherman
+|-supereffective|p1a: Fisherman
+|-damage|p1a: Fisherman|0 fnt
+|faint|p1a: Fisherman
+|
+|-damage|p2a: Tyrantrum|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1607007335
+|switch|p1a: Corona|Noivern, F|100/100
+|-item|p2a: Tyrantrum|Choice Scarf|[from] ability: Frisk|[of] p1a: Corona|[identify]
+|turn|14
+|
+|t:|1607007343
+|move|p2a: Tyrantrum|Head Smash|p1a: Corona
+|-supereffective|p1a: Corona
+|-damage|p1a: Corona|0 fnt
+|faint|p1a: Corona
+|
+|-damage|p2a: Tyrantrum|63/100 psn|[from] psn
+|upkeep
+|
+|t:|1607007349
+|switch|p1a: Speedy|Scolipede, F|1/100
+|-activate|p1a: Speedy|move: Sticky Web
+|-unboost|p1a: Speedy|spe|1
+|turn|15
+|
+|t:|1607007372
+|switch|p2a: Mimikyu|Mimikyu, M, shiny|66/100 psn
+|-damage|p2a: Mimikyu|53/100 psn|[from] Spikes
+|move|p1a: Speedy|Endeavor|p2a: Mimikyu
+|-immune|p2a: Mimikyu
+|
+|-damage|p2a: Mimikyu|41/100 psn|[from] psn
+|-ability|p1a: Speedy|Speed Boost|boost
+|-boost|p1a: Speedy|spe|1
+|upkeep
+|turn|16
+|
+|t:|1607007382
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Speedy
+|-damage|p1a: Speedy|0 fnt
+|-damage|p2a: Mimikyu|31/100 psn|[from] item: Life Orb
+|faint|p1a: Speedy
+|
+|-damage|p2a: Mimikyu|19/100 psn|[from] psn
+|upkeep
+|
+|t:|1607007388
+|switch|p1a: Best specs|Kyurem|100/100
+|-activate|p1a: Best specs|move: Sticky Web
+|-unboost|p1a: Best specs|spe|1
+|-ability|p1a: Best specs|Pressure
+|turn|17
+|
+|t:|1607007394
+|move|p2a: Mimikyu|Play Rough|p1a: Best specs
+|-supereffective|p1a: Best specs
+|-damage|p1a: Best specs|12/100
+|-damage|p2a: Mimikyu|9/100 psn|[from] item: Life Orb
+|move|p1a: Best specs|Substitute|p1a: Best specs
+|-fail|p1a: Best specs|move: Substitute|[weak]
+|
+|-heal|p1a: Best specs|18/100|[from] item: Leftovers
+|-damage|p2a: Mimikyu|0 fnt|[from] psn
+|faint|p2a: Mimikyu
+|upkeep
+|
+|t:|1607007403
+|switch|p2a: Tyrantrum|Tyrantrum, M|63/100 psn
+|-damage|p2a: Tyrantrum|51/100 psn|[from] Spikes
+|turn|18
+|
+|t:|1607007409
+|move|p2a: Tyrantrum|Dragon Claw|p1a: Best specs
+|-supereffective|p1a: Best specs
+|-damage|p1a: Best specs|0 fnt
+|faint|p1a: Best specs
+|
+|win|Nemris
+|c|☆chi core|gg
+|c|☆Nemris|gg
+|l|☆chi core
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

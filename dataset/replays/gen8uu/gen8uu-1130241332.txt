@@ -1,0 +1,447 @@
+|j|☆shawsy97
+|j|☆Eltoras
+|player|p1|shawsy97|265|1410
+|player|p2|Eltoras|blue|1401
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Rhyperior, M|
+|poke|p1|Sirfetch’d, M|
+|poke|p1|Incineroar, F|
+|poke|p1|Dhelmise|
+|poke|p1|Celebi|
+|poke|p2|Vileplume, F|
+|poke|p2|Incineroar, M|
+|poke|p2|Escavalier, F|
+|poke|p2|Blastoise, F|
+|poke|p2|Noivern, M|
+|poke|p2|Rhyperior, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|switch|p2a: Noivern|Noivern, M|100/100
+|-item|p1a: Rhyperior|Leftovers|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|turn|1
+|
+|move|p2a: Noivern|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|95/100
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100|[from]move: U-turn
+|move|p1a: Rhyperior|Stone Edge|p2a: Vileplume
+|-damage|p2a: Vileplume|62/100
+|
+|-heal|p2a: Vileplume|68/100|[from] item: Black Sludge
+|-heal|p1a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Incineroar|Incineroar, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Vileplume|atk|1
+|move|p2a: Vileplume|Leech Seed|p1a: Incineroar
+|-start|p1a: Incineroar|move: Leech Seed
+|
+|-heal|p2a: Vileplume|75/100|[from] item: Black Sludge
+|-damage|p1a: Incineroar|88/100|[from] Leech Seed|[of] p2a: Vileplume
+|-heal|p2a: Vileplume|86/100|[silent]
+|upkeep
+|turn|3
+|
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|U-turn|p2a: Incineroar
+|-damage|p2a: Incineroar|92/100
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Incineroar|Parting Shot|p1a: Rhyperior
+|-unboost|p1a: Rhyperior|atk|1
+|-unboost|p1a: Rhyperior|spa|1
+|
+|switch|p2a: Vileplume|Vileplume, F|86/100|[from]move: Parting Shot
+|move|p1a: Rhyperior|Stealth Rock|p2a: Vileplume
+|-sidestart|p2: Eltoras|move: Stealth Rock
+|
+|-heal|p2a: Vileplume|92/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Araquanid
+|-damage|p1a: Araquanid|80/100
+|-status|p1a: Araquanid|psn
+|
+|-heal|p2a: Vileplume|99/100|[from] item: Black Sludge
+|-damage|p1a: Araquanid|67/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|-item|p1a: Araquanid|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Noivern|U-turn|p1a: Dhelmise
+|-damage|p1a: Dhelmise|89/100
+|
+|switch|p2a: Incineroar|Incineroar, M|92/100|[from]move: U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dhelmise|atk|1
+|move|p1a: Dhelmise|Anchor Shot|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|79/100
+|-activate|p2a: Incineroar|trapped
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|move|p2a: Incineroar|Knock Off|p1a: Rhyperior
+|-damage|p1a: Rhyperior|84/100
+|-enditem|p1a: Rhyperior|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Incineroar|Parting Shot|p1a: Rhyperior
+|-unboost|p1a: Rhyperior|atk|1
+|-unboost|p1a: Rhyperior|spa|1
+|
+|switch|p2a: Vileplume|Vileplume, F|99/100|[from]move: Parting Shot
+|-damage|p2a: Vileplume|86/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Earthquake|p2a: Vileplume
+|-damage|p2a: Vileplume|59/100
+|
+|-heal|p2a: Vileplume|65/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Dhelmise|Dhelmise|89/100
+|move|p2a: Vileplume|Strength Sap|p1a: Dhelmise
+|-unboost|p1a: Dhelmise|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Vileplume|Sludge Bomb|p1a: Dhelmise
+|-damage|p1a: Dhelmise|64/100
+|move|p1a: Dhelmise|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|80/100
+|-enditem|p2a: Vileplume|Black Sludge|[from] move: Knock Off|[of] p1a: Dhelmise
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Incineroar|Incineroar, F|88/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Vileplume|atk|1
+|move|p2a: Vileplume|Leech Seed|p1a: Incineroar
+|-start|p1a: Incineroar|move: Leech Seed
+|
+|-damage|p1a: Incineroar|76/100|[from] Leech Seed|[of] p2a: Vileplume
+|-heal|p2a: Vileplume|92/100|[silent]
+|upkeep
+|turn|14
+|
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|-damage|p2a: Rhyperior|94/100|[from] Stealth Rock
+|move|p1a: Incineroar|Knock Off|p2a: Rhyperior
+|-damage|p2a: Rhyperior|67/100
+|-enditem|p2a: Rhyperior|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-damage|p1a: Incineroar|63/100|[from] Leech Seed|[of] p2a: Rhyperior
+|-heal|p2a: Rhyperior|77/100|[silent]
+|upkeep
+|turn|15
+|
+|move|p1a: Incineroar|U-turn|p2a: Rhyperior
+|-crit|p2a: Rhyperior
+|-damage|p2a: Rhyperior|57/100
+|
+|switch|p1a: Celebi|Celebi|100/100|[from]move: U-turn
+|move|p2a: Rhyperior|Stealth Rock|p1a: Celebi
+|-sidestart|p1: shawsy97|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Escavalier|Escavalier, F|100/100
+|-damage|p2a: Escavalier|88/100|[from] Stealth Rock
+|move|p1a: Celebi|U-turn|p2a: Escavalier
+|-resisted|p2a: Escavalier
+|-damage|p2a: Escavalier|81/100
+|
+|switch|p1a: Incineroar|Incineroar, F|63/100|[from]move: U-turn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Escavalier|atk|1
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Rhyperior|Rhyperior, F|57/100
+|-damage|p2a: Rhyperior|51/100|[from] Stealth Rock
+|move|p1a: Incineroar|Knock Off|p2a: Rhyperior
+|-damage|p2a: Rhyperior|31/100
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Incineroar|U-turn|p2a: Rhyperior
+|-damage|p2a: Rhyperior|18/100
+|
+|switch|p1a: Sirfetch’d|Sirfetch’d, M|100/100|[from]move: U-turn
+|-damage|p1a: Sirfetch’d|94/100|[from] Stealth Rock
+|move|p2a: Rhyperior|Rock Blast|p1a: Sirfetch’d
+|-resisted|p1a: Sirfetch’d
+|-damage|p1a: Sirfetch’d|86/100
+|-resisted|p1a: Sirfetch’d
+|-damage|p1a: Sirfetch’d|77/100
+|-hitcount|p1a: Sirfetch’d|2
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|-item|p1a: Sirfetch’d|Choice Band|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|move|p1a: Sirfetch’d|Knock Off|p2a: Noivern
+|-crit|p2a: Noivern
+|-damage|p2a: Noivern|10/100
+|-enditem|p2a: Noivern|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Sirfetch’d
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Noivern|Air Slash|p1a: Sirfetch’d
+|-supereffective|p1a: Sirfetch’d
+|-damage|p1a: Sirfetch’d|0 fnt
+|faint|p1a: Sirfetch’d
+|
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Celebi|Psychic|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|switch|p2a: Escavalier|Escavalier, F|81/100
+|-damage|p2a: Escavalier|69/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Rhyperior|Rhyperior, M|84/100
+|-damage|p1a: Rhyperior|77/100|[from] Stealth Rock
+|move|p2a: Escavalier|Megahorn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|44/100
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Rhyperior|Rhyperior, F|18/100
+|-damage|p2a: Rhyperior|12/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Stone Edge|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|switch|p2a: Vileplume|Vileplume, F|92/100
+|-damage|p2a: Vileplume|80/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p1a: Araquanid|Araquanid, M|67/100 psn
+|move|p2a: Vileplume|Giga Drain|p1a: Araquanid
+|-damage|p1a: Araquanid|49/100 psn
+|-heal|p2a: Vileplume|88/100|[from] drain|[of] p1a: Araquanid
+|
+|-damage|p1a: Araquanid|37/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Vileplume|Sludge Bomb|p1a: Araquanid
+|-damage|p1a: Araquanid|16/100 psn
+|move|p1a: Araquanid|Sticky Web|p2a: Vileplume
+|-sidestart|p2: Eltoras|move: Sticky Web
+|
+|-damage|p1a: Araquanid|3/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Vileplume|Giga Drain|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|-heal|p2a: Vileplume|90/100|[from] drain|[of] p1a: Araquanid
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|switch|p1a: Incineroar|Incineroar, F|63/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Vileplume|atk|1
+|turn|27
+|
+|move|p1a: Incineroar|Swords Dance|p1a: Incineroar
+|-boost|p1a: Incineroar|atk|2
+|move|p2a: Vileplume|Strength Sap|p1a: Incineroar
+|-unboost|p1a: Incineroar|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Incineroar|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|63/100
+|-status|p1a: Incineroar|slp|[from] ability: Effect Spore|[of] p2a: Vileplume
+|move|p2a: Vileplume|Sludge Bomb|p1a: Incineroar
+|-damage|p1a: Incineroar|24/100 slp
+|
+|upkeep
+|turn|29
+|
+|cant|p1a: Incineroar|slp
+|move|p2a: Vileplume|Sludge Bomb|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|88/100
+|-damage|p1a: Celebi|76/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p2a: Incineroar|Incineroar, M|79/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|Earth Power|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|40/100
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Rhyperior|Rhyperior, M|44/100
+|-damage|p1a: Rhyperior|38/100|[from] Stealth Rock
+|move|p2a: Incineroar|Parting Shot|p1a: Rhyperior
+|-unboost|p1a: Rhyperior|atk|1
+|-unboost|p1a: Rhyperior|spa|1
+|
+|switch|p2a: Vileplume|Vileplume, F|63/100|[from]move: Parting Shot
+|-damage|p2a: Vileplume|50/100|[from] Stealth Rock
+|-activate|p2a: Vileplume|move: Sticky Web
+|-unboost|p2a: Vileplume|spe|1
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Celebi|Celebi|76/100
+|-damage|p1a: Celebi|64/100|[from] Stealth Rock
+|move|p2a: Vileplume|Giga Drain|p1a: Celebi
+|-resisted|p1a: Celebi
+|-damage|p1a: Celebi|50/100
+|-heal|p2a: Vileplume|57/100|[from] drain|[of] p1a: Celebi
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Incineroar|Incineroar, M|40/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|U-turn|p2a: Incineroar
+|-damage|p2a: Incineroar|31/100
+|
+|switch|p1a: Rhyperior|Rhyperior, M|38/100|[from]move: U-turn
+|-damage|p1a: Rhyperior|32/100|[from] Stealth Rock
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Incineroar|Parting Shot|p1a: Rhyperior
+|-unboost|p1a: Rhyperior|atk|1
+|-unboost|p1a: Rhyperior|spa|1
+|
+|switch|p2a: Vileplume|Vileplume, F|57/100|[from]move: Parting Shot
+|-activate|p2a: Vileplume|move: Sticky Web
+|-unboost|p2a: Vileplume|spe|1
+|-damage|p2a: Vileplume|45/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Earthquake|p2a: Vileplume
+|-damage|p2a: Vileplume|20/100
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Rhyperior|Earthquake|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+|
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|-activate|p2a: Blastoise|move: Sticky Web
+|-unboost|p2a: Blastoise|spe|1
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|turn|36
+|
+|switch|p1a: Dhelmise|Dhelmise|64/100
+|-damage|p1a: Dhelmise|52/100|[from] Stealth Rock
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Blastoise|Dark Pulse|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|50/100
+|-damage|p1a: Celebi|38/100|[from] Stealth Rock
+|turn|38
+|
+|move|p2a: Blastoise|Dark Pulse|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|upkeep
+|-message|shawsy97 forfeited.
+|
+|win|Eltoras
+|l|☆shawsy97

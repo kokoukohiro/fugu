@@ -1,0 +1,262 @@
+|j|☆TReis2023
+|j|☆lanouille
+|t:|1612947189
+|player|p1|TReis2023|hiker-gen4|1023
+|player|p2|lanouille|tuber|1283
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Sableye, M|
+|poke|p1|Scizor, F|
+|poke|p1|Claydol|
+|poke|p1|Lycanroc-Dusk, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Incineroar, F|
+|poke|p2|Ditto|
+|poke|p2|Rotom-Heat|
+|poke|p2|Jirachi|
+|poke|p2|Nihilego|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1612947208
+|start
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|
+|t:|1612947216
+|move|p2a: Jirachi|Stealth Rock|p1a: Claydol
+|-sidestart|p1: TReis2023|move: Stealth Rock
+|move|p1a: Claydol|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: lanouille|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1612947223
+|move|p2a: Jirachi|U-turn|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|70/100
+|
+|t:|1612947229
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|move|p1a: Claydol|Rapid Spin|p2a: Rotom
+|-damage|p2a: Rotom|92/100
+|-boost|p1a: Claydol|spe|1
+|-sideend|p1: TReis2023|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Claydol
+|
+|-heal|p1a: Claydol|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1612947238
+|move|p2a: Rotom|Defog|p1a: Claydol
+|-unboost|p1a: Claydol|evasion|1
+|-sideend|p2: lanouille|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|move|p1a: Claydol|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|66/100
+|
+|-heal|p1a: Claydol|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1612947250
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Claydol|atk|1
+|move|p1a: Claydol|Stealth Rock|p2a: Incineroar
+|-sidestart|p2: lanouille|move: Stealth Rock
+|
+|-heal|p1a: Claydol|89/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1612947263
+|move|p1a: Claydol|Earthquake|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|69/100
+|move|p2a: Incineroar|Knock Off|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|14/100
+|-enditem|p1a: Claydol|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|6
+|
+|t:|1612947278
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Incineroar|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|55/100
+|-enditem|p1a: Hatterene|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|7
+|
+|t:|1612947286
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: Hatterene|Thunder Wave|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|
+|-heal|p2a: Jirachi|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1612947301
+|move|p2a: Jirachi|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|38/100
+|
+|t:|1612947303
+|switch|p2a: Rotom|Rotom-Heat|66/100|[from]move: U-turn
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1612947309
+|switch|p1a: Claydol|Claydol|14/100
+|-heal|p1a: Claydol|100/100|[from] move: Healing Wish
+|turn|9
+|
+|t:|1612947313
+|move|p2a: Rotom|Defog|p1a: Claydol
+|-unboost|p1a: Claydol|evasion|1
+|-sideend|p2: lanouille|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|move|p1a: Claydol|Stealth Rock|p2a: Rotom
+|-sidestart|p2: lanouille|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1612947321
+|move|p2a: Rotom|Pain Split|p1a: Claydol
+|-sethp|p1a: Claydol|81/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|87/100|[from] move: Pain Split
+|move|p1a: Claydol|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|63/100
+|
+|upkeep
+|turn|11
+|
+|t:|1612947329
+|move|p2a: Rotom|Defog|p1a: Claydol
+|-unboost|p1a: Claydol|evasion|1
+|-sideend|p2: lanouille|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|move|p1a: Claydol|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|39/100
+|
+|upkeep
+|turn|12
+|
+|t:|1612947335
+|move|p2a: Rotom|Pain Split|p1a: Claydol
+|-sethp|p1a: Claydol|59/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|63/100|[from] move: Pain Split
+|move|p1a: Claydol|Stealth Rock|p2a: Rotom
+|-sidestart|p2: lanouille|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1612947344
+|move|p2a: Rotom|Overheat|p1a: Claydol
+|-damage|p1a: Claydol|29/100
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Claydol|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|36/100
+|-unboost|p2a: Rotom|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1612947353
+|switch|p2a: Incineroar|Incineroar, F|69/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Claydol|atk|1
+|move|p1a: Claydol|Psychic|p2a: Incineroar
+|-immune|p2a: Incineroar
+|
+|upkeep
+|turn|15
+|
+|t:|1612947369
+|move|p2a: Incineroar|Knock Off|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|upkeep
+|
+|t:|1612947377
+|switch|p1a: Sableye|Sableye, M|100/100
+|turn|16
+|
+|t:|1612947386
+|move|p1a: Sableye|Trick|p2a: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Incineroar
+|move|p2a: Incineroar|Parting Shot|p1a: Sableye
+|-unboost|p1a: Sableye|atk|1
+|-unboost|p1a: Sableye|spa|1
+|
+|t:|1612947405
+|switch|p2a: Rotom|Rotom-Heat|36/100|[from]move: Parting Shot
+|
+|-damage|p1a: Sableye|88/100|[from] item: Sticky Barb
+|upkeep
+|turn|17
+|
+|t:|1612947410
+|move|p1a: Sableye|Trick|p2a: Rotom
+|-activate|p1a: Sableye|move: Trick|[of] p2a: Rotom
+|-item|p2a: Rotom|Sticky Barb|[from] move: Trick
+|-item|p1a: Sableye|Heavy-Duty Boots|[from] move: Trick
+|move|p2a: Rotom|Defog|p1a: Sableye
+|-unboost|p1a: Sableye|evasion|1
+|-sideend|p2: lanouille|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|
+|-damage|p2a: Rotom|24/100|[from] item: Sticky Barb
+|upkeep
+|turn|18
+|
+|t:|1612947419
+|move|p1a: Sableye|Tickle|p2a: Rotom
+|-unboost|p2a: Rotom|atk|1
+|-unboost|p2a: Rotom|def|1
+|move|p2a: Rotom|Pain Split|p1a: Sableye
+|-sethp|p1a: Sableye|56/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|56/100|[from] move: Pain Split
+|
+|-damage|p2a: Rotom|44/100|[from] item: Sticky Barb
+|upkeep
+|turn|19
+|
+|t:|1612947431
+|switch|p2a: Incineroar|Incineroar, F|69/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sableye|atk|1
+|move|p1a: Sableye|Shadow Claw|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|64/100
+|
+|upkeep
+|turn|20
+|-message|TReis2023 forfeited.
+|
+|win|lanouille
+|l|☆TReis2023
+|raw|TReis2023's rating: 1023 &rarr; <strong>1018</strong><br />(-5 for losing)
+|raw|lanouille's rating: 1283 &rarr; <strong>1292</strong><br />(+9 for winning)

@@ -1,0 +1,642 @@
+|j|☆Heartboyhbk
+|j|☆polar_geass
+|t:|1613457806
+|player|p1|Heartboyhbk|266|1430
+|player|p2|polar_geass|skyla|1409
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Raikou|
+|poke|p1|Roserade, F|
+|poke|p1|Golisopod, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Incineroar, M|
+|poke|p1|Steelix, M|
+|poke|p2|Rhyperior, F|
+|poke|p2|Cramorant, M|
+|poke|p2|Klefki, M|
+|poke|p2|Zarude|
+|poke|p2|Entei|
+|poke|p2|Reuniclus, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Heartboyhbk)
+|
+|t:|1613457820
+|start
+|switch|p1a: Roserade|Roserade, F|100/100
+|switch|p2a: Cramorant|Cramorant, M|100/100
+|turn|1
+|
+|t:|1613457837
+|move|p1a: Roserade|Sleep Powder|p2a: Cramorant|[miss]
+|-miss|p1a: Roserade|p2a: Cramorant
+|move|p2a: Cramorant|Air Slash|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|25/100
+|
+|-heal|p1a: Roserade|31/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1613457861
+|move|p1a: Roserade|Sleep Powder|p2a: Cramorant
+|-status|p2a: Cramorant|slp|[from] move: Sleep Powder
+|cant|p2a: Cramorant|slp
+|
+|-heal|p1a: Roserade|37/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1613457869
+|move|p1a: Roserade|Spikes|p2a: Cramorant
+|-sidestart|p2: polar_geass|Spikes
+|cant|p2a: Cramorant|slp
+|
+|-heal|p1a: Roserade|43/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1613457875
+|move|p1a: Roserade|Sludge Bomb|p2a: Cramorant
+|-damage|p2a: Cramorant|51/100 slp
+|-curestatus|p2a: Cramorant|slp|[msg]
+|move|p2a: Cramorant|Surf|p1a: Roserade
+|-formechange|p2a: Cramorant|Cramorant-Gulping|
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|21/100
+|
+|-heal|p1a: Roserade|27/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1613457886
+|move|p1a: Roserade|Sleep Powder|p2a: Cramorant|[miss]
+|-miss|p1a: Roserade|p2a: Cramorant
+|move|p2a: Cramorant|Air Slash|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|t:|1613457895
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|6
+|
+|t:|1613457905
+|move|p2a: Cramorant|Endure|p2a: Cramorant
+|-singleturn|p2a: Cramorant|move: Endure
+|move|p1a: Raikou|Toxic|p2a: Cramorant
+|-status|p2a: Cramorant|tox
+|
+|-damage|p2a: Cramorant|45/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1613457912
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|-damage|p2a: Reuniclus|88/100|[from] Spikes
+|move|p1a: Raikou|Volt Switch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|72/100
+|
+|t:|1613457929
+|switch|p1a: Golisopod|Golisopod, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|8
+|
+|t:|1613457934
+|switch|p2a: Klefki|Klefki, M|100/100
+|-damage|p2a: Klefki|88/100|[from] Spikes
+|move|p1a: Golisopod|First Impression|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|78/100
+|
+|upkeep
+|turn|9
+|
+|t:|1613457942
+|move|p2a: Klefki|Defog|p1a: Golisopod
+|-unboost|p1a: Golisopod|evasion|1
+|-sideend|p2: polar_geass|Spikes|[from] move: Defog|[of] p2a: Klefki
+|move|p1a: Golisopod|Knock Off|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|62/100
+|-enditem|p2a: Klefki|Lagging Tail|[from] move: Knock Off|[of] p1a: Golisopod
+|
+|upkeep
+|turn|10
+|
+|t:|1613457960
+|switch|p1a: Steelix|Steelix, M|100/100
+|move|p2a: Klefki|Switcheroo|p1a: Steelix
+|-activate|p2a: Klefki|move: Trick|[of] p1a: Steelix
+|-enditem|p1a: Steelix|Leftovers|[silent]|[from] move: Switcheroo
+|-item|p2a: Klefki|Leftovers|[from] move: Switcheroo
+|
+|-heal|p2a: Klefki|68/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1613457980
+|move|p2a: Klefki|Spikes|p1a: Steelix
+|-sidestart|p1: Heartboyhbk|Spikes
+|move|p1a: Steelix|Stealth Rock|p2a: Klefki
+|-sidestart|p2: polar_geass|move: Stealth Rock
+|
+|-heal|p2a: Klefki|74/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1613457987
+|switch|p2a: Zarude|Zarude|100/100
+|move|p1a: Steelix|Earthquake|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|87/100
+|
+|upkeep
+|turn|13
+|
+|t:|1613457993
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zarude|atk|1
+|move|p2a: Zarude|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|88/100
+|
+|t:|1613457999
+|switch|p2a: Cramorant|Cramorant, M|45/100 tox|[from]move: U-turn
+|
+|-damage|p2a: Cramorant|39/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1613458007
+|move|p2a: Cramorant|Surf|p1a: Incineroar
+|-formechange|p2a: Cramorant|Cramorant-Gorging|
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|19/100
+|move|p1a: Incineroar|Parting Shot|p2a: Cramorant
+|-unboost|p2a: Cramorant|atk|1
+|-unboost|p2a: Cramorant|spa|1
+|
+|t:|1613458016
+|switch|p1a: Raikou|Raikou|100/100|[from]move: Parting Shot
+|-ability|p1a: Raikou|Pressure
+|
+|-damage|p2a: Cramorant|27/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1613458024
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|-damage|p2a: Reuniclus|88/100|[from] Stealth Rock
+|move|p1a: Raikou|Thunderbolt|p2a: Reuniclus
+|-damage|p2a: Reuniclus|66/100
+|
+|upkeep
+|turn|16
+|
+|t:|1613458031
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|-damage|p2a: Rhyperior|94/100|[from] Stealth Rock
+|move|p1a: Raikou|Toxic|p2a: Rhyperior
+|-status|p2a: Rhyperior|tox
+|
+|-heal|p2a: Rhyperior|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Rhyperior|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1613458041
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Rhyperior|Stealth Rock|p1a: Togekiss
+|-sidestart|p1: Heartboyhbk|move: Stealth Rock
+|
+|-heal|p2a: Rhyperior|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Rhyperior|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1613458052
+|move|p1a: Togekiss|Air Slash|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|73/100 tox
+|cant|p2a: Rhyperior|flinch
+|
+|-heal|p2a: Rhyperior|79/100 tox|[from] item: Leftovers
+|-damage|p2a: Rhyperior|60/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1613458062
+|switch|p1a: Steelix|Steelix, M|100/100
+|-damage|p1a: Steelix|88/100|[from] Spikes
+|-damage|p1a: Steelix|85/100|[from] Stealth Rock
+|switch|p2a: Reuniclus|Reuniclus, M|99/100
+|-damage|p2a: Reuniclus|87/100|[from] Stealth Rock
+|
+|upkeep
+|turn|20
+|
+|t:|1613458071
+|move|p2a: Reuniclus|Focus Blast|p1a: Steelix|[miss]
+|-miss|p2a: Reuniclus|p1a: Steelix
+|move|p1a: Steelix|Toxic|p2a: Reuniclus
+|-status|p2a: Reuniclus|tox
+|
+|-damage|p2a: Reuniclus|81/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1613458078
+|switch|p1a: Golisopod|Golisopod, M|100/100
+|move|p2a: Reuniclus|Future Sight|p1a: Golisopod
+|-start|p2a: Reuniclus|move: Future Sight
+|
+|-damage|p2a: Reuniclus|69/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1613458092
+|switch|p2a: Klefki|Klefki, M|74/100
+|-damage|p2a: Klefki|68/100|[from] Stealth Rock
+|move|p1a: Golisopod|First Impression|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|59/100
+|
+|-heal|p2a: Klefki|65/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1613458104
+|move|p2a: Klefki|Dazzling Gleam|p1a: Golisopod
+|-damage|p1a: Golisopod|73/100
+|move|p1a: Golisopod|Knock Off|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|51/100
+|-enditem|p2a: Klefki|Leftovers|[from] move: Knock Off|[of] p1a: Golisopod
+|
+|-end|p1a: Golisopod|move: Future Sight
+|-damage|p1a: Golisopod|17/100
+|-activate|p1a: Golisopod|ability: Emergency Exit
+|upkeep
+|
+|t:|1613458121
+|switch|p1a: Incineroar|Incineroar, M|19/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Klefki|atk|1
+|turn|24
+|
+|t:|1613458149
+|switch|p2a: Rhyperior|Rhyperior, F|60/100 tox
+|-damage|p2a: Rhyperior|54/100 tox|[from] Stealth Rock
+|move|p1a: Incineroar|Overheat|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|35/100 tox
+|-unboost|p1a: Incineroar|spa|2
+|
+|-heal|p2a: Rhyperior|41/100 tox|[from] item: Leftovers
+|-damage|p2a: Rhyperior|35/100 tox|[from] psn
+|upkeep
+|turn|25
+|inactive|polar_geass has 120 seconds left.
+|
+|t:|1613458165
+|switch|p2a: Klefki|Klefki, M|51/100
+|-damage|p2a: Klefki|45/100|[from] Stealth Rock
+|move|p1a: Incineroar|Parting Shot|p2a: Klefki
+|-unboost|p2a: Klefki|atk|1
+|-unboost|p2a: Klefki|spa|1
+|
+|t:|1613458182
+|switch|p1a: Steelix|Steelix, M|85/100|[from]move: Parting Shot
+|-damage|p1a: Steelix|73/100|[from] Spikes
+|-damage|p1a: Steelix|69/100|[from] Stealth Rock
+|
+|upkeep
+|turn|26
+|
+|t:|1613458189
+|switch|p2a: Zarude|Zarude|87/100
+|move|p1a: Steelix|Earthquake|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|72/100
+|
+|upkeep
+|turn|27
+|
+|t:|1613458199
+|move|p2a: Zarude|U-turn|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|64/100
+|
+|t:|1613458207
+|switch|p2a: Reuniclus|Reuniclus, M|100/100 tox|[from]move: U-turn
+|-damage|p2a: Reuniclus|88/100 tox|[from] Stealth Rock
+|move|p1a: Steelix|Heavy Slam|p2a: Reuniclus
+|-damage|p2a: Reuniclus|56/100 tox
+|
+|-damage|p2a: Reuniclus|50/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1613458223
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Reuniclus|Focus Blast|p1a: Raikou
+|-damage|p1a: Raikou|63/100
+|
+|-damage|p2a: Reuniclus|38/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1613458238
+|switch|p2a: Rhyperior|Rhyperior, F|35/100 tox
+|-damage|p2a: Rhyperior|28/100 tox|[from] Stealth Rock
+|move|p1a: Raikou|Thunderbolt|p2a: Rhyperior
+|-immune|p2a: Rhyperior
+|
+|-heal|p2a: Rhyperior|35/100 tox|[from] item: Leftovers
+|-damage|p2a: Rhyperior|28/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1613458247
+|move|p1a: Raikou|Aura Sphere|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|t:|1613458257
+|switch|p2a: Reuniclus|Reuniclus, M|71/100 tox
+|-damage|p2a: Reuniclus|59/100 tox|[from] Stealth Rock
+|turn|31
+|
+|t:|1613458269
+|move|p1a: Raikou|Volt Switch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|42/100 tox
+|
+|t:|1613458271
+|switch|p1a: Incineroar|Incineroar, M|19/100|[from]move: Volt Switch
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|move|p2a: Reuniclus|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|15/100
+|-enditem|p1a: Incineroar|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Reuniclus
+|
+|-damage|p2a: Reuniclus|36/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1613458294
+|switch|p2a: Cramorant|Cramorant, M|27/100 tox
+|move|p1a: Incineroar|Overheat|p2a: Cramorant
+|-resisted|p2a: Cramorant
+|-damage|p2a: Cramorant|5/100 tox
+|-unboost|p1a: Incineroar|spa|2
+|
+|-damage|p2a: Cramorant|0 fnt|[from] psn
+|faint|p2a: Cramorant
+|upkeep
+|inactive|polar_geass has 120 seconds left.
+|
+|t:|1613458313
+|switch|p2a: Zarude|Zarude|72/100
+|turn|33
+|
+|t:|1613458321
+|move|p2a: Zarude|Darkest Lariat|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1613458336
+|switch|p1a: Raikou|Raikou|63/100
+|-ability|p1a: Raikou|Pressure
+|turn|34
+|
+|t:|1613458347
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Zarude|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|95/100
+|
+|t:|1613458352
+|switch|p2a: Entei|Entei|100/100|[from]move: U-turn
+|-damage|p2a: Entei|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|35
+|
+|t:|1613458371
+|switch|p1a: Steelix|Steelix, M|64/100
+|-damage|p1a: Steelix|51/100|[from] Spikes
+|-damage|p1a: Steelix|48/100|[from] Stealth Rock
+|move|p2a: Entei|Stone Edge|p1a: Steelix|[miss]
+|-miss|p2a: Entei|p1a: Steelix
+|
+|upkeep
+|turn|36
+|
+|t:|1613458386
+|switch|p2a: Zarude|Zarude|72/100
+|move|p1a: Steelix|Heavy Slam|p2a: Zarude
+|-damage|p2a: Zarude|38/100
+|
+|upkeep
+|turn|37
+|
+|t:|1613458395
+|move|p2a: Zarude|Jungle Healing|p2a: Zarude
+|-heal|p2a: Zarude|63/100
+|move|p1a: Steelix|Heavy Slam|p2a: Zarude
+|-damage|p2a: Zarude|26/100
+|
+|upkeep
+|turn|38
+|
+|t:|1613458408
+|switch|p1a: Raikou|Raikou|63/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Zarude|U-turn|p1a: Raikou
+|-damage|p1a: Raikou|29/100
+|
+|t:|1613458417
+|switch|p2a: Reuniclus|Reuniclus, M|69/100 tox|[from]move: U-turn
+|-damage|p2a: Reuniclus|57/100 tox|[from] Stealth Rock
+|
+|-damage|p2a: Reuniclus|51/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1613458430
+|move|p1a: Raikou|Volt Switch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|35/100 tox
+|
+|t:|1613458439
+|switch|p1a: Steelix|Steelix, M|48/100|[from]move: Volt Switch
+|-damage|p1a: Steelix|36/100|[from] Spikes
+|-damage|p1a: Steelix|33/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Psychic|p1a: Steelix
+|-resisted|p1a: Steelix
+|-crit|p1a: Steelix
+|-damage|p1a: Steelix|8/100
+|
+|-damage|p2a: Reuniclus|22/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1613458457
+|move|p2a: Reuniclus|Psychic|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|-damage|p2a: Reuniclus|4/100 tox|[from] psn
+|upkeep
+|
+|t:|1613458472
+|switch|p1a: Raikou|Raikou|29/100
+|-ability|p1a: Raikou|Pressure
+|turn|41
+|
+|t:|1613458491
+|switch|p2a: Zarude|Zarude|26/100
+|move|p1a: Raikou|Aura Sphere|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|0 fnt
+|faint|p2a: Zarude
+|
+|upkeep
+|
+|t:|1613458500
+|switch|p2a: Entei|Entei|76/100
+|-damage|p2a: Entei|51/100|[from] Stealth Rock
+|turn|42
+|
+|t:|1613458520
+|switch|p1a: Togekiss|Togekiss, F|95/100
+|move|p2a: Entei|Extreme Speed|p1a: Togekiss
+|-damage|p1a: Togekiss|59/100
+|
+|upkeep
+|turn|43
+|
+|t:|1613458531
+|switch|p2a: Klefki|Klefki, M|45/100
+|-damage|p2a: Klefki|39/100|[from] Stealth Rock
+|move|p1a: Togekiss|Thunder Wave|p2a: Klefki
+|-status|p2a: Klefki|par
+|
+|upkeep
+|turn|44
+|
+|t:|1613458546
+|cant|p2a: Klefki|par
+|move|p1a: Togekiss|Wish|p1a: Togekiss
+|
+|upkeep
+|turn|45
+|
+|t:|1613458551
+|move|p2a: Klefki|Defog|p1a: Togekiss
+|-unboost|p1a: Togekiss|evasion|1
+|-sideend|p1: Heartboyhbk|Spikes|[from] move: Defog|[of] p2a: Klefki
+|-sideend|p1: Heartboyhbk|Stealth Rock|[from] move: Defog|[of] p2a: Klefki
+|-sideend|p2: polar_geass|Stealth Rock|[from] move: Defog|[of] p2a: Klefki
+|move|p1a: Togekiss|Air Slash|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|20/100 par
+|
+|-heal|p1a: Togekiss|100/100|[from] move: Wish|[wisher] Togekiss
+|upkeep
+|turn|46
+|j| Rav3ndan
+|
+|t:|1613458572
+|move|p2a: Klefki|Spikes|p1a: Togekiss
+|-sidestart|p1: Heartboyhbk|Spikes
+|move|p1a: Togekiss|Wish|p1a: Togekiss
+|
+|upkeep
+|turn|47
+|
+|t:|1613458580
+|switch|p1a: Raikou|Raikou|29/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Klefki|Switcheroo|p1a: Raikou
+|-activate|p2a: Klefki|move: Trick|[of] p1a: Raikou
+|-enditem|p1a: Raikou|Heavy-Duty Boots|[silent]|[from] move: Switcheroo
+|-item|p2a: Klefki|Heavy-Duty Boots|[from] move: Switcheroo
+|
+|-heal|p1a: Raikou|87/100|[from] move: Wish|[wisher] Togekiss
+|upkeep
+|turn|48
+|
+|t:|1613458594
+|move|p2a: Klefki|Spikes|p1a: Raikou
+|-sidestart|p1: Heartboyhbk|Spikes
+|move|p1a: Raikou|Thunderbolt|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|upkeep
+|
+|t:|1613458614
+|switch|p2a: Reuniclus|Reuniclus, M|37/100 tox
+|turn|49
+|inactive|polar_geass has 120 seconds left.
+|c|☆Heartboyhbk|GG
+|j| Belebe-poke
+|inactive|polar_geass has 90 seconds left.
+|
+|t:|1613458669
+|move|p1a: Raikou|Thunderbolt|p2a: Reuniclus
+|-damage|p2a: Reuniclus|16/100 tox
+|move|p2a: Reuniclus|Future Sight|p1a: Raikou
+|-start|p2a: Reuniclus|move: Future Sight
+|
+|-damage|p2a: Reuniclus|10/100 tox|[from] psn
+|upkeep
+|turn|50
+|inactive|polar_geass has 90 seconds left.
+|
+|t:|1613458679
+|move|p1a: Raikou|Thunderbolt|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|
+|t:|1613458683
+|switch|p2a: Entei|Entei|51/100
+|turn|51
+|
+|t:|1613458690
+|move|p2a: Entei|Extreme Speed|p1a: Raikou
+|-damage|p1a: Raikou|35/100
+|move|p1a: Raikou|Thunderbolt|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|
+|win|Heartboyhbk
+|raw|Heartboyhbk's rating: 1430 &rarr; <strong>1449</strong><br />(+19 for winning)
+|raw|polar_geass's rating: 1409 &rarr; <strong>1390</strong><br />(-19 for losing)

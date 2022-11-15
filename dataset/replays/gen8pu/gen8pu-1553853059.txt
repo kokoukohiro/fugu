@@ -1,0 +1,186 @@
+|j|☆nuclear_burrito
+|j|☆falcu
+|t:|1650009778
+|gametype|singles
+|player|p1|nuclear_burrito|102|1441
+|player|p2|falcu|giovanni|1351
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Wishiwashi, F|
+|poke|p1|Vikavolt, M|
+|poke|p1|Sandslash, M|
+|poke|p1|Perrserker, F|
+|poke|p1|Froslass, F|
+|poke|p1|Lycanroc, F|
+|poke|p2|Gigalith, F|
+|poke|p2|Comfey, F|
+|poke|p2|Lycanroc, M|
+|poke|p2|Charizard, M|
+|poke|p2|Weezing, F|
+|poke|p2|Trevenant, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nuclear_burrito)
+|
+|t:|1650009801
+|start
+|switch|p1a: Perrserker|Perrserker, F|100/100
+|switch|p2a: Weezing|Weezing, F|100/100
+|turn|1
+|
+|t:|1650009807
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|move|p2a: Weezing|Toxic Spikes|p1a: Vikavolt
+|-sidestart|p1: nuclear_burrito|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1650009810
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Vikavolt|Thunderbolt|p2a: Gigalith
+|-damage|p2a: Gigalith|66/100
+|-damage|p1a: Vikavolt|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|85/100|[from] Sandstorm
+|upkeep
+|turn|3
+|j| ii88
+|
+|t:|1650009822
+|switch|p1a: Sandslash|Sandslash, M|100/100
+|-status|p1a: Sandslash|psn
+|move|p2a: Gigalith|Toxic||[still]
+|-fail|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sandslash|88/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1650009828
+|switch|p2a: Trevenant|Trevenant, M|100/100
+|-item|p1a: Sandslash|Rocky Helmet|[from] ability: Frisk|[of] p2a: Trevenant|[identify]
+|move|p1a: Sandslash|Stealth Rock|p2a: Trevenant
+|-sidestart|p2: falcu|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Trevenant|94/100|[from] Sandstorm
+|-damage|p1a: Sandslash|76/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1650009834
+|switch|p1a: Perrserker|Perrserker, F|100/100
+|move|p2a: Trevenant|Poltergeist|p1a: Perrserker
+|-activate|p1a: Perrserker|move: Poltergeist|Choice Band
+|-damage|p1a: Perrserker|0 fnt
+|faint|p1a: Perrserker
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Trevenant|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1650009849
+|switch|p1a: Vikavolt|Vikavolt, M|85/100
+|turn|6
+|
+|t:|1650009855
+|move|p2a: Trevenant|Poltergeist|p1a: Vikavolt
+|-activate|p1a: Vikavolt|move: Poltergeist|Life Orb
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Trevenant|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1650009863
+|switch|p1a: Froslass|Froslass, F|100/100
+|-status|p1a: Froslass|psn
+|turn|7
+|
+|t:|1650009888
+|switch|p2a: Weezing|Weezing, F|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Froslass|Poltergeist|p2a: Weezing
+|-activate|p2a: Weezing|move: Poltergeist|Black Sludge
+|-damage|p2a: Weezing|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Froslass|94/100 psn|[from] Sandstorm
+|-damage|p2a: Weezing|53/100|[from] Sandstorm
+|-heal|p2a: Weezing|59/100|[from] item: Black Sludge
+|-damage|p1a: Froslass|82/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1650009895
+|move|p1a: Froslass|Spikes|p2a: Weezing
+|-sidestart|p2: falcu|Spikes
+|move|p2a: Weezing|Flamethrower|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-crit|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|53/100|[from] Sandstorm
+|-heal|p2a: Weezing|59/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1650009898
+|switch|p1a: Sandslash|Sandslash, M|76/100 psn
+|turn|9
+|
+|t:|1650009908
+|move|p1a: Sandslash|Earthquake|p2a: Weezing
+|-immune|p2a: Weezing|[from] ability: Levitate
+|move|p2a: Weezing|Flamethrower|p1a: Sandslash
+|-damage|p1a: Sandslash|47/100 psn
+|
+|-weather|none
+|-heal|p2a: Weezing|65/100|[from] item: Black Sludge
+|-damage|p1a: Sandslash|34/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1650009917
+|switch|p2a: Trevenant|Trevenant, M|82/100
+|-damage|p2a: Trevenant|70/100|[from] Spikes
+|-damage|p2a: Trevenant|57/100|[from] Stealth Rock
+|-item|p1a: Sandslash|Rocky Helmet|[from] ability: Frisk|[of] p2a: Trevenant|[identify]
+|move|p1a: Sandslash|Rapid Spin|p2a: Trevenant
+|-immune|p2a: Trevenant
+|
+|-damage|p1a: Sandslash|22/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1650009922
+|move|p2a: Trevenant|Horn Leech|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|-heal|p2a: Trevenant|69/100|[from] drain|[of] p1a: Sandslash
+|-damage|p2a: Trevenant|53/100|[from] item: Rocky Helmet|[of] p1a: Sandslash
+|faint|p1a: Sandslash
+|
+|upkeep
+|-message|nuclear_burrito forfeited.
+|
+|win|falcu
+|raw|nuclear_burrito's rating: 1441 &rarr; <strong>1416</strong><br />(-25 for losing)
+|raw|falcu's rating: 1351 &rarr; <strong>1376</strong><br />(+25 for winning)
+|l|☆nuclear_burrito

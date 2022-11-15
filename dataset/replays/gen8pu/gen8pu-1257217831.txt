@@ -1,0 +1,201 @@
+|j|☆BiggMommacita
+|j|☆NebbyGetInTheBag
+|t:|1609970536
+|player|p1|BiggMommacita|lenora|1387
+|player|p2|NebbyGetInTheBag|lillie|1407
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Pinsir, F|
+|poke|p1|Malamar, F|
+|poke|p1|Cofagrigus, M|
+|poke|p1|Toxicroak, F|
+|poke|p1|Pawniard, F|
+|poke|p1|Coalossal, M|
+|poke|p2|Roserade, M|
+|poke|p2|Jolteon, M|
+|poke|p2|Politoed, F|
+|poke|p2|Lanturn, M|
+|poke|p2|Vaporeon, M|
+|poke|p2|Galvantula, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1609970576
+|start
+|switch|p1a: Cofagrigus|Cofagrigus, M|100/100
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|1
+|
+|t:|1609970582
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|move|p2a: Jolteon|Volt Switch|p1a: Coalossal
+|-damage|p1a: Coalossal|68/100
+|
+|t:|1609970593
+|switch|p2a: Lanturn|Lanturn, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1609970602
+|move|p2a: Lanturn|Scald|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|-damage|p2a: Lanturn|91/100|[from] item: Life Orb
+|faint|p1a: Coalossal
+|
+|upkeep
+|
+|t:|1609970607
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|turn|3
+|
+|t:|1609970614
+|move|p1a: Toxicroak|Sludge Wave|p2a: Lanturn
+|-damage|p2a: Lanturn|42/100
+|-damage|p1a: Toxicroak|91/100|[from] item: Life Orb
+|move|p2a: Lanturn|Volt Switch|p1a: Toxicroak
+|-damage|p1a: Toxicroak|29/100
+|-damage|p2a: Lanturn|32/100|[from] item: Life Orb
+|
+|t:|1609970623
+|switch|p2a: Galvantula|Galvantula, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|4
+|
+|t:|1609970634
+|move|p2a: Galvantula|Thunder|p1a: Toxicroak
+|-crit|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|upkeep
+|
+|t:|1609970639
+|switch|p1a: Cofagrigus|Cofagrigus, M|100/100
+|turn|5
+|
+|t:|1609970664
+|switch|p2a: Lanturn|Lanturn, M|32/100
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Lanturn
+|-damage|p2a: Lanturn|5/100
+|-unboost|p2a: Lanturn|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1609970672
+|move|p2a: Lanturn|Scald|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|61/100
+|-status|p1a: Cofagrigus|brn
+|-enditem|p1a: Cofagrigus|Lum Berry|[eat]
+|-curestatus|p1a: Cofagrigus|brn|[msg]
+|-damage|p2a: Lanturn|0 fnt|[from] item: Life Orb
+|faint|p2a: Lanturn
+|move|p1a: Cofagrigus|Shadow Ball|p2: Lanturn|[notarget]
+|-fail|p1a: Cofagrigus
+|
+|upkeep
+|
+|t:|1609970686
+|switch|p2a: Politoed|Politoed, F|100/100
+|turn|7
+|
+|t:|1609970691
+|move|p2a: Politoed|Rain Dance|p2a: Politoed
+|-weather|RainDance
+|move|p1a: Cofagrigus|Iron Defense|p1a: Cofagrigus
+|-boost|p1a: Cofagrigus|def|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|j| izsokok
+|
+|t:|1609970697
+|move|p2a: Politoed|Scald|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|13/100
+|move|p1a: Cofagrigus|Body Press|p2a: Politoed
+|-damage|p2a: Politoed|29/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1609970705
+|move|p2a: Politoed|Scald|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1609970718
+|switch|p1a: Pinsir|Pinsir, F|100/100
+|turn|10
+|
+|t:|1609970727
+|move|p1a: Pinsir|X-Scissor|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|-ability|p1a: Pinsir|Moxie|boost
+|-boost|p1a: Pinsir|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1609970735
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|11
+|
+|t:|1609970739
+|move|p1a: Pinsir|X-Scissor|p2a: Galvantula
+|-enditem|p2a: Galvantula|Focus Sash
+|-damage|p2a: Galvantula|1/100
+|move|p2a: Galvantula|Thunder|p1a: Pinsir
+|-damage|p1a: Pinsir|34/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1609970748
+|move|p1a: Pinsir|X-Scissor|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|-ability|p1a: Pinsir|Moxie|boost
+|-boost|p1a: Pinsir|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1609970760
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|turn|13
+|
+|t:|1609970763
+|move|p1a: Pinsir|X-Scissor|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|-ability|p1a: Pinsir|Moxie|boost
+|-boost|p1a: Pinsir|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|NebbyGetInTheBag forfeited.
+|
+|win|BiggMommacita
+|l|☆NebbyGetInTheBag

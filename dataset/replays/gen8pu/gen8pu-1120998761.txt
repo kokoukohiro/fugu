@@ -1,0 +1,419 @@
+|j|☆Axrtix
+|j|☆ayo bb
+|player|p1|Axrtix|swimmerm-gen3rs|1545
+|player|p2|ayo bb|102|1442
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Gourgeist-*, M|
+|poke|p1|Hitmontop, M|
+|poke|p1|Silvally-*|
+|poke|p1|Crustle, F|
+|poke|p1|Pawniard, M|
+|poke|p1|Lapras, F|
+|poke|p2|Dubwool, M|
+|poke|p2|Munchlax, M|
+|poke|p2|Duosion, M|
+|poke|p2|Crustle, M|
+|poke|p2|Togetic, M|
+|poke|p2|Morgrem, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Axrtix)
+|
+|start
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|switch|p2a: Duosion|Duosion, M|100/100
+|turn|1
+|
+|switch|p2a: Dubwool|Dubwool, M|100/100
+|move|p1a: Pawniard|Taunt|p2a: Dubwool
+|-start|p2a: Dubwool|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Crustle|Crustle, F|100/100
+|switch|p2a: Duosion|Duosion, M|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Crustle|Earthquake|p2a: Duosion
+|-damage|p2a: Duosion|59/100
+|move|p2a: Duosion|Psychic|p1a: Crustle
+|-damage|p1a: Crustle|45/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Crustle|Crustle, M|100/100
+|move|p1a: Crustle|Stone Edge|p2a: Crustle
+|-supereffective|p2a: Crustle
+|-crit|p2a: Crustle
+|-ability|p2a: Crustle|Sturdy
+|-damage|p2a: Crustle|1/100
+|
+|-heal|p2a: Crustle|7/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Crustle|Stone Edge|p1a: Crustle|[miss]
+|-miss|p2a: Crustle|p1a: Crustle
+|move|p1a: Crustle|Earthquake|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|upkeep
+|
+|switch|p2a: Morgrem|Morgrem, M|100/100
+|turn|6
+|
+|move|p2a: Morgrem|Dazzling Gleam|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|faint|p1a: Crustle
+|
+|upkeep
+|
+|switch|p1a: Lapras|Lapras, F|100/100
+|turn|7
+|
+|switch|p2a: Duosion|Duosion, M|92/100
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Dubwool|Dubwool, M|100/100
+|move|p1a: Pawniard|Knock Off|p2a: Dubwool
+|-damage|p2a: Dubwool|86/100
+|-enditem|p2a: Dubwool|Leftovers|[from] move: Knock Off|[of] p1a: Pawniard
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Gourgeist|Gourgeist, M|100/100
+|move|p2a: Dubwool|Thunder Wave|p1a: Gourgeist
+|-status|p1a: Gourgeist|par
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Lapras|Lapras, F|100/100
+|move|p2a: Togetic|Dazzling Gleam|p1a: Lapras
+|-damage|p1a: Lapras|84/100
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|move|p2a: Togetic|Yawn|p1a: Hitmontop
+|-start|p1a: Hitmontop|move: Yawn|[of] p2a: Togetic
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Lapras|Lapras, F|84/100
+|move|p2a: Togetic|Yawn|p1a: Lapras
+|-start|p1a: Lapras|move: Yawn|[of] p2a: Togetic
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Morgrem|Morgrem, M|100/100
+|move|p1a: Lapras|Freeze-Dry|p2a: Morgrem
+|-damage|p2a: Morgrem|61/100
+|
+|-end|p1a: Lapras|move: Yawn|[silent]
+|-status|p1a: Lapras|slp
+|upkeep
+|turn|15
+|
+|move|p2a: Morgrem|Nasty Plot|p2a: Morgrem
+|-boost|p2a: Morgrem|spa|2
+|cant|p1a: Lapras|slp
+|move|p1a: Lapras|Sleep Talk|p1a: Lapras
+|move|p1a: Lapras|Surf|p2a: Morgrem|[from]Sleep Talk
+|-damage|p2a: Morgrem|6/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Morgrem|Dark Pulse|p1a: Lapras
+|-damage|p1a: Lapras|38/100 slp
+|-curestatus|p1a: Lapras|slp|[msg]
+|move|p1a: Lapras|Sleep Talk||[still]
+|-fail|p1a: Lapras
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Morgrem|Dazzling Gleam|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Psychic|100/100
+|turn|18
+|
+|switch|p2a: Dubwool|Dubwool, M|86/100
+|move|p1a: Silvally|Flame Charge|p2a: Dubwool
+|-damage|p2a: Dubwool|75/100
+|-boost|p1a: Silvally|spe|1
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Gourgeist|Gourgeist, M|100/100 par
+|move|p2a: Dubwool|Thunder Wave|p1a: Gourgeist
+|-fail|p1a: Gourgeist|par
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|
+|upkeep
+|turn|21
+|j| MoolTool
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|switch|p2a: Dubwool|Dubwool, M|75/100
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Duosion|Duosion, M|100/100
+|move|p1a: Hitmontop|Toxic|p2a: Duosion
+|-status|p2a: Duosion|tox
+|
+|-damage|p2a: Duosion|95/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p1a: Silvally|Silvally-Psychic|100/100
+|move|p2a: Duosion|Future Sight|p1a: Silvally
+|-start|p2a: Duosion|move: Future Sight
+|
+|-damage|p2a: Duosion|83/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p1a: Gourgeist|Gourgeist, M|100/100 par
+|-item|p2a: Duosion|Eviolite|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|switch|p2a: Munchlax|Munchlax, M|100/100
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|move|p2a: Munchlax|Whirlwind|p1a: Pawniard
+|drag|p1a: Gourgeist|Gourgeist, M|100/100 par
+|-item|p2a: Munchlax|Eviolite|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|
+|-end|p1a: Gourgeist|move: Future Sight
+|-damage|p1a: Gourgeist|29/100 par
+|upkeep
+|turn|26
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|switch|p2a: Togetic|Togetic, M|100/100
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Dubwool|Dubwool, M|75/100
+|move|p1a: Pawniard|Iron Head|p2a: Dubwool
+|-damage|p2a: Dubwool|63/100
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Gourgeist|Gourgeist, M|29/100 par
+|switch|p2a: Morgrem|Morgrem, M|6/100
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|move|p2a: Morgrem|Dark Pulse|p1a: Hitmontop
+|-resisted|p1a: Hitmontop
+|-damage|p1a: Hitmontop|85/100
+|
+|-heal|p1a: Hitmontop|91/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Duosion|Duosion, M|100/100 tox
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|
+|-damage|p2a: Duosion|95/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p2a: Dubwool|Dubwool, M|63/100
+|move|p1a: Pawniard|Iron Head|p2a: Dubwool
+|-damage|p2a: Dubwool|51/100
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Gourgeist|Gourgeist, M|29/100 par
+|move|p2a: Dubwool|Rest|p2a: Dubwool
+|-status|p2a: Dubwool|slp|[from] move: Rest
+|-heal|p2a: Dubwool|100/100 slp|[silent]
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Silvally|Silvally-Psychic|100/100
+|cant|p2a: Dubwool|slp
+|move|p2a: Dubwool|Sleep Talk|p2a: Dubwool
+|move|p2a: Dubwool|Body Press|p1a: Silvally|[from]Sleep Talk
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|87/100
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Gourgeist|Gourgeist, M|29/100 par
+|cant|p2a: Dubwool|slp
+|move|p2a: Dubwool|Sleep Talk|p2a: Dubwool
+|move|p2a: Dubwool|Body Press|p1a: Gourgeist|[from]Sleep Talk
+|-immune|p1a: Gourgeist
+|
+|upkeep
+|turn|35
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|
+|upkeep
+|turn|36
+|
+|switch|p2a: Dubwool|Dubwool, M|100/100 slp
+|move|p1a: Pawniard|Iron Head|p2a: Dubwool
+|-damage|p2a: Dubwool|88/100 slp
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Gourgeist|Gourgeist, M|29/100 par
+|switch|p2a: Duosion|Duosion, M|100/100 tox
+|
+|-damage|p2a: Duosion|95/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|move|p2a: Duosion|Future Sight|p1a: Pawniard
+|-start|p2a: Duosion|move: Future Sight
+|
+|-damage|p2a: Duosion|83/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p2a: Dubwool|Dubwool, M|88/100 slp
+|move|p1a: Pawniard|Iron Head|p2a: Dubwool
+|-damage|p2a: Dubwool|76/100 slp
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: Silvally|Silvally-Psychic|87/100
+|-curestatus|p2a: Dubwool|slp|[msg]
+|move|p2a: Dubwool|Thunder Wave|p1a: Silvally
+|-status|p1a: Silvally|par
+|
+|-end|p1a: Silvally|move: Future Sight
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|59/100 par
+|upkeep
+|turn|41
+|
+|switch|p2a: Munchlax|Munchlax, M|100/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Munchlax
+|-damage|p2a: Munchlax|23/100
+|move|p2a: Munchlax|Whirlwind|p1a: Silvally
+|drag|p1a: Gourgeist|Gourgeist, M|29/100 par
+|-item|p2a: Munchlax|Eviolite|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|
+|upkeep
+|turn|43
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|switch|p2a: Togetic|Togetic, M|100/100
+|
+|upkeep
+|turn|44
+|
+|move|p1a: Pawniard|Iron Head|p2a: Togetic
+|-supereffective|p2a: Togetic
+|-damage|p2a: Togetic|62/100
+|move|p2a: Togetic|Dazzling Gleam|p1a: Pawniard
+|-damage|p1a: Pawniard|59/100
+|
+|upkeep
+|turn|45
+|c|☆Axrtix|38 really
+|c|☆Axrtix|xD
+|
+|move|p1a: Pawniard|Iron Head|p2a: Togetic
+|-supereffective|p2a: Togetic
+|-damage|p2a: Togetic|20/100
+|move|p2a: Togetic|Roost|p2a: Togetic
+|-heal|p2a: Togetic|70/100
+|-singleturn|p2a: Togetic|move: Roost
+|
+|upkeep
+|turn|46
+|
+|switch|p2a: Dubwool|Dubwool, M|76/100
+|move|p1a: Pawniard|Iron Head|p2a: Dubwool
+|-damage|p2a: Dubwool|64/100
+|
+|upkeep
+|turn|47
+|
+|switch|p1a: Gourgeist|Gourgeist, M|29/100 par
+|move|p2a: Dubwool|Body Press|p1a: Gourgeist
+|-immune|p1a: Gourgeist
+|
+|upkeep
+|turn|48
+|
+|switch|p1a: Pawniard|Pawniard, M|59/100
+|move|p2a: Dubwool|Body Press|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|-message|Axrtix forfeited.
+|
+|win|ayo bb
+|l|☆Axrtix

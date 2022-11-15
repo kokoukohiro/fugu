@@ -1,0 +1,344 @@
+|j|☆GreedentFan69
+|j|☆Chestfefe
+|player|p1|GreedentFan69|greta-gen3|1541
+|player|p2|Chestfefe|170|1366
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Sableye, M|
+|poke|p1|Mantine, M|
+|poke|p1|Snorlax, F|
+|poke|p1|Steelix, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Scrafty, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Charizard, F|
+|poke|p2|Vileplume, M|
+|poke|p2|Xatu, M|
+|poke|p2|Gastrodon, F|
+|poke|p2|Sableye, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chestfefe)
+|
+|start
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|move|p1a: Salazzle|Toxic|p2a: Gastrodon
+|-status|p2a: Gastrodon|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Gastrodon|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Gastrodon|Toxic|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gastrodon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|76/100
+|move|p2a: Gastrodon|Earth Power|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|82/100|[from] item: Black Sludge
+|-heal|p2a: Gastrodon|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|76/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|63/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Sableye|Encore|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|69/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p2a: Sableye|Encore|p1a: Salazzle
+|-start|p1a: Salazzle|Encore
+|move|p1a: Salazzle|Protect||[still]
+|-fail|p1a: Salazzle
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|75/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Sableye|Knock Off|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|81/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Sableye|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|76/100
+|-enditem|p1a: Sableye|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Sableye|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|32/100
+|-enditem|p2a: Xatu|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|82/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Sableye|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-crit|p2a: Xatu
+|-damage|p2a: Xatu|8/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|58/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Sableye|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|12/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|62/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Sableye|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|12/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Xatu|Heat Wave|p1a: Sableye
+|-damage|p1a: Sableye|45/100
+|move|p1a: Sableye|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|upkeep
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|turn|14
+|
+|switch|p1a: Salazzle|Salazzle, F|81/100
+|move|p2a: Vileplume|Dazzling Gleam|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|67/100
+|-damage|p2a: Vileplume|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Salazzle|73/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p2a: Gastrodon|Gastrodon, F|76/100 tox
+|move|p1a: Salazzle|Flamethrower|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|55/100 tox
+|
+|-heal|p1a: Salazzle|80/100|[from] item: Black Sludge
+|-heal|p2a: Gastrodon|61/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|55/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|55/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 tox
+|
+|-heal|p1a: Salazzle|61/100|[from] item: Black Sludge
+|-damage|p2a: Gastrodon|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Salazzle|Flamethrower|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|67/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|27/100
+|move|p2a: Ninetales|Flamethrower|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|73/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Gastrodon|Gastrodon, F|88/100 tox
+|move|p1a: Salazzle|Flamethrower|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|58/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|79/100|[from] item: Black Sludge
+|-heal|p2a: Gastrodon|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|58/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|move|p2a: Gastrodon|Earth Power|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gastrodon|64/100 tox|[from] item: Leftovers
+|-heal|p1a: Steelix|50/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|51/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Gastrodon|82/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p2a: Vileplume|Vileplume, M|91/100
+|move|p1a: Scrafty|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|32/100
+|-enditem|p2a: Vileplume|Life Orb|[from] move: Knock Off|[of] p1a: Scrafty
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|move|p2a: Vileplume|Growth|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|-boost|p2a: Vileplume|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p2a: Vileplume|Giga Drain|p1a: Snorlax
+|-damage|p1a: Snorlax|65/100
+|-heal|p2a: Vileplume|63/100|[from] drain|[of] p1a: Snorlax
+|move|p1a: Snorlax|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|18/100
+|
+|-weather|none
+|-heal|p1a: Snorlax|71/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Vileplume|Sludge Bomb|p1a: Snorlax
+|-damage|p1a: Snorlax|30/100
+|-status|p1a: Snorlax|psn
+|move|p1a: Snorlax|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-heal|p1a: Snorlax|36/100 psn|[from] item: Leftovers
+|-damage|p1a: Snorlax|23/100 psn|[from] psn
+|upkeep
+|inactive|Chestfefe has 120 seconds left.
+|
+|switch|p2a: Charizard|Charizard, F|100/100
+|turn|26
+|
+|switch|p1a: Sableye|Sableye, M|45/100
+|move|p2a: Charizard|Dragon Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|1
+|-boost|p2a: Charizard|spe|1
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Sableye|Encore|p2a: Charizard
+|-start|p2a: Charizard|Encore
+|move|p2a: Charizard|Dragon Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|1
+|-boost|p2a: Charizard|spe|1
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Sableye|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|73/100
+|-enditem|p2a: Sableye|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|95/100
+|move|p2a: Sableye|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|77/100
+|
+|upkeep
+|turn|30
+|-message|Chestfefe forfeited.
+|
+|win|GreedentFan69
+|l|☆Chestfefe
+|raw|GreedentFan69's rating: 1541 &rarr; <strong>1551</strong><br />(+10 for winning)
+|raw|Chestfefe's rating: 1366 &rarr; <strong>1355</strong><br />(-11 for losing)

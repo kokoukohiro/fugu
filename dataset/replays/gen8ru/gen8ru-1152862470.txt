@@ -1,0 +1,349 @@
+|j|☆UYG_Astro
+|j|☆c rien c la RU
+|player|p1|UYG_Astro|hugh|
+|player|p2|c rien c la RU|104|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|clearpoke
+|poke|p1|Galvantula, M|
+|poke|p1|Gourgeist-*, M|
+|poke|p1|Kingler, M|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Meowstic-F, F|
+|poke|p1|Duraludon, M|
+|poke|p2|Dhelmise|
+|poke|p2|Thwackey, M|
+|poke|p2|Coalossal, M|
+|poke|p2|Weezing, F|
+|poke|p2|Espeon, M|
+|poke|p2|Porygon2|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆UYG_Astro|glhf
+|j| Trognon
+|c|☆c rien c la RU|HF
+|c| Trognon|cc
+|c|☆c rien c la RU|:forsen1:
+|j| staroc 22
+|c| staroc 22|HELLO
+|c|☆UYG_Astro|la plèbe
+|
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|turn|1
+|c| staroc 22|lol les poseurq de screen
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Coalossal
+|-sidestart|p2: c rien c la RU|move: Sticky Web
+|move|p2a: Coalossal|Rapid Spin|p1a: Galvantula
+|-damage|p1a: Galvantula|83/100
+|-boost|p2a: Coalossal|spe|1
+|-sideend|p2: c rien c la RU|Sticky Web|[from] move: Rapid Spin|[of] p2a: Coalossal
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Kingler|Kingler, M|100/100
+|move|p2a: Coalossal|Rapid Spin|p1a: Kingler
+|-damage|p1a: Kingler|89/100
+|-boost|p2a: Coalossal|spe|1
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Weezing|Weezing, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Kingler|Liquidation|p2a: Weezing
+|-damage|p2a: Weezing|30/100
+|-unboost|p2a: Weezing|def|1
+|move|p2a: Weezing|Will-O-Wisp|p1a: Kingler
+|-status|p1a: Kingler|brn
+|
+|-heal|p2a: Weezing|36/100|[from] item: Black Sludge
+|-damage|p1a: Kingler|83/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Meowstic|Meowstic-F, F|100/100
+|switch|p2a: Thwackey|Thwackey, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Gourgeist|Gourgeist, M|100/100
+|move|p2a: Thwackey|U-turn|p1a: Gourgeist
+|-crit|p1a: Gourgeist
+|-damage|p1a: Gourgeist|78/100
+|
+|switch|p2a: Espeon|Espeon, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Gourgeist|84/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|j| Nikorgrem
+|
+|switch|p1a: Galvantula|Galvantula, M|83/100
+|move|p2a: Espeon|Psychic|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|l| Nikorgrem
+|
+|switch|p1a: Meowstic|Meowstic-F, F|100/100
+|turn|8
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Competitive|[from] ability: Trace|[of] p1a: Meowstic
+|move|p1a: Meowstic|Dark Pulse|p2a: Porygon2
+|-damage|p2a: Porygon2|85/100
+|
+|-heal|p2a: Porygon2|91/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|move|p2a: Porygon2|Teleport|p2a: Porygon2
+|
+|switch|p2a: Weezing|Weezing, F|36/100|[from]move: Teleport
+|-ability|p2a: Weezing|Neutralizing Gas
+|
+|-heal|p2a: Weezing|42/100|[from] item: Black Sludge
+|-heal|p2a: Weezing|48/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|c| staroc 22|vs avez même pas les screens ?
+|c|☆UYG_Astro|non
+|
+|move|p1a: Hitmonlee|Knock Off|p2a: Weezing
+|-damage|p2a: Weezing|26/100
+|-enditem|p2a: Weezing|Black Sludge|[from] move: Knock Off|[of] p1a: Hitmonlee
+|move|p2a: Weezing|Will-O-Wisp|p1a: Hitmonlee
+|-status|p1a: Hitmonlee|brn
+|
+|-heal|p2a: Weezing|32/100|[from] Grassy Terrain
+|-damage|p1a: Hitmonlee|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Hitmonlee|Knock Off|p2a: Weezing
+|-damage|p2a: Weezing|24/100
+|move|p2a: Weezing|Pain Split|p1a: Hitmonlee
+|-sethp|p1a: Hitmonlee|64/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|46/100|[from] move: Pain Split
+|
+|-heal|p1a: Hitmonlee|70/100 brn|[from] Grassy Terrain
+|-heal|p2a: Weezing|52/100|[from] Grassy Terrain
+|-damage|p1a: Hitmonlee|64/100 brn|[from] brn
+|upkeep
+|turn|12
+|l| Trognon
+|
+|switch|p1a: Gourgeist|Gourgeist, M|84/100
+|move|p2a: Weezing|Toxic Spikes|p1a: Gourgeist
+|-sidestart|p1: UYG_Astro|move: Toxic Spikes
+|
+|-heal|p1a: Gourgeist|90/100|[from] Grassy Terrain
+|-heal|p2a: Weezing|58/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|64/100 brn
+|move|p2a: Weezing|Will-O-Wisp|p1a: Hitmonlee
+|-fail|p1a: Hitmonlee|brn
+|
+|-damage|p1a: Hitmonlee|57/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Hitmonlee|Rapid Spin|p2a: Weezing
+|-damage|p2a: Weezing|52/100
+|-boost|p1a: Hitmonlee|spe|1
+|-sideend|p1: UYG_Astro|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Hitmonlee
+|move|p2a: Weezing|Sludge Bomb|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|25/100 brn
+|
+|-damage|p1a: Hitmonlee|18/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|42/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|upkeep
+|
+|switch|p1a: Meowstic|Meowstic-F, F|100/100
+|turn|16
+|
+|switch|p2a: Porygon2|Porygon2|91/100
+|-ability|p2a: Porygon2|Competitive|[from] ability: Trace|[of] p1a: Meowstic
+|move|p1a: Meowstic|Psychic|p2a: Porygon2
+|-damage|p2a: Porygon2|68/100
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Kingler|Kingler, M|83/100 brn
+|move|p2a: Porygon2|Teleport|p2a: Porygon2
+|
+|switch|p2a: Espeon|Espeon, M|100/100|[from]move: Teleport
+|
+|-damage|p1a: Kingler|77/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Espeon|Psychic|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|upkeep
+|
+|switch|p1a: Gourgeist|Gourgeist, M|90/100
+|turn|19
+|
+|switch|p2a: Weezing|Weezing, F|42/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Gourgeist|Poltergeist||[still]
+|-fail|p1a: Gourgeist
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Duraludon
+|-immune|p1a: Duraludon
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Duraludon|Flash Cannon|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Duraludon|91/100|[from] item: Life Orb
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|turn|22
+|
+|move|p1a: Duraludon|Draco Meteor|p2a: Coalossal
+|-damage|p2a: Coalossal|53/100
+|-unboost|p1a: Duraludon|spa|2
+|-damage|p1a: Duraludon|81/100|[from] item: Life Orb
+|move|p2a: Coalossal|Flamethrower|p1a: Duraludon
+|-damage|p1a: Duraludon|38/100
+|-status|p1a: Duraludon|brn
+|
+|-damage|p1a: Duraludon|32/100 brn|[from] brn
+|upkeep
+|turn|23
+|c|☆c rien c la RU|miam
+|c|☆UYG_Astro|rofl
+|
+|switch|p1a: Gourgeist|Gourgeist, M|90/100
+|move|p2a: Coalossal|Flamethrower|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|9/100
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Thwackey|Thwackey, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|move|p1a: Gourgeist|Power Whip|p2a: Thwackey
+|-resisted|p2a: Thwackey
+|-damage|p2a: Thwackey|65/100
+|
+|-heal|p1a: Gourgeist|15/100|[from] Grassy Terrain
+|-heal|p2a: Thwackey|71/100|[from] Grassy Terrain
+|upkeep
+|turn|25
+|c|☆UYG_Astro|wut
+|
+|switch|p1a: Meowstic|Meowstic-F, F|100/100
+|move|p2a: Thwackey|Taunt|p1a: Meowstic
+|-start|p1a: Meowstic|move: Taunt
+|
+|-heal|p2a: Thwackey|77/100|[from] Grassy Terrain
+|upkeep
+|turn|26
+|
+|move|p1a: Meowstic|Psychic|p2a: Thwackey
+|-damage|p2a: Thwackey|2/100
+|move|p2a: Thwackey|U-turn|p1a: Meowstic
+|-supereffective|p1a: Meowstic
+|-damage|p1a: Meowstic|56/100
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100|[from]move: U-turn
+|
+|-heal|p1a: Meowstic|62/100|[from] Grassy Terrain
+|upkeep
+|turn|27
+|
+|switch|p1a: Gourgeist|Gourgeist, M|15/100
+|move|p2a: Dhelmise|Swords Dance|p2a: Dhelmise
+|-boost|p2a: Dhelmise|atk|2
+|
+|-heal|p1a: Gourgeist|21/100|[from] Grassy Terrain
+|upkeep
+|turn|28
+|
+|move|p2a: Dhelmise|Grassy Glide|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|-damage|p2a: Dhelmise|91/100|[from] item: Life Orb
+|faint|p1a: Gourgeist
+|
+|-heal|p2a: Dhelmise|97/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Duraludon|Duraludon, M|32/100 brn
+|turn|29
+|
+|move|p2a: Dhelmise|Grassy Glide|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|2/100 brn
+|-damage|p2a: Dhelmise|87/100|[from] item: Life Orb
+|move|p1a: Duraludon|Flash Cannon|p2a: Dhelmise
+|-damage|p2a: Dhelmise|23/100
+|-damage|p1a: Duraludon|0 fnt|[from] item: Life Orb
+|faint|p1a: Duraludon
+|
+|-heal|p2a: Dhelmise|29/100|[from] Grassy Terrain
+|upkeep
+|c|☆UYG_Astro|gg
+|
+|switch|p1a: Meowstic|Meowstic-F, F|62/100
+|turn|30
+|c|☆c rien c la RU|gg
+|
+|move|p2a: Dhelmise|Grassy Glide|p1a: Meowstic
+|-crit|p1a: Meowstic
+|-damage|p1a: Meowstic|0 fnt
+|-damage|p2a: Dhelmise|19/100|[from] item: Life Orb
+|faint|p1a: Meowstic
+|
+|win|c rien c la RU
+|c| staroc 22|gg

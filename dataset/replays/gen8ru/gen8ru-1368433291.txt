@@ -1,0 +1,367 @@
+|j|☆fungusdancer
+|j|☆linlinzhu
+|t:|1625113076
+|gametype|singles
+|player|p1|fungusdancer|backpacker|1226
+|player|p2|linlinzhu|bianca|1422
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Porygon2|
+|poke|p1|Crobat, F|
+|poke|p1|Lucario, M|
+|poke|p1|Raikou|
+|poke|p1|Zarude|
+|poke|p1|Reuniclus, F|
+|poke|p2|Tangela, M|
+|poke|p2|Reuniclus, M|
+|poke|p2|Audino, F|
+|poke|p2|Mienshao, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Steelix, M|
+|teampreview
+|
+|t:|1625113109
+|start
+|switch|p1a: Crobat|Crobat, F|100/100
+|switch|p2a: Mienshao|Mienshao, F|100/100
+|turn|1
+|
+|t:|1625113116
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Crobat|Super Fang|p2a: Weezing
+|-damage|p2a: Weezing|50/100
+|
+|upkeep
+|turn|2
+|
+|t:|1625113129
+|move|p1a: Crobat|Taunt|p2a: Weezing
+|-start|p2a: Weezing|move: Taunt
+|cant|p2a: Weezing|move: Taunt|Rest
+|
+|upkeep
+|turn|3
+|
+|t:|1625113139
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Tangela|Tangela, M|100/100
+|move|p1a: Crobat|Super Fang|p2a: Tangela
+|-damage|p2a: Tangela|50/100
+|
+|upkeep
+|turn|4
+|
+|t:|1625113146
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Crobat|Taunt|p2a: Steelix
+|-start|p2a: Steelix|move: Taunt
+|
+|upkeep
+|turn|5
+|
+|t:|1625113157
+|switch|p2a: Tangela|Tangela, M|84/100
+|move|p1a: Crobat|U-turn|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|69/100
+|
+|t:|1625113166
+|switch|p1a: Porygon2|Porygon2|100/100|[from]move: U-turn
+|-ability|p1a: Porygon2|Regenerator|[from] ability: Trace|[of] p2a: Tangela
+|
+|upkeep
+|turn|6
+|
+|t:|1625113173
+|move|p1a: Porygon2|Substitute|p1a: Porygon2
+|-start|p1a: Porygon2|Substitute
+|-damage|p1a: Porygon2|76/100
+|move|p2a: Tangela|Knock Off|p1a: Porygon2
+|-activate|p1a: Porygon2|move: Substitute|[damage]
+|
+|upkeep
+|turn|7
+|
+|t:|1625113181
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Porygon2|Toxic|p2a: Reuniclus
+|-status|p2a: Reuniclus|tox
+|
+|upkeep
+|turn|8
+|
+|t:|1625113190
+|move|p1a: Porygon2|Tri Attack|p2a: Reuniclus
+|-damage|p2a: Reuniclus|73/100 tox
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1625113201
+|switch|p1a: Zarude|Zarude|100/100
+|move|p2a: Reuniclus|Focus Blast|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|0 fnt
+|faint|p1a: Zarude
+|
+|upkeep
+|
+|t:|1625113205
+|switch|p1a: Crobat|Crobat, F|100/100
+|turn|10
+|
+|t:|1625113210
+|move|p1a: Crobat|Super Fang|p2a: Reuniclus
+|-damage|p2a: Reuniclus|37/100 tox
+|move|p2a: Reuniclus|Psyshock|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|
+|upkeep
+|
+|t:|1625113215
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|11
+|
+|t:|1625113219
+|switch|p2a: Tangela|Tangela, M|100/100
+|move|p1a: Lucario|Meteor Mash|p2a: Tangela
+|-damage|p2a: Tangela|83/100
+|
+|upkeep
+|turn|12
+|
+|t:|1625113226
+|move|p1a: Lucario|Substitute|p1a: Lucario
+|-start|p1a: Lucario|Substitute
+|-damage|p1a: Lucario|76/100
+|move|p2a: Tangela|Sleep Powder||[still]
+|-fail|p2a: Tangela
+|
+|-heal|p1a: Lucario|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1625113236
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Tangela|Giga Drain|p1a: Lucario
+|-resisted|p1a: Lucario
+|-activate|p1a: Lucario|move: Substitute|[damage]
+|-heal|p2a: Tangela|92/100|[from] drain|[of] p1a: Lucario
+|
+|-heal|p1a: Lucario|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1625113246
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Tangela|Giga Drain|p1a: Lucario
+|-resisted|p1a: Lucario
+|-end|p1a: Lucario|Substitute
+|-heal|p2a: Tangela|94/100|[from] drain|[of] p1a: Lucario
+|
+|-heal|p1a: Lucario|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1625113258
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Lucario|Substitute|p1a: Lucario
+|-start|p1a: Lucario|Substitute
+|-damage|p1a: Lucario|69/100
+|
+|-heal|p1a: Lucario|75/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1625113266
+|move|p1a: Lucario|Drain Punch|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-ability|p2a: Steelix|Sturdy
+|-damage|p2a: Steelix|1/100
+|-heal|p1a: Lucario|100/100|[from] drain|[of] p2a: Steelix
+|move|p2a: Steelix|Body Press|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-end|p1a: Lucario|Substitute
+|
+|-heal|p2a: Steelix|7/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1625113276
+|move|p1a: Lucario|Drain Punch|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|upkeep
+|
+|t:|1625113283
+|switch|p2a: Mienshao|Mienshao, F|100/100
+|turn|18
+|
+|t:|1625113303
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Regenerator|[from] ability: Trace|[of] p2a: Mienshao
+|move|p2a: Mienshao|Close Combat|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|12/100
+|-unboost|p2a: Mienshao|def|1
+|-unboost|p2a: Mienshao|spd|1
+|
+|upkeep
+|turn|19
+|
+|t:|1625113312
+|move|p2a: Mienshao|Close Combat|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|-unboost|p2a: Mienshao|def|1
+|-unboost|p2a: Mienshao|spd|1
+|faint|p1a: Porygon2
+|
+|upkeep
+|
+|t:|1625113321
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|turn|20
+|
+|t:|1625113330
+|switch|p2a: Weezing|Weezing-Galar, M|50/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Reuniclus|Psychic|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1625113338
+|switch|p2a: Reuniclus|Reuniclus, M|37/100 tox
+|turn|21
+|
+|t:|1625113342
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|87/100 tox
+|move|p1a: Reuniclus|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|34/100 tox
+|
+|upkeep
+|turn|22
+|
+|t:|1625113354
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|84/100 tox
+|move|p1a: Reuniclus|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|31/100 tox
+|-unboost|p2a: Reuniclus|spd|1
+|
+|upkeep
+|turn|23
+|
+|t:|1625113361
+|switch|p2a: Audino|Audino, F|100/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|24
+|
+|t:|1625113368
+|move|p2a: Audino|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|68/100
+|-enditem|p1a: Reuniclus|Leftovers|[from] move: Knock Off|[of] p2a: Audino
+|move|p1a: Reuniclus|Focus Blast|p2a: Audino
+|-supereffective|p2a: Audino
+|-damage|p2a: Audino|8/100
+|-unboost|p2a: Audino|spd|1
+|
+|-heal|p2a: Audino|14/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1625113377
+|move|p2a: Audino|Wish|p2a: Audino
+|move|p1a: Reuniclus|Psychic|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|faint|p2a: Audino
+|
+|upkeep
+|
+|t:|1625113382
+|switch|p2a: Reuniclus|Reuniclus, M|31/100 tox
+|turn|26
+|
+|t:|1625113390
+|switch|p2a: Tangela|Tangela, M|100/100
+|move|p1a: Reuniclus|Shadow Ball|p2a: Tangela
+|-damage|p2a: Tangela|39/100
+|
+|-heal|p2a: Tangela|99/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|27
+|
+|t:|1625113399
+|move|p2a: Tangela|Sleep Powder|p1a: Reuniclus|[miss]
+|-miss|p2a: Tangela|p1a: Reuniclus
+|move|p1a: Reuniclus|Psychic|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|upkeep
+|
+|t:|1625113417
+|switch|p2a: Mienshao|Mienshao, F|100/100
+|turn|28
+|
+|t:|1625113424
+|move|p2a: Mienshao|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|23/100
+|move|p1a: Reuniclus|Psychic|p2a: Mienshao
+|-supereffective|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|upkeep
+|
+|t:|1625113431
+|switch|p2a: Reuniclus|Reuniclus, M|31/100 tox
+|turn|29
+|
+|t:|1625113441
+|move|p2a: Reuniclus|Psyshock|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|5/100
+|move|p1a: Reuniclus|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|win|fungusdancer
+|raw|fungusdancer's rating: 1226 &rarr; <strong>1264</strong><br />(+38 for winning)
+|raw|linlinzhu's rating: 1422 &rarr; <strong>1392</strong><br />(-30 for losing)
+|l|☆fungusdancer

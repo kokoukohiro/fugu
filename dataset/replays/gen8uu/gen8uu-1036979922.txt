@@ -1,0 +1,240 @@
+|j|☆AllahHazBlessedMe
+|j|☆Thuggerthugger
+|player|p1|AllahHazBlessedMe|falkner|1499
+|player|p2|Thuggerthugger|265|1252
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Diggersby, F|
+|poke|p1|Cloyster, F|
+|poke|p1|Polteageist|
+|poke|p1|Gardevoir, F|
+|poke|p1|Doublade, F|
+|poke|p2|Mew|
+|poke|p2|Appletun, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Mamoswine, M|
+|poke|p2|Vanilluxe, F|
+|poke|p2|Aromatisse, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rule34|Gardevoir, F|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|move|p1a: Rule34|Trick|p2a: Torkoal
+|-activate|p1a: Rule34|move: Trick|[of] p2a: Torkoal
+|-item|p2a: Torkoal|Choice Scarf|[from] move: Trick
+|-item|p1a: Rule34|Heat Rock|[from] move: Trick
+|move|p2a: Torkoal|Lava Plume|p1a: Rule34
+|-damage|p1a: Rule34|64/100
+|-status|p1a: Rule34|brn
+|-activate|p1a: Rule34|ability: Synchronize
+|-immune|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Rule34|58/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: P!NK|Mew|100/100
+|switch|p2a: Appletun|Appletun, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: P!NK|Thunder Wave|p2a: Appletun
+|-status|p2a: Appletun|par
+|cant|p2a: Appletun|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: P!NK|Stealth Rock|p2a: Appletun
+|-sidestart|p2: Thuggerthugger|move: Stealth Rock
+|move|p2a: Appletun|Growth|p2a: Appletun
+|-boost|p2a: Appletun|atk|2
+|-boost|p2a: Appletun|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: P!NK|Spikes|p2a: Appletun
+|-sidestart|p2: Thuggerthugger|Spikes
+|move|p2a: Appletun|Growth|p2a: Appletun
+|-boost|p2a: Appletun|atk|2
+|-boost|p2a: Appletun|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Appletun|Sucker Punch||[still]
+|-fail|p2a: Appletun
+|move|p1a: P!NK|Spikes|p2a: Appletun
+|-sidestart|p2: Thuggerthugger|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: P!NK|Spikes|p2a: Appletun
+|-sidestart|p2: Thuggerthugger|Spikes
+|move|p2a: Appletun|Giga Drain|p1a: P!NK
+|-damage|p1a: P!NK|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|cant|p2a: Appletun|par
+|move|p1a: P!NK|Self-Destruct|p2a: Appletun
+|-damage|p2a: Appletun|58/100 par
+|faint|p1a: P!NK
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Rule34|Gardevoir, F|58/100 brn
+|turn|9
+|
+|move|p1a: Rule34|Skill Swap|p2a: Appletun
+|-activate|p1a: Rule34|move: Skill Swap|Ripen|Synchronize|[of] p2a: Appletun
+|move|p2a: Appletun|Giga Drain|p1a: Rule34
+|-damage|p1a: Rule34|0 fnt
+|-heal|p2a: Appletun|78/100 par|[from] drain|[of] p1a: Rule34
+|faint|p1a: Rule34
+|
+|upkeep
+|
+|switch|p1a: Nitoryu|Doublade, F|100/100
+|turn|10
+|
+|move|p1a: Nitoryu|Swords Dance|p1a: Nitoryu
+|-boost|p1a: Nitoryu|atk|2
+|move|p2a: Appletun|Draco Meteor|p1a: Nitoryu
+|-resisted|p1a: Nitoryu
+|-damage|p1a: Nitoryu|0 fnt
+|-unboost|p2a: Appletun|spa|2
+|faint|p1a: Nitoryu
+|
+|upkeep
+|
+|switch|p1a: Ice Ice Baby|Cloyster, F|100/100
+|turn|11
+|
+|move|p1a: Ice Ice Baby|Shell Smash|p1a: Ice Ice Baby
+|-unboost|p1a: Ice Ice Baby|def|1
+|-unboost|p1a: Ice Ice Baby|spd|1
+|-boost|p1a: Ice Ice Baby|atk|2
+|-boost|p1a: Ice Ice Baby|spa|2
+|-boost|p1a: Ice Ice Baby|spe|2
+|-enditem|p1a: Ice Ice Baby|White Herb
+|-clearnegativeboost|p1a: Ice Ice Baby|[silent]
+|move|p2a: Appletun|Giga Drain|p1a: Ice Ice Baby
+|-supereffective|p1a: Ice Ice Baby
+|-damage|p1a: Ice Ice Baby|0 fnt
+|-heal|p2a: Appletun|100/100 par|[from] drain|[of] p1a: Ice Ice Baby
+|faint|p1a: Ice Ice Baby
+|
+|upkeep
+|
+|switch|p1a: Tho|Diggersby, F|100/100
+|turn|12
+|
+|cant|p2a: Appletun|par
+|move|p1a: Tho|Swords Dance|p1a: Tho
+|-boost|p1a: Tho|atk|2
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Appletun|Sucker Punch|p1a: Tho
+|-damage|p1a: Tho|32/100
+|move|p1a: Tho|Body Slam|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-damage|p2a: Mamoswine|76/100|[from] Spikes
+|-damage|p2a: Mamoswine|63/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Tho
+|-supereffective|p1a: Tho
+|-damage|p1a: Tho|0 fnt
+|-damage|p2a: Mamoswine|53/100|[from] item: Life Orb
+|faint|p1a: Tho
+|
+|upkeep
+|
+|switch|p1a: Greed|Polteageist|100/100
+|turn|15
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Greed
+|-enditem|p1a: Greed|Focus Sash
+|-damage|p1a: Greed|1/100
+|-ability|p1a: Greed|Weak Armor|boost
+|-unboost|p1a: Greed|def|1
+|-boost|p1a: Greed|spe|2
+|-damage|p2a: Mamoswine|43/100|[from] item: Life Orb
+|move|p1a: Greed|Giga Drain|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-heal|p1a: Greed|30/100|[from] drain|[of] p2a: Mamoswine
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|100/100
+|-damage|p2a: Vanilluxe|76/100|[from] Stealth Rock
+|-damage|p2a: Vanilluxe|51/100|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|16
+|
+|move|p1a: Greed|Shadow Ball|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|0 fnt
+|faint|p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Greed|24/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-damage|p2a: Torkoal|76/100|[from] Stealth Rock
+|-damage|p2a: Torkoal|51/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|17
+|
+|move|p1a: Greed|Shadow Ball|p2a: Torkoal
+|-damage|p2a: Torkoal|11/100
+|move|p2a: Torkoal|Lava Plume|p1a: Greed
+|-crit|p1a: Greed
+|-damage|p1a: Greed|0 fnt
+|faint|p1a: Greed
+|
+|win|Thuggerthugger
+|raw|AllahHazBlessedMe's rating: 1499 &rarr; <strong>1467</strong><br />(-32 for losing)
+|raw|Thuggerthugger's rating: 1252 &rarr; <strong>1293</strong><br />(+41 for winning)
+|l|☆Thuggerthugger
+|j|☆Thuggerthugger
+|player|p2|Thuggerthugger|265

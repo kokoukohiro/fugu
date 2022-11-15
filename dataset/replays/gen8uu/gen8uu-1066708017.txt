@@ -1,0 +1,307 @@
+|j|☆Baken8er
+|j|☆gijion chilli
+|player|p1|Baken8er|lucas-gen4pt|1299
+|player|p2|gijion chilli|twins-gen4dp|1496
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Weavile, M|
+|poke|p1|Arcanine, M|
+|poke|p1|Noivern, M|
+|poke|p1|Gastrodon-East, M|
+|poke|p1|Golisopod, M|
+|poke|p1|Lucario, M|
+|poke|p2|Machamp, F|
+|poke|p2|Weavile, M|
+|poke|p2|Duraludon, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Doublade, M|
+|poke|p2|Gardevoir, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|turn|1
+|
+|move|p2a: Duraludon|Stealth Rock|p1a: Gastrodon
+|-sidestart|p1: Baken8er|move: Stealth Rock
+|move|p1a: Gastrodon|Earth Power|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-enditem|p2a: Duraludon|Focus Sash
+|-damage|p2a: Duraludon|1/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Machamp|Machamp, F|100/100
+|move|p1a: Gastrodon|Scald|p2a: Machamp
+|-damage|p2a: Machamp|69/100
+|
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Machamp|atk|1
+|move|p2a: Machamp|Facade|p1a: Arcanine
+|-damage|p1a: Arcanine|38/100
+|-damage|p2a: Machamp|53/100 brn|[from] item: Rocky Helmet|[of] p1a: Arcanine
+|
+|-damage|p2a: Machamp|47/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|88/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Weezing
+|-status|p2a: Weezing|brn
+|move|p2a: Weezing|Toxic|p1a: Arcanine
+|-status|p1a: Arcanine|tox
+|
+|-damage|p1a: Arcanine|82/100 tox|[from] psn
+|-damage|p2a: Weezing|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Weezing|Sludge Bomb|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|82/100
+|
+|-heal|p2a: Weezing|100/100 brn|[from] item: Black Sludge
+|-heal|p1a: Gastrodon|88/100|[from] item: Leftovers
+|-damage|p2a: Weezing|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Weezing|Strange Steam|p1a: Gastrodon|[miss]
+|-miss|p2a: Weezing|p1a: Gastrodon
+|move|p1a: Gastrodon|Scald|p2a: Weezing
+|-damage|p2a: Weezing|52/100 brn
+|
+|-heal|p2a: Weezing|58/100 brn|[from] item: Black Sludge
+|-heal|p1a: Gastrodon|94/100|[from] item: Leftovers
+|-damage|p2a: Weezing|52/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Duraludon|Duraludon, M|1/100
+|move|p1a: Gastrodon|Scald|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|faint|p2a: Duraludon
+|
+|-heal|p1a: Gastrodon|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, F|47/100 brn
+|turn|9
+|
+|switch|p1a: Arcanine|Arcanine, M|82/100 tox
+|-damage|p1a: Arcanine|57/100 tox|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Machamp|atk|1
+|move|p2a: Machamp|Close Combat|p1a: Arcanine
+|-damage|p1a: Arcanine|8/100 tox
+|-unboost|p2a: Machamp|def|1
+|-unboost|p2a: Machamp|spd|1
+|-damage|p2a: Machamp|30/100 brn|[from] item: Rocky Helmet|[of] p1a: Arcanine
+|
+|-damage|p1a: Arcanine|2/100 tox|[from] psn
+|-damage|p2a: Machamp|24/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Arcanine|Extreme Speed|p2a: Weavile
+|-damage|p2a: Weavile|64/100
+|
+|-damage|p1a: Arcanine|0 fnt|[from] psn
+|faint|p1a: Arcanine
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, M|100/100
+|-damage|p1a: Golisopod|76/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Weezing|Weezing-Galar, F|52/100 brn
+|move|p1a: Golisopod|First Impression|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|40/100 brn
+|
+|-heal|p2a: Weezing|46/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|40/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Weezing|Strange Steam|p1a: Golisopod
+|-damage|p1a: Golisopod|35/100
+|-start|p1a: Golisopod|confusion
+|-activate|p1a: Golisopod|ability: Emergency Exit
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|
+|-heal|p2a: Weezing|46/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|40/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Lucario|Flash Cannon|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Lucario|88/100|[from] item: Life Orb
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|switch|p2a: Doublade|Doublade, M|100/100
+|turn|14
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|move|p2a: Doublade|Iron Head|p1a: Noivern
+|-damage|p1a: Noivern|55/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Infiltrator|[from] ability: Trace|[of] p1a: Noivern
+|move|p1a: Noivern|Defog|p2a: Gardevoir
+|-unboost|p2a: Gardevoir|evasion|1
+|-sideend|p1: Baken8er|Stealth Rock|[from] move: Defog|[of] p1a: Noivern
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|99/100
+|move|p2a: Gardevoir|Moonblast|p1a: Gastrodon
+|-damage|p1a: Gastrodon|66/100
+|
+|-heal|p1a: Gastrodon|72/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Gastrodon
+|-damage|p1a: Gastrodon|39/100
+|-unboost|p1a: Gastrodon|spa|1
+|move|p1a: Gastrodon|Earth Power|p2a: Gardevoir
+|-damage|p2a: Gardevoir|78/100
+|
+|-heal|p1a: Gastrodon|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Machamp|Machamp, F|24/100 brn
+|move|p1a: Gastrodon|Toxic||[still]
+|-fail|p1a: Gastrodon
+|
+|-heal|p1a: Gastrodon|51/100|[from] item: Leftovers
+|-damage|p2a: Machamp|18/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Machamp|Facade|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|-damage|p2a: Machamp|11/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|88/100
+|turn|20
+|
+|switch|p2a: Doublade|Doublade, M|100/100
+|move|p1a: Lucario|Vacuum Wave|p2a: Doublade
+|-immune|p2a: Doublade
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Golisopod|Golisopod, M|35/100
+|move|p2a: Doublade|Shadow Claw|p1a: Golisopod
+|-crit|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|faint|p1a: Golisopod
+|
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|turn|22
+|
+|move|p1a: Weavile|Throat Chop|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|61/100
+|-start|p2a: Doublade|Throat Chop|[silent]
+|move|p2a: Doublade|Iron Head|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|88/100
+|turn|23
+|
+|move|p1a: Lucario|Nasty Plot|p1a: Lucario
+|-boost|p1a: Lucario|spa|2
+|move|p2a: Doublade|Shadow Claw|p1a: Lucario
+|-damage|p1a: Lucario|33/100
+|
+|-end|p2a: Doublade|Throat Chop|[silent]
+|upkeep
+|turn|24
+|
+|move|p1a: Lucario|Flash Cannon|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|-damage|p1a: Lucario|23/100|[from] item: Life Orb
+|faint|p2a: Doublade
+|
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, F|78/100
+|-ability|p2a: Gardevoir|Steadfast|[from] ability: Trace|[of] p1a: Lucario
+|turn|25
+|c|☆gijion chilli|Gg
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|switch|p1a: Noivern|Noivern, M|55/100
+|turn|26
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|win|gijion chilli
+|c|☆Baken8er|gg
+|c|☆Baken8er|ilike that gard
+|raw|Baken8er's rating: 1299 &rarr; <strong>1286</strong><br />(-13 for losing)
+|raw|gijion chilli's rating: 1496 &rarr; <strong>1506</strong><br />(+10 for winning)

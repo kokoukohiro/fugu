@@ -1,0 +1,316 @@
+|j|☆adhadda
+|j|☆Pikaboot
+|player|p1|adhadda|1|1336
+|player|p2|Pikaboot|teacher-gen2|1089
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Shedinja|
+|poke|p1|Dubwool, F|
+|poke|p1|Mawile, M|
+|poke|p1|Duosion, M|
+|poke|p1|Hitmontop, M|
+|poke|p1|Mareanie, F|
+|poke|p2|Pikachu, F|
+|poke|p2|Raboot, M|
+|poke|p2|Mr. Rime, F|
+|poke|p2|Mr. Mime, M|
+|poke|p2|Palpitoad, M|
+|poke|p2|Silvally-*|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Pikaboot|Hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pikaboot)
+|j| passion
+|inactive|adhadda has 120 seconds left.
+|
+|start
+|switch|p1a: Mawile|Mawile, M|100/100
+|switch|p2a: Silvally|Silvally-Bug|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Silvally|atk|1
+|turn|1
+|
+|move|p2a: Silvally|Flamethrower|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|41/100
+|move|p1a: Mawile|Stealth Rock|p2a: Silvally
+|-sidestart|p2: Pikaboot|move: Stealth Rock
+|
+|-heal|p1a: Mawile|47/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Mareanie|Mareanie, F|100/100
+|move|p2a: Silvally|Flamethrower|p1a: Mareanie
+|-resisted|p1a: Mareanie
+|-damage|p1a: Mareanie|91/100
+|-status|p1a: Mareanie|brn
+|
+|-damage|p1a: Mareanie|84/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Silvally|Thunderbolt|p1a: Mareanie
+|-supereffective|p1a: Mareanie
+|-damage|p1a: Mareanie|47/100 brn
+|move|p1a: Mareanie|Toxic Spikes|p2a: Silvally
+|-sidestart|p2: Pikaboot|move: Toxic Spikes
+|
+|-damage|p1a: Mareanie|41/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|move|p2a: Silvally|U-turn|p1a: Shedinja
+|-immune|p1a: Shedinja|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Mareanie|Mareanie, F|74/100 brn
+|move|p2a: Silvally|Flamethrower|p1a: Mareanie
+|-resisted|p1a: Mareanie
+|-damage|p1a: Mareanie|64/100 brn
+|
+|-damage|p1a: Mareanie|58/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Silvally|atk|1
+|move|p2a: Silvally|Thunderbolt|p1a: Hitmontop
+|-crit|p1a: Hitmontop
+|-damage|p1a: Hitmontop|69/100
+|
+|-heal|p1a: Hitmontop|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Silvally|Flamethrower|p1a: Hitmontop
+|-damage|p1a: Hitmontop|57/100
+|move|p1a: Hitmontop|Toxic|p2a: Silvally
+|-status|p2a: Silvally|tox
+|
+|-heal|p1a: Hitmontop|64/100|[from] item: Leftovers
+|-damage|p2a: Silvally|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Mareanie|Mareanie, F|91/100 brn
+|move|p2a: Silvally|U-turn|p1a: Mareanie
+|-resisted|p1a: Mareanie
+|-damage|p1a: Mareanie|85/100 brn
+|
+|switch|p2a: Mr. Rime|Mr. Rime, F|100/100|[from]move: U-turn
+|
+|-damage|p1a: Mareanie|79/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|move|p2a: Mr. Rime|Toxic|p1a: Shedinja
+|-status|p1a: Shedinja|tox
+|
+|-damage|p1a: Shedinja|0 fnt|[from] psn
+|faint|p1a: Shedinja
+|upkeep
+|
+|switch|p1a: Dubwool|Dubwool, F|100/100
+|turn|10
+|
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|move|p2a: Mr. Rime|Rapid Spin|p1a: Dubwool
+|-damage|p1a: Dubwool|99/100
+|-boost|p2a: Mr. Rime|spe|1
+|-sideend|p2: Pikaboot|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Mr. Rime
+|-sideend|p2: Pikaboot|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mr. Rime
+|
+|-heal|p1a: Dubwool|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Mr. Rime|Toxic|p1a: Dubwool|[miss]
+|-miss|p2a: Mr. Rime|p1a: Dubwool
+|move|p1a: Dubwool|Body Press|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|34/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Mr. Rime|Toxic|p1a: Dubwool
+|-status|p1a: Dubwool|tox
+|move|p1a: Dubwool|Body Press|p2a: Mr. Rime
+|-crit|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|0 fnt
+|faint|p2a: Mr. Rime
+|
+|-damage|p1a: Dubwool|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Bug|94/100 tox
+|turn|13
+|
+|move|p2a: Silvally|Flamethrower|p1a: Dubwool
+|-damage|p1a: Dubwool|39/100 tox
+|move|p1a: Dubwool|Body Press|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|63/100 tox
+|
+|-heal|p1a: Dubwool|45/100 tox|[from] item: Leftovers
+|-damage|p2a: Silvally|57/100 tox|[from] psn
+|-damage|p1a: Dubwool|33/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Mareanie|Mareanie, F|100/100 brn
+|move|p2a: Silvally|Flamethrower|p1a: Mareanie
+|-resisted|p1a: Mareanie
+|-damage|p1a: Mareanie|91/100 brn
+|
+|-damage|p2a: Silvally|45/100 tox|[from] psn
+|-damage|p1a: Mareanie|85/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Mawile|Mawile, M|47/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Silvally|atk|1
+|move|p2a: Silvally|U-turn|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|43/100
+|
+|switch|p2a: Raboot|Raboot, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Mawile|49/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Mareanie|Mareanie, F|100/100 brn
+|move|p2a: Raboot|U-turn|p1a: Mareanie
+|-start|p2a: Raboot|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Mareanie
+|-damage|p1a: Mareanie|83/100 brn
+|
+|switch|p2a: Pikachu|Pikachu, F|100/100|[from]move: U-turn
+|
+|-damage|p1a: Mareanie|77/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Mawile|Mawile, M|49/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Pikachu|atk|1
+|move|p2a: Pikachu|Volt Switch|p1a: Mawile
+|-damage|p1a: Mawile|19/100
+|
+|switch|p2a: Raboot|Raboot, M|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Mawile|25/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Mareanie|Mareanie, F|100/100 brn
+|move|p2a: Raboot|U-turn|p1a: Mareanie
+|-start|p2a: Raboot|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Mareanie
+|-damage|p1a: Mareanie|85/100 brn
+|
+|switch|p2a: Pikachu|Pikachu, F|100/100|[from]move: U-turn
+|
+|-damage|p1a: Mareanie|79/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Pikachu|Volt Switch|p1a: Mareanie
+|-supereffective|p1a: Mareanie
+|-damage|p1a: Mareanie|38/100 brn
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|100/100|[from]move: Volt Switch
+|move|p1a: Mareanie|Knock Off|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|87/100
+|-enditem|p2a: Mr. Mime|Choice Scarf|[from] move: Knock Off|[of] p1a: Mareanie
+|
+|-damage|p1a: Mareanie|31/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Duosion|Duosion, M|100/100
+|move|p2a: Mr. Mime|Psychic|p1a: Duosion
+|-resisted|p1a: Duosion
+|-damage|p1a: Duosion|80/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Mr. Mime|Trick|p1a: Duosion
+|-activate|p2a: Mr. Mime|move: Trick|[of] p1a: Duosion
+|-enditem|p1a: Duosion|Eviolite|[silent]|[from] move: Trick
+|-item|p2a: Mr. Mime|Eviolite|[from] move: Trick
+|move|p1a: Duosion|Calm Mind|p1a: Duosion
+|-boost|p1a: Duosion|spa|1
+|-boost|p1a: Duosion|spd|1
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Pikachu|Pikachu, F|100/100
+|move|p1a: Duosion|Shadow Ball|p2a: Pikachu
+|-damage|p2a: Pikachu|5/100
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Pikachu|Knock Off|p1a: Duosion
+|-supereffective|p1a: Duosion
+|-damage|p1a: Duosion|14/100
+|move|p1a: Duosion|Recover|p1a: Duosion
+|-heal|p1a: Duosion|64/100
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Hitmontop|Hitmontop, M|64/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Pikachu|atk|1
+|move|p2a: Pikachu|Knock Off|p1a: Hitmontop
+|-resisted|p1a: Hitmontop
+|-crit|p1a: Hitmontop
+|-damage|p1a: Hitmontop|23/100
+|-enditem|p1a: Hitmontop|Leftovers|[from] move: Knock Off|[of] p2a: Pikachu
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|87/100
+|move|p1a: Hitmontop|Mach Punch|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|81/100
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Duosion|Duosion, M|64/100
+|move|p2a: Mr. Mime|Dazzling Gleam|p1a: Duosion
+|-damage|p1a: Duosion|14/100
+|
+|upkeep
+|turn|27
+|-message|adhadda forfeited.
+|
+|win|Pikaboot
+|l|☆adhadda
+|raw|adhadda's rating: 1347 &rarr; <strong>1314</strong><br />(-33 for losing)
+|raw|Pikaboot's rating: 1089 &rarr; <strong>1132</strong><br />(+43 for winning)

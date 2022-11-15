@@ -1,0 +1,244 @@
+|j|☆honor roll 520
+|j|☆Charizardlover7
+|player|p1|honor roll 520|candice|1454
+|player|p2|Charizardlover7|beauty-gen2jp|1276
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Ninjask, F|
+|poke|p1|Rapidash-Galar, M|
+|poke|p1|Kangaskhan, F|
+|poke|p1|Perrserker, M|
+|poke|p1|Sandslash, F|
+|poke|p1|Appletun, F|
+|poke|p2|Falinks|
+|poke|p2|Perrserker, M|
+|poke|p2|Drifblim, M|
+|poke|p2|Sandslash, M|
+|poke|p2|Hattrem, F|
+|poke|p2|Pawniard, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|switch|p2a: Perrserker|Perrserker, M|100/100
+|turn|1
+|j| kirkland$ignature
+|
+|switch|p2a: Sandslash|Sandslash, M|100/100
+|move|p1a: Kangaskhan|Earthquake|p2a: Sandslash
+|-damage|p2a: Sandslash|54/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Sandslash|Sandslash, F|100/100
+|move|p2a: Sandslash|Knock Off|p1a: Sandslash
+|-damage|p1a: Sandslash|78/100
+|-damage|p2a: Sandslash|37/100|[from] item: Rocky Helmet|[of] p1a: Sandslash
+|-enditem|p1a: Sandslash|Rocky Helmet|[from] move: Knock Off|[of] p2a: Sandslash
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|move|p1a: Sandslash|Stealth Rock|p2a: Drifblim
+|-sidestart|p2: Charizardlover7|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Drifblim|Calm Mind|p2a: Drifblim
+|-boost|p2a: Drifblim|spa|1
+|-boost|p2a: Drifblim|spd|1
+|move|p1a: Sandslash|Knock Off|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|37/100
+|-enditem|p2a: Drifblim|Petaya Berry|[from] move: Knock Off|[of] p1a: Sandslash
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|move|p2a: Drifblim|Strength Sap|p1a: Kangaskhan
+|-unboost|p1a: Kangaskhan|atk|1
+|-heal|p2a: Drifblim|100/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Drifblim|Thunderbolt|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|50/100
+|move|p1a: Kangaskhan|Double-Edge|p2a: Drifblim
+|-damage|p2a: Drifblim|17/100
+|-damage|p1a: Kangaskhan|15/100|[from] Recoil
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Drifblim|Strength Sap|p1a: Kangaskhan
+|-unboost|p1a: Kangaskhan|atk|1
+|-heal|p2a: Drifblim|65/100
+|move|p1a: Kangaskhan|Double-Edge|p2a: Drifblim
+|-damage|p2a: Drifblim|3/100
+|-damage|p1a: Kangaskhan|0 fnt|[from] Recoil
+|faint|p1a: Kangaskhan
+|
+|upkeep
+|
+|switch|p1a: Ninjask|Ninjask, F|100/100
+|turn|8
+|
+|move|p1a: Ninjask|Protect|p1a: Ninjask
+|-singleturn|p1a: Ninjask|Protect
+|move|p2a: Drifblim|Thunderbolt|p1a: Ninjask
+|-activate|p1a: Ninjask|move: Protect
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|9
+|
+|move|p1a: Ninjask|U-turn|p2a: Drifblim
+|-resisted|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|switch|p1a: Sandslash|Sandslash, F|78/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Sandslash|Sandslash, M|37/100
+|-damage|p2a: Sandslash|31/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Sandslash|Rapid Spin|p1a: Sandslash
+|-damage|p1a: Sandslash|68/100
+|-boost|p2a: Sandslash|spe|1
+|-sideend|p2: Charizardlover7|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Sandslash
+|move|p1a: Sandslash|Earthquake|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|upkeep
+|
+|switch|p2a: Falinks|Falinks|100/100
+|turn|11
+|
+|move|p2a: Falinks|No Retreat|p2a: Falinks
+|-boost|p2a: Falinks|atk|1
+|-boost|p2a: Falinks|def|1
+|-boost|p2a: Falinks|spa|1
+|-boost|p2a: Falinks|spd|1
+|-boost|p2a: Falinks|spe|1
+|-start|p2a: Falinks|move: No Retreat
+|move|p1a: Sandslash|Earthquake|p2a: Falinks
+|-damage|p2a: Falinks|68/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Falinks|Close Combat|p1a: Sandslash
+|-damage|p1a: Sandslash|6/100
+|-unboost|p2a: Falinks|def|1
+|-unboost|p2a: Falinks|spd|1
+|move|p1a: Sandslash|Earthquake|p2a: Falinks
+|-damage|p2a: Falinks|23/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Falinks|Close Combat|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|-unboost|p2a: Falinks|def|1
+|-unboost|p2a: Falinks|spd|1
+|faint|p1a: Sandslash
+|
+|upkeep
+|
+|switch|p1a: Ninjask|Ninjask, F|100/100
+|turn|14
+|
+|switch|p2a: Perrserker|Perrserker, M|100/100
+|move|p1a: Ninjask|Protect||[still]
+|-fail|p1a: Ninjask
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|15
+|
+|move|p1a: Ninjask|U-turn|p2a: Perrserker
+|-resisted|p2a: Perrserker
+|-damage|p2a: Perrserker|85/100
+|
+|switch|p1a: Perrserker|Perrserker, M|100/100|[from]move: U-turn
+|move|p2a: Perrserker|Substitute|p2a: Perrserker
+|-start|p2a: Perrserker|Substitute
+|-damage|p2a: Perrserker|60/100
+|
+|-heal|p2a: Perrserker|66/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Perrserker|Swords Dance|p2a: Perrserker
+|-boost|p2a: Perrserker|atk|2
+|move|p1a: Perrserker|Close Combat|p2a: Perrserker
+|-supereffective|p2a: Perrserker
+|-end|p2a: Perrserker|Substitute
+|-unboost|p1a: Perrserker|def|1
+|-unboost|p1a: Perrserker|spd|1
+|
+|-heal|p2a: Perrserker|72/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Perrserker|Substitute|p2a: Perrserker
+|-start|p2a: Perrserker|Substitute
+|-damage|p2a: Perrserker|47/100
+|move|p1a: Perrserker|Close Combat|p2a: Perrserker
+|-supereffective|p2a: Perrserker
+|-end|p2a: Perrserker|Substitute
+|-unboost|p1a: Perrserker|def|1
+|-unboost|p1a: Perrserker|spd|1
+|
+|-heal|p2a: Perrserker|54/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Perrserker|Iron Head|p1a: Perrserker
+|-resisted|p1a: Perrserker
+|-damage|p1a: Perrserker|0 fnt
+|faint|p1a: Perrserker
+|
+|-heal|p2a: Perrserker|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Appletun|Appletun, F|100/100
+|turn|19
+|
+|move|p2a: Perrserker|Iron Head|p1a: Appletun
+|-damage|p1a: Appletun|24/100
+|cant|p1a: Appletun|flinch
+|
+|-heal|p2a: Perrserker|66/100|[from] item: Leftovers
+|-heal|p1a: Appletun|30/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|-message|honor roll 520 forfeited.
+|
+|win|Charizardlover7
+|l|☆honor roll 520
+|raw|honor roll 520's rating: 1454 &rarr; <strong>1424</strong><br />(-30 for losing)
+|raw|Charizardlover7's rating: 1276 &rarr; <strong>1313</strong><br />(+37 for winning)

@@ -1,0 +1,250 @@
+|j|☆Lips and fro
+|j|☆JigglyThot
+|player|p1|Lips and fro|2|1294
+|player|p2|JigglyThot|swimmerf|1379
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Boltund, M|
+|poke|p1|Silvally-*|
+|poke|p1|Cramorant, F|
+|poke|p1|Runerigus, F|
+|poke|p1|Drapion, M|
+|poke|p1|Virizion|
+|poke|p2|Sneasel, F|
+|poke|p2|Boltund, F|
+|poke|p2|Whimsicott, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Vileplume, F|
+|poke|p2|Scrafty, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cramorant|Cramorant, F|100/100
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|turn|1
+|
+|switch|p2a: Ninetales|Ninetales, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Cramorant|Hurricane|p2a: Ninetales
+|-damage|p2a: Ninetales|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Ninetales|Encore|p1a: Cramorant
+|-start|p1a: Cramorant|Encore
+|move|p1a: Cramorant|Hurricane|p2a: Ninetales|[miss]
+|-miss|p1a: Cramorant|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Boltund|Boltund, F|100/100
+|move|p1a: Cramorant|Hurricane|p2a: Boltund
+|-resisted|p2a: Boltund
+|-damage|p2a: Boltund|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Runerigus|Runerigus, F|100/100
+|move|p2a: Boltund|Bulk Up|p2a: Boltund
+|-boost|p2a: Boltund|atk|1
+|-boost|p2a: Boltund|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Boltund|Crunch|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|28/100
+|-activate|p1a: Runerigus|ability: Wandering Spirit|Strong Jaw|Wandering Spirit|[of] p2a: Boltund
+|-damage|p2a: Boltund|59/100|[from] item: Life Orb
+|move|p1a: Runerigus|Earthquake|p2a: Boltund
+|-supereffective|p2a: Boltund
+|-damage|p2a: Boltund|0 fnt
+|faint|p2a: Boltund
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Runerigus|35/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|turn|6
+|
+|switch|p1a: Virizion|Virizion|100/100
+|move|p2a: Scrafty|Substitute|p2a: Scrafty
+|-start|p2a: Scrafty|Substitute
+|-damage|p2a: Scrafty|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Scrafty|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Virizion|Focus Blast|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-end|p2a: Scrafty|Substitute
+|move|p2a: Scrafty|Drain Punch|p1a: Virizion
+|-damage|p1a: Virizion|70/100
+|-heal|p2a: Scrafty|99/100|[from] drain|[of] p1a: Virizion
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Scrafty|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Whimsicott|Whimsicott, M, shiny|100/100
+|move|p1a: Virizion|Air Slash|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-crit|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales, F, shiny|59/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|9
+|
+|switch|p1a: Cramorant|Cramorant, F|100/100
+|move|p2a: Ninetales|Fire Blast|p1a: Cramorant
+|-resisted|p1a: Cramorant
+|-damage|p1a: Cramorant|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cramorant|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam|p1a: Cramorant
+|-anim|p2a: Ninetales|Solar Beam|p1a: Cramorant
+|-damage|p1a: Cramorant|59/100
+|move|p1a: Cramorant|Surf|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-formechange|p1a: Cramorant|Cramorant-Gulping|
+|-damage|p2a: Ninetales|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cramorant|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam|p1a: Cramorant
+|-anim|p2a: Ninetales|Solar Beam|p1a: Cramorant
+|-damage|p1a: Cramorant|41/100
+|-damage|p2a: Ninetales|2/100|[from] ability: Gulp Missile|[of] p1a: Cramorant
+|-unboost|p2a: Ninetales|def|1
+|-formechange|p1a: Cramorant|Cramorant|
+|move|p1a: Cramorant|Hurricane|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cramorant|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Sneasel|Sneasel, F, shiny|100/100
+|turn|12
+|
+|switch|p1a: Runerigus|Runerigus, F|35/100
+|move|p2a: Sneasel|Knock Off|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|0 fnt
+|-activate|p1a: Runerigus|ability: Wandering Spirit|Inner Focus|Wandering Spirit|[of] p2a: Sneasel
+|-enditem|p1a: Runerigus|Leftovers|[from] move: Knock Off|[of] p2a: Sneasel
+|faint|p1a: Runerigus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Silvally|Silvally|100/100
+|turn|13
+|
+|move|p2a: Sneasel|Knock Off|p1a: Silvally
+|-damage|p1a: Silvally|36/100
+|-enditem|p1a: Silvally|Choice Specs|[from] move: Knock Off|[of] p2a: Sneasel
+|move|p1a: Silvally|Hyper Voice|p2a: Sneasel
+|-damage|p2a: Sneasel|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Sneasel|Knock Off|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Drapion|Drapion, M|100/100
+|-item|p1a: Drapion|Air Balloon
+|turn|15
+|
+|move|p2a: Sneasel|Knock Off|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|66/100
+|-enditem|p1a: Drapion|Air Balloon
+|move|p1a: Drapion|Fell Stinger|p2a: Sneasel
+|-supereffective|p2a: Sneasel
+|-damage|p2a: Sneasel|0 fnt
+|-activate|p2a: Sneasel|ability: Wandering Spirit|Sniper|Wandering Spirit|[of] p1a: Drapion
+|-boost|p1a: Drapion|atk|3
+|faint|p2a: Sneasel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Vileplume|Vileplume, F, shiny|100/100
+|turn|16
+|
+|move|p2a: Vileplume|Dazzling Gleam|p1a: Drapion
+|-damage|p1a: Drapion|17/100
+|-damage|p2a: Vileplume|91/100|[from] item: Life Orb
+|move|p1a: Drapion|Poison Jab|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|turn|17
+|
+|move|p1a: Drapion|Poison Jab|p2a: Scrafty
+|-damage|p2a: Scrafty|26/100
+|move|p2a: Scrafty|Dragon Dance|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|spe|1
+|
+|-heal|p2a: Scrafty|32/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Drapion|Poison Jab|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|win|Lips and fro
+|l|☆JigglyThot
+|c|☆Lips and fro|gg

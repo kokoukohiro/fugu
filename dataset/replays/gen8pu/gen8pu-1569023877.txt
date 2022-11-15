@@ -1,0 +1,394 @@
+|j|☆ArchenWarrior
+|j|☆Haffling tester
+|t:|1651849686
+|gametype|singles
+|player|p1|ArchenWarrior|proton|1260
+|player|p2|Haffling tester|cyrus|1512
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Basculin, M|
+|poke|p1|Aggron, M|
+|poke|p1|Galvantula, M|
+|poke|p1|Absol, M|
+|poke|p1|Comfey, M|
+|poke|p2|Archeops, M|
+|poke|p2|Hattrem, F|
+|poke|p2|Scrafty, F|
+|poke|p2|Aggron, F|
+|poke|p2|Eldegoss, M|
+|poke|p2|Silvally-*|
+|teampreview
+|
+|t:|1651849720
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Archeops|Archeops, M|100/100
+|turn|1
+|
+|t:|1651849745
+|switch|p1a: Comfey|Comfey, M|100/100
+|move|p2a: Archeops|U-turn|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|86/100
+|
+|t:|1651849750
+|switch|p2a: Aggron|Aggron, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Comfey|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1651849769
+|switch|p1a: Aggron|Aggron, M, shiny|100/100
+|move|p2a: Aggron|Stealth Rock|p1a: Aggron
+|-sidestart|p1: ArchenWarrior|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1651849775
+|switch|p2a: Hattrem|Hattrem, F|100/100
+|move|p1a: Aggron|Fire Punch|p2a: Hattrem
+|-damage|p2a: Hattrem|77/100
+|
+|upkeep
+|turn|4
+|
+|t:|1651849784
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-damage|p1a: Pincurchin|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Hattrem|Giga Drain|p1a: Pincurchin
+|-damage|p1a: Pincurchin|68/100
+|-heal|p2a: Hattrem|86/100|[from] drain|[of] p1a: Pincurchin
+|
+|upkeep
+|turn|5
+|
+|t:|1651849788
+|move|p2a: Hattrem|Mystical Fire|p1a: Pincurchin
+|-damage|p1a: Pincurchin|49/100
+|-unboost|p1a: Pincurchin|spa|1
+|move|p1a: Pincurchin|Rising Voltage|p2a: Hattrem
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p2a: Hattrem|12/100
+|
+|upkeep
+|turn|6
+|
+|t:|1651849803
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|move|p1a: Pincurchin|Rising Voltage|p2a: Eldegoss
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|65/100
+|
+|upkeep
+|turn|7
+|
+|t:|1651849807
+|move|p2a: Eldegoss|Giga Drain|p1a: Pincurchin
+|-damage|p1a: Pincurchin|22/100
+|-heal|p2a: Eldegoss|77/100|[from] drain|[of] p1a: Pincurchin
+|move|p1a: Pincurchin|Rising Voltage|p2a: Eldegoss
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|42/100
+|
+|upkeep
+|turn|8
+|
+|t:|1651849814
+|move|p2a: Eldegoss|Giga Drain|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|-heal|p2a: Eldegoss|52/100|[from] drain|[of] p1a: Pincurchin
+|faint|p1a: Pincurchin
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1651849818
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|-damage|p1a: Galvantula|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1651849822
+|switch|p2a: Scrafty|Scrafty, F|100/100
+|move|p1a: Galvantula|Volt Switch|p2a: Scrafty
+|-damage|p2a: Scrafty|72/100
+|
+|t:|1651849833
+|switch|p1a: Basculin|Basculin, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Basculin|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Scrafty|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1651849839
+|switch|p2a: Eldegoss|Eldegoss, M|86/100
+|move|p1a: Basculin|Liquidation|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|60/100
+|-unboost|p2a: Eldegoss|def|1
+|-damage|p1a: Basculin|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1651849848
+|switch|p2a: Silvally|Silvally-Ghost|100/100
+|move|p1a: Basculin|Flip Turn|p2a: Silvally
+|-damage|p2a: Silvally|53/100
+|-damage|p1a: Basculin|68/100|[from] item: Life Orb
+|
+|t:|1651849854
+|switch|p1a: Galvantula|Galvantula, M|76/100|[from]move: Flip Turn
+|-damage|p1a: Galvantula|51/100|[from] Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1651849860
+|switch|p2a: Scrafty|Scrafty, F|78/100
+|move|p1a: Galvantula|Thunder|p2a: Scrafty
+|-damage|p2a: Scrafty|28/100
+|
+|-heal|p2a: Scrafty|34/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1651849866
+|switch|p2a: Eldegoss|Eldegoss, M|93/100
+|move|p1a: Galvantula|Thunder|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|60/100
+|
+|upkeep
+|turn|14
+|
+|t:|1651849870
+|move|p1a: Galvantula|Thunder|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|30/100
+|move|p2a: Eldegoss|Leech Seed|p1a: Galvantula
+|-start|p1a: Galvantula|move: Leech Seed
+|
+|-damage|p1a: Galvantula|38/100|[from] Leech Seed|[of] p2a: Eldegoss
+|-heal|p2a: Eldegoss|40/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1651849879
+|switch|p1a: Aggron|Aggron, M, shiny|100/100
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|move|p2a: Eldegoss|Giga Drain|p1a: Aggron
+|-damage|p1a: Aggron|65/100
+|-heal|p2a: Eldegoss|56/100|[from] drain|[of] p1a: Aggron
+|
+|upkeep
+|turn|16
+|j| Yogapants
+|
+|t:|1651849892
+|switch|p2a: Silvally|Silvally-Ghost|53/100
+|move|p1a: Aggron|Earthquake|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|t:|1651849899
+|switch|p2a: Archeops|Archeops, M|100/100
+|turn|17
+|
+|t:|1651849905
+|switch|p1a: Comfey|Comfey, M|92/100
+|-damage|p1a: Comfey|80/100|[from] Stealth Rock
+|move|p2a: Archeops|Earthquake|p1a: Comfey
+|-damage|p1a: Comfey|32/100
+|
+|-heal|p1a: Comfey|38/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1651849916
+|move|p1a: Comfey|Giga Drain|p2a: Archeops
+|-damage|p2a: Archeops|62/100
+|-heal|p1a: Comfey|56/100|[from] drain|[of] p2a: Archeops
+|move|p2a: Archeops|Acrobatics|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|upkeep
+|
+|t:|1651849930
+|switch|p1a: Basculin|Basculin, M|68/100
+|-damage|p1a: Basculin|56/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1651849942
+|switch|p2a: Eldegoss|Eldegoss, M|89/100
+|move|p1a: Basculin|Flip Turn|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|71/100
+|-damage|p1a: Basculin|46/100|[from] item: Life Orb
+|
+|t:|1651849958
+|switch|p1a: Absol|Absol, M, shiny|100/100|[from]move: Flip Turn
+|-damage|p1a: Absol|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|20
+|
+|t:|1651849973
+|switch|p2a: Hattrem|Hattrem, F|12/100
+|move|p1a: Absol|Night Slash|p2a: Hattrem
+|-supereffective|p2a: Hattrem
+|-crit|p2a: Hattrem
+|-damage|p2a: Hattrem|0 fnt
+|faint|p2a: Hattrem
+|
+|upkeep
+|
+|t:|1651849978
+|switch|p2a: Archeops|Archeops, M|62/100
+|turn|21
+|
+|t:|1651849982
+|move|p1a: Absol|Sucker Punch|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|upkeep
+|
+|t:|1651849989
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|turn|22
+|
+|t:|1651850001
+|move|p1a: Absol|Night Slash|p2a: Eldegoss
+|-crit|p2a: Eldegoss
+|-damage|p2a: Eldegoss|47/100
+|move|p2a: Eldegoss|Leech Seed|p1a: Absol
+|-start|p1a: Absol|move: Leech Seed
+|
+|-damage|p1a: Absol|76/100|[from] Leech Seed|[of] p2a: Eldegoss
+|-heal|p2a: Eldegoss|57/100|[silent]
+|upkeep
+|turn|23
+|
+|t:|1651850008
+|move|p1a: Absol|Night Slash|p2a: Eldegoss
+|-crit|p2a: Eldegoss
+|-damage|p2a: Eldegoss|8/100
+|move|p2a: Eldegoss|Giga Drain|p1a: Absol
+|-damage|p1a: Absol|33/100
+|-heal|p2a: Eldegoss|26/100|[from] drain|[of] p1a: Absol
+|
+|-damage|p1a: Absol|21/100|[from] Leech Seed|[of] p2a: Eldegoss
+|-heal|p2a: Eldegoss|36/100|[silent]
+|upkeep
+|turn|24
+|l|☆ArchenWarrior
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Haffling tester)
+|j|☆ArchenWarrior
+|inactive|ArchenWarrior reconnected and has 130 seconds left.
+|player|p1|ArchenWarrior|proton
+|
+|t:|1651850048
+|switch|p2a: Scrafty|Scrafty, F|34/100
+|move|p1a: Absol|Night Slash|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-crit|p2a: Scrafty
+|-damage|p2a: Scrafty|20/100
+|
+|-heal|p2a: Scrafty|26/100|[from] item: Leftovers
+|-damage|p1a: Absol|9/100|[from] Leech Seed|[of] p2a: Scrafty
+|-heal|p2a: Scrafty|36/100|[silent]
+|upkeep
+|turn|25
+|
+|t:|1651850058
+|move|p1a: Absol|Superpower|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|-unboost|p1a: Absol|atk|1
+|-unboost|p1a: Absol|def|1
+|faint|p2a: Scrafty
+|
+|upkeep
+|j| Belindas Dad
+|
+|t:|1651850061
+|switch|p2a: Eldegoss|Eldegoss, M|69/100
+|turn|26
+|
+|t:|1651850079
+|move|p1a: Absol|Night Slash|p2a: Eldegoss
+|-crit|p2a: Eldegoss
+|-damage|p2a: Eldegoss|22/100
+|move|p2a: Eldegoss|Giga Drain|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|-heal|p2a: Eldegoss|25/100|[from] drain|[of] p1a: Absol
+|faint|p1a: Absol
+|
+|upkeep
+|inactive|ArchenWarrior has 120 seconds left.
+|
+|t:|1651850100
+|switch|p1a: Basculin|Basculin, M|46/100
+|-damage|p1a: Basculin|33/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1651850107
+|move|p1a: Basculin|Liquidation|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|0 fnt
+|faint|p2a: Eldegoss
+|-damage|p1a: Basculin|23/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1651850110
+|switch|p2a: Aggron|Aggron, F|100/100
+|turn|28
+|
+|t:|1651850117
+|move|p1a: Basculin|Liquidation|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|23/100
+|-damage|p1a: Basculin|13/100|[from] item: Life Orb
+|move|p2a: Aggron|Rock Blast|p1a: Basculin|[miss]
+|-miss|p2a: Aggron|p1a: Basculin
+|
+|-heal|p2a: Aggron|30/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1651850124
+|move|p1a: Basculin|Liquidation|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|-damage|p1a: Basculin|3/100|[from] item: Life Orb
+|
+|win|ArchenWarrior
+|raw|ArchenWarrior's rating: 1260 &rarr; <strong>1301</strong><br />(+41 for winning)
+|raw|Haffling tester's rating: 1512 &rarr; <strong>1480</strong><br />(-32 for losing)
+|c|☆ArchenWarrior|gg wp
+|c|☆Haffling tester|unfort
+|c|☆Haffling tester|gg

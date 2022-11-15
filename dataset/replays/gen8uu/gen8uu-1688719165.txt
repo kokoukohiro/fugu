@@ -1,0 +1,636 @@
+|j|☆DaneJerzone
+|j|☆Ichindar
+|t:|1666101916
+|gametype|singles
+|player|p1|DaneJerzone|sailor|1309
+|player|p2|Ichindar|dragontamer|1517
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Krookodile, M|
+|poke|p1|Celesteela|
+|poke|p1|Gyarados, F|
+|poke|p1|Venusaur, M|
+|poke|p1|Darmanitan, M|
+|poke|p1|Regieleki|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Chansey, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Salamence, M|
+|poke|p2|Krookodile, F|
+|poke|p2|Regieleki|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DaneJerzone)
+|
+|t:|1666101957
+|start
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|1
+|
+|t:|1666101966
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Venusaur|Giga Drain|p2a: Chansey
+|-damage|p2a: Chansey|90/100
+|
+|upkeep
+|turn|2
+|
+|t:|1666101971
+|move|p1a: Venusaur|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Sleep Powder
+|cant|p2a: Chansey|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1666101976
+|-curestatus|p2a: Chansey|slp|[from] ability: Natural Cure
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Venusaur|atk|1
+|move|p1a: Venusaur|Leech Seed|p2a: Salamence
+|-start|p2a: Salamence|move: Leech Seed
+|
+|-damage|p2a: Salamence|88/100|[from] Leech Seed|[of] p1a: Venusaur
+|upkeep
+|turn|4
+|
+|t:|1666101985
+|switch|p2a: Chansey|Chansey, F|90/100
+|move|p1a: Venusaur|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|5
+|
+|t:|1666101990
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|cant|p2a: Chansey|slp
+|
+|-damage|p2a: Chansey|77/100 slp|[from] Leech Seed|[of] p1a: Venusaur
+|upkeep
+|turn|6
+|
+|t:|1666101998
+|-curestatus|p2a: Chansey|slp|[from] ability: Natural Cure
+|switch|p2a: Salamence|Salamence, M|88/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Venusaur|atk|1
+|move|p1a: Venusaur|Sludge Bomb|p2a: Salamence
+|-damage|p2a: Salamence|40/100
+|
+|upkeep
+|turn|7
+|
+|t:|1666102007
+|move|p2a: Salamence|Roost|p2a: Salamence
+|-heal|p2a: Salamence|91/100
+|-singleturn|p2a: Salamence|move: Roost
+|move|p1a: Venusaur|Sludge Bomb|p2a: Salamence
+|-damage|p2a: Salamence|41/100
+|
+|upkeep
+|turn|8
+|
+|t:|1666102013
+|move|p2a: Salamence|Dual Wingbeat|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|59/100
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|19/100
+|-hitcount|p1a: Venusaur|2
+|move|p1a: Venusaur|Leech Seed|p2a: Salamence
+|-start|p2a: Salamence|move: Leech Seed
+|
+|-heal|p1a: Venusaur|25/100|[from] item: Black Sludge
+|-damage|p2a: Salamence|29/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|39/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1666102027
+|switch|p2a: Chansey|Chansey, F|77/100
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Chansey|atk|1
+|
+|upkeep
+|turn|10
+|
+|t:|1666102036
+|switch|p2a: Salamence|Salamence, M|29/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Krookodile|atk|1
+|move|p1a: Krookodile|Knock Off|p2a: Salamence
+|-damage|p2a: Salamence|8/100
+|-enditem|p2a: Salamence|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Krookodile
+|
+|upkeep
+|turn|11
+|
+|t:|1666102043
+|move|p2a: Salamence|Roost|p2a: Salamence
+|-heal|p2a: Salamence|58/100
+|-singleturn|p2a: Salamence|move: Roost
+|move|p1a: Krookodile|Knock Off|p2a: Salamence
+|-damage|p2a: Salamence|44/100
+|
+|upkeep
+|turn|12
+|
+|t:|1666102050
+|move|p2a: Salamence|Roost|p2a: Salamence
+|-heal|p2a: Salamence|94/100
+|-singleturn|p2a: Salamence|move: Roost
+|move|p1a: Krookodile|Toxic|p2a: Salamence
+|-status|p2a: Salamence|tox
+|
+|-damage|p2a: Salamence|88/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1666102058
+|move|p2a: Salamence|Flamethrower|p1a: Krookodile
+|-damage|p1a: Krookodile|74/100
+|move|p1a: Krookodile|Stealth Rock|p2a: Salamence
+|-sidestart|p2: Ichindar|move: Stealth Rock
+|
+|-heal|p1a: Krookodile|80/100|[from] item: Leftovers
+|-damage|p2a: Salamence|76/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1666102072
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|-damage|p2a: Krookodile|94/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Krookodile|atk|1
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|
+|-heal|p2a: Krookodile|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1666102081
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Krookodile|Taunt|p1a: Gyarados
+|-start|p1a: Gyarados|move: Taunt
+|
+|upkeep
+|turn|16
+|
+|t:|1666102088
+|move|p1a: Gyarados|Waterfall|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|t:|1666102094
+|switch|p2a: Regieleki|Regieleki|100/100
+|-damage|p2a: Regieleki|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1666102099
+|switch|p1a: Krookodile|Krookodile, M|80/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Regieleki|atk|1
+|move|p2a: Regieleki|Thunderbolt|p1a: Krookodile
+|-immune|p1a: Krookodile
+|
+|-heal|p1a: Krookodile|86/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1666102108
+|switch|p2a: Salamence|Salamence, M|76/100 tox
+|-damage|p2a: Salamence|51/100 tox|[from] Stealth Rock
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Krookodile|atk|1
+|move|p1a: Krookodile|Knock Off|p2a: Salamence
+|-damage|p2a: Salamence|37/100 tox
+|
+|-heal|p1a: Krookodile|92/100|[from] item: Leftovers
+|-damage|p2a: Salamence|31/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1666102118
+|move|p2a: Salamence|Roost|p2a: Salamence
+|-heal|p2a: Salamence|81/100 tox
+|-singleturn|p2a: Salamence|move: Roost
+|move|p1a: Krookodile|Counter||[still]
+|-fail|p1a: Krookodile
+|
+|-heal|p1a: Krookodile|98/100|[from] item: Leftovers
+|-damage|p2a: Salamence|68/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1666102126
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Salamence|Defog|p1a: Gyarados
+|-unboost|p1a: Gyarados|evasion|1
+|-sideend|p2: Ichindar|Stealth Rock|[from] move: Defog|[of] p2a: Salamence
+|
+|-damage|p2a: Salamence|50/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1666102134
+|switch|p2a: Chansey|Chansey, F|77/100
+|move|p1a: Gyarados|Earthquake|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|42/100
+|
+|upkeep
+|turn|22
+|
+|t:|1666102148
+|switch|p1a: Venusaur|Venusaur, M|39/100
+|move|p2a: Chansey|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|
+|-heal|p1a: Venusaur|45/100 par|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|t:|1666102156
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|92/100
+|cant|p1a: Venusaur|par
+|
+|-heal|p1a: Venusaur|51/100 par|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|t:|1666102163
+|move|p1a: Venusaur|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Sleep Powder
+|cant|p2a: Chansey|slp
+|
+|-heal|p1a: Venusaur|57/100 par|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|t:|1666102172
+|-curestatus|p2a: Chansey|slp|[from] ability: Natural Cure
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: Venusaur|Sleep Powder|p2a: Conkeldurr
+|-status|p2a: Conkeldurr|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Venusaur|63/100 par|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|t:|1666102181
+|cant|p2a: Conkeldurr|slp
+|move|p1a: Venusaur|Leech Seed|p2a: Conkeldurr
+|-start|p2a: Conkeldurr|move: Leech Seed
+|
+|-heal|p1a: Venusaur|69/100 par|[from] item: Black Sludge
+|-damage|p2a: Conkeldurr|88/100 slp|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|82/100 par|[silent]
+|upkeep
+|turn|27
+|
+|t:|1666102187
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|cant|p2a: Conkeldurr|slp
+|
+|-damage|p2a: Conkeldurr|76/100 slp|[from] Leech Seed|[of] p1a: Gyarados
+|upkeep
+|turn|28
+|
+|t:|1666102194
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|-curestatus|p2a: Conkeldurr|slp|[msg]
+|move|p2a: Conkeldurr|Facade|p1a: Gyarados
+|-damage|p1a: Gyarados|65/100
+|
+|-heal|p1a: Gyarados|71/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|63/100|[from] Leech Seed|[of] p1a: Gyarados
+|-heal|p1a: Gyarados|85/100|[silent]
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|29
+|
+|t:|1666102205
+|switch|p2a: Salamence|Salamence, M|50/100 tox
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Gyarados|atk|1
+|move|p1a: Gyarados|Waterfall|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|31/100 tox
+|
+|-heal|p1a: Gyarados|91/100|[from] item: Leftovers
+|-damage|p2a: Salamence|25/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1666102215
+|move|p1a: Gyarados|Waterfall|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|6/100 tox
+|move|p2a: Salamence|Dual Wingbeat|p1a: Gyarados
+|-damage|p1a: Gyarados|67/100
+|-damage|p1a: Gyarados|45/100
+|-hitcount|p1a: Gyarados|2
+|
+|-heal|p1a: Gyarados|51/100|[from] item: Leftovers
+|-damage|p2a: Salamence|0 fnt|[from] psn
+|faint|p2a: Salamence
+|upkeep
+|
+|t:|1666102228
+|switch|p2a: Regieleki|Regieleki|88/100
+|turn|31
+|
+|t:|1666102232
+|switch|p2a: Conkeldurr|Conkeldurr, F|63/100 brn
+|switch|p1a: Krookodile|Krookodile, M|98/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Conkeldurr|atk|1
+|
+|-heal|p1a: Krookodile|100/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|57/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1666102245
+|move|p2a: Conkeldurr|Close Combat|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|1/100
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|move|p1a: Krookodile|Counter|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: Krookodile|7/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1666102256
+|switch|p2a: Regieleki|Regieleki|88/100
+|turn|33
+|
+|t:|1666102262
+|move|p2a: Regieleki|Extreme Speed|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|-damage|p2a: Regieleki|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1666102275
+|switch|p1a: Regieleki|Regieleki|100/100
+|turn|34
+|
+|t:|1666102278
+|switch|p2a: Chansey|Chansey, F|92/100
+|move|p1a: Regieleki|Light Screen|p1a: Regieleki
+|-sidestart|p1: DaneJerzone|move: Light Screen
+|
+|upkeep
+|turn|35
+|
+|t:|1666102284
+|move|p1a: Regieleki|Reflect|p1a: Regieleki
+|-sidestart|p1: DaneJerzone|Reflect
+|move|p2a: Chansey|Seismic Toss|p1a: Regieleki
+|-damage|p1a: Regieleki|67/100
+|
+|upkeep
+|turn|36
+|
+|t:|1666102288
+|move|p1a: Regieleki|Volt Switch|p2a: Chansey
+|-damage|p2a: Chansey|77/100
+|
+|t:|1666102294
+|switch|p1a: Darmanitan|Darmanitan, M|100/100|[from]move: Volt Switch
+|move|p2a: Chansey|Seismic Toss|p1a: Darmanitan
+|-damage|p1a: Darmanitan|72/100
+|
+|upkeep
+|turn|37
+|
+|t:|1666102301
+|move|p1a: Darmanitan|U-turn|p2a: Chansey
+|-damage|p2a: Chansey|59/100
+|
+|t:|1666102305
+|switch|p1a: Venusaur|Venusaur, M|82/100 par|[from]move: U-turn
+|move|p2a: Chansey|Seismic Toss|p1a: Venusaur
+|-damage|p1a: Venusaur|54/100 par
+|
+|-heal|p1a: Venusaur|60/100 par|[from] item: Black Sludge
+|upkeep
+|turn|38
+|
+|t:|1666102313
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|move|p2a: Chansey|Teleport|p2a: Chansey
+|
+|t:|1666102316
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100|[from]move: Teleport
+|
+|-heal|p1a: Venusaur|66/100 par|[from] item: Black Sludge
+|-sideend|p1: DaneJerzone|move: Light Screen
+|upkeep
+|turn|39
+|
+|t:|1666102322
+|move|p2a: Crawdaunt|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|8/100 par
+|-enditem|p1a: Venusaur|Black Sludge|[from] move: Knock Off|[of] p2a: Crawdaunt
+|move|p1a: Venusaur|Giga Drain|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|-heal|p1a: Venusaur|45/100 par|[from] drain|[of] p2a: Crawdaunt
+|faint|p2a: Crawdaunt
+|
+|-sideend|p1: DaneJerzone|Reflect
+|upkeep
+|
+|t:|1666102331
+|switch|p2a: Chansey|Chansey, F|59/100
+|turn|40
+|
+|t:|1666102334
+|move|p2a: Chansey|Seismic Toss|p1a: Venusaur
+|-damage|p1a: Venusaur|18/100 par
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|
+|-damage|p2a: Chansey|47/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|42/100 par|[silent]
+|upkeep
+|turn|41
+|
+|t:|1666102346
+|switch|p1a: Gyarados|Gyarados, F|51/100
+|move|p2a: Chansey|Teleport|p2a: Chansey
+|
+|t:|1666102349
+|switch|p2a: Regieleki|Regieleki|78/100|[from]move: Teleport
+|
+|-heal|p1a: Gyarados|57/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1666102355
+|move|p2a: Regieleki|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|-damage|p2a: Regieleki|68/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1666102359
+|switch|p1a: Regieleki|Regieleki|67/100
+|turn|43
+|
+|t:|1666102365
+|move|p1a: Regieleki|Light Screen|p1a: Regieleki
+|-sidestart|p1: DaneJerzone|move: Light Screen
+|move|p2a: Regieleki|Volt Switch|p1a: Regieleki
+|-resisted|p1a: Regieleki
+|-damage|p1a: Regieleki|33/100
+|-damage|p2a: Regieleki|59/100|[from] item: Life Orb
+|
+|t:|1666102370
+|switch|p2a: Chansey|Chansey, F|47/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|44
+|
+|t:|1666102374
+|move|p1a: Regieleki|Volt Switch|p2a: Chansey
+|-damage|p2a: Chansey|32/100
+|
+|t:|1666102379
+|switch|p1a: Venusaur|Venusaur, M|42/100 par|[from]move: Volt Switch
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|83/100
+|
+|upkeep
+|turn|45
+|
+|t:|1666102386
+|move|p2a: Chansey|Seismic Toss|p1a: Venusaur
+|-damage|p1a: Venusaur|14/100 par
+|move|p1a: Venusaur|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|46
+|
+|t:|1666102392
+|-curestatus|p2a: Chansey|slp|[from] ability: Natural Cure
+|switch|p2a: Regieleki|Regieleki|59/100
+|move|p1a: Venusaur|Leech Seed|p2a: Regieleki
+|-start|p2a: Regieleki|move: Leech Seed
+|
+|-damage|p2a: Regieleki|46/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|24/100 par|[silent]
+|upkeep
+|turn|47
+|
+|t:|1666102409
+|switch|p1a: Celesteela|Celesteela|100/100
+|move|p2a: Regieleki|Thunderbolt|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-damage|p1a: Celesteela|34/100
+|-damage|p2a: Regieleki|36/100|[from] item: Life Orb
+|
+|-damage|p2a: Regieleki|24/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|43/100|[silent]
+|-sideend|p1: DaneJerzone|move: Light Screen
+|upkeep
+|turn|48
+|
+|t:|1666102417
+|move|p2a: Regieleki|Volt Switch|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|faint|p1a: Celesteela
+|-damage|p2a: Regieleki|14/100|[from] item: Life Orb
+|
+|t:|1666102423
+|switch|p2a: Chansey|Chansey, F|83/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|t:|1666102429
+|switch|p1a: Darmanitan|Darmanitan, M|72/100
+|turn|49
+|
+|t:|1666102432
+|move|p1a: Darmanitan|Flare Blitz|p2a: Chansey
+|-damage|p2a: Chansey|23/100
+|-damage|p1a: Darmanitan|33/100|[from] Recoil
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|73/100
+|
+|upkeep
+|turn|50
+|
+|t:|1666102438
+|switch|p1a: Venusaur|Venusaur, M|24/100 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|upkeep
+|turn|51
+|
+|t:|1666102443
+|move|p2a: Chansey|Seismic Toss|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+|
+|t:|1666102446
+|switch|p1a: Regieleki|Regieleki|33/100
+|turn|52
+|
+|t:|1666102450
+|move|p1a: Regieleki|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|84/100
+|move|p2a: Chansey|Seismic Toss|p1a: Regieleki
+|-damage|p1a: Regieleki|0 fnt
+|faint|p1a: Regieleki
+|
+|upkeep
+|-message|DaneJerzone forfeited.
+|
+|win|Ichindar
+|raw|DaneJerzone's rating: 1309 &rarr; <strong>1300</strong><br />(-9 for losing)
+|raw|Ichindar's rating: 1517 &rarr; <strong>1526</strong><br />(+9 for winning)
+|l|☆DaneJerzone
+|c|☆Ichindar|ouh
+|c|☆Ichindar|cancer
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

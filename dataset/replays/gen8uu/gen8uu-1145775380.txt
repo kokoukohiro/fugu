@@ -1,0 +1,317 @@
+|j|☆Bamarah
+|j|☆PimPimPimPim
+|player|p1|Bamarah|eusine-gen2|1232
+|player|p2|PimPimPimPim|crasherwake|1350
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Gengar, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Darmanitan, M|
+|poke|p1|Skarmory, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Blissey, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Heracross, M|
+|poke|p2|Krookodile, F|
+|poke|p2|Skarmory, M|
+|poke|p2|Exploud, F|
+|poke|p2|Rotom-Wash|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PimPimPimPim)
+|
+|start
+|switch|p1a: Darmanitan|Darmanitan, M, shiny|100/100
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Darmanitan|atk|1
+|turn|1
+|
+|move|p1a: Darmanitan|U-turn|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|60/100
+|
+|switch|p1a: Skarmory|Skarmory, M, shiny|100/100|[from]move: U-turn
+|move|p2a: Krookodile|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|65/100
+|-enditem|p1a: Skarmory|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Krookodile
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Rotom|Volt Switch|p1a: Tyranitar
+|-damage|p1a: Tyranitar|84/100
+|
+|switch|p2a: Heracross|Heracross, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Heracross|95/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p1a: Gengar|Gengar, M, shiny|100/100
+|move|p2a: Heracross|Close Combat|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Heracross|89/100|[from] Sandstorm
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p2a: Exploud|Exploud, F|100/100
+|move|p1a: Gengar|Shadow Ball|p2a: Exploud
+|-immune|p2a: Exploud
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|88/100|[from] Sandstorm
+|-damage|p2a: Exploud|94/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p1a: Blissey|Blissey, F, shiny|100/100
+|move|p2a: Exploud|Boomburst|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|-enditem|p2a: Exploud|Throat Spray
+|-boost|p2a: Exploud|spa|1|[from] item: Throat Spray
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Exploud|88/100|[from] Sandstorm
+|-damage|p1a: Blissey|66/100|[from] Sandstorm
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Exploud|Focus Blast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|43/100
+|move|p1a: Blissey|Thunder Wave|p2a: Exploud
+|-status|p2a: Exploud|par
+|
+|-weather|none
+|-heal|p1a: Blissey|49/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Blissey|Wish|p1a: Blissey
+|move|p2a: Exploud|Focus Blast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|17/100
+|
+|-heal|p1a: Blissey|23/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|☆Bamarah|!dt focus blast
+|raw|<ul class="utilichart"><li class="result"><span class="col movenamecol"><a href="https://dex.pokemonshowdown.com/moves/focusblast">Focus Blast</a></span> <span class="col typecol"><img src="//play.pokemonshowdown.com/sprites/types/Fighting.png" alt="Fighting" width="32" height="14"><img src="//play.pokemonshowdown.com/sprites/categories/Special.png" alt="Special" width="32" height="14"></span> <span class="col labelcol"><em>Power</em><br>120</span> <span class="col widelabelcol"><em>Accuracy</em><br>70%</span> <span class="col pplabelcol"><em>PP</em><br>8</span> <span class="col movedesccol">10% chance to lower the target's Sp. Def by 1.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Priority:</font> 0&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 4&nbsp;|&ThickSpace;&#10003; Secondary effect&nbsp;|&ThickSpace;&#10003; Bullet&nbsp;|&ThickSpace;<font color="#686868">Z-Power:</font> 190&nbsp;|&ThickSpace;<font color="#686868">Dynamax Power:</font> 95&nbsp;|&ThickSpace;<font color="#686868">Target:</font> One Adjacent Pokémon</font>
+
+|c|☆Bamarah|lol
+|
+|switch|p2a: Krookodile|Krookodile, F|60/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|move|p1a: Blissey|Seismic Toss|p2a: Krookodile
+|-damage|p2a: Krookodile|30/100
+|
+|-heal|p1a: Blissey|73/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Skarmory|Skarmory, M, shiny|100/100
+|move|p2a: Krookodile|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: Bamarah|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Skarmory|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: Bamarah|Stealth Rock|[from] move: Defog|[of] p1a: Skarmory
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Blissey|Blissey, F, shiny|80/100
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|70/100
+|
+|switch|p2a: Heracross|Heracross, M|89/100|[from]move: Volt Switch
+|
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Skarmory|Skarmory, M, shiny|100/100
+|move|p2a: Heracross|Close Combat|p1a: Skarmory
+|-damage|p1a: Skarmory|57/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|59/100
+|-damage|p2a: Aegislash|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Keldeo|Surf|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|59/100
+|-damage|p1a: Keldeo|49/100|[from] item: Life Orb
+|
+|-heal|p2a: Rotom|66/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Keldeo|40/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Heracross|Heracross, M|89/100
+|turn|18
+|
+|move|p1a: Keldeo|Aqua Jet|p2a: Heracross
+|-crit|p2a: Heracross
+|-damage|p2a: Heracross|58/100
+|-damage|p1a: Keldeo|30/100|[from] item: Life Orb
+|move|p2a: Heracross|Close Combat|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Keldeo
+|-ability|p2a: Heracross|Moxie|boost
+|-boost|p2a: Heracross|atk|1
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M, shiny|88/100
+|turn|19
+|
+|switch|p2a: Exploud|Exploud, F|88/100 par
+|move|p1a: Gengar|Sludge Wave|p2a: Exploud
+|-damage|p2a: Exploud|16/100 par
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Exploud
+|-damage|p2a: Exploud|0 fnt
+|faint|p2a: Exploud
+|
+|upkeep
+|
+|switch|p2a: Heracross|Heracross, M|58/100
+|turn|21
+|
+|switch|p2a: Aegislash|Aegislash, F|91/100
+|switch|p1a: Skarmory|Skarmory, M, shiny|100/100
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Blissey|Blissey, F, shiny|76/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|-heal|p1a: Blissey|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Krookodile|Krookodile, F|30/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|move|p1a: Blissey|Thunder Wave|p2a: Krookodile
+|-immune|p2a: Krookodile
+|
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Skarmory|Skarmory, M, shiny|100/100
+|move|p2a: Krookodile|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: Bamarah|move: Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Krookodile|Rock Tomb|p1a: Skarmory
+|-damage|p1a: Skarmory|88/100
+|-unboost|p1a: Skarmory|spe|1
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Aegislash|Aegislash, F|91/100
+|move|p1a: Skarmory|Defog|p2a: Aegislash
+|-unboost|p2a: Aegislash|evasion|1
+|-sideend|p1: Bamarah|Stealth Rock|[from] move: Defog|[of] p1a: Skarmory
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Blissey|Blissey, F, shiny|88/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|-heal|p1a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Heracross|Heracross, M|58/100
+|move|p1a: Blissey|Seismic Toss|p2a: Heracross
+|-damage|p2a: Heracross|25/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|-message|PimPimPimPim forfeited.
+|
+|win|Bamarah
+|l|☆PimPimPimPim

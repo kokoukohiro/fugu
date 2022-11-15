@@ -1,0 +1,363 @@
+|j|☆Vanishing Journey
+|j|☆thievul is good
+|player|p1|Vanishing Journey|juan|1329
+|player|p2|thievul is good|lucas|1318
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Sigilyph, F|
+|poke|p1|Dhelmise|
+|poke|p1|Gigalith, M|
+|poke|p1|Pangoro, M|
+|poke|p1|Jolteon, M|
+|poke|p1|Mantine, F|
+|poke|p2|Thievul, M|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Gigalith, M|
+|poke|p2|Silvally-*|
+|poke|p2|Gurdurr, F|
+|poke|p2|Whimsicott, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vanishing Journey)
+|
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|move|p2a: Whimsicott|U-turn|p1a: Dhelmise
+|-crit|p1a: Dhelmise
+|-damage|p1a: Dhelmise|83/100
+|
+|switch|p2a: Silvally|Silvally-Ghost|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|move|p2a: Silvally|U-turn|p1a: Pangoro
+|-damage|p1a: Pangoro|77/100
+|
+|switch|p2a: Whimsicott|Whimsicott, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Mantine|Mantine, F|100/100
+|move|p2a: Whimsicott|Moonblast|p1a: Mantine
+|-damage|p1a: Mantine|79/100
+|-unboost|p1a: Mantine|spa|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Whimsicott|U-turn|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|74/100
+|
+|switch|p2a: Gurdurr|Gurdurr, F|100/100|[from]move: U-turn
+|move|p1a: Mantine|Tailwind|p1a: Mantine
+|-sidestart|p1: Vanishing Journey|move: Tailwind
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Mantine|Air Slash|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mantine|68/100|[from] Sandstorm
+|-heal|p2a: Gigalith|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Dhelmise|Dhelmise|83/100
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Whimsicott|94/100|[from] Sandstorm
+|-damage|p1a: Dhelmise|77/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p2a: Whimsicott|U-turn|p1a: Dhelmise
+|-damage|p1a: Dhelmise|65/100
+|
+|switch|p2a: Silvally|Silvally-Ghost|100/100|[from]move: U-turn
+|move|p1a: Dhelmise|Anchor Shot|p2a: Silvally
+|-damage|p2a: Silvally|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dhelmise|59/100|[from] Sandstorm
+|-damage|p2a: Silvally|41/100|[from] Sandstorm
+|-sideend|p1: Vanishing Journey|move: Tailwind
+|upkeep
+|turn|8
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Silvally|35/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|turn|9
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|move|p1a: Sigilyph|Psychic|p2a: Gigalith
+|-damage|p2a: Gigalith|68/100
+|
+|-weather|none
+|-heal|p2a: Gigalith|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Whimsicott|Whimsicott, M|94/100
+|move|p1a: Sigilyph|Psychic|p2a: Whimsicott
+|-damage|p2a: Whimsicott|1/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Whimsicott|U-turn|p1a: Sigilyph
+|-damage|p1a: Sigilyph|86/100
+|
+|switch|p2a: Gigalith|Gigalith, M|74/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Sigilyph|Air Slash|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Pangoro|Pangoro, M|77/100
+|move|p2a: Gigalith|Superpower|p1a: Pangoro
+|-supereffective|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|faint|p1a: Pangoro
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|73/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|turn|13
+|
+|switch|p2a: Gurdurr|Gurdurr, F|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Gurdurr
+|-sidestart|p2: thievul is good|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gurdurr|94/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p2a: Gurdurr|Defog|p1a: Gigalith
+|-unboost|p1a: Gigalith|evasion|1
+|-sideend|p2: thievul is good|Stealth Rock|[from] move: Defog|[of] p2a: Gurdurr
+|move|p1a: Gigalith|Earthquake|p2a: Gurdurr
+|-damage|p2a: Gurdurr|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gurdurr|70/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|switch|p1a: Sigilyph|Sigilyph, F|86/100
+|move|p2a: Gurdurr|Drain Punch|p1a: Sigilyph
+|-resisted|p1a: Sigilyph
+|-damage|p1a: Sigilyph|75/100
+|-heal|p2a: Gurdurr|74/100|[from] drain|[of] p1a: Sigilyph
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|switch|p2a: Gigalith|Gigalith, M|73/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Sigilyph|Air Slash|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|67/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Sigilyph|Psychic|p2a: Gigalith
+|-damage|p2a: Gigalith|36/100
+|move|p2a: Gigalith|Rock Blast|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|39/100
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|4/100
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|-hitcount|p1a: Sigilyph|3
+|faint|p1a: Sigilyph
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|turn|18
+|
+|move|p2a: Gigalith|Superpower|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|42/100
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|move|p1a: Gigalith|Stealth Rock|p2a: Gigalith
+|-sidestart|p2: thievul is good|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|48/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|48/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Gurdurr|Gurdurr, F|74/100
+|-damage|p2a: Gurdurr|68/100|[from] Stealth Rock
+|switch|p1a: Mantine|Mantine, F|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mantine|62/100|[from] Sandstorm
+|-damage|p2a: Gurdurr|62/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|switch|p2a: Whimsicott|Whimsicott, M|1/100
+|-damage|p2a: Whimsicott|0 fnt|[from] Stealth Rock
+|faint|p2a: Whimsicott
+|move|p1a: Mantine|Air Slash|p2: Whimsicott|[notarget]
+|-fail|p1a: Mantine
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Ghost|35/100
+|-damage|p2a: Silvally|22/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Mantine
+|-damage|p1a: Mantine|23/100
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|73/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Mantine
+|-damage|p1a: Mantine|12/100
+|move|p1a: Mantine|Scald|p2a: Silvally
+|-crit|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|24
+|
+|move|p2a: Indeedee|Psychic|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|
+|upkeep
+|
+|switch|p1a: Gigalith|Gigalith, M|48/100
+|turn|25
+|c|☆thievul is good|ur not
+|c|☆thievul is good|sand stream
+|c|☆thievul is good|,-,
+|
+|move|p2a: Indeedee|Psychic|p1a: Gigalith
+|-damage|p1a: Gigalith|13/100
+|move|p1a: Gigalith|Explosion|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p1a: Gigalith
+|faint|p2a: Indeedee
+|
+|upkeep
+|c|☆Vanishing Journey|i know
+|
+|switch|p2a: Thievul|Thievul, M|100/100
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|-damage|p2a: Thievul|88/100|[from] Stealth Rock
+|-enditem|p2a: Thievul|Psychic Seed
+|-boost|p2a: Thievul|spd|1|[from] item: Psychic Seed
+|turn|26
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Jolteon
+|-damage|p1a: Jolteon|54/100
+|move|p1a: Jolteon|Thunderbolt|p2a: Thievul
+|-damage|p2a: Thievul|52/100
+|-status|p2a: Thievul|par
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Thievul
+|-damage|p2a: Thievul|11/100 par
+|move|p2a: Thievul|Dark Pulse|p1a: Jolteon
+|-damage|p1a: Jolteon|10/100
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Thievul
+|-damage|p2a: Thievul|0 fnt
+|faint|p2a: Thievul
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p2a: Gurdurr|Gurdurr, F|62/100
+|-damage|p2a: Gurdurr|56/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Gurdurr|Mach Punch|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|win|thievul is good
+|c|☆thievul is good|gg
+|l|☆Vanishing Journey
+|raw|Vanishing Journey's rating: 1329 &rarr; <strong>1308</strong><br />(-21 for losing)
+|raw|thievul is good's rating: 1318 &rarr; <strong>1339</strong><br />(+21 for winning)

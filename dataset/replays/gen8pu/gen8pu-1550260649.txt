@@ -1,0 +1,151 @@
+|j|☆Sql sql
+|j|☆pattek
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1649598119
+|gametype|singles
+|player|p1|Sql sql|hilbert|
+|player|p2|pattek|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Froslass, F|
+|poke|p1|Silvally-*|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Carracosta, M|
+|poke|p1|Charizard, F|
+|poke|p2|Archeops, F|
+|poke|p2|Trevenant, F|
+|poke|p2|Charizard, F|
+|poke|p2|Aggron, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Quagsire, F|
+|teampreview
+|j|*Lady Monita ✿
+|
+|t:|1649598125
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|1
+|
+|t:|1649598133
+|move|p2a: Ribombee|Moonblast|p1a: Froslass
+|-damage|p1a: Froslass|37/100
+|-start|p2a: Ribombee|Disable|Moonblast|[from] ability: Cursed Body|[of] p1a: Froslass
+|move|p1a: Froslass|Ice Beam|p2a: Ribombee
+|-damage|p2a: Ribombee|42/100
+|
+|upkeep
+|turn|2
+|
+|t:|1649598143
+|move|p2a: Ribombee|U-turn|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|26/100
+|
+|t:|1649598145
+|switch|p2a: Charizard|Charizard, F|100/100|[from]move: U-turn
+|move|p1a: Froslass|Spikes|p2a: Charizard
+|-sidestart|p2: pattek|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1649598148
+|move|p1a: Froslass|Thunder Wave|p2a: Charizard
+|-status|p2a: Charizard|par
+|move|p2a: Charizard|Defog|p1a: Froslass
+|-unboost|p1a: Froslass|evasion|1
+|-sideend|p2: pattek|Spikes|[from] move: Defog|[of] p2a: Charizard
+|
+|upkeep
+|turn|4
+|
+|t:|1649598155
+|move|p1a: Froslass|Ice Beam|p2a: Charizard
+|-damage|p2a: Charizard|58/100 par
+|move|p2a: Charizard|Flamethrower|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|
+|upkeep
+|j| Axrtix
+|
+|t:|1649598168
+|switch|p1a: Charizard|Charizard, F|100/100
+|turn|5
+|
+|t:|1649598189
+|switch|p2a: Archeops|Archeops, F|100/100
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-start|p1a: Charizard|Substitute
+|-damage|p1a: Charizard|75/100
+|
+|upkeep
+|turn|6
+|l| Axrtix
+|
+|t:|1649598194
+|move|p2a: Archeops|Stone Edge|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-end|p1a: Charizard|Substitute
+|move|p1a: Charizard|Belly Drum|p1a: Charizard
+|-damage|p1a: Charizard|25/100
+|-setboost|p1a: Charizard|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Charizard|Salac Berry|[eat]
+|-boost|p1a: Charizard|spe|1|[from] item: Salac Berry
+|
+|upkeep
+|turn|7
+|
+|t:|1649598198
+|move|p1a: Charizard|Acrobatics|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|upkeep
+|
+|t:|1649598199
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|turn|8
+|
+|t:|1649598205
+|move|p1a: Charizard|Acrobatics|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|upkeep
+|
+|t:|1649598210
+|switch|p2a: Aggron|Aggron, F|100/100
+|turn|9
+|
+|t:|1649598213
+|switch|p2a: Charizard|Charizard, F|58/100 par
+|move|p1a: Charizard|Earthquake|p2a: Charizard
+|-immune|p2a: Charizard
+|
+|upkeep
+|turn|10
+|-message|pattek forfeited.
+|
+|win|Sql sql
+|n|☆Sql sql|sqlsql
+|n|☆pattek|pattek
+|n|*Lady Monita ✿|ladymonita
+|l|*Lady Monita ✿
+|l|☆pattek
+|c|☆Sql sql|Gg

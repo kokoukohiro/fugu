@@ -1,0 +1,361 @@
+|j|☆Everybo-D
+|j|☆Test Sett
+|t:|1664954536
+|gametype|singles
+|player|p1|Everybo-D|2|1485
+|player|p2|Test Sett|265|1507
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Venipede, M|
+|poke|p1|Whimsicott, M|
+|poke|p1|Jellicent, M|
+|poke|p1|Malamar, F|
+|poke|p1|Piloswine, M|
+|poke|p1|Rapidash, M|
+|poke|p2|Ludicolo, M|
+|poke|p2|Sableye, F|
+|poke|p2|Lanturn, M|
+|poke|p2|Kabutops, F|
+|poke|p2|Poliwrath, F|
+|poke|p2|Ferroseed, M|
+|teampreview
+|
+|t:|1664954546
+|start
+|switch|p1a: Venipede|Venipede, M|100/100
+|switch|p2a: Sableye|Sableye, F|100/100
+|turn|1
+|
+|t:|1664954556
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|move|p2a: Sableye|Taunt|p1a: Whimsicott
+|-start|p1a: Whimsicott|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1664954562
+|switch|p2a: Ferroseed|Ferroseed, M, shiny|100/100
+|move|p1a: Whimsicott|Moonblast|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|84/100
+|
+|upkeep
+|turn|3
+|
+|t:|1664954565
+|switch|p1a: Venipede|Venipede, M|100/100
+|move|p2a: Ferroseed|Stealth Rock|p1a: Venipede
+|-sidestart|p1: Everybo-D|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1664954573
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Venipede|Toxic Spikes|p2a: Sableye
+|-sidestart|p2: Test Sett|move: Toxic Spikes
+|
+|-ability|p1a: Venipede|Speed Boost|boost
+|-boost|p1a: Venipede|spe|1
+|upkeep
+|turn|5
+|
+|t:|1664954587
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Stealth Rock
+|move|p2a: Sableye|Rain Dance|p2a: Sableye
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1664954613
+|switch|p2a: Kabutops|Kabutops, F|100/100
+|-status|p2a: Kabutops|psn
+|move|p1a: Whimsicott|Moonblast|p2a: Kabutops
+|-damage|p2a: Kabutops|41/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|100/100|[from] item: Leftovers
+|-damage|p2a: Kabutops|29/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1664954620
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: Kabutops|Stone Edge|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|-damage|p2a: Kabutops|19/100 psn|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kabutops|7/100 psn|[from] psn
+|upkeep
+|
+|t:|1664954632
+|switch|p1a: Piloswine|Piloswine, M|100/100
+|-damage|p1a: Piloswine|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1664954636
+|move|p2a: Kabutops|Aqua Jet|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|30/100
+|-damage|p2a: Kabutops|0 fnt|[from] item: Life Orb
+|faint|p2a: Kabutops
+|move|p1a: Piloswine|Ice Shard|p2: Kabutops|[notarget]
+|-fail|p1a: Piloswine
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1664954667
+|switch|p2a: Ludicolo|Ludicolo, M, shiny|100/100
+|-status|p2a: Ludicolo|psn
+|turn|9
+|
+|t:|1664954676
+|move|p1a: Piloswine|Ice Shard|p2a: Ludicolo
+|-damage|p2a: Ludicolo|71/100 psn
+|move|p2a: Ludicolo|Hydro Pump|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|faint|p1a: Piloswine
+|-damage|p2a: Ludicolo|62/100 psn|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ludicolo|49/100 psn|[from] psn
+|upkeep
+|
+|t:|1664954715
+|switch|p1a: Malamar|Malamar, F|100/100
+|-damage|p1a: Malamar|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1664954718
+|move|p2a: Ludicolo|Hydro Pump|p1a: Malamar
+|-damage|p1a: Malamar|14/100
+|-damage|p2a: Ludicolo|40/100 psn|[from] item: Life Orb
+|move|p1a: Malamar|Superpower|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Malamar|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1664954726
+|switch|p2a: Poliwrath|Poliwrath, F|100/100
+|-status|p2a: Poliwrath|psn
+|turn|11
+|
+|t:|1664954736
+|move|p2a: Poliwrath|Liquidation|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Poliwrath|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1664954741
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1664954749
+|switch|p2a: Ferroseed|Ferroseed, M, shiny|84/100
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|63/100
+|
+|-weather|none
+|-heal|p1a: Whimsicott|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1664954752
+|move|p1a: Whimsicott|Moonblast|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-crit|p2a: Ferroseed
+|-damage|p2a: Ferroseed|62/100
+|-unboost|p2a: Ferroseed|spa|1
+|move|p2a: Ferroseed|Gyro Ball|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|
+|-heal|p1a: Whimsicott|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1664954762
+|switch|p1a: Venipede|Venipede, M|100/100
+|-damage|p1a: Venipede|76/100|[from] Stealth Rock
+|move|p2a: Ferroseed|Leech Seed|p1a: Venipede
+|-start|p1a: Venipede|move: Leech Seed
+|
+|-damage|p1a: Venipede|63/100|[from] Leech Seed|[of] p2a: Ferroseed
+|-heal|p2a: Ferroseed|69/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1664954766
+|move|p1a: Venipede|Spikes|p2a: Ferroseed
+|-sidestart|p2: Test Sett|Spikes
+|move|p2a: Ferroseed|Gyro Ball|p1a: Venipede
+|-damage|p1a: Venipede|0 fnt
+|faint|p1a: Venipede
+|
+|upkeep
+|
+|t:|1664954769
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|turn|16
+|
+|t:|1664954775
+|switch|p1a: Whimsicott|Whimsicott, M|76/100
+|-damage|p1a: Whimsicott|63/100|[from] Stealth Rock
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|-status|p2a: Lanturn|psn
+|-damage|p2a: Lanturn|88/100 psn|[from] Spikes
+|
+|-heal|p1a: Whimsicott|69/100|[from] item: Leftovers
+|-heal|p2a: Lanturn|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Lanturn|82/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1664954782
+|switch|p2a: Ferroseed|Ferroseed, M, shiny|69/100
+|-damage|p2a: Ferroseed|57/100|[from] Spikes
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|45/100
+|
+|-heal|p1a: Whimsicott|51/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1664954786
+|move|p1a: Whimsicott|Moonblast|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|40/100
+|move|p2a: Ferroseed|Gyro Ball|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|
+|-heal|p1a: Whimsicott|57/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1664954794
+|switch|p1a: Rapidash|Rapidash, M|100/100
+|move|p2a: Ferroseed|Gyro Ball|p1a: Rapidash
+|-resisted|p1a: Rapidash
+|-damage|p1a: Rapidash|76/100
+|
+|upkeep
+|turn|20
+|
+|t:|1664954804
+|switch|p2a: Sableye|Sableye, F|100/100
+|-status|p2a: Sableye|psn
+|-damage|p2a: Sableye|88/100 psn|[from] Spikes
+|move|p1a: Rapidash|Swords Dance|p1a: Rapidash
+|-boost|p1a: Rapidash|atk|2
+|
+|-damage|p2a: Sableye|76/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1664954820
+|switch|p1a: Whimsicott|Whimsicott, M|57/100
+|-damage|p1a: Whimsicott|45/100|[from] Stealth Rock
+|move|p2a: Sableye|Rain Dance|p2a: Sableye
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|51/100|[from] item: Leftovers
+|-damage|p2a: Sableye|64/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1664954834
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|26/100
+|move|p2a: Sableye|Taunt|p1a: Whimsicott
+|-start|p1a: Whimsicott|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|32/100|[from] item: Leftovers
+|-damage|p2a: Sableye|52/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1664954845
+|switch|p2a: Ferroseed|Ferroseed, M, shiny|40/100
+|-damage|p2a: Ferroseed|28/100|[from] Spikes
+|move|p1a: Whimsicott|Moonblast|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|13/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|38/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1664954852
+|move|p1a: Whimsicott|Moonblast|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1664954867
+|switch|p2a: Poliwrath|Poliwrath, F|88/100 psn
+|-damage|p2a: Poliwrath|76/100 psn|[from] Spikes
+|turn|25
+|
+|t:|1664954870
+|move|p2a: Poliwrath|Ice Punch|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|move|p1a: Whimsicott|Moonblast|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|50/100|[from] item: Leftovers
+|-end|p1a: Whimsicott|move: Taunt
+|upkeep
+|-message|Test Sett forfeited.
+|
+|win|Everybo-D
+|raw|Everybo-D's rating: 1485 &rarr; <strong>1506</strong><br />(+21 for winning)
+|raw|Test Sett's rating: 1507 &rarr; <strong>1486</strong><br />(-21 for losing)
+|l|☆Test Sett
+|c|☆Everybo-D|From the deepest of disadvantage
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

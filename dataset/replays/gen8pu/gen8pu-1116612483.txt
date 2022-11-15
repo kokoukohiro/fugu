@@ -1,0 +1,456 @@
+|j|☆Landon✘A21
+|j|☆FollowTwitterAbove
+|player|p1|Landon✘A21|wikstrom|1351
+|player|p2|FollowTwitterAbove|159|1439
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Gourgeist-*, F|
+|poke|p1|Lapras, M|
+|poke|p1|Vibrava, F|
+|poke|p1|Mawile, F|
+|poke|p1|Mr. Mime, F|
+|poke|p1|Silvally-*|
+|poke|p2|Pyukumuku, M|
+|poke|p2|Leafeon, M|
+|poke|p2|Vibrava, F|
+|poke|p2|Mawile, F|
+|poke|p2|Type: Null|
+|poke|p2|Mr. Rime, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Silvally|Silvally-Electric|100/100
+|switch|p2a: Pyukumuku|Pyukumuku, M|100/100
+|turn|1
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Pyukumuku
+|-supereffective|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|37/100
+|move|p2a: Pyukumuku|Toxic|p1a: Silvally
+|-status|p1a: Silvally|tox
+|
+|-heal|p2a: Pyukumuku|43/100|[from] item: Leftovers
+|-damage|p1a: Silvally|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Lapras|Lapras, M|100/100
+|switch|p2a: Type: Null|Type: Null, shiny|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Pyukumuku|Pyukumuku, M|43/100
+|move|p1a: Lapras|Body Press|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|28/100
+|
+|-heal|p2a: Pyukumuku|34/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Pyukumuku
+|-supereffective|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|0 fnt
+|faint|p2a: Pyukumuku
+|
+|upkeep
+|j| vonclutch
+|
+|switch|p2a: Mawile|Mawile, F, shiny|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Lapras|atk|1
+|turn|5
+|
+|switch|p1a: Gourgeist|Gourgeist, F|100/100
+|-item|p2a: Mawile|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Mawile|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-enditem|p1a: Gourgeist|Colbur Berry|[eat]
+|-enditem|p1a: Gourgeist|Colbur Berry|[weaken]
+|-damage|p1a: Gourgeist|81/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Gourgeist|Fire Blast|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|10/100
+|move|p2a: Mawile|Stealth Rock|p1a: Gourgeist
+|-sidestart|p1: Landon✘A21|move: Stealth Rock
+|
+|-heal|p2a: Mawile|17/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Mawile|Protect|p2a: Mawile
+|-singleturn|p2a: Mawile|Protect
+|move|p1a: Gourgeist|Giga Drain|p2a: Mawile
+|-activate|p2a: Mawile|move: Protect
+|
+|-heal|p2a: Mawile|23/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Type: Null|Type: Null, shiny|100/100
+|move|p1a: Gourgeist|Giga Drain|p2a: Type: Null
+|-damage|p2a: Type: Null|89/100
+|-heal|p1a: Gourgeist|90/100|[from] drain|[of] p2a: Type: Null
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M, shiny|100/100
+|move|p1a: Gourgeist|Nasty Plot|p1a: Gourgeist
+|-boost|p1a: Gourgeist|spa|2
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Gourgeist|Shadow Ball|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|20/100
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|13/100
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Mawile|Mawile, F, shiny|23/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Gourgeist|atk|1
+|move|p1a: Gourgeist|Giga Drain|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|-heal|p1a: Gourgeist|25/100|[from] drain|[of] p2a: Mawile
+|faint|p2a: Mawile
+|
+|upkeep
+|
+|switch|p2a: Vibrava|Vibrava, F, shiny|100/100
+|turn|12
+|
+|move|p1a: Gourgeist|Giga Drain|p2a: Vibrava
+|-damage|p2a: Vibrava|54/100
+|-heal|p1a: Gourgeist|51/100|[from] drain|[of] p2a: Vibrava
+|move|p2a: Vibrava|Toxic|p1a: Gourgeist
+|-status|p1a: Gourgeist|tox
+|
+|-damage|p1a: Gourgeist|45/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Gourgeist|Giga Drain|p2a: Vibrava
+|-damage|p2a: Vibrava|13/100
+|-heal|p1a: Gourgeist|67/100 tox|[from] drain|[of] p2a: Vibrava
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|63/100
+|-singleturn|p2a: Vibrava|move: Roost
+|
+|-damage|p1a: Gourgeist|55/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Gourgeist|Giga Drain|p2a: Vibrava
+|-damage|p2a: Vibrava|23/100
+|-heal|p1a: Gourgeist|77/100 tox|[from] drain|[of] p2a: Vibrava
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|73/100
+|-singleturn|p2a: Vibrava|move: Roost
+|
+|-damage|p1a: Gourgeist|59/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Mr. Mime|Mr. Mime, F|100/100
+|-damage|p1a: Mr. Mime|88/100|[from] Stealth Rock
+|switch|p2a: Leafeon|Leafeon, M, shiny|100/100
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Mawile|Mawile, F|100/100
+|-damage|p1a: Mawile|95/100|[from] Stealth Rock
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Leafeon|atk|1
+|move|p2a: Leafeon|Knock Off|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|87/100
+|-enditem|p1a: Mawile|Leftovers|[from] move: Knock Off|[of] p2a: Leafeon
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Vibrava|Vibrava, F, shiny|73/100
+|move|p1a: Mawile|Taunt|p2a: Vibrava
+|-start|p2a: Vibrava|move: Taunt
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Vibrava|Vibrava, F|100/100
+|-damage|p1a: Vibrava|94/100|[from] Stealth Rock
+|move|p2a: Vibrava|Earthquake|p1a: Vibrava
+|-immune|p1a: Vibrava|[from] ability: Levitate
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Leafeon|Leafeon, M, shiny|100/100
+|move|p1a: Vibrava|U-turn|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|84/100
+|
+|switch|p1a: Mawile|Mawile, F|87/100|[from]move: U-turn
+|-damage|p1a: Mawile|81/100|[from] Stealth Rock
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Leafeon|atk|1
+|
+|-heal|p2a: Leafeon|90/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Vibrava|Vibrava, F, shiny|73/100
+|move|p1a: Mawile|Knock Off|p2a: Vibrava
+|-damage|p2a: Vibrava|47/100
+|-enditem|p2a: Vibrava|Eviolite|[from] move: Knock Off|[of] p1a: Mawile
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|97/100
+|-singleturn|p2a: Vibrava|move: Roost
+|move|p1a: Mawile|Play Rough|p2a: Vibrava
+|-supereffective|p2a: Vibrava
+|-damage|p2a: Vibrava|0 fnt
+|faint|p2a: Vibrava
+|
+|upkeep
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M, shiny|20/100
+|turn|22
+|
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|57/100
+|-status|p1a: Mawile|frz
+|cant|p1a: Mawile|frz
+|
+|upkeep
+|turn|23
+|c|☆Landon✘A21|ah
+|
+|move|p2a: Mr. Rime|Slack Off|p2a: Mr. Rime
+|-heal|p2a: Mr. Rime|70/100
+|cant|p1a: Mawile|frz
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|33/100 frz
+|-curestatus|p1a: Mawile|frz|[msg]
+|move|p1a: Mawile|Knock Off|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|24/100
+|-enditem|p2a: Mr. Rime|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mawile
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Silvally|Silvally-Electric|94/100 tox
+|-damage|p1a: Silvally|82/100 tox|[from] Stealth Rock
+|move|p2a: Mr. Rime|Slack Off|p2a: Mr. Rime
+|-heal|p2a: Mr. Rime|74/100
+|
+|-damage|p1a: Silvally|76/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Leafeon|Leafeon, M, shiny|90/100
+|move|p1a: Silvally|Multi-Attack|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|76/100
+|
+|-heal|p2a: Leafeon|82/100|[from] item: Leftovers
+|-damage|p1a: Silvally|64/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|switch|p1a: Mawile|Mawile, F|33/100
+|-damage|p1a: Mawile|27/100|[from] Stealth Rock
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Leafeon|atk|1
+|move|p2a: Leafeon|Knock Off|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|22/100
+|
+|-heal|p2a: Leafeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M, shiny|74/100
+|move|p1a: Mawile|Knock Off|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|45/100
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Electric|64/100 tox
+|-damage|p1a: Silvally|52/100 tox|[from] Stealth Rock
+|turn|30
+|
+|switch|p2a: Leafeon|Leafeon, M, shiny|88/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-heal|p2a: Leafeon|94/100|[from] item: Leftovers
+|-damage|p1a: Silvally|46/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|move|p1a: Silvally|Flame Charge|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|58/100
+|-boost|p1a: Silvally|spe|1
+|move|p2a: Leafeon|Wish|p2a: Leafeon
+|
+|-heal|p2a: Leafeon|64/100|[from] item: Leftovers
+|-damage|p1a: Silvally|33/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|move|p1a: Silvally|Flame Charge|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|29/100
+|-boost|p1a: Silvally|spe|1
+|move|p2a: Leafeon|Knock Off|p1a: Silvally
+|-damage|p1a: Silvally|13/100 tox
+|
+|-heal|p2a: Leafeon|79/100|[from] move: Wish|[wisher] Leafeon
+|-heal|p2a: Leafeon|85/100|[from] item: Leftovers
+|-damage|p1a: Silvally|0 fnt|[from] psn
+|faint|p1a: Silvally
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime, F|88/100
+|-damage|p1a: Mr. Mime|76/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Leafeon|Protect|p2a: Leafeon
+|-singleturn|p2a: Leafeon|Protect
+|move|p1a: Mr. Mime|Healing Wish|p1a: Mr. Mime
+|faint|p1a: Mr. Mime
+|
+|-heal|p2a: Leafeon|91/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gourgeist|Gourgeist, F|59/100 tox
+|-heal|p1a: Gourgeist|100/100|[from] move: Healing Wish
+|-damage|p1a: Gourgeist|88/100|[from] Stealth Rock
+|-item|p2a: Leafeon|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|34
+|
+|move|p1a: Gourgeist|Nasty Plot|p1a: Gourgeist
+|-boost|p1a: Gourgeist|spa|2
+|move|p2a: Leafeon|Knock Off|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|55/100
+|
+|-heal|p2a: Leafeon|97/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Gourgeist|Fire Blast|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|upkeep
+|
+|switch|p2a: Type: Null|Type: Null, shiny|89/100
+|turn|36
+|
+|move|p1a: Gourgeist|Giga Drain|p2a: Type: Null
+|-damage|p2a: Type: Null|68/100
+|-heal|p1a: Gourgeist|70/100|[from] drain|[of] p2a: Type: Null
+|move|p2a: Type: Null|Swords Dance|p2a: Type: Null
+|-boost|p2a: Type: Null|atk|2
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Gourgeist|Nasty Plot|p1a: Gourgeist
+|-boost|p1a: Gourgeist|spa|2
+|move|p2a: Type: Null|Swords Dance|p2a: Type: Null
+|-boost|p2a: Type: Null|atk|2
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Gourgeist|Nasty Plot|p1a: Gourgeist
+|-boost|p1a: Gourgeist|spa|2
+|move|p2a: Type: Null|Swords Dance|p2a: Type: Null
+|-boost|p2a: Type: Null|atk|2
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Gourgeist|Giga Drain|p2a: Type: Null
+|-damage|p2a: Type: Null|24/100
+|-heal|p1a: Gourgeist|100/100|[from] drain|[of] p2a: Type: Null
+|move|p2a: Type: Null|Rest|p2a: Type: Null
+|-status|p2a: Type: Null|slp|[from] move: Rest
+|-heal|p2a: Type: Null|100/100 slp|[silent]
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Gourgeist|Giga Drain|p2a: Type: Null
+|-damage|p2a: Type: Null|59/100 slp
+|cant|p2a: Type: Null|slp
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Gourgeist|Giga Drain|p2a: Type: Null
+|-damage|p2a: Type: Null|13/100 slp
+|cant|p2a: Type: Null|slp
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Gourgeist|Giga Drain|p2a: Type: Null
+|-damage|p2a: Type: Null|0 fnt
+|faint|p2a: Type: Null
+|
+|upkeep
+|c|☆Landon✘A21|gg
+|-message|FollowTwitterAbove forfeited.
+|
+|win|Landon✘A21
+|l|☆FollowTwitterAbove
+|raw|Landon✘A21's rating: 1351 &rarr; <strong>1376</strong><br />(+25 for winning)
+|raw|FollowTwitterAbove's rating: 1439 &rarr; <strong>1414</strong><br />(-25 for losing)

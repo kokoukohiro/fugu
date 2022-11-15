@@ -1,0 +1,246 @@
+|j|☆quimbs
+|j|☆MeNaemJeff
+|player|p1|quimbs|201|1336
+|player|p2|MeNaemJeff|110|1263
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Barbaracle, M|
+|poke|p1|Accelgor, F|
+|poke|p1|Pangoro, F|
+|poke|p1|Snorlax, F|
+|poke|p1|Turtonator, M|
+|poke|p1|Rapidash-Galar, F|
+|poke|p2|Galvantula, F|
+|poke|p2|Rapidash-Galar, F|
+|poke|p2|Shiftry, M|
+|poke|p2|Manectric, F|
+|poke|p2|Mantine, F|
+|poke|p2|Torkoal, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by quimbs)
+|
+|start
+|switch|p1a: Accelgor|Accelgor, F|100/100
+|switch|p2a: Galvantula|Galvantula, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Accelgor|Spikes|p2a: Galvantula
+|-sidestart|p2: MeNaemJeff|Spikes
+|move|p2a: Galvantula|Thunder|p1a: Accelgor
+|-damage|p1a: Accelgor|30/100
+|-status|p1a: Accelgor|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Accelgor
+|-sidestart|p1: quimbs|move: Sticky Web
+|move|p1a: Accelgor|Yawn|p2a: Galvantula
+|-start|p2a: Galvantula|move: Yawn|[of] p1a: Accelgor
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Galvantula|Bug Buzz|p1a: Accelgor
+|-damage|p1a: Accelgor|0 fnt
+|faint|p1a: Accelgor
+|
+|-end|p2a: Galvantula|move: Yawn|[silent]
+|-status|p2a: Galvantula|slp
+|upkeep
+|inactive|quimbs has 120 seconds left.
+|
+|switch|p1a: Barbaracle|Barbaracle, M|100/100
+|-activate|p1a: Barbaracle|move: Sticky Web
+|-unboost|p1a: Barbaracle|spe|1
+|-enditem|p1a: Barbaracle|White Herb
+|-clearnegativeboost|p1a: Barbaracle|[silent]
+|turn|4
+|
+|switch|p2a: Torkoal|Torkoal, M, shiny|100/100
+|-damage|p2a: Torkoal|88/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|move|p2a: Torkoal|Clear Smog|p1a: Barbaracle
+|-resisted|p1a: Barbaracle
+|-damage|p1a: Barbaracle|86/100
+|-clearboost|p1a: Barbaracle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|move|p2a: Torkoal|Rapid Spin|p1a: Barbaracle
+|-resisted|p1a: Barbaracle
+|-crit|p1a: Barbaracle
+|-damage|p1a: Barbaracle|77/100
+|-sideend|p2: MeNaemJeff|Spikes|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-boost|p2a: Torkoal|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Barbaracle|Low Kick|p2a: Torkoal
+|-damage|p2a: Torkoal|50/100
+|move|p2a: Torkoal|Clear Smog|p1a: Barbaracle
+|-resisted|p1a: Barbaracle
+|-damage|p1a: Barbaracle|66/100
+|-clearboost|p1a: Barbaracle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|move|p2a: Torkoal|Lava Plume|p1a: Barbaracle
+|-resisted|p1a: Barbaracle
+|-damage|p1a: Barbaracle|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Barbaracle|Liquidation|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|turn|10
+|
+|move|p2a: Shiftry|Leaf Blade|p1a: Barbaracle
+|-supereffective|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|faint|p1a: Barbaracle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|quimbs has 120 seconds left.
+|
+|switch|p1a: Turtonator|Turtonator, M|100/100
+|-activate|p1a: Turtonator|move: Sticky Web
+|-unboost|p1a: Turtonator|spe|1
+|-enditem|p1a: Turtonator|White Herb
+|-clearnegativeboost|p1a: Turtonator|[silent]
+|turn|11
+|
+|move|p2a: Shiftry|Growth|p2a: Shiftry
+|-boost|p2a: Shiftry|atk|2
+|-boost|p2a: Shiftry|spa|2
+|move|p1a: Turtonator|Shell Smash|p1a: Turtonator
+|-unboost|p1a: Turtonator|def|1
+|-unboost|p1a: Turtonator|spd|1
+|-boost|p1a: Turtonator|atk|2
+|-boost|p1a: Turtonator|spa|2
+|-boost|p1a: Turtonator|spe|2
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|move|p1a: Turtonator|Dragon Pulse|p2a: Shiftry
+|-enditem|p2a: Shiftry|Focus Sash
+|-damage|p2a: Shiftry|1/100
+|move|p2a: Shiftry|Dark Pulse|p1a: Turtonator
+|-damage|p1a: Turtonator|0 fnt
+|faint|p1a: Turtonator
+|
+|upkeep
+|
+|switch|p1a: Rapidash|Rapidash-Galar, F|100/100
+|-activate|p1a: Rapidash|move: Sticky Web
+|-unboost|p1a: Rapidash|spe|1
+|turn|13
+|inactive|quimbs has 120 seconds left.
+|
+|move|p2a: Shiftry|Sucker Punch|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|upkeep
+|inactive|quimbs has 120 seconds left.
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|-activate|p1a: Snorlax|move: Sticky Web
+|-unboost|p1a: Snorlax|spe|1
+|turn|14
+|
+|move|p2a: Shiftry|Leaf Blade|p1a: Snorlax
+|-damage|p1a: Snorlax|16/100
+|move|p1a: Snorlax|Darkest Lariat|p2a: Shiftry
+|-resisted|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|faint|p2a: Shiftry
+|
+|-heal|p1a: Snorlax|22/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Manectric|Manectric, F|100/100
+|turn|15
+|
+|move|p2a: Manectric|Switcheroo|p1a: Snorlax
+|-activate|p2a: Manectric|move: Trick|[of] p1a: Snorlax
+|-item|p1a: Snorlax|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Manectric|Leftovers|[from] move: Switcheroo
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Pangoro|Pangoro, F, shiny|100/100
+|-activate|p1a: Pangoro|move: Sticky Web
+|-unboost|p1a: Pangoro|spe|1
+|move|p2a: Manectric|Volt Switch|p1a: Pangoro
+|-damage|p1a: Pangoro|60/100
+|-message|quimbs forfeited.
+|
+|win|MeNaemJeff
+|l|☆quimbs
+|raw|quimbs's rating: 1336 &rarr; <strong>1312</strong><br />(-24 for losing)
+|raw|MeNaemJeff's rating: 1252 &rarr; <strong>1283</strong><br />(+31 for winning)

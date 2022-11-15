@@ -1,0 +1,249 @@
+|j|☆UULT1 Adrift
+|j|☆uult1 cheese
+|player|p1|UULT1 Adrift|acetrainerf|1210
+|player|p2|uult1 cheese|#cheese555|1217
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Roserade, F|
+|poke|p1|Pangoro, F|
+|poke|p1|Noivern, M|
+|poke|p1|Gigalith, F|
+|poke|p1|Doublade, F|
+|poke|p1|Sylveon, M|
+|poke|p2|Sylveon, M|
+|poke|p2|Doublade, M|
+|poke|p2|Noivern, M|
+|poke|p2|Gigalith, M|
+|poke|p2|Roserade, M|
+|poke|p2|Rotom-Wash|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆uult1 cheese|hf
+|c|☆UULT1 Adrift|you too
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by UULT1 Adrift)
+|
+|start
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|switch|p2a: Noivern|Noivern, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Gigalith
+|-sidestart|p2: uult1 cheese|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Pangoro|Pangoro, F|100/100
+|-ability|p1a: Pangoro|Mold Breaker
+|move|p2a: Gigalith|Stealth Rock|p1a: Pangoro
+|-sidestart|p1: UULT1 Adrift|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pangoro|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|move|p1a: Pangoro|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|39/100
+|-enditem|p2a: Sylveon|Pixie Plate|[from] move: Knock Off|[of] p1a: Pangoro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sylveon|33/100|[from] Sandstorm
+|-damage|p1a: Pangoro|88/100|[from] Sandstorm
+|upkeep
+|turn|4
+|inactive|UULT1 Adrift has 120 seconds left.
+|inactive|UULT1 Adrift has 90 seconds left.
+|
+|switch|p1a: Roserade|Roserade, F|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|move|p2a: Sylveon|Rest|p2a: Sylveon
+|-status|p2a: Sylveon|slp|[from] move: Rest
+|-heal|p2a: Sylveon|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Roserade|82/100|[from] Sandstorm
+|-damage|p2a: Sylveon|94/100 slp|[from] Sandstorm
+|-heal|p1a: Roserade|88/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|inactive|UULT1 Adrift has 90 seconds left.
+|
+|switch|p2a: Roserade|Roserade, M|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|move|p1a: Roserade|Spikes|p2a: Roserade
+|-sidestart|p2: uult1 cheese|Spikes
+|
+|-weather|none
+|-heal|p1a: Roserade|94/100|[from] item: Black Sludge
+|-heal|p2a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Roserade|Sludge Bomb|p2a: Roserade
+|-damage|p2a: Roserade|61/100
+|move|p2a: Roserade|Spikes|p1a: Roserade
+|-sidestart|p1: UULT1 Adrift|Spikes
+|
+|-heal|p1a: Roserade|100/100|[from] item: Black Sludge
+|-heal|p2a: Roserade|67/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p2a: Doublade|Doublade, M|100/100
+|-damage|p2a: Doublade|95/100|[from] Stealth Rock
+|-damage|p2a: Doublade|82/100|[from] Spikes
+|move|p1a: Roserade|Spikes|p2a: Doublade
+|-sidestart|p2: uult1 cheese|Spikes
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Roserade|Sleep Powder|p2a: Doublade
+|-status|p2a: Doublade|slp|[from] move: Sleep Powder
+|cant|p2a: Doublade|slp
+|
+|upkeep
+|turn|9
+|inactive|UULT1 Adrift has 120 seconds left.
+|
+|switch|p1a: Pangoro|Pangoro, F|88/100
+|-damage|p1a: Pangoro|82/100|[from] Stealth Rock
+|-damage|p1a: Pangoro|70/100|[from] Spikes
+|-ability|p1a: Pangoro|Mold Breaker
+|cant|p2a: Doublade|slp
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Sylveon|Sylveon, M|94/100 slp
+|-damage|p2a: Sylveon|78/100 slp|[from] Spikes
+|-damage|p2a: Sylveon|65/100 slp|[from] Stealth Rock
+|move|p1a: Pangoro|Earthquake|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|upkeep
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|turn|11
+|
+|switch|p2a: Roserade|Roserade, M|67/100
+|-damage|p2a: Roserade|55/100|[from] Stealth Rock
+|-damage|p2a: Roserade|38/100|[from] Spikes
+|move|p1a: Pangoro|Earthquake|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|upkeep
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|-damage|p1a: Sylveon|76/100|[from] Spikes
+|
+|-heal|p1a: Sylveon|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Rotom|Trick|p1a: Sylveon
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Sylveon
+|-item|p1a: Sylveon|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Sylveon|Hyper Voice|p2a: Rotom
+|-damage|p2a: Rotom|43/100
+|
+|-heal|p2a: Rotom|49/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Rotom|Pain Split|p1a: Sylveon
+|-sethp|p1a: Sylveon|60/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|77/100|[from] move: Pain Split
+|move|p1a: Sylveon|Hyper Voice|p2a: Rotom
+|-damage|p2a: Rotom|32/100
+|
+|-heal|p2a: Rotom|38/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Rotom|Volt Switch|p1a: Sylveon
+|-damage|p1a: Sylveon|42/100
+|
+|switch|p2a: Doublade|Doublade, M|82/100 slp|[from]move: Volt Switch
+|-damage|p2a: Doublade|66/100 slp|[from] Spikes
+|-damage|p2a: Doublade|60/100 slp|[from] Stealth Rock
+|move|p1a: Sylveon|Hyper Voice|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|34/100 slp
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|6/100 slp
+|cant|p2a: Doublade|slp
+|
+|upkeep
+|turn|17
+|
+|-curestatus|p2a: Doublade|slp|[msg]
+|move|p2a: Doublade|Shadow Sneak|p1a: Sylveon
+|-damage|p1a: Sylveon|25/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|upkeep
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|turn|18
+|
+|move|p2a: Noivern|Hurricane|p1a: Sylveon|[miss]
+|-miss|p2a: Noivern|p1a: Sylveon
+|move|p1a: Sylveon|Hyper Voice|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|5/100
+|
+|upkeep
+|turn|19
+|c|☆uult1 cheese|fuck
+|
+|move|p2a: Noivern|Hurricane|p1a: Sylveon|[miss]
+|-miss|p2a: Noivern|p1a: Sylveon
+|move|p1a: Sylveon|Hyper Voice|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|-message|uult1 cheese forfeited.
+|
+|win|UULT1 Adrift
+|l|☆uult1 cheese
+|raw|UULT1 Adrift's rating: 1210 &rarr; <strong>1236</strong><br />(+26 for winning)
+|raw|uult1 cheese's rating: 1217 &rarr; <strong>1192</strong><br />(-25 for losing)
+|c|☆UULT1 Adrift|fkn ez

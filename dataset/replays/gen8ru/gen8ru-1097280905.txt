@@ -1,0 +1,273 @@
+|j|☆413XPlayz
+|j|☆OriginalSurko
+|player|p1|413XPlayz|plasmagrunt|1236
+|player|p2|OriginalSurko|blue|1403
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Drampa, M|
+|poke|p1|Xatu, F|
+|poke|p1|Gastrodon, M|
+|poke|p1|Passimian, F|
+|poke|p1|Frosmoth, M|
+|poke|p1|Dhelmise|
+|poke|p2|Eiscue, F|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Steelix, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Xatu, M|
+|poke|p2|Vikavolt, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Drampa|Drampa, M|100/100
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|turn|1
+|
+|move|p2a: Vikavolt|Thunderbolt|p1a: Drampa
+|-resisted|p1a: Drampa
+|-crit|p1a: Drampa
+|-damage|p1a: Drampa|52/100
+|move|p1a: Drampa|Draco Meteor|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|-unboost|p1a: Drampa|spa|2
+|faint|p2a: Vikavolt
+|
+|upkeep
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|2
+|
+|move|p2a: Salazzle|Nasty Plot|p2a: Salazzle
+|-boost|p2a: Salazzle|spa|2
+|move|p1a: Drampa|Draco Meteor|p2a: Salazzle
+|-enditem|p2a: Salazzle|Focus Sash
+|-damage|p2a: Salazzle|1/100
+|-unboost|p1a: Drampa|spa|2
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Frosmoth|Frosmoth, M|100/100
+|move|p2a: Salazzle|Dragon Pulse|p1a: Frosmoth
+|-damage|p1a: Frosmoth|63/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, F|100/100
+|turn|5
+|
+|move|p1a: Passimian|U-turn|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|switch|p1a: Dhelmise|Dhelmise|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|turn|6
+|
+|move|p1a: Dhelmise|Anchor Shot|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|90/100
+|-activate|p2a: Steelix|trapped
+|move|p2a: Steelix|Toxic|p1a: Dhelmise
+|-status|p1a: Dhelmise|tox
+|
+|-heal|p2a: Steelix|96/100|[from] item: Leftovers
+|-damage|p1a: Dhelmise|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 413XPlayz)
+|
+|move|p1a: Dhelmise|Power Whip|p2a: Steelix
+|-damage|p2a: Steelix|66/100
+|move|p2a: Steelix|Stealth Rock|p1a: Dhelmise
+|-sidestart|p1: 413XPlayz|move: Stealth Rock
+|
+|-heal|p2a: Steelix|72/100|[from] item: Leftovers
+|-damage|p1a: Dhelmise|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Dhelmise|Power Whip|p2a: Steelix
+|-damage|p2a: Steelix|45/100
+|move|p2a: Steelix|Roar|p1a: Dhelmise
+|drag|p1a: Xatu|Xatu, F|100/100
+|
+|-heal|p2a: Steelix|51/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Xatu|Wish|p1a: Xatu
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Xatu|Psychic|p1a: Xatu
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|79/100
+|move|p1a: Xatu|Teleport|p1a: Xatu
+|
+|switch|p1a: Drampa|Drampa, M|52/100|[from]move: Teleport
+|-damage|p1a: Drampa|40/100|[from] Stealth Rock
+|
+|-heal|p1a: Drampa|90/100|[from] move: Wish|[wisher] Xatu
+|upkeep
+|turn|11
+|
+|move|p2a: Xatu|Toxic|p1a: Drampa
+|-status|p1a: Drampa|tox
+|move|p1a: Drampa|Draco Meteor|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-unboost|p1a: Drampa|spa|2
+|faint|p2a: Xatu
+|
+|-damage|p1a: Drampa|84/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|12
+|
+|switch|p1a: Dhelmise|Dhelmise|82/100 tox
+|move|p2a: Hitmonlee|Knock Off|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|13/100 tox
+|-enditem|p1a: Dhelmise|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Hitmonlee
+|
+|-damage|p1a: Dhelmise|6/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Hitmonlee|Knock Off|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|switch|p1a: Xatu|Xatu, F|79/100
+|turn|14
+|
+|move|p1a: Xatu|Wish|p1a: Xatu
+|move|p2a: Hitmonlee|Knock Off|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-enditem|p1a: Xatu|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Hitmonlee
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, F|100/100
+|-damage|p1a: Passimian|94/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Steelix|Steelix, M|51/100
+|move|p1a: Passimian|Close Combat|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-crit|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|faint|p2a: Steelix
+|
+|-heal|p1a: Passimian|100/100|[from] move: Wish|[wisher] Xatu
+|upkeep
+|
+|switch|p2a: Eiscue|Eiscue, F|100/100
+|turn|16
+|
+|move|p1a: Passimian|Close Combat|p2a: Eiscue
+|-activate|p2a: Eiscue|ability: Ice Face
+|-damage|p2a: Eiscue|100/100
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|detailschange|p2a: Eiscue|Eiscue-Noice, F
+|move|p2a: Eiscue|Substitute|p2a: Eiscue
+|-start|p2a: Eiscue|Substitute
+|-damage|p2a: Eiscue|75/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Passimian|Close Combat|p2a: Eiscue
+|-supereffective|p2a: Eiscue
+|-crit|p2a: Eiscue
+|-end|p2a: Eiscue|Substitute
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|move|p2a: Eiscue|Belly Drum|p2a: Eiscue
+|-damage|p2a: Eiscue|25/100
+|-setboost|p2a: Eiscue|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Eiscue|Salac Berry|[eat]
+|-boost|p2a: Eiscue|spe|1|[from] item: Salac Berry
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Eiscue|Ice Punch|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|faint|p1a: Passimian
+|
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Eiscue|Ice Punch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|4/100
+|move|p1a: Gastrodon|Earth Power|p2a: Eiscue
+|-damage|p2a: Eiscue|0 fnt
+|faint|p2a: Eiscue
+|
+|-heal|p1a: Gastrodon|10/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|20
+|c|☆OriginalSurko|gg
+|
+|move|p2a: Hitmonlee|Fake Out|p1a: Gastrodon
+|-enditem|p2a: Hitmonlee|Normal Gem|[from] gem
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|switch|p1a: Drampa|Drampa, M|84/100 tox
+|-damage|p1a: Drampa|72/100 tox|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Hitmonlee|Close Combat|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|0 fnt
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|faint|p1a: Drampa
+|
+|win|OriginalSurko
+|l|☆413XPlayz
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

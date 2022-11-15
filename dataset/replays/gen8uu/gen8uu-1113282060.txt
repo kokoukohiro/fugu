@@ -1,0 +1,407 @@
+|j|☆Kla0Trixx
+|j|☆Thyle
+|player|p1|Kla0Trixx|266|1372
+|player|p2|Thyle|boarder|1392
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Incineroar, F|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Gastrodon-East, M|
+|poke|p1|Cobalion|
+|poke|p1|Celebi|
+|poke|p1|Rotom-Mow|
+|poke|p2|Torkoal, M|
+|poke|p2|Shiftry, M|
+|poke|p2|Noivern, M|
+|poke|p2|Escavalier, M|
+|poke|p2|Milotic, F|
+|poke|p2|Gardevoir, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Noivern|Noivern, M|100/100
+|-item|p1a: Celebi|Leftovers|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|turn|1
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|move|p2a: Noivern|Hurricane|p1a: Gastrodon
+|-damage|p1a: Gastrodon|69/100
+|-start|p1a: Gastrodon|confusion
+|
+|-heal|p1a: Gastrodon|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thyle)
+|
+|switch|p2a: Escavalier|Escavalier, M|100/100
+|-activate|p1a: Gastrodon|confusion
+|-damage|p1a: Gastrodon|68/100|[from] confusion
+|
+|-heal|p1a: Gastrodon|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Incineroar|Incineroar, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Escavalier|atk|1
+|move|p2a: Escavalier|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|89/100
+|-enditem|p1a: Incineroar|Assault Vest|[from] move: Knock Off|[of] p2a: Escavalier
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Incineroar|Knock Off|p2a: Escavalier
+|-damage|p2a: Escavalier|51/100
+|-enditem|p2a: Escavalier|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Escavalier|Drill Run|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|47/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|76/100
+|-damage|p1a: Incineroar|38/100|[from] Recoil
+|
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Milotic|Toxic|p1a: Incineroar
+|-status|p1a: Incineroar|tox
+|move|p1a: Incineroar|Knock Off|p2a: Milotic
+|-damage|p2a: Milotic|44/100
+|-enditem|p2a: Milotic|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-damage|p1a: Incineroar|32/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|74/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|94/100
+|
+|-heal|p1a: Gastrodon|80/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Escavalier|Escavalier, M|51/100
+|move|p1a: Gastrodon|Toxic|p2a: Escavalier
+|-immune|p2a: Escavalier
+|
+|-heal|p1a: Gastrodon|86/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Incineroar|Incineroar, F|32/100 tox
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Escavalier|atk|1
+|move|p2a: Escavalier|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|25/100 tox
+|
+|-damage|p1a: Incineroar|19/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Milotic|Milotic, F|94/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|69/100
+|-damage|p1a: Incineroar|11/100 tox|[from] Recoil
+|
+|-damage|p1a: Incineroar|0 fnt|[from] psn
+|faint|p1a: Incineroar
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|11
+|
+|switch|p2a: Escavalier|Escavalier, M|51/100
+|move|p1a: Rotom|Volt Switch|p2a: Escavalier
+|-damage|p2a: Escavalier|20/100
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|86/100|[from]move: Volt Switch
+|
+|-heal|p1a: Gastrodon|92/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Gastrodon|Scald|p2a: Escavalier
+|-damage|p2a: Escavalier|0 fnt
+|faint|p2a: Escavalier
+|
+|-heal|p1a: Gastrodon|98/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|13
+|
+|move|p1a: Gastrodon|Toxic|p2a: Torkoal
+|-status|p2a: Torkoal|tox
+|move|p2a: Torkoal|Stealth Rock|p1a: Gastrodon
+|-sidestart|p1: Kla0Trixx|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|-damage|p2a: Torkoal|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|14/100 tox
+|move|p2a: Torkoal|Yawn|p1a: Gastrodon
+|-start|p1a: Gastrodon|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|2/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: Shiftry|Knock Off|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|70/100
+|-enditem|p1a: Weezing|Black Sludge|[from] move: Knock Off|[of] p2a: Shiftry
+|-damage|p2a: Shiftry|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Levitate|[from] ability: Trace|[of] p1a: Weezing
+|move|p1a: Weezing|Defog|p2a: Gardevoir
+|-unboost|p2a: Gardevoir|evasion|1
+|-sideend|p1: Kla0Trixx|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2a: Gardevoir|Psychic|p1a: Weezing
+|-activate|p1a: Weezing|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|switch|p2a: Shiftry|Shiftry, M|91/100
+|switch|p1a: Celebi|Celebi|94/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Celebi|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Shiftry|Heat Wave|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|1/100
+|-enditem|p1a: Cobalion|Salac Berry|[eat]
+|-boost|p1a: Cobalion|spe|1|[from] item: Salac Berry
+|-damage|p2a: Shiftry|81/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|21
+|
+|switch|p2a: Milotic|Milotic, F|69/100
+|move|p1a: Cobalion|Close Combat|p2a: Milotic
+|-damage|p2a: Milotic|33/100
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Cobalion|Close Combat|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Justified|[from] ability: Trace|[of] p1a: Cobalion
+|turn|23
+|
+|move|p1a: Cobalion|Iron Head|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|turn|24
+|
+|move|p1a: Cobalion|Iron Head|p2a: Noivern
+|-damage|p2a: Noivern|59/100
+|move|p2a: Noivern|Hurricane|p1a: Cobalion|[miss]
+|-miss|p2a: Noivern|p1a: Cobalion
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Cobalion|Iron Head|p2a: Noivern
+|-damage|p2a: Noivern|13/100
+|move|p2a: Noivern|Roost|p2a: Noivern
+|-heal|p2a: Noivern|64/100
+|-singleturn|p2a: Noivern|move: Roost
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Cobalion|Iron Head|p2a: Noivern
+|-damage|p2a: Noivern|23/100
+|move|p2a: Noivern|Hurricane|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|27
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, M|2/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|28
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Shiftry|Shiftry, M|81/100
+|turn|29
+|
+|move|p2a: Shiftry|Growth|p2a: Shiftry
+|-boost|p2a: Shiftry|atk|2
+|-boost|p2a: Shiftry|spa|2
+|move|p1a: Rotom|Thunderbolt|p2a: Shiftry
+|-resisted|p2a: Shiftry
+|-damage|p2a: Shiftry|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|30
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|move|p2a: Shiftry|Heat Wave|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|75/100
+|-damage|p2a: Shiftry|39/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gastrodon|81/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Shiftry|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-enditem|p1a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p2a: Shiftry
+|-damage|p2a: Shiftry|29/100|[from] item: Life Orb
+|faint|p1a: Gastrodon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Weezing|Weezing-Galar, F|70/100
+|turn|32
+|
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2a: Shiftry|Heat Wave|p1a: Weezing
+|-activate|p1a: Weezing|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|33
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Shiftry|Heat Wave|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|-damage|p2a: Shiftry|20/100|[from] item: Life Orb
+|faint|p1a: Celebi
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Weezing|Weezing-Galar, F|70/100
+|turn|34
+|
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2a: Shiftry|Growth|p2a: Shiftry
+|-boost|p2a: Shiftry|atk|2
+|-boost|p2a: Shiftry|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|35
+|
+|move|p2a: Shiftry|Heat Wave|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|-damage|p2a: Shiftry|10/100|[from] item: Life Orb
+|faint|p1a: Weezing
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|36
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Shiftry
+|-resisted|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|faint|p2a: Shiftry
+|
+|win|Kla0Trixx
+|c|☆Thyle|Wp
+|c|☆Kla0Trixx|u2
+|raw|Kla0Trixx's rating: 1372 &rarr; <strong>1393</strong><br />(+21 for winning)
+|raw|Thyle's rating: 1393 &rarr; <strong>1372</strong><br />(-21 for losing)

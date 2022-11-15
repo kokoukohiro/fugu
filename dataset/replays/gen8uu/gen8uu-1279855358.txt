@@ -1,0 +1,199 @@
+|j|☆lanouille
+|j|☆Lusteristic
+|t:|1612980391
+|player|p1|lanouille|tuber|1392
+|player|p2|Lusteristic|1|1369
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Scizor, F|
+|poke|p1|Slowking, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Ditto|
+|poke|p1|Nihilego|
+|poke|p1|Rotom-Heat|
+|poke|p2|Slowking, M|
+|poke|p2|Porygon-Z|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Nidoqueen, F|
+|poke|p2|Tangrowth, M|
+|poke|p2|Bisharp, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1612980403
+|start
+|switch|p1a: Slowking|Slowking, F|100/100
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|turn|1
+|
+|t:|1612980418
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Slowking|Psyshock|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|90/100
+|
+|upkeep
+|turn|2
+|
+|t:|1612980426
+|move|p2a: Slowking|Future Sight|p1a: Slowking
+|-start|p2a: Slowking|move: Future Sight
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|3
+|
+|t:|1612980442
+|move|p2a: Slowking|Scald|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|89/100
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1612980447
+|switch|p1a: Scizor|Scizor, F|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|4
+|
+|t:|1612980453
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|move|p1a: Scizor|Knock Off|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|64/100
+|-enditem|p2a: Nidoqueen|Black Sludge|[from] move: Knock Off|[of] p1a: Scizor
+|-damage|p1a: Scizor|91/100|[from] item: Life Orb
+|
+|-end|p2a: Nidoqueen|move: Future Sight
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|-end|p1a: Scizor|move: Future Sight
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|68/100
+|upkeep
+|faint|p2a: Nidoqueen
+|c|☆Lusteristic|misclicked
+|c|☆Lusteristic|[Invalid choice] There's nothing to cancel
+|
+|t:|1612980471
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|5
+|
+|t:|1612980482
+|switch|p1a: Slowking|Slowking, F|100/100
+|move|p2a: Keldeo|Flip Turn|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|95/100
+|-damage|p2a: Keldeo|84/100|[from] item: Rocky Helmet|[of] p1a: Slowking
+|
+|t:|1612980488
+|switch|p2a: Porygon-Z|Porygon-Z|100/100|[from]move: Flip Turn
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|spa|1
+|
+|upkeep
+|turn|6
+|
+|t:|1612980495
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|21/100
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1612980499
+|switch|p1a: Nihilego|Nihilego|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|7
+|
+|t:|1612980506
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Porygon-Z|Nasty Plot|p2a: Porygon-Z
+|-boost|p2a: Porygon-Z|spa|2
+|
+|upkeep
+|turn|8
+|
+|t:|1612980512
+|move|p2a: Porygon-Z|Tri Attack|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1612980519
+|switch|p1a: Nihilego|Nihilego|100/100
+|turn|9
+|
+|t:|1612980523
+|move|p1a: Nihilego|Meteor Beam||[still]
+|-prepare|p1a: Nihilego|Meteor Beam
+|-boost|p1a: Nihilego|spa|1
+|-enditem|p1a: Nihilego|Power Herb
+|-anim|p1a: Nihilego|Meteor Beam|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spe|1
+|
+|upkeep
+|
+|t:|1612980532
+|switch|p2a: Keldeo|Keldeo-Resolute|84/100
+|turn|10
+|
+|t:|1612980538
+|move|p1a: Nihilego|Sludge Wave|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spe|1
+|
+|upkeep
+|
+|t:|1612980541
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|11
+|
+|t:|1612980549
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|12
+|
+|t:|1612980557
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Kommo-o|Stealth Rock|p2a: Bisharp
+|-sidestart|p2: Lusteristic|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1612980566
+|move|p2a: Bisharp|Iron Head|p1a: Kommo-o
+|-damage|p1a: Kommo-o|49/100
+|move|p1a: Kommo-o|Body Press|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-heal|p1a: Kommo-o|55/100|[from] item: Leftovers
+|upkeep
+|-message|Lusteristic forfeited.
+|
+|win|lanouille
+|l|☆Lusteristic
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

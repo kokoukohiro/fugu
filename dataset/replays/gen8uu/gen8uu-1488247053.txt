@@ -1,0 +1,277 @@
+|j|☆Pmfire
+|j|☆joliemome
+|t:|1641740729
+|gametype|singles
+|player|p1|Pmfire|101|1288
+|player|p2|joliemome|beauty-gen4dp|1398
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Scolipede, M|
+|poke|p1|Azumarill, F|
+|poke|p1|Tangrowth, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Celesteela|
+|poke|p1|Hydreigon, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Nihilego|
+|poke|p2|Swampert, M|
+|poke|p2|Darmanitan, M|
+|poke|p2|Tapu Bulu|
+|poke|p2|Skarmory, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pmfire)
+|
+|t:|1641740753
+|start
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|turn|1
+|
+|t:|1641740761
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Azumarill|Knock Off|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|86/100
+|-damage|p1a: Azumarill|84/100|[from] item: Rocky Helmet|[of] p2a: Tapu Bulu
+|-enditem|p2a: Tapu Bulu|Rocky Helmet|[from] move: Knock Off|[of] p1a: Azumarill
+|
+|-heal|p2a: Tapu Bulu|92/100|[from] Grassy Terrain
+|-heal|p1a: Azumarill|90/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1641740776
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|switch|p1a: Celesteela|Celesteela|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1641740787
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Darmanitan|Flare Blitz|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1641740793
+|switch|p1a: Azumarill|Azumarill, F|90/100
+|move|p2a: Darmanitan|Flare Blitz|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|50/100
+|-damage|p2a: Darmanitan|85/100|[from] Recoil
+|
+|-heal|p2a: Darmanitan|92/100|[from] Grassy Terrain
+|-heal|p1a: Azumarill|56/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1641740805
+|switch|p2a: Tapu Bulu|Tapu Bulu|92/100
+|move|p1a: Azumarill|Liquidation|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|75/100
+|
+|-heal|p2a: Tapu Bulu|81/100|[from] Grassy Terrain
+|-heal|p1a: Azumarill|63/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1641740819
+|switch|p1a: Scolipede|Scolipede, M|100/100
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Scolipede
+|-resisted|p1a: Scolipede
+|-damage|p1a: Scolipede|88/100
+|-heal|p2a: Tapu Bulu|85/100|[from] drain|[of] p1a: Scolipede
+|
+|upkeep
+|turn|7
+|
+|t:|1641740827
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Scolipede|Swords Dance|p1a: Scolipede
+|-boost|p1a: Scolipede|atk|2
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|8
+|
+|t:|1641740842
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|upkeep
+|turn|9
+|
+|t:|1641740849
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Rotom|Overheat|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|82/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-heal|p2a: Swampert|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1641740859
+|move|p1a: Rotom|Toxic|p2a: Swampert|[miss]
+|-miss|p1a: Rotom|p2a: Swampert
+|move|p2a: Swampert|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Pmfire|move: Stealth Rock
+|
+|-heal|p2a: Swampert|95/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1641740866
+|move|p1a: Rotom|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|move|p2a: Swampert|Flip Turn|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|37/100
+|
+|t:|1641740877
+|switch|p2a: Darmanitan|Darmanitan, M|92/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|12
+|
+|t:|1641740883
+|move|p2a: Darmanitan|Flare Blitz|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-damage|p2a: Darmanitan|84/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1641740890
+|switch|p1a: Azumarill|Azumarill, F|63/100
+|-damage|p1a: Azumarill|50/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1641740895
+|switch|p2a: Tapu Bulu|Tapu Bulu|85/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Azumarill|Play Rough|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|47/100
+|
+|-heal|p2a: Tapu Bulu|54/100|[from] Grassy Terrain
+|-heal|p1a: Azumarill|56/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1641740907
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|-heal|p2a: Tapu Bulu|87/100|[from] drain|[of] p1a: Azumarill
+|faint|p1a: Azumarill
+|
+|-heal|p2a: Tapu Bulu|93/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1641740929
+|switch|p1a: Celesteela|Celesteela|100/100
+|-damage|p1a: Celesteela|88/100|[from] Stealth Rock
+|turn|15
+|inactive|Pmfire has 120 seconds left.
+|
+|t:|1641740945
+|switch|p2a: Darmanitan|Darmanitan, M|84/100
+|move|p1a: Celesteela|Leech Seed|p2a: Darmanitan
+|-start|p2a: Darmanitan|move: Leech Seed
+|
+|-heal|p2a: Darmanitan|90/100|[from] Grassy Terrain
+|-heal|p1a: Celesteela|94/100|[from] item: Leftovers
+|-damage|p2a: Darmanitan|77/100|[from] Leech Seed|[of] p1a: Celesteela
+|-heal|p1a: Celesteela|100/100|[silent]
+|upkeep
+|turn|16
+|inactive|Pmfire has 120 seconds left.
+|
+|t:|1641740955
+|move|p1a: Celesteela|Protect|p1a: Celesteela
+|-singleturn|p1a: Celesteela|Protect
+|move|p2a: Darmanitan|Flare Blitz|p1a: Celesteela
+|-activate|p1a: Celesteela|move: Protect
+|
+|-heal|p2a: Darmanitan|84/100|[from] Grassy Terrain
+|-damage|p2a: Darmanitan|71/100|[from] Leech Seed|[of] p1a: Celesteela
+|upkeep
+|turn|17
+|inactive|Pmfire has 120 seconds left.
+|inactive|Pmfire has 90 seconds left.
+|
+|t:|1641741003
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Darmanitan|Flare Blitz|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|41/100
+|-damage|p2a: Darmanitan|57/100|[from] Recoil
+|
+|-heal|p2a: Darmanitan|63/100|[from] Grassy Terrain
+|-damage|p2a: Darmanitan|51/100|[from] Leech Seed|[of] p1a: Hydreigon
+|-heal|p1a: Hydreigon|55/100|[silent]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|18
+|inactive|Pmfire has 90 seconds left.
+|
+|t:|1641741017
+|switch|p2a: Swampert|Swampert, M|95/100 tox
+|move|p1a: Hydreigon|Earth Power|p2a: Swampert
+|-damage|p2a: Swampert|74/100 tox
+|
+|-heal|p2a: Swampert|80/100 tox|[from] item: Leftovers
+|-damage|p2a: Swampert|74/100 tox|[from] psn
+|upkeep
+|turn|19
+|inactive|Pmfire has 90 seconds left.
+|
+|t:|1641741028
+|move|p1a: Hydreigon|Dark Pulse|p2a: Swampert
+|-damage|p2a: Swampert|47/100 tox
+|move|p2a: Swampert|Flip Turn|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|42/100
+|
+|t:|1641741040
+|switch|p2a: Nihilego|Nihilego|100/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|20
+|
+|t:|1641741044
+|move|p2a: Nihilego|Power Gem|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spe|1
+|
+|upkeep
+|-message|Pmfire forfeited.
+|
+|win|joliemome
+|raw|Pmfire's rating: 1288 &rarr; <strong>1271</strong><br />(-17 for losing)
+|raw|joliemome's rating: 1398 &rarr; <strong>1412</strong><br />(+14 for winning)
+|l|☆Pmfire

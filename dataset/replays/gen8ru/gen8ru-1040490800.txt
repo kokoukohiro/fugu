@@ -1,0 +1,224 @@
+|j|☆BrittneySpearsMom
+|j|☆weirdchamper
+|player|p1|BrittneySpearsMom|44|1337
+|player|p2|weirdchamper|clown|1397
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mr. Mime-Galar, M|
+|poke|p1|Silvally-*|
+|poke|p1|Steelix, M|
+|poke|p1|Accelgor, M|
+|poke|p1|Roserade, F|
+|poke|p1|Goodra, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Silvally-*|
+|poke|p2|Sigilyph, M|
+|poke|p2|Goodra, M|
+|poke|p2|Togedemaru, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Steelix|Steelix, M|100/100
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by weirdchamper)
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Steelix
+|-sidestart|p1: BrittneySpearsMom|move: Sticky Web
+|move|p1a: Steelix|Stealth Rock|p2a: Galvantula
+|-sidestart|p2: weirdchamper|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Galvantula|Energy Ball|p1a: Steelix
+|-damage|p1a: Steelix|77/100
+|move|p1a: Steelix|Dragon Tail|p2a: Galvantula
+|-damage|p2a: Galvantula|78/100
+|drag|p2a: Salazzle|Salazzle, F|100/100
+|-damage|p2a: Salazzle|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Steelix|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Goodra|Goodra, M|100/100
+|-activate|p1a: Goodra|move: Sticky Web
+|-unboost|p1a: Goodra|spe|1
+|move|p2a: Salazzle|Flamethrower|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|79/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Galvantula|Galvantula, M|78/100
+|-damage|p2a: Galvantula|53/100|[from] Stealth Rock
+|move|p1a: Goodra|Draco Meteor|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|-unboost|p1a: Goodra|spa|2
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Ghost|100/100
+|-damage|p2a: Silvally|88/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p1a: Steelix|Steelix, M|83/100
+|-activate|p1a: Steelix|move: Sticky Web
+|-unboost|p1a: Steelix|spe|1
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|
+|-heal|p1a: Steelix|89/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|j| teamtestingcles
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Steelix
+|-damage|p1a: Steelix|27/100
+|move|p1a: Steelix|Dragon Tail|p2a: Silvally
+|-damage|p2a: Silvally|75/100
+|drag|p2a: Sigilyph|Sigilyph, M|100/100
+|-damage|p2a: Sigilyph|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Steelix|33/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Sigilyph|Psychic|p1a: Steelix
+|-resisted|p1a: Steelix
+|-crit|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, M|100/100
+|turn|8
+|
+|switch|p2a: Togedemaru|Togedemaru, F|100/100
+|-damage|p2a: Togedemaru|95/100|[from] Stealth Rock
+|move|p1a: Mr. Mime|Rapid Spin|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|89/100
+|-damage|p1a: Mr. Mime|88/100|[from] ability: Iron Barbs|[of] p2a: Togedemaru
+|-sideend|p1: BrittneySpearsMom|Sticky Web|[from] move: Rapid Spin|[of] p1a: Mr. Mime
+|-boost|p1a: Mr. Mime|spe|1
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Silvally|Silvally-Ghost|100/100
+|move|p2a: Togedemaru|Iron Head|p1a: Silvally
+|-damage|p1a: Silvally|63/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Togedemaru|Zing Zap|p1a: Silvally
+|-damage|p1a: Silvally|30/100
+|cant|p1a: Silvally|flinch
+|
+|upkeep
+|turn|11
+|c|☆weirdchamper|srry
+|
+|move|p2a: Togedemaru|Iron Head|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|c|☆weirdchamper|the crit didnt matter but the flinch did
+|c|☆weirdchamper|mb
+|
+|switch|p1a: Goodra|Goodra, M|79/100
+|turn|12
+|
+|move|p1a: Goodra|Fire Blast|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|0 fnt
+|faint|p2a: Togedemaru
+|
+|upkeep
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|-damage|p2a: Goodra|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Roserade|Roserade, F|100/100
+|move|p2a: Goodra|Outrage|p1a: Roserade
+|-crit|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|switch|p1a: Goodra|Goodra, M|79/100
+|turn|14
+|
+|move|p1a: Goodra|Draco Meteor|p2a: Goodra|[miss]
+|-miss|p1a: Goodra|p2a: Goodra
+|move|p2a: Goodra|Outrage|p1a: Goodra|[from]lockedmove
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, M|88/100
+|turn|15
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|43/100
+|move|p2a: Goodra|Outrage|p1a: Mr. Mime|[from]lockedmove
+|-damage|p1a: Mr. Mime|0 fnt
+|-start|p2a: Goodra|confusion|[fatigue]
+|faint|p1a: Mr. Mime
+|
+|upkeep
+|
+|switch|p1a: Accelgor|Accelgor, M|100/100
+|turn|16
+|
+|move|p1a: Accelgor|Bug Buzz|p2a: Goodra
+|-damage|p2a: Goodra|11/100
+|-enditem|p1a: Accelgor|Throat Spray
+|-boost|p1a: Accelgor|spa|1
+|-activate|p2a: Goodra|confusion
+|-damage|p2a: Goodra|0 fnt|[from] confusion
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Ghost|75/100
+|-damage|p2a: Silvally|63/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Accelgor|Bug Buzz|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|27/100
+|move|p2a: Silvally|Multi-Attack|p1a: Accelgor
+|-damage|p1a: Accelgor|0 fnt
+|faint|p1a: Accelgor
+|
+|win|weirdchamper
+|c|☆weirdchamper|srry bout that
+|l|☆BrittneySpearsMom
+|raw|BrittneySpearsMom's rating: 1337 &rarr; <strong>1321</strong><br />(-16 for losing)
+|raw|weirdchamper's rating: 1397 &rarr; <strong>1414</strong><br />(+17 for winning)

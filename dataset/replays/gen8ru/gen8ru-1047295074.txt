@@ -1,0 +1,399 @@
+|j|☆monotypewhat
+|j|☆The Paste Eater
+|player|p1|monotypewhat|165|1538
+|player|p2|The Paste Eater|lusamine-nihilego|1345
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Steelix, F|
+|poke|p1|Accelgor, F|
+|poke|p1|Machamp, M|
+|poke|p1|Goodra, F|
+|poke|p1|Aromatisse, F|
+|poke|p1|Dhelmise|
+|poke|p2|Goodra, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Mr. Rime, F|
+|poke|p2|Piloswine, F|
+|poke|p2|Cinccino, F|
+|poke|p2|Vileplume, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by monotypewhat)
+|
+|start
+|switch|p1a: Machamp|Machamp, M|100/100
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|turn|1
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|switch|p1a: Steelix|Steelix, F|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Aromatisse|Aromatisse, F|100/100
+|move|p2a: Goodra|Flamethrower|p1a: Aromatisse
+|-damage|p1a: Aromatisse|61/100
+|
+|-heal|p1a: Aromatisse|67/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Goodra|Flamethrower|p1a: Aromatisse
+|-damage|p1a: Aromatisse|30/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|36/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Aromatisse|Protect||[still]
+|-fail|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|86/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Aromatisse|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Vileplume|Sludge Bomb|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|98/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Goodra|Goodra, F|100/100
+|move|p2a: Vileplume|Leech Seed|p1a: Goodra
+|-ability|p1a: Goodra|Sap Sipper|boost
+|-boost|p1a: Goodra|atk|1
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|
+|-status|p1a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Machamp|Knock Off|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-damage|p1a: Machamp|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Machamp|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|60/100
+|-enditem|p2a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p1a: Machamp
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-damage|p1a: Machamp|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Machamp|Facade|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-damage|p1a: Machamp|82/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Machamp|Facade|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|11/100
+|move|p2a: Vaporeon|Scald|p1a: Machamp
+|-damage|p1a: Machamp|48/100 brn
+|
+|-damage|p1a: Machamp|42/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Machamp|Facade|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-damage|p1a: Machamp|35/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Machamp|Facade|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-damage|p1a: Machamp|29/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|move|p1a: Machamp|Facade|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-damage|p1a: Machamp|23/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|turn|15
+|
+|switch|p1a: Goodra|Goodra, F|100/100
+|move|p2a: Goodra|Sludge Wave|p1a: Goodra
+|-damage|p1a: Goodra|75/100
+|-status|p1a: Goodra|psn
+|
+|-heal|p1a: Goodra|81/100 psn|[from] item: Leftovers
+|-damage|p1a: Goodra|69/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Mr. Rime|Mr. Rime, F|100/100
+|move|p1a: Goodra|Dragon Pulse|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|49/100
+|
+|-heal|p1a: Goodra|75/100 psn|[from] item: Leftovers
+|-damage|p1a: Goodra|62/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Mr. Rime|Ice Beam|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|upkeep
+|
+|switch|p1a: Accelgor|Accelgor, F|100/100
+|turn|18
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|move|p1a: Accelgor|Bug Buzz|p2a: Goodra
+|-damage|p2a: Goodra|59/100
+|-unboost|p2a: Goodra|spd|1
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Accelgor|Bug Buzz|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|inactive|The Paste Eater has 120 seconds left.
+|
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|turn|20
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|move|p2a: Cinccino|Rock Blast|p1a: Steelix|[miss]
+|-miss|p2a: Cinccino|p1a: Steelix
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Steelix|Stealth Rock|p2a: Vileplume
+|-sidestart|p2: The Paste Eater|move: Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Machamp|Machamp, M|23/100 brn
+|move|p2a: Vileplume|Leech Seed|p1a: Machamp
+|-start|p1a: Machamp|move: Leech Seed
+|
+|-damage|p1a: Machamp|10/100 brn|[from] Leech Seed|[of] p2a: Vileplume
+|-damage|p1a: Machamp|4/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Machamp|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|54/100
+|-enditem|p2a: Vileplume|Black Sludge|[from] move: Knock Off|[of] p1a: Machamp
+|move|p2a: Vileplume|Strength Sap|p1a: Machamp
+|-unboost|p1a: Machamp|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|-damage|p1a: Machamp|0 fnt|[from] Leech Seed|[of] p2a: Vileplume
+|faint|p1a: Machamp
+|upkeep
+|
+|switch|p1a: Accelgor|Accelgor, F|100/100
+|turn|24
+|
+|move|p1a: Accelgor|Bug Buzz|p2a: Vileplume
+|-damage|p2a: Vileplume|34/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Accelgor
+|-damage|p1a: Accelgor|46/100
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Mr. Rime|Mr. Rime, F|49/100
+|move|p1a: Accelgor|Bug Buzz|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|0 fnt
+|faint|p2a: Mr. Rime
+|
+|upkeep
+|
+|switch|p2a: Piloswine|Piloswine, F|100/100
+|-damage|p2a: Piloswine|88/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|move|p2a: Piloswine|Ice Shard|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|53/100
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Dhelmise|Anchor Shot|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|23/100
+|-activate|p2a: Piloswine|trapped
+|move|p2a: Piloswine|Icicle Crash|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|turn|28
+|
+|move|p2a: Piloswine|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|49/100
+|move|p1a: Steelix|Heavy Slam|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|faint|p2a: Piloswine
+|
+|-heal|p1a: Steelix|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Vileplume|Vileplume, F|34/100
+|-damage|p2a: Vileplume|22/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p1a: Aromatisse|Aromatisse, F|98/100
+|move|p2a: Vileplume|Strength Sap|p1a: Aromatisse
+|-unboost|p1a: Aromatisse|atk|1
+|-heal|p2a: Vileplume|60/100
+|
+|-heal|p1a: Aromatisse|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Vileplume|Leech Seed|p1a: Aromatisse
+|-start|p1a: Aromatisse|move: Leech Seed
+|move|p1a: Aromatisse|Moonblast|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|34/100
+|
+|-damage|p1a: Aromatisse|88/100|[from] Leech Seed|[of] p2a: Vileplume
+|-heal|p2a: Vileplume|49/100|[silent]
+|upkeep
+|turn|31
+|
+|move|p2a: Vileplume|Strength Sap|p1a: Aromatisse
+|-unboost|p1a: Aromatisse|atk|1
+|-heal|p2a: Vileplume|74/100
+|move|p1a: Aromatisse|Moonblast|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|56/100
+|
+|-heal|p1a: Aromatisse|94/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|82/100|[from] Leech Seed|[of] p2a: Vileplume
+|-heal|p2a: Vileplume|70/100|[silent]
+|upkeep
+|turn|32
+|
+|move|p2a: Vileplume|Sludge Bomb|p1a: Aromatisse
+|-supereffective|p1a: Aromatisse
+|-damage|p1a: Aromatisse|17/100
+|move|p1a: Aromatisse|Moonblast|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|54/100
+|
+|-heal|p1a: Aromatisse|23/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|10/100|[from] Leech Seed|[of] p2a: Vileplume
+|-heal|p2a: Vileplume|68/100|[silent]
+|upkeep
+|turn|33
+|
+|move|p2a: Vileplume|Strength Sap|p1a: Aromatisse
+|-unboost|p1a: Aromatisse|atk|1
+|-heal|p2a: Vileplume|87/100
+|move|p1a: Aromatisse|Moonblast|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|69/100
+|
+|-heal|p1a: Aromatisse|17/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|4/100|[from] Leech Seed|[of] p2a: Vileplume
+|-heal|p2a: Vileplume|84/100|[silent]
+|upkeep
+|turn|34
+|inactive|The Paste Eater has 120 seconds left.
+|
+|move|p2a: Vileplume|Giga Drain|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|-heal|p2a: Vileplume|86/100|[from] drain|[of] p1a: Aromatisse
+|faint|p1a: Aromatisse
+|
+|upkeep
+|
+|switch|p1a: Accelgor|Accelgor, F|46/100
+|turn|35
+|
+|move|p1a: Accelgor|Bug Buzz|p2a: Vileplume
+|-damage|p2a: Vileplume|27/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Accelgor
+|-damage|p1a: Accelgor|0 fnt
+|faint|p1a: Accelgor
+|
+|upkeep
+|
+|switch|p1a: Steelix|Steelix, F|55/100
+|turn|36
+|
+|move|p2a: Vileplume|Strength Sap|p1a: Steelix
+|-unboost|p1a: Steelix|atk|1
+|-heal|p2a: Vileplume|100/100
+|move|p1a: Steelix|Earthquake|p2a: Vileplume
+|-damage|p2a: Vileplume|80/100
+|
+|-heal|p1a: Steelix|62/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|-message|monotypewhat forfeited.
+|
+|win|The Paste Eater
+|l|☆monotypewhat
+|raw|monotypewhat's rating: 1539 &rarr; <strong>1509</strong><br />(-30 for losing)
+|raw|The Paste Eater's rating: 1345 &rarr; <strong>1375</strong><br />(+30 for winning)

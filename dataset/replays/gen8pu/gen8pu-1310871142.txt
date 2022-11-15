@@ -1,0 +1,224 @@
+|j|☆ArtOfWumbology
+|j|☆Toxicidad fuera
+|t:|1616970875
+|player|p1|ArtOfWumbology|2|
+|player|p2|Toxicidad fuera|argenta|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|Tournament battle
+|clearpoke
+|poke|p1|Kingler, M|
+|poke|p1|Ribombee, F|
+|poke|p1|Arctovish|
+|poke|p1|Braviary, M|
+|poke|p1|Pikachu, F|
+|poke|p1|Charizard, M|
+|poke|p2|Maractus, M|
+|poke|p2|Thwackey, M|
+|poke|p2|Crustle, M|
+|poke|p2|Pawniard, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Haunter, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ArtOfWumbology)
+|
+|t:|1616970890
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Haunter|Haunter, F|100/100
+|turn|1
+|
+|t:|1616970898
+|move|p1a: Ribombee|Sticky Web|p2a: Haunter
+|-sidestart|p2: Toxicidad fuera|move: Sticky Web
+|move|p2a: Haunter|Sludge Wave|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1616970905
+|switch|p2a: Thwackey|Thwackey, M|100/100
+|-activate|p2a: Thwackey|move: Sticky Web
+|-unboost|p2a: Thwackey|spe|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|move|p1a: Ribombee|Stun Spore|p2a: Thwackey
+|-immune|p2a: Thwackey
+|
+|-heal|p1a: Ribombee|7/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1616970918
+|move|p2a: Thwackey|Grassy Glide|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1616970924
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|4
+|
+|t:|1616970929
+|switch|p2a: Crustle|Crustle, M|100/100
+|-activate|p2a: Crustle|move: Sticky Web
+|-unboost|p2a: Crustle|spe|1
+|move|p1a: Charizard|Belly Drum|p1a: Charizard
+|-damage|p1a: Charizard|51/100
+|-setboost|p1a: Charizard|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|5
+|
+|t:|1616970939
+|move|p1a: Charizard|Fire Punch|p2a: Crustle
+|-ability|p2a: Crustle|Sturdy
+|-damage|p2a: Crustle|1/100
+|-enditem|p2a: Crustle|Red Card|[of] p1a: Charizard
+|drag|p1a: Arctovish|Arctovish|100/100
+|move|p2a: Crustle|Stealth Rock|p1a: Arctovish
+|-sidestart|p1: ArtOfWumbology|move: Stealth Rock
+|
+|-heal|p2a: Crustle|7/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|j|@Chloe
+|l|@Chloe
+|
+|t:|1616970950
+|move|p1a: Arctovish|Icicle Crash|p2a: Crustle|[miss]
+|-miss|p1a: Arctovish|p2a: Crustle
+|move|p2a: Crustle|Spikes|p1a: Arctovish
+|-sidestart|p1: ArtOfWumbology|Spikes
+|
+|-heal|p2a: Crustle|13/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1616970959
+|move|p1a: Arctovish|Icicle Crash|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|upkeep
+|
+|t:|1616970961
+|switch|p2a: Thwackey|Thwackey, M|100/100
+|-activate|p2a: Thwackey|move: Sticky Web
+|-unboost|p2a: Thwackey|spe|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|turn|8
+|
+|t:|1616970969
+|move|p2a: Thwackey|Grassy Glide|p1a: Arctovish
+|-supereffective|p1a: Arctovish
+|-damage|p1a: Arctovish|0 fnt
+|faint|p1a: Arctovish
+|
+|upkeep
+|
+|t:|1616970975
+|switch|p1a: Charizard|Charizard, M|51/100
+|turn|9
+|
+|t:|1616970985
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|100/100
+|-singleturn|p1a: Charizard|move: Roost
+|
+|upkeep
+|turn|10
+|j| TurtleDoggo1
+|l| TurtleDoggo1
+|inactive|Toxicidad fuera has 120 seconds left.
+|
+|t:|1616971015
+|switch|p2a: Pawniard|Pawniard, M|100/100
+|-activate|p2a: Pawniard|move: Sticky Web
+|-unboost|p2a: Pawniard|spe|1
+|-ability|p2a: Pawniard|Defiant
+|-boost|p2a: Pawniard|atk|2
+|move|p1a: Charizard|Belly Drum|p1a: Charizard
+|-damage|p1a: Charizard|51/100
+|-setboost|p1a: Charizard|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|11
+|inactive|Toxicidad fuera has 120 seconds left.
+|
+|t:|1616971027
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|100/100
+|-singleturn|p1a: Charizard|move: Roost
+|move|p2a: Pawniard|Knock Off|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-enditem|p1a: Charizard|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Pawniard
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1616971041
+|switch|p1a: Kingler|Kingler, M|100/100
+|-damage|p1a: Kingler|88/100|[from] Spikes
+|-damage|p1a: Kingler|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1616971050
+|move|p1a: Kingler|Superpower|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|-unboost|p1a: Kingler|atk|1
+|-unboost|p1a: Kingler|def|1
+|-damage|p1a: Kingler|66/100|[from] item: Life Orb
+|faint|p2a: Pawniard
+|
+|-heal|p1a: Kingler|72/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1616971058
+|switch|p2a: Haunter|Haunter, F|100/100
+|turn|13
+|
+|t:|1616971064
+|move|p2a: Haunter|Sludge Wave|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|upkeep
+|
+|t:|1616971069
+|switch|p1a: Braviary|Braviary, M|100/100
+|turn|14
+|
+|t:|1616971082
+|move|p2a: Haunter|Sludge Wave|p1a: Braviary
+|-damage|p1a: Braviary|12/100
+|move|p1a: Braviary|Brave Bird|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|-damage|p1a: Braviary|0 fnt|[from] Recoil
+|faint|p2a: Haunter
+|faint|p1a: Braviary
+|
+|upkeep
+|-message|ArtOfWumbology forfeited.
+|
+|win|Toxicidad fuera
+|n|☆ArtOfWumbology|artofwumbology
+|n|☆Toxicidad fuera|toxicidadfuera

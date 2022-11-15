@@ -1,0 +1,502 @@
+|j|☆Lnua
+|j|☆UU is for MANS
+|player|p1|Lnua|misty-gen2|1541
+|player|p2|UU is for MANS|flint|1356
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Roserade, M|
+|poke|p1|Milotic, M|
+|poke|p1|Incineroar, F|
+|poke|p1|Stunfisk-Galar, F|
+|poke|p1|Noivern, F|
+|poke|p1|Sylveon, F|
+|poke|p2|Sirfetch'd, M|
+|poke|p2|Incineroar, M|
+|poke|p2|Xatu, M|
+|poke|p2|Reuniclus, M|
+|poke|p2|Avalugg, F|
+|poke|p2|Flygon, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: singy thingy|Sylveon, F|100/100
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|1
+|
+|move|p2a: Flygon|U-turn|p1a: singy thingy
+|-resisted|p1a: singy thingy
+|-damage|p1a: singy thingy|92/100
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100|[from]move: U-turn
+|move|p1a: singy thingy|Hyper Voice|p2a: Reuniclus
+|-damage|p2a: Reuniclus|81/100
+|
+|-heal|p1a: singy thingy|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: scratchy matchy|Incineroar, F|100/100
+|-ability|p1a: scratchy matchy|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|move|p2a: Reuniclus|Future Sight|p1a: scratchy matchy
+|-start|p2a: Reuniclus|move: Future Sight
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: scratchy matchy|atk|1
+|move|p1a: scratchy matchy|Toxic|p2a: Incineroar|[miss]
+|-miss|p1a: scratchy matchy|p2a: Incineroar
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Incineroar|Parting Shot|p1a: scratchy matchy
+|-unboost|p1a: scratchy matchy|atk|1
+|-unboost|p1a: scratchy matchy|spa|1
+|
+|switch|p2a: Xatu|Xatu, M|100/100|[from]move: Parting Shot
+|move|p1a: scratchy matchy|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|64/100
+|-damage|p1a: scratchy matchy|84/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|-enditem|p2a: Xatu|Rocky Helmet|[from] move: Knock Off|[of] p1a: scratchy matchy
+|
+|-end|p1a: scratchy matchy|move: Future Sight
+|-immune|p1a: scratchy matchy
+|upkeep
+|turn|5
+|
+|switch|p1a: stuntfisk|Stunfisk-Galar, F|100/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|upkeep
+|turn|6
+|j| warzoid
+|
+|switch|p1a: singy thingy|Sylveon, F|98/100
+|move|p2a: Xatu|Heat Wave|p1a: singy thingy|[miss]
+|-miss|p2a: Xatu|p1a: singy thingy
+|
+|-heal|p1a: singy thingy|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: singy thingy|Hyper Voice|p2a: Xatu
+|-damage|p2a: Xatu|46/100
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: scratchy matchy|Incineroar, F|84/100
+|-ability|p1a: scratchy matchy|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|move|p2a: Reuniclus|Focus Blast|p1a: scratchy matchy|[miss]
+|-miss|p2a: Reuniclus|p1a: scratchy matchy
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: scratchy matchy|atk|1
+|move|p1a: scratchy matchy|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|90/100
+|-enditem|p2a: Incineroar|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: scratchy matchy
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Incineroar|Parting Shot|p1a: scratchy matchy
+|-unboost|p1a: scratchy matchy|atk|1
+|-unboost|p1a: scratchy matchy|spa|1
+|
+|switch|p2a: Xatu|Xatu, M|46/100|[from]move: Parting Shot
+|move|p1a: scratchy matchy|Toxic|p2a: Xatu
+|move|p2a: Xatu|Toxic|p1a: scratchy matchy|[from]Magic Bounce
+|-status|p1a: scratchy matchy|tox
+|
+|-damage|p1a: scratchy matchy|78/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: singy thingy|Sylveon, F|100/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|96/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|upkeep
+|turn|12
+|
+|move|p1a: singy thingy|Heal Bell|p1a: singy thingy
+|-activate|p1a: singy thingy|move: Heal Bell
+|-curestatus|p1: scratchy matchy|tox|[msg]
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|13
+|
+|move|p1a: singy thingy|Wish|p1a: singy thingy
+|move|p2a: Reuniclus|Focus Blast|p1a: singy thingy|[miss]
+|-miss|p2a: Reuniclus|p1a: singy thingy
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: scratchy matchy|Incineroar, F|78/100
+|-ability|p1a: scratchy matchy|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|move|p2a: Reuniclus|Focus Blast|p1a: scratchy matchy
+|-supereffective|p1a: scratchy matchy
+|-damage|p1a: scratchy matchy|30/100
+|
+|-heal|p1a: scratchy matchy|80/100|[from] move: Wish|[wisher] singy thingy
+|upkeep
+|turn|15
+|
+|switch|p2a: Incineroar|Incineroar, M|90/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: scratchy matchy|atk|1
+|move|p1a: scratchy matchy|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|81/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Incineroar|Parting Shot|p1a: scratchy matchy
+|-unboost|p1a: scratchy matchy|atk|1
+|-unboost|p1a: scratchy matchy|spa|1
+|
+|switch|p2a: Xatu|Xatu, M|96/100|[from]move: Parting Shot
+|move|p1a: scratchy matchy|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|69/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: scratchy matchy|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|45/100
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: singy thingy|Sylveon, F|100/100
+|move|p2a: Sirfetch'd|Knock Off|p1a: singy thingy
+|-resisted|p1a: singy thingy
+|-crit|p1a: singy thingy
+|-damage|p1a: singy thingy|79/100
+|-enditem|p1a: singy thingy|Leftovers|[from] move: Knock Off|[of] p2a: Sirfetch'd
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: singy thingy|Wish|p1a: singy thingy
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: scratchy matchy|Incineroar, F|80/100
+|-ability|p1a: scratchy matchy|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|switch|p2a: Sirfetch'd|Sirfetch'd, M|100/100
+|
+|-heal|p1a: scratchy matchy|100/100|[from] move: Wish|[wisher] singy thingy
+|upkeep
+|turn|21
+|
+|switch|p1a: batzy watzy|Noivern, F|100/100
+|-item|p2a: Sirfetch'd|Leek|[from] ability: Frisk|[of] p1a: batzy watzy|[identify]
+|move|p2a: Sirfetch'd|Close Combat|p1a: batzy watzy
+|-resisted|p1a: batzy watzy
+|-crit|p1a: batzy watzy
+|-damage|p1a: batzy watzy|29/100
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|
+|upkeep
+|turn|22
+|
+|move|p1a: batzy watzy|Draco Meteor|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|0 fnt
+|-unboost|p1a: batzy watzy|spa|2
+|faint|p2a: Sirfetch'd
+|
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|23
+|
+|switch|p1a: singy thingy|Sylveon, F|79/100
+|move|p2a: Reuniclus|Focus Blast|p1a: singy thingy|[miss]
+|-miss|p2a: Reuniclus|p1a: singy thingy
+|
+|upkeep
+|turn|24
+|
+|move|p1a: singy thingy|Hyper Voice|p2a: Reuniclus
+|-damage|p2a: Reuniclus|80/100
+|move|p2a: Reuniclus|Future Sight|p1a: singy thingy
+|-start|p2a: Reuniclus|move: Future Sight
+|
+|upkeep
+|turn|25
+|
+|move|p1a: singy thingy|Wish|p1a: singy thingy
+|move|p2a: Reuniclus|Psychic|p1a: singy thingy
+|-damage|p1a: singy thingy|51/100
+|
+|upkeep
+|turn|26
+|
+|move|p1a: singy thingy|Protect|p1a: singy thingy
+|-singleturn|p1a: singy thingy|Protect
+|move|p2a: Reuniclus|Focus Blast|p1a: singy thingy
+|-activate|p1a: singy thingy|move: Protect
+|
+|-end|p1a: singy thingy|move: Future Sight
+|-damage|p1a: singy thingy|14/100
+|-heal|p1a: singy thingy|64/100|[from] move: Wish|[wisher] singy thingy
+|upkeep
+|turn|27
+|
+|move|p1a: singy thingy|Wish|p1a: singy thingy
+|move|p2a: Reuniclus|Future Sight|p1a: singy thingy
+|-start|p2a: Reuniclus|move: Future Sight
+|
+|upkeep
+|turn|28
+|
+|move|p1a: singy thingy|Protect|p1a: singy thingy
+|-singleturn|p1a: singy thingy|Protect
+|move|p2a: Reuniclus|Psychic|p1a: singy thingy
+|-activate|p1a: singy thingy|move: Protect
+|
+|-heal|p1a: singy thingy|100/100|[from] move: Wish|[wisher] singy thingy
+|upkeep
+|turn|29
+|j| NukiDream
+|
+|move|p1a: singy thingy|Wish|p1a: singy thingy
+|move|p2a: Reuniclus|Focus Blast|p1a: singy thingy
+|-resisted|p1a: singy thingy
+|-damage|p1a: singy thingy|88/100
+|
+|-end|p1a: singy thingy|move: Future Sight
+|-damage|p1a: singy thingy|55/100
+|upkeep
+|turn|30
+|
+|move|p1a: singy thingy|Hyper Voice|p2a: Reuniclus
+|-damage|p2a: Reuniclus|61/100
+|move|p2a: Reuniclus|Future Sight|p1a: singy thingy
+|-start|p2a: Reuniclus|move: Future Sight
+|
+|-heal|p1a: singy thingy|100/100|[from] move: Wish|[wisher] singy thingy
+|upkeep
+|turn|31
+|
+|move|p1a: singy thingy|Wish|p1a: singy thingy
+|move|p2a: Reuniclus|Psychic|p1a: singy thingy
+|-damage|p1a: singy thingy|76/100
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: scratchy matchy|Incineroar, F|100/100
+|-ability|p1a: scratchy matchy|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|move|p2a: Reuniclus|Psychic|p1a: scratchy matchy
+|-immune|p1a: scratchy matchy
+|
+|-end|p1a: scratchy matchy|move: Future Sight
+|-immune|p1a: scratchy matchy
+|upkeep
+|turn|33
+|
+|switch|p2a: Incineroar|Incineroar, M|81/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: scratchy matchy|atk|1
+|move|p1a: scratchy matchy|Toxic|p2a: Incineroar|[miss]
+|-miss|p1a: scratchy matchy|p2a: Incineroar
+|
+|upkeep
+|turn|34
+|j| 467 11 11p
+|c|☆Lnua|bright powder incin I see
+|c|☆Lnua|xD
+|
+|move|p2a: Incineroar|Knock Off|p1a: scratchy matchy
+|-resisted|p1a: scratchy matchy
+|-damage|p1a: scratchy matchy|84/100
+|-enditem|p1a: scratchy matchy|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: scratchy matchy|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|74/100
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: singy thingy|Sylveon, F|76/100
+|move|p2a: Incineroar|Parting Shot|p1a: singy thingy
+|-unboost|p1a: singy thingy|atk|1
+|-unboost|p1a: singy thingy|spa|1
+|
+|switch|p2a: Reuniclus|Reuniclus, M|94/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|36
+|c|☆UU is for MANS|this is getting boring
+|
+|move|p1a: singy thingy|Wish|p1a: singy thingy
+|move|p2a: Reuniclus|Future Sight|p1a: singy thingy
+|-start|p2a: Reuniclus|move: Future Sight
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: scratchy matchy|Incineroar, F|84/100
+|-ability|p1a: scratchy matchy|Intimidate|boost
+|-unboost|p2a: Reuniclus|atk|1
+|move|p2a: Reuniclus|Psychic|p1a: scratchy matchy
+|-immune|p1a: scratchy matchy
+|
+|-heal|p1a: scratchy matchy|100/100|[from] move: Wish|[wisher] singy thingy
+|upkeep
+|turn|38
+|l| NukiDream
+|
+|switch|p2a: Incineroar|Incineroar, M|74/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: scratchy matchy|atk|1
+|move|p1a: scratchy matchy|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|66/100
+|
+|-end|p1a: scratchy matchy|move: Future Sight
+|-immune|p1a: scratchy matchy
+|upkeep
+|turn|39
+|
+|move|p2a: Incineroar|Parting Shot|p1a: scratchy matchy
+|-unboost|p1a: scratchy matchy|atk|1
+|-unboost|p1a: scratchy matchy|spa|1
+|
+|switch|p2a: Xatu|Xatu, M|45/100|[from]move: Parting Shot
+|move|p1a: scratchy matchy|Flare Blitz|p2a: Xatu
+|-damage|p2a: Xatu|22/100
+|-damage|p1a: scratchy matchy|94/100|[from] Recoil
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: singy thingy|Sylveon, F|76/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|72/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|upkeep
+|turn|41
+|
+|move|p1a: singy thingy|Hyper Voice|p2a: Xatu
+|-damage|p2a: Xatu|19/100
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Incineroar|Incineroar, M|66/100|[from]move: Teleport
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: singy thingy|atk|1
+|
+|upkeep
+|turn|42
+|
+|switch|p1a: scratchy matchy|Incineroar, F|94/100
+|-ability|p1a: scratchy matchy|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|move|p2a: Incineroar|Flare Blitz|p1a: scratchy matchy
+|-resisted|p1a: scratchy matchy
+|-damage|p1a: scratchy matchy|79/100
+|-damage|p2a: Incineroar|61/100|[from] Recoil
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Incineroar|Parting Shot|p1a: scratchy matchy
+|-unboost|p1a: scratchy matchy|atk|1
+|-unboost|p1a: scratchy matchy|spa|1
+|
+|switch|p2a: Xatu|Xatu, M|19/100|[from]move: Parting Shot
+|move|p1a: scratchy matchy|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|upkeep
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|44
+|
+|switch|p1a: snekky snek|Milotic, M|100/100
+|move|p2a: Flygon|Dragon Dance|p2a: Flygon
+|-boost|p2a: Flygon|atk|1
+|-boost|p2a: Flygon|spe|1
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Flygon|Earthquake|p1a: snekky snek
+|-damage|p1a: snekky snek|45/100
+|move|p1a: snekky snek|Ice Beam|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|-heal|p1a: snekky snek|51/100|[from] item: Leftovers
+|upkeep
+|j| golden alpaca
+|
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|46
+|
+|move|p1a: snekky snek|Recover|p1a: snekky snek
+|-heal|p1a: snekky snek|100/100
+|move|p2a: Reuniclus|Focus Blast|p1a: snekky snek|[miss]
+|-miss|p2a: Reuniclus|p1a: snekky snek
+|
+|upkeep
+|turn|47
+|c|☆UU is for MANS|gg
+|c|☆Lnua|gg
+|c|☆UU is for MANS|such a boring game
+|c|☆Lnua|ok!
+|-message|UU is for MANS forfeited.
+|
+|win|Lnua
+|l|☆UU is for MANS

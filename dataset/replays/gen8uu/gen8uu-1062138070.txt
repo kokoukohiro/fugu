@@ -1,0 +1,366 @@
+|j|☆Xoyjaz
+|j|☆Lilburr
+|player|p1|Xoyjaz|lucas|1638
+|player|p2|Lilburr|lillie|1607
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Mamoswine, M|
+|poke|p1|Haxorus, M|
+|poke|p1|Rhyperior, F|
+|poke|p1|Jellicent, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Arcanine, M|
+|poke|p2|Machamp, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Gigalith, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Weavile, M|
+|poke|p2|Escavalier, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Xoyjaz)
+|
+|start
+|switch|p1a: Haxorus|Haxorus, M, shiny|100/100
+|switch|p2a: Moonlight|Weavile, M|100/100
+|-ability|p2a: Moonlight|Pressure
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|1
+|
+|move|p1a: Haxorus|First Impression|p2a: Moonlight
+|-supereffective|p2a: Moonlight
+|-damage|p2a: Moonlight|0 fnt
+|faint|p2a: Moonlight
+|
+|upkeep
+|
+|switch|p2a: Fighting Back|Machamp, M|100/100
+|turn|2
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Fighting Back|Close Combat|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-status|p2a: Fighting Back|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|move|p2a: Fighting Back|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-enditem|p1a: Jellicent|Leftovers|[from] move: Knock Off|[of] p2a: Fighting Back
+|faint|p1a: Jellicent
+|
+|-damage|p2a: Fighting Back|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|turn|4
+|
+|move|p1a: Salazzle|Sludge Wave|p2a: Fighting Back
+|-damage|p2a: Fighting Back|5/100 brn
+|move|p2a: Fighting Back|Knock Off|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|-enditem|p1a: Salazzle|Choice Specs|[from] move: Knock Off|[of] p2a: Fighting Back
+|faint|p1a: Salazzle
+|
+|-damage|p2a: Fighting Back|0 fnt|[from] brn
+|faint|p2a: Fighting Back
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M, shiny|100/100
+|switch|p2a: Quest|Weezing-Galar, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|5
+|
+|move|p1a: Haxorus|Earthquake|p2a: Quest
+|-supereffective|p2a: Quest
+|-damage|p2a: Quest|48/100
+|move|p2a: Quest|Toxic|p1a: Haxorus
+|-status|p1a: Haxorus|tox
+|
+|-heal|p2a: Quest|54/100|[from] item: Black Sludge
+|-damage|p1a: Haxorus|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Paradise|Vaporeon, F|100/100
+|move|p1a: Haxorus|Earthquake|p2a: Paradise
+|-damage|p2a: Paradise|65/100
+|
+|-heal|p2a: Paradise|71/100|[from] item: Leftovers
+|-damage|p1a: Haxorus|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Haxorus|Outrage|p2a: Paradise
+|-crit|p2a: Paradise
+|-damage|p2a: Paradise|0 fnt
+|faint|p2a: Paradise
+|
+|-damage|p1a: Haxorus|64/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Quest|Weezing-Galar, M|54/100
+|turn|8
+|
+|move|p1a: Haxorus|Outrage|p2a: Quest|[from]lockedmove
+|-immune|p2a: Quest
+|-start|p1a: Haxorus|confusion|[fatigue]
+|move|p2a: Quest|Strange Steam|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|-heal|p2a: Quest|60/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Quest|atk|1
+|turn|9
+|
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Quest
+|-status|p2a: Quest|brn
+|move|p2a: Quest|Toxic|p1a: Arcanine
+|-status|p1a: Arcanine|tox
+|
+|-heal|p2a: Quest|66/100 brn|[from] item: Black Sludge
+|-damage|p1a: Arcanine|94/100 tox|[from] psn
+|-damage|p2a: Quest|60/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Last Chance|Gigalith, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Last Chance
+|move|p1a: Arcanine|Flamethrower|p2a: Last Chance
+|-resisted|p2a: Last Chance
+|-damage|p2a: Last Chance|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arcanine|88/100 tox|[from] Sandstorm
+|-heal|p2a: Last Chance|99/100|[from] item: Leftovers
+|-damage|p1a: Arcanine|75/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Quest|Weezing-Galar, M|60/100 brn
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Quest
+|-fail|p2a: Quest|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arcanine|69/100 tox|[from] Sandstorm
+|-damage|p2a: Quest|54/100 brn|[from] Sandstorm
+|-heal|p2a: Quest|60/100 brn|[from] item: Black Sludge
+|-damage|p1a: Arcanine|50/100 tox|[from] psn
+|-damage|p2a: Quest|54/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Last Chance|Gigalith, F, shiny|99/100
+|move|p1a: Arcanine|Flamethrower|p2a: Last Chance
+|-resisted|p2a: Last Chance
+|-damage|p2a: Last Chance|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arcanine|44/100 tox|[from] Sandstorm
+|-heal|p2a: Last Chance|97/100|[from] item: Leftovers
+|-damage|p1a: Arcanine|19/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p1a: Bombaclat|Mamoswine, M|100/100
+|move|p2a: Last Chance|Protect||[still]
+|-fail|p2a: Last Chance
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Last Chance|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Quest|Weezing-Galar, M|54/100 brn
+|move|p1a: Bombaclat|Earthquake|p2a: Quest
+|-immune|p2a: Quest|[from] ability: Levitate
+|
+|-weather|none
+|-heal|p2a: Quest|60/100 brn|[from] item: Black Sludge
+|-damage|p2a: Quest|54/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Bombaclat|Stone Edge|p2a: Quest|[miss]
+|-miss|p1a: Bombaclat|p2a: Quest
+|move|p2a: Quest|Toxic|p1a: Bombaclat
+|-status|p1a: Bombaclat|tox
+|
+|-heal|p2a: Quest|60/100 brn|[from] item: Black Sludge
+|-damage|p1a: Bombaclat|94/100 tox|[from] psn
+|-damage|p2a: Quest|54/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Last Chance|Gigalith, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Last Chance
+|move|p1a: Bombaclat|Stone Edge|p2a: Last Chance
+|-damage|p2a: Last Chance|64/100
+|-damage|p1a: Bombaclat|84/100 tox|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Last Chance|70/100|[from] item: Leftovers
+|-damage|p1a: Bombaclat|72/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Last Chance|Protect|p2a: Last Chance
+|-singleturn|p2a: Last Chance|Protect
+|move|p1a: Bombaclat|Icicle Crash|p2a: Last Chance
+|-activate|p2a: Last Chance|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Last Chance|76/100|[from] item: Leftovers
+|-damage|p1a: Bombaclat|54/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Quest|Weezing-Galar, M|54/100 brn
+|move|p1a: Bombaclat|Earthquake|p2a: Quest
+|-immune|p2a: Quest|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Quest|48/100 brn|[from] Sandstorm
+|-heal|p2a: Quest|54/100 brn|[from] item: Black Sludge
+|-damage|p1a: Bombaclat|30/100 tox|[from] psn
+|-damage|p2a: Quest|48/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Bombaclat|Earthquake|p2a: Quest
+|-immune|p2a: Quest|[from] ability: Levitate
+|move|p2a: Quest|Strange Steam|p1a: Bombaclat
+|-damage|p1a: Bombaclat|0 fnt
+|faint|p1a: Bombaclat
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Quest|42/100 brn|[from] Sandstorm
+|-heal|p2a: Quest|48/100 brn|[from] item: Black Sludge
+|-damage|p2a: Quest|42/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|turn|20
+|
+|move|p2a: Quest|Toxic|p1a: Rhyperior
+|-status|p1a: Rhyperior|tox
+|move|p1a: Rhyperior|Rock Blast|p2a: Quest
+|-crit|p2a: Quest
+|-damage|p2a: Quest|28/100 brn
+|-damage|p2a: Quest|19/100 brn
+|-damage|p2a: Quest|10/100 brn
+|-hitcount|p2a: Quest|3
+|
+|-weather|none
+|-heal|p2a: Quest|16/100 brn|[from] item: Black Sludge
+|-damage|p2a: Quest|10/100 brn|[from] brn
+|-damage|p1a: Rhyperior|94/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Quest|Strange Steam|p1a: Rhyperior
+|-damage|p1a: Rhyperior|60/100 tox
+|move|p1a: Rhyperior|Earthquake|p2a: Quest
+|-immune|p2a: Quest|[from] ability: Levitate
+|
+|-heal|p2a: Quest|16/100 brn|[from] item: Black Sludge
+|-heal|p1a: Rhyperior|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Quest|10/100 brn|[from] brn
+|-damage|p1a: Rhyperior|53/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Quest|Strange Steam|p1a: Rhyperior
+|-damage|p1a: Rhyperior|18/100 tox
+|move|p1a: Rhyperior|Rock Blast|p2a: Quest
+|-damage|p2a: Quest|2/100 brn
+|-damage|p2a: Quest|0 fnt
+|-hitcount|p2a: Quest|2
+|faint|p2a: Quest
+|
+|-heal|p1a: Rhyperior|24/100 tox|[from] item: Leftovers
+|-damage|p1a: Rhyperior|5/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Crusader|Escavalier, F|100/100
+|turn|23
+|
+|move|p1a: Rhyperior|Earthquake|p2a: Crusader
+|-damage|p2a: Crusader|54/100
+|move|p2a: Crusader|Iron Head|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-heal|p2a: Crusader|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Arcanine|Arcanine, M|19/100 tox
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Crusader|atk|1
+|turn|24
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|69/100 tox
+|move|p2a: Crusader|Knock Off|p1a: Arcanine
+|-damage|p1a: Arcanine|53/100 tox
+|-enditem|p1a: Arcanine|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Crusader
+|
+|-heal|p2a: Crusader|66/100|[from] item: Leftovers
+|-damage|p1a: Arcanine|47/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Crusader
+|-supereffective|p2a: Crusader
+|-damage|p2a: Crusader|0 fnt
+|faint|p2a: Crusader
+|
+|-damage|p1a: Arcanine|34/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Last Chance|Gigalith, F, shiny|76/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Last Chance
+|turn|26
+|l|☆Xoyjaz
+|inactive|Xoyjaz disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆Xoyjaz
+|inactive|Xoyjaz reconnected and has 130 seconds left.
+|player|p1|Xoyjaz|lucas
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Last Chance
+|-resisted|p2a: Last Chance
+|-damage|p2a: Last Chance|69/100
+|-status|p2a: Last Chance|brn
+|move|p2a: Last Chance|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|12/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arcanine|6/100 tox|[from] Sandstorm
+|-heal|p2a: Last Chance|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Arcanine|0 fnt|[from] psn
+|faint|p1a: Arcanine
+|
+|win|Lilburr
+|upkeep
+|l|☆Xoyjaz

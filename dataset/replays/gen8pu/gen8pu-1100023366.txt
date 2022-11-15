@@ -1,0 +1,476 @@
+|j|☆Lambovino
+|j|☆ayo bb
+|player|p1|Lambovino|aetherfoundation|1489
+|player|p2|ayo bb|170|1433
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Basculin-Blue-Striped, M|
+|poke|p1|Manectric, M|
+|poke|p1|Carkol, F|
+|poke|p1|Klang|
+|poke|p1|Gourgeist-*, M|
+|poke|p1|Silvally-*|
+|poke|p2|Gourgeist-*, M|
+|poke|p2|Vibrava, F|
+|poke|p2|Stonjourner, F|
+|poke|p2|Rufflet, M|
+|poke|p2|Duosion, F|
+|poke|p2|Klang|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Lambovino|hf
+|
+|start
+|switch|p1a: Manectric|Manectric, M|100/100
+|switch|p2a: Duosion|Duosion, F|100/100
+|turn|1
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Duosion
+|-damage|p2a: Duosion|73/100
+|move|p2a: Duosion|Future Sight|p1a: Manectric
+|-start|p2a: Duosion|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Vibrava|Vibrava, F|100/100
+|move|p1a: Manectric|Toxic|p2a: Vibrava
+|-status|p2a: Vibrava|tox
+|
+|-damage|p2a: Vibrava|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|j| secretserenegrace
+|
+|move|p1a: Manectric|Protect|p1a: Manectric
+|-singleturn|p1a: Manectric|Protect
+|move|p2a: Vibrava|Earthquake|p1a: Manectric
+|-activate|p1a: Manectric|move: Protect
+|
+|-end|p1a: Manectric|move: Future Sight
+|-damage|p1a: Manectric|7/100
+|-heal|p1a: Manectric|13/100|[from] item: Leftovers
+|-damage|p2a: Vibrava|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Gourgeist|Gourgeist, M|100/100
+|move|p2a: Vibrava|U-turn|p1a: Gourgeist
+|-damage|p1a: Gourgeist|92/100
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100|[from]move: U-turn
+|-item|p1a: Gourgeist|Colbur Berry|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Klang|Klang|100/100
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Klang
+|-status|p1a: Klang|brn
+|
+|-damage|p1a: Klang|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Gourgeist|Worry Seed|p1a: Klang
+|-endability|p1a: Klang|Clear Body|[from] move: Worry Seed
+|-ability|p1a: Klang|Insomnia|[from] move: Worry Seed
+|move|p1a: Klang|Volt Switch|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|94/100
+|
+|switch|p1a: Carkol|Carkol, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Duosion|Duosion, F|100/100
+|move|p1a: Carkol|Stealth Rock|p2a: Duosion
+|-sidestart|p2: ayo bb|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Klang|Klang|94/100 brn
+|move|p2a: Duosion|Future Sight|p1a: Klang
+|-start|p2a: Duosion|move: Future Sight
+|
+|-damage|p1a: Klang|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Klang|Volt Switch|p2a: Duosion
+|-crit|p2a: Duosion
+|-damage|p2a: Duosion|89/100
+|
+|switch|p1a: Gourgeist|Gourgeist, M|92/100|[from]move: Volt Switch
+|move|p2a: Duosion|Psychic|p1a: Gourgeist
+|-damage|p1a: Gourgeist|45/100
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Klang|Klang|88/100 brn
+|move|p2a: Duosion|Psychic|p1a: Klang
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|77/100 brn
+|
+|-end|p1a: Klang|move: Future Sight
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|64/100 brn
+|-damage|p1a: Klang|58/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Klang|Gear Grind|p2a: Duosion
+|-damage|p2a: Duosion|81/100
+|-damage|p2a: Duosion|72/100
+|-hitcount|p2a: Duosion|2
+|move|p2a: Duosion|Future Sight|p1a: Klang
+|-start|p2a: Duosion|move: Future Sight
+|
+|-damage|p1a: Klang|52/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Klang|Gear Grind|p2a: Duosion
+|-damage|p2a: Duosion|63/100
+|-damage|p2a: Duosion|55/100
+|-hitcount|p2a: Duosion|2
+|move|p2a: Duosion|Psychic|p1a: Klang
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|42/100 brn
+|
+|-damage|p1a: Klang|36/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Klang|Rest|p1a: Klang
+|-status|p1a: Klang|slp|[from] move: Rest
+|-heal|p1a: Klang|100/100 slp|[silent]
+|move|p2a: Duosion|Recover|p2a: Duosion
+|-heal|p2a: Duosion|100/100
+|
+|-end|p1a: Klang|move: Future Sight
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|86/100 slp
+|upkeep
+|turn|14
+|
+|cant|p1a: Klang|slp
+|move|p2a: Duosion|Future Sight|p1a: Klang
+|-start|p2a: Duosion|move: Future Sight
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Stonjourner|Stonjourner, F|100/100
+|-damage|p2a: Stonjourner|88/100|[from] Stealth Rock
+|cant|p1a: Klang|slp
+|
+|-heal|p2a: Stonjourner|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Stonjourner|Heat Crash|p1a: Klang
+|-supereffective|p1a: Klang
+|-damage|p1a: Klang|23/100 slp
+|-curestatus|p1a: Klang|slp|[msg]
+|move|p1a: Klang|Gear Grind|p2a: Stonjourner
+|-supereffective|p2a: Stonjourner
+|-damage|p2a: Stonjourner|69/100
+|-supereffective|p2a: Stonjourner
+|-damage|p2a: Stonjourner|46/100
+|-hitcount|p2a: Stonjourner|2
+|
+|-end|p1a: Klang|move: Future Sight
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|9/100
+|-heal|p2a: Stonjourner|52/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Silvally|Silvally-Dragon|100/100
+|move|p2a: Stonjourner|Stealth Rock|p1a: Silvally
+|-sidestart|p1: Lambovino|move: Stealth Rock
+|
+|-heal|p2a: Stonjourner|58/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Stonjourner|Stone Edge|p1a: Silvally
+|-damage|p1a: Silvally|50/100
+|
+|-heal|p2a: Stonjourner|64/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Stonjourner
+|-damage|p2a: Stonjourner|0 fnt
+|faint|p2a: Stonjourner
+|
+|upkeep
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|94/100
+|-damage|p2a: Gourgeist|82/100|[from] Stealth Rock
+|-item|p1a: Silvally|Dragon Memory|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|20
+|
+|move|p1a: Silvally|U-turn|p2a: Gourgeist
+|-damage|p2a: Gourgeist|59/100
+|
+|switch|p1a: Carkol|Carkol, F|100/100|[from]move: U-turn
+|-damage|p1a: Carkol|76/100|[from] Stealth Rock
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Carkol
+|-immune|p1a: Carkol
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|100/100
+|move|p1a: Carkol|Rapid Spin|p2a: Gourgeist
+|-immune|p2a: Gourgeist
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Gourgeist|Power Whip|p1a: Carkol
+|-damage|p1a: Carkol|55/100
+|move|p1a: Carkol|Flamethrower|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|48/100
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|98/100
+|move|p1a: Carkol|Rapid Spin|p2a: Gourgeist
+|-immune|p2a: Gourgeist
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Vibrava|Vibrava, F|82/100 tox
+|-damage|p2a: Vibrava|75/100 tox|[from] Stealth Rock
+|move|p1a: Carkol|Flamethrower|p2a: Vibrava
+|-resisted|p2a: Vibrava
+|-damage|p2a: Vibrava|61/100 tox
+|
+|-damage|p2a: Vibrava|55/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p1a: Silvally|Silvally-Dragon|50/100
+|-damage|p1a: Silvally|37/100|[from] Stealth Rock
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|100/100 tox
+|-singleturn|p2a: Vibrava|move: Roost
+|
+|-damage|p2a: Vibrava|88/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Klang|Klang|100/100
+|-damage|p2a: Klang|94/100|[from] Stealth Rock
+|move|p1a: Silvally|Multi-Attack|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|76/100
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Silvally|U-turn|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|69/100
+|
+|switch|p1a: Carkol|Carkol, F|55/100|[from]move: U-turn
+|-damage|p1a: Carkol|30/100|[from] Stealth Rock
+|move|p2a: Klang|Gear Grind|p1a: Carkol|[miss]
+|-miss|p2a: Klang|p1a: Carkol
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Klang|Gear Grind|p1a: Carkol
+|-damage|p1a: Carkol|21/100
+|-status|p2a: Klang|brn|[from] ability: Flame Body|[of] p1a: Carkol
+|-damage|p1a: Carkol|17/100
+|-hitcount|p1a: Carkol|2
+|move|p1a: Carkol|Rapid Spin|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|67/100 brn
+|-boost|p1a: Carkol|spe|1
+|-sideend|p1: Lambovino|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Carkol
+|
+|-damage|p2a: Klang|61/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p2a: Vibrava|Vibrava, F|88/100 tox
+|-damage|p2a: Vibrava|82/100 tox|[from] Stealth Rock
+|move|p1a: Carkol|Flamethrower|p2a: Vibrava
+|-resisted|p2a: Vibrava
+|-damage|p2a: Vibrava|69/100 tox
+|
+|-damage|p2a: Vibrava|63/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|switch|p1a: Manectric|Manectric, M|13/100
+|move|p2a: Vibrava|Defog|p1a: Manectric
+|-unboost|p1a: Manectric|evasion|1
+|-sideend|p2: ayo bb|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|
+|-heal|p1a: Manectric|19/100|[from] item: Leftovers
+|-damage|p2a: Vibrava|50/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p2a: Duosion|Duosion, F|100/100
+|move|p1a: Manectric|Protect||[still]
+|-fail|p1a: Manectric
+|
+|-heal|p1a: Manectric|25/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Klang|Klang|9/100
+|move|p2a: Duosion|Psychic|p1a: Klang
+|-resisted|p1a: Klang
+|-damage|p1a: Klang|0 fnt
+|faint|p1a: Klang
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Dragon|37/100
+|turn|33
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Duosion
+|-damage|p2a: Duosion|43/100
+|move|p2a: Duosion|Psychic|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Basculin-Blue-Stri|Basculin-Blue-Striped, M|100/100
+|turn|34
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|98/100
+|-item|p1a: Basculin-Blue-Stri|Life Orb|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Basculin-Blue-Stri|Liquidation|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|80/100
+|-damage|p1a: Basculin-Blue-Stri|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: Carkol|Carkol, F|17/100
+|move|p2a: Gourgeist|Power Whip|p1a: Carkol|[miss]
+|-miss|p2a: Gourgeist|p1a: Carkol
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Gourgeist|Power Whip|p1a: Carkol
+|-crit|p1a: Carkol
+|-damage|p1a: Carkol|0 fnt
+|faint|p1a: Carkol
+|
+|upkeep
+|
+|switch|p1a: Gourgeist|Gourgeist, M|45/100
+|turn|37
+|
+|move|p1a: Gourgeist|Toxic|p2a: Gourgeist
+|-status|p2a: Gourgeist|tox
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Gourgeist
+|-status|p1a: Gourgeist|brn
+|
+|-damage|p1a: Gourgeist|39/100 brn|[from] brn
+|-damage|p2a: Gourgeist|74/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|switch|p2a: Rufflet|Rufflet, M|100/100
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|88/100 brn
+|
+|-damage|p1a: Gourgeist|82/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Gourgeist|Toxic|p2a: Rufflet
+|-status|p2a: Rufflet|tox
+|move|p2a: Rufflet|Agility|p2a: Rufflet
+|-boost|p2a: Rufflet|spe|2
+|
+|-damage|p2a: Rufflet|94/100 tox|[from] psn
+|-damage|p1a: Gourgeist|76/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Rufflet|Brave Bird|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|-damage|p2a: Rufflet|65/100 tox|[from] Recoil
+|faint|p1a: Gourgeist
+|
+|-damage|p2a: Rufflet|53/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, M|25/100
+|turn|41
+|
+|move|p1a: Manectric|Protect|p1a: Manectric
+|-singleturn|p1a: Manectric|Protect
+|move|p2a: Rufflet|Roost|p2a: Rufflet
+|-heal|p2a: Rufflet|100/100 tox
+|-singleturn|p2a: Rufflet|move: Roost
+|
+|-heal|p1a: Manectric|31/100|[from] item: Leftovers
+|-damage|p2a: Rufflet|82/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|move|p1a: Manectric|Protect||[still]
+|-fail|p1a: Manectric
+|move|p2a: Rufflet|Brave Bird|p1a: Manectric
+|-resisted|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|-damage|p2a: Rufflet|72/100 tox|[from] Recoil
+|faint|p1a: Manectric
+|
+|-damage|p2a: Rufflet|48/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Basculin-Blue-Stri|Basculin-Blue-Striped, M|91/100
+|turn|43
+|
+|move|p1a: Basculin-Blue-Stri|Aqua Jet|p2a: Rufflet
+|-damage|p2a: Rufflet|8/100 tox
+|-damage|p1a: Basculin-Blue-Stri|81/100|[from] item: Life Orb
+|move|p2a: Rufflet|Brave Bird|p1a: Basculin-Blue-Stri
+|-damage|p1a: Basculin-Blue-Stri|0 fnt
+|-damage|p2a: Rufflet|0 fnt|[from] Recoil
+|faint|p1a: Basculin-Blue-Stri
+|faint|p2a: Rufflet
+|
+|win|ayo bb
+|l|☆Lambovino

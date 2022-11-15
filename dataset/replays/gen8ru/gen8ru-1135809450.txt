@@ -1,0 +1,565 @@
+|j|☆NebbyGetInTheBag
+|j|☆laprascancer
+|player|p1|NebbyGetInTheBag|lillie|1353
+|player|p2|laprascancer|morty-gen2|1571
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Dhelmise|
+|poke|p1|Thievul, M|
+|poke|p1|Coalossal, F|
+|poke|p1|Duraludon, M|
+|poke|p1|Lanturn, M|
+|poke|p2|Vileplume, M|
+|poke|p2|Snorlax, F|
+|poke|p2|Steelix, M|
+|poke|p2|Passimian, M|
+|poke|p2|Silvally-*|
+|poke|p2|Rotom|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|switch|p2a: Rotom|Rotom|100/100
+|turn|1
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Lanturn|[miss]
+|-miss|p2a: Rotom|p1a: Lanturn
+|move|p1a: Lanturn|Ice Beam|p2a: Rotom
+|-damage|p2a: Rotom|67/100
+|
+|-heal|p2a: Rotom|72/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Lanturn
+|-status|p1a: Lanturn|brn
+|move|p1a: Lanturn|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|51/100
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100|[from]move: Volt Switch
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|-heal|p2a: Rotom|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|95/100
+|
+|switch|p1a: Lanturn|Lanturn, M|100/100 brn|[from]move: U-turn
+|
+|-heal|p2a: Steelix|100/100|[from] item: Leftovers
+|-damage|p1a: Lanturn|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Lanturn|Scald|p2a: Snorlax
+|-damage|p2a: Snorlax|85/100
+|
+|-heal|p1a: Lanturn|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Snorlax|91/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|97/100|[from] Grassy Terrain
+|-damage|p1a: Lanturn|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Lanturn|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|move|p2a: Snorlax|Body Slam|p1a: Lanturn
+|-damage|p1a: Lanturn|54/100 brn
+|
+|-heal|p1a: Lanturn|61/100 brn|[from] item: Leftovers
+|-heal|p1a: Lanturn|67/100 brn|[from] Grassy Terrain
+|-heal|p2a: Snorlax|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Lanturn|61/100 brn|[from] brn
+|-damage|p2a: Snorlax|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Lanturn|Volt Switch|p2a: Snorlax
+|-damage|p2a: Snorlax|83/100 tox
+|
+|switch|p1a: Coalossal|Coalossal, F|100/100|[from]move: Volt Switch
+|move|p2a: Snorlax|Body Slam|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|89/100
+|-status|p1a: Coalossal|par
+|
+|-heal|p2a: Snorlax|89/100 tox|[from] item: Leftovers
+|-heal|p2a: Snorlax|95/100 tox|[from] Grassy Terrain
+|-heal|p1a: Coalossal|96/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Snorlax|83/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Coalossal|Flamethrower|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|48/100
+|
+|-heal|p2a: Steelix|54/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Steelix|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: NebbyGetInTheBag|move: Stealth Rock
+|
+|-heal|p2a: Steelix|60/100|[from] item: Leftovers
+|-heal|p2a: Steelix|67/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|74/100
+|
+|switch|p1a: Coalossal|Coalossal, F|96/100 par|[from]move: U-turn
+|
+|-heal|p2a: Vileplume|80/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|86/100|[from] Grassy Terrain
+|-heal|p1a: Coalossal|100/100 par|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|switch|p2a: Rotom|Rotom|57/100
+|move|p1a: Coalossal|Spikes|p2a: Rotom
+|-sidestart|p2: laprascancer|Spikes
+|
+|-heal|p2a: Rotom|63/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Rotom|Hex|p1a: Coalossal
+|-damage|p1a: Coalossal|62/100 par
+|move|p1a: Coalossal|Rock Tomb|p2a: Rotom
+|-damage|p2a: Rotom|41/100
+|-unboost|p2a: Rotom|spe|1
+|
+|-heal|p2a: Rotom|47/100|[from] item: Leftovers
+|-heal|p1a: Coalossal|69/100 par|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Hex|p1a: Coalossal
+|-damage|p1a: Coalossal|30/100 par
+|cant|p1a: Coalossal|par
+|
+|-heal|p2a: Rotom|53/100|[from] item: Leftovers
+|-heal|p1a: Coalossal|36/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|
+|switch|p1a: Thievul|Thievul, M|100/100
+|-damage|p1a: Thievul|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Hex|p1a: Thievul
+|-resisted|p1a: Thievul
+|-damage|p1a: Thievul|70/100
+|
+|-heal|p2a: Rotom|59/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|-damage|p2a: Silvally|88/100|[from] Spikes
+|move|p1a: Thievul|Dark Pulse|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|68/100
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Coalossal|Coalossal, F|36/100 par
+|move|p2a: Silvally|Multi-Attack|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|19/100 par
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Silvally|Rock Slide|p1a: Coalossal|[miss]
+|-miss|p2a: Silvally|p1a: Coalossal
+|cant|p1a: Coalossal|par
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Davy Jones|Dhelmise|100/100
+|-damage|p1a: Davy Jones|88/100|[from] Stealth Rock
+|move|p2a: Silvally|Rock Slide|p1a: Davy Jones
+|-damage|p1a: Davy Jones|67/100
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Silvally|U-turn|p1a: Davy Jones
+|-damage|p1a: Davy Jones|48/100
+|
+|switch|p2a: Rotom|Rotom|59/100|[from]move: U-turn
+|move|p1a: Davy Jones|Rapid Spin|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|-heal|p2a: Rotom|65/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Rotom|Hex|p1a: Davy Jones
+|-supereffective|p1a: Davy Jones
+|-damage|p1a: Davy Jones|1/100
+|move|p1a: Davy Jones|Poltergeist|p2a: Rotom
+|-activate|p2a: Rotom|move: Poltergeist|Leftovers
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, M, shiny|100/100
+|-damage|p2a: Passimian|88/100|[from] Spikes
+|turn|20
+|
+|move|p2a: Passimian|U-turn|p1a: Davy Jones
+|-crit|p1a: Davy Jones
+|-damage|p1a: Davy Jones|0 fnt
+|faint|p1a: Davy Jones
+|
+|switch|p2a: Snorlax|Snorlax, F|83/100 tox|[from]move: U-turn
+|-damage|p2a: Snorlax|70/100 tox|[from] Spikes
+|
+|-heal|p2a: Snorlax|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|70/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|21
+|
+|switch|p2a: Vileplume|Vileplume, M|86/100
+|-damage|p2a: Vileplume|74/100|[from] Spikes
+|move|p1a: Rillaboom|U-turn|p2a: Vileplume
+|-damage|p2a: Vileplume|54/100
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100|[from]move: U-turn
+|-damage|p1a: Duraludon|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Duraludon|100/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|60/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|67/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|switch|p2a: Snorlax|Snorlax, F|70/100 tox
+|-damage|p2a: Snorlax|58/100 tox|[from] Spikes
+|move|p1a: Duraludon|Thunder Wave||[still]
+|-fail|p1a: Duraludon
+|
+|-heal|p2a: Snorlax|64/100 tox|[from] item: Leftovers
+|-heal|p2a: Snorlax|70/100 tox|[from] Grassy Terrain
+|-damage|p2a: Snorlax|64/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Duraludon|Body Press|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|17/100 tox
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Passimian|Passimian, M, shiny|88/100
+|-damage|p2a: Passimian|76/100|[from] Spikes
+|move|p1a: Duraludon|Stealth Rock|p2a: Passimian
+|-sidestart|p2: laprascancer|move: Stealth Rock
+|
+|-heal|p2a: Passimian|82/100|[from] Grassy Terrain
+|upkeep
+|turn|25
+|
+|move|p2a: Passimian|Close Combat|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|13/100
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|move|p1a: Duraludon|Thunder Wave|p2a: Passimian
+|-status|p2a: Passimian|par
+|
+|-heal|p2a: Passimian|88/100 par|[from] Grassy Terrain
+|-heal|p1a: Duraludon|19/100|[from] item: Leftovers
+|-heal|p1a: Duraludon|25/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|26
+|
+|switch|p2a: Steelix|Steelix, M|67/100
+|-damage|p2a: Steelix|54/100|[from] Spikes
+|-damage|p2a: Steelix|51/100|[from] Stealth Rock
+|switch|p1a: Coalossal|Coalossal, F|19/100 par
+|
+|-heal|p2a: Steelix|57/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Rillaboom|Rillaboom, M|88/100
+|-damage|p1a: Rillaboom|76/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Steelix|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|68/100
+|
+|-heal|p1a: Rillaboom|74/100|[from] Grassy Terrain
+|-heal|p2a: Steelix|63/100|[from] item: Leftovers
+|-heal|p2a: Steelix|70/100|[from] Grassy Terrain
+|upkeep
+|turn|28
+|
+|move|p1a: Rillaboom|Wood Hammer|p2a: Steelix
+|-damage|p2a: Steelix|29/100
+|-damage|p1a: Rillaboom|60/100|[from] Recoil
+|move|p2a: Steelix|Heavy Slam|p1a: Rillaboom
+|-damage|p1a: Rillaboom|26/100
+|
+|-heal|p1a: Rillaboom|32/100|[from] Grassy Terrain
+|-heal|p2a: Steelix|35/100|[from] item: Leftovers
+|-heal|p2a: Steelix|41/100|[from] Grassy Terrain
+|upkeep
+|turn|29
+|
+|switch|p1a: Coalossal|Coalossal, F|19/100 par
+|switch|p2a: Vileplume|Vileplume, M|67/100
+|-damage|p2a: Vileplume|54/100|[from] Spikes
+|-damage|p2a: Vileplume|42/100|[from] Stealth Rock
+|
+|-heal|p2a: Vileplume|48/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|54/100|[from] Grassy Terrain
+|-heal|p1a: Coalossal|25/100 par|[from] Grassy Terrain
+|upkeep
+|turn|30
+|
+|move|p2a: Vileplume|Giga Drain|p1a: Coalossal
+|-damage|p1a: Coalossal|1/100 par
+|-heal|p2a: Vileplume|67/100|[from] drain|[of] p1a: Coalossal
+|move|p1a: Coalossal|Rapid Spin|p2a: Vileplume
+|-damage|p2a: Vileplume|61/100
+|-boost|p1a: Coalossal|spe|1
+|-sideend|p1: NebbyGetInTheBag|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Coalossal
+|
+|-heal|p2a: Vileplume|67/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|74/100|[from] Grassy Terrain
+|-heal|p1a: Coalossal|8/100 par|[from] Grassy Terrain
+|upkeep
+|turn|31
+|
+|move|p2a: Vileplume|Giga Drain|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|-heal|p2a: Vileplume|78/100|[from] drain|[of] p1a: Coalossal
+|faint|p1a: Coalossal
+|
+|-heal|p2a: Vileplume|84/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|90/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|switch|p1a: Duraludon|Duraludon, M|25/100
+|turn|32
+|
+|switch|p2a: Silvally|Silvally-Fairy|68/100
+|-damage|p2a: Silvally|56/100|[from] Spikes
+|-damage|p2a: Silvally|43/100|[from] Stealth Rock
+|move|p1a: Duraludon|Flash Cannon|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-heal|p1a: Duraludon|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, M, shiny|88/100 par
+|-damage|p2a: Passimian|82/100 par|[from] Stealth Rock
+|-damage|p2a: Passimian|70/100 par|[from] Spikes
+|turn|33
+|
+|switch|p1a: Lanturn|Lanturn, M|61/100 brn
+|move|p2a: Passimian|Close Combat|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|faint|p1a: Lanturn
+|
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, M|32/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|34
+|
+|switch|p2a: Vileplume|Vileplume, M|90/100
+|-damage|p2a: Vileplume|78/100|[from] Spikes
+|-damage|p2a: Vileplume|65/100|[from] Stealth Rock
+|move|p1a: Rillaboom|Wood Hammer|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|49/100
+|-damage|p1a: Rillaboom|26/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|32/100|[from] Grassy Terrain
+|-heal|p2a: Vileplume|55/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|62/100|[from] Grassy Terrain
+|upkeep
+|turn|35
+|
+|switch|p1a: Duraludon|Duraludon, M|31/100
+|move|p2a: Vileplume|Giga Drain|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|17/100
+|-heal|p2a: Vileplume|68/100|[from] drain|[of] p1a: Duraludon
+|
+|-heal|p1a: Duraludon|24/100|[from] item: Leftovers
+|-heal|p1a: Duraludon|30/100|[from] Grassy Terrain
+|-heal|p2a: Vileplume|75/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|81/100|[from] Grassy Terrain
+|upkeep
+|turn|36
+|
+|move|p1a: Duraludon|Flash Cannon|p2a: Vileplume
+|-damage|p2a: Vileplume|45/100
+|move|p2a: Vileplume|Giga Drain|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|14/100
+|-heal|p2a: Vileplume|52/100|[from] drain|[of] p1a: Duraludon
+|
+|-heal|p1a: Duraludon|21/100|[from] item: Leftovers
+|-heal|p1a: Duraludon|27/100|[from] Grassy Terrain
+|-heal|p2a: Vileplume|58/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|65/100|[from] Grassy Terrain
+|upkeep
+|turn|37
+|
+|move|p1a: Duraludon|Flash Cannon|p2a: Vileplume
+|-damage|p2a: Vileplume|32/100
+|move|p2a: Vileplume|Giga Drain|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|13/100
+|-heal|p2a: Vileplume|39/100|[from] drain|[of] p1a: Duraludon
+|
+|-heal|p1a: Duraludon|19/100|[from] item: Leftovers
+|-heal|p1a: Duraludon|25/100|[from] Grassy Terrain
+|-heal|p2a: Vileplume|45/100|[from] item: Black Sludge
+|-heal|p2a: Vileplume|52/100|[from] Grassy Terrain
+|upkeep
+|turn|38
+|
+|move|p1a: Duraludon|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|move|p2a: Vileplume|Strength Sap|p1a: Duraludon
+|-unboost|p1a: Duraludon|atk|1
+|-heal|p2a: Vileplume|100/100 par
+|
+|-heal|p1a: Duraludon|31/100|[from] item: Leftovers
+|-heal|p1a: Duraludon|37/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|39
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100 slp
+|-damage|p2a: Snorlax|88/100 slp|[from] Stealth Rock
+|-damage|p2a: Snorlax|76/100 slp|[from] Spikes
+|move|p1a: Duraludon|Flash Cannon|p2a: Snorlax
+|-damage|p2a: Snorlax|63/100 slp
+|
+|-heal|p1a: Duraludon|43/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|69/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Duraludon|Body Press|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|20/100 slp
+|cant|p2a: Snorlax|slp
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|move|p2a: Snorlax|Curse|p2a: Snorlax|[from]Sleep Talk
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Duraludon|49/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|26/100 slp|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Duraludon|Body Press|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|-heal|p1a: Duraludon|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, M, shiny|70/100 par
+|-damage|p2a: Passimian|64/100 par|[from] Stealth Rock
+|-damage|p2a: Passimian|51/100 par|[from] Spikes
+|turn|42
+|
+|switch|p1a: Rillaboom|Rillaboom, M|32/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Passimian|Close Combat|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Passimian|57/100 par|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Thievul|Thievul, M|70/100
+|-enditem|p1a: Thievul|Grassy Seed
+|-boost|p1a: Thievul|def|1|[from] item: Grassy Seed
+|turn|43
+|
+|move|p1a: Thievul|Psychic|p2a: Passimian
+|-supereffective|p2a: Passimian
+|-damage|p2a: Passimian|0 fnt
+|faint|p2a: Passimian
+|
+|-heal|p1a: Thievul|76/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p2a: Steelix|Steelix, M|41/100
+|-damage|p2a: Steelix|29/100|[from] Spikes
+|-damage|p2a: Steelix|26/100|[from] Stealth Rock
+|turn|44
+|
+|move|p1a: Thievul|Burning Jealousy|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|-heal|p1a: Thievul|82/100|[from] Grassy Terrain
+|upkeep
+|-message|laprascancer forfeited.
+|
+|win|NebbyGetInTheBag
+|l|☆laprascancer
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

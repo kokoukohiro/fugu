@@ -1,0 +1,336 @@
+|j|☆kingqueso141
+|j|☆Bray456
+|t:|1614037411
+|player|p1|kingqueso141|169|1168
+|player|p2|Bray456|102|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Virizion|
+|poke|p1|Claydol|
+|poke|p1|Vaporeon, M|
+|poke|p1|Silvally-*|
+|poke|p1|Braviary, M|
+|poke|p1|Togedemaru, M|
+|poke|p2|Carracosta, M|
+|poke|p2|Metang|
+|poke|p2|Heliolisk, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Bellossom, M|
+|poke|p2|Archeops, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bray456)
+|
+|t:|1614037421
+|start
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|turn|1
+|
+|t:|1614037428
+|move|p1a: Togedemaru|Spiky Shield|p1a: Togedemaru
+|-singleturn|p1a: Togedemaru|move: Protect
+|move|p2a: Torkoal|Stealth Rock|p1a: Togedemaru
+|-sidestart|p1: kingqueso141|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1614037435
+|move|p1a: Togedemaru|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|95/100
+|
+|t:|1614037438
+|switch|p1a: Vaporeon|Vaporeon, M|100/100|[from]move: U-turn
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|move|p2a: Torkoal|Will-O-Wisp|p1a: Vaporeon
+|-status|p1a: Vaporeon|brn
+|
+|-heal|p1a: Vaporeon|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1614037452
+|switch|p2a: Bellossom|Bellossom, M|100/100
+|move|p1a: Vaporeon|Toxic|p2a: Bellossom|[miss]
+|-miss|p1a: Vaporeon|p2a: Bellossom
+|
+|-heal|p1a: Vaporeon|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1614037463
+|switch|p1a: Virizion|Virizion, shiny|100/100
+|-damage|p1a: Virizion|94/100|[from] Stealth Rock
+|move|p2a: Bellossom|Leech Seed|p1a: Virizion
+|-immune|p1a: Virizion
+|
+|upkeep
+|turn|5
+|
+|t:|1614037480
+|move|p1a: Virizion|Focus Blast|p2a: Bellossom
+|-damage|p2a: Bellossom|20/100
+|-damage|p1a: Virizion|84/100|[from] item: Life Orb
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|-heal|p2a: Bellossom|26/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1614037495
+|move|p1a: Virizion|Air Slash|p2a: Bellossom
+|-supereffective|p2a: Bellossom
+|-damage|p2a: Bellossom|0 fnt
+|-damage|p1a: Virizion|74/100|[from] item: Life Orb
+|faint|p2a: Bellossom
+|
+|upkeep
+|
+|t:|1614037502
+|switch|p2a: Metang|Metang|100/100
+|turn|7
+|
+|t:|1614037510
+|switch|p1a: Claydol|Claydol|100/100
+|-damage|p1a: Claydol|94/100|[from] Stealth Rock
+|move|p2a: Metang|Power-Up Punch|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|90/100
+|-boost|p2a: Metang|atk|1
+|
+|upkeep
+|turn|8
+|
+|t:|1614037520
+|move|p1a: Claydol|Earth Power|p2a: Metang
+|-supereffective|p2a: Metang
+|-damage|p2a: Metang|63/100
+|move|p2a: Metang|Ice Punch|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|45/100
+|
+|upkeep
+|turn|9
+|
+|t:|1614037532
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|move|p2a: Metang|Ice Punch|p1a: Silvally
+|-damage|p1a: Silvally|65/100
+|
+|upkeep
+|turn|10
+|
+|t:|1614037541
+|move|p1a: Silvally|Parting Shot|p2a: Metang
+|-fail|p2a: Metang|unboost|[from] ability: Clear Body|[of] p2a: Metang
+|move|p2a: Metang|Iron Head|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|t:|1614037548
+|switch|p1a: Vaporeon|Vaporeon, M|88/100 brn
+|-damage|p1a: Vaporeon|75/100 brn|[from] Stealth Rock
+|turn|11
+|
+|t:|1614037555
+|move|p1a: Vaporeon|Scald|p2a: Metang
+|-damage|p2a: Metang|39/100
+|move|p2a: Metang|Power-Up Punch|p1a: Vaporeon
+|-damage|p1a: Vaporeon|65/100 brn
+|-boost|p2a: Metang|atk|1
+|
+|-heal|p1a: Vaporeon|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|65/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1614037567
+|move|p1a: Vaporeon|Scald|p2a: Metang
+|-damage|p2a: Metang|16/100
+|move|p2a: Metang|Earthquake|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|4/100 brn
+|
+|-heal|p1a: Vaporeon|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|4/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1614037578
+|move|p1a: Vaporeon|Scald|p2a: Metang
+|-damage|p2a: Metang|0 fnt
+|faint|p2a: Metang
+|
+|-heal|p1a: Vaporeon|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|4/100 brn|[from] brn
+|upkeep
+|
+|t:|1614037590
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|turn|14
+|
+|t:|1614037596
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Heliolisk|Dark Pulse|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|4/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1614037615
+|switch|p1a: Virizion|Virizion, shiny|74/100
+|-damage|p1a: Virizion|68/100|[from] Stealth Rock
+|move|p2a: Heliolisk|Dark Pulse|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|54/100
+|-ability|p1a: Virizion|Justified|boost
+|-boost|p1a: Virizion|atk|1
+|-damage|p2a: Heliolisk|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|t:|1614037630
+|move|p2a: Heliolisk|Thunderbolt|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|33/100
+|-damage|p2a: Heliolisk|81/100|[from] item: Life Orb
+|move|p1a: Virizion|Focus Blast|p2a: Heliolisk
+|-supereffective|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|-damage|p1a: Virizion|23/100|[from] item: Life Orb
+|faint|p2a: Heliolisk
+|
+|upkeep
+|
+|t:|1614037642
+|switch|p2a: Archeops|Archeops, M|100/100
+|turn|17
+|
+|t:|1614037649
+|switch|p1a: Vaporeon|Vaporeon, M|4/100 brn
+|-damage|p1a: Vaporeon|0 fnt|[from] Stealth Rock
+|faint|p1a: Vaporeon
+|move|p2a: Archeops|Acrobatics|p1: Vaporeon|[notarget]
+|-fail|p2a: Archeops
+|
+|upkeep
+|
+|t:|1614037658
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|-damage|p1a: Togedemaru|95/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1614037668
+|move|p2a: Archeops|Earthquake|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|faint|p1a: Togedemaru
+|
+|upkeep
+|
+|t:|1614037676
+|switch|p1a: Braviary|Braviary, M|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1614037683
+|move|p1a: Braviary|Close Combat|p2a: Archeops
+|-damage|p2a: Archeops|30/100
+|-unboost|p1a: Braviary|def|1
+|-unboost|p1a: Braviary|spd|1
+|move|p2a: Archeops|Knock Off|p1a: Braviary
+|-damage|p1a: Braviary|40/100
+|-enditem|p1a: Braviary|Choice Scarf|[from] move: Knock Off|[of] p2a: Archeops
+|
+|upkeep
+|turn|20
+|
+|t:|1614037696
+|move|p2a: Archeops|Acrobatics|p1a: Braviary
+|-damage|p1a: Braviary|13/100
+|move|p1a: Braviary|Close Combat|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|-unboost|p1a: Braviary|def|1
+|-unboost|p1a: Braviary|spd|1
+|faint|p2a: Archeops
+|
+|upkeep
+|
+|t:|1614037707
+|switch|p2a: Carracosta|Carracosta, M|100/100
+|turn|21
+|
+|t:|1614037711
+|move|p1a: Braviary|U-turn|p2a: Carracosta
+|-damage|p2a: Carracosta|78/100
+|
+|t:|1614037712
+|switch|p1a: Virizion|Virizion, shiny|23/100|[from]move: U-turn
+|-damage|p1a: Virizion|17/100|[from] Stealth Rock
+|move|p2a: Carracosta|Shell Smash|p2a: Carracosta
+|-unboost|p2a: Carracosta|def|1
+|-unboost|p2a: Carracosta|spd|1
+|-boost|p2a: Carracosta|atk|2
+|-boost|p2a: Carracosta|spa|2
+|-boost|p2a: Carracosta|spe|2
+|-enditem|p2a: Carracosta|White Herb
+|-clearnegativeboost|p2a: Carracosta|[silent]
+|
+|upkeep
+|turn|22
+|
+|t:|1614037731
+|move|p2a: Carracosta|Aqua Jet|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|upkeep
+|
+|t:|1614037737
+|switch|p1a: Claydol|Claydol|45/100
+|-damage|p1a: Claydol|38/100|[from] Stealth Rock
+|turn|23
+|c|☆kingqueso141|gg
+|
+|t:|1614037743
+|move|p2a: Carracosta|Aqua Jet|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|upkeep
+|
+|t:|1614037745
+|switch|p1a: Braviary|Braviary, M|13/100
+|-damage|p1a: Braviary|0 fnt|[from] Stealth Rock
+|faint|p1a: Braviary
+|
+|win|Bray456
+|l|☆kingqueso141

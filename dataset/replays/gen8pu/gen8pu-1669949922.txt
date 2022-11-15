@@ -1,0 +1,319 @@
+|j|☆Jewced test
+|j|☆BedTeamIsBed
+|t:|1664115193
+|gametype|singles
+|player|p1|Jewced test|skyla|1429
+|player|p2|BedTeamIsBed|101|1471
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Thwackey, M|
+|poke|p1|Trevenant, M|
+|poke|p1|Gigalith, M|
+|poke|p1|Coalossal, F|
+|poke|p1|Ribombee, M|
+|poke|p1|Quagsire, F|
+|poke|p2|Magneton|
+|poke|p2|Abomasnow, F|
+|poke|p2|Cofagrigus, M|
+|poke|p2|Aromatisse, M|
+|poke|p2|Clefairy, F|
+|poke|p2|Charizard, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jewced test)
+|
+|t:|1664115208
+|start
+|switch|p1a: Thwackey|Thwackey, M|100/100
+|switch|p2a: Magneton|Magneton|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Thwackey
+|turn|1
+|
+|t:|1664115217
+|switch|p1a: Coalossal|Coalossal, F|100/100
+|move|p2a: Magneton|Flash Cannon|p1a: Coalossal
+|-damage|p1a: Coalossal|44/100
+|
+|-heal|p1a: Coalossal|50/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1664115226
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Quagsire|94/100|[from] Hail
+|-heal|p1a: Quagsire|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1664115242
+|switch|p1a: Coalossal|Coalossal, F|50/100
+|move|p2a: Abomasnow|Leaf Storm|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|-unboost|p2a: Abomasnow|spa|2
+|faint|p1a: Coalossal
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1664115250
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|4
+|
+|t:|1664115253
+|switch|p2a: Clefairy|Clefairy, F|100/100
+|move|p1a: Ribombee|Bug Buzz|p2a: Clefairy
+|-resisted|p2a: Clefairy
+|-damage|p2a: Clefairy|82/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ribombee|94/100|[from] Hail
+|-heal|p1a: Ribombee|100/100|[from] Grassy Terrain
+|-heal|p2a: Clefairy|88/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1664115262
+|switch|p1a: Trevenant|Trevenant, M|100/100
+|move|p2a: Clefairy|Toxic|p1a: Trevenant
+|-status|p1a: Trevenant|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Trevenant|94/100 tox|[from] Hail
+|-heal|p1a: Trevenant|100/100 tox|[from] Grassy Terrain
+|-heal|p2a: Clefairy|94/100|[from] Grassy Terrain
+|-damage|p1a: Trevenant|94/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1664115273
+|switch|p2a: Cofagrigus|Cofagrigus, M|100/100
+|move|p1a: Trevenant|Poltergeist||[still]
+|-fail|p1a: Trevenant
+|
+|-weather|none
+|-damage|p1a: Trevenant|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1664115283
+|-curestatus|p1a: Trevenant|tox|[from] ability: Natural Cure
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|move|p2a: Cofagrigus|Will-O-Wisp|p1a: Quagsire
+|-status|p1a: Quagsire|brn
+|
+|-damage|p1a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1664115291
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Quagsire|Toxic|p2a: Abomasnow
+|-status|p2a: Abomasnow|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Quagsire|88/100 brn|[from] Hail
+|-damage|p2a: Abomasnow|94/100 tox|[from] psn
+|-damage|p1a: Quagsire|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1664115302
+|move|p2a: Abomasnow|Leaf Storm|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|-unboost|p2a: Abomasnow|spa|2
+|faint|p1a: Quagsire
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Abomasnow|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1664115306
+|switch|p1a: Thwackey|Thwackey, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Thwackey
+|turn|10
+|
+|t:|1664115312
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Thwackey|U-turn|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|90/100
+|j| PossiblyGoofy
+|
+|t:|1664115339
+|switch|p1a: Gigalith|Gigalith, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|84/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1664115348
+|switch|p2a: Clefairy|Clefairy, F|94/100
+|move|p1a: Gigalith|Rock Blast|p2a: Clefairy
+|-damage|p2a: Clefairy|81/100
+|-damage|p2a: Clefairy|69/100
+|-hitcount|p2a: Clefairy|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Clefairy|75/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1664115356
+|switch|p1a: Trevenant|Trevenant, M|82/100
+|move|p2a: Clefairy|Stealth Rock|p1a: Trevenant
+|-sidestart|p1: Jewced test|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Trevenant|76/100|[from] Sandstorm
+|-heal|p1a: Trevenant|82/100|[from] Grassy Terrain
+|-heal|p2a: Clefairy|81/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1664115367
+|switch|p2a: Charizard|Charizard, M|84/100
+|move|p1a: Trevenant|Wood Hammer|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|46/100
+|-damage|p1a: Trevenant|70/100|[from] Recoil
+|-damage|p1a: Trevenant|60/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|40/100|[from] Sandstorm
+|-damage|p1a: Trevenant|54/100|[from] Sandstorm
+|-heal|p1a: Trevenant|60/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1664115385
+|switch|p2a: Abomasnow|Abomasnow, F|82/100 tox
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|-damage|p1a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Abomasnow|76/100 tox|[from] Sandstorm
+|-heal|p2a: Abomasnow|82/100 tox|[from] Grassy Terrain
+|-heal|p1a: Gigalith|94/100|[from] Grassy Terrain
+|-heal|p1a: Gigalith|100/100|[from] item: Leftovers
+|-damage|p2a: Abomasnow|76/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1664115402
+|move|p2a: Abomasnow|Leaf Storm|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|17/100
+|-unboost|p2a: Abomasnow|spa|2
+|move|p1a: Gigalith|Rock Blast|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|43/100 tox
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|11/100 tox
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|-hitcount|p2: Abomasnow|3
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|23/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1664115414
+|switch|p2a: Magneton|Magneton|100/100
+|turn|16
+|
+|t:|1664115417
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Magneton|Flash Cannon|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|29/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1664115423
+|move|p2a: Magneton|Flash Cannon|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1664115427
+|switch|p1a: Thwackey|Thwackey, M|100/100
+|-damage|p1a: Thwackey|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Thwackey
+|turn|18
+|
+|t:|1664115433
+|move|p1a: Thwackey|Grassy Glide|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|60/100
+|move|p2a: Magneton|Flash Cannon|p1a: Thwackey
+|-damage|p1a: Thwackey|0 fnt
+|faint|p1a: Thwackey
+|
+|-weather|none
+|-heal|p2a: Magneton|66/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1664115437
+|switch|p1a: Trevenant|Trevenant, M|60/100
+|-damage|p1a: Trevenant|48/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1664115444
+|move|p2a: Magneton|Flash Cannon|p1a: Trevenant
+|-damage|p1a: Trevenant|0 fnt
+|faint|p1a: Trevenant
+|
+|-heal|p2a: Magneton|72/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1664115446
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|-damage|p1a: Ribombee|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1664115451
+|move|p1a: Ribombee|Moonblast|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|14/100
+|move|p2a: Magneton|Flash Cannon|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|win|BedTeamIsBed
+|raw|Jewced test's rating: 1429 &rarr; <strong>1411</strong><br />(-18 for losing)
+|raw|BedTeamIsBed's rating: 1471 &rarr; <strong>1489</strong><br />(+18 for winning)
+|l|☆Jewced test
+|l|☆BedTeamIsBed
+||Ladder isn't responding, score probably updated but might not have (Request timeout).
+|l| PossiblyGoofy

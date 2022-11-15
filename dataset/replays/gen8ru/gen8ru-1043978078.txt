@@ -1,0 +1,535 @@
+|j|☆Dollarsalt
+|j|☆NessChest
+|player|p1|Dollarsalt|pokekid|1315
+|player|p2|NessChest|292|1246
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Sableye, M|
+|poke|p1|Gigalith, F|
+|poke|p1|Vileplume, F|
+|poke|p1|Vaporeon, F|
+|poke|p1|Xatu, F|
+|poke|p1|Salazzle, F|
+|poke|p2|Dhelmise|
+|poke|p2|Salazzle, F|
+|poke|p2|Orbeetle, M|
+|poke|p2|Machamp, M|
+|poke|p2|Steelix, M|
+|poke|p2|Aromatisse, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dollarsalt)
+|c|☆Dollarsalt|Gl
+|
+|start
+|switch|p1a: Sableye|Sableye, M|100/100
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|turn|1
+|
+|switch|p2a: Machamp|Machamp, M|100/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: Machamp
+|-status|p2a: Machamp|brn
+|
+|-damage|p2a: Machamp|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Machamp|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|36/100
+|-enditem|p1a: Sableye|Leftovers|[from] move: Knock Off|[of] p2a: Machamp
+|move|p1a: Sableye|Knock Off|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|80/100 brn
+|-enditem|p2a: Machamp|Assault Vest|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-damage|p2a: Machamp|74/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|86/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Salazzle|Toxic|p1a: Gigalith
+|-status|p1a: Gigalith|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|94/100|[from] Sandstorm
+|-heal|p2a: Salazzle|100/100|[from] item: Black Sludge
+|-damage|p1a: Gigalith|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Dhelmise
+|-sidestart|p2: NessChest|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dhelmise|94/100|[from] Sandstorm
+|-heal|p2a: Dhelmise|100/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Gigalith|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Sableye|Sableye, M|86/100
+|move|p2a: Dhelmise|Anchor Shot|p1a: Sableye
+|-damage|p1a: Sableye|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sableye|22/100|[from] Sandstorm
+|-damage|p2a: Dhelmise|94/100|[from] Sandstorm
+|-heal|p2a: Dhelmise|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Dhelmise
+|-status|p2a: Dhelmise|brn
+|move|p2a: Dhelmise|Anchor Shot|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dhelmise|94/100 brn|[from] Sandstorm
+|-heal|p2a: Dhelmise|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Dhelmise|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|turn|8
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Dhelmise
+|-damage|p2a: Dhelmise|52/100 brn
+|move|p2a: Dhelmise|Rapid Spin|p1a: Vileplume
+|-damage|p1a: Vileplume|93/100
+|-sideend|p2: NessChest|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Dhelmise
+|-boost|p2a: Dhelmise|spe|1
+|
+|-weather|none
+|-heal|p2a: Dhelmise|58/100 brn|[from] item: Leftovers
+|-heal|p1a: Vileplume|99/100|[from] item: Black Sludge
+|-damage|p2a: Dhelmise|52/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Steelix
+|-immune|p2a: Steelix
+|
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|move|p2a: Steelix|Heavy Slam|p1a: Xatu
+|-damage|p1a: Xatu|55/100
+|-damage|p2a: Steelix|84/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Aromatisse|Aromatisse, F|100/100
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|100/100
+|-singleturn|p1a: Xatu|move: Roost
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Xatu|U-turn|p2a: Aromatisse
+|-resisted|p2a: Aromatisse
+|-damage|p2a: Aromatisse|95/100
+|
+|switch|p1a: Gigalith|Gigalith, F|88/100 tox|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Aromatisse|Aromatherapy|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Aromatherapy
+|-curestatus|p2: Machamp|brn|[msg]
+|-curestatus|p2: Dhelmise|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Aromatisse|88/100|[from] Sandstorm
+|-heal|p2a: Aromatisse|95/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Gigalith|88/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Dhelmise|Dhelmise|52/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Dhelmise
+|-sidestart|p2: NessChest|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dhelmise|46/100|[from] Sandstorm
+|-heal|p2a: Dhelmise|52/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Gigalith|82/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|move|p2a: Dhelmise|Rapid Spin|p1a: Vileplume
+|-damage|p1a: Vileplume|86/100
+|-sideend|p2: NessChest|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Dhelmise
+|-boost|p2a: Dhelmise|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dhelmise|46/100|[from] Sandstorm
+|-damage|p1a: Vileplume|79/100|[from] Sandstorm
+|-heal|p2a: Dhelmise|52/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|86/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p2a: Aromatisse|Aromatisse, F|95/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|52/100
+|-status|p2a: Aromatisse|psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|79/100|[from] Sandstorm
+|-damage|p2a: Aromatisse|46/100 psn|[from] Sandstorm
+|-heal|p1a: Vileplume|86/100|[from] item: Black Sludge
+|-heal|p2a: Aromatisse|52/100 psn|[from] item: Leftovers
+|-damage|p2a: Aromatisse|39/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Vileplume|Strength Sap|p2a: Salazzle
+|-unboost|p2a: Salazzle|atk|1
+|-heal|p1a: Vileplume|100/100
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|switch|p2a: Dhelmise|Dhelmise|52/100
+|switch|p1a: Gigalith|Gigalith, F|82/100 tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dhelmise|46/100|[from] Sandstorm
+|-heal|p2a: Dhelmise|52/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Gigalith|82/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|move|p2a: Dhelmise|Anchor Shot|p1a: Vileplume
+|-damage|p1a: Vileplume|65/100
+|-activate|p1a: Vileplume|trapped
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|59/100|[from] Sandstorm
+|-damage|p2a: Dhelmise|46/100|[from] Sandstorm
+|-heal|p1a: Vileplume|65/100|[from] item: Black Sludge
+|-heal|p2a: Dhelmise|52/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Vileplume|Strength Sap|p2a: Salazzle
+|-unboost|p2a: Salazzle|atk|1
+|-heal|p1a: Vileplume|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|94/100|[from] Sandstorm
+|-damage|p1a: Vileplume|93/100|[from] Sandstorm
+|-heal|p2a: Salazzle|100/100|[from] item: Black Sludge
+|-heal|p1a: Vileplume|99/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Salazzle|Fire Blast|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|94/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|79/100|[from] Sandstorm
+|-heal|p2a: Salazzle|100/100|[from] item: Black Sludge
+|-heal|p1a: Vaporeon|85/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Salazzle|Toxic|p1a: Vaporeon
+|-status|p1a: Vaporeon|tox
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|none
+|-heal|p1a: Vaporeon|91/100 tox|[from] item: Leftovers
+|-damage|p1a: Vaporeon|85/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p2a: Dhelmise|Dhelmise|52/100
+|move|p1a: Vaporeon|Scald|p2a: Dhelmise
+|-resisted|p2a: Dhelmise
+|-damage|p2a: Dhelmise|33/100
+|-status|p2a: Dhelmise|brn
+|
+|-heal|p1a: Vaporeon|100/100 tox|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Dhelmise|39/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|88/100 tox|[from] psn
+|-damage|p2a: Dhelmise|33/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p1a: Vileplume|Vileplume, F|99/100
+|switch|p2a: Aromatisse|Aromatisse, F|39/100 psn
+|
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|-heal|p2a: Aromatisse|46/100 psn|[from] item: Leftovers
+|-damage|p2a: Aromatisse|33/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p2a: Steelix|Steelix, M|84/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Steelix
+|-immune|p2a: Steelix
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Steelix
+|-status|p2a: Steelix|slp|[from] move: Sleep Powder
+|cant|p2a: Steelix|slp
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Vileplume|Giga Drain|p2a: Steelix
+|-damage|p2a: Steelix|45/100 slp
+|cant|p2a: Steelix|slp
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Orbeetle|Orbeetle, M|100/100
+|-item|p1a: Vileplume|Black Sludge|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|move|p1a: Vileplume|Giga Drain|p2a: Orbeetle
+|-resisted|p2a: Orbeetle
+|-damage|p2a: Orbeetle|86/100
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|move|p2a: Orbeetle|Trick|p1a: Xatu
+|-activate|p2a: Orbeetle|move: Trick|[of] p1a: Xatu
+|-item|p1a: Xatu|Choice Scarf|[from] move: Trick
+|-item|p2a: Orbeetle|Rocky Helmet|[from] move: Trick
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Xatu|Heat Wave|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|34/100
+|move|p2a: Orbeetle|U-turn|p1a: Xatu
+|-damage|p1a: Xatu|85/100
+|
+|switch|p2a: Aromatisse|Aromatisse, F|33/100 psn|[from]move: U-turn
+|
+|-heal|p2a: Aromatisse|39/100 psn|[from] item: Leftovers
+|-damage|p2a: Aromatisse|27/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Xatu|Heat Wave|p2a: Aromatisse
+|-damage|p2a: Aromatisse|13/100 psn
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|19/100 psn|[from] item: Leftovers
+|-damage|p2a: Aromatisse|7/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|move|p2a: Aromatisse|Protect||[still]
+|-fail|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|57/100 psn|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Aromatisse|63/100 psn|[from] item: Leftovers
+|-damage|p2a: Aromatisse|51/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|69/100
+|
+|-heal|p2a: Salazzle|76/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|switch|p1a: Gigalith|Gigalith, F|82/100 tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Salazzle|Fire Blast|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|64/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|69/100|[from] Sandstorm
+|-heal|p2a: Salazzle|76/100|[from] item: Black Sludge
+|-heal|p1a: Gigalith|71/100 tox|[from] item: Leftovers
+|-damage|p1a: Gigalith|64/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|51/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Salazzle
+|-sidestart|p2: NessChest|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|45/100|[from] Sandstorm
+|-heal|p2a: Salazzle|51/100|[from] item: Black Sludge
+|-heal|p1a: Gigalith|71/100 tox|[from] item: Leftovers
+|-damage|p1a: Gigalith|58/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p2a: Salazzle|Sludge Wave|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|43/100 tox
+|move|p1a: Gigalith|Earthquake|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|45/100|[from] Sandstorm
+|-heal|p2a: Salazzle|51/100|[from] item: Black Sludge
+|-heal|p1a: Gigalith|49/100 tox|[from] item: Leftovers
+|-damage|p1a: Gigalith|31/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|move|p2a: Salazzle|Sludge Wave|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|17/100 tox
+|move|p1a: Gigalith|Earthquake|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|23/100 tox|[from] item: Leftovers
+|-damage|p1a: Gigalith|0 fnt|[from] psn
+|faint|p1a: Gigalith
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, M|74/100
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|-damage|p2a: Machamp|68/100|[from] Stealth Rock
+|turn|37
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Machamp|Earthquake|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|38
+|
+|switch|p1a: Xatu|Xatu, F|85/100
+|move|p2a: Machamp|Earthquake|p1a: Xatu
+|-immune|p1a: Xatu
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Xatu|U-turn|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|62/100
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100|[from]move: U-turn
+|move|p2a: Machamp|Knock Off|p1a: Vileplume
+|-damage|p1a: Vileplume|72/100
+|-status|p2a: Machamp|par|[from] ability: Effect Spore|[of] p1a: Vileplume
+|-enditem|p1a: Vileplume|Black Sludge|[from] move: Knock Off|[of] p2a: Machamp
+|
+|upkeep
+|turn|40
+|j| kickassin666
+|l| kickassin666
+|
+|move|p1a: Vileplume|Strength Sap|p2a: Machamp
+|-unboost|p2a: Machamp|atk|1
+|-heal|p1a: Vileplume|100/100
+|move|p2a: Machamp|Earthquake|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|32/100
+|
+|upkeep
+|turn|41
+|j| kickassin666
+|
+|switch|p2a: Orbeetle|Orbeetle, M|34/100
+|-damage|p2a: Orbeetle|9/100|[from] Stealth Rock
+|move|p1a: Vileplume|Strength Sap|p2a: Orbeetle
+|-unboost|p2a: Orbeetle|atk|1
+|-heal|p1a: Vileplume|64/100
+|
+|upkeep
+|turn|42
+|
+|switch|p1a: Xatu|Xatu, F|85/100
+|move|p2a: Orbeetle|Psychic|p1a: Xatu
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|63/100
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Xatu|U-turn|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|0 fnt
+|-damage|p1a: Xatu|46/100|[from] item: Rocky Helmet|[of] p2a: Orbeetle
+|faint|p2a: Orbeetle
+|
+|switch|p1a: Vileplume|Vileplume, F|64/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Aromatisse|Aromatisse, F|51/100 psn
+|-damage|p2a: Aromatisse|39/100 psn|[from] Stealth Rock
+|turn|44
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|faint|p2a: Aromatisse
+|
+|upkeep
+|-message|NessChest forfeited.
+|
+|win|Dollarsalt
+|l|☆NessChest
+|n| 4G3NC KIck|kickassin666
+|l| 4G3NC KIck
+|raw|Dollarsalt's rating: 1315 &rarr; <strong>1330</strong><br />(+15 for winning)
+|raw|NessChest's rating: 1237 &rarr; <strong>1217</strong><br />(-20 for losing)

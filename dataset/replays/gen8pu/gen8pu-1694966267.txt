@@ -1,0 +1,388 @@
+|j|☆JoJo Reference #11
+|j|☆the mellow
+|t:|1666747649
+|gametype|singles
+|player|p1|JoJo Reference #11|101|1346
+|player|p2|the mellow|unknown|1187
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Haunter, F|
+|poke|p1|Doublade, F|
+|poke|p1|Centiskorch, F|
+|poke|p1|Ninjask, M|
+|poke|p1|Sudowoodo, F|
+|poke|p1|Malamar, M|
+|poke|p2|Quagsire, F|
+|poke|p2|Altaria, M|
+|poke|p2|Cradily, F|
+|poke|p2|Walrein, M|
+|poke|p2|Absol, F|
+|poke|p2|Doublade, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JoJo Reference #11)
+|
+|t:|1666747672
+|start
+|switch|p1a: Sudowoodo|Sudowoodo, F|100/100
+|switch|p2a: Walrein|Walrein, M|100/100
+|turn|1
+|
+|t:|1666747679
+|switch|p2a: Doublade|Doublade, M|100/100
+|move|p1a: Sudowoodo|Stealth Rock|p2a: Doublade
+|-sidestart|p2: the mellow|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1666747684
+|move|p2a: Doublade|Shadow Claw|p1a: Sudowoodo
+|-damage|p1a: Sudowoodo|71/100
+|move|p1a: Sudowoodo|Head Smash|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|82/100
+|-damage|p1a: Sudowoodo|63/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|t:|1666747693
+|move|p2a: Doublade|Shadow Claw|p1a: Sudowoodo
+|-damage|p1a: Sudowoodo|34/100
+|move|p1a: Sudowoodo|Head Smash|p2a: Doublade
+|-resisted|p2a: Doublade
+|-crit|p2a: Doublade
+|-damage|p2a: Doublade|56/100
+|-damage|p1a: Sudowoodo|21/100|[from] Recoil
+|
+|upkeep
+|turn|4
+|-enditem|p1a: Sudowoodo|Custap Berry|[eat]
+|-activate|p1a: Sudowoodo|item: Custap Berry|[consumed]
+|
+|t:|1666747702
+|move|p1a: Sudowoodo|Head Smash|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|40/100
+|-damage|p1a: Sudowoodo|14/100|[from] Recoil
+|move|p2a: Doublade|Shadow Claw|p1a: Sudowoodo
+|-damage|p1a: Sudowoodo|0 fnt
+|faint|p1a: Sudowoodo
+|
+|upkeep
+|
+|t:|1666747709
+|switch|p1a: Centiskorch|Centiskorch, F|100/100
+|turn|5
+|
+|t:|1666747713
+|switch|p2a: Altaria|Altaria, M|100/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|84/100
+|-unboost|p2a: Altaria|def|1
+|
+|upkeep
+|turn|6
+|
+|t:|1666747720
+|switch|p1a: Doublade|Doublade, F|100/100
+|move|p2a: Altaria|Toxic|p1a: Doublade
+|-immune|p1a: Doublade
+|
+|upkeep
+|turn|7
+|
+|t:|1666747724
+|switch|p1a: Malamar|Malamar, M|100/100
+|move|p2a: Altaria|Defog|p1a: Malamar
+|-boost|p1a: Malamar|evasion|1
+|-sideend|p2: the mellow|Stealth Rock|[from] move: Defog|[of] p2a: Altaria
+|
+|upkeep
+|turn|8
+|
+|t:|1666747730
+|move|p1a: Malamar|Substitute|p1a: Malamar
+|-start|p1a: Malamar|Substitute
+|-damage|p1a: Malamar|75/100
+|move|p2a: Altaria|Toxic|p1a: Malamar|[miss]
+|-miss|p2a: Altaria|p1a: Malamar
+|
+|-heal|p1a: Malamar|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1666747737
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|move|p1a: Malamar|Superpower|p2a: Quagsire
+|-damage|p2a: Quagsire|79/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|-heal|p1a: Malamar|88/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1666747744
+|move|p2a: Quagsire|Protect|p2a: Quagsire
+|-singleturn|p2a: Quagsire|Protect
+|move|p1a: Malamar|Hypnosis|p2a: Quagsire
+|-activate|p2a: Quagsire|move: Protect
+|
+|-heal|p1a: Malamar|94/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|91/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1666747760
+|move|p1a: Malamar|Hypnosis|p2a: Quagsire|[miss]
+|-miss|p1a: Malamar|p2a: Quagsire
+|move|p2a: Quagsire|Earthquake|p1a: Malamar
+|-end|p1a: Malamar|Substitute
+|
+|-heal|p1a: Malamar|100/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|97/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1666747770
+|switch|p1a: Haunter|Haunter, F|100/100
+|move|p2a: Quagsire|Earthquake|p1a: Haunter
+|-immune|p1a: Haunter|[from] ability: Levitate
+|
+|-heal|p2a: Quagsire|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1666747777
+|switch|p2a: Altaria|Altaria, M|84/100
+|move|p1a: Haunter|Substitute|p1a: Haunter
+|-start|p1a: Haunter|Substitute
+|-damage|p1a: Haunter|76/100
+|
+|upkeep
+|turn|14
+|
+|t:|1666747785
+|move|p1a: Haunter|Sludge Wave|p2a: Altaria
+|-damage|p2a: Altaria|46/100
+|-damage|p1a: Haunter|66/100|[from] item: Life Orb
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|96/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|upkeep
+|turn|15
+|
+|t:|1666747790
+|move|p1a: Haunter|Sludge Wave|p2a: Altaria
+|-damage|p2a: Altaria|55/100
+|-damage|p1a: Haunter|56/100|[from] item: Life Orb
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|upkeep
+|turn|16
+|
+|t:|1666747796
+|move|p1a: Haunter|Pain Split|p2a: Altaria
+|-sethp|p2a: Altaria|68/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Haunter|100/100|[from] move: Pain Split
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|upkeep
+|turn|17
+|
+|t:|1666747801
+|move|p1a: Haunter|Shadow Ball|p2a: Altaria
+|-damage|p2a: Altaria|65/100
+|-damage|p1a: Haunter|91/100|[from] item: Life Orb
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|upkeep
+|turn|18
+|
+|t:|1666747807
+|move|p1a: Haunter|Shadow Ball|p2a: Altaria
+|-damage|p2a: Altaria|70/100
+|-damage|p1a: Haunter|81/100|[from] item: Life Orb
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|upkeep
+|turn|19
+|
+|t:|1666747812
+|move|p1a: Haunter|Shadow Ball|p2a: Altaria
+|-damage|p2a: Altaria|67/100
+|-damage|p1a: Haunter|71/100|[from] item: Life Orb
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|upkeep
+|turn|20
+|
+|t:|1666747823
+|switch|p2a: Cradily|Cradily, F|100/100
+|move|p1a: Haunter|Shadow Ball|p2a: Cradily
+|-crit|p2a: Cradily
+|-damage|p2a: Cradily|39/100
+|-damage|p1a: Haunter|61/100|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|
+|t:|1666747837
+|move|p1a: Haunter|Sludge Wave|p2a: Cradily
+|-damage|p2a: Cradily|0 fnt
+|faint|p2a: Cradily
+|-damage|p1a: Haunter|51/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1666747841
+|switch|p2a: Walrein|Walrein, M|100/100
+|turn|22
+|
+|t:|1666747848
+|move|p1a: Haunter|Pain Split|p2a: Walrein
+|-sethp|p2a: Walrein|64/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Haunter|100/100|[from] move: Pain Split
+|move|p2a: Walrein|Ice Beam|p1a: Haunter
+|-crit|p1a: Haunter
+|-end|p1a: Haunter|Substitute
+|
+|upkeep
+|turn|23
+|
+|t:|1666747856
+|switch|p1a: Doublade|Doublade, F|100/100
+|move|p2a: Walrein|Ice Beam|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|75/100
+|
+|upkeep
+|turn|24
+|
+|t:|1666747861
+|switch|p1a: Haunter|Haunter, F|100/100
+|move|p2a: Walrein|Hydro Pump|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|
+|upkeep
+|
+|t:|1666747867
+|switch|p1a: Centiskorch|Centiskorch, F|100/100
+|turn|25
+|
+|t:|1666747871
+|switch|p2a: Altaria|Altaria, M|100/100
+|move|p1a: Centiskorch|Power Whip|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|93/100
+|
+|upkeep
+|turn|26
+|
+|t:|1666747885
+|switch|p1a: Doublade|Doublade, F|75/100
+|switch|p2a: Doublade|Doublade, M|40/100
+|
+|upkeep
+|turn|27
+|
+|t:|1666747891
+|move|p1a: Doublade|Shadow Sneak|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|17/100
+|move|p2a: Doublade|Rest|p2a: Doublade
+|-status|p2a: Doublade|slp|[from] move: Rest
+|-heal|p2a: Doublade|100/100 slp|[silent]
+|
+|upkeep
+|turn|28
+|
+|t:|1666747897
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|move|p1a: Doublade|Shadow Claw|p2a: Quagsire
+|-damage|p2a: Quagsire|76/100
+|
+|-heal|p2a: Quagsire|82/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1666747907
+|switch|p1a: Centiskorch|Centiskorch, F|100/100
+|move|p2a: Quagsire|Liquidation|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|43/100
+|
+|-heal|p2a: Quagsire|88/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1666747914
+|switch|p2a: Altaria|Altaria, M|93/100
+|move|p1a: Centiskorch|Power Whip|p2a: Altaria
+|-resisted|p2a: Altaria
+|-crit|p2a: Altaria
+|-damage|p2a: Altaria|81/100
+|
+|upkeep
+|turn|31
+|
+|t:|1666747920
+|switch|p1a: Doublade|Doublade, F|75/100
+|move|p2a: Altaria|Heal Bell|p2a: Altaria
+|-activate|p2a: Altaria|move: Heal Bell
+|-curestatus|p2: Doublade|slp|[msg]
+|
+|upkeep
+|turn|32
+|
+|t:|1666747925
+|switch|p1a: Centiskorch|Centiskorch, F|43/100
+|move|p2a: Altaria|Toxic|p1a: Centiskorch
+|-status|p1a: Centiskorch|tox
+|
+|-damage|p1a: Centiskorch|37/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1666747936
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|move|p2a: Altaria|Toxic|p1a: Ninjask
+|-status|p1a: Ninjask|tox
+|
+|-damage|p1a: Ninjask|94/100 tox|[from] psn
+|upkeep
+|turn|34
+|-message|JoJo Reference #11 forfeited.
+|
+|win|the mellow
+|raw|JoJo Reference #11's rating: 1346 &rarr; <strong>1317</strong><br />(-29 for losing)
+|raw|the mellow's rating: 1187 &rarr; <strong>1223</strong><br />(+36 for winning)
+|c|☆the mellow|Kek
+|l|☆JoJo Reference #11

@@ -1,0 +1,135 @@
+|j|☆AxeloyStyle
+|j|☆Bamarah
+|player|p1|AxeloyStyle|gambler|1308
+|player|p2|Bamarah|eusine-gen2|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Heracross, M|
+|poke|p1|Heliolisk, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Skarmory, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Golisopod, F|
+|poke|p2|Noivern, M|
+|poke|p2|Gengar, M|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Darmanitan, M|
+|poke|p2|Skarmory, M|
+|poke|p2|Blissey, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆AxeloyStyle|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bamarah)
+|
+|start
+|switch|p1a: Barraskewda|Barraskewda, M, shiny|100/100
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Darmanitan|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|97/100
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100|[from]move: U-turn
+|
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Skarmory
+|-damage|p1a: Skarmory|68/100
+|-damage|p2a: Keldeo|91/100|[from] item: Life Orb
+|move|p1a: Skarmory|Body Press|p2a: Keldeo
+|-damage|p2a: Keldeo|56/100
+|
+|-heal|p1a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Keldeo|Surf|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: Keldeo|46/100|[from] item: Life Orb
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|switch|p1a: Heliolisk|Heliolisk, F, shiny|100/100
+|turn|4
+|
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|move|p1a: Heliolisk|Volt Switch|p2a: Blissey
+|-damage|p2a: Blissey|87/100
+|
+|switch|p1a: Heracross|Heracross, M|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|-status|p1a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|46/100
+|move|p1a: Heracross|Knock Off|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|16/100
+|-ability|p2a: Keldeo|Justified|boost
+|-boost|p2a: Keldeo|atk|1
+|-enditem|p2a: Keldeo|Life Orb|[from] move: Knock Off|[of] p1a: Heracross
+|
+|-damage|p1a: Heracross|95/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Golisopod|Golisopod, F, shiny|100/100
+|move|p2a: Keldeo|Secret Sword|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|82/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|100/100
+|move|p1a: Golisopod|First Impression|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|91/100
+|
+|-heal|p2a: Skarmory|97/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Heliolisk|Heliolisk, F, shiny|100/100
+|move|p2a: Skarmory|Body Press|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|faint|p1a: Heliolisk
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, F, shiny|82/100
+|turn|9
+|inactive|Bamarah has 120 seconds left.
+|
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|move|p1a: Golisopod|Liquidation|p2a: Skarmory
+|-damage|p2a: Skarmory|84/100
+|
+|-heal|p2a: Skarmory|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|-message|AxeloyStyle forfeited.
+|
+|win|Bamarah
+|l|☆AxeloyStyle

@@ -1,0 +1,266 @@
+|j|☆allstarapology
+|j|‽KettyWobblers
+|player|p1|allstarapology|shelly|
+|player|p2|KettyWobblers|brycenman|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|Tournament battle
+|clearpoke
+|poke|p1|Crustle, M|
+|poke|p1|Gothitelle, F|
+|poke|p1|Pikachu, F|
+|poke|p1|Basculin, M|
+|poke|p1|Gourgeist-*, F|
+|poke|p1|Pawniard, F|
+|poke|p2|Silvally-*|
+|poke|p2|Charjabug, F|
+|poke|p2|Whiscash, F|
+|poke|p2|Shiinotic, M|
+|poke|p2|Type: Null|
+|poke|p2|Raichu, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| thehomiezach215
+|j| C.T Emerald
+|c|☆allstarapology|hf
+|j| Metool B
+|j|%tlenit1
+|
+|start
+|switch|p1a: Crustle|Crustle, M|100/100
+|switch|p2a: Silvally|Silvally-Psychic|100/100
+|turn|1
+|
+|move|p2a: Silvally|Parting Shot|p1a: Crustle
+|-unboost|p1a: Crustle|atk|1
+|-unboost|p1a: Crustle|spa|1
+|
+|switch|p2a: Charjabug|Charjabug, F|100/100|[from]move: Parting Shot
+|move|p1a: Crustle|Spikes|p2a: Charjabug
+|-sidestart|p2: KettyWobblers|Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Crustle|Stone Edge|p2a: Charjabug
+|-supereffective|p2a: Charjabug
+|-damage|p2a: Charjabug|72/100
+|move|p2a: Charjabug|Thunder Wave|p1a: Crustle
+|-status|p1a: Crustle|par
+|
+|upkeep
+|turn|3
+|j| Pearlshipping4ever
+|
+|move|p2a: Charjabug|Sticky Web|p1a: Crustle
+|-sidestart|p1: allstarapology|move: Sticky Web
+|move|p1a: Crustle|Spikes|p2a: Charjabug
+|-sidestart|p2: KettyWobblers|Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Charjabug|Volt Switch|p1a: Crustle
+|-damage|p1a: Crustle|84/100 par
+|
+|switch|p2a: Whiscash|Whiscash, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Whiscash|84/100|[from] Spikes
+|move|p1a: Crustle|Spikes|p2a: Whiscash
+|-sidestart|p2: KettyWobblers|Spikes
+|
+|-heal|p2a: Whiscash|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Gourgeist|Gourgeist, F|100/100
+|-activate|p1a: Gourgeist|move: Sticky Web
+|-unboost|p1a: Gourgeist|spe|1
+|-item|p2a: Whiscash|Leftovers|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|
+|-heal|p2a: Whiscash|96/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Shiinotic|Shiinotic, M|100/100
+|-damage|p2a: Shiinotic|75/100|[from] Spikes
+|move|p1a: Gourgeist|Power Whip|p2a: Shiinotic
+|-resisted|p2a: Shiinotic
+|-damage|p2a: Shiinotic|40/100
+|
+|-heal|p2a: Shiinotic|46/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Gothitelle|Gothitelle, F|100/100
+|-activate|p1a: Gothitelle|move: Sticky Web
+|-unboost|p1a: Gothitelle|spe|1
+|-ability|p1a: Gothitelle|Competitive
+|-boost|p1a: Gothitelle|spa|2
+|move|p2a: Shiinotic|Strength Sap|p1a: Gothitelle
+|-unboost|p1a: Gothitelle|atk|1
+|-ability|p1a: Gothitelle|Competitive
+|-boost|p1a: Gothitelle|spa|2
+|-heal|p2a: Shiinotic|78/100
+|
+|-heal|p2a: Shiinotic|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j|+keppy ㋛
+|
+|move|p1a: Gothitelle|Psychic|p2a: Shiinotic
+|-damage|p2a: Shiinotic|3/100
+|move|p2a: Shiinotic|Spore|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp|[from] move: Spore
+|
+|-heal|p2a: Shiinotic|9/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|c|%tlenit1|ate
+|
+|switch|p2a: Silvally|Silvally-Psychic|100/100
+|-damage|p2a: Silvally|76/100|[from] Spikes
+|cant|p1a: Gothitelle|slp
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Silvally|Crunch|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|41/100 slp
+|-unboost|p1a: Gothitelle|def|1
+|-ability|p1a: Gothitelle|Competitive
+|-boost|p1a: Gothitelle|spa|2
+|cant|p1a: Gothitelle|slp
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Silvally|Crunch|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|upkeep
+|
+|switch|p1a: Pikachu|Pikachu, F|100/100
+|-activate|p1a: Pikachu|move: Sticky Web
+|-unboost|p1a: Pikachu|spe|1
+|turn|12
+|
+|move|p1a: Pikachu|Fake Out|p2a: Silvally
+|-damage|p2a: Silvally|56/100
+|cant|p2a: Silvally|flinch
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Charjabug|Charjabug, F|72/100
+|-damage|p2a: Charjabug|47/100|[from] Spikes
+|switch|p1a: Pawniard|Pawniard, F|100/100
+|-activate|p1a: Pawniard|move: Sticky Web
+|-unboost|p1a: Pawniard|spe|1
+|-ability|p1a: Pawniard|Defiant
+|-boost|p1a: Pawniard|atk|2
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Pawniard|Knock Off|p2a: Charjabug
+|-damage|p2a: Charjabug|5/100
+|-enditem|p2a: Charjabug|Eviolite|[from] move: Knock Off|[of] p1a: Pawniard
+|move|p2a: Charjabug|Thunder Wave|p1a: Pawniard
+|-status|p1a: Pawniard|par
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Charjabug|Discharge|p1a: Pawniard
+|-damage|p1a: Pawniard|66/100 par
+|cant|p1a: Pawniard|par
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Charjabug|Discharge|p1a: Pawniard
+|-damage|p1a: Pawniard|31/100 par
+|move|p1a: Pawniard|Knock Off|p2a: Charjabug
+|-damage|p2a: Charjabug|0 fnt
+|faint|p2a: Charjabug
+|
+|upkeep
+|
+|switch|p2a: Whiscash|Whiscash, F|96/100
+|-damage|p2a: Whiscash|71/100|[from] Spikes
+|turn|17
+|
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|move|p1a: Pawniard|Knock Off|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|-enditem|p2a: Whiscash|Leftovers|[from] move: Knock Off|[of] p1a: Pawniard
+|faint|p2a: Whiscash
+|
+|upkeep
+|
+|switch|p2a: Raichu|Raichu, M|100/100
+|-damage|p2a: Raichu|76/100|[from] Spikes
+|turn|18
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|
+|switch|p1a: Pikachu|Pikachu, F|100/100
+|-activate|p1a: Pikachu|move: Sticky Web
+|-unboost|p1a: Pikachu|spe|1
+|turn|19
+|l| Metool B
+|
+|switch|p2a: Shiinotic|Shiinotic, M|9/100
+|-damage|p2a: Shiinotic|0 fnt|[from] Spikes
+|faint|p2a: Shiinotic
+|move|p1a: Pikachu|Fake Out|p2: Shiinotic|[notarget]
+|-fail|p1a: Pikachu
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Psychic|56/100
+|-damage|p2a: Silvally|31/100|[from] Spikes
+|turn|20
+|
+|move|p1a: Pikachu|Extreme Speed|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Type: Null|Type: Null|100/100
+|-damage|p2a: Type: Null|76/100|[from] Spikes
+|turn|21
+|
+|move|p1a: Pikachu|Knock Off|p2a: Type: Null
+|-damage|p2a: Type: Null|49/100
+|-enditem|p2a: Type: Null|Eviolite|[from] move: Knock Off|[of] p1a: Pikachu
+|move|p2a: Type: Null|Crush Claw|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|
+|upkeep
+|-message|KettyWobblers forfeited.
+|
+|win|allstarapology

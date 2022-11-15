@@ -1,0 +1,358 @@
+|j|☆INT Tom
+|j|☆hahskjsnjdk
+|player|p1|INT Tom|emmet|1091
+|player|p2|hahskjsnjdk|palmer|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Coalossal, F|
+|poke|p1|Boltund, M|
+|poke|p1|Scrafty, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Frosmoth, F|
+|poke|p1|Braviary, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Drapion, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Rotom|
+|poke|p2|Piloswine, M|
+|poke|p2|Passimian, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by INT Tom)
+|
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Drapion|Drapion, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|j| Blank Spot
+|
+|move|p1a: Rillaboom|High Horsepower|p2a: Drapion
+|-supereffective|p2a: Drapion
+|-damage|p2a: Drapion|8/100
+|move|p2a: Drapion|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|52/100
+|-enditem|p1a: Rillaboom|Choice Band|[from] move: Knock Off|[of] p2a: Drapion
+|
+|-heal|p1a: Rillaboom|58/100|[from] Grassy Terrain
+|-heal|p2a: Drapion|14/100|[from] item: Black Sludge
+|-heal|p2a: Drapion|21/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|move|p1a: Rillaboom|U-turn|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|faint|p2a: Drapion
+|
+|switch|p1a: Coalossal|Coalossal, F|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Piloswine|Piloswine, M|100/100
+|turn|3
+|
+|move|p2a: Piloswine|Icicle Crash|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|87/100
+|move|p1a: Coalossal|Stealth Rock|p2a: Piloswine
+|-sidestart|p2: hahskjsnjdk|move: Stealth Rock
+|
+|-heal|p1a: Coalossal|93/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|move|p2a: Piloswine|Stealth Rock|p1a: Coalossal
+|-sidestart|p1: INT Tom|move: Stealth Rock
+|move|p1a: Coalossal|Flamethrower|p2a: Piloswine
+|-supereffective|p2a: Piloswine
+|-damage|p2a: Piloswine|78/100
+|
+|-heal|p2a: Piloswine|84/100|[from] Grassy Terrain
+|-heal|p1a: Coalossal|99/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|move|p2a: Piloswine|High Horsepower|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|-status|p2a: Piloswine|brn|[from] ability: Flame Body|[of] p1a: Coalossal
+|faint|p1a: Coalossal
+|
+|-heal|p2a: Piloswine|91/100 brn|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Piloswine|84/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, M|58/100
+|-damage|p1a: Rillaboom|46/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|6
+|
+|move|p2a: Piloswine|Ice Shard|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|25/100
+|move|p1a: Rillaboom|Knock Off|p2a: Piloswine
+|-damage|p2a: Piloswine|63/100 brn
+|-enditem|p2a: Piloswine|Eviolite|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|31/100|[from] Grassy Terrain
+|-heal|p2a: Piloswine|69/100 brn|[from] Grassy Terrain
+|-damage|p2a: Piloswine|63/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|move|p2a: Piloswine|Ice Shard|p1a: Frosmoth
+|-resisted|p1a: Frosmoth
+|-damage|p1a: Frosmoth|92/100
+|
+|-heal|p1a: Frosmoth|98/100|[from] Grassy Terrain
+|-heal|p2a: Piloswine|69/100 brn|[from] Grassy Terrain
+|-damage|p2a: Piloswine|63/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Passimian|Passimian, F|100/100
+|-damage|p2a: Passimian|94/100|[from] Stealth Rock
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-heal|p2a: Passimian|100/100|[from] Grassy Terrain
+|-heal|p1a: Frosmoth|100/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|move|p2a: Passimian|Rock Slide|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|upkeep
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|-damage|p1a: Scrafty|94/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Rotom|Rotom|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-heal|p1a: Scrafty|100/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Scrafty
+|-status|p1a: Scrafty|brn
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-activate|p1a: Scrafty|ability: Shed Skin
+|-curestatus|p1a: Scrafty|brn|[msg]
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Scrafty
+|-status|p1a: Scrafty|brn
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-activate|p1a: Scrafty|ability: Shed Skin
+|-curestatus|p1a: Scrafty|brn|[msg]
+|upkeep
+|turn|13
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Scrafty
+|-status|p1a: Scrafty|brn
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-activate|p1a: Scrafty|ability: Shed Skin
+|-curestatus|p1a: Scrafty|brn|[msg]
+|upkeep
+|turn|14
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Scrafty
+|-status|p1a: Scrafty|brn
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-activate|p1a: Scrafty|ability: Shed Skin
+|-curestatus|p1a: Scrafty|brn|[msg]
+|upkeep
+|turn|15
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Scrafty
+|-status|p1a: Scrafty|brn
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|
+|-damage|p1a: Scrafty|94/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Rotom|Hex|p1a: Scrafty
+|-resisted|p1a: Scrafty
+|-damage|p1a: Scrafty|79/100 brn
+|move|p1a: Scrafty|Knock Off|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-enditem|p2a: Rotom|Colbur Berry|[eat]
+|-enditem|p2a: Rotom|Colbur Berry|[weaken]
+|-damage|p2a: Rotom|2/100
+|
+|-heal|p1a: Scrafty|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Scrafty|79/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Rotom|Defog|p1a: Scrafty
+|-unboost|p1a: Scrafty|evasion|1
+|-sideend|p1: INT Tom|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|-sideend|p2: hahskjsnjdk|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|move|p1a: Scrafty|Knock Off|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Scrafty|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Scrafty|79/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|18
+|
+|move|p2a: Ninetales|Overheat|p1a: Scrafty
+|-damage|p1a: Scrafty|1/100 brn
+|-unboost|p2a: Ninetales|spa|2
+|move|p1a: Scrafty|Drain Punch|p2a: Ninetales
+|-damage|p2a: Ninetales|33/100
+|-heal|p1a: Scrafty|30/100 brn|[from] drain|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scrafty|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Scrafty|30/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Ninetales|Overheat|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|-unboost|p2a: Ninetales|spa|2
+|faint|p1a: Scrafty
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, M|31/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|20
+|
+|move|p2a: Ninetales|Overheat|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-unboost|p2a: Ninetales|spa|2
+|faint|p1a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|38/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Boltund|Boltund, M|100/100
+|turn|21
+|
+|switch|p2a: Piloswine|Piloswine, M|63/100 brn
+|move|p1a: Boltund|Psychic Fangs|p2a: Piloswine
+|-damage|p2a: Piloswine|15/100 brn
+|-damage|p1a: Boltund|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Boltund|97/100|[from] Grassy Terrain
+|-heal|p2a: Piloswine|21/100 brn|[from] Grassy Terrain
+|-damage|p2a: Piloswine|15/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Boltund|Psychic Fangs|p2a: Piloswine
+|-damage|p2a: Piloswine|0 fnt
+|-damage|p1a: Boltund|87/100|[from] item: Life Orb
+|faint|p2a: Piloswine
+|
+|-weather|none
+|-heal|p1a: Boltund|93/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|turn|23
+|
+|move|p1a: Boltund|Fire Fang|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|32/100
+|-damage|p1a: Boltund|84/100|[from] item: Life Orb
+|cant|p2a: Rillaboom|flinch
+|
+|-heal|p1a: Boltund|90/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|38/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|move|p1a: Boltund|Fire Fang|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p1a: Boltund|80/100|[from] item: Life Orb
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Boltund|86/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, F|100/100
+|turn|25
+|
+|move|p2a: Passimian|Close Combat|p1a: Boltund
+|-damage|p1a: Boltund|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|faint|p1a: Boltund
+|
+|upkeep
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|turn|26
+|
+|move|p2a: Passimian|Close Combat|p1a: Braviary
+|-damage|p1a: Braviary|28/100
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|move|p1a: Braviary|Brave Bird|p2a: Passimian
+|-supereffective|p2a: Passimian
+|-damage|p2a: Passimian|0 fnt
+|-damage|p1a: Braviary|0 fnt|[from] Recoil
+|faint|p2a: Passimian
+|faint|p1a: Braviary
+|
+|win|hahskjsnjdk
+|l|☆INT Tom
+|l|☆hahskjsnjdk
+|j|☆hahskjsnjdk
+|player|p2|hahskjsnjdk|palmer
+|l| Blank Spot

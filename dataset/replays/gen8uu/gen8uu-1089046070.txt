@@ -1,0 +1,689 @@
+|j|☆Pot of Tea
+|j|☆big baz
+|player|p1|Pot of Tea|lass-gen4dp|1634
+|player|p2|big baz|ltsurge|1453
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|html|<div class="broadcast-red"><strong>UU is currently suspecting Mamoswine! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3661513/">suspect thread</a>.</strong></div>
+|clearpoke
+|poke|p1|Gardevoir, F|
+|poke|p1|Golisopod, F|
+|poke|p1|Cobalion|
+|poke|p1|Tsareena, F|
+|poke|p1|Flygon, M|
+|poke|p1|Gigalith, F|
+|poke|p2|Jellicent, M|
+|poke|p2|Snorlax, F|
+|poke|p2|Bronzong|
+|poke|p2|Tsareena, F|
+|poke|p2|Haxorus, M|
+|poke|p2|Chandelure, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|turn|1
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Golisopod
+|-status|p1a: Golisopod|brn
+|move|p1a: Golisopod|Spikes|p2a: Jellicent
+|-sidestart|p2: big baz|Spikes
+|
+|-damage|p1a: Golisopod|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Jellicent|Scald|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|82/100 brn
+|move|p1a: Golisopod|Leech Life|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|92/100
+|-heal|p1a: Golisopod|87/100 brn|[from] drain|[of] p2a: Jellicent
+|
+|-heal|p2a: Jellicent|98/100|[from] item: Leftovers
+|-damage|p1a: Golisopod|81/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Jellicent|Scald|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|68/100 brn
+|move|p1a: Golisopod|Spikes|p2a: Jellicent
+|-sidestart|p2: big baz|Spikes
+|
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p1a: Golisopod|62/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Jellicent|Scald|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|49/100 brn
+|-activate|p1a: Golisopod|ability: Emergency Exit
+|
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Water Absorb|[from] ability: Trace|[of] p2a: Jellicent
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Gardevoir|Trick|p2a: Bronzong
+|-activate|p1a: Gardevoir|move: Trick|[of] p2a: Bronzong
+|-item|p2a: Bronzong|Choice Specs|[from] move: Trick
+|-item|p1a: Gardevoir|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Tsareena
+|-sidestart|p1: Pot of Tea|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Tsareena|Knock Off|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|45/100
+|-enditem|p2a: Bronzong|Choice Specs|[from] move: Knock Off|[of] p1a: Tsareena
+|move|p2a: Bronzong|Stealth Rock||[still]
+|-fail|p2a: Bronzong
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Tsareena|Power Whip|p2a: Bronzong|[miss]
+|-miss|p1a: Tsareena|p2a: Bronzong
+|move|p2a: Bronzong|Toxic|p1a: Tsareena
+|-status|p1a: Tsareena|tox
+|
+|-damage|p1a: Tsareena|95/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Tsareena|Power Whip|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-damage|p1a: Tsareena|83/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Tsareena|Power Whip|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|16/100
+|move|p2a: Bronzong|Psychic|p1a: Tsareena
+|-damage|p1a: Tsareena|49/100 tox
+|
+|-damage|p1a: Tsareena|31/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: Cobalion|Cobalion|100/100
+|-damage|p1a: Cobalion|97/100|[from] Stealth Rock
+|move|p2a: Bronzong|Stealth Rock||[still]
+|-fail|p2a: Bronzong
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Cobalion|Close Combat|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|13
+|
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|move|p2a: Tsareena|Rapid Spin|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|87/100
+|-boost|p2a: Tsareena|spe|1
+|-sideend|p2: big baz|Spikes|[from] move: Rapid Spin|[of] p2a: Tsareena
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Tsareena|U-turn|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|79/100
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100|[from]move: U-turn
+|move|p1a: Cobalion|Stone Edge|p2a: Jellicent|[miss]
+|-miss|p1a: Cobalion|p2a: Jellicent
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Tsareena|Tsareena, F|31/100 tox
+|move|p2a: Jellicent|Will-O-Wisp||[still]
+|-fail|p2a: Jellicent
+|
+|-damage|p1a: Tsareena|25/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|move|p1a: Tsareena|Knock Off|p2a: Tsareena
+|-damage|p2a: Tsareena|62/100
+|-enditem|p2a: Tsareena|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tsareena
+|
+|-damage|p1a: Tsareena|13/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Tsareena|U-turn|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100|[from]move: U-turn
+|-ability|p2a: Haxorus|Mold Breaker
+|
+|upkeep
+|
+|switch|p1a: Flygon|Flygon, M|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Flygon|Outrage|p2a: Jellicent
+|-damage|p2a: Jellicent|61/100
+|
+|-heal|p2a: Jellicent|67/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Flygon|Outrage|p2a: Jellicent|[from]lockedmove
+|-damage|p2a: Jellicent|31/100
+|-start|p1a: Flygon|confusion|[fatigue]
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Flygon
+|-status|p1a: Flygon|brn
+|
+|-heal|p2a: Jellicent|37/100|[from] item: Leftovers
+|-damage|p1a: Flygon|89/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Water Absorb|[from] ability: Trace|[of] p2a: Jellicent
+|move|p2a: Jellicent|Strength Sap|p1a: Gardevoir
+|-unboost|p1a: Gardevoir|atk|1
+|-heal|p2a: Jellicent|67/100
+|
+|-heal|p1a: Gardevoir|94/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|73/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Gardevoir|Moonblast|p2a: Snorlax
+|-damage|p2a: Snorlax|71/100
+|
+|-heal|p1a: Gardevoir|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|77/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Snorlax
+|-damage|p2a: Snorlax|42/100
+|move|p2a: Snorlax|Body Slam|p1a: Gardevoir
+|-damage|p1a: Gardevoir|18/100
+|-status|p1a: Gardevoir|par
+|
+|-heal|p1a: Gardevoir|25/100 par|[from] item: Leftovers
+|-heal|p2a: Snorlax|48/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|-heal|p1a: Gardevoir|31/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tsareena|Tsareena, F|62/100
+|turn|24
+|
+|switch|p1a: Golisopod|Golisopod, F|49/100 brn
+|move|p2a: Tsareena|U-turn|p1a: Golisopod
+|-damage|p1a: Golisopod|32/100 brn
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100|[from]move: U-turn
+|
+|-damage|p1a: Golisopod|26/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Golisopod|First Impression|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|92/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|faint|p1a: Golisopod
+|
+|upkeep
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|-damage|p1a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|26
+|
+|switch|p2a: Jellicent|Jellicent, M|73/100
+|move|p1a: Gigalith|Rock Blast|p2a: Jellicent|[miss]
+|-miss|p1a: Gigalith|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|67/100|[from] Sandstorm
+|-heal|p2a: Jellicent|73/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Jellicent|Strength Sap|p1a: Gigalith
+|-unboost|p1a: Gigalith|atk|1
+|-heal|p2a: Jellicent|100/100
+|move|p1a: Gigalith|Toxic|p2a: Jellicent
+|-status|p2a: Jellicent|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100 tox|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Gigalith|100/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p2a: Tsareena|Tsareena, F|62/100
+|switch|p1a: Gardevoir|Gardevoir, F|31/100 par
+|-damage|p1a: Gardevoir|18/100 par|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Queenly Majesty|[from] ability: Trace|[of] p2a: Tsareena
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|56/100|[from] Sandstorm
+|-damage|p1a: Gardevoir|12/100 par|[from] Sandstorm
+|-heal|p1a: Gardevoir|18/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Cobalion|Cobalion|79/100
+|-damage|p1a: Cobalion|76/100|[from] Stealth Rock
+|move|p2a: Tsareena|U-turn|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|71/100
+|
+|switch|p2a: Chandelure|Chandelure, M|92/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chandelure|86/100|[from] Sandstorm
+|upkeep
+|turn|30
+|
+|switch|p1a: Flygon|Flygon, M|89/100 brn
+|-damage|p1a: Flygon|83/100 brn|[from] Stealth Rock
+|move|p2a: Chandelure|Shadow Ball|p1a: Flygon
+|-damage|p1a: Flygon|26/100 brn
+|
+|-weather|none
+|-damage|p1a: Flygon|20/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Tsareena|Tsareena, F|56/100
+|move|p1a: Flygon|Earthquake|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|42/100
+|
+|-damage|p1a: Flygon|14/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p1a: Cobalion|Cobalion|71/100
+|-damage|p1a: Cobalion|68/100|[from] Stealth Rock
+|move|p2a: Tsareena|U-turn|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|63/100
+|
+|switch|p2a: Chandelure|Chandelure, M|86/100|[from]move: U-turn
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|-damage|p1a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Chandelure|Shadow Ball|p1a: Gigalith
+|-damage|p1a: Gigalith|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chandelure|80/100|[from] Sandstorm
+|-heal|p1a: Gigalith|72/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: Jellicent|Jellicent, M|94/100 tox
+|move|p1a: Gigalith|Rock Blast|p2a: Jellicent
+|-damage|p2a: Jellicent|86/100 tox
+|-damage|p2a: Jellicent|77/100 tox
+|-hitcount|p2a: Jellicent|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|71/100 tox|[from] Sandstorm
+|-heal|p2a: Jellicent|77/100 tox|[from] item: Leftovers
+|-heal|p1a: Gigalith|78/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|71/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p2a: Jellicent|Strength Sap|p1a: Gigalith
+|-unboost|p1a: Gigalith|atk|1
+|-heal|p2a: Jellicent|100/100 tox
+|move|p1a: Gigalith|Stealth Rock|p2a: Jellicent
+|-sidestart|p2: big baz|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100 tox|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Gigalith|84/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Gigalith
+|-status|p1a: Gigalith|brn
+|move|p1a: Gigalith|Rock Blast|p2a: Jellicent
+|-damage|p2a: Jellicent|85/100 tox
+|-damage|p2a: Jellicent|82/100 tox
+|-hitcount|p2a: Jellicent|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|76/100 tox|[from] Sandstorm
+|-heal|p2a: Jellicent|82/100 tox|[from] item: Leftovers
+|-heal|p1a: Gigalith|90/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|64/100 tox|[from] psn
+|-damage|p1a: Gigalith|84/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|switch|p2a: Tsareena|Tsareena, F|42/100
+|-damage|p2a: Tsareena|30/100|[from] Stealth Rock
+|move|p1a: Gigalith|Rock Blast|p2a: Tsareena|[miss]
+|-miss|p1a: Gigalith|p2a: Tsareena
+|
+|-weather|none
+|-heal|p1a: Gigalith|90/100 brn|[from] item: Leftovers
+|-damage|p1a: Gigalith|84/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Tsareena|Rapid Spin|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|79/100 brn
+|-boost|p2a: Tsareena|spe|1
+|-sideend|p2: big baz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tsareena
+|move|p1a: Gigalith|Toxic|p2a: Tsareena
+|-status|p2a: Tsareena|tox
+|
+|-heal|p1a: Gigalith|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Tsareena|24/100 tox|[from] psn
+|-damage|p1a: Gigalith|79/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p1a: Cobalion|Cobalion|63/100
+|-damage|p1a: Cobalion|60/100|[from] Stealth Rock
+|move|p2a: Tsareena|Power Whip|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|34/100
+|
+|-damage|p2a: Tsareena|12/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p2a: Tsareena|U-turn|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|29/100
+|
+|switch|p2a: Jellicent|Jellicent, M|64/100 tox|[from]move: U-turn
+|move|p1a: Cobalion|Stone Edge|p2a: Jellicent
+|-damage|p2a: Jellicent|41/100 tox
+|
+|-heal|p2a: Jellicent|48/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|41/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|switch|p1a: Gardevoir|Gardevoir, F|18/100 par
+|-damage|p1a: Gardevoir|6/100 par|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Water Absorb|[from] ability: Trace|[of] p2a: Jellicent
+|move|p2a: Jellicent|Strength Sap|p1a: Gardevoir
+|-unboost|p1a: Gardevoir|atk|1
+|-heal|p2a: Jellicent|71/100 tox
+|
+|-heal|p2a: Jellicent|77/100 tox|[from] item: Leftovers
+|-heal|p1a: Gardevoir|12/100 par|[from] item: Leftovers
+|-damage|p2a: Jellicent|65/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|switch|p2a: Tsareena|Tsareena, F|12/100 tox
+|move|p1a: Gardevoir|Psyshock|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|
+|-heal|p1a: Gardevoir|18/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|43
+|
+|switch|p1a: Cobalion|Cobalion|29/100
+|-damage|p1a: Cobalion|26/100|[from] Stealth Rock
+|move|p2a: Haxorus|Earthquake|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-enditem|p1a: Cobalion|Shuca Berry|[eat]
+|-enditem|p1a: Cobalion|Shuca Berry|[weaken]
+|-damage|p1a: Cobalion|0 fnt
+|-damage|p2a: Haxorus|91/100|[from] item: Life Orb
+|faint|p1a: Cobalion
+|
+|upkeep
+|
+|switch|p1a: Flygon|Flygon, M|14/100 brn
+|-damage|p1a: Flygon|8/100 brn|[from] Stealth Rock
+|turn|44
+|
+|switch|p2a: Jellicent|Jellicent, M|65/100 tox
+|move|p1a: Flygon|U-turn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|61/100 tox
+|
+|switch|p1a: Gardevoir|Gardevoir, F|18/100 par|[from]move: U-turn
+|-damage|p1a: Gardevoir|6/100 par|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Water Absorb|[from] ability: Trace|[of] p2a: Jellicent
+|
+|-heal|p2a: Jellicent|68/100 tox|[from] item: Leftovers
+|-heal|p1a: Gardevoir|12/100 par|[from] item: Leftovers
+|-damage|p2a: Jellicent|61/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|switch|p2a: Chandelure|Chandelure, M|80/100
+|move|p1a: Gardevoir|Psyshock|p2a: Chandelure
+|-damage|p2a: Chandelure|22/100
+|
+|-heal|p1a: Gardevoir|18/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p1a: Gigalith|Gigalith, F|79/100 brn
+|-damage|p1a: Gigalith|66/100 brn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Chandelure|Shadow Ball|p1a: Gigalith
+|-damage|p1a: Gigalith|45/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chandelure|16/100|[from] Sandstorm
+|-heal|p1a: Gigalith|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Gigalith|45/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Gigalith
+|-crit|p1a: Gigalith
+|-damage|p1a: Gigalith|11/100 brn
+|move|p1a: Gigalith|Rock Blast|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|1/100
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-hitcount|p2a: Chandelure|2
+|faint|p2a: Chandelure
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|17/100 brn|[from] item: Leftovers
+|-damage|p1a: Gigalith|11/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, M|91/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|48
+|
+|move|p2a: Haxorus|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|-damage|p2a: Haxorus|81/100|[from] item: Life Orb
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haxorus|75/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Flygon|Flygon, M|8/100 brn
+|-damage|p1a: Flygon|2/100 brn|[from] Stealth Rock
+|turn|49
+|
+|switch|p2a: Jellicent|Jellicent, M|61/100 tox
+|move|p1a: Flygon|Outrage|p2a: Jellicent
+|-damage|p2a: Jellicent|41/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|35/100 tox|[from] Sandstorm
+|-heal|p2a: Jellicent|41/100 tox|[from] item: Leftovers
+|-damage|p1a: Flygon|0 fnt|[from] brn
+|faint|p1a: Flygon
+|-damage|p2a: Jellicent|35/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Gardevoir|Gardevoir, F|18/100 par
+|-damage|p1a: Gardevoir|6/100 par|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Water Absorb|[from] ability: Trace|[of] p2a: Jellicent
+|turn|50
+|
+|move|p2a: Jellicent|Strength Sap|p1a: Gardevoir
+|-unboost|p1a: Gardevoir|atk|1
+|-heal|p2a: Jellicent|65/100 tox
+|move|p1a: Gardevoir|Moonblast|p2a: Jellicent
+|-damage|p2a: Jellicent|28/100 tox
+|
+|-weather|none
+|-heal|p2a: Jellicent|34/100 tox|[from] item: Leftovers
+|-heal|p1a: Gardevoir|12/100 par|[from] item: Leftovers
+|-damage|p2a: Jellicent|22/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|move|p2a: Jellicent|Strength Sap|p1a: Gardevoir
+|-unboost|p1a: Gardevoir|atk|1
+|-heal|p2a: Jellicent|42/100 tox
+|move|p1a: Gardevoir|Trick|p2a: Jellicent
+|-activate|p1a: Gardevoir|move: Trick|[of] p2a: Jellicent
+|-item|p2a: Jellicent|Leftovers|[from] move: Trick
+|-item|p1a: Gardevoir|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Jellicent|48/100 tox|[from] item: Leftovers
+|-heal|p1a: Gardevoir|18/100 par|[from] item: Leftovers
+|-damage|p2a: Jellicent|29/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|move|p2a: Jellicent|Strength Sap|p1a: Gardevoir
+|-unboost|p1a: Gardevoir|atk|1
+|-heal|p2a: Jellicent|44/100 tox
+|move|p1a: Gardevoir|Trick|p2a: Jellicent
+|-activate|p1a: Gardevoir|move: Trick|[of] p2a: Jellicent
+|-item|p2a: Jellicent|Leftovers|[from] move: Trick
+|-item|p1a: Gardevoir|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Jellicent|50/100 tox|[from] item: Leftovers
+|-heal|p1a: Gardevoir|25/100 par|[from] item: Leftovers
+|-damage|p2a: Jellicent|25/100 tox|[from] psn
+|upkeep
+|turn|53
+|
+|move|p2a: Jellicent|Strength Sap|p1a: Gardevoir
+|-unboost|p1a: Gardevoir|atk|1
+|-heal|p2a: Jellicent|37/100 tox
+|move|p1a: Gardevoir|Trick|p2a: Jellicent
+|-activate|p1a: Gardevoir|move: Trick|[of] p2a: Jellicent
+|-item|p2a: Jellicent|Leftovers|[from] move: Trick
+|-item|p1a: Gardevoir|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Jellicent|44/100 tox|[from] item: Leftovers
+|-heal|p1a: Gardevoir|31/100 par|[from] item: Leftovers
+|-damage|p2a: Jellicent|13/100 tox|[from] psn
+|upkeep
+|turn|54
+|
+|move|p2a: Jellicent|Strength Sap|p1a: Gardevoir
+|-unboost|p1a: Gardevoir|atk|1
+|-heal|p2a: Jellicent|23/100 tox
+|move|p1a: Gardevoir|Trick|p2a: Jellicent
+|-activate|p1a: Gardevoir|move: Trick|[of] p2a: Jellicent
+|-item|p2a: Jellicent|Leftovers|[from] move: Trick
+|-item|p1a: Gardevoir|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Jellicent|29/100 tox|[from] item: Leftovers
+|-heal|p1a: Gardevoir|37/100 par|[from] item: Leftovers
+|-damage|p2a: Jellicent|0 fnt|[from] psn
+|faint|p2a: Jellicent
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, M|75/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|55
+|
+|move|p2a: Haxorus|Earthquake|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|-damage|p2a: Haxorus|65/100|[from] item: Life Orb
+|faint|p1a: Gardevoir
+|
+|win|big baz
+|l|☆Pot of Tea
+|c|☆big baz|gg
+|raw|Pot of Tea's rating: 1634 &rarr; <strong>1604</strong><br />(-30 for losing)
+|raw|big baz's rating: 1453 &rarr; <strong>1483</strong><br />(+30 for winning)

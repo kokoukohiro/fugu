@@ -1,0 +1,423 @@
+|j|☆pathooblers
+|j|☆Westfalen-Preusse
+|t:|1617189934
+|player|p1|pathooblers|bugcatcher|1428
+|player|p2|Westfalen-Preusse|thorton|1189
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Accelgor, F|
+|poke|p1|Heliolisk, M|
+|poke|p1|Passimian, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Braviary, M|
+|poke|p1|Sandaconda, M|
+|poke|p2|Scrafty, F|
+|poke|p2|Toxicroak, F|
+|poke|p2|Poliwrath, F|
+|poke|p2|Gallade, M|
+|poke|p2|Hitmontop, M|
+|poke|p2|Sawk, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1617189944
+|start
+|switch|p1a: Accelgor|Accelgor, F, shiny|100/100
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Accelgor|atk|1
+|turn|1
+|
+|t:|1617189952
+|move|p1a: Accelgor|Spikes|p2a: Hitmontop
+|-sidestart|p2: Westfalen-Preusse|Spikes
+|move|p2a: Hitmontop|Stone Edge|p1a: Accelgor
+|-supereffective|p1a: Accelgor
+|-damage|p1a: Accelgor|0 fnt
+|faint|p1a: Accelgor
+|
+|upkeep
+|j| E_Elemental
+|
+|t:|1617189963
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|turn|2
+|
+|t:|1617189972
+|switch|p2a: Scrafty|Scrafty, F|100/100
+|-damage|p2a: Scrafty|88/100|[from] Spikes
+|move|p1a: Corsola|Will-O-Wisp|p2a: Scrafty
+|-status|p2a: Scrafty|brn
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|brn|[msg]
+|-heal|p2a: Scrafty|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1617189985
+|switch|p1a: Braviary|Braviary, M|100/100
+|move|p2a: Scrafty|Toxic|p1a: Braviary
+|-status|p1a: Braviary|tox
+|
+|-heal|p2a: Scrafty|99/100|[from] item: Leftovers
+|-damage|p1a: Braviary|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1617189995
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-damage|p2a: Hitmontop|88/100|[from] Spikes
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Braviary|atk|1
+|-ability|p1a: Braviary|Defiant
+|-boost|p1a: Braviary|atk|2
+|move|p1a: Braviary|U-turn|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-damage|p2a: Hitmontop|65/100
+|
+|t:|1617190005
+|switch|p1a: Passimian|Passimian, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1617190010
+|move|p1a: Passimian|U-turn|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-damage|p2a: Hitmontop|50/100
+|
+|t:|1617190014
+|switch|p1a: Corsola|Corsola-Galar, M|100/100|[from]move: U-turn
+|move|p2a: Hitmontop|Rapid Spin|p1a: Corsola
+|-immune|p1a: Corsola
+|
+|upkeep
+|turn|6
+|
+|t:|1617190022
+|switch|p2a: Scrafty|Scrafty, F|99/100
+|-damage|p2a: Scrafty|88/100|[from] Spikes
+|move|p1a: Corsola|Will-O-Wisp|p2a: Scrafty
+|-status|p2a: Scrafty|brn
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|brn|[msg]
+|-heal|p2a: Scrafty|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1617190036
+|switch|p1a: Braviary|Braviary, M|94/100 tox
+|move|p2a: Scrafty|Toxic|p1a: Braviary
+|-fail|p1a: Braviary|tox
+|
+|-heal|p2a: Scrafty|99/100|[from] item: Leftovers
+|-damage|p1a: Braviary|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|l| E_Elemental
+|
+|t:|1617190101
+|move|p1a: Braviary|U-turn|p2a: Scrafty
+|-damage|p2a: Scrafty|75/100
+|
+|t:|1617190121
+|switch|p1a: Heliolisk|Heliolisk, M|100/100|[from]move: U-turn
+|move|p2a: Scrafty|Drain Punch|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|-heal|p2a: Scrafty|100/100|[from] drain|[of] p1a: Heliolisk
+|faint|p1a: Heliolisk
+|
+|upkeep
+|
+|t:|1617190125
+|switch|p1a: Passimian|Passimian, F|100/100
+|turn|9
+|
+|t:|1617190143
+|switch|p2a: Hitmontop|Hitmontop, M|50/100
+|-damage|p2a: Hitmontop|38/100|[from] Spikes
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Passimian|atk|1
+|-ability|p1a: Passimian|Defiant
+|-boost|p1a: Passimian|atk|2
+|move|p1a: Passimian|Close Combat|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|faint|p2a: Hitmontop
+|
+|upkeep
+|
+|t:|1617190169
+|switch|p2a: Gallade|Gallade, M|100/100
+|-damage|p2a: Gallade|88/100|[from] Spikes
+|turn|10
+|
+|t:|1617190175
+|switch|p1a: Sandaconda|Sandaconda, M|100/100
+|move|p2a: Gallade|Drain Punch|p1a: Sandaconda
+|-damage|p1a: Sandaconda|76/100
+|-heal|p2a: Gallade|100/100|[from] drain|[of] p1a: Sandaconda
+|
+|-heal|p1a: Sandaconda|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1617190186
+|move|p2a: Gallade|Swords Dance|p2a: Gallade
+|-boost|p2a: Gallade|atk|2
+|move|p1a: Sandaconda|Glare|p2a: Gallade
+|-status|p2a: Gallade|par
+|-enditem|p2a: Gallade|Lum Berry|[eat]
+|-curestatus|p2a: Gallade|par|[msg]
+|
+|-heal|p1a: Sandaconda|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1617190197
+|move|p2a: Gallade|Drain Punch|p1a: Sandaconda
+|-damage|p1a: Sandaconda|35/100
+|move|p1a: Sandaconda|Glare|p2a: Gallade
+|-status|p2a: Gallade|par
+|
+|-heal|p1a: Sandaconda|41/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1617190206
+|move|p1a: Sandaconda|Earthquake|p2a: Gallade
+|-damage|p2a: Gallade|51/100 par
+|move|p2a: Gallade|Recycle|p2a: Gallade
+|-item|p2a: Gallade|Lum Berry|[from] move: Recycle
+|-enditem|p2a: Gallade|Lum Berry|[eat]
+|-curestatus|p2a: Gallade|par|[msg]
+|
+|-heal|p1a: Sandaconda|47/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1617190217
+|move|p2a: Gallade|Drain Punch|p1a: Sandaconda
+|-damage|p1a: Sandaconda|0 fnt
+|-heal|p2a: Gallade|75/100|[from] drain|[of] p1a: Sandaconda
+|faint|p1a: Sandaconda
+|
+|upkeep
+|
+|t:|1617190220
+|switch|p1a: Passimian|Passimian, F|100/100
+|turn|15
+|
+|t:|1617190236
+|move|p2a: Gallade|Shadow Sneak|p1a: Passimian
+|-damage|p1a: Passimian|76/100
+|move|p1a: Passimian|U-turn|p2a: Gallade
+|-damage|p2a: Gallade|51/100
+|
+|t:|1617190241
+|switch|p1a: Braviary|Braviary, M|88/100 tox|[from]move: U-turn
+|
+|-damage|p1a: Braviary|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1617190264
+|move|p2a: Gallade|Drain Punch|p1a: Braviary
+|-damage|p1a: Braviary|18/100 tox
+|-heal|p2a: Gallade|89/100|[from] drain|[of] p1a: Braviary
+|move|p1a: Braviary|Brave Bird|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|-damage|p1a: Braviary|0 fnt|[from] Recoil
+|faint|p2a: Gallade
+|faint|p1a: Braviary
+|
+|upkeep
+|
+|t:|1617190296
+|switch|p2a: Sawk|Sawk, M|100/100
+|switch|p1a: Passimian|Passimian, F|76/100
+|-damage|p2a: Sawk|88/100|[from] Spikes
+|-ability|p2a: Sawk|Mold Breaker
+|turn|17
+|
+|t:|1617190320
+|move|p2a: Sawk|Endure|p2a: Sawk
+|-singleturn|p2a: Sawk|move: Endure
+|move|p1a: Passimian|U-turn|p2a: Sawk
+|-resisted|p2a: Sawk
+|-damage|p2a: Sawk|72/100
+|
+|t:|1617190324
+|switch|p1a: Corsola|Corsola-Galar, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|18
+|
+|t:|1617190329
+|move|p2a: Sawk|Taunt|p1a: Corsola
+|-start|p1a: Corsola|move: Taunt
+|cant|p1a: Corsola|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|19
+|
+|t:|1617190335
+|move|p2a: Sawk|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|49/100
+|-start|p2a: Sawk|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Corsola
+|-enditem|p1a: Corsola|Eviolite|[from] move: Knock Off|[of] p2a: Sawk
+|move|p1a: Corsola|Night Shade|p2a: Sawk
+|-damage|p2a: Sawk|39/100
+|
+|upkeep
+|turn|20
+|c|☆pathooblers|loving these sets btw
+|
+|t:|1617190354
+|switch|p2a: Scrafty|Scrafty, F|100/100
+|-damage|p2a: Scrafty|88/100|[from] Spikes
+|move|p1a: Corsola|Night Shade|p2a: Scrafty
+|-damage|p2a: Scrafty|51/100
+|
+|-heal|p2a: Scrafty|57/100|[from] item: Leftovers
+|-end|p1a: Corsola|move: Taunt
+|upkeep
+|turn|21
+|c|☆pathooblers|always dig a monotype team
+|
+|t:|1617190368
+|move|p2a: Scrafty|Toxic|p1a: Corsola|[miss]
+|-miss|p2a: Scrafty|p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Scrafty
+|-unboost|p2a: Scrafty|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-heal|p2a: Scrafty|63/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1617190378
+|move|p2a: Scrafty|Toxic|p1a: Corsola
+|-status|p1a: Corsola|tox
+|move|p1a: Corsola|Will-O-Wisp|p2a: Scrafty
+|-status|p2a: Scrafty|brn
+|
+|-heal|p2a: Scrafty|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|63/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 tox|[from] psn
+|upkeep
+|turn|23
+|c|☆Westfalen-Preusse|Yeah ...
+|
+|t:|1617190397
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|move|p1a: Corsola|Night Shade|p2a: Scrafty
+|-damage|p2a: Scrafty|26/100 brn
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|brn|[msg]
+|-heal|p2a: Scrafty|32/100|[from] item: Leftovers
+|-damage|p1a: Corsola|82/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1617190431
+|switch|p1a: Passimian|Passimian, F|76/100
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|38/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1617190455
+|move|p1a: Passimian|Close Combat|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|faint|p2a: Scrafty
+|
+|upkeep
+|
+|t:|1617190490
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|-damage|p2a: Toxicroak|88/100|[from] Spikes
+|turn|26
+|
+|t:|1617190497
+|switch|p1a: Corsola|Corsola-Galar, M|82/100 tox
+|move|p2a: Toxicroak|Drain Punch|p1a: Corsola
+|-immune|p1a: Corsola
+|
+|-damage|p1a: Corsola|76/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1617190512
+|switch|p2a: Poliwrath|Poliwrath, F|100/100
+|-damage|p2a: Poliwrath|88/100|[from] Spikes
+|move|p1a: Corsola|Will-O-Wisp|p2a: Poliwrath
+|-status|p2a: Poliwrath|brn
+|
+|-damage|p2a: Poliwrath|82/100 brn|[from] brn
+|-damage|p1a: Corsola|63/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1617190525
+|move|p2a: Poliwrath|Scald|p1a: Corsola
+|-damage|p1a: Corsola|40/100 tox
+|move|p1a: Corsola|Strength Sap|p2a: Poliwrath
+|-unboost|p2a: Poliwrath|atk|1
+|-heal|p1a: Corsola|94/100 tox
+|
+|-damage|p2a: Poliwrath|76/100 brn|[from] brn
+|-damage|p1a: Corsola|75/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1617190537
+|switch|p1a: Passimian|Passimian, F|76/100
+|move|p2a: Poliwrath|Scald|p1a: Passimian
+|-damage|p1a: Passimian|25/100
+|
+|-damage|p2a: Poliwrath|69/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1617190547
+|move|p2a: Poliwrath|Vacuum Wave|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|faint|p1a: Passimian
+|
+|-damage|p2a: Poliwrath|63/100 brn|[from] brn
+|upkeep
+|c|☆pathooblers|gg
+|c|☆Westfalen-Preusse|gg.
+|-message|pathooblers forfeited.
+|
+|win|Westfalen-Preusse
+|raw|pathooblers's rating: 1428 &rarr; <strong>1396</strong><br />(-32 for losing)
+|raw|Westfalen-Preusse's rating: 1189 &rarr; <strong>1229</strong><br />(+40 for winning)
+|l|☆pathooblers

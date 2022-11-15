@@ -1,0 +1,782 @@
+|j|☆UnbeatableTR
+|j|☆URSHIFU**YOU
+|player|p1|UnbeatableTR|psychic-gen4|1292
+|player|p2|URSHIFU**YOU|102|1196
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Persian, M|
+|poke|p1|Stunfisk, M|
+|poke|p1|Mareanie, M|
+|poke|p1|Leafeon, F|
+|poke|p1|Dusknoir, M|
+|poke|p1|Lunatone|
+|poke|p2|Mawile, F|
+|poke|p2|Musharna, F|
+|poke|p2|Togetic, F|
+|poke|p2|Vibrava, F|
+|poke|p2|Pyukumuku, F|
+|poke|p2|Type: Null|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|switch|p2a: Mawile|Mawile, F, shiny|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Mareanie|atk|1
+|turn|1
+|
+|move|p2a: Mawile|Knock Off|p1a: Mareanie
+|-damage|p1a: Mareanie|86/100
+|-enditem|p1a: Mareanie|Eviolite|[from] move: Knock Off|[of] p2a: Mawile
+|move|p1a: Mareanie|Knock Off|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|95/100
+|-damage|p1a: Mareanie|70/100|[from] item: Rocky Helmet|[of] p2a: Mawile
+|-enditem|p2a: Mawile|Rocky Helmet|[from] move: Knock Off|[of] p1a: Mareanie
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Musharna|Musharna, F, shiny|100/100
+|move|p1a: Mareanie|Toxic Spikes|p2a: Musharna
+|-sidestart|p2: URSHIFU**YOU|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Stunfisk|Stunfisk, M|100/100
+|move|p2a: Musharna|Calm Mind|p2a: Musharna
+|-boost|p2a: Musharna|spa|1
+|-boost|p2a: Musharna|spd|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Musharna|Psychic|p1a: Stunfisk
+|-damage|p1a: Stunfisk|70/100
+|move|p1a: Stunfisk|Yawn|p2a: Musharna
+|-start|p2a: Musharna|move: Yawn|[of] p1a: Stunfisk
+|
+|-heal|p1a: Stunfisk|77/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Vibrava|Vibrava, F, shiny|100/100
+|switch|p1a: Lunatone|Lunatone|100/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Type: Null|Type: Null, shiny|100/100
+|-status|p2a: Type: Null|psn
+|move|p1a: Lunatone|Psychic|p2a: Type: Null
+|-damage|p2a: Type: Null|84/100 psn
+|-unboost|p2a: Type: Null|spd|1
+|
+|-damage|p2a: Type: Null|71/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|move|p2a: Type: Null|Toxic|p1a: Mareanie
+|-immune|p1a: Mareanie
+|
+|-damage|p2a: Type: Null|59/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Type: Null|Rest|p2a: Type: Null
+|-status|p2a: Type: Null|slp|[from] move: Rest
+|-heal|p2a: Type: Null|100/100 slp|[silent]
+|move|p1a: Mareanie|Knock Off|p2a: Type: Null
+|-damage|p2a: Type: Null|92/100 slp
+|-enditem|p2a: Type: Null|Eviolite|[from] move: Knock Off|[of] p1a: Mareanie
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Mawile|Mawile, F, shiny|95/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Mareanie|atk|1
+|switch|p1a: Stunfisk|Stunfisk, M|77/100
+|
+|-heal|p1a: Stunfisk|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Vibrava|Vibrava, F, shiny|100/100
+|move|p1a: Stunfisk|Earth Power|p2a: Vibrava
+|-immune|p2a: Vibrava|[from] ability: Levitate
+|
+|-heal|p1a: Stunfisk|89/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Leafeon|Leafeon, F|100/100
+|move|p2a: Vibrava|Defog|p1a: Leafeon
+|-unboost|p1a: Leafeon|evasion|1
+|-sideend|p2: URSHIFU**YOU|Toxic Spikes|[from] move: Defog|[of] p2a: Vibrava
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Leafeon|Knock Off|p2a: Vibrava
+|-damage|p2a: Vibrava|45/100
+|-enditem|p2a: Vibrava|Eviolite|[from] move: Knock Off|[of] p1a: Leafeon
+|move|p2a: Vibrava|Toxic|p1a: Leafeon
+|-status|p1a: Leafeon|tox
+|
+|-damage|p1a: Leafeon|95/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|switch|p2a: Mawile|Mawile, F, shiny|95/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Mareanie|atk|1
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Musharna|Musharna, F, shiny|100/100
+|move|p1a: Mareanie|Toxic Spikes|p2a: Musharna
+|-sidestart|p2: URSHIFU**YOU|move: Toxic Spikes
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Stunfisk|Stunfisk, M|89/100
+|move|p2a: Musharna|Psychic|p1a: Stunfisk
+|-damage|p1a: Stunfisk|70/100
+|
+|-heal|p1a: Stunfisk|77/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Musharna|Psychic|p1a: Stunfisk
+|-damage|p1a: Stunfisk|59/100
+|move|p1a: Stunfisk|Yawn|p2a: Musharna
+|-start|p2a: Musharna|move: Yawn|[of] p1a: Stunfisk
+|
+|-heal|p1a: Stunfisk|65/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Vibrava|Vibrava, F, shiny|45/100
+|switch|p1a: Lunatone|Lunatone|100/100
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Lunatone|Psychic|p2a: Vibrava
+|-damage|p2a: Vibrava|2/100
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|52/100
+|-singleturn|p2a: Vibrava|move: Roost
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Lunatone|Meteor Beam||[still]
+|-prepare|p1a: Lunatone|Meteor Beam|p2a: Vibrava
+|-boost|p1a: Lunatone|spa|1
+|-enditem|p1a: Lunatone|Power Herb
+|-anim|p1a: Lunatone|Meteor Beam|p2a: Vibrava
+|-resisted|p2a: Vibrava
+|-damage|p2a: Vibrava|6/100
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|56/100
+|-singleturn|p2a: Vibrava|move: Roost
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Mawile|Mawile, F, shiny|95/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Lunatone|atk|1
+|move|p1a: Lunatone|Psychic|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|62/100
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Lunatone|Earth Power|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|upkeep
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F, shiny|100/100
+|-status|p2a: Pyukumuku|psn
+|turn|22
+|
+|move|p1a: Lunatone|Meteor Beam||[still]
+|-prepare|p1a: Lunatone|Meteor Beam|p2a: Pyukumuku
+|-boost|p1a: Lunatone|spa|1
+|move|p2a: Pyukumuku|Toxic|p1a: Lunatone
+|-status|p1a: Lunatone|tox
+|
+|-damage|p1a: Lunatone|94/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|88/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Lunatone|Meteor Beam|p2a: Pyukumuku|[from]lockedmove
+|-damage|p2a: Pyukumuku|46/100 psn
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|96/100 psn
+|
+|-heal|p2a: Pyukumuku|100/100 psn|[from] item: Leftovers
+|-damage|p1a: Lunatone|82/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|88/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p1a: Leafeon|Leafeon, F|95/100 tox
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|100/100 psn
+|
+|-damage|p1a: Leafeon|89/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|88/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p2a: Togetic|Togetic, F, shiny|100/100
+|move|p1a: Leafeon|Heal Bell|p1a: Leafeon
+|-activate|p1a: Leafeon|move: Heal Bell
+|-curestatus|p1a: Leafeon|tox|[msg]
+|-curestatus|p1: Lunatone|tox|[msg]
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|move|p2a: Togetic|Defog|p1a: Mareanie
+|-unboost|p1a: Mareanie|evasion|1
+|-sideend|p2: URSHIFU**YOU|Toxic Spikes|[from] move: Defog|[of] p2a: Togetic
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Musharna|Musharna, F, shiny|100/100
+|move|p1a: Mareanie|Toxic Spikes|p2a: Musharna
+|-sidestart|p2: URSHIFU**YOU|move: Toxic Spikes
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-item|p2a: Musharna|Colbur Berry|[from] ability: Frisk|[of] p1a: Dusknoir|[identify]
+|move|p2a: Musharna|Heal Bell|p2a: Musharna
+|-activate|p2a: Musharna|move: Heal Bell
+|-curestatus|p2: Type: Null|slp|[msg]
+|-curestatus|p2: Pyukumuku|psn|[msg]
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Togetic|Togetic, F, shiny|100/100
+|switch|p1a: Stunfisk|Stunfisk, M|65/100
+|
+|-heal|p1a: Stunfisk|71/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Togetic|Defog|p1a: Stunfisk
+|-unboost|p1a: Stunfisk|evasion|1
+|-sideend|p2: URSHIFU**YOU|Toxic Spikes|[from] move: Defog|[of] p2a: Togetic
+|move|p1a: Stunfisk|Yawn|p2a: Togetic
+|-start|p2a: Togetic|move: Yawn|[of] p1a: Stunfisk
+|
+|-heal|p1a: Stunfisk|77/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Vibrava|Vibrava, F, shiny|56/100
+|move|p1a: Stunfisk|Stealth Rock|p2a: Vibrava
+|-sidestart|p2: URSHIFU**YOU|move: Stealth Rock
+|
+|-heal|p1a: Stunfisk|83/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Leafeon|Leafeon, F|89/100
+|move|p2a: Vibrava|Defog|p1a: Leafeon
+|-unboost|p1a: Leafeon|evasion|1
+|-sideend|p2: URSHIFU**YOU|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Musharna|Musharna, F, shiny|100/100
+|move|p1a: Leafeon|Leaf Blade|p2a: Musharna
+|-damage|p2a: Musharna|54/100
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Stunfisk|Stunfisk, M|83/100
+|switch|p2a: Togetic|Togetic, F, shiny|100/100
+|
+|-heal|p1a: Stunfisk|90/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Togetic|Wish|p2a: Togetic
+|move|p1a: Stunfisk|Yawn|p2a: Togetic
+|-start|p2a: Togetic|move: Yawn|[of] p1a: Stunfisk
+|
+|-heal|p1a: Stunfisk|96/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p2a: Vibrava|Vibrava, F, shiny|56/100
+|move|p1a: Stunfisk|Yawn|p2a: Vibrava
+|-start|p2a: Vibrava|move: Yawn|[of] p1a: Stunfisk
+|
+|-heal|p2a: Vibrava|100/100|[from] move: Wish|[wisher] Togetic
+|-heal|p1a: Stunfisk|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: Togetic|Togetic, F, shiny|100/100
+|move|p1a: Stunfisk|Stealth Rock|p2a: Togetic
+|-sidestart|p2: URSHIFU**YOU|move: Stealth Rock
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: Lunatone|Lunatone|82/100
+|move|p2a: Togetic|Defog|p1a: Lunatone
+|-unboost|p1a: Lunatone|evasion|1
+|-sideend|p2: URSHIFU**YOU|Stealth Rock|[from] move: Defog|[of] p2a: Togetic
+|
+|upkeep
+|turn|39
+|
+|switch|p2a: Vibrava|Vibrava, F, shiny|100/100
+|move|p1a: Lunatone|Meteor Beam||[still]
+|-prepare|p1a: Lunatone|Meteor Beam|p2a: Vibrava
+|-boost|p1a: Lunatone|spa|1
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Lunatone|Meteor Beam|p2a: Vibrava|[from]lockedmove
+|-resisted|p2a: Vibrava
+|-crit|p2a: Vibrava
+|-damage|p2a: Vibrava|31/100
+|move|p2a: Vibrava|Toxic|p1a: Lunatone
+|-status|p1a: Lunatone|tox
+|
+|-damage|p1a: Lunatone|76/100 tox|[from] psn
+|upkeep
+|turn|41
+|c|☆URSHIFU**YOU|crit...
+|
+|switch|p1a: Leafeon|Leafeon, F|89/100
+|switch|p2a: Pyukumuku|Pyukumuku, F, shiny|88/100
+|
+|-heal|p2a: Pyukumuku|94/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Leafeon|Knock Off|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|65/100
+|-enditem|p2a: Pyukumuku|Leftovers|[from] move: Knock Off|[of] p1a: Leafeon
+|move|p2a: Pyukumuku|Block|p1a: Leafeon
+|-activate|p1a: Leafeon|trapped
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Leafeon|Knock Off|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|47/100
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|97/100
+|
+|upkeep
+|turn|44
+|c|☆URSHIFU**YOU|gg
+|c|☆URSHIFU**YOU|lunatone dead
+|c|☆URSHIFU**YOU|outplayed despite hax
+|
+|move|p1a: Leafeon|Knock Off|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|78/100
+|move|p2a: Pyukumuku|Toxic|p1a: Leafeon
+|-status|p1a: Leafeon|tox
+|
+|-damage|p1a: Leafeon|83/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|move|p1a: Leafeon|Knock Off|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|60/100
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|100/100
+|
+|-damage|p1a: Leafeon|71/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|move|p1a: Leafeon|Knock Off|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|82/100
+|move|p2a: Pyukumuku|Block||[still]
+|-fail|p2a: Pyukumuku
+|
+|-damage|p1a: Leafeon|53/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|move|p1a: Leafeon|Knock Off|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|61/100
+|move|p2a: Pyukumuku|Block||[still]
+|-fail|p2a: Pyukumuku
+|
+|-damage|p1a: Leafeon|30/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|move|p1a: Leafeon|Knock Off|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|41/100
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|91/100
+|
+|-damage|p1a: Leafeon|0 fnt|[from] psn
+|faint|p1a: Leafeon
+|upkeep
+|
+|switch|p1a: Persian|Persian, M|100/100
+|turn|49
+|c|☆URSHIFU**YOU|ff
+|c|☆URSHIFU**YOU|you cant win
+|
+|move|p1a: Persian|Fake Out|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|74/100
+|-damage|p1a: Persian|91/100|[from] item: Life Orb
+|cant|p2a: Pyukumuku|flinch
+|
+|upkeep
+|turn|50
+|
+|move|p1a: Persian|Fury Swipes|p2a: Pyukumuku|[miss]
+|-miss|p1a: Persian|p2a: Pyukumuku
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|100/100
+|
+|upkeep
+|turn|51
+|
+|move|p1a: Persian|U-turn|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|85/100
+|-damage|p1a: Persian|81/100|[from] item: Life Orb
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100|[from]move: U-turn
+|move|p2a: Pyukumuku|Toxic|p1a: Mareanie
+|-immune|p1a: Mareanie
+|
+|upkeep
+|turn|52
+|
+|switch|p1a: Stunfisk|Stunfisk, M|100/100
+|switch|p2a: Vibrava|Vibrava, F, shiny|31/100
+|
+|upkeep
+|turn|53
+|c|☆URSHIFU**YOU|noob
+|c|☆URSHIFU**YOU|outskilled
+|c|☆URSHIFU**YOU|by the superior pro
+|c|☆URSHIFU**YOU|pathetic weak worthless noob
+|c|☆URSHIFU**YOU|learn to play
+|
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|81/100
+|-singleturn|p2a: Vibrava|move: Roost
+|move|p1a: Stunfisk|Yawn|p2a: Vibrava
+|-start|p2a: Vibrava|move: Yawn|[of] p1a: Stunfisk
+|
+|upkeep
+|turn|54
+|
+|switch|p2a: Togetic|Togetic, F, shiny|100/100
+|move|p1a: Stunfisk|Discharge|p2a: Togetic
+|-supereffective|p2a: Togetic
+|-damage|p2a: Togetic|70/100
+|-status|p2a: Togetic|par
+|
+|upkeep
+|turn|55
+|c|☆URSHIFU**YOU|luck
+|
+|switch|p2a: Vibrava|Vibrava, F, shiny|81/100
+|move|p1a: Stunfisk|Stealth Rock|p2a: Vibrava
+|-sidestart|p2: URSHIFU**YOU|move: Stealth Rock
+|
+|upkeep
+|turn|56
+|
+|move|p2a: Vibrava|Defog|p1a: Stunfisk
+|-unboost|p1a: Stunfisk|evasion|1
+|-sideend|p2: URSHIFU**YOU|Stealth Rock|[from] move: Defog|[of] p2a: Vibrava
+|move|p1a: Stunfisk|Yawn|p2a: Vibrava
+|-start|p2a: Vibrava|move: Yawn|[of] p1a: Stunfisk
+|
+|upkeep
+|turn|57
+|
+|move|p2a: Vibrava|Toxic|p1a: Stunfisk
+|-status|p1a: Stunfisk|tox
+|move|p1a: Stunfisk|Stealth Rock|p2a: Vibrava
+|-sidestart|p2: URSHIFU**YOU|move: Stealth Rock
+|
+|-damage|p1a: Stunfisk|94/100 tox|[from] psn
+|-end|p2a: Vibrava|move: Yawn|[silent]
+|-status|p2a: Vibrava|slp
+|upkeep
+|turn|58
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F, shiny|85/100
+|-damage|p2a: Pyukumuku|73/100|[from] Stealth Rock
+|switch|p1a: Persian|Persian, M|81/100
+|
+|upkeep
+|turn|59
+|
+|move|p1a: Persian|Fake Out|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|53/100
+|-damage|p1a: Persian|71/100|[from] item: Life Orb
+|cant|p2a: Pyukumuku|flinch
+|
+|upkeep
+|turn|60
+|
+|move|p1a: Persian|Fury Swipes|p2a: Pyukumuku|[miss]
+|-miss|p1a: Persian|p2a: Pyukumuku
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|100/100
+|
+|upkeep
+|turn|61
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|move|p2a: Pyukumuku|Block|p1a: Mareanie
+|-activate|p1a: Mareanie|trapped
+|
+|upkeep
+|turn|62
+|
+|switch|p2a: Musharna|Musharna, F, shiny|54/100
+|-damage|p2a: Musharna|42/100|[from] Stealth Rock
+|move|p1a: Mareanie|Toxic Spikes|p2a: Musharna
+|-sidestart|p2: URSHIFU**YOU|move: Toxic Spikes
+|
+|upkeep
+|turn|63
+|
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-item|p2a: Musharna|Colbur Berry|[from] ability: Frisk|[of] p1a: Dusknoir|[identify]
+|move|p2a: Musharna|Moonlight|p2a: Musharna
+|-heal|p2a: Musharna|92/100
+|
+|upkeep
+|turn|64
+|
+|switch|p1a: Persian|Persian, M|71/100
+|move|p2a: Musharna|Heal Bell|p2a: Musharna
+|-activate|p2a: Musharna|move: Heal Bell
+|-curestatus|p2: Vibrava|slp|[msg]
+|-curestatus|p2: Togetic|par|[msg]
+|
+|upkeep
+|turn|65
+|c|☆URSHIFU**YOU|ez
+|
+|switch|p2a: Togetic|Togetic, F, shiny|70/100
+|-damage|p2a: Togetic|45/100|[from] Stealth Rock
+|move|p1a: Persian|U-turn|p2a: Togetic
+|-resisted|p2a: Togetic
+|-damage|p2a: Togetic|42/100
+|-damage|p1a: Persian|61/100|[from] item: Life Orb
+|
+|switch|p1a: Dusknoir|Dusknoir, M|100/100|[from]move: U-turn
+|-item|p2a: Togetic|Eviolite|[from] ability: Frisk|[of] p1a: Dusknoir|[identify]
+|
+|upkeep
+|turn|66
+|
+|move|p1a: Dusknoir|Poltergeist|p2a: Togetic
+|-activate|p2a: Togetic|move: Poltergeist|Eviolite
+|-damage|p2a: Togetic|10/100
+|move|p2a: Togetic|Defog|p1a: Dusknoir
+|-unboost|p1a: Dusknoir|evasion|1
+|-sideend|p2: URSHIFU**YOU|Toxic Spikes|[from] move: Defog|[of] p2a: Togetic
+|-sideend|p2: URSHIFU**YOU|Stealth Rock|[from] move: Defog|[of] p2a: Togetic
+|
+|upkeep
+|turn|67
+|
+|switch|p2a: Type: Null|Type: Null, shiny|92/100
+|move|p1a: Dusknoir|Poltergeist||[still]
+|-fail|p1a: Dusknoir
+|
+|upkeep
+|turn|68
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|move|p2a: Type: Null|Toxic|p1a: Mareanie
+|-immune|p1a: Mareanie
+|
+|upkeep
+|turn|69
+|
+|switch|p2a: Togetic|Togetic, F, shiny|10/100
+|switch|p1a: Persian|Persian, M|61/100
+|
+|upkeep
+|turn|70
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F, shiny|100/100
+|move|p1a: Persian|Fury Swipes|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|92/100
+|-damage|p2a: Pyukumuku|84/100
+|-hitcount|p2a: Pyukumuku|2
+|-damage|p1a: Persian|51/100|[from] item: Life Orb
+|
+|upkeep
+|turn|71
+|
+|move|p1a: Persian|U-turn|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|70/100
+|-damage|p1a: Persian|41/100|[from] item: Life Orb
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100|[from]move: U-turn
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|100/100
+|
+|upkeep
+|turn|72
+|
+|switch|p2a: Togetic|Togetic, F, shiny|10/100
+|move|p1a: Mareanie|Knock Off|p2a: Togetic
+|-resisted|p2a: Togetic
+|-damage|p2a: Togetic|7/100
+|-enditem|p2a: Togetic|Eviolite|[from] move: Knock Off|[of] p1a: Mareanie
+|
+|upkeep
+|turn|73
+|
+|switch|p1a: Stunfisk|Stunfisk, M|94/100 tox
+|move|p2a: Togetic|Roost|p2a: Togetic
+|-heal|p2a: Togetic|57/100
+|-singleturn|p2a: Togetic|move: Roost
+|
+|-heal|p1a: Stunfisk|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Stunfisk|94/100 tox|[from] psn
+|upkeep
+|turn|74
+|
+|move|p2a: Togetic|Roost|p2a: Togetic
+|-heal|p2a: Togetic|100/100
+|-singleturn|p2a: Togetic|move: Roost
+|move|p1a: Stunfisk|Stealth Rock|p2a: Togetic
+|-sidestart|p2: URSHIFU**YOU|move: Stealth Rock
+|
+|-heal|p1a: Stunfisk|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Stunfisk|88/100 tox|[from] psn
+|upkeep
+|turn|75
+|
+|move|p2a: Togetic|Defog|p1a: Stunfisk
+|-unboost|p1a: Stunfisk|evasion|1
+|-sideend|p2: URSHIFU**YOU|Stealth Rock|[from] move: Defog|[of] p2a: Togetic
+|move|p1a: Stunfisk|Discharge|p2a: Togetic
+|-supereffective|p2a: Togetic
+|-damage|p2a: Togetic|51/100
+|
+|-heal|p1a: Stunfisk|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Stunfisk|76/100 tox|[from] psn
+|upkeep
+|turn|76
+|
+|move|p2a: Togetic|Roost|p2a: Togetic
+|-heal|p2a: Togetic|100/100
+|-singleturn|p2a: Togetic|move: Roost
+|move|p1a: Stunfisk|Stealth Rock|p2a: Togetic
+|-sidestart|p2: URSHIFU**YOU|move: Stealth Rock
+|
+|-heal|p1a: Stunfisk|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Stunfisk|57/100 tox|[from] psn
+|upkeep
+|turn|77
+|
+|move|p2a: Togetic|Defog|p1a: Stunfisk
+|-unboost|p1a: Stunfisk|evasion|1
+|-sideend|p2: URSHIFU**YOU|Stealth Rock|[from] move: Defog|[of] p2a: Togetic
+|move|p1a: Stunfisk|Discharge|p2a: Togetic
+|-supereffective|p2a: Togetic
+|-damage|p2a: Togetic|56/100
+|
+|-heal|p1a: Stunfisk|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Stunfisk|33/100 tox|[from] psn
+|upkeep
+|turn|78
+|c|☆URSHIFU**YOU|quit noob
+|
+|move|p2a: Togetic|Roost|p2a: Togetic
+|-heal|p2a: Togetic|100/100
+|-singleturn|p2a: Togetic|move: Roost
+|move|p1a: Stunfisk|Stealth Rock|p2a: Togetic
+|-sidestart|p2: URSHIFU**YOU|move: Stealth Rock
+|
+|-heal|p1a: Stunfisk|39/100 tox|[from] item: Leftovers
+|-damage|p1a: Stunfisk|2/100 tox|[from] psn
+|upkeep
+|turn|79
+|c|☆URSHIFU**YOU|its over
+|c|☆URSHIFU**YOU|if you had a brain youd realise that
+|
+|move|p2a: Togetic|Defog|p1a: Stunfisk
+|-unboost|p1a: Stunfisk|evasion|1
+|-sideend|p2: URSHIFU**YOU|Stealth Rock|[from] move: Defog|[of] p2a: Togetic
+|move|p1a: Stunfisk|Discharge|p2a: Togetic
+|-supereffective|p2a: Togetic
+|-damage|p2a: Togetic|53/100
+|-status|p2a: Togetic|par
+|
+|-heal|p1a: Stunfisk|8/100 tox|[from] item: Leftovers
+|-damage|p1a: Stunfisk|0 fnt|[from] psn
+|faint|p1a: Stunfisk
+|upkeep
+|
+|switch|p1a: Lunatone|Lunatone|76/100 tox
+|turn|80
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|switch|p2a: Type: Null|Type: Null, shiny|92/100
+|
+|upkeep
+|turn|81
+|
+|switch|p2a: Vibrava|Vibrava, F, shiny|81/100
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|
+|upkeep
+|turn|82
+|-message|UnbeatableTR forfeited.
+|
+|win|URSHIFU**YOU
+|l|☆UnbeatableTR

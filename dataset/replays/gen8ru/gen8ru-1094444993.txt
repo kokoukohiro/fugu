@@ -1,0 +1,446 @@
+|j|☆TookMe5Minutes
+|j|☆mavis of the sky
+|player|p1|TookMe5Minutes|155|1266
+|player|p2|mavis of the sky|winona|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Vileplume, M|
+|poke|p1|Steelix, M|
+|poke|p1|Gastrodon, F|
+|poke|p1|Sableye, M|
+|poke|p1|Xatu, M|
+|poke|p1|Centiskorch, M|
+|poke|p2|Centiskorch, M|
+|poke|p2|Raichu-Alola, M|
+|poke|p2|Passimian, F|
+|poke|p2|Rhydon, F|
+|poke|p2|Vileplume, M|
+|poke|p2|Claydol|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Sableye|Sableye, M|100/100
+|switch|p2a: donny phantom|Rhydon, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TookMe5Minutes)
+|
+|switch|p2a: elizabeth warren|Centiskorch, M|100/100
+|move|p1a: Sableye|Taunt|p2a: elizabeth warren
+|-start|p2a: elizabeth warren|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: elizabeth warren|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|66/100
+|-damage|p2a: elizabeth warren|84/100|[from] item: Rocky Helmet|[of] p1a: Sableye
+|-enditem|p1a: Sableye|Rocky Helmet|[from] move: Knock Off|[of] p2a: elizabeth warren
+|move|p1a: Sableye|Foul Play|p2a: elizabeth warren
+|-damage|p2a: elizabeth warren|24/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: elizabeth warren|Leech Life|p1a: Sableye
+|-damage|p1a: Sableye|63/100
+|-heal|p2a: elizabeth warren|38/100|[from] drain|[of] p1a: Sableye
+|
+|-end|p2a: elizabeth warren|move: Taunt
+|upkeep
+|turn|4
+|
+|switch|p2a: verdance|Vileplume, M|100/100
+|move|p1a: Sableye|Foul Play|p2a: verdance
+|-damage|p2a: verdance|82/100
+|
+|-heal|p2a: verdance|88/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|move|p2a: verdance|Sludge Bomb|p1a: Xatu
+|-damage|p1a: Xatu|59/100
+|
+|-heal|p2a: verdance|94/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Xatu|Giga Drain|p2a: verdance
+|-resisted|p2a: verdance
+|-damage|p2a: verdance|88/100
+|-heal|p1a: Xatu|62/100|[from] drain|[of] p2a: verdance
+|move|p2a: verdance|Sludge Bomb|p1a: Xatu
+|-damage|p1a: Xatu|19/100
+|
+|-heal|p2a: verdance|94/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p2a: trans rights!|Raichu-Alola, M|100/100
+|move|p1a: Xatu|Psychic|p2a: trans rights!
+|-resisted|p2a: trans rights!
+|-damage|p2a: trans rights!|69/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|move|p2a: trans rights!|Psyshock|p1a: Centiskorch
+|-damage|p1a: Centiskorch|49/100
+|-damage|p2a: trans rights!|59/100|[from] item: Life Orb
+|
+|-heal|p1a: Centiskorch|55/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: trans rights!|Surf|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|10/100
+|-damage|p2a: trans rights!|49/100|[from] item: Life Orb
+|move|p1a: Centiskorch|Knock Off|p2a: trans rights!
+|-supereffective|p2a: trans rights!
+|-damage|p2a: trans rights!|0 fnt
+|-enditem|p2a: trans rights!|Life Orb|[from] move: Knock Off|[of] p1a: Centiskorch
+|faint|p2a: trans rights!
+|
+|-heal|p1a: Centiskorch|16/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: in n out burbger|Passimian, F|100/100
+|turn|10
+|
+|switch|p1a: Sableye|Sableye, M|63/100
+|move|p2a: in n out burbger|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|43/100
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: verdance|Vileplume, M|94/100
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|93/100
+|
+|-heal|p2a: verdance|100/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p1a: Xatu|Xatu, M|19/100
+|move|p2a: verdance|Growth|p2a: verdance
+|-boost|p2a: verdance|atk|1
+|-boost|p2a: verdance|spa|1
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: indeedee switch|Claydol|100/100
+|move|p1a: Xatu|Psychic|p2a: indeedee switch
+|-resisted|p2a: indeedee switch
+|-damage|p2a: indeedee switch|87/100
+|
+|-heal|p2a: indeedee switch|93/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Xatu|Giga Drain|p2a: indeedee switch
+|-supereffective|p2a: indeedee switch
+|-damage|p2a: indeedee switch|63/100
+|-heal|p1a: Xatu|33/100|[from] drain|[of] p2a: indeedee switch
+|move|p2a: indeedee switch|Teleport|p2a: indeedee switch
+|
+|switch|p2a: in n out burbger|Passimian, F|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Sableye|Sableye, M|93/100
+|move|p2a: in n out burbger|U-turn|p1a: Sableye
+|-damage|p1a: Sableye|70/100
+|
+|switch|p2a: verdance|Vileplume, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Xatu|Xatu, M|33/100
+|move|p2a: verdance|Sludge Bomb|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|switch|p1a: Centiskorch|Centiskorch, M|16/100
+|turn|17
+|
+|switch|p2a: elizabeth warren|Centiskorch, M|38/100
+|move|p1a: Centiskorch|Rest|p1a: Centiskorch
+|-status|p1a: Centiskorch|slp|[from] move: Rest
+|-heal|p1a: Centiskorch|100/100 slp|[silent]
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: donny phantom|Rhydon, F|100/100
+|switch|p1a: Sableye|Sableye, M|70/100
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: elizabeth warren|Centiskorch, M|38/100
+|move|p1a: Sableye|Taunt|p2a: elizabeth warren
+|-start|p2a: elizabeth warren|move: Taunt
+|
+|upkeep
+|turn|20
+|
+|move|p2a: elizabeth warren|Leech Life|p1a: Sableye
+|-damage|p1a: Sableye|32/100
+|-heal|p2a: elizabeth warren|53/100|[from] drain|[of] p1a: Sableye
+|move|p1a: Sableye|Foul Play|p2a: elizabeth warren
+|-damage|p2a: elizabeth warren|0 fnt
+|faint|p2a: elizabeth warren
+|
+|upkeep
+|
+|switch|p2a: verdance|Vileplume, M|100/100
+|turn|21
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: verdance|Growth|p2a: verdance
+|-boost|p2a: verdance|atk|1
+|-boost|p2a: verdance|spa|1
+|
+|upkeep
+|turn|22
+|
+|move|p2a: verdance|Growth|p2a: verdance
+|-boost|p2a: verdance|atk|1
+|-boost|p2a: verdance|spa|1
+|move|p1a: Vileplume|Aromatherapy|p1a: Vileplume
+|-activate|p1a: Vileplume|move: Aromatherapy
+|-curestatus|p1: Centiskorch|slp|[msg]
+|
+|upkeep
+|turn|23
+|
+|move|p2a: verdance|Sludge Bomb|p1a: Vileplume
+|-damage|p1a: Vileplume|24/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: verdance
+|-damage|p2a: verdance|67/100
+|
+|-heal|p2a: verdance|73/100|[from] item: Black Sludge
+|-heal|p1a: Vileplume|30/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|move|p2a: verdance|Strength Sap|p1a: Vileplume
+|-unboost|p1a: Vileplume|atk|1
+|-heal|p2a: verdance|100/100
+|move|p1a: Vileplume|Strength Sap|p2a: verdance
+|-unboost|p2a: verdance|atk|1
+|-heal|p1a: Vileplume|100/100
+|
+|upkeep
+|turn|25
+|c|☆mavis of the sky|excellent
+|
+|move|p2a: verdance|Growth|p2a: verdance
+|-boost|p2a: verdance|atk|1
+|-boost|p2a: verdance|spa|1
+|move|p1a: Vileplume|Sludge Bomb|p2a: verdance
+|-damage|p2a: verdance|67/100
+|
+|-heal|p2a: verdance|74/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|move|p2a: verdance|Sludge Bomb|p1a: Vileplume
+|-damage|p1a: Vileplume|14/100
+|move|p1a: Vileplume|Strength Sap|p2a: verdance
+|-unboost|p2a: verdance|atk|1
+|-heal|p1a: Vileplume|98/100
+|
+|-heal|p2a: verdance|80/100|[from] item: Black Sludge
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|move|p2a: verdance|Growth|p2a: verdance
+|-boost|p2a: verdance|atk|1
+|-boost|p2a: verdance|spa|1
+|move|p1a: Vileplume|Sludge Bomb|p2a: verdance
+|-damage|p2a: verdance|41/100
+|
+|-heal|p2a: verdance|47/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|move|p2a: verdance|Sludge Bomb|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|-heal|p2a: verdance|53/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|turn|29
+|
+|switch|p2a: indeedee switch|Claydol|63/100
+|move|p1a: Centiskorch|Fire Lash|p2a: indeedee switch
+|-damage|p2a: indeedee switch|30/100
+|-unboost|p2a: indeedee switch|def|1
+|
+|-heal|p2a: indeedee switch|36/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: in n out burbger|Passimian, F|100/100
+|move|p1a: Centiskorch|Knock Off|p2a: in n out burbger
+|-resisted|p2a: in n out burbger
+|-damage|p2a: in n out burbger|87/100
+|-enditem|p2a: in n out burbger|Choice Scarf|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|move|p2a: in n out burbger|Rock Slide|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|98/100
+|
+|-heal|p1a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: verdance|Vileplume, M|53/100
+|move|p1a: Steelix|Iron Head|p2a: verdance
+|-damage|p2a: verdance|31/100
+|
+|-heal|p2a: verdance|38/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|move|p2a: verdance|Strength Sap|p1a: Centiskorch
+|-unboost|p1a: Centiskorch|atk|1
+|-heal|p2a: verdance|100/100
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Centiskorch|Knock Off|p2a: verdance
+|-damage|p2a: verdance|86/100
+|-status|p1a: Centiskorch|slp|[from] ability: Effect Spore|[of] p2a: verdance
+|-enditem|p2a: verdance|Black Sludge|[from] move: Knock Off|[of] p1a: Centiskorch
+|move|p2a: verdance|Sludge Bomb|p1a: Centiskorch
+|-damage|p1a: Centiskorch|78/100 slp
+|
+|-heal|p1a: Centiskorch|84/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆TookMe5Minutes|love that
+|
+|cant|p1a: Centiskorch|slp
+|move|p2a: verdance|Growth|p2a: verdance
+|-boost|p2a: verdance|atk|1
+|-boost|p2a: verdance|spa|1
+|
+|-heal|p1a: Centiskorch|90/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|-curestatus|p1a: Centiskorch|slp|[msg]
+|move|p1a: Centiskorch|Fire Lash|p2a: verdance
+|-supereffective|p2a: verdance
+|-damage|p2a: verdance|48/100
+|-unboost|p2a: verdance|def|1
+|-status|p1a: Centiskorch|slp|[from] ability: Effect Spore|[of] p2a: verdance
+|move|p2a: verdance|Growth|p2a: verdance
+|-boost|p2a: verdance|atk|1
+|-boost|p2a: verdance|spa|1
+|
+|-heal|p1a: Centiskorch|97/100 slp|[from] item: Leftovers
+|upkeep
+|turn|37
+|c|☆TookMe5Minutes|lol
+|c|☆TookMe5Minutes|absurd
+|c|☆mavis of the sky|bruh
+|
+|cant|p1a: Centiskorch|slp
+|move|p2a: verdance|Strength Sap|p1a: Centiskorch
+|-unboost|p1a: Centiskorch|atk|1
+|-heal|p2a: verdance|98/100
+|
+|-heal|p1a: Centiskorch|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|cant|p1a: Centiskorch|slp
+|move|p2a: verdance|Growth|p2a: verdance
+|-boost|p2a: verdance|atk|1
+|-boost|p2a: verdance|spa|1
+|
+|upkeep
+|turn|39
+|
+|-curestatus|p1a: Centiskorch|slp|[msg]
+|move|p1a: Centiskorch|Fire Lash|p2a: verdance
+|-supereffective|p2a: verdance
+|-damage|p2a: verdance|57/100
+|-unboost|p2a: verdance|def|1
+|-status|p1a: Centiskorch|par|[from] ability: Effect Spore|[of] p2a: verdance
+|move|p2a: verdance|Growth|p2a: verdance
+|-boost|p2a: verdance|atk|1
+|-boost|p2a: verdance|spa|1
+|
+|upkeep
+|turn|40
+|c|☆mavis of the sky|BRUH
+|
+|move|p2a: verdance|Strength Sap|p1a: Centiskorch
+|-unboost|p1a: Centiskorch|atk|1
+|-heal|p2a: verdance|95/100
+|move|p1a: Centiskorch|Fire Lash|p2a: verdance
+|-supereffective|p2a: verdance
+|-damage|p2a: verdance|52/100
+|-unboost|p2a: verdance|def|1
+|
+|upkeep
+|turn|41
+|
+|move|p2a: verdance|Strength Sap|p1a: Centiskorch
+|-unboost|p1a: Centiskorch|atk|1
+|-heal|p2a: verdance|82/100
+|cant|p1a: Centiskorch|par
+|
+|upkeep
+|turn|42
+|
+|move|p2a: verdance|Sludge Bomb|p1a: Centiskorch
+|-damage|p1a: Centiskorch|38/100 par
+|cant|p1a: Centiskorch|par
+|
+|-heal|p1a: Centiskorch|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|c|☆TookMe5Minutes|lol take the W
+|c|☆TookMe5Minutes|lucky boy
+|c|☆mavis of the sky|good videogame
+|c|☆TookMe5Minutes|like absurd rng
+|-message|TookMe5Minutes forfeited.
+|
+|win|mavis of the sky
+|l|☆TookMe5Minutes

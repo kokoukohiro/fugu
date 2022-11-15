@@ -1,0 +1,664 @@
+|j|☆rain po风雷
+|j|☆a little fool
+|player|p1|rain po风雷|44|1493
+|player|p2|a little fool|flannery|1537
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Scrafty, M|
+|poke|p1|Ninetales, F|
+|poke|p1|Charizard, M|
+|poke|p1|Vileplume, F|
+|poke|p1|Galvantula, F|
+|poke|p1|Turtonator, M|
+|poke|p2|Vespiquen, F|
+|poke|p2|Togedemaru, F|
+|poke|p2|Vaporeon, F|
+|poke|p2|Snorlax, M|
+|poke|p2|Quagsire, M|
+|poke|p2|Sableye, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: 认真起来大爆击|Snorlax, M|100/100
+|turn|1
+|
+|switch|p2a: 究极伏特狂雷闪|Togedemaru, F|100/100
+|move|p1a: Galvantula|Sticky Web|p2a: 究极伏特狂雷闪
+|-sidestart|p2: a little fool|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: 究极伏特狂雷闪|Toxic|p1a: Ninetales
+|-status|p1a: Ninetales|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ninetales|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|move|p2a: 究极伏特狂雷闪|Spiky Shield||[still]
+|-fail|p2a: 究极伏特狂雷闪
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|-boost|p1a: Vileplume|spa|2
+|move|p2a: 究极伏特狂雷闪|U-turn|p1a: Vileplume
+|-damage|p1a: Vileplume|78/100
+|
+|switch|p2a: 无尽黑夜之诱惑|Sableye, F|100/100|[from]move: U-turn
+|-activate|p2a: 无尽黑夜之诱惑|move: Sticky Web
+|-unboost|p2a: 无尽黑夜之诱惑|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: 无尽黑夜之诱惑|Encore||[still]
+|-fail|p2a: 无尽黑夜之诱惑
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|turn|6
+|
+|switch|p2a: 认真起来大爆击|Snorlax, M|100/100
+|-activate|p2a: 认真起来大爆击|move: Sticky Web
+|-unboost|p2a: 认真起来大爆击|spe|1
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam|p2a: 认真起来大爆击
+|-anim|p1a: Charizard|Solar Beam|p2a: 认真起来大爆击
+|-damage|p2a: 认真起来大爆击|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|76/100|[from] ability: Solar Power|[of] p1a: Charizard
+|-heal|p2a: 认真起来大爆击|55/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: 极速俯冲轰烈撞|Vespiquen, F|100/100
+|-ability|p2a: 极速俯冲轰烈撞|Pressure
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam|p2a: 极速俯冲轰烈撞
+|-anim|p1a: Charizard|Solar Beam|p2a: 极速俯冲轰烈撞
+|-resisted|p2a: 极速俯冲轰烈撞
+|-damage|p2a: 极速俯冲轰烈撞|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|63/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|turn|8
+|
+|switch|p1a: Turtonator|Turtonator, M|100/100
+|move|p2a: 极速俯冲轰烈撞|Toxic Spikes|p1a: Turtonator
+|-sidestart|p1: rain po风雷|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: 超级水流大漩涡|Vaporeon, F|100/100
+|-activate|p2a: 超级水流大漩涡|move: Sticky Web
+|-unboost|p2a: 超级水流大漩涡|spe|1
+|move|p1a: Turtonator|Shell Smash|p1a: Turtonator
+|-unboost|p1a: Turtonator|def|1
+|-unboost|p1a: Turtonator|spd|1
+|-boost|p1a: Turtonator|atk|2
+|-boost|p1a: Turtonator|spa|2
+|-boost|p1a: Turtonator|spe|2
+|-enditem|p1a: Turtonator|White Herb
+|-clearnegativeboost|p1a: Turtonator|[silent]
+|
+|-weather|none
+|upkeep
+|turn|10
+|c|☆rain po风雷|a
+|l|☆rain po风雷
+|player|p1|
+|j|☆rain po风雷
+|player|p1|rain po风雷|44
+|
+|switch|p2a: 地啸隆咚大终结|Quagsire, M|100/100
+|-activate|p2a: 地啸隆咚大终结|move: Sticky Web
+|-unboost|p2a: 地啸隆咚大终结|spe|1
+|move|p1a: Turtonator|Dragon Pulse|p2a: 地啸隆咚大终结
+|-damage|p2a: 地啸隆咚大终结|52/100
+|
+|-heal|p2a: 地啸隆咚大终结|58/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Turtonator|Dragon Pulse|p2a: 地啸隆咚大终结
+|-damage|p2a: 地啸隆咚大终结|10/100
+|move|p2a: 地啸隆咚大终结|Recover|p2a: 地啸隆咚大终结
+|-heal|p2a: 地啸隆咚大终结|60/100
+|
+|-heal|p2a: 地啸隆咚大终结|66/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Vileplume|Vileplume, F|78/100
+|-sideend|p1: rain po风雷|move: Toxic Spikes|[of] p1a: Vileplume
+|move|p2a: 地啸隆咚大终结|Recover|p2a: 地啸隆咚大终结
+|-heal|p2a: 地啸隆咚大终结|100/100
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Ninetales|Ninetales, F|94/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|switch|p2a: 究极伏特狂雷闪|Togedemaru, F|100/100
+|-activate|p2a: 究极伏特狂雷闪|move: Sticky Web
+|-unboost|p2a: 究极伏特狂雷闪|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ninetales|88/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Vileplume|Vileplume, F|78/100
+|move|p2a: 究极伏特狂雷闪|Spiky Shield||[still]
+|-fail|p2a: 究极伏特狂雷闪
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Vileplume|Giga Drain|p2a: 究极伏特狂雷闪
+|-resisted|p2a: 究极伏特狂雷闪
+|-damage|p2a: 究极伏特狂雷闪|79/100
+|-heal|p1a: Vileplume|90/100|[from] drain|[of] p2a: 究极伏特狂雷闪
+|-damage|p1a: Vileplume|80/100|[from] item: Life Orb
+|move|p2a: 究极伏特狂雷闪|U-turn|p1a: Vileplume
+|-damage|p1a: Vileplume|58/100
+|
+|switch|p2a: 极速俯冲轰烈撞|Vespiquen, F|83/100|[from]move: U-turn
+|-ability|p2a: 极速俯冲轰烈撞|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: Vileplume|Strength Sap|p2a: 极速俯冲轰烈撞
+|-unboost|p2a: 极速俯冲轰烈撞|atk|1
+|-heal|p1a: Vileplume|100/100
+|move|p2a: 极速俯冲轰烈撞|Air Slash|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: 极速俯冲轰烈撞
+|-damage|p2a: 极速俯冲轰烈撞|29/100
+|-status|p2a: 极速俯冲轰烈撞|psn
+|-damage|p1a: Vileplume|33/100|[from] item: Life Orb
+|move|p2a: 极速俯冲轰烈撞|Toxic Spikes|p1a: Vileplume
+|-sidestart|p1: rain po风雷|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: 极速俯冲轰烈撞|17/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: 究极伏特狂雷闪|Togedemaru, F|79/100
+|-activate|p2a: 究极伏特狂雷闪|move: Sticky Web
+|-unboost|p2a: 究极伏特狂雷闪|spe|1
+|move|p1a: Vileplume|Sludge Bomb|p2a: 究极伏特狂雷闪
+|-immune|p2a: 究极伏特狂雷闪
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 究极伏特狂雷闪|85/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Vileplume|Strength Sap|p2a: 究极伏特狂雷闪
+|-unboost|p2a: 究极伏特狂雷闪|atk|1
+|-heal|p1a: Vileplume|100/100
+|move|p2a: 究极伏特狂雷闪|U-turn|p1a: Vileplume
+|-damage|p1a: Vileplume|86/100
+|
+|switch|p2a: 无尽黑夜之诱惑|Sableye, F|100/100|[from]move: U-turn
+|-activate|p2a: 无尽黑夜之诱惑|move: Sticky Web
+|-unboost|p2a: 无尽黑夜之诱惑|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Vileplume|Giga Drain|p2a: 无尽黑夜之诱惑
+|-damage|p2a: 无尽黑夜之诱惑|21/100
+|-heal|p1a: Vileplume|100/100|[from] drain|[of] p2a: 无尽黑夜之诱惑
+|-damage|p1a: Vileplume|91/100|[from] item: Life Orb
+|move|p2a: 无尽黑夜之诱惑|Knock Off|p1a: Vileplume
+|-damage|p1a: Vileplume|60/100
+|-enditem|p1a: Vileplume|Life Orb|[from] move: Knock Off|[of] p2a: 无尽黑夜之诱惑
+|
+|-weather|none
+|-heal|p2a: 无尽黑夜之诱惑|27/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: 无尽黑夜之诱惑|Recover|p2a: 无尽黑夜之诱惑
+|-heal|p2a: 无尽黑夜之诱惑|77/100
+|move|p1a: Vileplume|Giga Drain|p2a: 无尽黑夜之诱惑
+|-damage|p2a: 无尽黑夜之诱惑|12/100
+|-heal|p1a: Vileplume|94/100|[from] drain|[of] p2a: 无尽黑夜之诱惑
+|
+|-heal|p2a: 无尽黑夜之诱惑|18/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: 究极伏特狂雷闪|Togedemaru, F|85/100
+|-activate|p2a: 究极伏特狂雷闪|move: Sticky Web
+|-unboost|p2a: 究极伏特狂雷闪|spe|1
+|move|p1a: Vileplume|Giga Drain|p2a: 究极伏特狂雷闪
+|-resisted|p2a: 究极伏特狂雷闪
+|-damage|p2a: 究极伏特狂雷闪|68/100
+|-heal|p1a: Vileplume|100/100|[from] drain|[of] p2a: 究极伏特狂雷闪
+|
+|-heal|p2a: 究极伏特狂雷闪|74/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: 究极伏特狂雷闪
+|-immune|p2a: 究极伏特狂雷闪
+|move|p2a: 究极伏特狂雷闪|Wish|p2a: 究极伏特狂雷闪
+|
+|-heal|p2a: 究极伏特狂雷闪|80/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: 究极伏特狂雷闪
+|-immune|p2a: 究极伏特狂雷闪
+|move|p2a: 究极伏特狂雷闪|U-turn|p1a: Vileplume
+|-damage|p1a: Vileplume|80/100
+|
+|switch|p2a: 无尽黑夜之诱惑|Sableye, F|18/100|[from]move: U-turn
+|-activate|p2a: 无尽黑夜之诱惑|move: Sticky Web
+|-unboost|p2a: 无尽黑夜之诱惑|spe|1
+|
+|-heal|p2a: 无尽黑夜之诱惑|73/100|[from] move: Wish|[wisher] 究极伏特狂雷闪
+|-heal|p2a: 无尽黑夜之诱惑|79/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: 究极伏特狂雷闪|Togedemaru, F|80/100
+|-activate|p2a: 究极伏特狂雷闪|move: Sticky Web
+|-unboost|p2a: 究极伏特狂雷闪|spe|1
+|move|p1a: Vileplume|Giga Drain|p2a: 究极伏特狂雷闪
+|-resisted|p2a: 究极伏特狂雷闪
+|-damage|p2a: 究极伏特狂雷闪|62/100
+|-heal|p1a: Vileplume|90/100|[from] drain|[of] p2a: 究极伏特狂雷闪
+|
+|-heal|p2a: 究极伏特狂雷闪|68/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Ninetales|Ninetales, F|88/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: 究极伏特狂雷闪|Wish|p2a: 究极伏特狂雷闪
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 究极伏特狂雷闪|74/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|82/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|switch|p2a: 认真起来大爆击|Snorlax, M|55/100
+|-activate|p2a: 认真起来大爆击|move: Sticky Web
+|-unboost|p2a: 认真起来大爆击|spe|1
+|move|p1a: Ninetales|Toxic|p2a: 认真起来大爆击|[miss]
+|-miss|p1a: Ninetales|p2a: 认真起来大爆击
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 认真起来大爆击|88/100|[from] move: Wish|[wisher] 究极伏特狂雷闪
+|-heal|p2a: 认真起来大爆击|94/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|70/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p1a: Vileplume|Vileplume, F|90/100
+|-sideend|p1: rain po风雷|move: Toxic Spikes|[of] p1a: Vileplume
+|move|p2a: 认真起来大爆击|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 认真起来大爆击|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: 究极伏特狂雷闪|Togedemaru, F|74/100
+|-activate|p2a: 究极伏特狂雷闪|move: Sticky Web
+|-unboost|p2a: 究极伏特狂雷闪|spe|1
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|-boost|p1a: Vileplume|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 究极伏特狂雷闪|80/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Vileplume|Giga Drain|p2a: 究极伏特狂雷闪
+|-resisted|p2a: 究极伏特狂雷闪
+|-damage|p2a: 究极伏特狂雷闪|47/100
+|-heal|p1a: Vileplume|75/100|[from] drain|[of] p2a: 究极伏特狂雷闪
+|move|p2a: 究极伏特狂雷闪|Wish|p2a: 究极伏特狂雷闪
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 究极伏特狂雷闪|53/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|-boost|p1a: Vileplume|spa|2
+|move|p2a: 究极伏特狂雷闪|U-turn|p1a: Vileplume
+|-damage|p1a: Vileplume|52/100
+|
+|switch|p2a: 无尽黑夜之诱惑|Sableye, F|79/100|[from]move: U-turn
+|-activate|p2a: 无尽黑夜之诱惑|move: Sticky Web
+|-unboost|p2a: 无尽黑夜之诱惑|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 无尽黑夜之诱惑|100/100|[from] move: Wish|[wisher] 究极伏特狂雷闪
+|upkeep
+|turn|32
+|
+|move|p2a: 无尽黑夜之诱惑|Encore|p1a: Vileplume
+|-start|p1a: Vileplume|Encore
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|-boost|p1a: Vileplume|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|33
+|
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|move|p2a: 无尽黑夜之诱惑|Knock Off|p1a: Galvantula
+|-damage|p1a: Galvantula|57/100
+|-enditem|p1a: Galvantula|Focus Sash|[from] move: Knock Off|[of] p2a: 无尽黑夜之诱惑
+|
+|-weather|none
+|upkeep
+|turn|34
+|
+|switch|p2a: 究极伏特狂雷闪|Togedemaru, F|53/100
+|-activate|p2a: 究极伏特狂雷闪|move: Sticky Web
+|-unboost|p2a: 究极伏特狂雷闪|spe|1
+|move|p1a: Galvantula|Volt Switch|p2a: 究极伏特狂雷闪
+|-ability|p2a: 究极伏特狂雷闪|Lightning Rod|boost
+|-boost|p2a: 究极伏特狂雷闪|spa|1
+|
+|-heal|p2a: 究极伏特狂雷闪|59/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p1a: Ninetales|Ninetales, F|70/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: 究极伏特狂雷闪|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|62/100 tox
+|
+|switch|p2a: 认真起来大爆击|Snorlax, M|99/100|[from]move: U-turn
+|-activate|p2a: 认真起来大爆击|move: Sticky Web
+|-unboost|p2a: 认真起来大爆击|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 认真起来大爆击|100/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|56/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|move|p2a: 认真起来大爆击|Earthquake|p1a: Scrafty
+|-damage|p1a: Scrafty|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|37
+|
+|switch|p2a: 无尽黑夜之诱惑|Sableye, F|100/100
+|-activate|p2a: 无尽黑夜之诱惑|move: Sticky Web
+|-unboost|p2a: 无尽黑夜之诱惑|spe|1
+|move|p1a: Scrafty|Knock Off|p2a: 无尽黑夜之诱惑
+|-damage|p2a: 无尽黑夜之诱惑|48/100
+|-enditem|p2a: 无尽黑夜之诱惑|Leftovers|[from] move: Knock Off|[of] p1a: Scrafty
+|-damage|p1a: Scrafty|64/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|38
+|
+|move|p2a: 无尽黑夜之诱惑|Recover|p2a: 无尽黑夜之诱惑
+|-heal|p2a: 无尽黑夜之诱惑|98/100
+|move|p1a: Scrafty|Knock Off|p2a: 无尽黑夜之诱惑
+|-damage|p2a: 无尽黑夜之诱惑|59/100
+|-damage|p1a: Scrafty|54/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|39
+|
+|switch|p1a: Vileplume|Vileplume, F|52/100
+|move|p2a: 无尽黑夜之诱惑|Knock Off|p1a: Vileplume
+|-damage|p1a: Vileplume|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|40
+|
+|switch|p2a: 究极伏特狂雷闪|Togedemaru, F|59/100
+|-activate|p2a: 究极伏特狂雷闪|move: Sticky Web
+|-unboost|p2a: 究极伏特狂雷闪|spe|1
+|move|p1a: Vileplume|Strength Sap|p2a: 究极伏特狂雷闪
+|-unboost|p2a: 究极伏特狂雷闪|atk|1
+|-heal|p1a: Vileplume|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 究极伏特狂雷闪|65/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Vileplume|Giga Drain|p2a: 究极伏特狂雷闪
+|-resisted|p2a: 究极伏特狂雷闪
+|-damage|p2a: 究极伏特狂雷闪|47/100
+|move|p2a: 究极伏特狂雷闪|Wish|p2a: 究极伏特狂雷闪
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 究极伏特狂雷闪|53/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: 究极伏特狂雷闪|Spiky Shield|p2a: 究极伏特狂雷闪
+|-singleturn|p2a: 究极伏特狂雷闪|move: Protect
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|-boost|p1a: Vileplume|spa|2
+|
+|-weather|none
+|-heal|p2a: 究极伏特狂雷闪|100/100|[from] move: Wish|[wisher] 究极伏特狂雷闪
+|upkeep
+|turn|43
+|
+|move|p1a: Vileplume|Giga Drain|p2a: 究极伏特狂雷闪
+|-resisted|p2a: 究极伏特狂雷闪
+|-damage|p2a: 究极伏特狂雷闪|69/100
+|move|p2a: 究极伏特狂雷闪|Wish|p2a: 究极伏特狂雷闪
+|
+|-heal|p2a: 究极伏特狂雷闪|75/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Vileplume|Giga Drain|p2a: 究极伏特狂雷闪
+|-resisted|p2a: 究极伏特狂雷闪
+|-damage|p2a: 究极伏特狂雷闪|40/100
+|move|p2a: 究极伏特狂雷闪|U-turn|p1a: Vileplume
+|-damage|p1a: Vileplume|87/100
+|
+|switch|p2a: 认真起来大爆击|Snorlax, M|100/100|[from]move: U-turn
+|-activate|p2a: 认真起来大爆击|move: Sticky Web
+|-unboost|p2a: 认真起来大爆击|spe|1
+|
+|upkeep
+|turn|45
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: 认真起来大爆击
+|-damage|p2a: 认真起来大爆击|44/100
+|move|p2a: 认真起来大爆击|Whirlwind|p1a: Vileplume
+|drag|p1a: Ninetales|Ninetales, F|56/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 认真起来大爆击|50/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|50/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|switch|p1a: Vileplume|Vileplume, F|87/100
+|move|p2a: 认真起来大爆击|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 认真起来大爆击|56/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: 认真起来大爆击
+|-damage|p2a: 认真起来大爆击|27/100
+|move|p2a: 认真起来大爆击|Whirlwind|p1a: Vileplume
+|drag|p1a: Turtonator|Turtonator, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 认真起来大爆击|33/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|switch|p2a: 超级水流大漩涡|Vaporeon, F|100/100
+|-activate|p2a: 超级水流大漩涡|move: Sticky Web
+|-unboost|p2a: 超级水流大漩涡|spe|1
+|move|p1a: Turtonator|Shell Smash|p1a: Turtonator
+|-unboost|p1a: Turtonator|def|1
+|-unboost|p1a: Turtonator|spd|1
+|-boost|p1a: Turtonator|atk|2
+|-boost|p1a: Turtonator|spa|2
+|-boost|p1a: Turtonator|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|49
+|
+|move|p1a: Turtonator|Dragon Pulse|p2a: 超级水流大漩涡
+|-damage|p2a: 超级水流大漩涡|50/100
+|move|p2a: 超级水流大漩涡|Wish|p2a: 超级水流大漩涡
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 超级水流大漩涡|57/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p1a: Turtonator|Dragon Pulse|p2a: 超级水流大漩涡
+|-damage|p2a: 超级水流大漩涡|7/100
+|move|p2a: 超级水流大漩涡|Scald|p1a: Turtonator
+|-damage|p1a: Turtonator|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 超级水流大漩涡|57/100|[from] move: Wish|[wisher] 超级水流大漩涡
+|-heal|p2a: 超级水流大漩涡|63/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p1a: Turtonator|Dragon Pulse|p2a: 超级水流大漩涡
+|-damage|p2a: 超级水流大漩涡|11/100
+|move|p2a: 超级水流大漩涡|Wish|p2a: 超级水流大漩涡
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 超级水流大漩涡|17/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|switch|p1a: Vileplume|Vileplume, F|53/100
+|move|p2a: 超级水流大漩涡|Protect||[still]
+|-fail|p2a: 超级水流大漩涡
+|
+|-weather|none
+|-heal|p2a: 超级水流大漩涡|67/100|[from] move: Wish|[wisher] 超级水流大漩涡
+|-heal|p2a: 超级水流大漩涡|73/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|switch|p1a: Ninetales|Ninetales, F|50/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|switch|p2a: 究极伏特狂雷闪|Togedemaru, F|40/100
+|-activate|p2a: 究极伏特狂雷闪|move: Sticky Web
+|-unboost|p2a: 究极伏特狂雷闪|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 究极伏特狂雷闪|46/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|44/100 tox|[from] psn
+|upkeep
+|turn|54
+|
+|switch|p1a: Vileplume|Vileplume, F|53/100
+|switch|p2a: 超级水流大漩涡|Vaporeon, F|73/100
+|-activate|p2a: 超级水流大漩涡|move: Sticky Web
+|-unboost|p2a: 超级水流大漩涡|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: 超级水流大漩涡|79/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|switch|p2a: 无尽黑夜之诱惑|Sableye, F|59/100
+|-activate|p2a: 无尽黑夜之诱惑|move: Sticky Web
+|-unboost|p2a: 无尽黑夜之诱惑|spe|1
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|-boost|p1a: Vileplume|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|56
+|
+|move|p1a: Vileplume|Giga Drain|p2a: 无尽黑夜之诱惑
+|-damage|p2a: 无尽黑夜之诱惑|0 fnt
+|-heal|p1a: Vileplume|84/100|[from] drain|[of] p2a: 无尽黑夜之诱惑
+|faint|p2a: 无尽黑夜之诱惑
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: 认真起来大爆击|Snorlax, M|33/100
+|-activate|p2a: 认真起来大爆击|move: Sticky Web
+|-unboost|p2a: 认真起来大爆击|spe|1
+|turn|57
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rain po风雷)
+|-message|a little fool forfeited.
+|
+|win|rain po风雷
+|raw|rain po风雷's rating: 1493 &rarr; <strong>1516</strong><br />(+23 for winning)
+|raw|a little fool's rating: 1537 &rarr; <strong>1515</strong><br />(-22 for losing)

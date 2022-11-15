@@ -1,0 +1,496 @@
+|j|☆BabylonBill_3
+|j|☆Aggron
+|t:|1602798752
+|player|p1|BabylonBill_3|pokemonbreederf|1556
+|player|p2|Aggron|janitor|1489
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Golisopod, M|
+|poke|p1|Steelix, M|
+|poke|p1|Umbreon, F|
+|poke|p1|Espeon, F|
+|poke|p1|Rotom|
+|poke|p1|Blastoise, M|
+|poke|p2|Comfey, F|
+|poke|p2|Braviary, M|
+|poke|p2|Golisopod, F|
+|poke|p2|Steelix, F|
+|poke|p2|Dragalge, F|
+|poke|p2|Blastoise, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Aggron|hf
+|c|☆BabylonBill_3|hf
+|
+|t:|1602798770
+|start
+|switch|p1a: Rotom|Rotom|100/100
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|turn|1
+|
+|t:|1602798776
+|switch|p2a: Steelix|Steelix, F|100/100
+|move|p1a: Rotom|Shadow Ball|p2a: Steelix
+|-damage|p2a: Steelix|53/100
+|
+|-heal|p2a: Steelix|59/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1602798782
+|switch|p2a: Braviary|Braviary, M|100/100
+|move|p1a: Rotom|Shadow Ball|p2a: Braviary
+|-immune|p2a: Braviary
+|
+|upkeep
+|turn|3
+|
+|t:|1602798786
+|switch|p1a: Young Rocks|Steelix, M|100/100
+|move|p2a: Braviary|U-turn|p1a: Young Rocks
+|-resisted|p1a: Young Rocks
+|-damage|p1a: Young Rocks|96/100
+|-damage|p2a: Braviary|84/100|[from] item: Rocky Helmet|[of] p1a: Young Rocks
+|
+|t:|1602798791
+|switch|p2a: Golisopod|Golisopod, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1602798796
+|move|p2a: Golisopod|Knock Off|p1a: Young Rocks
+|-damage|p1a: Young Rocks|80/100
+|-damage|p2a: Golisopod|84/100|[from] item: Rocky Helmet|[of] p1a: Young Rocks
+|-enditem|p1a: Young Rocks|Rocky Helmet|[from] move: Knock Off|[of] p2a: Golisopod
+|move|p1a: Young Rocks|Stealth Rock|p2a: Golisopod
+|-sidestart|p2: Aggron|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BabylonBill_3)
+|
+|t:|1602798799
+|move|p2a: Golisopod|Spikes|p1a: Young Rocks
+|-sidestart|p1: BabylonBill_3|Spikes
+|move|p1a: Young Rocks|Toxic|p2a: Golisopod
+|-status|p2a: Golisopod|tox
+|
+|-damage|p2a: Golisopod|78/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1602798802
+|switch|p1a: Rotom|Rotom|100/100
+|move|p2a: Golisopod|Liquidation|p1a: Rotom
+|-damage|p1a: Rotom|20/100
+|
+|-damage|p2a: Golisopod|65/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1602798809
+|switch|p2a: Dragalge|Dragalge, F|100/100
+|-damage|p2a: Dragalge|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Shadow Ball|p2a: Dragalge
+|-damage|p2a: Dragalge|58/100
+|
+|-heal|p2a: Dragalge|64/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1602798816
+|move|p1a: Rotom|Shadow Ball|p2a: Dragalge
+|-damage|p2a: Dragalge|36/100
+|move|p2a: Dragalge|Flip Turn|p1a: Rotom
+|-damage|p1a: Rotom|3/100
+|
+|t:|1602798823
+|switch|p2a: Braviary|Braviary, M|84/100|[from]move: Flip Turn
+|-damage|p2a: Braviary|59/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1602798826
+|switch|p1a: Young Rocks|Steelix, M|80/100
+|-damage|p1a: Young Rocks|68/100|[from] Spikes
+|move|p2a: Braviary|U-turn|p1a: Young Rocks
+|-resisted|p1a: Young Rocks
+|-damage|p1a: Young Rocks|63/100
+|
+|t:|1602798836
+|switch|p2a: Blastoise|Blastoise, M|100/100|[from]move: U-turn
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Blastoise|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1602798841
+|move|p2a: Blastoise|Flip Turn|p1a: Young Rocks
+|-supereffective|p1a: Young Rocks
+|-damage|p1a: Young Rocks|47/100
+|
+|t:|1602798847
+|switch|p2a: Golisopod|Golisopod, F|65/100 tox|[from]move: Flip Turn
+|move|p1a: Young Rocks|Toxic|p2a: Golisopod
+|-fail|p2a: Golisopod|tox
+|
+|-damage|p2a: Golisopod|59/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1602798856
+|move|p2a: Golisopod|Liquidation|p1a: Young Rocks
+|-supereffective|p1a: Young Rocks
+|-damage|p1a: Young Rocks|4/100
+|move|p1a: Young Rocks|Earthquake|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|49/100 tox
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|
+|t:|1602798861
+|switch|p2a: Blastoise|Blastoise, M|94/100
+|-damage|p2a: Blastoise|82/100|[from] Stealth Rock
+|
+|-heal|p2a: Blastoise|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1602798867
+|move|p2a: Blastoise|Flip Turn|p1a: Young Rocks
+|-supereffective|p1a: Young Rocks
+|-damage|p1a: Young Rocks|0 fnt
+|faint|p1a: Young Rocks
+|
+|t:|1602798872
+|switch|p2a: Comfey|Comfey, F|100/100|[from]move: Flip Turn
+|-damage|p2a: Comfey|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Comfey|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1602798884
+|switch|p1a: The Hive|Golisopod, M, shiny|100/100
+|-damage|p1a: The Hive|88/100|[from] Spikes
+|turn|13
+|
+|t:|1602798896
+|switch|p2a: Blastoise|Blastoise, M|88/100
+|-damage|p2a: Blastoise|75/100|[from] Stealth Rock
+|move|p1a: The Hive|Liquidation|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|58/100
+|
+|-heal|p2a: Blastoise|64/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1602798902
+|move|p2a: Blastoise|Yawn|p1a: The Hive
+|-start|p1a: The Hive|move: Yawn|[of] p2a: Blastoise
+|move|p1a: The Hive|Leech Life|p2a: Blastoise
+|-damage|p2a: Blastoise|32/100
+|-heal|p1a: The Hive|100/100|[from] drain|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|38/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1602798909
+|switch|p1a: Wish Maker|Umbreon, F|100/100
+|-damage|p1a: Wish Maker|88/100|[from] Spikes
+|move|p2a: Blastoise|Flip Turn|p1a: Wish Maker
+|-damage|p1a: Wish Maker|74/100
+|
+|t:|1602798925
+|switch|p2a: Comfey|Comfey, F|94/100|[from]move: Flip Turn
+|-damage|p2a: Comfey|82/100|[from] Stealth Rock
+|
+|-heal|p2a: Comfey|88/100|[from] item: Leftovers
+|-heal|p1a: Wish Maker|80/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1602798930
+|move|p1a: Wish Maker|Protect|p1a: Wish Maker
+|-singleturn|p1a: Wish Maker|Protect
+|move|p2a: Comfey|Leech Seed|p1a: Wish Maker
+|-activate|p1a: Wish Maker|move: Protect
+|
+|-heal|p2a: Comfey|94/100|[from] item: Leftovers
+|-heal|p1a: Wish Maker|87/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1602798935
+|switch|p1a: God's Reflection|Espeon, F|100/100
+|-damage|p1a: God's Reflection|88/100|[from] Spikes
+|move|p2a: Comfey|U-turn|p1a: God's Reflection
+|-supereffective|p1a: God's Reflection
+|-damage|p1a: God's Reflection|70/100
+|
+|t:|1602798944
+|switch|p2a: Golisopod|Golisopod, F|49/100 tox|[from]move: U-turn
+|
+|-heal|p1a: God's Reflection|76/100|[from] item: Leftovers
+|-damage|p2a: Golisopod|43/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1602798949
+|switch|p1a: Rotom|Rotom|3/100
+|move|p2a: Golisopod|First Impression|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Golisopod|30/100 tox|[from] psn
+|upkeep
+|
+|t:|1602798963
+|switch|p1a: The Hive|Golisopod, M, shiny|100/100
+|-damage|p1a: The Hive|88/100|[from] Spikes
+|turn|19
+|
+|t:|1602798973
+|switch|p2a: Dragalge|Dragalge, F|36/100
+|-damage|p2a: Dragalge|23/100|[from] Stealth Rock
+|move|p1a: The Hive|First Impression|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|
+|upkeep
+|
+|t:|1602798978
+|switch|p2a: Blastoise|Blastoise, M|38/100
+|-damage|p2a: Blastoise|26/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1602798982
+|move|p2a: Blastoise|Rapid Spin|p1a: The Hive
+|-damage|p1a: The Hive|81/100
+|-boost|p2a: Blastoise|spe|1
+|-sideend|p2: Aggron|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|move|p1a: The Hive|Leech Life|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|-heal|p1a: The Hive|94/100|[from] drain|[of] p2a: Blastoise
+|faint|p2a: Blastoise
+|
+|upkeep
+|
+|t:|1602798986
+|switch|p2a: Braviary|Braviary, M|59/100
+|turn|21
+|
+|t:|1602798990
+|move|p2a: Braviary|Brave Bird|p1a: The Hive
+|-supereffective|p1a: The Hive
+|-damage|p1a: The Hive|9/100
+|-enditem|p1a: The Hive|Aguav Berry|[eat]
+|-heal|p1a: The Hive|42/100|[from] item: Aguav Berry
+|-damage|p2a: Braviary|31/100|[from] Recoil
+|-activate|p1a: The Hive|ability: Emergency Exit
+|
+|t:|1602799005
+|switch|p1a: Wish Maker|Umbreon, F|87/100
+|-damage|p1a: Wish Maker|74/100|[from] Spikes
+|
+|-heal|p1a: Wish Maker|80/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1602799010
+|switch|p2a: Steelix|Steelix, F|59/100
+|move|p1a: Wish Maker|Protect||[still]
+|-fail|p1a: Wish Maker
+|
+|-heal|p1a: Wish Maker|87/100|[from] item: Leftovers
+|-heal|p2a: Steelix|65/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1602799015
+|switch|p1a: God's Reflection|Espeon, F|76/100
+|-damage|p1a: God's Reflection|63/100|[from] Spikes
+|move|p2a: Steelix|Earthquake|p1a: God's Reflection
+|-damage|p1a: God's Reflection|22/100
+|
+|-heal|p1a: God's Reflection|28/100|[from] item: Leftovers
+|-heal|p2a: Steelix|71/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1602799020
+|move|p1a: God's Reflection|Morning Sun|p1a: God's Reflection
+|-heal|p1a: God's Reflection|78/100
+|move|p2a: Steelix|Earthquake|p1a: God's Reflection
+|-damage|p1a: God's Reflection|33/100
+|
+|-heal|p1a: God's Reflection|39/100|[from] item: Leftovers
+|-heal|p2a: Steelix|78/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1602799023
+|move|p1a: God's Reflection|Morning Sun|p1a: God's Reflection
+|-heal|p1a: God's Reflection|89/100
+|move|p2a: Steelix|Heavy Slam|p1a: God's Reflection
+|-damage|p1a: God's Reflection|36/100
+|
+|-heal|p1a: God's Reflection|42/100|[from] item: Leftovers
+|-heal|p2a: Steelix|84/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1602799026
+|move|p1a: God's Reflection|Morning Sun|p1a: God's Reflection
+|-heal|p1a: God's Reflection|92/100
+|move|p2a: Steelix|Heavy Slam|p1a: God's Reflection
+|-damage|p1a: God's Reflection|44/100
+|
+|-heal|p1a: God's Reflection|50/100|[from] item: Leftovers
+|-heal|p2a: Steelix|90/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1602799029
+|move|p1a: God's Reflection|Morning Sun|p1a: God's Reflection
+|-heal|p1a: God's Reflection|99/100
+|move|p2a: Steelix|Heavy Slam|p1a: God's Reflection
+|-damage|p1a: God's Reflection|47/100
+|
+|-heal|p1a: God's Reflection|53/100|[from] item: Leftovers
+|-heal|p2a: Steelix|96/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1602799033
+|move|p1a: God's Reflection|Morning Sun|p1a: God's Reflection
+|-heal|p1a: God's Reflection|100/100
+|move|p2a: Steelix|Heavy Slam|p1a: God's Reflection
+|-damage|p1a: God's Reflection|49/100
+|
+|-heal|p1a: God's Reflection|55/100|[from] item: Leftovers
+|-heal|p2a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1602799037
+|switch|p1a: The Hive|Golisopod, M, shiny|42/100
+|-damage|p1a: The Hive|30/100|[from] Spikes
+|move|p2a: Steelix|Heavy Slam|p1a: The Hive
+|-resisted|p1a: The Hive
+|-damage|p1a: The Hive|16/100
+|
+|upkeep
+|turn|30
+|
+|t:|1602799040
+|move|p1a: The Hive|Liquidation|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|51/100
+|move|p2a: Steelix|Stealth Rock|p1a: The Hive
+|-sidestart|p1: BabylonBill_3|move: Stealth Rock
+|
+|-heal|p2a: Steelix|58/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1602799049
+|move|p1a: The Hive|Liquidation|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|12/100
+|move|p2a: Steelix|Roar|p1a: The Hive
+|drag|p1a: El Tortuga|Blastoise, M|100/100
+|-damage|p1a: El Tortuga|88/100|[from] Stealth Rock
+|-damage|p1a: El Tortuga|76/100|[from] Spikes
+|
+|-heal|p2a: Steelix|18/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1602799059
+|move|p1a: El Tortuga|Surf|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|upkeep
+|
+|t:|1602799063
+|switch|p2a: Comfey|Comfey, F|94/100
+|turn|33
+|
+|t:|1602799066
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|move|p1a: El Tortuga|Shell Smash|p1a: El Tortuga
+|-unboost|p1a: El Tortuga|def|1
+|-unboost|p1a: El Tortuga|spd|1
+|-boost|p1a: El Tortuga|atk|2
+|-boost|p1a: El Tortuga|spa|2
+|-boost|p1a: El Tortuga|spe|2
+|-enditem|p1a: El Tortuga|White Herb
+|-clearnegativeboost|p1a: El Tortuga|[silent]
+|
+|-heal|p2a: Comfey|99/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1602799074
+|move|p1a: El Tortuga|Surf|p2a: Comfey
+|-damage|p2a: Comfey|46/100
+|move|p2a: Comfey|Leech Seed|p1a: El Tortuga|[miss]
+|-miss|p2a: Comfey|p1a: El Tortuga
+|
+|-heal|p2a: Comfey|52/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1602799077
+|move|p2a: Comfey|Draining Kiss|p1a: El Tortuga
+|-damage|p1a: El Tortuga|45/100
+|-heal|p2a: Comfey|77/100|[from] drain|[of] p1a: El Tortuga
+|move|p1a: El Tortuga|Surf|p2a: Comfey
+|-damage|p2a: Comfey|27/100
+|
+|-heal|p2a: Comfey|33/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1602799085
+|move|p2a: Comfey|Draining Kiss|p1a: El Tortuga
+|-damage|p1a: El Tortuga|17/100
+|-heal|p2a: Comfey|57/100|[from] drain|[of] p1a: El Tortuga
+|move|p1a: El Tortuga|Earthquake|p2a: Comfey
+|-damage|p2a: Comfey|12/100
+|
+|-heal|p2a: Comfey|18/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|c|☆Aggron|bro
+|c|☆Aggron|you threw
+|c|☆Aggron|torrent would have killed
+|c|☆BabylonBill_3|ok
+|inactive|BabylonBill_3 has 120 seconds left.
+|-message|BabylonBill_3 forfeited.
+|
+|win|Aggron
+|l|☆BabylonBill_3
+|raw|BabylonBill_3's rating: 1556 &rarr; <strong>1532</strong><br />(-24 for losing)
+|raw|Aggron's rating: 1500 &rarr; <strong>1523</strong><br />(+23 for winning)

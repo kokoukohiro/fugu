@@ -1,0 +1,351 @@
+|j|☆big baz
+|j|☆Blue Toothbrush
+|player|p1|big baz|ltsurge|1475
+|player|p2|Blue Toothbrush|pokemonranger-gen4|1339
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Milotic, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Umbreon, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Lucario, M|
+|poke|p1|Gardevoir, F|
+|poke|p2|Mamoswine, M|
+|poke|p2|Celebi|
+|poke|p2|Doublade, M|
+|poke|p2|Milotic, F|
+|poke|p2|Noivern, M|
+|poke|p2|Gardevoir, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Milotic|Milotic, F|100/100
+|switch|p2a: Celebi|Celebi|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Blue Toothbrush)
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Celebi|Giga Drain|p1a: Umbreon
+|-damage|p1a: Umbreon|79/100
+|-damage|p2a: Celebi|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Umbreon|86/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|76/100
+|move|p2a: Celebi|Psychic|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|-damage|p2a: Celebi|81/100|[from] item: Life Orb
+|
+|-heal|p1a: Salazzle|82/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Salazzle|Disable||[still]
+|-fail|p1a: Salazzle
+|
+|-heal|p1a: Salazzle|88/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|63/100
+|move|p2a: Milotic|Scald|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|70/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Corrosion|[from] ability: Trace|[of] p1a: Salazzle
+|move|p1a: Salazzle|Disable||[still]
+|-fail|p1a: Salazzle
+|
+|-heal|p1a: Salazzle|76/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Gardevoir|Psychic|p1a: Milotic
+|-damage|p1a: Milotic|66/100
+|
+|-heal|p1a: Milotic|72/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Celebi|Celebi|81/100
+|move|p1a: Milotic|Whirlpool|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|75/100
+|-activate|p2a: Celebi|move: Whirlpool|[of] p1a: Milotic
+|
+|-heal|p1a: Milotic|78/100|[from] item: Leftovers
+|-damage|p2a: Celebi|62/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|switch|p1a: Umbreon|Umbreon, M|92/100
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|
+|-heal|p1a: Umbreon|98/100|[from] item: Leftovers
+|-end|p2a: Celebi|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|11
+|
+|move|p2a: Celebi|Aura Sphere|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|39/100
+|-damage|p2a: Celebi|52/100|[from] item: Life Orb
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|45/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Celebi|Giga Drain|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|95/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Celebi|Aura Sphere|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|42/100
+|-damage|p2a: Celebi|42/100|[from] item: Life Orb
+|move|p1a: Umbreon|Foul Play|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|-heal|p1a: Umbreon|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Synchronize|[from] ability: Trace|[of] p1a: Umbreon
+|turn|14
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Gardevoir|Moonblast|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|55/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Gardevoir|Moonblast|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|68/100
+|
+|-heal|p1a: Weezing|74/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|-item|p1a: Weezing|Black Sludge|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|move|p1a: Weezing|Pain Split|p2a: Noivern
+|-sethp|p2a: Noivern|90/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|84/100|[from] move: Pain Split
+|
+|-heal|p1a: Weezing|90/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p2a: Noivern|Air Slash|p1a: Weezing
+|-damage|p1a: Weezing|44/100
+|move|p1a: Weezing|Strange Steam|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|20/100
+|
+|-heal|p1a: Weezing|50/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Noivern|Air Slash|p1a: Weezing
+|-damage|p1a: Weezing|2/100
+|move|p1a: Weezing|Toxic Spikes|p2a: Noivern
+|-sidestart|p2: Blue Toothbrush|move: Toxic Spikes
+|
+|-heal|p1a: Weezing|8/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Noivern|Defog|p1a: Weezing
+|-unboost|p1a: Weezing|evasion|1
+|-sideend|p2: Blue Toothbrush|Toxic Spikes|[from] move: Defog|[of] p2a: Noivern
+|move|p1a: Weezing|Strange Steam|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|-heal|p1a: Weezing|14/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|20
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Milotic|Milotic, F|78/100
+|turn|21
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Milotic|Whirlpool|p2a: Milotic|[miss]
+|-miss|p1a: Milotic|p2a: Milotic
+|
+|-heal|p1a: Milotic|84/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Milotic|Toxic|p1a: Milotic|[miss]
+|-miss|p2a: Milotic|p1a: Milotic
+|move|p1a: Milotic|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-heal|p1a: Milotic|90/100|[from] item: Leftovers
+|-damage|p2a: Milotic|94/100 tox|[from] psn
+|upkeep
+|turn|23
+|inactive|Blue Toothbrush has 120 seconds left.
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Marvel Scale|[from] ability: Trace|[of] p1a: Milotic
+|move|p1a: Milotic|Whirlpool|p2a: Gardevoir
+|-damage|p2a: Gardevoir|89/100
+|-activate|p2a: Gardevoir|move: Whirlpool|[of] p1a: Milotic
+|
+|-heal|p1a: Milotic|96/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|76/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|24
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Milotic
+|-damage|p1a: Milotic|63/100
+|move|p1a: Milotic|Toxic|p2a: Gardevoir
+|-status|p2a: Gardevoir|tox
+|
+|-heal|p1a: Milotic|70/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|70/100 tox|[from] psn
+|-damage|p2a: Gardevoir|58/100 tox|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|25
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Milotic
+|-damage|p1a: Milotic|32/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|82/100
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|46/100 tox|[from] psn
+|-damage|p2a: Gardevoir|33/100 tox|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|26
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Milotic
+|-damage|p1a: Milotic|56/100
+|-unboost|p1a: Milotic|spa|1
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-damage|p2a: Gardevoir|15/100 tox|[from] psn
+|-damage|p2a: Gardevoir|3/100 tox|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|27
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Milotic
+|-damage|p1a: Milotic|63/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-damage|p2a: Gardevoir|0 fnt|[from] psn
+|faint|p2a: Gardevoir
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|28
+|
+|move|p2a: Mamoswine|Stealth Rock|p1a: Milotic
+|-sidestart|p1: big baz|move: Stealth Rock
+|move|p1a: Milotic|Whirlpool|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|78/100
+|-activate|p2a: Mamoswine|move: Whirlpool|[of] p1a: Milotic
+|
+|-damage|p2a: Mamoswine|66/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|29
+|
+|move|p2a: Mamoswine|Knock Off|p1a: Milotic
+|-damage|p1a: Milotic|78/100
+|-enditem|p1a: Milotic|Leftovers|[from] move: Knock Off|[of] p2a: Mamoswine
+|move|p1a: Milotic|Toxic|p2a: Mamoswine
+|-status|p2a: Mamoswine|tox
+|
+|-damage|p2a: Mamoswine|60/100 tox|[from] psn
+|-damage|p2a: Mamoswine|47/100 tox|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|30
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Milotic
+|-damage|p1a: Milotic|43/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|93/100
+|
+|-damage|p2a: Mamoswine|35/100 tox|[from] psn
+|-damage|p2a: Mamoswine|23/100 tox|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|31
+|c|☆Blue Toothbrush|nothing but a bad and lucky player
+|c|☆Blue Toothbrush|get good
+|c|☆big baz|hahaha
+|-message|Blue Toothbrush forfeited.
+|
+|win|big baz
+|l|☆Blue Toothbrush
+|raw|big baz's rating: 1475 &rarr; <strong>1488</strong><br />(+13 for winning)
+|raw|Blue Toothbrush's rating: 1339 &rarr; <strong>1326</strong><br />(-13 for losing)

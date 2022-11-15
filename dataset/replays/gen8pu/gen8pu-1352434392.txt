@@ -1,0 +1,104 @@
+|j|☆one of the bouys
+|j|☆ayo bb
+|t:|1622730587
+|gametype|singles
+|player|p1|one of the bouys|266|
+|player|p2|ayo bb|265|
+|teamsize|p1|1
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Aromatisse, F|
+|poke|p2|Stunfisk-Galar, F|
+|poke|p2|Xatu, M|
+|poke|p2|Cofagrigus, F|
+|poke|p2|Coalossal, F|
+|poke|p2|Aromatisse, M|
+|poke|p2|Turtonator, M|
+|teampreview
+|
+|t:|1622730594
+|start
+|switch|p1a: Aromatisse|Aromatisse, F|100/100
+|switch|p2a: Stunfisk|Stunfisk-Galar, F|100/100
+|turn|1
+|
+|t:|1622730608
+|move|p2a: Stunfisk|Yawn|p1a: Aromatisse
+|-start|p1a: Aromatisse|move: Yawn|[of] p2a: Stunfisk
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|upkeep
+|turn|2
+|
+|t:|1622730617
+|move|p2a: Stunfisk|Snap Trap|p1a: Aromatisse
+|-damage|p1a: Aromatisse|96/100
+|-activate|p1a: Aromatisse|move: Snap Trap|[of] p2a: Stunfisk
+|move|p1a: Aromatisse|Moonblast|p2a: Stunfisk
+|-resisted|p2a: Stunfisk
+|-crit|p2a: Stunfisk
+|-damage|p2a: Stunfisk|86/100
+|-unboost|p2a: Stunfisk|spa|1
+|
+|-heal|p1a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Stunfisk|92/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|88/100|[from] move: Snap Trap|[partiallytrapped]
+|-end|p1a: Aromatisse|move: Yawn|[silent]
+|-status|p1a: Aromatisse|slp
+|upkeep
+|turn|3
+|
+|t:|1622730624
+|move|p2a: Stunfisk|Earthquake|p1a: Aromatisse
+|-damage|p1a: Aromatisse|66/100 slp
+|cant|p1a: Aromatisse|slp
+|
+|-heal|p2a: Stunfisk|98/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|72/100 slp|[from] item: Leftovers
+|-damage|p1a: Aromatisse|60/100 slp|[from] move: Snap Trap|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1622730628
+|move|p2a: Stunfisk|Earthquake|p1a: Aromatisse
+|-damage|p1a: Aromatisse|37/100 slp
+|cant|p1a: Aromatisse|slp
+|
+|-heal|p2a: Stunfisk|100/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|43/100 slp|[from] item: Leftovers
+|-damage|p1a: Aromatisse|31/100 slp|[from] move: Snap Trap|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1622730635
+|move|p2a: Stunfisk|Earthquake|p1a: Aromatisse
+|-damage|p1a: Aromatisse|9/100 slp
+|cant|p1a: Aromatisse|slp
+|
+|-heal|p1a: Aromatisse|15/100 slp|[from] item: Leftovers
+|-damage|p1a: Aromatisse|3/100 slp|[from] move: Snap Trap|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1622730643
+|-curestatus|p1a: Aromatisse|slp|[msg]
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Stunfisk|Earthquake|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|9/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|0 fnt|[from] move: Snap Trap|[partiallytrapped]
+|faint|p1a: Aromatisse
+|
+|win|ayo bb
+|upkeep

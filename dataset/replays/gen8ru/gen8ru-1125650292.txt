@@ -1,0 +1,702 @@
+|j|☆SolarflareRo
+|j|☆Ibaragi Test
+|player|p1|SolarflareRo|siebold|1403
+|player|p2|Ibaragi Test|cynthia|1325
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Snorlax, M|
+|poke|p1|Aromatisse, F|
+|poke|p1|Charizard, M|
+|poke|p1|Passimian, F|
+|poke|p1|Duraludon, M|
+|poke|p1|Gastrodon, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Duraludon, M|
+|poke|p2|Frosmoth, F|
+|poke|p2|Braviary, M|
+|poke|p2|Whimsicott, F|
+|poke|p2|Coalossal, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: Braviary|Braviary, M|100/100
+|turn|1
+|
+|move|p2a: Braviary|U-turn|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|87/100
+|
+|switch|p2a: Frosmoth|Frosmoth, F|100/100|[from]move: U-turn
+|move|p1a: Duraludon|Draco Meteor|p2a: Frosmoth
+|-damage|p2a: Frosmoth|34/100
+|-unboost|p1a: Duraludon|spa|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Duraludon|Draco Meteor|p2a: Frosmoth
+|-damage|p2a: Frosmoth|5/100
+|-unboost|p1a: Duraludon|spa|2
+|move|p2a: Frosmoth|Ice Beam|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|-damage|p2a: Frosmoth|0 fnt|[from] item: Life Orb
+|faint|p1a: Duraludon
+|faint|p2a: Frosmoth
+|
+|upkeep
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|switch|p2a: Braviary|Braviary, M|100/100
+|turn|3
+|
+|switch|p1a: Aromatisse|Aromatisse, F|100/100
+|move|p2a: Braviary|Rock Slide|p1a: Aromatisse
+|-damage|p1a: Aromatisse|76/100
+|
+|-heal|p1a: Aromatisse|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Whimsicott|Substitute|p2a: Whimsicott
+|-start|p2a: Whimsicott|Substitute
+|-damage|p2a: Whimsicott|76/100
+|
+|-heal|p2a: Whimsicott|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Charizard
+|-start|p1a: Charizard|move: Leech Seed
+|move|p1a: Charizard|Fire Blast|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-end|p2a: Whimsicott|Substitute
+|
+|-heal|p2a: Whimsicott|88/100|[from] item: Leftovers
+|-damage|p1a: Charizard|88/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|99/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p1a: Aromatisse|Aromatisse, F|88/100
+|move|p2a: Whimsicott|Substitute|p2a: Whimsicott
+|-start|p2a: Whimsicott|Substitute
+|-damage|p2a: Whimsicott|75/100
+|
+|-heal|p2a: Whimsicott|81/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Aromatisse
+|-start|p1a: Aromatisse|move: Leech Seed
+|move|p1a: Aromatisse|Moonblast|p2a: Whimsicott
+|-end|p2a: Whimsicott|Substitute
+|
+|-heal|p2a: Whimsicott|87/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|99/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|88/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|100/100|[silent]
+|upkeep
+|turn|9
+|
+|move|p2a: Whimsicott|Encore|p1a: Aromatisse
+|-block|p1a: Aromatisse|ability: Aroma Veil|[of] p1a: Aromatisse
+|move|p1a: Aromatisse|Moonblast|p2a: Whimsicott
+|-damage|p2a: Whimsicott|58/100
+|
+|-heal|p2a: Whimsicott|64/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|94/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|82/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|79/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: Aromatisse|Moonblast|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|86/100
+|-unboost|p2a: Coalossal|spa|1
+|
+|-heal|p1a: Aromatisse|88/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|76/100|[from] Leech Seed|[of] p2a: Coalossal
+|-heal|p2a: Coalossal|98/100|[silent]
+|upkeep
+|turn|11
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Coalossal|Stealth Rock|p1a: Gastrodon
+|-sidestart|p1: SolarflareRo|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ibaragi Test)
+|
+|switch|p2a: Whimsicott|Whimsicott, F|79/100
+|move|p1a: Gastrodon|Scald|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|62/100
+|-status|p2a: Whimsicott|brn
+|
+|-heal|p2a: Whimsicott|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Whimsicott|62/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Aromatisse|Aromatisse, F|76/100
+|-damage|p1a: Aromatisse|63/100|[from] Stealth Rock
+|move|p2a: Whimsicott|Leech Seed|p1a: Aromatisse
+|-start|p1a: Aromatisse|move: Leech Seed
+|
+|-heal|p2a: Whimsicott|68/100 brn|[from] item: Leftovers
+|-heal|p1a: Aromatisse|69/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|57/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|83/100 brn|[silent]
+|-damage|p2a: Whimsicott|77/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Braviary|Braviary, M|100/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|63/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|51/100|[from] Leech Seed|[of] p2a: Braviary
+|upkeep
+|turn|15
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Braviary|Brave Bird|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|-damage|p1a: Aromatisse|88/100|[from] Leech Seed|[of] p2a: Braviary
+|upkeep
+|turn|16
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Braviary|Brave Bird|p1a: Gastrodon
+|-damage|p1a: Gastrodon|48/100
+|-damage|p2a: Braviary|81/100|[from] Recoil
+|
+|-heal|p1a: Gastrodon|54/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Whimsicott|Whimsicott, F|77/100 brn
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|
+|-heal|p2a: Whimsicott|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Whimsicott|77/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Charizard|Charizard, M|88/100
+|move|p2a: Whimsicott|Leech Seed|p1a: Charizard
+|-start|p1a: Charizard|move: Leech Seed
+|
+|-heal|p2a: Whimsicott|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Charizard|76/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|95/100 brn|[silent]
+|-damage|p2a: Whimsicott|89/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Coalossal|Coalossal, M|98/100
+|move|p1a: Charizard|Defog|p2a: Coalossal
+|-unboost|p2a: Coalossal|evasion|1
+|-sideend|p1: SolarflareRo|Stealth Rock|[from] move: Defog|[of] p1a: Charizard
+|
+|-damage|p1a: Charizard|63/100|[from] Leech Seed|[of] p2a: Coalossal
+|-heal|p2a: Coalossal|100/100|[silent]
+|upkeep
+|turn|20
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Coalossal|Stealth Rock|p1a: Snorlax
+|-sidestart|p1: SolarflareRo|move: Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Whimsicott|Whimsicott, F|89/100 brn
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Whimsicott|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Whimsicott|89/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Aromatisse|Aromatisse, F|88/100
+|-damage|p1a: Aromatisse|76/100|[from] Stealth Rock
+|move|p2a: Whimsicott|Encore|p1a: Aromatisse
+|-block|p1a: Aromatisse|ability: Aroma Veil|[of] p1a: Aromatisse
+|
+|-heal|p2a: Whimsicott|95/100 brn|[from] item: Leftovers
+|-heal|p1a: Aromatisse|82/100|[from] item: Leftovers
+|-damage|p2a: Whimsicott|89/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Aromatisse
+|-start|p1a: Aromatisse|move: Leech Seed
+|move|p1a: Aromatisse|Moonblast|p2a: Whimsicott
+|-damage|p2a: Whimsicott|47/100 brn
+|
+|-heal|p2a: Whimsicott|53/100 brn|[from] item: Leftovers
+|-heal|p1a: Aromatisse|88/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|76/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|68/100 brn|[silent]
+|-damage|p2a: Whimsicott|62/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|SolarflareRo has 120 seconds left.
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Aromatisse|Moonblast|p2a: Vaporeon
+|-damage|p2a: Vaporeon|78/100
+|-unboost|p2a: Vaporeon|spa|1
+|
+|-heal|p2a: Vaporeon|85/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|82/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|70/100|[from] Leech Seed|[of] p2a: Vaporeon
+|-heal|p2a: Vaporeon|95/100|[silent]
+|upkeep
+|turn|25
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|move|p1a: Gastrodon|Toxic|p2a: Duraludon
+|-immune|p2a: Duraludon
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Duraludon|Flash Cannon|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|71/100
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Braviary|Braviary, M|81/100
+|move|p1a: Gastrodon|Earth Power|p2a: Braviary
+|-immune|p2a: Braviary
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Braviary|U-turn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|82/100
+|
+|switch|p2a: Whimsicott|Whimsicott, F|62/100 brn|[from]move: U-turn
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|
+|-heal|p2a: Whimsicott|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Whimsicott|62/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|-damage|p1a: Snorlax|88/100|[from] Stealth Rock
+|move|p2a: Whimsicott|Leech Seed|p1a: Snorlax
+|-start|p1a: Snorlax|move: Leech Seed
+|
+|-heal|p2a: Whimsicott|68/100 brn|[from] item: Leftovers
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|-damage|p1a: Snorlax|82/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|88/100 brn|[silent]
+|-damage|p2a: Whimsicott|82/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|82/100
+|-status|p2a: Duraludon|par
+|
+|-heal|p1a: Snorlax|88/100|[from] item: Leftovers
+|-damage|p1a: Snorlax|75/100|[from] Leech Seed|[of] p2a: Duraludon
+|-heal|p2a: Duraludon|100/100 par|[silent]
+|upkeep
+|turn|32
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Duraludon|Draco Meteor|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-unboost|p2a: Duraludon|spa|2
+|faint|p1a: Gastrodon
+|
+|upkeep
+|inactive|SolarflareRo has 120 seconds left.
+|
+|switch|p1a: Passimian|Passimian, F|100/100
+|-damage|p1a: Passimian|94/100|[from] Stealth Rock
+|turn|33
+|
+|switch|p1a: Charizard|Charizard, M|63/100
+|switch|p2a: Whimsicott|Whimsicott, F|82/100 brn
+|
+|-heal|p2a: Whimsicott|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Whimsicott|82/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: Charizard|Fire Blast|p2a: Coalossal
+|-start|p2a: Coalossal|ability: Flash Fire
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Charizard|Toxic|p2a: Coalossal
+|-status|p2a: Coalossal|tox
+|move|p2a: Coalossal|Burn Up|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|13/100
+|-start|p2a: Coalossal|typechange|Rock/???|[from] move: Burn Up
+|
+|-damage|p2a: Coalossal|94/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|-end|p2a: Coalossal|ability: Flash Fire|[silent]
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|63/100
+|-singleturn|p1a: Charizard|move: Roost
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Charizard|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|move|p2a: Vaporeon|Heal Bell|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Heal Bell
+|-curestatus|p2a: Vaporeon|tox|[msg]
+|-curestatus|p2: Coalossal|tox|[msg]
+|-curestatus|p2: Duraludon|par|[msg]
+|-curestatus|p2: Whimsicott|brn|[msg]
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Charizard|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|move|p2a: Vaporeon|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-damage|p2a: Vaporeon|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, F|94/100
+|-damage|p1a: Passimian|88/100|[from] Stealth Rock
+|turn|39
+|
+|switch|p2a: Whimsicott|Whimsicott, F|82/100
+|move|p1a: Passimian|Close Combat|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|52/100
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|
+|-heal|p2a: Whimsicott|58/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Passimian|Close Combat|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|29/100
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|move|p2a: Whimsicott|Moonblast|p1a: Passimian
+|-supereffective|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|faint|p1a: Passimian
+|
+|-heal|p2a: Whimsicott|35/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Aromatisse|Aromatisse, F|70/100
+|-damage|p1a: Aromatisse|57/100|[from] Stealth Rock
+|turn|41
+|
+|switch|p2a: Coalossal|Coalossal, M|94/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|64/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p2a: Vaporeon|Vaporeon, F|94/100 tox
+|move|p1a: Aromatisse|Moonblast|p2a: Vaporeon
+|-damage|p2a: Vaporeon|72/100 tox
+|
+|-heal|p1a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Vaporeon|78/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|72/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|move|p2a: Vaporeon|Heal Bell|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Heal Bell
+|-curestatus|p2a: Vaporeon|tox|[msg]
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p2a: Vaporeon|78/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p1a: Snorlax|Snorlax, M|75/100
+|-damage|p1a: Snorlax|63/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Snorlax|100/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Vaporeon|85/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p2a: Whimsicott|Whimsicott, F|35/100
+|move|p1a: Snorlax|Body Slam|p2a: Whimsicott
+|-damage|p2a: Whimsicott|4/100
+|
+|-heal|p2a: Whimsicott|76/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Whimsicott|82/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Snorlax
+|-start|p1a: Snorlax|move: Leech Seed
+|move|p1a: Snorlax|Body Slam|p2a: Whimsicott
+|-crit|p2a: Whimsicott
+|-damage|p2a: Whimsicott|36/100
+|
+|-heal|p2a: Whimsicott|43/100|[from] item: Leftovers
+|-damage|p1a: Snorlax|88/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|62/100|[silent]
+|upkeep
+|turn|47
+|
+|switch|p2a: Braviary|Braviary, M|81/100
+|switch|p1a: Aromatisse|Aromatisse, F|100/100
+|-damage|p1a: Aromatisse|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Aromatisse|94/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Braviary|U-turn|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|100/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p2a: Braviary|U-turn|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-damage|p1a: Aromatisse|90/100
+|
+|switch|p2a: Vaporeon|Vaporeon, F|85/100|[from]move: U-turn
+|move|p1a: Aromatisse|Moonblast|p2a: Vaporeon
+|-damage|p2a: Vaporeon|63/100
+|-unboost|p2a: Vaporeon|spa|1
+|
+|-heal|p2a: Vaporeon|69/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|96/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|switch|p1a: Snorlax|Snorlax, M|88/100
+|-damage|p1a: Snorlax|76/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|75/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|82/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|switch|p2a: Whimsicott|Whimsicott, F|62/100
+|move|p1a: Snorlax|Body Slam|p2a: Whimsicott
+|-damage|p2a: Whimsicott|28/100
+|
+|-heal|p2a: Whimsicott|99/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Whimsicott|100/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|88/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|83/100
+|
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p2a: Duraludon|Flash Cannon|p1a: Snorlax
+|-damage|p1a: Snorlax|64/100
+|move|p1a: Snorlax|Body Slam|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|66/100
+|
+|-heal|p1a: Snorlax|70/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p2a: Duraludon|Flash Cannon|p1a: Snorlax
+|-damage|p1a: Snorlax|40/100
+|move|p1a: Snorlax|Body Slam|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|50/100
+|
+|-heal|p1a: Snorlax|46/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p2a: Duraludon|Flash Cannon|p1a: Snorlax
+|-damage|p1a: Snorlax|16/100
+|-unboost|p1a: Snorlax|spd|1
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|56
+|
+|switch|p1a: Aromatisse|Aromatisse, F|96/100
+|-damage|p1a: Aromatisse|84/100|[from] Stealth Rock
+|move|p2a: Duraludon|Flash Cannon|p1a: Aromatisse
+|-supereffective|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|upkeep
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100 slp
+|-damage|p1a: Snorlax|88/100 slp|[from] Stealth Rock
+|turn|57
+|
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Rest|p1a: Snorlax|[from]Sleep Talk
+|-fail|p1a: Snorlax
+|
+|-heal|p1a: Snorlax|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Snorlax
+|-start|p1a: Snorlax|move: Leech Seed
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Body Slam|p2a: Whimsicott|[from]Sleep Talk
+|-damage|p2a: Whimsicott|68/100
+|
+|-heal|p2a: Whimsicott|74/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|99/100 slp|[from] item: Leftovers
+|-damage|p1a: Snorlax|88/100 slp|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|93/100|[silent]
+|upkeep
+|turn|59
+|
+|move|p2a: Whimsicott|Encore||[still]
+|-fail|p2a: Whimsicott
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Body Slam|p2a: Whimsicott
+|-damage|p2a: Whimsicott|63/100
+|-status|p2a: Whimsicott|par
+|
+|-heal|p2a: Whimsicott|70/100 par|[from] item: Leftovers
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|-damage|p1a: Snorlax|82/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|89/100 par|[silent]
+|upkeep
+|turn|60
+|
+|move|p2a: Whimsicott|Encore|p1a: Snorlax
+|-start|p1a: Snorlax|Encore
+|move|p1a: Snorlax|Body Slam|p2a: Whimsicott
+|-damage|p2a: Whimsicott|57/100 par
+|
+|-heal|p2a: Whimsicott|63/100 par|[from] item: Leftovers
+|-heal|p1a: Snorlax|88/100|[from] item: Leftovers
+|-damage|p1a: Snorlax|75/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|82/100 par|[silent]
+|upkeep
+|turn|61
+|
+|switch|p2a: Duraludon|Duraludon, M|50/100
+|move|p1a: Snorlax|Body Slam|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|32/100
+|
+|-heal|p1a: Snorlax|81/100|[from] item: Leftovers
+|-damage|p1a: Snorlax|69/100|[from] Leech Seed|[of] p2a: Duraludon
+|-heal|p2a: Duraludon|55/100|[silent]
+|upkeep
+|turn|62
+|
+|move|p2a: Duraludon|Draco Meteor|p1a: Snorlax
+|-damage|p1a: Snorlax|21/100
+|-unboost|p2a: Duraludon|spa|2
+|move|p1a: Snorlax|Body Slam|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|36/100
+|
+|-heal|p1a: Snorlax|27/100|[from] item: Leftovers
+|-damage|p1a: Snorlax|14/100|[from] Leech Seed|[of] p2a: Duraludon
+|-heal|p2a: Duraludon|59/100|[silent]
+|-end|p1a: Snorlax|Encore
+|upkeep
+|turn|63
+|
+|move|p2a: Duraludon|Draco Meteor|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-unboost|p2a: Duraludon|spa|2
+|faint|p1a: Snorlax
+|
+|win|Ibaragi Test

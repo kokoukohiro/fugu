@@ -1,0 +1,315 @@
+|j|☆Sallisssss
+|j|☆Cartsoul
+|t:|1603239141
+|player|p1|Sallisssss|jogger|1398
+|player|p2|Cartsoul|170|1400
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Palpitoad, F|
+|poke|p1|Vespiquen, F|
+|poke|p1|Type: Null|
+|poke|p1|Gourgeist-*, M|
+|poke|p1|Kadabra, M|
+|poke|p1|Pinsir, M|
+|poke|p2|Perrserker, M|
+|poke|p2|Crustle, M|
+|poke|p2|Lilligant, F|
+|poke|p2|Mr. Rime, M|
+|poke|p2|Hitmonchan, M|
+|poke|p2|Drifblim, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1603239158
+|start
+|switch|p1a: Palpitoad|Palpitoad, F|100/100
+|switch|p2a: Drifblim|Drifblim, F|100/100
+|turn|1
+|
+|t:|1603239163
+|move|p2a: Drifblim|Substitute|p2a: Drifblim
+|-start|p2a: Drifblim|Substitute
+|-damage|p2a: Drifblim|75/100
+|move|p1a: Palpitoad|Toxic|p2a: Drifblim|[miss]
+|-miss|p1a: Palpitoad|p2a: Drifblim
+|
+|upkeep
+|turn|2
+|
+|t:|1603239166
+|move|p2a: Drifblim|Shadow Ball|p1a: Palpitoad
+|-damage|p1a: Palpitoad|66/100
+|move|p1a: Palpitoad|Scald|p2a: Drifblim
+|-activate|p2a: Drifblim|move: Substitute|[damage]
+|
+|upkeep
+|turn|3
+|
+|t:|1603239171
+|switch|p1a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p2a: Drifblim|Weakness Policy|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Drifblim|Shadow Ball|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|upkeep
+|
+|t:|1603239190
+|switch|p1a: Pinsir|Pinsir, M|100/100
+|turn|4
+|
+|t:|1603239194
+|move|p1a: Pinsir|Knock Off|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-crit|p2a: Drifblim
+|-end|p2a: Drifblim|Substitute
+|move|p2a: Drifblim|Strength Sap|p1a: Pinsir
+|-unboost|p1a: Pinsir|atk|1
+|-heal|p2a: Drifblim|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1603239206
+|switch|p1a: Type: Null|Type: Null|100/100
+|move|p2a: Drifblim|Strength Sap|p1a: Type: Null
+|-unboost|p1a: Type: Null|atk|1
+|
+|upkeep
+|turn|6
+|
+|t:|1603239213
+|move|p2a: Drifblim|Substitute|p2a: Drifblim
+|-start|p2a: Drifblim|Substitute
+|-damage|p2a: Drifblim|75/100
+|move|p1a: Type: Null|U-turn|p2a: Drifblim
+|-resisted|p2a: Drifblim
+|-activate|p2a: Drifblim|move: Substitute|[damage]
+|
+|t:|1603239234
+|switch|p1a: Palpitoad|Palpitoad, F|66/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1603239239
+|move|p2a: Drifblim|Shadow Ball|p1a: Palpitoad
+|-crit|p1a: Palpitoad
+|-damage|p1a: Palpitoad|8/100
+|move|p1a: Palpitoad|Scald|p2a: Drifblim
+|-end|p2a: Drifblim|Substitute
+|
+|upkeep
+|turn|8
+|
+|t:|1603239243
+|move|p2a: Drifblim|Substitute|p2a: Drifblim
+|-start|p2a: Drifblim|Substitute
+|-damage|p2a: Drifblim|50/100
+|move|p1a: Palpitoad|Scald|p2a: Drifblim
+|-activate|p2a: Drifblim|move: Substitute|[damage]
+|
+|upkeep
+|turn|9
+|
+|t:|1603239250
+|move|p2a: Drifblim|Shadow Ball|p1a: Palpitoad
+|-damage|p1a: Palpitoad|0 fnt
+|faint|p1a: Palpitoad
+|
+|upkeep
+|
+|t:|1603239253
+|switch|p1a: Vespiquen|Vespiquen, F|100/100
+|-ability|p1a: Vespiquen|Pressure
+|turn|10
+|
+|t:|1603239258
+|move|p2a: Drifblim|Thunderbolt|p1a: Vespiquen
+|-supereffective|p1a: Vespiquen
+|-damage|p1a: Vespiquen|45/100
+|move|p1a: Vespiquen|U-turn|p2a: Drifblim
+|-resisted|p2a: Drifblim
+|-end|p2a: Drifblim|Substitute
+|
+|t:|1603239267
+|switch|p1a: Kadabra|Kadabra, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+|
+|t:|1603239274
+|move|p1a: Kadabra|Shadow Ball|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sallisssss)
+|
+|t:|1603239298
+|switch|p2a: Lilligant|Lilligant, F|100/100
+|turn|12
+|
+|t:|1603239308
+|switch|p1a: Pinsir|Pinsir, M|100/100
+|move|p2a: Lilligant|Pollen Puff|p1a: Pinsir
+|-damage|p1a: Pinsir|27/100
+|
+|upkeep
+|turn|13
+|
+|t:|1603239315
+|switch|p2a: Crustle|Crustle, M|100/100
+|move|p1a: Pinsir|X-Scissor|p2a: Crustle
+|-damage|p2a: Crustle|73/100
+|-damage|p1a: Pinsir|11/100|[from] item: Rocky Helmet|[of] p2a: Crustle
+|
+|upkeep
+|turn|14
+|
+|t:|1603239323
+|switch|p1a: Type: Null|Type: Null|100/100
+|move|p2a: Crustle|Spikes|p1a: Type: Null
+|-sidestart|p1: Sallisssss|Spikes
+|
+|upkeep
+|turn|15
+|
+|t:|1603239327
+|switch|p2a: Perrserker|Perrserker, M|100/100
+|move|p1a: Type: Null|Toxic|p2a: Perrserker
+|-immune|p2a: Perrserker
+|
+|upkeep
+|turn|16
+|
+|t:|1603239333
+|move|p2a: Perrserker|U-turn|p1a: Type: Null
+|-damage|p1a: Type: Null|71/100
+|
+|t:|1603239335
+|switch|p2a: Crustle|Crustle, M|73/100|[from]move: U-turn
+|move|p1a: Type: Null|U-turn|p2a: Crustle
+|-damage|p2a: Crustle|63/100
+|-damage|p1a: Type: Null|55/100|[from] item: Rocky Helmet|[of] p2a: Crustle
+|
+|t:|1603239345
+|switch|p1a: Kadabra|Kadabra, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|17
+|
+|t:|1603239350
+|move|p1a: Kadabra|Psychic|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|upkeep
+|
+|t:|1603239354
+|switch|p2a: Lilligant|Lilligant, F|100/100
+|turn|18
+|
+|t:|1603239359
+|switch|p1a: Vespiquen|Vespiquen, F|45/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Lilligant|Pollen Puff|p1a: Vespiquen
+|-resisted|p1a: Vespiquen
+|-damage|p1a: Vespiquen|26/100
+|
+|upkeep
+|turn|19
+|
+|t:|1603239365
+|switch|p2a: Perrserker|Perrserker, M|100/100
+|move|p1a: Vespiquen|Roost|p1a: Vespiquen
+|-heal|p1a: Vespiquen|76/100
+|-singleturn|p1a: Vespiquen|move: Roost
+|
+|upkeep
+|turn|20
+|
+|t:|1603239373
+|move|p2a: Perrserker|Iron Head|p1a: Vespiquen
+|-damage|p1a: Vespiquen|20/100
+|move|p1a: Vespiquen|Roost|p1a: Vespiquen
+|-heal|p1a: Vespiquen|70/100
+|-singleturn|p1a: Vespiquen|move: Roost
+|
+|upkeep
+|turn|21
+|
+|t:|1603239379
+|move|p2a: Perrserker|Iron Head|p1a: Vespiquen
+|-damage|p1a: Vespiquen|14/100
+|cant|p1a: Vespiquen|flinch
+|
+|upkeep
+|turn|22
+|
+|t:|1603239388
+|move|p2a: Perrserker|Iron Head|p1a: Vespiquen
+|-damage|p1a: Vespiquen|0 fnt
+|faint|p1a: Vespiquen
+|
+|upkeep
+|
+|t:|1603239397
+|switch|p1a: Kadabra|Kadabra, M|100/100
+|turn|23
+|
+|t:|1603239403
+|switch|p2a: Mr. Rime|Mr. Rime, M|100/100
+|move|p1a: Kadabra|Shadow Ball|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|26/100
+|
+|upkeep
+|turn|24
+|
+|t:|1603239427
+|move|p1a: Kadabra|Calm Mind|p1a: Kadabra
+|-boost|p1a: Kadabra|spa|1
+|-boost|p1a: Kadabra|spd|1
+|move|p2a: Mr. Rime|Ice Beam|p1a: Kadabra
+|-damage|p1a: Kadabra|37/100
+|
+|upkeep
+|turn|25
+|
+|t:|1603239435
+|move|p1a: Kadabra|Shadow Ball|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|0 fnt
+|faint|p2a: Mr. Rime
+|
+|upkeep
+|
+|t:|1603239438
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100
+|turn|26
+|
+|t:|1603239444
+|move|p2a: Hitmonchan|Bullet Punch|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|upkeep
+|-message|Sallisssss forfeited.
+|
+|win|Cartsoul
+|l|☆Sallisssss
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

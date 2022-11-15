@@ -1,0 +1,352 @@
+|j|☆SDK04
+|j|☆Fousfull
+|t:|1665872962
+|gametype|singles
+|player|p1|SDK04|nate|1405
+|player|p2|Fousfull|blackbelt-gen4|1612
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Vanilluxe, F|
+|poke|p1|Salamence, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Azelf|
+|poke|p1|Slowking, M|
+|poke|p1|Zarude-Dada|
+|poke|p2|Hydreigon, M|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Scizor, M|
+|poke|p2|Hippowdon, F|
+|poke|p2|Tangrowth, M|
+|poke|p2|Skarmory, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SDK04)
+|
+|t:|1665872983
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|
+|t:|1665872989
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Azelf|Flamethrower|p2a: Hippowdon
+|-damage|p2a: Hippowdon|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azelf|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1665872994
+|move|p1a: Azelf|Knock Off|p2a: Hippowdon
+|-damage|p2a: Hippowdon|64/100
+|-enditem|p2a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p1a: Azelf
+|move|p2a: Hippowdon|Stealth Rock|p1a: Azelf
+|-sidestart|p1: SDK04|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azelf|88/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1665872996
+|move|p1a: Azelf|Psychic|p2a: Hippowdon
+|-damage|p2a: Hippowdon|27/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azelf|82/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1665872999
+|move|p1a: Azelf|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|65/100
+|
+|t:|1665873004
+|switch|p1a: Salamence|Salamence, M|100/100|[from]move: U-turn
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Hippowdon|atk|1
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1665873008
+|move|p1a: Salamence|Defog|p2a: Hippowdon
+|-unboost|p2a: Hippowdon|evasion|1
+|-sideend|p1: SDK04|Stealth Rock|[from] move: Defog|[of] p1a: Salamence
+|move|p2a: Hippowdon|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-weather|none
+|-damage|p1a: Salamence|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1665873011
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|move|p2a: Hippowdon|Stealth Rock|p1a: Vanilluxe
+|-sidestart|p1: SDK04|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hippowdon|94/100|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1665873017
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Vanilluxe|Blizzard|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Scizor|42/100|[from] Hail
+|upkeep
+|turn|8
+|
+|t:|1665873023
+|switch|p1a: Salamence|Salamence, M|88/100 tox
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Keldeo|94/100|[from] Hail
+|-damage|p1a: Salamence|82/100 tox|[from] Hail
+|-damage|p1a: Salamence|76/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1665873026
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Salamence|Defog|p2a: Hydreigon
+|-unboost|p2a: Hydreigon|evasion|1
+|-sideend|p1: SDK04|Stealth Rock|[from] move: Defog|[of] p1a: Salamence
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Salamence|70/100 tox|[from] Hail
+|-damage|p2a: Hydreigon|94/100|[from] Hail
+|-damage|p1a: Salamence|58/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1665873030
+|switch|p1a: Zarude|Zarude-Dada|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|69/100
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1665873034
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Zarude|Jungle Healing|p1a: Zarude
+|-heal|p1a: Zarude|94/100
+|
+|upkeep
+|turn|12
+|
+|t:|1665873036
+|move|p1a: Zarude|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|97/100
+|-damage|p1a: Zarude|77/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|t:|1665873038
+|switch|p1a: Azelf|Azelf|82/100|[from]move: U-turn
+|move|p2a: Skarmory|Spikes|p1a: Azelf
+|-sidestart|p1: SDK04|Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1665873042
+|switch|p2a: Hippowdon|Hippowdon, F|94/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Azelf|Knock Off|p2a: Hippowdon
+|-damage|p2a: Hippowdon|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azelf|76/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1665873045
+|move|p1a: Azelf|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|70/100
+|
+|t:|1665873050
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100|[from]move: U-turn
+|-damage|p1a: Vanilluxe|88/100|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|move|p2a: Hippowdon|Stealth Rock|p1a: Vanilluxe
+|-sidestart|p1: SDK04|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hippowdon|63/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1665873060
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Vanilluxe|Blizzard|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1665873062
+|switch|p2a: Hydreigon|Hydreigon, M|94/100
+|turn|16
+|
+|t:|1665873065
+|move|p2a: Hydreigon|Draco Meteor|p1a: Vanilluxe|[miss]
+|-miss|p2a: Hydreigon|p1a: Vanilluxe
+|move|p1a: Vanilluxe|Blizzard|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|c|☆Fousfull|Claisc
+|
+|t:|1665873073
+|switch|p2a: Keldeo|Keldeo-Resolute|94/100
+|turn|17
+|
+|t:|1665873076
+|switch|p1a: Slowking|Slowking, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|-damage|p1a: Slowking|76/100|[from] Stealth Rock
+|move|p2a: Keldeo|Scald|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|50/100
+|-status|p1a: Slowking|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Keldeo|88/100|[from] Hail
+|-damage|p1a: Slowking|44/100 brn|[from] Hail
+|-damage|p1a: Slowking|38/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1665873080
+|switch|p2a: Scizor|Scizor, M|42/100
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1665873086
+|switch|p1a: Excadrill|Excadrill, F|100/100|[from]move: Teleport
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|-damage|p1a: Excadrill|85/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|none
+|-heal|p1a: Excadrill|91/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1665873091
+|move|p1a: Excadrill|Rapid Spin|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|34/100
+|-boost|p1a: Excadrill|spe|1
+|-sideend|p1: SDK04|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: SDK04|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Scizor|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|47/100
+|
+|t:|1665873094
+|switch|p2a: Hippowdon|Hippowdon, F|63/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|53/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1665873097
+|move|p1a: Excadrill|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: Fousfull|move: Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1665873099
+|switch|p1a: Vanilluxe|Vanilluxe, F|88/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|21
+|c|☆Fousfull|Gg
+|
+|t:|1665873104
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1665873106
+|switch|p2a: Keldeo|Keldeo-Resolute|88/100
+|-damage|p2a: Keldeo|82/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1665873108
+|move|p2a: Keldeo|Hydro Pump|p1a: Vanilluxe
+|-crit|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|faint|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Keldeo|76/100|[from] Hail
+|upkeep
+|
+|t:|1665873112
+|switch|p1a: Azelf|Azelf|76/100
+|turn|23
+|
+|t:|1665873115
+|move|p1a: Azelf|Psychic|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Azelf|70/100|[from] Hail
+|upkeep
+|-message|Fousfull forfeited.
+|
+|win|SDK04
+|raw|SDK04's rating: 1405 &rarr; <strong>1436</strong><br />(+31 for winning)
+|raw|Fousfull's rating: 1619 &rarr; <strong>1588</strong><br />(-31 for losing)
+|l|☆Fousfull

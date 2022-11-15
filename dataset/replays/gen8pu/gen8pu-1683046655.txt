@@ -1,0 +1,905 @@
+|j|☆kindersurprise2.0
+|j|☆flowre
+|t:|1665493736
+|gametype|singles
+|player|p1|kindersurprise2.0|emmet|1506
+|player|p2|flowre|waitress-gen4|1596
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Regirock|
+|poke|p1|Eldegoss, M|
+|poke|p1|Quagsire, M|
+|poke|p1|Golbat, M|
+|poke|p1|Magmortar, M|
+|poke|p1|Sawk, M|
+|poke|p2|Roselia, M|
+|poke|p2|Malamar, F|
+|poke|p2|Quagsire, F|
+|poke|p2|Lickilicky, F|
+|poke|p2|Sandslash, F|
+|poke|p2|Butterfree, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by flowre)
+|inactive|kindersurprise2.0 has 120 seconds left.
+|
+|t:|1665493771
+|start
+|switch|p1a: MO-120-RT|Magmortar, M|100/100
+|switch|p2a: Sandslash|Sandslash, F, shiny|100/100
+|turn|1
+|
+|t:|1665493778
+|switch|p1a: Flour|Eldegoss, M|100/100
+|switch|p2a: Lickilicky|Lickilicky, F, shiny|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1665493782
+|move|p1a: Flour|Sleep Powder|p2a: Lickilicky
+|-status|p2a: Lickilicky|slp|[from] move: Sleep Powder
+|cant|p2a: Lickilicky|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1665493791
+|switch|p1a: MO-120-RT|Magmortar, M|100/100
+|cant|p2a: Lickilicky|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1665493794
+|move|p1a: MO-120-RT|Focus Blast|p2a: Lickilicky|[miss]
+|-miss|p1a: MO-120-RT|p2a: Lickilicky
+|-curestatus|p2a: Lickilicky|slp|[msg]
+|move|p2a: Lickilicky|Knock Off|p1a: MO-120-RT
+|-damage|p1a: MO-120-RT|70/100
+|-enditem|p1a: MO-120-RT|Choice Specs|[from] move: Knock Off|[of] p2a: Lickilicky
+|
+|upkeep
+|turn|5
+|
+|t:|1665493799
+|move|p1a: MO-120-RT|Focus Blast|p2a: Lickilicky
+|-supereffective|p2a: Lickilicky
+|-damage|p2a: Lickilicky|43/100
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|-heal|p2a: Lickilicky|50/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1665493806
+|switch|p1a: Torrent|Sawk, M|100/100
+|move|p2a: Lickilicky|Protect||[still]
+|-fail|p2a: Lickilicky
+|
+|-heal|p2a: Lickilicky|99/100|[from] move: Wish|[wisher] Lickilicky
+|-heal|p2a: Lickilicky|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1665493810
+|move|p2a: Lickilicky|Protect|p2a: Lickilicky
+|-singleturn|p2a: Lickilicky|Protect
+|move|p1a: Torrent|Knock Off|p2a: Lickilicky
+|-activate|p2a: Lickilicky|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1665493817
+|switch|p2a: Sandslash|Sandslash, F, shiny|100/100
+|move|p1a: Torrent|Knock Off|p2a: Sandslash
+|-damage|p2a: Sandslash|66/100
+|-enditem|p2a: Sandslash|Leftovers|[from] move: Knock Off|[of] p1a: Torrent
+|
+|upkeep
+|turn|9
+|
+|t:|1665493822
+|switch|p1a: Flour|Eldegoss, M|100/100
+|move|p2a: Sandslash|Stealth Rock|p1a: Flour
+|-sidestart|p1: kindersurprise2.0|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1665493826
+|switch|p2a: Roselia|Roselia, M, shiny|100/100
+|move|p1a: Flour|Rapid Spin|p2a: Roselia
+|-damage|p2a: Roselia|92/100
+|-boost|p1a: Flour|spe|1
+|-sideend|p1: kindersurprise2.0|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Flour
+|
+|upkeep
+|turn|11
+|
+|t:|1665493836
+|switch|p1a: Batboi|Golbat, M|100/100
+|move|p2a: Roselia|Leech Seed|p1a: Batboi
+|-start|p1a: Batboi|move: Leech Seed
+|
+|-damage|p1a: Batboi|88/100|[from] Leech Seed|[of] p2a: Roselia
+|-heal|p2a: Roselia|100/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1665493842
+|switch|p2a: Sandslash|Sandslash, F, shiny|66/100
+|move|p1a: Batboi|U-turn|p2a: Sandslash
+|-damage|p2a: Sandslash|54/100
+|
+|t:|1665493863
+|switch|p1a: MO-120-RT|Magmortar, M|70/100|[from]move: U-turn
+|
+|upkeep
+|turn|13
+|
+|t:|1665493870
+|switch|p2a: Lickilicky|Lickilicky, F, shiny|100/100
+|move|p1a: MO-120-RT|Flamethrower|p2a: Lickilicky
+|-damage|p2a: Lickilicky|69/100
+|
+|-heal|p2a: Lickilicky|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1665493879
+|switch|p1a: Un Un Un|Regirock|100/100
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|-heal|p2a: Lickilicky|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1665493887
+|switch|p2a: Sandslash|Sandslash, F, shiny|54/100
+|move|p1a: Un Un Un|Stealth Rock|p2a: Sandslash
+|-sidestart|p2: flowre|move: Stealth Rock
+|
+|-heal|p2a: Sandslash|100/100|[from] move: Wish|[wisher] Lickilicky
+|upkeep
+|turn|16
+|
+|t:|1665493895
+|switch|p1a: Flour|Eldegoss, M|100/100
+|move|p2a: Sandslash|Rapid Spin|p1a: Flour
+|-damage|p1a: Flour|86/100
+|-boost|p2a: Sandslash|spe|1
+|-damage|p2a: Sandslash|84/100|[from] item: Rocky Helmet|[of] p1a: Flour
+|-sideend|p2: flowre|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Sandslash
+|
+|upkeep
+|turn|17
+|
+|t:|1665493908
+|switch|p2a: Roselia|Roselia, M, shiny|100/100
+|move|p1a: Flour|Sleep Powder|p2a: Roselia
+|-immune|p2a: Roselia
+|
+|upkeep
+|turn|18
+|
+|t:|1665493919
+|switch|p1a: Batboi|Golbat, M|88/100
+|move|p2a: Roselia|Sludge Bomb|p1a: Batboi
+|-resisted|p1a: Batboi
+|-damage|p1a: Batboi|70/100
+|
+|upkeep
+|turn|19
+|
+|t:|1665493928
+|move|p1a: Batboi|Poison Fang|p2a: Roselia
+|-damage|p2a: Roselia|80/100
+|move|p2a: Roselia|Leech Seed|p1a: Batboi
+|-start|p1a: Batboi|move: Leech Seed
+|
+|-damage|p1a: Batboi|57/100|[from] Leech Seed|[of] p2a: Roselia
+|-heal|p2a: Roselia|95/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1665493934
+|move|p1a: Batboi|U-turn|p2a: Roselia
+|-damage|p2a: Roselia|75/100
+|
+|t:|1665493940
+|switch|p1a: MO-120-RT|Magmortar, M|70/100|[from]move: U-turn
+|move|p2a: Roselia|Sludge Bomb|p1a: MO-120-RT
+|-damage|p1a: MO-120-RT|14/100
+|
+|upkeep
+|turn|21
+|
+|t:|1665493950
+|switch|p2a: Lickilicky|Lickilicky, F, shiny|82/100
+|move|p1a: MO-120-RT|Flamethrower|p2a: Lickilicky
+|-damage|p2a: Lickilicky|51/100
+|
+|-heal|p2a: Lickilicky|57/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1665493961
+|move|p2a: Lickilicky|Protect|p2a: Lickilicky
+|-singleturn|p2a: Lickilicky|Protect
+|move|p1a: MO-120-RT|Focus Blast|p2a: Lickilicky
+|-activate|p2a: Lickilicky|move: Protect
+|
+|-heal|p2a: Lickilicky|63/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1665493966
+|switch|p1a: Torrent|Sawk, M|100/100
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|
+|-heal|p2a: Lickilicky|70/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1665493972
+|move|p2a: Lickilicky|Protect|p2a: Lickilicky
+|-singleturn|p2a: Lickilicky|Protect
+|move|p1a: Torrent|Close Combat|p2a: Lickilicky
+|-activate|p2a: Lickilicky|move: Protect
+|
+|-heal|p2a: Lickilicky|100/100|[from] move: Wish|[wisher] Lickilicky
+|upkeep
+|turn|25
+|
+|t:|1665493979
+|switch|p2a: Butterfree|Butterfree, F, shiny|100/100
+|move|p1a: Torrent|Close Combat|p2a: Butterfree
+|-resisted|p2a: Butterfree
+|-damage|p2a: Butterfree|63/100
+|-unboost|p1a: Torrent|def|1
+|-unboost|p1a: Torrent|spd|1
+|
+|-heal|p2a: Butterfree|69/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1665493992
+|switch|p1a: Batboi|Golbat, M|57/100
+|move|p2a: Butterfree|Sleep Powder|p1a: Batboi
+|-status|p1a: Batboi|slp|[from] move: Sleep Powder
+|
+|-heal|p2a: Butterfree|75/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1665494000
+|switch|p1a: Un Un Un|Regirock|100/100
+|move|p2a: Butterfree|Quiver Dance|p2a: Butterfree
+|-boost|p2a: Butterfree|spa|1
+|-boost|p2a: Butterfree|spd|1
+|-boost|p2a: Butterfree|spe|1
+|
+|-heal|p2a: Butterfree|81/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1665494006
+|switch|p2a: Sandslash|Sandslash, F, shiny|84/100
+|move|p1a: Un Un Un|Stealth Rock|p2a: Sandslash
+|-sidestart|p2: flowre|move: Stealth Rock
+|
+|upkeep
+|turn|29
+|inactive|flowre has 120 seconds left.
+|
+|t:|1665494039
+|move|p2a: Sandslash|Rapid Spin|p1a: Un Un Un
+|-resisted|p1a: Un Un Un
+|-damage|p1a: Un Un Un|97/100
+|-boost|p2a: Sandslash|spe|1
+|-sideend|p2: flowre|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Sandslash
+|move|p1a: Un Un Un|Toxic|p2a: Sandslash
+|-status|p2a: Sandslash|tox
+|
+|-heal|p1a: Un Un Un|100/100|[from] item: Leftovers
+|-damage|p2a: Sandslash|78/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1665494046
+|switch|p2a: Malamar|Malamar, F, shiny|100/100
+|move|p1a: Un Un Un|Stealth Rock|p2a: Malamar
+|-sidestart|p2: flowre|move: Stealth Rock
+|
+|upkeep
+|turn|31
+|
+|t:|1665494052
+|switch|p1a: Woopy|Quagsire, M|100/100
+|move|p2a: Malamar|Superpower|p1a: Woopy
+|-damage|p1a: Woopy|76/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-heal|p1a: Woopy|82/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1665494063
+|move|p2a: Malamar|Knock Off|p1a: Woopy
+|-crit|p1a: Woopy
+|-damage|p1a: Woopy|33/100
+|-enditem|p1a: Woopy|Leftovers|[from] move: Knock Off|[of] p2a: Malamar
+|move|p1a: Woopy|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|69/100
+|
+|upkeep
+|turn|33
+|
+|t:|1665494070
+|move|p2a: Malamar|Superpower|p1a: Woopy
+|-damage|p1a: Woopy|8/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Woopy|Recover|p1a: Woopy
+|-heal|p1a: Woopy|58/100
+|
+|upkeep
+|turn|34
+|
+|t:|1665494086
+|switch|p2a: Roselia|Roselia, M, shiny|75/100
+|-damage|p2a: Roselia|62/100|[from] Stealth Rock
+|move|p1a: Woopy|Recover|p1a: Woopy
+|-heal|p1a: Woopy|100/100
+|
+|upkeep
+|turn|35
+|j| PossiblyGoofy
+|
+|t:|1665494099
+|switch|p1a: Batboi|Golbat, M|57/100 slp
+|move|p2a: Roselia|Leech Seed|p1a: Batboi
+|-start|p1a: Batboi|move: Leech Seed
+|
+|-damage|p1a: Batboi|45/100 slp|[from] Leech Seed|[of] p2a: Roselia
+|-heal|p2a: Roselia|76/100|[silent]
+|upkeep
+|turn|36
+|
+|t:|1665494105
+|cant|p1a: Batboi|slp
+|move|p2a: Roselia|Sludge Bomb|p1a: Batboi
+|-resisted|p1a: Batboi
+|-damage|p1a: Batboi|27/100 slp
+|
+|-damage|p1a: Batboi|14/100 slp|[from] Leech Seed|[of] p2a: Roselia
+|-heal|p2a: Roselia|91/100|[silent]
+|upkeep
+|turn|37
+|
+|t:|1665494113
+|cant|p1a: Batboi|slp
+|move|p2a: Roselia|Sludge Bomb|p1a: Batboi
+|-resisted|p1a: Batboi
+|-damage|p1a: Batboi|0 fnt
+|faint|p1a: Batboi
+|
+|upkeep
+|
+|t:|1665494116
+|switch|p1a: MO-120-RT|Magmortar, M|14/100
+|turn|38
+|
+|t:|1665494120
+|switch|p2a: Quagsire|Quagsire, F, shiny|100/100
+|-damage|p2a: Quagsire|94/100|[from] Stealth Rock
+|move|p1a: MO-120-RT|Focus Blast|p2a: Quagsire
+|-damage|p2a: Quagsire|43/100
+|
+|-heal|p2a: Quagsire|49/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1665494133
+|switch|p2a: Butterfree|Butterfree, F, shiny|81/100
+|-damage|p2a: Butterfree|31/100|[from] Stealth Rock
+|move|p1a: MO-120-RT|Focus Blast|p2a: Butterfree
+|-resisted|p2a: Butterfree
+|-damage|p2a: Butterfree|15/100
+|
+|-heal|p2a: Butterfree|22/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1665494142
+|move|p1a: MO-120-RT|Flamethrower|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|upkeep
+|
+|t:|1665494145
+|switch|p2a: Lickilicky|Lickilicky, F, shiny|100/100
+|-damage|p2a: Lickilicky|88/100|[from] Stealth Rock
+|turn|41
+|
+|t:|1665494151
+|switch|p1a: Woopy|Quagsire, M|100/100
+|move|p2a: Lickilicky|Knock Off|p1a: Woopy
+|-damage|p1a: Woopy|87/100
+|
+|-heal|p2a: Lickilicky|94/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1665494159
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|move|p1a: Woopy|Toxic|p2a: Lickilicky
+|-status|p2a: Lickilicky|tox
+|
+|-heal|p2a: Lickilicky|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Lickilicky|94/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1665494162
+|switch|p1a: Torrent|Sawk, M|100/100
+|move|p2a: Lickilicky|Heal Bell|p2a: Lickilicky
+|-activate|p2a: Lickilicky|move: Heal Bell
+|-curestatus|p2a: Lickilicky|tox|[msg]
+|-curestatus|p2: Sandslash|tox|[msg]
+|
+|-heal|p2a: Lickilicky|100/100|[from] move: Wish|[wisher] Lickilicky
+|upkeep
+|turn|44
+|
+|t:|1665494166
+|move|p2a: Lickilicky|Protect|p2a: Lickilicky
+|-singleturn|p2a: Lickilicky|Protect
+|move|p1a: Torrent|Close Combat|p2a: Lickilicky
+|-activate|p2a: Lickilicky|move: Protect
+|
+|upkeep
+|turn|45
+|
+|t:|1665494169
+|switch|p2a: Roselia|Roselia, M, shiny|91/100
+|-damage|p2a: Roselia|78/100|[from] Stealth Rock
+|move|p1a: Torrent|Close Combat|p2a: Roselia
+|-resisted|p2a: Roselia
+|-crit|p2a: Roselia
+|-damage|p2a: Roselia|4/100
+|-unboost|p1a: Torrent|def|1
+|-unboost|p1a: Torrent|spd|1
+|-status|p1a: Torrent|psn|[from] ability: Poison Point|[of] p2a: Roselia
+|
+|-damage|p1a: Torrent|88/100 psn|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1665494172
+|move|p1a: Torrent|Close Combat|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|-unboost|p1a: Torrent|def|1
+|-unboost|p1a: Torrent|spd|1
+|faint|p2a: Roselia
+|
+|-damage|p1a: Torrent|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1665494196
+|switch|p2a: Lickilicky|Lickilicky, F, shiny|100/100
+|-damage|p2a: Lickilicky|88/100|[from] Stealth Rock
+|turn|47
+|
+|t:|1665494209
+|switch|p1a: Flour|Eldegoss, M|100/100
+|move|p2a: Lickilicky|Protect||[still]
+|-fail|p2a: Lickilicky
+|
+|-heal|p2a: Lickilicky|94/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1665494213
+|move|p1a: Flour|Sleep Powder|p2a: Lickilicky
+|-status|p2a: Lickilicky|slp|[from] move: Sleep Powder
+|cant|p2a: Lickilicky|slp
+|
+|-heal|p2a: Lickilicky|99/100 slp|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1665494217
+|switch|p1a: Torrent|Sawk, M|76/100 psn
+|cant|p2a: Lickilicky|slp
+|
+|-heal|p2a: Lickilicky|100/100 slp|[from] item: Leftovers
+|-damage|p1a: Torrent|63/100 psn|[from] psn
+|upkeep
+|turn|50
+|
+|t:|1665494221
+|-curestatus|p2a: Lickilicky|slp|[msg]
+|move|p2a: Lickilicky|Protect|p2a: Lickilicky
+|-singleturn|p2a: Lickilicky|Protect
+|move|p1a: Torrent|Close Combat|p2a: Lickilicky
+|-activate|p2a: Lickilicky|move: Protect
+|
+|-damage|p1a: Torrent|51/100 psn|[from] psn
+|upkeep
+|turn|51
+|
+|t:|1665494226
+|move|p2a: Lickilicky|Protect||[still]
+|-fail|p2a: Lickilicky
+|move|p1a: Torrent|Close Combat|p2a: Lickilicky
+|-supereffective|p2a: Lickilicky
+|-damage|p2a: Lickilicky|14/100
+|-unboost|p1a: Torrent|def|1
+|-unboost|p1a: Torrent|spd|1
+|
+|-heal|p2a: Lickilicky|20/100|[from] item: Leftovers
+|-damage|p1a: Torrent|39/100 psn|[from] psn
+|upkeep
+|turn|52
+|
+|t:|1665494232
+|switch|p1a: Un Un Un|Regirock|100/100
+|move|p2a: Lickilicky|Protect||[still]
+|-fail|p2a: Lickilicky
+|
+|-heal|p2a: Lickilicky|26/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1665494234
+|move|p2a: Lickilicky|Protect|p2a: Lickilicky
+|-singleturn|p2a: Lickilicky|Protect
+|move|p1a: Un Un Un|Body Press|p2a: Lickilicky
+|-activate|p2a: Lickilicky|move: Protect
+|
+|-heal|p2a: Lickilicky|32/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1665494237
+|move|p2a: Lickilicky|Wish|p2a: Lickilicky
+|move|p1a: Un Un Un|Body Press|p2a: Lickilicky
+|-supereffective|p2a: Lickilicky
+|-damage|p2a: Lickilicky|0 fnt
+|faint|p2a: Lickilicky
+|
+|upkeep
+|
+|t:|1665494249
+|switch|p2a: Malamar|Malamar, F, shiny|69/100
+|-damage|p2a: Malamar|57/100|[from] Stealth Rock
+|turn|55
+|
+|t:|1665494253
+|switch|p1a: Woopy|Quagsire, M|87/100
+|move|p2a: Malamar|Superpower|p1a: Woopy
+|-damage|p1a: Woopy|61/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-heal|p2a: Malamar|100/100|[from] move: Wish|[wisher] Lickilicky
+|upkeep
+|turn|56
+|
+|t:|1665494261
+|move|p2a: Malamar|Superpower|p1a: Woopy
+|-damage|p1a: Woopy|37/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Woopy|Recover|p1a: Woopy
+|-heal|p1a: Woopy|87/100
+|
+|upkeep
+|turn|57
+|
+|t:|1665494265
+|move|p2a: Malamar|Superpower|p1a: Woopy
+|-damage|p1a: Woopy|60/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Woopy|Toxic|p2a: Malamar
+|-status|p2a: Malamar|tox
+|
+|-damage|p2a: Malamar|94/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|t:|1665494268
+|move|p2a: Malamar|Superpower|p1a: Woopy
+|-damage|p1a: Woopy|35/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Woopy|Recover|p1a: Woopy
+|-heal|p1a: Woopy|85/100
+|
+|-damage|p2a: Malamar|82/100 tox|[from] psn
+|upkeep
+|turn|59
+|
+|t:|1665494273
+|move|p2a: Malamar|Superpower|p1a: Woopy
+|-damage|p1a: Woopy|59/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Woopy|Recover|p1a: Woopy
+|-heal|p1a: Woopy|100/100
+|
+|-damage|p2a: Malamar|64/100 tox|[from] psn
+|upkeep
+|turn|60
+|
+|t:|1665494277
+|move|p2a: Malamar|Superpower|p1a: Woopy
+|-damage|p1a: Woopy|73/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Woopy|Recover|p1a: Woopy
+|-heal|p1a: Woopy|100/100
+|
+|-damage|p2a: Malamar|39/100 tox|[from] psn
+|upkeep
+|turn|61
+|
+|t:|1665494282
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|-enditem|p2a: Malamar|Chesto Berry|[eat]
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p1a: Woopy|Scald|p2a: Malamar
+|-damage|p2a: Malamar|85/100
+|
+|upkeep
+|turn|62
+|
+|t:|1665494286
+|move|p2a: Malamar|Knock Off|p1a: Woopy
+|-damage|p1a: Woopy|79/100
+|move|p1a: Woopy|Scald|p2a: Malamar
+|-damage|p2a: Malamar|70/100
+|
+|upkeep
+|turn|63
+|
+|t:|1665494289
+|move|p2a: Malamar|Knock Off|p1a: Woopy
+|-damage|p1a: Woopy|57/100
+|move|p1a: Woopy|Scald|p2a: Malamar
+|-damage|p2a: Malamar|56/100
+|
+|upkeep
+|turn|64
+|
+|t:|1665494292
+|move|p2a: Malamar|Knock Off|p1a: Woopy
+|-damage|p1a: Woopy|38/100
+|move|p1a: Woopy|Scald|p2a: Malamar
+|-damage|p2a: Malamar|41/100
+|-status|p2a: Malamar|brn
+|
+|-damage|p2a: Malamar|35/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|t:|1665494299
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|move|p1a: Woopy|Recover|p1a: Woopy
+|-heal|p1a: Woopy|88/100
+|
+|upkeep
+|turn|66
+|
+|t:|1665494306
+|switch|p1a: MO-120-RT|Magmortar, M|14/100
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Superpower|p1a: MO-120-RT|[from]move: Sleep Talk
+|-damage|p1a: MO-120-RT|0 fnt
+|faint|p1a: MO-120-RT
+|
+|upkeep
+|
+|t:|1665494311
+|switch|p1a: Flour|Eldegoss, M|100/100
+|turn|67
+|
+|t:|1665494314
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Malamar
+|move|p1a: Flour|Leech Seed|p2a: Malamar
+|-start|p2a: Malamar|move: Leech Seed
+|
+|-damage|p2a: Malamar|88/100 slp|[from] Leech Seed|[of] p1a: Flour
+|upkeep
+|turn|68
+|
+|t:|1665494321
+|switch|p1a: Woopy|Quagsire, M|88/100
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p2a: Malamar|Knock Off|p1a: Woopy
+|-damage|p1a: Woopy|68/100
+|
+|-damage|p2a: Malamar|75/100|[from] Leech Seed|[of] p1a: Woopy
+|-heal|p1a: Woopy|80/100|[silent]
+|upkeep
+|turn|69
+|
+|t:|1665494329
+|move|p2a: Malamar|Knock Off|p1a: Woopy
+|-damage|p1a: Woopy|60/100
+|move|p1a: Woopy|Scald|p2a: Malamar
+|-damage|p2a: Malamar|62/100
+|-status|p2a: Malamar|brn
+|
+|-damage|p2a: Malamar|49/100 brn|[from] Leech Seed|[of] p1a: Woopy
+|-heal|p1a: Woopy|72/100|[silent]
+|-damage|p2a: Malamar|43/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|t:|1665494340
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|move|p1a: Woopy|Scald|p2a: Malamar
+|-damage|p2a: Malamar|84/100 slp
+|
+|-damage|p2a: Malamar|72/100 slp|[from] Leech Seed|[of] p1a: Woopy
+|-heal|p1a: Woopy|83/100|[silent]
+|upkeep
+|turn|71
+|
+|t:|1665494344
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Malamar
+|move|p1a: Woopy|Scald|p2a: Malamar
+|-damage|p2a: Malamar|56/100 slp
+|
+|-damage|p2a: Malamar|44/100 slp|[from] Leech Seed|[of] p1a: Woopy
+|-heal|p1a: Woopy|95/100|[silent]
+|upkeep
+|turn|72
+|
+|t:|1665494349
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Malamar
+|move|p1a: Woopy|Scald|p2a: Malamar
+|-damage|p2a: Malamar|29/100 slp
+|
+|-damage|p2a: Malamar|17/100 slp|[from] Leech Seed|[of] p1a: Woopy
+|-heal|p1a: Woopy|100/100|[silent]
+|upkeep
+|turn|73
+|
+|t:|1665494365
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|move|p1a: Woopy|Scald|p2a: Malamar
+|-damage|p2a: Malamar|86/100 slp
+|
+|-damage|p2a: Malamar|74/100 slp|[from] Leech Seed|[of] p1a: Woopy
+|upkeep
+|turn|74
+|
+|t:|1665494370
+|cant|p2a: Malamar|slp
+|move|p1a: Woopy|Scald|p2a: Malamar
+|-damage|p2a: Malamar|59/100 slp
+|
+|-damage|p2a: Malamar|47/100 slp|[from] Leech Seed|[of] p1a: Woopy
+|upkeep
+|turn|75
+|
+|t:|1665494373
+|cant|p2a: Malamar|slp
+|move|p1a: Woopy|Scald|p2a: Malamar
+|-damage|p2a: Malamar|32/100 slp
+|
+|-damage|p2a: Malamar|19/100 slp|[from] Leech Seed|[of] p1a: Woopy
+|upkeep
+|turn|76
+|
+|t:|1665494378
+|-curestatus|p2a: Malamar|slp|[msg]
+|move|p2a: Malamar|Rest|p2a: Malamar
+|-status|p2a: Malamar|slp|[from] move: Rest
+|-heal|p2a: Malamar|100/100 slp|[silent]
+|move|p1a: Woopy|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|70/100 slp
+|
+|-damage|p2a: Malamar|58/100 slp|[from] Leech Seed|[of] p1a: Woopy
+|upkeep
+|turn|77
+|
+|t:|1665494382
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Malamar
+|move|p1a: Woopy|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|27/100 slp
+|
+|-damage|p2a: Malamar|14/100 slp|[from] Leech Seed|[of] p1a: Woopy
+|upkeep
+|turn|78
+|
+|t:|1665494386
+|cant|p2a: Malamar|slp
+|move|p2a: Malamar|Sleep Talk|p2a: Malamar
+|move|p2a: Malamar|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Malamar
+|move|p1a: Woopy|Earthquake|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|upkeep
+|c|☆kindersurprise2.0|Unlucky
+|
+|t:|1665494392
+|switch|p2a: Sandslash|Sandslash, F, shiny|78/100
+|-damage|p2a: Sandslash|71/100|[from] Stealth Rock
+|turn|79
+|
+|t:|1665494394
+|move|p2a: Sandslash|Rapid Spin|p1a: Woopy
+|-damage|p1a: Woopy|83/100
+|-boost|p2a: Sandslash|spe|1
+|-sideend|p2: flowre|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Sandslash
+|move|p1a: Woopy|Scald|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|9/100
+|-status|p2a: Sandslash|brn
+|
+|-damage|p2a: Sandslash|2/100 brn|[from] brn
+|upkeep
+|turn|80
+|
+|t:|1665494404
+|move|p2a: Sandslash|Stealth Rock|p1a: Woopy
+|-sidestart|p1: kindersurprise2.0|move: Stealth Rock
+|move|p1a: Woopy|Recover|p1a: Woopy
+|-heal|p1a: Woopy|100/100
+|
+|-damage|p2a: Sandslash|0 fnt|[from] brn
+|faint|p2a: Sandslash
+|upkeep
+|-message|flowre forfeited.
+|
+|win|kindersurprise2.0
+|raw|kindersurprise2.0's rating: 1506 &rarr; <strong>1529</strong><br />(+23 for winning)
+|raw|flowre's rating: 1567 &rarr; <strong>1544</strong><br />(-23 for losing)
+|l|☆flowre
+|c|☆kindersurprise2.0|gg

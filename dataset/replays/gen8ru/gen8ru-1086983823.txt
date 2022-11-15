@@ -1,0 +1,206 @@
+|j|☆Mac3☩
+|j|☆JLT3 oSuave
+|player|p1|Mac3☩|279|1250
+|player|p2|JLT3 oSuave|ethan-gen2c|1348
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Dubwool, F|
+|poke|p1|Aromatisse, F|
+|poke|p1|Charizard, F|
+|poke|p1|Steelix, M|
+|poke|p1|Vileplume, M|
+|poke|p1|Indeedee, M|
+|poke|p2|Sableye, F|
+|poke|p2|Mantine, M|
+|poke|p2|Snorlax, F|
+|poke|p2|Steelix, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Cramorant, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JLT3 oSuave)
+|
+|start
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|1
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|76/100
+|
+|-heal|p2a: Salazzle|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Indeedee|Hyper Voice|p2a: Salazzle
+|-damage|p2a: Salazzle|11/100
+|move|p2a: Salazzle|Toxic|p1a: Indeedee
+|-status|p1a: Indeedee|tox
+|
+|-heal|p2a: Salazzle|17/100|[from] item: Leftovers
+|-damage|p1a: Indeedee|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Indeedee|Hyper Voice|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-heal|p2a: Salazzle|23/100|[from] item: Leftovers
+|-damage|p1a: Indeedee|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Indeedee|Hyper Voice|p2a: Sableye
+|-immune|p2a: Sableye
+|
+|-damage|p1a: Indeedee|64/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Sableye|Knock Off|p1a: Charizard
+|-damage|p1a: Charizard|81/100
+|-enditem|p1a: Charizard|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Charizard|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|
+|-damage|p2a: Snorlax|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Dubwool|Dubwool, F|100/100
+|switch|p2a: Salazzle|Salazzle, F|23/100
+|
+|-heal|p2a: Salazzle|29/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Charizard|Charizard, F|81/100
+|move|p2a: Salazzle|Protect||[still]
+|-fail|p2a: Salazzle
+|
+|-heal|p2a: Salazzle|36/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Charizard|Flamethrower|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-heal|p2a: Salazzle|42/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Snorlax|Snorlax, F|94/100 tox
+|move|p1a: Charizard|Flamethrower|p2a: Snorlax
+|-damage|p2a: Snorlax|85/100 tox
+|
+|-heal|p2a: Snorlax|91/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|85/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Cramorant|Cramorant, F, shiny|100/100
+|move|p1a: Charizard|Flamethrower|p2a: Cramorant
+|-resisted|p2a: Cramorant
+|-damage|p2a: Cramorant|84/100
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Cramorant|Surf|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-formechange|p2a: Cramorant|Cramorant-Gulping|
+|-damage|p1a: Vileplume|89/100
+|
+|-heal|p1a: Vileplume|96/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p1a: Aromatisse|Aromatisse, F|100/100
+|move|p2a: Cramorant|Hurricane|p1a: Aromatisse
+|-damage|p1a: Aromatisse|71/100
+|
+|-heal|p1a: Aromatisse|77/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Steelix|Steelix, F|100/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|83/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Vileplume|Vileplume, M|96/100
+|move|p2a: Steelix|Toxic|p1a: Vileplume
+|-immune|p1a: Vileplume
+|
+|-heal|p1a: Vileplume|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|16
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Steelix
+|-immune|p2a: Steelix
+|move|p2a: Steelix|Stealth Rock|p1a: Vileplume
+|-sidestart|p1: Mac3☩|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Steelix
+|-immune|p2a: Steelix
+|move|p2a: Steelix|Heavy Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|60/100
+|
+|-heal|p1a: Vileplume|66/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|switch|p2a: Salazzle|Salazzle, F|42/100
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|1
+|-boost|p1a: Vileplume|spa|1
+|
+|-heal|p2a: Salazzle|48/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|72/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|-heal|p2a: Salazzle|54/100|[from] item: Leftovers
+|upkeep
+|-message|Mac3☩ forfeited.
+|
+|win|JLT3 oSuave
+|l|☆Mac3☩
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

@@ -1,0 +1,174 @@
+|j|☆Gijion
+|j|☆Adrift and Alone
+|player|p1|Gijion|103|1661
+|player|p2|Adrift and Alone|ethan-gen2|1630
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Barbaracle, F|
+|poke|p1|Froslass, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Polteageist|
+|poke|p1|Haxorus, M|
+|poke|p1|Rotom-Frost|
+|poke|p2|Gastrodon-East, M|
+|poke|p2|Pangoro, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Reuniclus, M|
+|poke|p2|Gigalith, M|
+|poke|p2|Braviary, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Thisbemyalt
+|j|+killin'time
+|j| wooden chair
+|c|☆Gijion|Hf
+|c|☆Adrift and Alone|you too
+|
+|start
+|switch|p1a: Barbaracle|Barbaracle, F|100/100
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|1
+|
+|move|p1a: Barbaracle|Stealth Rock|p2a: Reuniclus
+|-sidestart|p2: Adrift and Alone|move: Stealth Rock
+|move|p2a: Reuniclus|Psychic|p1a: Barbaracle
+|-damage|p1a: Barbaracle|39/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Barbaracle|Stone Edge|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|37/100
+|move|p2a: Reuniclus|Psychic|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|faint|p1a: Barbaracle
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adrift and Alone)
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|3
+|
+|switch|p2a: Braviary|Braviary, M, shiny|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|
+|upkeep
+|turn|4
+|c|☆Adrift and Alone|uh oh
+|
+|move|p1a: Haxorus|Outrage|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|upkeep
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|turn|5
+|c| wooden chair|spaghettios
+|
+|move|p1a: Haxorus|Outrage|p2a: Weezing|[from]lockedmove
+|-immune|p2a: Weezing
+|-start|p1a: Haxorus|confusion|[fatigue]
+|-enditem|p1a: Haxorus|Lum Berry|[eat]
+|-end|p1a: Haxorus|confusion
+|move|p2a: Weezing|Strange Steam|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|10/100
+|
+|-heal|p2a: Weezing|94/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Haxorus|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+|j| Grillintine
+|c|☆Adrift and Alone|fuck
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-damage|p2a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|7
+|
+|move|p1a: Haxorus|Earthquake|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Haxorus|4/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Haxorus|Outrage|p2a: Gastrodon
+|-damage|p2a: Gastrodon|8/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Haxorus|0 fnt|[from] Sandstorm
+|faint|p1a: Haxorus
+|-heal|p2a: Gastrodon|64/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|9
+|
+|switch|p2a: Smokin Dro|Pangoro, M|100/100
+|-damage|p2a: Smokin Dro|94/100|[from] Stealth Rock
+|move|p1a: Indeedee|Calm Mind|p1a: Indeedee
+|-boost|p1a: Indeedee|spa|1
+|-boost|p1a: Indeedee|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|94/100|[from] Sandstorm
+|-damage|p2a: Smokin Dro|88/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p2a: Reuniclus|Reuniclus, M|71/100
+|-damage|p2a: Reuniclus|58/100|[from] Stealth Rock
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Reuniclus
+|-damage|p2a: Reuniclus|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|88/100|[from] Sandstorm
+|-damage|p2a: Reuniclus|29/100|[from] Sandstorm
+|upkeep
+|turn|11
+|c|☆Adrift and Alone|this some bull shit
+|inactive|Adrift and Alone has 120 seconds left.
+|-message|Adrift and Alone forfeited.
+|
+|win|Gijion
+|l|☆Adrift and Alone
+|l| Grillintine
+|c|☆Gijion|Virginity taken
+|raw|Gijion's rating: 1661 &rarr; <strong>1679</strong><br />(+18 for winning)
+|raw|Adrift and Alone's rating: 1630 &rarr; <strong>1612</strong><br />(-18 for losing)
+|j| 467 11 11p

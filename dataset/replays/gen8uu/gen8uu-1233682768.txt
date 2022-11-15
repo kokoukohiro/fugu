@@ -1,0 +1,504 @@
+|j|☆Solobigbagalert
+|j|☆EliotEnRetar
+|t:|1606663472
+|player|p1|Solobigbagalert|unknown|1679
+|player|p2|EliotEnRetar|falkner|1420
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Tangrowth, F|
+|poke|p1|Lycanroc-Dusk, F|
+|poke|p1|Hippowdon, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Aegislash, M|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Bisharp, F|
+|poke|p2|Roserade, F|
+|poke|p2|Sylveon, F|
+|poke|p2|Talonflame, F|
+|poke|p2|Rotom-Wash|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1606663490
+|start
+|switch|p1a: Catch Em'Slippin|Slowking-Galar, M|100/100
+|switch|p2a: Bigflo|Keldeo-Resolute|100/100
+|turn|1
+|
+|t:|1606663496
+|move|p2a: Bigflo|Flip Turn|p1a: Catch Em'Slippin
+|-damage|p1a: Catch Em'Slippin|87/100
+|
+|t:|1606663504
+|switch|p2a: Jyrachi|Sylveon, F|100/100|[from]move: Flip Turn
+|move|p1a: Catch Em'Slippin|Flamethrower|p2a: Jyrachi
+|-damage|p2a: Jyrachi|84/100
+|
+|-heal|p2a: Jyrachi|90/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1606663511
+|move|p2a: Jyrachi|Yawn|p1a: Catch Em'Slippin
+|-start|p1a: Catch Em'Slippin|move: Yawn|[of] p2a: Jyrachi
+|move|p1a: Catch Em'Slippin|Future Sight|p2a: Jyrachi
+|-start|p1a: Catch Em'Slippin|move: Future Sight
+|
+|-heal|p2a: Jyrachi|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|j| Geek Impulse
+|
+|t:|1606663526
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Jyrachi|Hyper Voice|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|79/100
+|
+|-heal|p2a: Jyrachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1606663537
+|switch|p2a: BizouJeManvol|Talonflame, F|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: BizouJeManvol
+|-resisted|p2a: BizouJeManvol
+|-damage|p2a: BizouJeManvol|45/100
+|
+|-end|p2a: BizouJeManvol|move: Future Sight
+|-damage|p2a: BizouJeManvol|0 fnt
+|upkeep
+|faint|p2a: BizouJeManvol
+|j| polar_geass
+|
+|t:|1606663546
+|switch|p2a: UUBisharp|Bisharp, F|100/100
+|turn|5
+|
+|t:|1606663558
+|switch|p1a: GGGs|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: GGGs
+|move|p2a: UUBisharp|Knock Off|p1a: GGGs
+|-damage|p1a: GGGs|58/100
+|-enditem|p1a: GGGs|Leftovers|[from] move: Knock Off|[of] p2a: UUBisharp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1606663566
+|switch|p2a: CauetBurger|Rotom-Wash|100/100
+|move|p1a: GGGs|Slack Off|p1a: GGGs
+|-heal|p1a: GGGs|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: CauetBurger|94/100|[from] Sandstorm
+|-heal|p2a: CauetBurger|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1606663578
+|move|p2a: CauetBurger|Will-O-Wisp|p1a: GGGs
+|-status|p1a: GGGs|brn
+|move|p1a: GGGs|Stealth Rock|p2a: CauetBurger
+|-sidestart|p2: EliotEnRetar|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: CauetBurger|94/100|[from] Sandstorm
+|-heal|p2a: CauetBurger|100/100|[from] item: Leftovers
+|-damage|p1a: GGGs|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1606663587
+|switch|p1a: Catch Em'Slippin|Slowking-Galar, M|100/100
+|move|p2a: CauetBurger|Defog|p1a: Catch Em'Slippin
+|-unboost|p1a: Catch Em'Slippin|evasion|1
+|-sideend|p2: EliotEnRetar|Stealth Rock|[from] move: Defog|[of] p2a: CauetBurger
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: CauetBurger|94/100|[from] Sandstorm
+|-damage|p1a: Catch Em'Slippin|94/100|[from] Sandstorm
+|-heal|p2a: CauetBurger|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1606663595
+|move|p2a: CauetBurger|Volt Switch|p1a: Catch Em'Slippin
+|-damage|p1a: Catch Em'Slippin|80/100
+|
+|t:|1606663601
+|switch|p2a: Jyrachi|Sylveon, F|100/100|[from]move: Volt Switch
+|move|p1a: Catch Em'Slippin|Flamethrower|p2a: Jyrachi
+|-damage|p2a: Jyrachi|84/100
+|
+|-weather|none
+|-heal|p2a: Jyrachi|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1606663608
+|move|p2a: Jyrachi|Yawn|p1a: Catch Em'Slippin
+|-start|p1a: Catch Em'Slippin|move: Yawn|[of] p2a: Jyrachi
+|move|p1a: Catch Em'Slippin|Future Sight|p2a: Jyrachi
+|-start|p1a: Catch Em'Slippin|move: Future Sight
+|
+|-heal|p2a: Jyrachi|96/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1606663622
+|switch|p1a: Ima Slideeee|Tangrowth, F|100/100
+|move|p2a: Jyrachi|Yawn|p1a: Ima Slideeee
+|-start|p1a: Ima Slideeee|move: Yawn|[of] p2a: Jyrachi
+|
+|-heal|p2a: Jyrachi|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1606663628
+|switch|p2a: UUBisharp|Bisharp, F|100/100
+|switch|p1a: Aegislash|Aegislash, M|79/100
+|
+|-end|p2a: UUBisharp|move: Future Sight
+|-immune|p2a: UUBisharp
+|upkeep
+|turn|13
+|
+|t:|1606663638
+|switch|p1a: GGGs|Hippowdon, M|94/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: GGGs
+|move|p2a: UUBisharp|Iron Head|p1a: GGGs
+|-crit|p1a: GGGs
+|-damage|p1a: GGGs|55/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: GGGs|49/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1606663648
+|switch|p2a: Bigflo|Keldeo-Resolute|100/100
+|move|p1a: GGGs|Slack Off|p1a: GGGs
+|-heal|p1a: GGGs|99/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bigflo|94/100|[from] Sandstorm
+|-damage|p1a: GGGs|93/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1606663662
+|switch|p1a: Catch Em'Slippin|Slowking-Galar, M|100/100
+|move|p2a: Bigflo|Surf|p1a: Catch Em'Slippin
+|-damage|p1a: Catch Em'Slippin|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bigflo|88/100|[from] Sandstorm
+|-damage|p1a: Catch Em'Slippin|67/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1606663676
+|switch|p2a: Jyrachi|Sylveon, F|100/100
+|move|p1a: Catch Em'Slippin|Sludge Bomb|p2a: Jyrachi
+|-supereffective|p2a: Jyrachi
+|-damage|p2a: Jyrachi|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jyrachi|41/100|[from] Sandstorm
+|-damage|p1a: Catch Em'Slippin|61/100|[from] Sandstorm
+|-heal|p2a: Jyrachi|47/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1606663686
+|move|p2a: Jyrachi|Yawn|p1a: Catch Em'Slippin
+|-start|p1a: Catch Em'Slippin|move: Yawn|[of] p2a: Jyrachi
+|move|p1a: Catch Em'Slippin|Flamethrower|p2a: Jyrachi
+|-damage|p2a: Jyrachi|29/100
+|
+|-weather|none
+|-heal|p2a: Jyrachi|35/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1606663695
+|switch|p1a: Aegislash|Aegislash, M|79/100
+|move|p2a: Jyrachi|Wish|p2a: Jyrachi
+|
+|-heal|p2a: Jyrachi|41/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1606663702
+|switch|p2a: Bigflo|Keldeo-Resolute|88/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Bigflo
+|-damage|p2a: Bigflo|46/100
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|
+|-heal|p2a: Bigflo|100/100|[from] move: Wish|[wisher] Jyrachi
+|upkeep
+|turn|20
+|j| Oftehandro
+|
+|t:|1606663723
+|switch|p2a: UUBisharp|Bisharp, F|100/100
+|switch|p1a: Ima Slideeee|Tangrowth, F|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1606663734
+|switch|p2a: Kyryuem|Roserade, F|100/100
+|move|p1a: Ima Slideeee|Giga Drain|p2a: Kyryuem
+|-resisted|p2a: Kyryuem
+|-damage|p2a: Kyryuem|91/100
+|
+|upkeep
+|turn|22
+|
+|t:|1606663747
+|switch|p1a: solo2saucy|Hydreigon, F|100/100
+|move|p2a: Kyryuem|Shadow Ball|p1a: solo2saucy
+|-resisted|p1a: solo2saucy
+|-damage|p1a: solo2saucy|79/100
+|
+|upkeep
+|turn|23
+|
+|t:|1606663754
+|switch|p2a: Jyrachi|Sylveon, F|41/100
+|move|p1a: solo2saucy|U-turn|p2a: Jyrachi
+|-resisted|p2a: Jyrachi
+|-damage|p2a: Jyrachi|32/100
+|
+|t:|1606663764
+|switch|p1a: Aegislash|Aegislash, M|79/100|[from]move: U-turn
+|
+|-heal|p2a: Jyrachi|38/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|j| nikboss123
+|
+|t:|1606663771
+|switch|p2a: CauetBurger|Rotom-Wash|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: CauetBurger
+|-damage|p2a: CauetBurger|29/100
+|
+|-heal|p2a: CauetBurger|35/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|l| nikboss123
+|
+|t:|1606663787
+|switch|p1a: solo2saucy|Hydreigon, F|79/100
+|switch|p2a: UUBisharp|Bisharp, F|100/100
+|
+|upkeep
+|turn|26
+|
+|t:|1606663793
+|switch|p2a: Jyrachi|Sylveon, F|38/100
+|move|p1a: solo2saucy|U-turn|p2a: Jyrachi
+|-resisted|p2a: Jyrachi
+|-crit|p2a: Jyrachi
+|-damage|p2a: Jyrachi|25/100
+|c|☆EliotEnRetar|wp
+|
+|t:|1606663799
+|switch|p1a: Aegislash|Aegislash, M|79/100|[from]move: U-turn
+|
+|-heal|p2a: Jyrachi|31/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|☆Solobigbagalert|ty
+|
+|t:|1606663839
+|switch|p2a: Kyryuem|Roserade, F|91/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Kyryuem
+|-damage|p2a: Kyryuem|6/100
+|-unboost|p2a: Kyryuem|spd|1
+|
+|upkeep
+|turn|28
+|
+|t:|1606663855
+|switch|p1a: GGGs|Hippowdon, M|93/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: GGGs
+|move|p2a: Kyryuem|Sludge Bomb|p1a: GGGs
+|-resisted|p1a: GGGs
+|-damage|p1a: GGGs|67/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyryuem|0 fnt|[from] Sandstorm
+|faint|p2a: Kyryuem
+|-damage|p1a: GGGs|61/100 brn|[from] brn
+|upkeep
+|j| nikboss123
+|l| nikboss123
+|c|☆EliotEnRetar|;(
+|
+|t:|1606663877
+|switch|p2a: CauetBurger|Rotom-Wash|35/100
+|turn|29
+|
+|t:|1606663884
+|switch|p1a: Catch Em'Slippin|Slowking-Galar, M|95/100
+|move|p2a: CauetBurger|Hydro Pump|p1a: Catch Em'Slippin
+|-damage|p1a: Catch Em'Slippin|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: CauetBurger|29/100|[from] Sandstorm
+|-damage|p1a: Catch Em'Slippin|66/100|[from] Sandstorm
+|-heal|p2a: CauetBurger|35/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1606663901
+|move|p2a: CauetBurger|Volt Switch|p1a: Catch Em'Slippin
+|-damage|p1a: Catch Em'Slippin|52/100
+|
+|t:|1606663905
+|switch|p2a: Bigflo|Keldeo-Resolute|100/100|[from]move: Volt Switch
+|move|p1a: Catch Em'Slippin|Sludge Bomb|p2a: Bigflo
+|-damage|p2a: Bigflo|53/100
+|-status|p2a: Bigflo|psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bigflo|47/100 psn|[from] Sandstorm
+|-damage|p1a: Catch Em'Slippin|46/100|[from] Sandstorm
+|-damage|p2a: Bigflo|35/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1606663919
+|switch|p1a: solo2saucy|Hydreigon, F|79/100
+|move|p2a: Bigflo|Flip Turn|p1a: solo2saucy
+|-resisted|p1a: solo2saucy
+|-crit|p1a: solo2saucy
+|-damage|p1a: solo2saucy|67/100
+|
+|t:|1606663925
+|switch|p2a: Jyrachi|Sylveon, F|31/100|[from]move: Flip Turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: solo2saucy|61/100|[from] Sandstorm
+|-damage|p2a: Jyrachi|25/100|[from] Sandstorm
+|-heal|p2a: Jyrachi|31/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1606663935
+|move|p1a: solo2saucy|U-turn|p2a: Jyrachi
+|-resisted|p2a: Jyrachi
+|-damage|p2a: Jyrachi|22/100
+|
+|t:|1606663945
+|switch|p1a: Man Down Man Down|Lycanroc-Dusk, F|100/100|[from]move: U-turn
+|move|p2a: Jyrachi|Yawn|p1a: Man Down Man Down
+|-start|p1a: Man Down Man Down|move: Yawn|[of] p2a: Jyrachi
+|
+|-weather|none
+|-heal|p2a: Jyrachi|28/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1606663956
+|switch|p1a: Aegislash|Aegislash, M|79/100
+|move|p2a: Jyrachi|Wish|p2a: Jyrachi
+|
+|-heal|p2a: Jyrachi|34/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1606663975
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Jyrachi
+|-supereffective|p2a: Jyrachi
+|-damage|p2a: Jyrachi|0 fnt
+|faint|p2a: Jyrachi
+|
+|upkeep
+|
+|t:|1606663985
+|switch|p2a: UUBisharp|Bisharp, F|100/100
+|turn|35
+|
+|t:|1606663994
+|move|p2a: UUBisharp|Swords Dance|p2a: UUBisharp
+|-boost|p2a: UUBisharp|atk|2
+|move|p1a: Aegislash|Flash Cannon|p2a: UUBisharp
+|-resisted|p2a: UUBisharp
+|-damage|p2a: UUBisharp|38/100
+|
+|upkeep
+|turn|36
+|c|☆EliotEnRetar|man
+|c|☆EliotEnRetar|maybe
+|c|☆Solobigbagalert|rest here
+|c|☆EliotEnRetar|if u got the spe def drop i could have done some shit
+|
+|t:|1606664021
+|switch|p1a: Ima Slideeee|Tangrowth, F|100/100
+|move|p2a: UUBisharp|Sucker Punch||[still]
+|-fail|p2a: UUBisharp
+|
+|upkeep
+|turn|37
+|
+|t:|1606664026
+|move|p2a: UUBisharp|Iron Head|p1a: Ima Slideeee
+|-damage|p1a: Ima Slideeee|56/100
+|-damage|p2a: UUBisharp|21/100|[from] item: Rocky Helmet|[of] p1a: Ima Slideeee
+|move|p1a: Ima Slideeee|Giga Drain|p2a: UUBisharp
+|-resisted|p2a: UUBisharp
+|-damage|p2a: UUBisharp|0 fnt
+|-heal|p1a: Ima Slideeee|63/100|[from] drain|[of] p2a: UUBisharp
+|faint|p2a: UUBisharp
+|
+|upkeep
+|
+|t:|1606664034
+|switch|p2a: Bigflo|Keldeo-Resolute|35/100 psn
+|turn|38
+|
+|t:|1606664039
+|move|p2a: Bigflo|Flip Turn|p1a: Ima Slideeee
+|-resisted|p1a: Ima Slideeee
+|-damage|p1a: Ima Slideeee|59/100
+|-damage|p2a: Bigflo|18/100 psn|[from] item: Rocky Helmet|[of] p1a: Ima Slideeee
+|
+|t:|1606664043
+|switch|p2a: CauetBurger|Rotom-Wash|35/100|[from]move: Flip Turn
+|move|p1a: Ima Slideeee|Giga Drain|p2a: CauetBurger
+|-supereffective|p2a: CauetBurger
+|-crit|p2a: CauetBurger
+|-damage|p2a: CauetBurger|0 fnt
+|-heal|p1a: Ima Slideeee|72/100|[from] drain|[of] p2a: CauetBurger
+|faint|p2a: CauetBurger
+|
+|upkeep
+|-message|EliotEnRetar forfeited.
+|
+|win|Solobigbagalert
+|l|☆EliotEnRetar
+|raw|Solobigbagalert's rating: 1679 &rarr; <strong>1687</strong><br />(+8 for winning)
+|raw|EliotEnRetar's rating: 1436 &rarr; <strong>1428</strong><br />(-8 for losing)

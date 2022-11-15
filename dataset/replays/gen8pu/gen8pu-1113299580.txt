@@ -1,0 +1,221 @@
+|j|☆lechugasismica
+|j|☆M su harn igas n
+|player|p1|lechugasismica|266|1318
+|player|p2|M su harn igas n|ilima|1239
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Grapploct, M|
+|poke|p1|Crustle, F|
+|poke|p1|Dubwool, F|
+|poke|p1|Manectric, M|
+|poke|p1|Trevenant, F|
+|poke|p1|Falinks|
+|poke|p2|Silvally-*|
+|poke|p2|Whiscash, M|
+|poke|p2|Pawniard, M|
+|poke|p2|Shedinja|
+|poke|p2|Lunatone|
+|poke|p2|Roselia, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lechugasismica)
+|
+|start
+|switch|p1a: Crustle|Crustle, F|100/100
+|switch|p2a: Whiscash|Whiscash, M|100/100
+|turn|1
+|
+|move|p2a: Whiscash|Waterfall|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-damage|p1a: Crustle|74/100
+|-ability|p1a: Crustle|Weak Armor|boost
+|-unboost|p1a: Crustle|def|1
+|-boost|p1a: Crustle|spe|2
+|move|p1a: Crustle|Stealth Rock|p2a: Whiscash
+|-sidestart|p2: M su harn igas n|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Crustle|Toxic|p2a: Whiscash
+|-status|p2a: Whiscash|tox
+|move|p2a: Whiscash|Waterfall|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-damage|p1a: Crustle|33/100
+|-ability|p1a: Crustle|Weak Armor|boost
+|-unboost|p1a: Crustle|def|1
+|-boost|p1a: Crustle|spe|2
+|
+|-damage|p2a: Whiscash|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Crustle|Spikes|p2a: Whiscash
+|-sidestart|p2: M su harn igas n|Spikes
+|move|p2a: Whiscash|Waterfall|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|faint|p1a: Crustle
+|
+|-heal|p2a: Whiscash|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Whiscash|88/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Grapploct|Grapploct, M|100/100
+|turn|4
+|
+|switch|p2a: Lunatone|Lunatone|100/100
+|-damage|p2a: Lunatone|88/100|[from] Stealth Rock
+|move|p1a: Grapploct|Bulk Up|p1a: Grapploct
+|-boost|p1a: Grapploct|atk|1
+|-boost|p1a: Grapploct|def|1
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Lunatone|Psychic|p1a: Grapploct
+|-supereffective|p1a: Grapploct
+|-damage|p1a: Grapploct|9/100
+|-unboost|p1a: Grapploct|spd|1
+|move|p1a: Grapploct|Circle Throw|p2a: Lunatone|[miss]
+|-miss|p1a: Grapploct|p2a: Lunatone
+|
+|-heal|p1a: Grapploct|15/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆lechugasismica|wweell
+|
+|switch|p1a: Trevenant|Trevenant, F|100/100
+|move|p2a: Lunatone|Psychic|p1a: Trevenant
+|-damage|p1a: Trevenant|59/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Lunatone|Psychic|p1a: Trevenant
+|-damage|p1a: Trevenant|19/100
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|44/100|[from] item: Sitrus Berry
+|move|p1a: Trevenant|Leech Seed|p2a: Lunatone
+|-start|p2a: Lunatone|move: Leech Seed
+|
+|-damage|p2a: Lunatone|76/100|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|55/100|[silent]
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|8
+|
+|switch|p2a: Roselia|Roselia, M|100/100
+|-damage|p2a: Roselia|88/100|[from] Stealth Rock
+|-damage|p2a: Roselia|76/100|[from] Spikes
+|move|p1a: Trevenant|Substitute|p1a: Trevenant
+|-start|p1a: Trevenant|Substitute
+|-damage|p1a: Trevenant|30/100
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|55/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Roselia|Sludge Bomb|p1a: Trevenant
+|-end|p1a: Trevenant|Substitute
+|move|p1a: Trevenant|Curse|p2a: Roselia
+|-start|p2a: Roselia|Curse|[of] p1a: Trevenant
+|-damage|p1a: Trevenant|5/100
+|
+|-damage|p2a: Roselia|51/100|[from] Curse
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|30/100|[from] item: Sitrus Berry
+|turn|10
+|
+|move|p1a: Trevenant|Protect|p1a: Trevenant
+|-singleturn|p1a: Trevenant|Protect
+|move|p2a: Roselia|Sludge Bomb|p1a: Trevenant
+|-activate|p1a: Trevenant|move: Protect
+|
+|-damage|p2a: Roselia|26/100|[from] Curse
+|upkeep
+|turn|11
+|
+|move|p2a: Roselia|Sludge Bomb|p1a: Trevenant
+|-damage|p1a: Trevenant|2/100
+|move|p1a: Trevenant|Substitute|p1a: Trevenant
+|-fail|p1a: Trevenant|move: Substitute|[weak]
+|
+|-damage|p2a: Roselia|1/100|[from] Curse
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|27/100|[from] item: Sitrus Berry
+|turn|12
+|
+|switch|p2a: Lunatone|Lunatone|76/100
+|-damage|p2a: Lunatone|63/100|[from] Stealth Rock
+|move|p1a: Trevenant|Protect||[still]
+|-fail|p1a: Trevenant
+|
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|52/100|[from] item: Sitrus Berry
+|turn|13
+|
+|switch|p2a: Silvally|Silvally-Psychic|100/100
+|-damage|p2a: Silvally|88/100|[from] Stealth Rock
+|-damage|p2a: Silvally|76/100|[from] Spikes
+|move|p1a: Trevenant|Leech Seed|p2a: Silvally
+|-start|p2a: Silvally|move: Leech Seed
+|
+|-damage|p2a: Silvally|63/100|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|64/100|[silent]
+|upkeep
+|turn|14
+|
+|switch|p1a: Falinks|Falinks|100/100
+|move|p2a: Silvally|Defog|p1a: Falinks
+|-unboost|p1a: Falinks|evasion|1
+|-ability|p1a: Falinks|Defiant
+|-boost|p1a: Falinks|atk|2
+|-sideend|p2: M su harn igas n|Spikes|[from] move: Defog|[of] p2a: Silvally
+|-sideend|p2: M su harn igas n|Stealth Rock|[from] move: Defog|[of] p2a: Silvally
+|
+|-damage|p2a: Silvally|51/100|[from] Leech Seed|[of] p1a: Falinks
+|upkeep
+|turn|15
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Falinks
+|-supereffective|p1a: Falinks
+|-damage|p1a: Falinks|0 fnt
+|faint|p1a: Falinks
+|
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|turn|16
+|
+|switch|p2a: Whiscash|Whiscash, M|88/100 tox
+|move|p1a: Manectric|Thunderbolt|p2a: Whiscash
+|-immune|p2a: Whiscash
+|
+|-heal|p2a: Whiscash|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Whiscash|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|-message|lechugasismica forfeited.
+|
+|win|M su harn igas n
+|l|☆lechugasismica
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

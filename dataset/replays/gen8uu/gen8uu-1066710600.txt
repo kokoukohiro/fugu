@@ -1,0 +1,278 @@
+|j|☆gijion chilli
+|j|☆soulsahh
+|player|p1|gijion chilli|twins-gen4dp|1506
+|player|p2|soulsahh|cynthia-gen4|1274
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Machamp, M|
+|poke|p1|Weavile, M|
+|poke|p1|Duraludon, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Doublade, M|
+|poke|p1|Gardevoir, F|
+|poke|p2|Barbaracle, M|
+|poke|p2|Inteleon, F|
+|poke|p2|Haxorus, M|
+|poke|p2|Qwilfish, M|
+|poke|p2|Milotic, F|
+|poke|p2|Hippowdon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: Qwilfish|Qwilfish, M|100/100
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Duraludon|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by soulsahh)
+|
+|move|p2a: Qwilfish|Scald|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|83/100
+|move|p1a: Duraludon|Thunderbolt|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|1/100
+|-status|p2a: Qwilfish|par
+|
+|-heal|p2a: Qwilfish|7/100 par|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p1a: Duraludon|Stealth Rock|p2a: Qwilfish
+|-sidestart|p2: soulsahh|move: Stealth Rock
+|cant|p2a: Qwilfish|par
+|
+|-heal|p2a: Qwilfish|13/100 par|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Duraludon|Flash Cannon|p2a: Hippowdon
+|-damage|p2a: Hippowdon|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|56/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Machamp
+|-sidestart|p1: gijion chilli|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Machamp|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|62/100|[from] item: Leftovers
+|-status|p1a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|switch|p2a: Qwilfish|Qwilfish, M|13/100 par
+|-damage|p2a: Qwilfish|1/100 par|[from] Stealth Rock
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Machamp|atk|1
+|move|p1a: Machamp|Close Combat|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|-unboost|p1a: Machamp|def|1
+|-unboost|p1a: Machamp|spd|1
+|faint|p2a: Qwilfish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Machamp|88/100 brn|[from] Sandstorm
+|-damage|p1a: Machamp|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, F|100/100
+|-damage|p2a: Inteleon|88/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p1a: Duraludon|Duraludon, M|83/100
+|-damage|p1a: Duraludon|77/100|[from] Stealth Rock
+|move|p2a: Inteleon|Reflect|p2a: Inteleon
+|-sidestart|p2: soulsahh|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Inteleon|82/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p2a: Inteleon|U-turn|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|71/100
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100|[from]move: U-turn
+|-damage|p2a: Haxorus|88/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|move|p1a: Duraludon|Thunder Wave|p2a: Haxorus
+|-status|p2a: Haxorus|par
+|-enditem|p2a: Haxorus|Lum Berry|[eat]
+|-curestatus|p2a: Haxorus|par|[msg]
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|move|p2a: Haxorus|Earthquake|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|upkeep
+|
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Mold Breaker|[from] ability: Trace|[of] p2a: Haxorus
+|-ability|p1a: Gardevoir|Mold Breaker
+|turn|9
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|-damage|p2a: Milotic|88/100|[from] Stealth Rock
+|move|p1a: Gardevoir|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|61/100
+|
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|switch|p2a: Inteleon|Inteleon, F|82/100
+|-damage|p2a: Inteleon|70/100|[from] Stealth Rock
+|move|p1a: Gardevoir|Moonblast|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, F|62/100
+|-damage|p2a: Hippowdon|56/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|11
+|
+|move|p1a: Gardevoir|Moonblast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|3/100
+|move|p2a: Hippowdon|Earthquake|p1a: Gardevoir
+|-damage|p1a: Gardevoir|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gardevoir|13/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|10/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Gardevoir|Moonblast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gardevoir|7/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Barbaracle|Barbaracle, M|100/100
+|-damage|p2a: Barbaracle|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Gardevoir|Moonblast|p2a: Barbaracle
+|-damage|p2a: Barbaracle|44/100
+|-unboost|p2a: Barbaracle|spa|1
+|-enditem|p2a: Barbaracle|White Herb
+|-clearnegativeboost|p2a: Barbaracle|[silent]
+|move|p2a: Barbaracle|Shell Smash|p2a: Barbaracle
+|-unboost|p2a: Barbaracle|def|1
+|-unboost|p2a: Barbaracle|spd|1
+|-boost|p2a: Barbaracle|atk|2
+|-boost|p2a: Barbaracle|spa|2
+|-boost|p2a: Barbaracle|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gardevoir|0 fnt|[from] Sandstorm
+|faint|p1a: Gardevoir
+|-sideend|p2: soulsahh|Reflect
+|upkeep
+|inactive|gijion chilli has 120 seconds left.
+|
+|switch|p1a: Doublade|Doublade, M|100/100
+|-damage|p1a: Doublade|94/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Doublade|Shadow Sneak|p2a: Barbaracle
+|-damage|p2a: Barbaracle|9/100
+|move|p2a: Barbaracle|Night Slash|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Doublade|Shadow Sneak|p2a: Barbaracle
+|-damage|p2a: Barbaracle|0 fnt
+|faint|p2a: Barbaracle
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, M|88/100
+|-damage|p2a: Haxorus|76/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|16
+|
+|move|p2a: Haxorus|Earthquake|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|faint|p1a: Doublade
+|
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|17
+|
+|move|p1a: Weavile|Knock Off|p2a: Haxorus
+|-damage|p2a: Haxorus|25/100
+|-damage|p1a: Weavile|66/100|[from] item: Life Orb
+|move|p2a: Haxorus|Earthquake|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|switch|p1a: Machamp|Machamp, M|82/100 brn
+|-damage|p1a: Machamp|76/100 brn|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Machamp|Bullet Punch|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-damage|p1a: Machamp|69/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Milotic|Milotic, F|61/100 brn
+|-damage|p2a: Milotic|49/100 brn|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Machamp|Close Combat|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|-unboost|p1a: Machamp|def|1
+|-unboost|p1a: Machamp|spd|1
+|faint|p2a: Milotic
+|
+|win|gijion chilli
+|l|☆soulsahh
+|c|☆gijion chilli|Gg
+|raw|gijion chilli's rating: 1506 &rarr; <strong>1515</strong><br />(+9 for winning)
+|raw|soulsahh's rating: 1289 &rarr; <strong>1277</strong><br />(-12 for losing)

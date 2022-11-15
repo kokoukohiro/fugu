@@ -1,0 +1,355 @@
+|j|☆luks214
+|j|☆vive macron
+|t:|1612812978
+|player|p1|luks214|sabrina|1285
+|player|p2|vive macron|lucian|1424
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Sandslash-Alola, M|
+|poke|p1|Arctozolt|
+|poke|p1|Mamoswine, M|
+|poke|p1|Kommo-o, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Scizor, M|
+|poke|p2|Slowking, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Ditto|
+|poke|p2|Nihilego|
+|poke|p2|Rotom-Heat|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1612812996
+|start
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|
+|t:|1612813004
+|switch|p2a: Boshe|Rotom-Heat|100/100
+|move|p1a: Kommo-o|Fire Punch|p2a: Boshe
+|-resisted|p2a: Boshe
+|-damage|p2a: Boshe|91/100
+|
+|upkeep
+|turn|2
+|
+|t:|1612813012
+|move|p2a: Boshe|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-damage|p1a: Kommo-o|82/100
+|
+|t:|1612813017
+|switch|p2a: Slowking|Slowking, F|100/100|[from]move: Volt Switch
+|move|p1a: Kommo-o|Toxic|p2a: Slowking
+|-status|p2a: Slowking|tox
+|
+|-heal|p1a: Kommo-o|88/100|[from] item: Leftovers
+|-damage|p2a: Slowking|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1612813026
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Slowking|Future Sight|p1a: Rotom
+|-start|p2a: Slowking|move: Future Sight
+|
+|-damage|p2a: Slowking|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1612813034
+|move|p1a: Rotom|Volt Switch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|45/100 tox
+|
+|t:|1612813039
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny|100/100|[from]move: Volt Switch
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1612813046
+|switch|p2a: Scizor|Scizor, M|100/100|[from]move: Teleport
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Scizor|94/100|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1612813052
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Scizor|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|64/100
+|-enditem|p1a: Rotom|Wiki Berry|[from] move: Knock Off|[of] p2a: Scizor
+|-damage|p2a: Scizor|84/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|57/100|[from] Hail
+|-damage|p2a: Scizor|78/100|[from] Hail
+|-end|p1a: Rotom|move: Future Sight
+|-damage|p1a: Rotom|14/100
+|upkeep
+|turn|6
+|
+|t:|1612813064
+|move|p1a: Rotom|Will-O-Wisp|p2a: Scizor
+|-status|p2a: Scizor|brn
+|move|p2a: Scizor|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Scizor|68/100 brn|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|t:|1612813088
+|switch|p2a: Nihilego|Nihilego|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Nihilego|94/100|[from] Hail
+|upkeep
+|
+|t:|1612813094
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny|100/100
+|turn|7
+|
+|t:|1612813098
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: luks214|move: Aurora Veil
+|move|p2a: Nihilego|Meteor Beam||[still]
+|-prepare|p2a: Nihilego|Meteor Beam
+|-boost|p2a: Nihilego|spa|1
+|-enditem|p2a: Nihilego|Power Herb
+|-anim|p2a: Nihilego|Meteor Beam|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|3/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Nihilego|88/100|[from] Hail
+|upkeep
+|turn|8
+|
+|t:|1612813110
+|move|p1a: Ninetales|Encore|p2a: Nihilego
+|-start|p2a: Nihilego|Encore
+|move|p2a: Nihilego|Meteor Beam||[still]
+|-prepare|p2a: Nihilego|Meteor Beam
+|-boost|p2a: Nihilego|spa|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Nihilego|82/100|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1612813117
+|move|p1a: Ninetales|Moonblast|p2a: Nihilego
+|-resisted|p2a: Nihilego
+|-damage|p2a: Nihilego|70/100
+|move|p2a: Nihilego|Meteor Beam|p1a: Ninetales|[from]lockedmove
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Nihilego|64/100|[from] Hail
+|upkeep
+|
+|t:|1612813123
+|switch|p1a: Sandslash|Sandslash-Alola, M|100/100
+|turn|10
+|
+|t:|1612813131
+|switch|p2a: Boshe|Rotom-Heat|91/100
+|move|p1a: Sandslash|Swords Dance|p1a: Sandslash
+|-boost|p1a: Sandslash|atk|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Boshe|85/100|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1612813140
+|move|p1a: Sandslash|Icicle Crash|p2a: Boshe
+|-resisted|p2a: Boshe
+|-damage|p2a: Boshe|31/100
+|-damage|p1a: Sandslash|91/100|[from] item: Life Orb
+|move|p2a: Boshe|Overheat|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|-unboost|p2a: Boshe|spa|2
+|faint|p1a: Sandslash
+|
+|-weather|none
+|-sideend|p1: luks214|move: Aurora Veil
+|upkeep
+|
+|t:|1612813149
+|switch|p1a: Kommo-o|Kommo-o, M|88/100
+|turn|12
+|
+|t:|1612813153
+|move|p2a: Boshe|Pain Split|p1a: Kommo-o
+|-sethp|p1a: Kommo-o|57/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Boshe|67/100|[from] move: Pain Split
+|move|p1a: Kommo-o|Body Press|p2a: Boshe
+|-damage|p2a: Boshe|19/100
+|
+|-heal|p1a: Kommo-o|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1612813164
+|move|p2a: Boshe|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|58/100
+|
+|t:|1612813168
+|switch|p2a: Slowking|Slowking, F|78/100 tox|[from]move: Volt Switch
+|move|p1a: Kommo-o|Toxic|p2a: Slowking
+|-fail|p2a: Slowking|tox
+|
+|-heal|p1a: Kommo-o|64/100|[from] item: Leftovers
+|-damage|p2a: Slowking|72/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1612813176
+|switch|p1a: Arctozolt|Arctozolt|100/100
+|move|p2a: Slowking|Future Sight|p1a: Arctozolt
+|-start|p2a: Slowking|move: Future Sight
+|
+|-damage|p2a: Slowking|60/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1612813187
+|switch|p2a: Boshe|Rotom-Heat|19/100
+|move|p1a: Arctozolt|Bolt Beak|p2a: Boshe
+|-resisted|p2a: Boshe
+|-damage|p2a: Boshe|0 fnt
+|-damage|p1a: Arctozolt|91/100|[from] item: Life Orb
+|faint|p2a: Boshe
+|
+|upkeep
+|
+|t:|1612813195
+|switch|p2a: Nihilego|Nihilego|64/100
+|turn|16
+|
+|t:|1612813200
+|move|p2a: Nihilego|Power Gem|p1a: Arctozolt
+|-supereffective|p1a: Arctozolt
+|-damage|p1a: Arctozolt|0 fnt
+|faint|p1a: Arctozolt
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spe|1
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1612813203
+|switch|p1a: Kommo-o|Kommo-o, M|64/100
+|turn|17
+|
+|t:|1612813215
+|switch|p2a: Slowking|Slowking, F|93/100 tox
+|move|p1a: Kommo-o|Body Press|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|78/100 tox
+|-damage|p1a: Kommo-o|47/100|[from] item: Rocky Helmet|[of] p2a: Slowking
+|
+|-heal|p1a: Kommo-o|53/100|[from] item: Leftovers
+|-damage|p2a: Slowking|71/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1612813226
+|move|p1a: Kommo-o|Stealth Rock|p2a: Slowking
+|-sidestart|p2: vive macron|move: Stealth Rock
+|move|p2a: Slowking|Future Sight|p1a: Kommo-o
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Kommo-o|60/100|[from] item: Leftovers
+|-damage|p2a: Slowking|59/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1612813240
+|move|p1a: Kommo-o|Body Press|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|45/100 tox
+|-damage|p1a: Kommo-o|43/100|[from] item: Rocky Helmet|[of] p2a: Slowking
+|move|p2a: Slowking|Psyshock|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|5/100
+|
+|-heal|p1a: Kommo-o|11/100|[from] item: Leftovers
+|-damage|p2a: Slowking|26/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1612813251
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Body Press|p2a: Kommo-o
+|-damage|p2a: Kommo-o|67/100
+|
+|-end|p1a: Kommo-o|move: Future Sight
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-heal|p2a: Kommo-o|73/100|[from] item: Leftovers
+|faint|p1a: Kommo-o
+|upkeep
+|
+|t:|1612813253
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|turn|21
+|
+|t:|1612813265
+|move|p1a: Mamoswine|Earthquake|p2a: Kommo-o
+|-crit|p2a: Kommo-o
+|-damage|p2a: Kommo-o|20/100
+|move|p2a: Kommo-o|Body Press|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|1/100
+|
+|-heal|p2a: Kommo-o|27/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1612813275
+|move|p1a: Mamoswine|Earthquake|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|t:|1612813280
+|switch|p2a: Scizor|Scizor, M|68/100 brn
+|-damage|p2a: Scizor|56/100 brn|[from] Stealth Rock
+|turn|23
+|
+|t:|1612813284
+|move|p2a: Scizor|Bullet Punch|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-damage|p2a: Scizor|46/100 brn|[from] item: Life Orb
+|faint|p1a: Mamoswine
+|
+|win|vive macron
+|c|☆luks214|gg
+|c|☆vive macron|gg
+|l|☆luks214
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

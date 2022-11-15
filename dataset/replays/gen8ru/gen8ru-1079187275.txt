@@ -1,0 +1,583 @@
+|j|☆sweepinunhun
+|j|☆ruznoob
+|player|p1|sweepinunhun|psychic-gen4|1395
+|player|p2|ruznoob|morty-gen2|1433
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Bewear, F|
+|poke|p1|Xatu, F|
+|poke|p1|Silvally-*|
+|poke|p1|Whimsicott, F|
+|poke|p1|Jellicent, M|
+|poke|p1|Indeedee, M|
+|poke|p2|Drampa, M|
+|poke|p2|Scrafty, M|
+|poke|p2|Vileplume, F|
+|poke|p2|Steelix, M|
+|poke|p2|Mantine, M|
+|poke|p2|Indeedee, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sweepinunhun)
+|
+|start
+|switch|p1a: Jellicent|Jellicent, M, shiny|100/100
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|turn|1
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|switch|p2a: Steelix|Steelix, M|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|move|p1a: Xatu|Heat Wave|p2a: Scrafty
+|-damage|p2a: Scrafty|87/100
+|
+|-heal|p2a: Scrafty|93/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Xatu|U-turn|p2a: Scrafty
+|-damage|p2a: Scrafty|82/100
+|
+|switch|p1a: Silvally|Silvally-Steel|100/100|[from]move: U-turn
+|move|p2a: Scrafty|Knock Off|p1a: Silvally
+|-damage|p1a: Silvally|76/100
+|
+|-heal|p2a: Scrafty|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Silvally|U-turn|p2a: Scrafty
+|-damage|p2a: Scrafty|72/100
+|
+|switch|p1a: Whimsicott|Whimsicott, F, shiny|100/100|[from]move: U-turn
+|move|p2a: Scrafty|Knock Off|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|76/100
+|-enditem|p1a: Whimsicott|Choice Specs|[from] move: Knock Off|[of] p2a: Scrafty
+|
+|-heal|p2a: Scrafty|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Whimsicott|Switcheroo|p2a: Vileplume
+|-activate|p1a: Whimsicott|move: Trick|[of] p2a: Vileplume
+|-enditem|p2a: Vileplume|Black Sludge|[silent]|[from] move: Switcheroo
+|-item|p1a: Whimsicott|Black Sludge|[from] move: Switcheroo
+|
+|-damage|p1a: Whimsicott|64/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Whimsicott|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|59/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|7
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: Indeedee|Mystical Fire|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|93/100
+|-unboost|p2a: Mantine|spa|1
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|100/100
+|switch|p2a: Drampa|Drampa, M|100/100
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Jellicent|Recover||[still]
+|-fail|p1a: Jellicent|heal
+|move|p2a: Drampa|Draco Meteor|p1a: Jellicent
+|-damage|p1a: Jellicent|6/100
+|-unboost|p2a: Drampa|spa|2
+|
+|-heal|p1a: Jellicent|12/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Scrafty|Scrafty, M|78/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|62/100
+|
+|-heal|p1a: Jellicent|68/100|[from] item: Leftovers
+|-heal|p2a: Scrafty|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|j| Oathkeepre
+|
+|switch|p1a: Bewear|Bewear, F|100/100
+|move|p2a: Scrafty|Knock Off|p1a: Bewear
+|-resisted|p1a: Bewear
+|-damage|p1a: Bewear|92/100
+|-enditem|p1a: Bewear|Choice Band|[from] move: Knock Off|[of] p2a: Scrafty
+|
+|-heal|p2a: Scrafty|90/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|12
+|
+|switch|p2a: Mantine|Mantine, M|93/100
+|move|p1a: Bewear|Double-Edge|p2a: Mantine
+|-damage|p2a: Mantine|43/100
+|-damage|p1a: Bewear|76/100|[from] Recoil
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Bewear|Double-Edge|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|-damage|p1a: Bewear|62/100|[from] Recoil
+|faint|p2a: Mantine
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|14
+|inactive|sweepinunhun has 120 seconds left.
+|
+|switch|p1a: Silvally|Silvally-Steel|76/100
+|move|p2a: Indeedee|Psychic|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|47/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Indeedee|Psychic|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|20/100
+|move|p1a: Silvally|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|10/100
+|inactive|sweepinunhun has 120 seconds left.
+|
+|switch|p1a: Xatu|Xatu, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Scrafty|Scrafty, M|90/100
+|move|p1a: Xatu|U-turn|p2a: Scrafty
+|-damage|p2a: Scrafty|78/100
+|inactive|sweepinunhun has 120 seconds left.
+|inactive|sweepinunhun has 90 seconds left.
+|
+|switch|p1a: Bewear|Bewear, F|62/100|[from]move: U-turn
+|
+|-heal|p2a: Scrafty|84/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Vileplume|Vileplume, F|59/100
+|move|p1a: Bewear|Close Combat|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|36/100
+|-unboost|p1a: Bewear|def|1
+|-unboost|p1a: Bewear|spd|1
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Bewear|Double-Edge|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|86/100
+|-damage|p1a: Bewear|57/100|[from] Recoil
+|
+|-heal|p2a: Steelix|92/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|19
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|move|p2a: Steelix|Earthquake|p1a: Xatu
+|-immune|p1a: Xatu
+|
+|-heal|p2a: Steelix|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Xatu|Heat Wave|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|57/100
+|move|p2a: Steelix|Heavy Slam|p1a: Xatu
+|-damage|p1a: Xatu|59/100
+|
+|-heal|p1a: Xatu|65/100|[from] item: Leftovers
+|-heal|p2a: Steelix|63/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Xatu|U-turn|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|60/100
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|68/100|[from]move: U-turn
+|move|p2a: Steelix|Heavy Slam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|62/100
+|
+|-heal|p1a: Jellicent|68/100|[from] item: Leftovers
+|-heal|p2a: Steelix|66/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Xatu|Xatu, F|65/100
+|switch|p2a: Scrafty|Scrafty, M|84/100
+|
+|-heal|p1a: Xatu|71/100|[from] item: Leftovers
+|-heal|p2a: Scrafty|90/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Xatu|U-turn|p2a: Scrafty
+|-damage|p2a: Scrafty|80/100
+|
+|switch|p1a: Bewear|Bewear, F|57/100|[from]move: U-turn
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|86/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Bewear|Close Combat|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|15/100
+|-unboost|p1a: Bewear|def|1
+|-unboost|p1a: Bewear|spd|1
+|move|p2a: Scrafty|Drain Punch|p1a: Bewear
+|-supereffective|p1a: Bewear
+|-damage|p1a: Bewear|4/100
+|-heal|p2a: Scrafty|46/100|[from] drain|[of] p1a: Bewear
+|
+|-heal|p2a: Scrafty|52/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Vileplume|Vileplume, F|36/100
+|move|p1a: Bewear|Close Combat|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|10/100
+|-unboost|p1a: Bewear|def|1
+|-unboost|p1a: Bewear|spd|1
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Bewear|Close Combat|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-unboost|p1a: Bewear|def|1
+|-unboost|p1a: Bewear|spd|1
+|faint|p2a: Vileplume
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee, M|10/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|27
+|
+|switch|p1a: Xatu|Xatu, F|71/100
+|move|p2a: Indeedee|Psychic|p1a: Xatu
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|40/100
+|
+|-heal|p1a: Xatu|46/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Scrafty|Scrafty, M|52/100
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|97/100
+|-singleturn|p1a: Xatu|move: Roost
+|
+|-heal|p1a: Xatu|100/100|[from] item: Leftovers
+|-heal|p2a: Scrafty|58/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Xatu|U-turn|p2a: Scrafty
+|-crit|p2a: Scrafty
+|-damage|p2a: Scrafty|43/100
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|68/100|[from]move: U-turn
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|24/100
+|-enditem|p1a: Jellicent|Leftovers|[from] move: Knock Off|[of] p2a: Scrafty
+|
+|-heal|p2a: Scrafty|49/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|74/100
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|45/100
+|
+|-heal|p2a: Scrafty|55/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|move|p2a: Scrafty|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-enditem|p1a: Indeedee|Choice Scarf|[from] move: Knock Off|[of] p2a: Scrafty
+|faint|p1a: Indeedee
+|
+|-heal|p2a: Scrafty|61/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Bewear|Bewear, F|4/100
+|turn|32
+|
+|switch|p2a: Drampa|Drampa, M|100/100
+|move|p1a: Bewear|Close Combat|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|0 fnt
+|-unboost|p1a: Bewear|def|1
+|-unboost|p1a: Bewear|spd|1
+|faint|p2a: Drampa
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee, M|10/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|33
+|
+|switch|p2a: Scrafty|Scrafty, M|61/100
+|switch|p1a: Xatu|Xatu, F|100/100
+|
+|-heal|p2a: Scrafty|67/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Xatu|U-turn|p2a: Scrafty
+|-damage|p2a: Scrafty|57/100
+|
+|switch|p1a: Silvally|Silvally-Steel|20/100|[from]move: U-turn
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|63/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Silvally|Explosion|p2a: Scrafty
+|-damage|p2a: Scrafty|23/100
+|faint|p1a: Silvally
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|29/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bewear|Bewear, F|4/100
+|turn|36
+|
+|switch|p2a: Steelix|Steelix, M|66/100
+|move|p1a: Bewear|Close Combat|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|7/100
+|-unboost|p1a: Bewear|def|1
+|-unboost|p1a: Bewear|spd|1
+|
+|-heal|p2a: Steelix|13/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Bewear|Earthquake|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee, M|10/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|38
+|
+|switch|p2a: Scrafty|Scrafty, M|29/100
+|switch|p1a: Jellicent|Jellicent, M, shiny|45/100
+|
+|-heal|p2a: Scrafty|35/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Jellicent|Taunt|p2a: Scrafty
+|-start|p2a: Scrafty|move: Taunt
+|cant|p2a: Scrafty|move: Taunt|Rest
+|
+|-heal|p2a: Scrafty|41/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|j| TAIWAN NUMBAH ONE
+|
+|move|p1a: Jellicent|Scald|p2a: Scrafty
+|-damage|p2a: Scrafty|26/100
+|move|p2a: Scrafty|Drain Punch|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-heal|p2a: Scrafty|32/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Jellicent|Scald|p2a: Scrafty
+|-damage|p2a: Scrafty|16/100
+|move|p2a: Scrafty|Drain Punch|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-heal|p2a: Scrafty|22/100|[from] item: Leftovers
+|-end|p2a: Scrafty|move: Taunt
+|upkeep
+|turn|42
+|
+|switch|p2a: Indeedee|Indeedee, M|10/100
+|move|p1a: Jellicent|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|43
+|
+|switch|p2a: Scrafty|Scrafty, M|22/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|96/100
+|
+|-heal|p2a: Scrafty|28/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Jellicent|Taunt|p2a: Scrafty
+|-start|p2a: Scrafty|move: Taunt
+|move|p2a: Scrafty|Drain Punch|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-heal|p2a: Scrafty|34/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Scrafty
+|-status|p2a: Scrafty|brn
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|80/100
+|
+|-heal|p2a: Scrafty|40/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|34/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p1a: Jellicent|Scald|p2a: Scrafty
+|-damage|p2a: Scrafty|18/100 brn
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|64/100
+|
+|-heal|p2a: Scrafty|24/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|18/100 brn|[from] brn
+|-end|p2a: Scrafty|move: Taunt
+|upkeep
+|turn|47
+|
+|move|p1a: Jellicent|Taunt|p2a: Scrafty
+|-start|p2a: Scrafty|move: Taunt
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|46/100
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|brn|[msg]
+|-heal|p2a: Scrafty|24/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p1a: Jellicent|Scald|p2a: Scrafty
+|-damage|p2a: Scrafty|7/100
+|-status|p2a: Scrafty|brn
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|31/100
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|brn|[msg]
+|-heal|p2a: Scrafty|13/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Jellicent|Scald|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee, M|10/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|50
+|
+|move|p2a: Indeedee|Psychic|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|turn|51
+|j| OUTY freebdhd
+|
+|move|p2a: Indeedee|Psychic|p1a: Xatu
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|67/100
+|move|p1a: Xatu|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|win|sweepinunhun
+|c|☆sweepinunhun|gg
+|l|☆ruznoob
+|raw|sweepinunhun's rating: 1408 &rarr; <strong>1429</strong><br />(+21 for winning)
+|raw|ruznoob's rating: 1433 &rarr; <strong>1411</strong><br />(-22 for losing)
+|l| OUTY freebdhd
+|j| NahEasyDubs
+|l| NahEasyDubs
+|l|☆sweepinunhun
+|j|☆sweepinunhun
+|player|p1|sweepinunhun|psychic-gen4

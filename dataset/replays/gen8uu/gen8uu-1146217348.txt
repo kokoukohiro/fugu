@@ -1,0 +1,244 @@
+|j|☆Eric Jiang234
+|j|☆Bamarah
+|player|p1|Eric Jiang234|skier|1465
+|player|p2|Bamarah|eusine-gen2|1435
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Lycanroc-Dusk, F|
+|poke|p1|Runerigus, M|
+|poke|p1|Sharpedo, F|
+|poke|p1|Slowbro-Galar, F|
+|poke|p1|Exploud, F|
+|poke|p1|Exeggutor-Alola, F|
+|poke|p2|Noivern, M|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Darmanitan, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Skarmory, M|
+|poke|p2|Blissey, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bamarah)
+|
+|start
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|100/100
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|100/100
+|turn|1
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|move|p1a: Lycanroc|Stone Edge|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|58/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Exeggutor|Exeggutor-Alola, F|100/100
+|move|p2a: Keldeo|Icy Wind|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|-damage|p2a: Keldeo|48/100|[from] item: Life Orb
+|faint|p1a: Exeggutor
+|
+|upkeep
+|
+|switch|p1a: Sharpedo|Sharpedo, F|100/100
+|turn|3
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|100/100
+|move|p1a: Sharpedo|Protect||[still]
+|-fail|p1a: Sharpedo
+|
+|-ability|p1a: Sharpedo|Speed Boost|boost
+|-boost|p1a: Sharpedo|spe|1
+|upkeep
+|turn|4
+|
+|move|p1a: Sharpedo|Flip Turn|p2a: Skarmory
+|-damage|p2a: Skarmory|68/100
+|-damage|p1a: Sharpedo|91/100|[from] item: Life Orb
+|
+|switch|p1a: Runerigus|Runerigus, M|100/100|[from]move: Flip Turn
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|-heal|p2a: Skarmory|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|48/100
+|move|p1a: Runerigus|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: Bamarah|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Keldeo|Surf|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|9/100
+|-damage|p2a: Keldeo|39/100|[from] item: Life Orb
+|move|p1a: Runerigus|Trick Room|p1a: Runerigus
+|-fieldstart|move: Trick Room|[of] p1a: Runerigus
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Keldeo|Aqua Jet|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|0 fnt
+|-activate|p1a: Runerigus|ability: Wandering Spirit|Justified|Wandering Spirit|[of] p2a: Keldeo
+|-damage|p2a: Keldeo|29/100|[from] item: Life Orb
+|faint|p1a: Runerigus
+|
+|upkeep
+|
+|switch|p1a: Slowbro|Slowbro-Galar, F|100/100
+|turn|8
+|
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|move|p1a: Slowbro|Shell Side Arm|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-hint|Physical Shell Side Arm
+|faint|p2a: Blissey
+|
+|upkeep
+|inactive|Bamarah has 120 seconds left.
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|74/100
+|-damage|p2a: Skarmory|62/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Exploud|Exploud, F|100/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|move|p1a: Exploud|Fire Blast|p2a: Chandelure|[miss]
+|-miss|p1a: Exploud|p2a: Chandelure
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|switch|p1a: Sharpedo|Sharpedo, F|91/100
+|move|p2a: Chandelure|Flamethrower|p1a: Sharpedo
+|-resisted|p1a: Sharpedo
+|-crit|p1a: Sharpedo
+|-damage|p1a: Sharpedo|3/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Chandelure|Flamethrower|p1a: Sharpedo
+|-resisted|p1a: Sharpedo
+|-damage|p1a: Sharpedo|0 fnt
+|faint|p1a: Sharpedo
+|
+|upkeep
+|
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|100/100
+|turn|13
+|inactive|Bamarah has 120 seconds left.
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|29/100
+|-damage|p2a: Keldeo|22/100|[from] Stealth Rock
+|move|p1a: Lycanroc|Stone Edge|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-crit|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Exploud|Exploud, F|100/100
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Skarmory|Body Press|p1a: Exploud
+|-supereffective|p1a: Exploud
+|-damage|p1a: Exploud|0 fnt
+|faint|p1a: Exploud
+|
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Slowbro|Slowbro-Galar, F|100/100
+|turn|16
+|
+|switch|p2a: Noivern|Noivern, M, shiny|100/100
+|-damage|p2a: Noivern|76/100|[from] Stealth Rock
+|move|p1a: Slowbro|Curse|p1a: Slowbro
+|-unboost|p1a: Slowbro|spe|1
+|-boost|p1a: Slowbro|atk|1
+|-boost|p1a: Slowbro|def|1
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Slowbro
+|-damage|p1a: Slowbro|16/100
+|-unboost|p2a: Noivern|spa|2
+|-damage|p2a: Noivern|66/100|[from] item: Life Orb
+|move|p1a: Slowbro|Shell Side Arm|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|-hint|Physical Shell Side Arm
+|faint|p2a: Noivern
+|
+|-heal|p1a: Slowbro|23/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|100/100
+|-damage|p2a: Darmanitan|75/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Darmanitan|Earthquake|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|upkeep
+|
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|100/100
+|turn|19
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|76/100
+|-damage|p2a: Chandelure|51/100|[from] Stealth Rock
+|move|p1a: Lycanroc|Accelerock|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|99/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|turn|20
+|-message|Eric Jiang234 forfeited.
+|
+|win|Bamarah
+|l|☆Eric Jiang234

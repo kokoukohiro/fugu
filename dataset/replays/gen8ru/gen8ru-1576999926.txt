@@ -1,0 +1,393 @@
+|j|☆Play New Mystery
+|j|☆GrandmaWilkins
+|t:|1652816117
+|gametype|singles
+|player|p1|Play New Mystery|acetrainerf|1355
+|player|p2|GrandmaWilkins|hilbert|1441
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Politoed, F|
+|poke|p1|Metagross|
+|poke|p1|Kingdra, M|
+|poke|p1|Tornadus, M|
+|poke|p1|Kingler, M|
+|poke|p1|Heliolisk, F|
+|poke|p2|Politoed, M|
+|poke|p2|Kingdra, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Tornadus, M|
+|poke|p2|Klefki, F|
+|poke|p2|Toxicroak, F|
+|teampreview
+|j| Excaliburro
+|l| Excaliburro
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GrandmaWilkins)
+|
+|t:|1652816139
+|start
+|switch|p1a: Spongeboy me Bob|Kingler, M|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1652816149
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|move|p1a: Spongeboy me Bob|Knock Off|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|55/100
+|-enditem|p2a: Toxicroak|Life Orb|[from] move: Knock Off|[of] p1a: Spongeboy me Bob
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|67/100|[from] ability: Dry Skin
+|upkeep
+|turn|2
+|
+|t:|1652816156
+|switch|p1a: Geenee|Tornadus, M|100/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Geenee
+|-resisted|p1a: Geenee
+|-damage|p1a: Geenee|80/100
+|-heal|p2a: Toxicroak|79/100|[from] drain|[of] p1a: Geenee
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|91/100|[from] ability: Dry Skin
+|upkeep
+|turn|3
+|
+|t:|1652816166
+|switch|p2a: Klefki|Klefki, F|100/100
+|move|p1a: Geenee|U-turn|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|96/100
+|
+|t:|1652816169
+|switch|p1a: Spongeboy me Bob|Kingler, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Klefki|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1652816175
+|move|p2a: Klefki|Toxic|p1a: Spongeboy me Bob
+|-status|p1a: Spongeboy me Bob|tox
+|move|p1a: Spongeboy me Bob|High Horsepower|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Spongeboy me Bob|95/100 tox|[from] psn
+|upkeep
+|
+|t:|1652816179
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|5
+|
+|t:|1652816182
+|switch|p1a: Geenee|Tornadus, M|80/100
+|move|p2a: Tornadus|Hurricane|p1a: Geenee
+|-damage|p1a: Geenee|13/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1652816190
+|move|p2a: Tornadus|Hurricane|p1a: Geenee
+|-damage|p1a: Geenee|0 fnt
+|faint|p1a: Geenee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1652816201
+|switch|p1a: Lizard|Heliolisk, F|100/100
+|turn|7
+|
+|t:|1652816216
+|move|p2a: Tornadus|Hurricane|p1a: Lizard
+|-resisted|p1a: Lizard
+|-damage|p1a: Lizard|60/100
+|-start|p1a: Lizard|confusion
+|-activate|p1a: Lizard|confusion
+|move|p1a: Lizard|Hyper Voice|p2a: Tornadus
+|-damage|p2a: Tornadus|30/100
+|-damage|p1a: Lizard|50/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lizard|63/100|[from] ability: Dry Skin
+|upkeep
+|turn|8
+|
+|t:|1652816227
+|move|p2a: Tornadus|Hurricane|p1a: Lizard
+|-resisted|p1a: Lizard
+|-damage|p1a: Lizard|23/100
+|-end|p1a: Lizard|confusion
+|move|p1a: Lizard|Volt Switch|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-damage|p1a: Lizard|13/100|[from] item: Life Orb
+|
+|t:|1652816240
+|switch|p1a: Vangarre|Metagross, shiny|100/100|[from]move: Volt Switch
+|
+|-weather|none
+|upkeep
+|
+|t:|1652816245
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|9
+|
+|t:|1652816265
+|move|p1a: Vangarre|Agility|p1a: Vangarre
+|-boost|p1a: Vangarre|spe|2
+|move|p2a: Politoed|Scald|p1a: Vangarre
+|-damage|p1a: Vangarre|52/100
+|-status|p1a: Vangarre|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Vangarre|46/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1652816273
+|move|p1a: Vangarre|Ice Punch|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|95/100
+|move|p2a: Politoed|Encore|p1a: Vangarre
+|-start|p1a: Vangarre|Encore
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Vangarre|40/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1652816279
+|switch|p2a: Toxicroak|Toxicroak, F|91/100
+|move|p1a: Vangarre|Ice Punch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|82/100|[from] ability: Dry Skin
+|-damage|p1a: Vangarre|34/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1652816283
+|switch|p1a: Blue guy|Kingdra, M|100/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Blue guy
+|-damage|p1a: Blue guy|60/100
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: Blue guy
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1652816298
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Blue guy|Focus Energy|p1a: Blue guy
+|-start|p1a: Blue guy|move: Focus Energy
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1652816301
+|move|p2a: Toxicroak|Sucker Punch|p1a: Blue guy
+|-damage|p1a: Blue guy|36/100
+|move|p1a: Blue guy|Draco Meteor|p2a: Toxicroak
+|-crit|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|-unboost|p1a: Blue guy|spa|2
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1652816306
+|switch|p2a: Politoed|Politoed, M|95/100
+|turn|15
+|
+|t:|1652816310
+|move|p1a: Blue guy|Draco Meteor|p2a: Politoed|[miss]
+|-miss|p1a: Blue guy|p2a: Politoed
+|move|p2a: Politoed|Toxic|p1a: Blue guy
+|-status|p1a: Blue guy|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Blue guy|30/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1652816313
+|move|p1a: Blue guy|Draco Meteor|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|8/100
+|-unboost|p1a: Blue guy|spa|2
+|move|p2a: Politoed|Rest|p2a: Politoed
+|-status|p2a: Politoed|slp|[from] move: Rest
+|-heal|p2a: Politoed|100/100 slp|[silent]
+|
+|-weather|none
+|-damage|p1a: Blue guy|18/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1652816318
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Blue guy|Draco Meteor|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-unboost|p1a: Blue guy|spa|2
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Blue guy|0 fnt|[from] psn
+|faint|p1a: Blue guy
+|upkeep
+|
+|t:|1652816332
+|switch|p1a: Silas Greenback|Politoed, F|100/100
+|switch|p2a: Politoed|Politoed, M|100/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|18
+|
+|t:|1652816337
+|cant|p2a: Politoed|slp
+|move|p1a: Silas Greenback|Perish Song|p1a: Silas Greenback
+|-start|p1a: Silas Greenback|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Politoed|perish3
+|-start|p1a: Silas Greenback|perish3
+|upkeep
+|turn|19
+|
+|t:|1652816341
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|move|p1a: Silas Greenback|Perish Song|p1a: Silas Greenback
+|-start|p2a: Kingdra|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Kingdra|perish3
+|-start|p1a: Silas Greenback|perish2
+|upkeep
+|turn|20
+|
+|t:|1652816345
+|move|p2a: Kingdra|Draco Meteor|p1a: Silas Greenback
+|-damage|p1a: Silas Greenback|34/100
+|-unboost|p2a: Kingdra|spa|2
+|-damage|p2a: Kingdra|91/100|[from] item: Life Orb
+|move|p1a: Silas Greenback|Toxic|p2a: Kingdra
+|-status|p2a: Kingdra|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kingdra|84/100 tox|[from] psn
+|-start|p2a: Kingdra|perish2
+|-start|p1a: Silas Greenback|perish1
+|upkeep
+|turn|21
+|
+|t:|1652816353
+|switch|p2a: Politoed|Politoed, M|100/100 slp
+|move|p1a: Silas Greenback|Toxic||[still]
+|-fail|p1a: Silas Greenback
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Silas Greenback|perish0
+|upkeep
+|faint|p1a: Silas Greenback
+|
+|t:|1652816362
+|switch|p1a: Lizard|Heliolisk, F|13/100
+|turn|22
+|
+|t:|1652816373
+|move|p1a: Lizard|Thunder|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|-damage|p1a: Lizard|4/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lizard|16/100|[from] ability: Dry Skin
+|upkeep
+|
+|t:|1652816375
+|switch|p2a: Kingdra|Kingdra, M|84/100 tox
+|turn|23
+|
+|t:|1652816378
+|switch|p1a: Vangarre|Metagross, shiny|34/100 brn
+|move|p2a: Kingdra|Hurricane|p1a: Vangarre
+|-resisted|p1a: Vangarre
+|-damage|p1a: Vangarre|9/100 brn
+|-damage|p2a: Kingdra|74/100 tox|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kingdra|68/100 tox|[from] psn
+|-damage|p1a: Vangarre|3/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1652816386
+|move|p2a: Kingdra|Hurricane|p1a: Vangarre
+|-resisted|p1a: Vangarre
+|-damage|p1a: Vangarre|0 fnt
+|faint|p1a: Vangarre
+|-damage|p2a: Kingdra|58/100 tox|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kingdra|46/100 tox|[from] psn
+|upkeep
+|
+|t:|1652816388
+|switch|p1a: Spongeboy me Bob|Kingler, M|95/100 tox
+|turn|25
+|
+|t:|1652816396
+|move|p2a: Kingdra|Draco Meteor|p1a: Spongeboy me Bob
+|-damage|p1a: Spongeboy me Bob|0 fnt
+|-unboost|p2a: Kingdra|spa|2
+|faint|p1a: Spongeboy me Bob
+|-damage|p2a: Kingdra|36/100 tox|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p2a: Kingdra|17/100 tox|[from] psn
+|upkeep
+|
+|t:|1652816399
+|switch|p1a: Lizard|Heliolisk, F|16/100
+|turn|26
+|
+|t:|1652816402
+|move|p1a: Lizard|Hyper Voice|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+|-damage|p1a: Lizard|6/100|[from] item: Life Orb
+|
+|win|Play New Mystery
+|raw|Play New Mystery's rating: 1355 &rarr; <strong>1380</strong><br />(+25 for winning)
+|raw|GrandmaWilkins's rating: 1441 &rarr; <strong>1416</strong><br />(-25 for losing)
+|c|☆GrandmaWilkins|gg
+|c|☆Play New Mystery|gg
+|l|☆GrandmaWilkins

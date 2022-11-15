@@ -1,0 +1,218 @@
+|j|☆Fort el Prohibido
+|j|☆got cookies
+|player|p1|Fort el Prohibido|ethan|
+|player|p2|got cookies|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|clearpoke
+|poke|p1|Vileplume, F|
+|poke|p1|Ninetales, F|
+|poke|p1|Cottonee, L1, F|
+|poke|p1|Gallade, M|
+|poke|p1|Skuntank, M|
+|poke|p1|Silvally-*|
+|poke|p2|Drapion, F|
+|poke|p2|Jellicent, M|
+|poke|p2|Silvally-*|
+|poke|p2|Charizard, M|
+|poke|p2|Steelix, M|
+|poke|p2|Drampa, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cottonee|Cottonee, L1, F|100/100
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|turn|1
+|
+|move|p1a: Cottonee|Toxic|p2a: Jellicent|[miss]
+|-miss|p1a: Cottonee|p2a: Jellicent
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Cottonee
+|-status|p1a: Cottonee|brn
+|
+|-damage|p1a: Cottonee|92/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Cottonee|Toxic|p2a: Steelix
+|-immune|p2a: Steelix
+|
+|-damage|p1a: Cottonee|84/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Steelix|Body Press|p1a: Cottonee
+|-resisted|p1a: Cottonee
+|-damage|p1a: Cottonee|0 fnt
+|faint|p1a: Cottonee
+|
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|turn|4
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-crit|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|upkeep
+|
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|turn|6
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Skuntank|Foul Play|p2a: Steelix
+|-damage|p2a: Steelix|87/100
+|
+|-heal|p2a: Steelix|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Skuntank|Foul Play|p2a: Steelix
+|-damage|p2a: Steelix|78/100
+|move|p2a: Steelix|Stealth Rock|p1a: Skuntank
+|-sidestart|p1: Fort el Prohibido|move: Stealth Rock
+|
+|-heal|p2a: Steelix|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Skuntank|Foul Play|p2a: Steelix
+|-crit|p2a: Steelix
+|-damage|p2a: Steelix|65/100
+|move|p2a: Steelix|Head Smash|p1a: Skuntank
+|-damage|p1a: Skuntank|58/100
+|-damage|p2a: Steelix|48/100|[from] item: Rocky Helmet|[of] p1a: Skuntank
+|
+|-heal|p2a: Steelix|54/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Skuntank|Foul Play|p2a: Charizard
+|-damage|p2a: Charizard|76/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Charizard|Scorching Sands|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-damage|p1a: Skuntank|7/100
+|-status|p1a: Skuntank|brn
+|move|p1a: Skuntank|Poison Jab|p2a: Charizard
+|-damage|p2a: Charizard|55/100
+|
+|-damage|p1a: Skuntank|1/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Charizard|Mystical Fire|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|12
+|
+|move|p2a: Charizard|Scorching Sands|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|30/100
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Charizard|Scorching Sands|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Vileplume|Sludge Wave|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-damage|p1a: Vileplume|78/100|[from] item: Life Orb
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Drampa|Drampa, F|100/100
+|turn|15
+|
+|move|p1a: Vileplume|Moonblast|p2a: Drampa
+|-supereffective|p2a: Drampa
+|-damage|p2a: Drampa|14/100
+|-unboost|p2a: Drampa|spa|1
+|-damage|p1a: Vileplume|68/100|[from] item: Life Orb
+|move|p2a: Drampa|Flamethrower|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Electric|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Drampa|Draco Meteor|p1a: Silvally
+|-damage|p1a: Silvally|43/100
+|-unboost|p2a: Drampa|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Silvally|Flame Charge|p2a: Drampa
+|-resisted|p2a: Drampa
+|-damage|p2a: Drampa|0 fnt
+|-boost|p1a: Silvally|spe|1
+|faint|p2a: Drampa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Drapion|Drapion, F|100/100
+|turn|18
+|
+|move|p2a: Drapion|Earthquake|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|win|got cookies
+|c|☆Fort el Prohibido|gg
+|c|☆got cookies|gg

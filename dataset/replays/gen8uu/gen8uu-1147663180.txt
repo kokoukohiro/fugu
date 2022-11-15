@@ -1,0 +1,154 @@
+|j|☆Bamarah
+|j|☆Datsplashtho
+|player|p1|Bamarah|eusine-gen2|1455
+|player|p2|Datsplashtho|fisherman|1441
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Noivern, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Darmanitan, M|
+|poke|p1|Chandelure, M|
+|poke|p1|Skarmory, M|
+|poke|p1|Blissey, F|
+|poke|p2|Scolipede, F|
+|poke|p2|Polteageist|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Krookodile, F|
+|poke|p2|Mimikyu, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bamarah)
+|
+|start
+|switch|p1a: Darmanitan|Darmanitan, M, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Datsplashtho|Reflect
+|move|p1a: Darmanitan|Flare Blitz|p2a: Grimmsnarl
+|-crit|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Darmanitan|67/100|[from] Recoil
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Darmanitan|atk|1
+|turn|2
+|
+|switch|p1a: Skarmory|Skarmory, M, shiny|100/100
+|move|p2a: Krookodile|Taunt|p1a: Skarmory
+|-start|p1a: Skarmory|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Krookodile|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|67/100
+|-enditem|p1a: Skarmory|Leftovers|[from] move: Knock Off|[of] p2a: Krookodile
+|move|p1a: Skarmory|Body Press|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-enditem|p2a: Krookodile|Chople Berry|[eat]
+|-enditem|p2a: Krookodile|Chople Berry|[weaken]
+|-damage|p2a: Krookodile|82/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Krookodile|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: Bamarah|move: Stealth Rock
+|move|p1a: Skarmory|Body Press|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|40/100
+|
+|-end|p1a: Skarmory|move: Taunt
+|upkeep
+|turn|5
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Keldeo|Surf|p2a: Polteageist
+|-damage|p2a: Polteageist|31/100
+|-damage|p1a: Keldeo|84/100|[from] item: Life Orb
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Blissey|Blissey, F, shiny|100/100
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|move|p2a: Polteageist|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|73/100
+|-heal|p2a: Polteageist|51/100|[from] drain|[of] p1a: Blissey
+|
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Blissey|Thunder Wave|p2a: Polteageist
+|-status|p2a: Polteageist|par
+|
+|-heal|p1a: Blissey|86/100|[from] item: Leftovers
+|-sideend|p2: Datsplashtho|Reflect
+|upkeep
+|turn|9
+|
+|cant|p2a: Polteageist|par
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Chandelure|Chandelure, M, shiny|100/100
+|-damage|p1a: Chandelure|76/100|[from] Stealth Rock
+|move|p2a: Polteageist|Stored Power|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|switch|p1a: Darmanitan|Darmanitan, M, shiny|67/100
+|-damage|p1a: Darmanitan|42/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-damage|p1a: Darmanitan|30/100|[from] Recoil
+|faint|p2a: Polteageist
+|
+|upkeep
+|-message|Datsplashtho forfeited.
+|
+|win|Bamarah

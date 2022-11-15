@@ -1,0 +1,391 @@
+|j|☆broken2
+|j|☆gtgriest
+|t:|1608475209
+|player|p1|broken2|265|1425
+|player|p2|gtgriest|benga|1331
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Exploud, M|
+|poke|p1|Whimsicott, M|
+|poke|p1|Mesprit|
+|poke|p1|Sirfetch’d, F|
+|poke|p1|Kingdra, F|
+|poke|p1|Silvally-*|
+|poke|p2|Sandaconda, M|
+|poke|p2|Qwilfish, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Gigalith, M|
+|poke|p2|Articuno|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gtgriest)
+|
+|t:|1608475225
+|start
+|switch|p1a: Mesprit|Mesprit|100/100
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1608475230
+|move|p2a: Indeedee|Hyper Voice|p1a: Mesprit
+|-damage|p1a: Mesprit|68/100
+|move|p1a: Mesprit|Stealth Rock|p2a: Indeedee
+|-sidestart|p2: gtgriest|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1608475235
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-damage|p2a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Mesprit|U-turn|p2a: Gigalith
+|-damage|p2a: Gigalith|77/100
+|
+|t:|1608475238
+|switch|p1a: Sirfetch’d|Sirfetch’d, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sirfetch’d|94/100|[from] Sandstorm
+|-heal|p2a: Gigalith|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1608475243
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-damage|p2a: Qwilfish|88/100|[from] Stealth Rock
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-immune|p1a: Sirfetch’d|[from] ability: Scrappy
+|move|p1a: Sirfetch’d|Close Combat|p2a: Qwilfish
+|-resisted|p2a: Qwilfish
+|-damage|p2a: Qwilfish|49/100
+|-unboost|p1a: Sirfetch’d|def|1
+|-unboost|p1a: Sirfetch’d|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sirfetch’d|88/100|[from] Sandstorm
+|-damage|p2a: Qwilfish|43/100|[from] Sandstorm
+|-heal|p2a: Qwilfish|49/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1608475249
+|switch|p1a: Mesprit|Mesprit|68/100
+|move|p2a: Qwilfish|Protect||[still]
+|-fail|p2a: Qwilfish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Qwilfish|43/100|[from] Sandstorm
+|-damage|p1a: Mesprit|61/100|[from] Sandstorm
+|-heal|p2a: Qwilfish|49/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1608475253
+|switch|p2a: Gigalith|Gigalith, M|83/100
+|-damage|p2a: Gigalith|71/100|[from] Stealth Rock
+|move|p1a: Mesprit|Psychic|p2a: Gigalith
+|-damage|p2a: Gigalith|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mesprit|55/100|[from] Sandstorm
+|-heal|p2a: Gigalith|60/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1608475259
+|move|p1a: Mesprit|U-turn|p2a: Gigalith
+|-damage|p2a: Gigalith|48/100
+|
+|t:|1608475262
+|switch|p1a: Sirfetch’d|Sirfetch’d, F|88/100|[from]move: U-turn
+|move|p2a: Gigalith|Stealth Rock|p1a: Sirfetch’d
+|-sidestart|p1: broken2|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Gigalith|54/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1608475269
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|move|p1a: Sirfetch’d|Close Combat|p2a: Corsola
+|-damage|p2a: Corsola|14/100
+|-unboost|p1a: Sirfetch’d|def|1
+|-unboost|p1a: Sirfetch’d|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1608475274
+|move|p1a: Sirfetch’d|Close Combat|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-unboost|p1a: Sirfetch’d|def|1
+|-unboost|p1a: Sirfetch’d|spd|1
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|t:|1608475278
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|9
+|
+|t:|1608475282
+|switch|p1a: Silvally|Silvally-Dark|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|move|p2a: Indeedee|Expanding Force|p1a: Silvally
+|-immune|p1a: Silvally
+|
+|upkeep
+|turn|10
+|
+|t:|1608475288
+|switch|p2a: Qwilfish|Qwilfish, F|49/100
+|-damage|p2a: Qwilfish|36/100|[from] Stealth Rock
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Silvally|atk|1
+|move|p1a: Silvally|Parting Shot|p2a: Qwilfish
+|-unboost|p2a: Qwilfish|atk|1
+|-unboost|p2a: Qwilfish|spa|1
+|
+|t:|1608475292
+|switch|p1a: Mesprit|Mesprit|55/100|[from]move: Parting Shot
+|-damage|p1a: Mesprit|43/100|[from] Stealth Rock
+|
+|-heal|p2a: Qwilfish|42/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1608475299
+|move|p2a: Qwilfish|Scald|p1a: Mesprit
+|-damage|p1a: Mesprit|34/100
+|move|p1a: Mesprit|Psychic|p2a: Qwilfish
+|-supereffective|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|
+|upkeep
+|
+|t:|1608475306
+|switch|p2a: Indeedee|Indeedee-F, F|88/100
+|-damage|p2a: Indeedee|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1608475310
+|move|p2a: Indeedee|Expanding Force|p1a: Mesprit
+|-resisted|p1a: Mesprit
+|-damage|p1a: Mesprit|5/100
+|move|p1a: Mesprit|Healing Wish|p1a: Mesprit
+|faint|p1a: Mesprit
+|
+|upkeep
+|
+|t:|1608475324
+|switch|p1a: Silvally|Silvally-Dark|88/100
+|-heal|p1a: Silvally|100/100|[from] move: Healing Wish
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1608475330
+|switch|p2a: Diet Zygarde|Sandaconda, M|100/100
+|-damage|p2a: Diet Zygarde|94/100|[from] Stealth Rock
+|move|p1a: Silvally|Tailwind|p1a: Silvally
+|-sidestart|p1: broken2|move: Tailwind
+|
+|-heal|p2a: Diet Zygarde|100/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|14
+|
+|t:|1608475334
+|move|p1a: Silvally|Parting Shot|p2a: Diet Zygarde
+|-unboost|p2a: Diet Zygarde|atk|1
+|-unboost|p2a: Diet Zygarde|spa|1
+|
+|t:|1608475336
+|switch|p1a: Whimsicott|Whimsicott, M|100/100|[from]move: Parting Shot
+|move|p2a: Diet Zygarde|Glare|p1a: Whimsicott
+|-status|p1a: Whimsicott|par
+|
+|upkeep
+|turn|15
+|
+|t:|1608475342
+|switch|p2a: Articuno|Articuno|100/100
+|-ability|p2a: Articuno|Pressure
+|cant|p1a: Whimsicott|par
+|
+|upkeep
+|turn|16
+|
+|t:|1608475348
+|move|p1a: Whimsicott|U-turn|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|97/100
+|
+|t:|1608475351
+|switch|p1a: Silvally|Silvally-Dark|88/100|[from]move: U-turn
+|-damage|p1a: Silvally|76/100|[from] Stealth Rock
+|move|p2a: Articuno|Freeze-Dry|p1a: Silvally
+|-damage|p1a: Silvally|61/100
+|
+|-sideend|p1: broken2|move: Tailwind
+|upkeep
+|turn|17
+|
+|t:|1608475357
+|move|p1a: Silvally|Tailwind|p1a: Silvally
+|-sidestart|p1: broken2|move: Tailwind
+|move|p2a: Articuno|Freeze-Dry|p1a: Silvally
+|-damage|p1a: Silvally|46/100
+|
+|upkeep
+|turn|18
+|
+|t:|1608475362
+|move|p1a: Silvally|Parting Shot|p2a: Articuno
+|-unboost|p2a: Articuno|atk|1
+|-unboost|p2a: Articuno|spa|1
+|
+|t:|1608475364
+|switch|p1a: Sirfetch’d|Sirfetch’d, F|88/100|[from]move: Parting Shot
+|-damage|p1a: Sirfetch’d|82/100|[from] Stealth Rock
+|move|p2a: Articuno|Freeze-Dry|p1a: Sirfetch’d
+|-damage|p1a: Sirfetch’d|60/100
+|
+|upkeep
+|turn|19
+|
+|t:|1608475370
+|switch|p2a: Diet Zygarde|Sandaconda, M|100/100
+|-damage|p2a: Diet Zygarde|94/100|[from] Stealth Rock
+|move|p1a: Sirfetch’d|Close Combat|p2a: Diet Zygarde
+|-damage|p2a: Diet Zygarde|14/100
+|-unboost|p1a: Sirfetch’d|def|1
+|-unboost|p1a: Sirfetch’d|spd|1
+|
+|-heal|p2a: Diet Zygarde|20/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1608475373
+|move|p1a: Sirfetch’d|Close Combat|p2a: Diet Zygarde
+|-damage|p2a: Diet Zygarde|0 fnt
+|-unboost|p1a: Sirfetch’d|def|1
+|-unboost|p1a: Sirfetch’d|spd|1
+|faint|p2a: Diet Zygarde
+|
+|-sideend|p1: broken2|move: Tailwind
+|upkeep
+|
+|t:|1608475376
+|switch|p2a: Indeedee|Indeedee-F, F|76/100
+|-damage|p2a: Indeedee|63/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|21
+|
+|t:|1608475380
+|switch|p1a: Exploud|Exploud, M|100/100
+|-damage|p1a: Exploud|88/100|[from] Stealth Rock
+|move|p2a: Indeedee|Expanding Force|p1a: Exploud
+|-damage|p1a: Exploud|5/100
+|
+|upkeep
+|turn|22
+|
+|t:|1608475383
+|move|p2a: Indeedee|Expanding Force|p1a: Exploud
+|-damage|p1a: Exploud|0 fnt
+|faint|p1a: Exploud
+|
+|upkeep
+|
+|t:|1608475386
+|switch|p1a: Silvally|Silvally-Dark|46/100
+|-damage|p1a: Silvally|34/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1608475394
+|switch|p2a: Articuno|Articuno|97/100
+|-ability|p2a: Articuno|Pressure
+|move|p1a: Silvally|Tailwind|p1a: Silvally
+|-sidestart|p1: broken2|move: Tailwind
+|
+|upkeep
+|turn|24
+|
+|t:|1608475402
+|move|p1a: Silvally|Parting Shot|p2a: Articuno
+|-unboost|p2a: Articuno|atk|1
+|-unboost|p2a: Articuno|spa|1
+|
+|t:|1608475404
+|switch|p1a: Sirfetch’d|Sirfetch’d, F|60/100|[from]move: Parting Shot
+|-damage|p1a: Sirfetch’d|54/100|[from] Stealth Rock
+|move|p2a: Articuno|Freeze-Dry|p1a: Sirfetch’d
+|-damage|p1a: Sirfetch’d|31/100
+|
+|upkeep
+|turn|25
+|
+|t:|1608475412
+|switch|p2a: Gigalith|Gigalith, M|54/100
+|-damage|p2a: Gigalith|42/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Sirfetch’d|Close Combat|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-unboost|p1a: Sirfetch’d|def|1
+|-unboost|p1a: Sirfetch’d|spd|1
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sirfetch’d|25/100|[from] Sandstorm
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1608475415
+|switch|p2a: Indeedee|Indeedee-F, F|63/100
+|-damage|p2a: Indeedee|51/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|26
+|
+|t:|1608475419
+|move|p1a: Sirfetch’d|Close Combat|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-unboost|p1a: Sirfetch’d|def|1
+|-unboost|p1a: Sirfetch’d|spd|1
+|faint|p2a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sirfetch’d|19/100|[from] Sandstorm
+|-sideend|p1: broken2|move: Tailwind
+|upkeep
+|
+|t:|1608475422
+|switch|p2a: Articuno|Articuno|97/100
+|-ability|p2a: Articuno|Pressure
+|turn|27
+|-message|gtgriest forfeited.
+|
+|win|broken2
+|l|☆gtgriest
+|raw|broken2's rating: 1425 &rarr; <strong>1440</strong><br />(+15 for winning)
+|raw|gtgriest's rating: 1331 &rarr; <strong>1316</strong><br />(-15 for losing)

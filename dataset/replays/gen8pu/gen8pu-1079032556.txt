@@ -1,0 +1,530 @@
+|j|☆Zip-a-dee-do-da
+|j|☆Actually Mush
+|player|p1|Zip-a-dee-do-da|richboy-gen4|1354
+|player|p2|Actually Mush|doctor|1402
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Mawile, F|
+|poke|p1|Trapinch, M|
+|poke|p1|Mr. Mime, M|
+|poke|p1|Silvally-*|
+|poke|p1|Vespiquen, F|
+|poke|p1|Throh, M|
+|poke|p2|Vibrava, F|
+|poke|p2|Lapras, M|
+|poke|p2|Clefairy, M|
+|poke|p2|Noctowl, F|
+|poke|p2|Klang|
+|poke|p2|Manectric, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Actually Mush)
+|inactive|Zip-a-dee-do-da has 120 seconds left.
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|start
+|switch|p1a: Silvally|Silvally, shiny|100/100
+|switch|p2a: Noctowl|Noctowl, F|100/100
+|turn|1
+|
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|move|p1a: Silvally|Multi-Attack|p2a: Clefairy
+|-damage|p2a: Clefairy|48/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Klang|Klang|100/100
+|move|p1a: Silvally|Multi-Attack|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|77/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Mawile|Mawile, F|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-fail|p2a: Klang|unboost|[from] ability: Clear Body|[of] p2a: Klang
+|switch|p2a: Vibrava|Vibrava, F|100/100
+|
+|upkeep
+|turn|4
+|j| Jarhead_K2
+|
+|switch|p1a: Vespiquen|Vespiquen, F|100/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Vibrava|Earthquake|p1a: Vespiquen
+|-immune|p1a: Vespiquen
+|
+|upkeep
+|turn|5
+|l| Jarhead_K2
+|
+|move|p2a: Vibrava|U-turn|p1a: Vespiquen
+|-resisted|p1a: Vespiquen
+|-damage|p1a: Vespiquen|95/100
+|
+|switch|p2a: Noctowl|Noctowl, F|100/100|[from]move: U-turn
+|move|p1a: Vespiquen|U-turn|p2a: Noctowl
+|-resisted|p2a: Noctowl
+|-damage|p2a: Noctowl|88/100
+|
+|switch|p1a: Silvally|Silvally, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Klang|Klang|77/100
+|move|p1a: Silvally|Multi-Attack|p2a: Klang
+|-resisted|p2a: Klang
+|-crit|p2a: Klang
+|-damage|p2a: Klang|38/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|13/100
+|move|p2a: Klang|Rest|p2a: Klang
+|-status|p2a: Klang|slp|[from] move: Rest
+|-heal|p2a: Klang|100/100 slp|[silent]
+|
+|upkeep
+|turn|8
+|inactive|Zip-a-dee-do-da has 120 seconds left.
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|73/100 slp
+|cant|p2a: Klang|slp
+|move|p2a: Klang|Sleep Talk|p2a: Klang
+|move|p2a: Klang|Rest|p2a: Klang|[from]Sleep Talk
+|-fail|p2a: Klang
+|
+|upkeep
+|turn|9
+|inactive|Zip-a-dee-do-da has 120 seconds left.
+|
+|switch|p1a: Trapinch|Trapinch, M|100/100
+|switch|p2a: Vibrava|Vibrava, F|100/100
+|
+|upkeep
+|turn|10
+|inactive|Zip-a-dee-do-da has 120 seconds left.
+|
+|switch|p1a: Vespiquen|Vespiquen, F|95/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Vibrava|U-turn|p1a: Vespiquen
+|-resisted|p1a: Vespiquen
+|-damage|p1a: Vespiquen|89/100
+|
+|switch|p2a: Noctowl|Noctowl, F|88/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+|inactive|Zip-a-dee-do-da has 120 seconds left.
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p1a: Mawile|Mawile, F|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Noctowl|atk|1
+|move|p2a: Noctowl|Substitute|p2a: Noctowl
+|-start|p2a: Noctowl|Substitute
+|-damage|p2a: Noctowl|63/100
+|
+|upkeep
+|turn|12
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|100/100
+|move|p2a: Noctowl|Nasty Plot|p2a: Noctowl
+|-boost|p2a: Noctowl|spa|2
+|
+|upkeep
+|turn|13
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|move|p1a: Mr. Mime|Icy Wind|p2a: Noctowl
+|-supereffective|p2a: Noctowl
+|-crit|p2a: Noctowl
+|-end|p2a: Noctowl|Substitute
+|move|p2a: Noctowl|Hurricane|p1a: Mr. Mime|[miss]
+|-miss|p2a: Noctowl|p1a: Mr. Mime
+|
+|upkeep
+|turn|14
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p2a: Lapras|Lapras, M|100/100
+|move|p1a: Mr. Mime|Icy Wind|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|95/100
+|-unboost|p2a: Lapras|spe|1
+|
+|upkeep
+|turn|15
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p1a: Throh|Throh, M|100/100
+|switch|p2a: Clefairy|Clefairy, M|48/100
+|
+|upkeep
+|turn|16
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|move|p1a: Throh|Knock Off|p2a: Clefairy
+|-resisted|p2a: Clefairy
+|-damage|p2a: Clefairy|37/100
+|-enditem|p2a: Clefairy|Eviolite|[from] move: Knock Off|[of] p1a: Throh
+|move|p2a: Clefairy|Soft-Boiled|p2a: Clefairy
+|-heal|p2a: Clefairy|87/100
+|
+|upkeep
+|turn|17
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p1a: Mawile|Mawile, F|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Clefairy|atk|1
+|move|p2a: Clefairy|Stealth Rock|p1a: Mawile
+|-sidestart|p1: Zip-a-dee-do-da|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Noctowl|Noctowl, F|63/100
+|move|p1a: Mawile|Toxic|p2a: Noctowl
+|-status|p2a: Noctowl|tox
+|
+|-damage|p2a: Noctowl|57/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Noctowl|Hurricane|p1a: Mawile|[miss]
+|-miss|p2a: Noctowl|p1a: Mawile
+|move|p1a: Mawile|Stealth Rock|p2a: Noctowl
+|-sidestart|p2: Actually Mush|move: Stealth Rock
+|
+|-damage|p2a: Noctowl|44/100 tox|[from] psn
+|upkeep
+|turn|20
+|j| Moo the Panda
+|
+|move|p2a: Noctowl|Roost|p2a: Noctowl
+|-heal|p2a: Noctowl|94/100 tox
+|-singleturn|p2a: Noctowl|move: Roost
+|move|p1a: Mawile|Play Rough|p2a: Noctowl
+|-damage|p2a: Noctowl|60/100 tox
+|-unboost|p2a: Noctowl|atk|1
+|
+|-damage|p2a: Noctowl|41/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Clefairy|Clefairy, M|87/100
+|move|p1a: Mawile|Play Rough|p2a: Clefairy|[miss]
+|-miss|p1a: Mawile|p2a: Clefairy
+|
+|upkeep
+|turn|22
+|c| Moo the Panda|All the shenanigans are happening here. Specifcally the Mushy ones.
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p1a: Silvally|Silvally, shiny|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|move|p2a: Clefairy|Knock Off|p1a: Silvally
+|-damage|p1a: Silvally|76/100
+|-enditem|p1a: Silvally|Choice Band|[from] move: Knock Off|[of] p2a: Clefairy
+|
+|upkeep
+|turn|23
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p2a: Vibrava|Vibrava, F|100/100
+|-damage|p2a: Vibrava|94/100|[from] Stealth Rock
+|move|p1a: Silvally|Multi-Attack|p2a: Vibrava
+|-damage|p2a: Vibrava|51/100
+|
+|upkeep
+|turn|24
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Vibrava
+|-damage|p2a: Vibrava|9/100
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|59/100
+|-singleturn|p2a: Vibrava|move: Roost
+|
+|upkeep
+|turn|25
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|100/100
+|-damage|p1a: Mr. Mime|88/100|[from] Stealth Rock
+|move|p2a: Vibrava|Roost|p2a: Vibrava
+|-heal|p2a: Vibrava|100/100
+|-singleturn|p2a: Vibrava|move: Roost
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Klang|Klang|73/100 slp
+|-damage|p2a: Klang|67/100 slp|[from] Stealth Rock
+|move|p1a: Mr. Mime|Icy Wind|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|59/100 slp
+|
+|upkeep
+|turn|27
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p1a: Throh|Throh, M|100/100
+|-damage|p1a: Throh|94/100|[from] Stealth Rock
+|cant|p2a: Klang|slp
+|move|p2a: Klang|Sleep Talk|p2a: Klang
+|move|p2a: Klang|Shift Gear|p2a: Klang|[from]Sleep Talk
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|
+|-heal|p1a: Throh|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p2a: Clefairy|Clefairy, M|87/100
+|move|p1a: Throh|Storm Throw|p2a: Clefairy
+|-resisted|p2a: Clefairy
+|-crit|p2a: Clefairy
+|-damage|p2a: Clefairy|62/100
+|
+|upkeep
+|turn|29
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|move|p1a: Throh|Stone Edge|p2a: Clefairy
+|-damage|p2a: Clefairy|30/100
+|move|p2a: Clefairy|Knock Off|p1a: Throh
+|-resisted|p1a: Throh
+|-damage|p1a: Throh|96/100
+|-enditem|p1a: Throh|Leftovers|[from] move: Knock Off|[of] p2a: Clefairy
+|
+|upkeep
+|turn|30
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|move|p1a: Throh|Stone Edge|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|
+|upkeep
+|
+|switch|p2a: Noctowl|Noctowl, F|41/100 tox
+|turn|31
+|
+|move|p2a: Noctowl|Hurricane|p1a: Throh
+|-supereffective|p1a: Throh
+|-damage|p1a: Throh|38/100
+|-start|p1a: Throh|confusion
+|-activate|p1a: Throh|confusion
+|move|p1a: Throh|Storm Throw|p2a: Noctowl
+|-crit|p2a: Noctowl
+|-damage|p2a: Noctowl|0 fnt
+|faint|p2a: Noctowl
+|
+|upkeep
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|-damage|p2a: Manectric|88/100|[from] Stealth Rock
+|turn|32
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|move|p2a: Manectric|Overheat|p1a: Throh
+|-crit|p1a: Throh
+|-damage|p1a: Throh|0 fnt
+|-unboost|p2a: Manectric|spa|2
+|faint|p1a: Throh
+|
+|upkeep
+|
+|switch|p1a: Trapinch|Trapinch, M|100/100
+|-damage|p1a: Trapinch|94/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Manectric|Overheat|p1a: Trapinch
+|-damage|p1a: Trapinch|48/100
+|-unboost|p2a: Manectric|spa|2
+|move|p1a: Trapinch|Earthquake|p2a: Manectric
+|-supereffective|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|upkeep
+|
+|switch|p2a: Lapras|Lapras, M|95/100
+|-damage|p2a: Lapras|70/100|[from] Stealth Rock
+|turn|34
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|88/100
+|-damage|p1a: Mr. Mime|76/100|[from] Stealth Rock
+|move|p2a: Lapras|Hydro Pump|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|20/100
+|
+|upkeep
+|turn|35
+|j| Gdsssdcvbbh
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|32/100
+|move|p2a: Lapras|Hydro Pump|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|upkeep
+|l| Gdsssdcvbbh
+|
+|switch|p1a: Silvally|Silvally, shiny|76/100
+|-damage|p1a: Silvally|64/100|[from] Stealth Rock
+|turn|36
+|l| Moo the Panda
+|
+|move|p2a: Lapras|Hydro Pump|p1a: Silvally
+|-damage|p1a: Silvally|17/100
+|move|p1a: Silvally|U-turn|p2a: Lapras
+|-damage|p2a: Lapras|12/100
+|
+|switch|p1a: Trapinch|Trapinch, M|48/100|[from]move: U-turn
+|-damage|p1a: Trapinch|42/100|[from] Stealth Rock
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Trapinch|First Impression|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|upkeep
+|
+|switch|p2a: Vibrava|Vibrava, F|100/100
+|-damage|p2a: Vibrava|94/100|[from] Stealth Rock
+|turn|38
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|move|p2a: Vibrava|Earthquake|p1a: Trapinch
+|-damage|p1a: Trapinch|4/100
+|move|p1a: Trapinch|Toxic|p2a: Vibrava
+|-status|p2a: Vibrava|tox
+|
+|-damage|p2a: Vibrava|88/100 tox|[from] psn
+|upkeep
+|turn|39
+|inactive|Zip-a-dee-do-da has 90 seconds left.
+|
+|switch|p1a: Vespiquen|Vespiquen, F|89/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Vibrava|U-turn|p1a: Vespiquen
+|-resisted|p1a: Vespiquen
+|-damage|p1a: Vespiquen|84/100
+|
+|switch|p2a: Klang|Klang|59/100 slp|[from]move: U-turn
+|-damage|p2a: Klang|53/100 slp|[from] Stealth Rock
+|
+|upkeep
+|turn|40
+|
+|-curestatus|p2a: Klang|slp|[msg]
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|move|p1a: Vespiquen|Defog|p2a: Klang
+|-fail|p2a: Klang|unboost|[from] ability: Clear Body|[of] p2a: Klang
+|-sideend|p2: Actually Mush|Stealth Rock|[from] move: Defog|[of] p1a: Vespiquen
+|-sideend|p1: Zip-a-dee-do-da|Stealth Rock|[from] move: Defog|[of] p1a: Vespiquen
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|move|p1a: Vespiquen|U-turn|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|47/100
+|
+|switch|p1a: Mawile|Mawile, F|100/100|[from]move: U-turn
+|-ability|p1a: Mawile|Intimidate|boost
+|-fail|p2a: Klang|unboost|[from] ability: Clear Body|[of] p2a: Klang
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|move|p1a: Mawile|Knock Off|p2a: Klang
+|-damage|p2a: Klang|34/100
+|-enditem|p2a: Klang|Eviolite|[from] move: Knock Off|[of] p1a: Mawile
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Klang|Rest|p2a: Klang
+|-status|p2a: Klang|slp|[from] move: Rest
+|-heal|p2a: Klang|100/100 slp|[silent]
+|move|p1a: Mawile|Knock Off|p2a: Klang
+|-damage|p2a: Klang|86/100 slp
+|
+|upkeep
+|turn|44
+|
+|switch|p1a: Trapinch|Trapinch, M|4/100
+|cant|p2a: Klang|slp
+|move|p2a: Klang|Sleep Talk|p2a: Klang
+|move|p2a: Klang|Gear Grind|p1a: Trapinch|[from]Sleep Talk
+|-damage|p1a: Trapinch|0 fnt
+|-hitcount|p1a: Trapinch|1
+|faint|p1a: Trapinch
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally, shiny|17/100
+|turn|45
+|
+|cant|p2a: Klang|slp
+|move|p2a: Klang|Sleep Talk|p2a: Klang
+|move|p2a: Klang|Shift Gear|p2a: Klang|[from]Sleep Talk
+|-boost|p2a: Klang|spe|0
+|-boost|p2a: Klang|atk|1
+|move|p1a: Silvally|Flamethrower|p2a: Klang
+|-supereffective|p2a: Klang
+|-damage|p2a: Klang|55/100 slp
+|
+|upkeep
+|turn|46
+|
+|-curestatus|p2a: Klang|slp|[msg]
+|move|p2a: Klang|Gear Grind|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|-hitcount|p1a: Silvally|1
+|faint|p1a: Silvally
+|
+|upkeep
+|-message|Zip-a-dee-do-da forfeited.
+|
+|win|Actually Mush
+|l|☆Zip-a-dee-do-da
+|raw|Zip-a-dee-do-da's rating: 1326 &rarr; <strong>1310</strong><br />(-16 for losing)
+|raw|Actually Mush's rating: 1403 &rarr; <strong>1418</strong><br />(+15 for winning)

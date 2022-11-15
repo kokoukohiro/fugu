@@ -1,0 +1,220 @@
+|j|☆Silvally-Gold
+|j|☆Chasin Status
+|player|p1|Silvally-Gold|ethan-gen2|1439
+|player|p2|Chasin Status|cyrus|1536
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Stonjourner, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Sigilyph, M|
+|poke|p1|Escavalier, F|
+|poke|p1|Bewear, M|
+|poke|p1|Turtonator, M|
+|poke|p2|Goodra, M|
+|poke|p2|Pyukumuku, F|
+|poke|p2|Aromatisse, F|
+|poke|p2|Xatu, M|
+|poke|p2|Steelix, M|
+|poke|p2|Vileplume, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Silvally-Gold)
+|
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Steelix|Steelix, M|100/100
+|turn|1
+|
+|move|p1a: Rillaboom|Knock Off|p2a: Steelix
+|-damage|p2a: Steelix|84/100
+|-enditem|p2a: Steelix|Life Orb|[from] move: Knock Off|[of] p1a: Rillaboom
+|move|p2a: Steelix|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: Silvally-Gold|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|move|p2a: Steelix|Flash Cannon|p1a: Sigilyph
+|-damage|p1a: Sigilyph|51/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|100/100
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Steelix|Dark Pulse|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|33/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|move|p1a: Sigilyph|Heat Wave|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|91/100
+|
+|-heal|p2a: Goodra|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|83/100
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Goodra|Dragon Pulse|p1a: Sigilyph
+|-damage|p1a: Sigilyph|40/100
+|
+|-heal|p2a: Goodra|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|90/100
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Goodra|Dragon Pulse|p1a: Sigilyph
+|-damage|p1a: Sigilyph|48/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Sigilyph|Calm Mind|p1a: Sigilyph
+|-boost|p1a: Sigilyph|spa|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Goodra|Dragon Pulse|p1a: Sigilyph
+|-damage|p1a: Sigilyph|18/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|68/100
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Goodra|Dragon Pulse|p1a: Sigilyph
+|-damage|p1a: Sigilyph|40/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F|100/100
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|91/100
+|-singleturn|p1a: Sigilyph|move: Roost
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Sigilyph|Psyshock|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|63/100
+|move|p2a: Pyukumuku|Soak|p1a: Sigilyph
+|-start|p1a: Sigilyph|typechange|Water
+|
+|-heal|p2a: Pyukumuku|69/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Escavalier|Escavalier, F|100/100
+|-damage|p1a: Escavalier|88/100|[from] Stealth Rock
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|100/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Escavalier|Megahorn|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|19/100
+|move|p2a: Pyukumuku|Counter|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|-heal|p2a: Pyukumuku|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Sigilyph|Sigilyph, M|91/100
+|turn|13
+|
+|switch|p2a: Aromatisse|Aromatisse, F|100/100
+|move|p1a: Sigilyph|Psyshock|p2a: Aromatisse
+|-damage|p2a: Aromatisse|53/100
+|
+|-heal|p2a: Aromatisse|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Sigilyph|Calm Mind|p1a: Sigilyph
+|-boost|p1a: Sigilyph|spa|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Aromatisse|Moonblast|p1a: Sigilyph
+|-damage|p1a: Sigilyph|60/100
+|
+|-heal|p2a: Aromatisse|66/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Sigilyph|Calm Mind|p1a: Sigilyph
+|-boost|p1a: Sigilyph|spa|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Aromatisse|Calm Mind|p2a: Aromatisse
+|-boost|p2a: Aromatisse|spa|1
+|-boost|p2a: Aromatisse|spd|1
+|
+|-heal|p2a: Aromatisse|72/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Sigilyph|Psyshock|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|faint|p2a: Aromatisse
+|
+|upkeep
+|c|☆Chasin Status|banded adament
+|c|☆Chasin Status|didnt expect that
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F|25/100
+|turn|17
+|
+|move|p1a: Sigilyph|Psyshock|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|0 fnt
+|faint|p2a: Pyukumuku
+|
+|upkeep
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|turn|18
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|100/100
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Goodra|Dragon Pulse|p1a: Sigilyph
+|-damage|p1a: Sigilyph|77/100
+|
+|upkeep
+|turn|19
+|c|☆Chasin Status|gg i should of gone steelix
+|c|☆Silvally-Gold|gg
+|c|☆Chasin Status|and i would of won easily
+|c|☆Chasin Status|gg
+|
+|move|p1a: Sigilyph|Psyshock|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|-message|Chasin Status forfeited.
+|
+|win|Silvally-Gold
+|l|☆Chasin Status
+|raw|Silvally-Gold's rating: 1449 &rarr; <strong>1474</strong><br />(+25 for winning)
+|raw|Chasin Status's rating: 1536 &rarr; <strong>1511</strong><br />(-25 for losing)

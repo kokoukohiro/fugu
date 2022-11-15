@@ -1,0 +1,307 @@
+|j|☆tjay
+|j|☆Actually Mush
+|player|p1|tjay|#tjay|1139
+|player|p2|Actually Mush|229|1108
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Hippopotas, M|
+|poke|p1|Ninjask, M|
+|poke|p1|Pincurchin, M|
+|poke|p1|Frillish, M|
+|poke|p1|Pawniard, F|
+|poke|p1|Swoobat, M|
+|poke|p2|Natu, M|
+|poke|p2|Palpitoad, M|
+|poke|p2|Mawile, M|
+|poke|p2|Silvally-*|
+|poke|p2|Glaceon, M|
+|poke|p2|Mr. Mime, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| tlenit1
+|c|☆Actually Mush|hf
+|c|☆tjay|hf
+|
+|start
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|switch|p2a: Glaceon|Glaceon, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|
+|switch|p1a: Frillish|Frillish, M|100/100
+|move|p2a: Glaceon|Toxic|p1a: Frillish
+|-status|p1a: Frillish|tox
+|
+|-damage|p1a: Frillish|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p2a: Glaceon|Freeze-Dry|p1a: Frillish
+|-supereffective|p1a: Frillish
+|-damage|p1a: Frillish|46/100 tox
+|move|p1a: Frillish|Will-O-Wisp|p2a: Glaceon
+|-status|p2a: Glaceon|brn
+|
+|-damage|p2a: Glaceon|95/100 brn|[from] brn
+|-damage|p1a: Frillish|34/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Pawniard|Pawniard, F|100/100
+|move|p2a: Glaceon|Freeze-Dry|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-damage|p1a: Pawniard|69/100
+|
+|-heal|p2a: Glaceon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Glaceon|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Silvally|Silvally-Fire|100/100
+|move|p1a: Pawniard|Knock Off|p2a: Silvally
+|-damage|p2a: Silvally|79/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Hippopotas|Hippopotas, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|move|p2a: Silvally|Surf|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Silvally|73/100|[from] Sandstorm
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|switch|p2a: Natu|Natu, M|100/100
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|95/100|[from] Sandstorm
+|-damage|p1a: Pincurchin|94/100|[from] Sandstorm
+|-heal|p1a: Pincurchin|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Natu|Toxic|p1a: Pincurchin
+|-status|p1a: Pincurchin|tox
+|move|p1a: Pincurchin|Zing Zap|p2a: Natu
+|-supereffective|p2a: Natu
+|-damage|p2a: Natu|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|22/100|[from] Sandstorm
+|-damage|p1a: Pincurchin|94/100 tox|[from] Sandstorm
+|-heal|p1a: Pincurchin|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Pincurchin|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Swoobat|Swoobat, M|100/100
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|72/100
+|-singleturn|p2a: Natu|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Swoobat|94/100|[from] Sandstorm
+|-damage|p2a: Natu|66/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p1a: Swoobat|Nasty Plot|p1a: Swoobat
+|-boost|p1a: Swoobat|spa|4
+|move|p2a: Natu|U-turn|p1a: Swoobat
+|-damage|p1a: Swoobat|78/100
+|
+|switch|p2a: Mr. Mime|Mr. Mime, F|100/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|move|p2a: Mr. Mime|Dazzling Gleam|p1a: Swoobat
+|-damage|p1a: Swoobat|11/100
+|-enditem|p1a: Swoobat|Salac Berry|[eat]
+|-boost|p1a: Swoobat|spe|2|[from] item: Salac Berry
+|move|p1a: Swoobat|Heat Wave|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|5/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|11
+|
+|move|p1a: Swoobat|Psychic|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|upkeep
+|
+|switch|p2a: Mawile|Mawile, M|100/100
+|turn|12
+|
+|move|p1a: Swoobat|Nasty Plot|p1a: Swoobat
+|-boost|p1a: Swoobat|spa|2
+|move|p2a: Mawile|Swords Dance|p2a: Mawile
+|-boost|p2a: Mawile|atk|2
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Mawile|Sucker Punch|p1a: Swoobat
+|-supereffective|p1a: Swoobat
+|-damage|p1a: Swoobat|0 fnt
+|-damage|p2a: Mawile|91/100|[from] item: Life Orb
+|faint|p1a: Swoobat
+|
+|upkeep
+|
+|switch|p1a: Pawniard|Pawniard, F|69/100
+|turn|14
+|
+|move|p1a: Pawniard|Iron Head|p2a: Mawile
+|-damage|p2a: Mawile|39/100
+|move|p2a: Mawile|Play Rough|p1a: Pawniard
+|-crit|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|turn|15
+|
+|move|p1a: Ninjask|Dig||[still]
+|-prepare|p1a: Ninjask|Dig|p2a: Mawile
+|move|p2a: Mawile|Play Rough|p1a: Ninjask|[miss]
+|-miss|p2a: Mawile|p1a: Ninjask
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|16
+|
+|switch|p2a: Natu|Natu, M|66/100
+|move|p1a: Ninjask|Dig|p2a: Natu|[from]lockedmove
+|-immune|p2a: Natu
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|17
+|
+|move|p1a: Ninjask|Swords Dance|p1a: Ninjask
+|-boost|p1a: Ninjask|atk|2
+|move|p2a: Natu|Toxic|p1a: Ninjask
+|-status|p1a: Ninjask|tox
+|
+|-damage|p1a: Ninjask|94/100 tox|[from] psn
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|18
+|
+|switch|p2a: Glaceon|Glaceon, M|95/100 brn
+|move|p1a: Ninjask|Leech Life|p2a: Glaceon
+|-damage|p2a: Glaceon|26/100 brn
+|-heal|p1a: Ninjask|100/100 tox|[from] drain|[of] p2a: Glaceon
+|
+|-heal|p2a: Glaceon|32/100 brn|[from] item: Leftovers
+|-damage|p1a: Ninjask|88/100 tox|[from] psn
+|-damage|p2a: Glaceon|26/100 brn|[from] brn
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|19
+|
+|move|p2a: Glaceon|Protect|p2a: Glaceon
+|-singleturn|p2a: Glaceon|Protect
+|move|p1a: Ninjask|Aerial Ace|p2a: Glaceon
+|-activate|p2a: Glaceon|move: Protect
+|
+|-heal|p2a: Glaceon|32/100 brn|[from] item: Leftovers
+|-damage|p1a: Ninjask|70/100 tox|[from] psn
+|-damage|p2a: Glaceon|26/100 brn|[from] brn
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|20
+|
+|switch|p2a: Mawile|Mawile, M|39/100
+|move|p1a: Ninjask|Leech Life|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|10/100
+|-heal|p1a: Ninjask|82/100 tox|[from] drain|[of] p2a: Mawile
+|
+|-damage|p1a: Ninjask|57/100 tox|[from] psn
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|21
+|
+|switch|p1a: Hippopotas|Hippopotas, M|50/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|move|p2a: Mawile|Sucker Punch||[still]
+|-fail|p2a: Mawile
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|switch|p2a: Natu|Natu, M|66/100
+|move|p1a: Hippopotas|Slack Off|p1a: Hippopotas
+|-heal|p1a: Hippopotas|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|60/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|switch|p1a: Pincurchin|Pincurchin, M|94/100 tox
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Natu|Night Shade|p1a: Pincurchin
+|-damage|p1a: Pincurchin|61/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|54/100|[from] Sandstorm
+|-damage|p1a: Pincurchin|55/100 tox|[from] Sandstorm
+|-heal|p1a: Pincurchin|61/100 tox|[from] item: Leftovers
+|-damage|p1a: Pincurchin|55/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Natu|Roost|p2a: Natu
+|-heal|p2a: Natu|100/100
+|-singleturn|p2a: Natu|move: Roost
+|move|p1a: Pincurchin|Zing Zap|p2a: Natu
+|-damage|p2a: Natu|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Natu|61/100|[from] Sandstorm
+|-damage|p1a: Pincurchin|49/100 tox|[from] Sandstorm
+|-heal|p1a: Pincurchin|55/100 tox|[from] item: Leftovers
+|-damage|p1a: Pincurchin|43/100 tox|[from] psn
+|upkeep
+|turn|25
+|-message|tjay forfeited.
+|
+|win|Actually Mush
+|l|☆tjay
+|raw|tjay's rating: 1159 &rarr; <strong>1130</strong><br />(-29 for losing)
+|raw|Actually Mush's rating: 1108 &rarr; <strong>1137</strong><br />(+29 for winning)
+|l| tlenit1

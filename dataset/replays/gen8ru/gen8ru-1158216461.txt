@@ -1,0 +1,294 @@
+|j|☆HC Karp
+|j|☆purple mountains
+|t:|1595803830
+|player|p1|HC Karp|caitlin|1183
+|player|p2|purple mountains|teammagmagruntf-gen3|1303
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Scrafty, F|
+|poke|p1|Magneton|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Galvantula, M|
+|poke|p1|Porygon2|
+|poke|p1|Corsola-Galar, M|
+|poke|p2|Ninjask, M|
+|poke|p2|Frosmoth, F|
+|poke|p2|Sandslash, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Exeggutor-Alola, M|
+|poke|p2|Rhydon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1595803845
+|start
+|switch|p1a: Magneton|Magneton|100/100
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|turn|1
+|
+|t:|1595803850
+|move|p2a: Ninjask|Protect|p2a: Ninjask
+|-singleturn|p2a: Ninjask|Protect
+|move|p1a: Magneton|Volt Switch|p2a: Ninjask
+|-activate|p2a: Ninjask|move: Protect
+|
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|turn|2
+|
+|t:|1595803856
+|move|p2a: Ninjask|U-turn|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|84/100
+|
+|t:|1595803860
+|switch|p2a: Sandslash|Sandslash, F|100/100|[from]move: U-turn
+|move|p1a: Magneton|Volt Switch|p2a: Sandslash
+|-immune|p2a: Sandslash
+|
+|upkeep
+|turn|3
+|
+|t:|1595803872
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|move|p2a: Sandslash|Spikes|p1a: Galvantula
+|-sidestart|p1: HC Karp|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1595803893
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|move|p1a: Galvantula|Sticky Web|p2a: Ninjask
+|-sidestart|p2: purple mountains|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|t:|1595803901
+|move|p2a: Ninjask|U-turn|p1a: Galvantula
+|-damage|p1a: Galvantula|31/100
+|
+|t:|1595803912
+|switch|p2a: Rhydon|Rhydon, F|100/100|[from]move: U-turn
+|-activate|p2a: Rhydon|move: Sticky Web
+|-unboost|p2a: Rhydon|spe|1
+|move|p1a: Galvantula|Bug Buzz|p2a: Rhydon
+|-damage|p2a: Rhydon|66/100
+|
+|upkeep
+|turn|6
+|
+|t:|1595803919
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|move|p1a: Galvantula|Bug Buzz|p2a: Ninjask
+|-resisted|p2a: Ninjask
+|-damage|p2a: Ninjask|59/100
+|
+|upkeep
+|turn|7
+|
+|t:|1595803925
+|move|p1a: Galvantula|Sucker Punch|p2a: Ninjask
+|-damage|p2a: Ninjask|28/100
+|move|p2a: Ninjask|U-turn|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|t:|1595803932
+|switch|p2a: Salazzle|Salazzle, F|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1595803948
+|switch|p1a: Porygon2|Porygon2|100/100
+|-damage|p1a: Porygon2|88/100|[from] Spikes
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|8
+|
+|t:|1595803958
+|move|p2a: Salazzle|Toxic|p1a: Porygon2
+|-status|p1a: Porygon2|tox
+|move|p1a: Porygon2|Thunder Wave|p2a: Salazzle
+|-status|p2a: Salazzle|par
+|
+|-damage|p1a: Porygon2|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1595803967
+|switch|p2a: Rhydon|Rhydon, F|66/100
+|-activate|p2a: Rhydon|move: Sticky Web
+|-unboost|p2a: Rhydon|spe|1
+|move|p1a: Porygon2|Tri Attack|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|54/100
+|-status|p2a: Rhydon|par
+|
+|-damage|p1a: Porygon2|70/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1595803979
+|move|p2a: Rhydon|Stealth Rock|p1a: Porygon2
+|-sidestart|p1: HC Karp|move: Stealth Rock
+|move|p1a: Porygon2|Teleport|p1a: Porygon2
+|
+|t:|1595803988
+|switch|p1a: Magneton|Magneton|84/100|[from]move: Teleport
+|-damage|p1a: Magneton|78/100|[from] Stealth Rock
+|-damage|p1a: Magneton|66/100|[from] Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1595803996
+|switch|p2a: Salazzle|Salazzle, F|100/100 par
+|move|p1a: Magneton|Flash Cannon|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|60/100 par
+|
+|upkeep
+|turn|12
+|
+|t:|1595804002
+|cant|p2a: Salazzle|par
+|move|p1a: Magneton|Thunderbolt|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|upkeep
+|
+|t:|1595804015
+|switch|p2a: Sandslash|Sandslash, F|100/100
+|-activate|p2a: Sandslash|move: Sticky Web
+|-unboost|p2a: Sandslash|spe|1
+|turn|13
+|
+|t:|1595804022
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|-damage|p1a: Corsola|76/100|[from] Spikes
+|move|p2a: Sandslash|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|51/100
+|-start|p2a: Sandslash|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|upkeep
+|turn|14
+|
+|t:|1595804034
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|move|p1a: Corsola|Strength Sap|p2a: Frosmoth
+|-unboost|p2a: Frosmoth|atk|1
+|-heal|p1a: Corsola|89/100
+|
+|upkeep
+|turn|15
+|
+|t:|1595804041
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Corsola|Night Shade|p2a: Frosmoth
+|-damage|p2a: Frosmoth|65/100
+|
+|upkeep
+|turn|16
+|
+|t:|1595804050
+|move|p2a: Frosmoth|Ice Beam|p1a: Corsola
+|-damage|p1a: Corsola|38/100
+|move|p1a: Corsola|Night Shade|p2a: Frosmoth
+|-damage|p2a: Frosmoth|29/100
+|
+|upkeep
+|turn|17
+|
+|t:|1595804057
+|move|p2a: Frosmoth|Ice Beam|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|t:|1595804062
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p1a: Hitmonlee|94/100|[from] Stealth Rock
+|-damage|p1a: Hitmonlee|82/100|[from] Spikes
+|turn|18
+|
+|t:|1595804071
+|move|p1a: Hitmonlee|Bullet Punch|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|
+|t:|1595804077
+|switch|p2a: Sandslash|Sandslash, F|100/100
+|-activate|p2a: Sandslash|move: Sticky Web
+|-unboost|p2a: Sandslash|spe|1
+|turn|19
+|
+|t:|1595804081
+|move|p1a: Hitmonlee|Endure|p1a: Hitmonlee
+|-singleturn|p1a: Hitmonlee|move: Endure
+|move|p2a: Sandslash|Earthquake|p1a: Hitmonlee
+|-activate|p1a: Hitmonlee|move: Endure
+|-damage|p1a: Hitmonlee|1/100
+|-enditem|p1a: Hitmonlee|Liechi Berry|[eat]
+|-boost|p1a: Hitmonlee|atk|1|[from] item: Liechi Berry
+|
+|upkeep
+|turn|20
+|
+|t:|1595804091
+|move|p1a: Hitmonlee|Close Combat|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|-unboost|p1a: Hitmonlee|def|1
+|-unboost|p1a: Hitmonlee|spd|1
+|faint|p2a: Sandslash
+|
+|upkeep
+|
+|t:|1595804095
+|switch|p2a: Ninjask|Ninjask, M|28/100
+|turn|21
+|
+|t:|1595804101
+|move|p2a: Ninjask|Protect|p2a: Ninjask
+|-singleturn|p2a: Ninjask|Protect
+|move|p1a: Hitmonlee|Bullet Punch|p2a: Ninjask
+|-activate|p2a: Ninjask|move: Protect
+|
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|turn|22
+|
+|t:|1595804107
+|move|p1a: Hitmonlee|Bullet Punch|p2a: Ninjask
+|-damage|p2a: Ninjask|0 fnt
+|faint|p2a: Ninjask
+|
+|upkeep
+|-message|purple mountains forfeited.
+|
+|win|HC Karp
+|l|☆purple mountains
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).
