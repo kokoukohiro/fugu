@@ -1,0 +1,332 @@
+|j|☆bluemewgoddess
+|j|☆nachocheesedude
+|player|p1|bluemewgoddess|hilda-dueldisk|1294
+|player|p2|nachocheesedude|cameraman|1303
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ditto|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Zacian-Crowned|
+|poke|p2|Coalossal, M|
+|poke|p2|Eternatus|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Hydreigon, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Zamazenta-Crowned|
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Coalzilla|Coalossal, M|100/100
+|turn|1
+|
+|switch|p2a: Eternity|Eternatus|100/100
+|-ability|p2a: Eternity|Pressure
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Eternity
+|-sidestart|p2: nachocheesedude|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Eternity|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Eternity
+|-sidestart|p2: nachocheesedude|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Eternity|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|4
+|
+|switch|p2a: Arrav|Zamazenta-Crowned|100/100
+|-damage|p2a: Arrav|88/100|[from] Spikes
+|-damage|p2a: Arrav|85/100|[from] Stealth Rock
+|-ability|p2a: Arrav|Dauntless Shield|boost
+|-boost|p2a: Arrav|def|1
+|move|p1a: Dragapult|Draco Meteor|p2a: Arrav
+|-resisted|p2a: Arrav
+|-damage|p2a: Arrav|72/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Dragapult|U-turn|p2a: Arrav
+|-resisted|p2a: Arrav
+|-damage|p2a: Arrav|70/100
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100|[from]move: U-turn
+|move|p2a: Arrav|Behemoth Bash|p1a: Corsola
+|-damage|p1a: Corsola|71/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Coalzilla|Coalossal, M|100/100
+|-damage|p2a: Coalzilla|75/100|[from] Stealth Rock
+|-damage|p2a: Coalzilla|63/100|[from] Spikes
+|move|p1a: Corsola|Strength Sap|p2a: Coalzilla
+|-unboost|p2a: Coalzilla|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-heal|p2a: Coalzilla|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Coalzilla|Stealth Rock|p1a: Corsola
+|-sidestart|p1: bluemewgoddess|move: Stealth Rock
+|move|p1a: Corsola|Iron Defense|p1a: Corsola
+|-boost|p1a: Corsola|def|2
+|
+|-heal|p2a: Coalzilla|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Coalzilla|Spikes|p1a: Corsola
+|-sidestart|p1: bluemewgoddess|Spikes
+|move|p1a: Corsola|Curse|p2a: Coalzilla
+|-start|p2a: Coalzilla|Curse|[of] p1a: Corsola
+|-damage|p1a: Corsola|51/100
+|
+|-heal|p2a: Coalzilla|81/100|[from] item: Leftovers
+|-damage|p2a: Coalzilla|56/100|[from] Curse
+|upkeep
+|turn|9
+|
+|move|p2a: Coalzilla|Spikes|p1a: Corsola
+|-sidestart|p1: bluemewgoddess|Spikes
+|move|p1a: Corsola|Strength Sap|p2a: Coalzilla
+|-unboost|p2a: Coalzilla|atk|1
+|-heal|p1a: Corsola|99/100
+|
+|-heal|p2a: Coalzilla|63/100|[from] item: Leftovers
+|-damage|p2a: Coalzilla|38/100|[from] Curse
+|upkeep
+|turn|10
+|
+|switch|p2a: Hail Hydra|Hydreigon, F|100/100
+|-damage|p2a: Hail Hydra|88/100|[from] Stealth Rock
+|move|p1a: Corsola|Iron Defense|p1a: Corsola
+|-boost|p1a: Corsola|def|2
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|72/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Hail Hydra|Substitute|p2a: Hail Hydra
+|-start|p2a: Hail Hydra|Substitute
+|-damage|p2a: Hail Hydra|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hail Hydra|57/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p2a: Hail Hydra|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|48/100
+|move|p1a: Tyranitar|Ice Beam|p2a: Hail Hydra
+|-supereffective|p2a: Hail Hydra
+|-end|p2a: Hail Hydra|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hail Hydra|51/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|switch|p2a: Coalzilla|Coalossal, M|38/100
+|-damage|p2a: Coalzilla|13/100|[from] Stealth Rock
+|-damage|p2a: Coalzilla|0 fnt|[from] Spikes
+|faint|p2a: Coalzilla
+|move|p1a: Tyranitar|Ice Beam|p2: Coalzilla|[notarget]
+|-fail|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Mordred|Zacian-Crowned|100/100
+|-damage|p2a: Mordred|94/100|[from] Stealth Rock
+|-damage|p2a: Mordred|82/100|[from] Spikes
+|-ability|p2a: Mordred|Intrepid Sword|boost
+|-boost|p2a: Mordred|atk|1
+|turn|14
+|
+|move|p2a: Mordred|Behemoth Blade|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-damage|p1a: Ditto|84/100|[from] Spikes
+|-damage|p1a: Ditto|71/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Mordred|[from] ability: Imposter
+|-ability|p1a: Ditto|Intrepid Sword|boost
+|-boost|p1a: Ditto|atk|1
+|turn|15
+|
+|switch|p2a: Fishy Fishy|Gyarados, F|100/100
+|-damage|p2a: Fishy Fishy|76/100|[from] Stealth Rock
+|-ability|p2a: Fishy Fishy|Intimidate|boost
+|-unboost|p1a: Ditto|atk|1
+|move|p1a: Ditto|Close Combat|p2a: Fishy Fishy
+|-resisted|p2a: Fishy Fishy
+|-damage|p2a: Fishy Fishy|47/100
+|-unboost|p1a: Ditto|def|1
+|-unboost|p1a: Ditto|spd|1
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|switch|p1a: Corsola|Corsola-Galar, M|99/100
+|-damage|p1a: Corsola|82/100|[from] Spikes
+|-damage|p1a: Corsola|70/100|[from] Stealth Rock
+|move|p2a: Fishy Fishy|Thunder Wave|p1a: Corsola
+|-status|p1a: Corsola|par
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Hail Hydra|Hydreigon, F|51/100
+|-damage|p2a: Hail Hydra|39/100|[from] Stealth Rock
+|move|p1a: Corsola|Iron Defense|p1a: Corsola
+|-boost|p1a: Corsola|def|2
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-damage|p1a: Zacian|94/100|[from] Stealth Rock
+|-damage|p1a: Zacian|78/100|[from] Spikes
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|move|p2a: Hail Hydra|Dark Pulse|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|59/100
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Zacian|Play Rough|p2a: Hail Hydra
+|-supereffective|p2a: Hail Hydra
+|-damage|p2a: Hail Hydra|0 fnt
+|faint|p2a: Hail Hydra
+|
+|upkeep
+|
+|switch|p2a: Arrav|Zamazenta-Crowned|70/100
+|-damage|p2a: Arrav|58/100|[from] Spikes
+|-damage|p2a: Arrav|55/100|[from] Stealth Rock
+|-ability|p2a: Arrav|Dauntless Shield|boost
+|-boost|p2a: Arrav|def|1
+|turn|20
+|
+|move|p1a: Zacian|Close Combat|p2a: Arrav
+|-supereffective|p2a: Arrav
+|-damage|p2a: Arrav|0 fnt
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|faint|p2a: Arrav
+|
+|upkeep
+|
+|switch|p2a: Mordred|Zacian-Crowned|82/100
+|-damage|p2a: Mordred|76/100|[from] Stealth Rock
+|-damage|p2a: Mordred|64/100|[from] Spikes
+|-ability|p2a: Mordred|Intrepid Sword|boost
+|-boost|p2a: Mordred|atk|1
+|turn|21
+|
+|move|p2a: Mordred|Behemoth Blade|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto, shiny|71/100
+|-damage|p1a: Ditto|59/100|[from] Stealth Rock
+|-damage|p1a: Ditto|42/100|[from] Spikes
+|-transform|p1a: Ditto|p2a: Mordred|[from] ability: Imposter
+|-ability|p1a: Ditto|Intrepid Sword|boost
+|-boost|p1a: Ditto|atk|1
+|turn|22
+|
+|move|p1a: Ditto|Behemoth Blade|p2a: Mordred
+|-damage|p2a: Mordred|0 fnt
+|faint|p2a: Mordred
+|
+|upkeep
+|
+|switch|p2a: Fishy Fishy|Gyarados, F|47/100
+|-damage|p2a: Fishy Fishy|22/100|[from] Stealth Rock
+|-ability|p2a: Fishy Fishy|Intimidate|boost
+|-unboost|p1a: Ditto|atk|1
+|turn|23
+|
+|move|p1a: Ditto|Behemoth Blade|p2a: Fishy Fishy
+|-resisted|p2a: Fishy Fishy
+|-damage|p2a: Fishy Fishy|0 fnt
+|faint|p2a: Fishy Fishy
+|
+|upkeep
+|
+|switch|p2a: Eternity|Eternatus|100/100
+|-damage|p2a: Eternity|88/100|[from] Spikes
+|-damage|p2a: Eternity|76/100|[from] Stealth Rock
+|-ability|p2a: Eternity|Pressure
+|turn|24
+|
+|move|p1a: Ditto|Behemoth Blade|p2a: Eternity
+|-damage|p2a: Eternity|11/100
+|move|p2a: Eternity|Flamethrower|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-crit|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|-heal|p2a: Eternity|17/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|84/100|[from] Spikes
+|-damage|p1a: Dragapult|72/100|[from] Stealth Rock
+|turn|25
+|
+|-start|p1a: Dragapult|Dynamax
+|-heal|p1a: Dragapult|72/100|[silent]
+|move|p1a: Dragapult|Max Wyrmwind|p2a: Eternity
+|-supereffective|p2a: Eternity
+|-damage|p2a: Eternity|0 fnt
+|faint|p2a: Eternity
+|
+|win|bluemewgoddess
+|raw|bluemewgoddess's rating: 1264 &rarr; <strong>1292</strong><br />(+28 for winning)
+|raw|nachocheesedude's rating: 1303 &rarr; <strong>1281</strong><br />(-22 for losing)

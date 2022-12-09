@@ -1,0 +1,309 @@
+|j|☆QiYu4
+|j|☆Rell25
+|player|p1|QiYu4|psychic-gen4|1605
+|player|p2|Rell25|102|1633
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Mewtwo|
+|poke|p1|Marshadow|
+|poke|p1|Lunala|
+|poke|p1|Ditto|
+|poke|p1|Eternatus|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Eternatus|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Mewtwo|
+|poke|p2|Necrozma-Dusk-Mane|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Lunala|Lunala|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Lunala|Trick|p2a: Tyranitar
+|-activate|p1a: Lunala|move: Trick|[of] p2a: Tyranitar
+|-item|p2a: Tyranitar|Choice Specs|[from] move: Trick
+|-item|p1a: Lunala|Focus Sash|[from] move: Trick
+|move|p2a: Tyranitar|Dark Pulse|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lunala|21/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Tyranitar|Dark Pulse|p1a: Eternatus
+|-damage|p1a: Eternatus|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eternatus|55/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eternatus|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p1a: Lunala|Lunala|21/100
+|move|p2a: Excadrill|Earthquake|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Excadrill|[from] ability: Imposter
+|turn|5
+|
+|move|p1a: Ditto|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|move|p2a: Excadrill|Earthquake|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-enditem|p1a: Ditto|Focus Sash
+|-damage|p1a: Ditto|1/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-boost|p2a: Excadrill|spe|1
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|switch|p1a: Marshadow|Marshadow|100/100
+|turn|7
+|j| Mr. Alotta Cheese
+|
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Marshadow|Spectral Thief|p2a: Eternatus
+|-damage|p2a: Eternatus|60/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|84/100
+|
+|-heal|p1a: Necrozma|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Eternatus|Flamethrower|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|57/100
+|-status|p1a: Necrozma|brn
+|move|p1a: Necrozma|Stealth Rock|p2a: Eternatus
+|-sidestart|p2: Rell25|move: Stealth Rock
+|
+|-heal|p1a: Necrozma|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|57/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|100/100
+|move|p1a: Necrozma|Moonlight|p1a: Necrozma
+|-heal|p1a: Necrozma|100/100 brn
+|
+|-damage|p1a: Necrozma|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Necrozma|Thunder Wave|p2a: Tyranitar
+|-status|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Necrozma|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Eternatus|Eternatus|94/100
+|-ability|p1a: Eternatus|Pressure
+|cant|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eternatus|88/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|move|p1a: Eternatus|Cosmic Power|p1a: Eternatus
+|-boost|p1a: Eternatus|def|1
+|-boost|p1a: Eternatus|spd|1
+|move|p2a: Tyranitar|Stealth Rock|p1a: Eternatus
+|-sidestart|p1: QiYu4|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eternatus|82/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|switch|p2a: Mewtwo|Mewtwo|100/100
+|-damage|p2a: Mewtwo|88/100|[from] Stealth Rock
+|-ability|p2a: Mewtwo|Pressure
+|move|p1a: Eternatus|Cosmic Power|p1a: Eternatus
+|-boost|p1a: Eternatus|def|1
+|-boost|p1a: Eternatus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mewtwo|82/100|[from] Sandstorm
+|-damage|p1a: Eternatus|76/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|-start|p2a: Mewtwo|Dynamax
+|-heal|p2a: Mewtwo|82/100|[silent]
+|move|p2a: Mewtwo|Max Mindstorm|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p1a: Eternatus
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|94/100 brn
+|-damage|p1a: Necrozma|88/100 brn|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Mewtwo|Max Flare|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|36/100 brn
+|-weather|SunnyDay
+|move|p1a: Necrozma|Knock Off|p2a: Mewtwo
+|-supereffective|p2a: Mewtwo
+|-damage|p2a: Mewtwo|65/100
+|-enditem|p2a: Mewtwo|Expert Belt|[from] move: Knock Off|[of] p1a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Necrozma|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|36/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Mewtwo|Max Flare|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Mewtwo|Dynamax
+|-heal|p2a: Mewtwo|65/100|[silent]
+|upkeep
+|l|☆QiYu4
+|player|p1|
+|j|☆QiYu4
+|player|p1|QiYu4|psychic-gen4
+|
+|switch|p1a: Marshadow|Marshadow|100/100
+|-damage|p1a: Marshadow|94/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Marshadow|Spectral Thief|p2a: Mewtwo
+|-supereffective|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|88/100 par
+|-damage|p2a: Tyranitar|75/100 par|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|19
+|
+|move|p1a: Marshadow|Spectral Thief|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|58/100 par
+|move|p2a: Tyranitar|Dark Pulse|p1a: Marshadow
+|-damage|p1a: Marshadow|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Marshadow|27/100|[from] Sandstorm
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|20
+|
+|-start|p1a: Marshadow|Dynamax
+|-heal|p1a: Marshadow|27/100|[silent]
+|move|p1a: Marshadow|Max Knuckle|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-boost|p1a: Marshadow|atk|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Marshadow|24/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-damage|p2a: Zacian|94/100|[from] Stealth Rock
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|21
+|
+|-end|p1a: Marshadow|Dynamax
+|-heal|p1a: Marshadow|24/100|[silent]
+|switch|p1a: Mewtwo|Mewtwo|100/100
+|-damage|p1a: Mewtwo|88/100|[from] Stealth Rock
+|-ability|p1a: Mewtwo|Pressure
+|move|p2a: Zacian|Behemoth Blade|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Marshadow|Marshadow|24/100
+|-damage|p1a: Marshadow|18/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Marshadow|Spectral Thief||[still]
+|-clearpositiveboost|p2a: Zacian|p1a: Marshadow|move: Spectral Thief
+|-boost|p1a: Marshadow|atk|1
+|-anim|p1a: Marshadow|Spectral Thief|p2a: Zacian
+|-damage|p2a: Zacian|29/100
+|move|p2a: Zacian|Behemoth Blade|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|win|Rell25
+|l|☆QiYu4
+|raw|QiYu4's rating: 1605 &rarr; <strong>1587</strong><br />(-18 for losing)
+|raw|Rell25's rating: 1634 &rarr; <strong>1652</strong><br />(+18 for winning)

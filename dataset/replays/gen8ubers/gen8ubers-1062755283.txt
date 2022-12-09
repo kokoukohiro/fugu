@@ -1,0 +1,342 @@
+|j|☆Terra the creator
+|j|☆killer whale squa
+|player|p1|Terra the creator|dawn|1586
+|player|p2|killer whale squa|216|1468
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Marshadow|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Zamazenta|
+|poke|p1|Dugtrio, F|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Rotom-Heat|
+|poke|p2|Marshadow|
+|poke|p2|Clefable, F|
+|poke|p2|Darmanitan-Galar, M|
+|poke|p2|Zekrom|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|c|☆killer whale squa|hf
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Rotom
+|-sidestart|p2: killer whale squa|move: Stealth Rock
+|move|p2a: Rotom|Will-O-Wisp|p1a: Dugtrio
+|-status|p1a: Dugtrio|brn
+|
+|-damage|p1a: Dugtrio|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Rotom|Defog|p1a: Mandibuzz
+|-unboost|p1a: Mandibuzz|evasion|1
+|-sideend|p2: killer whale squa|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Volt Switch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|67/100
+|
+|switch|p2a: Clefable|Clefable, F|100/100|[from]move: Volt Switch
+|move|p1a: Mandibuzz|Toxic|p2a: Clefable|[miss]
+|-miss|p1a: Mandibuzz|p2a: Clefable
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Mandibuzz|Toxic|p2a: Clefable
+|-status|p2a: Clefable|tox
+|move|p2a: Clefable|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Terra the creator|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|j| Emon123
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p1a: Necrozma|94/100|[from] Stealth Rock
+|move|p2a: Clefable|Stealth Rock||[still]
+|-fail|p2a: Clefable
+|
+|-heal|p1a: Necrozma|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Necrozma|Swords Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|2
+|
+|upkeep
+|turn|7
+|
+|-start|p1a: Necrozma|Dynamax
+|-heal|p1a: Necrozma|100/100|[silent]
+|move|p2a: Rotom|Will-O-Wisp|p1a: Necrozma
+|-status|p1a: Necrozma|brn
+|move|p1a: Necrozma|Max Darkness|p2a: Rotom
+|-damage|p2a: Rotom|63/100
+|-unboost|p2a: Rotom|spd|1
+|
+|-heal|p2a: Rotom|69/100|[from] item: Leftovers
+|-damage|p1a: Necrozma|97/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Overheat|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|70/100 brn
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Necrozma|Max Steelspike|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|55/100
+|-boost|p1a: Necrozma|def|1
+|
+|-heal|p2a: Rotom|61/100|[from] item: Leftovers
+|-heal|p1a: Necrozma|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|70/100 brn|[from] brn
+|upkeep
+|turn|9
+|l| Emon123
+|
+|move|p2a: Rotom|Volt Switch|p1a: Necrozma
+|-damage|p1a: Necrozma|64/100 brn
+|
+|switch|p2a: Marshadow|Marshadow|100/100|[from]move: Volt Switch
+|move|p1a: Necrozma|Max Steelspike|p2a: Marshadow
+|-damage|p2a: Marshadow|1/100
+|-boost|p1a: Necrozma|def|1
+|
+|-heal|p1a: Necrozma|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|64/100 brn|[from] brn
+|-end|p1a: Necrozma|Dynamax
+|-heal|p1a: Necrozma|64/100 brn|[silent]
+|upkeep
+|turn|10
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Marshadow|Spectral Thief|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100
+|-damage|p2a: Marshadow|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Marshadow
+|
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|11
+|
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|move|p1a: Ferrothorn|Bulldoze|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-crit|p2a: Zacian
+|-damage|p2a: Zacian|65/100
+|-unboost|p2a: Zacian|spe|1
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Zacian|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Zacian|def|1
+|-unboost|p2a: Zacian|spd|1
+|-damage|p2a: Zacian|52/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Zacian|36/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Marshadow|Marshadow|100/100
+|-damage|p1a: Marshadow|94/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Clefable|Clefable, F|100/100 tox
+|move|p1a: Marshadow|Shadow Sneak|p2a: Clefable
+|-damage|p2a: Clefable|69/100 tox
+|-damage|p1a: Marshadow|84/100|[from] item: Life Orb
+|
+|-heal|p2a: Clefable|75/100 tox|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Dugtrio|Dugtrio, F|94/100 brn
+|-damage|p1a: Dugtrio|88/100 brn|[from] Stealth Rock
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100/100 tox
+|
+|-damage|p1a: Dugtrio|82/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Clefable
+|-sidestart|p2: killer whale squa|move: Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Dugtrio
+|-damage|p1a: Dugtrio|12/100 brn
+|
+|-damage|p1a: Dugtrio|6/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|83/100 tox
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100/100 tox
+|
+|-damage|p1a: Dugtrio|0 fnt|[from] brn
+|faint|p1a: Dugtrio
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|64/100 brn
+|-damage|p1a: Necrozma|58/100 brn|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Rotom|Rotom-Heat|61/100
+|-damage|p2a: Rotom|36/100|[from] Stealth Rock
+|move|p1a: Necrozma|Swords Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|2
+|
+|-heal|p2a: Rotom|42/100|[from] item: Leftovers
+|-heal|p1a: Necrozma|64/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|58/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Rotom|Overheat|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Necrozma
+|
+|-heal|p2a: Rotom|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|95/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|19
+|
+|move|p1a: Zamazenta|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100 tox
+|turn|20
+|
+|move|p1a: Zamazenta|Close Combat|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|62/100 tox
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Clefable|69/100 tox|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|67/100
+|turn|21
+|
+|move|p1a: Mandibuzz|Snarl|p2a: Clefable|[miss]
+|-miss|p1a: Mandibuzz|p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|29/100
+|
+|-heal|p2a: Clefable|75/100 tox|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆killer whale squa|im sorry
+|j| Mr. Alotta Cheese
+|
+|move|p1a: Mandibuzz|Snarl|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|69/100 tox
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Moonblast|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|5/100
+|-unboost|p1a: Mandibuzz|spa|1
+|
+|-heal|p2a: Clefable|75/100 tox|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Mandibuzz|Snarl|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|71/100 tox
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Moonblast|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-heal|p2a: Clefable|77/100 tox|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Marshadow|Marshadow|84/100
+|-damage|p1a: Marshadow|78/100|[from] Stealth Rock
+|turn|24
+|l| Mr. Alotta Cheese
+|
+|move|p1a: Marshadow|Bulk Up|p1a: Marshadow
+|-boost|p1a: Marshadow|atk|1
+|-boost|p1a: Marshadow|def|1
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100/100 tox
+|
+|upkeep
+|turn|25
+|
+|-start|p2a: Clefable|Dynamax
+|-heal|p2a: Clefable|100/100 tox|[silent]
+|move|p1a: Marshadow|Bulk Up|p1a: Marshadow
+|-boost|p1a: Marshadow|atk|1
+|-boost|p1a: Marshadow|def|1
+|move|p2a: Clefable|Max Starfall|p1a: Marshadow
+|-supereffective|p1a: Marshadow
+|-damage|p1a: Marshadow|29/100
+|-fieldstart|move: Misty Terrain
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Marshadow|Spectral Thief|p2a: Clefable
+|-damage|p2a: Clefable|52/100 tox
+|-damage|p1a: Marshadow|20/100|[from] item: Life Orb
+|move|p2a: Clefable|Max Starfall|p1a: Marshadow
+|-supereffective|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|win|killer whale squa
+|l|☆Terra the creator
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

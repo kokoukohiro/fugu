@@ -1,0 +1,571 @@
+|j|☆WolfYokai
+|j|☆A Bread Sandwich
+|t:|1596620793
+|player|p1|WolfYokai|170|1737
+|player|p2|A Bread Sandwich|pokefan|1890
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Groudon|
+|poke|p1|Ho-Oh|
+|poke|p1|Rayquaza|
+|poke|p1|Yveltal|
+|poke|p1|Ditto|
+|poke|p1|Kyogre|
+|poke|p2|Shuckle, M|
+|poke|p2|Smeargle, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Manaphy|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Thundurus-Therian, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WolfYokai)
+|inactive|A Bread Sandwich has 120 seconds left.
+|
+|t:|1596620854
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|-transform|p1a: Ditto|p2a: Shuckle|[from] ability: Imposter
+|turn|1
+|
+|t:|1596620875
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|move|p1a: Ditto|Stealth Rock|p2a: Smeargle
+|-sidestart|p2: A Bread Sandwich|move: Stealth Rock
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|2
+|
+|t:|1596620882
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|move|p2a: Smeargle|Spore|p1a: Groudon
+|-status|p1a: Groudon|slp|[from] move: Spore
+|
+|-weather|DesolateLand|[upkeep]
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|turn|3
+|
+|t:|1596620885
+|move|p2a: Smeargle|Substitute|p2a: Smeargle
+|-start|p2a: Smeargle|Substitute
+|-damage|p2a: Smeargle|75/100
+|cant|p1a: Groudon|slp
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Smeargle|81/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|atk|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|turn|4
+|
+|t:|1596620888
+|move|p2a: Smeargle|Shell Smash|p2a: Smeargle
+|-unboost|p2a: Smeargle|def|1
+|-unboost|p2a: Smeargle|spd|1
+|-boost|p2a: Smeargle|atk|2
+|-boost|p2a: Smeargle|spa|2
+|-boost|p2a: Smeargle|spe|2
+|-curestatus|p1a: Groudon|slp|[msg]
+|move|p1a: Groudon|Roar|p2a: Smeargle
+|drag|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1596620893
+|move|p2a: Thundurus|Taunt|p1a: Groudon
+|-start|p1a: Groudon|move: Taunt
+|move|p1a: Groudon|Overheat|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-unboost|p1a: Groudon|spa|2
+|faint|p2a: Thundurus
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|t:|1596620897
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|-damage|p2a: Shuckle|75/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1596620903
+|-weather|none
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Shuckle|Sticky Web|p1a: Ho-Oh
+|-sidestart|p1: WolfYokai|move: Sticky Web
+|
+|upkeep
+|turn|7
+|
+|t:|1596620906
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Shuckle
+|-damage|p2a: Shuckle|53/100
+|-enditem|p2a: Shuckle|Red Card|[of] p1a: Ho-Oh
+|drag|p1a: Ditto|Ditto|100/100
+|-activate|p1a: Ditto|move: Sticky Web
+|-unboost|p1a: Ditto|spe|1
+|-transform|p1a: Ditto|p2a: Shuckle|[from] ability: Imposter
+|move|p2a: Shuckle|Encore||[still]
+|-fail|p2a: Shuckle
+|
+|upkeep
+|turn|8
+|
+|t:|1596620916
+|switch|p2a: Smeargle|Smeargle, M|81/100
+|-damage|p2a: Smeargle|69/100|[from] Stealth Rock
+|move|p1a: Ditto|Encore||[still]
+|-fail|p1a: Ditto
+|
+|-heal|p2a: Smeargle|75/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spd|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|9
+|
+|t:|1596620922
+|switch|p1a: Groudon|Groudon-Primal|100/100
+|-activate|p1a: Groudon|move: Sticky Web
+|-unboost|p1a: Groudon|spe|1
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|move|p2a: Smeargle|Spore|p1a: Groudon
+|-status|p1a: Groudon|slp|[from] move: Spore
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Smeargle|81/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|turn|10
+|
+|t:|1596620925
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Groudon|atk|1
+|cant|p1a: Groudon|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1596620931
+|-weather|none
+|switch|p1a: Ditto|Ditto|100/100
+|-activate|p1a: Ditto|move: Sticky Web
+|-unboost|p1a: Ditto|spe|1
+|-transform|p1a: Ditto|p2a: Landorus|[from] ability: Imposter
+|-ability|p1a: Ditto|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1596620945
+|switch|p1a: Groudon|Groudon-Primal|100/100 slp
+|-activate|p1a: Groudon|move: Sticky Web
+|-unboost|p1a: Groudon|spe|1
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|-start|p2a: Landorus|Dynamax
+|-heal|p2a: Landorus|88/100|[silent]
+|move|p2a: Landorus|Max Airstream|p1a: Groudon
+|-damage|p1a: Groudon|39/100 slp
+|-boost|p2a: Landorus|spe|1
+|-damage|p2a: Landorus|83/100|[from] item: Life Orb
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1596620949
+|-weather|none
+|switch|p1a: Ditto|Ditto|100/100
+|-activate|p1a: Ditto|move: Sticky Web
+|-unboost|p1a: Ditto|spe|1
+|-transform|p1a: Ditto|p2a: Landorus|[from] ability: Imposter
+|-ability|p1a: Ditto|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Max Quake|p1a: Ditto
+|-immune|p1a: Ditto
+|
+|upkeep
+|turn|14
+|
+|t:|1596620954
+|switch|p1a: Groudon|Groudon-Primal|39/100 slp
+|-activate|p1a: Groudon|move: Sticky Web
+|-unboost|p1a: Groudon|spe|1
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|move|p2a: Landorus|Max Strike|p1a: Groudon
+|-damage|p1a: Groudon|5/100 slp
+|-unboost|p1a: Groudon|spe|1
+|-damage|p2a: Landorus|79/100|[from] item: Life Orb
+|
+|-weather|DesolateLand|[upkeep]
+|-end|p2a: Landorus|Dynamax
+|-heal|p2a: Landorus|79/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1596620963
+|move|p2a: Landorus|Earthquake|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-damage|p2a: Landorus|69/100|[from] item: Life Orb
+|faint|p1a: Groudon
+|-weather|none
+|
+|upkeep
+|
+|t:|1596620973
+|switch|p1a: Ditto|Ditto|100/100
+|-activate|p1a: Ditto|move: Sticky Web
+|-unboost|p1a: Ditto|spe|1
+|-transform|p1a: Ditto|p2a: Landorus|[from] ability: Imposter
+|-ability|p1a: Ditto|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|16
+|j|&Ransei
+|
+|t:|1596620983
+|move|p1a: Ditto|Fly||[still]
+|-prepare|p1a: Ditto|Fly
+|move|p2a: Landorus|Explosion|p1a: Ditto|[miss]
+|-miss|p2a: Landorus|p1a: Ditto
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1596620987
+|switch|p2a: Manaphy|Manaphy|100/100
+|-damage|p2a: Manaphy|88/100|[from] Stealth Rock
+|turn|17
+|l|&Ransei
+|
+|t:|1596620990
+|move|p1a: Ditto|Fly|p2a: Manaphy|[from]lockedmove
+|-damage|p2a: Manaphy|41/100
+|move|p2a: Manaphy|Ice Beam|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-damage|p2a: Manaphy|31/100|[from] item: Life Orb
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|t:|1596620996
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|18
+|
+|t:|1596621001
+|move|p2a: Manaphy|Ice Beam|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|40/100
+|-damage|p2a: Manaphy|21/100|[from] item: Life Orb
+|move|p1a: Yveltal|Dark Pulse|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|-damage|p1a: Yveltal|30/100|[from] item: Life Orb
+|faint|p2a: Manaphy
+|
+|upkeep
+|
+|t:|1596621007
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|-damage|p2a: Mimikyu|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1596621012
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Mimikyu|Play Rough|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|79/100
+|-unboost|p1a: Ho-Oh|atk|1
+|-damage|p2a: Mimikyu|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|t:|1596621015
+|switch|p2a: Shuckle|Shuckle, M|53/100
+|-damage|p2a: Shuckle|28/100|[from] Stealth Rock
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Shuckle
+|-damage|p2a: Shuckle|11/100
+|
+|upkeep
+|turn|21
+|
+|t:|1596621020
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|upkeep
+|
+|t:|1596621022
+|switch|p2a: Smeargle|Smeargle, M|81/100
+|-damage|p2a: Smeargle|69/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1596621029
+|move|p2a: Smeargle|Spore|p1a: Ho-Oh
+|-status|p1a: Ho-Oh|slp|[from] move: Spore
+|cant|p1a: Ho-Oh|slp
+|
+|-heal|p2a: Smeargle|75/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|23
+|j| as fast as you can
+|inactive|WolfYokai has 120 seconds left.
+|
+|t:|1596621074
+|switch|p1a: Yveltal|Yveltal|30/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Smeargle|Substitute|p2a: Smeargle
+|-start|p2a: Smeargle|Substitute
+|-damage|p2a: Smeargle|50/100
+|
+|-heal|p2a: Smeargle|56/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|atk|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|24
+|
+|t:|1596621079
+|move|p2a: Smeargle|Spore|p1a: Yveltal
+|-status|p1a: Yveltal|slp|[from] move: Spore
+|cant|p1a: Yveltal|slp
+|
+|-heal|p2a: Smeargle|62/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|atk|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|turn|25
+|
+|t:|1596621081
+|move|p2a: Smeargle|Shell Smash|p2a: Smeargle
+|-unboost|p2a: Smeargle|def|1
+|-unboost|p2a: Smeargle|spd|1
+|-boost|p2a: Smeargle|atk|2
+|-boost|p2a: Smeargle|spa|2
+|-boost|p2a: Smeargle|spe|2
+|-curestatus|p1a: Yveltal|slp|[msg]
+|move|p1a: Yveltal|Dark Pulse|p2a: Smeargle
+|-end|p2a: Smeargle|Substitute
+|-damage|p1a: Yveltal|20/100|[from] item: Life Orb
+|
+|-heal|p2a: Smeargle|68/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|26
+|
+|t:|1596621088
+|move|p2a: Smeargle|Spore|p1a: Yveltal
+|-status|p1a: Yveltal|slp|[from] move: Spore
+|cant|p1a: Yveltal|slp
+|
+|-heal|p2a: Smeargle|74/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|27
+|
+|t:|1596621094
+|move|p2a: Smeargle|Substitute|p2a: Smeargle
+|-start|p2a: Smeargle|Substitute
+|-damage|p2a: Smeargle|49/100
+|cant|p1a: Yveltal|slp
+|
+|-heal|p2a: Smeargle|54/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|28
+|
+|t:|1596621099
+|move|p2a: Smeargle|Power Trip|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|
+|-heal|p2a: Smeargle|60/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spd|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|
+|t:|1596621102
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|29
+|
+|t:|1596621107
+|detailschange|p1a: Rayquaza|Rayquaza-Mega
+|-mega|p1a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p1a: Rayquaza|Extreme Speed|p2a: Smeargle
+|-end|p2a: Smeargle|Substitute
+|move|p2a: Smeargle|Spore|p1a: Rayquaza
+|-status|p1a: Rayquaza|slp|[from] move: Spore
+|
+|-weather|DeltaStream|[upkeep]
+|-heal|p2a: Smeargle|66/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spd|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|turn|30
+|
+|t:|1596621110
+|cant|p1a: Rayquaza|slp
+|move|p2a: Smeargle|Substitute|p2a: Smeargle
+|-start|p2a: Smeargle|Substitute
+|-damage|p2a: Smeargle|41/100
+|
+|-weather|DeltaStream|[upkeep]
+|-heal|p2a: Smeargle|47/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|turn|31
+|
+|t:|1596621113
+|-curestatus|p1a: Rayquaza|slp|[msg]
+|move|p1a: Rayquaza|Extreme Speed|p2a: Smeargle
+|-crit|p2a: Smeargle
+|-end|p2a: Smeargle|Substitute
+|move|p2a: Smeargle|Power Trip|p1a: Rayquaza
+|-enditem|p1a: Rayquaza|Focus Sash
+|-damage|p1a: Rayquaza|1/100
+|
+|-weather|DeltaStream|[upkeep]
+|-heal|p2a: Smeargle|53/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|32
+|
+|t:|1596621118
+|switch|p2a: Mimikyu|Mimikyu, F|78/100
+|-damage|p2a: Mimikyu|66/100|[from] Stealth Rock
+|move|p1a: Rayquaza|Extreme Speed|p2a: Mimikyu
+|-immune|p2a: Mimikyu
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1596621125
+|-weather|none
+|switch|p1a: Ho-Oh|Ho-Oh|100/100 slp
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|82/100 slp
+|-damage|p2a: Mimikyu|56/100|[from] item: Life Orb
+|
+|upkeep
+|turn|34
+|
+|t:|1596621128
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|-curestatus|p1a: Ho-Oh|slp|[msg]
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Mimikyu|[miss]
+|-miss|p1a: Ho-Oh|p2a: Mimikyu
+|
+|upkeep
+|turn|35
+|
+|t:|1596621131
+|move|p2a: Mimikyu|Shadow Claw|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|19/100
+|-damage|p2a: Mimikyu|46/100|[from] item: Life Orb
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|46/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|34/100|[from] pokemon: Mimikyu-Busted
+|
+|upkeep
+|turn|36
+|
+|t:|1596621139
+|move|p2a: Mimikyu|Shadow Claw|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|-damage|p2a: Mimikyu|24/100|[from] item: Life Orb
+|faint|p1a: Ho-Oh
+|
+|upkeep
+|
+|t:|1596621141
+|switch|p1a: Kyogre|Kyogre|100/100
+|-activate|p1a: Kyogre|move: Sticky Web
+|-unboost|p1a: Kyogre|spe|1
+|detailschange|p1a: Kyogre|Kyogre-Primal
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|37
+|
+|t:|1596621143
+|move|p2a: Mimikyu|Play Rough|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p2a: Mimikyu|14/100|[from] item: Life Orb
+|faint|p1a: Kyogre
+|-weather|none
+|
+|upkeep
+|
+|t:|1596621146
+|switch|p1a: Rayquaza|Rayquaza-Mega|1/100
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|turn|38
+|
+|t:|1596621149
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|-damage|p2a: Mimikyu|4/100|[from] item: Life Orb
+|faint|p1a: Rayquaza
+|-weather|none
+|
+|win|A Bread Sandwich
+|c| as fast as you can|yo it actually killed
+|c|☆WolfYokai|gg
+|raw|WolfYokai's rating: 1737 &rarr; <strong>1725</strong><br />(-12 for losing)
+|raw|A Bread Sandwich's rating: 1890 &rarr; <strong>1901</strong><br />(+11 for winning)
+|c|☆A Bread Sandwich|gg
+|c|☆A Bread Sandwich|lol
+|l|☆WolfYokai
+|l| as fast as you can

@@ -1,0 +1,168 @@
+|j|☆Abbcheese
+|j|☆PolicialShow
+|player|p1|Abbcheese|crasherwake|1000
+|player|p2|PolicialShow|101|1070
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Ludicolo, F|
+|poke|p1|Ludicolo, M|
+|poke|p1|Ludicolo, F|
+|poke|p1|Ludicolo, M|
+|poke|p1|Ludicolo, F|
+|poke|p1|Ludicolo, F|
+|poke|p2|Perrserker, F|
+|poke|p2|Inteleon, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Lycanroc-Midnight, F|
+|poke|p2|Blaziken, F|
+|poke|p2|Cloyster, F|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PolicialShow)
+|
+|start
+|switch|p1a: Ludicolo|Ludicolo, F|100/100
+|switch|p2a: Vovo|Perrserker, F|100/100
+|turn|1
+|
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|move|p2a: Vovo|Swords Dance|p2a: Vovo
+|-boost|p2a: Vovo|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|-start|p1a: Ludicolo|Dynamax
+|-heal|p1a: Ludicolo|100/100|[silent]
+|move|p1a: Ludicolo|Max Geyser|p2a: Vovo
+|-damage|p2a: Vovo|0 fnt
+|-damage|p1a: Ludicolo|96/100|[from] item: Life Orb
+|faint|p2a: Vovo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Coisa De Nerd|Inteleon, F|100/100
+|turn|3
+|
+|move|p1a: Ludicolo|Max Overgrowth|p2a: Coisa De Nerd
+|-supereffective|p2a: Coisa De Nerd
+|-damage|p2a: Coisa De Nerd|0 fnt
+|-fieldstart|move: Grassy Terrain
+|-damage|p1a: Ludicolo|91/100|[from] item: Life Orb
+|faint|p2a: Coisa De Nerd
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ludicolo|94/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p2a: Pultz Diggo!|Dragapult, F|100/100
+|turn|4
+|
+|-start|p2a: Pultz Diggo!|Dynamax
+|-heal|p2a: Pultz Diggo!|100/100|[silent]
+|move|p2a: Pultz Diggo!|Max Guard|p2a: Pultz Diggo!
+|-singleturn|p2a: Pultz Diggo!|Max Guard
+|move|p1a: Ludicolo|Max Hailstorm|p2a: Pultz Diggo!
+|-activate|p2a: Pultz Diggo!|move: Max Guard
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ludicolo|97/100|[from] Grassy Terrain
+|-end|p1a: Ludicolo|Dynamax
+|-heal|p1a: Ludicolo|97/100|[silent]
+|upkeep
+|turn|5
+|
+|move|p1a: Ludicolo|Ice Beam|p2a: Pultz Diggo!
+|-supereffective|p2a: Pultz Diggo!
+|-damage|p2a: Pultz Diggo!|54/100
+|-damage|p1a: Ludicolo|87/100|[from] item: Life Orb
+|move|p2a: Pultz Diggo!|Max Wyrmwind|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|-weather|none
+|-heal|p2a: Pultz Diggo!|57/100|[from] item: Leftovers
+|-heal|p2a: Pultz Diggo!|60/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|turn|6
+|
+|move|p1a: Ludicolo|Protect|p1a: Ludicolo
+|-singleturn|p1a: Ludicolo|Protect
+|move|p2a: Pultz Diggo!|Max Wyrmwind|p1a: Ludicolo
+|-zbroken|p1a: Ludicolo
+|-damage|p1a: Ludicolo|75/100
+|-unboost|p1a: Ludicolo|atk|1
+|
+|-heal|p2a: Pultz Diggo!|63/100|[from] item: Leftovers
+|-heal|p2a: Pultz Diggo!|66/100|[from] Grassy Terrain
+|-heal|p1a: Ludicolo|81/100|[from] Grassy Terrain
+|-end|p2a: Pultz Diggo!|Dynamax
+|-heal|p2a: Pultz Diggo!|66/100|[silent]
+|upkeep
+|turn|7
+|
+|move|p2a: Pultz Diggo!|Attract|p1a: Ludicolo
+|-start|p1a: Ludicolo|Attract
+|-activate|p1a: Ludicolo|move: Attract|[of] p2a: Pultz Diggo!
+|move|p1a: Ludicolo|Ice Beam|p2a: Pultz Diggo!
+|-supereffective|p2a: Pultz Diggo!
+|-damage|p2a: Pultz Diggo!|0 fnt
+|-damage|p1a: Ludicolo|71/100|[from] item: Life Orb
+|faint|p2a: Pultz Diggo!
+|-end|p1a: Ludicolo|Attract|[silent]
+|
+|-heal|p1a: Ludicolo|77/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|switch|p2a: Op|Cloyster, F, shiny|100/100
+|turn|8
+|
+|move|p2a: Op|Shell Smash|p2a: Op
+|-unboost|p2a: Op|def|1
+|-unboost|p2a: Op|spd|1
+|-boost|p2a: Op|atk|2
+|-boost|p2a: Op|spa|2
+|-boost|p2a: Op|spe|2
+|-enditem|p2a: Op|White Herb
+|-clearnegativeboost|p2a: Op|[silent]
+|move|p1a: Ludicolo|Energy Ball|p2a: Op
+|-supereffective|p2a: Op
+|-damage|p2a: Op|0 fnt
+|-damage|p1a: Ludicolo|67/100|[from] item: Life Orb
+|faint|p2a: Op
+|
+|upkeep
+|
+|switch|p2a: Baton Speed|Blaziken, F|100/100
+|turn|9
+|
+|detailschange|p2a: Baton Speed|Blaziken-Mega, F
+|-mega|p2a: Baton Speed|Blaziken|Blazikenite
+|move|p2a: Baton Speed|Swords Dance|p2a: Baton Speed
+|-boost|p2a: Baton Speed|atk|2
+|move|p1a: Ludicolo|Muddy Water|p2a: Baton Speed
+|-supereffective|p2a: Baton Speed
+|-damage|p2a: Baton Speed|0 fnt
+|-damage|p1a: Ludicolo|57/100|[from] item: Life Orb
+|faint|p2a: Baton Speed
+|
+|upkeep
+|
+|switch|p2a: Vai Morrer Porra|Lycanroc-Midnight, F|100/100
+|turn|10
+|-message|PolicialShow forfeited.
+|
+|win|Abbcheese
+|l|☆PolicialShow

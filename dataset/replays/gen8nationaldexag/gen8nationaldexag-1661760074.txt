@@ -1,0 +1,3255 @@
+|j|☆Umbre test
+|j|☆MVP2536
+|t:|1662920043
+|gametype|singles
+|player|p1|Umbre test|unknown|1739
+|player|p2|MVP2536|giovanni|1832
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Arceus-*|
+|poke|p1|Arceus-*|
+|poke|p1|Gothitelle, M|
+|poke|p1|Ditto|
+|poke|p1|Ho-Oh|
+|poke|p1|Arceus-*|
+|poke|p2|Groudon|
+|poke|p2|Aegislash, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Scrafty, M|
+|poke|p2|Whimsicott, F|
+|poke|p2|Ditto|
+|teampreview
+|
+|t:|1662920057
+|start
+|switch|p1a: Arceus|Arceus-Dark|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|turn|1
+|
+|t:|1662920063
+|switch|p2a: garbage|Groudon|100/100
+|detailschange|p2a: garbage|Groudon-Primal
+|-primal|p2a: garbage
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Whirlpool||[still]
+|-fail|p1a: Arceus|Whirlpool|[from] Desolate Land
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1662920077
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|-weather|none
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1662920086
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Whimsicott|Substitute|p2a: Whimsicott
+|-start|p2a: Whimsicott|Substitute
+|-damage|p2a: Whimsicott|76/100
+|
+|upkeep
+|turn|4
+|
+|t:|1662920089
+|move|p2a: Whimsicott|Leech Seed|p1a: Ho-Oh
+|-start|p1a: Ho-Oh|move: Leech Seed
+|move|p1a: Ho-Oh|Whirlwind|p2a: Whimsicott
+|drag|p2a: garbage|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Ho-Oh|88/100|[from] Leech Seed|[of] p2a: garbage
+|upkeep
+|turn|5
+|
+|t:|1662920104
+|move|p2a: garbage|Precipice Blades|p1a: Ho-Oh
+|-immune|p1a: Ho-Oh
+|move|p1a: Ho-Oh|Toxic|p2a: garbage
+|-status|p2a: garbage|tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Ho-Oh|76/100|[from] Leech Seed|[of] p2a: garbage
+|-damage|p2a: garbage|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1662920112
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|
+|upkeep
+|turn|7
+|j| IDOLive
+|
+|t:|1662920120
+|move|p2a: Rotom|Toxic|p1a: Gothitelle
+|-status|p1a: Gothitelle|tox
+|move|p1a: Gothitelle|Cosmic Power|p1a: Gothitelle
+|-boost|p1a: Gothitelle|def|1
+|-boost|p1a: Gothitelle|spd|1
+|
+|-damage|p1a: Gothitelle|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1662920124
+|move|p2a: Rotom|Volt Switch|p1a: Gothitelle
+|-damage|p1a: Gothitelle|78/100 tox
+|
+|t:|1662920127
+|switch|p2a: Aegislash|Aegislash, M|100/100|[from]move: Volt Switch
+|move|p1a: Gothitelle|Cosmic Power|p1a: Gothitelle
+|-boost|p1a: Gothitelle|def|1
+|-boost|p1a: Gothitelle|spd|1
+|
+|-heal|p1a: Gothitelle|85/100 tox|[from] item: Leftovers
+|-damage|p1a: Gothitelle|72/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1662920135
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|51/100 tox
+|move|p1a: Gothitelle|Charm|p2a: Aegislash
+|-unboost|p2a: Aegislash|atk|2
+|
+|-heal|p1a: Gothitelle|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Gothitelle|39/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1662920152
+|switch|p2a: garbage|Groudon-Primal|94/100 tox
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Gothitelle|Rest|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp|[from] move: Rest
+|-heal|p1a: Gothitelle|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: garbage|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1662920161
+|move|p2a: garbage|Heat Crash|p1a: Gothitelle
+|-damage|p1a: Gothitelle|57/100 slp
+|cant|p1a: Gothitelle|slp
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Gothitelle|63/100 slp|[from] item: Leftovers
+|-damage|p2a: garbage|76/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1662920168
+|move|p2a: garbage|Heat Crash|p1a: Gothitelle
+|-damage|p1a: Gothitelle|23/100 slp
+|cant|p1a: Gothitelle|slp
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Gothitelle|30/100 slp|[from] item: Leftovers
+|-damage|p2a: garbage|57/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1662920176
+|move|p2a: garbage|Heat Crash|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: garbage|32/100 tox|[from] psn
+|upkeep
+|l| IDOLive
+|
+|t:|1662920185
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: garbage|[from] ability: Imposter
+|turn|14
+|
+|t:|1662920189
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Ditto|Precipice Blades|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1662920202
+|-weather|none
+|switch|p1a: Arceus|Arceus-Water|100/100
+|move|p2a: Rotom|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1662920222
+|switch|p1a: Arceus|Arceus-Dark|100/100
+|switch|p2a: garbage|Groudon-Primal|32/100 tox
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: garbage|26/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1662920232
+|-weather|none
+|switch|p2a: Whimsicott|Whimsicott, F|76/100
+|move|p1a: Arceus|Judgment|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|32/100
+|
+|upkeep
+|turn|18
+|
+|t:|1662920239
+|move|p2a: Whimsicott|Moonblast|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|57/100
+|move|p1a: Arceus|Judgment|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|t:|1662920245
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|turn|19
+|
+|t:|1662920251
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Scrafty|Poison Jab|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|86/100
+|
+|upkeep
+|turn|20
+|
+|t:|1662920255
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|79/100
+|
+|upkeep
+|turn|21
+|
+|t:|1662920264
+|switch|p1a: Arceus|Arceus-Water|94/100 tox
+|move|p2a: Ditto|Toxic|p1a: Arceus
+|-fail|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|88/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1662920268
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|tox|[msg]
+|
+|upkeep
+|turn|23
+|
+|t:|1662920275
+|switch|p1a: Arceus|Arceus-Dark|57/100
+|move|p2a: Rotom|Volt Switch|p1a: Arceus
+|-damage|p1a: Arceus|39/100
+|
+|t:|1662920281
+|switch|p2a: Scrafty|Scrafty, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|24
+|
+|t:|1662920290
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|89/100
+|move|p2a: Scrafty|Drain Punch|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|56/100
+|
+|upkeep
+|turn|25
+|
+|t:|1662920298
+|-start|p2a: Scrafty|Dynamax|
+|-heal|p2a: Scrafty|100/100|[silent]
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|move|p2a: Scrafty|Max Knuckle|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|61/100
+|-boost|p2a: Scrafty|atk|1
+|
+|upkeep
+|turn|26
+|
+|t:|1662920302
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Scrafty|Max Knuckle|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|84/100
+|-boost|p2a: Scrafty|atk|1
+|
+|upkeep
+|turn|27
+|
+|t:|1662920308
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Scrafty
+|-damage|p2a: Scrafty|79/100
+|move|p2a: Scrafty|Max Hailstorm|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|39/100
+|-weather|Hail
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ho-Oh|33/100|[from] Hail
+|-damage|p2a: Scrafty|76/100|[from] Hail
+|upkeep
+|-end|p2a: Scrafty|Dynamax
+|-heal|p2a: Scrafty|76/100|[silent]
+|turn|28
+|
+|t:|1662920319
+|switch|p1a: Arceus|Arceus-Fairy|100/100
+|move|p2a: Scrafty|Drain Punch|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|80/100
+|-heal|p2a: Scrafty|90/100|[from] drain|[of] p1a: Arceus
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Arceus|74/100|[from] Hail
+|-damage|p2a: Scrafty|84/100|[from] Hail
+|upkeep
+|turn|29
+|
+|t:|1662920324
+|move|p1a: Arceus|Judgment|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Arceus|68/100|[from] Hail
+|upkeep
+|
+|t:|1662920330
+|switch|p2a: garbage|Groudon-Primal|26/100 tox
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|turn|30
+|
+|t:|1662920340
+|switch|p1a: Ho-Oh|Ho-Oh|66/100
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1662920348
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Precipice Blades|p1a: Ho-Oh|[from]move: Sleep Talk
+|-immune|p1a: Ho-Oh
+|move|p1a: Ho-Oh|Sacred Fire|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|81/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1662920360
+|switch|p1a: Arceus|Arceus-Water|88/100
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Heat Crash|p1a: Arceus|[from]move: Sleep Talk
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|71/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1662920366
+|switch|p1a: Ho-Oh|Ho-Oh|99/100
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Precipice Blades|p1a: Ho-Oh
+|-immune|p1a: Ho-Oh
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|34
+|
+|t:|1662920371
+|move|p2a: garbage|Heat Crash|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|51/100
+|move|p1a: Ho-Oh|Toxic|p2a: garbage
+|-status|p2a: garbage|tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: garbage|75/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1662920376
+|switch|p1a: Arceus|Arceus-Water|71/100
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|36
+|
+|t:|1662920383
+|switch|p1a: Arceus|Arceus-Dark|61/100
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|37
+|
+|t:|1662920392
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|38
+|
+|t:|1662920395
+|move|p1a: Arceus|Perish Song|p1a: Arceus
+|-start|p1a: Arceus|perish3|[silent]
+|-start|p2a: garbage|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Sleep Talk||[still]
+|-fail|p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|-start|p1a: Arceus|perish3
+|-start|p2a: garbage|perish3
+|upkeep
+|turn|39
+|
+|t:|1662920407
+|switch|p1a: Ho-Oh|Ho-Oh|84/100
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|upkeep
+|turn|40
+|
+|t:|1662920417
+|switch|p1a: Arceus|Arceus-Water|71/100
+|move|p2a: Ditto|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|64/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1662920423
+|switch|p2a: garbage|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|tox|[msg]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|42
+|
+|t:|1662920427
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Arceus|Toxic|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|upkeep
+|turn|43
+|
+|t:|1662920433
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Sacred Sword|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|88/100
+|
+|upkeep
+|turn|44
+|
+|t:|1662920437
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Ho-Oh|Toxic|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|upkeep
+|turn|45
+|
+|t:|1662920441
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|77/100
+|-status|p2a: Rotom|brn
+|
+|-damage|p2a: Rotom|71/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1662920451
+|switch|p1a: Arceus|Arceus-Dark|100/100
+|move|p2a: Rotom|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|94/100 tox|[from] psn
+|-damage|p2a: Rotom|66/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1662920459
+|switch|p2a: garbage|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-damage|p2a: garbage|67/100
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|82/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|t:|1662920469
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: garbage|Precipice Blades|p1a: Ho-Oh
+|-immune|p1a: Ho-Oh
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|49
+|
+|t:|1662920476
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|move|p1a: Ho-Oh|Toxic||[still]
+|-fail|p1a: Ho-Oh
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|50
+|
+|t:|1662920484
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|66/100 brn
+|switch|p1a: Arceus|Arceus-Fairy|68/100
+|
+|-damage|p2a: Rotom|60/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|t:|1662920490
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|82/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|52
+|
+|t:|1662920493
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|53
+|
+|t:|1662920498
+|switch|p1a: Arceus|Arceus-Water|64/100
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|
+|upkeep
+|turn|54
+|
+|t:|1662920502
+|switch|p2a: Rotom|Rotom-Wash|60/100 brn
+|move|p1a: Arceus|Judgment|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|32/100 brn
+|
+|-damage|p2a: Rotom|26/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|t:|1662920508
+|switch|p2a: garbage|Groudon-Primal|82/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|56
+|
+|t:|1662920514
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|57
+|
+|t:|1662920522
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Ho-Oh|Whirlwind|p2a: Aegislash
+|drag|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|upkeep
+|turn|58
+|
+|t:|1662920531
+|switch|p1a: Arceus|Arceus-Water|100/100
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|89/100
+|-status|p1a: Arceus|brn
+|
+|-damage|p1a: Arceus|83/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|t:|1662920539
+|switch|p2a: garbage|Groudon-Primal|82/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: garbage|[from] ability: Imposter
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|60
+|
+|t:|1662920545
+|move|p1a: Ditto|Precipice Blades|p2a: garbage
+|-supereffective|p2a: garbage
+|-damage|p2a: garbage|5/100 slp
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Precipice Blades|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|t:|1662920554
+|switch|p1a: Arceus|Arceus-Dark|82/100 tox
+|turn|61
+|
+|t:|1662920557
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Judgment|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|78/100
+|
+|-damage|p1a: Arceus|76/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|t:|1662920569
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Ditto|Perish Song|p2a: Ditto
+|-start|p1a: Ho-Oh|perish3|[silent]
+|-start|p2a: Ditto|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p2a: Ditto|perish3
+|-start|p1a: Ho-Oh|perish3
+|upkeep
+|turn|63
+|
+|t:|1662920584
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Aegislash|[miss]
+|-miss|p1a: Ho-Oh|p2a: Aegislash
+|
+|-start|p1a: Ho-Oh|perish2
+|upkeep
+|turn|64
+|
+|t:|1662920590
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-start|p1a: Ho-Oh|perish1
+|upkeep
+|turn|65
+|
+|t:|1662920595
+|switch|p1a: Arceus|Arceus-Water|83/100 brn
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Arceus
+|-resisted|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|67/100 brn
+|
+|-damage|p1a: Arceus|61/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|t:|1662920601
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Arceus|Toxic|p2a: Aegislash|[miss]
+|-miss|p1a: Arceus|p2a: Aegislash
+|
+|-damage|p1a: Arceus|55/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|t:|1662920614
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|switch|p2a: garbage|Groudon-Primal|5/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|68
+|
+|t:|1662920618
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|move|p1a: Ho-Oh|Sacred Fire|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|84/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|69
+|
+|t:|1662920624
+|switch|p1a: Arceus|Arceus-Water|55/100 brn
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Precipice Blades|p1a: Arceus|[from]move: Sleep Talk|[miss]
+|-miss|p2a: garbage|p1a: Arceus
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|48/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|t:|1662920634
+|-weather|none
+|switch|p2a: Ditto|Ditto|78/100
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|98/100 brn
+|
+|-damage|p1a: Arceus|92/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|t:|1662920639
+|switch|p2a: garbage|Groudon-Primal|84/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Toxic||[still]
+|-fail|p1a: Arceus
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|86/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|t:|1662920650
+|switch|p1a: Arceus|Arceus-Fairy|100/100
+|cant|p2a: garbage|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|73
+|
+|t:|1662920660
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Heat Crash|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|67/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|74
+|
+|t:|1662920671
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|26/100 brn
+|move|p1a: Ho-Oh|Whirlwind|p2a: Rotom
+|drag|p2a: garbage|Groudon-Primal|84/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|75
+|
+|t:|1662920684
+|switch|p1a: Arceus|Arceus-Water|86/100 brn
+|move|p2a: garbage|Heat Crash|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|70/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|64/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|t:|1662920689
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|brn|[msg]
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|77
+|
+|t:|1662920694
+|switch|p1a: Ho-Oh|Ho-Oh|99/100
+|cant|p2a: garbage|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|78
+|
+|t:|1662920697
+|switch|p1a: Arceus|Arceus-Fairy|100/100
+|cant|p2a: garbage|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|79
+|
+|t:|1662920700
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|
+|upkeep
+|turn|80
+|
+|t:|1662920706
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Ho-Oh|Whirlwind|p2a: Aegislash
+|drag|p2a: Ditto|Ditto|78/100
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|upkeep
+|turn|81
+|
+|t:|1662920714
+|switch|p1a: Arceus|Arceus-Water|64/100
+|move|p2a: Ditto|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|58/100 tox|[from] psn
+|upkeep
+|turn|82
+|
+|t:|1662920717
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|tox|[msg]
+|
+|upkeep
+|turn|83
+|
+|t:|1662920723
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Sacred Sword|p1a: Arceus
+|-damage|p1a: Arceus|84/100
+|
+|upkeep
+|turn|84
+|
+|t:|1662920731
+|switch|p1a: Arceus|Arceus-Fairy|100/100
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield||[still]
+|-fail|p2a: Aegislash
+|
+|upkeep
+|turn|85
+|
+|t:|1662920735
+|move|p1a: Arceus|Will-O-Wisp|p2a: Aegislash
+|-status|p2a: Aegislash|brn
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|69/100
+|
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|86
+|
+|t:|1662920740
+|switch|p1a: Arceus|Arceus-Water|84/100
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|87
+|
+|t:|1662920747
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|26/100 brn
+|
+|-damage|p2a: Rotom|20/100 brn|[from] brn
+|upkeep
+|turn|88
+|
+|t:|1662920759
+|switch|p1a: Arceus|Arceus-Dark|76/100 tox
+|move|p2a: Rotom|Pain Split|p1a: Arceus
+|-sethp|p1a: Arceus|45/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|66/100 brn|[from] move: Pain Split
+|
+|-damage|p1a: Arceus|39/100 tox|[from] psn
+|-damage|p2a: Rotom|60/100 brn|[from] brn
+|upkeep
+|turn|89
+|
+|t:|1662920764
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|89/100 tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|77/100 tox|[from] psn
+|upkeep
+|turn|90
+|
+|t:|1662920772
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Precipice Blades|p1a: Ho-Oh
+|-immune|p1a: Ho-Oh
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|91
+|
+|t:|1662920779
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|84/100
+|
+|upkeep
+|turn|92
+|
+|t:|1662920786
+|move|p2a: Ditto|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|move|p1a: Arceus|Toxic|p2a: Ditto
+|-status|p2a: Ditto|tox
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Arceus|78/100 tox|[from] psn
+|upkeep
+|turn|93
+|
+|t:|1662920789
+|switch|p2a: garbage|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|tox|[msg]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|94
+|
+|t:|1662920796
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|95
+|
+|t:|1662920804
+|switch|p1a: Arceus|Arceus-Water|78/100
+|move|p2a: Ditto|Whirlwind|p1a: Arceus
+|drag|p1a: Arceus|Arceus-Dark|77/100 tox
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|71/100 tox|[from] psn
+|upkeep
+|turn|96
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MVP2536)
+|
+|t:|1662920818
+|switch|p2a: garbage|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Perish Song|p1a: Arceus
+|-start|p1a: Arceus|perish3|[silent]
+|-start|p2a: garbage|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|59/100 tox|[from] psn
+|-start|p1a: Arceus|perish3
+|-start|p2a: garbage|perish3
+|upkeep
+|turn|97
+|
+|t:|1662920826
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100 tox
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Arceus|82/100 tox|[from] psn
+|-start|p1a: Arceus|perish2
+|upkeep
+|turn|98
+|
+|t:|1662920840
+|switch|p2a: garbage|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Arceus|Arceus-Fairy|69/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|99
+|
+|t:|1662920847
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|move|p2a: garbage|Heat Crash|p1a: Arceus
+|-damage|p1a: Arceus|52/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|100
+|
+|t:|1662920853
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|94/100 brn
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|101
+|
+|t:|1662920857
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|92/100
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|102
+|
+|t:|1662920864
+|switch|p1a: Arceus|Arceus-Water|78/100
+|move|p2a: Aegislash|Iron Head|p1a: Arceus
+|-resisted|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|68/100
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|103
+|
+|t:|1662920870
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield||[still]
+|-fail|p2a: Aegislash
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|104
+|
+|t:|1662920878
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Ho-Oh|Toxic|p2a: Aegislash|[miss]
+|-miss|p1a: Ho-Oh|p2a: Aegislash
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|105
+|
+|t:|1662920882
+|switch|p1a: Arceus|Arceus-Water|68/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|63/100
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|106
+|
+|t:|1662920886
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|107
+|
+|t:|1662920891
+|switch|p2a: Rotom|Rotom-Wash|60/100 brn
+|move|p1a: Arceus|Judgment|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|36/100 brn
+|
+|-damage|p2a: Rotom|30/100 brn|[from] brn
+|upkeep
+|turn|108
+|
+|t:|1662920917
+|switch|p1a: Arceus|Arceus-Dark|82/100 tox
+|move|p2a: Rotom|Pain Split|p1a: Arceus
+|-sethp|p1a: Arceus|51/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|75/100 brn|[from] move: Pain Split
+|
+|-damage|p1a: Arceus|45/100 tox|[from] psn
+|-damage|p2a: Rotom|69/100 brn|[from] brn
+|upkeep
+|turn|109
+|
+|t:|1662920923
+|switch|p2a: garbage|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-damage|p2a: garbage|66/100
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|33/100 tox|[from] psn
+|upkeep
+|turn|110
+|
+|t:|1662920931
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|83/100 tox
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|65/100 tox|[from] psn
+|upkeep
+|turn|111
+|
+|t:|1662920941
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|cant|p2a: garbage|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|112
+|
+|t:|1662920950
+|-weather|none
+|switch|p2a: Ditto|Ditto|94/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|100/100
+|
+|-damage|p2a: Ditto|88/100 tox|[from] psn
+|upkeep
+|turn|113
+|
+|t:|1662920958
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Judgment||[still]
+|-fail|p1a: Arceus|Judgment|[from] Desolate Land
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|114
+|
+|t:|1662920964
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|69/100 brn
+|
+|-damage|p2a: Rotom|63/100 brn|[from] brn
+|upkeep
+|turn|115
+|
+|t:|1662920977
+|move|p2a: Rotom|Pain Split|p1a: Ho-Oh
+|-sethp|p1a: Ho-Oh|73/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|99/100 brn|[from] move: Pain Split
+|move|p1a: Ho-Oh|Whirlwind|p2a: Rotom
+|drag|p2a: Aegislash|Aegislash, M|94/100 brn
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|116
+|
+|t:|1662920989
+|switch|p1a: Arceus|Arceus-Water|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Sacred Sword|p1a: Arceus
+|-damage|p1a: Arceus|92/100
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|117
+|
+|t:|1662920994
+|switch|p2a: Rotom|Rotom-Wash|99/100 brn
+|move|p1a: Arceus|Toxic||[still]
+|-fail|p1a: Arceus
+|
+|-damage|p2a: Rotom|94/100 brn|[from] brn
+|upkeep
+|turn|118
+|
+|t:|1662921003
+|move|p1a: Arceus|Judgment|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|67/100 brn
+|move|p2a: Rotom|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|86/100 tox|[from] psn
+|-damage|p2a: Rotom|61/100 brn|[from] brn
+|upkeep
+|turn|119
+|
+|t:|1662921007
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|tox|[msg]
+|move|p2a: Rotom|Pain Split|p1a: Arceus
+|-sethp|p1a: Arceus|64/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|93/100 brn|[from] move: Pain Split
+|
+|-damage|p2a: Rotom|87/100 brn|[from] brn
+|upkeep
+|turn|120
+|
+|t:|1662921016
+|move|p1a: Arceus|Toxic||[still]
+|-fail|p1a: Arceus
+|move|p2a: Rotom|Volt Switch|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|33/100
+|
+|t:|1662921021
+|switch|p2a: garbage|Groudon-Primal|100/100 slp|[from]move: Volt Switch
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|121
+|
+|t:|1662921027
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|87/100 brn
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|83/100
+|
+|-damage|p2a: Rotom|81/100 brn|[from] brn
+|upkeep
+|turn|122
+|
+|t:|1662921044
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|75/100
+|
+|t:|1662921052
+|switch|p2a: Ditto|Ditto|100/100 tox|[from]move: Volt Switch
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|123
+|
+|t:|1662921060
+|switch|p1a: Arceus|Arceus-Dark|65/100 tox
+|move|p2a: Ditto|Toxic|p1a: Arceus
+|-fail|p1a: Arceus|tox
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|59/100 tox|[from] psn
+|upkeep
+|turn|124
+|
+|t:|1662921069
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Perish Song|p1a: Arceus
+|-start|p1a: Arceus|perish3|[silent]
+|-start|p2a: garbage|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|47/100 tox|[from] psn
+|-start|p1a: Arceus|perish3
+|-start|p2a: garbage|perish3
+|upkeep
+|turn|125
+|
+|t:|1662921075
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|97/100 tox
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Arceus|78/100 tox|[from] psn
+|-start|p1a: Arceus|perish2
+|upkeep
+|turn|126
+|
+|t:|1662921083
+|switch|p1a: Arceus|Arceus-Fairy|100/100
+|move|p2a: Ditto|Whirlpool|p1a: Arceus
+|-damage|p1a: Arceus|96/100
+|-activate|p1a: Arceus|move: Whirlpool|[of] p2a: Ditto
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|83/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|127
+|
+|t:|1662921091
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Will-O-Wisp||[still]
+|-fail|p1a: Arceus
+|
+|-weather|DesolateLand|[upkeep]
+|-end|p1a: Arceus|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|128
+|
+|t:|1662921106
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|94/100 brn
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|129
+|
+|t:|1662921113
+|switch|p1a: Arceus|Arceus-Water|83/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Sacred Sword|p1a: Arceus
+|-damage|p1a: Arceus|74/100
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|130
+|
+|t:|1662921118
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|131
+|
+|t:|1662921122
+|-weather|none
+|switch|p2a: Ditto|Ditto|82/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|74/100
+|
+|-damage|p2a: Ditto|76/100 tox|[from] psn
+|upkeep
+|turn|132
+|
+|t:|1662921128
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Arceus|Arceus-Dark|78/100 tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|72/100 tox|[from] psn
+|upkeep
+|turn|133
+|
+|t:|1662921134
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Heat Crash|p1a: Ho-Oh|[from]move: Sleep Talk
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|68/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|134
+|
+|t:|1662921138
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|74/100
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|135
+|
+|t:|1662921147
+|switch|p1a: Arceus|Arceus-Dark|72/100 tox
+|move|p2a: Ditto|Toxic|p1a: Arceus
+|-fail|p1a: Arceus|tox
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|66/100 tox|[from] psn
+|upkeep
+|turn|136
+|
+|t:|1662921154
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Whirlpool||[still]
+|-fail|p1a: Arceus|Whirlpool|[from] Desolate Land
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|54/100 tox|[from] psn
+|upkeep
+|turn|137
+|
+|t:|1662921166
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Heat Crash|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|68/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|138
+|j| Potatofromsinnoh
+|
+|t:|1662921188
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|94/100 brn
+|switch|p1a: Arceus|Arceus-Water|74/100
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|139
+|
+|t:|1662921197
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Arceus|Judgment|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|140
+|
+|t:|1662921203
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|switch|p2a: garbage|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|141
+|
+|t:|1662921211
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Fairy|83/100
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|142
+|
+|t:|1662921219
+|switch|p1a: Arceus|Arceus-Water|74/100
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|64/100
+|-status|p1a: Arceus|brn
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|58/100 brn|[from] brn
+|upkeep
+|turn|143
+|
+|t:|1662921225
+|switch|p2a: Rotom|Rotom-Wash|81/100 brn
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100 brn
+|
+|-damage|p1a: Arceus|94/100 brn|[from] brn
+|-damage|p2a: Rotom|75/100 brn|[from] brn
+|upkeep
+|turn|144
+|
+|t:|1662921232
+|switch|p1a: Arceus|Arceus-Dark|54/100 tox
+|move|p2a: Rotom|Volt Switch|p1a: Arceus
+|-damage|p1a: Arceus|38/100 tox
+|
+|t:|1662921240
+|switch|p2a: garbage|Groudon-Primal|100/100|[from]move: Volt Switch
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|32/100 tox|[from] psn
+|upkeep
+|turn|145
+|
+|t:|1662921246
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|82/100 tox
+|move|p2a: garbage|Heat Crash|p1a: Arceus
+|-damage|p1a: Arceus|40/100 tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|28/100 tox|[from] psn
+|upkeep
+|turn|146
+|
+|t:|1662921254
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: garbage|Heat Crash|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|64/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|147
+|
+|t:|1662921259
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|75/100 brn
+|switch|p1a: Arceus|Arceus-Water|94/100 brn
+|
+|-damage|p1a: Arceus|88/100 brn|[from] brn
+|-damage|p2a: Rotom|69/100 brn|[from] brn
+|upkeep
+|turn|148
+|
+|t:|1662921268
+|switch|p1a: Ho-Oh|Ho-Oh|97/100
+|move|p2a: Rotom|Volt Switch|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|56/100
+|
+|t:|1662921274
+|switch|p2a: Ditto|Ditto|100/100 tox|[from]move: Volt Switch
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|149
+|
+|t:|1662921281
+|switch|p1a: Arceus|Arceus-Water|88/100 brn
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-resisted|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|73/100 brn
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|67/100 brn|[from] brn
+|upkeep
+|turn|150
+|
+|t:|1662921293
+|switch|p2a: garbage|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Toxic|p2a: garbage
+|-status|p2a: garbage|tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: garbage|94/100 tox|[from] psn
+|-damage|p1a: Arceus|61/100 brn|[from] brn
+|upkeep
+|turn|151
+|
+|t:|1662921297
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100 brn
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|94/100 brn|[from] brn
+|upkeep
+|turn|152
+|
+|t:|1662921301
+|switch|p1a: Ho-Oh|Ho-Oh|90/100
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|153
+|
+|t:|1662921305
+|switch|p1a: Arceus|Arceus-Water|94/100 brn
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|84/100 brn
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|78/100 brn|[from] brn
+|upkeep
+|turn|154
+|
+|t:|1662921308
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|155
+|
+|t:|1662921315
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|78/100 brn
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Arceus|71/100 brn|[from] brn
+|upkeep
+|turn|156
+|
+|t:|1662921322
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|157
+|
+|t:|1662921327
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|move|p1a: Ho-Oh|Whirlwind|p2a: Ditto
+|drag|p2a: Aegislash|Aegislash, M|94/100 brn
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|158
+|
+|t:|1662921333
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Ho-Oh|Sacred Fire|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|82/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|159
+|
+|t:|1662921344
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Dark|28/100 tox
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Arceus|22/100 tox|[from] psn
+|upkeep
+|turn|160
+|
+|t:|1662921347
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1662921354
+|switch|p1a: Arceus|Arceus-Fairy|83/100
+|turn|161
+|
+|t:|1662921367
+|switch|p2a: garbage|Groudon-Primal|82/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|65/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|162
+|
+|t:|1662921377
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|47/100 slp
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|163
+|
+|t:|1662921388
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|30/100 slp
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Precipice Blades|p1a: Arceus|[from]move: Sleep Talk
+|-damage|p1a: Arceus|39/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|164
+|
+|t:|1662921397
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|89/100
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|165
+|
+|t:|1662921401
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|94/100 brn
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|166
+|
+|t:|1662921405
+|switch|p1a: Arceus|Arceus-Fairy|89/100
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|167
+|
+|t:|1662921412
+|move|p2a: Ditto|Will-O-Wisp|p1a: Arceus
+|-status|p1a: Arceus|brn
+|move|p1a: Arceus|Judgment|p2a: Ditto
+|-damage|p2a: Ditto|54/100 tox
+|
+|-damage|p2a: Ditto|42/100 tox|[from] psn
+|-damage|p1a: Arceus|83/100 brn|[from] brn
+|upkeep
+|turn|168
+|
+|t:|1662921423
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|84/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|77/100 brn|[from] brn
+|upkeep
+|turn|169
+|
+|t:|1662921432
+|switch|p1a: Arceus|Arceus-Water|71/100 brn
+|cant|p2a: garbage|slp
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|65/100 brn|[from] brn
+|upkeep
+|turn|170
+|
+|t:|1662921441
+|-weather|none
+|switch|p2a: Ditto|Ditto|42/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|brn|[msg]
+|
+|-damage|p2a: Ditto|36/100 tox|[from] psn
+|upkeep
+|turn|171
+|
+|t:|1662921449
+|switch|p1a: Arceus|Arceus-Fairy|77/100 brn
+|move|p2a: Ditto|Recover|p2a: Ditto
+|-heal|p2a: Ditto|86/100 tox
+|
+|-damage|p2a: Ditto|74/100 tox|[from] psn
+|-damage|p1a: Arceus|71/100 brn|[from] brn
+|upkeep
+|turn|172
+|
+|t:|1662921456
+|switch|p2a: garbage|Groudon-Primal|84/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|69/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|65/100 brn|[from] brn
+|upkeep
+|turn|173
+|
+|t:|1662921460
+|switch|p1a: Arceus|Arceus-Water|65/100
+|cant|p2a: garbage|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|174
+|
+|t:|1662921466
+|switch|p1a: Arceus|Arceus-Fairy|65/100 brn
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|59/100 brn|[from] brn
+|upkeep
+|turn|175
+|l|☆MVP2536
+|inactive|MVP2536 disconnected and has a minute to reconnect!
+|player|p2|
+|c| Potatofromsinnoh|bruh
+|j|☆MVP2536
+|inactive|MVP2536 reconnected and has 110 seconds left.
+|player|p2|MVP2536|giovanni
+|
+|t:|1662921517
+|-weather|none
+|switch|p2a: Ditto|Ditto|74/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Defog|p2a: Ditto
+|-unboost|p2a: Ditto|evasion|1
+|
+|-damage|p2a: Ditto|68/100 tox|[from] psn
+|-damage|p1a: Arceus|53/100 brn|[from] brn
+|upkeep
+|turn|176
+|
+|t:|1662921524
+|move|p2a: Ditto|Recover|p2a: Ditto
+|-heal|p2a: Ditto|100/100 tox
+|move|p1a: Arceus|Judgment|p2a: Ditto
+|-damage|p2a: Ditto|61/100 tox
+|
+|-damage|p2a: Ditto|49/100 tox|[from] psn
+|-damage|p1a: Arceus|47/100 brn|[from] brn
+|upkeep
+|turn|177
+|
+|t:|1662921527
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|97/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|91/100 brn|[from] brn
+|upkeep
+|turn|178
+|
+|t:|1662921532
+|switch|p1a: Arceus|Arceus-Water|65/100
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|94/100 brn
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|179
+|
+|t:|1662921541
+|switch|p1a: Arceus|Arceus-Fairy|91/100 brn
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|84/100 brn|[from] brn
+|upkeep
+|turn|180
+|
+|t:|1662921544
+|switch|p1a: Arceus|Arceus-Water|65/100
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|94/100 brn
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|181
+|
+|t:|1662921548
+|switch|p1a: Arceus|Arceus-Fairy|84/100 brn
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|78/100 brn|[from] brn
+|upkeep
+|turn|182
+|
+|t:|1662921551
+|switch|p1a: Arceus|Arceus-Water|65/100
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|94/100 brn
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|183
+|
+|t:|1662921559
+|switch|p1a: Arceus|Arceus-Fairy|78/100 brn
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|72/100 brn|[from] brn
+|upkeep
+|turn|184
+|
+|t:|1662921562
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|83/100 slp
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Precipice Blades|p1a: Arceus|[from]move: Sleep Talk
+|-damage|p1a: Arceus|22/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|16/100 brn|[from] brn
+|upkeep
+|turn|185
+|
+|t:|1662921569
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|66/100 brn
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Heat Crash|p1a: Arceus|[from]move: Sleep Talk
+|-damage|p1a: Arceus|20/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|14/100 brn|[from] brn
+|upkeep
+|turn|186
+|
+|t:|1662921581
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Heat Crash|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|64/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|187
+|
+|t:|1662921589
+|-weather|none
+|switch|p2a: Ditto|Ditto|49/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|65/100
+|
+|-damage|p2a: Ditto|43/100 tox|[from] psn
+|upkeep
+|turn|188
+|
+|t:|1662921601
+|switch|p2a: Aegislash|Aegislash, M|94/100 brn
+|move|p1a: Arceus|Judgment|p2a: Aegislash
+|-damage|p2a: Aegislash|59/100 brn
+|
+|-heal|p2a: Aegislash|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|59/100 brn|[from] brn
+|upkeep
+|turn|189
+|
+|t:|1662921607
+|switch|p2a: garbage|Groudon-Primal|83/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|190
+|
+|t:|1662921611
+|switch|p1a: Ho-Oh|Ho-Oh|97/100
+|move|p2a: garbage|Precipice Blades|p1a: Ho-Oh
+|-immune|p1a: Ho-Oh
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|191
+|
+|t:|1662921618
+|switch|p1a: Arceus|Arceus-Fairy|14/100 brn
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|8/100 brn|[from] brn
+|upkeep
+|turn|192
+|
+|t:|1662921621
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|58/100 brn
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|52/100 brn|[from] brn
+|upkeep
+|turn|193
+|
+|t:|1662921625
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|59/100 brn
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100 brn
+|
+|-heal|p2a: Aegislash|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Arceus|94/100 brn|[from] brn
+|-damage|p2a: Aegislash|59/100 brn|[from] brn
+|upkeep
+|turn|194
+|
+|t:|1662921629
+|move|p1a: Arceus|Judgment|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|41/100 brn
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|64/100 brn
+|
+|-heal|p2a: Aegislash|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Arceus|58/100 brn|[from] brn
+|-damage|p2a: Aegislash|41/100 brn|[from] brn
+|upkeep
+|turn|195
+|
+|t:|1662921636
+|switch|p2a: Ditto|Ditto|76/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100 brn
+|
+|-damage|p2a: Ditto|70/100 tox|[from] psn
+|-damage|p1a: Arceus|94/100 brn|[from] brn
+|upkeep
+|turn|196
+|
+|t:|1662921643
+|switch|p1a: Arceus|Arceus-Water|100/100
+|move|p2a: Ditto|Recover|p2a: Ditto
+|-heal|p2a: Ditto|100/100 tox
+|
+|-damage|p2a: Ditto|88/100 tox|[from] psn
+|upkeep
+|turn|197
+|
+|t:|1662921648
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Arceus|Arceus-Fairy|94/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|88/100 brn|[from] brn
+|upkeep
+|turn|198
+|
+|t:|1662921653
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|cant|p2a: garbage|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|199
+|
+|t:|1662921658
+|-weather|none
+|switch|p2a: Ditto|Ditto|88/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|100/100
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|upkeep
+|turn|200
+|
+|t:|1662921664
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Ditto|Sacred Fire|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|85/100
+|
+|-damage|p2a: Ditto|70/100 tox|[from] psn
+|upkeep
+|turn|201
+|
+|t:|1662921671
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Arceus|Arceus-Water|100/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|202
+|
+|t:|1662921673
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|203
+|
+|t:|1662921677
+|switch|p1a: Arceus|Arceus-Water|100/100
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|89/100
+|-status|p1a: Arceus|brn
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|83/100 brn|[from] brn
+|upkeep
+|turn|204
+|
+|t:|1662921683
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Judgment||[still]
+|-fail|p1a: Arceus|Judgment|[from] Desolate Land
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|77/100 brn|[from] brn
+|upkeep
+|turn|205
+|
+|t:|1662921685
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|206
+|
+|t:|1662921690
+|move|p2a: Ditto|Sacred Fire|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|87/100
+|move|p1a: Ho-Oh|Whirlwind|p2a: Ditto
+|drag|p2a: Rotom|Rotom-Wash|69/100 brn
+|
+|-damage|p2a: Rotom|64/100 brn|[from] brn
+|upkeep
+|turn|207
+|
+|t:|1662921697
+|move|p2a: Rotom|Volt Switch|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|59/100
+|
+|t:|1662921700
+|switch|p2a: Ditto|Ditto|100/100 tox|[from]move: Volt Switch
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|move|p1a: Ho-Oh|Whirlwind|p2a: Ditto
+|drag|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|208
+|
+|t:|1662921706
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|77/100 brn
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Arceus|71/100 brn|[from] brn
+|upkeep
+|turn|209
+|
+|t:|1662921711
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|brn|[msg]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|210
+|
+|t:|1662921714
+|switch|p1a: Ho-Oh|Ho-Oh|93/100
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|211
+|
+|t:|1662921718
+|switch|p1a: Arceus|Arceus-Water|71/100
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|60/100
+|-status|p1a: Arceus|brn
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|54/100 brn|[from] brn
+|upkeep
+|turn|212
+|
+|t:|1662921720
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|94/100 brn|[from] brn
+|upkeep
+|turn|213
+|
+|t:|1662921723
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|brn|[msg]
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|214
+|
+|t:|1662921729
+|switch|p1a: Arceus|Arceus-Fairy|88/100 brn
+|move|p2a: Ditto|Refresh|p2a: Ditto
+|-curestatus|p2a: Ditto|tox|[msg]
+|
+|-damage|p1a: Arceus|82/100 brn|[from] brn
+|upkeep
+|turn|215
+|
+|t:|1662921738
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Arceus|Arceus-Water|94/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|216
+|
+|t:|1662921743
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-weather|none
+|switch|p2a: Ditto|Ditto|94/100
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|upkeep
+|turn|217
+|inactive|Umbre test has 120 seconds left.
+|
+|t:|1662921790
+|switch|p1a: Arceus|Arceus-Water|94/100
+|move|p2a: Ditto|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|
+|-damage|p1a: Arceus|88/100 tox|[from] psn
+|upkeep
+|turn|218
+|
+|t:|1662921795
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|219
+|
+|t:|1662921799
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|64/100 brn
+|move|p1a: Ho-Oh|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|
+|-damage|p2a: Rotom|58/100 brn|[from] brn
+|upkeep
+|turn|220
+|
+|t:|1662921804
+|move|p2a: Rotom|Pain Split|p1a: Ho-Oh
+|-sethp|p1a: Ho-Oh|71/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|98/100 brn|[from] move: Pain Split
+|move|p1a: Ho-Oh|Whirlwind|p2a: Rotom
+|drag|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|upkeep
+|turn|221
+|
+|t:|1662921810
+|move|p2a: Ditto|Sacred Fire|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|58/100
+|move|p1a: Ho-Oh|Toxic|p2a: Ditto
+|-status|p2a: Ditto|tox
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|222
+|j| IDOLive
+|
+|t:|1662921814
+|switch|p1a: Arceus|Arceus-Fairy|82/100 brn
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|40/100 brn
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|34/100 brn|[from] brn
+|upkeep
+|turn|223
+|l| IDOLive
+|
+|t:|1662921824
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-damage|p1a: Arceus|6/100 brn
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|56/100 brn
+|
+|-damage|p2a: Ditto|64/100 tox|[from] psn
+|-damage|p1a: Arceus|50/100 brn|[from] brn
+|upkeep
+|turn|224
+|
+|t:|1662921828
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-damage|p1a: Arceus|21/100 brn
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|72/100 brn
+|
+|-damage|p2a: Ditto|40/100 tox|[from] psn
+|-damage|p1a: Arceus|66/100 brn|[from] brn
+|upkeep
+|turn|225
+|
+|t:|1662921833
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|85/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|59/100 brn|[from] brn
+|upkeep
+|turn|226
+|
+|t:|1662921838
+|switch|p1a: Ho-Oh|Ho-Oh|91/100
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|41/100 brn
+|
+|-heal|p2a: Aegislash|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|41/100 brn|[from] brn
+|upkeep
+|turn|227
+|
+|t:|1662921843
+|switch|p1a: Arceus|Arceus-Water|88/100 tox
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|83/100 tox
+|
+|-heal|p2a: Aegislash|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Arceus|77/100 tox|[from] psn
+|-damage|p2a: Aegislash|41/100 brn|[from] brn
+|upkeep
+|turn|228
+|
+|t:|1662921847
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|switch|p2a: garbage|Groudon-Primal|85/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|229
+|
+|t:|1662921850
+|switch|p1a: Arceus|Arceus-Water|77/100 tox
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Heat Crash|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|60/100 tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|53/100 tox|[from] psn
+|upkeep
+|turn|230
+|
+|t:|1662921854
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100 tox
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|88/100 tox|[from] psn
+|upkeep
+|turn|231
+|
+|t:|1662921858
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-weather|none
+|switch|p2a: Ditto|Ditto|74/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|68/100 tox|[from] psn
+|upkeep
+|turn|232
+|
+|t:|1662921865
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Ho-Oh|Whirlwind|p2a: garbage
+|-weather|none
+|drag|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|233
+|
+|t:|1662921872
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Arceus|Arceus-Fairy|59/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|53/100 brn|[from] brn
+|upkeep
+|turn|234
+|
+|t:|1662921876
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|-weather|none
+|switch|p2a: Aegislash|Aegislash, M|41/100 brn
+|
+|-heal|p2a: Aegislash|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|41/100 brn|[from] brn
+|upkeep
+|turn|235
+|
+|t:|1662921881
+|switch|p1a: Arceus|Arceus-Fairy|53/100 brn
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|21/100 brn
+|
+|-heal|p2a: Aegislash|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Arceus|15/100 brn|[from] brn
+|-damage|p2a: Aegislash|41/100 brn|[from] brn
+|upkeep
+|turn|236
+|
+|t:|1662921890
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|65/100 brn
+|move|p2a: Aegislash|Iron Head|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|33/100 brn
+|
+|-heal|p2a: Aegislash|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Arceus|27/100 brn|[from] brn
+|-damage|p2a: Aegislash|41/100 brn|[from] brn
+|upkeep
+|turn|237
+|
+|t:|1662921895
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|77/100 brn
+|move|p2a: Aegislash|Iron Head|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|46/100 brn
+|
+|-heal|p2a: Aegislash|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Arceus|40/100 brn|[from] brn
+|-damage|p2a: Aegislash|41/100 brn|[from] brn
+|upkeep
+|turn|238
+|
+|t:|1662921906
+|move|p1a: Arceus|Judgment|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-damage|p1a: Arceus|34/100 brn|[from] brn
+|upkeep
+|
+|t:|1662921912
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|turn|239
+|
+|t:|1662921916
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Ditto|Judgment|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|87/100
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|240
+|
+|t:|1662921924
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Arceus|Arceus-Fairy|34/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|28/100 brn|[from] brn
+|upkeep
+|turn|241
+|
+|t:|1662921931
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|78/100 brn
+|cant|p2a: garbage|slp
+|move|p2a: garbage|Sleep Talk|p2a: garbage
+|move|p2a: garbage|Heat Crash|p1a: Arceus|[from]move: Sleep Talk
+|-damage|p1a: Arceus|30/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|24/100 brn|[from] brn
+|upkeep
+|turn|242
+|
+|t:|1662921936
+|-weather|none
+|switch|p2a: Ditto|Ditto|94/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|74/100 brn
+|
+|-damage|p2a: Ditto|88/100 tox|[from] psn
+|-damage|p1a: Arceus|68/100 brn|[from] brn
+|upkeep
+|turn|243
+|
+|t:|1662921942
+|move|p2a: Ditto|Judgment|p1a: Arceus
+|-damage|p1a: Arceus|52/100 brn
+|move|p1a: Arceus|Judgment|p2a: Ditto
+|-damage|p2a: Ditto|54/100 tox
+|
+|-damage|p2a: Ditto|42/100 tox|[from] psn
+|-damage|p1a: Arceus|46/100 brn|[from] brn
+|upkeep
+|turn|244
+|
+|t:|1662921951
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Arceus|Arceus-Water|88/100 tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|82/100 tox|[from] psn
+|upkeep
+|turn|245
+|
+|t:|1662921958
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|tox|[msg]
+|cant|p2a: garbage|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|246
+|
+|t:|1662921966
+|-weather|none
+|switch|p2a: Ditto|Ditto|42/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Refresh||[still]
+|-fail|p1a: Arceus
+|
+|-damage|p2a: Ditto|36/100 tox|[from] psn
+|upkeep
+|turn|247
+|
+|t:|1662921978
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Ditto|Recover|p2a: Ditto
+|-heal|p2a: Ditto|86/100 tox
+|
+|-damage|p2a: Ditto|74/100 tox|[from] psn
+|upkeep
+|turn|248
+|
+|t:|1662921987
+|switch|p2a: Rotom|Rotom-Wash|98/100 brn
+|switch|p1a: Arceus|Arceus-Water|82/100
+|
+|-damage|p2a: Rotom|92/100 brn|[from] brn
+|upkeep
+|turn|249
+|inactive|Umbre test has 90 seconds left.
+|
+|t:|1662921998
+|move|p1a: Arceus|Judgment|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|67/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|49/100
+|
+|t:|1662922000
+|switch|p2a: garbage|Groudon-Primal|100/100 slp|[from]move: Volt Switch
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|250
+|inactive|Umbre test has 90 seconds left.
+|
+|t:|1662922008
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|67/100 brn
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|99/100
+|
+|-damage|p2a: Rotom|61/100 brn|[from] brn
+|upkeep
+|turn|251
+|
+|t:|1662922012
+|switch|p1a: Arceus|Arceus-Fairy|46/100 brn
+|move|p2a: Rotom|Pain Split|p1a: Arceus
+|-sethp|p1a: Arceus|44/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|64/100 brn|[from] move: Pain Split
+|
+|-damage|p1a: Arceus|38/100 brn|[from] brn
+|-damage|p2a: Rotom|58/100 brn|[from] brn
+|upkeep
+|turn|252
+|inactive|Umbre test has 90 seconds left.
+|
+|t:|1662922019
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-resisted|p2a: garbage
+|-crit|p2a: garbage
+|-damage|p2a: garbage|76/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|32/100 brn|[from] brn
+|upkeep
+|turn|253
+|
+|t:|1662922024
+|switch|p1a: Arceus|Arceus-Water|99/100
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Precipice Blades|p1a: Arceus
+|-damage|p1a: Arceus|64/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|254
+|inactive|Umbre test has 90 seconds left.
+|
+|t:|1662922032
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|255
+|inactive|Umbre test has 90 seconds left.
+|
+|t:|1662922039
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|58/100 brn
+|move|p1a: Ho-Oh|Whirlwind|p2a: Rotom
+|drag|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|256
+|
+|t:|1662922045
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|58/100 brn
+|switch|p1a: Arceus|Arceus-Fairy|32/100 brn
+|
+|-damage|p1a: Arceus|26/100 brn|[from] brn
+|-damage|p2a: Rotom|52/100 brn|[from] brn
+|upkeep
+|turn|257
+|
+|t:|1662922050
+|switch|p2a: garbage|Groudon-Primal|100/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Judgment|p2a: garbage
+|-resisted|p2a: garbage
+|-damage|p2a: garbage|83/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|19/100 brn|[from] brn
+|upkeep
+|turn|258
+|
+|t:|1662922055
+|-weather|none
+|switch|p2a: Ditto|Ditto|74/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|70/100 brn
+|
+|-damage|p2a: Ditto|68/100 tox|[from] psn
+|-damage|p1a: Arceus|63/100 brn|[from] brn
+|upkeep
+|turn|259
+|inactive|Umbre test has 90 seconds left.
+|
+|t:|1662922063
+|switch|p1a: Arceus|Arceus-Water|64/100
+|move|p2a: Ditto|Recover|p2a: Ditto
+|-heal|p2a: Ditto|100/100 tox
+|
+|-damage|p2a: Ditto|88/100 tox|[from] psn
+|upkeep
+|turn|260
+|
+|t:|1662922069
+|switch|p2a: garbage|Groudon-Primal|83/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|261
+|
+|t:|1662922073
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|52/100 brn
+|switch|p1a: Arceus|Arceus-Water|64/100
+|
+|-damage|p2a: Rotom|46/100 brn|[from] brn
+|upkeep
+|turn|262
+|
+|t:|1662922076
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|switch|p2a: garbage|Groudon-Primal|83/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|263
+|
+|t:|1662922083
+|-weather|none
+|switch|p2a: Ditto|Ditto|88/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|64/100
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|upkeep
+|turn|264
+|inactive|Umbre test has 90 seconds left.
+|
+|t:|1662922089
+|switch|p2a: garbage|Groudon-Primal|83/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|265
+|
+|t:|1662922092
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|64/100
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|266
+|
+|t:|1662922094
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Ditto|Toxic|p1a: Ho-Oh
+|-status|p1a: Ho-Oh|tox
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Ho-Oh|94/100 tox|[from] psn
+|upkeep
+|turn|267
+|
+|t:|1662922097
+|switch|p2a: garbage|Groudon-Primal|83/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Arceus|Arceus-Water|64/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|268
+|
+|t:|1662922099
+|switch|p1a: Ho-Oh|Ho-Oh|100/100 tox
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Ho-Oh|94/100 tox|[from] psn
+|upkeep
+|turn|269
+|
+|t:|1662922103
+|switch|p1a: Arceus|Arceus-Water|64/100
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|53/100
+|-status|p1a: Arceus|brn
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|47/100 brn|[from] brn
+|upkeep
+|turn|270
+|
+|t:|1662922105
+|switch|p2a: garbage|Groudon-Primal|83/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|97/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Arceus|91/100 brn|[from] brn
+|upkeep
+|turn|271
+|
+|t:|1662922109
+|switch|p1a: Ho-Oh|Ho-Oh|100/100 tox
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Ho-Oh|94/100 tox|[from] psn
+|upkeep
+|turn|272
+|
+|t:|1662922116
+|move|p2a: Ditto|Sacred Fire|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|81/100 tox
+|move|p1a: Ho-Oh|Whirlwind|p2a: Ditto
+|drag|p2a: Rotom|Rotom-Wash|46/100 brn
+|
+|-damage|p1a: Ho-Oh|69/100 tox|[from] psn
+|-damage|p2a: Rotom|40/100 brn|[from] brn
+|upkeep
+|turn|273
+|
+|t:|1662922124
+|move|p2a: Rotom|Pain Split|p1a: Ho-Oh
+|-sethp|p1a: Ho-Oh|49/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|67/100 brn|[from] move: Pain Split
+|move|p1a: Ho-Oh|Whirlwind|p2a: Rotom
+|drag|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Ho-Oh|31/100 tox|[from] psn
+|upkeep
+|turn|274
+|
+|t:|1662922133
+|switch|p1a: Arceus|Arceus-Water|91/100 brn
+|move|p2a: Ditto|Sacred Fire|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|80/100 brn
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Arceus|74/100 brn|[from] brn
+|upkeep
+|turn|275
+|
+|t:|1662922136
+|switch|p2a: garbage|Groudon-Primal|83/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Ho-Oh|Ho-Oh|65/100 tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Ho-Oh|59/100 tox|[from] psn
+|upkeep
+|turn|276
+|
+|t:|1662922139
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|74/100 brn
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Arceus|68/100 brn|[from] brn
+|upkeep
+|turn|277
+|
+|t:|1662922143
+|switch|p2a: garbage|Groudon-Primal|83/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Ho-Oh|Ho-Oh|92/100 tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Ho-Oh|86/100 tox|[from] psn
+|upkeep
+|turn|278
+|
+|t:|1662922146
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|switch|p1a: Arceus|Arceus-Water|68/100 brn
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Arceus|62/100 brn|[from] brn
+|upkeep
+|turn|279
+|
+|t:|1662922151
+|switch|p2a: garbage|Groudon-Primal|83/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|brn|[msg]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|280
+|c| Potatofromsinnoh|this is the longest game Ive ever personally witnessed and now I want to die
+|
+|t:|1662922156
+|switch|p1a: Ho-Oh|Ho-Oh|100/100 tox
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Ho-Oh|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Ho-Oh|94/100 tox|[from] psn
+|upkeep
+|turn|281
+|
+|t:|1662922163
+|move|p2a: Ditto|Sacred Fire|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|79/100 tox
+|move|p1a: Ho-Oh|Defog|p2a: Ditto
+|-unboost|p2a: Ditto|evasion|1
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Ho-Oh|67/100 tox|[from] psn
+|upkeep
+|turn|282
+|c|☆MVP2536|focused rn
+|
+|t:|1662922172
+|switch|p2a: garbage|Groudon-Primal|83/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|switch|p1a: Arceus|Arceus-Water|62/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|283
+|
+|t:|1662922177
+|-weather|none
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|move|p1a: Arceus|Judgment|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|77/100 tox
+|
+|-damage|p2a: Ditto|71/100 tox|[from] psn
+|upkeep
+|turn|284
+|
+|t:|1662922184
+|move|p2a: Ditto|Toxic|p1a: Arceus
+|-status|p1a: Arceus|tox
+|move|p1a: Arceus|Judgment|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|47/100 tox
+|
+|-damage|p2a: Ditto|35/100 tox|[from] psn
+|-damage|p1a: Arceus|56/100 tox|[from] psn
+|upkeep
+|turn|285
+|
+|t:|1662922189
+|switch|p2a: garbage|Groudon-Primal|83/100 slp
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|move|p1a: Arceus|Refresh|p1a: Arceus
+|-curestatus|p1a: Arceus|tox|[msg]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|286
+|
+|t:|1662922194
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|cant|p2a: garbage|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|287
+|
+|t:|1662922204
+|move|p1a: Arceus|Refresh||[still]
+|-fail|p1a: Arceus
+|cant|p2a: garbage|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|288
+|
+|t:|1662922208
+|move|p1a: Arceus|Refresh||[still]
+|-fail|p1a: Arceus
+|-curestatus|p2a: garbage|slp|[msg]
+|move|p2a: garbage|Precipice Blades|p1a: Arceus
+|-damage|p1a: Arceus|63/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|289
+|j| IDOLive
+|
+|t:|1662922215
+|-weather|none
+|switch|p2a: Rotom|Rotom-Wash|67/100 brn
+|move|p1a: Arceus|Toxic|p2a: Rotom|[miss]
+|-miss|p1a: Arceus|p2a: Rotom
+|
+|-damage|p2a: Rotom|62/100 brn|[from] brn
+|upkeep
+|turn|290
+|
+|t:|1662922224
+|move|p1a: Arceus|Judgment|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|37/100 brn
+|move|p2a: Rotom|Pain Split|p1a: Arceus
+|-sethp|p1a: Arceus|44/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|65/100 brn|[from] move: Pain Split
+|
+|-damage|p2a: Rotom|59/100 brn|[from] brn
+|upkeep
+|turn|291
+|
+|t:|1662922230
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|94/100
+|move|p2a: Rotom|Volt Switch|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|61/100
+|
+|t:|1662922233
+|switch|p2a: garbage|Groudon-Primal|83/100|[from]move: Volt Switch
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: garbage
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|292
+|l| IDOLive
+|
+|t:|1662922239
+|move|p1a: Arceus|Toxic|p2a: garbage
+|-status|p2a: garbage|tox
+|move|p2a: garbage|Precipice Blades|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|10/100
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: garbage|77/100 tox|[from] psn
+|upkeep
+|turn|293
+|
+|t:|1662922243
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|60/100
+|move|p2a: garbage|Precipice Blades|p1a: Arceus
+|-damage|p1a: Arceus|23/100
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: garbage|65/100 tox|[from] psn
+|upkeep
+|turn|294
+|
+|t:|1662922247
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|73/100
+|move|p2a: garbage|Rest|p2a: garbage
+|-status|p2a: garbage|slp|[from] move: Rest
+|-heal|p2a: garbage|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|295
+|-message|Umbre test forfeited.
+|
+|win|MVP2536
+|raw|Umbre test's rating: 1739 &rarr; <strong>1724</strong><br />(-15 for losing)
+|raw|MVP2536's rating: 1832 &rarr; <strong>1847</strong><br />(+15 for winning)
+|c|☆MVP2536|gg
+|c|☆Umbre test|Gg
+|l| Potatofromsinnoh
+|l|☆Umbre test
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

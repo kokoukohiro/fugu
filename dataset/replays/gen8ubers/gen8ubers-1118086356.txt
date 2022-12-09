@@ -1,0 +1,269 @@
+|j|☆heyroar9
+|j|☆Cryo900
+|player|p1|heyroar9|102|1471
+|player|p2|Cryo900|209|1465
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Charizard, M|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Darmanitan-Galar, M|
+|poke|p1|Eternatus|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p2|Melmetal|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Lunala|
+|poke|p2|Eternatus|
+|poke|p2|Quagsire, M|
+|poke|p2|Claydol|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|switch|p2a: Lunala|Lunala|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Lunala
+|-status|p2a: Lunala|brn
+|move|p2a: Lunala|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Lunala|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|move|p2a: Lunala|Hex|p1a: Zacian
+|-damage|p1a: Zacian|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Lunala|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Zacian|Crunch|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|turn|4
+|
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Eternatus|Flamethrower|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Claydol|Claydol|100/100
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Claydol
+|-damage|p2a: Claydol|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Claydol|71/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Charizard|Charizard, M, shiny|100/100
+|move|p2a: Claydol|Stealth Rock|p1a: Charizard
+|-sidestart|p1: heyroar9|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] ability: Solar Power|[of] p1a: Charizard
+|-heal|p2a: Claydol|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Charizard|Flamethrower|p2a: Claydol
+|-damage|p2a: Claydol|18/100
+|move|p2a: Claydol|Toxic|p1a: Charizard|[miss]
+|-miss|p2a: Claydol|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|76/100|[from] ability: Solar Power|[of] p1a: Charizard
+|-heal|p2a: Claydol|24/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|-start|p1a: Charizard|Dynamax
+|-heal|p1a: Charizard|76/100|[silent]
+|move|p1a: Charizard|Max Airstream|p2a: Eternatus
+|-damage|p2a: Eternatus|17/100
+|-boost|p1a: Charizard|spe|1
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Charizard
+|-damage|p1a: Charizard|1/100
+|move|p1a: Charizard|Max Flare|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|-weather|SunnyDay
+|faint|p2a: Eternatus
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|0 fnt|[from] ability: Solar Power|[of] p1a: Charizard
+|faint|p1a: Charizard
+|upkeep
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|switch|p1a: Zacian|Zacian-Crowned|74/100
+|-damage|p1a: Zacian|68/100|[from] Stealth Rock
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|10
+|
+|move|p1a: Zacian|Solar Blade||[still]
+|-prepare|p1a: Zacian|Solar Blade|p2a: Quagsire
+|-anim|p1a: Zacian|Solar Blade|p2a: Quagsire
+|-supereffective|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆Cryo900|nice tech
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|turn|11
+|
+|move|p1a: Zacian|Sacred Sword|p2a: Necrozma
+|-damage|p2a: Necrozma|61/100
+|move|p2a: Necrozma|Trick Room|p2a: Necrozma
+|-fieldstart|move: Trick Room|[of] p2a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p1a: Necrozma|94/100|[from] Stealth Rock
+|move|p2a: Necrozma|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-crit|p1a: Necrozma
+|-damage|p1a: Necrozma|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Necrozma|48/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Necrozma|Knock Off|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|12/100
+|-enditem|p1a: Necrozma|Leftovers|[from] move: Knock Off|[of] p2a: Necrozma
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|78/100
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|100/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Melmetal|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|55/100
+|move|p1a: Necrozma|Knock Off|p2a: Melmetal
+|-damage|p2a: Melmetal|83/100
+|-enditem|p2a: Melmetal|Choice Band|[from] move: Knock Off|[of] p1a: Necrozma
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|16
+|
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100 par
+|-damage|p1a: Ninetales|76/100 par|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|switch|p2a: Claydol|Claydol|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Claydol|30/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Claydol|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|14/100 par
+|move|p1a: Ninetales|Flamethrower|p2a: Claydol
+|-damage|p2a: Claydol|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Claydol|10/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Claydol|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Claydol|17/100|[from] item: Leftovers
+|upkeep
+|j| Gmt gmt
+|
+|switch|p1a: Eternatus|Eternatus|77/100
+|-damage|p1a: Eternatus|64/100|[from] Stealth Rock
+|-ability|p1a: Eternatus|Pressure
+|turn|19
+|
+|move|p1a: Eternatus|Flamethrower|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|61/100
+|turn|20
+|
+|move|p1a: Eternatus|Flamethrower|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Melmetal|Melmetal|83/100
+|turn|21
+|c|☆Cryo900|gg
+|-message|Cryo900 forfeited.
+|
+|win|heyroar9
+|l|☆Cryo900
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

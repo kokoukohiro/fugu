@@ -1,0 +1,156 @@
+|j|☆Disney Sucks
+|j|☆ban123456
+|t:|1661229175
+|gametype|singles
+|player|p1|Disney Sucks|linebacker|1520
+|player|p2|ban123456|fisherman|1417
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Calyrex-Ice|
+|poke|p1|Magearna|
+|poke|p1|Kyogre|
+|poke|p1|Tyranitar, F|
+|poke|p2|Shuckle, M|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Marshadow|
+|poke|p2|Weavile, M|
+|poke|p2|Groudon|
+|poke|p2|Yveltal|
+|teampreview
+|
+|t:|1661229179
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Shuckle|Shuckle, M, shiny|100/100
+|turn|1
+|
+|t:|1661229181
+|move|p2a: Shuckle|Encore|p1a: Hatterene
+|move|p1a: Hatterene|Encore||[from]ability: Magic Bounce|[still]
+|-fail|p1a: Hatterene
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1661229187
+|move|p2a: Shuckle|Sticky Web|p1a: Hatterene
+|move|p1a: Hatterene|Sticky Web|p2a: Shuckle|[from]ability: Magic Bounce
+|-sidestart|p2: ban123456|move: Sticky Web
+|move|p1a: Hatterene|Psychic|p2a: Shuckle
+|-damage|p2a: Shuckle|62/100
+|-enditem|p2a: Shuckle|Red Card|[of] p1a: Hatterene
+|drag|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1661229203
+|move|p2a: Shuckle|Final Gambit|p1a: Necrozma
+|-damage|p1a: Necrozma|63/100
+|faint|p2a: Shuckle
+|move|p1a: Necrozma|Sunsteel Strike|p2: Shuckle|[notarget]
+|-fail|p1a: Necrozma
+|
+|upkeep
+|
+|t:|1661229207
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-activate|p2a: Necrozma|move: Sticky Web
+|-unboost|p2a: Necrozma|spe|1
+|turn|4
+|
+|t:|1661229209
+|move|p1a: Necrozma|Knock Off|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|50/100
+|-enditem|p2a: Necrozma|Lum Berry|[from] move: Knock Off|[of] p1a: Necrozma
+|move|p2a: Necrozma|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|20/100
+|-enditem|p1a: Necrozma|Weakness Policy
+|-boost|p1a: Necrozma|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Necrozma|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|5
+|
+|t:|1661229216
+|move|p1a: Necrozma|Knock Off|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1661229218
+|switch|p2a: Yveltal|Yveltal, shiny|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|6
+|
+|t:|1661229220
+|move|p2a: Yveltal|Dark Pulse|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|-damage|p2a: Yveltal|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1661229223
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|7
+|
+|t:|1661229229
+|move|p2a: Yveltal|Dark Pulse|p1a: Hatterene
+|-damage|p1a: Hatterene|22/100
+|-damage|p2a: Yveltal|81/100|[from] item: Life Orb
+|cant|p1a: Hatterene|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1661229233
+|move|p2a: Yveltal|Oblivion Wing|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-heal|p2a: Yveltal|94/100|[from] drain|[of] p1a: Hatterene
+|faint|p1a: Hatterene
+|-damage|p2a: Yveltal|84/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1661229238
+|switch|p1a: Magearna|Magearna|100/100
+|-item|p1a: Magearna|Air Balloon
+|turn|9
+|
+|t:|1661229256
+|move|p2a: Yveltal|Taunt|p1a: Magearna
+|-start|p1a: Magearna|move: Taunt
+|cant|p1a: Magearna|move: Taunt|Trick Room
+|
+|upkeep
+|turn|10
+|-message|Disney Sucks forfeited.
+|
+|win|ban123456
+|raw|Disney Sucks's rating: 1520 &rarr; <strong>1494</strong><br />(-26 for losing)
+|raw|ban123456's rating: 1417 &rarr; <strong>1443</strong><br />(+26 for winning)
+|l|☆Disney Sucks
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

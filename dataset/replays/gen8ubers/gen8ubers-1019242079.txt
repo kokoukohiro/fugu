@@ -1,0 +1,277 @@
+|j|☆ray713testteam
+|j|☆Caramelt
+|player|p1|ray713testteam|ethan|1309
+|player|p2|Caramelt|janitor|1220
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ninetales, M|item
+|poke|p1|Eternatus|item
+|poke|p1|Zacian-Crowned|item
+|poke|p1|Ditto|item
+|poke|p1|Claydol|item
+|poke|p1|Rotom-Heat|item
+|poke|p2|Shuckle, M|item
+|poke|p2|Ditto|item
+|poke|p2|Chandelure, F|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Lapras, M|item
+|poke|p2|Zacian-Crowned|item
+|teampreview
+|
+|start
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Shuckle|Shuckle, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Claydol|Stealth Rock|p2a: Shuckle
+|-sidestart|p2: Caramelt|move: Stealth Rock
+|move|p2a: Shuckle|Stealth Rock|p1a: Claydol
+|-sidestart|p1: ray713testteam|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Claydol|Rapid Spin|p2a: Shuckle
+|-resisted|p2a: Shuckle
+|-damage|p2a: Shuckle|97/100
+|-damage|p1a: Claydol|84/100|[from] item: Rocky Helmet|[of] p2a: Shuckle
+|-sideend|p1: ray713testteam|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Claydol
+|-boost|p1a: Claydol|spe|1
+|move|p2a: Shuckle|Encore|p1a: Claydol
+|-start|p1a: Claydol|Encore
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|move|p2a: Shuckle|Toxic|p1a: Zacian
+|-immune|p1a: Zacian
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Zacian|Play Rough|p2a: Shuckle
+|-damage|p2a: Shuckle|45/100
+|-damage|p1a: Zacian|84/100|[from] item: Rocky Helmet|[of] p2a: Shuckle
+|move|p2a: Shuckle|Encore|p1a: Zacian
+|-start|p1a: Zacian|Encore
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Zacian|Play Rough|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|-damage|p1a: Zacian|67/100|[from] item: Rocky Helmet|[of] p2a: Shuckle
+|faint|p2a: Shuckle
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ray713testteam)
+|
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Zacian|[from] ability: Imposter
+|-ability|p2a: Ditto|Intrepid Sword|boost
+|-boost|p2a: Ditto|atk|1
+|turn|6
+|inactive|Caramelt has 120 seconds left.
+|
+|switch|p1a: Claydol|Claydol|84/100
+|move|p2a: Ditto|Play Rough|p1a: Claydol|[miss]
+|-miss|p2a: Ditto|p1a: Claydol
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Ditto|Play Rough|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|upkeep
+|c|☆Caramelt|dang, I expected ninetails
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|8
+|c|☆Caramelt|that would’ve been a power play
+|inactive|Caramelt has 120 seconds left.
+|
+|move|p2a: Ditto|Play Rough|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|23/100
+|move|p1a: Rotom|Overheat|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|94/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|10
+|inactive|Caramelt has 120 seconds left.
+|inactive|ray713testteam has 120 seconds left.
+|inactive|Caramelt has 90 seconds left.
+|
+|-start|p1a: Ninetales|Dynamax
+|-heal|p1a: Ninetales|100/100|[silent]
+|move|p2a: Bisharp|Sucker Punch|p1a: Ninetales
+|-damage|p1a: Ninetales|70/100
+|move|p1a: Ninetales|Max Flare|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Caramelt has 90 seconds left.
+|
+|switch|p2a: Chandelure|Chandelure, F, shiny|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Ninetales|Max Darkness|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Caramelt has 60 seconds left.
+|
+|switch|p2a: Lapras|Lapras, M|100/100
+|-damage|p2a: Lapras|75/100|[from] Stealth Rock
+|turn|12
+|inactive|Caramelt has 60 seconds left.
+|
+|-start|p2a: Lapras|Dynamax
+|-formechange|p2a: Lapras|Lapras-Gmax|
+|-heal|p2a: Lapras|75/100|[silent]
+|move|p1a: Ninetales|Max Overgrowth|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|48/100
+|-enditem|p2a: Lapras|Weakness Policy
+|-boost|p2a: Lapras|atk|2
+|-boost|p2a: Lapras|spa|2
+|-fieldstart|move: Grassy Terrain
+|move|p2a: Lapras|G-Max Resonance|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|39/100
+|-sidestart|p2: Caramelt|move: Aurora Veil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|45/100|[from] Grassy Terrain
+|-heal|p2a: Lapras|55/100|[from] Grassy Terrain
+|-end|p1a: Ninetales|Dynamax
+|-heal|p1a: Ninetales|45/100|[silent]
+|upkeep
+|turn|13
+|
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Lapras
+|-anim|p1a: Ninetales|Solar Beam|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|51/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-damage|p2a: Zacian|94/100|[from] Stealth Rock
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|14
+|
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|move|p1a: Ninetales|Fire Blast|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zacian|41/100|[from] Grassy Terrain
+|-heal|p1a: Ninetales|57/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|move|p2a: Zacian|Psychic Fangs|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zacian|48/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Zacian|[from] ability: Imposter
+|-ability|p1a: Ditto|Intrepid Sword|boost
+|-boost|p1a: Ditto|atk|1
+|turn|16
+|
+|move|p1a: Ditto|Psychic Fangs|p2a: Zacian
+|-sideend|p2: Caramelt|move: Aurora Veil
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|16/100
+|move|p2a: Zacian|Behemoth Blade|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zacian|22/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|inactive|ray713testteam has 120 seconds left.
+|c|☆ray713testteam|Damn I had the game, choked
+|
+|switch|p1a: Zacian|Zacian-Crowned|67/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|17
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|turn|18
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|
+|win|Caramelt
+|raw|ray713testteam's rating: 1309 &rarr; <strong>1284</strong><br />(-25 for losing)
+|raw|Caramelt's rating: 1220 &rarr; <strong>1251</strong><br />(+31 for winning)
+|l|☆ray713testteam
+|l|☆Caramelt
+|j|☆Caramelt
+|player|p2|Caramelt|janitor

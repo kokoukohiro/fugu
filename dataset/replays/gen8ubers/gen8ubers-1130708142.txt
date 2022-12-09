@@ -1,0 +1,565 @@
+|j|☆plusdehaxxquetoi
+|j|☆Chunkomucho
+|player|p1|plusdehaxxquetoi|209|1467
+|player|p2|Chunkomucho|erika|1481
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Eternatus|
+|poke|p1|Mewtwo|
+|poke|p1|Kyurem-Black|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Marshadow|
+|poke|p1|Corviknight, F|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Togekiss, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Quagsire, M|
+|poke|p2|Tyranitar, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chunkomucho)
+|
+|start
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|1
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Necrozma|Thunder Wave|p2a: Toxapex
+|-status|p2a: Toxapex|par
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Necrozma|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: Chunkomucho|move: Stealth Rock
+|cant|p2a: Toxapex|par
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Necrozma|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|59/100 par
+|cant|p2a: Toxapex|par
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Necrozma|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|20/100 par
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|70/100 par
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Necrozma|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100 par
+|-damage|p2a: Toxapex|88/100 par|[from] Stealth Rock
+|move|p1a: Necrozma|Thunder Wave|p2a: Toxapex
+|-fail|p2a: Toxapex|par
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Necrozma|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100 par
+|move|p2a: Toxapex|Knock Off|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|88/100
+|-enditem|p1a: Necrozma|Leftovers|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Necrozma|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|3/100 par
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|53/100 par
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|-damage|p2a: Quagsire|94/100|[from] Stealth Rock
+|move|p1a: Necrozma|Thunder Wave|p2a: Quagsire
+|-immune|p2a: Quagsire
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Quagsire|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|83/100
+|-status|p1a: Corviknight|brn
+|
+|-heal|p1a: Corviknight|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|83/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Corviknight|U-turn|p2a: Quagsire
+|-damage|p2a: Quagsire|89/100
+|
+|switch|p1a: Eternatus|Eternatus|100/100|[from]move: U-turn
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Quagsire|Scald|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|94/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Eternatus|Substitute|p1a: Eternatus
+|-start|p1a: Eternatus|Substitute
+|-damage|p1a: Eternatus|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eternatus|62/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Tyranitar
+|-damage|p2a: Tyranitar|58/100
+|-damage|p1a: Eternatus|53/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Stealth Rock|p1a: Eternatus
+|-sidestart|p1: plusdehaxxquetoi|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eternatus|46/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|96/100
+|move|p2a: Tyranitar|Snarl|p1a: Eternatus
+|-damage|p1a: Eternatus|81/100
+|-unboost|p1a: Eternatus|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eternatus|74/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Tyranitar
+|-damage|p2a: Tyranitar|39/100
+|-damage|p1a: Eternatus|64/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Earthquake|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-end|p1a: Eternatus|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eternatus|58/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|100/100
+|move|p2a: Tyranitar|Rest|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Rest
+|-heal|p2a: Tyranitar|100/100 slp|[silent]
+|
+|-weather|none
+|upkeep
+|turn|17
+|l|☆Chunkomucho
+|inactive|Chunkomucho disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Chunkomucho
+|inactive|Chunkomucho reconnected and has 145 seconds left.
+|player|p2|Chunkomucho|erika
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-damage|p1a: Kyurem|75/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|cant|p2a: Tyranitar|slp
+|
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-damage|p2a: Zacian|94/100|[from] Stealth Rock
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|57/100
+|
+|-heal|p1a: Kyurem|63/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|move|p1a: Kyurem|Fusion Bolt|p2a: Zacian
+|-damage|p2a: Zacian|48/100
+|
+|-heal|p1a: Kyurem|69/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|88/100
+|-damage|p1a: Necrozma|82/100|[from] Stealth Rock
+|move|p2a: Zacian|Sacred Sword|p1a: Necrozma
+|-damage|p1a: Necrozma|54/100
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Quagsire|Quagsire, M|89/100
+|-damage|p2a: Quagsire|83/100|[from] Stealth Rock
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|100/100
+|
+|upkeep
+|turn|22
+|j| Valhalla343
+|
+|switch|p1a: Kyurem|Kyurem-Black|69/100
+|-damage|p1a: Kyurem|44/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Quagsire|Scald|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|36/100
+|-status|p1a: Kyurem|brn
+|
+|-heal|p1a: Kyurem|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|36/100 brn|[from] brn
+|upkeep
+|turn|23
+|inactive|plusdehaxxquetoi has 120 seconds left.
+|
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|11/100 brn
+|move|p2a: Quagsire|Earthquake|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-heal|p1a: Kyurem|17/100 brn|[from] item: Leftovers
+|-damage|p1a: Kyurem|11/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|plusdehaxxquetoi has 120 seconds left.
+|
+|-start|p1a: Kyurem|Dynamax
+|-heal|p1a: Kyurem|11/100 brn|[silent]
+|move|p1a: Kyurem|Max Hailstorm|p2a: Quagsire
+|-damage|p2a: Quagsire|49/100
+|-weather|Hail
+|move|p2a: Quagsire|Earthquake|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Quagsire|43/100|[from] Hail
+|upkeep
+|inactive|plusdehaxxquetoi has 120 seconds left.
+|
+|switch|p1a: Eternatus|Eternatus|100/100
+|-damage|p1a: Eternatus|88/100|[from] Stealth Rock
+|-ability|p1a: Eternatus|Pressure
+|turn|25
+|inactive|plusdehaxxquetoi has 120 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100 slp
+|-damage|p2a: Tyranitar|88/100 slp|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Tyranitar
+|-damage|p2a: Tyranitar|59/100 slp
+|-damage|p1a: Eternatus|78/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eternatus|72/100|[from] Sandstorm
+|upkeep
+|turn|26
+|inactive|plusdehaxxquetoi has 120 seconds left.
+|
+|switch|p2a: Zacian|Zacian-Crowned|48/100
+|-damage|p2a: Zacian|42/100|[from] Stealth Rock
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Zacian
+|-immune|p2a: Zacian
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eternatus|66/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p1a: Necrozma|94/100|[from] Stealth Rock
+|move|p2a: Zacian|Behemoth Blade|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|switch|p2a: Quagsire|Quagsire, M|43/100
+|-damage|p2a: Quagsire|37/100|[from] Stealth Rock
+|move|p1a: Necrozma|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|
+|move|p1a: Necrozma|Earthquake|p2a: Quagsire
+|-crit|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-weather|none
+|upkeep
+|c|☆Chunkomucho|Nice crit
+|
+|switch|p2a: Sonia|Togekiss, F, shiny|100/100
+|-damage|p2a: Sonia|76/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Sonia|Substitute|p2a: Sonia
+|-start|p2a: Sonia|Substitute
+|-damage|p2a: Sonia|51/100
+|move|p1a: Necrozma|Thunder Wave||[still]
+|-fail|p1a: Necrozma
+|
+|-heal|p2a: Sonia|57/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Corviknight|Corviknight, F|83/100 brn
+|-damage|p1a: Corviknight|71/100 brn|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Sonia|Nasty Plot|p2a: Sonia
+|-boost|p2a: Sonia|spa|2
+|
+|-heal|p2a: Sonia|63/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|71/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|-end|p2a: Sonia|Substitute
+|-start|p2a: Sonia|Dynamax
+|-heal|p2a: Sonia|63/100|[silent]
+|move|p2a: Sonia|Max Airstream|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|5/100 brn
+|-boost|p2a: Sonia|spe|1
+|move|p1a: Corviknight|Iron Head|p2a: Sonia
+|-supereffective|p2a: Sonia
+|-damage|p2a: Sonia|50/100
+|
+|-heal|p2a: Sonia|53/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|12/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|5/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Sonia|Max Airstream|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-boost|p2a: Sonia|spe|1
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Sonia|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|68/100
+|-damage|p1a: Necrozma|62/100|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Sonia|Max Flare|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Sonia|59/100|[from] item: Leftovers
+|-end|p2a: Sonia|Dynamax
+|-heal|p2a: Sonia|59/100|[silent]
+|upkeep
+|
+|switch|p1a: Mewtwo|Mewtwo|100/100
+|-damage|p1a: Mewtwo|88/100|[from] Stealth Rock
+|-ability|p1a: Mewtwo|Pressure
+|turn|35
+|
+|move|p2a: Sonia|Air Slash|p1a: Mewtwo
+|-damage|p1a: Mewtwo|13/100
+|move|p1a: Mewtwo|Psychic|p2a: Sonia
+|-damage|p2a: Sonia|0 fnt
+|-damage|p1a: Mewtwo|3/100|[from] item: Life Orb
+|faint|p2a: Sonia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|42/100
+|-damage|p2a: Zacian|35/100|[from] Stealth Rock
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|36
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Marshadow|Marshadow|100/100
+|-damage|p1a: Marshadow|94/100|[from] Stealth Rock
+|turn|37
+|
+|switch|p2a: Toxapex|Toxapex, M|86/100 par
+|-damage|p2a: Toxapex|74/100 par|[from] Stealth Rock
+|move|p1a: Marshadow|Shadow Sneak|p2a: Toxapex
+|-damage|p2a: Toxapex|57/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|38
+|
+|move|p1a: Marshadow|Bulk Up|p1a: Marshadow
+|-boost|p1a: Marshadow|atk|1
+|-boost|p1a: Marshadow|def|1
+|move|p2a: Toxapex|Scald|p1a: Marshadow
+|-crit|p1a: Marshadow
+|-damage|p1a: Marshadow|79/100
+|-status|p1a: Marshadow|brn
+|
+|-weather|none
+|-damage|p1a: Marshadow|73/100 brn|[from] brn
+|upkeep
+|turn|39
+|c|☆Chunkomucho|Screw off
+|
+|move|p1a: Marshadow|Bulk Up|p1a: Marshadow
+|-boost|p1a: Marshadow|atk|1
+|-boost|p1a: Marshadow|def|1
+|cant|p2a: Toxapex|par
+|
+|-damage|p1a: Marshadow|67/100 brn|[from] brn
+|upkeep
+|turn|40
+|c|☆plusdehaxxquetoi|3 scald 3 burn
+|
+|move|p1a: Marshadow|Bulk Up|p1a: Marshadow
+|-boost|p1a: Marshadow|atk|1
+|-boost|p1a: Marshadow|def|1
+|cant|p2a: Toxapex|par
+|
+|-damage|p1a: Marshadow|60/100 brn|[from] brn
+|upkeep
+|turn|41
+|c|☆Chunkomucho|But my para tho
+|
+|move|p1a: Marshadow|Spectral Thief|p2a: Toxapex
+|-damage|p2a: Toxapex|22/100 par
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-damage|p1a: Marshadow|54/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|switch|p2a: Corviknight|Corviknight, M|88/100
+|-damage|p2a: Corviknight|75/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Marshadow|Bulk Up|p1a: Marshadow
+|-boost|p1a: Marshadow|atk|1
+|-boost|p1a: Marshadow|def|1
+|
+|-damage|p1a: Marshadow|48/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p1a: Marshadow|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|47/100
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|-damage|p1a: Marshadow|31/100 brn|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|U-turn|p1a: Marshadow
+|-resisted|p1a: Marshadow
+|-damage|p1a: Marshadow|27/100 brn
+|
+|switch|p2a: Toxapex|Toxapex, M|55/100 par|[from]move: U-turn
+|-damage|p2a: Toxapex|43/100 par|[from] Stealth Rock
+|
+|-damage|p1a: Marshadow|21/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|switch|p2a: Corviknight|Corviknight, M|47/100
+|-damage|p2a: Corviknight|34/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Marshadow|Bulk Up|p1a: Marshadow
+|-boost|p1a: Marshadow|atk|1
+|-boost|p1a: Marshadow|def|1
+|
+|-damage|p1a: Marshadow|15/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p1a: Marshadow|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|-damage|p1a: Marshadow|0 fnt|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|faint|p1a: Marshadow
+|
+|upkeep
+|
+|switch|p1a: Eternatus|Eternatus|66/100
+|switch|p2a: Zacian|Zacian-Crowned|35/100
+|-damage|p2a: Zacian|29/100|[from] Stealth Rock
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-damage|p1a: Eternatus|53/100|[from] Stealth Rock
+|-ability|p1a: Eternatus|Pressure
+|turn|46
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|
+|win|Chunkomucho
+|c|☆Chunkomucho|gg
+|l|☆plusdehaxxquetoi
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

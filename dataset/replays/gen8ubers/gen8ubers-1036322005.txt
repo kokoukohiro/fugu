@@ -1,0 +1,279 @@
+|j|☆nachocheesedude
+|j|☆Alakazam95
+|player|p1|nachocheesedude|cameraman|1361
+|player|p2|Alakazam95|teamrocket|1431
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Coalossal, M|
+|poke|p1|Eternatus|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Hydreigon, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Zamazenta-Crowned|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Eternatus|
+|poke|p2|Excadrill, M|
+|poke|p2|Darmanitan-Galar, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Ditto|
+|teampreview
+|
+|start
+|switch|p1a: Coalzilla|Coalossal, M|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|1
+|
+|-start|p2a: Conkeldurr|Dynamax
+|-heal|p2a: Conkeldurr|100/100|[silent]
+|move|p2a: Conkeldurr|Max Knuckle|p1a: Coalzilla
+|-supereffective|p1a: Coalzilla
+|-damage|p1a: Coalzilla|17/100
+|-boost|p2a: Conkeldurr|atk|1
+|move|p1a: Coalzilla|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: Alakazam95|move: Stealth Rock
+|
+|-heal|p1a: Coalzilla|23/100|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Conkeldurr|Max Quake|p1a: Coalzilla
+|-supereffective|p1a: Coalzilla
+|-damage|p1a: Coalzilla|0 fnt
+|-boost|p2a: Conkeldurr|spd|1
+|faint|p1a: Coalzilla
+|
+|-damage|p2a: Conkeldurr|97/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Fishy Fishy|Gyarados, F|100/100
+|-ability|p1a: Fishy Fishy|Intimidate|boost
+|-unboost|p2a: Conkeldurr|atk|1
+|turn|3
+|
+|-start|p1a: Fishy Fishy|Dynamax
+|-heal|p1a: Fishy Fishy|100/100|[silent]
+|move|p1a: Fishy Fishy|Max Geyser|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|74/100 brn
+|-weather|RainDance
+|move|p2a: Conkeldurr|Max Knuckle|p1a: Fishy Fishy
+|-resisted|p1a: Fishy Fishy
+|-damage|p1a: Fishy Fishy|84/100
+|-boost|p2a: Conkeldurr|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Conkeldurr|71/100 brn|[from] brn
+|-end|p2a: Conkeldurr|Dynamax
+|-heal|p2a: Conkeldurr|71/100 brn|[silent]
+|upkeep
+|turn|4
+|
+|move|p1a: Fishy Fishy|Max Geyser|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|5
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Fishy Fishy
+|-damage|p1a: Fishy Fishy|77/100
+|-sideend|p2: Alakazam95|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|move|p1a: Fishy Fishy|Max Quake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|3/100
+|-boost|p1a: Fishy Fishy|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Fishy Fishy|Dynamax
+|-heal|p1a: Fishy Fishy|77/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Fishy Fishy
+|-sidestart|p1: nachocheesedude|move: Stealth Rock
+|move|p1a: Fishy Fishy|Waterfall|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|7
+|
+|move|p2a: Zacian|Play Rough|p1a: Fishy Fishy
+|-damage|p1a: Fishy Fishy|12/100
+|move|p1a: Fishy Fishy|Thunder Wave|p2a: Zacian|[miss]
+|-miss|p1a: Fishy Fishy|p2a: Zacian
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|move|p2a: Zacian|Play Rough|p1a: Fishy Fishy
+|-damage|p1a: Fishy Fishy|0 fnt
+|faint|p1a: Fishy Fishy
+|
+|upkeep
+|
+|switch|p1a: Arrav|Zamazenta-Crowned|100/100
+|-damage|p1a: Arrav|97/100|[from] Stealth Rock
+|-ability|p1a: Arrav|Dauntless Shield|boost
+|-boost|p1a: Arrav|def|1
+|turn|9
+|
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|move|p1a: Arrav|Metal Burst||[still]
+|-fail|p1a: Arrav
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Zacian|Sacred Sword|p1a: Arrav
+|-supereffective|p1a: Arrav
+|-damage|p1a: Arrav|0 fnt
+|faint|p1a: Arrav
+|
+|upkeep
+|
+|switch|p1a: Mordred|Zacian-Crowned|100/100
+|-damage|p1a: Mordred|94/100|[from] Stealth Rock
+|-ability|p1a: Mordred|Intrepid Sword|boost
+|-boost|p1a: Mordred|atk|1
+|turn|11
+|
+|move|p2a: Zacian|Sacred Sword|p1a: Mordred
+|-damage|p1a: Mordred|4/100
+|move|p1a: Mordred|Behemoth Blade|p2a: Zacian
+|-damage|p2a: Zacian|18/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Mordred|Behemoth Blade|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-transform|p2a: Ditto|p1a: Mordred|[from] ability: Imposter
+|-ability|p2a: Ditto|Intrepid Sword|boost
+|-boost|p2a: Ditto|atk|1
+|turn|13
+|
+|move|p2a: Ditto|Play Rough|p1a: Mordred
+|-resisted|p1a: Mordred
+|-damage|p1a: Mordred|0 fnt
+|faint|p1a: Mordred
+|
+|upkeep
+|
+|switch|p1a: Eternity|Eternatus|100/100
+|-damage|p1a: Eternity|88/100|[from] Stealth Rock
+|-ability|p1a: Eternity|Pressure
+|turn|14
+|
+|move|p2a: Ditto|Play Rough|p1a: Eternity|[miss]
+|-miss|p2a: Ditto|p1a: Eternity
+|move|p1a: Eternity|Flamethrower|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|25/100
+|
+|-heal|p1a: Eternity|94/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Eternity|Flamethrower|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|85/100
+|
+|-heal|p2a: Eternatus|91/100|[from] item: Leftovers
+|-heal|p1a: Eternity|100/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|move|p1a: Eternity|Dynamax Cannon|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|19/100
+|
+|-heal|p2a: Eternatus|25/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nachocheesedude)
+|
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|75/100
+|move|p1a: Eternity|Dynamax Cannon|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-crit|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto, shiny|25/100
+|-transform|p2a: Ditto|p1a: Eternity|[from] ability: Imposter
+|-ability|p2a: Ditto|Pressure
+|turn|18
+|
+|move|p2a: Ditto|Dynamax Cannon|p1a: Eternity
+|-supereffective|p1a: Eternity
+|-damage|p1a: Eternity|3/100
+|move|p1a: Eternity|Dynamax Cannon|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-heal|p1a: Eternity|9/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan-Galar, M|100/100
+|turn|19
+|
+|move|p2a: Darmanitan|Ice Punch|p1a: Eternity
+|-supereffective|p1a: Eternity
+|-crit|p1a: Eternity
+|-damage|p1a: Eternity|0 fnt
+|faint|p1a: Eternity
+|
+|upkeep
+|
+|switch|p1a: Hail Hydra|Hydreigon, F|100/100
+|-damage|p1a: Hail Hydra|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Darmanitan|Ice Punch|p1a: Hail Hydra
+|-supereffective|p1a: Hail Hydra
+|-damage|p1a: Hail Hydra|0 fnt
+|faint|p1a: Hail Hydra
+|
+|win|Alakazam95
+|raw|nachocheesedude's rating: 1361 &rarr; <strong>1345</strong><br />(-16 for losing)
+|raw|Alakazam95's rating: 1431 &rarr; <strong>1447</strong><br />(+16 for winning)

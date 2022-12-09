@@ -1,0 +1,292 @@
+|j|☆Eby Sobak
+|j|☆Vram
+|player|p1|Eby Sobak|unknownf|1406
+|player|p2|Vram|red|1318
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Groudon|
+|poke|p1|Kyogre|
+|poke|p1|Smeargle, F|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Marshadow|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Smeargle, M|
+|poke|p2|Rayquaza|
+|poke|p2|Darkrai|
+|poke|p2|Mewtwo|
+|poke|p2|Xerneas|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|
+|start
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Xerneas|Xerneas|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vram)
+|
+|-zpower|p1a: Darkrai
+|move|p1a: Darkrai|Z-Hypnosis|p2a: Xerneas|[anim]Hypnosis
+|-boost|p1a: Darkrai|spe|1|[zeffect]
+|-status|p2a: Xerneas|slp|[from] move: Hypnosis
+|cant|p2a: Xerneas|slp
+|
+|-damage|p2a: Xerneas|88/100 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+|upkeep
+|turn|2
+|
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|-curestatus|p2a: Xerneas|slp|[msg]
+|move|p2a: Xerneas|Moonblast|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|detailschange|p1a: Kyogre|Kyogre-Primal
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|3
+|
+|move|p2a: Xerneas|Geomancy||[still]
+|-prepare|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-enditem|p2a: Xerneas|Power Herb
+|-anim|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-boost|p2a: Xerneas|spa|2
+|-boost|p2a: Xerneas|spd|2
+|-boost|p2a: Xerneas|spe|2
+|move|p1a: Kyogre|Water Spout|p2a: Xerneas
+|-damage|p2a: Xerneas|23/100
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Xerneas|Thunderbolt|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|20/100
+|move|p1a: Kyogre|Water Spout|p2a: Xerneas
+|-damage|p2a: Xerneas|10/100
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Xerneas|Thunderbolt|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|-weather|none
+|
+|upkeep
+|
+|switch|p1a: Marshadow|Marshadow|100/100
+|turn|6
+|
+|move|p2a: Xerneas|Moonblast|p1a: Marshadow
+|-supereffective|p1a: Marshadow
+|-enditem|p1a: Marshadow|Focus Sash
+|-damage|p1a: Marshadow|1/100
+|-unboost|p1a: Marshadow|spa|1
+|move|p1a: Marshadow|Spectral Thief||[still]
+|-clearpositiveboost|p2a: Xerneas|p1a: Marshadow|move: Spectral Thief
+|-boost|p1a: Marshadow|spa|2
+|-boost|p1a: Marshadow|spd|2
+|-boost|p1a: Marshadow|spe|2
+|-anim|p1a: Marshadow|Spectral Thief|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|7
+|
+|-start|p1a: Marshadow|Dynamax
+|-heal|p1a: Marshadow|1/100|[silent]
+|move|p1a: Marshadow|Max Knuckle|p2a: Zacian
+|-damage|p2a: Zacian|51/100
+|-boost|p1a: Marshadow|atk|1
+|move|p2a: Zacian|Behemoth Blade|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|upkeep
+|
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|8
+|
+|move|p2a: Zacian|Close Combat|p1a: Groudon
+|-damage|p1a: Groudon|54/100
+|-unboost|p2a: Zacian|def|1
+|-unboost|p2a: Zacian|spd|1
+|move|p1a: Groudon|Fire Punch|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|9
+|
+|move|p2a: Darkrai|Hypnosis|p1a: Groudon|[miss]
+|-miss|p2a: Darkrai|p1a: Groudon
+|move|p1a: Groudon|Precipice Blades|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|10
+|
+|move|p2a: Smeargle|Spore|p1a: Groudon
+|-status|p1a: Groudon|slp|[from] move: Spore
+|cant|p1a: Groudon|slp
+|
+|-weather|DesolateLand|[upkeep]
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spd|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|turn|11
+|
+|move|p2a: Smeargle|No Retreat|p2a: Smeargle
+|-boost|p2a: Smeargle|atk|1
+|-boost|p2a: Smeargle|def|1
+|-boost|p2a: Smeargle|spa|1
+|-boost|p2a: Smeargle|spd|1
+|-boost|p2a: Smeargle|spe|1
+|-start|p2a: Smeargle|move: No Retreat
+|-curestatus|p1a: Groudon|slp|[msg]
+|move|p1a: Groudon|Precipice Blades|p2a: Smeargle|[miss]
+|-miss|p1a: Groudon|p2a: Smeargle
+|
+|-weather|DesolateLand|[upkeep]
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|turn|12
+|
+|move|p2a: Smeargle|Swords Dance|p2a: Smeargle
+|-boost|p2a: Smeargle|atk|2
+|move|p1a: Groudon|Precipice Blades|p2a: Smeargle
+|-damage|p2a: Smeargle|15/100
+|
+|-weather|DesolateLand|[upkeep]
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|13
+|
+|move|p2a: Smeargle|Baton Pass|p2a: Smeargle
+|
+|switch|p2a: Rayquaza|Rayquaza|100/100|[from]move: Baton Pass
+|-ability|p2a: Rayquaza|Air Lock
+|move|p1a: Groudon|Dragon Claw|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|70/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|14
+|
+|detailschange|p2a: Rayquaza|Rayquaza-Mega
+|-mega|p2a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|-damage|p2a: Rayquaza|60/100|[from] item: Life Orb
+|faint|p1a: Groudon
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|turn|15
+|
+|move|p2a: Rayquaza|V-create|p1a: Smeargle
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100
+|-unboost|p2a: Rayquaza|spe|1
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|-damage|p2a: Rayquaza|50/100|[from] item: Life Orb
+|move|p1a: Smeargle|Spore|p2a: Rayquaza
+|-status|p2a: Rayquaza|slp|[from] move: Spore
+|
+|-weather|DeltaStream|[upkeep]
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spd|2
+|-unboost|p1a: Smeargle|atk|1
+|upkeep
+|turn|16
+|
+|cant|p2a: Rayquaza|slp
+|move|p1a: Smeargle|Shell Smash|p1a: Smeargle
+|-unboost|p1a: Smeargle|def|1
+|-unboost|p1a: Smeargle|spd|1
+|-boost|p1a: Smeargle|atk|2
+|-boost|p1a: Smeargle|spa|2
+|-boost|p1a: Smeargle|spe|2
+|
+|-weather|DeltaStream|[upkeep]
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spd|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|turn|17
+|
+|cant|p2a: Rayquaza|slp
+|move|p1a: Smeargle|Baton Pass|p1a: Smeargle
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100|[from]move: Baton Pass
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Zacian|Play Rough|p2a: Rayquaza|[miss]
+|-miss|p1a: Zacian|p2a: Rayquaza
+|-curestatus|p2a: Rayquaza|slp|[msg]
+|move|p2a: Rayquaza|V-create|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|-unboost|p2a: Rayquaza|spe|1
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|-damage|p2a: Rayquaza|40/100|[from] item: Life Orb
+|faint|p1a: Zacian
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|-message|Eby Sobak forfeited.
+|
+|win|Vram
+|l|☆Eby Sobak
+|raw|Eby Sobak's rating: 1406 &rarr; <strong>1381</strong><br />(-25 for losing)
+|raw|Vram's rating: 1318 &rarr; <strong>1343</strong><br />(+25 for winning)

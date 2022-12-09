@@ -1,0 +1,714 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1665885707
+|gametype|singles
+|player|p1|Floss|#scl2machines|
+|player|p2|Stallion|#wcop2021oceania|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Ubers
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Marshadow|
+|poke|p1|Calyrex-Shadow|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Yveltal|
+|poke|p1|Eternatus|
+|poke|p1|Groudon|
+|poke|p2|Ho-Oh|
+|poke|p2|Yveltal|
+|poke|p2|Marshadow|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Zygarde|
+|poke|p2|Eternatus|
+|teampreview
+|c|☆Floss|hf
+|c|☆Stallion|glhf
+|inactive|Floss has 270 seconds left.
+|inactive|Stallion has 270 seconds left.
+|inactive|Floss has 240 seconds left.
+|inactive|Stallion has 240 seconds left.
+|
+|t:|1665885790
+|start
+|switch|p1a: Groudon|Groudon|100/100
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|1
+|inactive|Stallion has 270 seconds left.
+|
+|t:|1665885824
+|move|p1a: Groudon|Precipice Blades|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|44/100
+|move|p2a: Necrozma|Knock Off|p1a: Groudon
+|-damage|p1a: Groudon|85/100
+|-enditem|p1a: Groudon|Leftovers|[from] move: Knock Off|[of] p2a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Necrozma|50/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1665885834
+|switch|p2a: Zygarde|Zygarde|100/100
+|move|p1a: Groudon|Toxic|p2a: Zygarde
+|-status|p2a: Zygarde|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Zygarde|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|inactive|Stallion has 270 seconds left.
+|
+|t:|1665885843
+|move|p2a: Zygarde|Thousand Arrows|p1a: Groudon
+|-damage|p1a: Groudon|62/100
+|move|p1a: Groudon|Stealth Rock|p2a: Zygarde
+|-sidestart|p2: Stallion|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zygarde|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Zygarde|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1665885869
+|move|p2a: Zygarde|Thousand Arrows|p1a: Groudon
+|-damage|p1a: Groudon|43/100
+|move|p1a: Groudon|Precipice Blades|p2a: Zygarde
+|-damage|p2a: Zygarde|46/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zygarde|52/100 tox|[from] item: Leftovers
+|-damage|p2a: Zygarde|34/100 tox|[from] psn
+|-activate|p2a: Zygarde|ability: Power Construct
+|detailschange|p2a: Zygarde|Zygarde-Complete
+|-heal|p2a: Zygarde|58/100 tox|[silent]
+|upkeep
+|turn|5
+|
+|t:|1665885874
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Zygarde|Rest|p2a: Zygarde
+|-status|p2a: Zygarde|slp|[from] move: Rest
+|-heal|p2a: Zygarde|100/100 slp|[silent]
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1665885878
+|switch|p2a: Eternatus|Eternatus|100/100
+|-damage|p2a: Eternatus|88/100|[from] Stealth Rock
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Yveltal|U-turn|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|81/100
+|
+|t:|1665885885
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1665885890
+|move|p1a: Necrozma|Knock Off|p2a: Eternatus
+|-crit|p2a: Eternatus
+|-damage|p2a: Eternatus|47/100
+|-enditem|p2a: Eternatus|Haban Berry|[from] move: Knock Off|[of] p1a: Necrozma
+|move|p2a: Eternatus|Dragon Tail|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|95/100
+|drag|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|-item|p1a: Eternatus|Air Balloon
+|
+|upkeep
+|turn|8
+|inactive|Stallion has 270 seconds left.
+|
+|t:|1665885926
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|switch|p1a: Marshadow|Marshadow|100/100
+|
+|upkeep
+|turn|9
+|inactive|Stallion has 270 seconds left.
+|inactive|Floss has 270 seconds left.
+|inactive|Floss has 240 seconds left.
+|
+|t:|1665885988
+|move|p1a: Marshadow|Rock Tomb|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|-damage|p1a: Marshadow|91/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Stallion has 240 seconds left.
+|
+|t:|1665886009
+|switch|p2a: Zygarde|Zygarde-Complete|100/100 slp
+|-damage|p2a: Zygarde|94/100 slp|[from] Stealth Rock
+|turn|10
+|inactive|Stallion has 240 seconds left.
+|
+|t:|1665886015
+|move|p1a: Marshadow|Ice Punch|p2a: Zygarde
+|-supereffective|p2a: Zygarde
+|-damage|p2a: Zygarde|36/100 slp
+|-damage|p1a: Marshadow|81/100|[from] item: Life Orb
+|cant|p2a: Zygarde|slp
+|move|p2a: Zygarde|Sleep Talk|p2a: Zygarde
+|move|p2a: Zygarde|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Zygarde
+|
+|-heal|p2a: Zygarde|42/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆Stallion|okay
+|inactive|Stallion has 240 seconds left.
+|c|☆Stallion|wtf is that set
+|c|☆Floss|i didnt realise until after the game started either tbh
+|inactive|Floss has 240 seconds left.
+|c|☆Stallion|who runs Tomb + Ice Punch lol
+|c|+Rhmsitb|Goated one
+|
+|t:|1665886045
+|switch|p2a: Eternatus|Eternatus|47/100
+|-damage|p2a: Eternatus|34/100|[from] Stealth Rock
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Marshadow|Ice Punch|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|-damage|p1a: Marshadow|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1665886049
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|12
+|inactive|Floss has 240 seconds left.
+|
+|t:|1665886092
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|-item|p1a: Eternatus|Air Balloon
+|move|p2a: Yveltal|Foul Play|p1a: Eternatus
+|-damage|p1a: Eternatus|77/100
+|-enditem|p1a: Eternatus|Air Balloon
+|
+|upkeep
+|turn|13
+|
+|t:|1665886099
+|move|p1a: Eternatus|Flamethrower|p2a: Yveltal
+|-damage|p2a: Yveltal|83/100
+|move|p2a: Yveltal|Defog|p1a: Eternatus
+|-unboost|p1a: Eternatus|evasion|1
+|-sideend|p2: Stallion|Stealth Rock|[from] move: Defog|[of] p2a: Yveltal
+|
+|upkeep
+|turn|14
+|
+|t:|1665886105
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|50/100
+|move|p1a: Eternatus|Flamethrower|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|23/100
+|
+|-heal|p2a: Necrozma|29/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1665886108
+|switch|p1a: Groudon|Groudon|43/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2a: Necrozma|Morning Sun|p2a: Necrozma
+|-heal|p2a: Necrozma|96/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Necrozma|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Floss has 240 seconds left.
+|inactive|Stallion has 270 seconds left.
+|inactive|Stallion has 240 seconds left.
+|inactive|Stallion has 210 seconds left.
+|
+|t:|1665886197
+|switch|p2a: Yveltal|Yveltal|83/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Groudon|Precipice Blades|p2a: Yveltal
+|-immune|p2a: Yveltal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|inactive|Floss has 240 seconds left.
+|
+|t:|1665886218
+|move|p2a: Yveltal|U-turn|p1a: Groudon
+|-damage|p1a: Groudon|33/100
+|inactive|Stallion has 180 seconds left.
+|
+|t:|1665886264
+|switch|p2a: Zygarde|Zygarde-Complete|42/100 slp|[from]move: U-turn
+|move|p1a: Groudon|Stealth Rock|p2a: Zygarde
+|-sidestart|p2: Stallion|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zygarde|49/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1665886271
+|cant|p2a: Zygarde|slp
+|move|p2a: Zygarde|Sleep Talk|p2a: Zygarde
+|move|p2a: Zygarde|Thousand Arrows|p1a: Groudon|[from]move: Sleep Talk
+|-damage|p1a: Groudon|11/100
+|move|p1a: Groudon|Precipice Blades|p2a: Zygarde
+|-damage|p2a: Zygarde|23/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zygarde|29/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Floss has 240 seconds left.
+|
+|t:|1665886279
+|switch|p1a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-curestatus|p2a: Zygarde|slp|[msg]
+|move|p2a: Zygarde|Rest|p2a: Zygarde
+|-status|p2a: Zygarde|slp|[from] move: Rest
+|-heal|p2a: Zygarde|100/100 slp|[silent]
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1665886293
+|switch|p2a: Yveltal|Yveltal|83/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Calyrex|Astral Barrage|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|50/100
+|
+|upkeep
+|turn|21
+|inactive|Floss has 240 seconds left.
+|
+|t:|1665886316
+|switch|p1a: Marshadow|Marshadow|71/100
+|move|p2a: Yveltal|Roost|p2a: Yveltal
+|-heal|p2a: Yveltal|100/100
+|-singleturn|p2a: Yveltal|move: Roost
+|
+|upkeep
+|turn|22
+|inactive|Floss has 240 seconds left.
+|inactive|Stallion has 180 seconds left.
+|
+|t:|1665886345
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Yveltal|Foul Play|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|81/100
+|
+|upkeep
+|turn|23
+|inactive|Floss has 240 seconds left.
+|
+|t:|1665886350
+|move|p1a: Yveltal|Foul Play|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|81/100
+|move|p2a: Yveltal|Defog|p1a: Yveltal
+|-unboost|p1a: Yveltal|evasion|1
+|-sideend|p2: Stallion|Stealth Rock|[from] move: Defog|[of] p2a: Yveltal
+|
+|upkeep
+|turn|24
+|inactive|Stallion has 180 seconds left.
+|
+|t:|1665886356
+|move|p1a: Yveltal|Foul Play|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|61/100
+|move|p2a: Yveltal|Roost|p2a: Yveltal
+|-heal|p2a: Yveltal|100/100
+|-singleturn|p2a: Yveltal|move: Roost
+|
+|upkeep
+|turn|25
+|
+|t:|1665886359
+|move|p1a: Yveltal|Foul Play|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|81/100
+|move|p2a: Yveltal|U-turn|p1a: Yveltal
+|-damage|p1a: Yveltal|66/100
+|inactive|Stallion has 180 seconds left.
+|
+|t:|1665886386
+|switch|p2a: Marshadow|Marshadow|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|26
+|
+|t:|1665886394
+|switch|p1a: Groudon|Groudon|11/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2a: Marshadow|Ice Punch|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1665886408
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|95/100
+|turn|27
+|inactive|Stallion has 180 seconds left.
+|inactive|Stallion has 150 seconds left.
+|inactive|Stallion has 120 seconds left.
+|
+|t:|1665886500
+|switch|p2a: Zygarde|Zygarde-Complete|100/100 slp
+|move|p1a: Necrozma|Knock Off|p2a: Zygarde
+|-damage|p2a: Zygarde|85/100 slp
+|-enditem|p2a: Zygarde|Leftovers|[from] move: Knock Off|[of] p1a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Necrozma|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1665886519
+|switch|p1a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|cant|p2a: Zygarde|slp
+|move|p2a: Zygarde|Sleep Talk|p2a: Zygarde
+|move|p2a: Zygarde|Dragon Dance|p2a: Zygarde|[from]move: Sleep Talk
+|-boost|p2a: Zygarde|atk|1
+|-boost|p2a: Zygarde|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1665886531
+|switch|p2a: Yveltal|Yveltal|81/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Calyrex|Trick|p2a: Yveltal
+|-activate|p1a: Calyrex|move: Trick|[of] p2a: Yveltal
+|-item|p2a: Yveltal|Choice Specs|[from] move: Trick
+|-item|p1a: Calyrex|Heavy-Duty Boots|[from] move: Trick
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1665886536
+|move|p1a: Calyrex|Substitute|p1a: Calyrex
+|-start|p1a: Calyrex|Substitute
+|-damage|p1a: Calyrex|76/100
+|move|p2a: Yveltal|U-turn|p1a: Calyrex
+|-end|p1a: Calyrex|Substitute
+|
+|t:|1665886546
+|switch|p2a: Marshadow|Marshadow|100/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|turn|31
+|
+|t:|1665886556
+|switch|p1a: Eternatus|Eternatus|77/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Marshadow|Shadow Sneak|p1a: Eternatus
+|-damage|p1a: Eternatus|37/100
+|
+|upkeep
+|turn|32
+|
+|t:|1665886563
+|switch|p1a: Yveltal|Yveltal|66/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Marshadow|Shadow Sneak|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|46/100
+|
+|upkeep
+|turn|33
+|
+|t:|1665886582
+|switch|p2a: Yveltal|Yveltal|81/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Yveltal|Roost|p1a: Yveltal
+|-heal|p1a: Yveltal|96/100
+|-singleturn|p1a: Yveltal|move: Roost
+|
+|upkeep
+|turn|34
+|
+|t:|1665886589
+|move|p1a: Yveltal|Foul Play|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|59/100
+|move|p2a: Yveltal|U-turn|p1a: Yveltal
+|-damage|p1a: Yveltal|80/100
+|inactive|Stallion has 120 seconds left.
+|
+|t:|1665886616
+|switch|p2a: Marshadow|Marshadow|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|35
+|
+|t:|1665886621
+|switch|p1a: Eternatus|Eternatus|37/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Marshadow|Ice Punch|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|
+|upkeep
+|inactive|Floss has 270 seconds left.
+|
+|t:|1665886667
+|switch|p1a: Marshadow|Marshadow|71/100
+|turn|36
+|inactive|Stallion has 120 seconds left.
+|inactive|Stallion has 90 seconds left.
+|
+|t:|1665886716
+|switch|p2a: Zygarde|Zygarde-Complete|85/100 slp
+|move|p1a: Marshadow|Spectral Thief|p2a: Zygarde
+|-damage|p2a: Zygarde|59/100 slp
+|-damage|p1a: Marshadow|61/100|[from] item: Life Orb
+|
+|upkeep
+|turn|37
+|
+|t:|1665886720
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p1a: Marshadow|Ice Punch|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|89/100
+|-damage|p1a: Marshadow|51/100|[from] item: Life Orb
+|
+|-heal|p2a: Necrozma|95/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1665886732
+|switch|p1a: Yveltal|Yveltal|80/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Necrozma|Iron Head|p1a: Yveltal
+|-damage|p1a: Yveltal|49/100
+|
+|-heal|p2a: Necrozma|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|Stallion has 90 seconds left.
+|
+|t:|1665886748
+|switch|p2a: Yveltal|Yveltal|59/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Yveltal|Roost|p1a: Yveltal
+|-heal|p1a: Yveltal|99/100
+|-singleturn|p1a: Yveltal|move: Roost
+|
+|upkeep
+|turn|40
+|
+|t:|1665886752
+|move|p1a: Yveltal|Foul Play|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|40/100
+|move|p2a: Yveltal|Roost|p2a: Yveltal
+|-heal|p2a: Yveltal|90/100
+|-singleturn|p2a: Yveltal|move: Roost
+|
+|upkeep
+|turn|41
+|
+|t:|1665886756
+|switch|p2a: Zygarde|Zygarde-Complete|59/100 slp
+|move|p1a: Yveltal|U-turn|p2a: Zygarde
+|-damage|p2a: Zygarde|50/100 slp
+|
+|t:|1665886763
+|switch|p1a: Calyrex|Calyrex-Shadow|76/100|[from]move: U-turn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|
+|upkeep
+|turn|42
+|
+|t:|1665886766
+|switch|p2a: Yveltal|Yveltal|90/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Calyrex|Astral Barrage|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|66/100
+|
+|upkeep
+|turn|43
+|
+|t:|1665886771
+|move|p1a: Calyrex|Substitute|p1a: Calyrex
+|-start|p1a: Calyrex|Substitute
+|-damage|p1a: Calyrex|51/100
+|move|p2a: Yveltal|U-turn|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Substitute|[damage]
+|inactive|Stallion has 120 seconds left.
+|
+|t:|1665886793
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|44
+|
+|t:|1665886801
+|switch|p2a: Yveltal|Yveltal|66/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|
+|upkeep
+|turn|45
+|
+|t:|1665886804
+|move|p1a: Calyrex|Astral Barrage|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|19/100
+|move|p2a: Yveltal|U-turn|p1a: Calyrex
+|-end|p1a: Calyrex|Substitute
+|
+|t:|1665886814
+|switch|p2a: Marshadow|Marshadow|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|46
+|inactive|Stallion has 120 seconds left.
+|
+|t:|1665886859
+|switch|p1a: Yveltal|Yveltal|99/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Marshadow|Low Kick|p1a: Yveltal
+|-damage|p1a: Yveltal|27/100
+|
+|upkeep
+|turn|47
+|inactive|Floss has 270 seconds left.
+|
+|t:|1665886891
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|switch|p1a: Calyrex|Calyrex-Shadow|51/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|
+|upkeep
+|turn|48
+|
+|t:|1665886899
+|move|p1a: Calyrex|Astral Barrage|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|34/100
+|move|p2a: Necrozma|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-enditem|p1a: Calyrex|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Necrozma
+|faint|p1a: Calyrex
+|
+|-heal|p2a: Necrozma|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1665886902
+|switch|p1a: Marshadow|Marshadow|51/100
+|turn|49
+|
+|t:|1665886914
+|switch|p2a: Yveltal|Yveltal|19/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Marshadow|Spectral Thief|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|faint|p2a: Yveltal
+|-damage|p1a: Marshadow|41/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Stallion has 90 seconds left.
+|
+|t:|1665886968
+|switch|p2a: Marshadow|Marshadow|100/100
+|turn|50
+|inactive|Stallion has 60 seconds left.
+|
+|t:|1665887003
+|move|p1a: Marshadow|Shadow Sneak|p2a: Marshadow
+|-supereffective|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|-damage|p1a: Marshadow|31/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Stallion|damn
+|c|☆Stallion|50/50 roll
+|c|☆Stallion|fuck me
+|inactive|Stallion has 30 seconds left.
+|
+|t:|1665887029
+|switch|p2a: Zygarde|Zygarde-Complete|50/100 slp
+|turn|51
+|
+|t:|1665887033
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|40/100
+|move|p1a: Marshadow|Ice Punch|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|29/100
+|-damage|p1a: Marshadow|21/100|[from] item: Life Orb
+|
+|-heal|p2a: Necrozma|35/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1665887039
+|switch|p2a: Zygarde|Zygarde-Complete|50/100 slp
+|move|p1a: Marshadow|Spectral Thief|p2a: Zygarde
+|-damage|p2a: Zygarde|23/100 slp
+|-damage|p1a: Marshadow|11/100|[from] item: Life Orb
+|
+|upkeep
+|turn|53
+|
+|t:|1665887054
+|move|p1a: Marshadow|Spectral Thief|p2a: Zygarde
+|-damage|p2a: Zygarde|0 fnt
+|faint|p2a: Zygarde
+|-damage|p1a: Marshadow|1/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Floss|gg
+|-message|Stallion forfeited.
+|
+|win|Floss

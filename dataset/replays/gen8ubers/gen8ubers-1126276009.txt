@@ -1,0 +1,302 @@
+|j|☆Chunkomucho
+|j|☆Komala Worshiper
+|player|p1|Chunkomucho|erika|1474
+|player|p2|Komala Worshiper|skyla|1497
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Mewtwo|
+|poke|p1|Dracovish|
+|poke|p1|Shuckle, F|
+|poke|p1|Eternatus|
+|poke|p2|Pelipper, F|
+|poke|p2|Drednaw, F|
+|poke|p2|Dracovish|
+|poke|p2|Corviknight, M|
+|poke|p2|Lunala|
+|poke|p2|Ditto|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chunkomucho)
+|
+|start
+|switch|p1a: Shuckle|Shuckle, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p2a: Pelipper|U-turn|p1a: Shuckle
+|-crit|p1a: Shuckle
+|-damage|p1a: Shuckle|93/100
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from]move: U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Shuckle|Sticky Web|p2a: Corviknight
+|-sidestart|p2: Komala Worshiper|move: Sticky Web
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Shuckle|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Komala Worshiper|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Corviknight|Defog|p1a: Shuckle
+|-unboost|p1a: Shuckle|evasion|1
+|-sideend|p2: Komala Worshiper|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Komala Worshiper|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Shuckle|Encore|p2a: Corviknight
+|-start|p2a: Corviknight|Encore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|switch|p1a: Dracovish|Dracovish|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Dracovish|Outrage|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Lunala|Lunala|100/100
+|turn|6
+|
+|move|p2a: Lunala|Thunder Wave|p1a: Dracovish
+|-status|p1a: Dracovish|par
+|move|p1a: Dracovish|Outrage|p2a: Lunala|[from]lockedmove
+|-damage|p2a: Lunala|73/100
+|-start|p1a: Dracovish|confusion|[fatigue]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Dracovish|[from] ability: Imposter
+|-activate|p1a: Dracovish|confusion
+|-damage|p1a: Dracovish|85/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Ditto|Fishious Rend|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|37/100 par
+|-activate|p1a: Dracovish|confusion
+|move|p1a: Dracovish|Outrage|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|9
+|
+|-activate|p1a: Dracovish|confusion
+|move|p1a: Dracovish|Outrage|p2a: Pelipper|[from]lockedmove
+|-damage|p2a: Pelipper|50/100
+|move|p2a: Pelipper|Scald|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|25/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|-activate|p1a: Dracovish|confusion
+|move|p1a: Dracovish|Substitute|p1a: Dracovish
+|-fail|p1a: Dracovish|move: Substitute|[weak]
+|move|p2a: Pelipper|Knock Off|p1a: Dracovish
+|-damage|p1a: Dracovish|11/100 par
+|-enditem|p1a: Dracovish|Metronome|[from] move: Knock Off|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|-end|p1a: Dracovish|confusion
+|move|p1a: Dracovish|Fishious Rend|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Drednaw|Drednaw, F|100/100
+|turn|12
+|
+|move|p2a: Drednaw|Swords Dance|p2a: Drednaw
+|-boost|p2a: Drednaw|atk|2
+|cant|p1a: Dracovish|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Drednaw|Liquidation|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-damage|p2a: Drednaw|91/100|[from] item: Life Orb
+|faint|p1a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Shuckle|Shuckle, F|93/100
+|turn|14
+|
+|move|p2a: Drednaw|Liquidation|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|-damage|p2a: Drednaw|81/100|[from] item: Life Orb
+|faint|p1a: Shuckle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Chunkomucho has 120 seconds left.
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|15
+|
+|-start|p2a: Drednaw|Dynamax
+|-formechange|p2a: Drednaw|Drednaw-Gmax
+|-heal|p2a: Drednaw|81/100|[silent]
+|move|p2a: Drednaw|G-Max Stonesurge|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|-sidestart|p1: Chunkomucho|move: Stealth Rock
+|-damage|p2a: Drednaw|76/100|[from] item: Life Orb
+|faint|p1a: Zacian
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|16
+|
+|-start|p1a: Cinderace|Dynamax
+|-heal|p1a: Cinderace|100/100|[silent]
+|move|p1a: Cinderace|Max Guard|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-singleturn|p1a: Cinderace|Max Guard
+|move|p2a: Drednaw|G-Max Stonesurge|p1a: Cinderace
+|-activate|p1a: Cinderace|move: Max Guard
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|move|p1a: Cinderace|Max Knuckle|p2a: Drednaw
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|22/100
+|-boost|p1a: Cinderace|atk|1
+|move|p2a: Drednaw|G-Max Stonesurge|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-damage|p2a: Drednaw|17/100|[from] item: Life Orb
+|faint|p1a: Cinderace
+|
+|-end|p2a: Drednaw|Dynamax
+|-formechange|p2a: Drednaw|Drednaw
+|-heal|p2a: Drednaw|17/100|[silent]
+|upkeep
+|
+|switch|p1a: Mewtwo|Mewtwo|100/100
+|-damage|p1a: Mewtwo|88/100|[from] Stealth Rock
+|-ability|p1a: Mewtwo|Pressure
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Mewtwo|Psychic|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|-damage|p1a: Mewtwo|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Corviknight|72/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Mewtwo|Nasty Plot|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-heal|p2a: Corviknight|78/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Mewtwo|Aura Sphere|p2a: Corviknight
+|-damage|p2a: Corviknight|1/100
+|-damage|p1a: Mewtwo|68/100|[from] item: Life Orb
+|move|p2a: Corviknight|Body Press|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|41/100
+|
+|-heal|p2a: Corviknight|7/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Mewtwo|Aura Sphere|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Mewtwo|31/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Lunala|Lunala|73/100
+|turn|22
+|
+|move|p1a: Mewtwo|Shadow Ball|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|-damage|p1a: Mewtwo|21/100|[from] item: Life Orb
+|faint|p2a: Lunala
+|
+|upkeep
+|
+|switch|p2a: Drednaw|Drednaw, F|17/100
+|turn|23
+|c|☆Chunkomucho|Gg
+|
+|move|p1a: Mewtwo|Psychic|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|-damage|p1a: Mewtwo|11/100|[from] item: Life Orb
+|faint|p2a: Drednaw
+|
+|win|Chunkomucho
+|l|☆Komala Worshiper
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

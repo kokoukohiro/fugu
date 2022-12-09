@@ -1,0 +1,173 @@
+|j|☆heyroar9
+|j|☆juanE0803
+|player|p1|heyroar9|102|1466
+|player|p2|juanE0803|nate|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Charizard, M|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Darmanitan-Galar, M|
+|poke|p1|Eternatus|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Whimsicott, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Chandelure, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|
+|start
+|switch|p1a: Darmanitan|Darmanitan-Galar, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Darmanitan|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|45/100
+|
+|switch|p1a: Ninetales|Ninetales, M, shiny|100/100|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Tyranitar|Fire Punch|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|move|p1a: Zacian|Solar Blade||[still]
+|-prepare|p1a: Zacian|Solar Blade|p2a: Excadrill
+|-anim|p1a: Zacian|Solar Blade|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|45/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|4
+|
+|move|p1a: Zacian|Sacred Sword|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|turn|5
+|
+|-start|p2a: Chandelure|Dynamax
+|-heal|p2a: Chandelure|100/100|[silent]
+|move|p1a: Zacian|Crunch|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|28/100
+|move|p2a: Chandelure|Max Flare|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Zacian
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Charizard|Charizard, M, shiny|100/100
+|turn|6
+|
+|-start|p1a: Charizard|Dynamax
+|-heal|p1a: Charizard|100/100|[silent]
+|move|p1a: Charizard|Max Airstream|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-boost|p1a: Charizard|spe|1
+|faint|p2a: Chandelure
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|7
+|
+|move|p1a: Charizard|Max Overgrowth|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-fieldstart|move: Grassy Terrain
+|faint|p2a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|turn|8
+|
+|move|p2a: Whimsicott|Hurricane|p1a: Charizard
+|-damage|p1a: Charizard|58/100
+|move|p1a: Charizard|Max Airstream|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-boost|p1a: Charizard|spe|1
+|faint|p2a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|52/100|[from] ability: Solar Power|[of] p1a: Charizard
+|-end|p1a: Charizard|Dynamax
+|-heal|p1a: Charizard|52/100|[silent]
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|turn|9
+|
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam|p2a: Gyarados
+|-anim|p1a: Charizard|Solar Beam|p2a: Gyarados
+|-damage|p2a: Gyarados|46/100
+|move|p2a: Gyarados|Waterfall|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|turn|10
+|
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|win|heyroar9
+|l|☆juanE0803
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

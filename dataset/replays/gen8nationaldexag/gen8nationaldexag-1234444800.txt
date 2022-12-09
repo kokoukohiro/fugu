@@ -1,0 +1,332 @@
+|j|☆Lone Thief
+|j|☆ChunkyRat
+|t:|1606762703
+|player|p1|Lone Thief|gambler|1661
+|player|p2|ChunkyRat|policeman|1751
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Calyrex-Shadow|
+|poke|p1|Rayquaza|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Ditto|
+|poke|p1|Ho-Oh|
+|poke|p1|Groudon|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Kyurem-White|
+|poke|p2|Rayquaza|
+|poke|p2|Lugia|
+|poke|p2|Groudon|
+|poke|p2|Ditto|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lone Thief)
+|
+|t:|1606762724
+|start
+|switch|p1a: Groudon|Groudon|100/100
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|turn|1
+|
+|t:|1606762734
+|move|p2a: Groudon|Earth Power|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|7/100
+|-unboost|p1a: Groudon|spd|1
+|move|p1a: Groudon|Earthquake|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-crit|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|t:|1606762739
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|turn|2
+|
+|t:|1606762745
+|detailschange|p2a: Rayquaza|Rayquaza-Mega
+|-mega|p2a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|move|p2a: Rayquaza|Earthquake|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|t:|1606762752
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|3
+|
+|t:|1606762760
+|detailschange|p1a: Rayquaza|Rayquaza-Mega
+|-mega|p1a: Rayquaza|Rayquaza|
+|move|p1a: Rayquaza|Scale Shot|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|68/100
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|37/100
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|6/100
+|-hitcount|p2a: Rayquaza|3
+|-unboost|p1a: Rayquaza|def|1
+|-boost|p1a: Rayquaza|spe|1
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Rayquaza
+|-enditem|p1a: Rayquaza|Focus Sash
+|-damage|p1a: Rayquaza|1/100
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1606762776
+|move|p2a: Rayquaza|Extreme Speed|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|t:|1606762782
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Rayquaza|[from] ability: Imposter
+|turn|5
+|
+|t:|1606762787
+|move|p1a: Ditto|Extreme Speed|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|t:|1606762790
+|switch|p2a: Lugia|Lugia|100/100
+|turn|6
+|
+|t:|1606762793
+|-weather|none
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Lugia|Thunder Wave|p1a: Ho-Oh
+|-status|p1a: Ho-Oh|par
+|
+|upkeep
+|turn|7
+|
+|t:|1606762801
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Lugia
+|-damage|p2a: Lugia|89/100
+|-status|p2a: Lugia|brn
+|move|p2a: Lugia|Roar|p1a: Ho-Oh
+|drag|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|
+|-damage|p2a: Lugia|83/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1606762815
+|move|p1a: Zacian|Wild Charge|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|27/100 brn
+|-damage|p1a: Zacian|83/100|[from] Recoil
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|77/100 brn
+|-singleturn|p2a: Lugia|move: Roost
+|
+|-damage|p2a: Lugia|71/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1606762828
+|move|p1a: Zacian|Behemoth Blade|p2a: Lugia
+|-damage|p2a: Lugia|18/100 brn
+|move|p2a: Lugia|Thunder Wave|p1a: Zacian
+|-status|p1a: Zacian|par
+|
+|-damage|p2a: Lugia|12/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1606762838
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|62/100 brn
+|-singleturn|p2a: Lugia|move: Roost
+|move|p1a: Zacian|Behemoth Blade|p2a: Lugia
+|-damage|p2a: Lugia|7/100 brn
+|
+|-damage|p2a: Lugia|1/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1606762847
+|switch|p1a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve|p2: ChunkyRat
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|51/100 brn
+|-singleturn|p2a: Lugia|move: Roost
+|
+|-damage|p2a: Lugia|45/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1606762858
+|move|p1a: Calyrex|Astral Barrage|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|faint|p2a: Lugia
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1606762861
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Calyrex|[from] ability: Imposter
+|turn|13
+|
+|t:|1606762869
+|move|p2a: Ditto|Astral Barrage|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|move|p1a: Calyrex|Astral Barrage|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1606762871
+|switch|p2a: Kyurem|Kyurem-White|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|turn|14
+|
+|t:|1606762893
+|move|p2a: Kyurem|Ice Beam|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1606762898
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Kyurem|[from] ability: Imposter
+|-ability|p1a: Ditto|Turboblaze
+|turn|15
+|c|☆Lone Thief|!weakness Kyruem-White
+|c| Lone Thief|/raw <div class="infobox">Kyruem-White isn't a recognized type or Pokemon.</div>
+|inactive|Lone Thief has 120 seconds left.
+|c|☆Lone Thief|!weakness Kyurem-White
+|c| Lone Thief|/raw <div class="infobox">Kyurem-White (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Dragon, Fairy, Fighting, Rock, Steel<br /><span class="message-effect-resist">Resistances</span>: Electric, Grass, Water<br /><span class="message-effect-immune">Immunities</span>: Frozen, Hail damage</div>
+|
+|t:|1606762940
+|move|p2a: Kyurem|Ice Beam|p1a: Ditto
+|-damage|p1a: Ditto|35/100
+|move|p1a: Ditto|Fusion Flare|p2a: Kyurem
+|-damage|p2a: Kyurem|65/100
+|
+|upkeep
+|turn|16
+|
+|t:|1606762950
+|switch|p1a: Ho-Oh|Ho-Oh|100/100 par
+|move|p2a: Kyurem|Ice Beam|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|51/100 par
+|
+|upkeep
+|turn|17
+|
+|t:|1606762957
+|move|p2a: Kyurem|Ice Beam|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|19/100 par
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Kyurem
+|-damage|p2a: Kyurem|24/100
+|
+|upkeep
+|turn|18
+|j| uncool_loser
+|
+|t:|1606762968
+|move|p2a: Kyurem|Ice Beam|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|
+|upkeep
+|
+|t:|1606762972
+|switch|p1a: Ditto|Ditto|35/100
+|-transform|p1a: Ditto|p2a: Kyurem|[from] ability: Imposter
+|-ability|p1a: Ditto|Turboblaze
+|turn|19
+|inactive|Lone Thief has 120 seconds left.
+|
+|t:|1606762978
+|move|p1a: Ditto|Fusion Flare|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1606762980
+|switch|p2a: Wall|Necrozma-Dusk-Mane|100/100
+|turn|20
+|
+|t:|1606762984
+|-start|p2a: Wall|Dynamax
+|-heal|p2a: Wall|100/100|[silent]
+|move|p1a: Ditto|Fusion Flare|p2a: Wall
+|-supereffective|p2a: Wall
+|-damage|p2a: Wall|77/100
+|-enditem|p2a: Wall|Weakness Policy
+|-boost|p2a: Wall|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Wall|spa|2|[from] item: Weakness Policy
+|move|p2a: Wall|Max Quake|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-boost|p2a: Wall|spd|1
+|faint|p1a: Ditto
+|
+|upkeep
+|c|☆ChunkyRat|gg
+|
+|t:|1606762995
+|switch|p1a: Zacian|Zacian-Crowned|83/100 par
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|21
+|
+|t:|1606763004
+|move|p2a: Wall|Max Quake|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|-boost|p2a: Wall|spd|1
+|faint|p1a: Zacian
+|
+|win|ChunkyRat
+|l|☆Lone Thief
+|c|☆ChunkyRat|I am cracked. That turnaround with 2 pokemons left. OMGGGG WTFFF
+|c|☆ChunkyRat|gg
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

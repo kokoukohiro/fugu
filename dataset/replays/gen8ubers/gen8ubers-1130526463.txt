@@ -1,0 +1,486 @@
+|j|☆Chunkomucho
+|j|☆OhSunnyDay
+|player|p1|Chunkomucho|erika|1477
+|player|p2|OhSunnyDay|266|1533
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Zacian-Crowned|
+|poke|p1|Gothitelle, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Quagsire, M|
+|poke|p1|Tyranitar, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Reshiram|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Marshadow|
+|poke|p2|Pangoro, F|
+|poke|p2|Charizard, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chunkomucho)
+|
+|start
+|switch|p1a: Celestia|Gothitelle, F|100/100
+|switch|p2a: Pangoro|Pangoro, F|100/100
+|-ability|p2a: Pangoro|Mold Breaker
+|turn|1
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Pangoro|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|77/100
+|-damage|p2a: Pangoro|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-enditem|p1a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p2a: Pangoro
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Corviknight|U-turn|p2a: Pangoro
+|-damage|p2a: Pangoro|71/100
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100|[from]move: U-turn
+|move|p2a: Pangoro|Parting Shot|p1a: Toxapex
+|-unboost|p1a: Toxapex|atk|1
+|-unboost|p1a: Toxapex|spa|1
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100|[from]move: Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Celestia|Gothitelle, F|100/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Celestia
+|-sidestart|p1: Chunkomucho|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Celestia|Trick|p2a: Torkoal
+|-activate|p1a: Celestia|move: Trick|[of] p2a: Torkoal
+|-item|p2a: Torkoal|Choice Specs|[from] move: Trick
+|-item|p1a: Celestia|Heat Rock|[from] move: Trick
+|move|p2a: Torkoal|Lava Plume|p1a: Celestia
+|-damage|p1a: Celestia|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Celestia|Psychic|p2a: Torkoal
+|-damage|p2a: Torkoal|49/100
+|move|p2a: Torkoal|Lava Plume|p1a: Celestia
+|-damage|p1a: Celestia|0 fnt
+|faint|p1a: Celestia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|6
+|
+|switch|p2a: Pangoro|Pangoro, F|71/100
+|-ability|p2a: Pangoro|Mold Breaker
+|move|p1a: Tyranitar|Stealth Rock|p2a: Pangoro
+|-sidestart|p2: OhSunnyDay|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pangoro|65/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Pangoro|Parting Shot|p1a: Toxapex
+|-unboost|p1a: Toxapex|atk|1
+|-unboost|p1a: Toxapex|spa|1
+|
+|switch|p2a: Reshiram|Reshiram|100/100|[from]move: Parting Shot
+|-damage|p2a: Reshiram|76/100|[from] Stealth Rock
+|-ability|p2a: Reshiram|Turboblaze
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reshiram|69/100|[from] Sandstorm
+|-damage|p1a: Toxapex|82/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p2a: Reshiram|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|-sideend|p1: Chunkomucho|Stealth Rock|[from] move: Defog|[of] p2a: Reshiram
+|-sideend|p2: OhSunnyDay|Stealth Rock|[from] move: Defog|[of] p2a: Reshiram
+|move|p1a: Toxapex|Knock Off|p2a: Reshiram
+|-damage|p2a: Reshiram|60/100
+|-enditem|p2a: Reshiram|Choice Scarf|[from] move: Knock Off|[of] p1a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reshiram|54/100|[from] Sandstorm
+|-damage|p1a: Toxapex|75/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p1a: Tyranitar|Tyranitar, M|88/100
+|move|p2a: Reshiram|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|60/100
+|-unboost|p2a: Reshiram|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reshiram|48/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p2a: Pangoro|Pangoro, F|65/100
+|-ability|p2a: Pangoro|Mold Breaker
+|move|p1a: Tyranitar|Stealth Rock|p2a: Pangoro
+|-sidestart|p2: OhSunnyDay|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Pangoro|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100
+|-enditem|p1a: Toxapex|Shed Shell|[from] move: Knock Off|[of] p2a: Pangoro
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Pangoro|Parting Shot|p1a: Toxapex
+|-unboost|p1a: Toxapex|atk|1
+|-unboost|p1a: Toxapex|spa|1
+|
+|switch|p2a: Reshiram|Reshiram|48/100|[from]move: Parting Shot
+|-damage|p2a: Reshiram|23/100|[from] Stealth Rock
+|-ability|p2a: Reshiram|Turboblaze
+|move|p1a: Toxapex|Scald|p2a: Reshiram
+|-damage|p2a: Reshiram|13/100
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Tyranitar|Tyranitar, M|60/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Reshiram|Defog|p1a: Tyranitar
+|-unboost|p1a: Tyranitar|evasion|1
+|-sideend|p2: OhSunnyDay|Stealth Rock|[from] move: Defog|[of] p2a: Reshiram
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reshiram|7/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p2a: Reshiram|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|29/100
+|-unboost|p2a: Reshiram|spa|2
+|move|p1a: Tyranitar|Stealth Rock|p2a: Reshiram
+|-sidestart|p2: OhSunnyDay|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reshiram|1/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p2a: Reshiram|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|12/100
+|-unboost|p2a: Reshiram|spa|2
+|move|p1a: Tyranitar|Rest|p1a: Tyranitar
+|-status|p1a: Tyranitar|slp|[from] move: Rest
+|-heal|p1a: Tyranitar|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Reshiram|0 fnt|[from] Sandstorm
+|faint|p2a: Reshiram
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, M|49/100
+|-damage|p2a: Torkoal|25/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|16
+|
+|switch|p1a: Corviknight|Corviknight, M|77/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Torkoal|Rapid Spin|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|74/100
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: OhSunnyDay|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p2a: Pangoro|Pangoro, F|65/100
+|-ability|p2a: Pangoro|Mold Breaker
+|move|p1a: Corviknight|U-turn|p2a: Pangoro
+|-damage|p2a: Pangoro|52/100
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100|[from]move: U-turn
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Pangoro
+|-damage|p2a: Pangoro|0 fnt
+|faint|p2a: Pangoro
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|OhSunnyDay has 120 seconds left.
+|
+|switch|p2a: Marshadow|Marshadow|100/100
+|turn|19
+|
+|switch|p1a: Corviknight|Corviknight, M|74/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Marshadow|Spectral Thief|p1a: Corviknight
+|-damage|p1a: Corviknight|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Corviknight|U-turn|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|97/100
+|
+|switch|p1a: Quagsire|Quagsire, M, shiny|100/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|turn|21
+|
+|switch|p2a: Charizard|Charizard, F|100/100
+|move|p1a: Quagsire|Scald|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|57/100
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Torkoal|Torkoal, M|25/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Tyranitar|Tyranitar, M|100/100 slp
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Torkoal|19/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|switch|p1a: Corviknight|Corviknight, M|49/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Torkoal|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Torkoal|12/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|switch|p2a: Charizard|Charizard, F|57/100
+|move|p1a: Corviknight|U-turn|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|52/100
+|j| Pwndkthnx
+|inactive|Chunkomucho has 120 seconds left.
+|l|☆Chunkomucho
+|inactive|Chunkomucho disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Chunkomucho has 30 seconds to reconnect!
+|inactive|Chunkomucho has 20 seconds to reconnect!
+|inactive|Chunkomucho has 15 seconds to reconnect!
+|j|☆Chunkomucho
+|inactive|Chunkomucho reconnected and has 75 seconds left.
+|player|p1|Chunkomucho|erika
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100|[from]move: U-turn
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|46/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|switch|p2a: Zacian|Zacian-Crowned|97/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Zacian|Behemoth Blade|p2a: Zacian
+|-damage|p2a: Zacian|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|26
+|
+|switch|p1a: Quagsire|Quagsire, M, shiny|100/100
+|move|p2a: Zacian|Behemoth Blade|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|79/100
+|
+|-weather|none
+|upkeep
+|turn|27
+|inactive|OhSunnyDay has 90 seconds left.
+|
+|switch|p2a: Torkoal|Torkoal, M|12/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Quagsire|Scald|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|OhSunnyDay has 90 seconds left.
+|inactive|OhSunnyDay has 60 seconds left.
+|inactive|OhSunnyDay has 30 seconds left.
+|
+|switch|p2a: Zacian|Zacian-Crowned|14/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|28
+|
+|move|p2a: Zacian|Solar Blade||[still]
+|-prepare|p2a: Zacian|Solar Blade|p1a: Quagsire
+|-anim|p2a: Zacian|Solar Blade|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|29
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Marshadow|Marshadow|100/100
+|turn|30
+|
+|switch|p1a: Corviknight|Corviknight, M|28/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Marshadow|Spectral Thief|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|31
+|
+|switch|p2a: Charizard|Charizard, F|46/100
+|move|p1a: Toxapex|Scald|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|22/100
+|
+|-weather|none
+|upkeep
+|turn|32
+|inactive|OhSunnyDay has 60 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100 slp
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-start|p2a: Charizard|Dynamax
+|-formechange|p2a: Charizard|Charizard-Gmax
+|-heal|p2a: Charizard|22/100|[silent]
+|move|p2a: Charizard|Max Overgrowth|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|54/100 slp
+|-fieldstart|move: Grassy Terrain
+|-damage|p2a: Charizard|17/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|14/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|60/100 slp|[from] Grassy Terrain
+|upkeep
+|turn|33
+|inactive|OhSunnyDay has 60 seconds left.
+|
+|move|p2a: Charizard|G-Max Wildfire|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|45/100 slp
+|-sidestart|p1: Chunkomucho|G-Max Wildfire
+|-damage|p2a: Charizard|9/100|[from] item: Life Orb
+|cant|p1a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|6/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|28/100 slp|[from] G-Max Wildfire
+|-heal|p1a: Tyranitar|35/100 slp|[from] Grassy Terrain
+|upkeep
+|turn|34
+|
+|move|p2a: Charizard|Max Overgrowth|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Charizard|1/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] Sandstorm
+|faint|p2a: Charizard
+|upkeep
+|
+|switch|p2a: Marshadow|Marshadow|100/100
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|35
+|j| sefsf
+|
+|move|p2a: Marshadow|Spectral Thief|p1a: Toxapex
+|-damage|p1a: Toxapex|72/100
+|move|p1a: Toxapex|Scald|p2a: Marshadow
+|-damage|p2a: Marshadow|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Marshadow|75/100|[from] Sandstorm
+|-damage|p1a: Toxapex|65/100|[from] Sandstorm
+|-damage|p1a: Toxapex|49/100|[from] G-Max Wildfire
+|-heal|p2a: Marshadow|81/100|[from] Grassy Terrain
+|-heal|p1a: Toxapex|55/100|[from] Grassy Terrain
+|upkeep
+|turn|36
+|c|☆Chunkomucho|gg
+|l|☆OhSunnyDay
+|inactive|OhSunnyDay disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|OhSunnyDay has 30 seconds to reconnect!
+|inactive|OhSunnyDay has 20 seconds to reconnect!
+|inactive|OhSunnyDay has 15 seconds to reconnect!
+|inactive|OhSunnyDay has 10 seconds to reconnect!
+|inactive|OhSunnyDay has 5 seconds to reconnect!
+|-message|OhSunnyDay lost due to inactivity.
+|
+|win|Chunkomucho
+|l| sefsf

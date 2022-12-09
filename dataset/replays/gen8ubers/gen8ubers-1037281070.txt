@@ -1,0 +1,314 @@
+|j|☆Ginamax
+|j|☆GEDO RINNE TENSEI
+|player|p1|Ginamax|swimmerf|1452
+|player|p2|GEDO RINNE TENSEI|169|1369
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Copperajah, F|
+|poke|p1|Dracovish|
+|poke|p1|Chandelure, M|
+|poke|p1|Gothitelle, F|
+|poke|p1|Zacian-*|
+|poke|p2|Lucario, M|
+|poke|p2|Zacian-*|
+|poke|p2|Gyarados, M|
+|poke|p2|Ditto|
+|poke|p2|Quagsire, F|
+|poke|p2|Barraskewda, M|
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Mew|atk|1
+|turn|1
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Mew|Trick Room|p1a: Mew
+|-fieldstart|move: Trick Room|[of] p1a: Mew
+|
+|upkeep
+|turn|2
+|
+|-start|p2a: Gyarados|Dynamax
+|-heal|p2a: Gyarados|100/100|[silent]
+|move|p1a: Mew|Spikes|p2a: Gyarados
+|-sidestart|p2: GEDO RINNE TENSEI|Spikes
+|move|p2a: Gyarados|Max Geyser|p1a: Mew
+|-damage|p1a: Mew|1/100
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Mew|Self-Destruct|p2a: Gyarados
+|-damage|p2a: Gyarados|72/100
+|faint|p1a: Mew
+|move|p2a: Gyarados|Max Quake|p1: Mew|[notarget]
+|-fail|p2a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|4
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|3/100
+|-damage|p1a: Dracovish|91/100|[from] item: Life Orb
+|move|p2a: Gyarados|Max Overgrowth|p1a: Dracovish
+|-damage|p1a: Dracovish|16/100
+|-fieldstart|move: Grassy Terrain
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dracovish|22/100|[from] Grassy Terrain
+|-end|p2a: Gyarados|Dynamax
+|-heal|p2a: Gyarados|4/100|[silent]
+|upkeep
+|turn|5
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p1a: Dracovish|12/100|[from] item: Life Orb
+|faint|p2a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dracovish|18/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Spikes
+|-transform|p2a: Ditto|p1a: Dracovish|[from] ability: Imposter
+|turn|6
+|
+|move|p2a: Ditto|Fishious Rend|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-weather|none
+|-heal|p2a: Ditto|94/100|[from] Grassy Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GEDO RINNE TENSEI)
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|7
+|
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|-damage|p2a: Quagsire|88/100|[from] Spikes
+|move|p1a: Zacian|Play Rough|p2a: Quagsire|[miss]
+|-miss|p1a: Zacian|p2a: Quagsire
+|
+|-heal|p2a: Quagsire|94/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|99/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|switch|p1a: Gothitelle|Gothitelle, F|100/100
+|switch|p2a: Ditto|Ditto|94/100
+|-damage|p2a: Ditto|82/100|[from] Spikes
+|-transform|p2a: Ditto|p1a: Gothitelle|[from] ability: Imposter
+|
+|-heal|p2a: Ditto|88/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|move|p2a: Ditto|Energy Ball|p1a: Gothitelle
+|-damage|p1a: Gothitelle|87/100
+|move|p1a: Gothitelle|Trick Room|p1a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1a: Gothitelle
+|
+|-heal|p1a: Gothitelle|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Gothitelle|Nasty Plot|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|2
+|move|p2a: Ditto|Energy Ball|p1a: Gothitelle
+|-damage|p1a: Gothitelle|80/100
+|
+|-heal|p1a: Gothitelle|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Gothitelle|Nasty Plot|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|2
+|move|p2a: Ditto|Energy Ball|p1a: Gothitelle
+|-damage|p1a: Gothitelle|73/100
+|
+|-heal|p1a: Gothitelle|79/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Gothitelle|Nasty Plot|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|2
+|move|p2a: Ditto|Energy Ball|p1a: Gothitelle
+|-damage|p1a: Gothitelle|66/100
+|
+|-heal|p1a: Gothitelle|72/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Gothitelle|Nasty Plot|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|0
+|move|p2a: Ditto|Energy Ball|p1a: Gothitelle
+|-damage|p1a: Gothitelle|58/100
+|-unboost|p1a: Gothitelle|spd|1
+|
+|-heal|p1a: Gothitelle|64/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|-activate|p2a: Ditto|move: Struggle
+|move|p2a: Ditto|Struggle|p1a: Gothitelle
+|-damage|p1a: Gothitelle|58/100
+|-damage|p2a: Ditto|63/100|[from] recoil
+|move|p1a: Gothitelle|Trick Room|p1a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1a: Gothitelle
+|
+|-heal|p1a: Gothitelle|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Gothitelle|Psyshock|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-heal|p1a: Gothitelle|70/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|-damage|p2a: Lucario|88/100|[from] Spikes
+|turn|16
+|
+|move|p2a: Lucario|Endure|p2a: Lucario
+|-singleturn|p2a: Lucario|move: Endure
+|move|p1a: Gothitelle|Psyshock|p2a: Lucario
+|-activate|p2a: Lucario|move: Endure
+|-damage|p2a: Lucario|1/100
+|-enditem|p2a: Lucario|Salac Berry|[eat]
+|-boost|p2a: Lucario|spe|1
+|
+|-heal|p1a: Gothitelle|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Lucario|Bullet Punch|p1a: Gothitelle
+|-damage|p1a: Gothitelle|57/100
+|move|p1a: Gothitelle|Psyshock|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|-heal|p1a: Gothitelle|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Quagsire|Quagsire, F|99/100
+|-damage|p2a: Quagsire|88/100|[from] Spikes
+|turn|18
+|
+|move|p2a: Quagsire|Earthquake|p1a: Gothitelle
+|-damage|p1a: Gothitelle|32/100
+|move|p1a: Gothitelle|Energy Ball|p2a: Quagsire
+|-supereffective|p2a: Quagsire
+|-damage|p2a: Quagsire|5/100
+|
+|-heal|p2a: Quagsire|11/100|[from] item: Leftovers
+|-heal|p1a: Gothitelle|38/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|
+|move|p1a: Gothitelle|Energy Ball|p2a: Quagsire
+|-supereffective|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-heal|p1a: Gothitelle|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Spikes
+|turn|20
+|
+|move|p2a: Barraskewda|Crunch|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|-damage|p2a: Barraskewda|78/100|[from] item: Life Orb
+|faint|p1a: Gothitelle
+|
+|upkeep
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|21
+|
+|move|p1a: Zacian|Close Combat|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|faint|p2a: Barraskewda
+|
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-damage|p2a: Zacian|88/100|[from] Spikes
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|22
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|turn|23
+|
+|move|p2a: Zacian|Wild Charge|p1a: Chandelure
+|-damage|p1a: Chandelure|52/100
+|-damage|p2a: Zacian|76/100|[from] Recoil
+|move|p1a: Chandelure|Trick Room|p1a: Chandelure
+|-fieldstart|move: Trick Room|[of] p1a: Chandelure
+|
+|upkeep
+|turn|24
+|
+|-start|p1a: Chandelure|Dynamax
+|-heal|p1a: Chandelure|52/100|[silent]
+|move|p1a: Chandelure|Max Flare|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|-weather|SunnyDay
+|faint|p2a: Zacian
+|
+|win|Ginamax
+|l|☆GEDO RINNE TENSEI
+|raw|Ginamax's rating: 1453 &rarr; <strong>1468</strong><br />(+15 for winning)
+|raw|GEDO RINNE TENSEI's rating: 1369 &rarr; <strong>1353</strong><br />(-16 for losing)

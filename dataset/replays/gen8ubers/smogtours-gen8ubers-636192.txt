@@ -1,0 +1,485 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1656890819
+|gametype|singles
+|player|p1|Lopunny kicks|tate|
+|player|p2|Trade|may|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Ubers
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Yveltal|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Eternatus|
+|poke|p1|Xerneas-*|
+|poke|p1|Calyrex-Shadow|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Clefable, F|
+|poke|p2|Yveltal|
+|poke|p2|Blissey, F|
+|poke|p2|Groudon|
+|poke|p2|Calyrex-Shadow|
+|teampreview
+|c|☆Lopunny kicks|hf
+|inactive|Lopunny kicks has 270 seconds left.
+|inactive|Trade has 270 seconds left.
+|inactive|Lopunny kicks has 240 seconds left.
+|
+|t:|1656890886
+|start
+|switch|p1a: Yveltal|Yveltal|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|1
+|
+|t:|1656890906
+|move|p1a: Yveltal|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|cant|p2a: Clefable|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|2
+|
+|t:|1656890913
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p2a: Clefable|Moonblast|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|91/100
+|-unboost|p1a: Necrozma|spa|1
+|
+|-heal|p1a: Necrozma|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1656890929
+|switch|p2a: Groudon|Groudon|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Necrozma|Toxic|p2a: Groudon
+|-status|p2a: Groudon|tox
+|-enditem|p2a: Groudon|Lum Berry|[eat]
+|-curestatus|p2a: Groudon|tox|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Necrozma|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Lopunny kicks has 270 seconds left.
+|inactive|Lopunny kicks has 240 seconds left.
+|
+|t:|1656890992
+|move|p2a: Groudon|Precipice Blades|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|15/100
+|move|p1a: Necrozma|Toxic|p2a: Groudon
+|-status|p2a: Groudon|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Necrozma|21/100|[from] item: Leftovers
+|-damage|p2a: Groudon|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|Lopunny kicks has 240 seconds left.
+|inactive|Lopunny kicks has 210 seconds left.
+|
+|t:|1656891044
+|move|p2a: Groudon|Precipice Blades|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Groudon|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1656891048
+|switch|p1a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|inactive|Lopunny kicks has 210 seconds left.
+|
+|t:|1656891063
+|switch|p1a: Xerneas|Xerneas|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p2a: Groudon|Precipice Blades|p1a: Xerneas|[miss]
+|-miss|p2a: Groudon|p1a: Xerneas
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Groudon|63/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1656891074
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1656891078
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Yveltal|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|
+|upkeep
+|turn|9
+|
+|t:|1656891086
+|switch|p1a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Clefable|Moonblast|p1a: Calyrex
+|-damage|p1a: Calyrex|68/100
+|-unboost|p1a: Calyrex|spa|1
+|
+|upkeep
+|turn|10
+|
+|t:|1656891099
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Calyrex|Trick|p2a: Yveltal
+|-activate|p1a: Calyrex|move: Trick|[of] p2a: Yveltal
+|-item|p2a: Yveltal|Choice Scarf|[from] move: Trick
+|-item|p1a: Calyrex|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|11
+|
+|t:|1656891105
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Yveltal|U-turn|p1a: Yveltal
+|-damage|p1a: Yveltal|81/100
+|
+|t:|1656891108
+|switch|p2a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1656891110
+|move|p1a: Yveltal|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|move|p2a: Clefable|Moonblast|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|39/100
+|-unboost|p1a: Yveltal|spa|1
+|
+|upkeep
+|turn|13
+|
+|t:|1656891113
+|move|p1a: Yveltal|Roost|p1a: Yveltal
+|-heal|p1a: Yveltal|89/100
+|-singleturn|p1a: Yveltal|move: Roost
+|move|p2a: Clefable|Moonblast|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|43/100
+|
+|upkeep
+|turn|14
+|
+|t:|1656891122
+|move|p1a: Yveltal|Roost|p1a: Yveltal
+|-heal|p1a: Yveltal|93/100
+|-singleturn|p1a: Yveltal|move: Roost
+|move|p2a: Clefable|Moonblast|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-crit|p1a: Yveltal
+|-damage|p1a: Yveltal|24/100
+|
+|-end|p2a: Clefable|move: Taunt
+|upkeep
+|turn|15
+|
+|t:|1656891126
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|91/100
+|
+|-heal|p1a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1656891131
+|move|p2a: Clefable|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Lopunny kicks|move: Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Clefable
+|-sidestart|p2: Trade|Spikes
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1656891136
+|move|p2a: Clefable|Thunder Wave|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|cant|p1a: Ferrothorn|par
+|
+|upkeep
+|turn|18
+|
+|t:|1656891140
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|cant|p1a: Ferrothorn|par
+|
+|upkeep
+|turn|19
+|
+|t:|1656891144
+|move|p2a: Yveltal|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|56/100 par
+|-damage|p2a: Yveltal|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Yveltal
+|move|p1a: Ferrothorn|Spikes|p2a: Yveltal
+|-sidestart|p2: Trade|Spikes
+|
+|upkeep
+|turn|20
+|
+|t:|1656891149
+|move|p2a: Yveltal|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|29/100 par
+|-damage|p2a: Yveltal|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Yveltal
+|-sidestart|p2: Trade|Spikes
+|
+|upkeep
+|turn|21
+|
+|t:|1656891152
+|move|p2a: Yveltal|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Yveltal|64/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|t:|1656891160
+|switch|p1a: Xerneas|Xerneas|100/100
+|-damage|p1a: Xerneas|88/100|[from] Stealth Rock
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|22
+|
+|t:|1656891163
+|move|p2a: Yveltal|Knock Off|p1a: Xerneas
+|-resisted|p1a: Xerneas
+|-damage|p1a: Xerneas|64/100
+|-enditem|p1a: Xerneas|Power Herb|[from] move: Knock Off|[of] p2a: Yveltal
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy
+|
+|upkeep
+|turn|23
+|inactive|Trade has 270 seconds left.
+|inactive|Trade has 240 seconds left.
+|
+|t:|1656891225
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|75/100|[from] Spikes
+|move|p1a: Xerneas|Geomancy|p1a: Xerneas|[from]lockedmove
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|
+|upkeep
+|turn|24
+|
+|t:|1656891230
+|move|p1a: Xerneas|Substitute|p1a: Xerneas
+|-start|p1a: Xerneas|Substitute
+|-damage|p1a: Xerneas|39/100
+|move|p2a: Blissey|Confide|p1a: Xerneas
+|-unboost|p1a: Xerneas|spa|1
+|
+|upkeep
+|turn|25
+|
+|t:|1656891242
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy
+|move|p2a: Blissey|Confide|p1a: Xerneas
+|-unboost|p1a: Xerneas|spa|1
+|
+|upkeep
+|turn|26
+|
+|t:|1656891247
+|move|p1a: Xerneas|Geomancy|p1a: Xerneas|[from]lockedmove
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|move|p2a: Blissey|Confide|p1a: Xerneas
+|-unboost|p1a: Xerneas|spa|1
+|
+|upkeep
+|turn|27
+|
+|t:|1656891252
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy
+|move|p2a: Blissey|Confide|p1a: Xerneas
+|-unboost|p1a: Xerneas|spa|1
+|
+|upkeep
+|turn|28
+|inactive|Trade has 270 seconds left.
+|
+|t:|1656891259
+|move|p1a: Xerneas|Geomancy|p1a: Xerneas|[from]lockedmove
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|move|p2a: Blissey|Confide|p1a: Xerneas
+|-unboost|p1a: Xerneas|spa|1
+|
+|upkeep
+|turn|29
+|
+|t:|1656891263
+|move|p1a: Xerneas|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|44/100
+|move|p2a: Blissey|Confide|p1a: Xerneas
+|-unboost|p1a: Xerneas|spa|1
+|
+|upkeep
+|turn|30
+|
+|t:|1656891268
+|move|p1a: Xerneas|Thunder|p2a: Blissey
+|-damage|p2a: Blissey|32/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|82/100
+|
+|upkeep
+|turn|31
+|
+|t:|1656891275
+|move|p1a: Xerneas|Thunder|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|move|p2a: Blissey|Confide|p1a: Xerneas
+|-unboost|p1a: Xerneas|spa|1
+|
+|upkeep
+|turn|32
+|
+|t:|1656891279
+|move|p1a: Xerneas|Thunder|p2a: Blissey
+|-damage|p2a: Blissey|62/100
+|move|p2a: Blissey|Confide|p1a: Xerneas
+|-unboost|p1a: Xerneas|spa|1
+|
+|upkeep
+|turn|33
+|
+|t:|1656891282
+|move|p1a: Xerneas|Thunder|p2a: Blissey|[miss]
+|-miss|p1a: Xerneas|p2a: Blissey
+|move|p2a: Blissey|Confide|p1a: Xerneas
+|-unboost|p1a: Xerneas|spa|1
+|
+|upkeep
+|turn|34
+|
+|t:|1656891284
+|move|p1a: Xerneas|Thunder|p2a: Blissey
+|-damage|p2a: Blissey|56/100
+|move|p2a: Blissey|Confide|p1a: Xerneas
+|-unboost|p1a: Xerneas|spa|1
+|
+|upkeep
+|turn|35
+|
+|t:|1656891289
+|switch|p1a: Eternatus|Eternatus|100/100
+|-damage|p1a: Eternatus|88/100|[from] Stealth Rock
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Blissey|Confide|p1a: Eternatus
+|-unboost|p1a: Eternatus|spa|1
+|
+|upkeep
+|turn|36
+|
+|t:|1656891293
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|100/100
+|move|p2a: Blissey|Thunder Wave|p1a: Eternatus
+|-status|p1a: Eternatus|par
+|
+|upkeep
+|turn|37
+|
+|t:|1656891297
+|move|p1a: Eternatus|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|49/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|99/100
+|
+|upkeep
+|turn|38
+|
+|t:|1656891300
+|move|p1a: Eternatus|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|93/100
+|move|p2a: Blissey|Aromatherapy|p2a: Blissey
+|-activate|p2a: Blissey|move: Aromatherapy
+|-curestatus|p2: Groudon|tox|[msg]
+|
+|upkeep
+|turn|39
+|
+|t:|1656891308
+|switch|p2a: Clefable|Clefable, F|100/100
+|cant|p1a: Eternatus|par
+|
+|upkeep
+|turn|40
+|
+|t:|1656891311
+|move|p1a: Eternatus|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|81/100
+|-status|p2a: Clefable|brn
+|move|p2a: Clefable|Moonblast|p1a: Eternatus
+|-damage|p1a: Eternatus|73/100 par
+|-unboost|p1a: Eternatus|spa|1
+|
+|-heal|p2a: Clefable|88/100 brn|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1656891316
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p2a: Necrozma|76/100|[from] Spikes
+|cant|p1a: Eternatus|par
+|
+|upkeep
+|turn|42
+|
+|t:|1656891320
+|switch|p1a: Calyrex|Calyrex-Shadow|68/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|upkeep
+|c|☆Lopunny kicks|gg
+|-message|Lopunny kicks forfeited.
+|
+|win|Trade
+|c|☆Trade|gg
+|player|p2|Trade|may

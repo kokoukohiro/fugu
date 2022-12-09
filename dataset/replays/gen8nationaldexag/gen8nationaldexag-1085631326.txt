@@ -1,0 +1,346 @@
+|j|☆OnMaWa
+|j|☆85792195ww
+|player|p1|OnMaWa|psychic-gen4|1646
+|player|p2|85792195ww|lady-gen4|1647
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Arceus-*|
+|poke|p1|Xerneas|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Lugia|
+|poke|p1|Groudon|
+|poke|p2|Kyogre|
+|poke|p2|Darkrai|
+|poke|p2|Gengar, M|
+|poke|p2|Arceus-*|
+|poke|p2|Arceus-*|
+|poke|p2|Ditto|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|j| dracaryscovid19
+|j| Gengar-Mega Cores
+|
+|start
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|switch|p2a: Arceus|Arceus-Ground|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|1
+|
+|switch|p1a: Lugia|Lugia|100/100
+|move|p2a: Arceus|Gravity|p2a: Arceus
+|-fieldstart|move: Gravity
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 85792195ww)
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Lugia|Toxic|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|detailschange|p2a: Gengar|Gengar-Mega, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Hypnosis|p1a: Zacian
+|-status|p1a: Zacian|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|4
+|inactive|OnMaWa has 120 seconds left.
+|
+|cant|p1a: Zacian|slp
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|76/100
+|
+|upkeep
+|turn|5
+|inactive|OnMaWa has 120 seconds left.
+|
+|cant|p1a: Zacian|slp
+|move|p2a: Gengar|Hex|p1a: Zacian
+|-damage|p1a: Zacian|27/100 slp
+|
+|-fieldend|move: Gravity
+|upkeep
+|turn|6
+|
+|-curestatus|p1a: Zacian|slp|[msg]
+|move|p1a: Zacian|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|move|p2a: Gengar|Hex|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|upkeep
+|inactive|OnMaWa has 120 seconds left.
+|inactive|OnMaWa has 90 seconds left.
+|
+|switch|p1a: Arceus|Arceus|100/100
+|turn|7
+|
+|move|p2a: Gengar|Focus Blast|p1a: Arceus|[miss]
+|-miss|p2a: Gengar|p1a: Arceus
+|move|p1a: Arceus|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|switch|p2a: Arceus|Arceus-Ground|100/100
+|turn|8
+|
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|
+|upkeep
+|turn|9
+|
+|-start|p1a: Arceus|Dynamax
+|-heal|p1a: Arceus|100/100|[silent]
+|-zpower|p2a: Arceus
+|move|p2a: Arceus|Tectonic Rage|p1a: Arceus|[zeffect]
+|-damage|p1a: Arceus|46/100
+|move|p1a: Arceus|Max Strike|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|turn|10
+|inactive|85792195ww has 120 seconds left.
+|
+|-start|p2a: Ditto|Dynamax
+|-heal|p2a: Ditto|100/100|[silent]
+|move|p2a: Ditto|Max Strike|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|inactive|OnMaWa has 90 seconds left.
+|
+|switch|p1a: Lugia|Lugia|100/100
+|turn|11
+|inactive|OnMaWa has 90 seconds left.
+|
+|move|p2a: Ditto|Max Strike|p1a: Lugia
+|-damage|p1a: Lugia|64/100
+|-unboost|p1a: Lugia|spe|1
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|100/100
+|-singleturn|p1a: Lugia|move: Roost
+|
+|upkeep
+|turn|12
+|j| Giuffre
+|inactive|OnMaWa has 90 seconds left.
+|l| Giuffre
+|
+|-end|p2a: Ditto|Dynamax
+|-heal|p2a: Ditto|100/100|[silent]
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Lugia|Roost||[still]
+|-fail|p1a: Lugia|heal
+|
+|upkeep
+|turn|13
+|inactive|OnMaWa has 90 seconds left.
+|
+|move|p2a: Darkrai|Hypnosis|p1a: Lugia
+|-status|p1a: Lugia|slp|[from] move: Hypnosis
+|cant|p1a: Lugia|slp
+|
+|-damage|p1a: Lugia|88/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|14
+|
+|move|p2a: Darkrai|Substitute|p2a: Darkrai
+|-start|p2a: Darkrai|Substitute
+|-damage|p2a: Darkrai|76/100
+|cant|p1a: Lugia|slp
+|
+|-heal|p2a: Darkrai|82/100|[from] item: Leftovers
+|-damage|p1a: Lugia|75/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|15
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|25/100 slp
+|cant|p1a: Lugia|slp
+|
+|-heal|p2a: Darkrai|88/100|[from] item: Leftovers
+|-damage|p1a: Lugia|12/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|16
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|0 fnt
+|faint|p1a: Lugia
+|
+|-heal|p2a: Darkrai|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Xerneas|Xerneas|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|17
+|
+|move|p2a: Darkrai|Hypnosis|p1a: Xerneas
+|-status|p1a: Xerneas|slp|[from] move: Hypnosis
+|cant|p1a: Xerneas|slp
+|
+|-heal|p2a: Darkrai|99/100|[from] item: Leftovers
+|-damage|p1a: Xerneas|88/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|18
+|
+|move|p2a: Darkrai|Thunder|p1a: Xerneas
+|-damage|p1a: Xerneas|58/100 slp
+|cant|p1a: Xerneas|slp
+|
+|-heal|p2a: Darkrai|100/100|[from] item: Leftovers
+|-damage|p1a: Xerneas|45/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|19
+|
+|move|p2a: Darkrai|Thunder|p1a: Xerneas
+|-damage|p1a: Xerneas|17/100 slp
+|cant|p1a: Xerneas|slp
+|
+|-damage|p1a: Xerneas|5/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|20
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Xerneas
+|-resisted|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|upkeep
+|
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|21
+|inactive|OnMaWa has 90 seconds left.
+|
+|move|p2a: Darkrai|Dark Pulse|p1a: Groudon
+|-damage|p1a: Groudon|59/100
+|move|p1a: Groudon|Lava Plume|p2a: Darkrai
+|-end|p2a: Darkrai|Substitute
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p2a: Darkrai|Hypnosis|p1a: Groudon|[miss]
+|-miss|p2a: Darkrai|p1a: Groudon
+|move|p1a: Groudon|Lava Plume|p2a: Darkrai
+|-crit|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Groudon|[from] ability: Imposter
+|turn|23
+|inactive|OnMaWa has 90 seconds left.
+|
+|move|p2a: Ditto|Lava Plume|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|25/100
+|move|p1a: Groudon|Lava Plume|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|53/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|24
+|l| dracaryscovid19
+|
+|move|p2a: Ditto|Lava Plume|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|turn|25
+|
+|detailschange|p1a: Necrozma|Necrozma-Ultra
+|-burst|p1a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p2a: Ditto|Lava Plume|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|68/100
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|26
+|
+|-weather|none
+|switch|p2a: Kyogre|Kyogre|100/100
+|detailschange|p2a: Kyogre|Kyogre-Primal
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|move|p1a: Necrozma|Earthquake|p2a: Kyogre
+|-damage|p2a: Kyogre|59/100
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|-weather|none
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|53/100
+|-transform|p2a: Ditto|p1a: Necrozma|[from] ability: Imposter
+|turn|28
+|
+|move|p2a: Ditto|Earthquake|p1a: Necrozma
+|-damage|p1a: Necrozma|7/100
+|move|p1a: Necrozma|Earthquake|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|switch|p2a: Arceus|Arceus|100/100
+|turn|29
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|win|85792195ww

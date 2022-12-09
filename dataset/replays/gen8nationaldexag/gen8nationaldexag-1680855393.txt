@@ -1,0 +1,253 @@
+|j|☆AGCSR4 default0
+|j|☆lemoncell0
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1665246204
+|gametype|singles
+|player|p1|AGCSR4 default0|skierf-gen4dp|
+|player|p2|lemoncell0|allister|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|Tournament battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Arceus-*|
+|poke|p1|Yveltal|
+|poke|p1|Groudon|
+|poke|p1|Calyrex-Shadow|
+|poke|p1|Arceus-*|
+|poke|p2|Gothitelle, M|
+|poke|p2|Diancie|
+|poke|p2|Quagsire, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Blissey, F|
+|poke|p2|Zacian-*|
+|teampreview
+|
+|t:|1665246214
+|start
+|switch|p1a: Arceus|Arceus-Ground|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|turn|1
+|
+|t:|1665246220
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Arceus|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|52/100
+|
+|upkeep
+|turn|2
+|
+|t:|1665246226
+|move|p1a: Arceus|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 brn
+|
+|-damage|p2a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1665246231
+|-curestatus|p2a: Blissey|brn|[from] ability: Natural Cure
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: Arceus|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|65/100
+|
+|upkeep
+|turn|4
+|
+|t:|1665246238
+|move|p1a: Arceus|Will-O-Wisp|p2a: Quagsire
+|-status|p2a: Quagsire|brn
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100 brn
+|
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1665246248
+|switch|p1a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Quagsire|Counter||[still]
+|-fail|p2a: Quagsire
+|
+|-damage|p2a: Quagsire|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1665246253
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Calyrex|Trick|p2a: Tyranitar
+|-activate|p1a: Calyrex|move: Trick|[of] p2a: Tyranitar
+|-item|p2a: Tyranitar|Choice Scarf|[from] move: Trick
+|-item|p1a: Calyrex|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Calyrex|94/100|[from] Sandstorm
+|-heal|p1a: Calyrex|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1665246259
+|-activate|p1a: Calyrex|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Calyrex|[from]Pursuit
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-hint|A Pokemon can't switch between when it runs out of HP and when it faints
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1665246262
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|8
+|inactive|lemoncell0 has 120 seconds left.
+|inactive|lemoncell0 has 90 seconds left.
+|
+|t:|1665246335
+|switch|p2a: Blissey|Blissey, F|94/100
+|move|p1a: Groudon|Stealth Rock|p2a: Blissey
+|-sidestart|p2: lemoncell0|move: Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1665246343
+|-weather|none
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p2a: Blissey|Toxic|p1a: Necrozma
+|-immune|p1a: Necrozma
+|
+|upkeep
+|turn|10
+|
+|t:|1665246346
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|-damage|p2a: Gothitelle|88/100|[from] Stealth Rock
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1665246349
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Gothitelle
+|-damage|p2a: Gothitelle|11/100
+|-zpower|p2a: Gothitelle
+|move|p2a: Gothitelle|Z-Charm|p1a: Necrozma|[anim]Charm
+|-boost|p2a: Gothitelle|def|1|[zeffect]
+|-unboost|p1a: Necrozma|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1665246353
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|upkeep
+|inactive|lemoncell0 has 120 seconds left.
+|
+|t:|1665246373
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-damage|p2a: Zacian|94/100|[from] Stealth Rock
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|13
+|
+|t:|1665246381
+|switch|p1a: Groudon|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|move|p2a: Zacian|Wild Charge|p1a: Groudon
+|-immune|p1a: Groudon
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|14
+|inactive|lemoncell0 has 120 seconds left.
+|
+|t:|1665246397
+|switch|p2a: Quagsire|Quagsire, M|88/100 brn
+|-damage|p2a: Quagsire|82/100 brn|[from] Stealth Rock
+|move|p1a: Groudon|Lava Plume|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|49/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Quagsire|43/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1665246401
+|move|p1a: Groudon|Precipice Blades|p2a: Quagsire|[miss]
+|-miss|p1a: Groudon|p2a: Quagsire
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|93/100 brn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Quagsire|87/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1665246408
+|move|p1a: Groudon|Precipice Blades|p2a: Quagsire
+|-damage|p2a: Quagsire|36/100 brn
+|move|p2a: Quagsire|Counter|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-weather|none
+|
+|-damage|p2a: Quagsire|30/100 brn|[from] brn
+|upkeep
+|
+|t:|1665246418
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|turn|17
+|
+|t:|1665246426
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|80/100 brn
+|
+|-damage|p2a: Quagsire|74/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1665246430
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|move|p2a: Quagsire|Counter||[still]
+|-fail|p2a: Quagsire
+|
+|-damage|p2a: Quagsire|68/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1665246434
+|move|p1a: Necrozma|Photon Geyser|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|upkeep
+|-message|lemoncell0 forfeited.
+|
+|win|AGCSR4 default0
+|n|☆AGCSR4 default0|agcsr4default0
+|n|☆lemoncell0|lemoncell0

@@ -1,0 +1,375 @@
+|j|☆QiYu4
+|j|☆blue sunlight
+|player|p1|QiYu4|psychic-gen4|1504
+|player|p2|blue sunlight|riley|1584
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Quagsire, M|
+|poke|p1|Vaporeon, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Ditto|
+|poke|p2|Zacian-*|
+|poke|p2|Eternatus|
+|poke|p2|Ribombee, F|
+|poke|p2|Drifblim, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Dugtrio, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blue sunlight)
+|
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|-transform|p1a: Ditto|p2a: Ribombee|[from] ability: Imposter
+|turn|1
+|
+|move|p1a: Ditto|Quiver Dance|p1a: Ditto
+|-boost|p1a: Ditto|spa|1
+|-boost|p1a: Ditto|spd|1
+|-boost|p1a: Ditto|spe|1
+|move|p2a: Ribombee|Quiver Dance|p2a: Ribombee
+|-boost|p2a: Ribombee|spa|1
+|-boost|p2a: Ribombee|spd|1
+|-boost|p2a: Ribombee|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Ditto|Quiver Dance|p1a: Ditto
+|-boost|p1a: Ditto|spa|1
+|-boost|p1a: Ditto|spd|1
+|-boost|p1a: Ditto|spe|1
+|move|p2a: Ribombee|Baton Pass|p2a: Ribombee
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100|[from]move: Baton Pass
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Ditto|Quiver Dance|p1a: Ditto
+|-boost|p1a: Ditto|spa|1
+|-boost|p1a: Ditto|spd|1
+|-boost|p1a: Ditto|spe|1
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|
+|upkeep
+|turn|4
+|
+|-start|p2a: Togekiss|Dynamax
+|-heal|p2a: Togekiss|100/100|[silent]
+|move|p1a: Ditto|Baton Pass|p1a: Ditto
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100|[from]move: Baton Pass
+|move|p2a: Togekiss|Max Airstream|p1a: Quagsire
+|-damage|p1a: Quagsire|70/100
+|-boost|p2a: Togekiss|spe|1
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Togekiss|Max Starfall|p1a: Quagsire
+|-damage|p1a: Quagsire|36/100
+|-fieldstart|move: Misty Terrain
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|86/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Togekiss|Max Airstream|p1a: Quagsire
+|-damage|p1a: Quagsire|56/100
+|-boost|p2a: Togekiss|spe|1
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|-end|p2a: Togekiss|Dynamax
+|-heal|p2a: Togekiss|100/100|[silent]
+|upkeep
+|turn|7
+|inactive|blue sunlight has 120 seconds left.
+|
+|-start|p1a: Quagsire|Dynamax
+|-heal|p1a: Quagsire|100/100|[silent]
+|move|p2a: Togekiss|Air Slash|p1a: Quagsire
+|-damage|p1a: Quagsire|91/100
+|move|p1a: Quagsire|Max Geyser|p2a: Togekiss
+|-damage|p2a: Togekiss|19/100
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Togekiss|25/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|blue sunlight has 120 seconds left.
+|
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Quagsire|Max Geyser|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|59/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|inactive|blue sunlight has 120 seconds left.
+|
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|100/100
+|move|p1a: Quagsire|Max Quake|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|43/100
+|-boost|p1a: Quagsire|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|Misty Terrain
+|-end|p1a: Quagsire|Dynamax
+|-heal|p1a: Quagsire|91/100|[silent]
+|upkeep
+|turn|10
+|inactive|blue sunlight has 120 seconds left.
+|
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|93/100
+|move|p1a: Quagsire|Scald|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|68/100
+|-status|p2a: Eternatus|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Eternatus|62/100 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|blue sunlight has 120 seconds left.
+|
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|100/100 brn
+|move|p1a: Quagsire|Earthquake|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|58/100 brn
+|
+|-weather|none
+|-damage|p2a: Eternatus|52/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|blue sunlight has 90 seconds left.
+|
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|100/100 brn
+|move|p1a: Quagsire|Scald|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|83/100 brn
+|
+|-damage|p2a: Eternatus|77/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Quagsire
+|-damage|p1a: Quagsire|64/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|-damage|p2a: Eternatus|71/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Eternatus|Sludge Wave|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|89/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|-damage|p2a: Eternatus|65/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Eternatus|Sludge Wave|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|88/100
+|move|p1a: Quagsire|Earthquake|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|20/100 brn
+|
+|-damage|p2a: Eternatus|14/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|64/100 brn
+|move|p1a: Quagsire|Earthquake|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|17/100 brn
+|
+|-damage|p2a: Eternatus|11/100 brn|[from] brn
+|upkeep
+|turn|17
+|inactive|blue sunlight has 90 seconds left.
+|
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|61/100 brn
+|move|p1a: Quagsire|Earthquake|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|15/100 brn
+|
+|-damage|p2a: Eternatus|9/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|59/100 brn
+|move|p1a: Quagsire|Earthquake|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|16/100 brn
+|
+|-damage|p2a: Eternatus|9/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|60/100 brn
+|move|p1a: Quagsire|Earthquake|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|12/100 brn
+|
+|-damage|p2a: Eternatus|6/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|56/100 brn
+|move|p1a: Quagsire|Earthquake|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|7/100 brn
+|
+|-damage|p2a: Eternatus|0 fnt|[from] brn
+|faint|p2a: Eternatus
+|upkeep
+|
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|21
+|
+|move|p2a: Ribombee|Sticky Web|p1a: Quagsire
+|-sidestart|p1: QiYu4|move: Sticky Web
+|move|p1a: Quagsire|Scald|p2a: Ribombee
+|-damage|p2a: Ribombee|10/100
+|
+|upkeep
+|turn|22
+|inactive|blue sunlight has 120 seconds left.
+|
+|move|p2a: Ribombee|Moonblast|p1a: Quagsire
+|-crit|p1a: Quagsire
+|-damage|p1a: Quagsire|14/100
+|move|p1a: Quagsire|Scald|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|inactive|blue sunlight has 120 seconds left.
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|23
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-activate|p1a: Ditto|move: Sticky Web
+|-unboost|p1a: Ditto|spe|1
+|-transform|p1a: Ditto|p2a: Zacian|[from] ability: Imposter
+|-ability|p1a: Ditto|Intrepid Sword|boost
+|-boost|p1a: Ditto|atk|1
+|turn|24
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|move|p1a: Ditto|Behemoth Blade|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|turn|25
+|
+|move|p2a: Drifblim|Endure|p2a: Drifblim
+|-singleturn|p2a: Drifblim|move: Endure
+|move|p1a: Ditto|Behemoth Blade|p2a: Drifblim
+|-activate|p2a: Drifblim|move: Endure
+|-damage|p2a: Drifblim|1/100
+|-enditem|p2a: Drifblim|Salac Berry|[eat]
+|-boost|p2a: Drifblim|spe|1
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-activate|p1a: Tyranitar|move: Sticky Web
+|-unboost|p1a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Drifblim|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drifblim|0 fnt|[from] Sandstorm
+|faint|p2a: Drifblim
+|-heal|p1a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|25/100
+|turn|27
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|70/100
+|move|p1a: Tyranitar|Crunch|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|0 fnt|[from] Sandstorm
+|faint|p2a: Togekiss
+|-heal|p1a: Tyranitar|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|28
+|
+|move|p2a: Zacian|Substitute|p2a: Zacian
+|-start|p2a: Zacian|Substitute
+|-damage|p2a: Zacian|76/100
+|move|p1a: Tyranitar|Earthquake|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-end|p2a: Zacian|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|82/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|-message|blue sunlight forfeited.
+|
+|win|QiYu4
+|l|☆blue sunlight
+|raw|QiYu4's rating: 1505 &rarr; <strong>1530</strong><br />(+25 for winning)
+|raw|blue sunlight's rating: 1590 &rarr; <strong>1565</strong><br />(-25 for losing)

@@ -1,0 +1,164 @@
+|j|☆meronmaster
+|j|☆cheziqua
+|player|p1|meronmaster|163|1156
+|player|p2|cheziqua|hilbert-dueldisk|1139
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Vaporeon, M|
+|poke|p1|Kingler, M|
+|poke|p1|Araquanid, F|
+|poke|p1|Kingdra, M|
+|poke|p1|Barbaracle, M|
+|poke|p1|Slowking, M|
+|poke|p2|Eiscue, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Salamence, F|
+|poke|p2|Pheromosa|
+|poke|p2|Alcremie, F|
+|poke|p2|Kyogre|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|
+|start
+|switch|p1a: Araquanid|Araquanid, F, shiny|100/100
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Araquanid|atk|1
+|turn|1
+|
+|detailschange|p2a: Salamence|Salamence-Mega, F
+|-mega|p2a: Salamence|Salamence|Salamencite
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|move|p1a: Araquanid|Sticky Web|p2a: Salamence
+|-sidestart|p2: cheziqua|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|move|p1a: Araquanid|Toxic|p2a: Salamence
+|-status|p2a: Salamence|tox
+|
+|-damage|p2a: Salamence|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Salamence|Frustration|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|-damage|p2a: Salamence|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Yunjineon|Vaporeon, M|100/100
+|turn|4
+|
+|move|p2a: Salamence|Frustration|p1a: Yunjineon
+|-damage|p1a: Yunjineon|1/100
+|move|p1a: Yunjineon|Haze|p1a: Yunjineon
+|-clearallboost
+|
+|-heal|p1a: Yunjineon|8/100|[from] item: Leftovers
+|-damage|p2a: Salamence|64/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Salamence|Dragon Claw|p1a: Yunjineon
+|-damage|p1a: Yunjineon|0 fnt
+|faint|p1a: Yunjineon
+|
+|-damage|p2a: Salamence|40/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Barbaracle|Barbaracle, M, shiny|100/100
+|turn|6
+|
+|move|p2a: Salamence|Frustration|p1a: Barbaracle
+|-resisted|p1a: Barbaracle
+|-damage|p1a: Barbaracle|65/100
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|-enditem|p1a: Barbaracle|White Herb
+|-clearnegativeboost|p1a: Barbaracle|[silent]
+|
+|-damage|p2a: Salamence|10/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Barbaracle|Razor Shell|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+|
+|switch|p2a: Eiscue|Eiscue, M|100/100
+|-activate|p2a: Eiscue|move: Sticky Web
+|-unboost|p2a: Eiscue|spe|1
+|turn|8
+|
+|move|p1a: Barbaracle|Poison Jab|p2a: Eiscue
+|-activate|p2a: Eiscue|ability: Ice Face
+|-damage|p2a: Eiscue|100/100
+|-status|p2a: Eiscue|psn
+|detailschange|p2a: Eiscue|Eiscue-Noice, M
+|move|p2a: Eiscue|Belly Drum|p2a: Eiscue
+|-damage|p2a: Eiscue|50/100 psn
+|-setboost|p2a: Eiscue|atk|6|[from] move: Belly Drum
+|
+|-damage|p2a: Eiscue|38/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|-start|p2a: Eiscue|Dynamax
+|-heal|p2a: Eiscue|38/100 psn|[silent]
+|move|p1a: Barbaracle|Poison Jab|p2a: Eiscue
+|-damage|p2a: Eiscue|0 fnt
+|faint|p2a: Eiscue
+|
+|upkeep
+|
+|switch|p2a: Pheromosa|Pheromosa|100/100
+|-activate|p2a: Pheromosa|move: Sticky Web
+|-unboost|p2a: Pheromosa|spe|1
+|turn|10
+|
+|-start|p1a: Barbaracle|Dynamax
+|-heal|p1a: Barbaracle|65/100|[silent]
+|move|p1a: Barbaracle|Max Rockfall|p2a: Pheromosa
+|-enditem|p2a: Pheromosa|Focus Sash
+|-damage|p2a: Pheromosa|1/100
+|-weather|Sandstorm
+|move|p2a: Pheromosa|Quiver Dance|p2a: Pheromosa
+|-boost|p2a: Pheromosa|spa|1
+|-boost|p2a: Pheromosa|spd|1
+|-boost|p2a: Pheromosa|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pheromosa|0 fnt|[from] Sandstorm
+|faint|p2a: Pheromosa
+|upkeep
+|
+|switch|p2a: Alcremie|Alcremie, F|100/100
+|-activate|p2a: Alcremie|move: Sticky Web
+|-unboost|p2a: Alcremie|spe|1
+|turn|11
+|-message|cheziqua forfeited.
+|
+|win|meronmaster
+|l|☆cheziqua

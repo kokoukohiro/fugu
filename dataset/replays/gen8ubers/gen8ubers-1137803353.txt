@@ -1,0 +1,561 @@
+|j|☆SSaki Haise
+|j|☆Na-K-ATPase
+|player|p1|SSaki Haise|165|1489
+|player|p2|Na-K-ATPase|101|1496
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Kyurem-Black|
+|poke|p1|Lunala|
+|poke|p1|Quagsire, M|
+|poke|p1|Blissey, F|
+|poke|p2|Chansey, F|
+|poke|p2|Skarmory, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Lunala|
+|poke|p2|Gothitelle, F|
+|poke|p2|Darmanitan-Galar, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|
+|start
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|switch|p2a: Darmanitan|Darmanitan-Galar, F|100/100
+|turn|1
+|
+|move|p2a: Darmanitan|U-turn|p1a: Necrozma
+|-damage|p1a: Necrozma|79/100
+|
+|switch|p2a: Gothitelle|Gothitelle, F|100/100|[from]move: U-turn
+|move|p1a: Necrozma|Thunder Wave|p2a: Gothitelle
+|-status|p2a: Gothitelle|par
+|
+|-heal|p1a: Necrozma|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Gothitelle
+|-damage|p2a: Gothitelle|45/100 par
+|move|p2a: Gothitelle|Trick|p1a: Necrozma
+|-activate|p2a: Gothitelle|move: Trick|[of] p1a: Necrozma
+|-item|p1a: Necrozma|Choice Specs|[from] move: Trick
+|-item|p2a: Gothitelle|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Gothitelle|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Necrozma|atk|1
+|turn|4
+|
+|switch|p1a: Lunala|Lunala|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|5
+|
+|-start|p2a: Gyarados|Dynamax
+|-heal|p2a: Gyarados|100/100|[silent]
+|move|p2a: Gyarados|Max Airstream|p1a: Lunala
+|-damage|p1a: Lunala|59/100
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Lunala|Will-O-Wisp|p2a: Gyarados
+|-status|p2a: Gyarados|brn
+|-enditem|p2a: Gyarados|Lum Berry|[eat]
+|-curestatus|p2a: Gyarados|brn|[msg]
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Gyarados|Max Geyser|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|-weather|RainDance
+|faint|p1a: Lunala
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|7
+|
+|-start|p1a: Kyurem|Dynamax
+|-heal|p1a: Kyurem|100/100|[silent]
+|move|p2a: Gyarados|Max Airstream|p1a: Kyurem
+|-damage|p1a: Kyurem|59/100
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Kyurem|Max Lightning|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Lunala|Lunala|100/100
+|turn|8
+|
+|move|p2a: Lunala|Moongeist Beam|p1a: Kyurem
+|-damage|p1a: Kyurem|32/100
+|move|p1a: Kyurem|Max Phantasm|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan-Galar, F|100/100
+|turn|9
+|
+|move|p2a: Darmanitan|Icicle Crash|p1a: Kyurem
+|-damage|p1a: Kyurem|2/100
+|move|p1a: Kyurem|Max Hailstorm|p2a: Darmanitan
+|-resisted|p2a: Darmanitan
+|-damage|p2a: Darmanitan|25/100
+|-weather|Hail
+|
+|-weather|Hail|[upkeep]
+|-end|p1a: Kyurem|Dynamax
+|-heal|p1a: Kyurem|2/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|85/100
+|move|p2a: Darmanitan|Icicle Crash|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|67/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Necrozma|61/100|[from] Hail
+|upkeep
+|turn|11
+|c|☆Na-K-ATPase|Dang this is the real prob
+|c|☆Na-K-ATPase|Kyub
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|86/100
+|-damage|p1a: Necrozma|44/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Necrozma|38/100|[from] Hail
+|-damage|p2a: Skarmory|80/100|[from] Hail
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|12
+|
+|switch|p1a: Kyurem|Kyurem-Black|2/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Skarmory|Spikes|p1a: Kyurem
+|-sidestart|p1: SSaki Haise|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Skarmory|74/100|[from] Hail
+|upkeep
+|turn|13
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|15/100
+|move|p2a: Skarmory|Body Press|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-damage|p1a: Zacian|88/100|[from] Spikes
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|14
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Zacian|Crunch|p2a: Chansey
+|-damage|p2a: Chansey|10/100
+|-unboost|p2a: Chansey|def|1
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Zacian|Crunch|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan-Galar, F|25/100
+|turn|16
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Darmanitan|U-turn|p1a: Blissey
+|-damage|p1a: Blissey|50/100
+|
+|switch|p2a: Skarmory|Skarmory, M|15/100|[from]move: U-turn
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|65/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Blissey|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Na-K-ATPase|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|38/100
+|-damage|p1a: Necrozma|26/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Necrozma
+|-sidestart|p1: SSaki Haise|Spikes
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|76/100
+|move|p2a: Skarmory|Taunt|p1a: Necrozma
+|-start|p1a: Necrozma|move: Taunt
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Blissey|Blissey, F|50/100
+|-damage|p1a: Blissey|34/100|[from] Spikes
+|move|p2a: Skarmory|Spikes|p1a: Blissey
+|-sidestart|p1: SSaki Haise|Spikes
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Skarmory|Body Press|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|upkeep
+|
+|switch|p1a: Zacian|Zacian-Crowned|88/100
+|-damage|p1a: Zacian|63/100|[from] Spikes
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|22
+|
+|move|p1a: Zacian|Close Combat|p2a: Skarmory
+|-damage|p2a: Skarmory|14/100
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|-damage|p1a: Zacian|47/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|64/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Zacian|Swords Dance|p1a: Zacian
+|-boost|p1a: Zacian|atk|2
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Zacian|Close Combat|p2a: Skarmory
+|-damage|p2a: Skarmory|18/100
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|-damage|p1a: Zacian|30/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Body Press|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|-damage|p1a: Quagsire|76/100|[from] Spikes
+|turn|25
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|68/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|44/100
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Skarmory|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|21/100
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|71/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|48/100
+|-status|p2a: Skarmory|brn
+|
+|-damage|p2a: Skarmory|42/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|92/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100 brn
+|
+|-damage|p2a: Skarmory|61/100 brn|[from] brn
+|-end|p1a: Quagsire|move: Taunt
+|upkeep
+|turn|29
+|j| nagisa6666
+|
+|move|p2a: Skarmory|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|23/100 brn
+|
+|-damage|p2a: Skarmory|17/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|67/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100 brn
+|
+|-damage|p2a: Skarmory|39/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|89/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|65/100 brn
+|
+|-damage|p2a: Skarmory|59/100 brn|[from] brn
+|-end|p1a: Quagsire|move: Taunt
+|upkeep
+|turn|32
+|
+|move|p2a: Skarmory|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|cant|p1a: Quagsire|move: Taunt|Recover
+|
+|-damage|p2a: Skarmory|53/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|74/100 brn
+|
+|-damage|p2a: Skarmory|68/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p2a: Skarmory|Body Press|p1a: Quagsire
+|-damage|p1a: Quagsire|65/100
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100 brn
+|
+|-damage|p2a: Skarmory|39/100 brn|[from] brn
+|-end|p1a: Quagsire|move: Taunt
+|upkeep
+|turn|35
+|
+|move|p2a: Skarmory|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|14/100 brn
+|
+|-damage|p2a: Skarmory|8/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|58/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|34/100 brn
+|
+|-damage|p2a: Skarmory|28/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|78/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100 brn
+|
+|-damage|p2a: Skarmory|39/100 brn|[from] brn
+|-end|p1a: Quagsire|move: Taunt
+|upkeep
+|turn|38
+|
+|move|p2a: Skarmory|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|cant|p1a: Quagsire|move: Taunt|Recover
+|
+|-damage|p2a: Skarmory|33/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|83/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|50/100 brn
+|
+|-damage|p2a: Skarmory|44/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|94/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|72/100 brn
+|
+|-damage|p2a: Skarmory|66/100 brn|[from] brn
+|-end|p1a: Quagsire|move: Taunt
+|upkeep
+|turn|41
+|
+|move|p2a: Skarmory|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|cant|p1a: Quagsire|move: Taunt|Recover
+|
+|-damage|p2a: Skarmory|60/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p2a: Skarmory|Body Press|p1a: Quagsire
+|-damage|p1a: Quagsire|54/100
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|37/100 brn
+|
+|-damage|p2a: Skarmory|31/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|81/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|58/100 brn
+|
+|-damage|p2a: Skarmory|52/100 brn|[from] brn
+|-end|p1a: Quagsire|move: Taunt
+|upkeep
+|turn|44
+|
+|move|p2a: Skarmory|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|29/100 brn
+|
+|-damage|p2a: Skarmory|23/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|73/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|49/100 brn
+|
+|-damage|p2a: Skarmory|43/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p2a: Skarmory|Body Press|p1a: Quagsire
+|-damage|p1a: Quagsire|43/100
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|19/100 brn
+|
+|-damage|p2a: Skarmory|13/100 brn|[from] brn
+|-end|p1a: Quagsire|move: Taunt
+|upkeep
+|turn|47
+|
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|63/100 brn
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|93/100
+|
+|-damage|p2a: Skarmory|57/100 brn|[from] brn
+|upkeep
+|turn|48
+|c|☆Na-K-ATPase|Fucm
+|
+|move|p2a: Skarmory|Body Press|p1a: Quagsire
+|-damage|p1a: Quagsire|82/100
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|35/100 brn
+|
+|-damage|p2a: Skarmory|29/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: Skarmory|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|move|p1a: Quagsire|Scald|p2a: Skarmory
+|-damage|p2a: Skarmory|6/100 brn
+|
+|-damage|p2a: Skarmory|0 fnt|[from] brn
+|faint|p2a: Skarmory
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan-Galar, F|25/100
+|-damage|p2a: Darmanitan|0 fnt|[from] Stealth Rock
+|faint|p2a: Darmanitan
+|
+|win|SSaki Haise
+|c|☆Na-K-ATPase|Nah nvm
+|raw|SSaki Haise's rating: 1489 &rarr; <strong>1509</strong><br />(+20 for winning)
+|raw|Na-K-ATPase's rating: 1496 &rarr; <strong>1475</strong><br />(-21 for losing)

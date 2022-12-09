@@ -1,0 +1,335 @@
+|j|☆Onoufrios
+|j|☆Chloe ❤
+|player|p1|Onoufrios|psychic-gen4|1803
+|player|p2|Chloe ❤|korrina|1789
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Arceus-*|
+|poke|p1|Xerneas|
+|poke|p1|Yveltal|
+|poke|p1|Lugia|
+|poke|p1|Zacian-Crowned|
+|poke|p2|Xurkitree|
+|poke|p2|Groudon|
+|poke|p2|Zygarde|
+|poke|p2|Ho-Oh|
+|poke|p2|Dugtrio, F|
+|poke|p2|Necrozma-Dusk-Mane|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|j| bnast
+|j| Chlonara
+|
+|start
+|switch|p1a: Lugia|Lugia|100/100
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|turn|1
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|switch|p2a: Zygarde|Zygarde|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Lugia|Lugia|100/100
+|move|p2a: Zygarde|Glare|p1a: Lugia
+|-status|p1a: Lugia|par
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|cant|p1a: Lugia|par
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Lugia
+|-sidestart|p1: Onoufrios|move: Stealth Rock
+|move|p1a: Lugia|Toxic|p2a: Dugtrio
+|-status|p2a: Dugtrio|tox
+|
+|-damage|p2a: Dugtrio|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Zygarde|Zygarde|100/100
+|move|p1a: Lugia|Whirlwind|p2a: Zygarde
+|drag|p2a: Dugtrio|Dugtrio, F|94/100 tox
+|
+|-damage|p2a: Dugtrio|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|cant|p1a: Lugia|par
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Zygarde|Zygarde|100/100
+|move|p1a: Lugia|Thunder Wave|p2a: Zygarde
+|-immune|p2a: Zygarde
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Zygarde|Thousand Arrows|p1a: Lugia
+|-damage|p1a: Lugia|94/100 par
+|-start|p1a: Lugia|Smack Down
+|move|p1a: Lugia|Toxic|p2a: Zygarde
+|-status|p2a: Zygarde|tox
+|
+|-damage|p2a: Zygarde|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Xurkitree|Xurkitree|100/100
+|cant|p1a: Lugia|par
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Xurkitree|Tail Glow|p2a: Xurkitree
+|-boost|p2a: Xurkitree|spa|3
+|move|p1a: Lugia|Whirlwind|p2a: Xurkitree
+|drag|p2a: Ho-Oh|Ho-Oh|100/100
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|cant|p1a: Lugia|par
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Xurkitree|Xurkitree|100/100
+|switch|p1a: Xerneas|Xerneas|100/100
+|-damage|p1a: Xerneas|88/100|[from] Stealth Rock
+|-ability|p1a: Xerneas|Fairy Aura
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|
+|upkeep
+|turn|14
+|
+|-start|p1a: Xerneas|Dynamax
+|-heal|p1a: Xerneas|88/100|[silent]
+|-start|p2a: Necrozma|Dynamax
+|-heal|p2a: Necrozma|100/100|[silent]
+|move|p1a: Xerneas|Max Lightning|p2a: Necrozma
+|-crit|p2a: Necrozma
+|-damage|p2a: Necrozma|36/100
+|-fieldstart|move: Electric Terrain
+|move|p2a: Necrozma|Max Steelspike|p1a: Xerneas
+|-supereffective|p1a: Xerneas
+|-damage|p1a: Xerneas|21/100
+|-boost|p2a: Necrozma|def|1
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Necrozma|Max Guard|p2a: Necrozma
+|-singleturn|p2a: Necrozma|Max Guard
+|move|p1a: Xerneas|Max Lightning|p2a: Necrozma
+|-activate|p2a: Necrozma|move: Max Guard
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Necrozma|Max Guard|p2a: Necrozma
+|-singleturn|p2a: Necrozma|Max Guard
+|move|p1a: Xerneas|Max Lightning|p2a: Necrozma
+|-activate|p2a: Necrozma|move: Max Guard
+|
+|-end|p1a: Xerneas|Dynamax
+|-heal|p1a: Xerneas|21/100|[silent]
+|-end|p2a: Necrozma|Dynamax
+|-heal|p2a: Necrozma|36/100|[silent]
+|upkeep
+|turn|17
+|j| Anselmee
+|
+|move|p1a: Xerneas|Moonblast|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|upkeep
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|18
+|
+|move|p1a: Xerneas|Moonblast|p2a: Groudon
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|48/100
+|-unboost|p2a: Groudon|spa|1
+|move|p2a: Groudon|Precipice Blades|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|-weather|DesolateLand|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p1a: Necrozma|94/100|[from] Stealth Rock
+|turn|19
+|
+|detailschange|p1a: Necrozma|Necrozma-Ultra
+|-burst|p1a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|move|p2a: Groudon|Thunder Wave|p1a: Necrozma
+|-status|p1a: Necrozma|par
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|20
+|
+|cant|p1a: Necrozma|par
+|move|p2a: Groudon|Precipice Blades|p1a: Necrozma
+|-damage|p1a: Necrozma|32/100 par
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|21
+|
+|-weather|none
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|move|p1a: Necrozma|Earthquake|p2a: Ho-Oh
+|-immune|p2a: Ho-Oh
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Groudon|Groudon-Primal|48/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Necrozma|Stone Edge|p2a: Groudon
+|-damage|p2a: Groudon|12/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|-weather|none
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, F|88/100 tox
+|turn|24
+|
+|move|p2a: Dugtrio|Stomping Tantrum|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-damage|p2a: Dugtrio|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Arceus|Arceus|100/100
+|-damage|p1a: Arceus|88/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p2a: Zygarde|Zygarde|94/100 tox
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|
+|-damage|p2a: Zygarde|88/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p1a: Arceus|Substitute|p1a: Arceus
+|-start|p1a: Arceus|Substitute
+|-damage|p1a: Arceus|63/100
+|move|p2a: Zygarde|Haze|p2a: Zygarde
+|-clearallboost
+|
+|-damage|p2a: Zygarde|76/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p2a: Zygarde|Haze|p2a: Zygarde
+|-clearallboost
+|
+|-damage|p2a: Zygarde|57/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p2a: Zygarde|Haze|p2a: Zygarde
+|-clearallboost
+|
+|-damage|p2a: Zygarde|32/100 tox|[from] psn
+|-activate|p2a: Zygarde|ability: Power Construct
+|detailschange|p2a: Zygarde|Zygarde-Complete
+|-heal|p2a: Zygarde|55/100 tox|[silent]
+|upkeep
+|turn|29
+|j| Liliana_Diaz ///
+|l| Liliana_Diaz ///
+|
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p2a: Zygarde|Rest|p2a: Zygarde
+|-status|p2a: Zygarde|slp|[from] move: Rest
+|-heal|p2a: Zygarde|100/100 slp|[silent]
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|cant|p2a: Zygarde|slp
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Arceus|Extreme Speed|p2a: Zygarde
+|-damage|p2a: Zygarde|43/100 slp
+|cant|p2a: Zygarde|slp
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Arceus|Extreme Speed|p2a: Zygarde
+|-damage|p2a: Zygarde|0 fnt
+|faint|p2a: Zygarde
+|
+|upkeep
+|-message|Chloe ❤ forfeited.
+|
+|win|Onoufrios
+|raw|Onoufrios's rating: 1803 &rarr; <strong>1822</strong><br />(+19 for winning)
+|raw|Chloe ❤'s rating: 1789 &rarr; <strong>1770</strong><br />(-19 for losing)
+|l|☆Chloe ❤
+|l| Chlonara
+|l| bnast
+|l|☆Onoufrios

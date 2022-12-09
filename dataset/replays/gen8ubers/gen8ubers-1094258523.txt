@@ -1,0 +1,667 @@
+|j|☆I like Lovely
+|j|☆BFO Ethanol
+|player|p1|I like Lovely|rancher|1801
+|player|p2|BFO Ethanol|tucker-gen3|1615
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Lunala|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Ditto|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Eternatus|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Ditto|
+|poke|p2|Excadrill, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Hippowdon, F|
+|poke|p2|Lunala|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|j| Ju_LiuYi
+|c|☆BFO Ethanol|glhf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BFO Ethanol)
+|inactive|I like Lovely has 120 seconds left.
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Lunala|Lunala|100/100
+|turn|1
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Lunala|Trick|p1a: Mandibuzz
+|-activate|p2a: Lunala|move: Trick|[of] p1a: Mandibuzz
+|-item|p1a: Mandibuzz|Choice Specs|[from] move: Trick
+|-item|p2a: Lunala|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|81/100
+|-enditem|p2a: Rotom|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Rotom|Volt Switch|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|88/100
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100|[from]move: Volt Switch
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|
+|-heal|p1a: Eternatus|95/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p2a: Zacian|Substitute|p2a: Zacian
+|-start|p2a: Zacian|Substitute
+|-damage|p2a: Zacian|76/100
+|move|p1a: Eternatus|Flamethrower|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-end|p2a: Zacian|Substitute
+|
+|-heal|p1a: Eternatus|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Eternatus
+|-damage|p1a: Eternatus|23/100
+|move|p1a: Eternatus|Flamethrower|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|-heal|p1a: Eternatus|29/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Eternatus|[from] ability: Imposter
+|-ability|p2a: Ditto|Pressure
+|turn|6
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Ditto|Dynamax Cannon|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|64/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Heat|81/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|brn
+|move|p1a: Mandibuzz|Roost||[still]
+|-fail|p1a: Mandibuzz|heal
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Rotom|Volt Switch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|58/100 brn
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100|[from]move: Volt Switch
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|58/100
+|-damage|p2a: Excadrill|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|64/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Lunala|Lunala|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Lunala
+|-start|p2a: Lunala|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|71/100|[from] item: Leftovers
+|-damage|p2a: Lunala|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|85/100|[silent]
+|upkeep
+|turn|12
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|94/100 brn
+|move|p2a: Lunala|Moongeist Beam|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|78/100 brn
+|
+|-damage|p2a: Lunala|76/100|[from] Leech Seed|[of] p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|90/100 brn|[silent]
+|-damage|p1a: Mandibuzz|84/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Lunala|Moonblast|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|39/100 brn
+|move|p1a: Mandibuzz|U-turn|p2a: Lunala
+|-damage|p2a: Lunala|71/100
+|
+|switch|p1a: Lunala|Lunala|100/100|[from]move: U-turn
+|
+|-damage|p2a: Lunala|59/100|[from] Leech Seed|[of] p1a: Lunala
+|upkeep
+|turn|14
+|
+|move|p1a: Lunala|Moongeist Beam|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Lunala|[from] ability: Imposter
+|turn|15
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|39/100 brn
+|move|p2a: Ditto|Moongeist Beam|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|23/100 brn
+|
+|-damage|p1a: Mandibuzz|17/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Ditto|Moongeist Beam|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|turn|17
+|
+|switch|p2a: Rotom|Rotom-Heat|81/100
+|move|p1a: Ditto|Transform|p2a: Rotom
+|-transform|p1a: Ditto|p2a: Rotom
+|-endability|p1a: Ditto|Imposter|[from] move: Transform
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Ditto|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|66/100
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100|[from]move: Volt Switch
+|move|p2a: Rotom|Volt Switch|p1a: Necrozma
+|-damage|p1a: Necrozma|78/100
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Necrozma|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Necrozma|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: BFO Ethanol|move: Stealth Rock
+|move|p2a: Hippowdon|Stealth Rock|p1a: Necrozma
+|-sidestart|p1: I like Lovely|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Necrozma|90/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|85/100
+|-damage|p1a: Ferrothorn|79/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|61/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Rotom|Rotom-Heat|66/100
+|-damage|p2a: Rotom|41/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|35/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|67/100|[from] item: Leftovers
+|-damage|p2a: Rotom|23/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|78/100|[silent]
+|upkeep
+|turn|22
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Rotom|[from] ability: Imposter
+|move|p2a: Rotom|Overheat|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|59/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ditto|53/100|[from] Sandstorm
+|-damage|p2a: Rotom|17/100|[from] Sandstorm
+|-damage|p2a: Rotom|4/100|[from] Leech Seed|[of] p1a: Ditto
+|-heal|p1a: Ditto|65/100|[silent]
+|upkeep
+|turn|23
+|
+|move|p1a: Ditto|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|78/100|[from]move: Volt Switch
+|-damage|p1a: Ferrothorn|72/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|91/100
+|-damage|p2a: Excadrill|87/100|[from] Stealth Rock
+|turn|24
+|
+|-start|p2a: Excadrill|Dynamax
+|-heal|p2a: Excadrill|87/100|[silent]
+|move|p2a: Excadrill|Max Quake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|25/100
+|-boost|p2a: Excadrill|spd|1
+|-damage|p2a: Excadrill|82/100|[from] item: Life Orb
+|move|p1a: Ferrothorn|Leech Seed|p2a: Excadrill|[miss]
+|-miss|p1a: Ferrothorn|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|31/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Excadrill|Max Quake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-boost|p2a: Excadrill|spd|1
+|-damage|p2a: Excadrill|78/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|90/100
+|-damage|p1a: Necrozma|84/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Eternatus|Eternatus|29/100
+|-damage|p1a: Eternatus|16/100|[from] Stealth Rock
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Excadrill|Max Quake|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|-boost|p2a: Excadrill|spd|1
+|-damage|p2a: Excadrill|73/100|[from] item: Life Orb
+|faint|p1a: Eternatus
+|
+|-end|p2a: Excadrill|Dynamax
+|-heal|p2a: Excadrill|73/100|[silent]
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|65/100
+|-damage|p1a: Ditto|53/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Excadrill|[from] ability: Imposter
+|turn|27
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Ditto|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|84/100
+|-damage|p1a: Necrozma|78/100|[from] Stealth Rock
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Necrozma|[from] ability: Imposter
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Necrozma|84/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Excadrill|Excadrill, M|73/100
+|-damage|p2a: Excadrill|69/100|[from] Stealth Rock
+|move|p1a: Necrozma|Knock Off|p2a: Excadrill
+|-damage|p2a: Excadrill|22/100
+|-enditem|p2a: Excadrill|Life Orb|[from] move: Knock Off|[of] p1a: Necrozma
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Necrozma|90/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Excadrill|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|46/100
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Necrozma|52/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, F|66/100
+|-damage|p2a: Hippowdon|60/100|[from] Stealth Rock
+|turn|31
+|
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|77/100
+|move|p2a: Hippowdon|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Necrozma|54/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|78/100
+|move|p2a: Hippowdon|Yawn|p1a: Necrozma
+|-start|p1a: Necrozma|move: Yawn|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Necrozma|84/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆BFO Ethanol|gg
+|
+|switch|p1a: Ditto|Ditto|53/100
+|-damage|p1a: Ditto|41/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Hippowdon|[from] ability: Imposter
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|34
+|
+|move|p1a: Ditto|Slack Off|p1a: Ditto
+|-heal|p1a: Ditto|91/100
+|move|p2a: Hippowdon|Earthquake|p1a: Ditto
+|-damage|p1a: Ditto|62/100
+|
+|-weather|none
+|upkeep
+|turn|35
+|
+|move|p1a: Ditto|Slack Off|p1a: Ditto
+|-heal|p1a: Ditto|100/100
+|move|p2a: Hippowdon|Earthquake|p1a: Ditto
+|-damage|p1a: Ditto|73/100
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Ditto|Slack Off|p1a: Ditto
+|-heal|p1a: Ditto|100/100
+|move|p2a: Hippowdon|Earthquake|p1a: Ditto
+|-crit|p1a: Ditto
+|-damage|p1a: Ditto|61/100
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Ditto|Slack Off|p1a: Ditto
+|-heal|p1a: Ditto|100/100
+|move|p2a: Hippowdon|Yawn|p1a: Ditto
+|-start|p1a: Ditto|move: Yawn|[of] p2a: Hippowdon
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|84/100
+|-damage|p1a: Necrozma|78/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-crit|p1a: Necrozma
+|-damage|p1a: Necrozma|36/100
+|
+|-heal|p1a: Necrozma|42/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p2a: Ditto|Ditto|88/100
+|-damage|p2a: Ditto|76/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Necrozma|[from] ability: Imposter
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|92/100
+|
+|-heal|p1a: Necrozma|98/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Ditto|Knock Off|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|71/100
+|-enditem|p1a: Necrozma|Leftovers|[from] move: Knock Off|[of] p2a: Ditto
+|move|p1a: Necrozma|Knock Off|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|39/100
+|-enditem|p2a: Ditto|Choice Scarf|[from] move: Knock Off|[of] p1a: Necrozma
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Necrozma|Knock Off|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|17/100
+|move|p2a: Ditto|Morning Sun|p2a: Ditto
+|-heal|p2a: Ditto|67/100
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Ditto|Morning Sun|p2a: Ditto
+|-heal|p2a: Ditto|100/100
+|move|p1a: Necrozma|Knock Off|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|76/100
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Ditto|Knock Off|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|55/100
+|move|p1a: Necrozma|Knock Off|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|52/100
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Ditto|Knock Off|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|38/100
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|88/100
+|
+|upkeep
+|turn|45
+|
+|move|p1a: Necrozma|Knock Off|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|29/100
+|move|p2a: Ditto|Morning Sun|p2a: Ditto
+|-heal|p2a: Ditto|78/100
+|
+|upkeep
+|turn|46
+|inactive|BFO Ethanol has 120 seconds left.
+|
+|move|p2a: Ditto|Knock Off|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|69/100
+|move|p1a: Necrozma|Knock Off|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|53/100
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Ditto|Knock Off|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|53/100
+|move|p1a: Necrozma|Knock Off|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|31/100
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|100/100
+|move|p2a: Ditto|Morning Sun|p2a: Ditto
+|-heal|p2a: Ditto|81/100
+|
+|upkeep
+|turn|49
+|
+|switch|p1a: Lunala|Lunala|100/100
+|move|p2a: Ditto|Sunsteel Strike|p1a: Lunala
+|-damage|p1a: Lunala|75/100
+|
+|upkeep
+|turn|50
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lunala|69/100|[from] Sandstorm
+|upkeep
+|turn|51
+|l| Ju_LiuYi
+|
+|move|p1a: Lunala|Moongeist Beam|p2a: Hippowdon
+|-damage|p2a: Hippowdon|14/100
+|move|p2a: Hippowdon|Earthquake|p1a: Lunala
+|-damage|p1a: Lunala|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lunala|30/100|[from] Sandstorm
+|upkeep
+|turn|52
+|
+|move|p1a: Lunala|Moongeist Beam|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lunala|23/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|81/100
+|-damage|p2a: Ditto|68/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Lunala|[from] ability: Imposter
+|turn|53
+|
+|move|p2a: Ditto|Moongeist Beam|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ditto|62/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|turn|54
+|
+|move|p2a: Ditto|Roost|p2a: Ditto
+|-heal|p2a: Ditto|100/100
+|-singleturn|p2a: Ditto|move: Roost
+|move|p1a: Ditto|Transform||[still]
+|-fail|p1a: Ditto
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ditto|94/100|[from] Sandstorm
+|-damage|p1a: Ditto|82/100|[from] Sandstorm
+|upkeep
+|turn|55
+|
+|move|p2a: Ditto|Moongeist Beam|p1a: Ditto
+|-immune|p1a: Ditto
+|move|p1a: Ditto|Transform||[still]
+|-fail|p1a: Ditto
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ditto|88/100|[from] Sandstorm
+|-damage|p1a: Ditto|76/100|[from] Sandstorm
+|upkeep
+|turn|56
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p1a: Necrozma|94/100|[from] Stealth Rock
+|move|p2a: Ditto|Calm Mind|p2a: Ditto
+|-boost|p2a: Ditto|spa|1
+|-boost|p2a: Ditto|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ditto|82/100|[from] Sandstorm
+|upkeep
+|turn|57
+|
+|move|p2a: Ditto|Moongeist Beam|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-weather|none
+|upkeep
+|-message|I like Lovely forfeited.
+|
+|win|BFO Ethanol
+|l|☆I like Lovely
+|raw|I like Lovely's rating: 1801 &rarr; <strong>1772</strong><br />(-29 for losing)
+|raw|BFO Ethanol's rating: 1615 &rarr; <strong>1645</strong><br />(+30 for winning)

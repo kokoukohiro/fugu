@@ -1,0 +1,255 @@
+|j|☆ray713testteam
+|j|☆HikaruMaxwell_004
+|player|p1|ray713testteam|n|1513
+|player|p2|HikaruMaxwell_004|hilbert-dueldisk|1422
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Slurpuff, F|
+|poke|p1|Cobalion|
+|poke|p1|Polteageist|
+|poke|p1|Hydreigon, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Zacian-Crowned|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Mewtwo|
+|poke|p2|Zeraora|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Marshadow|
+|poke|p2|Eternatus|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HikaruMaxwell_004)
+|
+|start
+|switch|p1a: Slurpuff|Slurpuff, F|100/100
+|switch|p2a: Marshadow|Marshadow|100/100
+|turn|1
+|
+|switch|p2a: Mewtwo|Mewtwo|100/100
+|-ability|p2a: Mewtwo|Pressure
+|move|p1a: Slurpuff|Sticky Web|p2a: Mewtwo
+|-sidestart|p2: HikaruMaxwell_004|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Slurpuff|Magic Coat|p1a: Slurpuff
+|-singleturn|p1a: Slurpuff|move: Magic Coat
+|move|p2a: Mewtwo|Psystrike|p1a: Slurpuff
+|-damage|p1a: Slurpuff|9/100
+|
+|upkeep
+|turn|3
+|c|☆HikaruMaxwell_004|!dt magic coat
+|raw|<ul class="utilichart"><li class="result"><span class="col movenamecol"><a href="https://dex.pokemonshowdown.com/moves/magiccoat">Magic Coat</a></span> <span class="col typecol"><img src="//play.pokemonshowdown.com/sprites/types/Psychic.png" alt="Psychic" width="32" height="14"><img src="//play.pokemonshowdown.com/sprites/categories/Status.png" alt="Status" width="32" height="14"></span> <span class="col widelabelcol"><em>Accuracy</em><br>—</span> <span class="col pplabelcol"><em>PP</em><br>24</span> <span class="col movedesccol">Bounces back certain non-damaging moves.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Priority:</font> 4&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 3&nbsp;|&ThickSpace;<font color="#686868">Z-Effect:</font>  Sp. Def +2&nbsp;|&ThickSpace;<font color="#686868">Target:</font> User</font>
+
+|
+|move|p2a: Mewtwo|Aura Sphere|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|upkeep
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|4
+|
+|move|p2a: Mewtwo|Shadow Ball|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|30/100
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Mewtwo
+|-supereffective|p2a: Mewtwo
+|-enditem|p2a: Mewtwo|Focus Sash
+|-damage|p2a: Mewtwo|1/100
+|move|p2a: Mewtwo|Shadow Ball|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|6
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|upkeep
+|
+|switch|p2a: Marshadow|Marshadow|100/100
+|-activate|p2a: Marshadow|move: Sticky Web
+|-unboost|p2a: Marshadow|spe|1
+|turn|7
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Marshadow
+|-enditem|p2a: Marshadow|Focus Sash
+|-damage|p2a: Marshadow|1/100
+|move|p2a: Marshadow|Spectral Thief||[still]
+|-clearpositiveboost|p1a: Zacian|p2a: Marshadow|move: Spectral Thief
+|-boost|p2a: Marshadow|atk|1
+|-anim|p2a: Marshadow|Spectral Thief|p1a: Zacian
+|-damage|p1a: Zacian|56/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Marshadow|Shadow Sneak|p1a: Zacian
+|-damage|p1a: Zacian|24/100
+|move|p1a: Zacian|Behemoth Blade|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|
+|upkeep
+|
+|switch|p2a: Eternatus|Eternatus|100/100
+|-activate|p2a: Eternatus|move: Sticky Web
+|-unboost|p2a: Eternatus|spe|1
+|-ability|p2a: Eternatus|Pressure
+|turn|9
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Eternatus
+|-damage|p2a: Eternatus|49/100
+|move|p2a: Eternatus|Flamethrower|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|-heal|p2a: Eternatus|55/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Cobalion|Cobalion|100/100
+|turn|10
+|
+|move|p1a: Cobalion|Stealth Rock|p2a: Eternatus
+|-sidestart|p2: HikaruMaxwell_004|move: Stealth Rock
+|move|p2a: Eternatus|Flamethrower|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|-heal|p2a: Eternatus|61/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|11
+|
+|-start|p1a: Cinderace|Dynamax
+|-formechange|p1a: Cinderace|Cinderace-Gmax
+|-heal|p1a: Cinderace|100/100|[silent]
+|move|p1a: Cinderace|Max Mindstorm|p2a: Eternatus
+|-start|p1a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|-fieldstart|move: Psychic Terrain
+|-damage|p1a: Cinderace|96/100|[from] item: Life Orb
+|faint|p2a: Eternatus
+|
+|upkeep
+|
+|switch|p2a: Urshifu|Urshifu, M|100/100
+|-activate|p2a: Urshifu|move: Sticky Web
+|-unboost|p2a: Urshifu|spe|1
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|turn|12
+|
+|-start|p2a: Urshifu|Dynamax
+|-formechange|p2a: Urshifu|Urshifu-Gmax
+|-heal|p2a: Urshifu|94/100|[silent]
+|move|p1a: Cinderace|Max Knuckle|p2a: Urshifu
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|39/100
+|-boost|p1a: Cinderace|atk|1
+|-damage|p1a: Cinderace|91/100|[from] item: Life Orb
+|move|p2a: Urshifu|G-Max One Blow|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|68/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Cinderace|Max Knuckle|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-boost|p1a: Cinderace|atk|1
+|-damage|p1a: Cinderace|63/100|[from] item: Life Orb
+|faint|p2a: Urshifu
+|
+|-end|p1a: Cinderace|Dynamax
+|-formechange|p1a: Cinderace|Cinderace
+|-heal|p1a: Cinderace|63/100|[silent]
+|upkeep
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Stealth Rock
+|-activate|p2a: Zeraora|move: Sticky Web
+|-unboost|p2a: Zeraora|spe|1
+|turn|14
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Zeraora
+|-start|p1a: Cinderace|typechange|Fire|[from] ability: Libero
+|-damage|p2a: Zeraora|0 fnt
+|-damage|p1a: Cinderace|53/100|[from] item: Life Orb
+|faint|p2a: Zeraora
+|
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-activate|p2a: Zacian|move: Sticky Web
+|-unboost|p2a: Zacian|spe|1
+|-damage|p2a: Zacian|94/100|[from] Stealth Rock
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|15
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Zacian|[miss]
+|-miss|p1a: Cinderace|p2a: Zacian
+|move|p2a: Zacian|Sacred Sword|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|16
+|c|☆HikaruMaxwell_004|Phew..
+|
+|move|p1a: Hydreigon|Earth Power|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|42/100
+|move|p2a: Zacian|Play Rough|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|win|HikaruMaxwell_004
+|c|☆ray713testteam|lol
+|raw|ray713testteam's rating: 1513 &rarr; <strong>1488</strong><br />(-25 for losing)
+|raw|HikaruMaxwell_004's rating: 1422 &rarr; <strong>1447</strong><br />(+25 for winning)
+|l|☆ray713testteam

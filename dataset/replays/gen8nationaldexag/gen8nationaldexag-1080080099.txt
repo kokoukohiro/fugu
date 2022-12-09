@@ -1,0 +1,268 @@
+|j|☆Ahuehuehue
+|j|☆ImAbroom
+|player|p1|Ahuehuehue|1|1566
+|player|p2|ImAbroom|163|1657
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Yveltal|
+|poke|p1|Zacian|
+|poke|p1|Groudon|
+|poke|p1|Rayquaza|
+|poke|p1|Groudon|
+|poke|p1|Arceus-*|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Mewtwo|
+|poke|p2|Xerneas|
+|poke|p2|Groudon|
+|poke|p2|Marshadow|
+|poke|p2|Smeargle, F|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ImAbroom)
+|
+|start
+|switch|p1a: Zacian|Zacian|100/100
+|switch|p2a: Ip Man|Groudon, shiny|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|detailschange|p2a: Ip Man|Groudon-Primal, shiny
+|-primal|p2a: Ip Man
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Ip Man
+|turn|1
+|
+|move|p1a: Zacian|Swords Dance|p1a: Zacian
+|-boost|p1a: Zacian|atk|2
+|move|p2a: Ip Man|Rock Tomb|p1a: Zacian
+|-damage|p1a: Zacian|71/100
+|-unboost|p1a: Zacian|spe|1
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Ip Man|Fire Punch|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|3
+|
+|detailschange|p1a: Rayquaza|Rayquaza-Mega
+|-mega|p1a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p1a: Rayquaza|Earthquake|p2a: Ip Man
+|-supereffective|p2a: Ip Man
+|-damage|p2a: Ip Man|21/100
+|-damage|p1a: Rayquaza|91/100|[from] item: Life Orb
+|move|p2a: Ip Man|Rock Tomb|p1a: Rayquaza
+|-activate||deltastream
+|-damage|p1a: Rayquaza|64/100
+|-unboost|p1a: Rayquaza|spe|1
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Rayquaza|Extreme Speed|p2a: Ip Man
+|-damage|p2a: Ip Man|0 fnt
+|-damage|p1a: Rayquaza|54/100|[from] item: Life Orb
+|faint|p2a: Ip Man
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|switch|p2a: The Negotiator|Smeargle, F|100/100
+|turn|5
+|
+|move|p1a: Rayquaza|Extreme Speed|p2a: The Negotiator
+|-enditem|p2a: The Negotiator|Focus Sash
+|-damage|p2a: The Negotiator|1/100
+|-damage|p1a: Rayquaza|44/100|[from] item: Life Orb
+|move|p2a: The Negotiator|Spore|p1a: Rayquaza
+|-status|p1a: Rayquaza|slp|[from] move: Spore
+|
+|-weather|DeltaStream|[upkeep]
+|-ability|p2a: The Negotiator|Moody|boost
+|-boost|p2a: The Negotiator|def|2
+|-unboost|p2a: The Negotiator|spe|1
+|upkeep
+|turn|6
+|
+|-weather|none
+|switch|p1a: Arceus|Arceus-Ghost|100/100
+|move|p2a: The Negotiator|Minimize|p2a: The Negotiator
+|-boost|p2a: The Negotiator|evasion|2
+|
+|-ability|p2a: The Negotiator|Moody|boost
+|-boost|p2a: The Negotiator|spd|2
+|-unboost|p2a: The Negotiator|atk|1
+|upkeep
+|turn|7
+|
+|move|p1a: Arceus|Extreme Speed|p2a: The Negotiator
+|-damage|p2a: The Negotiator|0 fnt
+|faint|p2a: The Negotiator
+|
+|upkeep
+|
+|switch|p2a: The Devastator|Marshadow|100/100
+|turn|8
+|
+|move|p2a: The Devastator|Spectral Thief|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|33/100
+|-zpower|p1a: Arceus
+|move|p1a: Arceus|Never-Ending Nightmare|p2a: The Devastator|[zeffect]
+|-supereffective|p2a: The Devastator
+|-enditem|p2a: The Devastator|Focus Sash
+|-damage|p2a: The Devastator|1/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: The Devastator|Spectral Thief|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|79/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: The Devastator|Endeavor|p1a: Yveltal
+|-damage|p1a: Yveltal|1/100
+|move|p1a: Yveltal|Dark Pulse|p2a: The Devastator
+|-damage|p2a: The Devastator|0 fnt
+|-damage|p1a: Yveltal|0 fnt|[from] item: Life Orb
+|faint|p2a: The Devastator
+|faint|p1a: Yveltal
+|
+|upkeep
+|
+|switch|p2a: The Endurance|Xerneas|100/100
+|switch|p1a: Arceus|Arceus-Ghost|33/100
+|-ability|p2a: The Endurance|Fairy Aura
+|turn|11
+|
+|move|p1a: Arceus|Shadow Force||[still]
+|-prepare|p1a: Arceus|Shadow Force|p2a: The Endurance
+|move|p2a: The Endurance|Geomancy||[still]
+|-prepare|p2a: The Endurance|Geomancy|p2a: The Endurance
+|-enditem|p2a: The Endurance|Power Herb
+|-anim|p2a: The Endurance|Geomancy|p2a: The Endurance
+|-boost|p2a: The Endurance|spa|2
+|-boost|p2a: The Endurance|spd|2
+|-boost|p2a: The Endurance|spe|2
+|
+|upkeep
+|turn|12
+|
+|move|p2a: The Endurance|Moonblast|p1a: Arceus|[miss]
+|-miss|p2a: The Endurance|p1a: Arceus
+|move|p1a: Arceus|Shadow Force|p2a: The Endurance|[from]lockedmove
+|-damage|p2a: The Endurance|52/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Arceus|Extreme Speed|p2a: The Endurance
+|-damage|p2a: The Endurance|31/100
+|move|p2a: The Endurance|Moonblast|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|14
+|
+|-weather|none
+|switch|p1a: Rayquaza|Rayquaza-Mega|44/100 slp
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|-start|p2a: The Endurance|Dynamax
+|-heal|p2a: The Endurance|31/100|[silent]
+|move|p2a: The Endurance|Max Starfall|p1a: Rayquaza
+|-supereffective|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|-fieldstart|move: Misty Terrain
+|faint|p1a: Rayquaza
+|-weather|none
+|
+|upkeep
+|
+|switch|p1a: Groudon|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|15
+|
+|move|p2a: The Endurance|Max Starfall|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|24/100
+|move|p1a: Groudon|Precipice Blades|p2a: The Endurance
+|-damage|p2a: The Endurance|3/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: The Endurance|Max Starfall|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-weather|none
+|
+|-end|p2a: The Endurance|Dynamax
+|-heal|p2a: The Endurance|3/100|[silent]
+|upkeep
+|
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|17
+|
+|move|p2a: The Endurance|Moonblast|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|25/100
+|move|p1a: Groudon|Rock Polish|p1a: Groudon
+|-boost|p1a: Groudon|spe|2
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Groudon|Precipice Blades|p2a: The Endurance
+|-damage|p2a: The Endurance|0 fnt
+|faint|p2a: The Endurance
+|
+|-weather|DesolateLand|[upkeep]
+|-fieldend|Misty Terrain
+|upkeep
+|
+|switch|p2a: The Executor|Mewtwo|100/100
+|-ability|p2a: The Executor|Pressure
+|turn|19
+|
+|move|p1a: Groudon|Precipice Blades|p2a: The Executor|[miss]
+|-miss|p1a: Groudon|p2a: The Executor
+|move|p2a: The Executor|Psystrike|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-weather|none
+|
+|win|ImAbroom
+|l|☆ImAbroom
+|j|☆ImAbroom
+|player|p2|ImAbroom|163

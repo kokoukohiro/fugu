@@ -8,13 +8,10 @@ from poke_env.data import GEN_TO_POKEDEX,NATURES
 UNKNOW_FORME = {"Arceus","Genesect","Pumpkaboo","Gourgeist","Silvally","Zacian","Zamazenta","Urshifu"}
 
 def analyze(replay,statsdict,format='gen8ou'):
-    directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "replays", format)
-    path = os.path.join(directory, replay[1:]+".txt")
-
     fromp1 = {}
     fromp2 = {}
 
-    """fromp1["start"] = {
+    fromp1["start"] = {
         "x":{
             "team":{},
             "opponent_team":{}
@@ -27,28 +24,20 @@ def analyze(replay,statsdict,format='gen8ou'):
             "opponent_team":{}
         },
         "t":None
-    }"""
+    }
 
-    if not os.path.exists(path):
-        replayurl = 'https://replay.pokemonshowdown.com{replay}.log'
-        replayline = _getinfo(replayurl.format(replay=replay))
-
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-        with open(path,"w",encoding='UTF-8') as f:
-            f.write(replayline)
-    else:
-        with open(path,encoding='UTF-8') as f:
-            replayline = f.read()
+    replayline = getreplay(replay,format)
 
     replaylines = replayline.split('\n|poke|')
+
     if replaylines[0].find("|rated|Tournament battle") >= 0 or replaylines[0].find("|rule|Dynamax Clause: You cannot dynamax") < 0 or replaylines[-1].find("|Metronome|") >= 0:
         return
+        
     replaylines[-1] = replaylines[-1].split('\n')[0]
     pokes = replaylines[1:]
 
-    #p1teamfromp2 = _analyzedel(pokes[:6],statsdict)
-    #p2teamfromp1 = _analyzedel(pokes[6:],statsdict)
+    p1teamfromp2 = _analyzedel(pokes[:6],statsdict)
+    p2teamfromp1 = _analyzedel(pokes[6:],statsdict)
 
     replaylines = replayline.split('\n|turn|')
     if len(replaylines) <= 1:
@@ -57,18 +46,8 @@ def analyze(replay,statsdict,format='gen8ou'):
     replaylines[-1] = replaylines[-1].split('\n|win|')[0]
     turns = replaylines[1:]
 
-    #fromp2["start"]["x"]["opponent_team"] = p1teamfromp2
-    #fromp1["start"]["x"]["opponent_team"] = p2teamfromp1
-
-    flags = {}
-    for line in [start]+turns:
-        flag = re.findall(r'\n(\|-?\w+\|)',line)
-        for f in flag:
-            if f not in flags:
-                flags[f] = set()
-            flags[f].add(replay)
-    
-    return flags
+    fromp2["start"]["x"]["opponent_team"] = p1teamfromp2
+    fromp1["start"]["x"]["opponent_team"] = p2teamfromp1
 
 
 def _analyzedel(pokes,statsdict):
@@ -112,6 +91,48 @@ def _analyzedel(pokes,statsdict):
             del team[name]["Raw count"]
         
     return team
+
+def searchreplay(keyword,findflags=True,format='gen8ou'):
+    replays = getreplays(format)
+    results = []
+
+    for replay in replays:
+        replayline = getreplay(replay,format)
+
+        if findflags:
+            flags = re.findall(r'\n(\|' + keyword + '\|.+)',replayline)
+        else:
+            flags = re.findall(r'.*' + keyword + '.*',replayline)
+    
+        if len(flags)>0:
+            result = [replay]+flags
+            results += result
+
+    directory = os.path.join(os.path.dirname(os.path.realpath(__file__)),"flags")
+
+    if findflags:
+        path = os.path.join(directory, keyword[1:]+"flags.txt")
+    else:
+        path = os.path.join(directory, keyword+".txt")
+
+    with open(path,"w",encoding='UTF-8') as f:
+        f.write("\n".join(results))
+
+def getreplay(replay,format='gen8ou'):
+    directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "replays", format)
+    path = os.path.join(directory, replay[1:]+".txt")
+    if not os.path.exists(path):
+        replayurl = 'https://replay.pokemonshowdown.com{replay}.log'
+        replayline = _getinfo(replayurl.format(replay=replay))
+
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        with open(path,"w",encoding='UTF-8') as f:
+            f.write(replayline)
+    else:
+        with open(path,encoding='UTF-8') as f:
+            replayline = f.read()
+    return replayline
 
 def getreplays(format='gen8ou',refresh=False):
     directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), "replays")
@@ -376,45 +397,9 @@ def _getinfo(url):
     return lines
 
 def main():
-    """statsdict = getstats()
-    analyze("/gen8ou-1646107486",statsdict)"""
-
-    flags = {}
-    path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "flags.json")
-    
-    if os.path.exists(path):
-        with open(path) as f:
-            flags = orjson.loads(f.read())
-        
-        for f in flags:
-            flags[f] = set(flags[f])
-
-
-    replays = getreplays("gen8ru")
-    for replay in replays:
-        result = analyze(replay,None,"gen8ru")
-        if result is not None:
-            if len(flags) >= 1:
-                for flag in result:
-                    if flag in flags:
-                        if len(flags[flag]) <=3:
-                            flags[flag] |= result[flag]
-                    else:
-                        flags[flag] = result[flag]
-            else:
-                flags = result
-    
-    for f in flags:
-        flags[f] = list(flags[f])
-    
-    with open(path,"w") as f:
-        json.dump(flags,f,indent=1)    
-    
-
-
-
-
-
+    #searchreplay("-block",True,"gen8ru")
+    statsdict = getstats()
+    analyze("/gen8ou-1646107486",statsdict)
 
 if __name__ == '__main__':
     main()

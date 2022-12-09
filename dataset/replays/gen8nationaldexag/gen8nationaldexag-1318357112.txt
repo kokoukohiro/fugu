@@ -1,0 +1,298 @@
+|j|☆agdp
+|j|☆Crystraco
+|t:|1617990391
+|gametype|singles
+|player|p1|agdp|102|1613
+|player|p2|Crystraco|169|1795
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Arceus-*|
+|poke|p1|Giratina-Origin|
+|poke|p1|Ditto|
+|poke|p1|Groudon|
+|poke|p1|Rayquaza|
+|poke|p1|Yveltal|
+|poke|p2|Kyogre|
+|poke|p2|Excadrill, M|
+|poke|p2|Arceus-*|
+|poke|p2|Ditto|
+|poke|p2|Salamence, M|
+|poke|p2|Xerneas|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|
+|t:|1617990404
+|start
+|switch|p1a: Yveltal|Yveltal|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|t:|1617990413
+|move|p1a: Yveltal|Taunt|p2a: Excadrill
+|-start|p2a: Excadrill|move: Taunt
+|move|p2a: Excadrill|Rapid Spin|p1a: Yveltal
+|-damage|p1a: Yveltal|83/100
+|-boost|p2a: Excadrill|spe|1
+|-damage|p2a: Excadrill|84/100|[from] item: Rocky Helmet|[of] p1a: Yveltal
+|
+|upkeep
+|turn|2
+|
+|t:|1617990423
+|move|p2a: Excadrill|Iron Head|p1a: Yveltal
+|-damage|p1a: Yveltal|42/100
+|-damage|p2a: Excadrill|67/100|[from] item: Rocky Helmet|[of] p1a: Yveltal
+|move|p1a: Yveltal|Foul Play|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1617990429
+|switch|p2a: Xerneas|Xerneas|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|3
+|
+|t:|1617990436
+|move|p2a: Xerneas|Moonblast|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|
+|upkeep
+|
+|t:|1617990445
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|4
+|
+|t:|1617990449
+|move|p2a: Xerneas|Moonblast|p1a: Rayquaza
+|-supereffective|p1a: Rayquaza
+|-enditem|p1a: Rayquaza|Focus Sash
+|-damage|p1a: Rayquaza|1/100
+|-unboost|p1a: Rayquaza|spa|1
+|move|p1a: Rayquaza|Dragon Ascent|p2a: Xerneas
+|-damage|p2a: Xerneas|42/100
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1617990461
+|detailschange|p1a: Rayquaza|Rayquaza-Mega
+|-mega|p1a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p1a: Rayquaza|Extreme Speed|p2a: Xerneas
+|-damage|p2a: Xerneas|7/100
+|move|p2a: Xerneas|Moonblast|p1a: Rayquaza
+|-supereffective|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|-weather|none
+|
+|upkeep
+|
+|t:|1617990476
+|switch|p1a: Giratina|Giratina-Origin, shiny|100/100
+|turn|6
+|
+|t:|1617990480
+|move|p1a: Giratina|Shadow Sneak|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|upkeep
+|
+|t:|1617990487
+|switch|p2a: Kyogre|Kyogre|100/100
+|detailschange|p2a: Kyogre|Kyogre-Primal
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|turn|7
+|
+|t:|1617990494
+|move|p1a: Giratina|Hone Claws|p1a: Giratina
+|-boost|p1a: Giratina|atk|1
+|-boost|p1a: Giratina|accuracy|1
+|move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+|-boost|p2a: Kyogre|spa|1
+|-boost|p2a: Kyogre|spd|1
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1617990502
+|move|p1a: Giratina|Shadow Force||[still]
+|-prepare|p1a: Giratina|Shadow Force
+|move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+|-boost|p2a: Kyogre|spa|1
+|-boost|p2a: Kyogre|spd|1
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1617990508
+|move|p1a: Giratina|Shadow Force|p2a: Kyogre|[from]lockedmove
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|-weather|none
+|
+|upkeep
+|
+|t:|1617990521
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Giratina|atk|1
+|turn|10
+|
+|t:|1617990525
+|detailschange|p2a: Salamence|Salamence-Mega, M
+|-mega|p2a: Salamence|Salamence|Salamencite
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|move|p1a: Giratina|Outrage|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+|
+|t:|1617990529
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Giratina|[from] ability: Imposter
+|turn|11
+|
+|t:|1617990539
+|-start|p2a: Ditto|Dynamax
+|-heal|p2a: Ditto|100/100|[silent]
+|move|p2a: Ditto|Max Wyrmwind|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|upkeep
+|
+|t:|1617990566
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|12
+|
+|t:|1617990572
+|move|p2a: Ditto|Max Wyrmwind|p1a: Groudon
+|-damage|p1a: Groudon|62/100
+|-unboost|p1a: Groudon|atk|1
+|move|p1a: Groudon|Thunder Wave|p2a: Ditto
+|-status|p2a: Ditto|par
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1617990591
+|move|p1a: Groudon|Rock Tomb|p2a: Ditto
+|-damage|p2a: Ditto|89/100 par
+|-unboost|p2a: Ditto|spe|1
+|cant|p2a: Ditto|par
+|
+|-weather|DesolateLand|[upkeep]
+|-end|p2a: Ditto|Dynamax
+|-heal|p2a: Ditto|89/100 par|[silent]
+|upkeep
+|turn|14
+|
+|t:|1617990602
+|move|p1a: Groudon|Fire Punch|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|57/100 par
+|move|p2a: Ditto|Outrage|p1a: Groudon
+|-crit|p1a: Groudon
+|-damage|p1a: Groudon|8/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1617990610
+|move|p1a: Groudon|Fire Punch|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|28/100 par
+|cant|p2a: Ditto|par
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|16
+|j| Beatboxing_Phantom
+|
+|t:|1617990616
+|switch|p2a: Arceus|Arceus|100/100
+|move|p1a: Groudon|Fire Punch|p2a: Arceus
+|-damage|p2a: Arceus|65/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1617990623
+|move|p2a: Arceus|Extreme Speed|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-weather|none
+|
+|upkeep
+|
+|t:|1617990633
+|switch|p1a: Arceus|Arceus|100/100
+|turn|18
+|
+|t:|1617990639
+|move|p2a: Arceus|Extreme Speed|p1a: Arceus
+|-damage|p1a: Arceus|64/100
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|
+|upkeep
+|turn|19
+|
+|t:|1617990648
+|-start|p1a: Arceus|Dynamax
+|-heal|p1a: Arceus|64/100|[silent]
+|move|p2a: Arceus|Extreme Speed|p1a: Arceus
+|-damage|p1a: Arceus|48/100
+|move|p1a: Arceus|Max Strike|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|-damage|p1a: Arceus|43/100|[from] item: Life Orb
+|faint|p2a: Arceus
+|
+|upkeep
+|
+|t:|1617990649
+|switch|p2a: Ditto|Ditto|28/100 par
+|-transform|p2a: Ditto|p1a: Arceus|[from] ability: Imposter
+|turn|20
+|
+|t:|1617990665
+|cant|p2a: Ditto|par
+|move|p1a: Arceus|Max Strike|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-damage|p1a: Arceus|38/100|[from] item: Life Orb
+|faint|p2a: Ditto
+|
+|win|agdp
+|raw|agdp's rating: 1613 &rarr; <strong>1643</strong><br />(+30 for winning)
+|raw|Crystraco's rating: 1795 &rarr; <strong>1765</strong><br />(-30 for losing)
+|l|☆Crystraco
