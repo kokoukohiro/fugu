@@ -1,0 +1,260 @@
+|j|☆DD Qyads
+|j|☆damodred
+|player|p1|DD Qyads|hilbert-dueldisk|1600
+|player|p2|damodred|184|1442
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crawdaunt, F|
+|poke|p1|Silvally-*|
+|poke|p1|Obstagoon, F|
+|poke|p1|Doublade, M|
+|poke|p1|Xatu, M|
+|poke|p1|Mamoswine, F|
+|poke|p2|Doublade, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Noivern, F|
+|poke|p2|Vikavolt, M|
+|poke|p2|Braviary, M|
+|poke|p2|Duraludon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DD Qyads)
+|
+|start
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|turn|1
+|
+|move|p1a: Silvally|Parting Shot|p2a: Vikavolt
+|-unboost|p2a: Vikavolt|atk|1
+|-unboost|p2a: Vikavolt|spa|1
+|
+|switch|p1a: Xatu|Xatu, M|100/100|[from]move: Parting Shot
+|move|p2a: Vikavolt|Sticky Web|p1a: Xatu
+|move|p1a: Xatu|Sticky Web|p2a: Vikavolt|[from]Magic Bounce
+|-sidestart|p2: damodred|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Xatu|U-turn|p2a: Vikavolt
+|-damage|p2a: Vikavolt|86/100
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100|[from]move: U-turn
+|move|p2a: Vikavolt|Sticky Web|p1a: Mamoswine
+|-sidestart|p1: DD Qyads|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Vikavolt
+|-damage|p2a: Vikavolt|35/100
+|move|p2a: Vikavolt|Bug Buzz|p1a: Mamoswine
+|-damage|p1a: Mamoswine|51/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Mamoswine|Stealth Rock|p2a: Vikavolt
+|-sidestart|p2: damodred|move: Stealth Rock
+|move|p2a: Vikavolt|Bug Buzz|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|turn|5
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|-damage|p2a: Obstagoon|88/100|[from] Stealth Rock
+|-activate|p2a: Obstagoon|move: Sticky Web
+|-unboost|p2a: Obstagoon|spe|1
+|move|p1a: Xatu|Night Shade|p2a: Obstagoon
+|-immune|p2a: Obstagoon
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|move|p1a: Xatu|Future Sight|p2a: Obstagoon
+|-start|p1a: Xatu|move: Future Sight
+|move|p2a: Obstagoon|Knock Off|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|-damage|p2a: Obstagoon|72/100 brn|[from] item: Rocky Helmet|[of] p1a: Xatu
+|-enditem|p1a: Xatu|Rocky Helmet|[from] move: Knock Off|[of] p2a: Obstagoon
+|faint|p1a: Xatu
+|
+|-damage|p2a: Obstagoon|66/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|-activate|p1a: Obstagoon|move: Sticky Web
+|-unboost|p1a: Obstagoon|spe|1
+|turn|7
+|inactive|damodred has 120 seconds left.
+|
+|move|p1a: Obstagoon|Obstruct|p1a: Obstagoon
+|-singleturn|p1a: Obstagoon|Protect
+|move|p2a: Obstagoon|Close Combat|p1a: Obstagoon
+|-activate|p1a: Obstagoon|move: Protect
+|-unboost|p2a: Obstagoon|def|2
+|
+|-damage|p2a: Obstagoon|60/100 brn|[from] brn
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|move|p2a: Obstagoon|Close Combat|p1a: Obstagoon
+|-supereffective|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|-unboost|p2a: Obstagoon|def|1
+|-unboost|p2a: Obstagoon|spd|1
+|faint|p1a: Obstagoon
+|
+|-end|p2a: Obstagoon|move: Future Sight
+|-immune|p2a: Obstagoon
+|-damage|p2a: Obstagoon|53/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|-activate|p1a: Silvally|move: Sticky Web
+|-unboost|p1a: Silvally|spe|1
+|turn|9
+|inactive|damodred has 120 seconds left.
+|
+|switch|p2a: Doublade|Doublade, F|100/100
+|-damage|p2a: Doublade|94/100|[from] Stealth Rock
+|-activate|p2a: Doublade|move: Sticky Web
+|-unboost|p2a: Doublade|spe|1
+|move|p1a: Silvally|Multi-Attack|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|81/100
+|
+|upkeep
+|turn|10
+|inactive|damodred has 120 seconds left.
+|
+|move|p1a: Silvally|Flamethrower|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|34/100
+|move|p2a: Doublade|Swords Dance|p2a: Doublade
+|-boost|p2a: Doublade|atk|2
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Silvally
+|-damage|p1a: Silvally|59/100
+|move|p1a: Silvally|Flamethrower|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|upkeep
+|inactive|damodred has 120 seconds left.
+|
+|switch|p2a: Duraludon|Duraludon, F|100/100
+|-activate|p2a: Duraludon|move: Sticky Web
+|-unboost|p2a: Duraludon|spe|1
+|-damage|p2a: Duraludon|94/100|[from] Stealth Rock
+|turn|12
+|inactive|damodred has 120 seconds left.
+|
+|move|p1a: Silvally|Thunder Wave|p2a: Duraludon
+|-status|p2a: Duraludon|par
+|move|p2a: Duraludon|Thunderbolt|p1a: Silvally
+|-damage|p1a: Silvally|13/100
+|-damage|p2a: Duraludon|85/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Silvally|Parting Shot|p2a: Duraludon
+|-unboost|p2a: Duraludon|atk|1
+|-unboost|p2a: Duraludon|spa|1
+|
+|switch|p1a: Doublade|Doublade, M|100/100|[from]move: Parting Shot
+|-activate|p1a: Doublade|move: Sticky Web
+|-unboost|p1a: Doublade|spe|1
+|cant|p2a: Duraludon|par
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Duraludon|Thunderbolt|p1a: Doublade
+|-damage|p1a: Doublade|67/100
+|-damage|p2a: Duraludon|75/100 par|[from] item: Life Orb
+|move|p1a: Doublade|Close Combat|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|-unboost|p1a: Doublade|def|1
+|-unboost|p1a: Doublade|spd|1
+|faint|p2a: Duraludon
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, M|53/100 brn
+|-damage|p2a: Obstagoon|41/100 brn|[from] Stealth Rock
+|-activate|p2a: Obstagoon|move: Sticky Web
+|-unboost|p2a: Obstagoon|spe|1
+|turn|15
+|
+|move|p2a: Obstagoon|Knock Off|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|-enditem|p1a: Doublade|Eviolite|[from] move: Knock Off|[of] p2a: Obstagoon
+|faint|p1a: Doublade
+|
+|-damage|p2a: Obstagoon|35/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy|13/100
+|-activate|p1a: Silvally|move: Sticky Web
+|-unboost|p1a: Silvally|spe|1
+|turn|16
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Obstagoon
+|-supereffective|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|faint|p2a: Obstagoon
+|
+|upkeep
+|
+|switch|p2a: Braviary|Braviary, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Braviary|Brave Bird|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|-damage|p2a: Braviary|72/100|[from] Recoil
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|-activate|p1a: Crawdaunt|move: Sticky Web
+|-unboost|p1a: Crawdaunt|spe|1
+|turn|18
+|
+|move|p2a: Braviary|Brave Bird|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|-damage|p2a: Braviary|46/100|[from] Recoil
+|faint|p1a: Crawdaunt
+|
+|win|damodred
+|c|☆damodred|gg
+|raw|DD Qyads's rating: 1608 &rarr; <strong>1580</strong><br />(-28 for losing)
+|raw|damodred's rating: 1442 &rarr; <strong>1471</strong><br />(+29 for winning)

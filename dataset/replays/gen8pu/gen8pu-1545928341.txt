@@ -1,0 +1,248 @@
+|j|☆AlomomolaForOU
+|j|☆Tasteful
+|t:|1649094330
+|gametype|singles
+|player|p1|AlomomolaForOU|colress|1342
+|player|p2|Tasteful|265|1389
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Articuno-Galar|
+|poke|p1|Garbodor, M|
+|poke|p1|Sandslash, F|
+|poke|p1|Aromatisse, M|
+|poke|p1|Whimsicott, F|
+|poke|p1|Glastrier|
+|poke|p2|Druddigon, M|
+|poke|p2|Weezing, M|
+|poke|p2|Eldegoss, M|
+|poke|p2|Togedemaru, M|
+|poke|p2|Comfey, F|
+|poke|p2|Cofagrigus, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AlomomolaForOU)
+|
+|t:|1649094354
+|start
+|switch|p1a: Glastrier|Glastrier|100/100
+|switch|p2a: Druddigon|Druddigon, M|100/100
+|turn|1
+|
+|t:|1649094360
+|switch|p2a: Cofagrigus|Cofagrigus, F|100/100
+|move|p1a: Glastrier|Icicle Crash|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|52/100
+|
+|upkeep
+|turn|2
+|
+|t:|1649094371
+|move|p1a: Glastrier|Icicle Crash|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|8/100
+|move|p2a: Cofagrigus|Rest|p2a: Cofagrigus
+|-status|p2a: Cofagrigus|slp|[from] move: Rest
+|-heal|p2a: Cofagrigus|100/100 slp|[silent]
+|-enditem|p2a: Cofagrigus|Chesto Berry|[eat]
+|-curestatus|p2a: Cofagrigus|slp|[msg]
+|
+|upkeep
+|turn|3
+|
+|t:|1649094380
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|move|p2a: Cofagrigus|Iron Defense|p2a: Cofagrigus
+|-boost|p2a: Cofagrigus|def|2
+|
+|upkeep
+|turn|4
+|
+|t:|1649094385
+|move|p1a: Whimsicott|Moonblast|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|47/100
+|-unboost|p2a: Cofagrigus|spa|1
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Whimsicott
+|-damage|p1a: Whimsicott|72/100
+|
+|upkeep
+|turn|5
+|
+|t:|1649094392
+|switch|p2a: Weezing|Weezing, M|100/100
+|move|p1a: Whimsicott|Moonblast|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|66/100
+|-unboost|p2a: Weezing|spa|1
+|
+|-heal|p2a: Weezing|72/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1649094401
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Articuno
+|-status|p1a: Articuno|brn
+|
+|-heal|p2a: Weezing|78/100|[from] item: Black Sludge
+|-damage|p1a: Articuno|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1649094406
+|switch|p2a: Togedemaru|Togedemaru, M|100/100
+|move|p1a: Articuno|U-turn|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|96/100
+|-damage|p1a: Articuno|82/100 brn|[from] ability: Iron Barbs|[of] p2a: Togedemaru
+|
+|t:|1649094412
+|switch|p1a: Sandslash|Sandslash, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Togedemaru|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1649094416
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|move|p1a: Sandslash|Stealth Rock|p2a: Eldegoss
+|-sidestart|p2: Tasteful|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1649094421
+|switch|p1a: Glastrier|Glastrier|100/100
+|move|p2a: Eldegoss|Rapid Spin|p1a: Glastrier
+|-damage|p1a: Glastrier|96/100
+|-boost|p2a: Eldegoss|spe|1
+|-sideend|p2: Tasteful|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Eldegoss
+|
+|upkeep
+|turn|10
+|
+|t:|1649094426
+|switch|p2a: Weezing|Weezing, M|78/100
+|move|p1a: Glastrier|Icicle Crash|p2a: Weezing
+|-damage|p2a: Weezing|26/100
+|
+|-heal|p2a: Weezing|32/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1649094432
+|switch|p1a: Articuno|Articuno-Galar|82/100 brn
+|move|p2a: Weezing|Will-O-Wisp|p1a: Articuno
+|-fail|p1a: Articuno|brn
+|
+|-heal|p2a: Weezing|38/100|[from] item: Black Sludge
+|-damage|p1a: Articuno|76/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1649094437
+|switch|p2a: Togedemaru|Togedemaru, M|100/100
+|move|p1a: Articuno|Hurricane|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|88/100
+|
+|-heal|p2a: Togedemaru|94/100|[from] item: Leftovers
+|-damage|p1a: Articuno|69/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1649094442
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|move|p2a: Togedemaru|U-turn|p1a: Garbodor
+|-resisted|p1a: Garbodor
+|-damage|p1a: Garbodor|95/100
+|-damage|p2a: Togedemaru|77/100|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|
+|t:|1649094448
+|switch|p2a: Druddigon|Druddigon, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|14
+|
+|t:|1649094452
+|switch|p1a: Glastrier|Glastrier|96/100
+|move|p2a: Druddigon|Stealth Rock|p1a: Glastrier
+|-sidestart|p1: AlomomolaForOU|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1649094457
+|switch|p2a: Togedemaru|Togedemaru, M|77/100
+|move|p1a: Glastrier|Icicle Crash|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|23/100
+|
+|-heal|p2a: Togedemaru|29/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1649094463
+|move|p2a: Togedemaru|Spiky Shield|p2a: Togedemaru
+|-singleturn|p2a: Togedemaru|move: Protect
+|move|p1a: Glastrier|Icicle Crash|p2a: Togedemaru
+|-activate|p2a: Togedemaru|move: Protect
+|
+|-heal|p2a: Togedemaru|35/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1649094468
+|move|p2a: Togedemaru|Iron Head|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|51/100
+|move|p1a: Glastrier|Icicle Crash|p2a: Togedemaru
+|-resisted|p2a: Togedemaru
+|-damage|p2a: Togedemaru|0 fnt
+|faint|p2a: Togedemaru
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|upkeep
+|
+|t:|1649094476
+|switch|p2a: Cofagrigus|Cofagrigus, F|47/100
+|turn|18
+|
+|t:|1649094478
+|move|p1a: Glastrier|Icicle Crash|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|faint|p2a: Cofagrigus
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|upkeep
+|
+|t:|1649094481
+|switch|p2a: Comfey|Comfey, F|100/100
+|turn|19
+|
+|t:|1649094487
+|move|p2a: Comfey|Draining Kiss|p1a: Glastrier
+|-damage|p1a: Glastrier|38/100
+|move|p1a: Glastrier|Icicle Crash|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|upkeep
+|-message|Tasteful forfeited.
+|
+|win|AlomomolaForOU
+|raw|AlomomolaForOU's rating: 1342 &rarr; <strong>1365</strong><br />(+23 for winning)
+|raw|Tasteful's rating: 1389 &rarr; <strong>1366</strong><br />(-23 for losing)
+|l|☆Tasteful

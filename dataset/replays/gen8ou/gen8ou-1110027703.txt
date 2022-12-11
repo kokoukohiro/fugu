@@ -1,0 +1,320 @@
+|j|☆Ash's Alt
+|j|☆goran el draco
+|player|p1|Ash's Alt|266|1792
+|player|p2|goran el draco|n|1847
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Chandelure, M|
+|poke|p1|Kommo-o, M|
+|poke|p1|Clefable, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Aegislash, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Hippowdon, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Diggersby, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Clefable, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|1
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Hydreigon|Flamethrower|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|88/100
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Toxapex|Toxic|p2a: Hippowdon
+|-status|p2a: Hippowdon|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|88/100|[from] Sandstorm
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p2a: Hippowdon|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|j| Ineedmorepokemon
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Kommo-o
+|-sidestart|p1: Ash's Alt|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|94/100|[from] Sandstorm
+|-heal|p1a: Kommo-o|100/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Kommo-o|Stealth Rock|p2a: Clefable
+|-sidestart|p2: goran el draco|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|94/100|[from] Sandstorm
+|-heal|p1a: Kommo-o|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j| OilyBootySpex
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|60/100|[from] Sandstorm
+|-heal|p1a: Toxapex|66/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p2a: Clefable|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|13/100
+|-unboost|p1a: Toxapex|spd|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|57/100|[from] Sandstorm
+|-heal|p1a: Toxapex|63/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|-item|p1a: Aegislash|Air Balloon
+|move|p2a: Clefable|Flamethrower|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|23/100
+|-enditem|p1a: Aegislash|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Hippowdon|Hippowdon, F|82/100 tox
+|-damage|p2a: Hippowdon|76/100 tox|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|43/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippowdon|37/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|87/100 tox
+|
+|-weather|none
+|-damage|p2a: Hippowdon|74/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Diggersby|Diggersby, F|100/100
+|-damage|p2a: Diggersby|94/100|[from] Stealth Rock
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|move|p2a: Diggersby|Swords Dance|p2a: Diggersby
+|-boost|p2a: Diggersby|atk|2
+|
+|-heal|p1a: Kommo-o|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|12
+|
+|move|p2a: Diggersby|Earthquake|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-damage|p2a: Diggersby|84/100|[from] item: Life Orb
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|-damage|p1a: Chandelure|76/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Chandelure|Flamethrower|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|42/100
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Toxapex|Toxapex, M|97/100
+|-damage|p1a: Toxapex|84/100|[from] Stealth Rock
+|move|p2a: Hydreigon|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|79/100
+|
+|switch|p2a: Diggersby|Diggersby, F|84/100|[from]move: U-turn
+|-damage|p2a: Diggersby|78/100|[from] Stealth Rock
+|
+|-heal|p1a: Toxapex|85/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: Diggersby|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-damage|p2a: Diggersby|68/100|[from] item: Life Orb
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M|76/100
+|-damage|p1a: Chandelure|51/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Hippowdon|Hippowdon, F|74/100 tox
+|-damage|p2a: Hippowdon|68/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Chandelure|Flamethrower|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chandelure|45/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Excadrill|Earthquake|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|-damage|p2a: Excadrill|87/100|[from] item: Life Orb
+|faint|p1a: Chandelure
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|50/100
+|-damage|p2a: Excadrill|78/100|[from] item: Life Orb
+|move|p1a: Ferrothorn|Power Whip|p2a: Excadrill
+|-damage|p2a: Excadrill|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|j| LITTLExHELLIONS
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|3/100
+|-damage|p2a: Excadrill|15/100|[from] item: Life Orb
+|move|p1a: Ferrothorn|Power Whip|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Diggersby|Diggersby, F|68/100
+|-damage|p2a: Diggersby|62/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Diggersby|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Diggersby|52/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|23/100
+|-damage|p1a: Aegislash|17/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Diggersby|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-damage|p2a: Diggersby|42/100|[from] item: Life Orb
+|faint|p1a: Aegislash
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|22
+|c|☆goran el draco|gg
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Diggersby|Earthquake|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p2a: Diggersby|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|10/100
+|-damage|p2a: Diggersby|32/100|[from] item: Life Orb
+|move|p1a: Clefable|Moonblast|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|faint|p2a: Diggersby
+|
+|-weather|none
+|-heal|p1a: Clefable|16/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|24
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|22/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|win|goran el draco
+|l|☆Ash's Alt
+|l| LITTLExHELLIONS
+||Ladder (probably) updated, but score could not be retrieved (Response not received).
+|l| Ineedmorepokemon
+|l| OilyBootySpex

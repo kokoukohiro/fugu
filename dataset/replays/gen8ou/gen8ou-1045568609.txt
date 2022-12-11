@@ -1,0 +1,537 @@
+|j|☆Pavijo28
+|j|☆thounss
+|player|p1|Pavijo28|282|1931
+|player|p2|thounss|101|1712
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Jellicent, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Arctozolt|
+|poke|p1|Diggersby, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Dugtrio, M|
+|poke|p2|Kommo-o, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pavijo28)
+|j| TeamBG
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Indeedee
+|-enditem|p1a: Indeedee|Focus Sash
+|-damage|p1a: Indeedee|1/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|2
+|j| tapu moxo
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Indeedee|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p2a: Corviknight|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|j| El Steiwos
+|
+|switch|p1a: Arctozolt|Arctozolt|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Arctozolt|Bolt Beak|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|16/100
+|-damage|p1a: Arctozolt|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Indeedee|Indeedee, M|1/100
+|move|p2a: Rotom|Volt Switch|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|l| El Steiwos
+|inactive|thounss has 120 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|
+|-fieldend|move: Psychic Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|6
+|inactive|thounss has 120 seconds left.
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Dragapult
+|drag|p2a: Kommo-o|Kommo-o, F|100/100
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|7
+|inactive|thounss has 120 seconds left.
+|
+|switch|p1a: Arctozolt|Arctozolt|91/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|8
+|inactive|thounss has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Arctozolt|Icicle Spear|p2a: Clefable
+|-damage|p2a: Clefable|87/100
+|-damage|p2a: Clefable|72/100
+|-damage|p2a: Clefable|57/100
+|-damage|p2a: Clefable|41/100
+|-damage|p2a: Clefable|26/100
+|-hitcount|p2a: Clefable|5
+|-damage|p1a: Arctozolt|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Clefable|32/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Arctozolt|Icicle Spear|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|38/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|thounss has 120 seconds left.
+|
+|switch|p1a: Diggersby|Diggersby, F|100/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|44/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|l| TeamBG
+|inactive|thounss has 120 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Diggersby|Swords Dance|p1a: Diggersby
+|-boost|p1a: Diggersby|atk|2
+|
+|upkeep
+|turn|12
+|inactive|thounss has 120 seconds left.
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Hatterene
+|-immune|p1a: Hatterene
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|14
+|j| amimec
+|
+|switch|p1a: Arctozolt|Arctozolt|81/100
+|move|p2a: Corviknight|Iron Head|p1a: Arctozolt
+|-damage|p1a: Arctozolt|57/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Rotom|Rotom-Heat|16/100
+|move|p1a: Arctozolt|Bolt Beak|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Arctozolt|47/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|44/100
+|turn|16
+|j| Fasboom
+|
+|switch|p1a: Diggersby|Diggersby, F|100/100
+|move|p2a: Clefable|Protect||[still]
+|-fail|p2a: Clefable
+|
+|-heal|p2a: Clefable|50/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Diggersby|Earthquake|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-fieldend|move: Trick Room
+|upkeep
+|inactive|thounss has 120 seconds left.
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Corviknight|Iron Head|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|92/100
+|
+|-heal|p1a: Jellicent|98/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Clefable|Clefable, F|50/100
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-heal|p2a: Clefable|57/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Arctozolt|Arctozolt|47/100
+|move|p2a: Clefable|Moonblast|p1a: Arctozolt
+|-damage|p1a: Arctozolt|16/100
+|
+|-heal|p2a: Clefable|63/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Arctozolt|Bolt Beak|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|69/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Clefable|Protect||[still]
+|-fail|p2a: Clefable
+|move|p1a: Arctozolt|Bolt Beak|p2a: Clefable
+|-damage|p2a: Clefable|23/100
+|-damage|p1a: Arctozolt|6/100|[from] item: Life Orb
+|
+|-heal|p2a: Clefable|29/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Diggersby|Diggersby, F|100/100
+|move|p2a: Clefable|Protect||[still]
+|-fail|p2a: Clefable
+|
+|-heal|p2a: Clefable|35/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|25
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Diggersby|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Diggersby|Thunder Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|move|p2a: Corviknight|Body Press|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|48/100
+|
+|-heal|p2a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|j| TRHurricane
+|l| TRHurricane
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Corviknight|Body Press|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-heal|p2a: Corviknight|63/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Diggersby|Diggersby, F|48/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Corviknight|Body Press|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Clefable|Clefable, F|35/100
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p2a: Clefable|41/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Clefable
+|-status|p2a: Clefable|brn
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|47/100 brn|[from] item: Leftovers
+|upkeep
+|turn|32
+|j| alt of the week
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Jellicent|Hex|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|97/100 brn|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|100/100 brn|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Jellicent|Hex|p2a: Clefable
+|-damage|p2a: Clefable|70/100 brn
+|move|p2a: Clefable|Aromatherapy|p2a: Clefable
+|-activate|p2a: Clefable|move: Aromatherapy
+|-curestatus|p2a: Clefable|brn|[msg]
+|
+|-heal|p2a: Clefable|76/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Mimikyu|Mimikyu-Busted, F|88/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|82/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|35
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|29/100
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|54/100
+|
+|-heal|p2a: Clefable|79/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|86/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|j| Lugia
+|
+|switch|p1a: Diggersby|Diggersby, F|48/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Corviknight|Body Press|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Clefable|Clefable, F|86/100
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p2a: Clefable|92/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|j| habajiga
+|
+|switch|p1a: Arctozolt|Arctozolt|6/100
+|move|p2a: Clefable|Moonblast|p1a: Arctozolt
+|-damage|p1a: Arctozolt|0 fnt
+|faint|p1a: Arctozolt
+|
+|-heal|p2a: Clefable|98/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|40
+|l| Fasboom
+|j| Fasboom
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100
+|-unboost|p2a: Corviknight|spa|1
+|move|p2a: Corviknight|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|57/100
+|
+|-heal|p1a: Hatterene|63/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|53/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Dugtrio
+|-damage|p2a: Dugtrio|26/100
+|-unboost|p2a: Dugtrio|spa|1
+|
+|-heal|p1a: Hatterene|69/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|43
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|18/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|24/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|thounss has 120 seconds left.
+|j| kickassin666
+|
+|switch|p2a: Clefable|Clefable, F|98/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Clefable
+|-damage|p2a: Clefable|72/100
+|-heal|p1a: Hatterene|48/100|[from] drain|[of] p2a: Clefable
+|
+|-heal|p1a: Hatterene|54/100|[from] item: Leftovers
+|-heal|p2a: Clefable|78/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Hatterene|60/100|[from] item: Leftovers
+|-heal|p2a: Clefable|84/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|47/100
+|-unboost|p1a: Hatterene|spa|1
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Hatterene|53/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|switch|p2a: Dugtrio|Dugtrio, M|26/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-heal|p1a: Hatterene|66/100|[from] drain|[of] p2a: Dugtrio
+|faint|p2a: Dugtrio
+|
+|-heal|p1a: Hatterene|72/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|53/100
+|-ability|p2a: Corviknight|Pressure
+|turn|48
+|c|☆Pavijo28|flinched in comming
+|
+|move|p2a: Corviknight|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|30/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|36/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|59/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|l| kickassin666
+|l| Lugia
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Hatterene|42/100|[from] item: Leftovers
+|upkeep
+|-message|thounss forfeited.
+|
+|win|Pavijo28
+|l|☆thounss
+|raw|Pavijo28's rating: 1904 &rarr; <strong>1914</strong><br />(+10 for winning)
+|raw|thounss's rating: 1712 &rarr; <strong>1702</strong><br />(-10 for losing)
+|l|☆Pavijo28
+|j| Anri of Astora
+|l| amimec
+|l| Anri of Astora
+|l| tapu moxo

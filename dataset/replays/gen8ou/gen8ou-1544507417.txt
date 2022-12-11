@@ -1,0 +1,364 @@
+|j|☆Jakerocks73
+|j|☆Forcemew2
+|t:|1648919554
+|gametype|singles
+|player|p1|Jakerocks73|pokekid|1782
+|player|p2|Forcemew2|burglar|1683
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Mandibuzz, F|
+|poke|p1|Tapu Lele|
+|poke|p1|Garchomp, M|
+|poke|p1|Heatran, F|
+|poke|p1|Mew|
+|poke|p1|Rillaboom, M|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Melmetal|
+|poke|p2|Marowak-Alola, M|
+|poke|p2|Cresselia, F|
+|poke|p2|Porygon2|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jakerocks73)
+|
+|t:|1648919591
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Synchronize|[from] ability: Trace|[of] p1a: Mew
+|turn|1
+|
+|t:|1648919599
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Mew|Imprison|p1a: Mew
+|-start|p1a: Mew|move: Imprison
+|
+|upkeep
+|turn|2
+|
+|t:|1648919613
+|move|p1a: Mew|Transform|p2a: Hatterene
+|-transform|p1a: Mew|p2a: Hatterene
+|cant|p2a: Hatterene|move: Imprison|Trick Room
+|
+|upkeep
+|turn|3
+|
+|t:|1648919628
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-activate|p2a: Hatterene|move: Struggle
+|move|p2a: Hatterene|Struggle|p1a: Rillaboom
+|-damage|p1a: Rillaboom|91/100
+|-damage|p2a: Hatterene|75/100|[from] recoil
+|
+|-heal|p1a: Rillaboom|97/100|[from] Grassy Terrain
+|-heal|p2a: Hatterene|81/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1648919642
+|move|p1a: Rillaboom|Wood Hammer|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-damage|p1a: Rillaboom|72/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|78/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1648919649
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Grassy Surge|[from] ability: Trace|[of] p1a: Rillaboom
+|turn|5
+|
+|t:|1648919654
+|move|p1a: Rillaboom|Wood Hammer|p2a: Porygon2
+|-damage|p2a: Porygon2|11/100
+|-damage|p1a: Rillaboom|46/100|[from] Recoil
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-heal|p2a: Porygon2|18/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|52/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1648919660
+|move|p1a: Rillaboom|Wood Hammer|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|-damage|p1a: Rillaboom|46/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|52/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1648919663
+|switch|p2a: Marowak|Marowak-Alola, M|100/100
+|turn|7
+|
+|t:|1648919674
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Marowak|Flare Blitz|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|53/100
+|-status|p1a: Garchomp|brn
+|-damage|p2a: Marowak|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-heal|p2a: Marowak|94/100|[from] Grassy Terrain
+|-heal|p1a: Garchomp|60/100 brn|[from] Grassy Terrain
+|-damage|p1a: Garchomp|53/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1648919680
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Marowak|Poltergeist|p1a: Mandibuzz
+|-activate|p1a: Mandibuzz|move: Poltergeist|Rocky Helmet
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|73/100
+|
+|upkeep
+|turn|9
+|
+|t:|1648919693
+|switch|p1a: Garchomp|Garchomp, M|53/100 brn
+|move|p2a: Marowak|Flare Blitz|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|6/100 brn
+|-damage|p2a: Marowak|82/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-damage|p1a: Garchomp|0 fnt|[from] brn
+|faint|p1a: Garchomp
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1648919706
+|switch|p1a: Mandibuzz|Mandibuzz, F|73/100
+|turn|10
+|
+|t:|1648919709
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|83/100
+|
+|upkeep
+|turn|11
+|
+|t:|1648919713
+|move|p1a: Mandibuzz|Toxic|p2a: Cresselia
+|-status|p2a: Cresselia|tox
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-damage|p2a: Cresselia|77/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1648919719
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|13
+|inactive|Jakerocks73 has 120 seconds left.
+|
+|t:|1648919766
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Crawdaunt|Crabhammer|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|-damage|p2a: Crawdaunt|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1648919770
+|switch|p1a: Rillaboom|Rillaboom, M|52/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|14
+|
+|t:|1648919778
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Rillaboom|Superpower|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|29/100
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1a: Rillaboom|def|1
+|
+|-heal|p2a: Melmetal|35/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|58/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1648919788
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Melmetal|Superpower|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|58/100
+|-unboost|p2a: Melmetal|atk|1
+|-unboost|p2a: Melmetal|def|1
+|-damage|p2a: Melmetal|18/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|
+|-heal|p2a: Melmetal|24/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|16
+|
+|t:|1648919796
+|switch|p2a: Cresselia|Cresselia, F|77/100 tox
+|move|p1a: Mandibuzz|Foul Play|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|57/100 tox
+|
+|-damage|p2a: Cresselia|51/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1648919799
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-damage|p2a: Cresselia|39/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1648919803
+|switch|p2a: Crawdaunt|Crawdaunt, F|91/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|62/100
+|
+|-heal|p2a: Crawdaunt|68/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1648919811
+|move|p2a: Crawdaunt|Crabhammer|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|48/100
+|-damage|p2a: Crawdaunt|51/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|-damage|p2a: Crawdaunt|42/100|[from] item: Life Orb
+|move|p1a: Mandibuzz|Foul Play|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|12/100
+|
+|upkeep
+|turn|20
+|
+|t:|1648919828
+|move|p2a: Crawdaunt|Crabhammer|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|-damage|p2a: Crawdaunt|0 fnt|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|faint|p1a: Mandibuzz
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|t:|1648919836
+|switch|p2a: Marowak|Marowak-Alola, M|82/100
+|switch|p1a: Heatran|Heatran, F|100/100
+|turn|21
+|
+|t:|1648919842
+|move|p2a: Marowak|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1648919846
+|switch|p1a: Mew|Mew|100/100
+|turn|22
+|
+|t:|1648919852
+|move|p1a: Mew|Knock Off|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|45/100
+|-enditem|p2a: Marowak|Thick Club|[from] move: Knock Off|[of] p1a: Mew
+|move|p2a: Marowak|Poltergeist|p1a: Mew
+|-activate|p1a: Mew|move: Poltergeist|Leftovers
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|27/100
+|
+|-heal|p1a: Mew|33/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1648919862
+|move|p1a: Mew|Knock Off|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|18/100
+|move|p2a: Marowak|Poltergeist|p1a: Mew
+|-activate|p1a: Mew|move: Poltergeist|Leftovers
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|t:|1648919864
+|switch|p1a: Rillaboom|Rillaboom, M|58/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|24
+|
+|t:|1648919882
+|move|p1a: Rillaboom|Wood Hammer|p2a: Marowak
+|-resisted|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|-damage|p1a: Rillaboom|53/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|59/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1648919885
+|switch|p2a: Cresselia|Cresselia, F|39/100 tox
+|turn|25
+|j| IAn36
+|
+|t:|1648919895
+|move|p1a: Rillaboom|Wood Hammer|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|-damage|p1a: Rillaboom|43/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|49/100|[from] Grassy Terrain
+|upkeep
+|c| IAn36|卧槽
+|
+|t:|1648919901
+|switch|p2a: Melmetal|Melmetal|24/100
+|turn|26
+|
+|t:|1648919904
+|move|p1a: Rillaboom|Wood Hammer|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|-damage|p1a: Rillaboom|38/100|[from] Recoil
+|
+|win|Jakerocks73
+|raw|Jakerocks73's rating: 1782 &rarr; <strong>1796</strong><br />(+14 for winning)
+|raw|Forcemew2's rating: 1683 &rarr; <strong>1669</strong><br />(-14 for losing)
+|l|☆Forcemew2
+|l|☆Jakerocks73
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

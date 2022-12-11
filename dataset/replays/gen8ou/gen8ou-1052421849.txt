@@ -1,0 +1,200 @@
+|j|☆user_1 ou
+|j|☆AlkagenCUintania
+|player|p1|user_1 ou|eusine|1580
+|player|p2|AlkagenCUintania|lucas-gen4pt|1690
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Shuckle, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Cloyster, F|
+|poke|p1|Mew|
+|poke|p2|Hydreigon, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Seismitoad, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Shuckle
+|-damage|p1a: Shuckle|89/100
+|-damage|p2a: Cinderace|84/100|[from] item: Rocky Helmet|[of] p1a: Shuckle
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from]move: U-turn
+|move|p1a: Shuckle|Encore|p2a: Hatterene
+|move|p2a: Hatterene|Encore||[from]Magic Bounce|[still]
+|-fail|p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|move|p1a: Shuckle|Sticky Web|p2a: Hatterene
+|move|p2a: Hatterene|Sticky Web|p1a: Shuckle|[from]Magic Bounce
+|-sidestart|p1: user_1 ou|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Shuckle
+|-damage|p1a: Shuckle|66/100
+|-unboost|p1a: Shuckle|spa|1
+|move|p1a: Shuckle|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Shuckle|[from]Magic Bounce
+|-sidestart|p1: user_1 ou|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Hatterene|Psychic|p1a: Shuckle
+|-damage|p1a: Shuckle|25/100
+|-unboost|p1a: Shuckle|spd|1
+|move|p1a: Shuckle|Final Gambit|p2a: Hatterene
+|-damage|p2a: Hatterene|81/100
+|faint|p1a: Shuckle
+|
+|-heal|p2a: Hatterene|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-activate|p1a: Bisharp|move: Sticky Web
+|-unboost|p1a: Bisharp|spe|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|-damage|p1a: Bisharp|94/100|[from] Stealth Rock
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by user_1 ou)
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Bisharp|Iron Head|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|69/100
+|
+|-heal|p2a: Seismitoad|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|24/100
+|move|p1a: Bisharp|Throat Chop|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|7
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|45/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|8
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Cinderace
+|-damage|p1a: Cinderace|45/100
+|cant|p1a: Cinderace|flinch
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|-activate|p1a: Cloyster|move: Sticky Web
+|-unboost|p1a: Cloyster|spe|1
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Cloyster|Ice Shard|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|91/100
+|
+|upkeep
+|turn|11
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-activate|p1a: Dragapult|move: Sticky Web
+|-unboost|p1a: Dragapult|spe|1
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Dragapult|Hex|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|45/100
+|turn|13
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Mew|Mew|100/100
+|-activate|p1a: Mew|move: Sticky Web
+|-unboost|p1a: Mew|spe|1
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|8/100
+|cant|p1a: Mew|flinch
+|
+|-heal|p1a: Mew|15/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|-message|user_1 ou forfeited.
+|
+|win|AlkagenCUintania
+|l|☆user_1 ou
+|raw|user_1 ou's rating: 1594 &rarr; <strong>1579</strong><br />(-15 for losing)
+|raw|AlkagenCUintania's rating: 1690 &rarr; <strong>1705</strong><br />(+15 for winning)

@@ -1,0 +1,338 @@
+|j|☆hizoUNe
+|j|☆JoJo Reference #10
+|t:|1667780475
+|gametype|singles
+|player|p1|hizoUNe|galacticgrunt|1532
+|player|p2|JoJo Reference #10|101|1519
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Gourgeist-*, F|
+|poke|p1|Glastrier|
+|poke|p1|Aromatisse, F|
+|poke|p1|Pincurchin, F|
+|poke|p1|Marowak, F|
+|poke|p1|Mesprit|
+|poke|p2|Absol, F|
+|poke|p2|Silvally-*|
+|poke|p2|Centiskorch, M|
+|poke|p2|Wishiwashi, F|
+|poke|p2|Archeops, M|
+|poke|p2|Malamar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JoJo Reference #10)
+|
+|t:|1667780501
+|start
+|switch|p1a: Marowak|Marowak, F|100/100
+|switch|p2a: Archeops|Archeops, M|100/100
+|turn|1
+|
+|t:|1667780509
+|move|p2a: Archeops|Stealth Rock|p1a: Marowak
+|-sidestart|p1: hizoUNe|move: Stealth Rock
+|move|p1a: Marowak|Rock Slide|p2a: Archeops|[miss]
+|-miss|p1a: Marowak|p2a: Archeops
+|
+|upkeep
+|turn|2
+|
+|t:|1667780515
+|move|p2a: Archeops|Taunt|p1a: Marowak
+|-start|p1a: Marowak|move: Taunt
+|move|p1a: Marowak|Knock Off|p2a: Archeops
+|-damage|p2a: Archeops|28/100
+|-enditem|p2a: Archeops|Focus Sash|[from] move: Knock Off|[of] p1a: Marowak
+|
+|upkeep
+|turn|3
+|
+|t:|1667780523
+|move|p2a: Archeops|Endeavor|p1a: Marowak
+|-damage|p1a: Marowak|30/100
+|move|p1a: Marowak|Knock Off|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|upkeep
+|
+|t:|1667780532
+|switch|p2a: Malamar|Malamar, F|100/100
+|turn|4
+|
+|t:|1667780535
+|switch|p1a: Aromatisse|Aromatisse, F|100/100
+|-damage|p1a: Aromatisse|88/100|[from] Stealth Rock
+|move|p2a: Malamar|Superpower|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-damage|p1a: Aromatisse|76/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-heal|p1a: Aromatisse|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1667780563
+|move|p2a: Malamar|Hypnosis|p1a: Aromatisse
+|-status|p1a: Aromatisse|slp|[from] move: Hypnosis
+|cant|p1a: Aromatisse|slp
+|
+|-heal|p1a: Aromatisse|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1667780570
+|move|p2a: Malamar|Superpower|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-damage|p1a: Aromatisse|72/100 slp
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|-curestatus|p1a: Aromatisse|slp|[msg]
+|move|p1a: Aromatisse|Trick Room|p1a: Aromatisse
+|-fieldstart|move: Trick Room|[of] p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1667780580
+|move|p1a: Aromatisse|Moonblast|p2a: Malamar
+|-supereffective|p2a: Malamar
+|-damage|p2a: Malamar|29/100
+|move|p2a: Malamar|Hypnosis|p1a: Aromatisse|[miss]
+|-miss|p2a: Malamar|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|85/100|[from] item: Leftovers
+|-heal|p2a: Malamar|35/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1667780590
+|switch|p2a: Centiskorch|Centiskorch, M|100/100
+|move|p1a: Aromatisse|Moonblast|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|88/100
+|-unboost|p2a: Centiskorch|spa|1
+|
+|-heal|p1a: Aromatisse|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1667780601
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-damage|p1a: Pincurchin|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Centiskorch|Fire Lash|p1a: Pincurchin
+|-crit|p1a: Pincurchin
+|-damage|p1a: Pincurchin|36/100
+|-unboost|p1a: Pincurchin|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1667780611
+|switch|p2a: Silvally|Silvally-Grass|100/100
+|move|p1a: Pincurchin|Rising Voltage|p2a: Silvally
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|30/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1667780621
+|switch|p1a: Gourgeist|Gourgeist-Super, F|100/100
+|-damage|p1a: Gourgeist|88/100|[from] Stealth Rock
+|-item|p2a: Silvally|Grass Memory|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Silvally|Multi-Attack|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|68/100
+|
+|upkeep
+|turn|12
+|
+|t:|1667780630
+|move|p2a: Silvally|Rock Slide|p1a: Gourgeist
+|-damage|p1a: Gourgeist|51/100
+|move|p1a: Gourgeist|Trick Room|p1a: Gourgeist
+|-fieldstart|move: Trick Room|[of] p1a: Gourgeist
+|
+|upkeep
+|turn|13
+|
+|t:|1667780636
+|move|p1a: Gourgeist|Poltergeist|p2a: Silvally
+|-activate|p2a: Silvally|move: Poltergeist|Grass Memory
+|-crit|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|-damage|p1a: Gourgeist|41/100|[from] item: Life Orb
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1667780638
+|switch|p2a: Absol|Absol, F|100/100
+|turn|14
+|
+|t:|1667780647
+|move|p2a: Absol|Sucker Punch|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|upkeep
+|
+|t:|1667780653
+|switch|p1a: Glastrier|Glastrier|100/100
+|-damage|p1a: Glastrier|75/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1667780658
+|switch|p2a: Wishiwashi|Wishiwashi, F|100/100
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p1a: Glastrier|Close Combat|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|50/100
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|
+|-heal|p2a: Wishiwashi|56/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1667780670
+|switch|p1a: Mesprit|Mesprit|100/100
+|-damage|p1a: Mesprit|88/100|[from] Stealth Rock
+|move|p2a: Wishiwashi|Scald|p1a: Mesprit
+|-damage|p1a: Mesprit|55/100
+|
+|-heal|p2a: Wishiwashi|62/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|
+|t:|1667780680
+|move|p1a: Mesprit|Trick|p2a: Wishiwashi
+|-activate|p1a: Mesprit|move: Trick|[of] p2a: Wishiwashi
+|-item|p2a: Wishiwashi|Choice Scarf|[from] move: Trick
+|-item|p1a: Mesprit|Leftovers|[from] move: Trick
+|move|p2a: Wishiwashi|U-turn|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|29/100
+|
+|t:|1667780685
+|switch|p2a: Absol|Absol, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Mesprit|35/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1667780692
+|move|p2a: Absol|Knock Off|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|-enditem|p1a: Mesprit|Leftovers|[from] move: Knock Off|[of] p2a: Absol
+|faint|p1a: Mesprit
+|
+|upkeep
+|
+|t:|1667780700
+|switch|p1a: Aromatisse|Aromatisse, F|91/100
+|-damage|p1a: Aromatisse|79/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1667780706
+|switch|p2a: Centiskorch|Centiskorch, M|88/100
+|move|p1a: Aromatisse|Trick Room|p1a: Aromatisse
+|-fieldstart|move: Trick Room|[of] p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|85/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1667780713
+|move|p1a: Aromatisse|Misty Explosion|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|74/100
+|faint|p1a: Aromatisse
+|move|p2a: Centiskorch|Fire Lash|p1: Aromatisse|[notarget]
+|-fail|p2a: Centiskorch
+|
+|upkeep
+|
+|t:|1667780722
+|switch|p1a: Pincurchin|Pincurchin, F|36/100
+|-damage|p1a: Pincurchin|23/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|21
+|
+|t:|1667780728
+|switch|p2a: Malamar|Malamar, F|35/100
+|move|p1a: Pincurchin|Rising Voltage|p2a: Malamar
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|upkeep
+|
+|t:|1667780729
+|switch|p2a: Absol|Absol, F|100/100
+|turn|22
+|
+|t:|1667780739
+|switch|p1a: Glastrier|Glastrier|75/100
+|-damage|p1a: Glastrier|50/100|[from] Stealth Rock
+|move|p2a: Absol|Sucker Punch||[still]
+|-fail|p2a: Absol
+|
+|upkeep
+|turn|23
+|
+|t:|1667780747
+|switch|p2a: Wishiwashi|Wishiwashi, F|62/100
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p1a: Glastrier|Close Combat|p2a: Wishiwashi
+|-crit|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|0 fnt
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|faint|p2a: Wishiwashi
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1667780749
+|switch|p2a: Centiskorch|Centiskorch, M|74/100
+|turn|24
+|c|☆hizoUNe|Gg jojo fan
+|
+|t:|1667780767
+|move|p2a: Centiskorch|Fire Lash|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|faint|p1a: Glastrier
+|
+|upkeep
+|c|☆JoJo Reference #10|ggs
+|-message|hizoUNe forfeited.
+|
+|win|JoJo Reference #10
+|raw|hizoUNe's rating: 1532 &rarr; <strong>1511</strong><br />(-21 for losing)
+|raw|JoJo Reference #10's rating: 1519 &rarr; <strong>1540</strong><br />(+21 for winning)
+|l|☆hizoUNe
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

@@ -1,0 +1,361 @@
+|j|☆TimBasedGod
+|j|☆Zer0kK_
+|player|p1|TimBasedGod|184|1089
+|player|p2|Zer0kK_|220|1148
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hitmonlee, M|
+|poke|p1|Mudsdale, M|
+|poke|p1|Mr. Rime, F|
+|poke|p1|Flapple, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Shiftry, M|
+|poke|p2|Vanilluxe, F|
+|poke|p2|Beartic, M|
+|poke|p2|Eiscue, M|
+|poke|p2|Runerigus, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Eldegoss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zer0kK_)
+|
+|start
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|switch|p2a: Global|Runerigus, M|100/100
+|turn|1
+|
+|switch|p2a: ?|Eldegoss, F|100/100
+|move|p1a: Mr. Rime|Trick|p2a: ?
+|-activate|p1a: Mr. Rime|move: Trick|[of] p2a: ?
+|-item|p2a: ?|Choice Scarf|[from] move: Trick
+|-item|p1a: Mr. Rime|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Warming|Vaporeon, F|100/100
+|move|p1a: Mr. Rime|Nasty Plot|p1a: Mr. Rime
+|-boost|p1a: Mr. Rime|spa|2
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Warming
+|-supereffective|p2a: Warming
+|-damage|p2a: Warming|20/100
+|move|p2a: Warming|Haze|p2a: Warming
+|-clearallboost
+|
+|-heal|p2a: Warming|26/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Who|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Who
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Who
+|-resisted|p2a: Who
+|-damage|p2a: Who|82/100
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Who|Taunt|p1a: Torkoal
+|-start|p1a: Torkoal|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Warming|Vaporeon, F|26/100
+|move|p1a: Torkoal|Lava Plume|p2a: Warming
+|-resisted|p2a: Warming
+|-damage|p2a: Warming|12/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Warming|19/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Warming|Wish|p2a: Warming
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam|p2a: Warming
+|-anim|p1a: Torkoal|Solar Beam|p2a: Warming
+|-supereffective|p2a: Warming
+|-damage|p2a: Warming|0 fnt
+|faint|p2a: Warming
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Torkoal|move: Taunt
+|upkeep
+|
+|switch|p2a: Who|Vanilluxe, F|82/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Who
+|turn|8
+|
+|move|p2a: Who|Aurora Veil|p2a: Who
+|-sidestart|p2: Zer0kK_|move: Aurora Veil
+|move|p1a: Torkoal|Lava Plume|p2a: Who
+|-supereffective|p2a: Who
+|-damage|p2a: Who|55/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Torkoal|94/100|[from] Hail
+|-heal|p2a: Who|100/100|[from] move: Wish|[wisher] Warming
+|upkeep
+|turn|9
+|
+|switch|p2a: Global|Runerigus, M|100/100
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|-sideend|p2: Zer0kK_|move: Aurora Veil
+|-activate|p1a: Mr. Rime|ability: Screen Cleaner
+|-sideend|p2: Zer0kK_|Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Global|94/100|[from] Hail
+|-heal|p2a: Global|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Global
+|-supereffective|p2a: Global
+|-damage|p2a: Global|40/100
+|move|p2a: Global|Will-O-Wisp|p1a: Mr. Rime|[miss]
+|-miss|p2a: Global|p1a: Mr. Rime
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Global|34/100|[from] Hail
+|-heal|p2a: Global|40/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Talked|Beartic, M|100/100
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Talked
+|-resisted|p2a: Talked
+|-damage|p2a: Talked|81/100
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Torkoal|Torkoal, F|94/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Talked|Throat Chop|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|46/100
+|-start|p1a: Torkoal|Throat Chop|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Talked|Throat Chop|p1a: Torkoal
+|-damage|p1a: Torkoal|17/100
+|move|p1a: Torkoal|Lava Plume|p2a: Talked
+|-supereffective|p2a: Talked
+|-damage|p2a: Talked|0 fnt
+|faint|p2a: Talked
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Torkoal|Throat Chop|[silent]
+|upkeep
+|
+|switch|p2a: Who|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Who
+|turn|14
+|
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|move|p2a: Who|Blizzard|p1a: Mr. Rime
+|-resisted|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|76/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Mr. Rime|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Who|Taunt|p1a: Mr. Rime
+|-start|p1a: Mr. Rime|move: Taunt
+|cant|p1a: Mr. Rime|move: Taunt|Nasty Plot
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Mr. Rime|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Who|Aurora Veil|p2a: Who
+|-sidestart|p2: Zer0kK_|move: Aurora Veil
+|move|p1a: Mr. Rime|Psychic|p2a: Who
+|-damage|p2a: Who|79/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Mr. Rime|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Global|Runerigus, M|40/100
+|switch|p1a: Torkoal|Torkoal, F|17/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Global|46/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Mr. Rime|Mr. Rime, F|94/100
+|-sideend|p2: Zer0kK_|move: Aurora Veil
+|-activate|p1a: Mr. Rime|ability: Screen Cleaner
+|-sideend|p2: Zer0kK_|Aurora Veil
+|move|p2a: Global|Stealth Rock|p1a: Mr. Rime
+|-sidestart|p1: TimBasedGod|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mr. Rime|99/100|[from] item: Leftovers
+|-heal|p2a: Global|52/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Who|Vanilluxe, F|79/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Who
+|move|p1a: Mr. Rime|Nasty Plot|p1a: Mr. Rime
+|-boost|p1a: Mr. Rime|spa|2
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Mr. Rime|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Who|Aurora Veil|p2a: Who
+|-sidestart|p2: Zer0kK_|move: Aurora Veil
+|move|p1a: Mr. Rime|Psychic|p2a: Who
+|-damage|p2a: Who|37/100
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p2a: Who|Explosion|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|28/100
+|faint|p2a: Who
+|move|p1a: Mr. Rime|Psychic|p2: Who|[notarget]
+|-fail|p1a: Mr. Rime
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Mr. Rime|34/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: About|Eiscue, M|100/100
+|turn|22
+|inactive|TimBasedGod has 120 seconds left.
+|
+|move|p1a: Mr. Rime|Psychic|p2a: About
+|-damage|p2a: About|51/100
+|-unboost|p2a: About|spd|1
+|move|p2a: About|Belly Drum|p2a: About
+|-damage|p2a: About|1/100
+|-setboost|p2a: About|atk|6|[from] move: Belly Drum
+|-enditem|p2a: About|Salac Berry|[eat]
+|-boost|p2a: About|spe|1
+|
+|-weather|Hail|[upkeep]
+|-heal|p1a: Mr. Rime|40/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|TimBasedGod has 120 seconds left.
+|
+|move|p2a: About|Icicle Crash|p1a: Mr. Rime
+|-resisted|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|0 fnt
+|faint|p1a: Mr. Rime
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p1a: Hitmonlee|94/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Hitmonlee|Fake Out|p2a: About
+|-enditem|p1a: Hitmonlee|Normal Gem|[from] gem|[move] Fake Out
+|-activate|p2a: About|ability: Ice Face
+|-damage|p2a: About|1/100
+|detailschange|p2a: About|Eiscue-Noice, M
+|cant|p2a: About|flinch
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hitmonlee|88/100|[from] Hail
+|-sideend|p2: Zer0kK_|move: Aurora Veil
+|upkeep
+|turn|25
+|inactive|TimBasedGod has 120 seconds left.
+|
+|move|p2a: About|Icicle Crash|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|inactive|TimBasedGod has 120 seconds left.
+|
+|switch|p1a: Torkoal|Torkoal, F|17/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|26
+|
+|move|p2a: About|Zen Headbutt|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|-damage|p1a: Shiftry|88/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: About|Icicle Crash|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|faint|p1a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Mudsdale|Mudsdale, M|100/100
+|-damage|p1a: Mudsdale|94/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: About|Icicle Crash|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Flapple|Flapple, M|100/100
+|-damage|p1a: Flapple|88/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: About|Icicle Crash|p1a: Flapple
+|-supereffective|p1a: Flapple
+|-damage|p1a: Flapple|0 fnt
+|faint|p1a: Flapple
+|
+|win|Zer0kK_
+|raw|TimBasedGod's rating: 1089 &rarr; <strong>1070</strong><br />(-19 for losing)
+|raw|Zer0kK_'s rating: 1148 &rarr; <strong>1169</strong><br />(+21 for winning)
+|c|☆Zer0kK_|gg

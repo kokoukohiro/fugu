@@ -1,0 +1,299 @@
+|j|☆Storm Zone
+|j|☆A
+|player|p1|Storm Zone|zinnia|1809
+|player|p2|A|clemont|1699
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Mamoswine, M|
+|poke|p1|Reuniclus, M|
+|poke|p1|Araquanid, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Heliolisk, M|
+|poke|p2|Dracovish|
+|poke|p2|Hydreigon, F|
+|poke|p2|Mew|
+|poke|p2|Clefable, M|
+|poke|p2|Jirachi|
+|poke|p2|Conkeldurr, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|raw|<div class="broadcast-red"><strong>This room is now invite only!</strong><br />Users must be rank % or invited with <code>/invite</code> to join</div>
+|c|☆A|/log A set modjoin to %.
+|c|☆A|/log A made this room hidden.
+|c|☆A|hf
+|c|☆Storm Zone|u2
+|
+|start
+|switch|p1a: Reginal Bee|Ribombee, M|100/100
+|switch|p2a: KALEIDOSCOPE|Mew|100/100
+|turn|1
+|
+|move|p1a: Reginal Bee|Bug Buzz|p2a: KALEIDOSCOPE
+|-supereffective|p2a: KALEIDOSCOPE
+|-damage|p2a: KALEIDOSCOPE|35/100
+|move|p2a: KALEIDOSCOPE|Spikes|p1a: Reginal Bee
+|-sidestart|p1: Storm Zone|Spikes
+|
+|-heal|p2a: KALEIDOSCOPE|41/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: UH OH STINKY|Jirachi|100/100
+|move|p1a: Reginal Bee|Bug Buzz|p2a: UH OH STINKY
+|-damage|p2a: UH OH STINKY|66/100
+|
+|-heal|p2a: UH OH STINKY|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Covid-19|Salazzle, F|100/100
+|move|p2a: UH OH STINKY|Psychic|p1a: Covid-19
+|-supereffective|p1a: Covid-19
+|-damage|p1a: Covid-19|0 fnt
+|faint|p1a: Covid-19
+|
+|-heal|p2a: UH OH STINKY|79/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Exodus|Mamoswine, M|100/100
+|-damage|p1a: Exodus|88/100|[from] Spikes
+|turn|4
+|
+|switch|p2a: THE WEEKDAY|Conkeldurr, M|100/100
+|move|p1a: Exodus|Earthquake|p2a: THE WEEKDAY
+|-damage|p2a: THE WEEKDAY|72/100
+|
+|-heal|p2a: THE WEEKDAY|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Mutant|Reuniclus, M, shiny|100/100
+|move|p2a: THE WEEKDAY|Knock Off|p1a: Mutant
+|-supereffective|p1a: Mutant
+|-damage|p1a: Mutant|44/100
+|-enditem|p1a: Mutant|Life Orb|[from] move: Knock Off|[of] p2a: THE WEEKDAY
+|
+|-heal|p2a: THE WEEKDAY|84/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: SLEEPY BABY|Clefable, M|100/100
+|move|p1a: Mutant|Psyshock|p2a: SLEEPY BABY
+|-damage|p2a: SLEEPY BABY|48/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: SLEEPY BABY|Stealth Rock|p1a: Mutant
+|-sidestart|p1: Storm Zone|move: Stealth Rock
+|move|p1a: Mutant|Psyshock|p2a: SLEEPY BABY
+|-damage|p2a: SLEEPY BABY|0 fnt
+|faint|p2a: SLEEPY BABY
+|
+|upkeep
+|
+|switch|p2a: REAL MANS|Dracovish, shiny|100/100
+|turn|8
+|
+|move|p2a: REAL MANS|Substitute|p2a: REAL MANS
+|-start|p2a: REAL MANS|Substitute
+|-damage|p2a: REAL MANS|76/100
+|move|p1a: Mutant|Psyshock|p2a: REAL MANS
+|-end|p2a: REAL MANS|Substitute
+|
+|upkeep
+|turn|9
+|
+|move|p2a: REAL MANS|Fishious Rend|p1a: Mutant
+|-damage|p1a: Mutant|0 fnt
+|faint|p1a: Mutant
+|
+|upkeep
+|
+|switch|p1a: Exodus|Mamoswine, M|88/100
+|-damage|p1a: Exodus|76/100|[from] Spikes
+|-damage|p1a: Exodus|63/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: THE WEEKDAY|Conkeldurr, M|84/100
+|move|p1a: Exodus|Freeze-Dry|p2a: THE WEEKDAY
+|-crit|p2a: THE WEEKDAY
+|-damage|p2a: THE WEEKDAY|44/100
+|
+|-heal|p2a: THE WEEKDAY|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Exodus|Freeze-Dry|p2a: THE WEEKDAY
+|-damage|p2a: THE WEEKDAY|25/100
+|-status|p2a: THE WEEKDAY|frz
+|cant|p2a: THE WEEKDAY|frz
+|
+|-heal|p2a: THE WEEKDAY|31/100 frz|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Exodus|Freeze-Dry|p2a: THE WEEKDAY
+|-damage|p2a: THE WEEKDAY|6/100 frz
+|cant|p2a: THE WEEKDAY|frz
+|
+|-heal|p2a: THE WEEKDAY|13/100 frz|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|cant|p2a: THE WEEKDAY|frz
+|move|p1a: Exodus|Freeze-Dry|p2a: THE WEEKDAY
+|-crit|p2a: THE WEEKDAY
+|-damage|p2a: THE WEEKDAY|0 fnt
+|faint|p2a: THE WEEKDAY
+|
+|upkeep
+|c|☆A|thts tilting
+|
+|switch|p2a: KALEIDOSCOPE|Mew|41/100
+|turn|14
+|
+|move|p1a: Exodus|Freeze-Dry|p2a: KALEIDOSCOPE
+|-damage|p2a: KALEIDOSCOPE|19/100
+|move|p2a: KALEIDOSCOPE|Roost|p2a: KALEIDOSCOPE
+|-heal|p2a: KALEIDOSCOPE|69/100
+|-singleturn|p2a: KALEIDOSCOPE|move: Roost
+|
+|-heal|p2a: KALEIDOSCOPE|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Exodus|Freeze-Dry|p2a: KALEIDOSCOPE
+|-damage|p2a: KALEIDOSCOPE|55/100
+|move|p2a: KALEIDOSCOPE|Will-O-Wisp|p1a: Exodus
+|-status|p1a: Exodus|brn
+|
+|-heal|p2a: KALEIDOSCOPE|61/100|[from] item: Leftovers
+|-damage|p1a: Exodus|57/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Prototype|Araquanid, M, shiny|100/100
+|-damage|p1a: Prototype|75/100|[from] Stealth Rock
+|-damage|p1a: Prototype|63/100|[from] Spikes
+|move|p2a: KALEIDOSCOPE|Roost|p2a: KALEIDOSCOPE
+|-heal|p2a: KALEIDOSCOPE|100/100
+|-singleturn|p2a: KALEIDOSCOPE|move: Roost
+|
+|upkeep
+|turn|17
+|
+|move|p2a: KALEIDOSCOPE|Knock Off|p1a: Prototype
+|-damage|p1a: Prototype|40/100
+|-enditem|p1a: Prototype|Choice Band|[from] move: Knock Off|[of] p2a: KALEIDOSCOPE
+|move|p1a: Prototype|Liquidation|p2a: KALEIDOSCOPE
+|-damage|p2a: KALEIDOSCOPE|51/100
+|-unboost|p2a: KALEIDOSCOPE|def|1
+|
+|-heal|p2a: KALEIDOSCOPE|57/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: REAL MANS|Dracovish, shiny|76/100
+|move|p1a: Prototype|Leech Life|p2a: REAL MANS
+|-damage|p2a: REAL MANS|41/100
+|-heal|p1a: Prototype|57/100|[from] drain|[of] p2a: REAL MANS
+|
+|upkeep
+|turn|19
+|
+|move|p2a: REAL MANS|Fishious Rend|p1a: Prototype
+|-resisted|p1a: Prototype
+|-damage|p1a: Prototype|0 fnt
+|faint|p1a: Prototype
+|
+|upkeep
+|
+|switch|p1a: Leak|Heliolisk, M|100/100
+|-damage|p1a: Leak|88/100|[from] Spikes
+|-damage|p1a: Leak|76/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Leak|Thunderbolt|p2a: REAL MANS
+|-crit|p2a: REAL MANS
+|-damage|p2a: REAL MANS|0 fnt
+|-damage|p1a: Leak|66/100|[from] item: Life Orb
+|faint|p2a: REAL MANS
+|
+|upkeep
+|
+|switch|p2a: TellEM TELL EM|Hydreigon, F|100/100
+|turn|21
+|
+|move|p2a: TellEM TELL EM|Dark Pulse|p1a: Leak
+|-damage|p1a: Leak|12/100
+|move|p1a: Leak|Focus Blast|p2a: TellEM TELL EM|[miss]
+|-miss|p1a: Leak|p2a: TellEM TELL EM
+|
+|upkeep
+|turn|22
+|
+|move|p2a: TellEM TELL EM|Dark Pulse|p1a: Leak
+|-damage|p1a: Leak|0 fnt
+|faint|p1a: Leak
+|
+|upkeep
+|
+|switch|p1a: Reginal Bee|Ribombee, M|100/100
+|-damage|p1a: Reginal Bee|76/100|[from] Stealth Rock
+|-damage|p1a: Reginal Bee|63/100|[from] Spikes
+|turn|23
+|
+|switch|p2a: KALEIDOSCOPE|Mew|57/100
+|move|p1a: Reginal Bee|Bug Buzz|p2a: KALEIDOSCOPE
+|-supereffective|p2a: KALEIDOSCOPE
+|-damage|p2a: KALEIDOSCOPE|0 fnt
+|faint|p2a: KALEIDOSCOPE
+|
+|upkeep
+|
+|switch|p2a: UH OH STINKY|Jirachi|79/100
+|turn|24
+|
+|move|p1a: Reginal Bee|Bug Buzz|p2a: UH OH STINKY
+|-damage|p2a: UH OH STINKY|40/100
+|move|p2a: UH OH STINKY|Psychic|p1a: Reginal Bee
+|-damage|p1a: Reginal Bee|0 fnt
+|faint|p1a: Reginal Bee
+|
+|-heal|p2a: UH OH STINKY|46/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Exodus|Mamoswine, M|57/100 brn
+|-damage|p1a: Exodus|45/100 brn|[from] Spikes
+|-damage|p1a: Exodus|32/100 brn|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Exodus|Freeze-Dry|p2a: UH OH STINKY
+|-resisted|p2a: UH OH STINKY
+|-damage|p2a: UH OH STINKY|36/100
+|move|p2a: UH OH STINKY|Psychic|p1a: Exodus
+|-damage|p1a: Exodus|0 fnt
+|faint|p1a: Exodus
+|
+|win|A
+|c|☆A|gg
+|raw|Storm Zone's rating: 1809 &rarr; <strong>1783</strong><br />(-26 for losing)
+|raw|A's rating: 1700 &rarr; <strong>1726</strong><br />(+26 for winning)
+|l|☆Storm Zone
+|c|☆A|/log A made this room public.
+|raw|<div class="broadcast-blue"><strong>This room is no longer invite only!</strong><br />Anyone may now join.</div>
+|c|☆A|/log A turned off modjoin.
+|j| arcsin180

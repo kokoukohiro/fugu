@@ -1,0 +1,325 @@
+|j|☆King-HenryTheThird
+|j|☆Malareon
+|player|p1|King-HenryTheThird|ghetsis|1510
+|player|p2|Malareon|plasmagrunt|1441
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Zygarde|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Groudon|
+|poke|p1|Ho-Oh|
+|poke|p1|Yveltal|
+|poke|p1|Ditto|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Rayquaza|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Groudon|
+|poke|p2|Xerneas|
+|poke|p2|Yveltal|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Malareon)
+|
+|start
+|switch|p1a: 王様|Zacian-Crowned|100/100
+|switch|p2a: Noodles|Deoxys-Speed|100/100
+|-ability|p2a: Noodles|Pressure
+|-ability|p1a: 王様|Intrepid Sword|boost
+|-boost|p1a: 王様|atk|1
+|turn|1
+|
+|move|p2a: Noodles|Thunder Wave|p1a: 王様
+|-status|p1a: 王様|par
+|move|p1a: 王様|Crunch|p2a: Noodles
+|-supereffective|p2a: Noodles
+|-damage|p2a: Noodles|0 fnt
+|faint|p2a: Noodles
+|
+|upkeep
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|2
+|
+|switch|p1a: 竜|Zygarde|100/100
+|move|p2a: Groudon|Rock Polish|p2a: Groudon
+|-boost|p2a: Groudon|spe|2
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|3
+|
+|-weather|none
+|switch|p2a: Puff|Rayquaza|100/100
+|-ability|p2a: Puff|Air Lock
+|move|p1a: 竜|Glare|p2a: Puff
+|-status|p2a: Puff|par
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: 虹の神|Ho-Oh, shiny|100/100
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Groudon|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: 虹の神|Sacred Fire|p2a: Groudon
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|78/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: 竜|Zygarde|100/100
+|move|p2a: Groudon|Precipice Blades|p1a: 竜
+|-crit|p1a: 竜
+|-damage|p1a: 竜|34/100
+|
+|-weather|DesolateLand|[upkeep]
+|-activate|p1a: 竜|ability: Power Construct
+|detailschange|p1a: 竜|Zygarde-Complete
+|-heal|p1a: 竜|56/100|[silent]
+|upkeep
+|turn|7
+|
+|move|p2a: Groudon|Precipice Blades|p1a: 竜
+|-damage|p1a: 竜|24/100
+|move|p1a: 竜|Thousand Arrows|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|36/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Groudon|Precipice Blades|p1a: 竜
+|-damage|p1a: 竜|0 fnt
+|faint|p1a: 竜
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p1a: 死亡|Yveltal|100/100
+|-ability|p1a: 死亡|Dark Aura
+|turn|9
+|
+|-weather|none
+|switch|p2a: Xerneas|Xerneas|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|-start|p1a: 死亡|Dynamax
+|-heal|p1a: 死亡|100/100|[silent]
+|move|p1a: 死亡|Max Airstream|p2a: Xerneas
+|-damage|p2a: Xerneas|30/100
+|-boost|p1a: 死亡|spe|1
+|-damage|p1a: 死亡|96/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: 死亡|Max Airstream|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|55/100
+|-boost|p1a: 死亡|spe|1
+|-damage|p1a: 死亡|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|move|p1a: 死亡|Max Flare|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|-weather|SunnyDay
+|-damage|p1a: 死亡|86/100|[from] item: Life Orb
+|faint|p2a: Zacian
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: 死亡|Dynamax
+|-heal|p1a: 死亡|86/100|[silent]
+|upkeep
+|
+|switch|p2a: Puff|Rayquaza|100/100 par
+|-ability|p2a: Puff|Air Lock
+|turn|12
+|
+|detailschange|p2a: Puff|Rayquaza-Mega
+|-mega|p2a: Puff|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Puff
+|move|p1a: 死亡|Dark Pulse|p2a: Puff
+|-damage|p2a: Puff|20/100 par
+|-damage|p1a: 死亡|76/100|[from] item: Life Orb
+|move|p2a: Puff|V-create|p1a: 死亡
+|-damage|p1a: 死亡|0 fnt
+|-unboost|p2a: Puff|spe|1
+|-unboost|p2a: Puff|def|1
+|-unboost|p2a: Puff|spd|1
+|-damage|p2a: Puff|10/100 par|[from] item: Life Orb
+|faint|p1a: 死亡
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|switch|p1a: 虹の神|Ho-Oh, shiny|100/100
+|turn|13
+|
+|move|p2a: Puff|Extreme Speed|p1a: 虹の神
+|-damage|p1a: 虹の神|69/100
+|-damage|p2a: Puff|0 fnt|[from] item: Life Orb
+|faint|p2a: Puff
+|-weather|none
+|move|p1a: 虹の神|Brave Bird|p2: Puff|[notarget]
+|-fail|p1a: 虹の神
+|
+|upkeep
+|
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|14
+|
+|switch|p1a: 王様|Zacian-Crowned|100/100 par
+|-ability|p1a: 王様|Intrepid Sword|boost
+|-boost|p1a: 王様|atk|1
+|move|p2a: Yveltal|Knock Off|p1a: 王様
+|-resisted|p1a: 王様
+|-damage|p1a: 王様|71/100 par
+|-damage|p2a: Yveltal|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Yveltal|U-turn|p1a: 王様
+|-resisted|p1a: 王様
+|-crit|p1a: 王様
+|-damage|p1a: 王様|61/100 par
+|-damage|p2a: Yveltal|81/100|[from] item: Life Orb
+|
+|switch|p2a: Groudon|Groudon-Primal|36/100|[from]move: U-turn
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: 王様|Behemoth Blade|p2a: Groudon
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|3/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p1a: 虹の神|Ho-Oh, shiny|100/100
+|move|p2a: Groudon|Stone Edge|p1a: 虹の神
+|-supereffective|p1a: 虹の神
+|-damage|p1a: 虹の神|0 fnt
+|faint|p1a: 虹の神
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p1a: 悪魔|Ditto, shiny|100/100
+|-transform|p1a: 悪魔|p2a: Groudon|[from] ability: Imposter
+|turn|17
+|
+|switch|p2a: Yveltal|Yveltal|81/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: 悪魔|Stone Edge|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|faint|p2a: Yveltal
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p2a: Xerneas|Xerneas|30/100
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|18
+|
+|-weather|none
+|switch|p1a: 王様|Zacian-Crowned|61/100 par
+|-ability|p1a: 王様|Intrepid Sword|boost
+|-boost|p1a: 王様|atk|1
+|move|p2a: Xerneas|Geomancy||[still]
+|-prepare|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-enditem|p2a: Xerneas|Power Herb
+|-anim|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-boost|p2a: Xerneas|spa|2
+|-boost|p2a: Xerneas|spd|2
+|-boost|p2a: Xerneas|spe|2
+|
+|upkeep
+|turn|19
+|
+|-start|p2a: Xerneas|Dynamax
+|-heal|p2a: Xerneas|30/100|[silent]
+|move|p2a: Xerneas|Max Quake|p1a: 王様|[from]Hidden Power
+|-supereffective|p1a: 王様
+|-damage|p1a: 王様|0 fnt
+|-boost|p2a: Xerneas|spd|1
+|faint|p1a: 王様
+|
+|upkeep
+|
+|switch|p1a: 怪物|Groudon|100/100
+|detailschange|p1a: 怪物|Groudon-Primal
+|-primal|p1a: 怪物
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: 怪物
+|turn|20
+|
+|move|p2a: Xerneas|Max Quake|p1a: 怪物|[from]Hidden Power
+|-supereffective|p1a: 怪物
+|-damage|p1a: 怪物|0 fnt
+|-boost|p2a: Xerneas|spd|1
+|faint|p1a: 怪物
+|-weather|none
+|
+|upkeep
+|
+|switch|p1a: 悪魔|Ditto, shiny|100/100
+|-transform|p1a: 悪魔|p2a: Xerneas|[from] ability: Imposter
+|-ability|p1a: 悪魔|Fairy Aura
+|turn|21
+|
+|move|p1a: 悪魔|Moonblast|p2a: Xerneas
+|-damage|p2a: Xerneas|13/100
+|move|p2a: Xerneas|Max Starfall|p1a: 悪魔
+|-damage|p1a: 悪魔|28/100
+|-fieldstart|move: Misty Terrain
+|
+|-end|p2a: Xerneas|Dynamax
+|-heal|p2a: Xerneas|13/100|[silent]
+|upkeep
+|turn|22
+|
+|move|p1a: 悪魔|Moonblast|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|upkeep
+|
+|switch|p2a: Groudon|Groudon-Primal|3/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|23
+|c|☆King-HenryTheThird|Yeii boi
+|c|☆King-HenryTheThird|Gg
+|
+|move|p1a: 悪魔|Moonblast|p2a: Groudon
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|-weather|none
+|
+|win|King-HenryTheThird
+|raw|King-HenryTheThird's rating: 1510 &rarr; <strong>1526</strong><br />(+16 for winning)
+|raw|Malareon's rating: 1441 &rarr; <strong>1425</strong><br />(-16 for losing)

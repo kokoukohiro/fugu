@@ -1,0 +1,680 @@
+|j|☆Shadixsman
+|j|☆Onoufrios
+|player|p1|Shadixsman|policeman|1661
+|player|p2|Onoufrios|psychic-gen4|1732
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Groudon|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Quagsire, F|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Yveltal|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Arceus-*|
+|poke|p2|Xerneas|
+|poke|p2|Lugia|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Kyogre|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Arceus|Arceus|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Deoxys
+|-damage|p1a: Deoxys|39/100
+|move|p1a: Deoxys|Stealth Rock|p2a: Arceus
+|-sidestart|p2: Onoufrios|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|3
+|
+|-start|p1a: Yveltal|Dynamax
+|-heal|p1a: Yveltal|100/100|[silent]
+|move|p2a: Arceus|Extreme Speed|p1a: Yveltal
+|-damage|p1a: Yveltal|76/100
+|move|p1a: Yveltal|Max Airstream|p2a: Arceus
+|-damage|p2a: Arceus|33/100
+|-boost|p1a: Yveltal|spe|1
+|-damage|p1a: Yveltal|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Yveltal
+|-damage|p1a: Yveltal|44/100
+|move|p1a: Yveltal|Max Ooze|p2a: Arceus|[from]Hidden Power
+|-damage|p2a: Arceus|0 fnt
+|-boost|p1a: Yveltal|spa|1
+|-damage|p1a: Yveltal|39/100|[from] item: Life Orb
+|faint|p2a: Arceus
+|
+|upkeep
+|
+|switch|p2a: Xerneas|Xerneas|100/100
+|-damage|p2a: Xerneas|88/100|[from] Stealth Rock
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|5
+|
+|move|p1a: Yveltal|Max Airstream|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|-boost|p1a: Yveltal|spe|1
+|-damage|p1a: Yveltal|34/100|[from] item: Life Orb
+|faint|p2a: Xerneas
+|
+|-end|p1a: Yveltal|Dynamax
+|-heal|p1a: Yveltal|34/100|[silent]
+|upkeep
+|
+|switch|p2a: Lugia|Lugia|100/100
+|-damage|p2a: Lugia|75/100|[from] Stealth Rock
+|turn|6
+|
+|move|p1a: Yveltal|Dark Pulse|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|-damage|p1a: Yveltal|24/100|[from] item: Life Orb
+|faint|p2a: Lugia
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shadixsman)
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-damage|p2a: Zacian|94/100|[from] Stealth Rock
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|7
+|
+|move|p1a: Yveltal|Heat Wave|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|-damage|p1a: Yveltal|14/100|[from] item: Life Orb
+|faint|p2a: Zacian
+|
+|upkeep
+|
+|switch|p2a: Kyogre|Kyogre|100/100
+|-damage|p2a: Kyogre|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|8
+|
+|move|p1a: Yveltal|Dark Pulse|p2a: Kyogre
+|-damage|p2a: Kyogre|8/100
+|-damage|p1a: Yveltal|5/100|[from] item: Life Orb
+|move|p2a: Kyogre|Thunder|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|9
+|
+|-start|p2a: Kyogre|Dynamax
+|-heal|p2a: Kyogre|8/100|[silent]
+|move|p2a: Kyogre|Max Hailstorm|p1a: Groudon
+|-damage|p1a: Groudon|42/100
+|move|p1a: Groudon|Fire Blast|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p2a: Necrozma|94/100|[from] Stealth Rock
+|turn|10
+|
+|detailschange|p2a: Necrozma|Necrozma-Ultra
+|-burst|p2a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Groudon|Precipice Blades|p2a: Necrozma
+|-damage|p2a: Necrozma|32/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Necrozma|Earthquake|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-weather|none
+|
+|upkeep
+|
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|turn|12
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p2a: Necrozma|Photon Geyser|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|83/100
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|move|p2a: Necrozma|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|69/100
+|
+|-heal|p1a: Quagsire|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|83/100
+|move|p2a: Necrozma|Photon Geyser|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-crit|p1a: Necrozma
+|-damage|p1a: Necrozma|54/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Necrozma|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|upkeep
+|
+|switch|p1a: Quagsire|Quagsire, F|75/100
+|turn|16
+|
+|move|p2a: Necrozma|Photon Geyser|p1a: Quagsire
+|-damage|p1a: Quagsire|7/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|13/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|19/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|25/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆Shadixsman|gg
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|31/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Stone Edge|p1a: Quagsire|[miss]
+|-miss|p2a: Necrozma|p1a: Quagsire
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|37/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Stone Edge|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|22/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|28/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|34/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Necrozma|Stone Edge|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|18/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|24/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Stone Edge|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|9/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|15/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|21/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|27/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|33/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Stone Edge|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|18/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|24/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|30/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|36/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Stone Edge|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|20/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|26/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|32/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|38/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Necrozma|Stone Edge|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|21/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|27/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|33/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Necrozma|Stone Edge|p1a: Quagsire|[miss]
+|-miss|p2a: Necrozma|p1a: Quagsire
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|39/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|45/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|52/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|58/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Necrozma|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|27/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|33/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|39/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p2a: Necrozma|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|6/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|12/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|18/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|24/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|30/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|37/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p2a: Necrozma|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|5/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|11/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|18/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|24/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|30/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|36/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p2a: Necrozma|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|6/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|12/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|18/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|24/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|c|☆Shadixsman|gg
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|30/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p2a: Necrozma|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|1/100
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|7/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|13/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|inactive|Onoufrios has 120 seconds left.
+|c|☆Shadixsman|MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDAAAAA
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|19/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|25/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p2a: Necrozma|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|upkeep
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|61
+|inactive|Onoufrios has 120 seconds left.
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Necrozma
+|-crit|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|win|Shadixsman
+|raw|Shadixsman's rating: 1661 &rarr; <strong>1685</strong><br />(+24 for winning)
+|raw|Onoufrios's rating: 1732 &rarr; <strong>1708</strong><br />(-24 for losing)
+|l|☆Onoufrios

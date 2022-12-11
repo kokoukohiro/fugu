@@ -1,0 +1,976 @@
+|j|☆you have homework
+|j|☆ElStefano
+|t:|1656224252
+|gametype|singles
+|player|p1|you have homework|170|1748
+|player|p2|ElStefano|102|1705
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Skarmory, M|
+|poke|p1|Amoonguss, M|
+|poke|p1|Blissey, F|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Mamoswine, F|
+|poke|p1|Heatran, F|
+|poke|p2|Arctozolt|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Arctovish|
+|poke|p2|Volcarona, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Ninetales-Alola, F|
+|teampreview
+|
+|t:|1656224259
+|start
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|switch|p2a: Arctovish|Arctovish|100/100
+|turn|1
+|
+|t:|1656224275
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Arctovish|Fishious Rend|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|57/100
+|-damage|p2a: Arctovish|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|upkeep
+|turn|2
+|
+|t:|1656224282
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Amoonguss|Spore|p2a: Ninetales
+|-status|p2a: Ninetales|slp|[from] move: Spore
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Amoonguss|51/100|[from] Hail
+|upkeep
+|turn|3
+|
+|t:|1656224296
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tornadus|94/100|[from] Hail
+|-damage|p1a: Keldeo|94/100|[from] Hail
+|upkeep
+|turn|4
+|
+|t:|1656224305
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Tornadus|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|80/100
+|-enditem|p1a: Heatran|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tornadus|88/100|[from] Hail
+|-damage|p1a: Heatran|74/100|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1656224320
+|move|p2a: Tornadus|Superpower|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|22/100
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|def|1
+|move|p1a: Heatran|Toxic|p2a: Tornadus
+|-status|p2a: Tornadus|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tornadus|82/100 tox|[from] Hail
+|-damage|p1a: Heatran|16/100|[from] Hail
+|-damage|p2a: Tornadus|76/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1656224330
+|move|p2a: Tornadus|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|13/100
+|
+|t:|1656224338
+|switch|p2a: Arctovish|Arctovish|84/100|[from]move: U-turn
+|move|p1a: Heatran|Magma Storm|p2a: Arctovish
+|-damage|p2a: Arctovish|11/100
+|-activate|p2a: Arctovish|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|7/100|[from] Hail
+|-damage|p2a: Arctovish|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p2a: Arctovish
+|upkeep
+|
+|t:|1656224344
+|switch|p2a: Arctozolt|Arctozolt|100/100
+|turn|7
+|
+|t:|1656224353
+|move|p2a: Arctozolt|Low Kick|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1656224362
+|switch|p1a: Amoonguss|Amoonguss, M|84/100
+|turn|8
+|
+|t:|1656224372
+|move|p2a: Arctozolt|Icicle Spear|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|68/100
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|53/100
+|-hitcount|p1a: Amoonguss|2
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Arctozolt
+|-damage|p2a: Arctozolt|65/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Amoonguss|47/100|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1656224387
+|move|p2a: Arctozolt|Icicle Spear|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|31/100
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|14/100
+|-hitcount|p1a: Amoonguss|2
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Arctozolt
+|-damage|p2a: Arctozolt|24/100
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1656224399
+|move|p2a: Arctozolt|Bolt Beak|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2a: Arctozolt|8/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|faint|p1a: Amoonguss
+|
+|upkeep
+|
+|t:|1656224411
+|switch|p1a: Keldeo|Keldeo-Resolute|94/100
+|turn|11
+|
+|t:|1656224416
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100 slp
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Keldeo|Surf|p2a: Ninetales
+|-damage|p2a: Ninetales|13/100 slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Hail
+|upkeep
+|turn|12
+|j| Calatorie Singur
+|
+|t:|1656224427
+|cant|p2a: Ninetales|slp
+|move|p1a: Keldeo|Surf|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Keldeo|82/100|[from] Hail
+|upkeep
+|
+|t:|1656224437
+|switch|p2a: Arctozolt|Arctozolt|8/100
+|turn|13
+|
+|t:|1656224443
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|move|p2a: Arctozolt|Low Kick|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|17/100
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1656224453
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Mamoswine|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|29/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcarona|23/100|[from] Hail
+|upkeep
+|turn|15
+|
+|t:|1656224464
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|89/100
+|-boost|p2a: Volcarona|spa|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcarona|17/100|[from] Hail
+|-damage|p1a: Blissey|83/100|[from] Hail
+|-heal|p1a: Blissey|89/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1656224474
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|67/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|40/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcarona|34/100|[from] Hail
+|-damage|p1a: Blissey|83/100|[from] Hail
+|-heal|p1a: Blissey|89/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|j| 50 at max
+|j| that's the worst
+|
+|t:|1656224484
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100 tox
+|switch|p1a: Keldeo|Keldeo-Resolute|82/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tornadus|94/100 tox|[from] Hail
+|-damage|p1a: Keldeo|76/100|[from] Hail
+|-damage|p2a: Tornadus|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1656224493
+|move|p2a: Tornadus|U-turn|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|65/100
+|
+|t:|1656224501
+|switch|p2a: Garchomp|Garchomp, F|100/100|[from]move: U-turn
+|move|p1a: Keldeo|Surf|p2a: Garchomp
+|-damage|p2a: Garchomp|58/100
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1656224512
+|move|p1a: Keldeo|Surf|p2a: Garchomp
+|-damage|p2a: Garchomp|12/100
+|move|p2a: Garchomp|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|15/100
+|
+|upkeep
+|turn|20
+|
+|t:|1656224520
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100 tox
+|move|p1a: Keldeo|Surf|p2a: Tornadus
+|-damage|p2a: Tornadus|26/100 tox
+|
+|-damage|p2a: Tornadus|20/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1656224530
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Tornadus|Superpower|p1a: Skarmory
+|-damage|p1a: Skarmory|81/100
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|def|1
+|
+|-heal|p1a: Skarmory|87/100|[from] item: Leftovers
+|-damage|p2a: Tornadus|7/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1656224539
+|switch|p2a: Garchomp|Garchomp, F|12/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: ElStefano|move: Stealth Rock
+|
+|-heal|p1a: Skarmory|93/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1656224547
+|move|p2a: Garchomp|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: you have homework|move: Stealth Rock
+|move|p1a: Skarmory|Body Press|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Skarmory|81/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Skarmory|65/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Skarmory|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1656224559
+|switch|p2a: Volcarona|Volcarona, F|34/100
+|turn|24
+|
+|t:|1656224566
+|switch|p1a: Blissey|Blissey, F|89/100
+|-damage|p1a: Blissey|77/100|[from] Stealth Rock
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|84/100
+|-singleturn|p2a: Volcarona|move: Roost
+|
+|-heal|p1a: Blissey|83/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1656224579
+|switch|p2a: Tornadus|Tornadus-Therian, M|41/100 tox
+|move|p1a: Blissey|Seismic Toss|p2a: Tornadus
+|-damage|p2a: Tornadus|13/100 tox
+|
+|-heal|p1a: Blissey|89/100|[from] item: Leftovers
+|-damage|p2a: Tornadus|7/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1656224588
+|switch|p2a: Volcarona|Volcarona, F|84/100
+|move|p1a: Blissey|Protect||[still]
+|-fail|p1a: Blissey
+|
+|-heal|p1a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1656224595
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|57/100
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1656224605
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|30/100
+|
+|upkeep
+|turn|29
+|
+|t:|1656224611
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|80/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|53/100
+|-status|p1a: Blissey|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1656224620
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|27/100
+|
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1656224629
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|77/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|50/100
+|
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1656224638
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|99/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|73/100
+|
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|33
+|j| T0d
+|
+|t:|1656224652
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|46/100
+|
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1656224661
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|96/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|70/100
+|
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|35
+|j| Trexton
+|
+|t:|1656224673
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|43/100
+|
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1656224684
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|93/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|66/100
+|
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1656224692
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|40/100
+|
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1656224701
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|90/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|63/100
+|
+|-heal|p1a: Blissey|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|t:|1656224708
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|66/100 brn
+|-heal|p2a: Volcarona|87/100|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|60/100
+|
+|-heal|p1a: Blissey|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|66/100 brn|[from] brn
+|upkeep
+|turn|40
+|l| Calatorie Singur
+|
+|t:|1656224721
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-activate|p1a: Blissey|move: Protect
+|
+|-heal|p1a: Blissey|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|66/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1656224729
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|21/100 brn
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|27/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|21/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1656224742
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100
+|-singleturn|p2a: Volcarona|move: Roost
+|
+|-heal|p1a: Blissey|71/100 brn|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|71/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1656224754
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|24/100 brn
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|30/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|24/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1656224764
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|
+|-heal|p1a: Blissey|74/100 brn|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|74/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1656224774
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|74/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1656224784
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|move|p1a: Blissey|Heal Bell|p1a: Blissey
+|-activate|p1a: Blissey|move: Heal Bell
+|-curestatus|p1a: Blissey|brn|[msg]
+|
+|-heal|p1a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|47
+|
+|t:|1656224797
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|74/100
+|
+|upkeep
+|turn|48
+|j| Arboks Fangs
+|
+|t:|1656224806
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-activate|p1a: Blissey|move: Protect
+|
+|upkeep
+|turn|49
+|
+|t:|1656224812
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|57/100
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|47/100
+|-status|p1a: Blissey|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-heal|p1a: Blissey|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|57/100 brn|[from] brn
+|upkeep
+|turn|50
+|l| Arboks Fangs
+|j| cascadetrio
+|
+|t:|1656224830
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|26/100 brn
+|-heal|p2a: Volcarona|74/100|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|32/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|26/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|t:|1656224840
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|
+|-heal|p1a: Blissey|76/100 brn|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|76/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1656224854
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|32/100 brn
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|38/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|32/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|t:|1656224864
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|
+|-heal|p1a: Blissey|82/100 brn|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|82/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|t:|1656224875
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|82/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|t:|1656224885
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|48/100
+|
+|-heal|p1a: Blissey|100/100 brn|[from] move: Wish|[wisher] Blissey
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|t:|1656224895
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|98/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Blissey|Heal Bell|p1a: Blissey
+|-activate|p1a: Blissey|move: Heal Bell
+|-curestatus|p1a: Blissey|brn|[msg]
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1656224902
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|50/100
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|71/100
+|-status|p1a: Blissey|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-heal|p1a: Blissey|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|50/100 brn|[from] brn
+|upkeep
+|turn|58
+|j| aisudfijafgdfg
+|
+|t:|1656224915
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|1/100 brn
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|7/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|1/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|t:|1656224925
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|move|p1a: Blissey|Heal Bell|p1a: Blissey
+|-activate|p1a: Blissey|move: Heal Bell
+|-curestatus|p1a: Blissey|brn|[msg]
+|
+|-heal|p1a: Blissey|51/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|j| ID Uc207Pr4f57t9
+|
+|t:|1656224943
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|28/100
+|-heal|p2a: Volcarona|96/100|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|35/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1656224952
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|
+|-heal|p1a: Blissey|85/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1656224961
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|45/100
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|69/100
+|
+|-heal|p1a: Blissey|51/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1656224975
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-activate|p1a: Blissey|move: Protect
+|
+|-heal|p1a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1656224983
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|26/100
+|-heal|p2a: Volcarona|96/100|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|33/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1656224998
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|
+|-heal|p1a: Blissey|83/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|89/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|j| PQPP214
+|
+|t:|1656225007
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|43/100
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|69/100
+|
+|-heal|p1a: Blissey|50/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|t:|1656225020
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-activate|p1a: Blissey|move: Protect
+|
+|-heal|p1a: Blissey|56/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|l| aisudfijafgdfg
+|
+|t:|1656225028
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|62/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1656225035
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|42/100
+|
+|-heal|p1a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|70
+|
+|t:|1656225043
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|73/100
+|-heal|p2a: Volcarona|66/100|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|40/100
+|
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1656225054
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|90/100
+|-singleturn|p2a: Volcarona|move: Roost
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|63/100
+|-status|p1a: Blissey|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-heal|p1a: Blissey|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|79/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|t:|1656225065
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|79/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|t:|1656225077
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|move|p1a: Blissey|Heal Bell|p1a: Blissey
+|-activate|p1a: Blissey|move: Heal Bell
+|-curestatus|p1a: Blissey|brn|[msg]
+|
+|-heal|p1a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|74
+|
+|t:|1656225092
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|-heal|p2a: Volcarona|87/100|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|61/100
+|
+|-heal|p1a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1656225112
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|0
+|-boost|p2a: Volcarona|spd|0
+|-boost|p2a: Volcarona|spe|0
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|34/100
+|-status|p1a: Blissey|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-heal|p1a: Blissey|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|78/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|t:|1656225126
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|49/100 brn
+|-heal|p2a: Volcarona|59/100|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|33/100
+|
+|-heal|p1a: Blissey|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|49/100 brn|[from] brn
+|upkeep
+|turn|77
+|
+|t:|1656225139
+|move|p2a: Volcarona|Fiery Dance|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|upkeep
+|-message|you have homework forfeited.
+|
+|win|ElStefano
+|raw|you have homework's rating: 1748 &rarr; <strong>1726</strong><br />(-22 for losing)
+|raw|ElStefano's rating: 1705 &rarr; <strong>1727</strong><br />(+22 for winning)
+|l|☆you have homework
+|l| cascadetrio
+|l|☆ElStefano
+|l| that's the worst
+|l| Trexton

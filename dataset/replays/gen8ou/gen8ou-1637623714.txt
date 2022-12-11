@@ -1,0 +1,717 @@
+|j|☆Wheezer
+|j|☆violaburros3000
+|t:|1660255996
+|gametype|singles
+|player|p1|Wheezer|petrel|1542
+|player|p2|violaburros3000|hilbert-wonderlauncher|1567
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Garchomp, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Persian-Alola, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Suicune|
+|poke|p1|Blaziken, F|
+|poke|p2|Orbeetle, F|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Zeraora|
+|poke|p2|Azumarill, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Tyranitar, F|
+|teampreview
+|
+|t:|1660256013
+|start
+|switch|p1a: Persian|Persian-Alola, F|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, M, shiny|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1660256020
+|move|p1a: Persian|Switcheroo|p2a: Ninetales
+|-activate|p1a: Persian|move: Trick|[of] p2a: Ninetales
+|-item|p2a: Ninetales|Choice Scarf|[from] move: Switcheroo
+|-item|p1a: Persian|Light Clay|[from] move: Switcheroo
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: violaburros3000|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Persian|95/100|[from] Hail
+|upkeep
+|turn|2
+|
+|t:|1660256027
+|move|p2a: Ninetales|Aurora Veil||[still]
+|-fail|p2a: Ninetales
+|move|p1a: Persian|Toxic|p2a: Ninetales
+|-status|p2a: Ninetales|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Persian|89/100|[from] Hail
+|-damage|p2a: Ninetales|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1660256048
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Persian|Toxic|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Persian|83/100|[from] Hail
+|-damage|p2a: Corviknight|94/100|[from] Hail
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1660256053
+|switch|p2a: Ninetales|Ninetales-Alola, M, shiny|94/100 tox
+|move|p1a: Persian|Parting Shot|p2a: Ninetales
+|-unboost|p2a: Ninetales|atk|1
+|-unboost|p2a: Ninetales|spa|1
+|
+|t:|1660256058
+|switch|p1a: Blaziken|Blaziken, F|100/100|[from]move: Parting Shot
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blaziken|95/100|[from] Hail
+|-heal|p1a: Blaziken|100/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1660256070
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|switch|p1a: Persian|Persian-Alola, F|83/100
+|
+|-weather|none
+|-sideend|p2: violaburros3000|move: Aurora Veil
+|upkeep
+|turn|6
+|
+|t:|1660256085
+|move|p1a: Persian|Toxic|p2a: Azumarill
+|-status|p2a: Azumarill|tox
+|move|p2a: Azumarill|Play Rough|p1a: Persian
+|-supereffective|p1a: Persian
+|-damage|p1a: Persian|21/100
+|
+|-damage|p2a: Azumarill|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1660256095
+|switch|p2a: Ninetales|Ninetales-Alola, M, shiny|88/100 tox
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Persian|Parting Shot|p2a: Ninetales
+|-unboost|p2a: Ninetales|atk|1
+|-unboost|p2a: Ninetales|spa|1
+|
+|t:|1660256120
+|switch|p1a: Blaziken|Blaziken, F|100/100|[from]move: Parting Shot
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blaziken|95/100|[from] Hail
+|-heal|p1a: Blaziken|100/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1660256123
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: violaburros3000|move: Aurora Veil
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blaziken|95/100|[from] Hail
+|-heal|p1a: Blaziken|100/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|70/100 tox|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|9
+|
+|t:|1660256128
+|switch|p2a: Azumarill|Azumarill, F|94/100 tox
+|move|p1a: Blaziken|Earthquake|p2a: Azumarill
+|-damage|p2a: Azumarill|53/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blaziken|95/100|[from] Hail
+|-damage|p2a: Azumarill|47/100 tox|[from] Hail
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|72/100 tox|[from] item: Sitrus Berry
+|-heal|p1a: Blaziken|100/100|[from] item: Leftovers
+|-damage|p2a: Azumarill|66/100 tox|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|10
+|
+|t:|1660256138
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Azumarill|atk|1
+|move|p2a: Azumarill|Aqua Jet|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|68/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Landorus|61/100|[from] Hail
+|-damage|p2a: Azumarill|60/100 tox|[from] Hail
+|-heal|p1a: Landorus|68/100|[from] item: Leftovers
+|-damage|p2a: Azumarill|48/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1660256149
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|98/100
+|
+|t:|1660256162
+|switch|p1a: Persian|Persian-Alola, F|21/100|[from]move: U-turn
+|
+|-weather|none
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1660256165
+|move|p1a: Persian|Switcheroo|p2a: Corviknight
+|-activate|p1a: Persian|move: Trick|[of] p2a: Corviknight
+|-item|p2a: Corviknight|Light Clay|[from] move: Switcheroo
+|-item|p1a: Persian|Leftovers|[from] move: Switcheroo
+|move|p2a: Corviknight|U-turn|p1a: Persian
+|-supereffective|p1a: Persian
+|-damage|p1a: Persian|5/100
+|
+|t:|1660256179
+|switch|p2a: Zeraora|Zeraora, shiny|100/100|[from]move: U-turn
+|
+|-heal|p1a: Persian|11/100|[from] item: Leftovers
+|-sideend|p2: violaburros3000|move: Aurora Veil
+|upkeep
+|turn|13
+|
+|t:|1660256184
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Zeraora|Knock Off|p1a: Garchomp
+|-damage|p1a: Garchomp|75/100
+|-damage|p2a: Zeraora|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Zeraora|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|-enditem|p1a: Garchomp|Rocky Helmet|[from] move: Knock Off|[of] p2a: Zeraora
+|
+|upkeep
+|turn|14
+|
+|t:|1660256192
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Garchomp|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: violaburros3000|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1660256198
+|move|p1a: Garchomp|Whirlpool|p2a: Corviknight
+|-damage|p2a: Corviknight|96/100
+|-activate|p2a: Corviknight|move: Whirlpool|[of] p1a: Garchomp
+|move|p2a: Corviknight|Defog|p1a: Garchomp
+|-unboost|p1a: Garchomp|evasion|1
+|-sideend|p2: violaburros3000|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-damage|p2a: Corviknight|84/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1660256201
+|move|p1a: Garchomp|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: violaburros3000|move: Stealth Rock
+|move|p2a: Corviknight|U-turn|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|58/100
+|-damage|p2a: Corviknight|71/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|t:|1660256213
+|switch|p2a: Ninetales|Ninetales-Alola, M, shiny|70/100 tox|[from]move: U-turn
+|-damage|p2a: Ninetales|45/100 tox|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Garchomp|51/100|[from] Hail
+|-damage|p2a: Ninetales|39/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1660256221
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: violaburros3000|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blaziken|95/100|[from] Hail
+|-heal|p1a: Blaziken|100/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|27/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1660256228
+|switch|p2a: Azumarill|Azumarill, F|48/100 tox
+|-damage|p2a: Azumarill|36/100 tox|[from] Stealth Rock
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blaziken|95/100|[from] Hail
+|-damage|p2a: Azumarill|30/100 tox|[from] Hail
+|-heal|p1a: Blaziken|100/100|[from] item: Leftovers
+|-damage|p2a: Azumarill|24/100 tox|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|19
+|
+|t:|1660256233
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Azumarill|Aqua Jet|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|90/100
+|-damage|p2a: Azumarill|7/100 tox|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Azumarill|1/100 tox|[from] Hail
+|-damage|p1a: Toxapex|84/100|[from] Hail
+|-damage|p2a: Azumarill|0 fnt|[from] psn
+|faint|p2a: Azumarill
+|upkeep
+|
+|t:|1660256247
+|switch|p2a: Orbeetle|Orbeetle, F|100/100
+|-damage|p2a: Orbeetle|76/100|[from] Stealth Rock
+|-item|p1a: Toxapex|Rocky Helmet|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|turn|20
+|
+|t:|1660256254
+|move|p2a: Orbeetle|Agility|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spe|2
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-weather|none
+|upkeep
+|turn|21
+|
+|t:|1660256264
+|switch|p1a: Landorus|Landorus-Therian, M|68/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Orbeetle|atk|1
+|move|p2a: Orbeetle|Agility|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spe|2
+|
+|-heal|p1a: Landorus|74/100|[from] item: Leftovers
+|-sideend|p2: violaburros3000|move: Aurora Veil
+|upkeep
+|turn|22
+|
+|t:|1660256269
+|move|p2a: Orbeetle|Iron Defense|p2a: Orbeetle
+|-boost|p2a: Orbeetle|def|2
+|move|p1a: Landorus|Toxic|p2a: Orbeetle
+|-status|p2a: Orbeetle|tox
+|
+|-heal|p1a: Landorus|80/100|[from] item: Leftovers
+|-damage|p2a: Orbeetle|70/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1660256278
+|move|p2a: Orbeetle|Agility|p2a: Orbeetle
+|-boost|p2a: Orbeetle|spe|2
+|move|p1a: Landorus|U-turn|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|55/100 tox
+|-enditem|p2a: Orbeetle|Weakness Policy
+|-boost|p2a: Orbeetle|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Orbeetle|spa|2|[from] item: Weakness Policy
+|
+|t:|1660256287
+|switch|p1a: Suicune|Suicune|100/100|[from]move: U-turn
+|-ability|p1a: Suicune|Pressure
+|
+|-damage|p2a: Orbeetle|43/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1660256291
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Orbeetle|Stored Power|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-damage|p2a: Orbeetle|25/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1660256296
+|switch|p1a: Persian|Persian-Alola, F|11/100
+|move|p2a: Orbeetle|Body Press|p1a: Persian
+|-supereffective|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|-damage|p2a: Orbeetle|1/100 tox|[from] psn
+|upkeep
+|
+|t:|1660256298
+|switch|p1a: Suicune|Suicune|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|26
+|
+|t:|1660256304
+|switch|p2a: Zeraora|Zeraora, shiny|72/100
+|-damage|p2a: Zeraora|59/100|[from] Stealth Rock
+|move|p1a: Suicune|Protect||[still]
+|-fail|p1a: Suicune
+|
+|upkeep
+|turn|27
+|
+|t:|1660256307
+|switch|p2a: Corviknight|Corviknight, M, shiny|71/100
+|-damage|p2a: Corviknight|59/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Garchomp|Garchomp, M|51/100
+|
+|upkeep
+|turn|28
+|
+|t:|1660256315
+|move|p1a: Garchomp|Whirlpool|p2a: Corviknight
+|-damage|p2a: Corviknight|54/100
+|-activate|p2a: Corviknight|move: Whirlpool|[of] p1a: Garchomp
+|move|p2a: Corviknight|Defog|p1a: Garchomp
+|-unboost|p1a: Garchomp|evasion|1
+|-sideend|p2: violaburros3000|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-damage|p2a: Corviknight|42/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|29
+|
+|t:|1660256318
+|move|p1a: Garchomp|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: violaburros3000|move: Stealth Rock
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|92/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p2a: Corviknight|80/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|30
+|
+|t:|1660256321
+|move|p1a: Garchomp|Whirlpool|p2a: Corviknight|[miss]
+|-miss|p1a: Garchomp|p2a: Corviknight
+|move|p2a: Corviknight|Defog|p1a: Garchomp
+|-unboost|p1a: Garchomp|evasion|1
+|-sideend|p2: violaburros3000|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-damage|p2a: Corviknight|68/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|31
+|
+|t:|1660256325
+|move|p1a: Garchomp|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: violaburros3000|move: Stealth Rock
+|move|p2a: Corviknight|Taunt|p1a: Garchomp
+|-start|p1a: Garchomp|move: Taunt
+|
+|-damage|p2a: Corviknight|55/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|32
+|
+|t:|1660256329
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|move|p2a: Corviknight|Defog|p1a: Blaziken
+|-unboost|p1a: Blaziken|evasion|1
+|-sideend|p2: violaburros3000|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-end|p2a: Corviknight|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|33
+|
+|t:|1660256334
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Corviknight|U-turn|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|95/100
+|
+|t:|1660256339
+|switch|p2a: Zeraora|Zeraora, shiny|59/100|[from]move: U-turn
+|
+|-heal|p1a: Blaziken|100/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|34
+|
+|t:|1660256345
+|move|p2a: Zeraora|Plasma Fists|p1a: Blaziken
+|-crit|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-hint|Normal-type moves become Electric-type after using Plasma Fists.
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1660256350
+|switch|p1a: Landorus|Landorus-Therian, M|80/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zeraora|atk|1
+|turn|35
+|
+|t:|1660256356
+|switch|p2a: Orbeetle|Orbeetle, F|1/100 tox
+|-item|p1a: Landorus|Leftovers|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|move|p1a: Landorus|U-turn|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|0 fnt
+|faint|p2a: Orbeetle
+|c|☆Wheezer|lame
+|
+|t:|1660256363
+|switch|p1a: Garchomp|Garchomp, M|51/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1660256382
+|switch|p2a: Corviknight|Corviknight, M, shiny|55/100
+|-ability|p2a: Corviknight|Pressure
+|turn|36
+|
+|t:|1660256389
+|move|p1a: Garchomp|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: violaburros3000|move: Stealth Rock
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|37
+|
+|t:|1660256403
+|switch|p1a: Suicune|Suicune|100/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Corviknight|Defog|p1a: Suicune
+|-unboost|p1a: Suicune|evasion|1
+|-sideend|p2: violaburros3000|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|38
+|
+|t:|1660256411
+|switch|p2a: Ninetales|Ninetales-Alola, M, shiny|27/100 tox
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-start|p1a: Suicune|Substitute
+|-damage|p1a: Suicune|75/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Suicune|69/100|[from] Hail
+|-heal|p1a: Suicune|75/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|21/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1660256417
+|move|p2a: Ninetales|Encore|p1a: Suicune
+|-start|p1a: Suicune|Encore
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-fail|p1a: Suicune|move: Substitute
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Suicune|69/100|[from] Hail
+|-heal|p1a: Suicune|75/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|8/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1660256426
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Suicune|Substitute|p1a: Suicune
+|-fail|p1a: Suicune|move: Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|69/100|[from] Sandstorm
+|-heal|p1a: Suicune|75/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1660256430
+|switch|p1a: Landorus|Landorus-Therian, M|80/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Landorus|86/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1660256433
+|move|p2a: Tyranitar|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1660256436
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|43
+|
+|t:|1660256443
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxapex|Toxic Spikes|p2a: Corviknight
+|-sidestart|p2: violaburros3000|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|upkeep
+|turn|44
+|
+|t:|1660256447
+|switch|p1a: Suicune|Suicune|75/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Corviknight|Taunt|p1a: Suicune
+|-start|p1a: Suicune|move: Taunt
+|
+|-weather|none
+|-heal|p1a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1660256452
+|move|p1a: Suicune|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|83/100
+|move|p2a: Corviknight|Defog|p1a: Suicune
+|-unboost|p1a: Suicune|evasion|1
+|-sideend|p2: violaburros3000|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p1a: Suicune|88/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1660256455
+|move|p1a: Suicune|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100
+|move|p2a: Corviknight|U-turn|p1a: Suicune
+|-damage|p1a: Suicune|76/100
+|
+|t:|1660256460
+|switch|p2a: Zeraora|Zeraora, shiny|59/100|[from]move: U-turn
+|
+|-heal|p1a: Suicune|83/100|[from] item: Leftovers
+|-end|p1a: Suicune|move: Taunt
+|upkeep
+|turn|47
+|
+|t:|1660256471
+|move|p2a: Zeraora|Plasma Fists|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|14/100
+|-fieldactivate|move: Ion Deluge
+|-hint|Normal-type moves become Electric-type after using Plasma Fists.
+|move|p1a: Suicune|Scald|p2a: Zeraora
+|-damage|p2a: Zeraora|28/100
+|-status|p2a: Zeraora|brn
+|
+|-heal|p1a: Suicune|20/100|[from] item: Leftovers
+|-damage|p2a: Zeraora|22/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1660256483
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Suicune|Protect||[still]
+|-fail|p1a: Suicune
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune|14/100|[from] Sandstorm
+|-heal|p1a: Suicune|20/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1660256488
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|upkeep
+|turn|50
+|
+|t:|1660256491
+|move|p2a: Tyranitar|Stone Edge|p1a: Toxapex
+|-damage|p1a: Toxapex|32/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|26/100|[from] Sandstorm
+|upkeep
+|turn|51
+|
+|t:|1660256498
+|switch|p1a: Garchomp|Garchomp, M|51/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|52
+|
+|t:|1660256502
+|move|p2a: Tyranitar|Ice Punch|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Tyranitar|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|none
+|upkeep
+|-message|Wheezer forfeited.
+|
+|win|violaburros3000
+|raw|Wheezer's rating: 1542 &rarr; <strong>1523</strong><br />(-19 for losing)
+|raw|violaburros3000's rating: 1567 &rarr; <strong>1586</strong><br />(+19 for winning)
+|l|☆Wheezer
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

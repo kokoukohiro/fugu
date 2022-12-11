@@ -1,0 +1,333 @@
+|j|☆MollyCock
+|j|☆Groundt
+|player|p1|MollyCock|ghetsis-gen5bw|1713
+|player|p2|Groundt|winona|1649
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Incineroar, F|
+|poke|p1|Kyurem|
+|poke|p1|Golisopod, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Runerigus, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Bronzong|
+|poke|p2|Gardevoir, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Groundt)
+|
+|start
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Golisopod|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|58/100
+|-enditem|p2a: Hatterene|Life Orb|[from] move: Knock Off|[of] p1a: Golisopod
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Golisopod|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|30/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Incineroar|Incineroar, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Incineroar
+|-damage|p1a: Incineroar|61/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Incineroar
+|-damage|p1a: Incineroar|22/100
+|move|p1a: Incineroar|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|8/100
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Golisopod|First Impression|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|6
+|
+|switch|p1a: Incineroar|Incineroar, F|22/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|move|p2a: Torkoal|Eruption|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|7
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Golisopod|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p1a: Golisopod|Knock Off|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|40/100
+|-enditem|p2a: Bronzong|Focus Sash|[from] move: Knock Off|[of] p1a: Golisopod
+|move|p2a: Bronzong|Stealth Rock|p1a: Golisopod
+|-sidestart|p1: MollyCock|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Golisopod|88/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p1a: Golisopod|Spikes|p2a: Bronzong
+|-sidestart|p2: Groundt|Spikes
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Golisopod|82/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p1a: Runerigus|Runerigus, F|100/100
+|-damage|p1a: Runerigus|94/100|[from] Stealth Rock
+|move|p2a: Bronzong|Steel Beam|p1a: Runerigus
+|-damage|p1a: Runerigus|36/100
+|-damage|p2a: Bronzong|0 fnt|[from] mindblown
+|faint|p2a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-damage|p2a: Torkoal|88/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|11
+|
+|move|p2a: Torkoal|Earth Power|p1a: Runerigus
+|-damage|p1a: Runerigus|0 fnt
+|faint|p1a: Runerigus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, F|82/100
+|turn|12
+|
+|move|p2a: Torkoal|Earth Power|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|62/100
+|move|p1a: Golisopod|Spikes|p2a: Torkoal
+|-sidestart|p2: Groundt|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Torkoal|Earth Power|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|42/100
+|-activate|p1a: Golisopod|ability: Emergency Exit
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-damage|p2a: Chandelure|84/100|[from] Spikes
+|move|p1a: Kyurem|Flash Cannon|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|66/100
+|-unboost|p2a: Chandelure|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Kyurem|Draco Meteor|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|faint|p2a: Chandelure
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|84/100|[from] Spikes
+|turn|16
+|
+|switch|p1a: Golisopod|Golisopod, F|42/100
+|move|p2a: Conkeldurr|Close Combat|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|14/100
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|17
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|faint|p1a: Golisopod
+|
+|-damage|p2a: Conkeldurr|78/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Torkoal|Torkoal, F|88/100
+|-damage|p2a: Torkoal|72/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Conkeldurr|Drain Punch|p2a: Torkoal
+|-damage|p2a: Torkoal|40/100
+|-heal|p1a: Conkeldurr|100/100|[from] drain|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|19
+|
+|move|p1a: Conkeldurr|Facade|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|100/100
+|-damage|p2a: Gardevoir|84/100|[from] Spikes
+|-ability|p2a: Gardevoir|Guts|[from] ability: Trace|[of] p1a: Conkeldurr
+|turn|20
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Gardevoir|Moonblast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|41/100
+|-enditem|p1a: Tyranitar|Weakness Policy
+|-boost|p1a: Tyranitar|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Tyranitar|spa|2|[from] item: Weakness Policy
+|-unboost|p1a: Tyranitar|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gardevoir|78/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Gardevoir|[miss]
+|-miss|p1a: Tyranitar|p2a: Gardevoir
+|move|p2a: Gardevoir|Moonblast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gardevoir|72/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|22
+|
+|move|p1a: Kyurem|Flash Cannon|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|33/100
+|move|p2a: Gardevoir|Trick Room|p2a: Gardevoir
+|-fieldstart|move: Trick Room|[of] p2a: Gardevoir
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gardevoir|27/100|[from] Sandstorm
+|-damage|p1a: Kyurem|94/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|move|p2a: Gardevoir|Healing Wish|p2a: Gardevoir
+|faint|p2a: Gardevoir
+|move|p1a: Kyurem|Flash Cannon|p2: Gardevoir|[notarget]
+|-fail|p1a: Kyurem
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|78/100 brn
+|-heal|p2a: Conkeldurr|100/100|[from] move: Healing Wish
+|-damage|p2a: Conkeldurr|84/100|[from] Spikes
+|turn|24
+|
+|move|p2a: Conkeldurr|Close Combat|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|faint|p1a: Kyurem
+|
+|-weather|none
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|94/100 brn
+|-damage|p1a: Conkeldurr|88/100 brn|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Conkeldurr|Close Combat|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|faint|p1a: Conkeldurr
+|
+|win|Groundt
+|raw|MollyCock's rating: 1713 &rarr; <strong>1689</strong><br />(-24 for losing)
+|raw|Groundt's rating: 1649 &rarr; <strong>1673</strong><br />(+24 for winning)
+|l|☆MollyCock
+|l|☆Groundt
+|j|☆Groundt
+|player|p2|Groundt|winona

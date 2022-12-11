@@ -1,0 +1,373 @@
+|j|☆bojacksonisapimp
+|j|☆palle piene
+|player|p1|bojacksonisapimp|265|1224
+|player|p2|palle piene|youngster-gen4|1372
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Vullaby, F|
+|poke|p1|Pawniard, M|
+|poke|p1|Hippopotas, F|
+|poke|p1|Lapras, M|
+|poke|p1|Silvally-*|
+|poke|p1|Whiscash, M|
+|poke|p2|Shuckle, M|
+|poke|p2|Glaceon, M|
+|poke|p2|Silvally-*|
+|poke|p2|Klang|
+|poke|p2|Ludicolo, M|
+|poke|p2|Ninjask, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hippopotas|Hippopotas, F|100/100
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|turn|1
+|
+|move|p1a: Hippopotas|Toxic|p2a: Shuckle
+|-status|p2a: Shuckle|tox
+|move|p2a: Shuckle|Stealth Rock|p1a: Hippopotas
+|-sidestart|p1: bojacksonisapimp|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shuckle|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p2a: Ludicolo|Ludicolo, M|100/100
+|move|p1a: Hippopotas|Stealth Rock|p2a: Ludicolo
+|-sidestart|p2: palle piene|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ludicolo|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p2a: Ludicolo|Giga Drain|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|50/100
+|-heal|p2a: Ludicolo|100/100|[from] drain|[of] p1a: Hippopotas
+|move|p1a: Hippopotas|Yawn|p2a: Ludicolo
+|-start|p2a: Ludicolo|move: Yawn|[of] p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ludicolo|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|move|p2a: Ludicolo|Giga Drain|p1a: Hippopotas
+|-supereffective|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|-heal|p2a: Ludicolo|100/100|[from] drain|[of] p1a: Hippopotas
+|faint|p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ludicolo|94/100|[from] Sandstorm
+|-end|p2a: Ludicolo|move: Yawn|[silent]
+|-status|p2a: Ludicolo|slp
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Flying|100/100
+|-damage|p1a: Silvally|76/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p2a: Klang|Klang|100/100
+|-damage|p2a: Klang|94/100|[from] Stealth Rock
+|move|p1a: Silvally|Air Slash|p2a: Klang
+|-resisted|p2a: Klang
+|-damage|p2a: Klang|84/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p1a: Silvally|Flamethrower|p2a: Klang
+|-supereffective|p2a: Klang
+|-damage|p2a: Klang|53/100
+|move|p2a: Klang|Gear Grind|p1a: Silvally
+|-damage|p1a: Silvally|61/100
+|-damage|p1a: Silvally|46/100
+|-hitcount|p1a: Silvally|2
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Silvally|Flamethrower|p2a: Klang
+|-supereffective|p2a: Klang
+|-damage|p2a: Klang|18/100
+|move|p2a: Klang|Shift Gear|p2a: Klang
+|-boost|p2a: Klang|spe|2
+|-boost|p2a: Klang|atk|1
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Silvally|Flamethrower|p2a: Klang
+|-supereffective|p2a: Klang
+|-damage|p2a: Klang|0 fnt
+|faint|p2a: Klang
+|
+|upkeep
+|
+|switch|p2a: Ninjask|Ninjask, F|100/100
+|-damage|p2a: Ninjask|51/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Ninjask|U-turn|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|29/100
+|
+|switch|p2a: Silvally|Silvally-Ground|100/100|[from]move: U-turn
+|-damage|p2a: Silvally|94/100|[from] Stealth Rock
+|move|p1a: Silvally|Air Slash|p2a: Silvally
+|-damage|p2a: Silvally|62/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Silvally|Ice Beam|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|6/100
+|move|p2a: Silvally|Defog|p1a: Silvally
+|-unboost|p1a: Silvally|evasion|1
+|-sideend|p1: bojacksonisapimp|Stealth Rock|[from] move: Defog|[of] p2a: Silvally
+|-sideend|p2: palle piene|Stealth Rock|[from] move: Defog|[of] p2a: Silvally
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Silvally|Ice Beam|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Shuckle|Shuckle, M|94/100 tox
+|turn|12
+|
+|move|p1a: Silvally|Parting Shot|p2a: Shuckle
+|-boost|p2a: Shuckle|atk|1
+|-boost|p2a: Shuckle|spa|1
+|c|☆bojacksonisapimp|lol
+|
+|switch|p1a: Lapras|Lapras, M|100/100|[from]move: Parting Shot
+|move|p2a: Shuckle|Stealth Rock|p1a: Lapras
+|-sidestart|p1: bojacksonisapimp|move: Stealth Rock
+|
+|-damage|p2a: Shuckle|88/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Lapras|Whirlpool|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|73/100 tox
+|-activate|p2a: Shuckle|move: Whirlpool|[of] p1a: Lapras
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|1
+|-boost|p2a: Shuckle|spd|1
+|-unboost|p2a: Shuckle|atk|2
+|-unboost|p2a: Shuckle|spa|2
+|-unboost|p2a: Shuckle|spe|2
+|-enditem|p2a: Shuckle|Eject Pack
+|
+|switch|p2a: Glaceon|Glaceon, M|100/100
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Glaceon|Copycat|p2a: Glaceon
+|move|p2a: Glaceon|Shell Smash|p2a: Glaceon|[from]Copycat
+|-unboost|p2a: Glaceon|def|1
+|-unboost|p2a: Glaceon|spd|1
+|-boost|p2a: Glaceon|atk|2
+|-boost|p2a: Glaceon|spa|2
+|-boost|p2a: Glaceon|spe|2
+|-enditem|p2a: Glaceon|White Herb
+|-clearnegativeboost|p2a: Glaceon|[silent]
+|move|p1a: Lapras|Whirlpool|p2a: Glaceon
+|-damage|p2a: Glaceon|86/100
+|-activate|p2a: Glaceon|move: Whirlpool|[of] p1a: Lapras
+|
+|-damage|p2a: Glaceon|74/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|15
+|c|☆bojacksonisapimp|Woooowww
+|
+|move|p2a: Glaceon|Stored Power|p1a: Lapras
+|-damage|p1a: Lapras|46/100
+|move|p1a: Lapras|Perish Song|p1a: Lapras
+|-start|p1a: Lapras|perish3|[silent]
+|-start|p2a: Glaceon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p1a: Lapras|52/100|[from] item: Leftovers
+|-damage|p2a: Glaceon|62/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Glaceon|perish3
+|-start|p1a: Lapras|perish3
+|upkeep
+|turn|16
+|
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Glaceon|Stored Power|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|58/100|[from] item: Leftovers
+|-damage|p2a: Glaceon|50/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Glaceon|perish2
+|-start|p1a: Lapras|perish2
+|upkeep
+|turn|17
+|
+|move|p2a: Glaceon|Stored Power|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|-end|p2a: Glaceon|Whirlpool|[partiallytrapped]|[silent]
+|-start|p2a: Glaceon|perish1
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Flying|29/100
+|-damage|p1a: Silvally|4/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Shuckle|Shuckle, M|73/100 tox
+|move|p1a: Silvally|Flamethrower|p2a: Shuckle
+|-damage|p2a: Shuckle|55/100 tox
+|
+|-damage|p2a: Shuckle|49/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Silvally|Air Slash|p2a: Shuckle
+|-damage|p2a: Shuckle|27/100 tox
+|move|p2a: Shuckle|Encore|p1a: Silvally
+|-start|p1a: Silvally|Encore
+|
+|-damage|p2a: Shuckle|14/100 tox|[from] psn
+|upkeep
+|turn|20
+|c|☆bojacksonisapimp|That's a really cool set
+|
+|move|p1a: Silvally|Air Slash|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|upkeep
+|
+|switch|p2a: Glaceon|Glaceon, M|50/100
+|turn|21
+|
+|move|p1a: Silvally|Air Slash|p2a: Glaceon
+|-damage|p2a: Glaceon|8/100
+|cant|p2a: Glaceon|flinch
+|
+|upkeep
+|turn|22
+|c|☆palle piene|man
+|c|☆palle piene|no
+|c|☆bojacksonisapimp|sry
+|c|☆palle piene|i clicked heal bell
+|
+|move|p1a: Silvally|Air Slash|p2a: Glaceon
+|-crit|p2a: Glaceon
+|-damage|p2a: Glaceon|0 fnt
+|faint|p2a: Glaceon
+|
+|-end|p1a: Silvally|Encore
+|upkeep
+|
+|switch|p2a: Ninjask|Ninjask, F|51/100
+|turn|23
+|
+|move|p2a: Ninjask|Acrobatics|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|c|☆bojacksonisapimp|ouf
+|
+|switch|p1a: Vullaby|Vullaby, F|100/100
+|-damage|p1a: Vullaby|76/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Ninjask|Swords Dance|p2a: Ninjask
+|-boost|p2a: Ninjask|atk|2
+|move|p1a: Vullaby|Foul Play|p2a: Ninjask
+|-damage|p2a: Ninjask|0 fnt
+|faint|p2a: Ninjask
+|
+|upkeep
+|
+|switch|p2a: Ludicolo|Ludicolo, M|94/100 slp
+|turn|25
+|
+|cant|p2a: Ludicolo|slp
+|move|p1a: Vullaby|Foul Play|p2a: Ludicolo
+|-damage|p2a: Ludicolo|66/100 slp
+|
+|upkeep
+|turn|26
+|
+|-curestatus|p2a: Ludicolo|slp|[msg]
+|move|p2a: Ludicolo|Ice Beam|p1a: Vullaby
+|-supereffective|p1a: Vullaby
+|-damage|p1a: Vullaby|28/100
+|move|p1a: Vullaby|Foul Play|p2a: Ludicolo
+|-damage|p2a: Ludicolo|37/100
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Ludicolo|Ice Beam|p1a: Vullaby
+|-supereffective|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|upkeep
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|-damage|p1a: Pawniard|94/100|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Pawniard|Sucker Punch|p2a: Ludicolo
+|-damage|p2a: Ludicolo|5/100
+|move|p2a: Ludicolo|Hydro Pump|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|c|☆bojacksonisapimp|fek
+|
+|switch|p1a: Whiscash|Whiscash, M|100/100
+|-damage|p1a: Whiscash|94/100|[from] Stealth Rock
+|turn|29
+|c|☆bojacksonisapimp|gg
+|
+|move|p1a: Whiscash|Earthquake|p2a: Ludicolo
+|-resisted|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|win|bojacksonisapimp
+|c|☆bojacksonisapimp|?
+|c|☆palle piene|well gg
+|l|☆palle piene
+|c|☆bojacksonisapimp|gg
+|raw|bojacksonisapimp's rating: 1224 &rarr; <strong>1257</strong><br />(+33 for winning)
+|raw|palle piene's rating: 1342 &rarr; <strong>1316</strong><br />(-26 for losing)

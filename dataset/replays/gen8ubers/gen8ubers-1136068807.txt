@@ -1,0 +1,173 @@
+|j|☆crottefeu
+|j|☆MM2
+|player|p1|crottefeu|nate|1570
+|player|p2|MM2|giovanni|1495
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Mamoswine, M|
+|poke|p1|Sandslash-Alola, F|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Cloyster, F|
+|poke|p1|Kyurem-Black|
+|poke|p1|Darmanitan-Galar, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Kingdra, M|
+|poke|p2|Dugtrio, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Umbreon, M|
+|poke|p2|Ferrothorn, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|j| L'habitat
+|j| ndlt 5m ouaf !!
+|c|☆MM2|gl hf
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Mamoswine|Earthquake|p2a: Pelipper
+|-immune|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Mamoswine|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: MM2|move: Stealth Rock
+|move|p2a: Pelipper|U-turn|p1a: Mamoswine
+|-damage|p1a: Mamoswine|89/100
+|
+|switch|p2a: Kingdra|Kingdra, M, shiny|100/100|[from]move: U-turn
+|-damage|p2a: Kingdra|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Kingdra
+|-damage|p2a: Kingdra|61/100
+|move|p2a: Kingdra|Liquidation|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-damage|p2a: Kingdra|51/100|[from] item: Life Orb
+|faint|p1a: Mamoswine
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|4
+|
+|switch|p1a: Darmanitan|Darmanitan-Galar, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|75/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Darmanitan|Substitute|p1a: Darmanitan
+|-start|p1a: Darmanitan|Substitute
+|-damage|p1a: Darmanitan|75/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Darmanitan|Belly Drum|p1a: Darmanitan
+|-damage|p1a: Darmanitan|25/100
+|-setboost|p1a: Darmanitan|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Darmanitan|Salac Berry|[eat]
+|-boost|p1a: Darmanitan|spe|1|[from] item: Salac Berry
+|move|p2a: Volcarona|Mystical Fire|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-end|p1a: Darmanitan|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-formechange|p1a: Darmanitan|Darmanitan-Galar-Zen|
+|upkeep
+|turn|7
+|c|☆MM2|lol
+|c|☆MM2|thats hot
+|c| ndlt 5m ouaf !!|gg
+|c| ndlt 5m ouaf !!|:
+|
+|switch|p2a: Umbreon|Umbreon, M, shiny|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|-start|p1a: Darmanitan|Dynamax
+|-heal|p1a: Darmanitan|25/100|[silent]
+|move|p1a: Darmanitan|Max Quake|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|-boost|p1a: Darmanitan|spd|1
+|faint|p2a: Umbreon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c| L'habitat|T'as pas eu peur de bug buzz
+|
+|switch|p2a: Kingdra|Kingdra, M, shiny|51/100
+|-damage|p2a: Kingdra|39/100|[from] Stealth Rock
+|turn|8
+|
+|-start|p2a: Kingdra|Dynamax
+|-heal|p2a: Kingdra|39/100|[silent]
+|move|p1a: Darmanitan|Max Hailstorm|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|-weather|Hail
+|faint|p2a: Kingdra
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|c|☆MM2|wait thats faster damn
+|c|☆crottefeu|nn chui swag
+|c|☆crottefeu|607 speed
+|c|☆MM2|135 nice
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Darmanitan|Max Hailstorm|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|-end|p1a: Darmanitan|Dynamax
+|-heal|p1a: Darmanitan|25/100|[silent]
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|-damage|p2a: Dugtrio|94/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Darmanitan|Earthquake|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|c|☆MM2|gg
+|-message|MM2 forfeited.
+|
+|win|crottefeu
+|l|☆MM2
+|c|☆crottefeu|gg
+|l| L'habitat

@@ -1,0 +1,606 @@
+|j|☆TimBasedGod
+|j|☆sexywooper
+|player|p1|TimBasedGod|184|1145
+|player|p2|sexywooper|caitlin|1170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Gloom, F|
+|poke|p1|Onix, M|
+|poke|p1|Ludicolo, M|
+|poke|p1|Persian, M|
+|poke|p1|Fraxure, M|
+|poke|p1|Raichu, F|
+|poke|p2|Arctovish|
+|poke|p2|Shiinotic, M|
+|poke|p2|Palpitoad, F|
+|poke|p2|Manectric, M|
+|poke|p2|Throh, M|
+|poke|p2|Silvally-*|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sexywooper)
+|inactive|TimBasedGod has 120 seconds left.
+|inactive|TimBasedGod has 90 seconds left.
+|
+|start
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|switch|p2a: Palpitoad|Palpitoad, F|100/100
+|turn|1
+|
+|switch|p1a: Gloom|Gloom, F|100/100
+|switch|p2a: Throh|Throh, M|100/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Throh|Knock Off|p1a: Gloom
+|-damage|p1a: Gloom|86/100
+|-enditem|p1a: Gloom|Eviolite|[from] move: Knock Off|[of] p2a: Throh
+|move|p1a: Gloom|Infestation|p2a: Throh
+|-resisted|p2a: Throh
+|-damage|p2a: Throh|99/100
+|-activate|p2a: Throh|move: Infestation|[of] p1a: Gloom
+|
+|-heal|p2a: Throh|100/100|[from] item: Leftovers
+|-damage|p2a: Throh|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|move|p2a: Throh|Storm Throw|p1a: Gloom
+|-resisted|p1a: Gloom
+|-crit|p1a: Gloom
+|-damage|p1a: Gloom|70/100
+|move|p1a: Gloom|Sludge Bomb|p2a: Throh
+|-damage|p2a: Throh|70/100
+|
+|-heal|p2a: Throh|76/100|[from] item: Leftovers
+|-damage|p2a: Throh|64/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|move|p2a: Throh|Storm Throw|p1a: Gloom
+|-resisted|p1a: Gloom
+|-crit|p1a: Gloom
+|-damage|p1a: Gloom|53/100
+|move|p1a: Gloom|Sludge Bomb|p2a: Throh
+|-damage|p2a: Throh|47/100
+|
+|-heal|p2a: Throh|53/100|[from] item: Leftovers
+|-damage|p2a: Throh|41/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|move|p2a: Throh|Knock Off|p1a: Gloom
+|-damage|p1a: Gloom|38/100
+|move|p1a: Gloom|Strength Sap|p2a: Throh
+|-unboost|p2a: Throh|atk|1
+|-heal|p1a: Gloom|100/100
+|
+|-heal|p2a: Throh|47/100|[from] item: Leftovers
+|-damage|p2a: Throh|34/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|move|p2a: Throh|Knock Off|p1a: Gloom
+|-damage|p1a: Gloom|91/100
+|move|p1a: Gloom|Sludge Bomb|p2a: Throh
+|-damage|p2a: Throh|17/100
+|
+|-heal|p2a: Throh|23/100|[from] item: Leftovers
+|-end|p2a: Throh|Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|move|p2a: Throh|Rest|p2a: Throh
+|-status|p2a: Throh|slp|[from] move: Rest
+|-heal|p2a: Throh|100/100 slp|[silent]
+|move|p1a: Gloom|Infestation|p2a: Throh
+|-resisted|p2a: Throh
+|-damage|p2a: Throh|99/100 slp
+|-activate|p2a: Throh|move: Infestation|[of] p1a: Gloom
+|
+|-heal|p2a: Throh|100/100 slp|[from] item: Leftovers
+|-damage|p2a: Throh|88/100 slp|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Storm Throw|p1a: Gloom|[from]Sleep Talk
+|-resisted|p1a: Gloom
+|-crit|p1a: Gloom
+|-damage|p1a: Gloom|67/100
+|move|p1a: Gloom|Sludge Bomb|p2a: Throh
+|-damage|p2a: Throh|71/100 slp
+|
+|-heal|p2a: Throh|78/100 slp|[from] item: Leftovers
+|-damage|p2a: Throh|65/100 slp|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Storm Throw|p1a: Gloom|[from]Sleep Talk
+|-resisted|p1a: Gloom
+|-crit|p1a: Gloom
+|-damage|p1a: Gloom|41/100
+|move|p1a: Gloom|Strength Sap|p2a: Throh
+|-unboost|p2a: Throh|atk|1
+|-heal|p1a: Gloom|90/100
+|
+|-heal|p2a: Throh|71/100 slp|[from] item: Leftovers
+|-damage|p2a: Throh|59/100 slp|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|-curestatus|p2a: Throh|slp|[msg]
+|move|p2a: Throh|Knock Off|p1a: Gloom
+|-damage|p1a: Gloom|82/100
+|move|p1a: Gloom|Sludge Bomb|p2a: Throh
+|-damage|p2a: Throh|42/100
+|
+|-heal|p2a: Throh|49/100|[from] item: Leftovers
+|-damage|p2a: Throh|36/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|move|p2a: Throh|Knock Off|p1a: Gloom
+|-damage|p1a: Gloom|75/100
+|move|p1a: Gloom|Strength Sap|p2a: Throh
+|-unboost|p2a: Throh|atk|1
+|-heal|p1a: Gloom|100/100
+|
+|-heal|p2a: Throh|42/100|[from] item: Leftovers
+|-damage|p2a: Throh|30/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|move|p2a: Throh|Rest|p2a: Throh
+|-status|p2a: Throh|slp|[from] move: Rest
+|-heal|p2a: Throh|100/100 slp|[silent]
+|move|p1a: Gloom|Sludge Bomb|p2a: Throh
+|-damage|p2a: Throh|83/100 slp
+|
+|-heal|p2a: Throh|89/100 slp|[from] item: Leftovers
+|-end|p2a: Throh|Infestation|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|move|p1a: Gloom|Infestation|p2a: Manectric
+|-damage|p2a: Manectric|92/100
+|-activate|p2a: Manectric|move: Infestation|[of] p1a: Gloom
+|
+|-damage|p2a: Manectric|80/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|move|p2a: Manectric|Switcheroo|p1a: Gloom
+|-activate|p2a: Manectric|move: Trick|[of] p1a: Gloom
+|-item|p1a: Gloom|Choice Scarf|[from] move: Switcheroo
+|-enditem|p2a: Manectric|Choice Scarf|[silent]|[from] move: Switcheroo
+|move|p1a: Gloom|Strength Sap|p2a: Manectric
+|-unboost|p2a: Manectric|atk|1
+|
+|-damage|p2a: Manectric|67/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|switch|p1a: Raichu|Raichu, F|100/100
+|move|p2a: Manectric|Volt Switch|p1a: Raichu
+|-ability|p1a: Raichu|Lightning Rod|boost
+|-boost|p1a: Raichu|spa|1
+|
+|-end|p2a: Manectric|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|16
+|
+|switch|p2a: Palpitoad|Palpitoad, F|100/100
+|move|p1a: Raichu|Surf|p2a: Palpitoad
+|-immune|p2a: Palpitoad|[from] ability: Water Absorb
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Onix|Onix, M|100/100
+|switch|p2a: Throh|Throh, M|89/100 slp
+|
+|-heal|p2a: Throh|95/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Palpitoad|Palpitoad, F|100/100
+|move|p1a: Onix|Stealth Rock|p2a: Palpitoad
+|-sidestart|p2: sexywooper|move: Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Onix|Taunt|p2a: Palpitoad
+|-start|p2a: Palpitoad|move: Taunt
+|cant|p2a: Palpitoad|move: Taunt|Toxic
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|move|p2a: Palpitoad|Scald|p1a: Ludicolo
+|-resisted|p1a: Ludicolo
+|-damage|p1a: Ludicolo|95/100
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Throh|Throh, M|95/100 slp
+|-damage|p2a: Throh|89/100 slp|[from] Stealth Rock
+|move|p1a: Ludicolo|Giga Drain|p2a: Throh
+|-damage|p2a: Throh|60/100 slp
+|-heal|p1a: Ludicolo|100/100|[from] drain|[of] p2a: Throh
+|-damage|p1a: Ludicolo|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Throh|67/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Rest|p2a: Throh|[from]Sleep Talk
+|-fail|p2a: Throh
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Throh|73/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Ludicolo|Giga Drain|p2a: Throh
+|-damage|p2a: Throh|47/100 slp
+|-heal|p1a: Ludicolo|100/100|[from] drain|[of] p2a: Throh
+|-damage|p1a: Ludicolo|91/100|[from] item: Life Orb
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Knock Off|p1a: Ludicolo|[from]Sleep Talk
+|-damage|p1a: Ludicolo|39/100
+|-enditem|p1a: Ludicolo|Life Orb|[from] move: Knock Off|[of] p2a: Throh
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Throh|53/100 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Ludicolo|Surf|p2a: Throh
+|-damage|p2a: Throh|14/100 slp
+|-curestatus|p2a: Throh|slp|[msg]
+|move|p2a: Throh|Rest|p2a: Throh
+|-status|p2a: Throh|slp|[from] move: Rest
+|-heal|p2a: Throh|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p1a: Ludicolo|Surf|p2a: Throh
+|-damage|p2a: Throh|62/100 slp
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Knock Off|p1a: Ludicolo|[from]Sleep Talk
+|-damage|p1a: Ludicolo|2/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Throh|69/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Ludicolo|Surf|p2a: Throh
+|-damage|p2a: Throh|33/100 slp
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Knock Off|p1a: Ludicolo|[from]Sleep Talk
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|-weather|none
+|-heal|p2a: Throh|39/100 slp|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Fraxure|Fraxure, M|100/100
+|-ability|p1a: Fraxure|Mold Breaker
+|turn|27
+|
+|switch|p2a: Shiinotic|Shiinotic, M|100/100
+|-damage|p2a: Shiinotic|88/100|[from] Stealth Rock
+|move|p1a: Fraxure|Dragon Claw|p2a: Shiinotic
+|-immune|p2a: Shiinotic
+|
+|-heal|p2a: Shiinotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Gloom|Gloom, F|100/100
+|move|p2a: Shiinotic|Leech Seed|p1a: Gloom
+|-immune|p1a: Gloom
+|
+|-heal|p2a: Shiinotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Palpitoad|Palpitoad, F|100/100
+|-damage|p2a: Palpitoad|94/100|[from] Stealth Rock
+|move|p1a: Gloom|Sludge Bomb|p2a: Palpitoad
+|-resisted|p2a: Palpitoad
+|-damage|p2a: Palpitoad|81/100
+|-status|p2a: Palpitoad|psn
+|
+|-damage|p2a: Palpitoad|69/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|switch|p2a: Silvally|Silvally-Rock|100/100
+|-damage|p2a: Silvally|88/100|[from] Stealth Rock
+|move|p1a: Gloom|Sludge Bomb|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|75/100
+|-status|p2a: Silvally|psn
+|
+|-damage|p2a: Silvally|62/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|move|p2a: Silvally|Defog|p1a: Gloom
+|-unboost|p1a: Gloom|evasion|1
+|-sideend|p2: sexywooper|Stealth Rock|[from] move: Defog|[of] p2a: Silvally
+|move|p1a: Gloom|Sludge Bomb|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|48/100 psn
+|
+|-damage|p2a: Silvally|36/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p2a: Throh|Throh, M|39/100 slp
+|move|p1a: Gloom|Sludge Bomb|p2a: Throh
+|-damage|p2a: Throh|23/100 slp
+|
+|-heal|p2a: Throh|29/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Fraxure|Fraxure, M|100/100
+|-ability|p1a: Fraxure|Mold Breaker
+|-curestatus|p2a: Throh|slp|[msg]
+|move|p2a: Throh|Rest|p2a: Throh
+|-status|p2a: Throh|slp|[from] move: Rest
+|-heal|p2a: Throh|100/100 slp|[silent]
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Fraxure|First Impression|p2a: Throh
+|-resisted|p2a: Throh
+|-damage|p2a: Throh|83/100 slp
+|-damage|p1a: Fraxure|91/100|[from] item: Life Orb
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Knock Off|p1a: Fraxure|[from]Sleep Talk
+|-damage|p1a: Fraxure|31/100
+|-enditem|p1a: Fraxure|Life Orb|[from] move: Knock Off|[of] p2a: Throh
+|
+|-heal|p2a: Throh|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Shiinotic|Shiinotic, M|100/100
+|move|p1a: Fraxure|Outrage|p2a: Shiinotic
+|-immune|p2a: Shiinotic
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Gloom|Gloom, F|100/100
+|move|p2a: Shiinotic|Moonblast|p1a: Gloom
+|-resisted|p1a: Gloom
+|-damage|p1a: Gloom|81/100
+|-unboost|p1a: Gloom|spa|1
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: Throh|Throh, M|89/100 slp
+|move|p1a: Gloom|Infestation|p2a: Throh
+|-resisted|p2a: Throh
+|-damage|p2a: Throh|88/100 slp
+|-activate|p2a: Throh|move: Infestation|[of] p1a: Gloom
+|
+|-heal|p2a: Throh|94/100 slp|[from] item: Leftovers
+|-damage|p2a: Throh|82/100 slp|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|38
+|
+|switch|p1a: Fraxure|Fraxure, M|31/100
+|-ability|p1a: Fraxure|Mold Breaker
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Storm Throw|p1a: Fraxure|[from]Sleep Talk
+|-crit|p1a: Fraxure
+|-damage|p1a: Fraxure|0 fnt
+|faint|p1a: Fraxure
+|
+|-heal|p2a: Throh|88/100 slp|[from] item: Leftovers
+|-end|p2a: Throh|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p1a: Persian|Persian, M|100/100
+|turn|39
+|
+|move|p1a: Persian|Knock Off|p2a: Throh
+|-resisted|p2a: Throh
+|-damage|p2a: Throh|76/100 slp
+|-enditem|p2a: Throh|Leftovers|[from] move: Knock Off|[of] p1a: Persian
+|-curestatus|p2a: Throh|slp|[msg]
+|move|p2a: Throh|Storm Throw|p1a: Persian
+|-supereffective|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|upkeep
+|
+|switch|p1a: Onix|Onix, M|100/100
+|turn|40
+|
+|move|p1a: Onix|Taunt|p2a: Throh
+|-start|p2a: Throh|move: Taunt
+|move|p2a: Throh|Knock Off|p1a: Onix
+|-damage|p1a: Onix|80/100
+|-enditem|p1a: Onix|Salac Berry|[from] move: Knock Off|[of] p2a: Throh
+|
+|upkeep
+|turn|41
+|
+|switch|p2a: Silvally|Silvally-Rock|36/100 psn
+|move|p1a: Onix|Body Press|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Palpitoad|Palpitoad, F|69/100 psn
+|turn|42
+|
+|switch|p1a: Gloom|Gloom, F|81/100
+|move|p2a: Palpitoad|Scald|p1a: Gloom
+|-resisted|p1a: Gloom
+|-damage|p1a: Gloom|70/100
+|
+|-damage|p2a: Palpitoad|56/100 psn|[from] psn
+|upkeep
+|turn|43
+|
+|move|p2a: Palpitoad|Stealth Rock|p1a: Gloom
+|-sidestart|p1: TimBasedGod|move: Stealth Rock
+|move|p1a: Gloom|Sludge Bomb|p2a: Palpitoad
+|-resisted|p2a: Palpitoad
+|-damage|p2a: Palpitoad|43/100 psn
+|
+|-damage|p2a: Palpitoad|30/100 psn|[from] psn
+|upkeep
+|turn|44
+|
+|switch|p2a: Throh|Throh, M|76/100
+|move|p1a: Gloom|Sludge Bomb|p2a: Throh
+|-damage|p2a: Throh|59/100
+|
+|upkeep
+|turn|45
+|
+|move|p1a: Gloom|Sludge Bomb|p2a: Throh
+|-damage|p2a: Throh|43/100
+|-status|p2a: Throh|psn
+|move|p2a: Throh|Storm Throw|p1a: Gloom
+|-resisted|p1a: Gloom
+|-crit|p1a: Gloom
+|-damage|p1a: Gloom|47/100
+|
+|-damage|p2a: Throh|31/100 psn|[from] psn
+|upkeep
+|turn|46
+|
+|move|p1a: Gloom|Sludge Bomb|p2a: Throh
+|-damage|p2a: Throh|12/100 psn
+|move|p2a: Throh|Rest|p2a: Throh
+|-status|p2a: Throh|slp|[from] move: Rest
+|-heal|p2a: Throh|100/100 slp|[silent]
+|
+|upkeep
+|turn|47
+|
+|switch|p2a: Arctovish|Arctovish|100/100
+|move|p1a: Gloom|Sludge Bomb|p2a: Arctovish
+|-damage|p2a: Arctovish|66/100
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Arctovish|Icicle Crash|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|
+|upkeep
+|
+|switch|p1a: Onix|Onix, M|80/100
+|-damage|p1a: Onix|73/100|[from] Stealth Rock
+|turn|49
+|
+|switch|p2a: Manectric|Manectric, M|67/100
+|move|p1a: Onix|Body Press|p2a: Manectric
+|-damage|p2a: Manectric|11/100
+|
+|upkeep
+|turn|50
+|
+|move|p2a: Manectric|Flamethrower|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|31/100
+|move|p1a: Onix|Body Press|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|upkeep
+|
+|switch|p2a: Arctovish|Arctovish|66/100
+|turn|51
+|
+|move|p2a: Arctovish|Fishious Rend|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|upkeep
+|
+|switch|p1a: Raichu|Raichu, F|100/100
+|-damage|p1a: Raichu|88/100|[from] Stealth Rock
+|turn|52
+|
+|move|p1a: Raichu|Extreme Speed|p2a: Arctovish
+|-crit|p2a: Arctovish
+|-damage|p2a: Arctovish|37/100
+|move|p2a: Arctovish|Fishious Rend|p1a: Raichu
+|-damage|p1a: Raichu|11/100
+|
+|upkeep
+|turn|53
+|
+|move|p1a: Raichu|Volt Switch|p2a: Arctovish
+|-supereffective|p2a: Arctovish
+|-damage|p2a: Arctovish|0 fnt
+|faint|p2a: Arctovish
+|
+|upkeep
+|
+|switch|p2a: Shiinotic|Shiinotic, M|100/100
+|turn|54
+|
+|move|p1a: Raichu|Volt Switch|p2a: Shiinotic
+|-resisted|p2a: Shiinotic
+|-damage|p2a: Shiinotic|85/100
+|move|p2a: Shiinotic|Moonblast|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|win|sexywooper
+|c|☆sexywooper|gg
+|l|☆TimBasedGod

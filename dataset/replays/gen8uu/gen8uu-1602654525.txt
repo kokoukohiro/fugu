@@ -1,0 +1,269 @@
+|j|☆Corporate Donkey
+|j|☆craft123
+|t:|1656003960
+|gametype|singles
+|player|p1|Corporate Donkey|ingo|1409
+|player|p2|craft123|brycen|1377
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Hippowdon, F|
+|poke|p1|Skarmory, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Chandelure, M|
+|poke|p1|Primarina, F|
+|poke|p1|Tangrowth, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Darmanitan, M|
+|poke|p2|Venusaur, M|
+|poke|p2|Swampert, M|
+|poke|p2|Celesteela|
+|teampreview
+|
+|t:|1656003969
+|start
+|switch|p1a: Smokey|Chandelure, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1656003978
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|move|p1a: Smokey|Taunt|p2a: Darmanitan
+|-start|p2a: Darmanitan|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1656003986
+|switch|p1a: Ricardo|Hydreigon, M|100/100
+|move|p2a: Darmanitan|Rock Slide|p1a: Ricardo
+|-damage|p1a: Ricardo|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1656003994
+|move|p1a: Ricardo|U-turn|p2a: Darmanitan
+|-resisted|p2a: Darmanitan
+|-damage|p2a: Darmanitan|88/100
+|
+|t:|1656003998
+|switch|p1a: Donna|Hippowdon, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Donna
+|move|p2a: Darmanitan|Rock Slide|p1a: Donna
+|-resisted|p1a: Donna
+|-damage|p1a: Donna|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Darmanitan|82/100|[from] Sandstorm
+|-end|p2a: Darmanitan|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1656004006
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Donna|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: craft123|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1656004014
+|switch|p1a: Smokey|Chandelure, M|100/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Smokey
+|-immune|p1a: Smokey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1656004019
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|94/100|[from] Stealth Rock
+|move|p1a: Smokey|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Swampert|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1656004023
+|move|p1a: Smokey|Taunt|p2a: Swampert
+|-start|p2a: Swampert|move: Taunt
+|cant|p2a: Swampert|move: Taunt|Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Swampert|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Swampert|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1656004028
+|switch|p1a: Ferrous|Skarmory, M|100/100
+|move|p2a: Swampert|Flip Turn|p1a: Ferrous
+|-damage|p1a: Ferrous|94/100
+|-damage|p2a: Swampert|72/100 tox|[from] item: Rocky Helmet|[of] p1a: Ferrous
+|
+|t:|1656004030
+|switch|p2a: Darmanitan|Darmanitan, M|82/100|[from]move: Flip Turn
+|-damage|p2a: Darmanitan|57/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1656004034
+|switch|p1a: Smokey|Chandelure, M|100/100
+|move|p2a: Darmanitan|U-turn|p1a: Smokey
+|-resisted|p1a: Smokey
+|-damage|p1a: Smokey|92/100
+|
+|t:|1656004039
+|switch|p2a: Swampert|Swampert, M|72/100 tox|[from]move: U-turn
+|-damage|p2a: Swampert|65/100 tox|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Swampert|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Swampert|65/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1656004047
+|switch|p1a: Ricardo|Hydreigon, M|59/100
+|move|p2a: Swampert|Earthquake|p1a: Ricardo
+|-immune|p1a: Ricardo|[from] ability: Levitate
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Swampert|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Swampert|59/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1656004051
+|move|p1a: Ricardo|U-turn|p2a: Swampert
+|-damage|p2a: Swampert|44/100 tox
+|
+|t:|1656004054
+|switch|p1a: Donna|Hippowdon, F|89/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Donna
+|move|p2a: Swampert|Stealth Rock|p1a: Donna
+|-sidestart|p1: Corporate Donkey|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|50/100 tox|[from] item: Leftovers
+|-damage|p2a: Swampert|32/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1656004057
+|move|p2a: Swampert|Flip Turn|p1a: Donna
+|-supereffective|p1a: Donna
+|-damage|p1a: Donna|44/100
+|
+|t:|1656004069
+|switch|p2a: Torkoal|Torkoal, F|100/100|[from]move: Flip Turn
+|-damage|p2a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Donna|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|5/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1656004074
+|switch|p1a: Smokey|Chandelure, M|92/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Smokey
+|-immune|p1a: Smokey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1656004079
+|switch|p2a: Swampert|Swampert, M|32/100 tox
+|-damage|p2a: Swampert|26/100 tox|[from] Stealth Rock
+|move|p1a: Smokey|Hex|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1656004082
+|switch|p2a: Darmanitan|Darmanitan, M|57/100
+|-damage|p2a: Darmanitan|32/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1656004086
+|switch|p1a: Donna|Hippowdon, F|44/100
+|-damage|p1a: Donna|38/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Donna
+|move|p2a: Darmanitan|Rock Slide|p1a: Donna
+|-resisted|p1a: Donna
+|-damage|p1a: Donna|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Darmanitan|26/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1656004092
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|-damage|p2a: Venusaur|88/100|[from] Stealth Rock
+|move|p1a: Donna|Slack Off|p1a: Donna
+|-heal|p1a: Donna|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Venusaur|82/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1656004098
+|switch|p1a: Smokey|Chandelure, M|92/100
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|1
+|-boost|p2a: Venusaur|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Smokey|86/100|[from] Sandstorm
+|-damage|p2a: Venusaur|76/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1656004101
+|move|p1a: Smokey|Flamethrower|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Smokey|79/100|[from] Sandstorm
+|upkeep
+|-message|craft123 forfeited.
+|
+|win|Corporate Donkey
+|raw|Corporate Donkey's rating: 1409 &rarr; <strong>1427</strong><br />(+18 for winning)
+|raw|craft123's rating: 1377 &rarr; <strong>1359</strong><br />(-18 for losing)
+|l|☆craft123
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

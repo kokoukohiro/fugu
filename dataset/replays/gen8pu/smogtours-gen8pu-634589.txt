@@ -1,0 +1,231 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1656226484
+|gametype|singles
+|player|p1|chlo|#chlo|
+|player|p2|wild drud|richboy-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Centiskorch, M|
+|poke|p1|Silvally-*|
+|poke|p1|Hattrem, F|
+|poke|p1|Gigalith, M|
+|poke|p1|Eldegoss, M|
+|poke|p1|Garbodor, F|
+|poke|p2|Gallade, M|
+|poke|p2|Scyther, F|
+|poke|p2|Regirock|
+|poke|p2|Togedemaru, M|
+|poke|p2|Eldegoss, M|
+|poke|p2|Ribombee, F|
+|teampreview
+|inactive|wild drud also wants the timer to be on.
+|c|☆chlo|hfhf
+|inactive|chlo has 270 seconds left.
+|c|☆wild drud|hf
+|
+|t:|1656226523
+|start
+|switch|p1a: Garbodor|Garbodor, F|100/100
+|switch|p2a: PATAVIOUS ISOM|Regirock|100/100
+|turn|1
+|
+|t:|1656226541
+|move|p1a: Garbodor|Toxic Spikes|p2a: PATAVIOUS ISOM
+|-sidestart|p2: wild drud|move: Toxic Spikes
+|move|p2a: PATAVIOUS ISOM|Rock Blast|p1a: Garbodor
+|-damage|p1a: Garbodor|94/100
+|-damage|p1a: Garbodor|86/100
+|-hitcount|p1a: Garbodor|2
+|
+|upkeep
+|turn|2
+|
+|t:|1656226547
+|switch|p1a: Hattrem|Hattrem, F|100/100
+|move|p2a: PATAVIOUS ISOM|Rock Blast|p1a: Hattrem
+|-damage|p1a: Hattrem|95/100
+|-damage|p1a: Hattrem|88/100
+|-damage|p1a: Hattrem|82/100
+|-hitcount|p1a: Hattrem|3
+|
+|upkeep
+|turn|3
+|
+|t:|1656226553
+|switch|p2a: BREAK THE LAW|Eldegoss, M, shiny|100/100
+|move|p1a: Hattrem|Nuzzle|p2a: BREAK THE LAW
+|-resisted|p2a: BREAK THE LAW
+|-damage|p2a: BREAK THE LAW|99/100
+|-status|p2a: BREAK THE LAW|par
+|
+|upkeep
+|turn|4
+|
+|t:|1656226561
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|cant|p2a: BREAK THE LAW|par
+|
+|upkeep
+|turn|5
+|
+|t:|1656226565
+|switch|p2a: PATAVIOUS ISOM|Regirock|100/100
+|-status|p2a: PATAVIOUS ISOM|psn
+|move|p1a: Centiskorch|Knock Off|p2a: PATAVIOUS ISOM
+|-damage|p2a: PATAVIOUS ISOM|87/100 psn
+|-enditem|p2a: PATAVIOUS ISOM|Leftovers|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|-damage|p2a: PATAVIOUS ISOM|75/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1656226572
+|switch|p1a: Hattrem|Hattrem, F|82/100
+|switch|p2a: DUKE DEUCE|Scyther, F, shiny|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1656226580
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: DUKE DEUCE|Knock Off|p1a: Gigalith
+|-crit|p1a: Gigalith
+|-damage|p1a: Gigalith|67/100
+|-enditem|p1a: Gigalith|Leftovers|[from] move: Knock Off|[of] p2a: DUKE DEUCE
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: DUKE DEUCE|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1656226601
+|move|p2a: DUKE DEUCE|U-turn|p1a: Gigalith
+|-damage|p1a: Gigalith|45/100
+|
+|t:|1656226603
+|switch|p2a: BREAK THE LAW|Eldegoss, M, shiny|100/100 par|[from]move: U-turn
+|move|p1a: Gigalith|Rock Blast|p2a: BREAK THE LAW
+|-crit|p2a: BREAK THE LAW
+|-damage|p2a: BREAK THE LAW|80/100 par
+|-damage|p2a: BREAK THE LAW|67/100 par
+|-hitcount|p2a: BREAK THE LAW|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BREAK THE LAW|61/100 par|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1656226611
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: BREAK THE LAW|Rapid Spin|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BREAK THE LAW|55/100 par|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1656226617
+|move|p1a: Gigalith|Rock Blast|p2a: BREAK THE LAW
+|-damage|p2a: BREAK THE LAW|41/100 par
+|-damage|p2a: BREAK THE LAW|27/100 par
+|-damage|p2a: BREAK THE LAW|14/100 par
+|-hitcount|p2a: BREAK THE LAW|3
+|move|p2a: BREAK THE LAW|Sleep Powder|p1a: Gigalith
+|-status|p1a: Gigalith|slp|[from] move: Sleep Powder
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: BREAK THE LAW|8/100 par|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1656226625
+|switch|p1a: Garbodor|Garbodor, F|86/100
+|move|p2a: BREAK THE LAW|Rapid Spin|p1a: Garbodor
+|-damage|p1a: Garbodor|81/100
+|-boost|p2a: BREAK THE LAW|spe|1
+|-damage|p2a: BREAK THE LAW|0 fnt|[from] item: Rocky Helmet|[of] p1a: Garbodor
+|faint|p2a: BREAK THE LAW
+|
+|-weather|none
+|upkeep
+|
+|t:|1656226642
+|switch|p2a: KICK THE DOOR|Ribombee, F, shiny|100/100
+|turn|12
+|
+|t:|1656226645
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|move|p2a: KICK THE DOOR|Psychic|p1a: Centiskorch
+|-damage|p1a: Centiskorch|71/100
+|-unboost|p1a: Centiskorch|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1656226653
+|move|p2a: KICK THE DOOR|U-turn|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|61/100
+|
+|t:|1656226654
+|switch|p2a: PATAVIOUS ISOM|Regirock|75/100 psn|[from]move: U-turn
+|move|p1a: Centiskorch|Fire Lash|p2a: PATAVIOUS ISOM
+|-resisted|p2a: PATAVIOUS ISOM
+|-damage|p2a: PATAVIOUS ISOM|66/100 psn
+|
+|-damage|p2a: PATAVIOUS ISOM|53/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1656226663
+|switch|p2a: DUKE DEUCE|Scyther, F, shiny|94/100
+|move|p1a: Centiskorch|Fire Lash|p2a: DUKE DEUCE
+|-supereffective|p2a: DUKE DEUCE
+|-damage|p2a: DUKE DEUCE|0 fnt
+|faint|p2a: DUKE DEUCE
+|
+|upkeep
+|
+|t:|1656226665
+|switch|p2a: CRUNK AINT DEAD|Gallade, M, shiny|100/100
+|-status|p2a: CRUNK AINT DEAD|psn
+|turn|15
+|
+|t:|1656226681
+|move|p2a: CRUNK AINT DEAD|Zen Headbutt|p1a: Centiskorch|[miss]
+|-miss|p2a: CRUNK AINT DEAD|p1a: Centiskorch
+|move|p1a: Centiskorch|Leech Life|p2a: CRUNK AINT DEAD
+|-damage|p2a: CRUNK AINT DEAD|24/100 psn
+|-heal|p1a: Centiskorch|93/100|[from] drain|[of] p2a: CRUNK AINT DEAD
+|
+|-damage|p2a: CRUNK AINT DEAD|11/100 psn|[from] psn
+|upkeep
+|turn|16
+|c|☆chlo|mb
+|
+|t:|1656226691
+|switch|p1a: Hattrem|Hattrem, F|82/100
+|move|p2a: CRUNK AINT DEAD|Zen Headbutt|p1a: Hattrem
+|-resisted|p1a: Hattrem
+|-damage|p1a: Hattrem|66/100
+|
+|-damage|p2a: CRUNK AINT DEAD|0 fnt|[from] psn
+|faint|p2a: CRUNK AINT DEAD
+|upkeep
+|-message|wild drud forfeited.
+|
+|win|chlo
+|c|☆chlo|gg

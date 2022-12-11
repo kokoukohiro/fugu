@@ -1,0 +1,342 @@
+|j|☆Swordsman.N
+|j|‽Calem the Undying
+|t:|1643544348
+|gametype|singles
+|player|p1|Swordsman.N|caitlin|
+|player|p2|Calem the Undying|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Tapu Lele|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Weavile, F|
+|poke|p1|Aegislash, M|
+|poke|p2|Tyrantrum, F|
+|poke|p2|Buzzwole|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Zeraora|
+|poke|p2|Kartana|
+|teampreview
+|
+|t:|1643544375
+|start
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|1
+|
+|t:|1643544392
+|move|p2a: Rotom|Thunderbolt|p1a: Tapu Lele
+|-crit|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|47/100
+|-status|p1a: Tapu Lele|par
+|move|p1a: Tapu Lele|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|3/100
+|
+|upkeep
+|turn|2
+|
+|t:|1643544402
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|move|p2a: Rotom|Thunderbolt|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|3
+|
+|t:|1643544410
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Calem the Undying|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1643544418
+|move|p2a: Landorus|Defog|p1a: Landorus
+|-unboost|p1a: Landorus|evasion|1
+|-sideend|p2: Calem the Undying|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|-fieldend|move: Psychic Terrain
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|96/100
+|-damage|p1a: Landorus|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|t:|1643544424
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1643544435
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Buzzwole
+|-crit|p2a: Buzzwole
+|-damage|p2a: Buzzwole|80/100
+|-crit|p2a: Buzzwole
+|-damage|p2a: Buzzwole|60/100
+|-crit|p2a: Buzzwole
+|-damage|p2a: Buzzwole|40/100
+|-hitcount|p2a: Buzzwole|3
+|
+|upkeep
+|turn|6
+|
+|t:|1643544453
+|switch|p2a: Kartana|Kartana|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Kartana
+|-resisted|p2a: Kartana
+|-crit|p2a: Kartana
+|-damage|p2a: Kartana|84/100
+|-resisted|p2a: Kartana
+|-crit|p2a: Kartana
+|-damage|p2a: Kartana|67/100
+|-resisted|p2a: Kartana
+|-crit|p2a: Kartana
+|-damage|p2a: Kartana|53/100
+|-hitcount|p2a: Kartana|3
+|
+|upkeep
+|turn|7
+|
+|t:|1643544467
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kartana|atk|1
+|move|p2a: Kartana|Leaf Blade|p1a: Landorus
+|-damage|p1a: Landorus|39/100
+|-damage|p2a: Kartana|43/100|[from] item: Life Orb
+|
+|-heal|p1a: Landorus|45/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1643544488
+|switch|p1a: Tapu Lele|Tapu Lele|47/100 par
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Kartana|Knock Off|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|-enditem|p1a: Tapu Lele|Choice Specs|[from] move: Knock Off|[of] p2a: Kartana
+|faint|p1a: Tapu Lele
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|-damage|p2a: Kartana|33/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643544498
+|switch|p1a: Weavile|Weavile, F|100/100
+|turn|9
+|j| JAMKRE
+|
+|t:|1643544507
+|switch|p2a: Rotom|Rotom-Heat|3/100
+|move|p1a: Weavile|Triple Axel|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-hitcount|p2: Rotom|1
+|
+|upkeep
+|l| JAMKRE
+|
+|t:|1643544516
+|switch|p2a: Buzzwole|Buzzwole|40/100
+|turn|10
+|
+|t:|1643544559
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Buzzwole|Close Combat|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|11
+|
+|t:|1643544567
+|move|p1a: Dragapult|Flamethrower|p2a: Buzzwole
+|-supereffective|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|faint|p2a: Buzzwole
+|
+|upkeep
+|
+|t:|1643544574
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|12
+|j| tianlengmeihou
+|l| tianlengmeihou
+|
+|t:|1643544630
+|switch|p1a: Landorus|Landorus-Therian, M|45/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zeraora|atk|1
+|move|p2a: Zeraora|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|18/100
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Zeraora
+|-damage|p2a: Zeraora|91/100|[from] item: Life Orb
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|13
+|j| SL21HF Dragon Sect
+|l| SL21HF Dragon Sect
+|
+|t:|1643544646
+|switch|p2a: Landorus|Landorus-Therian, M|96/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Calem the Undying|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1643544655
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Landorus|Defog|p1a: Urshifu
+|-unboost|p1a: Urshifu|evasion|1
+|-sideend|p2: Calem the Undying|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|
+|upkeep
+|turn|15
+|
+|t:|1643544666
+|move|p1a: Urshifu|Surging Strikes|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|57/100
+|-damage|p1a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|20/100
+|-damage|p1a: Urshifu|68/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Urshifu|51/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|-hitcount|p2: Landorus|3
+|
+|upkeep
+|
+|t:|1643544685
+|switch|p2a: Kartana|Kartana|33/100
+|turn|16
+|
+|t:|1643544716
+|switch|p1a: Weavile|Weavile, F|100/100
+|move|p2a: Kartana|Leaf Blade|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|-damage|p2a: Kartana|23/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643544725
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|t:|1643544736
+|switch|p2a: Zeraora|Zeraora|91/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Zeraora
+|-damage|p2a: Zeraora|22/100
+|
+|upkeep
+|turn|18
+|
+|t:|1643544748
+|switch|p1a: Landorus|Landorus-Therian, M|18/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zeraora|atk|1
+|move|p2a: Zeraora|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|1/100
+|-damage|p2a: Zeraora|12/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|
+|t:|1643544760
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|51/100
+|move|p2a: Zeraora|Knock Off|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|38/100
+|-enditem|p1a: Urshifu|Choice Band|[from] move: Knock Off|[of] p2a: Zeraora
+|-damage|p2a: Zeraora|2/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|t:|1643544770
+|move|p1a: Urshifu|Aqua Jet|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|upkeep
+|
+|t:|1643544775
+|switch|p2a: Kartana|Kartana|23/100
+|turn|21
+|
+|t:|1643544781
+|switch|p1a: Landorus|Landorus-Therian, M|1/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kartana|atk|1
+|move|p2a: Kartana|Leaf Blade|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|-damage|p2a: Kartana|13/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1643544794
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|22
+|
+|t:|1643544798
+|move|p1a: Dragapult|Shadow Ball|p2a: Kartana
+|-crit|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|upkeep
+|c|☆Swordsman.N|gg
+|
+|t:|1643544803
+|switch|p2a: Tyrantrum|Tyrantrum, F|100/100
+|turn|23
+|
+|t:|1643544807
+|move|p1a: Dragapult|Shadow Ball|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|8/100
+|move|p2a: Tyrantrum|Head Smash|p1a: Dragapult|[miss]
+|-miss|p2a: Tyrantrum|p1a: Dragapult
+|
+|upkeep
+|turn|24
+|
+|t:|1643544814
+|move|p1a: Dragapult|Shadow Ball|p2a: Tyrantrum
+|-damage|p2a: Tyrantrum|0 fnt
+|faint|p2a: Tyrantrum
+|
+|win|Swordsman.N

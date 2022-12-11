@@ -1,0 +1,663 @@
+|j|☆Macandchees3
+|j|☆ASSOLO IL RE
+|player|p1|Macandchees3|279|1650
+|player|p2|ASSOLO IL RE|lucas|1526
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Aromatisse, F|
+|poke|p1|Quagsire, M|
+|poke|p1|Silvally-*|
+|poke|p1|Snorlax, M|
+|poke|p1|Ferroseed, M|
+|poke|p1|Xatu, M|
+|poke|p2|Inteleon, M|
+|poke|p2|Steelix, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Vileplume, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Snorlax, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆ASSOLO IL RE|7 losses eh bro
+|c|☆ASSOLO IL RE|big steppin
+|c|☆Macandchees3|ye ik lol
+|
+|start
+|switch|p1a: Pride|Ferroseed, M|100/100
+|switch|p2a: UGH GOREX|Rotom-Mow|100/100
+|turn|1
+|
+|move|p1a: Pride|Protect|p1a: Pride
+|-singleturn|p1a: Pride|Protect
+|move|p2a: UGH GOREX|Trick|p1a: Pride
+|-activate|p1a: Pride|move: Protect
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: UGH RAMO|Steelix, M|100/100
+|switch|p1a: Wrath|Silvally-Poison|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Wrath|Parting Shot|p2a: UGH RAMO
+|-unboost|p2a: UGH RAMO|atk|1
+|-unboost|p2a: UGH RAMO|spa|1
+|
+|switch|p1a: Greed|Xatu, M|100/100|[from]move: Parting Shot
+|move|p2a: UGH RAMO|Earthquake|p1a: Greed
+|-immune|p1a: Greed
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: UGH GXE|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: UGH GXE
+|move|p1a: Greed|Heat Wave|p2a: UGH GXE
+|-damage|p2a: UGH GXE|71/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: UGH GXE|Psychic|p1a: Greed
+|-resisted|p1a: Greed
+|-damage|p1a: Greed|47/100
+|move|p1a: Greed|Roost|p1a: Greed
+|-heal|p1a: Greed|97/100
+|-singleturn|p1a: Greed|move: Roost
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Pride|Ferroseed, M|100/100
+|move|p2a: UGH GXE|Psychic|p1a: Pride
+|-resisted|p1a: Pride
+|-damage|p1a: Pride|76/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: UGH KII|Vileplume, F|100/100
+|move|p1a: Pride|Knock Off|p2a: UGH KII
+|-damage|p2a: UGH KII|90/100
+|-enditem|p2a: UGH KII|Black Sludge|[from] move: Knock Off|[of] p1a: Pride
+|
+|upkeep
+|turn|8
+|
+|move|p2a: UGH KII|Growth|p2a: UGH KII
+|-boost|p2a: UGH KII|atk|1
+|-boost|p2a: UGH KII|spa|1
+|move|p1a: Pride|Stealth Rock|p2a: UGH KII
+|-sidestart|p2: ASSOLO IL RE|move: Stealth Rock
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|switch|p1a: Gluttony|Snorlax, M|100/100
+|move|p2a: UGH KII|Growth|p2a: UGH KII
+|-boost|p2a: UGH KII|atk|1
+|-boost|p2a: UGH KII|spa|1
+|
+|upkeep
+|turn|10
+|
+|move|p2a: UGH KII|Strength Sap|p1a: Gluttony
+|-unboost|p1a: Gluttony|atk|1
+|-heal|p2a: UGH KII|100/100
+|move|p1a: Gluttony|Whirlwind|p2a: UGH KII
+|drag|p2a: UGH GOREX|Rotom-Mow|100/100
+|-damage|p2a: UGH GOREX|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|move|p2a: UGH GOREX|Defog|p1a: Gluttony
+|-unboost|p1a: Gluttony|evasion|1
+|-sideend|p2: ASSOLO IL RE|Stealth Rock|[from] move: Defog|[of] p2a: UGH GOREX
+|move|p1a: Gluttony|Toxic|p2a: UGH GOREX
+|-status|p2a: UGH GOREX|tox
+|
+|-damage|p2a: UGH GOREX|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: UGH RAMO|Steelix, M|100/100
+|switch|p1a: Pride|Ferroseed, M|76/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: UGH RAMO|Earthquake|p1a: Pride
+|-damage|p1a: Pride|53/100
+|move|p1a: Pride|Knock Off|p2a: UGH RAMO
+|-damage|p2a: UGH RAMO|95/100
+|-enditem|p2a: UGH RAMO|Leftovers|[from] move: Knock Off|[of] p1a: Pride
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Greed|Xatu, M|97/100
+|move|p2a: UGH RAMO|Stealth Rock|p1a: Greed
+|move|p1a: Greed|Stealth Rock|p2a: UGH RAMO|[from]Magic Bounce
+|-sidestart|p2: ASSOLO IL RE|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Greed|Heat Wave|p2a: UGH RAMO
+|-supereffective|p2a: UGH RAMO
+|-damage|p2a: UGH RAMO|54/100
+|move|p2a: UGH RAMO|Stealth Rock|p1a: Greed
+|move|p1a: Greed|Stealth Rock||[from]Magic Bounce|[still]
+|-fail|p1a: Greed
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: UGH TREECKO|Snorlax, F|100/100
+|-damage|p2a: UGH TREECKO|88/100|[from] Stealth Rock
+|move|p1a: Greed|Psychic|p2a: UGH TREECKO
+|-crit|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|64/100
+|
+|-heal|p2a: UGH TREECKO|71/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Sloth|Quagsire, M|100/100
+|move|p2a: UGH TREECKO|Curse|p2a: UGH TREECKO
+|-unboost|p2a: UGH TREECKO|spe|1
+|-boost|p2a: UGH TREECKO|atk|1
+|-boost|p2a: UGH TREECKO|def|1
+|
+|-heal|p2a: UGH TREECKO|77/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Sloth|Scald|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|67/100
+|move|p2a: UGH TREECKO|Body Slam|p1a: Sloth
+|-damage|p1a: Sloth|75/100
+|
+|-heal|p1a: Sloth|81/100|[from] item: Leftovers
+|-heal|p2a: UGH TREECKO|73/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Sloth|Scald|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|64/100
+|move|p2a: UGH TREECKO|Body Slam|p1a: Sloth
+|-damage|p1a: Sloth|59/100
+|
+|-heal|p1a: Sloth|65/100|[from] item: Leftovers
+|-heal|p2a: UGH TREECKO|70/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Sloth|Recover|p1a: Sloth
+|-heal|p1a: Sloth|100/100
+|move|p2a: UGH TREECKO|Body Slam|p1a: Sloth
+|-damage|p1a: Sloth|76/100
+|
+|-heal|p1a: Sloth|82/100|[from] item: Leftovers
+|-heal|p2a: UGH TREECKO|76/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Sloth|Scald|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|67/100
+|move|p2a: UGH TREECKO|Rest|p2a: UGH TREECKO
+|-status|p2a: UGH TREECKO|slp|[from] move: Rest
+|-heal|p2a: UGH TREECKO|100/100 slp|[silent]
+|
+|-heal|p1a: Sloth|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Lust|Aromatisse, F|100/100
+|switch|p2a: UGH KII|Vileplume, F|100/100
+|-damage|p2a: UGH KII|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Wrath|Silvally-Poison|100/100
+|move|p2a: UGH KII|Sludge Bomb|p1a: Wrath
+|-resisted|p1a: Wrath
+|-damage|p1a: Wrath|87/100
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: UGH TREECKO|Snorlax, F|100/100 slp
+|-damage|p2a: UGH TREECKO|88/100 slp|[from] Stealth Rock
+|move|p1a: Wrath|Flamethrower|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|83/100 slp
+|
+|-heal|p2a: UGH TREECKO|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Wrath|Parting Shot|p2a: UGH TREECKO
+|-unboost|p2a: UGH TREECKO|atk|1
+|-unboost|p2a: UGH TREECKO|spa|1
+|
+|switch|p1a: Pride|Ferroseed, M|53/100|[from]move: Parting Shot
+|cant|p2a: UGH TREECKO|slp
+|
+|-heal|p2a: UGH TREECKO|95/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|cant|p2a: UGH TREECKO|slp
+|move|p1a: Pride|Knock Off|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|84/100 slp
+|-enditem|p2a: UGH TREECKO|Leftovers|[from] move: Knock Off|[of] p1a: Pride
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Sloth|Quagsire, M|88/100
+|-curestatus|p2a: UGH TREECKO|slp|[msg]
+|move|p2a: UGH TREECKO|Curse|p2a: UGH TREECKO
+|-unboost|p2a: UGH TREECKO|spe|1
+|-boost|p2a: UGH TREECKO|atk|1
+|-boost|p2a: UGH TREECKO|def|1
+|
+|-heal|p1a: Sloth|94/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Sloth|Earthquake|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|59/100
+|move|p2a: UGH TREECKO|Body Slam|p1a: Sloth
+|-damage|p1a: Sloth|73/100
+|
+|-heal|p1a: Sloth|79/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Sloth|Scald|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|50/100
+|-status|p2a: UGH TREECKO|brn
+|move|p2a: UGH TREECKO|Rest|p2a: UGH TREECKO
+|-status|p2a: UGH TREECKO|slp|[from] move: Rest
+|-heal|p2a: UGH TREECKO|100/100 slp|[silent]
+|
+|-heal|p1a: Sloth|85/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Lust|Aromatisse, F|100/100
+|switch|p2a: UGH GOREX|Rotom-Mow|82/100 tox
+|-damage|p2a: UGH GOREX|69/100 tox|[from] Stealth Rock
+|
+|-damage|p2a: UGH GOREX|63/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p2a: UGH KII|Vileplume, F|88/100
+|-damage|p2a: UGH KII|76/100|[from] Stealth Rock
+|move|p1a: Lust|Protect||[still]
+|-fail|p1a: Lust
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: UGH GXE|Indeedee, M|71/100
+|-damage|p2a: UGH GXE|59/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: UGH GXE
+|switch|p1a: Greed|Xatu, M|97/100
+|
+|upkeep
+|turn|33
+|
+|move|p2a: UGH GXE|Psyshock|p1a: Greed
+|-resisted|p1a: Greed
+|-damage|p1a: Greed|54/100
+|move|p1a: Greed|Heat Wave|p2a: UGH GXE
+|-damage|p2a: UGH GXE|33/100
+|
+|upkeep
+|turn|34
+|
+|move|p2a: UGH GXE|Psyshock|p1a: Greed
+|-resisted|p1a: Greed
+|-damage|p1a: Greed|10/100
+|move|p1a: Greed|Roost|p1a: Greed
+|-heal|p1a: Greed|60/100
+|-singleturn|p1a: Greed|move: Roost
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: Gluttony|Snorlax, M|100/100
+|move|p2a: UGH GXE|Psyshock|p1a: Gluttony
+|-crit|p1a: Gluttony
+|-damage|p1a: Gluttony|30/100
+|
+|-heal|p1a: Gluttony|36/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Lust|Aromatisse, F|100/100
+|move|p2a: UGH GXE|Psyshock|p1a: Lust
+|-damage|p1a: Lust|51/100
+|
+|-heal|p1a: Lust|57/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|37
+|
+|move|p2a: UGH GXE|Psyshock|p1a: Lust
+|-damage|p1a: Lust|17/100
+|move|p1a: Lust|Wish|p1a: Lust
+|
+|-heal|p1a: Lust|23/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: UGH KII|Vileplume, F|76/100
+|-damage|p2a: UGH KII|63/100|[from] Stealth Rock
+|move|p1a: Lust|Protect||[still]
+|-fail|p1a: Lust
+|
+|-heal|p1a: Lust|73/100|[from] move: Wish|[wisher] Lust
+|-heal|p1a: Lust|79/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Lust|Protect|p1a: Lust
+|-singleturn|p1a: Lust|Protect
+|move|p2a: UGH KII|Growth|p2a: UGH KII
+|-boost|p2a: UGH KII|atk|1
+|-boost|p2a: UGH KII|spa|1
+|
+|-heal|p1a: Lust|85/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p1a: Wrath|Silvally-Poison|87/100
+|move|p2a: UGH KII|Strength Sap|p1a: Wrath
+|-unboost|p1a: Wrath|atk|1
+|-heal|p2a: UGH KII|100/100
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Wrath|Flamethrower|p2a: UGH KII
+|-supereffective|p2a: UGH KII
+|-damage|p2a: UGH KII|58/100
+|move|p2a: UGH KII|Strength Sap|p1a: Wrath
+|-unboost|p1a: Wrath|atk|1
+|-heal|p2a: UGH KII|97/100
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Wrath|Flamethrower|p2a: UGH KII
+|-supereffective|p2a: UGH KII
+|-damage|p2a: UGH KII|57/100
+|move|p2a: UGH KII|Sludge Bomb|p1a: Wrath
+|-resisted|p1a: Wrath
+|-damage|p1a: Wrath|66/100
+|
+|upkeep
+|turn|43
+|
+|switch|p2a: UGH TREECKO|Snorlax, F|100/100 slp
+|-damage|p2a: UGH TREECKO|88/100 slp|[from] Stealth Rock
+|move|p1a: Wrath|Flamethrower|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|83/100 slp
+|
+|upkeep
+|turn|44
+|
+|switch|p2a: UGH KII|Vileplume, F|57/100
+|-damage|p2a: UGH KII|45/100|[from] Stealth Rock
+|move|p1a: Wrath|Parting Shot|p2a: UGH KII
+|-unboost|p2a: UGH KII|atk|1
+|-unboost|p2a: UGH KII|spa|1
+|
+|switch|p1a: Greed|Xatu, M|60/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|45
+|
+|switch|p2a: UGH SENSEI|Inteleon, M|100/100
+|-damage|p2a: UGH SENSEI|88/100|[from] Stealth Rock
+|move|p1a: Greed|Roost|p1a: Greed
+|-heal|p1a: Greed|100/100
+|-singleturn|p1a: Greed|move: Roost
+|
+|upkeep
+|turn|46
+|c|☆ASSOLO IL RE|if only
+|c|☆ASSOLO IL RE|i was specs
+|c|☆ASSOLO IL RE|FUCK
+|c|☆Macandchees3|LOL
+|c|☆ASSOLO IL RE|u dont even wanna know what ive done
+|c|☆ASSOLO IL RE|with this
+|
+|switch|p2a: UGH KII|Vileplume, F|45/100
+|-damage|p2a: UGH KII|32/100|[from] Stealth Rock
+|switch|p1a: Pride|Ferroseed, M|53/100
+|
+|upkeep
+|turn|47
+|
+|switch|p1a: Greed|Xatu, M|100/100
+|move|p2a: UGH KII|Sludge Bomb|p1a: Greed
+|-damage|p1a: Greed|55/100
+|-status|p1a: Greed|psn
+|
+|-damage|p1a: Greed|42/100 psn|[from] psn
+|upkeep
+|turn|48
+|j| UULT4 ICY
+|c| UULT4 ICY|UGH KII
+|
+|switch|p2a: UGH GXE|Indeedee, M|33/100
+|-damage|p2a: UGH GXE|21/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: UGH GXE
+|move|p1a: Greed|Roost|p1a: Greed
+|-heal|p1a: Greed|92/100 psn
+|-singleturn|p1a: Greed|move: Roost
+|
+|-damage|p1a: Greed|80/100 psn|[from] psn
+|upkeep
+|turn|49
+|
+|move|p2a: UGH GXE|Trick|p1a: Greed
+|-activate|p2a: UGH GXE|move: Trick|[of] p1a: Greed
+|-item|p1a: Greed|Choice Specs|[from] move: Trick
+|-item|p2a: UGH GXE|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Greed|Heat Wave|p2a: UGH GXE
+|-damage|p2a: UGH GXE|0 fnt
+|faint|p2a: UGH GXE
+|
+|-damage|p1a: Greed|68/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: UGH GOREX|Rotom-Mow|63/100 tox
+|-damage|p2a: UGH GOREX|51/100 tox|[from] Stealth Rock
+|turn|50
+|
+|move|p2a: UGH GOREX|Leaf Storm|p1a: Greed
+|-resisted|p1a: Greed
+|-damage|p1a: Greed|28/100 psn
+|-unboost|p2a: UGH GOREX|spa|2
+|move|p1a: Greed|Heat Wave|p2a: UGH GOREX
+|-supereffective|p2a: UGH GOREX
+|-damage|p2a: UGH GOREX|0 fnt
+|faint|p2a: UGH GOREX
+|
+|-damage|p1a: Greed|16/100 psn|[from] psn
+|upkeep
+|c|☆ASSOLO IL RE|bruh
+|
+|switch|p2a: UGH TREECKO|Snorlax, F|83/100 slp
+|-damage|p2a: UGH TREECKO|70/100 slp|[from] Stealth Rock
+|turn|51
+|
+|switch|p1a: Lust|Aromatisse, F|85/100
+|cant|p2a: UGH TREECKO|slp
+|
+|-heal|p1a: Lust|92/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|cant|p2a: UGH TREECKO|slp
+|move|p1a: Lust|Wish|p1a: Lust
+|
+|-heal|p1a: Lust|98/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|53
+|
+|switch|p1a: Pride|Ferroseed, M|53/100
+|-curestatus|p2a: UGH TREECKO|slp|[msg]
+|move|p2a: UGH TREECKO|Heat Crash|p1a: Pride
+|-supereffective|p1a: Pride
+|-damage|p1a: Pride|0 fnt
+|-damage|p2a: UGH TREECKO|58/100|[from] ability: Iron Barbs|[of] p1a: Pride
+|faint|p1a: Pride
+|
+|upkeep
+|
+|switch|p1a: Gluttony|Snorlax, M|36/100
+|turn|54
+|
+|move|p2a: UGH TREECKO|Body Slam|p1a: Gluttony
+|-damage|p1a: Gluttony|16/100
+|move|p1a: Gluttony|Rest|p1a: Gluttony
+|-status|p1a: Gluttony|slp|[from] move: Rest
+|-heal|p1a: Gluttony|100/100 slp|[silent]
+|
+|upkeep
+|turn|55
+|
+|cant|p1a: Gluttony|slp
+|move|p2a: UGH TREECKO|Rest|p2a: UGH TREECKO
+|-status|p2a: UGH TREECKO|slp|[from] move: Rest
+|-heal|p2a: UGH TREECKO|100/100 slp|[silent]
+|
+|upkeep
+|turn|56
+|
+|switch|p2a: UGH RAMO|Steelix, M|54/100
+|-damage|p2a: UGH RAMO|51/100|[from] Stealth Rock
+|cant|p1a: Gluttony|slp
+|
+|upkeep
+|turn|57
+|
+|move|p2a: UGH RAMO|Stealth Rock|p1a: Gluttony
+|-sidestart|p1: Macandchees3|move: Stealth Rock
+|-curestatus|p1a: Gluttony|slp|[msg]
+|move|p1a: Gluttony|Earthquake|p2a: UGH RAMO
+|-supereffective|p2a: UGH RAMO
+|-damage|p2a: UGH RAMO|26/100
+|
+|upkeep
+|turn|58
+|
+|switch|p2a: UGH SENSEI|Inteleon, M|88/100
+|-damage|p2a: UGH SENSEI|76/100|[from] Stealth Rock
+|move|p1a: Gluttony|Earthquake|p2a: UGH SENSEI
+|-damage|p2a: UGH SENSEI|39/100
+|
+|upkeep
+|turn|59
+|
+|move|p2a: UGH SENSEI|Swords Dance|p2a: UGH SENSEI
+|-boost|p2a: UGH SENSEI|atk|2
+|move|p1a: Gluttony|Earthquake|p2a: UGH SENSEI
+|-damage|p2a: UGH SENSEI|0 fnt
+|faint|p2a: UGH SENSEI
+|
+|upkeep
+|
+|switch|p2a: UGH KII|Vileplume, F|32/100
+|-damage|p2a: UGH KII|20/100|[from] Stealth Rock
+|turn|60
+|c|☆Macandchees3|rolls suck huh
+|
+|switch|p1a: Greed|Xatu, M|16/100 psn
+|-damage|p1a: Greed|0 fnt|[from] Stealth Rock
+|faint|p1a: Greed
+|move|p2a: UGH KII|Strength Sap|p1: Greed|[notarget]
+|-fail|p2a: UGH KII
+|
+|upkeep
+|c|☆ASSOLO IL RE|ye
+|
+|switch|p1a: Wrath|Silvally-Poison|66/100
+|-damage|p1a: Wrath|54/100|[from] Stealth Rock
+|turn|61
+|c|☆ASSOLO IL RE|its ok
+|c|☆ASSOLO IL RE|i knew u were shitting ur pants
+|c|☆ASSOLO IL RE|at least a little bit this agme
+|c|☆ASSOLO IL RE|game
+|c|☆Macandchees3|yeah the double trick
+|c|☆Macandchees3|couldve been big problems
+|
+|switch|p2a: UGH TREECKO|Snorlax, F|100/100 slp
+|-damage|p2a: UGH TREECKO|88/100 slp|[from] Stealth Rock
+|move|p1a: Wrath|Flamethrower|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|83/100 slp
+|
+|upkeep
+|turn|62
+|
+|move|p1a: Wrath|Multi-Attack|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|57/100 slp
+|cant|p2a: UGH TREECKO|slp
+|
+|upkeep
+|turn|63
+|
+|move|p1a: Wrath|Multi-Attack|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|29/100 slp
+|cant|p2a: UGH TREECKO|slp
+|
+|upkeep
+|turn|64
+|
+|move|p1a: Wrath|Multi-Attack|p2a: UGH TREECKO
+|-damage|p2a: UGH TREECKO|0 fnt
+|faint|p2a: UGH TREECKO
+|
+|upkeep
+|c|☆Macandchees3|gg
+|
+|switch|p2a: UGH RAMO|Steelix, M|26/100
+|-damage|p2a: UGH RAMO|23/100|[from] Stealth Rock
+|turn|65
+|
+|move|p1a: Wrath|Flamethrower|p2a: UGH RAMO
+|-supereffective|p2a: UGH RAMO
+|-damage|p2a: UGH RAMO|0 fnt
+|faint|p2a: UGH RAMO
+|
+|upkeep
+|c|☆ASSOLO IL RE|gg\
+|-message|ASSOLO IL RE forfeited.
+|
+|win|Macandchees3
+|l|☆ASSOLO IL RE
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

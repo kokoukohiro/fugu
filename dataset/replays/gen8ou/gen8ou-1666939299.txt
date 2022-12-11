@@ -1,0 +1,514 @@
+|j|☆jacksonjack
+|j|☆2(H2O)
+|t:|1663461151
+|gametype|singles
+|player|p1|jacksonjack|2|1803
+|player|p2|2(H2O)|chase|1729
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Clefable, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Mew|
+|poke|p1|Rotom-Wash|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|poke|p2|Melmetal|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 2(H2O))
+|
+|t:|1663461190
+|start
+|switch|p1a: Phantom|Rotom-Wash, shiny|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|t:|1663461203
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|switch|p1a: Crescent|Clefable, M, shiny|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1663461209
+|move|p1a: Crescent|Stealth Rock|p2a: Tangrowth
+|-sidestart|p2: 2(H2O)|move: Stealth Rock
+|move|p2a: Tangrowth|Sleep Powder|p1a: Crescent
+|-status|p1a: Crescent|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+|
+|t:|1663461213
+|cant|p1a: Crescent|slp
+|move|p2a: Tangrowth|Knock Off|p1a: Crescent
+|-resisted|p1a: Crescent
+|-damage|p1a: Crescent|92/100 slp
+|-damage|p2a: Tangrowth|84/100|[from] item: Rocky Helmet|[of] p1a: Crescent
+|-enditem|p1a: Crescent|Rocky Helmet|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|4
+|
+|t:|1663461220
+|cant|p1a: Crescent|slp
+|move|p2a: Tangrowth|Giga Drain|p1a: Crescent
+|-damage|p1a: Crescent|66/100 slp
+|-heal|p2a: Tangrowth|97/100|[from] drain|[of] p1a: Crescent
+|
+|upkeep
+|turn|5
+|
+|t:|1663461225
+|cant|p1a: Crescent|slp
+|move|p2a: Tangrowth|Giga Drain|p1a: Crescent
+|-damage|p1a: Crescent|41/100 slp
+|-heal|p2a: Tangrowth|100/100|[from] drain|[of] p1a: Crescent
+|
+|upkeep
+|turn|6
+|
+|t:|1663461240
+|-curestatus|p1a: Crescent|slp|[msg]
+|move|p1a: Crescent|Soft-Boiled|p1a: Crescent
+|-heal|p1a: Crescent|91/100
+|move|p2a: Tangrowth|Sleep Powder|p1a: Crescent
+|-status|p1a: Crescent|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|7
+|
+|t:|1663461251
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Crescent|atk|1
+|cant|p1a: Crescent|slp
+|
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1663461254
+|move|p2a: Landorus|Defog|p1a: Crescent
+|-unboost|p1a: Crescent|evasion|1
+|-sideend|p2: 2(H2O)|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|cant|p1a: Crescent|slp
+|
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|j| Birnenbert
+|
+|t:|1663461259
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|cant|p1a: Crescent|slp
+|
+|upkeep
+|turn|10
+|
+|t:|1663461264
+|switch|p1a: Phantom|Rotom-Wash, shiny|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Phantom
+|-sidestart|p1: jacksonjack|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1663461286
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Phantom|Hydro Pump|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|80/100
+|
+|-heal|p2a: Rotom|86/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1663461291
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: Phantom|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p2a: Rotom|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|86/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1663461299
+|move|p2a: Rotom|Thunderbolt|p1a: Phantom
+|-damage|p1a: Phantom|44/100
+|move|p1a: Phantom|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|62/100 tox
+|
+|t:|1663461304
+|switch|p1a: Chaos|Mew, shiny|100/100|[from]move: Volt Switch
+|-damage|p1a: Chaos|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Rotom|68/100 tox|[from] item: Leftovers
+|-heal|p1a: Chaos|94/100|[from] item: Leftovers
+|-damage|p2a: Rotom|55/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1663461318
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Chaos|Knock Off|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|82/100
+|-enditem|p2a: Weavile|Choice Band|[from] move: Knock Off|[of] p1a: Chaos
+|
+|-heal|p1a: Chaos|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1663461329
+|switch|p1a: Crescent|Clefable, M, shiny|91/100 slp
+|move|p2a: Weavile|Knock Off|p1a: Crescent
+|-resisted|p1a: Crescent
+|-damage|p1a: Crescent|79/100 slp
+|
+|upkeep
+|turn|16
+|
+|t:|1663461335
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|-curestatus|p1a: Crescent|slp|[msg]
+|move|p1a: Crescent|Stealth Rock|p2a: Heatran
+|-sidestart|p2: 2(H2O)|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1663461341
+|switch|p1a: Phantom|Rotom-Wash, shiny|44/100
+|-damage|p1a: Phantom|32/100|[from] Stealth Rock
+|move|p2a: Heatran|Eruption|p1a: Phantom
+|-resisted|p1a: Phantom
+|-damage|p1a: Phantom|0 fnt
+|faint|p1a: Phantom
+|
+|upkeep
+|
+|t:|1663461347
+|switch|p1a: Rex|Tyranitar, M, shiny|100/100
+|-damage|p1a: Rex|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Rex
+|turn|18
+|
+|t:|1663461353
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|move|p1a: Rex|Superpower|p2a: Tangrowth
+|-damage|p2a: Tangrowth|51/100
+|-unboost|p1a: Rex|atk|1
+|-unboost|p1a: Rex|def|1
+|-damage|p1a: Rex|72/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tangrowth|45/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1663461374
+|switch|p1a: Ramen|Tangrowth, M, shiny|100/100
+|-damage|p1a: Ramen|88/100|[from] Stealth Rock
+|move|p2a: Tangrowth|Sleep Powder|p1a: Ramen
+|-immune|p1a: Ramen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramen|82/100|[from] Sandstorm
+|-damage|p2a: Tangrowth|39/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1663461387
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Ramen|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|28/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ramen|76/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1663461395
+|switch|p1a: Chaos|Mew, shiny|100/100
+|-damage|p1a: Chaos|88/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Chaos
+|-crit|p1a: Chaos
+|-damage|p1a: Chaos|44/100
+|-activate|p1a: Chaos|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chaos|38/100|[from] Sandstorm
+|-heal|p1a: Chaos|44/100|[from] item: Leftovers
+|-damage|p1a: Chaos|32/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|t:|1663461419
+|move|p2a: Heatran|Magma Storm|p1a: Chaos
+|-damage|p1a: Chaos|0 fnt
+|faint|p1a: Chaos
+|
+|-weather|none
+|upkeep
+|inactive|jacksonjack has 120 seconds left.
+|
+|t:|1663461439
+|switch|p1a: Rex|Tyranitar, M, shiny|72/100
+|-damage|p1a: Rex|59/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Rex
+|turn|23
+|j| Badooongo
+|inactive|2(H2O) has 120 seconds left.
+|
+|t:|1663461476
+|switch|p2a: Tangrowth|Tangrowth, F|72/100
+|-damage|p2a: Tangrowth|60/100|[from] Stealth Rock
+|move|p1a: Rex|Assurance|p2a: Tangrowth
+|-damage|p2a: Tangrowth|5/100
+|-damage|p1a: Rex|43/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tangrowth|0 fnt|[from] Sandstorm
+|faint|p2a: Tangrowth
+|upkeep
+|
+|t:|1663461487
+|switch|p2a: Rotom|Rotom-Wash|55/100 tox
+|-damage|p2a: Rotom|43/100 tox|[from] Stealth Rock
+|turn|24
+|
+|t:|1663461495
+|switch|p1a: Ramen|Tangrowth, M, shiny|100/100
+|-damage|p1a: Ramen|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Ramen
+|-resisted|p1a: Ramen
+|-damage|p1a: Ramen|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|37/100 tox|[from] Sandstorm
+|-damage|p1a: Ramen|53/100|[from] Sandstorm
+|-heal|p2a: Rotom|43/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|37/100 tox|[from] psn
+|upkeep
+|turn|25
+|inactive|2(H2O) has 120 seconds left.
+|j| rdieu
+|
+|t:|1663461505
+|move|p2a: Rotom|Hydro Pump|p1a: Ramen
+|-resisted|p1a: Ramen
+|-damage|p1a: Ramen|20/100
+|move|p1a: Ramen|Focus Blast|p2a: Rotom|[miss]
+|-miss|p1a: Ramen|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|30/100 tox|[from] Sandstorm
+|-damage|p1a: Ramen|14/100|[from] Sandstorm
+|-heal|p2a: Rotom|37/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|24/100 tox|[from] psn
+|upkeep
+|turn|26
+|inactive|2(H2O) has 120 seconds left.
+|
+|t:|1663461519
+|switch|p2a: Melmetal|Melmetal|100/100
+|-damage|p2a: Melmetal|94/100|[from] Stealth Rock
+|switch|p1a: Crescent|Clefable, M, shiny|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1663461527
+|switch|p1a: Ramen|Tangrowth, M, shiny|47/100
+|-damage|p1a: Ramen|35/100|[from] Stealth Rock
+|move|p2a: Melmetal|Double Iron Bash|p1a: Ramen
+|-damage|p1a: Ramen|13/100
+|-damage|p2a: Melmetal|78/100|[from] item: Rocky Helmet|[of] p1a: Ramen
+|-damage|p1a: Ramen|0 fnt
+|-damage|p2a: Melmetal|61/100|[from] item: Rocky Helmet|[of] p1a: Ramen
+|faint|p1a: Ramen
+|-hitcount|p1: Ramen|2
+|
+|-weather|none
+|upkeep
+|
+|t:|1663461533
+|switch|p1a: Impaler|Excadrill, M, shiny|100/100
+|-damage|p1a: Impaler|97/100|[from] Stealth Rock
+|turn|28
+|j| test781871
+|
+|t:|1663461552
+|switch|p2a: Landorus|Landorus-Therian, M|99/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Impaler|atk|1
+|move|p1a: Impaler|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p1a: Impaler|100/100|[from] item: Leftovers
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1663461555
+|switch|p1a: Crescent|Clefable, M, shiny|79/100
+|move|p2a: Landorus|Defog|p1a: Crescent
+|-unboost|p1a: Crescent|evasion|1
+|-sideend|p1: jacksonjack|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|-sideend|p2: 2(H2O)|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1663461579
+|move|p2a: Landorus|Earthquake|p1a: Crescent
+|-damage|p1a: Crescent|44/100
+|move|p1a: Crescent|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|85/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Crescent
+|
+|upkeep
+|turn|31
+|
+|t:|1663461584
+|move|p2a: Landorus|U-turn|p1a: Crescent
+|-resisted|p1a: Crescent
+|-damage|p1a: Crescent|36/100
+|
+|t:|1663461587
+|switch|p2a: Melmetal|Melmetal|61/100|[from]move: U-turn
+|move|p1a: Crescent|Soft-Boiled|p1a: Crescent
+|-heal|p1a: Crescent|86/100
+|
+|upkeep
+|turn|32
+|
+|t:|1663461599
+|move|p1a: Crescent|Stealth Rock|p2a: Melmetal
+|-sidestart|p2: 2(H2O)|move: Stealth Rock
+|move|p2a: Melmetal|Double Iron Bash|p1a: Crescent
+|-supereffective|p1a: Crescent
+|-damage|p1a: Crescent|29/100
+|-supereffective|p1a: Crescent
+|-damage|p1a: Crescent|0 fnt
+|faint|p1a: Crescent
+|-hitcount|p1: Crescent|2
+|
+|upkeep
+|
+|t:|1663461602
+|switch|p1a: Impaler|Excadrill, M, shiny|100/100
+|turn|33
+|
+|t:|1663461611
+|switch|p2a: Heatran|Heatran, M|28/100
+|-damage|p2a: Heatran|16/100|[from] Stealth Rock
+|move|p1a: Impaler|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1663461617
+|switch|p2a: Weavile|Weavile, F|82/100
+|-damage|p2a: Weavile|57/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|34
+|
+|t:|1663461630
+|switch|p1a: Rex|Tyranitar, M, shiny|43/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Rex
+|move|p2a: Weavile|Triple Axel|p1a: Rex
+|-damage|p1a: Rex|34/100
+|-damage|p1a: Rex|16/100
+|-damage|p1a: Rex|0 fnt
+|faint|p1a: Rex
+|-hitcount|p1: Rex|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|51/100|[from] Sandstorm
+|upkeep
+|
+|t:|1663461632
+|switch|p1a: Impaler|Excadrill, M, shiny|100/100
+|turn|35
+|
+|t:|1663461641
+|move|p1a: Impaler|Swords Dance|p1a: Impaler
+|-boost|p1a: Impaler|atk|2
+|move|p2a: Weavile|Triple Axel|p1a: Impaler
+|-damage|p1a: Impaler|86/100
+|-hitcount|p1a: Impaler|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|45/100|[from] Sandstorm
+|-heal|p1a: Impaler|92/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|jacksonjack has 120 seconds left.
+|
+|t:|1663461677
+|move|p1a: Impaler|Rapid Spin|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-boost|p1a: Impaler|spe|1
+|faint|p2a: Weavile
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Impaler|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1663461688
+|switch|p2a: Landorus|Landorus-Therian, M|85/100
+|-damage|p2a: Landorus|73/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Impaler|atk|1
+|turn|37
+|
+|t:|1663461690
+|move|p1a: Impaler|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|9/100
+|move|p2a: Landorus|Earthquake|p1a: Impaler
+|-supereffective|p1a: Impaler
+|-damage|p1a: Impaler|0 fnt
+|faint|p1a: Impaler
+|
+|win|2(H2O)
+|raw|jacksonjack's rating: 1803 &rarr; <strong>1779</strong><br />(-24 for losing)
+|raw|2(H2O)'s rating: 1729 &rarr; <strong>1753</strong><br />(+24 for winning)
+|c|☆2(H2O)|gg
+|l|☆jacksonjack
+|c|☆2(H2O)|wp
+|l| rdieu

@@ -1,0 +1,236 @@
+|j|☆big boss 447
+|j|‽Lucky Noob No Mom
+|player|p1|big boss 447|76|1764
+|player|p2|Lucky Noob No Mom|roughneck|1790
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Bisharp, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Clefable, F|
+|poke|p1|Zeraora|
+|poke|p2|Cobalion|
+|poke|p2|Zeraora|
+|poke|p2|Gengar, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Mimikyu, F|
+|poke|p2|Flygon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| HELPINGHANSVIB
+|j| pilidiguiti
+|
+|start
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|move|p2a: Araquanid|Magic Coat|p2a: Araquanid
+|-singleturn|p2a: Araquanid|move: Magic Coat
+|move|p1a: Kommo-o|Taunt|p2a: Araquanid
+|move|p2a: Araquanid|Taunt|p1a: Kommo-o|[from]Magic Coat
+|-start|p1a: Kommo-o|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Araquanid|Sticky Web|p1a: Clefable
+|-sidestart|p1: big boss 447|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Clefable|Moonblast|p2a: Araquanid
+|-damage|p2a: Araquanid|49/100
+|-unboost|p2a: Araquanid|spa|1
+|move|p2a: Araquanid|Liquidation|p1a: Clefable
+|-damage|p1a: Clefable|14/100
+|
+|upkeep
+|turn|4
+|j| outj saas
+|
+|move|p1a: Clefable|Moonblast|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|j| Vetoqh
+|
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|5
+|l|vetoqh
+|
+|move|p2a: Flygon|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Flygon|91/100|[from] item: Life Orb
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|-activate|p1a: Kommo-o|move: Sticky Web
+|-unboost|p1a: Kommo-o|spe|1
+|turn|6
+|
+|move|p2a: Flygon|Dragon Claw|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|45/100
+|-damage|p2a: Flygon|81/100|[from] item: Life Orb
+|move|p1a: Kommo-o|Body Press|p2a: Flygon
+|-damage|p2a: Flygon|22/100
+|
+|-heal|p1a: Kommo-o|51/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|-activate|p1a: Mimikyu|move: Sticky Web
+|-unboost|p1a: Mimikyu|spe|1
+|move|p2a: Flygon|Dragon Claw|p1a: Mimikyu
+|-immune|p1a: Mimikyu
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Cobalion
+|-damage|p2a: Cobalion|88/100
+|-damage|p1a: Mimikyu|84/100|[from] item: Rocky Helmet|[of] p2a: Cobalion
+|-damage|p1a: Mimikyu|74/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Kommo-o|Kommo-o, M|51/100
+|-activate|p1a: Kommo-o|move: Sticky Web
+|-unboost|p1a: Kommo-o|spe|1
+|move|p2a: Cobalion|Stealth Rock|p1a: Kommo-o
+|-sidestart|p1: big boss 447|move: Stealth Rock
+|
+|-heal|p1a: Kommo-o|57/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Cobalion|Taunt|p1a: Kommo-o
+|-start|p1a: Kommo-o|move: Taunt
+|cant|p1a: Kommo-o|move: Taunt|Stealth Rock
+|
+|-heal|p1a: Kommo-o|63/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Cobalion|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|56/100
+|
+|switch|p2a: Flygon|Flygon, F|22/100|[from]move: Volt Switch
+|move|p1a: Kommo-o|Flamethrower|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|7/100
+|
+|-heal|p1a: Kommo-o|63/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Flygon|Dragon Claw|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-damage|p2a: Flygon|0 fnt|[from] item: Life Orb
+|faint|p1a: Kommo-o
+|faint|p2a: Flygon
+|
+|upkeep
+|j| OriginalGodX
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|switch|p1a: Zeraora|Zeraora|100/100
+|-activate|p1a: Zeraora|move: Sticky Web
+|-unboost|p1a: Zeraora|spe|1
+|-damage|p1a: Zeraora|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Zeraora|Knock Off|p1a: Zeraora
+|-damage|p1a: Zeraora|32/100
+|-enditem|p1a: Zeraora|Life Orb|[from] move: Knock Off|[of] p2a: Zeraora
+|-damage|p2a: Zeraora|91/100|[from] item: Life Orb
+|move|p1a: Zeraora|Close Combat|p2a: Zeraora
+|-damage|p2a: Zeraora|37/100
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Zeraora|Knock Off|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|-damage|p2a: Zeraora|28/100|[from] item: Life Orb
+|faint|p1a: Zeraora
+|
+|upkeep
+|l| OriginalGodX
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|-item|p1a: Aegislash|Air Balloon
+|turn|15
+|
+|move|p2a: Zeraora|Knock Off|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|20/100
+|-enditem|p1a: Aegislash|Air Balloon
+|-damage|p2a: Zeraora|18/100|[from] item: Life Orb
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|faint|p2a: Zeraora
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|16
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-activate|p1a: Bisharp|move: Sticky Web
+|-unboost|p1a: Bisharp|spe|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|-damage|p1a: Bisharp|94/100|[from] Stealth Rock
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|81/100
+|-damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Mimikyu|Drain Punch|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-heal|p2a: Mimikyu|100/100|[from] drain|[of] p1a: Bisharp
+|-damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+|faint|p1a: Bisharp
+|
+|upkeep
+|-message|big boss 447 forfeited.
+|
+|win|Lucky Noob No Mom
+|l|☆big boss 447
+|raw|big boss 447's rating: 1765 &rarr; <strong>1746</strong><br />(-19 for losing)
+|raw|Lucky Noob No Mom's rating: 1790 &rarr; <strong>1808</strong><br />(+18 for winning)

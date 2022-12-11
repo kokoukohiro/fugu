@@ -1,0 +1,578 @@
+|j|☆airborne brick
+|j|☆Boost Swoosh
+|t:|1603237739
+|player|p1|airborne brick|tate|1620
+|player|p2|Boost Swoosh|teamrocket|1568
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Chansey, F|
+|poke|p1|Pyukumuku, F|
+|poke|p1|Noivern, M|
+|poke|p1|Slowking, M|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Tangela, F|
+|poke|p2|Raichu-Alola, F|
+|poke|p2|Pincurchin, M|
+|poke|p2|Necrozma|
+|poke|p2|Blastoise, F|
+|poke|p2|Talonflame, F|
+|poke|p2|Zarude|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Boost Swoosh)
+|j| wuhoodude
+|c| wuhoodude|gross
+|inactive|Boost Swoosh has 120 seconds left.
+|c|☆airborne brick|yeah
+|c|☆airborne brick|i wanted to try to build a good stall before dlc2
+|
+|t:|1603237800
+|start
+|switch|p1a: Chansey|Chansey, F|100/100
+|switch|p2a: Zarude|Zarude|100/100
+|turn|1
+|
+|t:|1603237813
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Zarude|Close Combat|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|94/100
+|-unboost|p2a: Zarude|def|1
+|-unboost|p2a: Zarude|spd|1
+|
+|-heal|p1a: Weezing|99/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1603237833
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|move|p1a: Weezing|Corrosive Gas|p2a: Pincurchin
+|-enditem|p2a: Pincurchin|Terrain Extender|[from] move: Corrosive Gas|[of] p1a: Weezing
+|
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1603237844
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Pincurchin|Spikes|p1a: Chansey
+|-sidestart|p1: airborne brick|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1603237855
+|switch|p2a: Zarude|Zarude|100/100
+|move|p1a: Chansey|Toxic|p2a: Zarude
+|-status|p2a: Zarude|tox
+|-enditem|p2a: Zarude|Lum Berry|[eat]
+|-curestatus|p2a: Zarude|tox|[msg]
+|
+|upkeep
+|turn|5
+|
+|t:|1603237865
+|switch|p1a: Tangela|Tangela, F|100/100
+|-damage|p1a: Tangela|88/100|[from] Spikes
+|move|p2a: Zarude|U-turn|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|66/100
+|
+|t:|1603237873
+|switch|p2a: Talonflame|Talonflame, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|t:|1603237879
+|switch|p1a: Pyukumuku|Pyukumuku, F|100/100
+|move|p2a: Talonflame|U-turn|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|88/100
+|
+|t:|1603237884
+|switch|p2a: Raichu|Raichu-Alola, F, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1603237887
+|switch|p1a: Chansey|Chansey, F|100/100
+|-damage|p1a: Chansey|88/100|[from] Spikes
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|2
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|8
+|
+|t:|1603237890
+|move|p2a: Raichu|Psyshock|p1a: Chansey
+|-damage|p1a: Chansey|42/100
+|move|p1a: Chansey|Toxic|p2a: Raichu
+|-status|p2a: Raichu|tox
+|
+|-damage|p2a: Raichu|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1603237906
+|switch|p1a: Pyukumuku|Pyukumuku, F|88/100
+|move|p2a: Raichu|Psyshock|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|64/100
+|
+|-damage|p2a: Raichu|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1603237925
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|switch|p1a: Tangela|Tangela, F|99/100
+|-damage|p1a: Tangela|87/100|[from] Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1603237938
+|move|p2a: Talonflame|U-turn|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|71/100
+|
+|t:|1603237940
+|switch|p2a: Zarude|Zarude|100/100|[from]move: U-turn
+|move|p1a: Tangela|Knock Off|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|97/100
+|
+|upkeep
+|turn|12
+|
+|t:|1603237954
+|move|p2a: Zarude|Throat Chop|p1a: Tangela
+|-damage|p1a: Tangela|53/100
+|-start|p1a: Tangela|Throat Chop|[silent]
+|move|p1a: Tangela|Leech Seed|p2a: Zarude
+|-immune|p2a: Zarude
+|
+|upkeep
+|turn|13
+|
+|t:|1603237965
+|move|p2a: Zarude|U-turn|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|31/100
+|
+|t:|1603237969
+|switch|p2a: Pincurchin|Pincurchin, M|100/100|[from]move: U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Tangela|Leech Seed|p2a: Pincurchin
+|-start|p2a: Pincurchin|move: Leech Seed
+|
+|-damage|p2a: Pincurchin|88/100|[from] Leech Seed|[of] p1a: Tangela
+|-heal|p1a: Tangela|42/100|[silent]
+|-end|p1a: Tangela|Throat Chop|[silent]
+|upkeep
+|turn|14
+|
+|t:|1603237984
+|switch|p1a: Chansey|Chansey, F|42/100
+|-damage|p1a: Chansey|29/100|[from] Spikes
+|switch|p2a: Zarude|Zarude|97/100
+|
+|upkeep
+|turn|15
+|
+|t:|1603238000
+|switch|p1a: Noivern|Noivern, M|100/100
+|move|p2a: Zarude|Close Combat|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|73/100
+|-unboost|p2a: Zarude|def|1
+|-unboost|p2a: Zarude|spd|1
+|
+|upkeep
+|turn|16
+|inactive|Boost Swoosh has 120 seconds left.
+|
+|t:|1603238056
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|move|p1a: Noivern|Defog|p2a: Talonflame
+|-unboost|p2a: Talonflame|evasion|1
+|-sideend|p1: airborne brick|Spikes|[from] move: Defog|[of] p1a: Noivern
+|-fieldend|move: Electric Terrain
+|
+|upkeep
+|turn|17
+|inactive|Boost Swoosh has 90 seconds left.
+|
+|t:|1603238083
+|switch|p1a: Pyukumuku|Pyukumuku, F|64/100
+|move|p2a: Talonflame|Brave Bird|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|36/100
+|-damage|p2a: Talonflame|90/100|[from] Recoil
+|
+|upkeep
+|turn|18
+|inactive|Boost Swoosh has 90 seconds left.
+|
+|t:|1603238094
+|move|p2a: Talonflame|U-turn|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|23/100
+|
+|t:|1603238103
+|switch|p2a: Pincurchin|Pincurchin, M|88/100|[from]move: U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|73/100
+|
+|upkeep
+|turn|19
+|inactive|Boost Swoosh has 90 seconds left.
+|j| BuckWheatav
+|
+|t:|1603238115
+|switch|p2a: Zarude|Zarude|97/100
+|switch|p1a: Chansey|Chansey, F|29/100
+|
+|upkeep
+|turn|20
+|
+|t:|1603238129
+|switch|p1a: Noivern|Noivern, M|73/100
+|move|p2a: Zarude|Throat Chop|p1a: Noivern
+|-damage|p1a: Noivern|22/100
+|-start|p1a: Noivern|Throat Chop|[silent]
+|
+|upkeep
+|turn|21
+|inactive|Boost Swoosh has 90 seconds left.
+|
+|t:|1603238162
+|switch|p2a: Blastoise|Blastoise, F, shiny|100/100
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|72/100
+|-singleturn|p1a: Noivern|move: Roost
+|
+|-end|p1a: Noivern|Throat Chop|[silent]
+|upkeep
+|turn|22
+|
+|t:|1603238170
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Blastoise|Flip Turn|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|94/100
+|
+|t:|1603238190
+|switch|p2a: Raichu|Raichu-Alola, F, shiny|82/100 tox|[from]move: Flip Turn
+|
+|-damage|p2a: Raichu|76/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|23
+|
+|t:|1603238199
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|2
+|move|p1a: Slowking|Scald|p2a: Raichu
+|-damage|p2a: Raichu|33/100 tox
+|
+|-damage|p2a: Raichu|21/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1603238228
+|switch|p1a: Tangela|Tangela, F|75/100
+|move|p2a: Raichu|Rising Voltage|p1a: Tangela
+|-resisted|p1a: Tangela
+|-crit|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|-damage|p2a: Raichu|3/100 tox|[from] psn
+|upkeep
+|
+|t:|1603238231
+|switch|p1a: Noivern|Noivern, M|72/100
+|turn|25
+|
+|t:|1603238236
+|move|p1a: Noivern|Flamethrower|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|upkeep
+|inactive|Boost Swoosh has 90 seconds left.
+|
+|t:|1603238259
+|switch|p2a: Talonflame|Talonflame, F|90/100
+|turn|26
+|inactive|Boost Swoosh has 90 seconds left.
+|
+|t:|1603238282
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Talonflame|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|98/100
+|
+|t:|1603238296
+|switch|p2a: Necrozma|Necrozma|100/100|[from]move: U-turn
+|
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|t:|1603238304
+|switch|p2a: Zarude|Zarude|97/100
+|switch|p1a: Slowking|Slowking, M|100/100
+|
+|upkeep
+|turn|28
+|
+|t:|1603238312
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Zarude|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|97/100
+|
+|t:|1603238323
+|switch|p2a: Pincurchin|Pincurchin, M|88/100|[from]move: U-turn
+|
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|t:|1603238340
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|switch|p1a: Chansey|Chansey, F|29/100
+|switch|p2a: Talonflame|Talonflame, F|90/100
+|
+|upkeep
+|turn|30
+|inactive|airborne brick has 120 seconds left.
+|inactive|airborne brick has 90 seconds left.
+|
+|t:|1603238407
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Talonflame|Brave Bird|p1a: Weezing
+|-damage|p1a: Weezing|71/100
+|-damage|p2a: Talonflame|80/100|[from] Recoil
+|
+|-heal|p1a: Weezing|77/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|t:|1603238418
+|move|p2a: Talonflame|Swords Dance|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|2
+|move|p1a: Weezing|Corrosive Gas|p2a: Talonflame
+|-enditem|p2a: Talonflame|Heavy-Duty Boots|[from] move: Corrosive Gas|[of] p1a: Weezing
+|
+|-heal|p1a: Weezing|83/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|t:|1603238434
+|switch|p1a: Pyukumuku|Pyukumuku, F|73/100
+|move|p2a: Talonflame|Brave Bird|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|41/100
+|-damage|p2a: Talonflame|68/100|[from] Recoil
+|
+|upkeep
+|turn|33
+|
+|t:|1603238442
+|move|p2a: Talonflame|U-turn|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|29/100
+|
+|t:|1603238450
+|switch|p2a: Blastoise|Blastoise, F, shiny|100/100|[from]move: U-turn
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|79/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|34
+|
+|t:|1603238454
+|move|p2a: Blastoise|Toxic|p1a: Pyukumuku
+|-status|p1a: Pyukumuku|tox
+|move|p1a: Pyukumuku|Toxic|p2a: Blastoise
+|-status|p2a: Blastoise|tox
+|
+|-damage|p2a: Blastoise|94/100 tox|[from] psn
+|-damage|p1a: Pyukumuku|72/100 tox|[from] psn
+|upkeep
+|turn|35
+|inactive|Boost Swoosh has 90 seconds left.
+|
+|t:|1603238465
+|move|p2a: Blastoise|Flip Turn|p1a: Pyukumuku
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|68/100 tox
+|
+|t:|1603238473
+|switch|p2a: Pincurchin|Pincurchin, M|88/100|[from]move: Flip Turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Pyukumuku|Toxic|p2a: Pincurchin
+|-status|p2a: Pincurchin|tox
+|
+|-damage|p2a: Pincurchin|82/100 tox|[from] psn
+|-damage|p1a: Pyukumuku|56/100 tox|[from] psn
+|upkeep
+|turn|36
+|inactive|Boost Swoosh has 90 seconds left.
+|
+|t:|1603238480
+|switch|p2a: Zarude|Zarude|97/100
+|switch|p1a: Chansey|Chansey, F|29/100
+|
+|upkeep
+|turn|37
+|
+|t:|1603238485
+|switch|p1a: Weezing|Weezing-Galar, F|83/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Zarude|Throat Chop|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|70/100
+|-start|p1a: Weezing|Throat Chop|[silent]
+|
+|-heal|p1a: Weezing|76/100|[from] item: Black Sludge
+|upkeep
+|turn|38
+|
+|t:|1603238490
+|move|p2a: Zarude|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|71/100
+|
+|t:|1603238514
+|switch|p2a: Necrozma|Necrozma|100/100|[from]move: U-turn
+|-enditem|p2a: Necrozma|Electric Seed
+|-boost|p2a: Necrozma|def|1|[from] item: Electric Seed
+|move|p1a: Weezing|Aromatherapy|p1a: Weezing
+|-activate|p1a: Weezing|move: Aromatherapy
+|-curestatus|p1: Pyukumuku|tox|[msg]
+|
+|-heal|p1a: Weezing|77/100|[from] item: Black Sludge
+|-end|p1a: Weezing|Throat Chop|[silent]
+|upkeep
+|turn|39
+|
+|t:|1603238523
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|40
+|
+|t:|1603238526
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|move|p1a: Slowking|Calm Mind|p1a: Slowking
+|-boost|p1a: Slowking|spa|1
+|-boost|p1a: Slowking|spd|1
+|
+|upkeep
+|turn|41
+|
+|t:|1603238528
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|move|p1a: Slowking|Calm Mind|p1a: Slowking
+|-boost|p1a: Slowking|spa|1
+|-boost|p1a: Slowking|spd|1
+|
+|upkeep
+|turn|42
+|
+|t:|1603238531
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|move|p1a: Slowking|Calm Mind|p1a: Slowking
+|-boost|p1a: Slowking|spa|1
+|-boost|p1a: Slowking|spd|1
+|
+|upkeep
+|turn|43
+|
+|t:|1603238533
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|move|p1a: Slowking|Calm Mind|p1a: Slowking
+|-boost|p1a: Slowking|spa|1
+|-boost|p1a: Slowking|spd|1
+|
+|upkeep
+|turn|44
+|
+|t:|1603238535
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|move|p1a: Slowking|Calm Mind|p1a: Slowking
+|-boost|p1a: Slowking|spa|1
+|-boost|p1a: Slowking|spd|1
+|
+|upkeep
+|turn|45
+|
+|t:|1603238537
+|move|p2a: Necrozma|Stored Power|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|45/100
+|move|p1a: Slowking|Calm Mind|p1a: Slowking
+|-boost|p1a: Slowking|spa|1
+|-boost|p1a: Slowking|spd|1
+|
+|upkeep
+|turn|46
+|
+|t:|1603238546
+|move|p2a: Necrozma|Stored Power|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|c| wuhoodude|beautiful
+|c|☆airborne brick|wydm
+|c|☆airborne brick|this won turn 0
+|c|☆airborne brick|gg
+|c| wuhoodude|idk why it took so long
+|inactive|airborne brick has 120 seconds left.
+|c|☆Boost Swoosh|no if it gets toxic
+|c|☆Boost Swoosh|it gets stalled out
+|c| wuhoodude|u right
+|c|☆Boost Swoosh|couldnt let chansey come back healthy
+|c|☆airborne brick|yeah i should gon pyuku as soon as seed procced
+|inactive|airborne brick has 90 seconds left.
+|-message|airborne brick forfeited.
+|
+|win|Boost Swoosh
+|l|☆airborne brick
+|c|☆Boost Swoosh|then talon would win i think

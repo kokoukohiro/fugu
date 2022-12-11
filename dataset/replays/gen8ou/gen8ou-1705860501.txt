@@ -1,0 +1,162 @@
+|j|☆On the wave now
+|j|☆HQSTest
+|t:|1667927916
+|gametype|singles
+|player|p1|On the wave now|marnie|1630
+|player|p2|HQSTest|veteranf|1646
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Volcanion|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Swampert, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Tapu Koko|
+|poke|p2|Blaziken, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Nihilego|
+|poke|p2|Bisharp, M|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|t:|1667927928
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Bisharp|atk|1
+|-ability|p2a: Bisharp|Defiant|boost
+|-boost|p2a: Bisharp|atk|2
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HQSTest)
+|
+|t:|1667927933
+|move|p1a: Landorus|Earthquake|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-enditem|p2a: Bisharp|Focus Sash
+|-damage|p2a: Bisharp|1/100
+|move|p2a: Bisharp|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|8/100
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Bisharp
+|
+|upkeep
+|turn|2
+|
+|t:|1667927940
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Bisharp|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: On the wave now|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1667927944
+|move|p2a: Bisharp|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|move|p1a: Corviknight|Body Press|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|t:|1667927952
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|turn|4
+|
+|t:|1667927957
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|move|p1a: Corviknight|Brave Bird|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|4/100
+|-damage|p1a: Corviknight|73/100 par|[from] Recoil
+|
+|-heal|p2a: Blaziken|11/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|79/100 par|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|5
+|
+|t:|1667927965
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|94/100|[from] Stealth Rock
+|move|p2a: Blaziken|Close Combat|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Swampert
+|
+|-heal|p2a: Blaziken|17/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1667927973
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|6
+|
+|t:|1667927981
+|move|p2a: Blaziken|Flare Blitz|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|-damage|p2a: Blaziken|0 fnt|[from] Recoil
+|faint|p2a: Blaziken
+|
+|upkeep
+|
+|t:|1667927990
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|switch|p2a: Nihilego|Nihilego|100/100
+|-damage|p1a: Zapdos|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1667927993
+|switch|p1a: Landorus|Landorus-Therian, M|8/100
+|-damage|p1a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p1a: Landorus
+|move|p2a: Nihilego|Meteor Beam||[still]
+|-prepare|p2a: Nihilego|Meteor Beam
+|-boost|p2a: Nihilego|spa|1
+|-enditem|p2a: Nihilego|Power Herb
+|-anim|p2a: Nihilego|Meteor Beam|p1: Landorus|[notarget]
+|-fail|p2a: Nihilego
+|
+|upkeep
+|
+|t:|1667927999
+|switch|p1a: Zapdos|Zapdos-Galar|88/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1667928007
+|move|p2a: Nihilego|Sludge Wave|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spe|1
+|
+|upkeep
+|-message|On the wave now forfeited.
+|
+|win|HQSTest
+|raw|On the wave now's rating: 1630 &rarr; <strong>1611</strong><br />(-19 for losing)
+|raw|HQSTest's rating: 1646 &rarr; <strong>1665</strong><br />(+19 for winning)
+|l|☆On the wave now

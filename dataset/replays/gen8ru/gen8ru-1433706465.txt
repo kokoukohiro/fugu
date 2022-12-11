@@ -1,0 +1,324 @@
+|j|☆Guybackstage
+|j|☆Unwallable
+|t:|1634001040
+|gametype|singles
+|player|p1|Guybackstage|cameraman|1192
+|player|p2|Unwallable|170|1160
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Dusclops, F|
+|poke|p1|Gardevoir, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Snorlax, F|
+|poke|p1|Pangoro, M|
+|poke|p1|Natu, F|
+|poke|p2|Flygon, M|
+|poke|p2|Reuniclus, M|
+|poke|p2|Cobalion|
+|poke|p2|Xurkitree|
+|poke|p2|Diancie|
+|poke|p2|Roserade, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Guybackstage)
+|
+|t:|1634001061
+|start
+|switch|p1a: Natu|Natu, F|100/100
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|1
+|
+|t:|1634001071
+|switch|p2a: Diancie|Diancie|100/100
+|move|p1a: Natu|Trick Room|p1a: Natu
+|-fieldstart|move: Trick Room|[of] p1a: Natu
+|
+|upkeep
+|turn|2
+|
+|t:|1634001077
+|move|p2a: Diancie|Diamond Storm|p1a: Natu
+|-supereffective|p1a: Natu
+|-enditem|p1a: Natu|Focus Sash
+|-damage|p1a: Natu|1/100
+|-boost|p2a: Diancie|def|2
+|move|p1a: Natu|Teleport|p1a: Natu
+|
+|t:|1634001092
+|switch|p1a: Dusclops|Dusclops, F, shiny|100/100|[from]move: Teleport
+|-item|p2a: Diancie|Leftovers|[from] ability: Frisk|[of] p1a: Dusclops|[identify]
+|
+|upkeep
+|turn|3
+|
+|t:|1634001098
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Diancie|[miss]
+|-miss|p1a: Dusclops|p2a: Diancie
+|move|p2a: Diancie|Toxic|p1a: Dusclops
+|-status|p1a: Dusclops|tox
+|
+|-damage|p1a: Dusclops|95/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1634001106
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Reuniclus
+|-status|p2a: Reuniclus|brn
+|
+|-damage|p1a: Dusclops|83/100 tox|[from] psn
+|-damage|p2a: Reuniclus|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1634001119
+|move|p1a: Dusclops|Pain Split|p2a: Reuniclus
+|-sethp|p2a: Reuniclus|75/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|100/100 tox|[from] move: Pain Split
+|move|p2a: Reuniclus|Knock Off|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|92/100 tox
+|-enditem|p1a: Dusclops|Eviolite|[from] move: Knock Off|[of] p2a: Reuniclus
+|
+|-damage|p1a: Dusclops|74/100 tox|[from] psn
+|-damage|p2a: Reuniclus|69/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1634001132
+|switch|p2a: Roserade|Roserade, F|100/100
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|-damage|p1a: Dusclops|50/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1634001139
+|switch|p1a: Natu|Natu, F|1/100
+|move|p2a: Roserade|Spikes|p1a: Natu
+|move|p1a: Natu|Spikes|p2a: Roserade|[from]ability: Magic Bounce
+|-sidestart|p2: Unwallable|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1634001149
+|move|p2a: Roserade|Sludge Bomb|p1a: Natu
+|-damage|p1a: Natu|0 fnt
+|faint|p1a: Natu
+|
+|upkeep
+|
+|t:|1634001157
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|9
+|
+|t:|1634001161
+|switch|p2a: Reuniclus|Reuniclus, M|100/100 brn
+|-damage|p2a: Reuniclus|88/100 brn|[from] Spikes
+|move|p1a: Torkoal|Eruption|p2a: Reuniclus
+|-damage|p2a: Reuniclus|37/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Reuniclus|31/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1634001171
+|switch|p2a: Diancie|Diancie|100/100
+|-damage|p2a: Diancie|88/100|[from] Spikes
+|move|p1a: Torkoal|Eruption|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Diancie|60/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1634001185
+|switch|p1a: Dusclops|Dusclops, F, shiny|50/100 tox
+|-item|p2a: Diancie|Leftovers|[from] ability: Frisk|[of] p1a: Dusclops|[identify]
+|move|p2a: Diancie|Diamond Storm|p1a: Dusclops
+|-damage|p1a: Dusclops|20/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Diancie|67/100|[from] item: Leftovers
+|-damage|p1a: Dusclops|14/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1634001196
+|move|p2a: Diancie|Diamond Storm|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Diancie|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634001206
+|switch|p1a: Gardevoir|Gardevoir, M, shiny|100/100
+|-ability|p1a: Gardevoir|Clear Body|[from] ability: Trace|[of] p2a: Diancie
+|turn|13
+|
+|t:|1634001211
+|move|p2a: Diancie|Diamond Storm|p1a: Gardevoir
+|-crit|p1a: Gardevoir
+|-damage|p1a: Gardevoir|54/100
+|move|p1a: Gardevoir|Trick Room|p1a: Gardevoir
+|-fieldstart|move: Trick Room|[of] p1a: Gardevoir
+|
+|-weather|none
+|-heal|p2a: Diancie|79/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1634001220
+|move|p2a: Diancie|Diamond Storm|p1a: Gardevoir
+|-damage|p1a: Gardevoir|21/100
+|move|p1a: Gardevoir|Healing Wish|p1a: Gardevoir
+|faint|p1a: Gardevoir
+|
+|-heal|p2a: Diancie|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1634001228
+|switch|p1a: Pangoro|Pangoro, M, shiny|100/100
+|turn|15
+|
+|t:|1634001234
+|move|p1a: Pangoro|Bullet Punch|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|10/100
+|-damage|p1a: Pangoro|91/100|[from] item: Life Orb
+|move|p2a: Diancie|Toxic|p1a: Pangoro
+|-status|p1a: Pangoro|tox
+|
+|-heal|p2a: Diancie|16/100|[from] item: Leftovers
+|-damage|p1a: Pangoro|85/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1634001245
+|move|p1a: Pangoro|Drain Punch|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|-heal|p1a: Pangoro|91/100 tox|[from] drain|[of] p2a: Diancie
+|faint|p2a: Diancie
+|-damage|p1a: Pangoro|81/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Pangoro|69/100 tox|[from] psn
+|upkeep
+|
+|t:|1634001257
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|88/100|[from] Spikes
+|turn|17
+|
+|t:|1634001261
+|switch|p2a: Reuniclus|Reuniclus, M|64/100 brn
+|-damage|p2a: Reuniclus|52/100 brn|[from] Spikes
+|move|p1a: Pangoro|Darkest Lariat|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|-damage|p1a: Pangoro|59/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Pangoro|40/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1634001266
+|switch|p2a: Cobalion|Cobalion|88/100
+|-damage|p2a: Cobalion|76/100|[from] Spikes
+|turn|18
+|
+|t:|1634001277
+|move|p2a: Cobalion|Close Combat|p1a: Pangoro
+|-supereffective|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|faint|p1a: Pangoro
+|
+|upkeep
+|
+|t:|1634001284
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|19
+|
+|t:|1634001291
+|switch|p2a: Flygon|Flygon, M|100/100
+|move|p1a: Torkoal|Eruption|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Flygon|44/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1634001300
+|move|p2a: Flygon|Scorching Sands|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|43/100
+|move|p1a: Torkoal|Fire Blast|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1634001307
+|switch|p2a: Xurkitree|Xurkitree|100/100
+|-damage|p2a: Xurkitree|88/100|[from] Spikes
+|turn|21
+|
+|t:|1634001314
+|move|p2a: Xurkitree|Thunderbolt|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1634001321
+|switch|p1a: Snorlax|Snorlax, F, shiny|100/100
+|turn|22
+|
+|t:|1634001325
+|move|p2a: Xurkitree|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|41/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Snorlax|47/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|-message|Guybackstage forfeited.
+|
+|win|Unwallable
+|raw|Guybackstage's rating: 1192 &rarr; <strong>1165</strong><br />(-27 for losing)
+|raw|Unwallable's rating: 1160 &rarr; <strong>1187</strong><br />(+27 for winning)
+|l|☆Guybackstage

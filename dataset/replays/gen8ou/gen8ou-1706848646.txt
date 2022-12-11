@@ -1,0 +1,220 @@
+|j|☆minimax_ai
+|j|☆sandshrew 2022
+|t:|1668026534
+|gametype|singles
+|player|p1|minimax_ai|169|1584
+|player|p2|sandshrew 2022|schoolkid-gen4|1660
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Garchomp, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Umbreon, F|
+|poke|p2|Slowking, M|
+|poke|p2|Kartana|
+|poke|p2|Tapu Lele|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1668026540
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|turn|1
+|
+|t:|1668026542
+|move|p2a: Tornadus|Taunt|p1a: landorustherian
+|-start|p1a: landorustherian|move: Taunt
+|move|p1a: landorustherian|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|89/100
+|
+|t:|1668026542
+|switch|p1a: Weavile|Weavile, M|100/100|[from]move: U-turn
+|-ability|p1a: Weavile|Pressure
+|
+|upkeep
+|turn|2
+|
+|t:|1668026547
+|move|p1a: Weavile|Triple Axel|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|39/100
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-hitcount|p2: Tornadus|2
+|
+|upkeep
+|
+|t:|1668026550
+|switch|p2a: Kartana|Kartana, shiny|100/100
+|turn|3
+|
+|t:|1668026552
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Kartana|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|66/100
+|-damage|p2a: Kartana|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Kartana
+|
+|upkeep
+|turn|4
+|
+|t:|1668026555
+|switch|p2a: Slowking|Slowking, M, shiny|100/100
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|
+|upkeep
+|turn|5
+|
+|t:|1668026557
+|move|p1a: landorustherian|U-turn|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|57/100
+|
+|t:|1668026557
+|switch|p1a: Tangrowth|Tangrowth, F|99/100|[from]move: U-turn
+|move|p2a: Slowking|Toxic|p1a: Tangrowth
+|-status|p1a: Tangrowth|tox
+|
+|-damage|p1a: Tangrowth|93/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1668026560
+|move|p1a: Tangrowth|Giga Drain|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|24/100
+|-heal|p1a: Tangrowth|100/100 tox|[from] drain|[of] p2a: Slowking
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1668026562
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|100/100|[from]move: Teleport
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|-damage|p1a: Tangrowth|88/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1668026565
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Tapu Lele|Focus Blast|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|50/100
+|
+|upkeep
+|turn|8
+|
+|t:|1668026569
+|switch|p2a: Garchomp|Garchomp, F, shiny|100/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Garchomp
+|-damage|p2a: Garchomp|64/100
+|-damage|p1a: Melmetal|38/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p2a: Garchomp|30/100
+|-damage|p1a: Melmetal|25/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-hitcount|p2a: Garchomp|2
+|
+|-heal|p2a: Garchomp|36/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1668026571
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Garchomp|Earthquake|p1a: Weavile
+|-damage|p1a: Weavile|22/100
+|
+|-heal|p2a: Garchomp|43/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1668026575
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: Weavile|Triple Axel|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|
+|-heal|p2a: Garchomp|49/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|11
+|
+|t:|1668026579
+|move|p1a: Weavile|Triple Axel|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Weavile|10/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|-hitcount|p2: Garchomp|1
+|
+|upkeep
+|
+|t:|1668026581
+|switch|p2a: Kartana|Kartana, shiny|84/100
+|turn|12
+|
+|t:|1668026583
+|move|p1a: Weavile|Triple Axel|p2a: Kartana
+|-damage|p2a: Kartana|69/100
+|-damage|p2a: Kartana|35/100
+|-hitcount|p2a: Kartana|2
+|move|p2a: Kartana|Sacred Sword|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+|
+|t:|1668026583
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Kartana|atk|1
+|turn|13
+|
+|t:|1668026586
+|switch|p2a: Slowking|Slowking, M, shiny|57/100
+|move|p1a: landorustherian|Earthquake|p2a: Slowking
+|-damage|p2a: Slowking|10/100
+|
+|upkeep
+|turn|14
+|
+|t:|1668026588
+|move|p1a: landorustherian|Earthquake|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|-message|sandshrew 2022 forfeited.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1584 &rarr; <strong>1608</strong><br />(+24 for winning)
+|raw|sandshrew 2022's rating: 1660 &rarr; <strong>1636</strong><br />(-24 for losing)
+|c|☆minimax_ai|gg
+|l|☆sandshrew 2022

@@ -1,0 +1,233 @@
+|j|☆Wonderite
+|j|☆AlomomolaForOU
+|t:|1649164521
+|gametype|singles
+|player|p1|Wonderite|102|1299
+|player|p2|AlomomolaForOU|colress|1453
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Weezing, F|
+|poke|p1|Pyukumuku, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Eldegoss, F|
+|poke|p1|Articuno-Galar|
+|poke|p1|Ferroseed, F|
+|poke|p2|Thwackey, F|
+|poke|p2|Swoobat, M|
+|poke|p2|Ribombee, F|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Silvally-*|
+|poke|p2|Kabutops, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AlomomolaForOU)
+|
+|t:|1649164551
+|start
+|switch|p1a: Ferroseed|Ferroseed, F|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|1
+|
+|t:|1649164577
+|move|p2a: Ribombee|Safeguard|p2a: Ribombee
+|-sidestart|p2: AlomomolaForOU|Safeguard
+|move|p1a: Ferroseed|Spikes|p2a: Ribombee
+|-sidestart|p2: AlomomolaForOU|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1649164583
+|switch|p2a: Kabutops|Kabutops, M|100/100
+|-damage|p2a: Kabutops|88/100|[from] Spikes
+|move|p1a: Ferroseed|Spikes|p2a: Kabutops
+|-sidestart|p2: AlomomolaForOU|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1649164591
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Kabutops|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|65/100
+|-start|p2a: Kabutops|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Corsola
+|-enditem|p1a: Corsola|Eviolite|[from] move: Knock Off|[of] p2a: Kabutops
+|
+|upkeep
+|turn|4
+|
+|t:|1649164601
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|move|p1a: Corsola|Will-O-Wisp|p2a: Kabutops
+|-activate|p2a: Kabutops|move: Safeguard
+|
+|upkeep
+|turn|5
+|
+|t:|1649164608
+|move|p2a: Kabutops|Liquidation|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-sideend|p2: AlomomolaForOU|Safeguard
+|upkeep
+|
+|t:|1649164613
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100
+|turn|6
+|
+|t:|1649164616
+|move|p2a: Kabutops|Rapid Spin|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|86/100
+|-boost|p2a: Kabutops|spe|1
+|-sideend|p2: AlomomolaForOU|Spikes|[from] move: Rapid Spin|[of] p2a: Kabutops
+|move|p1a: Pyukumuku|Counter|p2a: Kabutops
+|-damage|p2a: Kabutops|52/100
+|-ability|p2a: Kabutops|Weak Armor|boost
+|-unboost|p2a: Kabutops|def|1
+|-boost|p2a: Kabutops|spe|2
+|
+|-heal|p1a: Pyukumuku|92/100|[from] item: Leftovers
+|-end|p2a: Kabutops|Disable
+|upkeep
+|turn|7
+|
+|t:|1649164622
+|switch|p2a: Thwackey|Thwackey, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|move|p1a: Pyukumuku|Counter||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p1a: Pyukumuku|98/100|[from] Grassy Terrain
+|-heal|p1a: Pyukumuku|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1649164627
+|switch|p1a: Ferroseed|Ferroseed, F|100/100
+|move|p2a: Thwackey|Knock Off|p1a: Ferroseed
+|-damage|p1a: Ferroseed|83/100
+|-damage|p2a: Thwackey|88/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|-enditem|p1a: Ferroseed|Eviolite|[from] move: Knock Off|[of] p2a: Thwackey
+|
+|-heal|p2a: Thwackey|94/100|[from] Grassy Terrain
+|-heal|p1a: Ferroseed|90/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1649164638
+|move|p2a: Thwackey|U-turn|p1a: Ferroseed
+|-damage|p1a: Ferroseed|70/100
+|-damage|p2a: Thwackey|82/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|
+|t:|1649164640
+|switch|p2a: Swoobat|Swoobat, M|100/100|[from]move: U-turn
+|-enditem|p2a: Swoobat|Grassy Seed
+|-boost|p2a: Swoobat|def|2|[from] item: Grassy Seed
+|move|p1a: Ferroseed|Spikes|p2a: Swoobat
+|-sidestart|p2: AlomomolaForOU|Spikes
+|
+|-heal|p1a: Ferroseed|77/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|j| 07l中国大妈
+|
+|t:|1649164649
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100
+|move|p2a: Swoobat|Heat Wave|p1a: Pyukumuku
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|93/100
+|
+|-heal|p1a: Pyukumuku|99/100|[from] Grassy Terrain
+|-heal|p1a: Pyukumuku|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1649164655
+|move|p2a: Swoobat|Substitute|p2a: Swoobat
+|-start|p2a: Swoobat|Substitute
+|-damage|p2a: Swoobat|76/100
+|move|p1a: Pyukumuku|Toxic|p2a: Swoobat|[miss]
+|-miss|p1a: Pyukumuku|p2a: Swoobat
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1649164658
+|move|p2a: Swoobat|Calm Mind|p2a: Swoobat
+|-boost|p2a: Swoobat|spa|2
+|-boost|p2a: Swoobat|spd|2
+|move|p1a: Pyukumuku|Mirror Coat||[still]
+|-fail|p1a: Pyukumuku
+|
+|upkeep
+|turn|13
+|
+|t:|1649164661
+|move|p2a: Swoobat|Calm Mind|p2a: Swoobat
+|-boost|p2a: Swoobat|spa|2
+|-boost|p2a: Swoobat|spd|2
+|move|p1a: Pyukumuku|Mirror Coat||[still]
+|-fail|p1a: Pyukumuku
+|
+|upkeep
+|turn|14
+|
+|t:|1649164669
+|move|p2a: Swoobat|Calm Mind|p2a: Swoobat
+|-boost|p2a: Swoobat|spa|2
+|-boost|p2a: Swoobat|spd|2
+|move|p1a: Pyukumuku|Mirror Coat||[still]
+|-fail|p1a: Pyukumuku
+|
+|upkeep
+|turn|15
+|
+|t:|1649164674
+|move|p2a: Swoobat|Stored Power|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|30/100
+|move|p1a: Pyukumuku|Mirror Coat|p2a: Swoobat
+|-end|p2a: Swoobat|Substitute
+|
+|-heal|p1a: Pyukumuku|36/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1649164685
+|move|p2a: Swoobat|Stored Power|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|0 fnt
+|faint|p1a: Pyukumuku
+|
+|upkeep
+|
+|t:|1649164687
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|turn|17
+|
+|t:|1649164691
+|move|p2a: Swoobat|Stored Power|p1a: Articuno
+|-resisted|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|upkeep
+|j| PakMail
+|-message|Wonderite forfeited.
+|
+|win|AlomomolaForOU
+|raw|Wonderite's rating: 1299 &rarr; <strong>1284</strong><br />(-15 for losing)
+|raw|AlomomolaForOU's rating: 1453 &rarr; <strong>1465</strong><br />(+12 for winning)
+|l|☆Wonderite

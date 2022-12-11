@@ -1,0 +1,307 @@
+|j|☆commedesgarchomps
+|j|☆NebbyGetInTheBag
+|player|p1|commedesgarchomps|261|1328
+|player|p2|NebbyGetInTheBag|lillie|1350
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Lucario, F|
+|poke|p1|Mew|
+|poke|p1|Obstagoon, M|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Mamoswine, F|
+|poke|p2|Gothitelle, F|
+|poke|p2|Runerigus, M|
+|poke|p2|Turtonator, M|
+|poke|p2|Passimian, F|
+|poke|p2|Whimsicott, F|
+|poke|p2|Golisopod, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NebbyGetInTheBag)
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|switch|p2a: Mirelurk|Golisopod, F|100/100
+|turn|1
+|
+|move|p1a: Mamoswine|Stealth Rock|p2a: Mirelurk
+|-sidestart|p2: NebbyGetInTheBag|move: Stealth Rock
+|move|p2a: Mirelurk|Liquidation|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-enditem|p1a: Mamoswine|Focus Sash
+|-damage|p1a: Mamoswine|1/100
+|-unboost|p1a: Mamoswine|def|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|move|p2a: Mirelurk|Sucker Punch||[still]
+|-fail|p2a: Mirelurk
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|switch|p2a: Dusty|Runerigus, M|100/100
+|-damage|p2a: Dusty|95/100|[from] Stealth Rock
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Dusty
+|-supereffective|p2a: Dusty
+|-damage|p2a: Dusty|27/100
+|-activate|p1a: Obstagoon|ability: Wandering Spirit|Wandering Spirit|Guts|[of] p2a: Dusty
+|-enditem|p2a: Dusty|Mental Herb|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Dusty|Trick Room|p2a: Dusty
+|-fieldstart|move: Trick Room|[of] p2a: Dusty
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Mamoswine|Mamoswine, F|1/100
+|move|p2a: Dusty|Stealth Rock|p1a: Mamoswine
+|-sidestart|p1: commedesgarchomps|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Dusty
+|-supereffective|p2a: Dusty
+|-damage|p2a: Dusty|2/100
+|move|p2a: Dusty|Earthquake|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: Dusty|Will-O-Wisp|p1a: Weezing
+|-status|p1a: Weezing|brn
+|
+|-heal|p1a: Weezing|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Weezing|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Obstagoon|Obstagoon, M|94/100 brn
+|-damage|p1a: Obstagoon|82/100 brn|[from] Stealth Rock
+|move|p2a: Dusty|Will-O-Wisp|p1a: Obstagoon
+|-fail|p1a: Obstagoon|brn
+|
+|-damage|p1a: Obstagoon|76/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Dusty
+|-supereffective|p2a: Dusty
+|-damage|p2a: Dusty|0 fnt
+|faint|p2a: Dusty
+|
+|-damage|p1a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Mirelurk|Golisopod, F|100/100
+|turn|10
+|inactive|commedesgarchomps has 120 seconds left.
+|inactive|commedesgarchomps has 90 seconds left.
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|switch|p2a: Snoot|Turtonator, M|100/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Lucario|Lucario, F|98/100
+|-damage|p1a: Lucario|95/100|[from] Stealth Rock
+|switch|p2a: Puff|Whimsicott, F|100/100
+|-damage|p2a: Puff|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Puff|Moonblast|p1a: Lucario
+|-damage|p1a: Lucario|14/100
+|move|p1a: Lucario|Meteor Mash|p2a: Puff
+|-supereffective|p2a: Puff
+|-damage|p2a: Puff|0 fnt
+|-damage|p1a: Lucario|4/100|[from] item: Life Orb
+|faint|p2a: Puff
+|
+|upkeep
+|
+|switch|p2a: Mirelurk|Golisopod, F|100/100
+|turn|13
+|
+|move|p1a: Lucario|Extreme Speed|p2a: Mirelurk
+|-damage|p2a: Mirelurk|77/100
+|-damage|p1a: Lucario|0 fnt|[from] item: Life Orb
+|faint|p1a: Lucario
+|move|p2a: Mirelurk|First Impression|p1: Lucario|[notarget]
+|-fail|p2a: Mirelurk
+|
+|upkeep
+|
+|switch|p1a: Obstagoon|Obstagoon, M|70/100 brn
+|-damage|p1a: Obstagoon|58/100 brn|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Obstagoon|Facade|p2a: Mirelurk
+|-crit|p2a: Mirelurk
+|-damage|p2a: Mirelurk|0 fnt
+|faint|p2a: Mirelurk
+|
+|-damage|p1a: Obstagoon|52/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Jimmy Chimpus|Passimian, F|100/100
+|-damage|p2a: Jimmy Chimpus|94/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Weezing|Weezing-Galar, F|88/100 brn
+|-damage|p1a: Weezing|76/100 brn|[from] Stealth Rock
+|move|p2a: Jimmy Chimpus|Iron Head|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|32/100 brn
+|
+|-heal|p1a: Weezing|38/100 brn|[from] item: Black Sludge
+|-damage|p1a: Weezing|32/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Snoot|Turtonator, M|100/100
+|move|p1a: Weezing|Strange Steam|p2a: Snoot
+|-damage|p2a: Snoot|66/100
+|
+|-heal|p1a: Weezing|38/100 brn|[from] item: Black Sludge
+|-damage|p1a: Weezing|32/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Weezing|Clear Smog|p2a: Snoot
+|-damage|p2a: Snoot|48/100
+|-clearboost|p2a: Snoot
+|move|p2a: Snoot|Rapid Spin|p1a: Weezing
+|-damage|p1a: Weezing|24/100 brn
+|-sideend|p2: NebbyGetInTheBag|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Snoot
+|-boost|p2a: Snoot|spe|1
+|
+|-heal|p1a: Weezing|30/100 brn|[from] item: Black Sludge
+|-damage|p1a: Weezing|24/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Snoot|Fire Blast|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|94/100
+|-damage|p1a: Kommo-o|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Snoot
+|-supereffective|p2a: Snoot
+|-damage|p2a: Snoot|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1
+|faint|p2a: Snoot
+|
+|upkeep
+|
+|switch|p2a: Jimmy Chimpus|Passimian, F|94/100
+|turn|20
+|
+|move|p2a: Jimmy Chimpus|Close Combat|p1a: Kommo-o
+|-damage|p1a: Kommo-o|6/100
+|-unboost|p2a: Jimmy Chimpus|def|1
+|-unboost|p2a: Jimmy Chimpus|spd|1
+|move|p1a: Kommo-o|Clanging Scales|p2a: Jimmy Chimpus
+|-damage|p2a: Jimmy Chimpus|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Jimmy Chimpus
+|
+|upkeep
+|
+|switch|p2a: Lolita|Gothitelle, F|100/100
+|turn|21
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Lolita
+|-damage|p2a: Lolita|38/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Lolita|Trick Room|p2a: Lolita
+|-fieldstart|move: Trick Room|[of] p2a: Lolita
+|-enditem|p2a: Lolita|Room Service
+|-unboost|p2a: Lolita|spe|1
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Lolita|Dark Pulse|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Lolita|Nasty Plot|p2a: Lolita
+|-boost|p2a: Lolita|spa|2
+|move|p1a: Mew|Flare Blitz|p2a: Lolita
+|-damage|p2a: Lolita|3/100
+|-damage|p1a: Mew|76/100|[from] Recoil
+|
+|-heal|p1a: Mew|83/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Obstagoon|Obstagoon, M|52/100 brn
+|-damage|p1a: Obstagoon|39/100 brn|[from] Stealth Rock
+|move|p2a: Lolita|Dark Pulse|p1a: Obstagoon
+|-resisted|p1a: Obstagoon
+|-damage|p1a: Obstagoon|6/100 brn
+|
+|-damage|p1a: Obstagoon|0 fnt|[from] brn
+|faint|p1a: Obstagoon
+|upkeep
+|
+|switch|p1a: Mew|Mew|83/100
+|-damage|p1a: Mew|70/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Lolita|Dark Pulse|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|win|NebbyGetInTheBag
+|l|☆commedesgarchomps
+|raw|commedesgarchomps's rating: 1302 &rarr; <strong>1284</strong><br />(-18 for losing)
+|raw|NebbyGetInTheBag's rating: 1337 &rarr; <strong>1355</strong><br />(+18 for winning)

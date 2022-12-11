@@ -1,0 +1,60 @@
+|j|☆TornadusF4n
+|j|☆Redemption
+|player|p1|TornadusF4n|92|
+|player|p2|Redemption|flint|
+|teamsize|p1|6
+|teamsize|p2|1
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|clearpoke
+|poke|p1|Urshifu-*, M|
+|poke|p1|Gengar, M|
+|poke|p1|Skarmory, M|
+|poke|p1|Chansey, F|
+|poke|p1|Slowbro, M|
+|poke|p1|Tangrowth, M|
+|poke|p2|Slowbro-Galar, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Chansey|Chansey, F, shiny|100/100
+|switch|p2a: Slowbro|Slowbro-Galar, F|100/100
+|turn|1
+|
+|move|p1a: Chansey|Stealth Rock|p2a: Slowbro
+|-sidestart|p2: Redemption|move: Stealth Rock
+|move|p2a: Slowbro|Nasty Plot|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Chansey|Stealth Rock||[still]
+|-fail|p1a: Chansey
+|move|p2a: Slowbro|Nasty Plot|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|2
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Chansey|Stealth Rock||[still]
+|-fail|p1a: Chansey
+|move|p2a: Slowbro|Shell Side Arm|p1a: Chansey
+|-damage|p1a: Chansey|74/100
+|-status|p1a: Chansey|psn
+|
+|-damage|p1a: Chansey|62/100 psn|[from] psn
+|upkeep
+|turn|4
+|-message|Redemption forfeited.
+|
+|win|TornadusF4n
+|l|☆Redemption

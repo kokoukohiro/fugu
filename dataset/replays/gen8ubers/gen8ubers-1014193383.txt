@@ -1,0 +1,455 @@
+|j|☆Vukalo
+|j|☆Grappist
+|player|p1|Vukalo|clair|1149
+|player|p2|Grappist|1|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Zacian-Crowned|item
+|poke|p1|Eternatus|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Sableye, F|item
+|poke|p1|Centiskorch, M|item
+|poke|p1|Zamazenta-Crowned|item
+|poke|p2|Eternatus|item
+|poke|p2|Zacian-Crowned|item
+|poke|p2|Zamazenta-Crowned|item
+|poke|p2|Ditto|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Aegislash, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Grappist)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|move|p2a: Seismitoad|Earth Power|p1a: Sableye
+|-damage|p1a: Sableye|60/100
+|
+|-heal|p1a: Sableye|66/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Sableye
+|-sidestart|p1: Vukalo|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Seismitoad
+|-status|p2a: Seismitoad|brn
+|move|p2a: Seismitoad|Toxic|p1a: Sableye
+|-status|p1a: Sableye|tox
+|
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|-damage|p1a: Sableye|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Sableye|Encore|p2a: Seismitoad
+|-start|p2a: Seismitoad|Encore
+|move|p2a: Seismitoad|Toxic|p1a: Sableye
+|-fail|p1a: Sableye|tox
+|
+|-heal|p2a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Sableye|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|-damage|p1a: Sableye|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Seismitoad|Toxic|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-heal|p2a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Seismitoad|Seismitoad, M|94/100 brn
+|move|p1a: Excadrill|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|50/100 brn
+|
+|-heal|p2a: Seismitoad|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|50/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-damage|p1a: Zamazenta|97/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earth Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|64/100
+|
+|-heal|p2a: Seismitoad|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|50/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Zamazenta|Light Screen|p1a: Zamazenta
+|-sidestart|p1: Vukalo|move: Light Screen
+|move|p2a: Seismitoad|Earth Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|47/100
+|
+|-heal|p2a: Seismitoad|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|50/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Zamazenta|Reflect|p1a: Zamazenta
+|-sidestart|p1: Vukalo|Reflect
+|move|p2a: Seismitoad|Earth Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|31/100
+|
+|-heal|p2a: Seismitoad|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|50/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Zamazenta|Close Combat|p2a: Seismitoad
+|-damage|p2a: Seismitoad|16/100 brn
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Seismitoad|Earth Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|4/100
+|
+|-heal|p2a: Seismitoad|22/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|16/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Zamazenta|Close Combat|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|13
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-sideend|p1: Vukalo|move: Light Screen
+|upkeep
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|turn|14
+|
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Centiskorch|Coil|p1a: Centiskorch
+|-boost|p1a: Centiskorch|atk|1
+|-boost|p1a: Centiskorch|def|1
+|-boost|p1a: Centiskorch|accuracy|1
+|
+|-sideend|p1: Vukalo|Reflect
+|upkeep
+|turn|15
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-damage|p1a: Zacian|94/100|[from] Stealth Rock
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Zacian
+|-immune|p1a: Zacian
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Zacian|Play Rough|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|70/100
+|
+|-heal|p2a: Aegislash|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Zacian|Crunch|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|12/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Zacian
+|-damage|p1a: Zacian|59/100
+|
+|-heal|p2a: Aegislash|18/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Sableye|Sableye, F|88/100 tox
+|-damage|p1a: Sableye|75/100 tox|[from] Stealth Rock
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield||[still]
+|-fail|p2a: Aegislash
+|
+|-heal|p2a: Aegislash|24/100|[from] item: Leftovers
+|-heal|p1a: Sableye|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Sableye|75/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Sableye|Encore|p2a: Aegislash
+|-start|p2a: Aegislash|Encore
+|move|p2a: Aegislash|King's Shield||[still]
+|-fail|p2a: Aegislash
+|
+|-heal|p2a: Aegislash|30/100|[from] item: Leftovers
+|-heal|p1a: Sableye|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Sableye|69/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Sableye|Foul Play|p2a: Eternatus
+|-damage|p2a: Eternatus|80/100
+|
+|-heal|p1a: Sableye|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Sableye|57/100 tox|[from] psn
+|upkeep
+|turn|21
+|inactive|Vukalo has 120 seconds left.
+|
+|switch|p1a: Eternatus|Eternatus|100/100
+|-damage|p1a: Eternatus|88/100|[from] Stealth Rock
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Eternatus|Flamethrower|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|73/100
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|
+|upkeep
+|
+|switch|p1a: Zacian|Zacian-Crowned|59/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-damage|p1a: Zacian|53/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p2a: Aegislash|Aegislash, M|30/100
+|move|p1a: Zacian|Play Rough|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|1/100
+|
+|-heal|p2a: Aegislash|7/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Excadrill|Excadrill, M|97/100
+|-damage|p1a: Excadrill|94/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|71/100
+|
+|-heal|p2a: Aegislash|13/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Aegislash
+|-sidestart|p2: Grappist|move: Stealth Rock
+|move|p2a: Aegislash|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|18/100
+|
+|-heal|p2a: Aegislash|19/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Vukalo has 120 seconds left.
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Aegislash|25/100|[from] item: Leftovers
+|upkeep
+|inactive|Vukalo has 120 seconds left.
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|turn|27
+|
+|move|p1a: Centiskorch|Coil|p1a: Centiskorch
+|-boost|p1a: Centiskorch|atk|1
+|-boost|p1a: Centiskorch|def|1
+|-boost|p1a: Centiskorch|accuracy|1
+|move|p2a: Aegislash|Shadow Ball|p1a: Centiskorch
+|-damage|p1a: Centiskorch|65/100
+|-unboost|p1a: Centiskorch|spd|1
+|
+|-heal|p2a: Aegislash|32/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|-start|p1a: Centiskorch|Dynamax
+|-heal|p1a: Centiskorch|65/100|[from] Dynamax
+|move|p1a: Centiskorch|Max Flare|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-weather|SunnyDay
+|faint|p2a: Aegislash
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Eternatus|Eternatus|80/100
+|-damage|p2a: Eternatus|68/100|[from] Stealth Rock
+|-ability|p2a: Eternatus|Pressure
+|turn|29
+|
+|-hint|Dynamax ended.
+|switch|p1a: Zacian|Zacian-Crowned|53/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-damage|p1a: Zacian|47/100|[from] Stealth Rock
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Zacian
+|-immune|p1a: Zacian
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|30
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-damage|p2a: Zamazenta|97/100|[from] Stealth Rock
+|move|p1a: Zacian|Play Rough|p2a: Zamazenta
+|-damage|p2a: Zamazenta|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|31
+|
+|switch|p1a: Centiskorch|Centiskorch, M|65/100
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|32
+|c|☆Grappist|!weak centikorch
+|html|<div class="infobox">centikorch isn't a recognized type or pokemon.</div>
+|inactive|Grappist has 120 seconds left.
+|c|☆Grappist|!weak centiskorch
+|html|<div class="infobox">Centiskorch (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Flying, <b>Rock</b>, Water<br /><span class="message-effect-resist">Resistances</span>: Bug, Fairy, Fighting, <b>Grass</b>, Ice, Steel<br /><span class="message-effect-immune">Immunities</span>: <font color=#999999>None</font></div>
+|
+|move|p2a: Zamazenta|Psychic Fangs|p1a: Centiskorch
+|-damage|p1a: Centiskorch|14/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|10/100
+|-unboost|p2a: Zamazenta|def|1
+|
+|-weather|none
+|upkeep
+|turn|33
+|
+|move|p2a: Zamazenta|Psychic Fangs|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|
+|switch|p1a: Sableye|Sableye, F|57/100 tox
+|-damage|p1a: Sableye|44/100 tox|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|94/100 tox
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Sableye
+|-damage|p1a: Sableye|40/100 tox
+|
+|-heal|p1a: Sableye|46/100 tox|[from] item: Leftovers
+|-damage|p1a: Sableye|40/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+|
+|switch|p1a: Zacian|Zacian-Crowned|47/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-damage|p1a: Zacian|41/100|[from] Stealth Rock
+|turn|36
+|
+|move|p1a: Zacian|Play Rough|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|switch|p2a: Eternatus|Eternatus|68/100
+|-damage|p2a: Eternatus|56/100|[from] Stealth Rock
+|-ability|p2a: Eternatus|Pressure
+|turn|37
+|
+|move|p1a: Zacian|Play Rough|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|
+|upkeep
+|c|☆Grappist|gg
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-damage|p2a: Zacian|94/100|[from] Stealth Rock
+|turn|38
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|win|Grappist
+|l|☆Vukalo
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

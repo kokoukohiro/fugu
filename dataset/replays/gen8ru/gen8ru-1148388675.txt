@@ -1,0 +1,136 @@
+|j|☆Nemris
+|j|☆pain perdu
+|player|p1|Nemris|1|1289
+|player|p2|pain perdu|lucas|1323
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Machamp, F|
+|poke|p1|Xatu, F|
+|poke|p1|Porygon2|
+|poke|p1|Vikavolt, M|
+|poke|p1|Runerigus, M|
+|poke|p1|Dhelmise|
+|poke|p2|Vaporeon, F|
+|poke|p2|Exeggutor-Alola, M|
+|poke|p2|Centiskorch, F|
+|poke|p2|Tauros, M|
+|poke|p2|Espeon, M|
+|poke|p2|Sandslash-Alola, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Runerigus|Runerigus, M|100/100
+|switch|p2a: Exeggutor|Exeggutor-Alola, M|100/100
+|-item|p1a: Runerigus|Leftovers|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|turn|1
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Frisk|[from] ability: Trace|[of] p2a: Exeggutor
+|-item|p2a: Exeggutor|Choice Specs|[from] ability: Frisk|[of] p1a: Porygon2|[identify]
+|move|p2a: Exeggutor|Draco Meteor|p1a: Porygon2|[miss]
+|-miss|p2a: Exeggutor|p1a: Porygon2
+|
+|upkeep
+|turn|2
+|c|☆pain perdu|imagine
+|c|☆pain perdu|not doubling
+|n|!pain perdu|painperdu
+|j| Yeezy
+|
+|switch|p2a: Sandslash|Sandslash-Alola, M|100/100
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Machamp|Machamp, F|100/100
+|move|p2a: Sandslash|Stealth Rock|p1a: Machamp
+|-sidestart|p1: Nemris|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|move|p1a: Machamp|Dynamic Punch|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|52/100
+|-start|p2a: Centiskorch|confusion
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Machamp|Dynamic Punch|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|0 fnt
+|faint|p2a: Centiskorch
+|
+|upkeep
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|turn|6
+|
+|move|p1a: Machamp|Knock Off|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|-enditem|p2a: Espeon|Choice Scarf|[from] move: Knock Off|[of] p1a: Machamp
+|faint|p2a: Espeon
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|turn|7
+|
+|move|p2a: Vaporeon|Flip Turn|p1a: Machamp
+|-damage|p1a: Machamp|84/100
+|j| FU SHUN HA$$%
+|
+|switch|p2a: Exeggutor|Exeggutor-Alola, M|100/100|[from]move: Flip Turn
+|-item|p1a: Machamp|Black Belt|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|move|p1a: Machamp|Dynamic Punch|p2a: Exeggutor
+|-damage|p2a: Exeggutor|22/100
+|-start|p2a: Exeggutor|confusion
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Machamp|Bullet Punch|p2a: Exeggutor
+|-damage|p2a: Exeggutor|2/100
+|-activate|p2a: Exeggutor|confusion
+|-damage|p2a: Exeggutor|0 fnt|[from] confusion
+|faint|p2a: Exeggutor
+|
+|upkeep
+|
+|switch|p2a: Tauros|Tauros, M|100/100
+|turn|9
+|
+|move|p2a: Tauros|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|20/100
+|move|p1a: Machamp|Dynamic Punch|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|upkeep
+|-message|pain perdu forfeited.
+|
+|win|Nemris
+|c| FU SHUN HA$$%|LOL
+|c| FU SHUN HA$$%|wasted
+|l| FU SHUN HA$$%
+|raw|Nemris's rating: 1289 &rarr; <strong>1318</strong><br />(+29 for winning)
+|raw|pain perdu's rating: 1336 &rarr; <strong>1313</strong><br />(-23 for losing)

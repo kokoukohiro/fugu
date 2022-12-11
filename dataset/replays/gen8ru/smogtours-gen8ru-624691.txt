@@ -1,0 +1,238 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1651952096
+|gametype|singles
+|player|p1|a rabbit|#scl1breakers|
+|player|p2|guille14|gambler|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] RU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Nidoqueen, F|
+|poke|p1|Crobat, M|
+|poke|p1|Guzzlord|
+|poke|p1|Metagross|
+|poke|p1|Golisopod, F|
+|poke|p1|Raikou|
+|poke|p2|Sylveon, F|
+|poke|p2|Scrafty, F|
+|poke|p2|Steelix, F|
+|poke|p2|Crobat, M|
+|poke|p2|Reuniclus, M|
+|poke|p2|Milotic, M|
+|teampreview
+|c|☆a rabbit|glhf
+|c|☆guille14|hf
+|inactive|a rabbit has 270 seconds left.
+|inactive|guille14 has 270 seconds left.
+|inactive|a rabbit has 240 seconds left.
+|inactive|guille14 has 240 seconds left.
+|inactive|a rabbit has 210 seconds left.
+|
+|t:|1651952191
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|switch|p2a: Crobat|Crobat, M|100/100
+|turn|1
+|
+|t:|1651952199
+|move|p2a: Crobat|U-turn|p1a: Nidoqueen
+|-resisted|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|91/100
+|
+|t:|1651952203
+|switch|p2a: Scrafty|Scrafty, F|100/100|[from]move: U-turn
+|move|p1a: Nidoqueen|Stealth Rock|p2a: Scrafty
+|-sidestart|p2: guille14|move: Stealth Rock
+|
+|-heal|p1a: Nidoqueen|98/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1651952226
+|switch|p1a: Crobat|Crobat, M|100/100
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|upkeep
+|turn|3
+|inactive|guille14 has 270 seconds left.
+|
+|t:|1651952261
+|move|p1a: Crobat|Brave Bird|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|50/100
+|-damage|p1a: Crobat|86/100|[from] Recoil
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|56/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1651952270
+|move|p1a: Crobat|Brave Bird|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|23/100
+|-damage|p1a: Crobat|76/100|[from] Recoil
+|move|p2a: Scrafty|Rest|p2a: Scrafty
+|-status|p2a: Scrafty|slp|[from] move: Rest
+|-heal|p2a: Scrafty|100/100 slp|[silent]
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|slp|[msg]
+|upkeep
+|turn|5
+|
+|t:|1651952275
+|move|p1a: Crobat|Brave Bird|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|68/100
+|-damage|p1a: Crobat|67/100|[from] Recoil
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1651952280
+|move|p1a: Crobat|Brave Bird|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|46/100
+|-damage|p1a: Crobat|59/100|[from] Recoil
+|move|p2a: Scrafty|Rest|p2a: Scrafty
+|-status|p2a: Scrafty|slp|[from] move: Rest
+|-heal|p2a: Scrafty|100/100 slp|[silent]
+|
+|upkeep
+|turn|7
+|
+|t:|1651952284
+|switch|p1a: Metagross|Metagross|100/100
+|cant|p2a: Scrafty|slp
+|
+|upkeep
+|turn|8
+|
+|t:|1651952288
+|move|p1a: Metagross|Cosmic Power|p1a: Metagross
+|-boost|p1a: Metagross|def|1
+|-boost|p1a: Metagross|spd|1
+|cant|p2a: Scrafty|slp
+|
+|upkeep
+|turn|9
+|
+|t:|1651952290
+|move|p1a: Metagross|Cosmic Power|p1a: Metagross
+|-boost|p1a: Metagross|def|1
+|-boost|p1a: Metagross|spd|1
+|-curestatus|p2a: Scrafty|slp|[msg]
+|move|p2a: Scrafty|Knock Off|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|39/100
+|-enditem|p1a: Metagross|Leftovers|[from] move: Knock Off|[of] p2a: Scrafty
+|
+|upkeep
+|turn|10
+|
+|t:|1651952296
+|move|p1a: Metagross|Body Press|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|65/100
+|move|p2a: Scrafty|Knock Off|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|-heal|p2a: Scrafty|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1651952301
+|switch|p1a: Raikou|Raikou|100/100
+|turn|11
+|
+|t:|1651952303
+|move|p1a: Raikou|Volt Switch|p2a: Scrafty
+|-damage|p2a: Scrafty|49/100
+|
+|t:|1651952306
+|switch|p1a: Nidoqueen|Nidoqueen, F|98/100|[from]move: Volt Switch
+|move|p2a: Scrafty|Drain Punch|p1a: Nidoqueen
+|-resisted|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|71/100
+|-heal|p2a: Scrafty|64/100|[from] drain|[of] p1a: Nidoqueen
+|
+|-heal|p1a: Nidoqueen|77/100|[from] item: Black Sludge
+|-heal|p2a: Scrafty|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1651952327
+|move|p1a: Nidoqueen|Earth Power|p2a: Scrafty
+|-damage|p2a: Scrafty|49/100
+|move|p2a: Scrafty|Knock Off|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|-enditem|p1a: Nidoqueen|Black Sludge|[from] move: Knock Off|[of] p2a: Scrafty
+|faint|p1a: Nidoqueen
+|
+|-heal|p2a: Scrafty|55/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1651952332
+|switch|p1a: Crobat|Crobat, M|59/100
+|turn|13
+|
+|t:|1651952334
+|move|p1a: Crobat|Brave Bird|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|28/100
+|-damage|p1a: Crobat|50/100|[from] Recoil
+|move|p2a: Scrafty|Rest|p2a: Scrafty
+|-status|p2a: Scrafty|slp|[from] move: Rest
+|-heal|p2a: Scrafty|100/100 slp|[silent]
+|
+|upkeep
+|turn|14
+|
+|t:|1651952338
+|move|p1a: Crobat|Brave Bird|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|70/100 slp
+|-damage|p1a: Crobat|41/100|[from] Recoil
+|cant|p2a: Scrafty|slp
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|slp|[msg]
+|-heal|p2a: Scrafty|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1651952341
+|move|p1a: Crobat|Brave Bird|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|50/100
+|-damage|p1a: Crobat|34/100|[from] Recoil
+|move|p2a: Scrafty|Knock Off|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|-enditem|p1a: Crobat|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Scrafty
+|faint|p1a: Crobat
+|
+|-heal|p2a: Scrafty|56/100|[from] item: Leftovers
+|upkeep
+|c|☆a rabbit|gg
+|-message|a rabbit forfeited.
+|
+|win|guille14
+|c|☆guille14|gg

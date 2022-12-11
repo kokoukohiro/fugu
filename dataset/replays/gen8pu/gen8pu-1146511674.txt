@@ -1,0 +1,419 @@
+|j|☆wbl imo
+|j|☆Karrakarra
+|player|p1|wbl imo|ilima|1429
+|player|p2|Karrakarra|saturn|1602
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Stunfisk, F|
+|poke|p1|Lilligant, F|
+|poke|p1|Ninjask, F|
+|poke|p1|Silvally-*|
+|poke|p1|Rapidash-Galar, M|
+|poke|p1|Rotom-Frost|
+|poke|p2|Ninjask, M|
+|poke|p2|Kangaskhan, F|
+|poke|p2|Whiscash, F|
+|poke|p2|Perrserker, F|
+|poke|p2|Glaceon, F|
+|poke|p2|Emolga, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ninjask|Ninjask, F|100/100
+|switch|p2a: Glaceon|Glaceon, F|100/100
+|turn|1
+|
+|move|p1a: Ninjask|U-turn|p2a: Glaceon
+|-damage|p2a: Glaceon|64/100
+|
+|switch|p1a: Rotom|Rotom-Frost|100/100|[from]move: U-turn
+|move|p2a: Glaceon|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|42/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Whiscash|Whiscash, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Whiscash
+|-immune|p2a: Whiscash
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Lilligant|Lilligant, F|100/100
+|move|p2a: Whiscash|Toxic|p1a: Lilligant
+|-status|p1a: Lilligant|tox
+|
+|-damage|p1a: Lilligant|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Perrserker|Perrserker, F|100/100
+|move|p1a: Lilligant|Leaf Storm|p2a: Perrserker
+|-resisted|p2a: Perrserker
+|-damage|p2a: Perrserker|73/100
+|-unboost|p1a: Lilligant|spa|2
+|
+|-damage|p1a: Lilligant|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Stunfisk|Stunfisk, F|100/100
+|move|p2a: Perrserker|U-turn|p1a: Stunfisk
+|-damage|p1a: Stunfisk|85/100
+|-status|p2a: Perrserker|par|[from] ability: Static|[of] p1a: Stunfisk
+|
+|switch|p2a: Glaceon|Glaceon, F|64/100|[from]move: U-turn
+|
+|-heal|p1a: Stunfisk|91/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Silvally|Silvally-Rock|100/100
+|move|p2a: Glaceon|Ice Beam|p1a: Silvally
+|-damage|p1a: Silvally|31/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Whiscash|Whiscash, F|100/100
+|move|p1a: Silvally|U-turn|p2a: Whiscash
+|-damage|p2a: Whiscash|89/100
+|
+|switch|p1a: Rapidash|Rapidash-Galar, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Whiscash|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Rapidash|Swords Dance|p1a: Rapidash
+|-boost|p1a: Rapidash|atk|2
+|move|p2a: Whiscash|Scald|p1a: Rapidash
+|-damage|p1a: Rapidash|70/100
+|-status|p1a: Rapidash|brn
+|
+|-heal|p2a: Whiscash|100/100|[from] item: Leftovers
+|-damage|p1a: Rapidash|64/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Rapidash|Play Rough|p2a: Whiscash
+|-damage|p2a: Whiscash|64/100
+|-damage|p1a: Rapidash|54/100 brn|[from] item: Life Orb
+|move|p2a: Whiscash|Earth Power|p1a: Rapidash
+|-damage|p1a: Rapidash|14/100 brn
+|
+|-heal|p2a: Whiscash|70/100|[from] item: Leftovers
+|-damage|p1a: Rapidash|8/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Lilligant|Lilligant, F|82/100 tox
+|move|p2a: Whiscash|Protect||[still]
+|-fail|p2a: Whiscash
+|
+|-heal|p2a: Whiscash|77/100|[from] item: Leftovers
+|-damage|p1a: Lilligant|76/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Whiscash|Protect|p2a: Whiscash
+|-singleturn|p2a: Whiscash|Protect
+|move|p1a: Lilligant|Leaf Storm|p2a: Whiscash
+|-activate|p2a: Whiscash|move: Protect
+|
+|-heal|p2a: Whiscash|83/100|[from] item: Leftovers
+|-damage|p1a: Lilligant|64/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Stunfisk|Stunfisk, F|91/100
+|move|p2a: Whiscash|Scald|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-crit|p1a: Stunfisk
+|-damage|p1a: Stunfisk|36/100
+|
+|-heal|p2a: Whiscash|89/100|[from] item: Leftovers
+|-heal|p1a: Stunfisk|42/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Lilligant|Lilligant, F|64/100 tox
+|move|p2a: Whiscash|Earth Power|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|46/100 tox
+|
+|-heal|p2a: Whiscash|95/100|[from] item: Leftovers
+|-damage|p1a: Lilligant|40/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p2a: Perrserker|Perrserker, F|73/100 par
+|move|p1a: Lilligant|Leaf Storm|p2a: Perrserker
+|-resisted|p2a: Perrserker
+|-damage|p2a: Perrserker|43/100 par
+|-unboost|p1a: Lilligant|spa|2
+|
+|-damage|p1a: Lilligant|28/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Ninjask|Ninjask, F|100/100
+|cant|p2a: Perrserker|par
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Emolga|Emolga, M|100/100
+|move|p1a: Ninjask|U-turn|p2a: Emolga
+|-resisted|p2a: Emolga
+|-damage|p2a: Emolga|84/100
+|
+|switch|p1a: Stunfisk|Stunfisk, F|42/100|[from]move: U-turn
+|
+|-heal|p1a: Stunfisk|48/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Glaceon|Glaceon, F|64/100
+|switch|p1a: Rotom|Rotom-Frost|42/100
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Whiscash|Whiscash, F|95/100
+|move|p1a: Rotom|Volt Switch|p2a: Whiscash
+|-immune|p2a: Whiscash
+|
+|-heal|p2a: Whiscash|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Whiscash|Scald|p1a: Rotom
+|-damage|p1a: Rotom|12/100
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Perrserker|Perrserker, F|43/100 par
+|move|p1a: Rotom|Blizzard|p2a: Perrserker
+|-resisted|p2a: Perrserker
+|-crit|p2a: Perrserker
+|-damage|p2a: Perrserker|0 fnt
+|faint|p2a: Perrserker
+|
+|upkeep
+|
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|turn|21
+|
+|switch|p1a: Stunfisk|Stunfisk, F|48/100
+|move|p2a: Ninjask|U-turn|p1a: Stunfisk
+|-damage|p1a: Stunfisk|28/100
+|-status|p2a: Ninjask|par|[from] ability: Static|[of] p1a: Stunfisk
+|
+|switch|p2a: Glaceon|Glaceon, F|64/100|[from]move: U-turn
+|
+|-heal|p1a: Stunfisk|34/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Silvally|Silvally-Rock|31/100
+|move|p2a: Glaceon|Ice Beam|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Ninjask|Ninjask, F|100/100
+|turn|23
+|
+|switch|p2a: Emolga|Emolga, M|84/100
+|move|p1a: Ninjask|U-turn|p2a: Emolga
+|-resisted|p2a: Emolga
+|-damage|p2a: Emolga|69/100
+|-status|p1a: Ninjask|par|[from] ability: Static|[of] p2a: Emolga
+|
+|switch|p1a: Stunfisk|Stunfisk, F|34/100|[from]move: U-turn
+|
+|-heal|p1a: Stunfisk|40/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Emolga|Knock Off|p1a: Stunfisk
+|-damage|p1a: Stunfisk|29/100
+|-enditem|p1a: Stunfisk|Leftovers|[from] move: Knock Off|[of] p2a: Emolga
+|move|p1a: Stunfisk|Stealth Rock|p2a: Emolga
+|-sidestart|p2: Karrakarra|move: Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Emolga|Defog|p1a: Stunfisk
+|-unboost|p1a: Stunfisk|evasion|1
+|-sideend|p2: Karrakarra|Stealth Rock|[from] move: Defog|[of] p2a: Emolga
+|move|p1a: Stunfisk|Toxic|p2a: Emolga
+|-status|p2a: Emolga|tox
+|
+|-damage|p2a: Emolga|63/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Glaceon|Glaceon, F|64/100
+|move|p1a: Stunfisk|Stealth Rock|p2a: Glaceon
+|-sidestart|p2: Karrakarra|move: Stealth Rock
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Rotom|Rotom-Frost|12/100
+|move|p2a: Glaceon|Ice Beam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Lilligant|Lilligant, F|28/100 tox
+|turn|28
+|
+|switch|p2a: Emolga|Emolga, M|63/100 tox
+|move|p1a: Lilligant|Healing Wish|p1a: Lilligant
+|faint|p1a: Lilligant
+|
+|-damage|p2a: Emolga|57/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Rapidash|Rapidash-Galar, M|8/100 brn
+|-heal|p1a: Rapidash|100/100|[from] move: Healing Wish
+|turn|29
+|
+|move|p1a: Rapidash|Swords Dance|p1a: Rapidash
+|-boost|p1a: Rapidash|atk|2
+|move|p2a: Emolga|Knock Off|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-damage|p1a: Rapidash|56/100
+|-enditem|p1a: Rapidash|Life Orb|[from] move: Knock Off|[of] p2a: Emolga
+|
+|-damage|p2a: Emolga|45/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Rapidash|Morning Sun|p1a: Rapidash
+|-heal|p1a: Rapidash|100/100
+|move|p2a: Emolga|U-turn|p1a: Rapidash
+|-damage|p1a: Rapidash|78/100
+|
+|switch|p2a: Whiscash|Whiscash, F|100/100|[from]move: U-turn
+|-damage|p2a: Whiscash|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Whiscash|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Rapidash|Swords Dance|p1a: Rapidash
+|-boost|p1a: Rapidash|atk|2
+|move|p2a: Whiscash|Toxic|p1a: Rapidash
+|-immune|p1a: Rapidash|[from] ability: Pastel Veil
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Rapidash|Play Rough|p2a: Whiscash
+|-damage|p2a: Whiscash|22/100
+|move|p2a: Whiscash|Scald|p1a: Rapidash
+|-damage|p1a: Rapidash|43/100
+|
+|-heal|p2a: Whiscash|28/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Rapidash|High Horsepower|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|faint|p2a: Whiscash
+|
+|upkeep
+|
+|switch|p2a: Emolga|Emolga, M|45/100 tox
+|turn|34
+|
+|move|p1a: Rapidash|Morning Sun|p1a: Rapidash
+|-heal|p1a: Rapidash|93/100
+|move|p2a: Emolga|Knock Off|p1a: Rapidash
+|-damage|p1a: Rapidash|74/100
+|
+|-damage|p2a: Emolga|39/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p1a: Rapidash|Swords Dance|p1a: Rapidash
+|-boost|p1a: Rapidash|atk|2
+|move|p2a: Emolga|Knock Off|p1a: Rapidash
+|-damage|p1a: Rapidash|53/100
+|
+|-damage|p2a: Emolga|26/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|move|p1a: Rapidash|Morning Sun|p1a: Rapidash
+|-heal|p1a: Rapidash|100/100
+|move|p2a: Emolga|Defog|p1a: Rapidash
+|-unboost|p1a: Rapidash|evasion|1
+|-sideend|p2: Karrakarra|Stealth Rock|[from] move: Defog|[of] p2a: Emolga
+|
+|-damage|p2a: Emolga|8/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|move|p1a: Rapidash|Swords Dance|p1a: Rapidash
+|-boost|p1a: Rapidash|atk|0
+|move|p2a: Emolga|U-turn|p1a: Rapidash
+|-damage|p1a: Rapidash|77/100
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Emolga|Emolga, M|8/100 tox
+|move|p1a: Rapidash|Morning Sun|p1a: Rapidash
+|-heal|p1a: Rapidash|100/100
+|
+|-damage|p2a: Emolga|2/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|move|p1a: Rapidash|Swords Dance|p1a: Rapidash
+|-boost|p1a: Rapidash|atk|0
+|move|p2a: Emolga|U-turn|p1a: Rapidash
+|-damage|p1a: Rapidash|80/100
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Rapidash|Play Rough|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|-message|Karrakarra forfeited.
+|
+|win|wbl imo
+|l|☆Karrakarra
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

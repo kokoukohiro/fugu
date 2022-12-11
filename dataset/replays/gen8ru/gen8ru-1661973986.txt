@@ -1,0 +1,368 @@
+|j|☆Qbreezy
+|j|☆Tester482
+|t:|1662939371
+|gametype|singles
+|player|p1|Qbreezy|2|1344
+|player|p2|Tester482|wattson|1476
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Celebi|
+|poke|p1|Decidueye, M|
+|poke|p1|Vileplume, F|
+|poke|p1|Ferroseed, F|
+|poke|p1|Abomasnow, F|
+|poke|p1|Tsareena, F|
+|poke|p2|Morpeko, M|
+|poke|p2|Arcanine, M|
+|poke|p2|Drifblim, M|
+|poke|p2|Noivern, M|
+|poke|p2|Barbaracle, F|
+|poke|p2|Mudsdale, F|
+|teampreview
+|
+|t:|1662939382
+|start
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|turn|1
+|
+|t:|1662939389
+|switch|p2a: Noivern|Noivern, M|100/100
+|move|p1a: Celebi|Earth Power|p2a: Noivern
+|-immune|p2a: Noivern
+|
+|upkeep
+|turn|2
+|
+|t:|1662939395
+|move|p2a: Noivern|Flamethrower|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|25/100
+|move|p1a: Celebi|Ancient Power|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|44/100
+|
+|upkeep
+|turn|3
+|
+|t:|1662939417
+|move|p2a: Noivern|Flamethrower|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|upkeep
+|j| WHATSGOODDAWGS
+|
+|t:|1662939425
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|turn|4
+|l| WHATSGOODDAWGS
+|
+|t:|1662939433
+|switch|p2a: Mudsdale|Mudsdale, F|100/100
+|move|p1a: Tsareena|Rapid Spin|p2a: Mudsdale
+|-damage|p2a: Mudsdale|91/100
+|-boost|p1a: Tsareena|spe|1
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|-heal|p2a: Mudsdale|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1662939442
+|switch|p1a: Ferroseed|Ferroseed, F|100/100
+|move|p2a: Mudsdale|Toxic|p1a: Ferroseed
+|-immune|p1a: Ferroseed
+|
+|-heal|p2a: Mudsdale|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1662939449
+|move|p2a: Mudsdale|Stealth Rock|p1a: Ferroseed
+|-sidestart|p1: Qbreezy|move: Stealth Rock
+|move|p1a: Ferroseed|Stealth Rock|p2a: Mudsdale
+|-sidestart|p2: Tester482|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1662939454
+|move|p2a: Mudsdale|Earthquake|p1a: Ferroseed
+|-damage|p1a: Ferroseed|64/100
+|move|p1a: Ferroseed|Spikes|p2a: Mudsdale
+|-sidestart|p2: Tester482|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1662939459
+|move|p2a: Mudsdale|Body Press|p1a: Ferroseed
+|-supereffective|p1a: Ferroseed
+|-crit|p1a: Ferroseed
+|-damage|p1a: Ferroseed|0 fnt
+|-damage|p2a: Mudsdale|88/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|faint|p1a: Ferroseed
+|
+|-heal|p2a: Mudsdale|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1662939467
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1662939471
+|move|p1a: Vileplume|Sleep Powder|p2a: Mudsdale
+|-status|p2a: Mudsdale|slp|[from] move: Sleep Powder
+|cant|p2a: Mudsdale|slp
+|
+|-heal|p1a: Vileplume|94/100|[from] item: Black Sludge
+|-heal|p2a: Mudsdale|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1662939478
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|-damage|p2a: Drifblim|75/100|[from] Stealth Rock
+|move|p1a: Vileplume|Sludge Wave|p2a: Drifblim
+|-resisted|p2a: Drifblim
+|-damage|p2a: Drifblim|56/100
+|
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1662939488
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Drifblim|Thunder Wave|p1a: Abomasnow|[miss]
+|-miss|p2a: Drifblim|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifblim|50/100|[from] Hail
+|-enditem|p2a: Drifblim|Sitrus Berry|[eat]
+|-heal|p2a: Drifblim|75/100|[from] item: Sitrus Berry
+|upkeep
+|turn|12
+|
+|t:|1662939498
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Abomasnow
+|-status|p1a: Abomasnow|brn
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: Qbreezy|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Drifblim|69/100|[from] Hail
+|-damage|p1a: Abomasnow|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1662939506
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Abomasnow|atk|1
+|move|p1a: Abomasnow|Blizzard|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|77/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Arcanine|71/100|[from] Hail
+|-damage|p1a: Abomasnow|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1662939517
+|move|p1a: Abomasnow|Blizzard|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|47/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|-damage|p2a: Arcanine|22/100|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Arcanine|16/100|[from] Hail
+|upkeep
+|
+|t:|1662939536
+|switch|p1a: Decidueye|Decidueye, M|100/100
+|-damage|p1a: Decidueye|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1662939547
+|switch|p2a: Barbaracle|Barbaracle, F|100/100
+|-damage|p2a: Barbaracle|88/100|[from] Stealth Rock
+|-damage|p2a: Barbaracle|76/100|[from] Spikes
+|move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+|-boost|p1a: Decidueye|atk|2
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1662939555
+|move|p1a: Decidueye|Leaf Blade|p2a: Barbaracle
+|-supereffective|p2a: Barbaracle
+|-damage|p2a: Barbaracle|0 fnt
+|faint|p2a: Barbaracle
+|-damage|p1a: Decidueye|78/100|[from] item: Life Orb
+|
+|-sideend|p1: Qbreezy|move: Aurora Veil
+|upkeep
+|
+|t:|1662939559
+|switch|p2a: Arcanine|Arcanine, M|16/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Decidueye|atk|1
+|turn|17
+|
+|t:|1662939565
+|switch|p2a: Drifblim|Drifblim, M|69/100
+|-damage|p2a: Drifblim|44/100|[from] Stealth Rock
+|move|p1a: Decidueye|Shadow Sneak|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|-damage|p1a: Decidueye|69/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1662939576
+|switch|p2a: Morpeko|Morpeko, M|100/100
+|-damage|p2a: Morpeko|88/100|[from] Stealth Rock
+|-damage|p2a: Morpeko|76/100|[from] Spikes
+|turn|18
+|
+|t:|1662939581
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|move|p2a: Morpeko|Crunch|p1a: Vileplume
+|-damage|p1a: Vileplume|53/100
+|-damage|p2a: Morpeko|66/100|[from] item: Life Orb
+|
+|-heal|p1a: Vileplume|59/100|[from] item: Black Sludge
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|19
+|
+|t:|1662939599
+|move|p2a: Morpeko|Aura Wheel|p1a: Vileplume
+|-damage|p1a: Vileplume|15/100
+|-boost|p2a: Morpeko|spe|1
+|-damage|p2a: Morpeko|56/100|[from] item: Life Orb
+|move|p1a: Vileplume|Sludge Wave|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|faint|p2a: Morpeko
+|
+|-heal|p1a: Vileplume|21/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1662939606
+|switch|p2a: Noivern|Noivern, M|44/100
+|-damage|p2a: Noivern|19/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1662939622
+|move|p2a: Noivern|Flamethrower|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|upkeep
+|
+|t:|1662939628
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|-damage|p1a: Tsareena|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1662939633
+|move|p2a: Noivern|Flamethrower|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|
+|upkeep
+|
+|t:|1662939637
+|switch|p1a: Decidueye|Decidueye, M|69/100
+|-damage|p1a: Decidueye|56/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1662939642
+|move|p1a: Decidueye|Shadow Sneak|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|-damage|p1a: Decidueye|46/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1662939647
+|switch|p2a: Arcanine|Arcanine, M|16/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Decidueye|atk|1
+|turn|23
+|
+|t:|1662939658
+|switch|p2a: Mudsdale|Mudsdale, F|100/100 slp
+|-damage|p2a: Mudsdale|94/100 slp|[from] Stealth Rock
+|-damage|p2a: Mudsdale|82/100 slp|[from] Spikes
+|move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+|-boost|p1a: Decidueye|atk|2
+|
+|-heal|p2a: Mudsdale|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1662939667
+|move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+|-boost|p1a: Decidueye|atk|2
+|cant|p2a: Mudsdale|slp
+|
+|-heal|p2a: Mudsdale|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1662939673
+|move|p1a: Decidueye|Leaf Blade|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|faint|p2a: Mudsdale
+|-damage|p1a: Decidueye|37/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1662939676
+|switch|p2a: Arcanine|Arcanine, M|16/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Decidueye|atk|1
+|turn|26
+|
+|t:|1662939682
+|move|p1a: Decidueye|Shadow Sneak|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|-damage|p1a: Decidueye|27/100|[from] item: Life Orb
+|
+|win|Qbreezy
+|raw|Qbreezy's rating: 1344 &rarr; <strong>1371</strong><br />(+27 for winning)
+|raw|Tester482's rating: 1476 &rarr; <strong>1449</strong><br />(-27 for losing)
+|l|☆Tester482
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

@@ -1,0 +1,360 @@
+|j|☆pif
+|j|☆arcaea
+|player|p1|pif|preschooler|1630
+|player|p2|arcaea|2|1542
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Bellossom, M|
+|poke|p1|Obstagoon, F|
+|poke|p1|Golisopod, M|
+|poke|p1|Rhyperior, F|
+|poke|p1|Klinklang|
+|poke|p1|Weezing-Galar, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Espeon, M|
+|poke|p2|Rhyperior, M|
+|poke|p2|Doublade, M|
+|poke|p2|Noivern, F|
+|poke|p2|Vaporeon, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆arcaea|glhf
+|
+|start
+|switch|p1a: punky skunky|Obstagoon, F|100/100
+|switch|p2a: Noivern|Noivern, F|100/100
+|-item|p1a: punky skunky|Choice Scarf|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|turn|1
+|c|☆pif|glhf
+|j| GNarledge
+|
+|move|p1a: punky skunky|Double-Edge|p2a: Noivern
+|-damage|p2a: Noivern|42/100
+|-damage|p1a: punky skunky|78/100|[from] Recoil
+|move|p2a: Noivern|Hurricane|p1a: punky skunky|[miss]
+|-miss|p2a: Noivern|p1a: punky skunky
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: stabby wabby|Rhyperior, F|100/100
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Rhyperior|Stealth Rock|p1a: stabby wabby
+|-sidestart|p1: pif|move: Stealth Rock
+|move|p1a: stabby wabby|Stealth Rock|p2a: Rhyperior
+|-sidestart|p2: arcaea|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: chokey smokey|Weezing-Galar, F|100/100
+|-damage|p1a: chokey smokey|88/100|[from] Stealth Rock
+|move|p2a: Rhyperior|Earthquake|p1a: chokey smokey
+|-immune|p1a: chokey smokey|[from] ability: Levitate
+|
+|-heal|p1a: chokey smokey|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j| Smileyz
+|
+|move|p1a: chokey smokey|Strange Steam|p2a: Rhyperior
+|-damage|p2a: Rhyperior|63/100
+|move|p2a: Rhyperior|Heavy Slam|p1a: chokey smokey
+|-supereffective|p1a: chokey smokey
+|-damage|p1a: chokey smokey|7/100
+|
+|-heal|p1a: chokey smokey|14/100|[from] item: Leftovers
+|-heal|p2a: Rhyperior|69/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: chokey smokey|Strange Steam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|57/100
+|
+|-heal|p1a: chokey smokey|20/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|j| Webbtunes
+|
+|move|p1a: chokey smokey|Sludge Bomb|p2a: Vaporeon
+|-damage|p2a: Vaporeon|36/100
+|move|p2a: Vaporeon|Scald|p1a: chokey smokey
+|-damage|p1a: chokey smokey|0 fnt
+|faint|p1a: chokey smokey
+|
+|-heal|p2a: Vaporeon|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: dancy girl|Bellossom, M|100/100
+|-damage|p1a: dancy girl|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|-damage|p2a: Espeon|88/100|[from] Stealth Rock
+|move|p1a: dancy girl|Quiver Dance|p1a: dancy girl
+|-boost|p1a: dancy girl|spa|1
+|-boost|p1a: dancy girl|spd|1
+|-boost|p1a: dancy girl|spe|1
+|
+|-heal|p1a: dancy girl|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Espeon|Trick|p1a: dancy girl
+|-activate|p2a: Espeon|move: Trick|[of] p1a: dancy girl
+|-item|p1a: dancy girl|Choice Scarf|[from] move: Trick
+|-item|p2a: Espeon|Leftovers|[from] move: Trick
+|move|p1a: dancy girl|Giga Drain|p2a: Espeon
+|-damage|p2a: Espeon|34/100
+|-heal|p1a: dancy girl|100/100|[from] drain|[of] p2a: Espeon
+|
+|-heal|p2a: Espeon|40/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: dancy girl|Giga Drain|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|
+|switch|p2a: Noivern|Noivern, F|42/100
+|-item|p1a: dancy girl|Choice Scarf|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|turn|11
+|
+|switch|p1a: stabby wabby|Rhyperior, F|100/100
+|-damage|p1a: stabby wabby|94/100|[from] Stealth Rock
+|move|p2a: Noivern|Hurricane|p1a: stabby wabby
+|-resisted|p1a: stabby wabby
+|-damage|p1a: stabby wabby|79/100
+|-start|p1a: stabby wabby|confusion
+|
+|-heal|p1a: stabby wabby|85/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|j| Older Raikage
+|
+|move|p2a: Noivern|U-turn|p1a: stabby wabby
+|-damage|p1a: stabby wabby|78/100
+|
+|switch|p2a: Rhyperior|Rhyperior, M|69/100|[from]move: U-turn
+|-damage|p2a: Rhyperior|63/100|[from] Stealth Rock
+|-activate|p1a: stabby wabby|confusion
+|move|p1a: stabby wabby|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|15/100
+|
+|-heal|p2a: Rhyperior|22/100|[from] item: Leftovers
+|-heal|p1a: stabby wabby|84/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: dancy girl|Bellossom, M|100/100
+|-damage|p1a: dancy girl|88/100|[from] Stealth Rock
+|move|p2a: Rhyperior|Earthquake|p1a: dancy girl
+|-resisted|p1a: dancy girl
+|-damage|p1a: dancy girl|59/100
+|
+|-heal|p2a: Rhyperior|28/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Noivern|Noivern, F|42/100
+|-item|p1a: dancy girl|Choice Scarf|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|move|p1a: dancy girl|Sludge Bomb|p2a: Noivern
+|-damage|p2a: Noivern|18/100
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: stabby wabby|Rhyperior, F|84/100
+|-damage|p1a: stabby wabby|78/100|[from] Stealth Rock
+|move|p2a: Noivern|U-turn|p1a: stabby wabby
+|-damage|p1a: stabby wabby|71/100
+|
+|switch|p2a: Rhyperior|Rhyperior, M|28/100|[from]move: U-turn
+|-damage|p2a: Rhyperior|22/100|[from] Stealth Rock
+|
+|-heal|p2a: Rhyperior|28/100|[from] item: Leftovers
+|-heal|p1a: stabby wabby|77/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Rhyperior|Heavy Slam|p1a: stabby wabby
+|-supereffective|p1a: stabby wabby
+|-damage|p1a: stabby wabby|62/100
+|move|p1a: stabby wabby|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-heal|p1a: stabby wabby|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, M|42/100
+|-damage|p2a: Vaporeon|30/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: dancy girl|Bellossom, M|59/100
+|-damage|p1a: dancy girl|47/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: dancy girl
+|-resisted|p1a: dancy girl
+|-damage|p1a: dancy girl|31/100
+|-status|p1a: dancy girl|brn
+|
+|-heal|p2a: Vaporeon|36/100|[from] item: Leftovers
+|-damage|p1a: dancy girl|25/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: dancy girl|Giga Drain|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|42/100|[from] item: Leftovers
+|-damage|p1a: dancy girl|19/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Doublade|Doublade, M|100/100
+|-damage|p2a: Doublade|94/100|[from] Stealth Rock
+|move|p1a: dancy girl|Giga Drain|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|76/100
+|-heal|p1a: dancy girl|27/100 brn|[from] drain|[of] p2a: Doublade
+|
+|-damage|p1a: dancy girl|21/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: dancy girl
+|-damage|p1a: dancy girl|0 fnt
+|faint|p1a: dancy girl
+|
+|upkeep
+|
+|switch|p1a: stabby wabby|Rhyperior, F|68/100
+|-damage|p1a: stabby wabby|62/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Noivern|Noivern, F|18/100
+|-item|p1a: stabby wabby|Leftovers|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|move|p1a: stabby wabby|Earthquake|p2a: Noivern
+|-immune|p2a: Noivern
+|
+|-heal|p1a: stabby wabby|68/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Noivern|Hurricane|p1a: stabby wabby|[miss]
+|-miss|p2a: Noivern|p1a: stabby wabby
+|move|p1a: stabby wabby|Rock Blast|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|-hitcount|p2a: Noivern|1
+|faint|p2a: Noivern
+|
+|-heal|p1a: stabby wabby|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|-damage|p2a: Obstagoon|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Obstagoon|Knock Off|p1a: stabby wabby
+|-damage|p1a: stabby wabby|49/100
+|-enditem|p1a: stabby wabby|Leftovers|[from] move: Knock Off|[of] p2a: Obstagoon
+|move|p1a: stabby wabby|Earthquake|p2a: Obstagoon
+|-damage|p2a: Obstagoon|32/100
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|24
+|
+|move|p2a: Obstagoon|Close Combat|p1a: stabby wabby
+|-supereffective|p1a: stabby wabby
+|-damage|p1a: stabby wabby|6/100
+|-unboost|p2a: Obstagoon|def|1
+|-unboost|p2a: Obstagoon|spd|1
+|move|p1a: stabby wabby|Earthquake|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|faint|p2a: Obstagoon
+|
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, M|42/100
+|-damage|p2a: Vaporeon|30/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Vaporeon|Scald|p1a: stabby wabby
+|-supereffective|p1a: stabby wabby
+|-damage|p1a: stabby wabby|0 fnt
+|faint|p1a: stabby wabby
+|
+|-heal|p2a: Vaporeon|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: klang and bang|Klinklang|100/100
+|-damage|p1a: klang and bang|94/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: klang and bang|Wild Charge|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-damage|p1a: klang and bang|79/100|[from] Recoil
+|faint|p2a: Vaporeon
+|
+|-heal|p1a: klang and bang|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Doublade|Doublade, M|76/100
+|-damage|p2a: Doublade|70/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: klang and bang|Wild Charge|p2a: Doublade
+|-damage|p2a: Doublade|55/100
+|-damage|p1a: klang and bang|80/100|[from] Recoil
+|move|p2a: Doublade|Close Combat|p1a: klang and bang
+|-supereffective|p1a: klang and bang
+|-damage|p1a: klang and bang|0 fnt
+|-unboost|p2a: Doublade|def|1
+|-unboost|p2a: Doublade|spd|1
+|faint|p1a: klang and bang
+|
+|upkeep
+|
+|switch|p1a: punky skunky|Obstagoon, F|78/100
+|-damage|p1a: punky skunky|66/100|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: punky skunky|Knock Off|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|-enditem|p2a: Doublade|Eviolite|[from] move: Knock Off|[of] p1a: punky skunky
+|faint|p2a: Doublade
+|
+|win|pif
+|c|☆pif|gg
+|raw|pif's rating: 1630 &rarr; <strong>1645</strong><br />(+15 for winning)
+|raw|arcaea's rating: 1542 &rarr; <strong>1527</strong><br />(-15 for losing)
+|c|☆arcaea|gg
+|l|☆pif

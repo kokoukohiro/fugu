@@ -1,0 +1,200 @@
+|j|☆big boss 447
+|j|☆GenTheGod
+|player|p1|big boss 447|n|1663
+|player|p2|GenTheGod|279|1611
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Inteleon, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Zeraora|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Crawdaunt, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Venusaur, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Cinderace, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Aegislash|Aegislash, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|move|p1a: Rillaboom|Knock Off|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-enditem|p2a: Aegislash|Choice Specs|[from] move: Knock Off|[of] p1a: Rillaboom
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|2
+|
+|move|p1a: Rillaboom|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|71/100
+|-enditem|p2a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p1a: Rillaboom
+|move|p2a: Torkoal|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: big boss 447|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|77/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Torkoal|Yawn|p1a: Pelipper
+|-start|p1a: Pelipper|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Torkoal|83/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|switch|p2a: Venusaur|Venusaur, F, shiny|100/100
+|move|p1a: Pelipper|U-turn|p2a: Venusaur
+|-damage|p2a: Venusaur|88/100
+|
+|switch|p1a: Inteleon|Inteleon, F|100/100|[from]move: U-turn
+|-damage|p1a: Inteleon|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Inteleon|94/100|[from] Grassy Terrain
+|-heal|p2a: Venusaur|94/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|switch|p2a: Torkoal|Torkoal, M, shiny|83/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Inteleon|Ice Beam|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Inteleon|99/100|[from] Grassy Terrain
+|-heal|p2a: Torkoal|71/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|switch|p1a: Pelipper|Pelipper, F|76/100
+|-damage|p1a: Pelipper|51/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Torkoal|Yawn|p1a: Pelipper
+|-start|p1a: Pelipper|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Pelipper|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|83/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|89/100|[from] Grassy Terrain
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Rillaboom|Superpower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|32/100
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2a: Rillaboom|def|1
+|-damage|p2a: Rillaboom|77/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Rillaboom
+|-sidestart|p2: GenTheGod|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|83/100|[from] Grassy Terrain
+|-heal|p1a: Ferrothorn|39/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|45/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|switch|p1a: Inteleon|Inteleon, F|99/100
+|-damage|p1a: Inteleon|88/100|[from] Stealth Rock
+|move|p2a: Rillaboom|Superpower|p1a: Inteleon
+|-damage|p1a: Inteleon|14/100
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2a: Rillaboom|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Inteleon|20/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|89/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|switch|p2a: Torkoal|Torkoal, M, shiny|71/100
+|-damage|p2a: Torkoal|46/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Inteleon|Snipe Shot|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Inteleon|26/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M, shiny|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|turn|11
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Inteleon|Ice Beam|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Inteleon|32/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M, shiny|100/100
+|turn|12
+|
+|move|p1a: Inteleon|Snipe Shot|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|GenTheGod forfeited.
+|
+|win|big boss 447
+|l|☆GenTheGod
+|raw|big boss 447's rating: 1648 &rarr; <strong>1666</strong><br />(+18 for winning)
+|raw|GenTheGod's rating: 1611 &rarr; <strong>1593</strong><br />(-18 for losing)

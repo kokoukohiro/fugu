@@ -1,0 +1,514 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1617480565
+|player|p1|The Last Hero|acetrainersnow|
+|player|p2|adricraxk|293|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Kingdra, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Clefable, F|
+|poke|p1|Zapdos|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Reuniclus, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Clefable, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1617480591
+|start
+|switch|p1a: Zapdosorio|Zapdos|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|
+|t:|1617480600
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|move|p1a: Zapdosorio|Hurricane|p2a: Garchomp
+|-damage|p2a: Garchomp|50/100
+|
+|upkeep
+|turn|2
+|
+|t:|1617480611
+|move|p1a: Zapdosorio|Hurricane|p2a: Garchomp
+|-damage|p2a: Garchomp|1/100
+|move|p2a: Garchomp|Toxic|p1a: Zapdosorio
+|-status|p1a: Zapdosorio|tox
+|
+|-damage|p1a: Zapdosorio|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1617480617
+|switch|p1a: Stormfather|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Stormfather
+|move|p2a: Garchomp|Rest|p2a: Garchomp
+|-status|p2a: Garchomp|slp|[from] move: Rest
+|-heal|p2a: Garchomp|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1617480629
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Stormfather|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|98/100
+|
+|t:|1617480635
+|switch|p1a: Zapdosorio|Zapdos|94/100 tox|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Zapdosorio|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1617480642
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100 slp
+|move|p1a: Zapdosorio|Thunder|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zapdosorio|76/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1617480653
+|switch|p1a: Sr. Cangrejo|Crawdaunt, M|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1617480672
+|move|p1a: Sr. Cangrejo|Swords Dance|p1a: Sr. Cangrejo
+|-boost|p1a: Sr. Cangrejo|atk|2
+|move|p2a: Toxapex|Knock Off|p1a: Sr. Cangrejo
+|-resisted|p1a: Sr. Cangrejo
+|-damage|p1a: Sr. Cangrejo|90/100
+|-enditem|p1a: Sr. Cangrejo|Black Glasses|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|inactive|adricraxk has 270 seconds left.
+|inactive|adricraxk has 240 seconds left.
+|
+|t:|1617480745
+|move|p1a: Sr. Cangrejo|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|8/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Sr. Cangrejo
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1617480757
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Sr. Cangrejo|Swords Dance|p1a: Sr. Cangrejo
+|-boost|p1a: Sr. Cangrejo|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1617480769
+|switch|p2a: Toxapex|Toxapex, M|42/100
+|move|p1a: Sr. Cangrejo|Crabhammer|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-weather|none
+|upkeep
+|inactive|adricraxk has 210 seconds left.
+|
+|t:|1617480810
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|11
+|
+|t:|1617480818
+|switch|p1a: Zapdosorio|Zapdos|76/100 tox
+|move|p2a: Tornadus|Focus Blast|p1a: Zapdosorio
+|-resisted|p1a: Zapdosorio
+|-damage|p1a: Zapdosorio|53/100 tox
+|
+|-damage|p1a: Zapdosorio|47/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|adricraxk has 180 seconds left.
+|
+|t:|1617480844
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100 slp
+|move|p1a: Zapdosorio|Roost|p1a: Zapdosorio
+|-heal|p1a: Zapdosorio|97/100 tox
+|-singleturn|p1a: Zapdosorio|move: Roost
+|
+|-damage|p1a: Zapdosorio|84/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1617480847
+|switch|p1a: Stormfather|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Stormfather
+|cant|p2a: Garchomp|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1617480864
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Stormfather|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|97/100
+|
+|t:|1617480873
+|switch|p1a: Sexcadrill|Excadrill, M|100/100|[from]move: U-turn
+|-ability|p1a: Sexcadrill|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1617480887
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Sexcadrill|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: adricraxk|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|inactive|adricraxk has 180 seconds left.
+|
+|t:|1617480909
+|switch|p1a: Horsi|Kingdra, F|100/100
+|switch|p2a: Reuniclus|Reuniclus, M, shiny|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|inactive|adricraxk has 180 seconds left.
+|
+|t:|1617480941
+|move|p1a: Horsi|Surf|p2a: Reuniclus
+|-damage|p2a: Reuniclus|17/100
+|move|p2a: Reuniclus|Psyshock|p1a: Horsi
+|-damage|p1a: Horsi|61/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1617480948
+|move|p1a: Horsi|Surf|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1617480953
+|switch|p2a: Clefable|Clefable, M|97/100
+|turn|19
+|
+|t:|1617480957
+|switch|p1a: Sexcadrill|Excadrill, M|100/100
+|-ability|p1a: Sexcadrill|Mold Breaker
+|move|p2a: Clefable|Moonblast|p1a: Sexcadrill
+|-resisted|p1a: Sexcadrill
+|-damage|p1a: Sexcadrill|89/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sexcadrill|96/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|adricraxk has 180 seconds left.
+|
+|t:|1617480966
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Sexcadrill|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|73/100
+|
+|-weather|none
+|-heal|p1a: Sexcadrill|100/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|80/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1617480969
+|switch|p1a: Stormfather|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Stormfather
+|move|p2a: Corviknight|Defog|p1a: Stormfather
+|-unboost|p1a: Stormfather|evasion|1
+|-sideend|p2: adricraxk|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|86/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1617480976
+|switch|p2a: Clefable|Clefable, M|97/100
+|move|p1a: Stormfather|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|94/100
+|
+|t:|1617480980
+|switch|p1a: Sexcadrill|Excadrill, M|100/100|[from]move: U-turn
+|-ability|p1a: Sexcadrill|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1617480996
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Sexcadrill|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: adricraxk|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1617481001
+|switch|p1a: Zapdosorio|Zapdos|84/100 tox
+|move|p2a: Tornadus|Hurricane|p1a: Zapdosorio
+|-resisted|p1a: Zapdosorio
+|-damage|p1a: Zapdosorio|57/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zapdosorio|51/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1617481007
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100 slp
+|-damage|p2a: Garchomp|94/100 slp|[from] Stealth Rock
+|move|p1a: Zapdosorio|Weather Ball|p2a: Garchomp
+|-damage|p2a: Garchomp|43/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zapdosorio|39/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1617481011
+|switch|p1a: Horsi|Kingdra, F|61/100
+|cant|p2a: Garchomp|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1617481023
+|move|p1a: Horsi|Surf|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1617481025
+|switch|p2a: Clefable|Clefable, M|94/100
+|turn|28
+|
+|t:|1617481029
+|switch|p1a: Sexcadrill|Excadrill, M|100/100
+|-ability|p1a: Sexcadrill|Mold Breaker
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|
+|-weather|none
+|upkeep
+|turn|29
+|
+|t:|1617481033
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Sexcadrill|Iron Head|p2a: Tornadus
+|-damage|p2a: Tornadus|50/100
+|
+|upkeep
+|turn|30
+|
+|t:|1617481037
+|switch|p2a: Corviknight|Corviknight, M|86/100
+|-damage|p2a: Corviknight|73/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Sexcadrill|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|
+|-heal|p2a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1617481043
+|switch|p1a: Stormfather|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Stormfather
+|switch|p2a: Tornadus|Tornadus-Therian, M|83/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|inactive|adricraxk has 270 seconds left.
+|
+|t:|1617481048
+|move|p2a: Tornadus|Hurricane|p1a: Stormfather
+|-damage|p1a: Stormfather|25/100
+|-start|p1a: Stormfather|confusion
+|-activate|p1a: Stormfather|confusion
+|move|p1a: Stormfather|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|77/100
+|
+|t:|1617481052
+|switch|p1a: Horsi|Kingdra, F|61/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1617481061
+|switch|p2a: Corviknight|Corviknight, M|57/100
+|-damage|p2a: Corviknight|45/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Horsi|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1617481063
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|34
+|
+|t:|1617481074
+|switch|p1a: Sexcadrill|Excadrill, M|100/100
+|-ability|p1a: Sexcadrill|Mold Breaker
+|move|p2a: Clefable|Moonblast|p1a: Sexcadrill
+|-resisted|p1a: Sexcadrill
+|-crit|p1a: Sexcadrill
+|-damage|p1a: Sexcadrill|81/100
+|-unboost|p1a: Sexcadrill|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sexcadrill|87/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1617481079
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Sexcadrill|Iron Head|p2a: Tornadus
+|-damage|p2a: Tornadus|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sexcadrill|93/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1617481086
+|switch|p1a: Fabiole|Clefable, F|100/100
+|move|p2a: Tornadus|Focus Blast|p1a: Fabiole
+|-resisted|p1a: Fabiole
+|-damage|p1a: Fabiole|83/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|37
+|
+|t:|1617481090
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Fabiole|Thunder|p2a: Clefable
+|-damage|p2a: Clefable|70/100
+|-status|p2a: Clefable|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|38
+|
+|t:|1617481097
+|switch|p1a: Sexcadrill|Excadrill, M|93/100
+|-ability|p1a: Sexcadrill|Mold Breaker
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-weather|none
+|-heal|p1a: Sexcadrill|99/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1617481100
+|switch|p2a: Tornadus|Tornadus-Therian, M|80/100
+|move|p1a: Sexcadrill|Iron Head|p2a: Tornadus
+|-damage|p2a: Tornadus|33/100
+|
+|-heal|p1a: Sexcadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1617481108
+|move|p2a: Tornadus|Focus Blast|p1a: Sexcadrill
+|-supereffective|p1a: Sexcadrill
+|-damage|p1a: Sexcadrill|41/100
+|move|p1a: Sexcadrill|Iron Head|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-heal|p1a: Sexcadrill|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1617481112
+|switch|p2a: Clefable|Clefable, M|70/100 par
+|turn|41
+|
+|t:|1617481114
+|move|p1a: Sexcadrill|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|18/100 par
+|move|p2a: Clefable|Moonblast|p1a: Sexcadrill
+|-resisted|p1a: Sexcadrill
+|-crit|p1a: Sexcadrill
+|-damage|p1a: Sexcadrill|29/100
+|
+|-heal|p1a: Sexcadrill|35/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1617481118
+|move|p1a: Sexcadrill|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|win|The Last Hero
+|c|☆The Last Hero|gg
+|c|☆adricraxk|gg

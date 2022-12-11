@@ -1,0 +1,663 @@
+|j|☆Blue chen
+|j|☆Ballfire
+|player|p1|Blue chen|clair|1737
+|player|p2|Ballfire|aromalady|1667
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Eternatus|
+|poke|p1|Lunala|
+|poke|p1|Zamazenta|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Zacian-Crowned|
+|poke|p2|Lunala|
+|poke|p2|Quagsire, F|
+|poke|p2|Umbreon, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Zacian-Crowned|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|
+|start
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|move|p1a: Zacian|Close Combat|p2a: Quagsire
+|-damage|p2a: Quagsire|66/100
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|
+|-heal|p2a: Quagsire|72/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ballfire)
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|77/100
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p2a: Hatterene|Nuzzle|p1a: Necrozma
+|-damage|p1a: Necrozma|98/100
+|-status|p1a: Necrozma|par
+|
+|-heal|p1a: Necrozma|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Necrozma|Thunder Wave|p2a: Corviknight|[miss]
+|-miss|p1a: Necrozma|p2a: Corviknight
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Corviknight|Body Press|p1a: Necrozma
+|-damage|p1a: Necrozma|86/100 par
+|move|p1a: Necrozma|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|79/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Necrozma
+|
+|-heal|p1a: Necrozma|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Necrozma|Thunder Wave|p2a: Corviknight
+|-status|p2a: Corviknight|par
+|
+|-heal|p1a: Necrozma|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Corviknight|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|92/100
+|-damage|p2a: Corviknight|88/100 par|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Hatterene|Hatterene, F|77/100|[from]move: U-turn
+|
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|98/100 par
+|move|p2a: Hatterene|Baton Pass|p2a: Hatterene
+|
+|switch|p2a: Lunala|Lunala|100/100|[from]move: Baton Pass
+|
+|-heal|p1a: Necrozma|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Lunala|Hex|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|34/100 par
+|move|p1a: Necrozma|Thunder Wave|p2a: Lunala
+|-status|p2a: Lunala|par
+|
+|-heal|p1a: Necrozma|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|99/100
+|cant|p2a: Lunala|par
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|-start|p1a: Ferrothorn|Dynamax
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|move|p1a: Ferrothorn|Max Darkness|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|90/100
+|-unboost|p2a: Umbreon|spd|1
+|
+|-heal|p2a: Umbreon|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Umbreon|Heal Bell|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Heal Bell
+|-curestatus|p2: Corviknight|par|[msg]
+|-curestatus|p2: Lunala|par|[msg]
+|move|p1a: Ferrothorn|Max Knuckle|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|67/100
+|-boost|p1a: Ferrothorn|atk|1
+|
+|-heal|p2a: Umbreon|73/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Ferrothorn|Max Darkness|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|81/100
+|-unboost|p2a: Zacian|spd|1
+|
+|-end|p1a: Ferrothorn|Dynamax
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|15
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|move|p1a: Zacian|Behemoth Blade|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|79/100
+|
+|-heal|p2a: Quagsire|86/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Quagsire|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|94/100
+|-status|p1a: Ferrothorn|brn
+|
+|-heal|p2a: Quagsire|92/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Hatterene|Hatterene, F|77/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|69/100
+|
+|-heal|p1a: Ferrothorn|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|40/100 par
+|move|p2a: Hatterene|Mystical Fire|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|2/100 par
+|-unboost|p1a: Necrozma|spa|1
+|
+|-heal|p1a: Necrozma|8/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|upkeep
+|
+|switch|p1a: Lunala|Lunala|100/100
+|turn|21
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Hatterene|Nuzzle|p1a: Zamazenta
+|-damage|p1a: Zamazenta|98/100
+|-status|p1a: Zamazenta|par
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Quagsire|Quagsire, F|92/100
+|move|p1a: Zamazenta|Crunch|p2a: Quagsire
+|-damage|p2a: Quagsire|71/100
+|
+|-heal|p2a: Quagsire|77/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|cant|p1a: Zamazenta|par
+|move|p2a: Quagsire|Curse|p2a: Quagsire
+|-unboost|p2a: Quagsire|spe|1
+|-boost|p2a: Quagsire|atk|1
+|-boost|p2a: Quagsire|def|1
+|
+|-heal|p2a: Quagsire|83/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|cant|p1a: Zamazenta|par
+|move|p2a: Quagsire|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|59/100 par
+|
+|-heal|p2a: Quagsire|89/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|cant|p1a: Zamazenta|par
+|move|p2a: Quagsire|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|17/100 par
+|
+|-heal|p2a: Quagsire|95/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Zamazenta|Close Combat|p2a: Quagsire
+|-crit|p2a: Quagsire
+|-damage|p2a: Quagsire|31/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Quagsire|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Quagsire|37/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|turn|27
+|
+|switch|p2a: Zacian|Zacian-Crowned|81/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Zacian
+|-immune|p2a: Zacian
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Eternatus
+|-damage|p1a: Eternatus|15/100
+|move|p1a: Eternatus|Flamethrower|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|-damage|p1a: Eternatus|5/100|[from] item: Life Orb
+|faint|p2a: Zacian
+|
+|upkeep
+|
+|switch|p2a: Umbreon|Umbreon, M|73/100
+|turn|29
+|
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|55/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|79/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Eternatus|Flamethrower|p2a: Umbreon
+|-damage|p2a: Umbreon|55/100
+|-damage|p1a: Eternatus|45/100|[from] item: Life Orb
+|move|p2a: Umbreon|Snarl|p1a: Eternatus
+|-damage|p1a: Eternatus|35/100
+|-unboost|p1a: Eternatus|spa|1
+|
+|-heal|p2a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|31
+|
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|85/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|switch|p2a: Lunala|Lunala|100/100
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Zacian|Substitute|p1a: Zacian
+|-start|p1a: Zacian|Substitute
+|-damage|p1a: Zacian|76/100
+|move|p2a: Lunala|Thunder Wave||[still]
+|-fail|p2a: Lunala
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Lunala
+|-damage|p2a: Lunala|63/100
+|move|p2a: Lunala|Hex|p1a: Zacian
+|-end|p1a: Zacian|Substitute
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Zacian|Substitute|p1a: Zacian
+|-start|p1a: Zacian|Substitute
+|-damage|p1a: Zacian|51/100
+|move|p2a: Lunala|Hex|p1a: Zacian
+|-end|p1a: Zacian|Substitute
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|upkeep
+|
+|switch|p2a: Quagsire|Quagsire, F|37/100
+|turn|37
+|
+|-start|p2a: Quagsire|Dynamax
+|-heal|p2a: Quagsire|37/100|[silent]
+|move|p1a: Zacian|Close Combat|p2a: Quagsire
+|-damage|p2a: Quagsire|21/100
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|move|p2a: Quagsire|Max Quake|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|-boost|p2a: Quagsire|spd|1
+|faint|p1a: Zacian
+|
+|-heal|p2a: Quagsire|24/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|94/100 brn
+|turn|38
+|
+|move|p2a: Quagsire|Max Quake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|68/100 brn
+|-boost|p2a: Quagsire|spd|1
+|move|p1a: Ferrothorn|Knock Off|p2a: Quagsire
+|-damage|p2a: Quagsire|20/100
+|-enditem|p2a: Quagsire|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|68/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p2a: Quagsire|Max Quake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|44/100 brn
+|-boost|p2a: Quagsire|spd|1
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Quagsire
+|-sidestart|p2: Ballfire|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|44/100 brn|[from] brn
+|-end|p2a: Quagsire|Dynamax
+|-heal|p2a: Quagsire|20/100|[silent]
+|upkeep
+|turn|40
+|
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|70/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Quagsire
+|-start|p2a: Quagsire|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|50/100 brn|[from] item: Leftovers
+|-damage|p2a: Quagsire|58/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|64/100 brn|[silent]
+|-damage|p1a: Ferrothorn|58/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Quagsire
+|-damage|p2a: Quagsire|96/100
+|
+|-heal|p1a: Ferrothorn|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Quagsire|83/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|78/100 brn|[silent]
+|-damage|p1a: Ferrothorn|72/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p2a: Quagsire|Curse|p2a: Quagsire
+|-unboost|p2a: Quagsire|spe|1
+|-boost|p2a: Quagsire|atk|1
+|-boost|p2a: Quagsire|def|1
+|move|p1a: Ferrothorn|Body Press|p2a: Quagsire
+|-damage|p2a: Quagsire|76/100
+|
+|-heal|p1a: Ferrothorn|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Quagsire|64/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|92/100 brn|[silent]
+|-damage|p1a: Ferrothorn|86/100 brn|[from] brn
+|upkeep
+|turn|43
+|inactive|Blue chen has 120 seconds left.
+|
+|switch|p1a: Lunala|Lunala|100/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|-damage|p2a: Quagsire|88/100|[from] Leech Seed|[of] p1a: Lunala
+|upkeep
+|turn|44
+|
+|move|p1a: Lunala|Moongeist Beam|p2a: Quagsire
+|-damage|p2a: Quagsire|62/100
+|move|p2a: Quagsire|Scald|p1a: Lunala
+|-damage|p1a: Lunala|94/100
+|
+|-damage|p2a: Quagsire|49/100|[from] Leech Seed|[of] p1a: Lunala
+|-heal|p1a: Lunala|100/100|[silent]
+|upkeep
+|turn|45
+|
+|move|p1a: Lunala|Moongeist Beam|p2a: Quagsire
+|-damage|p2a: Quagsire|24/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|74/100
+|
+|-damage|p2a: Quagsire|62/100|[from] Leech Seed|[of] p1a: Lunala
+|upkeep
+|turn|46
+|inactive|Blue chen has 90 seconds left.
+|
+|move|p1a: Lunala|Moongeist Beam|p2a: Quagsire
+|-damage|p2a: Quagsire|33/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|83/100
+|
+|-damage|p2a: Quagsire|70/100|[from] Leech Seed|[of] p1a: Lunala
+|upkeep
+|turn|47
+|inactive|Blue chen has 90 seconds left.
+|
+|switch|p1a: Eternatus|Eternatus|85/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|-damage|p2a: Quagsire|88/100|[from] Leech Seed|[of] p1a: Eternatus
+|-heal|p1a: Eternatus|96/100|[silent]
+|upkeep
+|turn|48
+|inactive|Blue chen has 90 seconds left.
+|
+|move|p1a: Eternatus|Substitute|p1a: Eternatus
+|-start|p1a: Eternatus|Substitute
+|-damage|p1a: Eternatus|71/100
+|move|p2a: Quagsire|Curse|p2a: Quagsire
+|-unboost|p2a: Quagsire|spe|1
+|-boost|p2a: Quagsire|atk|1
+|-boost|p2a: Quagsire|def|1
+|
+|-damage|p2a: Quagsire|76/100|[from] Leech Seed|[of] p1a: Eternatus
+|-heal|p1a: Eternatus|83/100|[silent]
+|upkeep
+|turn|49
+|
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Quagsire
+|-damage|p2a: Quagsire|41/100
+|-damage|p1a: Eternatus|73/100|[from] item: Life Orb
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|91/100
+|
+|-damage|p2a: Quagsire|78/100|[from] Leech Seed|[of] p1a: Eternatus
+|-heal|p1a: Eternatus|85/100|[silent]
+|upkeep
+|turn|50
+|j| Ryu Fenrir
+|
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Quagsire
+|-damage|p2a: Quagsire|42/100
+|-damage|p1a: Eternatus|75/100|[from] item: Life Orb
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|92/100
+|
+|-damage|p2a: Quagsire|79/100|[from] Leech Seed|[of] p1a: Eternatus
+|-heal|p1a: Eternatus|86/100|[silent]
+|upkeep
+|turn|51
+|
+|move|p1a: Eternatus|Flamethrower|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|69/100
+|-damage|p1a: Eternatus|76/100|[from] item: Life Orb
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|-damage|p2a: Quagsire|88/100|[from] Leech Seed|[of] p1a: Eternatus
+|-heal|p1a: Eternatus|88/100|[silent]
+|upkeep
+|turn|52
+|
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Quagsire
+|-damage|p2a: Quagsire|50/100
+|-damage|p1a: Eternatus|78/100|[from] item: Life Orb
+|move|p2a: Quagsire|Earthquake|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-end|p1a: Eternatus|Substitute
+|
+|-damage|p2a: Quagsire|38/100|[from] Leech Seed|[of] p1a: Eternatus
+|-heal|p1a: Eternatus|90/100|[silent]
+|upkeep
+|turn|53
+|
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Quagsire
+|-damage|p2a: Quagsire|3/100
+|-damage|p1a: Eternatus|80/100|[from] item: Life Orb
+|move|p2a: Quagsire|Earthquake|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|
+|upkeep
+|
+|switch|p1a: Lunala|Lunala|100/100
+|turn|54
+|
+|move|p1a: Lunala|Hex|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|upkeep
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|turn|55
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|86/100 brn
+|move|p2a: Umbreon|Snarl|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|75/100 brn
+|-unboost|p1a: Ferrothorn|spa|1
+|
+|-heal|p2a: Umbreon|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|75/100 brn|[from] brn
+|upkeep
+|turn|56
+|l| Ryu Fenrir
+|inactive|Blue chen has 90 seconds left.
+|j| AgressivEbolAidCOV
+|
+|switch|p2a: Corviknight|Corviknight, M|88/100
+|-damage|p2a: Corviknight|75/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ferrothorn|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|71/100
+|
+|-heal|p1a: Ferrothorn|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|75/100 brn|[from] brn
+|upkeep
+|turn|57
+|inactive|Blue chen has 60 seconds left.
+|
+|move|p2a: Corviknight|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: Ballfire|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|59/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|95/100 brn|[silent]
+|-damage|p1a: Ferrothorn|89/100 brn|[from] brn
+|upkeep
+|turn|58
+|inactive|Blue chen has 60 seconds left.
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Ballfire|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|59
+|inactive|Blue chen has 60 seconds left.
+|-message|Blue chen forfeited.
+|
+|win|Ballfire
+|l|☆Blue chen
+|c| AgressivEbolAidCOV|how do you beat umbreon
+|raw|Blue chen's rating: 1712 &rarr; <strong>1689</strong><br />(-23 for losing)
+|raw|Ballfire's rating: 1667 &rarr; <strong>1689</strong><br />(+22 for winning)
+|c| AgressivEbolAidCOV|oh nvm

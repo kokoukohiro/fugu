@@ -1,0 +1,295 @@
+|j|☆Flashybee
+|j|‽RottensTestAlt
+|player|p1|Flashybee|70|1166
+|player|p2|RottensTestAlt|30|1198
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Corviknight, M|
+|poke|p1|Ditto|
+|poke|p1|Excadrill, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Chandelure, F|
+|poke|p2|Clefable, F|
+|poke|p2|Dugtrio, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Darmanitan-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Seismitoad
+|-status|p2a: Seismitoad|brn
+|move|p2a: Seismitoad|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Flashybee|move: Stealth Rock
+|
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Seismitoad|Toxic|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-heal|p2a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Seismitoad
+|-damage|p2a: Seismitoad|82/100 brn
+|-sideend|p1: Flashybee|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Seismitoad|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|36/100
+|-status|p1a: Excadrill|brn
+|
+|-heal|p2a: Seismitoad|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Excadrill|30/100 brn|[from] brn
+|-damage|p2a: Seismitoad|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Seismitoad|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100
+|
+|-heal|p1a: Corviknight|81/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|56/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: Flashybee|move: Stealth Rock
+|
+|-heal|p1a: Corviknight|62/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Seismitoad|Scald|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Substitute|[damage]
+|
+|-heal|p1a: Corviknight|68/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Seismitoad|Scald|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|
+|-heal|p1a: Corviknight|75/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|50/100
+|move|p2a: Seismitoad|Scald|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Substitute|[damage]
+|
+|-heal|p1a: Corviknight|56/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Seismitoad
+|-damage|p2a: Seismitoad|27/100 brn
+|-damage|p1a: Corviknight|37/100|[from] Recoil
+|move|p2a: Seismitoad|Scald|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|
+|-heal|p1a: Corviknight|43/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|33/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|27/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|18/100
+|move|p2a: Seismitoad|Scald|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Substitute|[damage]
+|
+|-heal|p1a: Corviknight|24/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|33/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|27/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Corviknight|Iron Head|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|9/100 brn
+|cant|p2a: Seismitoad|flinch
+|
+|-heal|p1a: Corviknight|31/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|15/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|9/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Corviknight|Iron Head|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-heal|p1a: Corviknight|37/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|13
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|-damage|p1a: Corviknight|25/100|[from] Recoil
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Corviknight|32/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|61/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Corviknight|38/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Corviknight|Iron Head|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|89/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Corviknight|44/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Corviknight|Iron Head|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|88/100
+|cant|p2a: Toxapex|flinch
+|
+|-heal|p1a: Corviknight|50/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|
+|-heal|p1a: Corviknight|57/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Corviknight|Iron Head|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|89/100
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|39/100
+|
+|-heal|p1a: Corviknight|45/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|79/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: Rotom|Thunderbolt|p2a: Dugtrio
+|-immune|p2a: Dugtrio
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Clefable|[miss]
+|-miss|p1a: Rotom|p2a: Clefable
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|69/100
+|
+|switch|p1a: Excadrill|Excadrill, M|30/100 brn|[from]move: Volt Switch
+|-damage|p1a: Excadrill|27/100 brn|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Clefable|Moonblast|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|22/100
+|move|p2a: Clefable|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|-message|Flashybee forfeited.
+|
+|win|RottensTestAlt
+|l|☆Flashybee
+|raw|Flashybee's rating: 1166 &rarr; <strong>1143</strong><br />(-23 for losing)
+|raw|RottensTestAlt's rating: 1198 &rarr; <strong>1221</strong><br />(+23 for winning)

@@ -1,0 +1,490 @@
+|j|☆jqjq
+|j|☆2(H2O)
+|t:|1654416979
+|gametype|singles
+|player|p1|jqjq|2|1427
+|player|p2|2(H2O)|viola|1527
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Kartana|
+|poke|p1|Toxapex, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Melmetal|
+|poke|p2|Marowak-Alola, M|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Porygon2|
+|poke|p2|Cresselia, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jqjq)
+|
+|t:|1654417000
+|start
+|switch|p1a: Kartana|Kartana|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|t:|1654417012
+|move|p1a: Kartana|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|33/100
+|-enditem|p2a: Hatterene|Focus Sash|[from] move: Knock Off|[of] p1a: Kartana
+|-damage|p1a: Kartana|91/100|[from] item: Life Orb
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1654417018
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Hatterene|Misty Explosion|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|50/100
+|faint|p2a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1654417021
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|3
+|
+|t:|1654417024
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Crawdaunt|Crabhammer|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crawdaunt|94/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|62/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1654417029
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|move|p2a: Crawdaunt|Crabhammer|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100
+|-damage|p2a: Crawdaunt|78/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|-damage|p2a: Crawdaunt|68/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|55/100|[from] Sandstorm
+|-damage|p2a: Crawdaunt|62/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1654417033
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|95/100|[from] Sandstorm
+|-damage|p2a: Crawdaunt|56/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1654417041
+|move|p2a: Crawdaunt|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-damage|p2a: Crawdaunt|39/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|-enditem|p1a: Toxapex|Rocky Helmet|[from] move: Knock Off|[of] p2a: Crawdaunt
+|faint|p1a: Toxapex
+|-damage|p2a: Crawdaunt|29/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1654417044
+|switch|p1a: Kartana|Kartana|91/100
+|turn|7
+|
+|t:|1654417050
+|switch|p2a: Melmetal|Melmetal, shiny|100/100
+|move|p1a: Kartana|Leaf Blade|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-crit|p2a: Melmetal
+|-damage|p2a: Melmetal|68/100
+|-damage|p1a: Kartana|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1654417053
+|move|p1a: Kartana|Knock Off|p2a: Melmetal
+|-damage|p2a: Melmetal|38/100
+|-enditem|p2a: Melmetal|Choice Band|[from] move: Knock Off|[of] p1a: Kartana
+|-damage|p1a: Kartana|72/100|[from] item: Life Orb
+|move|p2a: Melmetal|Double Iron Bash|p1a: Kartana
+|-resisted|p1a: Kartana
+|-crit|p1a: Kartana
+|-damage|p1a: Kartana|38/100
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|15/100
+|-hitcount|p1a: Kartana|2
+|
+|upkeep
+|turn|9
+|
+|t:|1654417067
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Melmetal|atk|1
+|move|p2a: Melmetal|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|38/100
+|
+|-heal|p1a: Landorus|44/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1654417071
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Landorus|Earthquake|p2a: Cresselia
+|-immune|p2a: Cresselia|[from] ability: Levitate
+|
+|-heal|p1a: Landorus|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1654417075
+|move|p1a: Landorus|Smack Down|p2a: Cresselia
+|-damage|p2a: Cresselia|93/100
+|-start|p2a: Cresselia|Smack Down
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-heal|p2a: Cresselia|99/100|[from] item: Leftovers
+|-heal|p1a: Landorus|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1654417085
+|move|p2a: Cresselia|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Cresselia|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1654417089
+|switch|p1a: Tyranitar|Tyranitar, M|62/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|13
+|
+|t:|1654417096
+|switch|p2a: Melmetal|Melmetal, shiny|38/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Melmetal
+|-sidestart|p2: 2(H2O)|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|68/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1654417100
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Melmetal|Double Iron Bash|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|75/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1654417104
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Garchomp
+|-damage|p1a: Garchomp|55/100
+|-damage|p2a: Melmetal|26/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p1a: Garchomp|9/100
+|-damage|p2a: Melmetal|14/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-hitcount|p1a: Garchomp|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Garchomp|16/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|16
+|
+|t:|1654417108
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|-damage|p2a: Cresselia|88/100|[from] Stealth Rock
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cresselia|82/100|[from] Sandstorm
+|-heal|p1a: Garchomp|22/100|[from] item: Leftovers
+|-heal|p2a: Cresselia|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1654417113
+|move|p1a: Garchomp|Scale Shot|p2a: Cresselia
+|-damage|p2a: Cresselia|76/100
+|-damage|p2a: Cresselia|63/100
+|-damage|p2a: Cresselia|51/100
+|-damage|p2a: Cresselia|38/100
+|-hitcount|p2a: Cresselia|4
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-weather|none
+|-heal|p2a: Cresselia|44/100|[from] item: Leftovers
+|-heal|p1a: Garchomp|28/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1654417122
+|move|p2a: Cresselia|Ice Beam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Cresselia|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1654417124
+|switch|p1a: Tyranitar|Tyranitar, M|75/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|19
+|
+|t:|1654417128
+|switch|p2a: Melmetal|Melmetal, shiny|14/100
+|-damage|p2a: Melmetal|7/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Rock Slide|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|81/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1654417132
+|switch|p2a: Crawdaunt|Crawdaunt, F|29/100
+|-damage|p2a: Crawdaunt|17/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1654417136
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Crawdaunt|Crabhammer|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crawdaunt|10/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|87/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1654417146
+|switch|p1a: Kartana|Kartana|15/100
+|move|p2a: Crawdaunt|Close Combat|p1a: Kartana
+|-supereffective|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|-unboost|p2a: Crawdaunt|def|1
+|-unboost|p2a: Crawdaunt|spd|1
+|faint|p1a: Kartana
+|-damage|p2a: Crawdaunt|0 fnt|[from] item: Life Orb
+|faint|p2a: Crawdaunt
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1654417158
+|switch|p1a: Tyranitar|Tyranitar, M|87/100
+|switch|p2a: Porygon2|Porygon2|100/100
+|-damage|p2a: Porygon2|88/100|[from] Stealth Rock
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|turn|22
+|
+|t:|1654417163
+|move|p1a: Tyranitar|Toxic|p2a: Porygon2
+|-status|p2a: Porygon2|tox
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|82/100 tox|[from] Sandstorm
+|-heal|p1a: Tyranitar|93/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|76/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1654417167
+|move|p2a: Porygon2|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|84/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Porygon2
+|-damage|p2a: Porygon2|53/100 tox
+|
+|-weather|none
+|-heal|p1a: Tyranitar|90/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|41/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1654417171
+|move|p1a: Tyranitar|Rock Slide|p2a: Porygon2
+|-damage|p2a: Porygon2|18/100 tox
+|cant|p2a: Porygon2|flinch
+|
+|-heal|p1a: Tyranitar|97/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|0 fnt|[from] psn
+|faint|p2a: Porygon2
+|upkeep
+|
+|t:|1654417177
+|switch|p2a: Marowak|Marowak-Alola, M|100/100
+|-damage|p2a: Marowak|76/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1654417189
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|move|p2a: Marowak|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1654417190
+|switch|p1a: Tyranitar|Tyranitar, M|97/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|26
+|
+|t:|1654417195
+|switch|p2a: Cresselia|Cresselia, F|50/100
+|-damage|p2a: Cresselia|38/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Protect||[still]
+|-fail|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cresselia|32/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p2a: Cresselia|38/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|27
+|
+|t:|1654417198
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|63/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Cresselia
+|-damage|p2a: Cresselia|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cresselia|40/100|[from] Sandstorm
+|-heal|p2a: Cresselia|46/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1654417204
+|move|p1a: Tyranitar|Toxic|p2a: Cresselia
+|-status|p2a: Cresselia|tox
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cresselia|40/100 tox|[from] Sandstorm
+|-heal|p2a: Cresselia|46/100 tox|[from] item: Leftovers
+|-damage|p2a: Cresselia|40/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1654417207
+|move|p1a: Tyranitar|Rock Slide|p2a: Cresselia
+|-damage|p2a: Cresselia|24/100 tox
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|49/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cresselia|43/100 tox|[from] Sandstorm
+|-heal|p2a: Cresselia|49/100 tox|[from] item: Leftovers
+|-damage|p2a: Cresselia|37/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1654417212
+|move|p1a: Tyranitar|Rock Slide|p2a: Cresselia
+|-damage|p2a: Cresselia|21/100 tox
+|cant|p2a: Cresselia|flinch
+|
+|-weather|none
+|-heal|p2a: Cresselia|27/100 tox|[from] item: Leftovers
+|-damage|p2a: Cresselia|9/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1654417217
+|move|p1a: Tyranitar|Stealth Rock||[still]
+|-fail|p1a: Tyranitar
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|
+|upkeep
+|
+|t:|1654417220
+|switch|p2a: Marowak|Marowak-Alola, M|76/100
+|-heal|p2a: Marowak|100/100|[from] move: Lunar Dance
+|-damage|p2a: Marowak|76/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1654417225
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Marowak|Earthquake|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|33
+|
+|t:|1654417227
+|move|p1a: Tyranitar|Rock Slide|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|8/100
+|cant|p2a: Marowak|flinch
+|
+|upkeep
+|turn|34
+|
+|t:|1654417231
+|move|p1a: Tyranitar|Rock Slide|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|win|jqjq
+|raw|jqjq's rating: 1427 &rarr; <strong>1453</strong><br />(+26 for winning)
+|raw|2(H2O)'s rating: 1527 &rarr; <strong>1501</strong><br />(-26 for losing)
+|l|☆2(H2O)

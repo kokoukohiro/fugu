@@ -1,0 +1,243 @@
+|j|☆ayylimon
+|j|☆Malareon
+|player|p1|ayylimon|silver|1406
+|player|p2|Malareon|plasmagrunt|1501
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Zacian-Crowned|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Rayquaza|
+|poke|p1|Kyogre|
+|poke|p1|Eternatus|
+|poke|p1|Landorus, M|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Rayquaza|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Groudon|
+|poke|p2|Xerneas|
+|poke|p2|Yveltal|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus, M|100/100
+|switch|p2a: Noodles|Deoxys-Speed|100/100
+|-ability|p2a: Noodles|Pressure
+|turn|1
+|
+|-start|p1a: Landorus|Dynamax
+|-heal|p1a: Landorus|100/100|[silent]
+|move|p2a: Noodles|Spikes|p1a: Landorus
+|-sidestart|p1: ayylimon|Spikes
+|move|p1a: Landorus|Max Airstream|p2a: Noodles
+|-enditem|p2a: Noodles|Focus Sash
+|-damage|p2a: Noodles|1/100
+|-boost|p1a: Landorus|spe|1
+|-damage|p1a: Landorus|96/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Noodles|Spikes|p1a: Landorus
+|-sidestart|p1: ayylimon|Spikes
+|move|p1a: Landorus|Max Knuckle|p2a: Noodles
+|-resisted|p2a: Noodles
+|-damage|p2a: Noodles|0 fnt
+|-boost|p1a: Landorus|atk|1
+|-damage|p1a: Landorus|91/100|[from] item: Life Orb
+|faint|p2a: Noodles
+|
+|upkeep
+|
+|switch|p2a: thiccc buccc|Xerneas|100/100
+|-ability|p2a: thiccc buccc|Fairy Aura
+|turn|3
+|
+|move|p1a: Landorus|Max Quake|p2a: thiccc buccc
+|-damage|p2a: thiccc buccc|0 fnt
+|-boost|p1a: Landorus|spd|1
+|-damage|p1a: Landorus|86/100|[from] item: Life Orb
+|faint|p2a: thiccc buccc
+|
+|-end|p1a: Landorus|Dynamax
+|-heal|p1a: Landorus|86/100|[silent]
+|upkeep
+|
+|switch|p2a: Puff|Rayquaza|100/100
+|-ability|p2a: Puff|Air Lock
+|turn|4
+|
+|detailschange|p2a: Puff|Rayquaza-Mega
+|-mega|p2a: Puff|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Puff
+|move|p1a: Landorus|Fly||[still]
+|-prepare|p1a: Landorus|Fly|p2a: Puff
+|move|p2a: Puff|Dragon Ascent|p1a: Landorus|[miss]
+|-miss|p2a: Puff|p1a: Landorus
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Landorus|Fly|p2a: Puff|[from]lockedmove
+|-damage|p2a: Puff|21/100
+|-damage|p1a: Landorus|76/100|[from] item: Life Orb
+|move|p2a: Puff|Dragon Ascent|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Puff|def|1
+|-unboost|p2a: Puff|spd|1
+|faint|p1a: Landorus
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Malareon)
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|84/100|[from] Spikes
+|turn|6
+|
+|-weather|none
+|switch|p2a: grudon|Groudon|100/100
+|detailschange|p2a: grudon|Groudon-Primal
+|-primal|p2a: grudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: grudon
+|move|p1a: Ferrothorn|Stealth Rock|p2a: grudon
+|-sidestart|p2: Malareon|move: Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|-damage|p1a: Kyogre|84/100|[from] Spikes
+|detailschange|p1a: Kyogre|Kyogre-Primal
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|move|p2a: grudon|Precipice Blades|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|-weather|none
+|
+|upkeep
+|
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|8
+|
+|switch|p2a: wolfie|Zacian-Crowned|100/100
+|-damage|p2a: wolfie|94/100|[from] Stealth Rock
+|-ability|p2a: wolfie|Intrepid Sword|boost
+|-boost|p2a: wolfie|atk|1
+|move|p1a: Rayquaza|Surf|p2a: wolfie
+|-damage|p2a: wolfie|61/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|90/100
+|-damage|p1a: Ferrothorn|74/100|[from] Spikes
+|move|p2a: wolfie|Play Rough|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|48/100
+|-damage|p2a: wolfie|49/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|54/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: wolfie|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: wolfie|def|1
+|-unboost|p2a: wolfie|spd|1
+|-damage|p2a: wolfie|36/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-damage|p1a: Zacian|84/100|[from] Spikes
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|11
+|
+|switch|p2a: grudon|Groudon-Primal|100/100
+|-damage|p2a: grudon|88/100|[from] Stealth Rock
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: grudon
+|move|p1a: Zacian|Behemoth Blade|p2a: grudon
+|-resisted|p2a: grudon
+|-damage|p2a: grudon|58/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|move|p2a: grudon|Precipice Blades|p1a: Rayquaza
+|-immune|p1a: Rayquaza
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Rayquaza|Surf|p2a: grudon
+|-supereffective|p2a: grudon
+|-damage|p2a: grudon|0 fnt
+|faint|p2a: grudon
+|-weather|none
+|
+|upkeep
+|
+|switch|p2a: wolfie|Zacian-Crowned|36/100
+|-damage|p2a: wolfie|30/100|[from] Stealth Rock
+|-ability|p2a: wolfie|Intrepid Sword|boost
+|-boost|p2a: wolfie|atk|1
+|turn|14
+|
+|move|p1a: Rayquaza|Surf|p2a: wolfie
+|-crit|p2a: wolfie
+|-damage|p2a: wolfie|0 fnt
+|faint|p2a: wolfie
+|
+|upkeep
+|
+|switch|p2a: steamed hands|Yveltal|100/100
+|-damage|p2a: steamed hands|76/100|[from] Stealth Rock
+|-ability|p2a: steamed hands|Dark Aura
+|turn|15
+|
+|switch|p1a: Zacian|Zacian-Crowned|84/100
+|-damage|p1a: Zacian|67/100|[from] Spikes
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|move|p2a: steamed hands|Knock Off|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|39/100
+|-damage|p2a: steamed hands|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: steamed hands
+|-damage|p2a: steamed hands|0 fnt
+|faint|p2a: steamed hands
+|
+|upkeep
+|
+|switch|p2a: Puff|Rayquaza-Mega|21/100
+|-damage|p2a: Puff|0 fnt|[from] Stealth Rock
+|faint|p2a: Puff
+|
+|win|ayylimon
+|raw|ayylimon's rating: 1406 &rarr; <strong>1431</strong><br />(+25 for winning)
+|raw|Malareon's rating: 1501 &rarr; <strong>1475</strong><br />(-26 for losing)
+|c|☆ayylimon|Gg
+|l|☆Malareon

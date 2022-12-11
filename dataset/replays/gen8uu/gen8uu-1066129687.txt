@@ -1,0 +1,393 @@
+|j|☆g8uutext
+|j|☆gijion chilli
+|player|p1|g8uutext|102|1400
+|player|p2|gijion chilli|103|1450
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Roserade, M|
+|poke|p1|Gigalith, F|
+|poke|p1|Flygon, F|
+|poke|p1|Vaporeon, M|
+|poke|p1|Durant, F|
+|poke|p1|Alcremie, F|
+|poke|p2|Machamp, F|
+|poke|p2|Durant, M|
+|poke|p2|Jellicent, M|
+|poke|p2|Gigalith, M|
+|poke|p2|Roserade, F|
+|poke|p2|Flygon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| ban dynamax
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by g8uutext)
+|inactiveoff|Battle timer is now OFF.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by g8uutext)
+|
+|start
+|switch|p1a: missandnmsl|Durant, F|100/100
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|1
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: missandnmsl|First Impression|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|61/100
+|
+|-heal|p2a: Jellicent|67/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Roserade|Roserade, M|100/100
+|switch|p2a: Durant|Durant, M|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Durant|Iron Head|p1a: Vaporeon|[miss]
+|-miss|p2a: Durant|p1a: Vaporeon
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Roserade|Roserade, F|100/100
+|move|p1a: Vaporeon|Ice Beam|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|42/100
+|
+|-heal|p2a: Roserade|48/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: missandnmsl|Durant, F|100/100
+|move|p2a: Roserade|Toxic Spikes|p1a: missandnmsl
+|-sidestart|p1: g8uutext|move: Toxic Spikes
+|
+|-heal|p2a: Roserade|55/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p2a: Durant|Durant, M|100/100
+|move|p1a: missandnmsl|Crunch|p2a: Durant|[miss]
+|-miss|p1a: missandnmsl|p2a: Durant
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|-status|p1a: Vaporeon|psn
+|move|p2a: Durant|Crunch|p1a: Vaporeon
+|-damage|p1a: Vaporeon|63/100 psn
+|
+|-heal|p1a: Vaporeon|70/100 psn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|57/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Machamp|Machamp, F|100/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|63/100 psn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|51/100 psn|[from] psn
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Machamp|Knock Off|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|100/100 psn|[from] move: Wish|[wisher] Vaporeon
+|-damage|p2a: Machamp|94/100 brn|[from] brn
+|-damage|p1a: Vaporeon|88/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Alcremie|Alcremie, F|100/100
+|-status|p1a: Alcremie|psn
+|move|p2a: Machamp|Close Combat|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|59/100 psn
+|-unboost|p2a: Machamp|def|1
+|-unboost|p2a: Machamp|spd|1
+|
+|-heal|p1a: Alcremie|65/100 psn|[from] item: Leftovers
+|-damage|p2a: Machamp|88/100 brn|[from] brn
+|-damage|p1a: Alcremie|52/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Machamp|Heavy Slam|p1a: Alcremie
+|-supereffective|p1a: Alcremie
+|-damage|p1a: Alcremie|0 fnt
+|faint|p1a: Alcremie
+|
+|-damage|p2a: Machamp|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: missandnmsl|Durant, F|100/100
+|turn|12
+|
+|switch|p2a: Durant|Durant, M|100/100
+|move|p1a: missandnmsl|Iron Head|p2a: Durant
+|-resisted|p2a: Durant
+|-damage|p2a: Durant|46/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Durant|First Impression|p1a: missandnmsl
+|-resisted|p1a: missandnmsl
+|-damage|p1a: missandnmsl|44/100
+|move|p1a: missandnmsl|Iron Head|p2a: Durant|[miss]
+|-miss|p1a: missandnmsl|p2a: Durant
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Roserade|Roserade, M|100/100
+|-sideend|p1: g8uutext|move: Toxic Spikes|[of] p1a: Roserade
+|move|p2a: Durant|First Impression||[still]
+|-fail|p2a: Durant
+|-hint|First Impression only works on your first turn out.
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Roserade|Toxic Spikes|p2a: Gigalith
+|-sidestart|p2: gijion chilli|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Roserade|94/100|[from] Sandstorm
+|-heal|p1a: Roserade|100/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Roserade|Sleep Powder|p2a: Gigalith
+|-status|p2a: Gigalith|slp|[from] move: Sleep Powder
+|cant|p2a: Gigalith|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Roserade|94/100|[from] Sandstorm
+|-heal|p1a: Roserade|100/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p1a: missandnmsl|Durant, F|44/100
+|cant|p2a: Gigalith|slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p2a: Roserade|Roserade, F|55/100
+|-sideend|p2: gijion chilli|move: Toxic Spikes|[of] p2a: Roserade
+|move|p1a: missandnmsl|Iron Head|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|19
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Flygon|U-turn|p1a: Flygon
+|-damage|p1a: Flygon|71/100
+|
+|switch|p2a: Durant|Durant, M|46/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|move|p1a: Flygon|Fire Blast|p2a: Durant
+|-supereffective|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, F|82/100 brn
+|turn|21
+|inactive|g8uutext has 120 seconds left.
+|
+|move|p1a: Flygon|Fire Blast|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|45/100 brn
+|move|p2a: Machamp|Close Combat|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|-unboost|p2a: Machamp|def|1
+|-unboost|p2a: Machamp|spd|1
+|faint|p1a: Flygon
+|
+|-damage|p2a: Machamp|39/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Roserade|Roserade, M|100/100
+|turn|22
+|
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Roserade|Sludge Bomb|p2a: Flygon
+|-resisted|p2a: Flygon
+|-damage|p2a: Flygon|69/100
+|
+|upkeep
+|turn|23
+|inactive|g8uutext has 120 seconds left.
+|
+|move|p2a: Flygon|Earthquake|p1a: Roserade
+|-damage|p1a: Roserade|19/100
+|move|p1a: Roserade|Toxic Spikes|p2a: Flygon
+|-sidestart|p2: gijion chilli|move: Toxic Spikes
+|
+|-heal|p1a: Roserade|25/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|move|p2a: Flygon|Earthquake|p1a: Roserade
+|-crit|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|switch|p1a: missandnmsl|Durant, F|44/100
+|turn|25
+|
+|switch|p2a: Jellicent|Jellicent, M|67/100
+|-status|p2a: Jellicent|psn
+|move|p1a: missandnmsl|First Impression|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-crit|p2a: Jellicent
+|-damage|p2a: Jellicent|15/100 psn
+|
+|-heal|p2a: Jellicent|21/100 psn|[from] item: Leftovers
+|-damage|p2a: Jellicent|9/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p1a: Vaporeon|Vaporeon, M|88/100 psn
+|switch|p2a: Gigalith|Gigalith, M|100/100 slp
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|82/100 psn|[from] Sandstorm
+|-heal|p1a: Vaporeon|88/100 psn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|75/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|cant|p2a: Gigalith|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|69/100 psn|[from] Sandstorm
+|-heal|p1a: Vaporeon|75/100 psn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|63/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|move|p1a: Vaporeon|Scald|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|72/100 slp
+|-curestatus|p2a: Gigalith|slp|[msg]
+|move|p2a: Gigalith|Stone Edge|p1a: Vaporeon|[miss]
+|-miss|p2a: Gigalith|p1a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|57/100 psn|[from] Sandstorm
+|-heal|p1a: Vaporeon|100/100 psn|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Gigalith|78/100|[from] item: Leftovers
+|-damage|p1a: Vaporeon|88/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Gigalith|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: g8uutext|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|82/100 psn|[from] Sandstorm
+|-heal|p1a: Vaporeon|88/100 psn|[from] item: Leftovers
+|-heal|p2a: Gigalith|84/100|[from] item: Leftovers
+|-damage|p1a: Vaporeon|75/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Vaporeon|Scald|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|50/100
+|move|p2a: Gigalith|Stone Edge|p1a: Vaporeon
+|-damage|p1a: Vaporeon|45/100 psn
+|
+|-weather|none
+|-heal|p1a: Vaporeon|95/100 psn|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|100/100 psn|[from] item: Leftovers
+|-heal|p2a: Gigalith|56/100|[from] item: Leftovers
+|-damage|p1a: Vaporeon|88/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Gigalith|Stone Edge|p1a: Vaporeon
+|-damage|p1a: Vaporeon|53/100 psn
+|
+|-heal|p1a: Vaporeon|59/100 psn|[from] item: Leftovers
+|-heal|p2a: Gigalith|62/100|[from] item: Leftovers
+|-damage|p1a: Vaporeon|47/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p2a: Jellicent|Jellicent, M|9/100 psn
+|move|p1a: Vaporeon|Scald|p2a: Jellicent
+|-heal|p2a: Jellicent|34/100 psn|[from] ability: Water Absorb|[of] p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|97/100 psn|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Jellicent|40/100 psn|[from] item: Leftovers
+|-heal|p1a: Vaporeon|100/100 psn|[from] item: Leftovers
+|-damage|p2a: Jellicent|27/100 psn|[from] psn
+|-damage|p1a: Vaporeon|88/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|77/100 psn
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p2a: Jellicent|84/100 psn|[from] item: Leftovers
+|-heal|p1a: Vaporeon|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Jellicent|71/100 psn|[from] psn
+|-damage|p1a: Vaporeon|82/100 psn|[from] psn
+|upkeep
+|turn|34
+|
+|switch|p1a: missandnmsl|Durant, F|44/100
+|-damage|p1a: missandnmsl|32/100|[from] Stealth Rock
+|move|p2a: Jellicent|Hex|p1a: missandnmsl
+|-damage|p1a: missandnmsl|0 fnt
+|faint|p1a: missandnmsl
+|
+|-heal|p2a: Jellicent|77/100 psn|[from] item: Leftovers
+|-damage|p2a: Jellicent|65/100 psn|[from] psn
+|upkeep
+|inactive|g8uutext has 120 seconds left.
+|-message|g8uutext forfeited.
+|
+|win|gijion chilli
+|l|☆g8uutext

@@ -1,0 +1,1101 @@
+|j|☆Bunch24
+|j|☆exlipse
+|t:|1642978492
+|gametype|singles
+|player|p1|Bunch24|265|1653
+|player|p2|exlipse|scientist|1738
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Zoroark, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Tapu Lele|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Garchomp, M|
+|poke|p2|Clefable, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Reuniclus, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Corviknight, F|
+|teampreview
+|
+|t:|1642978520
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Damo|Reuniclus, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Damo|atk|1
+|turn|1
+|
+|t:|1642978531
+|switch|p2a: Kei|Landorus-Therian, M|100/100
+|-ability|p2a: Kei|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Toxic|p2a: Kei
+|-status|p2a: Kei|tox
+|
+|-damage|p2a: Kei|95/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1642978538
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Kei|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|74/100
+|-enditem|p1a: Corviknight|Leftovers|[from] move: Knock Off|[of] p2a: Kei
+|
+|-damage|p2a: Kei|83/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1642978544
+|move|p2a: Kei|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|70/100
+|
+|t:|1642978547
+|switch|p2a: Carne|Clefable, F|100/100|[from]move: U-turn
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|4
+|
+|t:|1642978549
+|move|p1a: Corviknight|U-turn|p2a: Carne
+|-resisted|p2a: Carne
+|-damage|p2a: Carne|95/100
+|
+|t:|1642978553
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Carne|atk|1
+|move|p2a: Carne|Aromatherapy|p2a: Carne
+|-activate|p2a: Carne|move: Aromatherapy
+|-curestatus|p2: Kei|tox|[msg]
+|
+|-heal|p2a: Carne|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1642978557
+|switch|p2a: Magent Magent|Toxapex, F|100/100
+|move|p1a: Landorus|Toxic|p2a: Magent Magent
+|-immune|p2a: Magent Magent
+|
+|upkeep
+|turn|6
+|
+|t:|1642978561
+|move|p2a: Magent Magent|Baneful Bunker|p2a: Magent Magent
+|-singleturn|p2a: Magent Magent|move: Protect
+|move|p1a: Landorus|Stealth Rock|p2a: Magent Magent
+|-sidestart|p2: exlipse|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1642978564
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Magent Magent|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|84/100
+|
+|upkeep
+|turn|8
+|
+|t:|1642978569
+|move|p1a: Corviknight|U-turn|p2a: Magent Magent
+|-resisted|p2a: Magent Magent
+|-damage|p2a: Magent Magent|96/100
+|
+|t:|1642978572
+|switch|p1a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Magent Magent|Scald|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|82/100
+|
+|-heal|p2a: Magent Magent|100/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1642978578
+|move|p2a: Magent Magent|Baneful Bunker|p2a: Magent Magent
+|-singleturn|p2a: Magent Magent|move: Protect
+|move|p1a: Tapu Lele|Psychic|p2a: Magent Magent
+|-activate|p2a: Magent Magent|move: Protect
+|
+|upkeep
+|turn|10
+|
+|t:|1642978582
+|switch|p2a: Damo|Reuniclus, F|100/100
+|-damage|p2a: Damo|88/100|[from] Stealth Rock
+|move|p1a: Tapu Lele|Psychic|p2a: Damo
+|-resisted|p2a: Damo
+|-damage|p2a: Damo|74/100
+|
+|upkeep
+|turn|11
+|
+|t:|1642978587
+|switch|p1a: Corviknight|Corviknight, M|84/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Damo|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|77/100
+|
+|upkeep
+|turn|12
+|
+|t:|1642978591
+|move|p1a: Corviknight|U-turn|p2a: Damo
+|-supereffective|p2a: Damo
+|-damage|p2a: Damo|46/100
+|
+|t:|1642978594
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Damo|atk|1
+|move|p2a: Damo|Future Sight|p1a: Landorus
+|-start|p2a: Damo|move: Future Sight
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bunch24)
+|
+|t:|1642978647
+|switch|p2a: Magent Magent|Toxapex, F|100/100
+|-damage|p2a: Magent Magent|88/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Magent Magent
+|-resisted|p2a: Magent Magent
+|-damage|p2a: Magent Magent|81/100
+|
+|t:|1642978655
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Magent Magent|88/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1642978662
+|switch|p1a: Corviknight|Corviknight, M|77/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Magent Magent|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|61/100
+|
+|-end|p1a: Corviknight|move: Future Sight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|36/100
+|-heal|p2a: Magent Magent|94/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1642978669
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|86/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Magent Magent|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|70/100
+|-status|p1a: Corviknight|brn
+|
+|-heal|p2a: Magent Magent|99/100|[from] item: Black Sludge
+|-damage|p1a: Corviknight|64/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1642978676
+|switch|p1a: Tapu Lele|Tapu Lele|82/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1642978688
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|18
+|
+|t:|1642978693
+|move|p1a: Urshifu|Surging Strikes|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|24/100
+|-hitcount|p2a: Corviknight|3
+|move|p2a: Corviknight|Defog|p1a: Urshifu
+|-unboost|p1a: Urshifu|evasion|1
+|-sideend|p2: exlipse|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-fieldend|move: Psychic Terrain
+|
+|-heal|p2a: Corviknight|30/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1642978705
+|switch|p1a: Tapu Lele|Tapu Lele|82/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|switch|p2a: Magent Magent|Toxapex, F|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1642978711
+|move|p2a: Magent Magent|Baneful Bunker|p2a: Magent Magent
+|-singleturn|p2a: Magent Magent|move: Protect
+|move|p1a: Tapu Lele|Psychic|p2a: Magent Magent
+|-activate|p2a: Magent Magent|move: Protect
+|
+|upkeep
+|turn|21
+|
+|t:|1642978717
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Damo|Reuniclus, F|79/100
+|
+|upkeep
+|turn|22
+|
+|t:|1642978721
+|switch|p2a: Magent Magent|Toxapex, F|100/100
+|move|p1a: Urshifu|U-turn|p2a: Magent Magent
+|-resisted|p2a: Magent Magent
+|-damage|p2a: Magent Magent|90/100
+|
+|t:|1642978724
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Magent Magent|97/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|t:|1642978727
+|move|p1a: Garchomp|Earthquake|p2a: Magent Magent
+|-supereffective|p2a: Magent Magent
+|-damage|p2a: Magent Magent|16/100
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|move|p2a: Magent Magent|Scald|p1a: Garchomp
+|-damage|p1a: Garchomp|72/100
+|
+|-heal|p2a: Magent Magent|23/100|[from] item: Black Sludge
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|24
+|
+|t:|1642978734
+|move|p2a: Magent Magent|Baneful Bunker|p2a: Magent Magent
+|-singleturn|p2a: Magent Magent|move: Protect
+|move|p1a: Garchomp|Earthquake|p2a: Magent Magent
+|-activate|p2a: Magent Magent|move: Protect
+|
+|-heal|p2a: Magent Magent|29/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|t:|1642978743
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Carne|Clefable, F|100/100
+|
+|upkeep
+|turn|26
+|j| jeanmilapipe
+|inactive|exlipse has 120 seconds left.
+|
+|t:|1642978778
+|switch|p2a: Magent Magent|Toxapex, F|62/100
+|move|p1a: Urshifu|U-turn|p2a: Magent Magent
+|-resisted|p2a: Magent Magent
+|-damage|p2a: Magent Magent|50/100
+|
+|t:|1642978781
+|switch|p1a: Garchomp|Garchomp, M|72/100|[from]move: U-turn
+|
+|-heal|p2a: Magent Magent|56/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|t:|1642978787
+|move|p2a: Magent Magent|Baneful Bunker|p2a: Magent Magent
+|-singleturn|p2a: Magent Magent|move: Protect
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|-heal|p2a: Magent Magent|63/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|t:|1642978791
+|switch|p2a: Carne|Clefable, F|100/100
+|move|p1a: Garchomp|Earthquake|p2a: Carne
+|-damage|p2a: Carne|46/100
+|-damage|p1a: Garchomp|62/100|[from] item: Life Orb
+|
+|-heal|p2a: Carne|52/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1642978798
+|move|p2a: Carne|Protect|p2a: Carne
+|-singleturn|p2a: Carne|Protect
+|move|p1a: Garchomp|Earthquake|p2a: Carne
+|-activate|p2a: Carne|move: Protect
+|
+|-heal|p2a: Carne|58/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1642978811
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Carne|atk|1
+|move|p2a: Carne|Wish|p2a: Carne
+|
+|-heal|p2a: Carne|64/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1642978817
+|move|p2a: Carne|Protect|p2a: Carne
+|-singleturn|p2a: Carne|Protect
+|move|p1a: Landorus|U-turn|p2a: Carne
+|-activate|p2a: Carne|move: Protect
+|
+|-heal|p2a: Carne|100/100|[from] move: Wish|[wisher] Carne
+|upkeep
+|turn|32
+|
+|t:|1642978822
+|move|p1a: Landorus|Stealth Rock|p2a: Carne
+|-sidestart|p2: exlipse|move: Stealth Rock
+|move|p2a: Carne|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|77/100
+|
+|-heal|p1a: Landorus|83/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1642978826
+|switch|p2a: Magent Magent|Toxapex, F|96/100
+|-damage|p2a: Magent Magent|83/100|[from] Stealth Rock
+|move|p1a: Landorus|Toxic|p2a: Magent Magent
+|-immune|p2a: Magent Magent
+|
+|-heal|p1a: Landorus|89/100|[from] item: Leftovers
+|-heal|p2a: Magent Magent|90/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|t:|1642978831
+|switch|p1a: Corviknight|Corviknight, M|64/100 brn
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Magent Magent|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|48/100 brn
+|
+|-heal|p2a: Magent Magent|96/100|[from] item: Black Sludge
+|-damage|p1a: Corviknight|42/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1642978837
+|switch|p2a: Corviknight|Corviknight, F|30/100
+|-damage|p2a: Corviknight|17/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Corviknight|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|16/100
+|
+|t:|1642978841
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Corviknight|22/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1642978848
+|switch|p2a: Magent Magent|Toxapex, F|100/100
+|-damage|p2a: Magent Magent|88/100|[from] Stealth Rock
+|move|p1a: Urshifu|Surging Strikes|p2a: Magent Magent
+|-resisted|p2a: Magent Magent
+|-crit|p2a: Magent Magent
+|-damage|p2a: Magent Magent|78/100
+|-resisted|p2a: Magent Magent
+|-crit|p2a: Magent Magent
+|-damage|p2a: Magent Magent|69/100
+|-resisted|p2a: Magent Magent
+|-crit|p2a: Magent Magent
+|-damage|p2a: Magent Magent|61/100
+|-hitcount|p2a: Magent Magent|3
+|
+|-heal|p2a: Magent Magent|67/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|
+|t:|1642978857
+|switch|p1a: Tapu Lele|Tapu Lele|82/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Magent Magent|Scald|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|65/100
+|
+|-heal|p2a: Magent Magent|74/100|[from] item: Black Sludge
+|upkeep
+|turn|38
+|
+|t:|1642978862
+|move|p2a: Magent Magent|Baneful Bunker|p2a: Magent Magent
+|-singleturn|p2a: Magent Magent|move: Protect
+|move|p1a: Tapu Lele|Psychic|p2a: Magent Magent
+|-activate|p2a: Magent Magent|move: Protect
+|
+|-heal|p2a: Magent Magent|80/100|[from] item: Black Sludge
+|upkeep
+|turn|39
+|
+|t:|1642978866
+|switch|p2a: Damo|Reuniclus, F|100/100
+|-damage|p2a: Damo|88/100|[from] Stealth Rock
+|move|p1a: Tapu Lele|Psychic|p2a: Damo
+|-resisted|p2a: Damo
+|-damage|p2a: Damo|74/100
+|
+|upkeep
+|turn|40
+|
+|t:|1642978877
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Damo|Future Sight|p1a: Urshifu
+|-start|p2a: Damo|move: Future Sight
+|
+|upkeep
+|turn|41
+|j| DidiML
+|
+|t:|1642978882
+|switch|p2a: Magent Magent|Toxapex, F|100/100
+|-damage|p2a: Magent Magent|88/100|[from] Stealth Rock
+|move|p1a: Urshifu|U-turn|p2a: Magent Magent
+|-resisted|p2a: Magent Magent
+|-damage|p2a: Magent Magent|78/100
+|
+|t:|1642978888
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Magent Magent|84/100|[from] item: Black Sludge
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|42
+|c|☆exlipse|lmao
+|
+|t:|1642978917
+|move|p2a: Magent Magent|Baneful Bunker|p2a: Magent Magent
+|-singleturn|p2a: Magent Magent|move: Protect
+|move|p1a: Urshifu|Dark Pulse|p2a: Magent Magent
+|-activate|p2a: Magent Magent|move: Protect
+|
+|-end|p1a: Urshifu|move: Future Sight
+|-immune|p1a: Urshifu
+|-heal|p2a: Magent Magent|90/100|[from] item: Black Sludge
+|upkeep
+|turn|43
+|
+|t:|1642978922
+|move|p1a: Urshifu|Dark Pulse|p2a: Magent Magent
+|-damage|p2a: Magent Magent|43/100
+|move|p2a: Magent Magent|Scald|p1a: Urshifu
+|-damage|p1a: Urshifu|66/100
+|replace|p1a: Zoroark|Zoroark, M
+|-end|p1a: Zoroark|Illusion
+|
+|-heal|p2a: Magent Magent|49/100|[from] item: Black Sludge
+|upkeep
+|turn|44
+|
+|t:|1642978929
+|switch|p1a: Tapu Lele|Tapu Lele|65/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Magent Magent|Baneful Bunker||[still]
+|-fail|p2a: Magent Magent
+|
+|-heal|p2a: Magent Magent|55/100|[from] item: Black Sludge
+|upkeep
+|turn|45
+|
+|t:|1642978934
+|move|p2a: Magent Magent|Baneful Bunker|p2a: Magent Magent
+|-singleturn|p2a: Magent Magent|move: Protect
+|move|p1a: Tapu Lele|Psychic|p2a: Magent Magent
+|-activate|p2a: Magent Magent|move: Protect
+|
+|-heal|p2a: Magent Magent|61/100|[from] item: Black Sludge
+|upkeep
+|turn|46
+|
+|t:|1642978940
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|66/100
+|switch|p2a: Damo|Reuniclus, F|100/100
+|-damage|p2a: Damo|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|47
+|
+|t:|1642978947
+|switch|p2a: Magent Magent|Toxapex, F|95/100
+|-damage|p2a: Magent Magent|82/100|[from] Stealth Rock
+|move|p1a: Urshifu|Trick|p2a: Magent Magent
+|-activate|p1a: Urshifu|move: Trick|[of] p2a: Magent Magent
+|-item|p2a: Magent Magent|Choice Specs|[from] move: Trick
+|-item|p1a: Urshifu|Black Sludge|[from] move: Trick
+|
+|-damage|p1a: Urshifu|54/100|[from] item: Black Sludge
+|upkeep
+|turn|48
+|
+|t:|1642978960
+|switch|p1a: Corviknight|Corviknight, M|42/100 brn
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Magent Magent|Baneful Bunker||[still]
+|-fail|p2a: Magent Magent
+|
+|-damage|p1a: Corviknight|36/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|49
+|
+|t:|1642978967
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Corviknight|Corviknight, F|22/100
+|-damage|p2a: Corviknight|10/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|16/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1642978975
+|switch|p2a: Magent Magent|Toxapex, F|100/100
+|-damage|p2a: Magent Magent|88/100|[from] Stealth Rock
+|move|p1a: Urshifu|Surging Strikes|p2a: Magent Magent
+|-resisted|p2a: Magent Magent
+|-crit|p2a: Magent Magent
+|-damage|p2a: Magent Magent|79/100
+|-resisted|p2a: Magent Magent
+|-crit|p2a: Magent Magent
+|-damage|p2a: Magent Magent|70/100
+|-resisted|p2a: Magent Magent
+|-crit|p2a: Magent Magent
+|-damage|p2a: Magent Magent|61/100
+|-hitcount|p2a: Magent Magent|3
+|
+|upkeep
+|turn|51
+|
+|t:|1642978992
+|switch|p1a: Tapu Lele|Tapu Lele|65/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Magent Magent|Scald|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|39/100
+|-status|p1a: Tapu Lele|brn
+|
+|-damage|p1a: Tapu Lele|33/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1642978999
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Damo|Reuniclus, F|100/100
+|-damage|p2a: Damo|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|53
+|
+|t:|1642979006
+|switch|p2a: Magent Magent|Toxapex, F|95/100
+|-damage|p2a: Magent Magent|82/100|[from] Stealth Rock
+|move|p1a: Urshifu|U-turn|p2a: Magent Magent
+|-resisted|p2a: Magent Magent
+|-damage|p2a: Magent Magent|70/100
+|
+|t:|1642979011
+|switch|p1a: Garchomp|Garchomp, M|62/100|[from]move: U-turn
+|
+|upkeep
+|turn|54
+|
+|t:|1642979016
+|switch|p2a: Corviknight|Corviknight, F|16/100
+|-damage|p2a: Corviknight|4/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Garchomp|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|10/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1642979024
+|switch|p2a: Carne|Clefable, F|100/100
+|-damage|p2a: Carne|88/100|[from] Stealth Rock
+|move|p1a: Garchomp|Fire Fang|p2a: Carne|[miss]
+|-miss|p1a: Garchomp|p2a: Carne
+|
+|-heal|p2a: Carne|94/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|56
+|
+|t:|1642979031
+|switch|p1a: Corviknight|Corviknight, M|36/100 brn
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Carne|Wish|p2a: Carne
+|
+|-heal|p2a: Carne|99/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|30/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|t:|1642979035
+|switch|p2a: Kei|Landorus-Therian, M|83/100
+|-damage|p2a: Kei|70/100|[from] Stealth Rock
+|-ability|p2a: Kei|Intimidate|boost
+|-unboost|p1a: Corviknight|atk|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|80/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Kei|100/100|[from] move: Wish|[wisher] Carne
+|-damage|p1a: Corviknight|73/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|t:|1642979039
+|move|p2a: Kei|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: Bunch24|move: Stealth Rock
+|move|p1a: Corviknight|U-turn|p2a: Kei
+|-resisted|p2a: Kei
+|-damage|p2a: Kei|98/100
+|-damage|p1a: Corviknight|57/100 brn|[from] item: Rocky Helmet|[of] p2a: Kei
+|
+|t:|1642979046
+|switch|p1a: Landorus|Landorus-Therian, M|89/100|[from]move: U-turn
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kei|atk|1
+|
+|-heal|p1a: Landorus|82/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1642979066
+|move|p2a: Kei|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|55/100
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Kei
+|move|p1a: Landorus|Toxic|p2a: Kei
+|-status|p2a: Kei|tox
+|
+|-damage|p2a: Kei|92/100 tox|[from] psn
+|upkeep
+|turn|60
+|
+|t:|1642979075
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|move|p2a: Kei|Knock Off|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|81/100
+|-enditem|p1a: Urshifu|Choice Band|[from] move: Knock Off|[of] p2a: Kei
+|
+|-damage|p2a: Kei|80/100 tox|[from] psn
+|upkeep
+|turn|61
+|
+|t:|1642979087
+|switch|p2a: Magent Magent|Toxapex, F|100/100
+|-damage|p2a: Magent Magent|88/100|[from] Stealth Rock
+|move|p1a: Urshifu|U-turn|p2a: Magent Magent
+|-resisted|p2a: Magent Magent
+|-damage|p2a: Magent Magent|81/100
+|
+|t:|1642979091
+|switch|p1a: Garchomp|Garchomp, M|62/100|[from]move: U-turn
+|-damage|p1a: Garchomp|56/100|[from] Stealth Rock
+|
+|upkeep
+|turn|62
+|
+|t:|1642979096
+|switch|p2a: Corviknight|Corviknight, F|10/100
+|-damage|p2a: Corviknight|0 fnt|[from] Stealth Rock
+|faint|p2a: Corviknight
+|move|p1a: Garchomp|Earthquake|p2: Corviknight|[notarget]
+|-fail|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1642979114
+|switch|p2a: Carne|Clefable, F|99/100
+|-damage|p2a: Carne|88/100|[from] Stealth Rock
+|turn|63
+|
+|t:|1642979122
+|switch|p1a: Corviknight|Corviknight, M|57/100 brn
+|-damage|p1a: Corviknight|44/100 brn|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Carne|Aromatherapy|p2a: Carne
+|-activate|p2a: Carne|move: Aromatherapy
+|-curestatus|p2: Kei|tox|[msg]
+|
+|-heal|p2a: Carne|94/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|38/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|t:|1642979125
+|switch|p2a: Damo|Reuniclus, F|100/100
+|-damage|p2a: Damo|88/100|[from] Stealth Rock
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|88/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p1a: Corviknight|82/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|t:|1642979130
+|move|p1a: Corviknight|Defog|p2a: Damo
+|-unboost|p2a: Damo|evasion|1
+|-sideend|p2: exlipse|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: Bunch24|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|move|p2a: Damo|Future Sight|p1a: Corviknight
+|-start|p2a: Damo|move: Future Sight
+|
+|-damage|p1a: Corviknight|76/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|t:|1642979140
+|move|p1a: Corviknight|U-turn|p2a: Damo
+|-supereffective|p2a: Damo
+|-damage|p2a: Damo|73/100
+|
+|t:|1642979145
+|switch|p1a: Landorus|Landorus-Therian, M|55/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Damo|atk|1
+|move|p2a: Damo|Focus Blast|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|42/100
+|
+|upkeep
+|turn|67
+|
+|t:|1642979160
+|switch|p1a: Corviknight|Corviknight, M|76/100 brn
+|-ability|p1a: Corviknight|Pressure
+|switch|p2a: Kei|Landorus-Therian, M|80/100
+|-ability|p2a: Kei|Intimidate|boost
+|-unboost|p1a: Corviknight|atk|1
+|
+|-end|p1a: Corviknight|move: Future Sight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|52/100 brn
+|-damage|p1a: Corviknight|46/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|t:|1642979165
+|move|p2a: Kei|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: Bunch24|move: Stealth Rock
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|96/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p1a: Corviknight|90/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|t:|1642979168
+|move|p2a: Kei|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|86/100 brn
+|
+|t:|1642979169
+|switch|p2a: Joshu|Dragonite, M|100/100|[from]move: U-turn
+|move|p1a: Corviknight|Defog|p2a: Joshu
+|-unboost|p2a: Joshu|evasion|1
+|-sideend|p1: Bunch24|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-damage|p1a: Corviknight|80/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|t:|1642979173
+|move|p2a: Joshu|Dragon Dance|p2a: Joshu
+|-boost|p2a: Joshu|atk|1
+|-boost|p2a: Joshu|spe|1
+|move|p1a: Corviknight|U-turn|p2a: Joshu
+|-resisted|p2a: Joshu
+|-damage|p2a: Joshu|99/100
+|
+|t:|1642979178
+|switch|p1a: Tapu Lele|Tapu Lele|33/100 brn|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|
+|-damage|p1a: Tapu Lele|27/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|t:|1642979191
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|81/100
+|switch|p2a: Damo|Reuniclus, F|100/100
+|
+|upkeep
+|turn|72
+|
+|t:|1642979205
+|switch|p2a: Magent Magent|Toxapex, F|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Magent Magent
+|-resisted|p2a: Magent Magent
+|-crit|p2a: Magent Magent
+|-damage|p2a: Magent Magent|95/100
+|-resisted|p2a: Magent Magent
+|-crit|p2a: Magent Magent
+|-damage|p2a: Magent Magent|88/100
+|-resisted|p2a: Magent Magent
+|-crit|p2a: Magent Magent
+|-damage|p2a: Magent Magent|81/100
+|-hitcount|p2a: Magent Magent|3
+|
+|upkeep
+|turn|73
+|
+|t:|1642979210
+|switch|p1a: Corviknight|Corviknight, M|80/100 brn
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Magent Magent|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|53/100 brn
+|
+|-damage|p1a: Corviknight|47/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|t:|1642979219
+|switch|p2a: Joshu|Dragonite, M|99/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|97/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p1a: Corviknight|91/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|75
+|
+|t:|1642979222
+|move|p2a: Joshu|Dragon Dance|p2a: Joshu
+|-boost|p2a: Joshu|atk|1
+|-boost|p2a: Joshu|spe|1
+|move|p1a: Corviknight|U-turn|p2a: Joshu
+|-resisted|p2a: Joshu
+|-damage|p2a: Joshu|96/100
+|
+|t:|1642979224
+|switch|p1a: Tapu Lele|Tapu Lele|27/100 brn|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|
+|-damage|p1a: Tapu Lele|21/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|t:|1642979231
+|switch|p2a: Damo|Reuniclus, F|100/100
+|move|p1a: Tapu Lele|Moonblast|p2a: Damo
+|-damage|p2a: Damo|79/100
+|
+|-damage|p1a: Tapu Lele|15/100 brn|[from] brn
+|upkeep
+|turn|77
+|
+|t:|1642979237
+|switch|p1a: Corviknight|Corviknight, M|54/100
+|move|p2a: Damo|Future Sight|p1a: Corviknight
+|-start|p2a: Damo|move: Future Sight
+|
+|-damage|p1a: Corviknight|41/100|[from] item: Black Sludge
+|upkeep
+|turn|78
+|
+|t:|1642979251
+|switch|p2a: Joshu|Dragonite, M|96/100
+|move|p1a: Corviknight|Trick|p2a: Joshu
+|-activate|p1a: Corviknight|move: Trick|[of] p2a: Joshu
+|-item|p2a: Joshu|Black Sludge|[from] move: Trick
+|-item|p1a: Corviknight|Heavy-Duty Boots|[from] move: Trick
+|
+|-damage|p2a: Joshu|84/100|[from] item: Black Sludge
+|upkeep
+|turn|79
+|inactive|exlipse has 120 seconds left.
+|inactive|exlipse has 90 seconds left.
+|c|☆exlipse|wtf how did that happen
+|c|☆exlipse|i already broke illusion
+|inactive|exlipse has 60 seconds left.
+|
+|t:|1642979343
+|switch|p1a: Corviknight|Corviknight, M|91/100 brn
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Joshu|Dragon Dance|p2a: Joshu
+|-boost|p2a: Joshu|atk|1
+|-boost|p2a: Joshu|spe|1
+|
+|-end|p1a: Corviknight|move: Future Sight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|58/100 brn
+|-damage|p2a: Joshu|71/100|[from] item: Black Sludge
+|-damage|p1a: Corviknight|52/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|80
+|c|☆Bunch24|I guess not
+|c|☆exlipse|wdym
+|inactive|exlipse has 60 seconds left.
+|c|☆exlipse|that is how illusion works?
+|c|☆exlipse|it is broken after one hit
+|inactive|exlipse has 30 seconds left.
+|inactive|exlipse has 20 seconds left.
+|
+|t:|1642979396
+|move|p2a: Joshu|Dragon Dance|p2a: Joshu
+|-boost|p2a: Joshu|atk|1
+|-boost|p2a: Joshu|spe|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p2a: Joshu|59/100|[from] item: Black Sludge
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|81
+|inactive|exlipse has 30 seconds left this turn.
+|c|☆Bunch24|U never broke it thi
+|c|☆Bunch24|tho
+|inactive|exlipse has 20 seconds left.
+|inactive|exlipse has 15 seconds left.
+|inactive|exlipse has 10 seconds left.
+|
+|t:|1642979420
+|move|p2a: Joshu|Dragon Dance|p2a: Joshu
+|-boost|p2a: Joshu|atk|1
+|-boost|p2a: Joshu|spe|1
+|move|p1a: Corviknight|U-turn|p2a: Joshu
+|-resisted|p2a: Joshu
+|-damage|p2a: Joshu|56/100
+|inactive|exlipse has 15 seconds left this turn.
+|
+|t:|1642979423
+|switch|p1a: Landorus|Landorus-Therian, M|42/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Joshu|atk|1
+|
+|-damage|p2a: Joshu|43/100|[from] item: Black Sludge
+|upkeep
+|turn|82
+|inactive|exlipse has 20 seconds left this turn.
+|
+|t:|1642979427
+|switch|p1a: Corviknight|Corviknight, M|94/100 brn
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Joshu|Dual Wingbeat|p1a: Corviknight|[miss]
+|-miss|p2a: Joshu|p1a: Corviknight
+|
+|-damage|p2a: Joshu|31/100|[from] item: Black Sludge
+|-damage|p1a: Corviknight|88/100 brn|[from] brn
+|upkeep
+|turn|83
+|inactive|exlipse has 25 seconds left this turn.
+|
+|t:|1642979432
+|move|p2a: Joshu|Roost|p2a: Joshu
+|-heal|p2a: Joshu|81/100
+|-singleturn|p2a: Joshu|move: Roost
+|move|p1a: Corviknight|U-turn|p2a: Joshu
+|-damage|p2a: Joshu|74/100
+|inactive|exlipse has 30 seconds left this turn.
+|
+|t:|1642979433
+|switch|p1a: Landorus|Landorus-Therian, M|42/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Joshu|atk|1
+|
+|-damage|p2a: Joshu|62/100|[from] item: Black Sludge
+|upkeep
+|turn|84
+|c|☆exlipse|i did break it
+|inactive|exlipse has 30 seconds left.
+|c|☆exlipse|i hit zoroark with scald
+|
+|t:|1642979443
+|switch|p2a: Magent Magent|Toxapex, F|100/100
+|move|p1a: Landorus|Toxic|p2a: Magent Magent|[miss]
+|-miss|p1a: Landorus|p2a: Magent Magent
+|
+|upkeep
+|turn|85
+|
+|t:|1642979450
+|switch|p1a: Corviknight|Corviknight, M|88/100 brn
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Magent Magent|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|63/100 brn
+|
+|-damage|p1a: Corviknight|57/100 brn|[from] brn
+|upkeep
+|turn|86
+|inactive|exlipse has 30 seconds left.
+|inactive|exlipse has 20 seconds left.
+|c|☆Bunch24|It works after u switch out
+|
+|t:|1642979472
+|switch|p2a: Damo|Reuniclus, F|100/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|87
+|inactive|exlipse has 25 seconds left this turn.
+|inactive|exlipse has 20 seconds left.
+|inactive|exlipse has 15 seconds left.
+|inactive|exlipse has 10 seconds left.
+|inactive|exlipse has 5 seconds left.
+|-message|exlipse lost due to inactivity.
+|
+|win|Bunch24
+|raw|Bunch24's rating: 1653 &rarr; <strong>1678</strong><br />(+25 for winning)
+|raw|exlipse's rating: 1738 &rarr; <strong>1713</strong><br />(-25 for losing)
+|j| RedDiamond1024
+|j| heyitsjinx
+|j| PaigeVA20
+|j| TheNewBrends11@!

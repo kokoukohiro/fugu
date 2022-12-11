@@ -1,0 +1,549 @@
+|j|☆Cyyru
+|j|☆yung centibro
+|player|p1|Cyyru|cyrus|1364
+|player|p2|yung centibro|1|1357
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Salazzle, F|
+|poke|p1|Vullaby, F|
+|poke|p1|Passimian, M|
+|poke|p1|Gigalith, F|
+|poke|p1|Gastrodon, M|
+|poke|p1|Sigilyph, M|
+|poke|p2|Passimian, M|
+|poke|p2|Sigilyph, F|
+|poke|p2|Silvally-*|
+|poke|p2|Vaporeon, M|
+|poke|p2|Vileplume, F|
+|poke|p2|Gigalith, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cyyru)
+|
+|start
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|
+|move|p2a: Vaporeon|Scald|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|68/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Vaporeon
+|-sidestart|p2: yung centibro|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|94/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|-heal|p1a: Gigalith|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Vaporeon|Scald|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|94/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Gastrodon|Clear Smog|p2a: Vaporeon
+|-damage|p2a: Vaporeon|91/100
+|-clearboost|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|85/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|-damage|p2a: Vileplume|88/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|67/100
+|-status|p2a: Vileplume|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|61/100 brn|[from] Sandstorm
+|-heal|p2a: Vileplume|100/100 brn|[from] move: Wish|[wisher] Vaporeon
+|-damage|p2a: Vileplume|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|68/100
+|
+|-weather|none
+|-heal|p2a: Vileplume|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Vileplume|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Vaporeon|Vaporeon, M|91/100
+|-damage|p2a: Vaporeon|78/100|[from] Stealth Rock
+|move|p1a: Salazzle|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|
+|-heal|p2a: Vaporeon|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|78/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|85/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|72/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|move|p2a: Vaporeon|Ice Beam|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|32/100
+|
+|-heal|p2a: Vaporeon|100/100 tox|[from] move: Wish|[wisher] Vaporeon
+|-damage|p2a: Vaporeon|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-damage|p2a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|82/100
+|-singleturn|p1a: Sigilyph|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Passimian|Passimian, M|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Passimian
+|-sidestart|p1: Cyyru|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Passimian|94/100|[from] Sandstorm
+|-heal|p2a: Gigalith|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|j| staticdpp
+|
+|switch|p2a: Vileplume|Vileplume, F|94/100 brn
+|-damage|p2a: Vileplume|82/100 brn|[from] Stealth Rock
+|move|p1a: Passimian|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|56/100 brn
+|-status|p1a: Passimian|slp|[from] ability: Effect Spore|[of] p2a: Vileplume
+|-enditem|p2a: Vileplume|Leftovers|[from] move: Knock Off|[of] p1a: Passimian
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Passimian|88/100 slp|[from] Sandstorm
+|-damage|p2a: Vileplume|50/100 brn|[from] Sandstorm
+|-damage|p2a: Vileplume|44/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Sigilyph|Sigilyph, M|82/100
+|move|p2a: Vileplume|Strength Sap|p1a: Sigilyph
+|-unboost|p1a: Sigilyph|atk|1
+|-heal|p2a: Vileplume|74/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|68/100 brn|[from] Sandstorm
+|-damage|p2a: Vileplume|62/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-damage|p2a: Gigalith|88/100|[from] Stealth Rock
+|move|p1a: Sigilyph|Psychic|p2a: Gigalith
+|-damage|p2a: Gigalith|56/100
+|-unboost|p2a: Gigalith|spd|1
+|
+|-weather|none
+|-heal|p2a: Gigalith|62/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Gigalith|Rock Blast|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|89/100
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|85/100
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|80/100
+|-hitcount|p1a: Gastrodon|3
+|
+|-heal|p1a: Gastrodon|86/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|68/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Sigilyph|Sigilyph, F|100/100
+|move|p1a: Gastrodon|Earthquake|p2a: Sigilyph
+|-immune|p2a: Sigilyph
+|
+|-heal|p1a: Gastrodon|92/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Sigilyph|Calm Mind|p2a: Sigilyph
+|-boost|p2a: Sigilyph|spa|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Gastrodon|Clear Smog|p2a: Sigilyph
+|-damage|p2a: Sigilyph|90/100
+|-clearboost|p2a: Sigilyph
+|
+|-heal|p1a: Gastrodon|98/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Sigilyph|Calm Mind|p2a: Sigilyph
+|-boost|p2a: Sigilyph|spa|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Gastrodon|Clear Smog|p2a: Sigilyph
+|-damage|p2a: Sigilyph|78/100
+|-clearboost|p2a: Sigilyph
+|
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Sigilyph|Calm Mind|p2a: Sigilyph
+|-boost|p2a: Sigilyph|spa|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Gastrodon|Clear Smog|p2a: Sigilyph
+|-damage|p2a: Sigilyph|68/100
+|-clearboost|p2a: Sigilyph
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Sigilyph|Calm Mind|p2a: Sigilyph
+|-boost|p2a: Sigilyph|spa|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Gastrodon|Clear Smog|p2a: Sigilyph
+|-damage|p2a: Sigilyph|58/100
+|-clearboost|p2a: Sigilyph
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|100/100
+|-singleturn|p2a: Sigilyph|move: Roost
+|move|p1a: Gastrodon|Clear Smog|p2a: Sigilyph
+|-damage|p2a: Sigilyph|84/100
+|-clearboost|p2a: Sigilyph
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Sigilyph|Psychic|p1a: Gastrodon
+|-damage|p1a: Gastrodon|47/100
+|move|p1a: Gastrodon|Clear Smog|p2a: Sigilyph
+|-damage|p2a: Sigilyph|68/100
+|-clearboost|p2a: Sigilyph
+|
+|-heal|p1a: Gastrodon|54/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆yung centibro|that did some ungodly damage
+|
+|move|p2a: Sigilyph|Psychic|p1a: Gastrodon
+|-damage|p1a: Gastrodon|8/100
+|move|p1a: Gastrodon|Clear Smog|p2a: Sigilyph
+|-damage|p2a: Sigilyph|54/100
+|-clearboost|p2a: Sigilyph
+|
+|-heal|p1a: Gastrodon|15/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|j| Botrillus
+|inactive|yung centibro has 120 seconds left.
+|
+|switch|p1a: Vullaby|Vullaby, F|100/100
+|-damage|p1a: Vullaby|75/100|[from] Stealth Rock
+|move|p2a: Sigilyph|Roost|p2a: Sigilyph
+|-heal|p2a: Sigilyph|100/100
+|-singleturn|p2a: Sigilyph|move: Roost
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Vileplume|Vileplume, F|62/100 brn
+|-damage|p2a: Vileplume|49/100 brn|[from] Stealth Rock
+|move|p1a: Vullaby|Roost|p1a: Vullaby
+|-heal|p1a: Vullaby|100/100
+|-singleturn|p1a: Vullaby|move: Roost
+|
+|-damage|p2a: Vileplume|43/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Vullaby|Foul Play|p2a: Vileplume
+|-damage|p2a: Vileplume|26/100 brn
+|move|p2a: Vileplume|Strength Sap|p1a: Vullaby
+|-unboost|p1a: Vullaby|atk|1
+|-heal|p2a: Vileplume|58/100 brn
+|
+|-damage|p2a: Vileplume|52/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p1a: Sigilyph|Sigilyph, M|82/100
+|switch|p2a: Passimian|Passimian, M|100/100
+|-damage|p2a: Passimian|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Gastrodon|Gastrodon, M|15/100
+|-damage|p1a: Gastrodon|8/100|[from] Stealth Rock
+|move|p2a: Passimian|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-enditem|p1a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p2a: Passimian
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, M|88/100 slp
+|-damage|p1a: Passimian|82/100 slp|[from] Stealth Rock
+|turn|28
+|
+|cant|p1a: Passimian|slp
+|move|p2a: Passimian|Knock Off|p1a: Passimian
+|-resisted|p1a: Passimian
+|-damage|p1a: Passimian|64/100 slp
+|-enditem|p1a: Passimian|Choice Scarf|[from] move: Knock Off|[of] p2a: Passimian
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Vileplume|Vileplume, F|52/100 brn
+|-damage|p2a: Vileplume|40/100 brn|[from] Stealth Rock
+|cant|p1a: Passimian|slp
+|
+|-damage|p2a: Vileplume|34/100 brn|[from] brn
+|upkeep
+|turn|30
+|j| Chrus is nub
+|
+|-curestatus|p1a: Passimian|slp|[msg]
+|move|p1a: Passimian|U-turn|p2a: Vileplume
+|-damage|p2a: Vileplume|15/100 brn
+|
+|switch|p1a: Sigilyph|Sigilyph, M|82/100|[from]move: U-turn
+|move|p2a: Vileplume|Sludge Bomb|p1a: Sigilyph
+|-damage|p1a: Sigilyph|31/100
+|
+|-damage|p2a: Vileplume|9/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|82/100
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Vileplume|Sludge Bomb|p1a: Sigilyph
+|-damage|p1a: Sigilyph|29/100
+|
+|-damage|p2a: Vileplume|3/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|79/100
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Vileplume|Sludge Bomb|p1a: Sigilyph
+|-damage|p1a: Sigilyph|31/100
+|-status|p1a: Sigilyph|psn
+|
+|-damage|p2a: Vileplume|0 fnt|[from] brn
+|faint|p2a: Vileplume
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, M|94/100
+|-damage|p2a: Passimian|88/100|[from] Stealth Rock
+|turn|33
+|j| Grass Bell
+|
+|switch|p1a: Passimian|Passimian, M|64/100
+|-damage|p1a: Passimian|57/100|[from] Stealth Rock
+|move|p2a: Passimian|U-turn|p1a: Passimian
+|-resisted|p1a: Passimian
+|-damage|p1a: Passimian|45/100
+|
+|switch|p2a: Sigilyph|Sigilyph, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Gigalith|Gigalith, F|75/100
+|-damage|p1a: Gigalith|62/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Sigilyph|Heat Wave|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|59/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Silvally|Silvally-Steel|100/100
+|-damage|p2a: Silvally|94/100|[from] Stealth Rock
+|move|p1a: Gigalith|Stone Edge|p2a: Silvally|[miss]
+|-miss|p1a: Gigalith|p2a: Silvally
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|65/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Sigilyph|Sigilyph, M|31/100 psn
+|move|p2a: Silvally|Multi-Attack|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|68/100
+|turn|37
+|
+|switch|p1a: Passimian|Passimian, M|45/100
+|-damage|p1a: Passimian|39/100|[from] Stealth Rock
+|switch|p2a: Vaporeon|Vaporeon, M|82/100 tox
+|-damage|p2a: Vaporeon|69/100 tox|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Passimian|33/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|63/100 tox|[from] Sandstorm
+|-heal|p2a: Vaporeon|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|63/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p1a: Passimian|U-turn|p2a: Vaporeon
+|-damage|p2a: Vaporeon|40/100 tox
+|
+|switch|p1a: Vullaby|Vullaby, F|100/100|[from]move: U-turn
+|-damage|p1a: Vullaby|75/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Vullaby
+|-damage|p1a: Vullaby|48/100
+|
+|-weather|none
+|-heal|p2a: Vaporeon|47/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|34/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|move|p2a: Vaporeon|Scald|p1a: Vullaby
+|-damage|p1a: Vullaby|19/100
+|move|p1a: Vullaby|Foul Play|p2a: Vaporeon
+|-damage|p2a: Vaporeon|17/100 tox
+|
+|-heal|p2a: Vaporeon|24/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|5/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p2a: Vaporeon|Scald|p1a: Vullaby
+|-damage|p1a: Vullaby|0 fnt
+|faint|p1a: Vullaby
+|
+|-heal|p2a: Vaporeon|11/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|0 fnt|[from] psn
+|faint|p2a: Vaporeon
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, M|88/100
+|switch|p1a: Gigalith|Gigalith, F|65/100
+|-damage|p2a: Passimian|82/100|[from] Stealth Rock
+|-damage|p1a: Gigalith|53/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|41
+|
+|move|p2a: Passimian|Close Combat|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Passimian|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|68/100
+|turn|42
+|
+|switch|p2a: Silvally|Silvally-Steel|94/100
+|-damage|p2a: Silvally|88/100|[from] Stealth Rock
+|move|p1a: Salazzle|Nasty Plot|p1a: Salazzle
+|-boost|p1a: Salazzle|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salazzle|62/100|[from] Sandstorm
+|upkeep
+|turn|43
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salazzle|56/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, M|76/100
+|-damage|p2a: Passimian|70/100|[from] Stealth Rock
+|turn|44
+|
+|move|p2a: Passimian|Earthquake|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Passimian|64/100|[from] Sandstorm
+|upkeep
+|c|☆yung centibro|gg
+|c|☆Cyyru|gg
+|c|☆Cyyru|unfortunate sleep
+|
+|switch|p1a: Passimian|Passimian, M|33/100
+|-damage|p1a: Passimian|27/100|[from] Stealth Rock
+|turn|45
+|c|☆Cyyru|put me in the back
+|c|☆Cyyru|vs sigi
+|-message|Cyyru forfeited.
+|
+|win|yung centibro
+|l|☆Cyyru
+|c|☆yung centibro|fair
+|c|☆yung centibro|but
+|c|☆yung centibro|did u need to risk that
+|c|☆yung centibro|we.. w.e

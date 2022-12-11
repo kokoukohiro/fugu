@@ -1,0 +1,383 @@
+|j|☆Eltoras
+|j|☆Aggron
+|player|p1|Eltoras|blue|1323
+|player|p2|Aggron|200|1519
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Noivern, M|
+|poke|p1|Umbreon, F|
+|poke|p1|Inteleon, M|
+|poke|p1|Gigalith, F|
+|poke|p1|Cobalion|
+|poke|p1|Celebi|
+|poke|p2|Gardevoir, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Vikavolt, M|
+|poke|p2|Braviary, M|
+|poke|p2|Rhyperior, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Amon|Celebi|100/100
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|turn|1
+|
+|move|p2a: Chandelure|Trick|p1a: Amon
+|-activate|p2a: Chandelure|move: Trick|[of] p1a: Amon
+|-item|p1a: Amon|Choice Specs|[from] move: Trick
+|-item|p2a: Chandelure|Leftovers|[from] move: Trick
+|move|p1a: Amon|U-turn|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|96/100
+|
+|switch|p1a: Seth|Inteleon, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Chandelure|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Seth|Hydro Pump|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Torrent|[from] ability: Trace|[of] p1a: Seth
+|turn|3
+|
+|switch|p1a: Amon|Celebi|100/100
+|move|p2a: Gardevoir|Moonblast|p1a: Amon
+|-damage|p1a: Amon|54/100
+|-unboost|p1a: Amon|spa|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Amon
+|-damage|p1a: Amon|9/100
+|move|p1a: Amon|Energy Ball|p2a: Gardevoir
+|-damage|p2a: Gardevoir|50/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Amon
+|-damage|p1a: Amon|0 fnt
+|faint|p1a: Amon
+|
+|upkeep
+|
+|switch|p1a: Seth|Inteleon, M|100/100
+|turn|6
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Seth
+|-damage|p1a: Seth|23/100
+|move|p1a: Seth|Hydro Pump|p2a: Gardevoir|[miss]
+|-miss|p1a: Seth|p2a: Gardevoir
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Anubis|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Anubis
+|move|p2a: Gardevoir|Moonblast|p1a: Anubis
+|-damage|p1a: Anubis|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gardevoir|43/100|[from] Sandstorm
+|-heal|p1a: Anubis|72/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|switch|p1a: Seth|Inteleon, M|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seth|17/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p2a: Braviary|Braviary, M|100/100
+|move|p1a: Seth|Hydro Pump|p2a: Braviary
+|-damage|p2a: Braviary|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seth|10/100|[from] Sandstorm
+|-damage|p2a: Braviary|0 fnt|[from] Sandstorm
+|faint|p2a: Braviary
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|10
+|
+|switch|p1a: Apis|Noivern, M|100/100
+|-item|p2a: Sirfetch'd|Leek|[from] ability: Frisk|[of] p1a: Apis|[identify]
+|move|p2a: Sirfetch'd|First Impression|p1a: Apis
+|-resisted|p1a: Apis
+|-damage|p1a: Apis|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Apis|74/100|[from] Sandstorm
+|-damage|p2a: Sirfetch'd|94/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p1a: Apis|U-turn|p2a: Sirfetch'd
+|-resisted|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|88/100
+|
+|switch|p1a: Osiris|Cobalion|100/100|[from]move: U-turn
+|move|p2a: Sirfetch'd|Knock Off|p1a: Osiris
+|-resisted|p1a: Osiris
+|-crit|p1a: Osiris
+|-damage|p1a: Osiris|76/100
+|-ability|p1a: Osiris|Justified|boost
+|-boost|p1a: Osiris|atk|1
+|-enditem|p1a: Osiris|Shuca Berry|[from] move: Knock Off|[of] p2a: Sirfetch'd
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|move|p1a: Osiris|Close Combat|p2a: Vikavolt
+|-resisted|p2a: Vikavolt
+|-damage|p2a: Vikavolt|78/100
+|-unboost|p1a: Osiris|def|1
+|-unboost|p1a: Osiris|spd|1
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Osiris|Iron Head|p2a: Vikavolt
+|-resisted|p2a: Vikavolt
+|-damage|p2a: Vikavolt|62/100
+|move|p2a: Vikavolt|Volt Switch|p1a: Osiris
+|-damage|p1a: Osiris|12/100
+|
+|switch|p2a: Gardevoir|Gardevoir, M|43/100|[from]move: Volt Switch
+|-ability|p2a: Gardevoir|Justified|[from] ability: Trace|[of] p1a: Osiris
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Osiris
+|-damage|p1a: Osiris|0 fnt
+|faint|p1a: Osiris
+|
+|upkeep
+|
+|switch|p1a: Anubis|Gigalith, F|72/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Anubis
+|turn|15
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|88/100
+|move|p1a: Anubis|Earthquake|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sirfetch'd|44/100|[from] Sandstorm
+|-heal|p1a: Anubis|78/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Apis|Noivern, M|74/100
+|-item|p2a: Sirfetch'd|Leek|[from] ability: Frisk|[of] p1a: Apis|[identify]
+|move|p2a: Sirfetch'd|Close Combat|p1a: Apis
+|-resisted|p1a: Apis
+|-crit|p1a: Apis
+|-damage|p1a: Apis|19/100
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Apis|13/100|[from] Sandstorm
+|-damage|p2a: Sirfetch'd|38/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|move|p1a: Apis|Air Slash|p2a: Sirfetch'd
+|-supereffective|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|0 fnt
+|faint|p2a: Sirfetch'd
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Apis|7/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|turn|18
+|
+|move|p1a: Apis|U-turn|p2a: Rhyperior
+|-damage|p2a: Rhyperior|94/100
+|
+|switch|p1a: Isis|Umbreon, F|100/100|[from]move: U-turn
+|move|p2a: Rhyperior|Stealth Rock|p1a: Isis
+|-sidestart|p1: Eltoras|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Isis|94/100|[from] Sandstorm
+|-heal|p1a: Isis|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Vikavolt|Vikavolt, M|62/100
+|move|p1a: Isis|Foul Play|p2a: Vikavolt
+|-damage|p2a: Vikavolt|48/100
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|switch|p1a: Apis|Noivern, M|7/100
+|-item|p2a: Vikavolt|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Apis|[identify]
+|move|p2a: Vikavolt|Roost|p2a: Vikavolt
+|-heal|p2a: Vikavolt|98/100
+|-singleturn|p2a: Vikavolt|move: Roost
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Apis|Defog|p2a: Vikavolt
+|-unboost|p2a: Vikavolt|evasion|1
+|-sideend|p1: Eltoras|Stealth Rock|[from] move: Defog|[of] p1a: Apis
+|move|p2a: Vikavolt|Volt Switch|p1a: Apis
+|-damage|p1a: Apis|0 fnt
+|faint|p1a: Apis
+|
+|switch|p2a: Gardevoir|Gardevoir, M|43/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p1a: Anubis|Gigalith, F|78/100
+|-ability|p2a: Gardevoir|Sand Stream|[from] ability: Trace|[of] p1a: Anubis
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gardevoir
+|turn|22
+|
+|switch|p2a: Rhyperior|Rhyperior, M|94/100
+|switch|p1a: Seth|Inteleon, M|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seth|4/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|switch|p2a: Gardevoir|Gardevoir, M|43/100
+|-ability|p2a: Gardevoir|Torrent|[from] ability: Trace|[of] p1a: Seth
+|move|p1a: Seth|Hydro Pump|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seth|0 fnt|[from] Sandstorm
+|faint|p1a: Seth
+|upkeep
+|
+|switch|p1a: Anubis|Gigalith, F|78/100
+|switch|p2a: Rhyperior|Rhyperior, M|94/100
+|turn|24
+|
+|switch|p1a: Isis|Umbreon, F|100/100
+|move|p2a: Rhyperior|Earthquake|p1a: Isis
+|-damage|p1a: Isis|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Isis|45/100|[from] Sandstorm
+|-heal|p1a: Isis|51/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Rhyperior|Stealth Rock|p1a: Isis
+|-sidestart|p1: Eltoras|move: Stealth Rock
+|move|p1a: Isis|Wish|p1a: Isis
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Isis|45/100|[from] Sandstorm
+|-heal|p1a: Isis|51/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Vikavolt|Vikavolt, M|98/100
+|move|p1a: Isis|Protect||[still]
+|-fail|p1a: Isis
+|
+|-weather|none
+|-heal|p1a: Isis|100/100|[from] move: Wish|[wisher] Isis
+|upkeep
+|turn|27
+|
+|switch|p1a: Anubis|Gigalith, F|78/100
+|-damage|p1a: Anubis|66/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Anubis
+|move|p2a: Vikavolt|Bug Buzz|p1a: Anubis
+|-damage|p1a: Anubis|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vikavolt|92/100|[from] Sandstorm
+|-heal|p1a: Anubis|43/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Vikavolt|Volt Switch|p1a: Anubis
+|-damage|p1a: Anubis|19/100
+|
+|switch|p2a: Rhyperior|Rhyperior, M|94/100|[from]move: Volt Switch
+|move|p1a: Anubis|Rock Blast|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|90/100
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|85/100
+|-hitcount|p2a: Rhyperior|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Anubis|26/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Rhyperior|Rock Polish|p2a: Rhyperior
+|-boost|p2a: Rhyperior|spe|2
+|move|p1a: Anubis|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|52/100
+|-enditem|p2a: Rhyperior|Weakness Policy
+|-boost|p2a: Rhyperior|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Rhyperior|spa|2|[from] item: Weakness Policy
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Anubis|32/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Anubis
+|-supereffective|p1a: Anubis
+|-crit|p1a: Anubis
+|-damage|p1a: Anubis|0 fnt
+|faint|p1a: Anubis
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Isis|Umbreon, F|100/100
+|-damage|p1a: Isis|88/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Isis
+|-damage|p1a: Isis|0 fnt
+|faint|p1a: Isis
+|
+|win|Aggron

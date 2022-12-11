@@ -1,0 +1,467 @@
+|j|☆minimax_ai
+|j|☆samohi0
+|t:|1667966198
+|gametype|singles
+|player|p1|minimax_ai|169|1675
+|player|p2|samohi0|101|1652
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Rillaboom, M|
+|poke|p2|Heatran, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Hydreigon, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1667966203
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Enten|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Enten|Intimidate|boost
+|-unboost|p1a: landorustherian|atk|1
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Enten|atk|1
+|turn|1
+|
+|t:|1667966205
+|move|p2a: Enten|Stealth Rock|p1a: landorustherian
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|move|p1a: landorustherian|Toxic|p2a: Enten|[miss]
+|-miss|p1a: landorustherian|p2a: Enten
+|
+|upkeep
+|turn|2
+|
+|t:|1667966210
+|move|p2a: Enten|Explosion|p1a: landorustherian
+|-damage|p1a: landorustherian|40/100
+|faint|p2a: Enten
+|move|p1a: landorustherian|Defog|p2: Enten|[notarget]
+|-fail|p1a: landorustherian
+|
+|-heal|p1a: landorustherian|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667966221
+|switch|p2a: Raven|Tapu Lele, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Raven
+|turn|3
+|
+|t:|1667966223
+|switch|p1a: Melmetal|Melmetal|100/100
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|move|p2a: Raven|Future Sight|p1a: Melmetal
+|-start|p2a: Raven|move: Future Sight
+|
+|upkeep
+|turn|4
+|
+|t:|1667966228
+|switch|p2a: Poseidon-Blade|Urshifu-Rapid-Strike, M|100/100
+|move|p1a: Melmetal|Thunder Punch|p2a: Poseidon-Blade
+|-supereffective|p2a: Poseidon-Blade
+|-damage|p2a: Poseidon-Blade|28/100
+|
+|upkeep
+|turn|5
+|
+|t:|1667966230
+|switch|p1a: landorustherian|Landorus-Therian, M|46/100
+|-damage|p1a: landorustherian|34/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Poseidon-Blade|atk|1
+|move|p2a: Poseidon-Blade|Close Combat|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|2/100
+|-unboost|p2a: Poseidon-Blade|def|1
+|-unboost|p2a: Poseidon-Blade|spd|1
+|
+|-end|p1a: landorustherian|move: Future Sight
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|upkeep
+|
+|t:|1667966230
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|6
+|
+|t:|1667966234
+|move|p1a: Weavile|Knock Off|p2a: Poseidon-Blade
+|-resisted|p2a: Poseidon-Blade
+|-damage|p2a: Poseidon-Blade|0 fnt
+|-enditem|p2a: Poseidon-Blade|Choice Band|[from] move: Knock Off|[of] p1a: Weavile
+|faint|p2a: Poseidon-Blade
+|
+|upkeep
+|
+|t:|1667966239
+|switch|p2a: Hybrid|Hydreigon, M, shiny|100/100
+|turn|7
+|
+|t:|1667966240
+|switch|p1a: Melmetal|Melmetal|94/100
+|-damage|p1a: Melmetal|88/100|[from] Stealth Rock
+|move|p2a: Hybrid|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|84/100
+|
+|t:|1667966243
+|switch|p2a: Chaos|Heatran, M, shiny|100/100|[from]move: U-turn
+|-item|p2a: Chaos|Air Balloon
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|8
+|
+|t:|1667966245
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Chaos|Magma Storm|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|9
+|
+|t:|1667966248
+|move|p2a: Chaos|Nature Power|p1a: Heatran
+|move|p2a: Chaos|Tri Attack|p1a: Heatran|[from]move: Nature Power
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|74/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Magma Storm|p2a: Chaos
+|-start|p2a: Chaos|ability: Flash Fire
+|
+|upkeep
+|turn|10
+|
+|t:|1667966253
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|move|p2a: Chaos|Earth Power|p1a: rotomwash
+|-immune|p1a: rotomwash|[from] ability: Levitate
+|
+|-heal|p1a: rotomwash|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1667966257
+|-end|p2a: Chaos|ability: Flash Fire|[silent]
+|switch|p2a: Kong|Rillaboom, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Kong
+|move|p1a: rotomwash|Thunderbolt|p2a: Kong
+|-resisted|p2a: Kong
+|-damage|p2a: Kong|87/100
+|-status|p2a: Kong|par
+|
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|-heal|p2a: Kong|94/100 par|[from] Grassy Terrain
+|-heal|p2a: Kong|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1667966259
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Kong|Swords Dance|p2a: Kong
+|-boost|p2a: Kong|atk|2
+|
+|-heal|p1a: Tangrowth|94/100|[from] Grassy Terrain
+|-heal|p2a: Kong|100/100 par|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1667966261
+|move|p1a: Tangrowth|Giga Drain|p2a: Kong
+|-resisted|p2a: Kong
+|-damage|p2a: Kong|86/100 par
+|-heal|p1a: Tangrowth|100/100|[from] drain|[of] p2a: Kong
+|move|p2a: Kong|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|73/100
+|-damage|p2a: Kong|69/100 par|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Kong
+|
+|-heal|p1a: Tangrowth|79/100|[from] Grassy Terrain
+|-heal|p2a: Kong|75/100 par|[from] Grassy Terrain
+|-heal|p2a: Kong|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1667966264
+|move|p1a: Tangrowth|Giga Drain|p2a: Kong
+|-resisted|p2a: Kong
+|-damage|p2a: Kong|67/100 par
+|-heal|p1a: Tangrowth|86/100|[from] drain|[of] p2a: Kong
+|move|p2a: Kong|Swords Dance|p2a: Kong
+|-boost|p2a: Kong|atk|2
+|
+|-heal|p1a: Tangrowth|92/100|[from] Grassy Terrain
+|-heal|p2a: Kong|73/100 par|[from] Grassy Terrain
+|-heal|p2a: Kong|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1667966266
+|move|p1a: Tangrowth|Knock Off|p2a: Kong
+|-damage|p2a: Kong|57/100 par
+|-enditem|p2a: Kong|Leftovers|[from] move: Knock Off|[of] p1a: Tangrowth
+|move|p2a: Kong|Swords Dance|p2a: Kong
+|-boost|p2a: Kong|atk|2
+|
+|-heal|p1a: Tangrowth|98/100|[from] Grassy Terrain
+|-heal|p2a: Kong|64/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1667966268
+|move|p1a: Tangrowth|Focus Blast|p2a: Kong
+|-damage|p2a: Kong|41/100 par
+|cant|p2a: Kong|par
+|
+|upkeep
+|turn|17
+|
+|t:|1667966270
+|move|p1a: Tangrowth|Focus Blast|p2a: Kong
+|-damage|p2a: Kong|16/100 par
+|move|p2a: Kong|Drain Punch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|57/100
+|-heal|p2a: Kong|37/100 par|[from] drain|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|18
+|
+|t:|1667966272
+|move|p1a: Tangrowth|Focus Blast|p2a: Kong|[miss]
+|-miss|p1a: Tangrowth|p2a: Kong
+|cant|p2a: Kong|par
+|
+|upkeep
+|turn|19
+|
+|t:|1667966274
+|move|p1a: Tangrowth|Focus Blast|p2a: Kong
+|-damage|p2a: Kong|12/100 par
+|cant|p2a: Kong|par
+|
+|upkeep
+|turn|20
+|
+|t:|1667966276
+|move|p1a: Tangrowth|Giga Drain|p2a: Kong
+|-resisted|p2a: Kong
+|-damage|p2a: Kong|1/100 par
+|-heal|p1a: Tangrowth|63/100|[from] drain|[of] p2a: Kong
+|move|p2a: Kong|Drain Punch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|18/100
+|-heal|p2a: Kong|24/100 par|[from] drain|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|21
+|
+|t:|1667966282
+|move|p1a: Tangrowth|Focus Blast|p2a: Kong
+|-damage|p2a: Kong|0 fnt
+|faint|p2a: Kong
+|
+|upkeep
+|
+|t:|1667966288
+|switch|p2a: Hybrid|Hydreigon, M, shiny|100/100
+|turn|22
+|
+|t:|1667966291
+|switch|p1a: Melmetal|Melmetal|84/100
+|-damage|p1a: Melmetal|78/100|[from] Stealth Rock
+|move|p2a: Hybrid|Dark Pulse|p1a: Melmetal
+|-damage|p1a: Melmetal|57/100
+|
+|upkeep
+|turn|23
+|
+|t:|1667966295
+|switch|p2a: Chaos|Heatran, M, shiny|100/100
+|-item|p2a: Chaos|Air Balloon
+|move|p1a: Melmetal|Thunder Punch|p2a: Chaos
+|-damage|p2a: Chaos|69/100
+|-enditem|p2a: Chaos|Air Balloon
+|
+|upkeep
+|turn|24
+|
+|t:|1667966297
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|move|p2a: Chaos|Magma Storm|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|62/100
+|-activate|p1a: rotomwash|move: Magma Storm|[of] p2a: Chaos
+|
+|-heal|p1a: rotomwash|68/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|56/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|25
+|
+|t:|1667966304
+|move|p2a: Chaos|Nature Power|p1a: rotomwash
+|move|p2a: Chaos|Tri Attack|p1a: rotomwash|[from]move: Nature Power
+|-damage|p1a: rotomwash|25/100
+|move|p1a: rotomwash|Pain Split|p2a: Chaos
+|-sethp|p2a: Chaos|46/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|49/100|[from] move: Pain Split
+|
+|-heal|p1a: rotomwash|55/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|43/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|26
+|
+|t:|1667966309
+|move|p2a: Chaos|Nature Power|p1a: rotomwash
+|move|p2a: Chaos|Tri Attack|p1a: rotomwash|[from]move: Nature Power
+|-damage|p1a: rotomwash|14/100
+|move|p1a: rotomwash|Pain Split|p2a: Chaos
+|-sethp|p2a: Chaos|30/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|31/100|[from] move: Pain Split
+|
+|-heal|p1a: rotomwash|38/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|25/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|27
+|
+|t:|1667966313
+|move|p2a: Chaos|Nature Power|p1a: rotomwash
+|move|p2a: Chaos|Tri Attack|p1a: rotomwash|[from]move: Nature Power
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1667966313
+|switch|p1a: Weavile|Weavile, F|76/100
+|-damage|p1a: Weavile|51/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|28
+|
+|t:|1667966317
+|move|p1a: Weavile|Low Kick|p2a: Chaos
+|-supereffective|p2a: Chaos
+|-damage|p2a: Chaos|0 fnt
+|faint|p2a: Chaos
+|
+|upkeep
+|
+|t:|1667966319
+|switch|p2a: Raven|Tapu Lele, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Raven
+|turn|29
+|
+|t:|1667966323
+|switch|p1a: Melmetal|Melmetal|57/100
+|-damage|p1a: Melmetal|51/100|[from] Stealth Rock
+|switch|p2a: Hybrid|Hydreigon, M, shiny|100/100
+|
+|upkeep
+|turn|30
+|
+|t:|1667966325
+|move|p2a: Hybrid|Earth Power|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|18/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Hybrid
+|-damage|p2a: Hybrid|54/100
+|-damage|p2a: Hybrid|8/100
+|-hitcount|p2a: Hybrid|2
+|
+|upkeep
+|turn|31
+|
+|t:|1667966329
+|switch|p1a: Tangrowth|Tangrowth, M|51/100
+|-damage|p1a: Tangrowth|39/100|[from] Stealth Rock
+|move|p2a: Hybrid|Earth Power|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|18/100
+|
+|upkeep
+|turn|32
+|
+|t:|1667966332
+|switch|p1a: Melmetal|Melmetal|18/100
+|-damage|p1a: Melmetal|11/100|[from] Stealth Rock
+|move|p2a: Hybrid|Earth Power|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1667966332
+|switch|p1a: Tangrowth|Tangrowth, M|51/100
+|-damage|p1a: Tangrowth|39/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1667966334
+|move|p2a: Hybrid|Earth Power|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|18/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Hybrid
+|-resisted|p2a: Hybrid
+|-damage|p2a: Hybrid|0 fnt
+|-heal|p1a: Tangrowth|21/100|[from] drain|[of] p2a: Hybrid
+|faint|p2a: Hybrid
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1667966337
+|switch|p2a: Raven|Tapu Lele, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Raven
+|turn|34
+|
+|t:|1667966338
+|switch|p1a: Weavile|Weavile, F|51/100
+|-damage|p1a: Weavile|26/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Raven|Future Sight|p1a: Weavile
+|-start|p2a: Raven|move: Future Sight
+|
+|upkeep
+|turn|35
+|
+|t:|1667966339
+|move|p1a: Weavile|Triple Axel|p2a: Raven
+|-damage|p2a: Raven|81/100
+|-damage|p2a: Raven|37/100
+|-damage|p2a: Raven|0 fnt
+|faint|p2a: Raven
+|-hitcount|p2: Raven|3
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1675 &rarr; <strong>1694</strong><br />(+19 for winning)
+|raw|samohi0's rating: 1652 &rarr; <strong>1633</strong><br />(-19 for losing)
+|c|☆minimax_ai|gg

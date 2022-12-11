@@ -1,0 +1,257 @@
+|j|☆imBenca
+|j|‽PU24hBot
+|t:|1654883779
+|gametype|singles
+|player|p1|imBenca|ingo|1375
+|player|p2|PU24hBot|1|1300
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Vikavolt, M|
+|poke|p1|Lanturn, M|
+|poke|p1|Aggron, M|
+|poke|p1|Charizard, F|
+|poke|p1|Thwackey, M|
+|poke|p1|Thievul, M|
+|poke|p2|Scrafty, M|
+|poke|p2|Garbodor, F|
+|poke|p2|Appletun, M|
+|poke|p2|Aggron, M|
+|poke|p2|Rotom|
+|poke|p2|Quagsire, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PU24hBot)
+|
+|t:|1654883797
+|start
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|turn|1
+|
+|t:|1654883802
+|move|p2a: Scrafty|Knock Off|p1a: Lanturn
+|-damage|p1a: Lanturn|56/100
+|-enditem|p1a: Lanturn|Leftovers|[from] move: Knock Off|[of] p2a: Scrafty
+|move|p1a: Lanturn|Volt Switch|p2a: Scrafty
+|-damage|p2a: Scrafty|86/100
+|j| Belindas Dad
+|
+|t:|1654883811
+|switch|p1a: Charizard|Charizard, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1654883815
+|move|p1a: Charizard|Hurricane|p2a: Scrafty|[miss]
+|-miss|p1a: Charizard|p2a: Scrafty
+|move|p2a: Scrafty|Stone Edge|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1654883821
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|turn|3
+|
+|t:|1654883825
+|move|p2a: Scrafty|Stone Edge|p1a: Vikavolt
+|-supereffective|p1a: Vikavolt
+|-damage|p1a: Vikavolt|36/100
+|move|p1a: Vikavolt|Bug Buzz|p2a: Scrafty
+|-damage|p2a: Scrafty|49/100
+|
+|upkeep
+|turn|4
+|
+|t:|1654883829
+|switch|p1a: Aggron|Aggron, M|100/100
+|move|p2a: Scrafty|Knock Off|p1a: Aggron
+|-damage|p1a: Aggron|73/100
+|-enditem|p1a: Aggron|Leftovers|[from] move: Knock Off|[of] p2a: Scrafty
+|
+|upkeep
+|turn|5
+|
+|t:|1654883835
+|switch|p1a: Vikavolt|Vikavolt, M|36/100
+|move|p2a: Scrafty|Drain Punch|p1a: Vikavolt
+|-resisted|p1a: Vikavolt
+|-damage|p1a: Vikavolt|17/100
+|-heal|p2a: Scrafty|59/100|[from] drain|[of] p1a: Vikavolt
+|
+|upkeep
+|turn|6
+|
+|t:|1654883836
+|move|p2a: Scrafty|Drain Punch|p1a: Vikavolt
+|-resisted|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|-heal|p2a: Scrafty|68/100|[from] drain|[of] p1a: Vikavolt
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|t:|1654883841
+|switch|p1a: Thwackey|Thwackey, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Thwackey
+|turn|7
+|
+|t:|1654883843
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|move|p1a: Thwackey|Wood Hammer|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|61/100
+|-damage|p1a: Thwackey|84/100|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|-damage|p1a: Thwackey|67/100|[from] Recoil
+|
+|-heal|p1a: Thwackey|73/100|[from] Grassy Terrain
+|-heal|p2a: Garbodor|67/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1654883846
+|switch|p1a: Lanturn|Lanturn, M|56/100
+|switch|p2a: Appletun|Appletun, M|100/100
+|
+|-heal|p1a: Lanturn|63/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1654883850
+|move|p1a: Lanturn|Toxic|p2a: Appletun
+|-status|p2a: Appletun|tox
+|move|p2a: Appletun|Apple Acid|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-crit|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|-damage|p2a: Appletun|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1654883865
+|switch|p1a: Thievul|Thievul, M|100/100
+|-enditem|p1a: Thievul|Grassy Seed
+|-boost|p1a: Thievul|def|1|[from] item: Grassy Seed
+|turn|10
+|
+|t:|1654883867
+|move|p1a: Thievul|Nasty Plot|p1a: Thievul
+|-boost|p1a: Thievul|spa|2
+|move|p2a: Appletun|Apple Acid|p1a: Thievul
+|-damage|p1a: Thievul|33/100
+|-unboost|p1a: Thievul|spd|1
+|
+|-heal|p1a: Thievul|39/100|[from] Grassy Terrain
+|-heal|p2a: Appletun|100/100 tox|[from] Grassy Terrain
+|-damage|p2a: Appletun|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1654883870
+|move|p1a: Thievul|Dark Pulse|p2a: Appletun
+|-crit|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|
+|-heal|p1a: Thievul|45/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1654883871
+|switch|p2a: Scrafty|Scrafty, M|68/100
+|turn|12
+|
+|t:|1654883876
+|move|p1a: Thievul|Burning Jealousy|p2a: Scrafty
+|-damage|p2a: Scrafty|39/100
+|move|p2a: Scrafty|Drain Punch|p1a: Thievul
+|-supereffective|p1a: Thievul
+|-damage|p1a: Thievul|0 fnt
+|-heal|p2a: Scrafty|60/100|[from] drain|[of] p1a: Thievul
+|faint|p1a: Thievul
+|
+|upkeep
+|
+|t:|1654883879
+|switch|p1a: Thwackey|Thwackey, M|73/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Thwackey
+|turn|13
+|
+|t:|1654883881
+|switch|p2a: Garbodor|Garbodor, F|67/100
+|move|p1a: Thwackey|Knock Off|p2a: Garbodor
+|-damage|p2a: Garbodor|33/100
+|-damage|p1a: Thwackey|57/100|[from] item: Rocky Helmet|[of] p2a: Garbodor
+|-enditem|p2a: Garbodor|Rocky Helmet|[from] move: Knock Off|[of] p1a: Thwackey
+|
+|-heal|p1a: Thwackey|63/100|[from] Grassy Terrain
+|-heal|p2a: Garbodor|40/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1654883884
+|switch|p1a: Aggron|Aggron, M|73/100
+|switch|p2a: Scrafty|Scrafty, M|60/100
+|
+|-heal|p2a: Scrafty|66/100|[from] Grassy Terrain
+|-heal|p1a: Aggron|79/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1654883886
+|move|p2a: Scrafty|Drain Punch|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|-heal|p2a: Scrafty|100/100|[from] drain|[of] p1a: Aggron
+|faint|p1a: Aggron
+|
+|upkeep
+|
+|t:|1654883888
+|switch|p1a: Thwackey|Thwackey, M|63/100
+|turn|16
+|
+|t:|1654883889
+|switch|p2a: Garbodor|Garbodor, F|40/100
+|move|p1a: Thwackey|Wood Hammer|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-crit|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Thwackey|38/100|[from] ability: Aftermath|[of] p2a: Garbodor
+|faint|p2a: Garbodor
+|-damage|p1a: Thwackey|21/100|[from] Recoil
+|
+|-heal|p1a: Thwackey|27/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1654883890
+|switch|p2a: Rotom|Rotom|100/100
+|turn|17
+|
+|t:|1654883892
+|move|p2a: Rotom|Thunderbolt|p1a: Thwackey
+|-resisted|p1a: Thwackey
+|-crit|p1a: Thwackey
+|-damage|p1a: Thwackey|0 fnt
+|faint|p1a: Thwackey
+|
+|win|PU24hBot
+|raw|imBenca's rating: 1375 &rarr; <strong>1351</strong><br />(-24 for losing)
+|raw|PU24hBot's rating: 1300 &rarr; <strong>1330</strong><br />(+30 for winning)
+|l|‽PU24hBot
+|l|☆imBenca
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

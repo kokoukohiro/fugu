@@ -1,0 +1,280 @@
+|j|☆TTAR RESCUE
+|j|☆testotesto321
+|player|p1|TTAR RESCUE|lucas|1592
+|player|p2|testotesto321|bellelba|1596
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Centiskorch, M|
+|poke|p1|Bewear, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Umbreon, M|
+|poke|p1|Copperajah, F|
+|poke|p2|Gengar, M|
+|poke|p2|Zeraora|
+|poke|p2|Clefable, F|
+|poke|p2|Hippowdon, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Toxapex, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|1
+|
+|move|p1a: Togekiss|Trick|p2a: Zeraora
+|-activate|p1a: Togekiss|move: Trick|[of] p2a: Zeraora
+|-item|p2a: Zeraora|Choice Scarf|[from] move: Trick
+|-item|p1a: Togekiss|Expert Belt|[from] move: Trick
+|move|p2a: Zeraora|Plasma Fists|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|100/100
+|turn|2
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: testotesto321|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mandibuzz|Defog|p1a: Seismitoad
+|-unboost|p1a: Seismitoad|evasion|1
+|-sideend|p2: testotesto321|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Seismitoad|Toxic|p2a: Mandibuzz|[miss]
+|-miss|p1a: Seismitoad|p2a: Mandibuzz
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|90/100
+|-damage|p2a: Mandibuzz|84/100|[from] item: Rocky Helmet|[of] p1a: Seismitoad
+|
+|switch|p2a: Clefable|Clefable, F, shiny|100/100|[from]move: U-turn
+|move|p1a: Seismitoad|Stealth Rock|p2a: Clefable
+|-sidestart|p2: testotesto321|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Copperajah|Copperajah, F, shiny|100/100
+|move|p2a: Clefable|Moonblast|p1a: Copperajah
+|-resisted|p1a: Copperajah
+|-damage|p1a: Copperajah|81/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Copperajah|Power Whip|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|50/100
+|-damage|p1a: Copperajah|65/100|[from] item: Rocky Helmet|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|90/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Seismitoad|Scald|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|45/100
+|move|p2a: Hippowdon|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seismitoad|84/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|switch|p2a: Clefable|Clefable, F, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Centiskorch|94/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p1a: Centiskorch|Fire Lash|p2a: Clefable
+|-damage|p2a: Clefable|50/100
+|-unboost|p2a: Clefable|def|1
+|move|p2a: Clefable|Thunder Wave|p1a: Centiskorch|[miss]
+|-miss|p2a: Clefable|p1a: Centiskorch
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Centiskorch|Fire Lash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|-unboost|p2a: Toxapex|def|1
+|
+|-heal|p2a: Toxapex|81/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Centiskorch|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|49/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Centiskorch
+|move|p2a: Toxapex|Toxic|p1a: Centiskorch
+|-status|p1a: Centiskorch|tox
+|
+|-damage|p1a: Centiskorch|88/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Centiskorch|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|12/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|62/100
+|
+|-damage|p1a: Centiskorch|76/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Umbreon|Umbreon, M, shiny|100/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Umbreon|Heal Bell|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Heal Bell
+|-curestatus|p1: Seismitoad|tox|[msg]
+|-curestatus|p1: Centiskorch|tox|[msg]
+|move|p2a: Toxapex|Toxic|p1a: Umbreon
+|-status|p1a: Umbreon|tox
+|-activate|p1a: Umbreon|ability: Synchronize
+|-immune|p2a: Toxapex
+|
+|-damage|p1a: Umbreon|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Toxapex|Toxic|p1a: Umbreon
+|-fail|p1a: Umbreon|tox
+|
+|-heal|p1a: Umbreon|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Copperajah|Copperajah, F, shiny|65/100
+|move|p2a: Toxapex|Toxic|p1a: Copperajah
+|-immune|p1a: Copperajah
+|
+|-heal|p1a: Copperajah|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|18
+|
+|switch|p1a: Umbreon|Umbreon, M, shiny|88/100 tox
+|move|p2a: Toxapex|Scald|p1a: Umbreon
+|-damage|p1a: Umbreon|79/100 tox
+|
+|-heal|p1a: Umbreon|85/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|79/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Toxapex|Toxic|p1a: Umbreon
+|-fail|p1a: Umbreon|tox
+|
+|-heal|p1a: Umbreon|85/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|73/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: Centiskorch|Centiskorch, M|76/100
+|switch|p2a: Clefable|Clefable, F, shiny|50/100
+|
+|-heal|p1a: Centiskorch|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|21
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|84/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|51/100
+|-unboost|p2a: Mandibuzz|def|1
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Centiskorch|Fire Lash|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Centiskorch
+|-damage|p1a: Centiskorch|14/100
+|move|p1a: Centiskorch|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-enditem|p2a: Gengar|Choice Specs|[from] move: Knock Off|[of] p1a: Centiskorch
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F, shiny|50/100
+|turn|24
+|
+|move|p1a: Centiskorch|Fire Lash|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|84/100
+|move|p2a: Zeraora|Plasma Fists|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|upkeep
+|turn|26
+|-message|testotesto321 forfeited.
+|
+|win|TTAR RESCUE
+|l|☆testotesto321

@@ -1,0 +1,509 @@
+|j|☆Crushy Stuff
+|j|☆EliotEnRetar
+|t:|1604049099
+|player|p1|Crushy Stuff|lucy-gen3|1508
+|player|p2|EliotEnRetar|falkner|1399
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Slowbro-Galar, F|
+|poke|p1|Mienshao, M|
+|poke|p1|Noivern, M|
+|poke|p1|Bewear, F|
+|poke|p1|Roserade, F|
+|poke|p1|Bisharp, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Roserade, F|
+|poke|p2|Sylveon, F|
+|poke|p2|Talonflame, F|
+|poke|p2|Rotom-Wash|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1604049110
+|start
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|switch|p2a: Fish|Barraskewda, M|100/100
+|turn|1
+|
+|t:|1604049119
+|switch|p2a: Jyrachi|Sylveon, F|100/100
+|move|p1a: Mienshao|Close Combat|p2a: Jyrachi
+|-resisted|p2a: Jyrachi
+|-damage|p2a: Jyrachi|65/100
+|-unboost|p1a: Mienshao|def|1
+|-unboost|p1a: Mienshao|spd|1
+|
+|-heal|p2a: Jyrachi|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1604049131
+|switch|p1a: Roserade|Roserade, F, shiny|100/100
+|move|p2a: Jyrachi|Yawn|p1a: Roserade
+|-start|p1a: Roserade|move: Yawn|[of] p2a: Jyrachi
+|
+|-heal|p2a: Jyrachi|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Crushy Stuff)
+|
+|t:|1604049141
+|switch|p2a: UUBisharp|Bisharp, F|100/100
+|move|p1a: Roserade|Spikes|p2a: UUBisharp
+|-sidestart|p2: EliotEnRetar|Spikes
+|
+|-end|p1a: Roserade|move: Yawn|[silent]
+|-status|p1a: Roserade|slp
+|upkeep
+|turn|4
+|
+|t:|1604049149
+|switch|p1a: Bewear|Bewear, F|100/100
+|move|p2a: UUBisharp|Knock Off|p1a: Bewear
+|-resisted|p1a: Bewear
+|-damage|p1a: Bewear|89/100
+|-enditem|p1a: Bewear|Silk Scarf|[from] move: Knock Off|[of] p2a: UUBisharp
+|
+|upkeep
+|turn|5
+|
+|t:|1604049167
+|switch|p2a: CauetBurger|Rotom-Wash|100/100
+|move|p1a: Bewear|Swords Dance|p1a: Bewear
+|-boost|p1a: Bewear|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1604049172
+|switch|p1a: Roserade|Roserade, F, shiny|100/100
+|move|p2a: CauetBurger|Will-O-Wisp|p1a: Roserade
+|-status|p1a: Roserade|brn
+|
+|-damage|p1a: Roserade|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1604049195
+|switch|p2a: Kyryuem|Roserade, F|100/100
+|-damage|p2a: Kyryuem|88/100|[from] Spikes
+|move|p1a: Roserade|Giga Drain|p2a: Kyryuem
+|-resisted|p2a: Kyryuem
+|-damage|p2a: Kyryuem|78/100
+|-heal|p1a: Roserade|99/100 brn|[from] drain|[of] p2a: Kyryuem
+|
+|-heal|p1a: Roserade|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Roserade|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1604049210
+|switch|p2a: BizouJeManvol|Talonflame, F|100/100
+|move|p1a: Roserade|Sludge Bomb|p2a: BizouJeManvol
+|-damage|p2a: BizouJeManvol|40/100
+|-status|p2a: BizouJeManvol|psn
+|
+|-heal|p1a: Roserade|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: BizouJeManvol|28/100 psn|[from] psn
+|-damage|p1a: Roserade|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1604049224
+|-curestatus|p1a: Roserade|brn|[from] ability: Natural Cure
+|switch|p1a: Bewear|Bewear, F|89/100
+|move|p2a: BizouJeManvol|U-turn|p1a: Bewear
+|-resisted|p1a: Bewear
+|-damage|p1a: Bewear|86/100
+|
+|t:|1604049233
+|switch|p2a: CauetBurger|Rotom-Wash|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1604049244
+|switch|p1a: Slowbro|Slowbro-Galar, F|100/100
+|move|p2a: CauetBurger|Volt Switch|p1a: Slowbro
+|-damage|p1a: Slowbro|87/100
+|
+|t:|1604049252
+|switch|p2a: Kyryuem|Roserade, F|78/100|[from]move: Volt Switch
+|-damage|p2a: Kyryuem|66/100|[from] Spikes
+|
+|upkeep
+|turn|11
+|j| Naviii 1
+|c| Naviii 1|let’s go crushy
+|
+|t:|1604049269
+|move|p2a: Kyryuem|Shadow Ball|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|39/100
+|move|p1a: Slowbro|Future Sight|p2a: Kyryuem
+|-start|p1a: Slowbro|move: Future Sight
+|
+|upkeep
+|turn|12
+|c|☆EliotEnRetar|yoo
+|c|☆EliotEnRetar|ur back
+|c|☆EliotEnRetar|man
+|c| Naviii 1|?
+|c|☆EliotEnRetar|i want a rematch
+|inactive|EliotEnRetar has 120 seconds left.
+|c| Naviii 1|no
+|
+|t:|1604049301
+|switch|p2a: UUBisharp|Bisharp, F|100/100
+|-damage|p2a: UUBisharp|88/100|[from] Spikes
+|switch|p1a: Roserade|Roserade, F, shiny|94/100
+|
+|-heal|p1a: Roserade|100/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|c|☆EliotEnRetar|ok
+|c| Naviii 1|it’s cancer playimg vs braindmg
+|inactive|EliotEnRetar has 120 seconds left.
+|c|☆EliotEnRetar|ok
+|c| Naviii 1|lol jk
+|c|☆Crushy Stuff|bruh lmaooo
+|
+|t:|1604049331
+|move|p1a: Roserade|Sleep Powder|p2a: UUBisharp
+|-status|p2a: UUBisharp|slp|[from] move: Sleep Powder
+|cant|p2a: UUBisharp|slp
+|
+|-end|p2a: UUBisharp|move: Future Sight
+|-immune|p2a: UUBisharp
+|upkeep
+|turn|14
+|c| Naviii 1|specs
+|c| Naviii 1|roserade
+|c| Naviii 1|XDDDD
+|
+|t:|1604049340
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|cant|p2a: UUBisharp|slp
+|
+|upkeep
+|turn|15
+|
+|t:|1604049350
+|switch|p2a: Jyrachi|Sylveon, F|77/100
+|-damage|p2a: Jyrachi|65/100|[from] Spikes
+|move|p1a: Mienshao|Close Combat|p2a: Jyrachi
+|-resisted|p2a: Jyrachi
+|-damage|p2a: Jyrachi|28/100
+|-unboost|p1a: Mienshao|def|1
+|-unboost|p1a: Mienshao|spd|1
+|
+|-heal|p2a: Jyrachi|34/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|c| Naviii 1|disturbing
+|c|☆EliotEnRetar|lol
+|c| Naviii 1|i thought i had the game won with gbro and he specs shadow balls ,e
+|c| Naviii 1|:D
+|inactive|EliotEnRetar has 90 seconds left.
+|c|☆Crushy Stuff|ngl i like the shadow ball tech
+|c| Naviii 1|specs roserade tho
+|c| Naviii 1|is like
+|c| Naviii 1|???
+|c| Naviii 1|why
+|inactive|EliotEnRetar has 60 seconds left.
+|c|☆EliotEnRetar|man just being top ladder and be salty because surprised by a set
+|c| Naviii 1|yes
+|c| Naviii 1|it’s annoying losing to random dog sets
+|inactive|EliotEnRetar has 30 seconds left.
+|c| Naviii 1|that would only work once
+|inactive|EliotEnRetar has 20 seconds left.
+|inactive|EliotEnRetar has 15 seconds left.
+|inactive|EliotEnRetar has 10 seconds left.
+|
+|t:|1604049461
+|switch|p1a: Roserade|Roserade, F, shiny|100/100
+|move|p2a: Jyrachi|Hyper Voice|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|81/100
+|
+|-heal|p1a: Roserade|87/100|[from] item: Black Sludge
+|-heal|p2a: Jyrachi|40/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|EliotEnRetar has 20 seconds left this turn.
+|inactive|EliotEnRetar has 15 seconds left.
+|inactive|EliotEnRetar has 10 seconds left.
+|inactive|EliotEnRetar has 5 seconds left.
+|
+|t:|1604049479
+|switch|p2a: UUBisharp|Bisharp, F|88/100 slp
+|-damage|p2a: UUBisharp|75/100 slp|[from] Spikes
+|move|p1a: Roserade|Giga Drain|p2a: UUBisharp
+|-resisted|p2a: UUBisharp
+|-damage|p2a: UUBisharp|49/100 slp
+|-heal|p1a: Roserade|98/100|[from] drain|[of] p2a: UUBisharp
+|
+|-heal|p1a: Roserade|100/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|inactive|EliotEnRetar has 15 seconds left this turn.
+|inactive|EliotEnRetar has 10 seconds left.
+|inactive|EliotEnRetar has 5 seconds left.
+|
+|t:|1604049489
+|switch|p1a: Bewear|Bewear, F|86/100
+|-curestatus|p2a: UUBisharp|slp|[msg]
+|move|p2a: UUBisharp|Knock Off|p1a: Bewear
+|-resisted|p1a: Bewear
+|-damage|p1a: Bewear|78/100
+|
+|upkeep
+|turn|19
+|inactive|EliotEnRetar has 15 seconds left this turn.
+|inactive|EliotEnRetar has 10 seconds left.
+|
+|t:|1604049499
+|switch|p2a: CauetBurger|Rotom-Wash|100/100
+|move|p1a: Bewear|Facade|p2a: CauetBurger
+|-damage|p2a: CauetBurger|75/100
+|
+|-heal|p2a: CauetBurger|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|EliotEnRetar has 20 seconds left this turn.
+|inactive|EliotEnRetar has 15 seconds left.
+|
+|t:|1604049511
+|switch|p1a: Roserade|Roserade, F, shiny|100/100
+|move|p2a: CauetBurger|Volt Switch|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|86/100
+|inactive|EliotEnRetar has 20 seconds left this turn.
+|inactive|EliotEnRetar has 15 seconds left.
+|
+|t:|1604049518
+|switch|p2a: BizouJeManvol|Talonflame, F|28/100 psn|[from]move: Volt Switch
+|
+|-heal|p1a: Roserade|92/100|[from] item: Black Sludge
+|-damage|p2a: BizouJeManvol|15/100 psn|[from] psn
+|upkeep
+|turn|21
+|inactive|EliotEnRetar has 25 seconds left this turn.
+|inactive|EliotEnRetar has 20 seconds left.
+|inactive|EliotEnRetar has 15 seconds left.
+|
+|t:|1604049529
+|switch|p1a: Bewear|Bewear, F|78/100
+|move|p2a: BizouJeManvol|Flare Blitz|p1a: Bewear
+|-damage|p1a: Bewear|47/100
+|-damage|p2a: BizouJeManvol|0 fnt|[from] Recoil
+|faint|p2a: BizouJeManvol
+|
+|upkeep
+|inactive|EliotEnRetar has 20 seconds left this turn.
+|inactive|EliotEnRetar has 15 seconds left.
+|
+|t:|1604049538
+|switch|p2a: Fish|Barraskewda, M|100/100
+|-damage|p2a: Fish|88/100|[from] Spikes
+|turn|22
+|inactive|EliotEnRetar has 25 seconds left this turn.
+|
+|t:|1604049542
+|move|p2a: Fish|Close Combat|p1a: Bewear
+|-supereffective|p1a: Bewear
+|-damage|p1a: Bewear|4/100
+|-unboost|p2a: Fish|def|1
+|-unboost|p2a: Fish|spd|1
+|move|p1a: Bewear|Drain Punch|p2a: Fish
+|-damage|p2a: Fish|0 fnt
+|-heal|p1a: Bewear|31/100|[from] drain|[of] p2a: Fish
+|faint|p2a: Fish
+|
+|upkeep
+|inactive|EliotEnRetar has 30 seconds left this turn.
+|c|☆EliotEnRetar|:(
+|inactive|EliotEnRetar has 20 seconds left.
+|
+|t:|1604049552
+|switch|p2a: CauetBurger|Rotom-Wash|82/100
+|turn|23
+|inactive|EliotEnRetar has 30 seconds left this turn.
+|
+|t:|1604049562
+|switch|p1a: Roserade|Roserade, F, shiny|92/100
+|move|p2a: CauetBurger|Volt Switch|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|79/100
+|inactive|EliotEnRetar has 30 seconds left.
+|
+|t:|1604049573
+|switch|p2a: Kyryuem|Roserade, F|66/100|[from]move: Volt Switch
+|-damage|p2a: Kyryuem|53/100|[from] Spikes
+|
+|-heal|p1a: Roserade|85/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|inactive|EliotEnRetar has 30 seconds left.
+|
+|t:|1604049586
+|switch|p1a: Slowbro|Slowbro-Galar, F|72/100
+|move|p2a: Kyryuem|Sludge Bomb|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|53/100
+|
+|upkeep
+|turn|25
+|
+|t:|1604049595
+|switch|p2a: UUBisharp|Bisharp, F|49/100
+|-damage|p2a: UUBisharp|37/100|[from] Spikes
+|move|p1a: Slowbro|Flamethrower|p2a: UUBisharp
+|-supereffective|p2a: UUBisharp
+|-damage|p2a: UUBisharp|0 fnt
+|faint|p2a: UUBisharp
+|
+|upkeep
+|inactive|EliotEnRetar has 30 seconds left.
+|
+|t:|1604049606
+|switch|p2a: Kyryuem|Roserade, F|53/100
+|-damage|p2a: Kyryuem|41/100|[from] Spikes
+|turn|26
+|c| Naviii 1|LET’S GOOOO
+|inactive|EliotEnRetar has 30 seconds left.
+|
+|t:|1604049617
+|switch|p1a: Bewear|Bewear, F|31/100
+|move|p2a: Kyryuem|Shadow Ball|p1a: Bewear
+|-immune|p1a: Bewear
+|
+|upkeep
+|turn|27
+|c| Naviii 1|EASY DUBB
+|c|☆EliotEnRetar|man
+|inactive|EliotEnRetar has 30 seconds left.
+|c|☆EliotEnRetar|just how old are you to do this
+|inactive|EliotEnRetar has 20 seconds left.
+|c| Naviii 1|LOLO
+|
+|t:|1604049638
+|switch|p2a: Jyrachi|Sylveon, F|40/100
+|-damage|p2a: Jyrachi|28/100|[from] Spikes
+|move|p1a: Bewear|Facade|p2a: Jyrachi
+|-damage|p2a: Jyrachi|0 fnt
+|faint|p2a: Jyrachi
+|
+|upkeep
+|inactive|EliotEnRetar has 25 seconds left this turn.
+|inactive|EliotEnRetar has 20 seconds left.
+|
+|t:|1604049647
+|switch|p2a: CauetBurger|Rotom-Wash|82/100
+|turn|28
+|inactive|EliotEnRetar has 30 seconds left this turn.
+|
+|t:|1604049664
+|switch|p1a: Roserade|Roserade, F, shiny|85/100
+|move|p2a: CauetBurger|Defog|p1a: Roserade
+|-unboost|p1a: Roserade|evasion|1
+|-sideend|p2: EliotEnRetar|Spikes|[from] move: Defog|[of] p2a: CauetBurger
+|
+|-heal|p1a: Roserade|91/100|[from] item: Black Sludge
+|-heal|p2a: CauetBurger|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆EliotEnRetar|seriously
+|inactive|EliotEnRetar has 30 seconds left.
+|
+|t:|1604049672
+|move|p1a: Roserade|Sludge Bomb|p2a: CauetBurger
+|-damage|p2a: CauetBurger|45/100
+|-status|p2a: CauetBurger|psn
+|move|p2a: CauetBurger|Volt Switch|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|78/100
+|inactive|EliotEnRetar has 30 seconds left.
+|
+|t:|1604049679
+|switch|p2a: Kyryuem|Roserade, F|41/100|[from]move: Volt Switch
+|
+|-heal|p1a: Roserade|84/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|c| Naviii 1|i am 10
+|c|☆EliotEnRetar|just think about it
+|inactive|EliotEnRetar has 30 seconds left.
+|inactive|EliotEnRetar has 20 seconds left.
+|c|☆EliotEnRetar|just trash talking people having fun with the game
+|inactive|EliotEnRetar has 15 seconds left.
+|
+|t:|1604049708
+|switch|p1a: Slowbro|Slowbro-Galar, F|86/100
+|move|p2a: Kyryuem|Sludge Bomb|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|67/100
+|
+|upkeep
+|turn|31
+|inactive|EliotEnRetar has 25 seconds left this turn.
+|inactive|EliotEnRetar has 20 seconds left.
+|
+|t:|1604049719
+|switch|p2a: CauetBurger|Rotom-Wash|45/100 psn
+|move|p1a: Slowbro|Future Sight|p2a: CauetBurger
+|-start|p1a: Slowbro|move: Future Sight
+|
+|-heal|p2a: CauetBurger|51/100 psn|[from] item: Leftovers
+|-damage|p2a: CauetBurger|38/100 psn|[from] psn
+|upkeep
+|turn|32
+|inactive|EliotEnRetar has 30 seconds left this turn.
+|
+|t:|1604049726
+|move|p2a: CauetBurger|Hydro Pump|p1a: Slowbro
+|-damage|p1a: Slowbro|43/100
+|move|p1a: Slowbro|Shell Side Arm|p2a: CauetBurger
+|-damage|p2a: CauetBurger|0 fnt
+|-hint|Special Shell Side Arm
+|faint|p2a: CauetBurger
+|
+|upkeep
+|inactive|EliotEnRetar has 30 seconds left this turn.
+|
+|t:|1604049732
+|switch|p2a: Kyryuem|Roserade, F|41/100
+|turn|33
+|inactive|EliotEnRetar has 30 seconds left.
+|
+|t:|1604049739
+|switch|p1a: Roserade|Roserade, F, shiny|84/100
+|move|p2a: Kyryuem|Sludge Bomb|p1a: Roserade
+|-damage|p1a: Roserade|22/100
+|
+|-end|p2a: Kyryuem|move: Future Sight
+|-supereffective|p2a: Kyryuem
+|-damage|p2a: Kyryuem|0 fnt
+|-heal|p1a: Roserade|28/100|[from] item: Black Sludge
+|faint|p2a: Kyryuem
+|
+|win|Crushy Stuff
+|upkeep
+|c|☆EliotEnRetar|just listen
+|c| Naviii 1|ggwp
+|l| Naviii 1
+|c|☆EliotEnRetar|so that's the fkn top ladder
+|raw|Crushy Stuff's rating: 1478 &rarr; <strong>1494</strong><br />(+16 for winning)
+|raw|EliotEnRetar's rating: 1399 &rarr; <strong>1384</strong><br />(-15 for losing)

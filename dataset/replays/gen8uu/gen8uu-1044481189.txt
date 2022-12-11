@@ -1,0 +1,327 @@
+|j|☆Firquen
+|j|☆we've GoVeRn
+|player|p1|Firquen|grimsley|1076
+|player|p2|we've GoVeRn|101|1099
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Inteleon, M|
+|poke|p1|Sirfetch'd, M|
+|poke|p1|Gengar, F|
+|poke|p1|Obstagoon, F|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Milotic, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Boltund, M|
+|poke|p2|Milotic, M|
+|poke|p2|Gengar, M|
+|poke|p2|Cloyster, M|
+|poke|p2|Goodra, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by we've GoVeRn)
+|
+|start
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|100/100
+|switch|p2a: conshita|Cloyster, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Sirfetch'd|Close Combat|p2a: conshita
+|-supereffective|p2a: conshita
+|-damage|p2a: conshita|0 fnt
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|faint|p2a: conshita
+|
+|upkeep
+|
+|switch|p2a: snek|Milotic, M, shiny|100/100
+|turn|2
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|move|p2a: snek|Scald|p1a: Obstagoon
+|-damage|p1a: Obstagoon|63/100
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|-status|p2a: snek|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|move|p1a: Obstagoon|Facade|p2a: snek
+|-damage|p2a: snek|49/100 brn
+|move|p2a: snek|Scald|p1a: Obstagoon
+|-damage|p1a: Obstagoon|27/100 brn
+|
+|-damage|p1a: Obstagoon|21/100 brn|[from] brn
+|-damage|p2a: snek|42/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: boo|Gengar, M, shiny|100/100
+|move|p1a: Obstagoon|Facade|p2a: boo
+|-immune|p2a: boo
+|
+|-damage|p1a: Obstagoon|15/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: slime bb|Goodra, F, shiny|100/100
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: snek|Milotic, M, shiny|42/100 brn
+|move|p1a: Weezing|Toxic Spikes|p2a: snek
+|-sidestart|p2: we've GoVeRn|move: Toxic Spikes
+|
+|-damage|p2a: snek|36/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: snek|Recover|p2a: snek
+|-heal|p2a: snek|87/100 brn
+|move|p1a: Weezing|Clear Smog|p2a: snek
+|-damage|p2a: snek|75/100 brn
+|-clearboost|p2a: snek
+|
+|-damage|p2a: snek|69/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: snek|Scald|p1a: Gengar
+|-damage|p1a: Gengar|54/100
+|
+|-damage|p2a: snek|63/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Gengar|Thunderbolt|p2a: snek
+|-supereffective|p2a: snek
+|-damage|p2a: snek|11/100 brn
+|move|p2a: snek|Scald|p1a: Gengar
+|-damage|p1a: Gengar|7/100
+|-start|p2a: snek|Disable|Scald|[from] ability: Cursed Body|[of] p1a: Gengar
+|
+|-damage|p2a: snek|5/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Gengar|Thunderbolt|p2a: snek
+|-supereffective|p2a: snek
+|-damage|p2a: snek|0 fnt
+|faint|p2a: snek
+|
+|upkeep
+|
+|switch|p2a: boo|Gengar, M, shiny|100/100
+|-sideend|p2: we've GoVeRn|move: Toxic Spikes|[of] p2a: boo
+|turn|11
+|
+|switch|p1a: Obstagoon|Obstagoon, F|15/100 brn
+|move|p2a: boo|Dark Pulse|p1a: Obstagoon
+|-resisted|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, F|7/100
+|turn|12
+|
+|move|p1a: Gengar|Shadow Ball|p2a: boo
+|-supereffective|p2a: boo
+|-enditem|p2a: boo|Focus Sash
+|-damage|p2a: boo|1/100
+|move|p2a: boo|Dark Pulse|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: boo|Disable|Dark Pulse|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|100/100
+|turn|13
+|
+|move|p1a: Sirfetch'd|Close Combat|p2a: boo
+|-resisted|p2a: boo
+|-damage|p2a: boo|0 fnt
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|faint|p2a: boo
+|
+|upkeep
+|c|☆we've GoVeRn|lmao scarf
+|c|☆we've GoVeRn|xddddddddddddddddddddddddddddd
+|
+|switch|p2a: snoop doggo|Boltund, M|100/100
+|turn|14
+|
+|move|p1a: Sirfetch'd|Close Combat|p2a: snoop doggo
+|-damage|p2a: snoop doggo|0 fnt
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|faint|p2a: snoop doggo
+|
+|upkeep
+|c|☆Firquen|xdddd
+|inactive|we've GoVeRn has 120 seconds left.
+|
+|switch|p2a: slime bb|Goodra, F, shiny|100/100
+|turn|15
+|inactive|we've GoVeRn has 120 seconds left.
+|
+|move|p1a: Sirfetch'd|Close Combat|p2a: slime bb
+|-damage|p2a: slime bb|34/100
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|move|p2a: slime bb|Dragon Pulse|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|0 fnt
+|faint|p1a: Sirfetch'd
+|
+|upkeep
+|
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|turn|16
+|
+|move|p1a: Inteleon|Ice Beam|p2a: slime bb
+|-supereffective|p2a: slime bb
+|-damage|p2a: slime bb|8/100
+|move|p2a: slime bb|Thunderbolt|p1a: Inteleon
+|-supereffective|p1a: Inteleon
+|-damage|p1a: Inteleon|7/100
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: fishy shitty|Barraskewda, M|100/100
+|move|p1a: Inteleon|Ice Beam|p2a: fishy shitty
+|-resisted|p2a: fishy shitty
+|-damage|p2a: fishy shitty|78/100
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|move|p2a: fishy shitty|Psychic Fangs|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|46/100
+|
+|-heal|p1a: Weezing|52/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: fishy shitty|Psychic Fangs|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|turn|20
+|
+|move|p2a: fishy shitty|Psychic Fangs|p1a: Milotic
+|-damage|p1a: Milotic|79/100
+|move|p1a: Milotic|Scald|p2a: fishy shitty
+|-resisted|p2a: fishy shitty
+|-damage|p2a: fishy shitty|56/100
+|
+|-status|p1a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|21
+|
+|move|p2a: fishy shitty|Crunch|p1a: Milotic
+|-damage|p1a: Milotic|63/100 brn
+|move|p1a: Milotic|Scald|p2a: fishy shitty
+|-resisted|p2a: fishy shitty
+|-damage|p2a: fishy shitty|37/100
+|
+|-damage|p1a: Milotic|57/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: fishy shitty|Crunch|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|35/100 brn
+|move|p1a: Milotic|Scald|p2a: fishy shitty
+|-resisted|p2a: fishy shitty
+|-damage|p2a: fishy shitty|17/100
+|-status|p2a: fishy shitty|brn
+|
+|-damage|p2a: fishy shitty|11/100 brn|[from] brn
+|-damage|p1a: Milotic|28/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: fishy shitty|Crunch|p1a: Milotic
+|-damage|p1a: Milotic|21/100 brn
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|71/100 brn
+|
+|-damage|p2a: fishy shitty|5/100 brn|[from] brn
+|-damage|p1a: Milotic|65/100 brn|[from] brn
+|upkeep
+|turn|24
+|c|☆we've GoVeRn|gg
+|c|☆Firquen|gg
+|c|☆we've GoVeRn|burn proc and no def- proc
+|c|☆we've GoVeRn|so
+|inactive|we've GoVeRn has 120 seconds left.
+|c|☆we've GoVeRn|outspeeded goodra by both pokes
+|c|☆we've GoVeRn|xDD
+|
+|move|p2a: fishy shitty|Crunch|p1a: Milotic
+|-damage|p1a: Milotic|57/100 brn
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100 brn
+|
+|-damage|p2a: fishy shitty|0 fnt|[from] brn
+|faint|p2a: fishy shitty
+|-damage|p1a: Milotic|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: slime bb|Goodra, F, shiny|8/100
+|turn|25
+|c|☆Firquen|i've got recover anyway, the duel was unwinnable for u
+|
+|move|p1a: Milotic|Scald|p2a: slime bb
+|-resisted|p2a: slime bb
+|-damage|p2a: slime bb|2/100
+|move|p2a: slime bb|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|57/100 brn
+|
+|-damage|p1a: Milotic|51/100 brn|[from] brn
+|upkeep
+|turn|26
+|inactive|we've GoVeRn has 120 seconds left.
+|c|☆we've GoVeRn|nah not really just i fucked up boltund
+|c|☆we've GoVeRn|bad switching there
+|c|☆we've GoVeRn|but gg anyway
+|inactive|we've GoVeRn has 90 seconds left.
+|c|☆Firquen|happens !
+|c|☆Firquen|gg
+|c|☆we've GoVeRn|boltund can ohko milo before flame orb proc
+|
+|move|p1a: Milotic|Scald|p2a: slime bb
+|-resisted|p2a: slime bb
+|-damage|p2a: slime bb|0 fnt
+|faint|p2a: slime bb
+|
+|win|Firquen
+|raw|Firquen's rating: 1076 &rarr; <strong>1106</strong><br />(+30 for winning)
+|raw|we&apos;ve GoVeRn's rating: 1099 &rarr; <strong>1072</strong><br />(-27 for losing)
+|c|☆we've GoVeRn|gg bro

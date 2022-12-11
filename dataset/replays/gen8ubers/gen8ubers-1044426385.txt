@@ -1,0 +1,129 @@
+|j|☆ray712
+|j|☆GrinchsBankAccount
+|player|p1|ray712|ethan|1473
+|player|p2|GrinchsBankAccount|aetherfoundation|1258
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Zacian-*|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Dugtrio, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Eternatus|
+|poke|p2|Darmanitan-Galar, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Cinderace, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Zacian|Zacian|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GrinchsBankAccount)
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Weezing|Will-O-Wisp|p1a: Eternatus|[miss]
+|-miss|p2a: Weezing|p1a: Eternatus
+|
+|upkeep
+|turn|3
+|c|☆GrinchsBankAccount|amazing
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Eternatus|Cosmic Power|p1a: Eternatus
+|-boost|p1a: Eternatus|def|1
+|-boost|p1a: Eternatus|spd|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Eternatus|Dragon Pulse|p2a: Seismitoad
+|-damage|p2a: Seismitoad|66/100
+|move|p2a: Seismitoad|Earthquake|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|65/100
+|
+|-heal|p2a: Seismitoad|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Eternatus|Dragon Pulse|p2a: Seismitoad
+|-damage|p2a: Seismitoad|27/100
+|move|p2a: Seismitoad|Earthquake|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|32/100
+|
+|-heal|p2a: Seismitoad|33/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|82/100
+|
+|-heal|p2a: Seismitoad|39/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Eternatus|Cosmic Power|p1a: Eternatus
+|-boost|p1a: Eternatus|def|1
+|-boost|p1a: Eternatus|spd|1
+|move|p2a: Seismitoad|Stealth Rock|p1a: Eternatus
+|-sidestart|p1: ray712|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|45/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|move|p1a: Eternatus|Cosmic Power|p1a: Eternatus
+|-boost|p1a: Eternatus|def|1
+|-boost|p1a: Eternatus|spd|1
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Eternatus|Flamethrower|p2a: Weezing
+|-damage|p2a: Weezing|46/100
+|-status|p2a: Weezing|brn
+|move|p2a: Weezing|Will-O-Wisp|p1a: Eternatus
+|-status|p1a: Eternatus|brn
+|
+|-heal|p2a: Weezing|52/100 brn|[from] item: Black Sludge
+|-damage|p1a: Eternatus|76/100 brn|[from] brn
+|-damage|p2a: Weezing|46/100 brn|[from] brn
+|upkeep
+|turn|10
+|c|☆GrinchsBankAccount|nice and burn
+|-message|GrinchsBankAccount forfeited.
+|
+|win|ray712
+|l|☆GrinchsBankAccount
+|raw|ray712's rating: 1473 &rarr; <strong>1482</strong><br />(+9 for winning)
+|raw|GrinchsBankAccount's rating: 1258 &rarr; <strong>1247</strong><br />(-11 for losing)
+|c|☆ray712|its a 2HKO anyway
+|c|☆ray712|dumbass

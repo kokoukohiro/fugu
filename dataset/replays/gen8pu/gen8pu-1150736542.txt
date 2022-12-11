@@ -1,0 +1,275 @@
+|j|☆NinjaFromFornait
+|j|☆Automagico
+|player|p1|NinjaFromFornait|beauty-gen4dp|1294
+|player|p2|Automagico|aaron|1430
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Raboot, F|
+|poke|p1|Dubwool, M|
+|poke|p1|Mareanie, M|
+|poke|p1|Gourgeist-*, F|
+|poke|p1|Thievul, M|
+|poke|p1|Mr. Rime, M|
+|poke|p2|Pinsir, M|
+|poke|p2|Leafeon, F|
+|poke|p2|Perrserker, F|
+|poke|p2|Silvally-*|
+|poke|p2|Shuckle, M|
+|poke|p2|Drifblim, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Automagico)
+|
+|start
+|switch|p1a: Thievul|Thievul, M|100/100
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|turn|1
+|
+|move|p1a: Thievul|Dark Pulse|p2a: Shuckle
+|-damage|p2a: Shuckle|75/100
+|move|p2a: Shuckle|Encore|p1a: Thievul
+|-start|p1a: Thievul|Encore
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Thievul|Dark Pulse|p2a: Shuckle
+|-damage|p2a: Shuckle|49/100
+|move|p2a: Shuckle|Sticky Web|p1a: Thievul
+|-sidestart|p1: NinjaFromFornait|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Thievul|Dark Pulse|p2a: Shuckle
+|-damage|p2a: Shuckle|23/100
+|move|p2a: Shuckle|Stealth Rock|p1a: Thievul
+|-sidestart|p1: NinjaFromFornait|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Thievul|Dark Pulse|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|-end|p1a: Thievul|Encore
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Rock|100/100
+|turn|5
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|-activate|p1a: Mareanie|move: Sticky Web
+|-unboost|p1a: Mareanie|spe|1
+|-damage|p1a: Mareanie|88/100|[from] Stealth Rock
+|move|p2a: Silvally|Multi-Attack|p1a: Mareanie
+|-damage|p1a: Mareanie|53/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Silvally|Psychic Fangs|p1a: Mareanie
+|-supereffective|p1a: Mareanie
+|-damage|p1a: Mareanie|18/100
+|move|p1a: Mareanie|Recover|p1a: Mareanie
+|-heal|p1a: Mareanie|68/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Dubwool|Dubwool, M|100/100
+|-damage|p1a: Dubwool|88/100|[from] Stealth Rock
+|-activate|p1a: Dubwool|move: Sticky Web
+|-unboost|p1a: Dubwool|spe|1
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|
+|-heal|p1a: Dubwool|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Dubwool
+|-damage|p1a: Dubwool|48/100
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|
+|-heal|p1a: Dubwool|54/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Silvally|Explosion|p1a: Dubwool
+|-damage|p1a: Dubwool|4/100
+|faint|p2a: Silvally
+|move|p1a: Dubwool|Body Press|p2: Silvally|[notarget]
+|-fail|p1a: Dubwool
+|
+|-heal|p1a: Dubwool|10/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|-ability|p2a: Pinsir|Mold Breaker
+|turn|10
+|
+|move|p2a: Pinsir|X-Scissor|p1a: Dubwool
+|-damage|p1a: Dubwool|0 fnt
+|faint|p1a: Dubwool
+|
+|upkeep
+|
+|switch|p1a: Raboot|Raboot, F|100/100
+|turn|11
+|inactive|Automagico has 120 seconds left.
+|
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|move|p1a: Raboot|U-turn|p2a: Leafeon
+|-start|p1a: Raboot|typechange|Bug|[from] ability: Libero
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|40/100
+|
+|switch|p1a: Mr. Rime|Mr. Rime, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Drifblim|Drifblim, F|100/100
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|40/100
+|-enditem|p2a: Drifblim|Weakness Policy
+|-boost|p2a: Drifblim|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Drifblim|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Drifblim|Strength Sap|p1a: Mr. Rime
+|-unboost|p1a: Mr. Rime|atk|1
+|-heal|p2a: Drifblim|71/100
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|10/100
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Drifblim|Shadow Ball|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|29/100
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|upkeep
+|
+|switch|p2a: Leafeon|Leafeon, F|40/100
+|turn|15
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|-activate|p1a: Mareanie|move: Sticky Web
+|-unboost|p1a: Mareanie|spe|1
+|-damage|p1a: Mareanie|88/100|[from] Stealth Rock
+|move|p2a: Leafeon|Knock Off|p1a: Mareanie
+|-damage|p1a: Mareanie|58/100
+|-enditem|p1a: Mareanie|Eviolite|[from] move: Knock Off|[of] p2a: Leafeon
+|-damage|p2a: Leafeon|30/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|move|p1a: Mareanie|Toxic Spikes|p2a: Leafeon
+|-sidestart|p2: Automagico|move: Toxic Spikes
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Leafeon|Leaf Blade|p1a: Mareanie
+|-damage|p1a: Mareanie|0 fnt
+|-damage|p2a: Leafeon|20/100|[from] item: Life Orb
+|faint|p1a: Mareanie
+|
+|upkeep
+|
+|switch|p1a: Gourgeist|Gourgeist, F|100/100
+|-damage|p1a: Gourgeist|88/100|[from] Stealth Rock
+|-activate|p1a: Gourgeist|move: Sticky Web
+|-unboost|p1a: Gourgeist|spe|1
+|-item|p2a: Leafeon|Life Orb|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|18
+|
+|move|p1a: Gourgeist|Shadow Sneak|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|upkeep
+|
+|switch|p2a: Perrserker|Perrserker, F|100/100
+|turn|19
+|
+|move|p1a: Gourgeist|Shadow Sneak|p2a: Perrserker
+|-damage|p2a: Perrserker|73/100
+|move|p2a: Perrserker|Substitute|p2a: Perrserker
+|-start|p2a: Perrserker|Substitute
+|-damage|p2a: Perrserker|49/100
+|
+|-heal|p2a: Perrserker|55/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Gourgeist|Shadow Sneak|p2a: Perrserker
+|-end|p2a: Perrserker|Substitute
+|move|p2a: Perrserker|Swords Dance|p2a: Perrserker
+|-boost|p2a: Perrserker|atk|2
+|
+|-heal|p2a: Perrserker|61/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Gourgeist|Shadow Sneak|p2a: Perrserker
+|-damage|p2a: Perrserker|33/100
+|move|p2a: Perrserker|Iron Head|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|-heal|p2a: Perrserker|39/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Raboot|Raboot, F|100/100
+|turn|22
+|
+|move|p1a: Raboot|Flare Blitz|p2a: Perrserker
+|-supereffective|p2a: Perrserker
+|-damage|p2a: Perrserker|0 fnt
+|-damage|p1a: Raboot|88/100|[from] Recoil
+|faint|p2a: Perrserker
+|
+|upkeep
+|
+|switch|p2a: Pinsir|Pinsir, M|100/100
+|-ability|p2a: Pinsir|Mold Breaker
+|turn|23
+|
+|move|p1a: Raboot|Flare Blitz|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|-damage|p1a: Raboot|55/100|[from] Recoil
+|faint|p2a: Pinsir
+|
+|win|NinjaFromFornait
+|l|☆Automagico
+|raw|NinjaFromFornait's rating: 1265 &rarr; <strong>1301</strong><br />(+36 for winning)
+|raw|Automagico's rating: 1430 &rarr; <strong>1401</strong><br />(-29 for losing)

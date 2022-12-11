@@ -1,0 +1,172 @@
+|j|☆wolfie_olson
+|j|‽PlatinumEA
+|t:|1648730630
+|gametype|singles
+|player|p1|wolfie_olson|170|
+|player|p2|PlatinumEA|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Slurpuff, F|
+|poke|p1|Linoone, F|
+|poke|p1|Darmanitan, F|
+|poke|p1|Darmanitan-Galar, F|
+|poke|p1|Azumarill, F|
+|poke|p2|Calyrex-Shadow|
+|poke|p2|Zacian-*|
+|poke|p2|Marshadow|
+|poke|p2|Xerneas-*|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Yveltal|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wolfie_olson)
+|
+|t:|1648730639
+|start
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|switch|p2a: Zacian|Zacian|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|1
+|
+|t:|1648730647
+|move|p2a: Zacian|Play Rough|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|t:|1648730651
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|2
+|
+|t:|1648730677
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|move|p1a: Azumarill|Belly Drum|p1a: Azumarill
+|-damage|p1a: Azumarill|51/100
+|-setboost|p1a: Azumarill|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|3
+|
+|t:|1648730690
+|-start|p1a: Azumarill|Dynamax|
+|-heal|p1a: Azumarill|51/100|[silent]
+|move|p2a: Zacian|Dig||[still]
+|-prepare|p2a: Zacian|Dig
+|move|p1a: Azumarill|Max Starfall|p2a: Zacian|[miss]
+|-miss|p1a: Azumarill|p2a: Zacian
+|
+|upkeep
+|turn|4
+|
+|t:|1648730704
+|move|p2a: Zacian|Dig|p1a: Azumarill|[from]lockedmove
+|-damage|p1a: Azumarill|5/100
+|-enditem|p1a: Azumarill|Salac Berry|[eat]
+|-boost|p1a: Azumarill|spe|1|[from] item: Salac Berry
+|move|p1a: Azumarill|Max Starfall|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|-fieldstart|move: Misty Terrain
+|faint|p2a: Zacian
+|
+|upkeep
+|
+|t:|1648730711
+|switch|p2a: Marshadow|Marshadow|100/100
+|turn|5
+|
+|t:|1648730726
+|move|p1a: Azumarill|Max Guard|p1a: Azumarill
+|-singleturn|p1a: Azumarill|Max Guard
+|move|p2a: Marshadow|Shadow Sneak|p1a: Azumarill
+|-activate|p1a: Azumarill|move: Max Guard
+|
+|-end|p1a: Azumarill|Dynamax
+|-heal|p1a: Azumarill|5/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1648730736
+|move|p2a: Marshadow|Shadow Sneak|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|-damage|p2a: Marshadow|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1648730755
+|switch|p1a: Linoone|Linoone, F|100/100
+|turn|7
+|
+|t:|1648730762
+|move|p2a: Marshadow|Drain Punch|p1a: Linoone
+|-supereffective|p1a: Linoone
+|-crit|p1a: Linoone
+|-damage|p1a: Linoone|0 fnt
+|-heal|p2a: Marshadow|100/100|[from] drain|[of] p1a: Linoone
+|faint|p1a: Linoone
+|-damage|p2a: Marshadow|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1648730770
+|switch|p1a: Darmanitan|Darmanitan, F|100/100
+|turn|8
+|
+|t:|1648730783
+|move|p2a: Marshadow|Bulk Up|p2a: Marshadow
+|-boost|p2a: Marshadow|atk|1
+|-boost|p2a: Marshadow|def|1
+|move|p1a: Darmanitan|Belly Drum|p1a: Darmanitan
+|-damage|p1a: Darmanitan|50/100
+|-setboost|p1a: Darmanitan|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Darmanitan|Sitrus Berry|[eat]
+|-heal|p1a: Darmanitan|75/100|[from] item: Sitrus Berry
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|9
+|
+|t:|1648730792
+|-start|p2a: Marshadow|Dynamax|
+|-heal|p2a: Marshadow|91/100|[silent]
+|move|p2a: Marshadow|Max Phantasm|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|-damage|p2a: Marshadow|86/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1648730802
+|switch|p1a: Slurpuff|Slurpuff, F|100/100
+|turn|10
+|
+|t:|1648730809
+|move|p2a: Marshadow|Max Phantasm|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|-damage|p2a: Marshadow|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1648730812
+|switch|p1a: Darmanitan|Darmanitan-Galar, F|100/100
+|turn|11
+|
+|t:|1648730819
+|move|p2a: Marshadow|Max Knuckle|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|-boost|p2a: Marshadow|atk|1
+|faint|p1a: Darmanitan
+|-damage|p2a: Marshadow|76/100|[from] item: Life Orb
+|
+|win|PlatinumEA

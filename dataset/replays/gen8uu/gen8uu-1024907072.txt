@@ -1,0 +1,425 @@
+|j|☆kwasar
+|j|☆espeonagee
+|player|p1|kwasar|219|1316
+|player|p2|espeonagee|170|1301
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Haxorus, F|
+|poke|p1|Gigalith, F|
+|poke|p1|Araquanid, F|
+|poke|p1|Mamoswine, F|
+|poke|p1|Duraludon, M|
+|poke|p1|Gengar, F|
+|poke|p2|Frosmoth, M|
+|poke|p2|Roserade, F|
+|poke|p2|Rhyperior, F|
+|poke|p2|Jellicent, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Noivern, F|
+|teampreview
+|j| Zester
+|
+|start
+|switch|p1a: Araquanid|Araquanid, F, shiny|100/100
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|turn|1
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Araquanid|Liquidation|p2a: Jellicent
+|-immune|p2a: Jellicent|[from] ability: Water Absorb
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Jellicent|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|90/100
+|move|p1a: Araquanid|Sticky Web|p2a: Jellicent
+|-sidestart|p2: espeonagee|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Jellicent|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|81/100
+|move|p1a: Araquanid|Reflect|p1a: Araquanid
+|-sidestart|p1: kwasar|Reflect
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Noivern|Noivern, F|100/100
+|switch|p1a: Duraludon|Duraludon, M, shiny|100/100
+|
+|upkeep
+|turn|5
+|
+|-start|p1a: Duraludon|Dynamax
+|-heal|p1a: Duraludon|100/100|[silent]
+|move|p2a: Noivern|Defog|p1a: Duraludon
+|-unboost|p1a: Duraludon|evasion|1
+|-sideend|p1: kwasar|Reflect
+|-sideend|p2: espeonagee|Sticky Web|[from] move: Defog|[of] p2a: Noivern
+|move|p1a: Duraludon|Max Steelspike|p2a: Noivern
+|-damage|p2a: Noivern|17/100
+|-boost|p1a: Duraludon|def|1
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Duraludon|Max Wyrmwind|p2a: Jellicent
+|-damage|p2a: Jellicent|55/100
+|-unboost|p2a: Jellicent|atk|1
+|
+|-heal|p2a: Jellicent|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|move|p1a: Duraludon|Max Lightning|p2a: Rhyperior
+|-immune|p2a: Rhyperior
+|
+|-end|p1a: Duraludon|Dynamax
+|-heal|p1a: Duraludon|100/100|[silent]
+|upkeep
+|turn|8
+|
+|move|p1a: Duraludon|Steel Beam|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|-damage|p1a: Duraludon|50/100|[from] mindblown
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|turn|9
+|
+|move|p1a: Duraludon|Steel Beam|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|-damage|p1a: Duraludon|0 fnt|[from] mindblown
+|faint|p1a: Duraludon
+|faint|p2a: Sylveon
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, F, shiny|100/100
+|switch|p2a: Noivern|Noivern, F|17/100
+|turn|10
+|
+|switch|p1a: Gigalith|Gigalith, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Noivern|Hurricane|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Noivern|11/100|[from] Sandstorm
+|upkeep
+|turn|11
+|j| fotown
+|
+|switch|p2a: Jellicent|Jellicent, F|61/100
+|move|p1a: Gigalith|Stone Edge|p2a: Jellicent
+|-damage|p2a: Jellicent|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|1/100|[from] Sandstorm
+|-heal|p2a: Jellicent|8/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Araquanid|Araquanid, F, shiny|81/100
+|move|p2a: Jellicent|Strength Sap|p1a: Araquanid
+|-unboost|p1a: Araquanid|atk|1
+|-heal|p2a: Jellicent|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|66/100|[from] Sandstorm
+|-damage|p1a: Araquanid|75/100|[from] Sandstorm
+|-heal|p2a: Jellicent|73/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Jellicent|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|65/100
+|move|p1a: Araquanid|Sticky Web|p2a: Jellicent
+|-sidestart|p2: espeonagee|move: Sticky Web
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|66/100|[from] Sandstorm
+|-damage|p1a: Araquanid|59/100|[from] Sandstorm
+|-heal|p2a: Jellicent|73/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Jellicent|Strength Sap|p1a: Araquanid
+|-unboost|p1a: Araquanid|atk|1
+|-heal|p2a: Jellicent|100/100
+|move|p1a: Araquanid|Reflect|p1a: Araquanid
+|-sidestart|p1: kwasar|Reflect
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|switch|p1a: Gengar|Gengar, F, shiny|100/100
+|move|p2a: Jellicent|Scald|p1a: Gengar
+|-damage|p1a: Gengar|58/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Roserade|Roserade, F|100/100
+|-activate|p2a: Roserade|move: Sticky Web
+|-unboost|p2a: Roserade|spe|1
+|move|p1a: Gengar|Shadow Ball|p2a: Roserade
+|-damage|p2a: Roserade|37/100
+|-damage|p1a: Gengar|48/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|-damage|p1a: Gengar|38/100|[from] item: Life Orb
+|faint|p2a: Roserade
+|
+|upkeep
+|
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|turn|18
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Frosmoth
+|-damage|p2a: Frosmoth|66/100
+|-damage|p1a: Gengar|28/100|[from] item: Life Orb
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|-sideend|p1: kwasar|Reflect
+|upkeep
+|turn|19
+|
+|switch|p1a: Gigalith|Gigalith, F, shiny|89/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Frosmoth|60/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|-start|p2a: Frosmoth|Dynamax
+|-heal|p2a: Frosmoth|60/100|[silent]
+|move|p2a: Frosmoth|Max Overgrowth|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|11/100
+|-fieldstart|move: Grassy Terrain
+|move|p1a: Gigalith|Explosion|p2a: Frosmoth
+|-crit|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p1a: Gigalith
+|faint|p2a: Frosmoth
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|j| saucy joe
+|l| saucy joe
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|-activate|p2a: Jellicent|move: Sticky Web
+|-unboost|p2a: Jellicent|spe|1
+|turn|21
+|
+|move|p1a: Mamoswine|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|66/100
+|-damage|p1a: Mamoswine|91/100|[from] item: Life Orb
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Mamoswine
+|-status|p1a: Mamoswine|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|60/100|[from] Sandstorm
+|-heal|p1a: Mamoswine|97/100 brn|[from] Grassy Terrain
+|-heal|p2a: Jellicent|66/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|72/100|[from] Grassy Terrain
+|-damage|p1a: Mamoswine|91/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Araquanid|Araquanid, F, shiny|59/100
+|move|p2a: Jellicent|Strength Sap|p1a: Araquanid
+|-unboost|p1a: Araquanid|atk|1
+|-heal|p2a: Jellicent|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Araquanid|53/100|[from] Sandstorm
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Araquanid|59/100|[from] Grassy Terrain
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Araquanid|Reflect|p1a: Araquanid
+|-sidestart|p1: kwasar|Reflect
+|move|p2a: Jellicent|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|49/100
+|
+|-weather|none
+|-heal|p1a: Araquanid|56/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|move|p2a: Jellicent|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|45/100
+|move|p1a: Araquanid|Mirror Coat|p2a: Jellicent
+|-damage|p2a: Jellicent|84/100
+|
+|-heal|p1a: Araquanid|52/100|[from] Grassy Terrain
+|-heal|p2a: Jellicent|90/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|96/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|25
+|
+|move|p2a: Jellicent|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|41/100
+|move|p1a: Araquanid|Mirror Coat|p2a: Jellicent
+|-damage|p2a: Jellicent|78/100
+|
+|-heal|p2a: Jellicent|84/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Jellicent|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|31/100
+|move|p1a: Araquanid|Mirror Coat|p2a: Jellicent
+|-damage|p2a: Jellicent|67/100
+|
+|-heal|p2a: Jellicent|73/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Jellicent|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|20/100
+|move|p1a: Araquanid|Mirror Coat|p2a: Jellicent
+|-damage|p2a: Jellicent|56/100
+|
+|-heal|p2a: Jellicent|62/100|[from] item: Leftovers
+|-sideend|p1: kwasar|Reflect
+|upkeep
+|turn|28
+|
+|move|p2a: Jellicent|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|10/100
+|move|p1a: Araquanid|Mirror Coat|p2a: Jellicent
+|-damage|p2a: Jellicent|45/100
+|
+|-heal|p2a: Jellicent|51/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Jellicent|Strength Sap|p1a: Araquanid
+|-unboost|p1a: Araquanid|atk|1
+|-heal|p2a: Jellicent|95/100
+|move|p1a: Araquanid|Mirror Coat||[still]
+|-fail|p1a: Araquanid
+|
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Jellicent|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|1/100
+|move|p1a: Araquanid|Mirror Coat|p2a: Jellicent
+|-damage|p2a: Jellicent|84/100
+|
+|-heal|p2a: Jellicent|90/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Jellicent|Strength Sap|p1a: Araquanid
+|-unboost|p1a: Araquanid|atk|1
+|-heal|p2a: Jellicent|100/100
+|move|p1a: Araquanid|Mirror Coat||[still]
+|-fail|p1a: Araquanid
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Jellicent|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, F, shiny|28/100
+|turn|33
+|
+|switch|p2a: Noivern|Noivern, F|11/100
+|move|p1a: Gengar|Shadow Ball|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|-damage|p1a: Gengar|18/100|[from] item: Life Orb
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|-activate|p2a: Jellicent|move: Sticky Web
+|-unboost|p2a: Jellicent|spe|1
+|turn|34
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|23/100
+|-damage|p1a: Gengar|8/100|[from] item: Life Orb
+|move|p2a: Jellicent|Scald|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-heal|p2a: Jellicent|29/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, F, shiny|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|35
+|
+|move|p1a: Haxorus|Outrage|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-damage|p1a: Haxorus|91/100|[from] item: Life Orb
+|faint|p2a: Jellicent
+|
+|win|kwasar
+|l|☆kwasar
+|l|☆espeonagee
+|raw|kwasar's rating: 1316 &rarr; <strong>1335</strong><br />(+19 for winning)
+|raw|espeonagee's rating: 1301 &rarr; <strong>1282</strong><br />(-19 for losing)
+|l| Zester

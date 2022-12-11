@@ -1,0 +1,365 @@
+|j|☆LizzyPark
+|j|☆minimax_ai
+|t:|1667854033
+|gametype|singles
+|player|p1|LizzyPark|doctor|1652
+|player|p2|minimax_ai|169|1605
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Weavile, M|
+|poke|p1|Kartana|
+|poke|p1|Zeraora|
+|poke|p1|Rillaboom, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Melmetal|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, M|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|c|☆LizzyPark|u2
+|
+|t:|1667854043
+|start
+|switch|p1a: Weavile|Weavile, M|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1667854051
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Weavile|atk|1
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1667854058
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Weavile|Beat Up|p2a: Melmetal
+|-damage|p2a: Melmetal|93/100
+|-damage|p2a: Melmetal|81/100
+|-damage|p2a: Melmetal|73/100
+|-damage|p2a: Melmetal|66/100
+|-damage|p2a: Melmetal|57/100
+|-damage|p2a: Melmetal|49/100
+|-hitcount|p2a: Melmetal|6
+|
+|upkeep
+|turn|3
+|
+|t:|1667854061
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Weavile|Beat Up|p2a: Heatran
+|-damage|p2a: Heatran|87/100
+|-enditem|p2a: Heatran|Air Balloon
+|-damage|p2a: Heatran|66/100
+|-damage|p2a: Heatran|52/100
+|-damage|p2a: Heatran|39/100
+|-damage|p2a: Heatran|22/100
+|-damage|p2a: Heatran|8/100
+|-hitcount|p2a: Heatran|6
+|
+|upkeep
+|turn|4
+|
+|t:|1667854064
+|switch|p2a: Melmetal|Melmetal|49/100
+|move|p1a: Weavile|Beat Up|p2a: Melmetal
+|-damage|p2a: Melmetal|40/100
+|-damage|p2a: Melmetal|29/100
+|-damage|p2a: Melmetal|22/100
+|-damage|p2a: Melmetal|14/100
+|-damage|p2a: Melmetal|4/100
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|-hitcount|p2: Melmetal|6
+|
+|upkeep
+|
+|t:|1667854064
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|5
+|
+|t:|1667854067
+|move|p2a: Weavile|Low Kick|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-enditem|p1a: Weavile|Focus Sash
+|-damage|p1a: Weavile|1/100
+|-enditem|p2a: Weavile|Choice Band|[silent]|[from] ability: Pickpocket|[of] p2a: Weavile
+|-item|p1a: Weavile|Choice Band|[from] ability: Pickpocket|[of] p2a: Weavile
+|move|p1a: Weavile|Beat Up|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|81/100
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|57/100
+|-resisted|p2a: Weavile
+|-crit|p2a: Weavile
+|-damage|p2a: Weavile|30/100
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|13/100
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|-hitcount|p2: Weavile|5
+|
+|upkeep
+|
+|t:|1667854067
+|switch|p2a: Heatran|Heatran, M|8/100
+|turn|6
+|
+|t:|1667854076
+|move|p1a: Weavile|Beat Up|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-hitcount|p2: Heatran|1
+|
+|upkeep
+|
+|t:|1667854076
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|turn|7
+|
+|t:|1667854077
+|move|p1a: Weavile|Beat Up|p2a: Tangrowth
+|-damage|p2a: Tangrowth|89/100
+|-damage|p2a: Tangrowth|75/100
+|-damage|p2a: Tangrowth|65/100
+|-damage|p2a: Tangrowth|54/100
+|-damage|p2a: Tangrowth|43/100
+|-crit|p2a: Tangrowth
+|-damage|p2a: Tangrowth|23/100
+|-hitcount|p2a: Tangrowth|6
+|move|p2a: Tangrowth|Giga Drain|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-heal|p2a: Tangrowth|23/100|[from] drain|[of] p1a: Weavile
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1667854091
+|switch|p1a: Broken|Landorus-Therian, M|100/100
+|-ability|p1a: Broken|Intimidate|boost
+|-unboost|p2a: Tangrowth|atk|1
+|turn|8
+|
+|t:|1667854094
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Broken|atk|1
+|move|p1a: Broken|Explosion|p2a: landorustherian
+|-damage|p2a: landorustherian|35/100
+|faint|p1a: Broken
+|
+|-heal|p2a: landorustherian|41/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667854104
+|switch|p1a: Big E-stablished|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Big E-stablished
+|turn|9
+|
+|t:|1667854106
+|move|p1a: Big E-stablished|Swords Dance|p1a: Big E-stablished
+|-boost|p1a: Big E-stablished|atk|2
+|move|p2a: landorustherian|Defog|p1a: Big E-stablished
+|-unboost|p1a: Big E-stablished|evasion|1
+|-fieldend|move: Grassy Terrain
+|
+|-heal|p2a: landorustherian|47/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1667854109
+|switch|p2a: Tangrowth|Tangrowth, M|56/100
+|move|p1a: Big E-stablished|Grassy Glide|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|32/100
+|-damage|p1a: Big E-stablished|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-damage|p1a: Big E-stablished|74/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1667854111
+|switch|p2a: landorustherian|Landorus-Therian, M|47/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Big E-stablished|atk|1
+|move|p1a: Big E-stablished|Acrobatics|p2a: landorustherian
+|-damage|p2a: landorustherian|6/100
+|-damage|p1a: Big E-stablished|64/100|[from] item: Life Orb
+|
+|-heal|p2a: landorustherian|12/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1667854113
+|move|p1a: Big E-stablished|Grassy Glide|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|-damage|p1a: Big E-stablished|54/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1667854113
+|switch|p2a: Tangrowth|Tangrowth, M|66/100
+|turn|13
+|
+|t:|1667854120
+|switch|p1a: Broken 2|Melmetal|100/100
+|move|p2a: Tangrowth|Focus Blast|p1a: Broken 2
+|-supereffective|p1a: Broken 2
+|-damage|p1a: Broken 2|44/100
+|-enditem|p1a: Broken 2|Eject Button
+|
+|t:|1667854142
+|switch|p1a: Zeraora|Zeraora|100/100
+|
+|upkeep
+|turn|14
+|
+|t:|1667854144
+|move|p1a: Zeraora|Bulk Up|p1a: Zeraora
+|-boost|p1a: Zeraora|atk|1
+|-boost|p1a: Zeraora|def|1
+|move|p2a: Tangrowth|Focus Blast|p1a: Zeraora
+|-damage|p1a: Zeraora|64/100
+|
+|upkeep
+|turn|15
+|
+|t:|1667854151
+|move|p1a: Zeraora|Knock Off|p2a: Tangrowth
+|-damage|p2a: Tangrowth|40/100
+|-damage|p1a: Zeraora|48/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-enditem|p2a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p1a: Zeraora
+|move|p2a: Tangrowth|Focus Blast|p1a: Zeraora
+|-damage|p1a: Zeraora|11/100
+|
+|upkeep
+|turn|16
+|
+|t:|1667854158
+|move|p1a: Zeraora|Drain Punch|p2a: Tangrowth
+|-damage|p2a: Tangrowth|21/100
+|-heal|p1a: Zeraora|23/100|[from] drain|[of] p2a: Tangrowth
+|move|p2a: Tangrowth|Giga Drain|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|-heal|p2a: Tangrowth|29/100|[from] drain|[of] p1a: Zeraora
+|faint|p1a: Zeraora
+|
+|upkeep
+|
+|t:|1667854164
+|switch|p1a: Spice Girl|Kartana|100/100
+|turn|17
+|
+|t:|1667854167
+|move|p1a: Spice Girl|Aerial Ace|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|1/100
+|move|p2a: Tangrowth|Focus Blast|p1a: Spice Girl
+|-supereffective|p1a: Spice Girl
+|-damage|p1a: Spice Girl|0 fnt
+|faint|p1a: Spice Girl
+|
+|upkeep
+|c|☆LizzyPark|wat
+|
+|t:|1667854176
+|switch|p1a: Broken 2|Melmetal|44/100
+|turn|18
+|
+|t:|1667854179
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|move|p1a: Broken 2|Superpower|p2a: rotomwash
+|-damage|p2a: rotomwash|51/100
+|-unboost|p1a: Broken 2|atk|1
+|-unboost|p1a: Broken 2|def|1
+|
+|-heal|p2a: rotomwash|57/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1667854181
+|move|p2a: rotomwash|Thunderbolt|p1a: Broken 2
+|-damage|p1a: Broken 2|8/100
+|move|p1a: Broken 2|Superpower|p2a: rotomwash
+|-damage|p2a: rotomwash|21/100
+|-unboost|p1a: Broken 2|atk|1
+|-unboost|p1a: Broken 2|def|1
+|
+|-heal|p2a: rotomwash|27/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1667854183
+|move|p2a: rotomwash|Thunderbolt|p1a: Broken 2
+|-damage|p1a: Broken 2|0 fnt
+|faint|p1a: Broken 2
+|
+|-heal|p2a: rotomwash|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667854186
+|switch|p1a: Big E-stablished|Rillaboom, F|54/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Big E-stablished
+|turn|21
+|
+|t:|1667854194
+|move|p1a: Big E-stablished|Grassy Glide|p2a: rotomwash
+|-supereffective|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|faint|p2a: rotomwash
+|-damage|p1a: Big E-stablished|44/100|[from] item: Life Orb
+|
+|-heal|p1a: Big E-stablished|50/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1667854194
+|switch|p2a: Tangrowth|Tangrowth, M|34/100
+|turn|22
+|
+|t:|1667854199
+|move|p1a: Big E-stablished|Swords Dance|p1a: Big E-stablished
+|-boost|p1a: Big E-stablished|atk|2
+|move|p2a: Tangrowth|Focus Blast|p1a: Big E-stablished|[miss]
+|-miss|p2a: Tangrowth|p1a: Big E-stablished
+|
+|-heal|p1a: Big E-stablished|57/100|[from] Grassy Terrain
+|-heal|p2a: Tangrowth|41/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1667854201
+|move|p1a: Big E-stablished|Acrobatics|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|-damage|p1a: Big E-stablished|47/100|[from] item: Life Orb
+|
+|win|LizzyPark
+|raw|LizzyPark's rating: 1652 &rarr; <strong>1669</strong><br />(+17 for winning)
+|raw|minimax_ai's rating: 1605 &rarr; <strong>1588</strong><br />(-17 for losing)
+|c|☆minimax_ai|gg

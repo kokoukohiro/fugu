@@ -1,0 +1,293 @@
+|j|☆tjgg
+|j|☆OnMaWa
+|player|p1|tjgg|roughneck|1612
+|player|p2|OnMaWa|psychic-gen4|1763
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Marshadow|
+|poke|p1|Rayquaza|
+|poke|p1|Zygarde|
+|poke|p1|Yveltal|
+|poke|p1|Kyogre|
+|poke|p1|Excadrill, M|
+|poke|p2|Arceus-*|
+|poke|p2|Lugia|
+|poke|p2|Yveltal|
+|poke|p2|Rayquaza|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Necrozma-Dusk-Mane|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tjgg)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Arceus|Arceus|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Arceus|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Arceus
+|-sidestart|p2: OnMaWa|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Arceus|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Zygarde|Zygarde|100/100
+|turn|3
+|
+|switch|p2a: Lugia|Lugia|100/100
+|move|p1a: Zygarde|Glare|p2a: Lugia
+|-status|p2a: Lugia|par
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Zygarde|Substitute|p1a: Zygarde
+|-start|p1a: Zygarde|Substitute
+|-damage|p1a: Zygarde|75/100
+|move|p2a: Lugia|Whirlwind|p1a: Zygarde
+|drag|p1a: Marshadow|Marshadow|100/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Marshadow|Spectral Thief|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|79/100 par
+|move|p2a: Lugia|Thunder Wave|p1a: Marshadow
+|-status|p1a: Marshadow|par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Marshadow|Spectral Thief|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|33/100 par
+|move|p2a: Lugia|Defog|p1a: Marshadow
+|-unboost|p1a: Marshadow|evasion|1
+|-sideend|p2: OnMaWa|Stealth Rock|[from] move: Defog|[of] p2a: Lugia
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Arceus|Arceus|100/100
+|move|p1a: Marshadow|Spectral Thief|p2a: Arceus
+|-immune|p2a: Arceus
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Arceus|Earthquake|p1a: Marshadow
+|-damage|p1a: Marshadow|52/100 par
+|move|p1a: Marshadow|Close Combat|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|19/100
+|-unboost|p1a: Marshadow|def|1
+|-unboost|p1a: Marshadow|spd|1
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|move|p2a: Arceus|Earthquake|p1a: Rayquaza
+|-immune|p1a: Rayquaza
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Lugia|Lugia|33/100 par
+|detailschange|p1a: Rayquaza|Rayquaza-Mega
+|-mega|p1a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p1a: Rayquaza|Dragon Dance|p1a: Rayquaza
+|-boost|p1a: Rayquaza|atk|1
+|-boost|p1a: Rayquaza|spe|1
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p1a: Rayquaza|Dragon Ascent|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|faint|p2a: Lugia
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|inactive|OnMaWa has 120 seconds left.
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|turn|12
+|
+|detailschange|p2a: Necrozma|Necrozma-Ultra
+|-burst|p2a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p1a: Rayquaza|Earthquake|p2a: Necrozma
+|-damage|p2a: Necrozma|35/100
+|move|p2a: Necrozma|Photon Geyser|p1a: Rayquaza
+|-enditem|p1a: Rayquaza|Focus Sash
+|-damage|p1a: Rayquaza|1/100
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Rayquaza|Dragon Ascent|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|faint|p2a: Necrozma
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|switch|p2a: Yveltal|Yveltal, shiny|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|14
+|
+|-start|p2a: Yveltal|Dynamax
+|-heal|p2a: Yveltal|100/100|[silent]
+|move|p1a: Rayquaza|Dragon Ascent|p2a: Yveltal
+|-damage|p2a: Yveltal|39/100
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|move|p2a: Yveltal|Max Airstream|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|-boost|p2a: Yveltal|spe|1
+|-damage|p2a: Yveltal|34/100|[from] item: Life Orb
+|faint|p1a: Rayquaza
+|-weather|none
+|
+|upkeep
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|15
+|
+|-start|p1a: Yveltal|Dynamax
+|-heal|p1a: Yveltal|100/100|[silent]
+|move|p2a: Yveltal|Max Airstream|p1a: Yveltal
+|-damage|p1a: Yveltal|59/100
+|-boost|p2a: Yveltal|spe|1
+|-damage|p2a: Yveltal|29/100|[from] item: Life Orb
+|move|p1a: Yveltal|Max Airstream|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|-boost|p1a: Yveltal|spe|1
+|-damage|p1a: Yveltal|54/100|[from] item: Life Orb
+|faint|p2a: Yveltal
+|
+|upkeep
+|inactive|OnMaWa has 90 seconds left.
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|16
+|inactive|OnMaWa has 90 seconds left.
+|
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|move|p1a: Yveltal|Max Flare|p2a: Rayquaza
+|-resisted|p2a: Rayquaza
+|-damage|p2a: Rayquaza|64/100
+|-weather|SunnyDay
+|-damage|p1a: Yveltal|49/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|inactive|OnMaWa has 90 seconds left.
+|
+|detailschange|p2a: Rayquaza|Rayquaza-Mega
+|-mega|p2a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|move|p1a: Yveltal|Max Darkness|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|-damage|p1a: Yveltal|44/100|[from] item: Life Orb
+|faint|p2a: Rayquaza
+|-weather|none
+|
+|-end|p1a: Yveltal|Dynamax
+|-heal|p1a: Yveltal|44/100|[silent]
+|upkeep
+|inactive|OnMaWa has 90 seconds left.
+|
+|switch|p2a: Arceus|Arceus|19/100
+|turn|18
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|
+|upkeep
+|
+|switch|p1a: Zygarde|Zygarde|75/100
+|turn|19
+|
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|move|p1a: Zygarde|Dragon Dance|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|spe|1
+|
+|-heal|p1a: Zygarde|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Zygarde|Thousand Arrows|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|-heal|p1a: Zygarde|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|21
+|
+|move|p2a: Zacian|Play Rough|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-damage|p1a: Zygarde|0 fnt
+|faint|p1a: Zygarde
+|
+|upkeep
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|22
+|inactive|OnMaWa has 120 seconds left.
+|
+|move|p2a: Zacian|Wild Charge|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p2a: Zacian|74/100|[from] Recoil
+|faint|p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|tjgg forfeited.
+|
+|win|OnMaWa
+|l|☆tjgg
+|raw|tjgg's rating: 1612 &rarr; <strong>1600</strong><br />(-12 for losing)
+|raw|OnMaWa's rating: 1763 &rarr; <strong>1775</strong><br />(+12 for winning)
+|l|☆OnMaWa

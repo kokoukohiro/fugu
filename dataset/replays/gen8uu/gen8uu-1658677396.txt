@@ -1,0 +1,528 @@
+|j|☆LSSun
+|j|☆d01ph1ne
+|t:|1662587367
+|gametype|singles
+|player|p1|LSSun|brendan-gen3rs|1559
+|player|p2|d01ph1ne|265|1500
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Registeel|
+|poke|p1|Zygarde-10%|
+|poke|p1|Chansey, F|
+|poke|p1|Amoonguss, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Salamence, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Zarude-Dada|
+|poke|p2|Scizor, M|
+|poke|p2|Salamence, F|
+|poke|p2|Nidoqueen, F|
+|poke|p2|Slowking, M|
+|teampreview
+|
+|t:|1662587381
+|start
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|
+|t:|1662587384
+|move|p2a: Scizor|Knock Off|p1a: Amoonguss
+|-damage|p1a: Amoonguss|79/100
+|-damage|p2a: Scizor|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|-enditem|p1a: Amoonguss|Rocky Helmet|[from] move: Knock Off|[of] p2a: Scizor
+|move|p1a: Amoonguss|Spore|p2a: Scizor
+|-status|p2a: Scizor|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1662587394
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|cant|p2a: Scizor|slp
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1662587398
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Conkeldurr|atk|1
+|move|p1a: Conkeldurr|Knock Off|p2a: Salamence
+|-damage|p2a: Salamence|73/100
+|-enditem|p2a: Salamence|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Conkeldurr
+|
+|-damage|p1a: Conkeldurr|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1662587411
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Salamence|Roost|p2a: Salamence
+|-heal|p2a: Salamence|100/100
+|-singleturn|p2a: Salamence|move: Roost
+|
+|upkeep
+|turn|5
+|
+|t:|1662587417
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|move|p1a: Chansey|Teleport|p1a: Chansey
+|
+|t:|1662587422
+|switch|p1a: Zygarde|Zygarde-10%|100/100|[from]move: Teleport
+|-ability|p1a: Zygarde|Aura Break
+|
+|upkeep
+|turn|6
+|
+|t:|1662587441
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Zygarde|Outrage|p2a: Slowking
+|-damage|p2a: Slowking|43/100
+|
+|upkeep
+|turn|7
+|
+|t:|1662587456
+|switch|p2a: Zarude|Zarude-Dada|100/100
+|move|p1a: Zygarde|Outrage|p2a: Zarude|[from]lockedmove
+|-damage|p2a: Zarude|29/100
+|
+|upkeep
+|turn|8
+|
+|t:|1662587461
+|move|p2a: Zarude|Power Whip|p1a: Zygarde|[miss]
+|-miss|p2a: Zarude|p1a: Zygarde
+|move|p1a: Zygarde|Outrage|p2a: Zarude|[from]lockedmove
+|-damage|p2a: Zarude|0 fnt
+|faint|p2a: Zarude
+|-start|p1a: Zygarde|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1662587466
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|9
+|
+|t:|1662587470
+|-activate|p1a: Zygarde|confusion
+|move|p1a: Zygarde|Outrage|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|21/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Zygarde
+|-damage|p1a: Zygarde|20/100
+|-heal|p2a: Conkeldurr|50/100|[from] drain|[of] p1a: Zygarde
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1662587476
+|move|p2a: Conkeldurr|Mach Punch|p1a: Zygarde
+|-damage|p1a: Zygarde|0 fnt
+|faint|p1a: Zygarde
+|
+|-damage|p2a: Conkeldurr|44/100 brn|[from] brn
+|upkeep
+|
+|t:|1662587499
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Conkeldurr|atk|1
+|turn|11
+|
+|t:|1662587516
+|switch|p2a: Slowking|Slowking, M|76/100
+|move|p1a: Salamence|Dual Wingbeat|p2a: Slowking
+|-damage|p2a: Slowking|62/100
+|-damage|p2a: Slowking|49/100
+|-hitcount|p2a: Slowking|2
+|
+|upkeep
+|turn|12
+|
+|t:|1662587526
+|move|p1a: Salamence|Dual Wingbeat|p2a: Slowking
+|-damage|p2a: Slowking|36/100
+|-damage|p2a: Slowking|24/100
+|-hitcount|p2a: Slowking|2
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1662587532
+|switch|p2a: Salamence|Salamence, F|100/100|[from]move: Teleport
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|
+|upkeep
+|turn|13
+|
+|t:|1662587535
+|switch|p1a: Chansey|Chansey, F|100/100
+|switch|p2a: Slowking|Slowking, M|57/100
+|
+|upkeep
+|turn|14
+|
+|t:|1662587542
+|move|p1a: Chansey|Teleport|p1a: Chansey
+|
+|t:|1662587549
+|switch|p1a: Amoonguss|Amoonguss, F|100/100|[from]move: Teleport
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1662587560
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|15
+|
+|t:|1662587571
+|switch|p1a: Conkeldurr|Conkeldurr, F|95/100 brn
+|move|p2a: Nidoqueen|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: LSSun|move: Stealth Rock
+|
+|-damage|p1a: Conkeldurr|89/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1662587580
+|move|p2a: Nidoqueen|Earth Power|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|10/100 brn
+|move|p1a: Conkeldurr|Facade|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|12/100
+|
+|-damage|p1a: Conkeldurr|4/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1662587594
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Conkeldurr|atk|1
+|move|p1a: Conkeldurr|Mach Punch|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|91/100
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|t:|1662587598
+|switch|p1a: Registeel|Registeel|100/100
+|-damage|p1a: Registeel|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1662587604
+|switch|p2a: Conkeldurr|Conkeldurr, M|44/100 brn
+|move|p1a: Registeel|Iron Defense|p1a: Registeel
+|-boost|p1a: Registeel|def|2
+|
+|-heal|p1a: Registeel|100/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|38/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1662587608
+|move|p2a: Conkeldurr|Drain Punch|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|64/100
+|-heal|p2a: Conkeldurr|57/100 brn|[from] drain|[of] p1a: Registeel
+|move|p1a: Registeel|Body Press|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: Registeel|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1662587615
+|switch|p2a: Nidoqueen|Nidoqueen, F|12/100
+|turn|20
+|
+|t:|1662587621
+|move|p2a: Nidoqueen|Earth Power|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|faint|p1a: Registeel
+|
+|upkeep
+|
+|t:|1662587629
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Nidoqueen|atk|1
+|turn|21
+|
+|t:|1662587639
+|switch|p2a: Salamence|Salamence, F|91/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Dual Wingbeat|p2a: Salamence
+|-damage|p2a: Salamence|82/100
+|-damage|p2a: Salamence|73/100
+|-hitcount|p2a: Salamence|2
+|
+|upkeep
+|turn|22
+|
+|t:|1662587645
+|switch|p1a: Chansey|Chansey, F|100/100
+|-damage|p1a: Chansey|88/100|[from] Stealth Rock
+|move|p2a: Salamence|Dual Wingbeat|p1a: Chansey
+|-damage|p1a: Chansey|76/100
+|-damage|p1a: Chansey|64/100
+|-hitcount|p1a: Chansey|2
+|
+|upkeep
+|turn|23
+|
+|t:|1662587651
+|switch|p2a: Scizor|Scizor, M|84/100 slp
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|
+|upkeep
+|turn|24
+|
+|t:|1662587657
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|cant|p2a: Scizor|slp
+|
+|upkeep
+|turn|25
+|
+|t:|1662587661
+|-curestatus|p2a: Scizor|slp|[msg]
+|move|p2a: Scizor|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|64/100
+|
+|t:|1662587667
+|switch|p2a: Nidoqueen|Nidoqueen, F|12/100|[from]move: U-turn
+|move|p1a: Amoonguss|Foul Play|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|
+|t:|1662587673
+|switch|p2a: Salamence|Salamence, F|73/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|turn|26
+|
+|t:|1662587679
+|move|p2a: Salamence|Dual Wingbeat|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|39/100
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|12/100
+|-hitcount|p1a: Amoonguss|2
+|move|p1a: Amoonguss|Spore|p2a: Salamence
+|-status|p2a: Salamence|slp|[from] move: Spore
+|
+|upkeep
+|turn|27
+|
+|t:|1662587687
+|switch|p2a: Scizor|Scizor, M|84/100
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|
+|upkeep
+|turn|28
+|
+|t:|1662587691
+|switch|p2a: Slowking|Slowking, M|91/100
+|move|p1a: Salamence|Dual Wingbeat|p2a: Slowking
+|-damage|p2a: Slowking|78/100
+|-damage|p2a: Slowking|65/100
+|-hitcount|p2a: Slowking|2
+|
+|upkeep
+|turn|29
+|
+|t:|1662587695
+|move|p1a: Salamence|Dual Wingbeat|p2a: Slowking
+|-damage|p2a: Slowking|52/100
+|-damage|p2a: Slowking|38/100
+|-hitcount|p2a: Slowking|2
+|move|p2a: Slowking|Scald|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|85/100
+|
+|upkeep
+|turn|30
+|
+|t:|1662587698
+|move|p1a: Salamence|Dual Wingbeat|p2a: Slowking
+|-damage|p2a: Slowking|26/100
+|-damage|p2a: Slowking|14/100
+|-hitcount|p2a: Slowking|2
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|64/100
+|
+|upkeep
+|turn|31
+|
+|t:|1662587704
+|move|p1a: Salamence|Defog|p2a: Slowking
+|-unboost|p2a: Slowking|evasion|1
+|-sideend|p1: LSSun|Stealth Rock|[from] move: Defog|[of] p1a: Salamence
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|100/100
+|
+|upkeep
+|turn|32
+|
+|t:|1662587708
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Slowking|Scald|p1a: Chansey
+|-damage|p1a: Chansey|92/100
+|
+|upkeep
+|turn|33
+|
+|t:|1662587712
+|switch|p2a: Scizor|Scizor, M|84/100
+|move|p1a: Chansey|Seismic Toss|p2a: Scizor
+|-damage|p2a: Scizor|55/100
+|
+|upkeep
+|turn|34
+|
+|t:|1662587716
+|switch|p1a: Amoonguss|Amoonguss, F|45/100
+|move|p2a: Scizor|Knock Off|p1a: Amoonguss
+|-damage|p1a: Amoonguss|30/100
+|
+|upkeep
+|turn|35
+|
+|t:|1662587726
+|switch|p1a: Salamence|Salamence, M|85/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Knock Off|p1a: Salamence
+|-damage|p1a: Salamence|65/100
+|-enditem|p1a: Salamence|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Scizor
+|
+|upkeep
+|turn|36
+|
+|t:|1662587735
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Salamence|Roost|p1a: Salamence
+|-heal|p1a: Salamence|100/100
+|-singleturn|p1a: Salamence|move: Roost
+|
+|upkeep
+|turn|37
+|
+|t:|1662587739
+|switch|p1a: Chansey|Chansey, F|92/100
+|move|p2a: Slowking|Future Sight|p1a: Chansey
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|38
+|
+|t:|1662587746
+|move|p1a: Chansey|Thunder Wave|p2a: Slowking
+|-status|p2a: Slowking|par
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1662587748
+|switch|p2a: Scizor|Scizor, M|55/100|[from]move: Teleport
+|
+|upkeep
+|turn|39
+|
+|t:|1662587752
+|move|p2a: Scizor|Knock Off|p1a: Chansey
+|-damage|p1a: Chansey|74/100
+|-enditem|p1a: Chansey|Eviolite|[from] move: Knock Off|[of] p2a: Scizor
+|move|p1a: Chansey|Thunder Wave|p2a: Scizor|[miss]
+|-miss|p1a: Chansey|p2a: Scizor
+|
+|-end|p1a: Chansey|move: Future Sight
+|-damage|p1a: Chansey|55/100
+|upkeep
+|turn|40
+|
+|t:|1662587759
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100/100
+|-singleturn|p2a: Scizor|move: Roost
+|
+|upkeep
+|turn|41
+|
+|t:|1662587764
+|switch|p1a: Chansey|Chansey, F|55/100
+|switch|p2a: Slowking|Slowking, M|100/100 par
+|
+|upkeep
+|turn|42
+|
+|t:|1662587768
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|move|p2a: Slowking|Future Sight|p1a: Chansey
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|43
+|
+|t:|1662587774
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|switch|p2a: Scizor|Scizor, M|100/100
+|
+|upkeep
+|turn|44
+|
+|t:|1662587783
+|move|p2a: Scizor|Bullet Punch|p1a: Salamence
+|-damage|p1a: Salamence|72/100
+|move|p1a: Salamence|Flamethrower|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|21/100
+|
+|-end|p1a: Salamence|move: Future Sight
+|-damage|p1a: Salamence|32/100
+|upkeep
+|turn|45
+|
+|t:|1662587797
+|move|p1a: Salamence|Dual Wingbeat|p2a: Scizor
+|-damage|p2a: Scizor|5/100
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|-hitcount|p2: Scizor|2
+|
+|upkeep
+|-message|d01ph1ne forfeited.
+|
+|win|LSSun
+|raw|LSSun's rating: 1559 &rarr; <strong>1576</strong><br />(+17 for winning)
+|raw|d01ph1ne's rating: 1500 &rarr; <strong>1483</strong><br />(-17 for losing)
+|l|☆d01ph1ne

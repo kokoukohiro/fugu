@@ -1,0 +1,748 @@
+|j|☆CaspaRuskoU
+|j|☆FE6 Fir
+|player|p1|CaspaRuskoU|2|1619
+|player|p2|FE6 Fir|swimmerf|1563
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Gallade, M|
+|poke|p1|Gigalith, M|
+|poke|p1|Vileplume, F|
+|poke|p1|Charizard, F|
+|poke|p1|Sableye, F|
+|poke|p1|Mawile, M|
+|poke|p2|Goodra, F|
+|poke|p2|Escavalier, F|
+|poke|p2|Snorlax, F|
+|poke|p2|Aromatisse, F|
+|poke|p2|Rotom|
+|poke|p2|Mudsdale, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CaspaRuskoU)
+|inactive|FE6 Fir has 120 seconds left.
+|
+|start
+|switch|p1a: Sableye|Sableye, F|100/100
+|switch|p2a: Escavalier|Escavalier, F|100/100
+|turn|1
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Escavalier|[miss]
+|-miss|p1a: Sableye|p2a: Escavalier
+|move|p2a: Escavalier|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|40/100
+|-enditem|p1a: Sableye|Leftovers|[from] move: Knock Off|[of] p2a: Escavalier
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Aromatisse|Aromatisse, F|100/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: Aromatisse|[miss]
+|-miss|p1a: Sableye|p2a: Aromatisse
+|
+|upkeep
+|turn|3
+|c|☆CaspaRuskoU|Lol
+|
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|switch|p2a: Escavalier|Escavalier, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Escavalier|Knock Off|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Escavalier|Knock Off|p1a: Gigalith
+|-damage|p1a: Gigalith|61/100
+|-enditem|p1a: Gigalith|Leftovers|[from] move: Knock Off|[of] p2a: Escavalier
+|move|p1a: Gigalith|Stealth Rock|p2a: Escavalier
+|-sidestart|p2: FE6 Fir|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Mudsdale|Mudsdale, M|100/100
+|-damage|p2a: Mudsdale|94/100|[from] Stealth Rock
+|move|p1a: Gigalith|Rock Blast|p2a: Mudsdale
+|-resisted|p2a: Mudsdale
+|-damage|p2a: Mudsdale|90/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-resisted|p2a: Mudsdale
+|-crit|p2a: Mudsdale
+|-damage|p2a: Mudsdale|83/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-resisted|p2a: Mudsdale
+|-damage|p2a: Mudsdale|80/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-hitcount|p2a: Mudsdale|3
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Mudsdale|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|move|p2a: Mudsdale|Stealth Rock|p1a: Vileplume
+|-sidestart|p1: CaspaRuskoU|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Mudsdale|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Sableye|Sableye, F|40/100
+|-damage|p1a: Sableye|28/100|[from] Stealth Rock
+|switch|p2a: Escavalier|Escavalier, F|100/100
+|-damage|p2a: Escavalier|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Escavalier
+|-status|p2a: Escavalier|brn
+|move|p2a: Escavalier|Iron Head|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-damage|p2a: Escavalier|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Charizard|Charizard, F|100/100
+|turn|10
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|move|p1a: Charizard|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|
+|-heal|p2a: Snorlax|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|-damage|p1a: Gallade|94/100|[from] Stealth Rock
+|switch|p2a: Aromatisse|Aromatisse, F|100/100
+|-damage|p2a: Aromatisse|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Aromatisse|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Gallade|Trick|p2a: Aromatisse
+|-activate|p1a: Gallade|move: Trick|[of] p2a: Aromatisse
+|-item|p2a: Aromatisse|Choice Scarf|[from] move: Trick
+|-item|p1a: Gallade|Leftovers|[from] move: Trick
+|move|p2a: Aromatisse|Aromatherapy|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Aromatherapy
+|-curestatus|p2: Escavalier|brn|[msg]
+|-curestatus|p2: Snorlax|tox|[msg]
+|
+|-heal|p1a: Gallade|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Mudsdale|Mudsdale, M|93/100
+|-damage|p2a: Mudsdale|87/100|[from] Stealth Rock
+|move|p1a: Gallade|Close Combat|p2a: Mudsdale
+|-damage|p2a: Mudsdale|32/100
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|-heal|p2a: Mudsdale|38/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|move|p2a: Mudsdale|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|53/100
+|
+|-heal|p1a: Vileplume|59/100|[from] item: Black Sludge
+|-heal|p2a: Mudsdale|44/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Gigalith|Gigalith, M|61/100
+|-damage|p1a: Gigalith|49/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|switch|p2a: Goodra|Goodra, F|100/100
+|-damage|p2a: Goodra|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Goodra|82/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|switch|p2a: Escavalier|Escavalier, F|82/100
+|-damage|p2a: Escavalier|70/100|[from] Stealth Rock
+|move|p1a: Gigalith|Rock Blast|p2a: Escavalier
+|-damage|p2a: Escavalier|56/100
+|-damage|p2a: Escavalier|43/100
+|-damage|p2a: Escavalier|30/100
+|-damage|p2a: Escavalier|17/100
+|-hitcount|p2a: Escavalier|4
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Escavalier|Iron Head|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Escavalier|Iron Head|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|53/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|switch|p2a: Aromatisse|Aromatisse, F|94/100
+|-damage|p2a: Aromatisse|82/100|[from] Stealth Rock
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|100/100
+|-singleturn|p1a: Charizard|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|move|p1a: Charizard|Toxic|p2a: Aromatisse
+|-status|p2a: Aromatisse|tox
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-damage|p2a: Aromatisse|76/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Snorlax|Snorlax, F|88/100
+|-damage|p2a: Snorlax|76/100|[from] Stealth Rock
+|move|p1a: Charizard|Flamethrower|p2a: Snorlax
+|-damage|p2a: Snorlax|67/100
+|
+|-heal|p2a: Snorlax|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|22
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|-damage|p1a: Gallade|94/100|[from] Stealth Rock
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Gallade|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Rotom|Rotom|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Gallade|Close Combat|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Rotom|Volt Switch|p1a: Gallade
+|-damage|p1a: Gallade|67/100
+|
+|switch|p2a: Aromatisse|Aromatisse, F|76/100 tox|[from]move: Volt Switch
+|-damage|p2a: Aromatisse|63/100 tox|[from] Stealth Rock
+|move|p1a: Gallade|Psycho Cut|p2a: Aromatisse
+|-damage|p2a: Aromatisse|38/100 tox
+|
+|-heal|p1a: Gallade|73/100|[from] item: Leftovers
+|-damage|p2a: Aromatisse|32/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p1a: Gallade|Poison Jab|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|0 fnt
+|faint|p2a: Aromatisse
+|
+|-heal|p1a: Gallade|79/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom|88/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Gigalith|Gigalith, M|49/100
+|-damage|p1a: Gigalith|37/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Rotom|Shadow Ball|p1a: Gigalith
+|-damage|p1a: Gigalith|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|69/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|switch|p2a: Escavalier|Escavalier, F|17/100
+|-damage|p2a: Escavalier|5/100|[from] Stealth Rock
+|move|p1a: Gigalith|Rest|p1a: Gigalith
+|-status|p1a: Gigalith|slp|[from] move: Rest
+|-heal|p1a: Gigalith|100/100 slp|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Escavalier|Knock Off|p1a: Charizard
+|-damage|p1a: Charizard|29/100
+|-enditem|p1a: Charizard|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Escavalier
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|23/100|[from] Sandstorm
+|upkeep
+|turn|29
+|inactive|FE6 Fir has 120 seconds left.
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|73/100
+|-singleturn|p1a: Charizard|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|67/100|[from] Sandstorm
+|-damage|p2a: Snorlax|82/100|[from] Sandstorm
+|-heal|p2a: Snorlax|88/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Charizard|Toxic|p2a: Snorlax|[miss]
+|-miss|p1a: Charizard|p2a: Snorlax
+|move|p2a: Snorlax|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|30/100
+|-status|p1a: Charizard|par
+|
+|-weather|none
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|cant|p1a: Charizard|par
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|c|☆CaspaRuskoU|Lmao
+|
+|cant|p1a: Charizard|par
+|move|p2a: Snorlax|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|c|☆CaspaRuskoU|Lnao
+|c|☆CaspaRuskoU|oh dear
+|c|☆FE6 Fir|Lnao
+|
+|switch|p1a: Mawile|Mawile, M, shiny|100/100
+|-damage|p1a: Mawile|94/100|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Mawile|Play Rough|p2a: Snorlax
+|-damage|p2a: Snorlax|70/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|77/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆CaspaRuskoU|Luck newb
+|c|☆CaspaRuskoU|bg
+|c|☆CaspaRuskoU|brah
+|c|☆FE6 Fir|:o
+|
+|move|p1a: Mawile|Iron Head|p2a: Snorlax
+|-damage|p2a: Snorlax|54/100
+|move|p2a: Snorlax|Body Slam|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|46/100
+|
+|-heal|p2a: Snorlax|60/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Mawile|Iron Head|p2a: Snorlax
+|-damage|p2a: Snorlax|36/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|43/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Mawile|Iron Head|p2a: Snorlax
+|-damage|p2a: Snorlax|26/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Gallade|Gallade, M|79/100
+|-damage|p1a: Gallade|73/100|[from] Stealth Rock
+|cant|p2a: Snorlax|slp
+|
+|-heal|p1a: Gallade|79/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: Rotom|Rotom|69/100
+|-damage|p2a: Rotom|57/100|[from] Stealth Rock
+|move|p1a: Gallade|Close Combat|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|-heal|p1a: Gallade|85/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Gigalith|Gigalith, M|100/100 slp
+|-damage|p1a: Gigalith|88/100 slp|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Rotom|Defog|p1a: Gigalith
+|-unboost|p1a: Gigalith|evasion|1
+|-sideend|p1: CaspaRuskoU|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|-sideend|p2: FE6 Fir|Stealth Rock|[from] move: Defog|[of] p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|51/100|[from] Sandstorm
+|upkeep
+|turn|40
+|
+|switch|p2a: Escavalier|Escavalier, F|5/100
+|switch|p1a: Vileplume|Vileplume, F|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|53/100|[from] Sandstorm
+|-heal|p1a: Vileplume|59/100|[from] item: Black Sludge
+|upkeep
+|turn|41
+|
+|switch|p2a: Goodra|Goodra, F|82/100
+|move|p1a: Vileplume|Aromatherapy|p1a: Vileplume
+|-activate|p1a: Vileplume|move: Aromatherapy
+|-curestatus|p1: Gigalith|slp|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Goodra|76/100|[from] Sandstorm
+|-damage|p1a: Vileplume|53/100|[from] Sandstorm
+|-heal|p1a: Vileplume|59/100|[from] item: Black Sludge
+|upkeep
+|turn|42
+|
+|switch|p2a: Mudsdale|Mudsdale, M|44/100
+|switch|p1a: Gigalith|Gigalith, M|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Mudsdale|51/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Mudsdale|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|32/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Mudsdale
+|-sidestart|p2: FE6 Fir|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Mudsdale|57/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p1a: Vileplume|Vileplume, F|59/100
+|move|p2a: Mudsdale|Stealth Rock|p1a: Vileplume
+|-sidestart|p1: CaspaRuskoU|move: Stealth Rock
+|
+|-heal|p1a: Vileplume|65/100|[from] item: Black Sludge
+|-heal|p2a: Mudsdale|63/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p2a: Goodra|Goodra, F|76/100
+|-damage|p2a: Goodra|63/100|[from] Stealth Rock
+|move|p1a: Vileplume|Giga Drain|p2a: Goodra
+|-ability|p2a: Goodra|Sap Sipper|boost
+|-boost|p2a: Goodra|atk|1
+|
+|-heal|p1a: Vileplume|72/100|[from] item: Black Sludge
+|upkeep
+|turn|46
+|
+|switch|p1a: Gigalith|Gigalith, M|32/100
+|-damage|p1a: Gigalith|19/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Goodra|Fire Blast|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Goodra|57/100|[from] Sandstorm
+|upkeep
+|turn|47
+|
+|move|p2a: Goodra|Fire Blast|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Goodra|51/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|85/100
+|-damage|p1a: Gallade|79/100|[from] Stealth Rock
+|turn|48
+|
+|switch|p2a: Escavalier|Escavalier, F|5/100
+|-damage|p2a: Escavalier|0 fnt|[from] Stealth Rock
+|faint|p2a: Escavalier
+|move|p1a: Gallade|Psycho Cut|p2: Escavalier|[notarget]
+|-fail|p1a: Gallade
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gallade|73/100|[from] Sandstorm
+|-heal|p1a: Gallade|79/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mudsdale|Mudsdale, M|63/100
+|-damage|p2a: Mudsdale|57/100|[from] Stealth Rock
+|turn|49
+|
+|switch|p1a: Vileplume|Vileplume, F|72/100
+|-damage|p1a: Vileplume|59/100|[from] Stealth Rock
+|move|p2a: Mudsdale|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|23/100|[from] Sandstorm
+|-heal|p1a: Vileplume|29/100|[from] item: Black Sludge
+|-heal|p2a: Mudsdale|63/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|switch|p2a: Goodra|Goodra, F|51/100
+|-damage|p2a: Goodra|38/100|[from] Stealth Rock
+|move|p1a: Vileplume|Sludge Bomb|p2a: Goodra
+|-damage|p2a: Goodra|15/100
+|
+|-weather|none
+|-heal|p1a: Vileplume|36/100|[from] item: Black Sludge
+|upkeep
+|turn|51
+|
+|move|p2a: Goodra|Fire Blast|p1a: Vileplume|[miss]
+|-miss|p2a: Goodra|p1a: Vileplume
+|move|p1a: Vileplume|Sludge Bomb|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-heal|p1a: Vileplume|42/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100 slp
+|-damage|p2a: Snorlax|88/100 slp|[from] Stealth Rock
+|turn|52
+|
+|move|p1a: Vileplume|Strength Sap|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|-heal|p1a: Vileplume|100/100
+|cant|p2a: Snorlax|slp
+|
+|-heal|p2a: Snorlax|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|switch|p1a: Gallade|Gallade, M|79/100
+|-damage|p1a: Gallade|73/100|[from] Stealth Rock
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Body Slam|p1a: Gallade
+|-damage|p1a: Gallade|39/100
+|
+|-heal|p1a: Gallade|45/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|switch|p2a: Mudsdale|Mudsdale, M|63/100
+|-damage|p2a: Mudsdale|57/100|[from] Stealth Rock
+|move|p1a: Gallade|Close Combat|p2a: Mudsdale
+|-crit|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|faint|p2a: Mudsdale
+|
+|-heal|p1a: Gallade|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom|51/100
+|-damage|p2a: Rotom|38/100|[from] Stealth Rock
+|turn|55
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|72/100
+|
+|switch|p2a: Snorlax|Snorlax, F|99/100|[from]move: Volt Switch
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Vileplume|78/100|[from] item: Black Sludge
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Snorlax
+|-damage|p2a: Snorlax|78/100
+|move|p2a: Snorlax|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|55/100
+|
+|-heal|p1a: Vileplume|62/100|[from] item: Black Sludge
+|-heal|p2a: Snorlax|84/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|switch|p1a: Gallade|Gallade, M|51/100
+|-damage|p1a: Gallade|45/100|[from] Stealth Rock
+|move|p2a: Snorlax|Body Slam|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|-heal|p2a: Snorlax|91/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mawile|Mawile, M, shiny|46/100
+|-damage|p1a: Mawile|40/100|[from] Stealth Rock
+|turn|58
+|
+|move|p1a: Mawile|Play Rough|p2a: Snorlax|[miss]
+|-miss|p1a: Mawile|p2a: Snorlax
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|97/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p1a: Mawile|Play Rough|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|26/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|32/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p1a: Mawile|Iron Head|p2a: Snorlax
+|-damage|p2a: Snorlax|9/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|61
+|
+|move|p1a: Mawile|Play Rough|p2a: Snorlax
+|-damage|p2a: Snorlax|76/100 slp
+|cant|p2a: Snorlax|slp
+|
+|-heal|p2a: Snorlax|82/100 slp|[from] item: Leftovers
+|upkeep
+|turn|62
+|c|☆CaspaRuskoU|Such a luck newb with stolen team too
+|c|☆CaspaRuskoU|low ladder is so bad man
+|c|☆CaspaRuskoU|trash kidz
+|
+|move|p1a: Mawile|Play Rough|p2a: Snorlax
+|-damage|p2a: Snorlax|56/100 slp
+|cant|p2a: Snorlax|slp
+|
+|-heal|p2a: Snorlax|62/100 slp|[from] item: Leftovers
+|upkeep
+|turn|63
+|c|☆FE6 Fir|ur low ladder lmfao
+|c|☆FE6 Fir|choker
+|c|☆CaspaRuskoU|Second
+|c|☆CaspaRuskoU|- low ladder
+|c|☆CaspaRuskoU|lmaao
+|inactive|CaspaRuskoU has 120 seconds left.
+|c|☆CaspaRuskoU|Trash kids
+|inactive|CaspaRuskoU has 90 seconds left.
+|c|☆FE6 Fir|stfu and click
+|c|☆FE6 Fir|virgin
+|c|☆CaspaRuskoU|cant even make original teams
+|c|☆CaspaRuskoU|ya trash
+|c|☆CaspaRuskoU|I make you wait boo
+|c|☆FE6 Fir|go ahead
+|c|☆FE6 Fir|ill report
+|inactive|CaspaRuskoU has 60 seconds left.
+|c|☆CaspaRuskoU|Ok babe
+|c|☆CaspaRuskoU|one day your catch me
+|j| bidoferz
+|c|☆CaspaRuskoU|low Elo trash scum
+|c| bidoferz|wtf
+|-message|CaspaRuskoU forfeited.
+|
+|win|FE6 Fir
+|l|☆CaspaRuskoU
+|c| bidoferz|can ya'll relax
+|raw|CaspaRuskoU's rating: 1620 &rarr; <strong>1597</strong><br />(-23 for losing)
+|raw|FE6 Fir's rating: 1564 &rarr; <strong>1587</strong><br />(+23 for winning)
+|c|☆FE6 Fir|salt lord
+|l| bidoferz

@@ -1,0 +1,173 @@
+|j|☆Corumba
+|j|☆im off the sea men
+|t:|1608496377
+|player|p1|Corumba|schoolkid-gen4|1603
+|player|p2|im off the sea men|burglar|1653
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Tangrowth, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Garchomp, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Kartana|
+|poke|p2|Tyranitar, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Zapdos|
+|poke|p2|Garchomp, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1608496393
+|start
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|1
+|
+|t:|1608496401
+|move|p1a: Tangrowth|Sleep Powder|p2a: Toxapex
+|-status|p2a: Toxapex|slp|[from] move: Sleep Powder
+|cant|p2a: Toxapex|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1608496405
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Tangrowth|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|92/100
+|-enditem|p2a: Tyranitar|Smooth Rock|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1608496424
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Corumba|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1608496438
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Garchomp|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100 tox|[from] Sandstorm
+|-damage|p2a: Zapdos|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1608496446
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Garchomp|Roar|p2a: Garchomp
+|drag|p2a: Zapdos|Zapdos|88/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|82/100 tox|[from] Sandstorm
+|-damage|p2a: Zapdos|76/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1608496454
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|move|p2a: Zapdos|Hurricane|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|79/100
+|-start|p1a: Tyranitar|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|70/100 tox|[from] Sandstorm
+|-heal|p1a: Tyranitar|85/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|58/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1608496461
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-activate|p1a: Tyranitar|confusion
+|move|p1a: Tyranitar|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: im off the sea men|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1608496469
+|move|p2a: Garchomp|Substitute|p2a: Garchomp
+|-start|p2a: Garchomp|Substitute
+|-damage|p2a: Garchomp|76/100
+|-activate|p1a: Tyranitar|confusion
+|move|p1a: Tyranitar|Toxic|p2a: Garchomp|[miss]
+|-miss|p1a: Tyranitar|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|98/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1608496479
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|-activate|p1a: Tyranitar|confusion
+|-damage|p1a: Tyranitar|88/100|[from] confusion
+|
+|-weather|none
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆Corumba|lucky dog
+|
+|t:|1608496493
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Garchomp|Earthquake|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-crit|p1a: Tangrowth
+|-damage|p1a: Tangrowth|46/100
+|
+|upkeep
+|turn|11
+|c|☆im off the sea men|hehe
+|
+|t:|1608496500
+|move|p2a: Garchomp|Scale Shot|p1a: Tangrowth
+|-crit|p1a: Tangrowth
+|-damage|p1a: Tangrowth|24/100
+|-damage|p1a: Tangrowth|9/100
+|-damage|p1a: Tangrowth|0 fnt
+|-hitcount|p1a: Tangrowth|3
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|faint|p1a: Tangrowth
+|
+|upkeep
+|c|☆Corumba|what a sequence
+|-message|Corumba forfeited.
+|
+|win|im off the sea men
+|l|☆Corumba
+|c|☆im off the sea men|hehe
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

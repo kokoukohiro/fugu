@@ -1,0 +1,713 @@
+|j|☆DarkSaltor
+|j|☆bababi
+|t:|1626475515
+|gametype|singles
+|player|p1|DarkSaltor|morty|1331
+|player|p2|bababi|cress|1385
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Gigalith, M|
+|poke|p1|Sandslash, M|
+|poke|p1|Centiskorch, M|
+|poke|p1|Manectric, F|
+|poke|p1|Appletun, F|
+|poke|p1|Gallade, M|
+|poke|p2|Gigalith, M|
+|poke|p2|Eldegoss, F|
+|poke|p2|Manectric, F|
+|poke|p2|Persian-Alola, M|
+|poke|p2|Scyther, F|
+|poke|p2|Wishiwashi, F|
+|teampreview
+|
+|t:|1626475551
+|start
+|switch|p1a: Manectric|Manectric, F|100/100
+|switch|p2a: Persian|Persian-Alola, M|100/100
+|turn|1
+|
+|t:|1626475559
+|move|p2a: Persian|Parting Shot|p1a: Manectric
+|-unboost|p1a: Manectric|atk|1
+|-unboost|p1a: Manectric|spa|1
+|
+|t:|1626475560
+|switch|p2a: Manectric|Manectric, F|100/100|[from]move: Parting Shot
+|move|p1a: Manectric|Volt Switch|p2a: Manectric
+|-ability|p2a: Manectric|Lightning Rod|boost
+|-boost|p2a: Manectric|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1626475569
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Manectric|Switcheroo|p1a: Gigalith
+|-activate|p2a: Manectric|move: Trick|[of] p1a: Gigalith
+|-item|p1a: Gigalith|Choice Specs|[from] move: Switcheroo
+|-item|p2a: Manectric|Leftovers|[from] move: Switcheroo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Manectric|94/100|[from] Sandstorm
+|-heal|p2a: Manectric|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1626475583
+|move|p2a: Manectric|Volt Switch|p1a: Gigalith
+|-damage|p1a: Gigalith|77/100
+|
+|t:|1626475585
+|switch|p2a: Eldegoss|Eldegoss, F|100/100|[from]move: Volt Switch
+|move|p1a: Gigalith|Toxic|p2a: Eldegoss
+|-status|p2a: Eldegoss|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|94/100 tox|[from] Sandstorm
+|-damage|p2a: Eldegoss|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1626475595
+|switch|p1a: Appletun|Appletun, F|100/100
+|move|p2a: Eldegoss|Leech Seed|p1a: Appletun
+|-immune|p1a: Appletun
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|82/100 tox|[from] Sandstorm
+|-damage|p1a: Appletun|94/100|[from] Sandstorm
+|-heal|p1a: Appletun|100/100|[from] item: Leftovers
+|-damage|p2a: Eldegoss|70/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1626475607
+|switch|p2a: Manectric|Manectric, F|100/100
+|move|p1a: Appletun|Draco Meteor|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|-unboost|p1a: Appletun|spa|2
+|faint|p2a: Manectric
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Appletun|94/100|[from] Sandstorm
+|-heal|p1a: Appletun|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1626475609
+|switch|p2a: Scyther|Scyther, F|100/100
+|turn|6
+|
+|t:|1626475620
+|switch|p1a: Gigalith|Gigalith, M|77/100
+|move|p2a: Scyther|U-turn|p1a: Gigalith
+|-damage|p1a: Gigalith|55/100
+|
+|t:|1626475629
+|switch|p2a: Gigalith|Gigalith, M|100/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1626475634
+|switch|p2a: Wishiwashi|Wishiwashi, F|100/100
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p1a: Gigalith|Toxic|p2a: Wishiwashi
+|-status|p2a: Wishiwashi|tox
+|
+|-damage|p2a: Wishiwashi|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1626475656
+|switch|p1a: Manectric|Manectric, F|100/100
+|move|p2a: Wishiwashi|U-turn|p1a: Manectric
+|-damage|p1a: Manectric|63/100
+|
+|t:|1626475661
+|switch|p2a: Gigalith|Gigalith, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Manectric|57/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1626475667
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Manectric|Volt Switch|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Manectric|51/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1626475674
+|move|p1a: Manectric|Volt Switch|p2a: Gigalith
+|-damage|p2a: Gigalith|77/100
+|
+|t:|1626475678
+|switch|p1a: Sandslash|Sandslash, M|100/100|[from]move: Volt Switch
+|move|p2a: Gigalith|Stealth Rock|p1a: Sandslash
+|-sidestart|p1: DarkSaltor|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1626475686
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Sandslash|Rapid Spin|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|89/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1626475694
+|switch|p2a: Eldegoss|Eldegoss, F|100/100 tox
+|move|p1a: Sandslash|Earthquake|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|88/100 tox
+|
+|-weather|none
+|-damage|p2a: Eldegoss|81/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1626475704
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|move|p2a: Eldegoss|Aromatherapy|p2a: Eldegoss
+|-activate|p2a: Eldegoss|move: Aromatherapy
+|-curestatus|p2a: Eldegoss|tox|[msg]
+|-curestatus|p2: Wishiwashi|tox|[msg]
+|
+|upkeep
+|turn|14
+|
+|t:|1626475713
+|switch|p2a: Gigalith|Gigalith, M|89/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Centiskorch|Knock Off|p2a: Gigalith
+|-damage|p2a: Gigalith|65/100
+|-enditem|p2a: Gigalith|Leftovers|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Centiskorch|94/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1626475723
+|switch|p1a: Sandslash|Sandslash, M|100/100
+|-damage|p1a: Sandslash|94/100|[from] Stealth Rock
+|switch|p2a: Wishiwashi|Wishiwashi, F|94/100
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wishiwashi|88/100|[from] Sandstorm
+|-heal|p1a: Sandslash|100/100|[from] item: Leftovers
+|-heal|p2a: Wishiwashi|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1626475757
+|switch|p1a: Appletun|Appletun, F|100/100
+|-damage|p1a: Appletun|88/100|[from] Stealth Rock
+|move|p2a: Wishiwashi|Scald|p1a: Appletun
+|-resisted|p1a: Appletun
+|-damage|p1a: Appletun|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wishiwashi|88/100|[from] Sandstorm
+|-damage|p1a: Appletun|71/100|[from] Sandstorm
+|-heal|p2a: Wishiwashi|94/100|[from] item: Leftovers
+|-heal|p1a: Appletun|78/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1626475786
+|move|p2a: Wishiwashi|U-turn|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|38/100
+|
+|t:|1626475790
+|switch|p2a: Scyther|Scyther, F|100/100|[from]move: U-turn
+|move|p1a: Appletun|Apple Acid|p2a: Scyther
+|-resisted|p2a: Scyther
+|-damage|p2a: Scyther|87/100
+|-unboost|p2a: Scyther|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scyther|81/100|[from] Sandstorm
+|-damage|p1a: Appletun|32/100|[from] Sandstorm
+|-heal|p1a: Appletun|38/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1626475800
+|switch|p1a: Centiskorch|Centiskorch, M|94/100
+|move|p2a: Scyther|U-turn|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|74/100
+|
+|t:|1626475810
+|switch|p2a: Wishiwashi|Wishiwashi, F|94/100|[from]move: U-turn
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|
+|-weather|none
+|-heal|p2a: Wishiwashi|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1626475842
+|switch|p1a: Appletun|Appletun, F|38/100
+|-damage|p1a: Appletun|25/100|[from] Stealth Rock
+|move|p2a: Wishiwashi|Scald|p1a: Appletun
+|-resisted|p1a: Appletun
+|-damage|p1a: Appletun|15/100
+|-status|p1a: Appletun|brn
+|
+|-heal|p1a: Appletun|21/100 brn|[from] item: Leftovers
+|-damage|p1a: Appletun|15/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1626475865
+|move|p2a: Wishiwashi|Ice Beam|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|upkeep
+|
+|t:|1626475869
+|switch|p1a: Manectric|Manectric, F|51/100
+|-damage|p1a: Manectric|38/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1626475873
+|move|p2a: Wishiwashi|Protect|p2a: Wishiwashi
+|-singleturn|p2a: Wishiwashi|Protect
+|move|p1a: Manectric|Thunderbolt|p2a: Wishiwashi
+|-activate|p2a: Wishiwashi|move: Protect
+|
+|upkeep
+|turn|22
+|
+|t:|1626475879
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|move|p1a: Manectric|Thunderbolt|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|74/100
+|
+|upkeep
+|turn|23
+|
+|t:|1626475889
+|switch|p1a: Centiskorch|Centiskorch, M|74/100
+|move|p2a: Eldegoss|Leech Seed|p1a: Centiskorch|[miss]
+|-miss|p2a: Eldegoss|p1a: Centiskorch
+|
+|upkeep
+|turn|24
+|
+|t:|1626475901
+|switch|p1a: Sandslash|Sandslash, M|100/100
+|-damage|p1a: Sandslash|94/100|[from] Stealth Rock
+|switch|p2a: Gigalith|Gigalith, M|65/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sandslash|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1626475918
+|switch|p2a: Wishiwashi|Wishiwashi, F|100/100
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p1a: Sandslash|Earthquake|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wishiwashi|65/100|[from] Sandstorm
+|-heal|p2a: Wishiwashi|71/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1626475948
+|switch|p1a: Gigalith|Gigalith, M|55/100
+|-damage|p1a: Gigalith|43/100|[from] Stealth Rock
+|move|p2a: Wishiwashi|Scald|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wishiwashi|65/100|[from] Sandstorm
+|-heal|p2a: Wishiwashi|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1626475960
+|switch|p1a: Manectric|Manectric, F|38/100
+|-damage|p1a: Manectric|26/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1626475965
+|move|p2a: Wishiwashi|Protect|p2a: Wishiwashi
+|-singleturn|p2a: Wishiwashi|Protect
+|move|p1a: Manectric|Volt Switch|p2a: Wishiwashi
+|-activate|p2a: Wishiwashi|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Manectric|20/100|[from] Sandstorm
+|-damage|p2a: Wishiwashi|65/100|[from] Sandstorm
+|-heal|p2a: Wishiwashi|71/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1626475974
+|switch|p2a: Gigalith|Gigalith, M|65/100
+|move|p1a: Manectric|Volt Switch|p2a: Gigalith
+|-damage|p2a: Gigalith|39/100
+|
+|t:|1626475983
+|switch|p1a: Sandslash|Sandslash, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Sandslash|94/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Sandslash|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|j| srwak1
+|
+|t:|1626475992
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|move|p1a: Sandslash|Rapid Spin|p2a: Eldegoss
+|-damage|p2a: Eldegoss|91/100
+|-boost|p1a: Sandslash|spe|1
+|-sideend|p1: DarkSaltor|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Sandslash
+|
+|upkeep
+|turn|30
+|
+|t:|1626476005
+|move|p1a: Sandslash|Spikes|p2a: Eldegoss
+|-sidestart|p2: bababi|Spikes
+|move|p2a: Eldegoss|Leech Seed|p1a: Sandslash
+|-start|p1a: Sandslash|move: Leech Seed
+|
+|-damage|p1a: Sandslash|88/100|[from] Leech Seed|[of] p2a: Eldegoss
+|-heal|p2a: Eldegoss|100/100|[silent]
+|upkeep
+|turn|31
+|
+|t:|1626476015
+|switch|p1a: Centiskorch|Centiskorch, M|74/100
+|move|p2a: Eldegoss|Rapid Spin|p1a: Centiskorch
+|-damage|p1a: Centiskorch|67/100
+|-boost|p2a: Eldegoss|spe|1
+|-sideend|p2: bababi|Spikes|[from] move: Rapid Spin|[of] p2a: Eldegoss
+|
+|upkeep
+|turn|32
+|
+|t:|1626476023
+|switch|p2a: Gigalith|Gigalith, M|39/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Centiskorch|Fire Lash|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-crit|p2a: Gigalith
+|-damage|p2a: Gigalith|16/100
+|-unboost|p2a: Gigalith|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Centiskorch|60/100|[from] Sandstorm
+|upkeep
+|turn|33
+|
+|t:|1626476036
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Centiskorch|Leech Life|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Centiskorch|54/100|[from] Sandstorm
+|upkeep
+|turn|34
+|
+|t:|1626476043
+|move|p1a: Centiskorch|Fire Lash|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Centiskorch|48/100|[from] Sandstorm
+|upkeep
+|
+|t:|1626476047
+|switch|p2a: Scyther|Scyther, F|81/100
+|turn|35
+|j| Stiboulette
+|l| Stiboulette
+|
+|t:|1626476074
+|switch|p1a: Sandslash|Sandslash, M|88/100
+|move|p2a: Scyther|Dual Wingbeat|p1a: Sandslash
+|-damage|p1a: Sandslash|68/100
+|-damage|p1a: Sandslash|48/100
+|-hitcount|p1a: Sandslash|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scyther|75/100|[from] Sandstorm
+|-heal|p1a: Sandslash|54/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1626476091
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|move|p1a: Sandslash|Spikes|p2a: Eldegoss
+|-sidestart|p2: bababi|Spikes
+|
+|-weather|none
+|-heal|p1a: Sandslash|61/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1626476132
+|switch|p2a: Wishiwashi|Wishiwashi, F|71/100
+|-damage|p2a: Wishiwashi|59/100|[from] Spikes
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p1a: Sandslash|Knock Off|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|41/100
+|-enditem|p2a: Wishiwashi|Leftovers|[from] move: Knock Off|[of] p1a: Sandslash
+|
+|-heal|p1a: Sandslash|67/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1626476147
+|switch|p1a: Gallade|Gallade, M|100/100
+|move|p2a: Wishiwashi|Scald|p1a: Gallade
+|-damage|p1a: Gallade|52/100
+|-status|p1a: Gallade|brn
+|
+|-damage|p1a: Gallade|46/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|t:|1626476155
+|move|p2a: Wishiwashi|Protect|p2a: Wishiwashi
+|-singleturn|p2a: Wishiwashi|Protect
+|move|p1a: Gallade|Close Combat|p2a: Wishiwashi
+|-activate|p2a: Wishiwashi|move: Protect
+|
+|-damage|p1a: Gallade|39/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|t:|1626476162
+|switch|p2a: Scyther|Scyther, F|75/100
+|move|p1a: Gallade|Close Combat|p2a: Scyther
+|-resisted|p2a: Scyther
+|-damage|p2a: Scyther|64/100
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|
+|-damage|p1a: Gallade|33/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1626476177
+|move|p1a: Gallade|Close Combat|p2a: Scyther
+|-resisted|p2a: Scyther
+|-damage|p2a: Scyther|54/100
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|
+|-damage|p1a: Gallade|27/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1626476185
+|move|p1a: Gallade|Close Combat|p2a: Scyther
+|-resisted|p2a: Scyther
+|-damage|p2a: Scyther|44/100
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|move|p2a: Scyther|Knock Off|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|-enditem|p1a: Gallade|Choice Scarf|[from] move: Knock Off|[of] p2a: Scyther
+|faint|p1a: Gallade
+|
+|upkeep
+|
+|t:|1626476195
+|switch|p1a: Manectric|Manectric, F|20/100
+|turn|43
+|
+|t:|1626476213
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|move|p1a: Manectric|Volt Switch|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|79/100
+|
+|t:|1626476219
+|switch|p1a: Centiskorch|Centiskorch, M|48/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|44
+|
+|t:|1626476224
+|switch|p2a: Wishiwashi|Wishiwashi, F|41/100
+|-damage|p2a: Wishiwashi|28/100|[from] Spikes
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p1a: Centiskorch|Leech Life|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|0 fnt
+|-heal|p1a: Centiskorch|58/100|[from] drain|[of] p2a: Wishiwashi
+|faint|p2a: Wishiwashi
+|
+|upkeep
+|
+|t:|1626476227
+|switch|p2a: Scyther|Scyther, F|44/100
+|turn|45
+|
+|t:|1626476238
+|switch|p1a: Sandslash|Sandslash, M|67/100
+|move|p2a: Scyther|Dual Wingbeat|p1a: Sandslash|[miss]
+|-miss|p2a: Scyther|p1a: Sandslash
+|
+|-heal|p1a: Sandslash|73/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1626476251
+|move|p2a: Scyther|Knock Off|p1a: Sandslash
+|-damage|p1a: Sandslash|52/100
+|-enditem|p1a: Sandslash|Leftovers|[from] move: Knock Off|[of] p2a: Scyther
+|move|p1a: Sandslash|Knock Off|p2a: Scyther
+|-crit|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|-enditem|p2a: Scyther|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Sandslash
+|faint|p2a: Scyther
+|
+|upkeep
+|
+|t:|1626476259
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|turn|47
+|
+|t:|1626476270
+|switch|p1a: Centiskorch|Centiskorch, M|58/100
+|move|p2a: Eldegoss|Leech Seed|p1a: Centiskorch
+|-start|p1a: Centiskorch|move: Leech Seed
+|
+|-damage|p1a: Centiskorch|46/100|[from] Leech Seed|[of] p2a: Eldegoss
+|upkeep
+|turn|48
+|
+|t:|1626476277
+|move|p1a: Centiskorch|Leech Life|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|28/100
+|-heal|p1a: Centiskorch|75/100|[from] drain|[of] p2a: Eldegoss
+|move|p2a: Eldegoss|Rapid Spin|p1a: Centiskorch
+|-damage|p1a: Centiskorch|67/100
+|-boost|p2a: Eldegoss|spe|1
+|-sideend|p2: bababi|Spikes|[from] move: Rapid Spin|[of] p2a: Eldegoss
+|
+|-damage|p1a: Centiskorch|55/100|[from] Leech Seed|[of] p2a: Eldegoss
+|-heal|p2a: Eldegoss|44/100|[silent]
+|upkeep
+|turn|49
+|
+|t:|1626476286
+|move|p2a: Eldegoss|Rapid Spin|p1a: Centiskorch
+|-damage|p1a: Centiskorch|47/100
+|-boost|p2a: Eldegoss|spe|1
+|move|p1a: Centiskorch|Leech Life|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|0 fnt
+|-heal|p1a: Centiskorch|65/100|[from] drain|[of] p2a: Eldegoss
+|faint|p2a: Eldegoss
+|
+|upkeep
+|
+|t:|1626476289
+|switch|p2a: Persian|Persian-Alola, M|100/100
+|turn|50
+|
+|t:|1626476296
+|move|p2a: Persian|Foul Play|p1a: Centiskorch
+|-crit|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|
+|t:|1626476309
+|switch|p1a: Sandslash|Sandslash, M|52/100
+|turn|51
+|
+|t:|1626476319
+|move|p2a: Persian|Foul Play|p1a: Sandslash
+|-damage|p1a: Sandslash|30/100
+|move|p1a: Sandslash|Earthquake|p2a: Persian
+|-damage|p2a: Persian|74/100
+|
+|upkeep
+|turn|52
+|
+|t:|1626476327
+|move|p2a: Persian|Foul Play|p1a: Sandslash
+|-damage|p1a: Sandslash|6/100
+|move|p1a: Sandslash|Earthquake|p2a: Persian
+|-damage|p2a: Persian|50/100
+|
+|upkeep
+|turn|53
+|
+|t:|1626476332
+|move|p2a: Persian|Foul Play|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|upkeep
+|
+|t:|1626476336
+|switch|p1a: Manectric|Manectric, F|20/100
+|turn|54
+|
+|t:|1626476339
+|move|p2a: Persian|Foul Play|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|-status|p2a: Persian|par|[from] ability: Static|[of] p1a: Manectric
+|faint|p1a: Manectric
+|
+|win|bababi
+|raw|DarkSaltor's rating: 1330 &rarr; <strong>1313</strong><br />(-17 for losing)
+|raw|bababi's rating: 1384 &rarr; <strong>1401</strong><br />(+17 for winning)
+|l|☆bababi
+|l|☆DarkSaltor
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

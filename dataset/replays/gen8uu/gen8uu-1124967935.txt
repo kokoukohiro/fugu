@@ -1,0 +1,272 @@
+|j|☆PlsShush2
+|j|☆Eltoras
+|player|p1|PlsShush2|84|1233
+|player|p2|Eltoras|blue|1190
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Haxorus! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3664575/">suspect thread</a>.</strong></div>
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Celebi|
+|poke|p1|Sylveon, M|
+|poke|p1|Golisopod, F|
+|poke|p1|Pangoro, M|
+|poke|p1|Haxorus, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Arcanine, M|
+|poke|p2|Rhyperior, M|
+|poke|p2|Roserade, F|
+|poke|p2|Umbreon, F|
+|poke|p2|Haxorus, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PlsShush2)
+|
+|start
+|switch|p1a: Celebi|Celebi|100/100
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|turn|1
+|
+|switch|p2a: Umbreon|Umbreon, F|100/100
+|move|p1a: Celebi|Leaf Storm|p2a: Umbreon
+|-damage|p2a: Umbreon|59/100
+|-unboost|p1a: Celebi|spa|2
+|
+|-heal|p2a: Umbreon|65/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Pangoro|Close Combat|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|-unboost|p1a: Pangoro|def|1
+|-unboost|p1a: Pangoro|spd|1
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|4
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|move|p2a: Haxorus|Poison Jab|p1a: Sylveon
+|-supereffective|p1a: Sylveon
+|-damage|p1a: Sylveon|25/100
+|-status|p1a: Sylveon|psn
+|
+|-heal|p1a: Sylveon|31/100 psn|[from] item: Leftovers
+|-damage|p1a: Sylveon|19/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|move|p2a: Haxorus|Poison Jab|p1a: Golisopod
+|-damage|p1a: Golisopod|68/100
+|-status|p1a: Golisopod|psn
+|
+|-damage|p1a: Golisopod|56/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Golisopod|atk|1
+|move|p1a: Golisopod|First Impression|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|87/100
+|
+|-damage|p1a: Golisopod|43/100 psn|[from] psn
+|-activate|p1a: Golisopod|ability: Emergency Exit
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|7
+|
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Haxorus
+|-status|p1a: Haxorus|brn
+|-enditem|p1a: Haxorus|Lum Berry|[eat]
+|-curestatus|p1a: Haxorus|brn|[msg]
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Haxorus|Earthquake|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Arcanine|Arcanine, M|87/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Haxorus|atk|1
+|turn|9
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Torkoal
+|-immune|p1a: Torkoal
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Torkoal|Stealth Rock|p2a: Arcanine
+|-sidestart|p2: Eltoras|move: Stealth Rock
+|move|p2a: Arcanine|Teleport|p2a: Arcanine
+|
+|switch|p2a: Umbreon|Umbreon, F|65/100|[from]move: Teleport
+|-damage|p2a: Umbreon|52/100|[from] Stealth Rock
+|
+|-heal|p2a: Umbreon|58/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Eltoras has 120 seconds left.
+|
+|switch|p2a: Kaede|Roserade, F|100/100
+|-damage|p2a: Kaede|88/100|[from] Stealth Rock
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|
+|-heal|p2a: Kaede|94/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p1a: Sylveon|Sylveon, M|19/100 psn
+|move|p2a: Kaede|Sleep Powder||[still]
+|-fail|p2a: Kaede
+|
+|-heal|p2a: Kaede|100/100|[from] item: Black Sludge
+|-heal|p1a: Sylveon|25/100 psn|[from] item: Leftovers
+|-damage|p1a: Sylveon|12/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Kaede|Sludge Bomb|p1a: Sylveon
+|-supereffective|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|100/100
+|turn|14
+|
+|move|p1a: Celebi|U-turn|p2a: Kaede
+|-damage|p2a: Kaede|75/100
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100|[from]move: U-turn
+|move|p2a: Kaede|Sludge Bomb|p1a: Torkoal
+|-damage|p1a: Torkoal|42/100
+|
+|-heal|p2a: Kaede|81/100|[from] item: Black Sludge
+|-heal|p1a: Torkoal|48/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Kaede|Sludge Bomb|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-heal|p2a: Kaede|87/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Celebi|Celebi|100/100
+|turn|16
+|
+|move|p1a: Celebi|Psychic|p2a: Kaede
+|-supereffective|p2a: Kaede
+|-damage|p2a: Kaede|0 fnt
+|faint|p2a: Kaede
+|
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-damage|p2a: Haxorus|88/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|17
+|
+|move|p2a: Haxorus|First Impression|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|upkeep
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|turn|18
+|
+|switch|p2a: Arcanine|Arcanine, M|87/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-immune|p1a: Pangoro|[from] ability: Scrappy
+|move|p1a: Pangoro|Close Combat|p2a: Arcanine
+|-damage|p2a: Arcanine|18/100
+|-unboost|p1a: Pangoro|def|1
+|-unboost|p1a: Pangoro|spd|1
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Golisopod|Golisopod, F|43/100 psn
+|move|p2a: Arcanine|Flare Blitz|p1a: Golisopod
+|-damage|p1a: Golisopod|10/100 psn
+|-damage|p2a: Arcanine|8/100|[from] Recoil
+|
+|-damage|p1a: Golisopod|0 fnt|[from] psn
+|faint|p1a: Golisopod
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|20
+|
+|move|p1a: Haxorus|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, F|88/100
+|-damage|p2a: Haxorus|76/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|21
+|
+|move|p2a: Haxorus|Outrage|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|upkeep
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|turn|22
+|
+|move|p2a: Haxorus|Outrage|p1a: Pangoro|[from]lockedmove
+|-damage|p1a: Pangoro|0 fnt
+|faint|p1a: Pangoro
+|
+|win|Eltoras
+|c|☆PlsShush2|gg
+|l|☆PlsShush2
+|c|☆Eltoras|gg
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

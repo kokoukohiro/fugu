@@ -1,0 +1,307 @@
+|j|☆minimax_ai
+|j|☆Blacksponge
+|t:|1667523807
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1660
+|player|p2|Blacksponge|lucas|1697
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Victini|
+|poke|p2|Weavile, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Volcarona, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|j| BrothaOptions
+|
+|t:|1667523819
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|turn|1
+|
+|t:|1667523823
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Urshifu|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|83/100
+|-damage|p2a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1667523830
+|switch|p2a: Volcarona|Volcarona, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1667523835
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1667523840
+|move|p2a: Volcarona|Fiery Dance|p1a: landorustherian
+|-damage|p1a: landorustherian|62/100
+|-boost|p2a: Volcarona|spa|1
+|move|p1a: landorustherian|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|44/100
+|
+|-heal|p1a: landorustherian|68/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1667523848
+|move|p2a: Volcarona|Fiery Dance|p1a: landorustherian
+|-damage|p1a: landorustherian|15/100
+|-boost|p2a: Volcarona|spa|1
+|move|p1a: landorustherian|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-heal|p1a: landorustherian|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667523854
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|5
+|
+|t:|1667523856
+|move|p2a: Weavile|Knock Off|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|-enditem|p1a: landorustherian|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1667523857
+|switch|p1a: Melmetal|Melmetal|100/100
+|turn|6
+|
+|t:|1667523861
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Melmetal|atk|1
+|move|p1a: Melmetal|Double Iron Bash|p2a: Landorus
+|-damage|p2a: Landorus|78/100
+|-damage|p1a: Melmetal|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-damage|p2a: Landorus|57/100
+|-damage|p1a: Melmetal|67/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-hitcount|p2a: Landorus|2
+|
+|upkeep
+|turn|7
+|
+|t:|1667523862
+|move|p2a: Landorus|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|move|p1a: Melmetal|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Melmetal|51/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|upkeep
+|j| atlas tales
+|
+|t:|1667523869
+|switch|p2a: Victini|Victini|100/100
+|turn|8
+|
+|t:|1667523872
+|move|p2a: Victini|V-create|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1667523873
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|9
+|
+|t:|1667523877
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|84/100
+|move|p1a: Heatran|Earth Power|p2a: Urshifu
+|-damage|p2a: Urshifu|40/100
+|
+|upkeep
+|turn|10
+|
+|t:|1667523879
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Urshifu|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|64/100
+|-damage|p2a: Urshifu|24/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1667523881
+|switch|p2a: Victini|Victini|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+|
+|t:|1667523883
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|move|p2a: Victini|V-create|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|48/100
+|-unboost|p2a: Victini|spe|1
+|-unboost|p2a: Victini|def|1
+|-unboost|p2a: Victini|spd|1
+|
+|-heal|p1a: rotomwash|54/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1667523886
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: rotomwash|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|48/100|[from] Sandstorm
+|-heal|p1a: rotomwash|54/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1667523891
+|move|p1a: rotomwash|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|41/100
+|move|p2a: Tyranitar|Rock Blast|p1a: rotomwash
+|-damage|p1a: rotomwash|42/100
+|-damage|p1a: rotomwash|31/100
+|-hitcount|p1a: rotomwash|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|25/100|[from] Sandstorm
+|-heal|p1a: rotomwash|31/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1667523893
+|switch|p1a: Tangrowth|Tangrowth, F|97/100
+|-damage|p1a: Tangrowth|85/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Rock Blast|p1a: Tangrowth
+|-damage|p1a: Tangrowth|79/100
+|-damage|p1a: Tangrowth|73/100
+|-damage|p1a: Tangrowth|67/100
+|-hitcount|p1a: Tangrowth|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|61/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1667523895
+|move|p2a: Tyranitar|Ice Beam|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1667523895
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|16
+|
+|t:|1667523898
+|move|p1a: Weavile|Triple Axel|p2a: Tyranitar
+|-damage|p2a: Tyranitar|32/100
+|-damage|p2a: Tyranitar|15/100
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|-hitcount|p2: Tyranitar|3
+|
+|-weather|none
+|upkeep
+|
+|t:|1667523901
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|24/100
+|turn|17
+|
+|t:|1667523903
+|move|p2a: Urshifu|Close Combat|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1667523903
+|switch|p1a: rotomwash|Rotom-Wash|31/100
+|-damage|p1a: rotomwash|19/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1667523905
+|move|p2a: Urshifu|Close Combat|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1667523905
+|switch|p1a: Heatran|Heatran, M|88/100
+|-damage|p1a: Heatran|76/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|19
+|
+|t:|1667523906
+|move|p2a: Urshifu|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|-enditem|p1a: Heatran|Air Balloon
+|faint|p1a: Heatran
+|
+|win|Blacksponge
+|raw|minimax_ai's rating: 1660 &rarr; <strong>1642</strong><br />(-18 for losing)
+|raw|Blacksponge's rating: 1697 &rarr; <strong>1715</strong><br />(+18 for winning)
+|c|☆minimax_ai|gg

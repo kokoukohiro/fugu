@@ -1,0 +1,212 @@
+|j|☆Gill_Trainer
+|j|☆DJ Phoenix da Poet
+|t:|1657769666
+|gametype|singles
+|player|p1|Gill_Trainer|clown|
+|player|p2|DJ Phoenix da Poet|hilbert|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Whimsicott, M|
+|poke|p1|Zacian-*|
+|poke|p1|Rayquaza|
+|poke|p1|Cinderace, M|
+|poke|p1|Calyrex-Shadow|
+|poke|p2|Metagross|
+|poke|p2|Calyrex-Shadow|
+|poke|p2|Zacian-*|
+|poke|p2|Cinderace, F|
+|poke|p2|Ditto|
+|poke|p2|Yveltal|
+|teampreview
+|j| Opijklbnm
+|
+|t:|1657769687
+|start
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Dragonite|[from] ability: Imposter
+|turn|1
+|
+|t:|1657769698
+|move|p2a: Ditto|Outrage|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|28/100
+|move|p1a: Dragonite|Outrage|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|-damage|p1a: Dragonite|18/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1657769703
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|2
+|
+|t:|1657769710
+|-start|p2a: Yveltal|Dynamax|
+|-heal|p2a: Yveltal|100/100|[silent]
+|move|p2a: Yveltal|Max Airstream|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-boost|p2a: Yveltal|spe|1
+|faint|p1a: Dragonite
+|-damage|p2a: Yveltal|96/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1657769725
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|3
+|
+|t:|1657769733
+|move|p2a: Yveltal|Max Flare|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Zacian
+|-damage|p2a: Yveltal|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1657769751
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|4
+|
+|t:|1657769760
+|-start|p1a: Cinderace|Dynamax|Gmax
+|-heal|p1a: Cinderace|100/100|[silent]
+|move|p2a: Yveltal|Max Airstream|p1a: Cinderace
+|-damage|p1a: Cinderace|41/100
+|-boost|p2a: Yveltal|spe|1
+|-damage|p2a: Yveltal|86/100|[from] item: Life Orb
+|move|p1a: Cinderace|Max Airstream|p2a: Yveltal
+|-start|p1a: Cinderace|typechange|Flying|[from] ability: Libero
+|-damage|p2a: Yveltal|56/100
+|-boost|p1a: Cinderace|spe|1
+|-damage|p1a: Cinderace|36/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-end|p2a: Yveltal|Dynamax
+|-heal|p2a: Yveltal|56/100|[silent]
+|turn|5
+|
+|t:|1657769776
+|move|p2a: Yveltal|Oblivion Wing|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-heal|p2a: Yveltal|96/100|[from] drain|[of] p1a: Cinderace
+|faint|p1a: Cinderace
+|-damage|p2a: Yveltal|87/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1657769793
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|6
+|
+|t:|1657769796
+|detailschange|p1a: Rayquaza|Rayquaza-Mega
+|-mega|p1a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p1a: Rayquaza|Extreme Speed|p2a: Yveltal
+|-damage|p2a: Yveltal|53/100
+|move|p2a: Yveltal|Taunt|p1a: Rayquaza
+|-start|p1a: Rayquaza|move: Taunt
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1657769805
+|move|p1a: Rayquaza|Extreme Speed|p2a: Yveltal
+|-damage|p2a: Yveltal|20/100
+|move|p2a: Yveltal|Oblivion Wing|p1a: Rayquaza
+|-damage|p1a: Rayquaza|50/100
+|-heal|p2a: Yveltal|53/100|[from] drain|[of] p1a: Rayquaza
+|-damage|p2a: Yveltal|44/100|[from] item: Life Orb
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1657769813
+|move|p1a: Rayquaza|Extreme Speed|p2a: Yveltal
+|-damage|p2a: Yveltal|11/100
+|move|p2a: Yveltal|Oblivion Wing|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|-heal|p2a: Yveltal|44/100|[from] drain|[of] p1a: Rayquaza
+|faint|p1a: Rayquaza
+|-weather|none
+|-damage|p2a: Yveltal|34/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1657769834
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|turn|9
+|
+|t:|1657769842
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Gill_Trainer|move: Tailwind
+|move|p2a: Yveltal|Taunt|p1a: Whimsicott
+|-start|p1a: Whimsicott|move: Taunt
+|
+|upkeep
+|turn|10
+|
+|t:|1657769851
+|-activate|p1a: Whimsicott|move: Struggle
+|move|p1a: Whimsicott|Struggle|p2a: Yveltal
+|-damage|p2a: Yveltal|27/100
+|-damage|p1a: Whimsicott|75/100|[from] recoil
+|move|p2a: Yveltal|Oblivion Wing|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-heal|p2a: Yveltal|74/100|[from] drain|[of] p1a: Whimsicott
+|faint|p1a: Whimsicott
+|-damage|p2a: Yveltal|64/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1657769859
+|switch|p1a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|11
+|
+|t:|1657769870
+|move|p1a: Calyrex|Astral Barrage|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|29/100
+|move|p2a: Yveltal|Oblivion Wing|p1a: Calyrex
+|-damage|p1a: Calyrex|42/100
+|-heal|p2a: Yveltal|67/100|[from] drain|[of] p1a: Calyrex
+|-damage|p2a: Yveltal|57/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1657769877
+|move|p1a: Calyrex|Astral Barrage|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|25/100
+|move|p2a: Yveltal|Oblivion Wing|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-heal|p2a: Yveltal|52/100|[from] drain|[of] p1a: Calyrex
+|faint|p1a: Calyrex
+|-damage|p2a: Yveltal|42/100|[from] item: Life Orb
+|
+|win|DJ Phoenix da Poet
+|c|☆DJ Phoenix da Poet|Gg

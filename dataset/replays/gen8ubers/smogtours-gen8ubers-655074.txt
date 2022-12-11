@@ -1,0 +1,644 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1665862019
+|gametype|singles
+|player|p1|Exiline|#scl2islanders|
+|player|p2|Lunala|#ssdivcobras|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Ubers
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Yveltal|
+|poke|p1|Eternatus|
+|poke|p1|Calyrex-Shadow|
+|poke|p1|Marshadow|
+|poke|p1|Zygarde|
+|poke|p2|Weavile, F|
+|poke|p2|Zekrom|
+|poke|p2|Yveltal|
+|poke|p2|Eternatus|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Necrozma-Dusk-Mane|
+|teampreview
+|c|☆Lunala|hf
+|c|☆Exiline|h_f 
+|inactive|Exiline has 270 seconds left.
+|inactive|Lunala has 270 seconds left.
+|c|+steel SKITTY!!!!|go luanla
+|inactive|Exiline has 240 seconds left.
+|
+|t:|1665862088
+|start
+|switch|p1a: Marshadow|Marshadow|100/100
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|1
+|
+|t:|1665862105
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|
+|upkeep
+|turn|2
+|
+|t:|1665862112
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1665862121
+|move|p2a: Necrozma|Thunder Wave|p1a: Necrozma
+|-status|p1a: Necrozma|par
+|move|p1a: Necrozma|Thunder Wave|p2a: Necrozma
+|-status|p2a: Necrozma|par
+|
+|upkeep
+|turn|4
+|
+|t:|1665862133
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Necrozma|atk|1
+|move|p1a: Necrozma|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Lunala|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1665862147
+|switch|p1a: Zygarde|Zygarde|100/100
+|move|p2a: Landorus|Defog|p1a: Zygarde
+|-unboost|p1a: Zygarde|evasion|1
+|-sideend|p2: Lunala|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|
+|upkeep
+|turn|6
+|
+|t:|1665862152
+|move|p1a: Zygarde|Dragon Dance|p1a: Zygarde
+|-boost|p1a: Zygarde|atk|1
+|-boost|p1a: Zygarde|spe|1
+|move|p2a: Landorus|U-turn|p1a: Zygarde
+|-crit|p1a: Zygarde
+|-damage|p1a: Zygarde|79/100
+|
+|t:|1665862165
+|switch|p2a: Weavile|Weavile, F|100/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|7
+|
+|t:|1665862168
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zygarde|atk|1
+|move|p1a: Zygarde|Thousand Arrows|p2a: Landorus
+|-damage|p2a: Landorus|75/100
+|-start|p2a: Landorus|Smack Down
+|
+|-heal|p2a: Landorus|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1665862174
+|move|p2a: Landorus|Toxic|p1a: Zygarde
+|-status|p1a: Zygarde|tox
+|move|p1a: Zygarde|Dragon Tail|p2a: Landorus
+|-damage|p2a: Landorus|63/100
+|drag|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|
+|-damage|p1a: Zygarde|73/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1665862177
+|switch|p2a: Landorus|Landorus-Therian, M|63/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zygarde|atk|1
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100 par
+|
+|-heal|p2a: Landorus|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1665862182
+|move|p2a: Landorus|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|47/100 par
+|cant|p1a: Necrozma|par
+|
+|-heal|p2a: Landorus|75/100|[from] item: Leftovers
+|-heal|p1a: Necrozma|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1665862193
+|move|p2a: Landorus|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|6/100 par
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|56/100 par
+|
+|-heal|p2a: Landorus|81/100|[from] item: Leftovers
+|-heal|p1a: Necrozma|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1665862198
+|switch|p1a: Zygarde|Zygarde|73/100 tox
+|move|p2a: Landorus|U-turn|p1a: Zygarde
+|-damage|p1a: Zygarde|59/100 tox
+|
+|t:|1665862215
+|switch|p2a: Weavile|Weavile, F|100/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|-damage|p1a: Zygarde|53/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1665862225
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|62/100 par
+|move|p2a: Weavile|Beat Up|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|48/100 par
+|-supereffective|p1a: Necrozma
+|-crit|p1a: Necrozma
+|-damage|p1a: Necrozma|25/100 par
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|11/100 par
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|-hitcount|p1: Necrozma|4
+|
+|upkeep
+|
+|t:|1665862229
+|switch|p1a: Marshadow|Marshadow|100/100
+|turn|14
+|
+|t:|1665862236
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Marshadow|Spectral Thief|p2a: Eternatus
+|-damage|p2a: Eternatus|52/100
+|
+|upkeep
+|turn|15
+|
+|t:|1665862239
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|100/100
+|move|p1a: Marshadow|Spectral Thief|p2a: Eternatus
+|-damage|p2a: Eternatus|56/100
+|
+|upkeep
+|turn|16
+|
+|t:|1665862242
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|100/100
+|move|p1a: Marshadow|Rock Tomb|p2a: Eternatus
+|-damage|p2a: Eternatus|74/100
+|-unboost|p2a: Eternatus|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1665862247
+|switch|p2a: Landorus|Landorus-Therian, M|81/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Marshadow|atk|1
+|move|p1a: Marshadow|Spectral Thief|p2a: Landorus
+|-damage|p2a: Landorus|55/100
+|
+|-heal|p2a: Landorus|61/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1665862253
+|move|p1a: Marshadow|Spectral Thief|p2a: Landorus
+|-damage|p2a: Landorus|34/100
+|move|p2a: Landorus|U-turn|p1a: Marshadow
+|-resisted|p1a: Marshadow
+|-damage|p1a: Marshadow|94/100
+|
+|t:|1665862261
+|switch|p2a: Eternatus|Eternatus|74/100|[from]move: U-turn
+|-ability|p2a: Eternatus|Pressure
+|
+|upkeep
+|turn|19
+|
+|t:|1665862266
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Eternatus|Draco Meteor|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|28/100
+|-unboost|p2a: Eternatus|spa|2
+|
+|-heal|p1a: Eternatus|34/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1665862271
+|move|p2a: Eternatus|Draco Meteor|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|-unboost|p2a: Eternatus|spa|2
+|faint|p1a: Eternatus
+|
+|upkeep
+|
+|t:|1665862278
+|switch|p1a: Marshadow|Marshadow|94/100
+|turn|21
+|
+|t:|1665862286
+|switch|p2a: Landorus|Landorus-Therian, M|34/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Marshadow|atk|1
+|move|p1a: Marshadow|Low Kick|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|25/100
+|
+|-heal|p2a: Landorus|31/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1665862296
+|move|p1a: Marshadow|Spectral Thief|p2a: Landorus
+|-damage|p2a: Landorus|5/100
+|move|p2a: Landorus|U-turn|p1a: Marshadow
+|-resisted|p1a: Marshadow
+|-damage|p1a: Marshadow|86/100
+|
+|t:|1665862300
+|switch|p2a: Eternatus|Eternatus|74/100|[from]move: U-turn
+|-ability|p2a: Eternatus|Pressure
+|
+|upkeep
+|turn|23
+|
+|t:|1665862304
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|100/100
+|
+|upkeep
+|turn|24
+|
+|t:|1665862308
+|switch|p1a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Eternatus|Flamethrower|p1a: Calyrex
+|-damage|p1a: Calyrex|72/100
+|-status|p1a: Calyrex|brn
+|
+|-damage|p1a: Calyrex|66/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1665862317
+|switch|p1a: Marshadow|Marshadow|86/100
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|
+|upkeep
+|turn|26
+|
+|t:|1665862338
+|switch|p2a: Landorus|Landorus-Therian, M|5/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Marshadow|atk|1
+|move|p1a: Marshadow|Low Kick|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1665862340
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|turn|27
+|
+|t:|1665862346
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Eternatus|Flamethrower|p1a: Yveltal
+|-damage|p1a: Yveltal|81/100
+|
+|upkeep
+|turn|28
+|
+|t:|1665862349
+|move|p2a: Eternatus|Flamethrower|p1a: Yveltal
+|-damage|p1a: Yveltal|62/100
+|move|p1a: Yveltal|Knock Off|p2a: Eternatus
+|-damage|p2a: Eternatus|60/100
+|-enditem|p2a: Eternatus|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Yveltal
+|
+|upkeep
+|turn|29
+|
+|t:|1665862353
+|move|p2a: Eternatus|Flamethrower|p1a: Yveltal
+|-damage|p1a: Yveltal|42/100
+|move|p1a: Yveltal|Roost|p1a: Yveltal
+|-heal|p1a: Yveltal|92/100
+|-singleturn|p1a: Yveltal|move: Roost
+|
+|upkeep
+|turn|30
+|
+|t:|1665862357
+|move|p2a: Eternatus|Flamethrower|p1a: Yveltal
+|-damage|p1a: Yveltal|73/100
+|move|p1a: Yveltal|Knock Off|p2a: Eternatus
+|-damage|p2a: Eternatus|32/100
+|
+|upkeep
+|turn|31
+|
+|t:|1665862360
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|82/100
+|move|p1a: Yveltal|Knock Off|p2a: Eternatus
+|-damage|p2a: Eternatus|51/100
+|
+|upkeep
+|turn|32
+|
+|t:|1665862363
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|100/100
+|move|p1a: Yveltal|Knock Off|p2a: Eternatus
+|-damage|p2a: Eternatus|69/100
+|
+|upkeep
+|turn|33
+|
+|t:|1665862365
+|move|p2a: Eternatus|Flamethrower|p1a: Yveltal
+|-damage|p1a: Yveltal|51/100
+|move|p1a: Yveltal|Roost|p1a: Yveltal
+|-heal|p1a: Yveltal|100/100
+|-singleturn|p1a: Yveltal|move: Roost
+|
+|upkeep
+|turn|34
+|
+|t:|1665862369
+|move|p2a: Eternatus|Flamethrower|p1a: Yveltal
+|-damage|p1a: Yveltal|80/100
+|move|p1a: Yveltal|Knock Off|p2a: Eternatus
+|-damage|p2a: Eternatus|41/100
+|
+|upkeep
+|turn|35
+|
+|t:|1665862372
+|switch|p1a: Calyrex|Calyrex-Shadow|66/100 brn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|91/100
+|
+|-damage|p1a: Calyrex|60/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1665862380
+|switch|p1a: Marshadow|Marshadow|86/100
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|
+|upkeep
+|turn|37
+|
+|t:|1665862384
+|switch|p2a: Eternatus|Eternatus|91/100
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Marshadow|Rock Tomb|p2a: Eternatus
+|-damage|p2a: Eternatus|64/100
+|-unboost|p2a: Eternatus|spe|1
+|
+|upkeep
+|turn|38
+|
+|t:|1665862388
+|move|p1a: Marshadow|Spectral Thief|p2a: Eternatus
+|-damage|p2a: Eternatus|19/100
+|move|p2a: Eternatus|Draco Meteor|p1a: Marshadow|[miss]
+|-miss|p2a: Eternatus|p1a: Marshadow
+|
+|upkeep
+|turn|39
+|inactive|Lunala has 270 seconds left.
+|
+|t:|1665862451
+|move|p1a: Marshadow|Low Kick|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|
+|upkeep
+|inactive|Lunala has 240 seconds left.
+|
+|t:|1665862473
+|switch|p2a: Zekrom|Zekrom|100/100
+|-ability|p2a: Zekrom|Teravolt
+|turn|40
+|inactive|Exiline has 270 seconds left.
+|
+|t:|1665862527
+|switch|p1a: Yveltal|Yveltal|80/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Zekrom|Scale Shot|p1a: Yveltal
+|-damage|p1a: Yveltal|64/100
+|-damage|p1a: Yveltal|49/100
+|-hitcount|p1a: Yveltal|2
+|-unboost|p2a: Zekrom|def|1
+|-boost|p2a: Zekrom|spe|1
+|-damage|p2a: Zekrom|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|41
+|
+|t:|1665862534
+|move|p2a: Zekrom|Bolt Strike|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|-damage|p2a: Zekrom|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1665862536
+|switch|p1a: Calyrex|Calyrex-Shadow|60/100 brn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|42
+|
+|t:|1665862542
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Calyrex|Astral Barrage|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|65/100
+|
+|-damage|p1a: Calyrex|54/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1665862549
+|move|p1a: Calyrex|Astral Barrage|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|28/100
+|move|p2a: Yveltal|Roost|p2a: Yveltal
+|-heal|p2a: Yveltal|78/100
+|-singleturn|p2a: Yveltal|move: Roost
+|
+|-damage|p1a: Calyrex|48/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1665862554
+|switch|p1a: Zygarde|Zygarde|53/100 tox
+|move|p2a: Yveltal|Knock Off|p1a: Zygarde
+|-damage|p1a: Zygarde|18/100 tox
+|-enditem|p1a: Zygarde|Chesto Berry|[from] move: Knock Off|[of] p2a: Yveltal
+|
+|-damage|p1a: Zygarde|12/100 tox|[from] psn
+|-activate|p1a: Zygarde|ability: Power Construct
+|detailschange|p1a: Zygarde|Zygarde-Complete
+|-heal|p1a: Zygarde|44/100 tox|[silent]
+|upkeep
+|turn|45
+|
+|t:|1665862560
+|move|p2a: Yveltal|Taunt|p1a: Zygarde
+|-start|p1a: Zygarde|move: Taunt
+|move|p1a: Zygarde|Thousand Arrows|p2a: Yveltal
+|-damage|p2a: Yveltal|43/100
+|-start|p2a: Yveltal|Smack Down
+|
+|-damage|p1a: Zygarde|31/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1665862567
+|switch|p1a: Marshadow|Marshadow|86/100
+|move|p2a: Yveltal|Roost|p2a: Yveltal
+|-heal|p2a: Yveltal|93/100
+|-singleturn|p2a: Yveltal|move: Roost
+|
+|upkeep
+|turn|47
+|inactive|Lunala has 270 seconds left.
+|
+|t:|1665862601
+|move|p1a: Marshadow|Low Kick|p2a: Yveltal
+|-damage|p2a: Yveltal|28/100
+|move|p2a: Yveltal|Knock Off|p1a: Marshadow
+|-damage|p1a: Marshadow|15/100
+|-enditem|p1a: Marshadow|Spell Tag|[from] move: Knock Off|[of] p2a: Yveltal
+|
+|upkeep
+|turn|48
+|
+|t:|1665862606
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100 par
+|move|p1a: Marshadow|Low Kick|p2a: Necrozma
+|-damage|p2a: Necrozma|52/100 par
+|
+|-heal|p2a: Necrozma|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1665862614
+|move|p1a: Marshadow|Spectral Thief|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|3/100 par
+|cant|p2a: Necrozma|par
+|
+|-heal|p2a: Necrozma|9/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1665862621
+|move|p1a: Marshadow|Low Kick|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|upkeep
+|
+|t:|1665862623
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|51
+|
+|t:|1665862628
+|move|p2a: Weavile|Ice Shard|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|upkeep
+|
+|t:|1665862630
+|switch|p1a: Calyrex|Calyrex-Shadow|48/100 brn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|52
+|
+|t:|1665862648
+|move|p2a: Weavile|Ice Shard|p1a: Calyrex
+|-damage|p1a: Calyrex|14/100 brn
+|move|p1a: Calyrex|Astral Barrage|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|17/100
+|
+|-damage|p1a: Calyrex|8/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|t:|1665862654
+|move|p2a: Weavile|Ice Shard|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1665862655
+|switch|p1a: Zygarde|Zygarde-Complete|31/100 tox
+|turn|54
+|
+|t:|1665862658
+|move|p2a: Weavile|Ice Shard|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-damage|p1a: Zygarde|0 fnt
+|faint|p1a: Zygarde
+|
+|win|Lunala
+|c|☆Lunala|gg
+|c|☆Exiline|g_g

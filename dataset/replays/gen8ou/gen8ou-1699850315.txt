@@ -1,0 +1,400 @@
+|j|‽minimax_ai
+|j|☆Huskothy
+|t:|1667276878
+|gametype|singles
+|player|p1|minimax_ai|266|1577
+|player|p2|Huskothy|lucas|1817
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Swampert, M|
+|poke|p2|Obstagoon, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Regieleki|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Clefable, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|inactive|Huskothy has 120 seconds left.
+|inactive|Huskothy has 90 seconds left.
+|inactive|Huskothy has 60 seconds left.
+|
+|t:|1667276992
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Weavile|Pressure
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Weavile|atk|1
+|turn|1
+|
+|t:|1667276996
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Weavile|Triple Axel|p2a: Clefable
+|-damage|p2a: Clefable|91/100
+|-damage|p1a: Weavile|84/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|-damage|p2a: Clefable|75/100
+|-damage|p1a: Weavile|68/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|-damage|p2a: Clefable|49/100
+|-damage|p1a: Weavile|51/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|-hitcount|p2a: Clefable|3
+|
+|upkeep
+|turn|2
+|inactive|Huskothy has 120 seconds left.
+|
+|t:|1667277021
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|99/100
+|
+|upkeep
+|turn|3
+|
+|t:|1667277026
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Magma Storm|p2a: Landorus
+|-damage|p2a: Landorus|58/100
+|-activate|p2a: Landorus|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Landorus|64/100|[from] item: Leftovers
+|-damage|p2a: Landorus|52/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1667277029
+|move|p1a: Heatran|Eruption|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1667277034
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|turn|5
+|
+|t:|1667277035
+|move|p2a: Obstagoon|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|59/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Magma Storm|p2a: Obstagoon
+|-damage|p2a: Obstagoon|35/100
+|-activate|p2a: Obstagoon|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Obstagoon|23/100|[from] move: Magma Storm|[partiallytrapped]
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1667277041
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Obstagoon|Parting Shot|p1a: Tangrowth
+|-unboost|p1a: Tangrowth|atk|1
+|-unboost|p1a: Tangrowth|spa|1
+|
+|t:|1667277052
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|7
+|
+|t:|1667277054
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Spikes|p1a: Landorus
+|-sidestart|p1: minimax_ai|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1667277057
+|move|p1a: Landorus|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: minimax_ai|Spikes|[from] move: Defog|[of] p1a: Landorus
+|move|p2a: Ferrothorn|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|
+|-damage|p1a: Landorus|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|9
+|
+|t:|1667277059
+|move|p1a: Landorus|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|-damage|p1a: Landorus|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|t:|1667277059
+|switch|p1a: Heatran|Heatran, M|59/100|[from]move: U-turn
+|move|p2a: Ferrothorn|Body Press|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1667277060
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|turn|10
+|
+|t:|1667277062
+|move|p1a: Tangrowth|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Chople Berry|[eat]
+|-enditem|p2a: Ferrothorn|Chople Berry|[weaken]
+|-damage|p2a: Ferrothorn|64/100
+|move|p2a: Ferrothorn|Spikes|p1a: Tangrowth
+|-sidestart|p1: minimax_ai|Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1667277067
+|switch|p2a: Clefable|Clefable, M|99/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|87/100
+|
+|upkeep
+|turn|12
+|
+|t:|1667277069
+|switch|p1a: Landorus|Landorus-Therian, M|76/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Clefable|atk|1
+|move|p2a: Clefable|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|51/100
+|
+|-heal|p1a: Landorus|57/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1667277071
+|move|p1a: Landorus|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|-sideend|p1: minimax_ai|Spikes|[from] move: Defog|[of] p1a: Landorus
+|move|p2a: Clefable|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|34/100
+|-unboost|p1a: Landorus|spa|1
+|
+|-heal|p1a: Landorus|40/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1667277073
+|move|p1a: Landorus|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|42/100
+|move|p2a: Clefable|Moonblast|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|3/100
+|
+|-heal|p1a: Landorus|9/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1667277076
+|move|p1a: Landorus|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|4/100
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|54/100
+|
+|-heal|p1a: Landorus|15/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1667277080
+|move|p1a: Landorus|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|13/100
+|move|p2a: Clefable|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1667277080
+|switch|p1a: Weavile|Weavile, F|51/100
+|-ability|p1a: Weavile|Pressure
+|turn|17
+|
+|t:|1667277086
+|move|p1a: Weavile|Triple Axel|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Weavile|35/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|faint|p2a: Clefable
+|-hitcount|p2: Clefable|1
+|
+|upkeep
+|
+|t:|1667277088
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|18
+|
+|t:|1667277090
+|move|p2a: Regieleki|Thunderbolt|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1667277090
+|switch|p1a: Melmetal|Melmetal|100/100
+|turn|19
+|
+|t:|1667277092
+|move|p2a: Regieleki|Volt Switch|p1a: Melmetal
+|-damage|p1a: Melmetal|76/100
+|
+|t:|1667277094
+|switch|p2a: Ferrothorn|Ferrothorn, F|64/100|[from]move: Volt Switch
+|move|p1a: Melmetal|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|43/100
+|
+|upkeep
+|turn|20
+|
+|t:|1667277096
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|82/100
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|62/100
+|-hitcount|p2a: Swampert|2
+|
+|-heal|p2a: Swampert|68/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1667277099
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Swampert|Bulk Up|p2a: Swampert
+|-boost|p2a: Swampert|atk|1
+|-boost|p2a: Swampert|def|1
+|
+|-heal|p2a: Swampert|75/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1667277107
+|move|p2a: Swampert|Substitute|p2a: Swampert
+|-start|p2a: Swampert|Substitute
+|-damage|p2a: Swampert|50/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-end|p2a: Swampert|Substitute
+|
+|-heal|p2a: Swampert|56/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1667277110
+|switch|p2a: Ferrothorn|Ferrothorn, F|43/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|37/100
+|
+|upkeep
+|turn|24
+|
+|t:|1667277112
+|move|p1a: Tangrowth|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1667277113
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|25
+|
+|t:|1667277116
+|move|p2a: Regieleki|Volt Switch|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|66/100
+|
+|t:|1667277117
+|switch|p2a: Obstagoon|Obstagoon, F|23/100 brn|[from]move: Volt Switch
+|move|p1a: Tangrowth|Giga Drain|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|-heal|p1a: Tangrowth|75/100|[from] drain|[of] p2a: Obstagoon
+|faint|p2a: Obstagoon
+|
+|upkeep
+|
+|t:|1667277119
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|26
+|
+|t:|1667277121
+|move|p2a: Regieleki|Thunderbolt|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|29/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Regieleki
+|-damage|p2a: Regieleki|41/100
+|-heal|p1a: Tangrowth|51/100|[from] drain|[of] p2a: Regieleki
+|
+|upkeep
+|turn|27
+|
+|t:|1667277124
+|switch|p1a: Melmetal|Melmetal|76/100
+|move|p2a: Regieleki|Volt Switch|p1a: Melmetal
+|-damage|p1a: Melmetal|53/100
+|
+|t:|1667277126
+|switch|p2a: Swampert|Swampert, M|56/100|[from]move: Volt Switch
+|
+|-heal|p2a: Swampert|62/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1667277127
+|switch|p2a: Regieleki|Regieleki|41/100
+|switch|p1a: Tangrowth|Tangrowth, M|84/100
+|
+|upkeep
+|turn|29
+|
+|t:|1667277129
+|move|p2a: Regieleki|Volt Switch|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|51/100
+|
+|t:|1667277130
+|switch|p2a: Swampert|Swampert, M|62/100|[from]move: Volt Switch
+|move|p1a: Tangrowth|Giga Drain|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|-heal|p1a: Tangrowth|81/100|[from] drain|[of] p2a: Swampert
+|faint|p2a: Swampert
+|
+|upkeep
+|c|☆Huskothy|gg
+|-message|Huskothy forfeited.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1577 &rarr; <strong>1609</strong><br />(+32 for winning)
+|raw|Huskothy's rating: 1817 &rarr; <strong>1785</strong><br />(-32 for losing)
+|l|☆Huskothy

@@ -1,0 +1,776 @@
+|j|☆the devil's share
+|j|☆Kla0Trixx
+|player|p1|the devil's share|lucas|1504
+|player|p2|Kla0Trixx|265|1501
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Ferroseed, F|
+|poke|p1|Darmanitan, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Noivern, M|
+|poke|p1|Sylveon, M|
+|poke|p1|Rhyperior, M|
+|poke|p2|Incineroar, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Gastrodon-East, M|
+|poke|p2|Cobalion|
+|poke|p2|Celebi|
+|poke|p2|Rotom-Mow|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Mendinos
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Noivern
+|-damage|p1a: Noivern|66/100
+|
+|switch|p2a: Incineroar|Incineroar, M|100/100|[from]move: Volt Switch
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Noivern|atk|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Noivern|U-turn|p2a: Incineroar
+|-damage|p2a: Incineroar|94/100
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100|[from]move: U-turn
+|move|p2a: Incineroar|Knock Off|p1a: Rhyperior
+|-damage|p1a: Rhyperior|67/100
+|-enditem|p1a: Rhyperior|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Incineroar|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|52/100
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100|[from]move: U-turn
+|move|p1a: Rhyperior|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Kla0Trixx|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Weezing|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: Kla0Trixx|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Ferroseed|Ferroseed, F|100/100
+|move|p2a: Gastrodon|Toxic|p1a: Ferroseed
+|-immune|p1a: Ferroseed
+|
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Ferroseed|Spikes|p2a: Rotom
+|-sidestart|p2: Kla0Trixx|Spikes
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Trick|p1a: Ferroseed
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Ferroseed
+|-item|p1a: Ferroseed|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Eviolite|[from] move: Trick
+|move|p1a: Ferroseed|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|84/100
+|-enditem|p2a: Rotom|Eviolite|[from] move: Knock Off|[of] p1a: Ferroseed
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Rhyperior|Rhyperior, M|52/100
+|move|p2a: Rotom|Volt Switch|p1a: Rhyperior
+|-immune|p1a: Rhyperior
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Noivern|Noivern, M|66/100
+|move|p2a: Rotom|Leaf Storm|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|49/100
+|-unboost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|94/100 brn
+|-damage|p2a: Gastrodon|82/100 brn|[from] Spikes
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|99/100
+|-singleturn|p1a: Noivern|move: Roost
+|
+|-heal|p2a: Gastrodon|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|82/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|move|p1a: Noivern|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|99/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1a: Rotom|Trick|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|switch|p2a: Rotom|Rotom-Mow|84/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|move|p1a: Darmanitan|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|97/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|move|p2a: Weezing|Protect||[still]
+|-fail|p2a: Weezing
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1a: Darmanitan|Bulk Up|p1a: Darmanitan
+|-boost|p1a: Darmanitan|atk|1
+|-boost|p1a: Darmanitan|def|1
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Weezing
+|-damage|p2a: Weezing|11/100
+|-damage|p1a: Darmanitan|73/100|[from] Recoil
+|move|p2a: Weezing|Toxic|p1a: Darmanitan
+|-status|p1a: Darmanitan|tox
+|
+|-heal|p2a: Weezing|17/100|[from] item: Black Sludge
+|-damage|p1a: Darmanitan|67/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1a: Darmanitan|Flare Blitz|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|
+|-heal|p2a: Weezing|23/100|[from] item: Black Sludge
+|-damage|p1a: Darmanitan|55/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Rotom|Rotom-Mow|84/100
+|move|p1a: Darmanitan|Rock Slide|p2a: Rotom
+|-damage|p2a: Rotom|15/100
+|
+|-damage|p1a: Darmanitan|37/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Darmanitan|U-turn|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|j| Bale2711
+|
+|switch|p1a: Noivern|Noivern, M|99/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|82/100 brn
+|-damage|p2a: Gastrodon|69/100 brn|[from] Spikes
+|turn|22
+|
+|move|p1a: Noivern|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|58/100 brn
+|
+|switch|p1a: Ferroseed|Ferroseed, F|100/100|[from]move: U-turn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p2a: Weezing|Weezing-Galar, M|23/100
+|move|p1a: Ferroseed|Knock Off|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|19/100
+|-enditem|p2a: Weezing|Black Sludge|[from] move: Knock Off|[of] p1a: Ferroseed
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|move|p2a: Weezing|Defog|p1a: Sylveon
+|-unboost|p1a: Sylveon|evasion|1
+|-sideend|p2: Kla0Trixx|Spikes|[from] move: Defog|[of] p2a: Weezing
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Incineroar|Incineroar, M|94/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sylveon|atk|1
+|move|p1a: Sylveon|Hyper Voice|p2a: Incineroar
+|-damage|p2a: Incineroar|70/100
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Incineroar|Knock Off|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Incineroar|Knock Off|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|81/100
+|-enditem|p1a: Sylveon|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Sylveon|Hyper Voice|p2a: Incineroar
+|-damage|p2a: Incineroar|46/100
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|move|p1a: Sylveon|Protect||[still]
+|-fail|p1a: Sylveon
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Celebi
+|-status|p2a: Celebi|brn
+|
+|-damage|p2a: Celebi|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p1a: Ferroseed|Ferroseed, F|100/100
+|move|p2a: Celebi|Stealth Rock|p1a: Ferroseed
+|-sidestart|p1: the devil's share|move: Stealth Rock
+|
+|-heal|p2a: Celebi|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Celebi|94/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|move|p1a: Ferroseed|Spikes|p2a: Cobalion
+|-sidestart|p2: Kla0Trixx|Spikes
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Noivern|Noivern, M|99/100
+|move|p2a: Cobalion|Close Combat|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|73/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|94/100 brn
+|-damage|p2a: Gastrodon|82/100 brn|[from] Spikes
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|100/100
+|-singleturn|p1a: Noivern|move: Roost
+|
+|-heal|p2a: Gastrodon|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|82/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Noivern|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|70/100 brn
+|
+|switch|p1a: Ferroseed|Ferroseed, F|100/100|[from]move: U-turn
+|-damage|p1a: Ferroseed|94/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Scald|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|77/100
+|
+|-heal|p2a: Gastrodon|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|70/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p2a: Gastrodon|Scald|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|61/100
+|-status|p1a: Ferroseed|brn
+|move|p1a: Ferroseed|Leech Seed|p2a: Gastrodon
+|-start|p2a: Gastrodon|move: Leech Seed
+|
+|-heal|p2a: Gastrodon|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|64/100 brn|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|79/100 brn|[silent]
+|-damage|p2a: Gastrodon|58/100 brn|[from] brn
+|-damage|p1a: Ferroseed|73/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|switch|p1a: Rhyperior|Rhyperior, M|52/100
+|-damage|p1a: Rhyperior|45/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-damage|p2a: Gastrodon|88/100 brn|[from] Leech Seed|[of] p1a: Rhyperior
+|-heal|p1a: Rhyperior|58/100|[silent]
+|-damage|p2a: Gastrodon|82/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Rhyperior|Stealth Rock|p2a: Gastrodon
+|-sidestart|p2: Kla0Trixx|move: Stealth Rock
+|move|p2a: Gastrodon|Scald|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-heal|p2a: Gastrodon|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|39
+|
+|switch|p2a: Celebi|Celebi|94/100
+|-damage|p2a: Celebi|82/100|[from] Stealth Rock
+|-damage|p2a: Celebi|70/100|[from] Spikes
+|move|p1a: Rotom|Volt Switch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|56/100
+|
+|switch|p1a: Noivern|Noivern, M|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Celebi|62/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Noivern|Hurricane|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|faint|p2a: Celebi
+|
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|82/100 brn
+|-damage|p2a: Gastrodon|69/100 brn|[from] Spikes
+|-damage|p2a: Gastrodon|63/100 brn|[from] Stealth Rock
+|turn|41
+|
+|move|p1a: Noivern|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|51/100 brn
+|
+|switch|p1a: Rotom|Rotom-Wash|88/100|[from]move: U-turn
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|switch|p2a: Weezing|Weezing-Galar, M|19/100
+|-damage|p2a: Weezing|7/100|[from] Stealth Rock
+|move|p1a: Rotom|Trick|p2a: Weezing
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Weezing
+|-item|p2a: Weezing|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Rotom|Choice Scarf|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Rotom|Volt Switch|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|switch|p1a: Noivern|Noivern, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|94/100 brn
+|-damage|p2a: Gastrodon|88/100 brn|[from] Stealth Rock
+|-damage|p2a: Gastrodon|76/100 brn|[from] Spikes
+|turn|44
+|
+|move|p1a: Noivern|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|64/100 brn
+|
+|switch|p1a: Ferroseed|Ferroseed, F|73/100 brn|[from]move: U-turn
+|-damage|p1a: Ferroseed|67/100 brn|[from] Stealth Rock
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|-damage|p1a: Ferroseed|60/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p2a: Gastrodon|Scald|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|45/100 brn
+|move|p1a: Ferroseed|Leech Seed|p2a: Gastrodon
+|-start|p2a: Gastrodon|move: Leech Seed
+|
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 brn|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|63/100 brn|[silent]
+|-damage|p2a: Gastrodon|82/100 brn|[from] brn
+|-damage|p1a: Ferroseed|57/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|88/100|[from] Spikes
+|-damage|p2a: Cobalion|85/100|[from] Stealth Rock
+|switch|p1a: Rotom|Rotom-Wash|76/100
+|-damage|p1a: Rotom|64/100|[from] Stealth Rock
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Cobalion|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|48/100
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|82/100 brn|[from]move: Volt Switch
+|-damage|p2a: Gastrodon|76/100 brn|[from] Stealth Rock
+|-damage|p2a: Gastrodon|63/100 brn|[from] Spikes
+|move|p1a: Rotom|Volt Switch|p2a: Gastrodon
+|-immune|p2a: Gastrodon
+|
+|-heal|p2a: Gastrodon|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|63/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p1a: Rotom|Trick|p2a: Gastrodon
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Gastrodon
+|-enditem|p2a: Gastrodon|Leftovers|[silent]|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-heal|p1a: Rotom|54/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|move|p2a: Gastrodon|Toxic|p1a: Noivern
+|-status|p1a: Noivern|tox
+|
+|-damage|p1a: Noivern|94/100 tox|[from] psn
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p1a: Noivern|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|77/100 brn
+|
+|switch|p1a: Ferroseed|Ferroseed, F|57/100 brn|[from]move: U-turn
+|-damage|p1a: Ferroseed|50/100 brn|[from] Stealth Rock
+|move|p2a: Gastrodon|Scald|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|34/100 brn
+|
+|-damage|p2a: Gastrodon|71/100 brn|[from] brn
+|-damage|p1a: Ferroseed|28/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|move|p1a: Ferroseed|Leech Seed|p2a: Gastrodon
+|-start|p2a: Gastrodon|move: Leech Seed
+|
+|-damage|p2a: Gastrodon|88/100 brn|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|46/100 brn|[silent]
+|-damage|p2a: Gastrodon|82/100 brn|[from] brn
+|-damage|p1a: Ferroseed|40/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|switch|p2a: Cobalion|Cobalion|85/100
+|-damage|p2a: Cobalion|82/100|[from] Stealth Rock
+|-damage|p2a: Cobalion|70/100|[from] Spikes
+|move|p1a: Ferroseed|Leech Seed|p2a: Cobalion
+|-start|p2a: Cobalion|move: Leech Seed
+|
+|-damage|p2a: Cobalion|57/100|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|54/100 brn|[silent]
+|-damage|p1a: Ferroseed|47/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|switch|p1a: Noivern|Noivern, M|94/100 tox
+|move|p2a: Cobalion|Volt Switch|p1a: Noivern
+|-damage|p1a: Noivern|78/100 tox
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|82/100 brn|[from]move: Volt Switch
+|-damage|p2a: Gastrodon|69/100 brn|[from] Spikes
+|-damage|p2a: Gastrodon|63/100 brn|[from] Stealth Rock
+|
+|-damage|p1a: Noivern|72/100 tox|[from] psn
+|-damage|p2a: Gastrodon|57/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Noivern|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|45/100 brn
+|
+|switch|p1a: Darmanitan|Darmanitan, M|37/100 tox|[from]move: U-turn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|95/100 brn
+|
+|-damage|p1a: Darmanitan|31/100 tox|[from] psn
+|-damage|p2a: Gastrodon|89/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p1a: Darmanitan|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|60/100 brn
+|
+|switch|p1a: Sylveon|Sylveon, M|81/100|[from]move: U-turn
+|-damage|p1a: Sylveon|68/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Earth Power|p1a: Sylveon
+|-damage|p1a: Sylveon|46/100
+|
+|-damage|p2a: Gastrodon|54/100 brn|[from] brn
+|upkeep
+|turn|56
+|j| Youtube-Lucurryo
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Gastrodon
+|-damage|p2a: Gastrodon|29/100 brn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|79/100 brn
+|
+|-damage|p2a: Gastrodon|72/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|switch|p2a: Incineroar|Incineroar, M|46/100
+|-damage|p2a: Incineroar|34/100|[from] Spikes
+|-damage|p2a: Incineroar|9/100|[from] Stealth Rock
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sylveon|atk|1
+|move|p1a: Sylveon|Protect||[still]
+|-fail|p1a: Sylveon
+|
+|upkeep
+|turn|58
+|
+|switch|p1a: Rotom|Rotom-Wash|54/100
+|-damage|p1a: Rotom|42/100|[from] Stealth Rock
+|move|p2a: Incineroar|Flare Blitz|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|10/100
+|-damage|p2a: Incineroar|1/100|[from] Recoil
+|
+|-heal|p1a: Rotom|16/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|72/100 brn
+|-damage|p2a: Gastrodon|66/100 brn|[from] Stealth Rock
+|-damage|p2a: Gastrodon|54/100 brn|[from] Spikes
+|move|p1a: Rotom|Volt Switch|p2a: Gastrodon
+|-immune|p2a: Gastrodon
+|
+|-heal|p1a: Rotom|22/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|48/100 brn|[from] brn
+|upkeep
+|turn|60
+|
+|switch|p1a: Darmanitan|Darmanitan, M|31/100 tox
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|98/100 brn
+|
+|-damage|p1a: Darmanitan|25/100 tox|[from] psn
+|-damage|p2a: Gastrodon|92/100 brn|[from] brn
+|upkeep
+|turn|61
+|
+|move|p1a: Darmanitan|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|62/100 brn
+|
+|switch|p1a: Sylveon|Sylveon, M|46/100|[from]move: U-turn
+|-damage|p1a: Sylveon|34/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Scald|p1a: Sylveon
+|-damage|p1a: Sylveon|17/100
+|
+|-damage|p2a: Gastrodon|56/100 brn|[from] brn
+|upkeep
+|turn|62
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Gastrodon|Earth Power|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|-damage|p2a: Gastrodon|50/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Darmanitan|Darmanitan, M|25/100 tox
+|turn|63
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|2/100 brn
+|-damage|p1a: Darmanitan|6/100 tox|[from] Recoil
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|52/100 brn
+|
+|-heal|p1a: Darmanitan|62/100 tox|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Darmanitan|56/100 tox|[from] psn
+|-damage|p2a: Gastrodon|46/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|switch|p2a: Incineroar|Incineroar, M|1/100
+|-damage|p2a: Incineroar|0 fnt|[from] Spikes
+|faint|p2a: Incineroar
+|move|p1a: Darmanitan|Flare Blitz|p2: Incineroar|[notarget]
+|-fail|p1a: Darmanitan
+|
+|-damage|p1a: Darmanitan|44/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Cobalion|Cobalion|57/100
+|-damage|p2a: Cobalion|54/100|[from] Stealth Rock
+|-damage|p2a: Cobalion|42/100|[from] Spikes
+|turn|65
+|
+|switch|p1a: Noivern|Noivern, M|72/100 tox
+|move|p2a: Cobalion|Close Combat|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|43/100 tox
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|
+|-damage|p1a: Noivern|37/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|46/100 brn
+|-damage|p2a: Gastrodon|40/100 brn|[from] Stealth Rock
+|-damage|p2a: Gastrodon|27/100 brn|[from] Spikes
+|move|p1a: Noivern|Hurricane|p2a: Gastrodon
+|-damage|p2a: Gastrodon|1/100 brn
+|-start|p2a: Gastrodon|confusion
+|
+|-damage|p1a: Noivern|25/100 tox|[from] psn
+|-damage|p2a: Gastrodon|0 fnt|[from] brn
+|faint|p2a: Gastrodon
+|upkeep
+|
+|switch|p2a: Cobalion|Cobalion|42/100
+|-damage|p2a: Cobalion|29/100|[from] Spikes
+|-damage|p2a: Cobalion|26/100|[from] Stealth Rock
+|turn|67
+|
+|move|p1a: Noivern|U-turn|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|24/100
+|-enditem|p2a: Cobalion|Salac Berry|[eat]
+|-boost|p2a: Cobalion|spe|1|[from] item: Salac Berry
+|l| Bale2711
+|c|☆the devil's share|oh damn
+|c|☆Kla0Trixx|indeed
+|
+|switch|p1a: Ferroseed|Ferroseed, F|47/100 brn|[from]move: U-turn
+|-damage|p1a: Ferroseed|41/100 brn|[from] Stealth Rock
+|move|p2a: Cobalion|Iron Head|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|27/100 brn
+|-damage|p2a: Cobalion|12/100|[from] ability: Iron Barbs|[of] p1a: Ferroseed
+|
+|-damage|p1a: Ferroseed|21/100 brn|[from] brn
+|upkeep
+|turn|68
+|c|☆the devil's share|phew
+|c|☆the devil's share|great game
+|c|☆Kla0Trixx|yeah gg
+|
+|move|p2a: Cobalion|Volt Switch|p1a: Ferroseed
+|-resisted|p1a: Ferroseed
+|-damage|p1a: Ferroseed|12/100 brn
+|move|p1a: Ferroseed|Leech Seed|p2a: Cobalion
+|-start|p2a: Cobalion|move: Leech Seed
+|
+|-damage|p2a: Cobalion|0 fnt|[from] Leech Seed|[of] p1a: Ferroseed
+|-heal|p1a: Ferroseed|24/100 brn|[silent]
+|faint|p2a: Cobalion
+|
+|win|the devil's share
+|upkeep

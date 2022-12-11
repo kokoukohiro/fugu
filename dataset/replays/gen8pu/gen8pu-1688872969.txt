@@ -1,0 +1,276 @@
+|j|☆GenesysLePetitDieu
+|j|☆JoJo Reference #11
+|t:|1666113178
+|gametype|singles
+|player|p1|GenesysLePetitDieu|rocketgrunt|1113
+|player|p2|JoJo Reference #11|1|1130
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Silvally-*|
+|poke|p1|Whimsicott, F|
+|poke|p1|Wishiwashi, F|
+|poke|p1|Garbodor, M|
+|poke|p1|Aggron, M|
+|poke|p1|Articuno-Galar|
+|poke|p2|Absol, M|
+|poke|p2|Shuckle, M|
+|poke|p2|Leafeon, M|
+|poke|p2|Froslass, F|
+|poke|p2|Jolteon, F|
+|poke|p2|Gourgeist-*, F|
+|teampreview
+|
+|t:|1666113188
+|start
+|switch|p1a: Galeking|Aggron, M, shiny|100/100
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|turn|1
+|
+|t:|1666113193
+|move|p2a: Jolteon|Volt Switch|p1a: Galeking
+|-damage|p1a: Galeking|54/100
+|
+|t:|1666113202
+|switch|p2a: Gourgeist|Gourgeist, F|100/100|[from]move: Volt Switch
+|-item|p1a: Galeking|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Galeking|Stealth Rock|p2a: Gourgeist
+|-sidestart|p2: JoJo Reference #11|move: Stealth Rock
+|
+|-heal|p1a: Galeking|60/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1666113211
+|move|p2a: Gourgeist|Poltergeist|p1a: Galeking
+|-activate|p1a: Galeking|move: Poltergeist|Leftovers
+|-damage|p1a: Galeking|33/100
+|move|p1a: Galeking|Stealth Rock||[still]
+|-fail|p1a: Galeking
+|
+|-heal|p1a: Galeking|39/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1666113224
+|switch|p1a: Miasmax|Garbodor, M, shiny|100/100
+|move|p2a: Gourgeist|Poltergeist|p1a: Miasmax
+|-activate|p1a: Miasmax|move: Poltergeist|Black Sludge
+|-damage|p1a: Miasmax|59/100
+|
+|-heal|p1a: Miasmax|65/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1666113233
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|-damage|p2a: Shuckle|76/100|[from] Stealth Rock
+|move|p1a: Miasmax|Spikes|p2a: Shuckle
+|-sidestart|p2: JoJo Reference #11|Spikes
+|
+|-heal|p1a: Miasmax|71/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1666113246
+|move|p1a: Miasmax|Spikes|p2a: Shuckle
+|-sidestart|p2: JoJo Reference #11|Spikes
+|move|p2a: Shuckle|Sticky Web|p1a: Miasmax
+|-sidestart|p1: GenesysLePetitDieu|move: Sticky Web
+|
+|-heal|p1a: Miasmax|77/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1666113252
+|switch|p1a: Silvallié|Silvally-Ghost, shiny|100/100
+|-activate|p1a: Silvallié|move: Sticky Web
+|-unboost|p1a: Silvallié|spe|1
+|move|p2a: Shuckle|Stealth Rock|p1a: Silvallié
+|-sidestart|p1: GenesysLePetitDieu|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1666113258
+|move|p1a: Silvallié|Substitute|p1a: Silvallié
+|-start|p1a: Silvallié|Substitute
+|-damage|p1a: Silvallié|76/100
+|move|p2a: Shuckle|Encore|p1a: Silvallié
+|-start|p1a: Silvallié|Encore
+|
+|upkeep
+|turn|8
+|
+|t:|1666113264
+|move|p1a: Silvallié|Substitute|p1a: Silvallié
+|-fail|p1a: Silvallié|move: Substitute
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-unboost|p2a: Shuckle|def|1
+|-unboost|p2a: Shuckle|spd|1
+|-boost|p2a: Shuckle|atk|2
+|-boost|p2a: Shuckle|spa|2
+|-boost|p2a: Shuckle|spe|2
+|-enditem|p2a: Shuckle|Eject Pack
+|
+|t:|1666113265
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1666113274
+|move|p2a: Leafeon|Copycat|p2a: Leafeon
+|move|p2a: Leafeon|Shell Smash|p2a: Leafeon|[from]move: Copycat
+|-unboost|p2a: Leafeon|def|1
+|-unboost|p2a: Leafeon|spd|1
+|-boost|p2a: Leafeon|atk|2
+|-boost|p2a: Leafeon|spa|2
+|-boost|p2a: Leafeon|spe|2
+|move|p1a: Silvallié|Substitute|p1a: Silvallié
+|-fail|p1a: Silvallié|move: Substitute
+|
+|upkeep
+|turn|10
+|
+|t:|1666113281
+|move|p2a: Leafeon|Knock Off|p1a: Silvallié
+|-supereffective|p1a: Silvallié
+|-end|p1a: Silvallié|Substitute
+|move|p1a: Silvallié|Substitute|p1a: Silvallié
+|-start|p1a: Silvallié|Substitute
+|-damage|p1a: Silvallié|51/100
+|
+|-end|p1a: Silvallié|Encore
+|upkeep
+|turn|11
+|
+|t:|1666113289
+|move|p2a: Leafeon|Knock Off|p1a: Silvallié
+|-supereffective|p1a: Silvallié
+|-end|p1a: Silvallié|Substitute
+|move|p1a: Silvallié|Flame Charge|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|55/100
+|-boost|p1a: Silvallié|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1666113299
+|move|p2a: Leafeon|Knock Off|p1a: Silvallié
+|-supereffective|p1a: Silvallié
+|-damage|p1a: Silvallié|0 fnt
+|faint|p1a: Silvallié
+|
+|upkeep
+|
+|t:|1666113304
+|switch|p1a: Miasmax|Garbodor, M, shiny|77/100
+|-activate|p1a: Miasmax|move: Sticky Web
+|-unboost|p1a: Miasmax|spe|1
+|-damage|p1a: Miasmax|65/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1666113310
+|move|p2a: Leafeon|Giga Impact|p1a: Miasmax
+|-damage|p1a: Miasmax|0 fnt
+|-mustrecharge|p2a: Leafeon
+|-damage|p2a: Leafeon|31/100|[from] ability: Aftermath|[of] p1a: Miasmax
+|faint|p1a: Miasmax
+|
+|upkeep
+|
+|t:|1666113320
+|switch|p1a: Farfaduvet|Whimsicott, F, shiny|100/100
+|turn|14
+|
+|t:|1666113325
+|cant|p2a: Leafeon|recharge
+|move|p1a: Farfaduvet|U-turn|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|1/100
+|
+|t:|1666113330
+|switch|p1a: Galeking|Aggron, M, shiny|39/100|[from]move: U-turn
+|-activate|p1a: Galeking|move: Sticky Web
+|-unboost|p1a: Galeking|spe|1
+|-damage|p1a: Galeking|33/100|[from] Stealth Rock
+|
+|-heal|p1a: Galeking|39/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1666113340
+|move|p2a: Leafeon|Leaf Blade|p1a: Galeking
+|-damage|p1a: Galeking|0 fnt
+|faint|p1a: Galeking
+|
+|upkeep
+|
+|t:|1666113345
+|switch|p1a: Farfaduvet|Whimsicott, F, shiny|100/100
+|turn|16
+|
+|t:|1666113349
+|move|p2a: Leafeon|Leaf Blade|p1a: Farfaduvet
+|-resisted|p1a: Farfaduvet
+|-damage|p1a: Farfaduvet|33/100
+|move|p1a: Farfaduvet|U-turn|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|t:|1666113356
+|switch|p1a: Artikodin de Galar|Articuno-Galar, shiny|100/100|[from]move: U-turn
+|-damage|p1a: Artikodin de Galar|76/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1666113358
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|-damage|p2a: Jolteon|88/100|[from] Stealth Rock
+|-damage|p2a: Jolteon|72/100|[from] Spikes
+|turn|17
+|
+|t:|1666113365
+|switch|p1a: Farfaduvet|Whimsicott, F, shiny|33/100
+|move|p2a: Jolteon|Thunderbolt|p1a: Farfaduvet
+|-resisted|p1a: Farfaduvet
+|-damage|p1a: Farfaduvet|0 fnt
+|faint|p1a: Farfaduvet
+|
+|upkeep
+|
+|t:|1666113371
+|switch|p1a: Froussardine|Wishiwashi, F, shiny|100/100
+|-activate|p1a: Froussardine|move: Sticky Web
+|-unboost|p1a: Froussardine|spe|1
+|-damage|p1a: Froussardine|88/100|[from] Stealth Rock
+|-formechange|p1a: Froussardine|Wishiwashi-School||[from] ability: Schooling
+|turn|18
+|
+|t:|1666113380
+|move|p2a: Jolteon|Thunderbolt|p1a: Froussardine
+|-supereffective|p1a: Froussardine
+|-damage|p1a: Froussardine|0 fnt
+|faint|p1a: Froussardine
+|
+|upkeep
+|-message|GenesysLePetitDieu forfeited.
+|
+|win|JoJo Reference #11
+|raw|GenesysLePetitDieu's rating: 1113 &rarr; <strong>1089</strong><br />(-24 for losing)
+|raw|JoJo Reference #11's rating: 1130 &rarr; <strong>1154</strong><br />(+24 for winning)
+|l|☆GenesysLePetitDieu

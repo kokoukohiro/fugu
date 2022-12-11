@@ -1,0 +1,437 @@
+|j|☆bosstrich
+|j|☆Groundhog295
+|t:|1597871431
+|player|p1|bosstrich|maylene|1350
+|player|p2|Groundhog295|acetrainerf|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Bewear, F|
+|poke|p1|Gardevoir, F|
+|poke|p1|Druddigon, F|
+|poke|p1|Drapion, F|
+|poke|p1|Dhelmise|
+|poke|p2|Heliolisk, M|
+|poke|p2|Dragalge, F|
+|poke|p2|Inteleon, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Arcanine, M|
+|poke|p2|Umbreon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1597871445
+|start
+|switch|p1a: Druddigon|Druddigon, F|100/100
+|switch|p2a: Dragalge|Dragalge, F|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|1
+|
+|t:|1597871461
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Druddigon|Glare|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|upkeep
+|turn|2
+|
+|t:|1597871466
+|move|p2a: Rotom|Will-O-Wisp|p1a: Druddigon
+|-status|p1a: Druddigon|brn
+|move|p1a: Druddigon|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Groundhog295|move: Stealth Rock
+|
+|-damage|p1a: Druddigon|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1597871477
+|move|p2a: Rotom|Volt Switch|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|74/100 brn
+|
+|t:|1597871484
+|switch|p2a: Dragalge|Dragalge, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Dragalge|88/100|[from] Stealth Rock
+|move|p1a: Druddigon|Stealth Rock||[still]
+|-fail|p1a: Druddigon
+|
+|-damage|p1a: Druddigon|68/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1597871493
+|move|p1a: Druddigon|Glare|p2a: Dragalge
+|-status|p2a: Dragalge|par
+|cant|p2a: Dragalge|par
+|
+|-damage|p1a: Druddigon|62/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1597871499
+|move|p1a: Druddigon|Outrage|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|5/100 par
+|move|p2a: Dragalge|Draco Meteor|p1a: Druddigon|[miss]
+|-miss|p2a: Dragalge|p1a: Druddigon
+|
+|-damage|p1a: Druddigon|56/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1597871508
+|switch|p2a: Umbreon|Umbreon, F|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|move|p1a: Druddigon|Outrage|p2a: Umbreon|[from]lockedmove
+|-damage|p2a: Umbreon|61/100
+|-start|p1a: Druddigon|confusion|[fatigue]
+|
+|-heal|p2a: Umbreon|68/100|[from] item: Leftovers
+|-damage|p1a: Druddigon|50/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1597871523
+|-activate|p1a: Druddigon|confusion
+|-damage|p1a: Druddigon|41/100 brn|[from] confusion
+|move|p2a: Umbreon|Heal Bell|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Heal Bell
+|-curestatus|p2: Dragalge|par|[msg]
+|
+|-heal|p2a: Umbreon|74/100|[from] item: Leftovers
+|-damage|p1a: Druddigon|35/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1597871531
+|-activate|p1a: Druddigon|confusion
+|move|p1a: Druddigon|Glare||[still]
+|-status|p2a: Umbreon|par
+|-activate|p2a: Umbreon|ability: Synchronize
+|-fail|p2a: Umbreon
+|cant|p2a: Umbreon|par
+|
+|-heal|p2a: Umbreon|80/100 par|[from] item: Leftovers
+|-damage|p1a: Druddigon|29/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1597871540
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Synchronize|[from] ability: Trace|[of] p2a: Umbreon
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1597871560
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Gardevoir|Trick|p2a: Rotom
+|-activate|p1a: Gardevoir|move: Trick|[of] p2a: Rotom
+|-item|p2a: Rotom|Choice Specs|[from] move: Trick
+|-item|p1a: Gardevoir|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Rotom|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|11
+|
+|t:|1597871574
+|switch|p1a: Druddigon|Druddigon, F|29/100 brn
+|-ability|p1a: Druddigon|Mold Breaker
+|move|p2a: Rotom|Volt Switch|p1a: Druddigon
+|-resisted|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|t:|1597871583
+|switch|p2a: Umbreon|Umbreon, F|86/100 par|[from]move: Volt Switch
+|-damage|p2a: Umbreon|73/100 par|[from] Stealth Rock
+|
+|-heal|p2a: Umbreon|79/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1597871620
+|switch|p1a: Araquanid|Araquanid, F, shiny|100/100
+|turn|12
+|
+|t:|1597871631
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Araquanid|Liquidation|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1597871652
+|move|p1a: Araquanid|Leech Life|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|36/100 par
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1597871665
+|switch|p2a: Heliolisk|Heliolisk, M|100/100
+|-damage|p2a: Heliolisk|88/100|[from] Stealth Rock
+|move|p1a: Araquanid|Leech Life|p2a: Heliolisk
+|-damage|p2a: Heliolisk|27/100
+|
+|-heal|p2a: Heliolisk|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|15
+|
+|t:|1597871679
+|switch|p1a: Dhelmise|Dhelmise, shiny|100/100
+|move|p2a: Heliolisk|Thunderbolt|p1a: Dhelmise
+|-resisted|p1a: Dhelmise
+|-damage|p1a: Dhelmise|79/100
+|
+|upkeep
+|turn|16
+|
+|t:|1597871688
+|move|p2a: Heliolisk|Volt Switch|p1a: Dhelmise
+|-resisted|p1a: Dhelmise
+|-damage|p1a: Dhelmise|60/100
+|
+|t:|1597871696
+|switch|p2a: Arcanine|Arcanine, M|100/100|[from]move: Volt Switch
+|move|p1a: Dhelmise|Knock Off|p2a: Arcanine
+|-damage|p2a: Arcanine|70/100
+|-enditem|p2a: Arcanine|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Dhelmise
+|
+|upkeep
+|turn|17
+|
+|t:|1597871712
+|switch|p1a: Araquanid|Araquanid, F, shiny|100/100
+|move|p2a: Arcanine|Flamethrower|p1a: Araquanid
+|-damage|p1a: Araquanid|85/100
+|
+|upkeep
+|turn|18
+|
+|t:|1597871729
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Araquanid|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|82/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1597871752
+|move|p2a: Rotom|Leaf Storm|p1a: Araquanid
+|-damage|p1a: Araquanid|7/100
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Araquanid|Leech Life|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: Araquanid|41/100|[from] drain|[of] p2a: Rotom
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1597871761
+|switch|p2a: Heliolisk|Heliolisk, M|100/100
+|-damage|p2a: Heliolisk|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1597871765
+|switch|p1a: Dhelmise|Dhelmise, shiny|60/100
+|move|p2a: Heliolisk|Grass Knot|p1a: Dhelmise
+|-resisted|p1a: Dhelmise
+|-damage|p1a: Dhelmise|40/100
+|
+|upkeep
+|turn|21
+|
+|t:|1597871778
+|move|p2a: Heliolisk|Hyper Voice|p1a: Dhelmise
+|-immune|p1a: Dhelmise
+|move|p1a: Dhelmise|Synthesis|p1a: Dhelmise
+|-heal|p1a: Dhelmise|90/100
+|
+|upkeep
+|turn|22
+|
+|t:|1597871784
+|switch|p2a: Arcanine|Arcanine, M|70/100
+|-damage|p2a: Arcanine|45/100|[from] Stealth Rock
+|move|p1a: Dhelmise|Rapid Spin|p2a: Arcanine
+|-damage|p2a: Arcanine|30/100
+|-boost|p1a: Dhelmise|spe|1
+|
+|upkeep
+|turn|23
+|
+|t:|1597871806
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Flash Fire|[from] ability: Trace|[of] p2a: Arcanine
+|move|p2a: Arcanine|Toxic|p1a: Gardevoir
+|-status|p1a: Gardevoir|tox
+|
+|-damage|p1a: Gardevoir|94/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1597871815
+|move|p1a: Gardevoir|Psychic|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-heal|p1a: Gardevoir|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Gardevoir|88/100 tox|[from] psn
+|upkeep
+|
+|t:|1597871823
+|switch|p2a: Umbreon|Umbreon, F|42/100 par
+|-damage|p2a: Umbreon|30/100 par|[from] Stealth Rock
+|turn|25
+|
+|t:|1597871827
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Gardevoir|Moonblast|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p1a: Gardevoir|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Umbreon|36/100 par|[from] item: Leftovers
+|-damage|p1a: Gardevoir|76/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1597871848
+|switch|p1a: Bewear|Bewear, F|100/100
+|switch|p2a: Heliolisk|Heliolisk, M|88/100
+|-damage|p2a: Heliolisk|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|27
+|
+|t:|1597871874
+|switch|p2a: Dragalge|Dragalge, F|5/100
+|-damage|p2a: Dragalge|0 fnt|[from] Stealth Rock
+|faint|p2a: Dragalge
+|move|p1a: Bewear|Close Combat|p2: Dragalge|[notarget]
+|-fail|p1a: Bewear
+|
+|upkeep
+|
+|t:|1597871882
+|switch|p2a: Heliolisk|Heliolisk, M|76/100
+|-damage|p2a: Heliolisk|63/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1597871888
+|move|p1a: Bewear|Close Combat|p2a: Heliolisk
+|-supereffective|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|-unboost|p1a: Bewear|def|1
+|-unboost|p1a: Bewear|spd|1
+|faint|p2a: Heliolisk
+|
+|upkeep
+|
+|t:|1597871894
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|-damage|p2a: Inteleon|88/100|[from] Stealth Rock
+|turn|29
+|j| waterboat
+|
+|t:|1597871901
+|switch|p1a: Gardevoir|Gardevoir, F|76/100 tox
+|-ability|p1a: Gardevoir|Sniper|[from] ability: Trace|[of] p2a: Inteleon
+|move|p2a: Inteleon|Focus Energy|p2a: Inteleon
+|-start|p2a: Inteleon|move: Focus Energy
+|
+|-heal|p1a: Gardevoir|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Gardevoir|76/100 tox|[from] psn
+|upkeep
+|turn|30
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bosstrich)
+|
+|t:|1597871920
+|move|p2a: Inteleon|Hydro Pump|p1a: Gardevoir
+|-crit|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|t:|1597871926
+|switch|p1a: Dhelmise|Dhelmise, shiny|90/100
+|turn|31
+|
+|t:|1597871940
+|move|p2a: Inteleon|Air Slash|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-crit|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|t:|1597871944
+|switch|p1a: Drapion|Drapion, F|100/100
+|turn|32
+|
+|t:|1597871950
+|move|p2a: Inteleon|Hydro Pump|p1a: Drapion
+|-crit|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|faint|p1a: Drapion
+|
+|upkeep
+|
+|t:|1597871951
+|switch|p1a: Bewear|Bewear, F|100/100
+|turn|33
+|
+|t:|1597871970
+|move|p2a: Inteleon|Air Slash|p1a: Bewear
+|-supereffective|p1a: Bewear
+|-crit|p1a: Bewear
+|-damage|p1a: Bewear|0 fnt
+|faint|p1a: Bewear
+|
+|upkeep
+|c|☆bosstrich|methinks inteleon is getting banned again
+|
+|t:|1597871978
+|switch|p1a: Araquanid|Araquanid, F, shiny|41/100
+|turn|34
+|c|☆Groundhog295|lmao
+|
+|t:|1597871985
+|move|p2a: Inteleon|Air Slash|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-crit|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|win|Groundhog295
+|c|☆bosstrich|gg
+|c|☆Groundhog295|gg
+|l|☆bosstrich
+|l| waterboat
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

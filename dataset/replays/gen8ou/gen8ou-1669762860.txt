@@ -1,0 +1,269 @@
+|j|☆Maxpein
+|j|☆BamboKlutz
+|t:|1664087870
+|gametype|singles
+|player|p1|Maxpein|steven|
+|player|p2|BamboKlutz|wattson|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kartana|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Blacephalon|
+|poke|p1|Tapu Lele|
+|poke|p2|Kingdra, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Magmortar, F|
+|poke|p2|Decidueye, M|
+|poke|p2|Volcanion|
+|poke|p2|Registeel|
+|teampreview
+|
+|t:|1664087888
+|start
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|switch|p2a: Registeel|Registeel|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|1
+|
+|t:|1664087897
+|move|p1a: Tapu Lele|Focus Blast|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|7/100
+|move|p2a: Registeel|Steel Roller|p1a: Tapu Lele
+|-supereffective|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|-fieldend|move: Psychic Terrain
+|faint|p1a: Tapu Lele
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Maxpein)
+|
+|t:|1664087905
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-fail|p2a: Registeel|unboost|[from] ability: Clear Body|[of] p2a: Registeel
+|turn|2
+|
+|t:|1664087911
+|move|p1a: Landorus|Earthquake|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|faint|p2a: Registeel
+|
+|upkeep
+|
+|t:|1664087935
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|3
+|
+|t:|1664087942
+|move|p1a: Landorus|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: BamboKlutz|move: Stealth Rock
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1664087949
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Landorus|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|
+|-damage|p2a: Dragonite|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1664087959
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Dragonite|Hurricane|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|13/100
+|-start|p1a: Dragapult|confusion
+|
+|-damage|p2a: Dragonite|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1664087970
+|-activate|p1a: Dragapult|confusion
+|move|p1a: Dragapult|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1664087979
+|switch|p2a: Kingdra|Kingdra, M, shiny|100/100
+|turn|7
+|
+|t:|1664087990
+|switch|p1a: Kartana|Kartana|100/100
+|move|p2a: Kingdra|Draco Meteor|p1a: Kartana|[miss]
+|-miss|p2a: Kingdra|p1a: Kartana
+|
+|upkeep
+|turn|8
+|
+|t:|1664088004
+|switch|p2a: Magmortar|Magmortar, F|100/100
+|move|p1a: Kartana|Knock Off|p2a: Magmortar
+|-damage|p2a: Magmortar|15/100
+|-status|p1a: Kartana|brn|[from] ability: Flame Body|[of] p2a: Magmortar
+|-enditem|p2a: Magmortar|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Kartana
+|-damage|p1a: Kartana|91/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Kartana|85/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1664088021
+|move|p1a: Kartana|Knock Off|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|faint|p2a: Magmortar
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|-damage|p1a: Kartana|75/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Kartana|69/100 brn|[from] brn
+|upkeep
+|
+|t:|1664088033
+|switch|p2a: Kingdra|Kingdra, M, shiny|100/100
+|turn|10
+|
+|t:|1664088039
+|move|p1a: Kartana|Knock Off|p2a: Kingdra
+|-damage|p2a: Kingdra|61/100
+|-enditem|p2a: Kingdra|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Kartana
+|-damage|p1a: Kartana|59/100 brn|[from] item: Life Orb
+|move|p2a: Kingdra|Draco Meteor|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|-unboost|p2a: Kingdra|spa|2
+|faint|p1a: Kartana
+|
+|upkeep
+|
+|t:|1664088047
+|switch|p1a: Dragapult|Dragapult, F|13/100
+|turn|11
+|
+|t:|1664088054
+|move|p1a: Dragapult|Draco Meteor|p2a: Kingdra
+|-supereffective|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Kingdra
+|
+|upkeep
+|
+|t:|1664088062
+|switch|p2a: Decidueye|Decidueye, M, shiny|100/100
+|-damage|p2a: Decidueye|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1664088070
+|switch|p1a: Blacephalon|Blacephalon, shiny|100/100
+|move|p2a: Decidueye|Leaf Storm|p1a: Blacephalon
+|-resisted|p1a: Blacephalon
+|-damage|p1a: Blacephalon|58/100
+|-unboost|p2a: Decidueye|spa|2
+|
+|upkeep
+|turn|13
+|
+|t:|1664088080
+|move|p1a: Blacephalon|Fire Blast|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|-ability|p1a: Blacephalon|Beast Boost|boost
+|-boost|p1a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1664088087
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|14
+|
+|t:|1664088093
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Volcanion|atk|1
+|move|p2a: Volcanion|Hydro Pump|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1664088097
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|15
+|
+|t:|1664088122
+|move|p1a: Urshifu|Surging Strikes|p2a: Volcanion
+|-immune|p2a: Volcanion|[from] ability: Water Absorb
+|move|p2a: Volcanion|Hydro Pump|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|63/100
+|
+|upkeep
+|turn|16
+|
+|t:|1664088131
+|switch|p1a: Blacephalon|Blacephalon, shiny|58/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Blacephalon
+|-supereffective|p1a: Blacephalon
+|-damage|p1a: Blacephalon|0 fnt
+|faint|p1a: Blacephalon
+|
+|upkeep
+|
+|t:|1664088134
+|switch|p1a: Dragapult|Dragapult, F|13/100
+|turn|17
+|
+|t:|1664088142
+|move|p1a: Dragapult|Draco Meteor|p2a: Volcanion
+|-damage|p2a: Volcanion|17/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Volcanion|Steam Eruption|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1664088150
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|63/100
+|turn|18
+|
+|t:|1664088154
+|move|p1a: Urshifu|Close Combat|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Volcanion
+|
+|win|Maxpein

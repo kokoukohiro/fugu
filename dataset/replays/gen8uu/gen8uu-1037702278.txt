@@ -1,0 +1,238 @@
+|j|☆Xoyjaz
+|j|☆filthywieb
+|player|p1|Xoyjaz|1|1260
+|player|p2|filthywieb|20|1169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Weavile, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Hippowdon, F|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Jellicent, M|
+|poke|p1|Salazzle, F|
+|poke|p2|Coalossal, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Inteleon, F|
+|poke|p2|Diggersby, F|
+|poke|p2|Vikavolt, F|
+|poke|p2|Jellicent, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Xoyjaz)
+|inactive|Xoyjaz has 120 seconds left.
+|inactive|Xoyjaz has 90 seconds left.
+|
+|start
+|switch|p1a: Bombaclat|Crawdaunt, M|100/100
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|turn|1
+|
+|move|p1a: Bombaclat|Crabhammer|p2a: Coalossal|[miss]
+|-miss|p1a: Bombaclat|p2a: Coalossal
+|move|p2a: Coalossal|Stealth Rock|p1a: Bombaclat
+|-sidestart|p1: Xoyjaz|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Bombaclat|Crabhammer|p2a: Jellicent
+|-immune|p2a: Jellicent|[from] ability: Water Absorb
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Bombaclat|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-enditem|p2a: Jellicent|Leftovers|[from] move: Knock Off|[of] p1a: Bombaclat
+|-damage|p1a: Bombaclat|91/100|[from] item: Life Orb
+|faint|p2a: Jellicent
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, F|100/100
+|turn|4
+|
+|switch|p1a: Tore Ketil|Jellicent, M|100/100
+|-damage|p1a: Tore Ketil|88/100|[from] Stealth Rock
+|move|p2a: Inteleon|Air Slash|p1a: Tore Ketil
+|-damage|p1a: Tore Ketil|57/100
+|
+|-heal|p1a: Tore Ketil|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: Tore Ketil|Strength Sap|p2a: Coalossal
+|-unboost|p2a: Coalossal|atk|1
+|-heal|p1a: Tore Ketil|100/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Vikavolt|Vikavolt, F|100/100
+|move|p1a: Tore Ketil|Scald|p2a: Vikavolt
+|-damage|p2a: Vikavolt|62/100
+|
+|-heal|p2a: Vikavolt|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: 🔥Houndoom🔥|Hippowdon, F|100/100
+|-damage|p1a: 🔥Houndoom🔥|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: 🔥Houndoom🔥
+|move|p2a: Vikavolt|Sticky Web|p1a: 🔥Houndoom🔥
+|-sidestart|p1: Xoyjaz|move: Sticky Web
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vikavolt|62/100|[from] Sandstorm
+|-heal|p2a: Vikavolt|68/100|[from] item: Leftovers
+|-heal|p1a: 🔥Houndoom🔥|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|move|p1a: 🔥Houndoom🔥|Stealth Rock|p2a: Rillaboom
+|-sidestart|p2: filthywieb|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|94/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p2a: Rillaboom|Knock Off|p1a: 🔥Houndoom🔥
+|-damage|p1a: 🔥Houndoom🔥|69/100
+|-enditem|p1a: 🔥Houndoom🔥|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1a: 🔥Houndoom🔥|Whirlwind|p2a: Rillaboom
+|drag|p2a: Inteleon|Inteleon, F|100/100
+|-damage|p2a: Inteleon|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Inteleon|82/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p1a: Tore Ketil|Jellicent, M|100/100
+|-damage|p1a: Tore Ketil|88/100|[from] Stealth Rock
+|-activate|p1a: Tore Ketil|move: Sticky Web
+|-unboost|p1a: Tore Ketil|spe|1
+|move|p2a: Inteleon|Shadow Ball|p1a: Tore Ketil
+|-supereffective|p1a: Tore Ketil
+|-damage|p1a: Tore Ketil|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Inteleon|76/100|[from] Sandstorm
+|-damage|p1a: Tore Ketil|20/100|[from] Sandstorm
+|-heal|p1a: Tore Ketil|26/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Rillaboom|Rillaboom, F|94/100
+|-damage|p2a: Rillaboom|82/100|[from] Stealth Rock
+|move|p1a: Tore Ketil|Strength Sap|p2a: Rillaboom
+|-unboost|p2a: Rillaboom|atk|1
+|-heal|p1a: Tore Ketil|100/100
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|switch|p1a: 🔥Houndoom🔥|Hippowdon, F|69/100
+|-damage|p1a: 🔥Houndoom🔥|63/100|[from] Stealth Rock
+|-activate|p1a: 🔥Houndoom🔥|move: Sticky Web
+|-unboost|p1a: 🔥Houndoom🔥|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: 🔥Houndoom🔥
+|move|p2a: Rillaboom|Knock Off|p1a: 🔥Houndoom🔥
+|-damage|p1a: 🔥Houndoom🔥|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|76/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|switch|p2a: Vikavolt|Vikavolt, F|68/100
+|-damage|p2a: Vikavolt|43/100|[from] Stealth Rock
+|move|p1a: 🔥Houndoom🔥|Slack Off|p1a: 🔥Houndoom🔥
+|-heal|p1a: 🔥Houndoom🔥|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vikavolt|37/100|[from] Sandstorm
+|-heal|p2a: Vikavolt|43/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: 🔥Houndoom🔥|Whirlwind|p2a: Coalossal
+|drag|p2a: Diggersby|Diggersby, F|100/100
+|-damage|p2a: Diggersby|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Diggersby|Earthquake|p1a: 🔥Houndoom🔥
+|-damage|p1a: 🔥Houndoom🔥|51/100
+|-damage|p2a: Diggersby|84/100|[from] item: Life Orb
+|move|p1a: 🔥Houndoom🔥|Earthquake|p2a: Diggersby
+|-damage|p2a: Diggersby|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Diggersby|Earthquake|p1a: 🔥Houndoom🔥
+|-damage|p1a: 🔥Houndoom🔥|4/100
+|-damage|p2a: Diggersby|20/100|[from] item: Life Orb
+|move|p1a: 🔥Houndoom🔥|Slack Off|p1a: 🔥Houndoom🔥
+|-heal|p1a: 🔥Houndoom🔥|54/100
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: 🔥Houndoom🔥|Slack Off|p1a: 🔥Houndoom🔥
+|-heal|p1a: 🔥Houndoom🔥|100/100
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Coalossal|Rapid Spin|p1a: 🔥Houndoom🔥
+|-damage|p1a: 🔥Houndoom🔥|95/100
+|-sideend|p2: filthywieb|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Coalossal
+|-boost|p2a: Coalossal|spe|1
+|move|p1a: 🔥Houndoom🔥|Earthquake|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, F|76/100
+|turn|19
+|
+|move|p2a: Inteleon|Hydro Pump|p1a: 🔥Houndoom🔥|[miss]
+|-miss|p2a: Inteleon|p1a: 🔥Houndoom🔥
+|move|p1a: 🔥Houndoom🔥|Stealth Rock|p2a: Inteleon
+|-sidestart|p2: filthywieb|move: Stealth Rock
+|
+|upkeep
+|turn|20
+|-message|filthywieb forfeited.
+|
+|win|Xoyjaz
+|l|☆filthywieb
+|raw|Xoyjaz's rating: 1260 &rarr; <strong>1279</strong><br />(+19 for winning)
+|raw|filthywieb's rating: 1169 &rarr; <strong>1150</strong><br />(-19 for losing)

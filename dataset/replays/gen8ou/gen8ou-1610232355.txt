@@ -1,0 +1,174 @@
+|j|☆roboPOKE
+|j|☆Raimei Hakkei
+|t:|1656959018
+|gametype|singles
+|player|p1|roboPOKE|1|1581
+|player|p2|Raimei Hakkei|mustard-master|1584
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Xatu, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Volcanion|
+|poke|p1|Dragapult, F|
+|poke|p1|Kartana|
+|poke|p1|Gyarados, M|
+|poke|p2|Kartana|
+|poke|p2|Tyranitar, F|
+|poke|p2|Tapu Fini|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Blacephalon|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Raimei Hakkei)
+|
+|t:|1656959023
+|start
+|switch|p1a: Xatu|Xatu, F|100/100
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|turn|1
+|
+|t:|1656959025
+|move|p2a: Blacephalon|Shadow Ball|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-enditem|p1a: Xatu|Focus Sash
+|-damage|p1a: Xatu|1/100
+|move|p1a: Xatu|Thunder Wave|p2a: Blacephalon
+|-status|p2a: Blacephalon|par
+|
+|upkeep
+|turn|2
+|
+|t:|1656959034
+|move|p1a: Xatu|Tailwind|p1a: Xatu
+|-sidestart|p1: roboPOKE|move: Tailwind
+|cant|p2a: Blacephalon|par
+|
+|upkeep
+|turn|3
+|
+|t:|1656959037
+|move|p1a: Xatu|Magic Room|p1a: Xatu
+|-fieldstart|move: Magic Room|[of] p1a: Xatu
+|move|p2a: Blacephalon|Shadow Ball|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1656959039
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|4
+|
+|t:|1656959042
+|move|p1a: Gyarados|Waterfall|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|faint|p2a: Blacephalon
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|t:|1656959044
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|5
+|
+|t:|1656959047
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Gyarados|Waterfall|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-damage|p2a: Tapu Fini|61/100|[from] Sandstorm
+|-sideend|p1: roboPOKE|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1656959055
+|move|p1a: Gyarados|Waterfall|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|32/100
+|move|p2a: Tapu Fini|Moonblast|p1a: Gyarados
+|-damage|p1a: Gyarados|56/100
+|-unboost|p1a: Gyarados|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|50/100|[from] Sandstorm
+|-damage|p2a: Tapu Fini|26/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1656959060
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|44/100|[from] Sandstorm
+|-fieldend|move: Magic Room|[of] p1: Xatu
+|upkeep
+|turn|8
+|
+|t:|1656959064
+|move|p1a: Gyarados|Waterfall|p2a: Corviknight
+|-damage|p2a: Corviknight|20/100
+|-damage|p1a: Gyarados|28/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|cant|p2a: Corviknight|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|22/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1656959068
+|move|p1a: Gyarados|Waterfall|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Gyarados|5/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|none
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1656959073
+|switch|p2a: Tapu Fini|Tapu Fini|26/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|10
+|
+|t:|1656959075
+|move|p1a: Gyarados|Waterfall|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|-message|Raimei Hakkei forfeited.
+|
+|win|roboPOKE
+|raw|roboPOKE's rating: 1581 &rarr; <strong>1601</strong><br />(+20 for winning)
+|raw|Raimei Hakkei's rating: 1584 &rarr; <strong>1564</strong><br />(-20 for losing)
+|l|☆Raimei Hakkei

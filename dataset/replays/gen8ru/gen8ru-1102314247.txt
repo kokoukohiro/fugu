@@ -1,0 +1,147 @@
+|j|☆JigglyThot
+|j|☆unironic dabbing
+|player|p1|JigglyThot|swimmerf|1162
+|player|p2|unironic dabbing|114|1212
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Slurpuff, M|
+|poke|p1|Bewear, F|
+|poke|p1|Claydol|
+|poke|p1|Drifblim, M|
+|poke|p1|Boltund, M|
+|poke|p1|Rillaboom, F|
+|poke|p2|Ninetales, F|
+|poke|p2|Charizard, M|
+|poke|p2|Dhelmise|
+|poke|p2|Type: Null|
+|poke|p2|Silvally-*|
+|poke|p2|Passimian, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Claydol|Claydol|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: Claydol|Trick|p2a: Charizard
+|-activate|p1a: Claydol|move: Trick|[of] p2a: Charizard
+|-item|p2a: Charizard|Choice Scarf|[from] move: Trick
+|-item|p1a: Claydol|Choice Specs|[from] move: Trick
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|2
+|
+|move|p2a: Charizard|Flamethrower|p1a: Claydol
+|-damage|p1a: Claydol|25/100
+|move|p1a: Claydol|Stealth Rock|p2a: Charizard
+|-sidestart|p2: unironic dabbing|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|76/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|3
+|
+|move|p2a: Charizard|Flamethrower|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|63/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|switch|p1a: Slurpuff|Slurpuff, M|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by unironic dabbing)
+|
+|move|p2a: Charizard|Flamethrower|p1a: Slurpuff
+|-damage|p1a: Slurpuff|14/100
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|39/100|[from] item: Sitrus Berry
+|move|p1a: Slurpuff|Wish|p1a: Slurpuff
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|51/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|5
+|j| Minuit24
+|
+|move|p2a: Charizard|Flamethrower|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|38/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|switch|p1a: Drifblim|Drifblim, M|100/100
+|turn|6
+|
+|move|p2a: Charizard|Flamethrower|p1a: Drifblim
+|-damage|p1a: Drifblim|14/100
+|-enditem|p1a: Drifblim|Sitrus Berry|[eat]
+|-heal|p1a: Drifblim|39/100|[from] item: Sitrus Berry
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|26/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|7
+|
+|move|p2a: Charizard|Flamethrower|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|13/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|switch|p1a: Boltund|Boltund, M|100/100
+|turn|8
+|
+|move|p2a: Charizard|Flamethrower|p1a: Boltund
+|-damage|p1a: Boltund|0 fnt
+|faint|p1a: Boltund
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|turn|9
+|l| Minuit24
+|
+|move|p2a: Charizard|Flamethrower|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|switch|p1a: Bewear|Bewear, F|100/100
+|turn|10
+|
+|move|p2a: Charizard|Flamethrower|p1a: Bewear
+|-damage|p1a: Bewear|0 fnt
+|faint|p1a: Bewear
+|
+|win|unironic dabbing
+|l|☆JigglyThot
+|raw|JigglyThot's rating: 1162 &rarr; <strong>1141</strong><br />(-21 for losing)
+|raw|unironic dabbing's rating: 1212 &rarr; <strong>1233</strong><br />(+21 for winning)

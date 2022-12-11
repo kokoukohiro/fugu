@@ -1,0 +1,418 @@
+|j|☆moonheal
+|j|☆gotsnsd
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1664720208
+|gametype|singles
+|player|p1|moonheal|sabrina-lgpe|
+|player|p2|gotsnsd|beauty-gen2jp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Victini|
+|poke|p1|Zapdos|
+|poke|p1|Tapu Fini|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Melmetal|
+|poke|p2|Weavile, M|
+|poke|p2|Blacephalon|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Tapu Fini|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1664720234
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|turn|1
+|
+|t:|1664720238
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|57/100
+|
+|-heal|p2a: Landorus|63/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1664720245
+|move|p1a: Zapdos|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|move|p2a: Landorus|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|89/100
+|
+|t:|1664720256
+|switch|p2a: Blacephalon|Blacephalon|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1664720266
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|move|p2a: Blacephalon|Overheat|p1a: Tapu Fini|[miss]
+|-miss|p2a: Blacephalon|p1a: Tapu Fini
+|
+|upkeep
+|turn|4
+|
+|t:|1664720275
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1664720281
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Victini|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100
+|-damage|p1a: Victini|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Victini|72/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|t:|1664720292
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+|
+|t:|1664720298
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: moonheal|move: Stealth Rock
+|move|p1a: Ferrothorn|Body Press|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/100
+|-damage|p1a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1664720304
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Blacephalon
+|-sidestart|p2: gotsnsd|Spikes
+|
+|-heal|p1a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1664720312
+|move|p2a: Blacephalon|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|39/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Blacephalon
+|-start|p2a: Blacephalon|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|45/100|[from] item: Leftovers
+|-damage|p2a: Blacephalon|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|53/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1664720332
+|switch|p2a: Ferrothorn|Ferrothorn, M|56/100
+|-damage|p2a: Ferrothorn|44/100|[from] Spikes
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-damage|p1a: Tapu Fini|88/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|
+|upkeep
+|turn|10
+|
+|t:|1664720339
+|move|p1a: Tapu Fini|Trick|p2a: Ferrothorn
+|-activate|p1a: Tapu Fini|move: Trick|[of] p2a: Ferrothorn
+|-item|p2a: Ferrothorn|Choice Scarf|[from] move: Trick
+|-item|p1a: Tapu Fini|Rocky Helmet|[from] move: Trick
+|move|p2a: Ferrothorn|Knock Off|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|79/100
+|-damage|p2a: Ferrothorn|28/100|[from] item: Rocky Helmet|[of] p1a: Tapu Fini
+|-enditem|p1a: Tapu Fini|Rocky Helmet|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|11
+|
+|t:|1664720349
+|move|p1a: Tapu Fini|Moonblast|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|14/100
+|-unboost|p2a: Ferrothorn|spa|1
+|move|p2a: Ferrothorn|Knock Off|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|73/100
+|
+|upkeep
+|turn|12
+|
+|t:|1664720357
+|switch|p2a: Melmetal|Melmetal|100/100
+|-damage|p2a: Melmetal|88/100|[from] Spikes
+|move|p1a: Tapu Fini|Scald|p2a: Melmetal
+|-damage|p2a: Melmetal|62/100
+|
+|upkeep
+|turn|13
+|
+|t:|1664720364
+|switch|p1a: Ferrothorn|Ferrothorn, M|53/100
+|-damage|p1a: Ferrothorn|48/100|[from] Stealth Rock
+|move|p2a: Melmetal|Double Iron Bash|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|32/100
+|-activate|p1a: Ferrothorn|ability: Iron Barbs
+|-activate|p2a: Melmetal|item: Protective Pads
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|17/100
+|-activate|p1a: Ferrothorn|ability: Iron Barbs
+|-activate|p2a: Melmetal|item: Protective Pads
+|-hitcount|p1a: Ferrothorn|2
+|
+|-heal|p1a: Ferrothorn|23/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|14
+|
+|t:|1664720368
+|move|p2a: Melmetal|Double Iron Bash|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|5/100
+|-activate|p1a: Ferrothorn|ability: Iron Barbs
+|-activate|p2a: Melmetal|item: Protective Pads
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-activate|p1a: Ferrothorn|ability: Iron Barbs
+|-activate|p2a: Melmetal|item: Protective Pads
+|faint|p1a: Ferrothorn
+|-hitcount|p1: Ferrothorn|2
+|
+|upkeep
+|
+|t:|1664720378
+|switch|p1a: Victini|Victini|72/100
+|turn|15
+|
+|t:|1664720384
+|switch|p2a: Ferrothorn|Ferrothorn, M|14/100
+|-damage|p2a: Ferrothorn|2/100|[from] Spikes
+|move|p1a: Victini|V-create|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|-damage|p1a: Victini|59/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|inactive|gotsnsd has 120 seconds left.
+|
+|t:|1664720434
+|switch|p2a: Blacephalon|Blacephalon|88/100
+|-damage|p2a: Blacephalon|76/100|[from] Spikes
+|turn|16
+|
+|t:|1664720451
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Blacephalon|atk|1
+|move|p2a: Blacephalon|Shadow Ball|p1a: Landorus
+|-damage|p1a: Landorus|31/100
+|
+|-heal|p1a: Landorus|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1664720462
+|move|p2a: Blacephalon|Shadow Ball|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1664720464
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|18
+|inactive|gotsnsd has 120 seconds left.
+|
+|t:|1664720474
+|switch|p2a: Landorus|Landorus-Therian, M|63/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|move|p1a: Dragapult|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Landorus
+|
+|upkeep
+|inactive|gotsnsd has 90 seconds left.
+|inactive|gotsnsd has 60 seconds left.
+|
+|t:|1664720554
+|switch|p2a: Blacephalon|Blacephalon|76/100
+|-damage|p2a: Blacephalon|64/100|[from] Spikes
+|turn|19
+|inactive|gotsnsd has 30 seconds left.
+|
+|t:|1664720583
+|switch|p1a: Victini|Victini|59/100
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-damage|p2a: Tapu Fini|88/100|[from] Spikes
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|
+|-heal|p2a: Tapu Fini|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1664720592
+|move|p1a: Victini|Bolt Strike|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|27/100
+|move|p2a: Tapu Fini|Moonblast|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|44/100
+|
+|-heal|p2a: Tapu Fini|33/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1664720600
+|switch|p2a: Melmetal|Melmetal|62/100
+|-damage|p2a: Melmetal|50/100|[from] Spikes
+|move|p1a: Victini|V-create|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Melmetal
+|
+|upkeep
+|
+|t:|1664720605
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|22
+|
+|t:|1664720612
+|move|p2a: Weavile|Knock Off|p1a: Victini
+|-supereffective|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|-enditem|p1a: Victini|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Victini
+|
+|upkeep
+|
+|t:|1664720615
+|switch|p1a: Tapu Fini|Tapu Fini|73/100
+|-damage|p1a: Tapu Fini|61/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1664720623
+|switch|p2a: Tapu Fini|Tapu Fini|33/100
+|-damage|p2a: Tapu Fini|21/100|[from] Spikes
+|move|p1a: Tapu Fini|Moonblast|p2a: Tapu Fini
+|-crit|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1664720626
+|switch|p2a: Blacephalon|Blacephalon|64/100
+|-damage|p2a: Blacephalon|52/100|[from] Spikes
+|turn|24
+|
+|t:|1664720629
+|switch|p1a: Zapdos|Zapdos|89/100
+|move|p2a: Blacephalon|Shadow Ball|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1664720631
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1664720638
+|move|p1a: Dragapult|Draco Meteor|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Blacephalon
+|
+|upkeep
+|
+|t:|1664720641
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|26
+|
+|t:|1664720647
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Dragapult|Draco Meteor|p2a: Weavile
+|-damage|p2a: Weavile|41/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|upkeep
+|turn|27
+|inactive|gotsnsd has 90 seconds left.
+|inactive|gotsnsd has 60 seconds left.
+|
+|t:|1664720707
+|move|p2a: Weavile|Ice Shard|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1664720715
+|switch|p1a: Tapu Fini|Tapu Fini|61/100
+|-damage|p1a: Tapu Fini|49/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|28
+|
+|t:|1664720725
+|move|p2a: Weavile|Triple Axel|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|40/100
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|24/100
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|faint|p1a: Tapu Fini
+|-hitcount|p1: Tapu Fini|3
+|
+|win|gotsnsd
+|n|☆moonheal|moonheal
+|n|☆gotsnsd|gotsnsd
+|l|☆moonheal

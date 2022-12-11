@@ -1,0 +1,289 @@
+|j|☆PangooroTest
+|j|☆Lone Thief
+|t:|1603205715
+|player|p1|PangooroTest|roxie|1626
+|player|p2|Lone Thief|gambler|1720
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Rayquaza|
+|poke|p1|Yveltal|
+|poke|p1|Eternatus|
+|poke|p1|Ditto|
+|poke|p1|Landorus, M|
+|poke|p1|Ditto|
+|poke|p2|Rayquaza|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Groudon|
+|poke|p2|Ditto|
+|poke|p2|Palkia|
+|poke|p2|Ho-Oh|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lone Thief)
+|inactive|PangooroTest also wants the timer to be on.
+|inactive|PangooroTest has 120 seconds left.
+|
+|t:|1603205745
+|start
+|switch|p1a: Rayquaza|Rayquaza, shiny|100/100
+|switch|p2a: Groudon|Groudon|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|1
+|
+|t:|1603205764
+|detailschange|p1a: Rayquaza|Rayquaza-Mega, shiny
+|-mega|p1a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p1a: Rayquaza|Earthquake|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|51/100
+|move|p2a: Groudon|Dragon Claw|p1a: Rayquaza
+|-supereffective|p1a: Rayquaza
+|-damage|p1a: Rayquaza|30/100
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1603205774
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|move|p1a: Rayquaza|Dragon Ascent|p2a: Rayquaza
+|-damage|p2a: Rayquaza|12/100
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1603205782
+|detailschange|p2a: Rayquaza|Rayquaza-Mega
+|-mega|p2a: Rayquaza|Rayquaza|
+|move|p2a: Rayquaza|Extreme Speed|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|t:|1603205785
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Rayquaza|[from] ability: Imposter
+|turn|4
+|
+|t:|1603205793
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Ditto|Extreme Speed|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|84/100
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1603205800
+|move|p2a: Zacian|Behemoth Blade|p1a: Ditto
+|-enditem|p1a: Ditto|Focus Sash
+|-damage|p1a: Ditto|1/100
+|move|p1a: Ditto|Earthquake|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|t:|1603205808
+|switch|p2a: Rayquaza|Rayquaza-Mega|12/100
+|turn|6
+|
+|t:|1603205811
+|move|p2a: Rayquaza|Extreme Speed|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|t:|1603205814
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|turn|7
+|
+|t:|1603205818
+|move|p2a: Rayquaza|Extreme Speed|p1a: Eternatus
+|-damage|p1a: Eternatus|73/100
+|move|p1a: Eternatus|Sludge Bomb|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|-weather|none
+|
+|-heal|p1a: Eternatus|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1603205827
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Eternatus|[from] ability: Imposter
+|-ability|p2a: Ditto|Pressure
+|turn|8
+|
+|t:|1603205838
+|move|p2a: Ditto|Sludge Bomb|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|64/100
+|move|p1a: Eternatus|Substitute|p1a: Eternatus
+|-start|p1a: Eternatus|Substitute
+|-damage|p1a: Eternatus|39/100
+|
+|-heal|p1a: Eternatus|46/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1603205854
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|96/100
+|
+|-heal|p1a: Eternatus|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1603205861
+|move|p1a: Eternatus|Sludge Bomb|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|74/100
+|move|p2a: Ho-Oh|Roar|p1a: Eternatus
+|drag|p1a: Landorus|Landorus, M|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1603205867
+|move|p1a: Landorus|Rock Slide|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|upkeep
+|
+|t:|1603205872
+|switch|p2a: Palkia|Palkia|100/100
+|-ability|p2a: Palkia|Pressure
+|turn|12
+|
+|t:|1603205880
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Palkia|Surf|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|76/100
+|
+|-heal|p1a: Eternatus|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1603205889
+|-start|p2a: Palkia|Dynamax
+|-heal|p2a: Palkia|100/100|[silent]
+|move|p1a: Eternatus|Substitute|p1a: Eternatus
+|-start|p1a: Eternatus|Substitute
+|-damage|p1a: Eternatus|57/100
+|move|p2a: Palkia|Max Wyrmwind|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-end|p1a: Eternatus|Substitute
+|-unboost|p1a: Eternatus|atk|1
+|
+|-heal|p1a: Eternatus|63/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1603205902
+|move|p1a: Eternatus|Substitute|p1a: Eternatus
+|-start|p1a: Eternatus|Substitute
+|-damage|p1a: Eternatus|38/100
+|move|p2a: Palkia|Max Quake|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-end|p1a: Eternatus|Substitute
+|-boost|p2a: Palkia|spd|1
+|
+|-heal|p1a: Eternatus|45/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1603205911
+|move|p1a: Eternatus|Substitute|p1a: Eternatus
+|-start|p1a: Eternatus|Substitute
+|-damage|p1a: Eternatus|20/100
+|move|p2a: Palkia|Max Quake|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-end|p1a: Eternatus|Substitute
+|-boost|p2a: Palkia|spd|1
+|
+|-heal|p1a: Eternatus|26/100|[from] item: Leftovers
+|-end|p2a: Palkia|Dynamax
+|-heal|p2a: Palkia|100/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1603205921
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|76/100
+|move|p2a: Palkia|Spacial Rend|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|
+|upkeep
+|
+|t:|1603205929
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Palkia|[from] ability: Imposter
+|-ability|p1a: Ditto|Pressure
+|turn|17
+|
+|t:|1603205934
+|move|p1a: Ditto|Spacial Rend|p2a: Palkia
+|-supereffective|p2a: Palkia
+|-damage|p2a: Palkia|42/100
+|move|p2a: Palkia|Spacial Rend|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|32/100
+|
+|upkeep
+|turn|18
+|
+|t:|1603205942
+|move|p1a: Ditto|Spacial Rend|p2a: Palkia
+|-supereffective|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|faint|p2a: Palkia
+|
+|upkeep
+|
+|t:|1603205948
+|switch|p2a: Groudon|Groudon-Primal|51/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|19
+|
+|t:|1603205952
+|move|p1a: Ditto|Spacial Rend|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|-weather|none
+|
+|upkeep
+|-message|Lone Thief forfeited.
+|
+|win|PangooroTest
+|l|☆Lone Thief

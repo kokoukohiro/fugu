@@ -1,0 +1,317 @@
+|j|☆Flashybee
+|j|☆Charmalane
+|player|p1|Flashybee|70|1523
+|player|p2|Charmalane|92|1609
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Zeraora|
+|poke|p1|Pincurchin, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Toxtricity, M|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Venusaur, M|
+|poke|p2|Shiftry, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Darmanitan, M|
+|poke|p2|Mandibuzz, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Slippy|Seismitoad, M|100/100
+|turn|1
+|
+|move|p1a: Rotom|Trick|p2a: Slippy
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Slippy
+|-item|p2a: Slippy|Ring Target|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Slippy|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Flashybee|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Oogway|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Oogway
+|move|p1a: Rotom|Volt Switch|p2a: Oogway
+|-damage|p2a: Oogway|69/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|j| Nihlism
+|l| Nihlism
+|
+|switch|p2a: Mandy|Mandibuzz, F|100/100
+|move|p1a: Conkeldurr|Defog|p2a: Mandy
+|-unboost|p2a: Mandy|evasion|1
+|-sideend|p1: Flashybee|Stealth Rock|[from] move: Defog|[of] p1a: Conkeldurr
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Mandy|U-turn|p1a: Pincurchin
+|-damage|p1a: Pincurchin|94/100
+|
+|switch|p2a: Daruma|Darmanitan, M|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Daruma|Flare Blitz|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|-damage|p2a: Daruma|74/100|[from] Recoil
+|faint|p1a: Pincurchin
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Electric Seed
+|turn|6
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Daruma
+|-damage|p2a: Daruma|0 fnt
+|faint|p2a: Daruma
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Oogway|Torkoal, M|69/100
+|turn|7
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Oogway
+|-damage|p2a: Oogway|39/100
+|move|p2a: Oogway|Lava Plume|p1a: Hawlucha
+|-damage|p1a: Hawlucha|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Hawlucha|Roost|p1a: Hawlucha
+|-heal|p1a: Hawlucha|99/100
+|-singleturn|p1a: Hawlucha|move: Roost
+|move|p2a: Oogway|Lava Plume|p1a: Hawlucha
+|-damage|p1a: Hawlucha|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Hawlucha|Roost|p1a: Hawlucha
+|-heal|p1a: Hawlucha|99/100
+|-singleturn|p1a: Hawlucha|move: Roost
+|move|p2a: Oogway|Lava Plume|p1a: Hawlucha
+|-damage|p1a: Hawlucha|47/100
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|move|p1a: Hawlucha|Roost|p1a: Hawlucha
+|-heal|p1a: Hawlucha|97/100
+|-singleturn|p1a: Hawlucha|move: Roost
+|move|p2a: Oogway|Lava Plume|p1a: Hawlucha
+|-damage|p1a: Hawlucha|65/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Oogway|Lava Plume|p1a: Hawlucha
+|-damage|p1a: Hawlucha|34/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|12
+|
+|move|p1a: Hawlucha|Roost|p1a: Hawlucha
+|-heal|p1a: Hawlucha|84/100
+|-singleturn|p1a: Hawlucha|move: Roost
+|move|p2a: Oogway|Lava Plume|p1a: Hawlucha
+|-damage|p1a: Hawlucha|49/100
+|-status|p1a: Hawlucha|brn
+|
+|-damage|p1a: Hawlucha|43/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Mandy|Mandibuzz, F|100/100
+|move|p1a: Hawlucha|Roost|p1a: Hawlucha
+|-heal|p1a: Hawlucha|93/100 brn
+|-singleturn|p1a: Hawlucha|move: Roost
+|
+|-damage|p1a: Hawlucha|87/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Mandy|Foul Play|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|38/100 brn
+|
+|-damage|p1a: Hawlucha|32/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Mandy
+|-crit|p2a: Mandy
+|-damage|p2a: Mandy|11/100
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|move|p2a: Mandy|Foul Play|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Mandy|17/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|turn|16
+|
+|switch|p2a: Oogway|Torkoal, M|39/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Oogway
+|move|p1a: Zeraora|Plasma Fists|p2a: Oogway
+|-damage|p2a: Oogway|11/100
+|-fieldactivate|move: Ion Deluge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p2a: Mandy|Mandibuzz, F|17/100
+|move|p1a: Zeraora|Plasma Fists|p2a: Mandy
+|-supereffective|p2a: Mandy
+|-damage|p2a: Mandy|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p2a: Mandy
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Wart|Venusaur, M|100/100
+|turn|18
+|
+|move|p2a: Wart|Growth|p2a: Wart
+|-boost|p2a: Wart|atk|2
+|-boost|p2a: Wart|spa|2
+|move|p1a: Zeraora|Blaze Kick|p2a: Wart
+|-supereffective|p2a: Wart
+|-damage|p2a: Wart|0 fnt
+|faint|p2a: Wart
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Tengu|Shiftry, M|100/100
+|turn|19
+|
+|move|p2a: Tengu|Solar Blade||[still]
+|-prepare|p2a: Tengu|Solar Blade|p1a: Zeraora
+|-anim|p2a: Tengu|Solar Blade|p1a: Zeraora
+|-damage|p1a: Zeraora|24/100
+|move|p1a: Zeraora|Close Combat|p2a: Tengu
+|-supereffective|p2a: Tengu
+|-enditem|p2a: Tengu|Focus Sash
+|-damage|p2a: Tengu|1/100
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Tengu|Solar Blade||[still]
+|-prepare|p2a: Tengu|Solar Blade|p1a: Zeraora
+|-anim|p2a: Tengu|Solar Blade|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|94/100
+|turn|21
+|
+|switch|p2a: Slippy|Seismitoad, M|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Slippy
+|-damage|p2a: Slippy|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p2a: Slippy|Toxic|p1a: Conkeldurr|[miss]
+|-miss|p2a: Slippy|p1a: Conkeldurr
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Slippy
+|-supereffective|p2a: Slippy
+|-damage|p2a: Slippy|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p2a: Slippy|Toxic|p1a: Conkeldurr
+|-status|p1a: Conkeldurr|tox
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Slippy
+|-supereffective|p2a: Slippy
+|-damage|p2a: Slippy|0 fnt
+|faint|p2a: Slippy
+|
+|-weather|none
+|-damage|p1a: Conkeldurr|88/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Tengu|Shiftry, M|1/100
+|turn|24
+|
+|switch|p2a: Oogway|Torkoal, M|11/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Oogway
+|move|p1a: Conkeldurr|Mach Punch|p2a: Oogway
+|-damage|p2a: Oogway|0 fnt
+|faint|p2a: Oogway
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Conkeldurr|76/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Tengu|Shiftry, M|1/100
+|turn|25
+|
+|move|p2a: Tengu|Sucker Punch|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|61/100 tox
+|move|p1a: Conkeldurr|Mach Punch|p2a: Tengu
+|-supereffective|p2a: Tengu
+|-damage|p2a: Tengu|0 fnt
+|faint|p2a: Tengu
+|
+|win|Flashybee
+|c|☆Charmalane|gg
+|l|☆Flashybee

@@ -1,0 +1,414 @@
+|j|☆Truebeliever
+|j|☆Jayki11
+|player|p1|Truebeliever|64|1612
+|player|p2|Jayki11|red|1620
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Sylveon, F|
+|poke|p1|Bewear, M|
+|poke|p1|Ditto|
+|poke|p1|Cinderace, M|
+|poke|p1|Sableye, F|
+|poke|p1|Vanilluxe, M|
+|poke|p2|Yveltal|
+|poke|p2|Groudon|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Ho-Oh|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Ditto|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jayki11)
+|inactive|Truebeliever has 120 seconds left.
+|
+|start
+|switch|p1a: Imago|Ditto, shiny|100/100
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-transform|p1a: Imago|p2a: Zacian|[from] ability: Imposter
+|-ability|p1a: Imago|Intrepid Sword|boost
+|-boost|p1a: Imago|atk|1
+|turn|1
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|move|p1a: Imago|Behemoth Blade|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|51/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Imago|Behemoth Blade|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|7/100
+|move|p2a: Ho-Oh|Toxic|p1a: Imago
+|-immune|p1a: Imago
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p1a: Imago|Behemoth Blade|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|47/100
+|
+|upkeep
+|turn|4
+|
+|-start|p2a: Necrozma|Dynamax
+|-heal|p2a: Necrozma|47/100|[silent]
+|move|p1a: Imago|Behemoth Blade|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|upkeep
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|5
+|
+|switch|p1a: Scoop|Vanilluxe, M|100/100
+|-ability|p1a: Scoop|Snow Warning|[from] desolateland|[fail]
+|move|p2a: Groudon|Precipice Blades|p1a: Scoop|[miss]
+|-miss|p2a: Groudon|p1a: Scoop
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Scoop|Blizzard|p2a: Groudon
+|-damage|p2a: Groudon|72/100
+|move|p2a: Groudon|Stone Edge|p1a: Scoop
+|-supereffective|p1a: Scoop
+|-crit|p1a: Scoop
+|-enditem|p1a: Scoop|Focus Sash
+|-damage|p1a: Scoop|1/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Scoop|Blizzard|p2a: Groudon|[miss]
+|-miss|p1a: Scoop|p2a: Groudon
+|move|p2a: Groudon|Toxic|p1a: Scoop
+|-status|p1a: Scoop|tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Scoop|0 fnt|[from] psn
+|faint|p1a: Scoop
+|upkeep
+|
+|switch|p1a: Imago|Ditto, shiny|100/100
+|-transform|p1a: Imago|p2a: Groudon|[from] ability: Imposter
+|turn|8
+|
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Imago|Precipice Blades|p2a: Yveltal
+|-immune|p2a: Yveltal
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|9
+|
+|-weather|none
+|switch|p1a: Viv|Sylveon, F|100/100
+|move|p2a: Yveltal|Dark Pulse|p1a: Viv
+|-resisted|p1a: Viv
+|-damage|p1a: Viv|80/100
+|-damage|p2a: Yveltal|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Viv|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|switch|p1a: Rosevelt|Bewear, M|100/100
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Ho-Oh|Ho-Oh|40/100
+|move|p1a: Rosevelt|Drain Punch|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-crit|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|23/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Ho-Oh|Toxic|p1a: Rosevelt
+|-status|p1a: Rosevelt|tox
+|move|p1a: Rosevelt|Body Slam|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|-damage|p1a: Rosevelt|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|13
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Rosevelt
+|-damage|p1a: Rosevelt|59/100 tox
+|move|p1a: Rosevelt|Drain Punch|p2a: Zacian
+|-damage|p2a: Zacian|68/100
+|-heal|p1a: Rosevelt|71/100 tox|[from] drain|[of] p2a: Zacian
+|
+|-heal|p1a: Rosevelt|77/100 tox|[from] item: Leftovers
+|-damage|p1a: Rosevelt|65/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Rosevelt
+|-damage|p1a: Rosevelt|31/100 tox
+|move|p1a: Rosevelt|Drain Punch|p2a: Zacian
+|-damage|p2a: Zacian|35/100
+|-heal|p1a: Rosevelt|43/100 tox|[from] drain|[of] p2a: Zacian
+|
+|-heal|p1a: Rosevelt|49/100 tox|[from] item: Leftovers
+|-damage|p1a: Rosevelt|31/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Zacian|Close Combat|p1a: Rosevelt
+|-supereffective|p1a: Rosevelt
+|-damage|p1a: Rosevelt|0 fnt
+|-unboost|p2a: Zacian|def|1
+|-unboost|p2a: Zacian|spd|1
+|faint|p1a: Rosevelt
+|
+|upkeep
+|
+|switch|p1a: Imago|Ditto, shiny|100/100
+|-transform|p1a: Imago|p2a: Zacian|[from] ability: Imposter
+|-ability|p1a: Imago|Intrepid Sword|boost
+|-boost|p1a: Imago|atk|1
+|turn|16
+|
+|move|p1a: Imago|Behemoth Blade|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|upkeep
+|
+|switch|p2a: Groudon|Groudon-Primal|72/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|turn|17
+|
+|switch|p1a: Bauble|Sableye, F|100/100
+|move|p2a: Groudon|Precipice Blades|p1a: Bauble
+|-damage|p1a: Bauble|9/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Bauble|Toxic|p2a: Groudon
+|-status|p2a: Groudon|tox
+|move|p2a: Groudon|Precipice Blades|p1a: Bauble
+|-damage|p1a: Bauble|0 fnt
+|faint|p1a: Bauble
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|66/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Imago|Ditto, shiny|100/100
+|-transform|p1a: Imago|p2a: Groudon|[from] ability: Imposter
+|turn|19
+|
+|switch|p2a: Yveltal|Yveltal|91/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Imago|Precipice Blades|p2a: Yveltal
+|-immune|p2a: Yveltal
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|20
+|
+|-weather|none
+|switch|p1a: Viv|Sylveon, F|86/100
+|move|p2a: Yveltal|Dark Pulse|p1a: Viv
+|-resisted|p1a: Viv
+|-damage|p1a: Viv|65/100
+|-damage|p2a: Yveltal|81/100|[from] item: Life Orb
+|
+|-heal|p1a: Viv|71/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Groudon|Groudon-Primal|66/100 tox
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Viv|Psyshock|p2a: Groudon
+|-damage|p2a: Groudon|54/100 tox
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Viv|77/100|[from] item: Leftovers
+|-damage|p2a: Groudon|48/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p1a: Ace|Cinderace, M|100/100
+|move|p2a: Groudon|Precipice Blades|p1a: Ace
+|-supereffective|p1a: Ace
+|-damage|p1a: Ace|0 fnt
+|faint|p1a: Ace
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|35/100 tox|[from] psn
+|upkeep
+|inactive|Truebeliever has 120 seconds left.
+|
+|switch|p1a: Imago|Ditto, shiny|100/100
+|-transform|p1a: Imago|p2a: Groudon|[from] ability: Imposter
+|turn|23
+|
+|move|p1a: Imago|Stone Edge|p2a: Groudon
+|-damage|p2a: Groudon|14/100 tox
+|move|p2a: Groudon|Precipice Blades|p1a: Imago
+|-supereffective|p1a: Imago
+|-damage|p1a: Imago|2/100
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|0 fnt|[from] psn
+|faint|p2a: Groudon
+|upkeep
+|
+|switch|p2a: Yveltal|Yveltal|81/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|24
+|
+|move|p2a: Yveltal|Sucker Punch|p1a: Imago
+|-damage|p1a: Imago|0 fnt
+|-damage|p2a: Yveltal|71/100|[from] item: Life Orb
+|faint|p1a: Imago
+|-weather|none
+|
+|upkeep
+|
+|switch|p1a: Viv|Sylveon, F|77/100
+|turn|25
+|
+|move|p2a: Yveltal|Oblivion Wing|p1a: Viv
+|-damage|p1a: Viv|44/100
+|-heal|p2a: Yveltal|95/100|[from] drain|[of] p1a: Viv
+|-damage|p2a: Yveltal|86/100|[from] item: Life Orb
+|move|p1a: Viv|Calm Mind|p1a: Viv
+|-boost|p1a: Viv|spa|1
+|-boost|p1a: Viv|spd|1
+|
+|-heal|p1a: Viv|50/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Yveltal|Oblivion Wing|p1a: Viv
+|-damage|p1a: Viv|28/100
+|-heal|p2a: Yveltal|100/100|[from] drain|[of] p1a: Viv
+|-damage|p2a: Yveltal|91/100|[from] item: Life Orb
+|move|p1a: Viv|Draining Kiss|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|39/100
+|-heal|p1a: Viv|66/100|[from] drain|[of] p2a: Yveltal
+|
+|-heal|p1a: Viv|73/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Yveltal|Oblivion Wing|p1a: Viv
+|-damage|p1a: Viv|51/100
+|-heal|p2a: Yveltal|55/100|[from] drain|[of] p1a: Viv
+|-damage|p2a: Yveltal|45/100|[from] item: Life Orb
+|move|p1a: Viv|Draining Kiss|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|-heal|p1a: Viv|85/100|[from] drain|[of] p2a: Yveltal
+|faint|p2a: Yveltal
+|
+|-heal|p1a: Viv|91/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Viv|[from] ability: Imposter
+|turn|28
+|
+|move|p2a: Ditto|Psyshock|p1a: Viv
+|-damage|p1a: Viv|54/100
+|move|p1a: Viv|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|87/100
+|-unboost|p2a: Ditto|spa|1
+|
+|-heal|p1a: Viv|60/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Ditto|Psyshock|p1a: Viv
+|-damage|p1a: Viv|35/100
+|move|p1a: Viv|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|74/100
+|-unboost|p2a: Ditto|spa|1
+|
+|-heal|p1a: Viv|41/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Ditto|Psyshock|p1a: Viv
+|-damage|p1a: Viv|24/100
+|move|p1a: Viv|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|61/100
+|-heal|p1a: Viv|31/100|[from] drain|[of] p2a: Ditto
+|
+|-heal|p1a: Viv|37/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Ditto|Psyshock|p1a: Viv
+|-damage|p1a: Viv|20/100
+|move|p1a: Viv|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|47/100
+|-heal|p1a: Viv|28/100|[from] drain|[of] p2a: Ditto
+|
+|-heal|p1a: Viv|34/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Ditto|Psyshock|p1a: Viv
+|-damage|p1a: Viv|19/100
+|move|p1a: Viv|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|34/100
+|-heal|p1a: Viv|26/100|[from] drain|[of] p2a: Ditto
+|
+|-heal|p1a: Viv|32/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|-start|p1a: Viv|Dynamax
+|-heal|p1a: Viv|32/100|[silent]
+|-activate|p2a: Ditto|move: Struggle
+|move|p2a: Ditto|Struggle|p1a: Viv
+|-damage|p1a: Viv|29/100
+|-damage|p2a: Ditto|9/100|[from] recoil
+|move|p1a: Viv|Max Mindstorm|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p2a: Ditto
+|
+|win|Truebeliever
+|l|☆Jayki11
+|c|☆Truebeliever|GG
+|raw|Truebeliever's rating: 1612 &rarr; <strong>1633</strong><br />(+21 for winning)
+|raw|Jayki11's rating: 1621 &rarr; <strong>1600</strong><br />(-21 for losing)

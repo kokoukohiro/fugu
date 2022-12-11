@@ -1,0 +1,558 @@
+|j|‽george malone
+|j|☆Kwaga
+|t:|1665187246
+|gametype|singles
+|player|p1|george malone|170|1755
+|player|p2|Kwaga|blaine|1708
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Tapu Lele|
+|poke|p1|Buzzwole|
+|poke|p1|Toxapex, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Hippowdon, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Clefable, M|
+|teampreview
+|
+|t:|1665187255
+|start
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|1
+|
+|t:|1665187260
+|move|p2a: Rotom|Toxic|p1a: Tapu Lele|[miss]
+|-miss|p2a: Rotom|p1a: Tapu Lele
+|move|p1a: Tapu Lele|Focus Blast|p2a: Rotom
+|-damage|p2a: Rotom|33/100
+|-unboost|p2a: Rotom|spd|1
+|
+|-heal|p2a: Rotom|39/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1665187267
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Rotom|Pain Split|p1a: Toxapex
+|-sethp|p1a: Toxapex|70/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|70/100|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1665187275
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|30/100
+|
+|t:|1665187277
+|switch|p2a: Clefable|Clefable, M|100/100|[from]move: Volt Switch
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|80/100
+|
+|upkeep
+|turn|4
+|
+|t:|1665187281
+|move|p2a: Clefable|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: george malone|move: Stealth Rock
+|move|p1a: Toxapex|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|95/100
+|-damage|p1a: Toxapex|63/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|-enditem|p2a: Clefable|Rocky Helmet|[from] move: Knock Off|[of] p1a: Toxapex
+|
+|upkeep
+|turn|5
+|
+|t:|1665187285
+|move|p2a: Clefable|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|53/100
+|-enditem|p1a: Toxapex|Shed Shell|[from] move: Knock Off|[of] p2a: Clefable
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1665187289
+|switch|p2a: Rotom|Rotom-Wash|76/100
+|move|p1a: Toxapex|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|61/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Toxapex
+|
+|upkeep
+|turn|7
+|
+|t:|1665187297
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|57/100
+|
+|t:|1665187300
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100|[from]move: Volt Switch
+|move|p1a: Toxapex|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|91/100
+|-damage|p1a: Toxapex|45/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Toxapex
+|
+|upkeep
+|turn|8
+|
+|t:|1665187303
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|95/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Toxapex|[miss]
+|-miss|p2a: Ferrothorn|p1a: Toxapex
+|
+|upkeep
+|turn|9
+|
+|t:|1665187310
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tornadus
+|-start|p1a: Tornadus|move: Leech Seed
+|
+|-damage|p1a: Tornadus|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1665187314
+|move|p1a: Tornadus|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: george malone|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|move|p2a: Ferrothorn|Spikes|p1a: Tornadus
+|-sidestart|p1: george malone|Spikes
+|
+|-damage|p1a: Tornadus|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|11
+|
+|t:|1665187317
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|-start|p2a: Ferrothorn|confusion
+|-activate|p2a: Ferrothorn|confusion
+|move|p2a: Ferrothorn|Spikes|p1a: Tornadus
+|-sidestart|p1: george malone|Spikes
+|
+|-damage|p1a: Tornadus|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|79/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1665187321
+|move|p1a: Tornadus|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: george malone|Spikes|[from] move: Defog|[of] p1a: Tornadus
+|-activate|p2a: Ferrothorn|confusion
+|move|p2a: Ferrothorn|Spikes|p1a: Tornadus
+|-sidestart|p1: george malone|Spikes
+|
+|-damage|p1a: Tornadus|51/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|92/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1665187324
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|55/100
+|-activate|p2a: Ferrothorn|confusion
+|move|p2a: Ferrothorn|Spikes|p1a: Tornadus
+|-sidestart|p1: george malone|Spikes
+|
+|-damage|p1a: Tornadus|38/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|68/100|[silent]
+|upkeep
+|turn|14
+|
+|t:|1665187328
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|34/100
+|-activate|p2a: Ferrothorn|confusion
+|move|p2a: Ferrothorn|Spikes|p1a: Tornadus
+|-sidestart|p1: george malone|Spikes
+|
+|-damage|p1a: Tornadus|26/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|47/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1665187331
+|move|p1a: Tornadus|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: george malone|Spikes|[from] move: Defog|[of] p1a: Tornadus
+|-end|p2a: Ferrothorn|confusion
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-damage|p1a: Tornadus|13/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|59/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1665187335
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|25/100
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-damage|p1a: Tornadus|1/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|38/100|[silent]
+|upkeep
+|turn|17
+|
+|t:|1665187344
+|switch|p1a: Buzzwole|Buzzwole|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Buzzwole
+|-start|p1a: Buzzwole|move: Leech Seed
+|
+|-damage|p1a: Buzzwole|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|53/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1665187347
+|switch|p1a: Tornadus|Tornadus-Therian, M|34/100
+|switch|p2a: Clefable|Clefable, M|95/100
+|
+|upkeep
+|turn|19
+|
+|t:|1665187351
+|move|p1a: Tornadus|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|87/100
+|
+|t:|1665187356
+|switch|p1a: Toxapex|Toxapex, M|100/100|[from]move: U-turn
+|move|p2a: Clefable|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: george malone|move: Stealth Rock
+|
+|upkeep
+|turn|20
+|
+|t:|1665187364
+|switch|p2a: Rotom|Rotom-Wash|61/100
+|switch|p1a: Tornadus|Tornadus-Therian, M|67/100
+|
+|upkeep
+|turn|21
+|
+|t:|1665187369
+|move|p1a: Tornadus|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: george malone|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|move|p2a: Rotom|Toxic|p1a: Tornadus
+|-status|p1a: Tornadus|tox
+|
+|-damage|p1a: Tornadus|61/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1665187373
+|move|p1a: Tornadus|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|45/100
+|
+|t:|1665187375
+|switch|p1a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Rotom|Volt Switch|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|72/100
+|
+|t:|1665187378
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|23
+|
+|t:|1665187384
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Dragapult|U-turn|p1a: Hippowdon
+|-damage|p1a: Hippowdon|89/100
+|
+|t:|1665187386
+|switch|p2a: Clefable|Clefable, M|87/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|95/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1665187390
+|move|p2a: Clefable|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: george malone|move: Stealth Rock
+|move|p1a: Hippowdon|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Kwaga|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1665187392
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Clefable|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|76/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|t:|1665187395
+|switch|p2a: Ferrothorn|Ferrothorn, F|53/100
+|-damage|p2a: Ferrothorn|47/100|[from] Stealth Rock
+|move|p1a: Toxapex|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|41/100
+|-damage|p1a: Toxapex|64/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|58/100|[from] Sandstorm
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|27
+|
+|t:|1665187401
+|switch|p1a: Buzzwole|Buzzwole|88/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Buzzwole
+|-start|p1a: Buzzwole|move: Leech Seed
+|
+|-weather|none
+|-damage|p1a: Buzzwole|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|55/100|[silent]
+|upkeep
+|turn|28
+|
+|t:|1665187409
+|switch|p2a: Clefable|Clefable, M|87/100
+|move|p1a: Buzzwole|Roost|p1a: Buzzwole
+|-heal|p1a: Buzzwole|100/100
+|-singleturn|p1a: Buzzwole|move: Roost
+|
+|-damage|p1a: Buzzwole|88/100|[from] Leech Seed|[of] p2a: Clefable
+|-heal|p2a: Clefable|100/100|[silent]
+|upkeep
+|turn|29
+|
+|t:|1665187415
+|switch|p1a: Toxapex|Toxapex, M|92/100
+|-damage|p1a: Toxapex|79/100|[from] Stealth Rock
+|switch|p2a: Rotom|Rotom-Wash|45/100
+|-damage|p2a: Rotom|33/100|[from] Stealth Rock
+|
+|upkeep
+|turn|30
+|
+|t:|1665187421
+|move|p2a: Rotom|Pain Split|p1a: Toxapex
+|-sethp|p1a: Toxapex|56/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|56/100|[from] move: Pain Split
+|move|p1a: Toxapex|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|50/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1665187426
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|16/100
+|
+|t:|1665187431
+|switch|p2a: Excadrill|Excadrill, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|67/100
+|
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1665187435
+|switch|p1a: Buzzwole|Buzzwole|88/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Buzzwole
+|-damage|p1a: Buzzwole|79/100
+|-boost|p2a: Excadrill|spe|1
+|-sideend|p2: Kwaga|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|upkeep
+|turn|33
+|
+|t:|1665187439
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Buzzwole|Roost|p1a: Buzzwole
+|-heal|p1a: Buzzwole|100/100
+|-singleturn|p1a: Buzzwole|move: Roost
+|
+|upkeep
+|turn|34
+|
+|t:|1665187445
+|switch|p1a: Toxapex|Toxapex, M|99/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|switch|p2a: Ferrothorn|Ferrothorn, F|55/100
+|
+|upkeep
+|turn|35
+|
+|t:|1665187451
+|switch|p1a: Tornadus|Tornadus-Therian, M|94/100 tox
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tornadus
+|-start|p1a: Tornadus|move: Leech Seed
+|
+|-damage|p1a: Tornadus|82/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|68/100|[silent]
+|-damage|p1a: Tornadus|76/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1665187455
+|move|p1a: Tornadus|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: george malone|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|move|p2a: Ferrothorn|Spikes|p1a: Tornadus
+|-sidestart|p1: george malone|Spikes
+|
+|-damage|p1a: Tornadus|63/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|81/100|[silent]
+|-damage|p1a: Tornadus|51/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1665187457
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|46/100
+|move|p2a: Ferrothorn|Spikes|p1a: Tornadus
+|-sidestart|p1: george malone|Spikes
+|
+|-damage|p1a: Tornadus|39/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|59/100|[silent]
+|-damage|p1a: Tornadus|20/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1665187461
+|move|p1a: Tornadus|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|20/100
+|move|p2a: Ferrothorn|Spikes|p1a: Tornadus
+|-sidestart|p1: george malone|Spikes
+|
+|-damage|p1a: Tornadus|8/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|33/100|[silent]
+|-damage|p1a: Tornadus|0 fnt|[from] psn
+|faint|p1a: Tornadus
+|upkeep
+|
+|t:|1665187465
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-damage|p1a: Aegislash|76/100|[from] Spikes
+|turn|39
+|
+|t:|1665187474
+|switch|p2a: Rotom|Rotom-Wash|50/100 tox
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-start|p1a: Aegislash|Substitute
+|-damage|p1a: Aegislash|51/100
+|
+|-heal|p1a: Aegislash|57/100|[from] item: Leftovers
+|-damage|p2a: Rotom|44/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1665187477
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Rotom|Hydro Pump|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p1a: Aegislash|63/100|[from] item: Leftovers
+|-damage|p2a: Rotom|32/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1665187481
+|move|p2a: Rotom|Volt Switch|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Substitute|[damage]
+|
+|t:|1665187484
+|switch|p2a: Clefable|Clefable, M|100/100|[from]move: Volt Switch
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|68/100
+|-unboost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Aegislash|70/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1665187487
+|switch|p2a: Rotom|Rotom-Wash|32/100 tox
+|move|p1a: Aegislash|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Aegislash|76/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1665187494
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|43
+|
+|t:|1665187496
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1665187499
+|move|p2a: Dragapult|Shadow Ball|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|16/100
+|-unboost|p1a: Aegislash|spd|1
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|9/100
+|-unboost|p2a: Dragapult|spd|1
+|
+|-heal|p1a: Aegislash|22/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|-message|george malone forfeited.
+|
+|win|Kwaga
+|raw|george malone's rating: 1755 &rarr; <strong>1732</strong><br />(-23 for losing)
+|raw|Kwaga's rating: 1708 &rarr; <strong>1731</strong><br />(+23 for winning)
+|l|‽george malone

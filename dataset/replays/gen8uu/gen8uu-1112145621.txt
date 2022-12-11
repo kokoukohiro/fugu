@@ -1,0 +1,893 @@
+|j|☆uult3 congelo
+|j|☆zizi festif
+|player|p1|uult3 congelo|candice|1551
+|player|p2|zizi festif|bugcatcher-gen2|1491
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Arcanine, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Celebi|
+|poke|p1|Sylveon, F|
+|poke|p1|Steelix, F|
+|poke|p1|Goodra, M|
+|poke|p2|Golisopod, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Bronzong|
+|poke|p2|Incineroar, F|
+|poke|p2|Noivern, F|
+|poke|p2|Sylveon, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zizi festif)
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|turn|1
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|92/100
+|
+|switch|p1a: Goodra|Goodra, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Goodra|Flamethrower|p2a: Sylveon
+|-damage|p2a: Sylveon|84/100
+|
+|-heal|p2a: Sylveon|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Golisopod|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|64/100
+|-enditem|p1a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p2a: Golisopod
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Mow|92/100
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|83/100
+|
+|switch|p1a: Goodra|Goodra, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Volt Switch|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|94/100
+|
+|switch|p2a: Bronzong|Bronzong|100/100|[from]move: Volt Switch
+|move|p1a: Goodra|Sludge Bomb|p2a: Bronzong
+|-immune|p2a: Bronzong
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Goodra|Flamethrower|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|63/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Goodra
+|-sidestart|p1: uult3 congelo|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|69/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|-damage|p1a: Steelix|97/100|[from] Stealth Rock
+|move|p2a: Bronzong|Protect||[still]
+|-fail|p2a: Bronzong
+|
+|-heal|p2a: Bronzong|75/100|[from] item: Leftovers
+|-heal|p1a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Steelix|atk|1
+|move|p1a: Steelix|Stealth Rock|p2a: Incineroar
+|-sidestart|p2: zizi festif|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|move|p2a: Incineroar|Parting Shot|p1a: Sylveon
+|-unboost|p1a: Sylveon|atk|1
+|-unboost|p1a: Sylveon|spa|1
+|
+|switch|p2a: Bronzong|Bronzong|75/100|[from]move: Parting Shot
+|-damage|p2a: Bronzong|69/100|[from] Stealth Rock
+|
+|-heal|p1a: Sylveon|94/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Goodra|Goodra, M|94/100
+|-damage|p1a: Goodra|82/100|[from] Stealth Rock
+|move|p2a: Bronzong|Toxic|p1a: Goodra|[miss]
+|-miss|p2a: Bronzong|p1a: Goodra
+|
+|-heal|p2a: Bronzong|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Goodra|Flamethrower|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p2a: Bronzong|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Celebi|Celebi|100/100
+|-damage|p1a: Celebi|88/100|[from] Stealth Rock
+|move|p2a: Bronzong|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-heal|p1a: Celebi|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Bronzong|94/100|[from] item: Leftovers
+|-damage|p1a: Celebi|88/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p2a: Sylveon|Sylveon, M|90/100
+|-damage|p2a: Sylveon|77/100|[from] Stealth Rock
+|move|p1a: Celebi|Nasty Plot|p1a: Celebi
+|-boost|p1a: Celebi|spa|2
+|
+|-heal|p1a: Celebi|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|83/100|[from] item: Leftovers
+|-damage|p1a: Celebi|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Celebi|Giga Drain|p2a: Sylveon
+|-damage|p2a: Sylveon|48/100
+|-heal|p1a: Celebi|100/100 tox|[from] drain|[of] p2a: Sylveon
+|move|p2a: Sylveon|Hyper Voice|p1a: Celebi
+|-damage|p1a: Celebi|64/100 tox
+|
+|-heal|p1a: Celebi|70/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|54/100|[from] item: Leftovers
+|-damage|p1a: Celebi|51/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|-damage|p1a: Steelix|97/100|[from] Stealth Rock
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|60/100|[from] item: Leftovers
+|-heal|p1a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Sylveon|atk|1
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|66/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Arcanine|Toxic|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|72/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|move|p1a: Arcanine|Toxic|p2a: Incineroar
+|-status|p2a: Incineroar|tox
+|
+|-damage|p2a: Incineroar|94/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: Sylveon|Sylveon, F|94/100
+|-damage|p1a: Sylveon|82/100|[from] Stealth Rock
+|move|p2a: Incineroar|Knock Off|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|66/100
+|-enditem|p1a: Sylveon|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-damage|p2a: Incineroar|82/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Bronzong|Bronzong|94/100
+|-damage|p2a: Bronzong|87/100|[from] Stealth Rock
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p2a: Bronzong|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Rotom|Rotom-Wash|64/100
+|-damage|p1a: Rotom|51/100|[from] Stealth Rock
+|move|p2a: Bronzong|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p1a: Rotom|100/100 tox|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Bronzong|99/100|[from] item: Leftovers
+|-damage|p1a: Rotom|95/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p1a: Sylveon|Sylveon, F|66/100
+|-damage|p1a: Sylveon|54/100|[from] Stealth Rock
+|move|p2a: Bronzong|Protect||[still]
+|-fail|p2a: Bronzong
+|
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Rotom|Rotom-Mow|83/100
+|-damage|p2a: Rotom|71/100|[from] Stealth Rock
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|26
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|move|p1a: Sylveon|Heal Bell|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Heal Bell
+|-curestatus|p1: Rotom|tox|[msg]
+|
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|-damage|p1a: Steelix|97/100|[from] Stealth Rock
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|
+|-heal|p1a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Steelix|Protect|p1a: Steelix
+|-singleturn|p1a: Steelix|Protect
+|move|p2a: Golisopod|Leech Life|p1a: Steelix
+|-activate|p1a: Steelix|move: Protect
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Rotom|Rotom-Wash|95/100
+|-damage|p1a: Rotom|82/100|[from] Stealth Rock
+|move|p2a: Golisopod|Liquidation|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|59/100
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|move|p1a: Rotom|Trick|p2a: Bronzong
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Bronzong
+|-enditem|p2a: Bronzong|Leftovers|[silent]|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Rotom|65/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p1a: Rotom|71/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Rotom|Volt Switch|p2a: Bronzong
+|-damage|p2a: Bronzong|77/100
+|
+|switch|p1a: Steelix|Steelix, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Steelix|97/100|[from] Stealth Rock
+|move|p2a: Bronzong|Psychic|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|86/100
+|
+|-heal|p1a: Steelix|92/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Golisopod|Liquidation|p1a: Sylveon
+|-damage|p1a: Sylveon|48/100
+|
+|upkeep
+|turn|35
+|
+|switch|p2a: Sylveon|Sylveon, M|72/100
+|-damage|p2a: Sylveon|60/100|[from] Stealth Rock
+|move|p1a: Sylveon|Protect||[still]
+|-fail|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|98/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|66/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Sylveon
+|-damage|p2a: Sylveon|44/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|50/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Sylveon|Heal Bell|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Heal Bell
+|-curestatus|p2: Incineroar|tox|[msg]
+|
+|-heal|p2a: Sylveon|99/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p1a: Celebi|Celebi|51/100
+|-damage|p1a: Celebi|39/100|[from] Stealth Rock
+|move|p2a: Sylveon|Hyper Voice|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|
+|upkeep
+|c|☆uult3 congelo|pardon
+|c|☆zizi festif|ça tape
+|inactive|uult3 congelo has 120 seconds left.
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Sylveon|atk|1
+|turn|39
+|inactive|uult3 congelo has 120 seconds left.
+|
+|switch|p2a: Incineroar|Incineroar, F|82/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|move|p1a: Arcanine|Toxic|p2a: Incineroar
+|-status|p2a: Incineroar|tox
+|
+|-damage|p2a: Incineroar|76/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|65/100 tox
+|move|p2a: Incineroar|Parting Shot|p1a: Arcanine
+|-unboost|p1a: Arcanine|atk|1
+|-unboost|p1a: Arcanine|spa|1
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|41
+|inactive|uult3 congelo has 120 seconds left.
+|
+|switch|p1a: Sylveon|Sylveon, F|98/100
+|-damage|p1a: Sylveon|86/100|[from] Stealth Rock
+|move|p2a: Golisopod|Leech Life|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|69/100
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Golisopod|Liquidation|p1a: Sylveon
+|-damage|p1a: Sylveon|33/100
+|
+|upkeep
+|turn|43
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|move|p1a: Sylveon|Protect||[still]
+|-fail|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|83/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Sylveon|Hyper Voice|p1a: Sylveon
+|-damage|p1a: Sylveon|54/100
+|
+|-heal|p2a: Sylveon|99/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Sylveon
+|-damage|p2a: Sylveon|80/100
+|move|p2a: Sylveon|Heal Bell|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Heal Bell
+|-curestatus|p2: Incineroar|tox|[msg]
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|87/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Sylveon|atk|1
+|move|p2a: Sylveon|Hyper Voice|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|78/100
+|
+|-heal|p2a: Sylveon|93/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Arcanine|Toxic|p2a: Sylveon
+|-status|p2a: Sylveon|tox
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Sylveon|93/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p2a: Incineroar|Incineroar, F|65/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|move|p1a: Arcanine|Flamethrower|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|52/100
+|
+|-heal|p2a: Incineroar|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|49
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|move|p2a: Incineroar|Knock Off|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|78/100
+|
+|upkeep
+|turn|50
+|
+|move|p2a: Incineroar|Flare Blitz|p1a: Sylveon
+|-damage|p1a: Sylveon|39/100
+|-status|p1a: Sylveon|brn
+|-damage|p2a: Incineroar|87/100|[from] Recoil
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-damage|p1a: Sylveon|32/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|switch|p2a: Rotom|Rotom-Mow|71/100
+|-damage|p2a: Rotom|58/100|[from] Stealth Rock
+|move|p1a: Sylveon|Protect||[still]
+|-fail|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|82/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Sylveon|76/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Rotom|Trick|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-damage|p1a: Sylveon|70/100 brn|[from] brn
+|upkeep
+|turn|53
+|c|☆uult3 congelo|ptn j'ai jamais de chance
+|
+|switch|p2a: Noivern|Noivern, F|100/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|-damage|p1a: Sylveon|64/100 brn|[from] brn
+|upkeep
+|c|☆uult3 congelo|hum, wtf
+|c|☆zizi festif|Pourquoi jamais de chance ?
+|inactive|zizi festif has 120 seconds left.
+|c|☆zizi festif|Et oui wtf
+|c|☆uult3 congelo|mauvais mu
+|c|☆zizi festif|C'est pas de la chance là
+|c|☆zizi festif|C'est même pas un si mauvais mu
+|
+|switch|p2a: Incineroar|Incineroar, F|87/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sylveon|atk|1
+|turn|54
+|inactive|zizi festif has 90 seconds left.
+|c|☆zizi festif|Genre ton play incompréhensible t'a fait ptet win
+|
+|move|p2a: Incineroar|Flare Blitz|p1a: Sylveon
+|-damage|p1a: Sylveon|26/100 brn
+|-damage|p2a: Incineroar|75/100|[from] Recoil
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-damage|p1a: Sylveon|20/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Incineroar|Flare Blitz|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|70/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Sylveon|64/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|move|p2a: Incineroar|Flare Blitz|p1a: Sylveon
+|-damage|p1a: Sylveon|27/100 brn
+|-damage|p2a: Incineroar|62/100|[from] Recoil
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-damage|p1a: Sylveon|21/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Incineroar|Flare Blitz|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|71/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Sylveon|65/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|switch|p1a: Arcanine|Arcanine, M|78/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|move|p2a: Incineroar|Flare Blitz|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|62/100
+|-damage|p2a: Incineroar|57/100|[from] Recoil
+|
+|upkeep
+|turn|59
+|
+|move|p1a: Arcanine|Toxic|p2a: Incineroar|[miss]
+|-miss|p1a: Arcanine|p2a: Incineroar
+|move|p2a: Incineroar|Knock Off|p1a: Arcanine
+|-damage|p1a: Arcanine|38/100
+|-enditem|p1a: Arcanine|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|60
+|
+|switch|p2a: Sylveon|Sylveon, M|93/100 tox
+|-damage|p2a: Sylveon|80/100 tox|[from] Stealth Rock
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|88/100
+|
+|-heal|p2a: Sylveon|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Sylveon|80/100 tox|[from] psn
+|upkeep
+|turn|61
+|
+|switch|p1a: Sylveon|Sylveon, F|65/100 brn
+|-damage|p1a: Sylveon|52/100 brn|[from] Stealth Rock
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|86/100 tox|[from] item: Leftovers
+|-damage|p1a: Sylveon|46/100 brn|[from] brn
+|-damage|p2a: Sylveon|74/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|switch|p2a: Incineroar|Incineroar, F|57/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sylveon|atk|1
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p2a: Incineroar|100/100|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Sylveon|40/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|move|p2a: Incineroar|Flare Blitz|p1a: Sylveon
+|-damage|p1a: Sylveon|2/100 brn
+|-damage|p2a: Incineroar|88/100|[from] Recoil
+|move|p1a: Sylveon|Heal Bell|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Heal Bell
+|-curestatus|p1a: Sylveon|brn|[msg]
+|
+|-heal|p1a: Sylveon|52/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|64
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Incineroar|Flare Blitz|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|upkeep
+|turn|65
+|
+|move|p2a: Incineroar|Flare Blitz|p1a: Sylveon
+|-damage|p1a: Sylveon|15/100
+|-damage|p2a: Incineroar|76/100|[from] Recoil
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|upkeep
+|turn|66
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Incineroar|Will-O-Wisp|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|65/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|67
+|
+|switch|p2a: Bronzong|Bronzong|77/100
+|-damage|p2a: Bronzong|70/100|[from] Stealth Rock
+|switch|p1a: Arcanine|Arcanine, M|88/100
+|-damage|p1a: Arcanine|63/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Bronzong|atk|1
+|
+|upkeep
+|turn|68
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Arcanine|Flamethrower|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|upkeep
+|turn|69
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|32/100
+|move|p2a: Bronzong|Toxic|p1a: Arcanine
+|-status|p1a: Arcanine|tox
+|
+|-damage|p1a: Arcanine|57/100 tox|[from] psn
+|upkeep
+|turn|70
+|
+|switch|p2a: Sylveon|Sylveon, M|74/100 tox
+|-damage|p2a: Sylveon|62/100 tox|[from] Stealth Rock
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|100/100 tox
+|
+|-heal|p2a: Sylveon|68/100 tox|[from] item: Leftovers
+|-damage|p1a: Arcanine|88/100 tox|[from] psn
+|-damage|p2a: Sylveon|62/100 tox|[from] psn
+|upkeep
+|turn|71
+|
+|switch|p1a: Steelix|Steelix, F|92/100
+|-damage|p1a: Steelix|89/100|[from] Stealth Rock
+|move|p2a: Sylveon|Heal Bell|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Heal Bell
+|-curestatus|p2a: Sylveon|tox|[msg]
+|
+|-heal|p2a: Sylveon|68/100|[from] item: Leftovers
+|-heal|p1a: Steelix|95/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Steelix|Heavy Slam|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|74/100|[from] item: Leftovers
+|-heal|p1a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|switch|p1a: Rotom|Rotom-Wash|71/100
+|-damage|p1a: Rotom|59/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|65/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|move|p2a: Golisopod|First Impression|p1a: Rotom
+|-damage|p1a: Rotom|14/100
+|move|p1a: Rotom|Volt Switch|p2a: Golisopod
+|-supereffective|p2a: Golisopod
+|-damage|p2a: Golisopod|48/100
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|
+|switch|p2a: Rotom|Rotom-Mow|58/100
+|-damage|p2a: Rotom|46/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|20/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|-damage|p1a: Steelix|97/100|[from] Stealth Rock
+|move|p2a: Rotom|Leaf Storm|p1a: Steelix
+|-damage|p1a: Steelix|44/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Steelix|50/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Steelix
+|-damage|p1a: Steelix|25/100
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Steelix|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-heal|p1a: Steelix|31/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|switch|p2a: Golisopod|Golisopod, F|48/100
+|move|p1a: Steelix|Protect||[still]
+|-fail|p1a: Steelix
+|
+|-heal|p1a: Steelix|37/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|move|p1a: Steelix|Protect|p1a: Steelix
+|-singleturn|p1a: Steelix|Protect
+|move|p2a: Golisopod|Liquidation|p1a: Steelix
+|-activate|p1a: Steelix|move: Protect
+|
+|-heal|p1a: Steelix|43/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|switch|p1a: Rotom|Rotom-Wash|20/100
+|-damage|p1a: Rotom|8/100|[from] Stealth Rock
+|move|p2a: Golisopod|Liquidation|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Goodra|Goodra, M|82/100
+|-damage|p1a: Goodra|69/100|[from] Stealth Rock
+|turn|80
+|j| Tangent²Phi³ ¿?
+|inactive|zizi festif has 120 seconds left.
+|
+|switch|p2a: Sylveon|Sylveon, M|74/100
+|-damage|p2a: Sylveon|61/100|[from] Stealth Rock
+|move|p1a: Goodra|Draco Meteor|p2a: Sylveon
+|-immune|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|68/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Goodra|Sludge Bomb|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|74/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|move|p1a: Goodra|Sludge Bomb|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|41/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|47/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|switch|p1a: Sylveon|Sylveon, F|65/100
+|-damage|p1a: Sylveon|53/100|[from] Stealth Rock
+|move|p2a: Sylveon|Hyper Voice|p1a: Sylveon
+|-damage|p1a: Sylveon|27/100
+|
+|-heal|p2a: Sylveon|97/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Sylveon|Hyper Voice|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|upkeep
+|
+|switch|p1a: Steelix|Steelix, F|43/100
+|-damage|p1a: Steelix|40/100|[from] Stealth Rock
+|turn|85
+|
+|switch|p2a: Golisopod|Golisopod, F|48/100
+|move|p1a: Steelix|Heavy Slam|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|39/100
+|
+|-heal|p1a: Steelix|96/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|c|☆uult3 congelo|jamais de luck
+|c|☆uult3 congelo|fais chier
+|-message|uult3 congelo forfeited.
+|
+|win|zizi festif
+|l|☆uult3 congelo
+|c|☆zizi festif|Que du skill
+|l|☆zizi festif
+|raw|uult3 congelo's rating: 1518 &rarr; <strong>1496</strong><br />(-22 for losing)
+|raw|zizi festif's rating: 1492 &rarr; <strong>1513</strong><br />(+21 for winning)

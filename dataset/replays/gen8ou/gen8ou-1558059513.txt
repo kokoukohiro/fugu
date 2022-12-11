@@ -1,0 +1,261 @@
+|j|☆RobustLoki
+|j|☆RETURN NIRVANA
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1650528278
+|gametype|singles
+|player|p1|RobustLoki|ghetsis|
+|player|p2|RETURN NIRVANA|gambler-gen1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Galvantula, F|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Blacephalon|
+|poke|p1|Scizor, M|
+|poke|p1|Dragonite, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Omastar, M|
+|poke|p2|Nihilego|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Ferrothorn, F|
+|teampreview
+|j| Prince Zenaku
+|j| X-Wing Fighter
+|
+|t:|1650528304
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|
+|t:|1650528310
+|move|p2a: Tornadus|U-turn|p1a: Galvantula
+|-damage|p1a: Galvantula|74/100
+|
+|t:|1650528312
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Galvantula|atk|1
+|move|p1a: Galvantula|Sticky Web|p2a: Landorus
+|-sidestart|p2: RETURN NIRVANA|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1650528315
+|move|p1a: Galvantula|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|move|p2a: Landorus|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|-damage|p2a: Landorus|94/100 tox|[from] psn
+|upkeep
+|c| X-Wing Fighter|SOMETHING IN THE WAY
+|
+|t:|1650528333
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|3
+|
+|t:|1650528345
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1650528351
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Dragonite
+|-start|p1a: Dragonite|move: Leech Seed
+|
+|-damage|p1a: Dragonite|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|5
+|
+|t:|1650528355
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Ferrothorn|Knock Off|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|52/100
+|-enditem|p1a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-damage|p1a: Dragonite|40/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|6
+|
+|t:|1650528359
+|switch|p2a: Landorus|Landorus-Therian, M|94/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-damage|p1a: Dragonite|27/100|[from] Leech Seed|[of] p2a: Landorus
+|-heal|p2a: Landorus|100/100 tox|[silent]
+|-damage|p2a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|c|☆RobustLoki|crit gah dam
+|
+|t:|1650528367
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p1a: Dragonite|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/100
+|
+|-damage|p1a: Dragonite|15/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|68/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1650528374
+|move|p1a: Dragonite|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|24/100
+|move|p2a: Ferrothorn|Body Press|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1650528393
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|9
+|
+|t:|1650528395
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1650528403
+|move|p2a: Pelipper|Weather Ball|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆RobustLoki|wow
+|c|☆RobustLoki|speed peli and 1hko
+|c|☆RobustLoki|gah dam
+|j| Anonymous43567
+|
+|t:|1650528421
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|11
+|l| Anonymous43567
+|
+|t:|1650528425
+|switch|p2a: Landorus|Landorus-Therian, M|94/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|move|p1a: Thundurus|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Landorus|88/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1650528429
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Landorus|Defog|p1a: Thundurus
+|-unboost|p1a: Thundurus|evasion|1
+|-sideend|p2: RETURN NIRVANA|Sticky Web|[from] move: Defog|[of] p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Landorus|76/100 tox|[from] psn
+|upkeep
+|turn|13
+|j| Magikarp Soup
+|
+|t:|1650528443
+|move|p1a: Thundurus|Psychic|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|none
+|upkeep
+|
+|t:|1650528446
+|switch|p2a: Nihilego|Nihilego|100/100
+|turn|14
+|
+|t:|1650528450
+|move|p2a: Nihilego|Power Gem|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spe|1
+|
+|upkeep
+|c| Magikarp Soup|Rain go btrrr
+|c|☆RobustLoki|ok speed nihi , meteorbeam...
+|c|☆RobustLoki|i get it now
+|
+|t:|1650528467
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|turn|15
+|
+|t:|1650528470
+|move|p2a: Nihilego|Dazzling Gleam|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spe|1
+|
+|upkeep
+|c|☆RobustLoki|DAZZLING GLEAM ON NIHI?
+|c|☆RobustLoki|ok bro
+|
+|t:|1650528480
+|switch|p1a: Blacephalon|Blacephalon|100/100
+|turn|16
+|c|☆RETURN NIRVANA|gg
+|c| Magikarp Soup|Yeah niui runs gleam
+|j| mangoes crazy
+|
+|t:|1650528485
+|move|p2a: Nihilego|Power Gem|p1a: Blacephalon
+|-supereffective|p1a: Blacephalon
+|-damage|p1a: Blacephalon|0 fnt
+|faint|p1a: Blacephalon
+|
+|win|RETURN NIRVANA
+|n|☆RobustLoki|robustloki
+|n|☆RETURN NIRVANA|returnnirvana
+|n| Prince Zenaku|princezenaku
+|n| X-Wing Fighter|xwingfighter
+|n| Magikarp Soup|magikarpsoup
+|n| mangoes crazy|mangoescrazy
+|c| Magikarp Soup|Gg
+|c|☆RobustLoki|gg

@@ -1,0 +1,353 @@
+|j|☆DBasso
+|j|☆SergioRules
+|player|p1|DBasso|drake-gen3|1461
+|player|p2|SergioRules|skier-gen2|1280
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Basculin, M|
+|poke|p1|Mawile, F|
+|poke|p1|Manectric, F|
+|poke|p1|Roselia, M|
+|poke|p1|Vibrava, M|
+|poke|p1|Silvally-*|
+|poke|p2|Glaceon, F|
+|poke|p2|Raichu, M|
+|poke|p2|Lapras, F|
+|poke|p2|Silvally-*|
+|poke|p2|Drakloak, M|
+|poke|p2|Mawile, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Manectric|Manectric, F|100/100
+|switch|p2a: Drakloak|Drakloak, M|100/100
+|turn|1
+|
+|move|p1a: Manectric|Volt Switch|p2a: Drakloak
+|-resisted|p2a: Drakloak
+|-damage|p2a: Drakloak|65/100
+|
+|switch|p1a: Mawile|Mawile, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Drakloak|atk|1
+|move|p2a: Drakloak|Dragon Dance|p2a: Drakloak
+|-boost|p2a: Drakloak|atk|1
+|-boost|p2a: Drakloak|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Drakloak|U-turn|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|97/100
+|
+|switch|p2a: Silvally|Silvally-Ground|100/100|[from]move: U-turn
+|move|p1a: Mawile|Stealth Rock|p2a: Silvally
+|-sidestart|p2: SergioRules|move: Stealth Rock
+|
+|-heal|p1a: Mawile|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Silvally|U-turn|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|97/100
+|
+|switch|p2a: Mawile|Mawile, M|100/100|[from]move: U-turn
+|-damage|p2a: Mawile|94/100|[from] Stealth Rock
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Mawile|atk|1
+|move|p1a: Mawile|Toxic|p2a: Mawile
+|-immune|p2a: Mawile
+|
+|-heal|p2a: Mawile|100/100|[from] item: Leftovers
+|-heal|p1a: Mawile|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Manectric|Manectric, F|100/100
+|move|p2a: Mawile|Stealth Rock|p1a: Manectric
+|-sidestart|p1: DBasso|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Drakloak|Drakloak, M|65/100
+|-damage|p2a: Drakloak|53/100|[from] Stealth Rock
+|move|p1a: Manectric|Overheat|p2a: Drakloak
+|-resisted|p2a: Drakloak
+|-damage|p2a: Drakloak|12/100
+|-unboost|p1a: Manectric|spa|2
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Mawile|Mawile, F|100/100
+|-damage|p1a: Mawile|94/100|[from] Stealth Rock
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Drakloak|atk|1
+|switch|p2a: Silvally|Silvally-Ground|100/100
+|-damage|p2a: Silvally|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Mawile|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|3/100
+|move|p1a: Mawile|Super Fang|p2a: Silvally
+|-damage|p2a: Silvally|48/100
+|
+|-heal|p1a: Mawile|9/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Silvally|Rock Slide|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Dark|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Mawile|Mawile, M|100/100
+|-damage|p2a: Mawile|94/100|[from] Stealth Rock
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Silvally|atk|1
+|turn|10
+|
+|switch|p1a: Roselia|Roselia, M|100/100
+|-damage|p1a: Roselia|88/100|[from] Stealth Rock
+|move|p2a: Mawile|Seismic Toss|p1a: Roselia
+|-damage|p1a: Roselia|55/100
+|
+|-heal|p2a: Mawile|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Roselia|Synthesis|p1a: Roselia
+|-heal|p1a: Roselia|100/100
+|move|p2a: Mawile|Taunt|p1a: Roselia
+|-start|p1a: Roselia|move: Taunt
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Roselia|Giga Drain|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|76/100
+|move|p2a: Mawile|Knock Off|p1a: Roselia
+|-damage|p1a: Roselia|73/100
+|-enditem|p1a: Roselia|Eviolite|[from] move: Knock Off|[of] p2a: Mawile
+|
+|-heal|p2a: Mawile|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Drakloak|Drakloak, M|12/100
+|-damage|p2a: Drakloak|0 fnt|[from] Stealth Rock
+|faint|p2a: Drakloak
+|move|p1a: Roselia|Giga Drain|p2: Drakloak|[notarget]
+|-fail|p1a: Roselia
+|
+|upkeep
+|
+|switch|p2a: Glaceon|Glaceon, F|100/100
+|-damage|p2a: Glaceon|76/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Glaceon|Ice Beam|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|faint|p1a: Roselia
+|
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, F|100/100
+|-damage|p1a: Manectric|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Lapras|Lapras, F|100/100
+|move|p1a: Manectric|Overheat|p2a: Lapras
+|-damage|p2a: Lapras|55/100
+|-unboost|p1a: Manectric|spa|2
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Silvally|Silvally-Dark|88/100
+|-damage|p1a: Silvally|76/100|[from] Stealth Rock
+|move|p2a: Lapras|Freeze-Dry|p1a: Silvally
+|-damage|p1a: Silvally|51/100
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Manectric|Manectric, F|88/100
+|-damage|p1a: Manectric|76/100|[from] Stealth Rock
+|switch|p2a: Mawile|Mawile, M|82/100
+|-damage|p2a: Mawile|76/100|[from] Stealth Rock
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Manectric|atk|1
+|
+|-heal|p2a: Mawile|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Manectric|Overheat|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|-unboost|p1a: Manectric|spa|2
+|faint|p2a: Mawile
+|
+|upkeep
+|
+|switch|p2a: Lapras|Lapras, F|55/100
+|turn|19
+|
+|switch|p1a: Silvally|Silvally-Dark|51/100
+|-damage|p1a: Silvally|39/100|[from] Stealth Rock
+|move|p2a: Lapras|Body Press|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Basculin|Basculin, M|100/100
+|-damage|p1a: Basculin|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Basculin|Superpower|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|3/100
+|-unboost|p1a: Basculin|atk|1
+|-unboost|p1a: Basculin|def|1
+|-damage|p1a: Basculin|78/100|[from] item: Life Orb
+|move|p2a: Lapras|Freeze-Dry|p1a: Basculin
+|-supereffective|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|faint|p1a: Basculin
+|
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, F|76/100
+|-damage|p1a: Manectric|63/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Manectric|Overheat|p2a: Lapras|[miss]
+|-miss|p1a: Manectric|p2a: Lapras
+|move|p2a: Lapras|Freeze-Dry|p1a: Manectric
+|-damage|p1a: Manectric|25/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Manectric|Overheat|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|-unboost|p1a: Manectric|spa|2
+|faint|p2a: Lapras
+|
+|upkeep
+|
+|switch|p2a: Raichu|Raichu, M|100/100
+|-damage|p2a: Raichu|88/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|-damage|p1a: Vibrava|95/100|[from] Stealth Rock
+|move|p2a: Raichu|Surf|p1a: Vibrava
+|-crit|p1a: Vibrava
+|-damage|p1a: Vibrava|65/100
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Glaceon|Glaceon, F|76/100
+|-damage|p2a: Glaceon|51/100|[from] Stealth Rock
+|move|p1a: Vibrava|U-turn|p2a: Glaceon
+|-damage|p2a: Glaceon|39/100
+|
+|switch|p1a: Manectric|Manectric, F|25/100|[from]move: U-turn
+|-damage|p1a: Manectric|12/100|[from] Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Manectric|Overheat|p2a: Glaceon
+|-supereffective|p2a: Glaceon
+|-damage|p2a: Glaceon|0 fnt
+|-unboost|p1a: Manectric|spa|2
+|faint|p2a: Glaceon
+|
+|upkeep
+|
+|switch|p2a: Raichu|Raichu, M|88/100
+|-damage|p2a: Raichu|76/100|[from] Stealth Rock
+|turn|26
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DBasso)
+|
+|move|p2a: Raichu|Focus Blast|p1a: Manectric|[miss]
+|-miss|p2a: Raichu|p1a: Manectric
+|move|p1a: Manectric|Overheat|p2a: Raichu|[miss]
+|-miss|p1a: Manectric|p2a: Raichu
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Raichu|Focus Blast|p1a: Manectric|[miss]
+|-miss|p2a: Raichu|p1a: Manectric
+|move|p1a: Manectric|Overheat|p2a: Raichu
+|-damage|p2a: Raichu|29/100
+|-unboost|p1a: Manectric|spa|2
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Raichu|Focus Blast|p1a: Manectric
+|-crit|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|upkeep
+|
+|switch|p1a: Vibrava|Vibrava, M|65/100
+|-damage|p1a: Vibrava|59/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Raichu|Focus Blast|p1a: Vibrava|[miss]
+|-miss|p2a: Raichu|p1a: Vibrava
+|move|p1a: Vibrava|Earth Power|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|win|DBasso
+|l|☆SergioRules
+|raw|DBasso's rating: 1462 &rarr; <strong>1472</strong><br />(+10 for winning)
+|raw|SergioRules's rating: 1280 &rarr; <strong>1267</strong><br />(-13 for losing)
+|j| Dneon
+|c|☆DBasso|anche oggi
+|l| Dneon

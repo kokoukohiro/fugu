@@ -1,0 +1,327 @@
+|raw|<div class="broadcast-red"><strong>This battle is invite-only!</strong><br />Users must be invited with <code>/invite</code> (or be staff) to join</div>
+|j|☆RULT4pm Warrior
+|j|‽RULT4pm Aqua
+|t:|1598734165
+|player|p1|RULT4pm Warrior|265|1575
+|player|p2|RULT4pm Aqua|101|1504
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Bewear, F|
+|poke|p1|Slowbro-Galar, M|
+|poke|p1|Steelix, M|
+|poke|p1|Mantine, F|
+|poke|p1|Rotom-Mow|
+|poke|p1|Silvally-*|
+|poke|p2|Quagsire, F|
+|poke|p2|Bronzong|
+|poke|p2|Umbreon, F|
+|poke|p2|Slowbro-Galar, M|
+|poke|p2|Mantine, M|
+|poke|p2|Tangela, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|raw|<div class="broadcast-blue"><strong>This room is no longer invite only!</strong><br />Anyone may now join.</div>
+|c|‽RULT4pm Aqua|/log RULT4pm Aqua turned off modjoin.
+|c|‽RULT4pm Aqua|/log RULT4pm Aqua made this room public.
+|
+|t:|1598734221
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Slowbro|Slowbro-Galar, M|100/100
+|turn|1
+|
+|t:|1598734228
+|move|p1a: Rotom|Volt Switch|p2a: Slowbro
+|-damage|p2a: Slowbro|62/100
+|
+|t:|1598734232
+|switch|p1a: Slowbro|Slowbro-Galar, M|100/100|[from]move: Volt Switch
+|move|p2a: Slowbro|Sludge Bomb|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|91/100
+|
+|upkeep
+|turn|2
+|
+|t:|1598734237
+|move|p1a: Slowbro|Fire Blast|p2a: Slowbro
+|-damage|p2a: Slowbro|29/100
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|79/100
+|
+|upkeep
+|turn|3
+|
+|t:|1598734243
+|move|p1a: Slowbro|Sludge Bomb|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|58/100
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1598734248
+|switch|p1a: Mantine|Mantine, F|100/100
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1598734262
+|switch|p1a: Steelix|Steelix, M|100/100
+|move|p2a: Slowbro|Sludge Bomb|p1a: Steelix
+|-immune|p1a: Steelix
+|
+|upkeep
+|turn|6
+|
+|t:|1598734267
+|move|p2a: Slowbro|Scald|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|40/100
+|move|p1a: Steelix|Earthquake|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|62/100
+|
+|-heal|p1a: Steelix|46/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1598734281
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Slowbro|Sludge Bomb|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1598734284
+|switch|p1a: Bewear|Bewear, F|100/100
+|turn|8
+|
+|t:|1598734292
+|switch|p2a: Tangela|Tangela, M|100/100
+|move|p1a: Bewear|Double-Edge|p2a: Tangela
+|-damage|p2a: Tangela|59/100
+|-damage|p1a: Bewear|88/100|[from] Recoil
+|
+|upkeep
+|turn|9
+|
+|t:|1598734298
+|move|p1a: Bewear|Double-Edge|p2a: Tangela
+|-damage|p2a: Tangela|16/100
+|-damage|p1a: Bewear|76/100|[from] Recoil
+|move|p2a: Tangela|Leech Seed|p1a: Bewear
+|-start|p1a: Bewear|move: Leech Seed
+|
+|-damage|p1a: Bewear|64/100|[from] Leech Seed|[of] p2a: Tangela
+|-heal|p2a: Tangela|30/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1598734303
+|switch|p1a: Steelix|Steelix, M|46/100
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|
+|-heal|p1a: Steelix|52/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1598734308
+|switch|p2a: Slowbro|Slowbro-Galar, M|95/100
+|move|p1a: Steelix|Protect||[still]
+|-fail|p1a: Steelix
+|
+|-heal|p1a: Steelix|58/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|-activate|p2a: Slowbro|item: Quick Claw
+|
+|t:|1598734314
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1598734317
+|move|p1a: Silvally|Flamethrower|p2a: Slowbro
+|-damage|p2a: Slowbro|80/100
+|-status|p2a: Slowbro|brn
+|move|p2a: Slowbro|Sludge Bomb|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|-damage|p2a: Slowbro|74/100 brn|[from] brn
+|upkeep
+|
+|t:|1598734320
+|switch|p1a: Bewear|Bewear, F|64/100
+|turn|14
+|
+|t:|1598734325
+|move|p1a: Bewear|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|4/100 brn
+|-damage|p1a: Bewear|40/100|[from] Recoil
+|move|p2a: Slowbro|Sludge Bomb|p1a: Bewear
+|-damage|p1a: Bewear|0 fnt
+|faint|p1a: Bewear
+|
+|-damage|p2a: Slowbro|0 fnt|[from] brn
+|faint|p2a: Slowbro
+|upkeep
+|
+|t:|1598734333
+|switch|p1a: Slowbro|Slowbro-Galar, M|100/100
+|switch|p2a: Mantine|Mantine, M|100/100
+|turn|15
+|
+|t:|1598734338
+|move|p2a: Mantine|Scald|p1a: Slowbro
+|-damage|p1a: Slowbro|85/100
+|move|p1a: Slowbro|Sludge Bomb|p2a: Mantine
+|-damage|p2a: Mantine|74/100
+|-status|p2a: Mantine|psn
+|
+|-heal|p2a: Mantine|80/100 psn|[from] item: Leftovers
+|-damage|p2a: Mantine|68/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1598734346
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Slowbro|Fire Blast|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|81/100
+|
+|-heal|p2a: Bronzong|87/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1598734350
+|switch|p1a: Steelix|Steelix, M|58/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Steelix
+|-sidestart|p1: RULT4pm Warrior|move: Stealth Rock
+|
+|-heal|p1a: Steelix|64/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|93/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1598734355
+|switch|p2a: Tangela|Tangela, M|64/100
+|move|p1a: Steelix|Stealth Rock|p2a: Tangela
+|-sidestart|p2: RULT4pm Aqua|move: Stealth Rock
+|
+|-heal|p1a: Steelix|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1598734358
+|move|p2a: Tangela|Knock Off|p1a: Steelix
+|-damage|p1a: Steelix|63/100
+|-enditem|p1a: Steelix|Leftovers|[from] move: Knock Off|[of] p2a: Tangela
+|move|p1a: Steelix|Body Press|p2a: Tangela
+|-damage|p2a: Tangela|48/100
+|
+|upkeep
+|turn|20
+|
+|t:|1598734362
+|switch|p1a: Slowbro|Slowbro-Galar, M|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Tangela|Leech Seed|p1a: Slowbro
+|-start|p1a: Slowbro|move: Leech Seed
+|
+|-damage|p1a: Slowbro|76/100|[from] Leech Seed|[of] p2a: Tangela
+|-heal|p2a: Tangela|61/100|[silent]
+|upkeep
+|turn|21
+|
+|t:|1598734366
+|switch|p2a: Umbreon|Umbreon, F|100/100
+|switch|p1a: Steelix|Steelix, M|63/100
+|-damage|p1a: Steelix|60/100|[from] Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|t:|1598734374
+|switch|p2a: Bronzong|Bronzong|93/100
+|-damage|p2a: Bronzong|87/100|[from] Stealth Rock
+|move|p1a: Steelix|Body Press|p2a: Bronzong
+|-damage|p2a: Bronzong|54/100
+|
+|-heal|p2a: Bronzong|61/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1598734385
+|switch|p2a: Tangela|Tangela, M|94/100
+|-damage|p2a: Tangela|82/100|[from] Stealth Rock
+|move|p1a: Steelix|Body Press|p2a: Tangela
+|-damage|p2a: Tangela|63/100
+|
+|upkeep
+|turn|24
+|
+|t:|1598734390
+|switch|p1a: Mantine|Mantine, F|100/100
+|move|p2a: Tangela|Leech Seed|p1a: Mantine
+|-start|p1a: Mantine|move: Leech Seed
+|
+|-damage|p1a: Mantine|88/100|[from] Leech Seed|[of] p2a: Tangela
+|-heal|p2a: Tangela|77/100|[silent]
+|upkeep
+|turn|25
+|
+|t:|1598734395
+|switch|p1a: Slowbro|Slowbro-Galar, M|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|switch|p2a: Umbreon|Umbreon, F|100/100
+|
+|upkeep
+|turn|26
+|
+|t:|1598734397
+|move|p2a: Umbreon|Foul Play|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|11/100
+|move|p1a: Slowbro|Sludge Bomb|p2a: Umbreon
+|-damage|p2a: Umbreon|80/100
+|-status|p2a: Umbreon|psn
+|-activate|p2a: Umbreon|ability: Synchronize
+|-immune|p1a: Slowbro
+|
+|-damage|p2a: Umbreon|68/100 psn|[from] psn
+|upkeep
+|turn|27
+|-message|RULT4pm Warrior forfeited.
+|
+|win|RULT4pm Aqua
+|l|☆RULT4pm Warrior
+|raw|RULT4pm Warrior's rating: 1576 &rarr; <strong>1551</strong><br />(-25 for losing)
+|raw|RULT4pm Aqua's rating: 1504 &rarr; <strong>1528</strong><br />(+24 for winning)
+|player|p2|RULT4pm Aqua|101
+|n|‽RULT4pm Aqua|rult4pmaqua

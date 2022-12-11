@@ -1,0 +1,213 @@
+|j|☆Firquen
+|j|☆Aeno0805
+|player|p1|Firquen|grimsley|1299
+|player|p2|Aeno0805|161|1216
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Haxorus, M|
+|poke|p1|Morpeko, M|
+|poke|p1|Coalossal, M|
+|poke|p1|Heliolisk, M|
+|poke|p1|Rotom-Fan|
+|poke|p1|Flygon, M|
+|poke|p2|Braviary, M|
+|poke|p2|Heliolisk, F|
+|poke|p2|Duraludon, M|
+|poke|p2|Arcanine, M|
+|poke|p2|Milotic, F|
+|poke|p2|Haxorus, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mr.TONK|Coalossal, M|100/100
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aeno0805)
+|
+|move|p2a: Heliolisk|Surf|p1a: Mr.TONK
+|-supereffective|p1a: Mr.TONK
+|-enditem|p1a: Mr.TONK|Focus Sash
+|-damage|p1a: Mr.TONK|1/100
+|-ability|p1a: Mr.TONK|Steam Engine|boost
+|-boost|p1a: Mr.TONK|spe|6
+|move|p1a: Mr.TONK|Stealth Rock|p2a: Heliolisk
+|-sidestart|p2: Aeno0805|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|j| Codsauce
+|
+|move|p1a: Mr.TONK|Spikes|p2a: Heliolisk
+|-sidestart|p2: Aeno0805|Spikes
+|move|p2a: Heliolisk|Surf|p1a: Mr.TONK
+|-supereffective|p1a: Mr.TONK
+|-damage|p1a: Mr.TONK|0 fnt
+|faint|p1a: Mr.TONK
+|
+|upkeep
+|
+|switch|p1a: Iris's Friend|Haxorus, M|100/100
+|-ability|p1a: Iris's Friend|Mold Breaker
+|turn|3
+|
+|switch|p2a: Braviary|Braviary, M|100/100
+|move|p1a: Iris's Friend|Dragon Dance|p1a: Iris's Friend
+|-boost|p1a: Iris's Friend|atk|1
+|-boost|p1a: Iris's Friend|spe|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Iris's Friend|Outrage|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|upkeep
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-damage|p2a: Arcanine|88/100|[from] Spikes
+|-damage|p2a: Arcanine|63/100|[from] Stealth Rock
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Iris's Friend|atk|1
+|turn|5
+|
+|move|p1a: Iris's Friend|Outrage|p2a: Arcanine|[from]lockedmove
+|-damage|p2a: Arcanine|0 fnt
+|-start|p1a: Iris's Friend|confusion|[fatigue]
+|faint|p2a: Arcanine
+|-enditem|p1a: Iris's Friend|Lum Berry|[eat]
+|-end|p1a: Iris's Friend|confusion
+|
+|upkeep
+|
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|-damage|p2a: Duraludon|94/100|[from] Stealth Rock
+|-damage|p2a: Duraludon|82/100|[from] Spikes
+|turn|6
+|
+|move|p1a: Iris's Friend|Close Combat|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|9/100
+|-unboost|p1a: Iris's Friend|def|1
+|-unboost|p1a: Iris's Friend|spd|1
+|move|p2a: Duraludon|Stealth Rock|p1a: Iris's Friend
+|-sidestart|p1: Firquen|move: Stealth Rock
+|
+|-heal|p2a: Duraludon|15/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Iris's Friend|Close Combat|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|-unboost|p1a: Iris's Friend|def|1
+|-unboost|p1a: Iris's Friend|spd|1
+|faint|p2a: Duraludon
+|
+|upkeep
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|-damage|p2a: Milotic|88/100|[from] Spikes
+|-damage|p2a: Milotic|76/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Summer|Rotom-Fan|100/100
+|-damage|p1a: Summer|76/100|[from] Stealth Rock
+|move|p2a: Milotic|Ice Beam|p1a: Summer
+|-supereffective|p1a: Summer
+|-damage|p1a: Summer|3/100
+|
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|-damage|p2a: Heliolisk|88/100|[from] Spikes
+|-damage|p2a: Heliolisk|76/100|[from] Stealth Rock
+|move|p1a: Summer|Thunderbolt|p2a: Heliolisk
+|-resisted|p2a: Heliolisk
+|-damage|p2a: Heliolisk|36/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Heliolisk|Discharge|p1a: Summer
+|-damage|p1a: Summer|0 fnt
+|faint|p1a: Summer
+|
+|upkeep
+|
+|switch|p1a: El Lizaro|Heliolisk, M|100/100
+|-damage|p1a: El Lizaro|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Heliolisk|Discharge|p1a: El Lizaro
+|-resisted|p1a: El Lizaro
+|-damage|p1a: El Lizaro|51/100
+|move|p1a: El Lizaro|Volt Switch|p2a: Heliolisk
+|-resisted|p2a: Heliolisk
+|-damage|p2a: Heliolisk|2/100
+|
+|switch|p1a: Iris's Friend|Haxorus, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Iris's Friend|88/100|[from] Stealth Rock
+|-ability|p1a: Iris's Friend|Mold Breaker
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Heliolisk|Discharge|p1a: Iris's Friend
+|-resisted|p1a: Iris's Friend
+|-damage|p1a: Iris's Friend|44/100
+|move|p1a: Iris's Friend|Dragon Dance|p1a: Iris's Friend
+|-boost|p1a: Iris's Friend|atk|1
+|-boost|p1a: Iris's Friend|spe|1
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Iris's Friend|Outrage|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|faint|p2a: Heliolisk
+|
+|upkeep
+|
+|switch|p2a: Milotic|Milotic, F|82/100
+|-damage|p2a: Milotic|69/100|[from] Stealth Rock
+|-damage|p2a: Milotic|57/100|[from] Spikes
+|turn|14
+|
+|move|p1a: Iris's Friend|Outrage|p2a: Milotic|[from]lockedmove
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-damage|p2a: Haxorus|88/100|[from] Spikes
+|-damage|p2a: Haxorus|76/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|15
+|c|☆Firquen|gg !
+|
+|move|p1a: Iris's Friend|Outrage|p2a: Haxorus|[from]lockedmove
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|-start|p1a: Iris's Friend|confusion|[fatigue]
+|faint|p2a: Haxorus
+|
+|win|Firquen
+|l| Codsauce
+|l|☆Aeno0805
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

@@ -1,0 +1,239 @@
+|j|☆allstarapology
+|j|☆octapi
+|player|p1|allstarapology|shelly-gen3|1478
+|player|p2|octapi|101|1304
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Crustle, M|
+|poke|p1|Mr. Rime, M|
+|poke|p1|Falinks|
+|poke|p1|Dusclops, M|
+|poke|p1|Silvally-*|
+|poke|p1|Manectric, M|
+|poke|p2|Shiinotic, M|
+|poke|p2|Hitmontop, M|
+|poke|p2|Manectric, F|
+|poke|p2|Pawniard, F|
+|poke|p2|Silvally-*|
+|poke|p2|Glaceon, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by allstarapology)
+|j| steve77s
+|
+|start
+|switch|p1a: Crustle|Crustle, M|100/100
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|turn|1
+|
+|move|p1a: Crustle|Stealth Rock|p2a: Hitmontop
+|-sidestart|p2: octapi|move: Stealth Rock
+|move|p2a: Hitmontop|Stone Edge|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-damage|p1a: Crustle|40/100
+|-ability|p1a: Crustle|Weak Armor|boost
+|-unboost|p1a: Crustle|def|1
+|-boost|p1a: Crustle|spe|2
+|
+|upkeep
+|turn|2
+|j| VsauceTan
+|
+|switch|p1a: Dusclops|Dusclops, M|100/100
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Hitmontop|Rapid Spin|p1a: Dusclops
+|-immune|p1a: Dusclops
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Pawniard|Pawniard, F|100/100
+|-damage|p2a: Pawniard|94/100|[from] Stealth Rock
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Pawniard
+|-status|p2a: Pawniard|brn
+|
+|-damage|p2a: Pawniard|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Silvally|Silvally-Poison|100/100
+|move|p2a: Pawniard|Knock Off|p1a: Silvally
+|-crit|p1a: Silvally
+|-damage|p1a: Silvally|77/100
+|
+|-damage|p2a: Pawniard|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Silvally|Silvally-Poison|100/100
+|-damage|p2a: Silvally|88/100|[from] Stealth Rock
+|move|p1a: Silvally|Flamethrower|p2a: Silvally
+|-damage|p2a: Silvally|69/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Crustle|Crustle, M|40/100
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Crustle
+|-resisted|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|faint|p1a: Crustle
+|
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|turn|8
+|
+|move|p1a: Manectric|Volt Switch|p2a: Silvally
+|-damage|p2a: Silvally|34/100
+|
+|switch|p1a: Falinks|Falinks|100/100|[from]move: Volt Switch
+|move|p2a: Silvally|Multi-Attack|p1a: Falinks
+|-damage|p1a: Falinks|0 fnt
+|faint|p1a: Falinks
+|
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, M|100/100
+|turn|9
+|
+|switch|p2a: Manectric|Manectric, F|100/100
+|-damage|p2a: Manectric|88/100|[from] Stealth Rock
+|move|p1a: Manectric|Volt Switch|p2a: Manectric
+|-ability|p2a: Manectric|Lightning Rod|boost
+|-boost|p2a: Manectric|spa|1
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Dusclops|Dusclops, M|100/100
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Manectric|Switcheroo|p1a: Dusclops
+|-activate|p2a: Manectric|move: Trick|[of] p1a: Dusclops
+|-item|p1a: Dusclops|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Manectric|Eviolite|[from] move: Switcheroo
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Manectric|Overheat|p1a: Dusclops
+|-damage|p1a: Dusclops|50/100
+|-unboost|p2a: Manectric|spa|2
+|move|p1a: Dusclops|Seismic Toss|p2a: Manectric
+|-damage|p2a: Manectric|52/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Manectric|Volt Switch|p1a: Dusclops
+|-damage|p1a: Dusclops|33/100
+|
+|switch|p2a: Pawniard|Pawniard, F|82/100 brn|[from]move: Volt Switch
+|-damage|p2a: Pawniard|76/100 brn|[from] Stealth Rock
+|move|p1a: Dusclops|Seismic Toss|p2a: Pawniard
+|-damage|p2a: Pawniard|33/100 brn
+|
+|-damage|p2a: Pawniard|27/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Silvally|Silvally-Poison|77/100
+|move|p2a: Pawniard|Knock Off|p1a: Silvally
+|-damage|p1a: Silvally|62/100
+|
+|-damage|p2a: Pawniard|21/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Pawniard|Sucker Punch||[still]
+|-fail|p2a: Pawniard
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-damage|p2a: Pawniard|15/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Silvally|Flamethrower|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|
+|upkeep
+|inactive|octapi has 120 seconds left.
+|
+|switch|p2a: Silvally|Silvally-Poison|34/100
+|-damage|p2a: Silvally|22/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-damage|p2a: Hitmontop|94/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|upkeep
+|
+|switch|p2a: Glaceon|Glaceon, M|100/100
+|-damage|p2a: Glaceon|76/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Glaceon
+|-damage|p2a: Glaceon|0 fnt
+|faint|p2a: Glaceon
+|
+|upkeep
+|c|☆octapi|gg
+|
+|switch|p2a: Manectric|Manectric, F|52/100
+|-damage|p2a: Manectric|40/100|[from] Stealth Rock
+|turn|19
+|c|☆allstarapology|gg
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|upkeep
+|
+|switch|p2a: Shiinotic|Shiinotic, M|100/100
+|-damage|p2a: Shiinotic|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Shiinotic
+|-supereffective|p2a: Shiinotic
+|-damage|p2a: Shiinotic|0 fnt
+|faint|p2a: Shiinotic
+|
+|win|allstarapology
+|l|☆octapi
+|l|☆allstarapology
+|raw|allstarapology's rating: 1478 &rarr; <strong>1489</strong><br />(+11 for winning)
+|raw|octapi's rating: 1304 &rarr; <strong>1293</strong><br />(-11 for losing)
+|l| VsauceTan

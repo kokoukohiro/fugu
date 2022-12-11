@@ -1,0 +1,563 @@
+|j|☆allstarapology
+|j|☆BulbaBrain
+|player|p1|allstarapology|shelly-gen3|1624
+|player|p2|BulbaBrain|plumeria|1341
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Crustle, M|
+|poke|p1|Pikachu, F|
+|poke|p1|Mr. Mime, M|
+|poke|p1|Mr. Rime, F|
+|poke|p1|Dusclops, M|
+|poke|p1|Pawniard, M|
+|poke|p2|Leafeon, F|
+|poke|p2|Palpitoad, M|
+|poke|p2|Manectric, F|
+|poke|p2|Glaceon, M|
+|poke|p2|Throh, M|
+|poke|p2|Silvally-*|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Red Legendary Z
+|l| Red Legendary Z
+|c|☆BulbaBrain|oh hello asa
+|c|☆allstarapology|hi
+|c|☆allstarapology|hf
+|c|☆BulbaBrain|u2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by allstarapology)
+|
+|start
+|switch|p1a: Crustle|Crustle, M|100/100
+|switch|p2a: Throh|Throh, M|100/100
+|turn|1
+|
+|move|p1a: Crustle|Stealth Rock|p2a: Throh
+|-sidestart|p2: BulbaBrain|move: Stealth Rock
+|move|p2a: Throh|Knock Off|p1a: Crustle
+|-crit|p1a: Crustle
+|-damage|p1a: Crustle|67/100
+|-ability|p1a: Crustle|Weak Armor|boost
+|-unboost|p1a: Crustle|def|1
+|-boost|p1a: Crustle|spe|2
+|-enditem|p1a: Crustle|Focus Sash|[from] move: Knock Off|[of] p2a: Throh
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Crustle|Knock Off|p2a: Throh
+|-resisted|p2a: Throh
+|-damage|p2a: Throh|88/100
+|-enditem|p2a: Throh|Leftovers|[from] move: Knock Off|[of] p1a: Crustle
+|move|p2a: Throh|Circle Throw|p1a: Crustle
+|-damage|p1a: Crustle|35/100
+|-ability|p1a: Crustle|Weak Armor|boost
+|-unboost|p1a: Crustle|def|1
+|-boost|p1a: Crustle|spe|2
+|drag|p1a: Pikachu|Pikachu, F|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Pikachu|Fake Out|p2a: Throh
+|-damage|p2a: Throh|73/100
+|cant|p2a: Throh|flinch
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Pikachu|Volt Switch|p2a: Throh
+|-damage|p2a: Throh|56/100
+|
+|switch|p1a: Crustle|Crustle, M|35/100|[from]move: Volt Switch
+|move|p2a: Throh|Circle Throw|p1a: Crustle
+|-damage|p1a: Crustle|16/100
+|-ability|p1a: Crustle|Weak Armor|boost
+|-unboost|p1a: Crustle|def|1
+|-boost|p1a: Crustle|spe|2
+|drag|p1a: Pawniard|Pawniard, M|100/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Crustle|Crustle, M|16/100
+|move|p2a: Throh|Rest|p2a: Throh
+|-status|p2a: Throh|slp|[from] move: Rest
+|-heal|p2a: Throh|100/100 slp|[silent]
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Crustle|Spikes|p2a: Throh
+|-sidestart|p2: BulbaBrain|Spikes
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Circle Throw|p1a: Crustle|[from]Sleep Talk
+|-damage|p1a: Crustle|0 fnt
+|faint|p1a: Crustle
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|100/100
+|turn|7
+|
+|switch|p2a: Glaceon|Glaceon, M|100/100
+|move|p1a: Mr. Mime|Psychic|p2a: Glaceon
+|-damage|p2a: Glaceon|69/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Dusclops|Dusclops, M|100/100
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Glaceon|Wish|p2a: Glaceon
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|100/100
+|move|p2a: Glaceon|Shadow Ball|p1a: Mr. Mime
+|-supereffective|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|54/100
+|
+|-heal|p2a: Glaceon|100/100|[from] move: Wish|[wisher] Glaceon
+|upkeep
+|turn|10
+|
+|switch|p1a: Dusclops|Dusclops, M|100/100
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Glaceon|Protect||[still]
+|-fail|p2a: Glaceon
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Glaceon|Shadow Ball|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|80/100
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Glaceon
+|-status|p2a: Glaceon|brn
+|
+|-damage|p2a: Glaceon|95/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|BulbaBrain has 120 seconds left.
+|
+|move|p2a: Glaceon|Shadow Ball|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|55/100
+|move|p1a: Dusclops|Seismic Toss|p2a: Glaceon
+|-damage|p2a: Glaceon|65/100 brn
+|
+|-damage|p2a: Glaceon|59/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Glaceon|Wish|p2a: Glaceon
+|move|p1a: Dusclops|Rest|p1a: Dusclops
+|-status|p1a: Dusclops|slp|[from] move: Rest
+|-heal|p1a: Dusclops|100/100 slp|[silent]
+|
+|-damage|p2a: Glaceon|53/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|54/100
+|move|p2a: Glaceon|Shadow Ball|p1a: Mr. Mime
+|-supereffective|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|6/100
+|-unboost|p1a: Mr. Mime|spd|1
+|
+|-heal|p2a: Glaceon|100/100 brn|[from] move: Wish|[wisher] Glaceon
+|-damage|p2a: Glaceon|95/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|move|p2a: Glaceon|Protect||[still]
+|-fail|p2a: Glaceon
+|
+|-damage|p2a: Glaceon|89/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Throh|Throh, M|100/100 slp
+|-damage|p2a: Throh|88/100 slp|[from] Spikes
+|-damage|p2a: Throh|82/100 slp|[from] Stealth Rock
+|move|p1a: Pawniard|Knock Off|p2a: Throh
+|-resisted|p2a: Throh
+|-damage|p2a: Throh|70/100 slp
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Circle Throw|p1a: Mr. Rime|[from]Sleep Talk|[miss]
+|-miss|p2a: Throh|p1a: Mr. Rime
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Throh
+|-damage|p2a: Throh|50/100 slp
+|-curestatus|p2a: Throh|slp|[msg]
+|move|p2a: Throh|Knock Off|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|39/100
+|-enditem|p1a: Mr. Rime|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Throh
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Glaceon|Glaceon, M|89/100 brn
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Glaceon
+|-resisted|p2a: Glaceon
+|-damage|p2a: Glaceon|77/100 brn
+|
+|-damage|p2a: Glaceon|71/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Pawniard|Pawniard, M|100/100
+|move|p2a: Glaceon|Wish|p2a: Glaceon
+|
+|-damage|p2a: Glaceon|65/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Glaceon|Protect|p2a: Glaceon
+|-singleturn|p2a: Glaceon|Protect
+|move|p1a: Pawniard|Iron Head|p2a: Glaceon
+|-activate|p2a: Glaceon|move: Protect
+|
+|-heal|p2a: Glaceon|100/100 brn|[from] move: Wish|[wisher] Glaceon
+|-damage|p2a: Glaceon|95/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Palpitoad|Palpitoad, M|100/100
+|-damage|p2a: Palpitoad|94/100|[from] Stealth Rock
+|-damage|p2a: Palpitoad|82/100|[from] Spikes
+|move|p1a: Pawniard|Swords Dance|p1a: Pawniard
+|-boost|p1a: Pawniard|atk|2
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Pawniard|Knock Off|p2a: Palpitoad
+|-damage|p2a: Palpitoad|35/100
+|-enditem|p2a: Palpitoad|Eviolite|[from] move: Knock Off|[of] p1a: Pawniard
+|move|p2a: Palpitoad|Earth Power|p1a: Pawniard
+|-supereffective|p1a: Pawniard
+|-damage|p1a: Pawniard|17/100
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Pawniard|Knock Off|p2a: Palpitoad
+|-damage|p2a: Palpitoad|0 fnt
+|faint|p2a: Palpitoad
+|
+|upkeep
+|
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|-damage|p2a: Leafeon|88/100|[from] Spikes
+|-damage|p2a: Leafeon|76/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Pawniard|Sucker Punch|p2a: Leafeon
+|-damage|p2a: Leafeon|20/100
+|move|p2a: Leafeon|Leaf Blade|p1a: Pawniard
+|-resisted|p1a: Pawniard
+|-crit|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|upkeep
+|
+|switch|p1a: Pikachu|Pikachu, F|100/100
+|turn|26
+|
+|move|p1a: Pikachu|Fake Out|p2a: Leafeon
+|-damage|p2a: Leafeon|2/100
+|cant|p2a: Leafeon|flinch
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Pikachu|Extreme Speed|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|upkeep
+|
+|switch|p2a: Throh|Throh, M|50/100
+|-damage|p2a: Throh|37/100|[from] Spikes
+|-damage|p2a: Throh|31/100|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Pikachu|Volt Switch|p2a: Throh
+|-damage|p2a: Throh|13/100
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|6/100|[from]move: Volt Switch
+|move|p2a: Throh|Rest|p2a: Throh
+|-status|p2a: Throh|slp|[from] move: Rest
+|-heal|p2a: Throh|100/100 slp|[silent]
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Glaceon|Glaceon, M|95/100 brn
+|move|p1a: Mr. Mime|Psychic|p2a: Glaceon
+|-crit|p2a: Glaceon
+|-damage|p2a: Glaceon|48/100 brn
+|
+|-damage|p2a: Glaceon|42/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Dusclops|Dusclops, M|100/100 slp
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Glaceon|Wish|p2a: Glaceon
+|
+|-damage|p2a: Glaceon|36/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Glaceon|Shadow Ball|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|76/100 slp
+|-unboost|p1a: Dusclops|spd|1
+|cant|p1a: Dusclops|slp
+|move|p1a: Dusclops|Sleep Talk|p1a: Dusclops
+|move|p1a: Dusclops|Rest|p1a: Dusclops|[from]Sleep Talk
+|-fail|p1a: Dusclops
+|
+|-heal|p2a: Glaceon|86/100 brn|[from] move: Wish|[wisher] Glaceon
+|-damage|p2a: Glaceon|80/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Glaceon|Wish|p2a: Glaceon
+|cant|p1a: Dusclops|slp
+|move|p1a: Dusclops|Sleep Talk|p1a: Dusclops
+|move|p1a: Dusclops|Seismic Toss|p2a: Glaceon|[from]Sleep Talk
+|-damage|p2a: Glaceon|50/100 brn
+|
+|-damage|p2a: Glaceon|44/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p2a: Silvally|Silvally-Bug|100/100
+|-damage|p2a: Silvally|88/100|[from] Spikes
+|-damage|p2a: Silvally|63/100|[from] Stealth Rock
+|-curestatus|p1a: Dusclops|slp|[msg]
+|move|p1a: Dusclops|Seismic Toss|p2a: Silvally
+|-damage|p2a: Silvally|33/100
+|
+|-heal|p2a: Silvally|84/100|[from] move: Wish|[wisher] Glaceon
+|upkeep
+|turn|34
+|
+|move|p2a: Silvally|Defog|p1a: Dusclops
+|-unboost|p1a: Dusclops|evasion|1
+|-sideend|p2: BulbaBrain|Spikes|[from] move: Defog|[of] p2a: Silvally
+|-sideend|p2: BulbaBrain|Stealth Rock|[from] move: Defog|[of] p2a: Silvally
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Silvally
+|-status|p2a: Silvally|brn
+|
+|-damage|p2a: Silvally|78/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p2a: Silvally|Flamethrower|p1a: Dusclops
+|-damage|p1a: Dusclops|60/100
+|move|p1a: Dusclops|Seismic Toss|p2a: Silvally
+|-damage|p2a: Silvally|47/100 brn
+|
+|-damage|p2a: Silvally|41/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p2a: Silvally|U-turn|p1a: Dusclops
+|-resisted|p1a: Dusclops
+|-damage|p1a: Dusclops|56/100
+|
+|switch|p2a: Manectric|Manectric, F|100/100|[from]move: U-turn
+|move|p1a: Dusclops|Seismic Toss|p2a: Manectric
+|-damage|p2a: Manectric|65/100
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Manectric|Volt Switch|p1a: Dusclops
+|-damage|p1a: Dusclops|19/100
+|
+|switch|p2a: Throh|Throh, M|100/100 slp|[from]move: Volt Switch
+|move|p1a: Dusclops|Seismic Toss|p2a: Throh
+|-damage|p2a: Throh|77/100 slp
+|
+|upkeep
+|turn|38
+|
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Rest|p2a: Throh|[from]Sleep Talk
+|-fail|p2a: Throh
+|move|p1a: Dusclops|Seismic Toss|p2a: Throh
+|-damage|p2a: Throh|54/100 slp
+|
+|upkeep
+|turn|39
+|
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Circle Throw|p1a: Dusclops|[from]Sleep Talk
+|-immune|p1a: Dusclops
+|move|p1a: Dusclops|Seismic Toss|p2a: Throh
+|-damage|p2a: Throh|31/100 slp
+|
+|upkeep
+|turn|40
+|
+|-curestatus|p2a: Throh|slp|[msg]
+|move|p2a: Throh|Rest|p2a: Throh
+|-status|p2a: Throh|slp|[from] move: Rest
+|-heal|p2a: Throh|100/100 slp|[silent]
+|move|p1a: Dusclops|Seismic Toss|p2a: Throh
+|-damage|p2a: Throh|77/100 slp
+|
+|upkeep
+|turn|41
+|
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Rest|p2a: Throh|[from]Sleep Talk
+|-fail|p2a: Throh
+|move|p1a: Dusclops|Seismic Toss|p2a: Throh
+|-damage|p2a: Throh|54/100 slp
+|
+|upkeep
+|turn|42
+|
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Rest|p2a: Throh|[from]Sleep Talk
+|-fail|p2a: Throh
+|move|p1a: Dusclops|Seismic Toss|p2a: Throh
+|-damage|p2a: Throh|31/100 slp
+|
+|upkeep
+|turn|43
+|
+|-curestatus|p2a: Throh|slp|[msg]
+|move|p2a: Throh|Rest|p2a: Throh
+|-status|p2a: Throh|slp|[from] move: Rest
+|-heal|p2a: Throh|100/100 slp|[silent]
+|move|p1a: Dusclops|Seismic Toss|p2a: Throh
+|-damage|p2a: Throh|77/100 slp
+|
+|upkeep
+|turn|44
+|
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Knock Off|p1a: Dusclops|[from]Sleep Talk
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|-enditem|p1a: Dusclops|Eviolite|[from] move: Knock Off|[of] p2a: Throh
+|faint|p1a: Dusclops
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|6/100
+|turn|45
+|
+|switch|p2a: Silvally|Silvally-Bug|41/100 brn
+|move|p1a: Mr. Mime|Psychic|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Manectric|Manectric, F|65/100
+|turn|46
+|
+|switch|p1a: Pikachu|Pikachu, F|100/100
+|move|p2a: Manectric|Volt Switch|p1a: Pikachu
+|-resisted|p1a: Pikachu
+|-damage|p1a: Pikachu|27/100
+|
+|switch|p2a: Glaceon|Glaceon, M|44/100 brn|[from]move: Volt Switch
+|
+|-damage|p2a: Glaceon|38/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p2a: Glaceon|Protect|p2a: Glaceon
+|-singleturn|p2a: Glaceon|Protect
+|move|p1a: Pikachu|Fake Out|p2a: Glaceon
+|-activate|p2a: Glaceon|move: Protect
+|
+|-damage|p2a: Glaceon|32/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p1a: Pikachu|Knock Off|p2a: Glaceon
+|-damage|p2a: Glaceon|0 fnt
+|-enditem|p2a: Glaceon|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Pikachu
+|faint|p2a: Glaceon
+|
+|upkeep
+|
+|switch|p2a: Throh|Throh, M|77/100 slp
+|turn|49
+|
+|move|p1a: Pikachu|Volt Switch|p2a: Throh
+|-damage|p2a: Throh|59/100 slp
+|
+|switch|p1a: Mr. Rime|Mr. Rime, F|39/100|[from]move: Volt Switch
+|cant|p2a: Throh|slp
+|move|p2a: Throh|Sleep Talk|p2a: Throh
+|move|p2a: Throh|Circle Throw|p1a: Mr. Rime|[from]Sleep Talk
+|-damage|p1a: Mr. Rime|0 fnt
+|faint|p1a: Mr. Rime
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|6/100
+|turn|50
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Throh
+|-supereffective|p2a: Throh
+|-crit|p2a: Throh
+|-damage|p2a: Throh|0 fnt
+|faint|p2a: Throh
+|
+|upkeep
+|
+|switch|p2a: Manectric|Manectric, F|65/100
+|turn|51
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|win|allstarapology
+|c|☆allstarapology|gg
+|raw|allstarapology's rating: 1624 &rarr; <strong>1631</strong><br />(+7 for winning)
+|raw|BulbaBrain's rating: 1341 &rarr; <strong>1335</strong><br />(-6 for losing)
+|l|☆allstarapology
+|c|☆BulbaBrain|gg

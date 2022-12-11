@@ -1,0 +1,368 @@
+|j|☆TheRealSytrus
+|j|☆ayo bb
+|player|p1|TheRealSytrus|norman|1239
+|player|p2|ayo bb|266|1457
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Dusknoir, F|
+|poke|p1|Dubwool, F|
+|poke|p1|Raichu, F|
+|poke|p1|Hitmontop, M|
+|poke|p1|Silvally-*|
+|poke|p1|Vespiquen, F|
+|poke|p2|Dubwool, F|
+|poke|p2|Munchlax, M|
+|poke|p2|Duosion, F|
+|poke|p2|Mawile, F|
+|poke|p2|Togetic, M|
+|poke|p2|Thievul, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheRealSytrus)
+|
+|start
+|switch|p1a: Raichu|Raichu, F|100/100
+|switch|p2a: Duosion|Duosion, F|100/100
+|turn|1
+|
+|move|p1a: Raichu|Volt Switch|p2a: Duosion
+|-damage|p2a: Duosion|71/100
+|
+|switch|p1a: Vespiquen|Vespiquen, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Duosion|Future Sight|p1a: Vespiquen
+|-start|p2a: Duosion|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Mawile|Mawile, F|100/100
+|move|p1a: Vespiquen|U-turn|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|93/100
+|
+|switch|p1a: Raichu|Raichu, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Duosion|Duosion, F|100/100
+|move|p1a: Raichu|Volt Switch|p2a: Duosion
+|-damage|p2a: Duosion|74/100
+|
+|switch|p1a: Silvally|Silvally-Psychic|100/100|[from]move: Volt Switch
+|
+|-end|p1a: Silvally|move: Future Sight
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|75/100
+|upkeep
+|turn|4
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Duosion|Thunder Wave|p1a: Silvally
+|-status|p1a: Silvally|par
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Dubwool|Dubwool, F|100/100
+|move|p1a: Silvally|U-turn|p2a: Dubwool
+|-damage|p2a: Dubwool|88/100
+|
+|switch|p1a: Raichu|Raichu, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Dubwool|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Duosion|Duosion, F|100/100
+|move|p1a: Raichu|Volt Switch|p2a: Duosion
+|-damage|p2a: Duosion|69/100
+|j| NiceC0ckShad0w
+|
+|switch|p1a: Dusknoir|Dusknoir, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Dusknoir|Pressure
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|move|p1a: Dusknoir|Substitute|p1a: Dusknoir
+|-start|p1a: Dusknoir|Substitute
+|-damage|p1a: Dusknoir|75/100
+|
+|-heal|p1a: Dusknoir|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Munchlax|Munchlax, M|100/100
+|move|p1a: Dusknoir|Infestation|p2a: Munchlax
+|-damage|p2a: Munchlax|99/100
+|-activate|p2a: Munchlax|move: Infestation|[of] p1a: Dusknoir
+|
+|-heal|p1a: Dusknoir|88/100|[from] item: Leftovers
+|-damage|p2a: Munchlax|87/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|move|p1a: Dusknoir|Toxic|p2a: Munchlax
+|-status|p2a: Munchlax|tox
+|move|p2a: Munchlax|Whirlwind|p1a: Dusknoir
+|drag|p1a: Raichu|Raichu, F|100/100
+|
+|-damage|p2a: Munchlax|80/100 tox|[from] psn
+|-end|p2a: Munchlax|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|10
+|
+|move|p1a: Raichu|Volt Switch|p2a: Munchlax
+|-damage|p2a: Munchlax|62/100 tox
+|
+|switch|p1a: Dusknoir|Dusknoir, F|88/100|[from]move: Volt Switch
+|-ability|p1a: Dusknoir|Pressure
+|move|p2a: Munchlax|Rest|p2a: Munchlax
+|-status|p2a: Munchlax|slp|[from] move: Rest
+|-heal|p2a: Munchlax|100/100 slp|[silent]
+|
+|-heal|p1a: Dusknoir|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Dusknoir|Substitute|p1a: Dusknoir
+|-start|p1a: Dusknoir|Substitute
+|-damage|p1a: Dusknoir|69/100
+|cant|p2a: Munchlax|slp
+|move|p2a: Munchlax|Sleep Talk|p2a: Munchlax
+|move|p2a: Munchlax|Whirlwind|p1a: Dusknoir|[from]Sleep Talk
+|drag|p1a: Raichu|Raichu, F|100/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Duosion|Duosion, F|100/100
+|move|p1a: Raichu|Focus Blast|p2a: Duosion|[miss]
+|-miss|p1a: Raichu|p2a: Duosion
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Silvally|Silvally-Psychic|75/100 par
+|move|p2a: Duosion|Future Sight|p1a: Silvally
+|-start|p2a: Duosion|move: Future Sight
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Silvally|U-turn|p2a: Duosion
+|-supereffective|p2a: Duosion
+|-damage|p2a: Duosion|50/100
+|
+|switch|p1a: Vespiquen|Vespiquen, F|100/100|[from]move: U-turn
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Duosion|Psychic|p1a: Vespiquen
+|-damage|p1a: Vespiquen|73/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Mawile|Mawile, F|93/100
+|move|p1a: Vespiquen|U-turn|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|85/100
+|
+|switch|p1a: Raichu|Raichu, F|100/100|[from]move: U-turn
+|
+|-end|p1a: Raichu|move: Future Sight
+|-damage|p1a: Raichu|19/100
+|upkeep
+|turn|16
+|
+|switch|p2a: Duosion|Duosion, F|83/100
+|move|p1a: Raichu|Volt Switch|p2a: Duosion
+|-damage|p2a: Duosion|56/100
+|
+|switch|p1a: Silvally|Silvally-Psychic|75/100 par|[from]move: Volt Switch
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Dubwool|Dubwool, F|94/100
+|move|p1a: Silvally|U-turn|p2a: Dubwool
+|-damage|p2a: Dubwool|86/100
+|
+|switch|p1a: Dusknoir|Dusknoir, F|69/100|[from]move: U-turn
+|-ability|p1a: Dusknoir|Pressure
+|
+|-heal|p2a: Dubwool|92/100|[from] item: Leftovers
+|-heal|p1a: Dusknoir|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Thievul|Thievul, M|100/100
+|move|p1a: Dusknoir|Infestation|p2a: Thievul
+|-supereffective|p2a: Thievul
+|-damage|p2a: Thievul|92/100
+|-activate|p2a: Thievul|move: Infestation|[of] p1a: Dusknoir
+|
+|-heal|p1a: Dusknoir|82/100|[from] item: Leftovers
+|-damage|p2a: Thievul|80/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|19
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Thievul|atk|1
+|move|p2a: Thievul|U-turn|p1a: Hitmontop
+|-resisted|p1a: Hitmontop
+|-damage|p1a: Hitmontop|98/100
+|
+|switch|p2a: Duosion|Duosion, F|89/100|[from]move: U-turn
+|
+|-heal|p1a: Hitmontop|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Silvally|Silvally-Psychic|75/100 par
+|move|p2a: Duosion|Future Sight|p1a: Silvally
+|-start|p2a: Duosion|move: Future Sight
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Duosion|Psychic|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|55/100 par
+|-unboost|p1a: Silvally|spd|1
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Mawile|Mawile, F|85/100
+|cant|p1a: Silvally|par
+|
+|-end|p1a: Silvally|move: Future Sight
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|17/100 par
+|upkeep
+|turn|23
+|
+|move|p2a: Mawile|Iron Head|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Raichu|Raichu, F|19/100
+|turn|24
+|
+|switch|p2a: Duosion|Duosion, F|100/100
+|move|p1a: Raichu|Thunderbolt|p2a: Duosion
+|-damage|p2a: Duosion|67/100
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Duosion
+|-damage|p2a: Duosion|31/100
+|-status|p2a: Duosion|par
+|move|p2a: Duosion|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|upkeep
+|
+|switch|p1a: Dubwool|Dubwool, F|100/100
+|turn|26
+|
+|switch|p2a: Togetic|Togetic, M|100/100
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|move|p2a: Togetic|Yawn|p1a: Dubwool
+|-start|p1a: Dubwool|move: Yawn|[of] p2a: Togetic
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Dubwool|Body Press|p2a: Togetic
+|-resisted|p2a: Togetic
+|-damage|p2a: Togetic|89/100
+|move|p2a: Togetic|Dazzling Gleam|p1a: Dubwool
+|-damage|p1a: Dubwool|76/100
+|
+|-heal|p1a: Dubwool|82/100|[from] item: Leftovers
+|-end|p1a: Dubwool|move: Yawn|[silent]
+|-status|p1a: Dubwool|slp
+|upkeep
+|turn|29
+|
+|switch|p2a: Duosion|Duosion, F|64/100 par
+|cant|p1a: Dubwool|slp
+|move|p1a: Dubwool|Sleep Talk|p1a: Dubwool
+|move|p1a: Dubwool|Body Press|p2a: Duosion|[from]Sleep Talk
+|-resisted|p2a: Duosion
+|-damage|p2a: Duosion|18/100 par
+|
+|-heal|p1a: Dubwool|88/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Togetic|Togetic, M|89/100
+|-curestatus|p1a: Dubwool|slp|[msg]
+|move|p1a: Dubwool|Sleep Talk||[still]
+|-fail|p1a: Dubwool
+|
+|-heal|p1a: Dubwool|94/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Vespiquen|Vespiquen, F|73/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Togetic|Dazzling Gleam|p1a: Vespiquen
+|-crit|p1a: Vespiquen
+|-damage|p1a: Vespiquen|49/100
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Mawile|Mawile, F|85/100
+|move|p1a: Vespiquen|U-turn|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|78/100
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100|[from]move: U-turn
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Mawile|atk|1
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Duosion|Duosion, F|51/100 par
+|move|p1a: Hitmontop|Toxic|p2a: Duosion|[miss]
+|-miss|p1a: Hitmontop|p2a: Duosion
+|
+|upkeep
+|turn|34
+|-message|TheRealSytrus forfeited.
+|
+|win|ayo bb
+|l|☆TheRealSytrus

@@ -1,0 +1,153 @@
+|j|☆scrufty
+|j|☆Got that powerr
+|player|p1|scrufty|1|1539
+|player|p2|Got that powerr|buck|1628
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Silvally-*|
+|poke|p1|Rotom|
+|poke|p1|Gigalith, F|
+|poke|p1|Gurdurr, F|
+|poke|p1|Goodra, M|
+|poke|p1|Vileplume, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Shiftry, F|
+|poke|p2|Ninetales, M|
+|poke|p2|Gallade, M|
+|poke|p2|Whimsicott, M|
+|poke|p2|Mudsdale, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Got that powerr)
+|
+|start
+|switch|p1a: Rotom|Rotom|100/100
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|1
+|inactive|Got that powerr has 120 seconds left.
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Rotom|Shadow Ball|p2a: Torkoal
+|-damage|p2a: Torkoal|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Mudsdale|Mudsdale, M|100/100
+|move|p1a: Rotom|Shadow Ball|p2a: Mudsdale
+|-damage|p2a: Mudsdale|68/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-unboost|p2a: Mudsdale|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Shadow Ball|p2a: Mudsdale
+|-damage|p2a: Mudsdale|22/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Rock Slide|p1a: Rotom
+|-damage|p1a: Rotom|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|j| Nagg_spg
+|
+|move|p1a: Rotom|Shadow Ball|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|faint|p2a: Mudsdale
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Shiftry|Shiftry, F|100/100
+|turn|5
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Shiftry|Throat Chop|p1a: Gigalith
+|-damage|p1a: Gigalith|65/100
+|-start|p1a: Gigalith|Throat Chop|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shiftry|94/100|[from] Sandstorm
+|-heal|p1a: Gigalith|71/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Shiftry|Swords Dance|p2a: Shiftry
+|-boost|p2a: Shiftry|atk|2
+|move|p1a: Gigalith|Superpower|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|-unboost|p1a: Gigalith|atk|1
+|-unboost|p1a: Gigalith|def|1
+|faint|p2a: Shiftry
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|77/100|[from] item: Leftovers
+|-end|p1a: Gigalith|Throat Chop|[silent]
+|upkeep
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|7
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Gallade|Swords Dance|p2a: Gallade
+|-boost|p2a: Gallade|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gallade|94/100|[from] Sandstorm
+|-damage|p1a: Vileplume|94/100|[from] Sandstorm
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p2a: Gallade|Zen Headbutt|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gallade|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Rotom|Rotom|48/100
+|turn|9
+|
+|move|p1a: Rotom|Shadow Ball|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|10
+|-message|Got that powerr forfeited.
+|
+|win|scrufty
+|l|☆Got that powerr
+|c|☆scrufty|sun sucks yo
+|raw|scrufty's rating: 1539 &rarr; <strong>1564</strong><br />(+25 for winning)
+|raw|Got that powerr's rating: 1629 &rarr; <strong>1604</strong><br />(-25 for losing)
+|c|☆scrufty|rofl
+|c|☆scrufty|why is he that hoigh

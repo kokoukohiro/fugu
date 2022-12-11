@@ -1,0 +1,272 @@
+|j|☆Maitredouard2
+|j|☆minimax_ai
+|t:|1663833413
+|gametype|singles
+|player|p1|Maitredouard2|lance|1625
+|player|p2|minimax_ai|lusamine-nihilego|1577
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Mandibuzz, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Blissey, F|
+|poke|p1|Heatran, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Tapu Lele|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, M|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1663833418
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: landorustherian|atk|1
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|1
+|
+|t:|1663833430
+|move|p1a: Landorus|Knock Off|p2a: landorustherian
+|-crit|p2a: landorustherian
+|-damage|p2a: landorustherian|51/100
+|-enditem|p2a: landorustherian|Leftovers|[from] move: Knock Off|[of] p1a: Landorus
+|move|p2a: landorustherian|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-damage|p1a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1663833439
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1663833448
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Blissey
+|-sidestart|p1: Maitredouard2|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1663833453
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Melmetal
+|-damage|p2a: Melmetal|78/100
+|
+|upkeep
+|turn|5
+|
+|t:|1663833461
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Melmetal|Thunder Punch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|50/100
+|-damage|p2a: Melmetal|61/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|upkeep
+|turn|6
+|
+|t:|1663833470
+|move|p2a: Melmetal|Double Iron Bash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|38/100
+|-damage|p2a: Melmetal|45/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|27/100
+|-damage|p2a: Melmetal|28/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|-hitcount|p1a: Toxapex|2
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|77/100
+|
+|upkeep
+|turn|7
+|
+|t:|1663833480
+|move|p2a: Melmetal|Thunder Punch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|12/100
+|-damage|p2a: Melmetal|12/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|move|p1a: Toxapex|Scald|p2a: Melmetal
+|-damage|p2a: Melmetal|3/100
+|
+|upkeep
+|turn|8
+|
+|t:|1663833490
+|move|p2a: Melmetal|Double Iron Bash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-damage|p2a: Melmetal|0 fnt|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|faint|p1a: Toxapex
+|faint|p2a: Melmetal
+|-hitcount|p1: Toxapex|1
+|
+|upkeep
+|
+|t:|1663833496
+|switch|p2a: Heatran|Heatran, M|100/100
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|9
+|
+|t:|1663833504
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: rotomwash
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1663833510
+|switch|p1a: Landorus|Landorus-Therian, M|94/100 tox
+|-damage|p1a: Landorus|82/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: rotomwash|atk|1
+|move|p2a: rotomwash|Nasty Plot|p2a: rotomwash
+|-boost|p2a: rotomwash|spa|2
+|
+|-damage|p1a: Landorus|75/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1663833521
+|move|p1a: Landorus|Explosion|p2a: rotomwash
+|-damage|p2a: rotomwash|3/100
+|faint|p1a: Landorus
+|move|p2a: rotomwash|Hydro Pump|p1: Landorus|[notarget]
+|-fail|p2a: rotomwash
+|
+|-heal|p2a: rotomwash|9/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1663833529
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-damage|p1a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|12
+|
+|t:|1663833534
+|move|p1a: Tapu Lele|Focus Blast|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|faint|p2a: rotomwash
+|
+|upkeep
+|
+|t:|1663833534
+|switch|p2a: Weavile|Weavile, M|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|13
+|
+|t:|1663833543
+|move|p2a: Weavile|Triple Axel|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|66/100
+|-damage|p1a: Tapu Lele|17/100
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|-hitcount|p1: Tapu Lele|3
+|
+|upkeep
+|
+|t:|1663833552
+|switch|p1a: Heatran|Heatran, F|88/100
+|-damage|p1a: Heatran|76/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|14
+|
+|t:|1663833558
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1663833566
+|move|p2a: Heatran|Magma Storm|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|43/100
+|-activate|p1a: Mandibuzz|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Mandibuzz|Foul Play|p2a: Heatran
+|-damage|p2a: Heatran|63/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-damage|p1a: Mandibuzz|30/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1663833576
+|move|p2a: Heatran|Eruption|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1663833582
+|switch|p1a: Heatran|Heatran, F|76/100
+|-damage|p1a: Heatran|63/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|17
+|
+|t:|1663833587
+|switch|p2a: landorustherian|Landorus-Therian, M|51/100
+|-damage|p2a: landorustherian|39/100|[from] Stealth Rock
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Magma Storm|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|
+|upkeep
+|
+|t:|1663833587
+|switch|p2a: Weavile|Weavile, M|76/100
+|-damage|p2a: Weavile|51/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|18
+|
+|t:|1663833601
+|move|p2a: Weavile|Low Kick|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-enditem|p1a: Heatran|Air Balloon
+|faint|p1a: Heatran
+|
+|upkeep
+|-message|Maitredouard2 forfeited.
+|
+|win|minimax_ai
+|raw|Maitredouard2's rating: 1625 &rarr; <strong>1602</strong><br />(-23 for losing)
+|raw|minimax_ai's rating: 1577 &rarr; <strong>1600</strong><br />(+23 for winning)
+|c|☆minimax_ai|gg
+|l|☆Maitredouard2

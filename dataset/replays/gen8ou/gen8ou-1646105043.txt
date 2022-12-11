@@ -1,0 +1,161 @@
+|j|☆Maitredouard2
+|j|☆baigu2
+|t:|1661240513
+|gametype|singles
+|player|p1|Maitredouard2|lance|1621
+|player|p2|baigu2|265|1669
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Mandibuzz, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Blissey, F|
+|poke|p1|Heatran, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Tapu Lele|
+|poke|p2|Pelipper, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Lanturn, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Volcanion|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by baigu2)
+|
+|t:|1661240530
+|start
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1661240540
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Tapu Lele|Focus Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: Tapu Lele|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1661240549
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|move|p1a: Tapu Lele|Focus Blast|p2a: Lanturn
+|-damage|p2a: Lanturn|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lanturn|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1661240558
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Lanturn|atk|1
+|move|p2a: Lanturn|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lanturn|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1661240570
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|turn|4
+|
+|t:|1661240575
+|move|p1a: Tapu Lele|Focus Blast|p2a: Lanturn
+|-damage|p2a: Lanturn|37/100
+|move|p2a: Lanturn|Volt Switch|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|79/100
+|
+|t:|1661240580
+|switch|p2a: Barraskewda|Barraskewda, M, shiny|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1661240586
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Barraskewda|Flip Turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|80/100
+|-damage|p2a: Barraskewda|84/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|t:|1661240590
+|switch|p2a: Volcanion|Volcanion|100/100|[from]move: Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|inactive|Maitredouard2 has 120 seconds left.
+|
+|t:|1661240646
+|move|p2a: Volcanion|Steam Eruption|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|25/100
+|move|p1a: Toxapex|Toxic|p2a: Volcanion
+|-status|p2a: Volcanion|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Volcanion|95/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1661240656
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Blissey
+|-damage|p1a: Blissey|48/100
+|-status|p1a: Blissey|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Volcanion|83/100 tox|[from] psn
+|-damage|p1a: Blissey|42/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1661240667
+|move|p2a: Volcanion|Steam Eruption|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|-weather|none
+|-damage|p2a: Volcanion|65/100 tox|[from] psn
+|upkeep
+|
+|t:|1661240675
+|switch|p1a: Tapu Lele|Tapu Lele|79/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|9
+|
+|t:|1661240682
+|switch|p2a: Lanturn|Lanturn, M|37/100
+|move|p1a: Tapu Lele|Focus Blast|p2a: Lanturn|[miss]
+|-miss|p1a: Tapu Lele|p2a: Lanturn
+|
+|-heal|p2a: Lanturn|43/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|-message|Maitredouard2 forfeited.
+|
+|win|baigu2
+|raw|Maitredouard2's rating: 1621 &rarr; <strong>1604</strong><br />(-17 for losing)
+|raw|baigu2's rating: 1669 &rarr; <strong>1686</strong><br />(+17 for winning)
+|l|☆Maitredouard2

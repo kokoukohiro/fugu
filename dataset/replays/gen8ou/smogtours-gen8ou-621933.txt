@@ -1,0 +1,157 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1650747271
+|gametype|singles
+|player|p1|Ainzcrad|winona-gen6|
+|player|p2|SetsuStsna|dawn-gen4pt|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Victini|
+|poke|p1|Tapu Koko|
+|poke|p1|Volcarona, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Tapu Fini|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Kartana|
+|poke|p2|Tapu Lele|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Moltres-Galar|
+|poke|p2|Omastar, M|
+|teampreview
+|c|☆SetsuStsna|hf
+|c|☆Ainzcrad|hf
+|
+|t:|1650747288
+|start
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: Enten|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Enten|Intimidate|boost
+|-unboost|p1a: Victini|atk|1
+|turn|1
+|
+|t:|1650747298
+|move|p2a: Enten|Explosion|p1a: Victini
+|-damage|p1a: Victini|20/100
+|faint|p2a: Enten
+|move|p1a: Victini|V-create|p2: Enten|[notarget]
+|-fail|p1a: Victini
+|
+|upkeep
+|
+|t:|1650747301
+|switch|p2a: Frozen Soul|Ninetales-Alola, M, shiny|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Frozen Soul
+|turn|2
+|
+|t:|1650747310
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Frozen Soul|Aurora Veil|p2a: Frozen Soul
+|-sidestart|p2: SetsuStsna|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Volcarona|94/100|[from] Hail
+|upkeep
+|turn|3
+|
+|t:|1650747320
+|switch|p2a: Lord Helix|Omastar, M, shiny|100/100
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tapu Fini|94/100|[from] Hail
+|-damage|p2a: Lord Helix|94/100|[from] Hail
+|-heal|p1a: Tapu Fini|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1650747325
+|move|p1a: Tapu Fini|Nature's Madness|p2a: Lord Helix
+|-damage|p2a: Lord Helix|47/100
+|move|p2a: Lord Helix|Shell Smash|p2a: Lord Helix
+|-unboost|p2a: Lord Helix|def|1
+|-unboost|p2a: Lord Helix|spd|1
+|-boost|p2a: Lord Helix|atk|2
+|-boost|p2a: Lord Helix|spa|2
+|-boost|p2a: Lord Helix|spe|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Lord Helix|41/100|[from] Hail
+|-damage|p1a: Tapu Fini|94/100|[from] Hail
+|-heal|p1a: Tapu Fini|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1650747329
+|move|p2a: Lord Helix|Meteor Beam||[still]
+|-prepare|p2a: Lord Helix|Meteor Beam
+|-boost|p2a: Lord Helix|spa|1
+|-enditem|p2a: Lord Helix|Power Herb
+|-anim|p2a: Lord Helix|Meteor Beam|p1a: Tapu Fini|[miss]
+|-miss|p2a: Lord Helix|p1a: Tapu Fini
+|move|p1a: Tapu Fini|Moonblast|p2a: Lord Helix
+|-damage|p2a: Lord Helix|6/100
+|-unboost|p2a: Lord Helix|spa|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Lord Helix|0 fnt|[from] Hail
+|-damage|p1a: Tapu Fini|94/100|[from] Hail
+|faint|p2a: Lord Helix
+|-heal|p1a: Tapu Fini|100/100|[from] item: Leftovers
+|upkeep
+|c|☆Ainzcrad|mb
+|c|☆SetsuStsna|rip
+|c|☆SetsuStsna|all g
+|
+|t:|1650747340
+|switch|p2a: Deathstroke|Kartana, shiny|100/100
+|turn|6
+|
+|t:|1650747346
+|move|p2a: Deathstroke|Swords Dance|p2a: Deathstroke
+|-boost|p2a: Deathstroke|atk|2
+|move|p1a: Tapu Fini|Nature's Madness|p2a: Deathstroke
+|-damage|p2a: Deathstroke|50/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1650747350
+|switch|p1a: Victini|Victini|20/100
+|move|p2a: Deathstroke|Leaf Blade|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|-ability|p2a: Deathstroke|Beast Boost|boost
+|-boost|p2a: Deathstroke|atk|1
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1650747355
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|8
+|
+|t:|1650747358
+|move|p1a: Tornadus|Hurricane|p2a: Deathstroke
+|-damage|p2a: Deathstroke|0 fnt
+|faint|p2a: Deathstroke
+|
+|upkeep
+|c|☆SetsuStsna|damn that really was the entire game
+|c|☆SetsuStsna|it happens
+|c|☆SetsuStsna|gg
+|-message|SetsuStsna forfeited.
+|
+|win|Ainzcrad

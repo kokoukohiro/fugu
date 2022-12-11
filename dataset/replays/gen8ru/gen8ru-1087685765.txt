@@ -1,0 +1,678 @@
+|j|☆theiggs2
+|j|☆JLT3 oSuave
+|player|p1|theiggs2|palmer|1315
+|player|p2|JLT3 oSuave|ethan-gen2c|1460
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Vanilluxe, M|
+|poke|p1|Gallade, M|
+|poke|p1|Flapple, F|
+|poke|p1|Rotom|
+|poke|p1|Mantine, M|
+|poke|p1|Runerigus, M|
+|poke|p2|Sableye, F|
+|poke|p2|Mantine, F|
+|poke|p2|Snorlax, F|
+|poke|p2|Steelix, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Cramorant, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JLT3 oSuave)
+|
+|start
+|switch|p1a: Vanilluxe|Vanilluxe, M|100/100
+|switch|p2a: Sableye|Sableye, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|1
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Vanilluxe|Taunt|p2a: Snorlax
+|-start|p2a: Snorlax|move: Taunt
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Snorlax|94/100|[from] Hail
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Runerigus|Runerigus, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Salazzle|94/100|[from] Hail
+|-damage|p1a: Runerigus|94/100|[from] Hail
+|-heal|p2a: Salazzle|100/100|[from] item: Leftovers
+|-heal|p1a: Runerigus|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Cramorant|Cramorant, F, shiny|100/100
+|move|p1a: Runerigus|Stealth Rock|p2a: Cramorant
+|-sidestart|p2: JLT3 oSuave|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Cramorant|94/100|[from] Hail
+|-damage|p1a: Runerigus|94/100|[from] Hail
+|-heal|p1a: Runerigus|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom|100/100
+|move|p2a: Cramorant|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: JLT3 oSuave|Stealth Rock|[from] move: Defog|[of] p2a: Cramorant
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Hail
+|-damage|p2a: Cramorant|88/100|[from] Hail
+|upkeep
+|turn|5
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Rotom|Trick|p2a: Salazzle
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Salazzle
+|-item|p2a: Salazzle|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|-weather|none
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|move|p2a: Salazzle|Flamethrower|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|85/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Mantine|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|
+|-damage|p2a: Snorlax|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Gallade|Zen Headbutt|p2a: Sableye
+|-immune|p2a: Sableye
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Rotom|Rotom|100/100
+|move|p2a: Sableye|Knock Off|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|3/100
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Steelix|Steelix, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Steelix
+|-immune|p2a: Steelix
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Rotom|Trick|p2a: Steelix
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Steelix
+|-enditem|p2a: Steelix|Leftovers|[silent]|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Steelix|Stealth Rock|p1a: Rotom
+|-sidestart|p1: theiggs2|move: Stealth Rock
+|
+|-heal|p1a: Rotom|9/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Mantine|Mantine, M|85/100
+|move|p2a: Steelix|Heavy Slam|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|80/100
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Mantine|Defog|p2a: Steelix
+|-unboost|p2a: Steelix|evasion|1
+|-sideend|p1: theiggs2|Stealth Rock|[from] move: Defog|[of] p1a: Mantine
+|move|p2a: Steelix|Toxic|p1a: Mantine
+|-status|p1a: Mantine|tox
+|
+|-damage|p1a: Mantine|74/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Mantine|Mantine, F, shiny|100/100
+|move|p1a: Mantine|Scald|p2a: Mantine
+|-immune|p2a: Mantine|[from] ability: Water Absorb
+|
+|-damage|p1a: Mantine|62/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Snorlax|Snorlax, F|94/100 tox
+|switch|p1a: Vanilluxe|Vanilluxe, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Snorlax|88/100 tox|[from] Hail
+|-heal|p2a: Snorlax|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p2a: Steelix|Steelix, F|100/100
+|move|p1a: Vanilluxe|Taunt|p2a: Steelix
+|-start|p2a: Steelix|move: Taunt
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Steelix|94/100|[from] Hail
+|upkeep
+|turn|18
+|
+|switch|p1a: Runerigus|Runerigus, M|100/100
+|move|p2a: Steelix|Heavy Slam|p1a: Runerigus
+|-damage|p1a: Runerigus|80/100
+|-activate|p1a: Runerigus|ability: Wandering Spirit|Sturdy|Wandering Spirit|[of] p2a: Steelix
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Steelix|88/100|[from] Hail
+|-damage|p1a: Runerigus|74/100|[from] Hail
+|-heal|p1a: Runerigus|80/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Cramorant|Cramorant, F, shiny|88/100
+|move|p1a: Runerigus|Will-O-Wisp|p2a: Cramorant
+|-status|p2a: Cramorant|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Cramorant|82/100 brn|[from] Hail
+|-damage|p1a: Runerigus|74/100|[from] Hail
+|-heal|p1a: Runerigus|80/100|[from] item: Leftovers
+|-damage|p2a: Cramorant|76/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Mantine|Mantine, M|62/100 tox
+|move|p2a: Cramorant|Surf|p1a: Mantine
+|-heal|p1a: Mantine|87/100 tox|[from] ability: Water Absorb|[of] p2a: Cramorant
+|
+|-weather|none
+|-damage|p2a: Cramorant|70/100 brn|[from] brn
+|-damage|p1a: Mantine|80/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|move|p2a: Cramorant|Roost|p2a: Cramorant
+|-heal|p2a: Cramorant|100/100 brn
+|-singleturn|p2a: Cramorant|move: Roost
+|
+|-damage|p2a: Cramorant|94/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Flapple|Flapple, F|100/100
+|move|p2a: Cramorant|Hurricane|p1a: Flapple|[miss]
+|-miss|p2a: Cramorant|p1a: Flapple
+|
+|-damage|p2a: Cramorant|88/100 brn|[from] brn
+|upkeep
+|turn|23
+|c|☆JLT3 oSuave|ok
+|
+|move|p1a: Flapple|Grav Apple|p2a: Cramorant
+|-damage|p2a: Cramorant|0 fnt
+|faint|p2a: Cramorant
+|
+|upkeep
+|
+|switch|p2a: Steelix|Steelix, F|88/100
+|turn|24
+|
+|switch|p1a: Runerigus|Runerigus, M|80/100
+|move|p2a: Steelix|Stealth Rock|p1a: Runerigus
+|-sidestart|p1: theiggs2|move: Stealth Rock
+|
+|-heal|p1a: Runerigus|87/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Steelix|Toxic|p1a: Runerigus
+|-status|p1a: Runerigus|tox
+|move|p1a: Runerigus|Stealth Rock|p2a: Steelix
+|-sidestart|p2: JLT3 oSuave|move: Stealth Rock
+|
+|-heal|p1a: Runerigus|93/100 tox|[from] item: Leftovers
+|-damage|p1a: Runerigus|87/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Mantine|Mantine, F, shiny|100/100
+|move|p1a: Runerigus|Will-O-Wisp|p2a: Mantine
+|-status|p2a: Mantine|brn
+|
+|-heal|p1a: Runerigus|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Mantine|94/100 brn|[from] brn
+|-damage|p1a: Runerigus|80/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|switch|p2a: Snorlax|Snorlax, F|88/100 tox
+|-damage|p2a: Snorlax|76/100 tox|[from] Stealth Rock
+|switch|p1a: Vanilluxe|Vanilluxe, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Snorlax|70/100 tox|[from] Hail
+|-heal|p2a: Snorlax|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|70/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p1a: Rotom|Rotom|9/100
+|-damage|p1a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p1a: Rotom
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-damage|p2a: Salazzle|76/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Salazzle|69/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Runerigus|Runerigus, M|80/100 tox
+|-damage|p1a: Runerigus|74/100 tox|[from] Stealth Rock
+|turn|29
+|
+|switch|p2a: Mantine|Mantine, F, shiny|94/100 brn
+|switch|p1a: Flapple|Flapple, F|100/100
+|-damage|p1a: Flapple|88/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Flapple|82/100|[from] Hail
+|-damage|p2a: Mantine|88/100 brn|[from] Hail
+|-damage|p2a: Mantine|82/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Flapple|Grav Apple|p2a: Mantine
+|-damage|p2a: Mantine|7/100 brn
+|-unboost|p2a: Mantine|def|1
+|move|p2a: Mantine|Hurricane|p1a: Flapple|[miss]
+|-miss|p2a: Mantine|p1a: Flapple
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Flapple|76/100|[from] Hail
+|-damage|p2a: Mantine|0 fnt|[from] Hail
+|faint|p2a: Mantine
+|upkeep
+|c|☆JLT3 oSuave|bro
+|c|☆JLT3 oSuave|come the. fuck on
+|inactive|JLT3 oSuave has 120 seconds left.
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|turn|31
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M|100/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Vanilluxe
+|-status|p1a: Vanilluxe|brn
+|
+|-weather|none
+|-heal|p2a: Sableye|94/100|[from] item: Leftovers
+|-damage|p1a: Vanilluxe|95/100 brn|[from] brn
+|upkeep
+|turn|32
+|inactive|JLT3 oSuave has 120 seconds left.
+|
+|switch|p1a: Flapple|Flapple, F|76/100
+|-damage|p1a: Flapple|63/100|[from] Stealth Rock
+|move|p2a: Sableye|Knock Off|p1a: Flapple
+|-damage|p1a: Flapple|22/100
+|-enditem|p1a: Flapple|Choice Band|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-heal|p2a: Sableye|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Flapple
+|-status|p1a: Flapple|brn
+|move|p1a: Flapple|Grav Apple|p2a: Sableye|[miss]
+|-miss|p1a: Flapple|p2a: Sableye
+|
+|-damage|p1a: Flapple|16/100 brn|[from] brn
+|upkeep
+|turn|34
+|inactive|JLT3 oSuave has 120 seconds left.
+|inactive|JLT3 oSuave has 90 seconds left.
+|
+|move|p1a: Flapple|Grav Apple|p2a: Sableye
+|-damage|p2a: Sableye|72/100
+|-unboost|p2a: Sableye|def|1
+|move|p2a: Sableye|Knock Off|p1a: Flapple
+|-damage|p1a: Flapple|0 fnt
+|faint|p1a: Flapple
+|
+|-heal|p2a: Sableye|78/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M|95/100 brn
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|35
+|
+|switch|p2a: Snorlax|Snorlax, F|70/100 tox
+|-damage|p2a: Snorlax|57/100 tox|[from] Stealth Rock
+|move|p1a: Vanilluxe|Taunt|p2a: Snorlax
+|-start|p2a: Snorlax|move: Taunt
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Snorlax|51/100 tox|[from] Hail
+|-heal|p2a: Snorlax|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Vanilluxe|89/100 brn|[from] brn
+|-damage|p2a: Snorlax|51/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|-damage|p1a: Gallade|94/100|[from] Stealth Rock
+|switch|p2a: Steelix|Steelix, F|88/100
+|-damage|p2a: Steelix|85/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gallade|88/100|[from] Hail
+|-damage|p2a: Steelix|79/100|[from] Hail
+|upkeep
+|turn|37
+|
+|switch|p2a: Sableye|Sableye, F|78/100
+|-damage|p2a: Sableye|66/100|[from] Stealth Rock
+|move|p1a: Gallade|Close Combat|p2a: Sableye
+|-immune|p2a: Sableye
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gallade|82/100|[from] Hail
+|-damage|p2a: Sableye|60/100|[from] Hail
+|-heal|p2a: Sableye|66/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p1a: Runerigus|Runerigus, M|74/100 tox
+|-damage|p1a: Runerigus|68/100 tox|[from] Stealth Rock
+|move|p2a: Sableye|Knock Off|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|39/100 tox
+|-activate|p1a: Runerigus|ability: Wandering Spirit|Prankster|Wandering Spirit|[of] p2a: Sableye
+|-enditem|p1a: Runerigus|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Sableye|60/100|[from] Hail
+|-damage|p1a: Runerigus|33/100 tox|[from] Hail
+|-heal|p2a: Sableye|66/100|[from] item: Leftovers
+|-damage|p1a: Runerigus|27/100 tox|[from] psn
+|upkeep
+|turn|39
+|inactive|JLT3 oSuave has 120 seconds left.
+|inactive|JLT3 oSuave has 90 seconds left.
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|move|p1a: Runerigus|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|71/100
+|
+|-weather|none
+|-heal|p2a: Sableye|77/100|[from] item: Leftovers
+|-damage|p1a: Runerigus|14/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|move|p1a: Runerigus|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|68/100
+|
+|-heal|p2a: Sableye|74/100|[from] item: Leftovers
+|-damage|p1a: Runerigus|0 fnt|[from] psn
+|faint|p1a: Runerigus
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M|89/100 brn
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|41
+|
+|switch|p2a: Snorlax|Snorlax, F|51/100 tox
+|-damage|p2a: Snorlax|39/100 tox|[from] Stealth Rock
+|move|p1a: Vanilluxe|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|26/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Snorlax|20/100 tox|[from] Hail
+|-heal|p2a: Snorlax|26/100 tox|[from] item: Leftovers
+|-damage|p1a: Vanilluxe|83/100 brn|[from] brn
+|-damage|p2a: Snorlax|20/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|move|p1a: Vanilluxe|Taunt|p2a: Snorlax
+|-start|p2a: Snorlax|move: Taunt
+|move|p2a: Snorlax|Body Slam|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|36/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Snorlax|14/100 tox|[from] Hail
+|-heal|p2a: Snorlax|20/100 tox|[from] item: Leftovers
+|-damage|p1a: Vanilluxe|30/100 brn|[from] brn
+|-damage|p2a: Snorlax|8/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|move|p1a: Vanilluxe|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vanilluxe|24/100 brn|[from] brn
+|upkeep
+|inactive|JLT3 oSuave has 90 seconds left.
+|
+|switch|p2a: Steelix|Steelix, F|79/100
+|-damage|p2a: Steelix|76/100|[from] Stealth Rock
+|turn|44
+|inactive|theiggs2 has 120 seconds left.
+|
+|move|p1a: Vanilluxe|Blizzard|p2a: Steelix
+|-damage|p2a: Steelix|24/100
+|move|p2a: Steelix|Heavy Slam|p1a: Vanilluxe
+|-supereffective|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|faint|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Steelix|17/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Mantine|Mantine, M|80/100 tox
+|turn|45
+|
+|move|p1a: Mantine|Scald|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|-weather|none
+|-damage|p1a: Mantine|74/100 tox|[from] psn
+|upkeep
+|j| Jesus-Ptbr
+|inactive|JLT3 oSuave has 90 seconds left.
+|
+|switch|p2a: Sableye|Sableye, F|74/100
+|-damage|p2a: Sableye|62/100|[from] Stealth Rock
+|turn|46
+|inactive|JLT3 oSuave has 90 seconds left.
+|
+|move|p2a: Sableye|Encore|p1a: Mantine
+|-start|p1a: Mantine|Encore
+|move|p1a: Mantine|Scald|p2a: Sableye
+|-damage|p2a: Sableye|25/100
+|-status|p2a: Sableye|brn
+|
+|-heal|p2a: Sableye|31/100 brn|[from] item: Leftovers
+|-damage|p1a: Mantine|62/100 tox|[from] psn
+|-damage|p2a: Sableye|25/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|75/100 brn
+|move|p1a: Mantine|Scald|p2a: Sableye
+|-damage|p2a: Sableye|38/100 brn
+|
+|-heal|p2a: Sableye|44/100 brn|[from] item: Leftovers
+|-damage|p1a: Mantine|44/100 tox|[from] psn
+|-damage|p2a: Sableye|38/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|switch|p1a: Gallade|Gallade, M|82/100
+|-damage|p1a: Gallade|76/100|[from] Stealth Rock
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|88/100 brn
+|
+|-heal|p2a: Sableye|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Sableye|88/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Gallade
+|-status|p1a: Gallade|brn
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|
+|-heal|p2a: Sableye|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Gallade|70/100 brn|[from] brn
+|-damage|p2a: Sableye|88/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p2a: Sableye|Encore|p1a: Gallade
+|-start|p1a: Gallade|Encore
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|
+|-heal|p2a: Sableye|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Gallade|64/100 brn|[from] brn
+|-damage|p2a: Sableye|88/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|move|p2a: Sableye|Knock Off|p1a: Gallade
+|-damage|p1a: Gallade|42/100 brn
+|-enditem|p1a: Gallade|Life Orb|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-heal|p2a: Sableye|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Gallade|36/100 brn|[from] brn
+|-damage|p2a: Sableye|88/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p2a: Sableye|Encore||[still]
+|-fail|p2a: Sableye
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|0
+|
+|-heal|p2a: Sableye|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Gallade|29/100 brn|[from] brn
+|-damage|p2a: Sableye|88/100 brn|[from] brn
+|-end|p1a: Gallade|Encore
+|upkeep
+|turn|53
+|
+|move|p1a: Gallade|Shadow Sneak|p2a: Sableye
+|-damage|p2a: Sableye|63/100 brn
+|move|p2a: Sableye|Encore|p1a: Gallade
+|-start|p1a: Gallade|Encore
+|
+|-heal|p2a: Sableye|69/100 brn|[from] item: Leftovers
+|-damage|p1a: Gallade|23/100 brn|[from] brn
+|-damage|p2a: Sableye|63/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Gallade|Shadow Sneak|p2a: Sableye
+|-damage|p2a: Sableye|37/100 brn
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|87/100 brn
+|
+|-heal|p2a: Sableye|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Gallade|17/100 brn|[from] brn
+|-damage|p2a: Sableye|87/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p1a: Gallade|Shadow Sneak|p2a: Sableye
+|-damage|p2a: Sableye|59/100 brn
+|move|p2a: Sableye|Knock Off|p1a: Gallade
+|-damage|p1a: Gallade|1/100 brn
+|
+|-heal|p2a: Sableye|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Gallade|0 fnt|[from] brn
+|faint|p1a: Gallade
+|-damage|p2a: Sableye|59/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Mantine|Mantine, M|44/100 tox
+|turn|56
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100 brn
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|94/100 tox
+|-singleturn|p1a: Mantine|move: Roost
+|
+|-damage|p1a: Mantine|87/100 tox|[from] psn
+|-damage|p2a: Sableye|94/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p2a: Sableye|Encore|p1a: Mantine
+|-start|p1a: Mantine|Encore
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100 tox
+|-singleturn|p1a: Mantine|move: Roost
+|
+|-heal|p2a: Sableye|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Mantine|88/100 tox|[from] psn
+|-damage|p2a: Sableye|94/100 brn|[from] brn
+|upkeep
+|turn|58
+|-message|theiggs2 forfeited.
+|
+|win|JLT3 oSuave
+|l|☆theiggs2
+|raw|theiggs2's rating: 1315 &rarr; <strong>1303</strong><br />(-12 for losing)
+|raw|JLT3 oSuave's rating: 1460 &rarr; <strong>1472</strong><br />(+12 for winning)

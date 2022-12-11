@@ -1,0 +1,262 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1664050161
+|gametype|singles
+|player|p1|Permission Slip|clerkf|
+|player|p2|Plaute|emmet|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Froslass, F|
+|poke|p1|Krookodile, F|
+|poke|p1|Azelf|
+|poke|p1|Cobalion|
+|poke|p1|Salamence, M|
+|poke|p1|Nihilego|
+|poke|p2|Politoed, F|
+|poke|p2|Kabutops, M|
+|poke|p2|Amoonguss, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Mantine, F|
+|poke|p2|Kingdra, F|
+|teampreview
+|inactive|Plaute also wants the timer to be on.
+|c|☆Plaute|hf
+|c|☆Permission Slip|u2
+|
+|t:|1664050179
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1664050184
+|move|p1a: Froslass|Spikes|p2a: Politoed
+|-sidestart|p2: Plaute|Spikes
+|move|p2a: Politoed|Scald|p1a: Froslass
+|-damage|p1a: Froslass|54/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1664050195
+|switch|p2a: Kabutops|Kabutops, M|100/100
+|-damage|p2a: Kabutops|88/100|[from] Spikes
+|move|p1a: Froslass|Spikes|p2a: Kabutops
+|-sidestart|p2: Plaute|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1664050199
+|move|p2a: Kabutops|Liquidation|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|-damage|p2a: Kabutops|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1664050205
+|switch|p1a: Cobalion|Cobalion|100/100
+|turn|4
+|
+|t:|1664050210
+|move|p2a: Kabutops|Liquidation|p1a: Cobalion
+|-damage|p1a: Cobalion|31/100
+|-damage|p2a: Kabutops|68/100|[from] item: Life Orb
+|move|p1a: Cobalion|Rock Polish|p1a: Cobalion
+|-boost|p1a: Cobalion|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1664050214
+|switch|p2a: Mantine|Mantine, F|100/100
+|move|p1a: Cobalion|Close Combat|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|64/100
+|-unboost|p1a: Cobalion|def|1
+|-unboost|p1a: Cobalion|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mantine|70/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1664050222
+|switch|p1a: Salamence|Salamence, M|100/100
+|move|p2a: Mantine|Scald|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|68/100
+|-status|p1a: Salamence|brn
+|-enditem|p1a: Salamence|Lum Berry|[eat]
+|-curestatus|p1a: Salamence|brn|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mantine|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1664050226
+|move|p2a: Mantine|Hurricane|p1a: Salamence
+|-damage|p1a: Salamence|15/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mantine|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1664050233
+|move|p1a: Salamence|Outrage|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1664050236
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|84/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|9
+|
+|t:|1664050244
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|-damage|p2a: Amoonguss|84/100|[from] Spikes
+|move|p1a: Salamence|Outrage|p2a: Amoonguss|[from]lockedmove
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-start|p1a: Salamence|confusion|[fatigue]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1664050246
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|84/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|10
+|
+|t:|1664050249
+|-activate|p1a: Salamence|confusion
+|move|p1a: Salamence|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1664050252
+|switch|p2a: Kabutops|Kabutops, M|68/100
+|-damage|p2a: Kabutops|52/100|[from] Spikes
+|turn|11
+|inactive|Permission Slip has 270 seconds left.
+|
+|t:|1664050283
+|move|p2a: Kabutops|Aqua Jet|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|-damage|p2a: Kabutops|42/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1664050285
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Kabutops|atk|1
+|turn|12
+|
+|t:|1664050291
+|switch|p1a: Cobalion|Cobalion|31/100
+|move|p2a: Kabutops|Liquidation|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|-damage|p2a: Kabutops|32/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1664050294
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Kabutops|atk|1
+|turn|13
+|
+|t:|1664050298
+|move|p2a: Kabutops|Liquidation|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|15/100
+|-damage|p2a: Kabutops|15/100|[from] item: Rocky Helmet|[of] p1a: Krookodile
+|-damage|p2a: Kabutops|5/100|[from] item: Life Orb
+|move|p1a: Krookodile|Stealth Rock|p2a: Kabutops
+|-sidestart|p2: Plaute|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1664050305
+|move|p2a: Kabutops|Liquidation|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|-damage|p2a: Kabutops|0 fnt|[from] item: Rocky Helmet|[of] p1a: Krookodile
+|faint|p1a: Krookodile
+|faint|p2a: Kabutops
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1664050309
+|switch|p1a: Nihilego|Nihilego|100/100
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|-damage|p2a: Kingdra|84/100|[from] Spikes
+|-damage|p2a: Kingdra|72/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1664050312
+|move|p2a: Kingdra|Surf|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|faint|p1a: Nihilego
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1664050313
+|switch|p1a: Azelf|Azelf|100/100
+|turn|16
+|
+|t:|1664050317
+|move|p2a: Kingdra|Surf|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|win|Plaute
+|c|☆Plaute|ggs
+|c|☆Permission Slip|ggs

@@ -1,0 +1,313 @@
+|j|☆Toy Time King
+|j|☆broken vullaby
+|player|p1|Toy Time King|morty|
+|player|p2|broken vullaby|plasmagruntf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|Tournament battle
+|clearpoke
+|poke|p1|Solrock|
+|poke|p1|Perrserker, M|
+|poke|p1|Marowak, M|
+|poke|p1|Beheeyem, F|
+|poke|p1|Octillery, F|
+|poke|p1|Musharna, F|
+|poke|p2|Boltund, M|
+|poke|p2|Unfezant, F|
+|poke|p2|Tangela, M|
+|poke|p2|Mr. Rime, M|
+|poke|p2|Sandslash, F|
+|poke|p2|Wigglytuff, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| SpacialRendevous
+|c|☆Toy Time King|hf
+|j| astrnmical
+|c|☆broken vullaby|hf
+|
+|start
+|switch|p1a: Solrock|Solrock|100/100
+|switch|p2a: Sandslash|Sandslash, F|100/100
+|turn|1
+|j| who the hell cares
+|
+|move|p2a: Sandslash|Knock Off|p1a: Solrock
+|-supereffective|p1a: Solrock
+|-damage|p1a: Solrock|53/100
+|-enditem|p1a: Solrock|Focus Sash|[from] move: Knock Off|[of] p2a: Sandslash
+|move|p1a: Solrock|Trick Room|p1a: Solrock
+|-fieldstart|move: Trick Room|[of] p1a: Solrock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Solrock|Stealth Rock|p2a: Sandslash
+|-sidestart|p2: broken vullaby|move: Stealth Rock
+|move|p2a: Sandslash|Stealth Rock|p1a: Solrock
+|-sidestart|p1: Toy Time King|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Tangela|Tangela, M, shiny|100/100
+|-damage|p2a: Tangela|88/100|[from] Stealth Rock
+|move|p1a: Solrock|Explosion|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|31/100
+|faint|p1a: Solrock
+|
+|upkeep
+|
+|switch|p1a: Perrserker|Perrserker, M|100/100
+|-damage|p1a: Perrserker|94/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p2a: Sandslash|Sandslash, F|100/100
+|-damage|p2a: Sandslash|94/100|[from] Stealth Rock
+|move|p1a: Perrserker|Iron Head|p2a: Sandslash
+|-damage|p2a: Sandslash|31/100
+|
+|-heal|p2a: Sandslash|37/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j|#Akir
+|
+|move|p1a: Perrserker|Iron Head|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Boltund|Boltund, M|100/100
+|-damage|p2a: Boltund|88/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p1a: Marowak|Marowak, M|100/100
+|-damage|p1a: Marowak|94/100|[from] Stealth Rock
+|move|p2a: Boltund|Fire Fang|p1a: Marowak
+|-damage|p1a: Marowak|62/100
+|-status|p1a: Marowak|brn
+|-damage|p2a: Boltund|79/100|[from] item: Life Orb
+|
+|-damage|p1a: Marowak|56/100 brn|[from] brn
+|upkeep
+|turn|7
+|c|☆broken vullaby|sorry
+|
+|switch|p2a: Tangela|Tangela, M, shiny|64/100
+|-damage|p2a: Tangela|52/100|[from] Stealth Rock
+|move|p1a: Marowak|Knock Off|p2a: Tangela
+|-damage|p2a: Tangela|40/100
+|-enditem|p2a: Tangela|Eviolite|[from] move: Knock Off|[of] p1a: Marowak
+|
+|-damage|p1a: Marowak|50/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Beheeyem|Beheeyem, F|100/100
+|-damage|p1a: Beheeyem|88/100|[from] Stealth Rock
+|move|p2a: Tangela|Giga Drain|p1a: Beheeyem
+|-damage|p1a: Beheeyem|60/100
+|-heal|p2a: Tangela|55/100|[from] drain|[of] p1a: Beheeyem
+|
+|-heal|p1a: Beheeyem|66/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Tangela|Knock Off|p1a: Beheeyem
+|-supereffective|p1a: Beheeyem
+|-damage|p1a: Beheeyem|42/100
+|-enditem|p1a: Beheeyem|Leftovers|[from] move: Knock Off|[of] p2a: Tangela
+|move|p1a: Beheeyem|Trick Room|p1a: Beheeyem
+|-fieldstart|move: Trick Room|[of] p1a: Beheeyem
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Wigglytuff|Wigglytuff, M|100/100
+|-damage|p2a: Wigglytuff|88/100|[from] Stealth Rock
+|move|p1a: Beheeyem|Teleport|p1a: Beheeyem
+|
+|switch|p1a: Perrserker|Perrserker, M|94/100|[from]move: Teleport
+|-damage|p1a: Perrserker|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Wigglytuff|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Wigglytuff|Protect|p2a: Wigglytuff
+|-singleturn|p2a: Wigglytuff|Protect
+|move|p1a: Perrserker|Iron Head|p2a: Wigglytuff
+|-activate|p2a: Wigglytuff|move: Protect
+|
+|-heal|p2a: Wigglytuff|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|j|%allstarapology
+|j|@Jungle Fox ㋛
+|
+|switch|p2a: Tangela|Tangela, M, shiny|89/100
+|-damage|p2a: Tangela|76/100|[from] Stealth Rock
+|move|p1a: Perrserker|Iron Head|p2a: Tangela
+|-damage|p2a: Tangela|17/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Perrserker|Iron Head|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Boltund|Boltund, M|79/100
+|-damage|p2a: Boltund|66/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Beheeyem|Beheeyem, F|42/100
+|-damage|p1a: Beheeyem|30/100|[from] Stealth Rock
+|move|p2a: Boltund|Fire Fang|p1a: Beheeyem
+|-damage|p1a: Beheeyem|2/100
+|-damage|p2a: Boltund|57/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Boltund|Crunch|p1a: Beheeyem
+|-supereffective|p1a: Beheeyem
+|-damage|p1a: Beheeyem|0 fnt
+|-damage|p2a: Boltund|47/100|[from] item: Life Orb
+|faint|p1a: Beheeyem
+|
+|upkeep
+|
+|switch|p1a: Musharna|Musharna, F|100/100
+|-damage|p1a: Musharna|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Boltund|Crunch|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-damage|p1a: Musharna|36/100
+|-damage|p2a: Boltund|37/100|[from] item: Life Orb
+|move|p1a: Musharna|Trick Room|p1a: Musharna
+|-fieldstart|move: Trick Room|[of] p1a: Musharna
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Wigglytuff|Wigglytuff, M|100/100
+|-damage|p2a: Wigglytuff|88/100|[from] Stealth Rock
+|move|p1a: Musharna|Healing Wish|p1a: Musharna
+|faint|p1a: Musharna
+|
+|-heal|p2a: Wigglytuff|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Marowak|Marowak, M|50/100 brn
+|-heal|p1a: Marowak|100/100|[from] move: Healing Wish
+|-damage|p1a: Marowak|94/100|[from] Stealth Rock
+|turn|18
+|j| pabloaram
+|
+|move|p2a: Wigglytuff|Protect|p2a: Wigglytuff
+|-singleturn|p2a: Wigglytuff|Protect
+|move|p1a: Marowak|Bonemerang|p2a: Wigglytuff
+|-activate|p2a: Wigglytuff|move: Protect
+|
+|-heal|p2a: Wigglytuff|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|l| SpacialRendevous
+|
+|switch|p2a: Unfezant|Unfezant, F|100/100
+|move|p1a: Marowak|Knock Off|p2a: Unfezant
+|-damage|p2a: Unfezant|33/100
+|-enditem|p2a: Unfezant|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Marowak
+|
+|upkeep
+|turn|20
+|j|+Manyy
+|
+|move|p1a: Marowak|Fire Punch|p2a: Unfezant
+|-damage|p2a: Unfezant|0 fnt
+|faint|p2a: Unfezant
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|100/100
+|-damage|p2a: Mr. Rime|76/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|upkeep
+|j| SdASFAS
+|
+|switch|p1a: Octillery|Octillery, F|100/100
+|-damage|p1a: Octillery|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Octillery
+|-supereffective|p1a: Octillery
+|-damage|p1a: Octillery|0 fnt
+|faint|p1a: Octillery
+|
+|upkeep
+|c|+Manyy|:o
+|
+|switch|p1a: Perrserker|Perrserker, M|88/100
+|-damage|p1a: Perrserker|82/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p2a: Wigglytuff|Wigglytuff, M|100/100
+|-damage|p2a: Wigglytuff|88/100|[from] Stealth Rock
+|move|p1a: Perrserker|Iron Head|p2a: Wigglytuff
+|-supereffective|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|upkeep
+|
+|switch|p2a: Boltund|Boltund, M|37/100
+|-damage|p2a: Boltund|25/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Boltund|Fire Fang|p1a: Perrserker
+|-supereffective|p1a: Perrserker
+|-damage|p1a: Perrserker|19/100
+|-damage|p2a: Boltund|16/100|[from] item: Life Orb
+|move|p1a: Perrserker|Iron Head|p2a: Boltund
+|-resisted|p2a: Boltund
+|-crit|p2a: Boltund
+|-damage|p2a: Boltund|0 fnt
+|faint|p2a: Boltund
+|
+|upkeep
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|76/100
+|-damage|p2a: Mr. Rime|51/100|[from] Stealth Rock
+|turn|25
+|c|☆broken vullaby|gg
+|j| sleepysnafu
+|
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Perrserker
+|-resisted|p1a: Perrserker
+|-damage|p1a: Perrserker|0 fnt
+|faint|p1a: Perrserker
+|
+|win|broken vullaby

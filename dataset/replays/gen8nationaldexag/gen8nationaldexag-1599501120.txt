@@ -1,0 +1,433 @@
+|j|☆Testing Teams 596
+|j|☆Fel stinger
+|t:|1655624542
+|gametype|singles
+|player|p1|Testing Teams 596|schoolkid-gen4dp|
+|player|p2|Fel stinger|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Ditto|
+|poke|p1|Yveltal|
+|poke|p1|Arceus-*|
+|poke|p1|Groudon|
+|poke|p1|Arceus-*|
+|poke|p2|Rayquaza|
+|poke|p2|Arceus-*|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Kyogre|
+|poke|p2|Arceus-*|
+|poke|p2|Zacian-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Testing Teams 596)
+|
+|t:|1655624571
+|start
+|switch|p1a: Arceus|Arceus-Fairy|100/100
+|switch|p2a: Arceus|Arceus-Ground|100/100
+|turn|1
+|
+|t:|1655624594
+|move|p1a: Arceus|Judgment|p2a: Arceus
+|-crit|p2a: Arceus
+|-damage|p2a: Arceus|50/100
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-damage|p1a: Arceus|69/100
+|
+|upkeep
+|turn|2
+|
+|t:|1655624601
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Recover|p2a: Arceus
+|-heal|p2a: Arceus|99/100
+|
+|upkeep
+|turn|3
+|
+|t:|1655624604
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1655624609
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1655624613
+|switch|p2a: Arceus|Arceus-Ground|99/100
+|move|p1a: Groudon|Stealth Rock|p2a: Arceus
+|-sidestart|p2: Fel stinger|move: Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1655624619
+|-weather|none
+|switch|p1a: Arceus|Arceus-Fairy|100/100
+|move|p2a: Arceus|Defog|p1a: Arceus
+|-unboost|p1a: Arceus|evasion|1
+|-sideend|p2: Fel stinger|Stealth Rock|[from] move: Defog|[of] p2a: Arceus
+|
+|upkeep
+|turn|7
+|
+|t:|1655624632
+|switch|p2a: Kyogre|Kyogre|100/100
+|detailschange|p2a: Kyogre|Kyogre-Primal
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1655624638
+|move|p1a: Arceus|Judgment|p2a: Kyogre
+|-damage|p2a: Kyogre|60/100
+|move|p2a: Kyogre|Ice Beam|p1a: Arceus
+|-damage|p1a: Arceus|86/100
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1655624650
+|switch|p1a: Groudon|Groudon-Primal|100/100
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|move|p2a: Kyogre|Rest|p2a: Kyogre
+|-status|p2a: Kyogre|slp|[from] move: Rest
+|-heal|p2a: Kyogre|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1655624653
+|cant|p2a: Kyogre|slp
+|move|p1a: Groudon|Stealth Rock|p2a: Kyogre
+|-sidestart|p2: Fel stinger|move: Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1655624656
+|cant|p2a: Kyogre|slp
+|move|p1a: Groudon|Overheat|p2a: Kyogre|[miss]
+|-miss|p1a: Groudon|p2a: Kyogre
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1655624660
+|-curestatus|p2a: Kyogre|slp|[msg]
+|move|p2a: Kyogre|Ice Beam|p1a: Groudon
+|-damage|p1a: Groudon|79/100
+|move|p1a: Groudon|Precipice Blades|p2a: Kyogre
+|-damage|p2a: Kyogre|37/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1655624669
+|move|p2a: Kyogre|Rest|p2a: Kyogre
+|-status|p2a: Kyogre|slp|[from] move: Rest
+|-heal|p2a: Kyogre|100/100 slp|[silent]
+|move|p1a: Groudon|Precipice Blades|p2a: Kyogre|[miss]
+|-miss|p1a: Groudon|p2a: Kyogre
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1655624674
+|cant|p2a: Kyogre|slp
+|move|p1a: Groudon|Precipice Blades|p2a: Kyogre
+|-damage|p2a: Kyogre|42/100 slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1655624679
+|cant|p2a: Kyogre|slp
+|move|p1a: Groudon|Precipice Blades|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|t:|1655624682
+|switch|p2a: Arceus|Arceus-Dark|100/100
+|-damage|p2a: Arceus|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1655624686
+|-weather|none
+|switch|p1a: Arceus|Arceus-Fairy|86/100
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|70/100
+|
+|upkeep
+|turn|17
+|
+|t:|1655624691
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-damage|p2a: Rayquaza|76/100|[from] Stealth Rock
+|-ability|p2a: Rayquaza|Air Lock
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|
+|upkeep
+|turn|18
+|
+|t:|1655624694
+|detailschange|p2a: Rayquaza|Rayquaza-Mega
+|-mega|p2a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|move|p1a: Arceus|Judgment|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|-weather|none
+|
+|upkeep
+|
+|t:|1655624703
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p2a: Necrozma|94/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1655624708
+|switch|p1a: Arceus|Arceus-Ground|100/100
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Arceus
+|-damage|p1a: Arceus|59/100
+|
+|upkeep
+|turn|20
+|
+|t:|1655624714
+|-start|p2a: Necrozma|Dynamax|
+|-heal|p2a: Necrozma|94/100|[silent]
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|move|p2a: Necrozma|Max Steelspike|p1a: Arceus
+|-damage|p1a: Arceus|7/100
+|-boost|p2a: Necrozma|def|1
+|
+|upkeep
+|turn|21
+|
+|t:|1655624717
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|57/100
+|move|p2a: Necrozma|Max Steelspike|p1a: Arceus
+|-damage|p1a: Arceus|3/100
+|-boost|p2a: Necrozma|def|1
+|
+|upkeep
+|turn|22
+|c|☆Fel stinger|Ggwp
+|
+|t:|1655624723
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|53/100
+|move|p2a: Necrozma|Max Steelspike|p1a: Arceus
+|-damage|p1a: Arceus|3/100
+|-boost|p2a: Necrozma|def|1
+|
+|upkeep
+|-end|p2a: Necrozma|Dynamax
+|-heal|p2a: Necrozma|94/100|[silent]
+|turn|23
+|
+|t:|1655624728
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|54/100
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Arceus
+|-damage|p1a: Arceus|13/100
+|
+|upkeep
+|turn|24
+|
+|t:|1655624734
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|63/100
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Arceus
+|-damage|p1a: Arceus|26/100
+|
+|upkeep
+|turn|25
+|
+|t:|1655624740
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|76/100
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Arceus
+|-damage|p1a: Arceus|41/100
+|
+|upkeep
+|turn|26
+|
+|t:|1655624746
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|91/100
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Arceus
+|-damage|p1a: Arceus|52/100
+|
+|upkeep
+|turn|27
+|
+|t:|1655624752
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|move|p2a: Necrozma|Knock Off|p1a: Arceus
+|-damage|p1a: Arceus|83/100
+|
+|upkeep
+|turn|28
+|
+|t:|1655624757
+|move|p1a: Arceus|Earthquake|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|51/100
+|move|p2a: Necrozma|Knock Off|p1a: Arceus
+|-damage|p1a: Arceus|66/100
+|
+|upkeep
+|turn|29
+|c|☆Fel stinger|LMAO hmm so I'm working to fairy ceus ditto aswell
+|c|☆Fel stinger|Etern would be a nice pick right
+|inactive|Fel stinger has 270 seconds left.
+|
+|t:|1655624795
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-damage|p2a: Zacian|94/100|[from] Stealth Rock
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Arceus|Swords Dance|p1a: Arceus
+|-boost|p1a: Arceus|atk|2
+|
+|upkeep
+|turn|30
+|
+|t:|1655624810
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p2a: Zacian|Close Combat|p1a: Necrozma
+|-damage|p1a: Necrozma|58/100
+|-unboost|p2a: Zacian|def|1
+|-unboost|p2a: Zacian|spd|1
+|-damage|p2a: Zacian|78/100|[from] item: Rocky Helmet|[of] p1a: Necrozma
+|
+|upkeep
+|turn|31
+|
+|t:|1655624814
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|move|p1a: Necrozma|Moonlight|p1a: Necrozma
+|-heal|p1a: Necrozma|100/100
+|
+|upkeep
+|turn|32
+|
+|t:|1655624817
+|move|p2a: Zacian|Close Combat|p1a: Necrozma
+|-damage|p1a: Necrozma|35/100
+|-unboost|p2a: Zacian|def|1
+|-unboost|p2a: Zacian|spd|1
+|-damage|p2a: Zacian|61/100|[from] item: Rocky Helmet|[of] p1a: Necrozma
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|upkeep
+|
+|t:|1655624821
+|switch|p2a: Arceus|Arceus-Dark|88/100
+|-damage|p2a: Arceus|76/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1655624826
+|switch|p1a: Arceus|Arceus-Fairy|100/100
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|85/100
+|
+|upkeep
+|turn|34
+|
+|t:|1655624829
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|74/100
+|
+|upkeep
+|turn|35
+|
+|t:|1655624833
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|66/100
+|
+|upkeep
+|turn|36
+|
+|t:|1655624836
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|92/100
+|
+|upkeep
+|turn|37
+|
+|t:|1655624838
+|move|p1a: Arceus|Calm Mind|p1a: Arceus
+|-boost|p1a: Arceus|spa|1
+|-boost|p1a: Arceus|spd|1
+|move|p2a: Arceus|Judgment|p1a: Arceus
+|-resisted|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|68/100
+|
+|upkeep
+|turn|38
+|-message|Fel stinger forfeited.
+|
+|win|Testing Teams 596
+|l|☆Fel stinger

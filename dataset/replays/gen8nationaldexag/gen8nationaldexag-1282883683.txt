@@ -1,0 +1,337 @@
+|j|☆NashamagusAS
+|j|☆AnimeZZZZ5
+|t:|1613386726
+|player|p1|NashamagusAS|dawn|1701
+|player|p2|AnimeZZZZ5|az|1707
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Arceus-*|
+|poke|p1|Yveltal|
+|poke|p1|Rayquaza|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Groudon|
+|poke|p1|Zacian-Crowned|
+|poke|p2|Marshadow|
+|poke|p2|Smeargle, F|
+|poke|p2|Smeargle, M|
+|poke|p2|Arceus-*|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Smeargle, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NashamagusAS)
+|
+|t:|1613386736
+|start
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|1
+|j| SoulblazeCharizard
+|
+|t:|1613386744
+|move|p1a: Zacian|Substitute|p1a: Zacian
+|-start|p1a: Zacian|Substitute
+|-damage|p1a: Zacian|76/100
+|move|p2a: Smeargle|Shell Smash|p2a: Smeargle
+|-unboost|p2a: Smeargle|def|1
+|-unboost|p2a: Smeargle|spd|1
+|-boost|p2a: Smeargle|atk|2
+|-boost|p2a: Smeargle|spa|2
+|-boost|p2a: Smeargle|spe|2
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|2
+|
+|t:|1613386756
+|move|p1a: Zacian|Behemoth Blade|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|move|p2a: Smeargle|Sticky Web|p1a: Zacian
+|-sidestart|p1: NashamagusAS|move: Sticky Web
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|3
+|
+|t:|1613386770
+|move|p1a: Zacian|Behemoth Blade|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|upkeep
+|
+|t:|1613386772
+|switch|p2a: Marshadow|Marshadow|100/100
+|turn|4
+|
+|t:|1613386780
+|move|p1a: Zacian|Behemoth Blade|p2a: Marshadow
+|-enditem|p2a: Marshadow|Focus Sash
+|-damage|p2a: Marshadow|1/100
+|move|p2a: Marshadow|Spectral Thief||[still]
+|-clearpositiveboost|p1a: Zacian|p2a: Marshadow|move: Spectral Thief
+|-boost|p2a: Marshadow|atk|1
+|-anim|p2a: Marshadow|Spectral Thief|p1a: Zacian
+|-damage|p1a: Zacian|11/100
+|
+|upkeep
+|turn|5
+|
+|t:|1613386794
+|move|p2a: Marshadow|Shadow Sneak|p1a: Zacian
+|-end|p1a: Zacian|Substitute
+|move|p1a: Zacian|Behemoth Blade|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|
+|upkeep
+|
+|t:|1613386797
+|switch|p2a: Arceus|Arceus-Ground|100/100
+|turn|6
+|
+|t:|1613386808
+|move|p1a: Zacian|Behemoth Blade|p2a: Arceus
+|-crit|p2a: Arceus
+|-damage|p2a: Arceus|29/100
+|move|p2a: Arceus|Swords Dance|p2a: Arceus
+|-boost|p2a: Arceus|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1613386815
+|move|p2a: Arceus|Extreme Speed|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|t:|1613386822
+|switch|p1a: Arceus|Arceus-Ground|100/100
+|-activate|p1a: Arceus|move: Sticky Web
+|-unboost|p1a: Arceus|spe|1
+|turn|8
+|
+|t:|1613386827
+|-zpower|p2a: Arceus
+|move|p2a: Arceus|Tectonic Rage|p1a: Arceus|[zeffect]
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|
+|t:|1613386839
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|9
+|
+|t:|1613386846
+|-start|p1a: Yveltal|Dynamax
+|-heal|p1a: Yveltal|100/100|[silent]
+|move|p2a: Arceus|Stone Edge|p1a: Yveltal|[miss]
+|-miss|p2a: Arceus|p1a: Yveltal
+|move|p1a: Yveltal|Max Airstream|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|-boost|p1a: Yveltal|spe|1
+|-damage|p1a: Yveltal|96/100|[from] item: Life Orb
+|faint|p2a: Arceus
+|
+|upkeep
+|
+|t:|1613386852
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|10
+|
+|t:|1613386862
+|move|p1a: Yveltal|Max Airstream|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|-boost|p1a: Yveltal|spe|1
+|-damage|p1a: Yveltal|91/100|[from] item: Life Orb
+|move|p2a: Smeargle|Spore|p1a: Yveltal
+|-status|p1a: Yveltal|slp|[from] move: Spore
+|
+|upkeep
+|turn|11
+|
+|t:|1613386873
+|cant|p1a: Yveltal|slp
+|move|p2a: Smeargle|Ingrain|p2a: Smeargle
+|-start|p2a: Smeargle|move: Ingrain
+|
+|-heal|p2a: Smeargle|7/100|[from] Ingrain
+|-end|p1a: Yveltal|Dynamax
+|-heal|p1a: Yveltal|91/100 slp|[silent]
+|upkeep
+|turn|12
+|
+|t:|1613386883
+|cant|p1a: Yveltal|slp
+|move|p2a: Smeargle|Baton Pass|p2a: Smeargle
+|
+|t:|1613386885
+|switch|p2a: Smeargle|Smeargle, M|100/100|[from]move: Baton Pass
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|atk|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|13
+|
+|t:|1613386893
+|cant|p1a: Yveltal|slp
+|move|p2a: Smeargle|Substitute|p2a: Smeargle
+|-start|p2a: Smeargle|Substitute
+|-damage|p2a: Smeargle|76/100
+|
+|-heal|p2a: Smeargle|82/100|[from] item: Leftovers
+|-heal|p2a: Smeargle|88/100|[from] Ingrain
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|atk|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|14
+|j| Makaai(pokechamp)
+|
+|t:|1613386905
+|move|p2a: Smeargle|Spiky Shield|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Protect
+|-curestatus|p1a: Yveltal|slp|[msg]
+|move|p1a: Yveltal|Taunt|p2a: Smeargle
+|-activate|p2a: Smeargle|move: Protect
+|
+|-heal|p2a: Smeargle|94/100|[from] item: Leftovers
+|-heal|p2a: Smeargle|99/100|[from] Ingrain
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spd|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|15
+|
+|t:|1613386918
+|move|p1a: Yveltal|Taunt|p2a: Smeargle
+|-start|p2a: Smeargle|move: Taunt
+|move|p2a: Smeargle|Power Trip|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|76/100
+|
+|-heal|p2a: Smeargle|100/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|16
+|
+|t:|1613386931
+|move|p1a: Yveltal|Oblivion Wing|p2a: Smeargle
+|-end|p2a: Smeargle|Substitute
+|-heal|p1a: Yveltal|91/100|[from] drain|[of] p2a: Smeargle
+|-damage|p1a: Yveltal|81/100|[from] item: Life Orb
+|move|p2a: Smeargle|Power Trip|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|61/100
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|turn|17
+|
+|t:|1613386945
+|-start|p2a: Smeargle|Dynamax
+|-heal|p2a: Smeargle|100/100|[silent]
+|move|p1a: Yveltal|Oblivion Wing|p2a: Smeargle
+|-damage|p2a: Smeargle|71/100
+|-heal|p1a: Yveltal|97/100|[from] drain|[of] p2a: Smeargle
+|-damage|p1a: Yveltal|87/100|[from] item: Life Orb
+|move|p2a: Smeargle|Max Darkness|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|69/100
+|-unboost|p1a: Yveltal|spd|1
+|
+|-heal|p2a: Smeargle|74/100|[from] item: Leftovers
+|-heal|p2a: Smeargle|77/100|[from] Ingrain
+|-end|p2a: Smeargle|move: Taunt
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|turn|18
+|
+|t:|1613386967
+|move|p2a: Smeargle|Max Guard|p2a: Smeargle
+|-singleturn|p2a: Smeargle|Max Guard
+|move|p1a: Yveltal|Oblivion Wing|p2a: Smeargle
+|-activate|p2a: Smeargle|move: Max Guard
+|
+|-heal|p2a: Smeargle|80/100|[from] item: Leftovers
+|-heal|p2a: Smeargle|83/100|[from] Ingrain
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|turn|19
+|
+|t:|1613386979
+|move|p1a: Yveltal|Oblivion Wing|p2a: Smeargle
+|-damage|p2a: Smeargle|55/100
+|-heal|p1a: Yveltal|100/100|[from] drain|[of] p2a: Smeargle
+|-damage|p1a: Yveltal|91/100|[from] item: Life Orb
+|move|p2a: Smeargle|Max Darkness|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|78/100
+|-unboost|p1a: Yveltal|spd|1
+|
+|-heal|p2a: Smeargle|58/100|[from] item: Leftovers
+|-heal|p2a: Smeargle|61/100|[from] Ingrain
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spd|1
+|-end|p2a: Smeargle|Dynamax
+|-heal|p2a: Smeargle|61/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1613386998
+|move|p2a: Smeargle|Spiky Shield|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Protect
+|move|p1a: Yveltal|Oblivion Wing|p2a: Smeargle
+|-activate|p2a: Smeargle|move: Protect
+|
+|-heal|p2a: Smeargle|67/100|[from] item: Leftovers
+|-heal|p2a: Smeargle|73/100|[from] Ingrain
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|turn|21
+|
+|t:|1613387010
+|move|p1a: Yveltal|Oblivion Wing|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|-heal|p1a: Yveltal|100/100|[from] drain|[of] p2a: Smeargle
+|-damage|p1a: Yveltal|91/100|[from] item: Life Orb
+|faint|p2a: Smeargle
+|
+|upkeep
+|-message|AnimeZZZZ5 forfeited.
+|
+|win|NashamagusAS
+|l|☆AnimeZZZZ5
+|raw|NashamagusAS's rating: 1679 &rarr; <strong>1698</strong><br />(+19 for winning)
+|raw|AnimeZZZZ5's rating: 1677 &rarr; <strong>1657</strong><br />(-20 for losing)

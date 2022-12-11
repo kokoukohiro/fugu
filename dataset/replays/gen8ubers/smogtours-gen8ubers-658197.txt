@@ -1,0 +1,341 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1667146176
+|gametype|singles
+|player|p1|Bbeeaa|#ssdivlindworms|
+|player|p2|RichardMillePlain|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Ubers
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Calyrex-Ice|
+|poke|p1|Xerneas-*|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Yveltal|
+|poke|p1|Eternatus|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Calyrex-Shadow|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Kyogre|
+|poke|p2|Groudon|
+|poke|p2|Eternatus|
+|poke|p2|Yveltal|
+|teampreview
+|c|☆Bbeeaa|Hf
+|c|☆RichardMillePlain|u2
+|c|+Lasen|wc?
+|c|☆RichardMillePlain|yes
+|inactive|Bbeeaa has 270 seconds left.
+|inactive|RichardMillePlain has 270 seconds left.
+|
+|t:|1667146227
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Yveltal|atk|1
+|-ability|p2a: Yveltal|Dark Aura
+|turn|1
+|
+|t:|1667146234
+|move|p1a: Landorus|U-turn|p2a: Yveltal
+|-damage|p2a: Yveltal|82/100
+|
+|t:|1667146238
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100|[from]move: U-turn
+|move|p2a: Yveltal|Knock Off|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|63/100
+|-enditem|p1a: Necrozma|Leftovers|[from] move: Knock Off|[of] p2a: Yveltal
+|
+|upkeep
+|turn|2
+|
+|t:|1667146242
+|switch|p2a: Groudon|Groudon|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1667146245
+|move|p2a: Groudon|Heat Crash|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|62/100
+|move|p1a: Necrozma|Stealth Rock|p2a: Groudon
+|-sidestart|p2: RichardMillePlain|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1667146249
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Groudon|atk|1
+|move|p2a: Groudon|Swords Dance|p2a: Groudon
+|-boost|p2a: Groudon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1667146256
+|move|p1a: Landorus|Earthquake|p2a: Groudon
+|-damage|p2a: Groudon|62/100
+|move|p2a: Groudon|Heat Crash|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667146263
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|6
+|
+|t:|1667146272
+|switch|p2a: Yveltal|Yveltal|82/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Yveltal|Knock Off|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-damage|p2a: Yveltal|62/100
+|-enditem|p2a: Yveltal|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Yveltal
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1667146276
+|move|p1a: Yveltal|Taunt|p2a: Yveltal
+|-start|p2a: Yveltal|move: Taunt
+|cant|p2a: Yveltal|move: Taunt|Defog
+|
+|upkeep
+|turn|8
+|
+|t:|1667146280
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|
+|upkeep
+|turn|9
+|
+|t:|1667146283
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|62/100
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p2a: Necrozma|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Necrozma|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1667146287
+|move|p1a: Necrozma|Thunder Wave|p2a: Necrozma
+|-status|p2a: Necrozma|par
+|move|p2a: Necrozma|Stealth Rock|p1a: Necrozma
+|-sidestart|p1: Bbeeaa|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1667146289
+|switch|p2a: Groudon|Groudon|68/100
+|-damage|p2a: Groudon|62/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|68/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1667146292
+|move|p2a: Groudon|Swords Dance|p2a: Groudon
+|-boost|p2a: Groudon|atk|2
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Groudon
+|-damage|p2a: Groudon|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|39/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1667146296
+|move|p2a: Groudon|Heat Crash|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-crit|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667146301
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|14
+|
+|t:|1667146304
+|move|p1a: Yveltal|Knock Off|p2a: Groudon
+|-damage|p2a: Groudon|7/100
+|-enditem|p2a: Groudon|Leftovers|[from] move: Knock Off|[of] p1a: Yveltal
+|move|p2a: Groudon|Rock Tomb|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|12/100
+|-unboost|p1a: Yveltal|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1667146308
+|move|p2a: Groudon|Rock Tomb|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|
+|-weather|none
+|upkeep
+|
+|t:|1667146311
+|switch|p1a: Eternatus|Eternatus|100/100
+|-damage|p1a: Eternatus|88/100|[from] Stealth Rock
+|-ability|p1a: Eternatus|Pressure
+|turn|16
+|
+|t:|1667146313
+|move|p1a: Eternatus|Dragon Pulse|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|upkeep
+|
+|t:|1667146317
+|switch|p2a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-damage|p2a: Calyrex|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1667146322
+|move|p2a: Calyrex|Psyshock|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1667146325
+|switch|p1a: Calyrex|Calyrex-Ice|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|18
+|
+|t:|1667146329
+|switch|p2a: Kyogre|Kyogre|100/100
+|-damage|p2a: Kyogre|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Calyrex|Agility|p1a: Calyrex
+|-boost|p1a: Calyrex|spe|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1667146332
+|move|p1a: Calyrex|Seed Bomb|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|45/100
+|move|p2a: Kyogre|Scald|p1a: Calyrex
+|-damage|p1a: Calyrex|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|51/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1667146334
+|move|p1a: Calyrex|Seed Bomb|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|3/100
+|move|p2a: Kyogre|Scald|p1a: Calyrex
+|-damage|p1a: Calyrex|6/100
+|-status|p1a: Calyrex|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|10/100|[from] item: Leftovers
+|-damage|p1a: Calyrex|0 fnt|[from] brn
+|faint|p1a: Calyrex
+|upkeep
+|
+|t:|1667146336
+|switch|p1a: Xerneas|Xerneas|100/100
+|-damage|p1a: Xerneas|88/100|[from] Stealth Rock
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|21
+|
+|t:|1667146341
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|move|p2a: Kyogre|Scald|p1a: Xerneas
+|-damage|p1a: Xerneas|64/100
+|-status|p1a: Xerneas|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|16/100|[from] item: Leftovers
+|-damage|p1a: Xerneas|57/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1667146343
+|move|p1a: Xerneas|Moonblast|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|none
+|-damage|p1a: Xerneas|51/100 brn|[from] brn
+|upkeep
+|
+|t:|1667146345
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100 par
+|-damage|p2a: Necrozma|94/100 par|[from] Stealth Rock
+|turn|23
+|
+|t:|1667146349
+|move|p1a: Xerneas|Endeavor|p2a: Necrozma
+|-damage|p2a: Necrozma|51/100 par
+|move|p2a: Necrozma|Iron Head|p1a: Xerneas
+|-supereffective|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|win|RichardMillePlain
+|c|☆Bbeeaa|Gg
+|c|☆RichardMillePlain|gg
+|player|p2|RichardMillePlain|266

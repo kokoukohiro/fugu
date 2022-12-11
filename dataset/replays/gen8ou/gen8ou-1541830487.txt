@@ -1,0 +1,193 @@
+|j|☆JoJo Reference #10
+|j|☆yung_iznamakin
+|t:|1648607772
+|gametype|singles
+|player|p1|JoJo Reference #10|red-gen2|1468
+|player|p2|yung_iznamakin|brendan-gen3|1495
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Arctozolt|
+|poke|p1|Slowbro, M|
+|poke|p1|Zapdos|
+|poke|p1|Mienshao, F|
+|poke|p1|Umbreon, M|
+|poke|p1|Hippowdon, M|
+|poke|p2|Weavile, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Heatran, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|t:|1648607783
+|start
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|t:|1648607789
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Mienshao|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100
+|-enditem|p2a: Toxapex|Eject Button
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yung_iznamakin)
+|
+|t:|1648607794
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1648607799
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Dragapult|U-turn|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|80/100
+|
+|t:|1648607805
+|switch|p2a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1648607811
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Heatran|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: JoJo Reference #10|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1648607817
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Hippowdon|Stealth Rock|p2a: Weavile
+|-sidestart|p2: yung_iznamakin|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1648607824
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Hippowdon|Earthquake|p2a: Weavile
+|-damage|p2a: Weavile|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|23/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1648607831
+|move|p2a: Weavile|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|28/100
+|-damage|p2a: Weavile|7/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|-enditem|p1a: Hippowdon|Rocky Helmet|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|0 fnt|[from] item: Life Orb
+|faint|p2a: Weavile
+|move|p1a: Hippowdon|Earthquake|p2: Weavile|[notarget]
+|-fail|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1648607841
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1648607844
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|78/100
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1648607851
+|move|p2a: Garchomp|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|5/100
+|move|p1a: Hippowdon|Earthquake|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|32/100
+|
+|upkeep
+|turn|9
+|
+|t:|1648607857
+|move|p2a: Garchomp|Scale Shot|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|-hitcount|p1: Hippowdon|1
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|
+|upkeep
+|
+|t:|1648607860
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1648607866
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Mienshao|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|68/100
+|-damage|p1a: Mienshao|78/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Mienshao
+|
+|upkeep
+|turn|11
+|
+|t:|1648607876
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Corviknight|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|93/100
+|-status|p2a: Corviknight|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|t:|1648607882
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1648607886
+|move|p2a: Dragapult|Draco Meteor|p1a: Zapdos
+|-damage|p1a: Zapdos|32/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|82/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|13
+|-message|yung_iznamakin forfeited.
+|
+|win|JoJo Reference #10
+|raw|JoJo Reference #10's rating: 1468 &rarr; <strong>1490</strong><br />(+22 for winning)
+|raw|yung_iznamakin's rating: 1495 &rarr; <strong>1473</strong><br />(-22 for losing)
+|l|☆yung_iznamakin

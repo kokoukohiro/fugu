@@ -1,0 +1,337 @@
+|j|☆minimax_ai
+|j|☆Bunch24
+|t:|1665338375
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1643
+|player|p2|Bunch24|2|1687
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Tapu Koko|
+|poke|p2|Xurkitree|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Tornadus-Therian, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|inactive|Bunch24 has 120 seconds left.
+|
+|t:|1665338410
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|
+|t:|1665338414
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Tapu Koko|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|84/100
+|-damage|p2a: Tapu Koko|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1665338420
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1665338425
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Tornadus|Knock Off|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|83/100
+|-enditem|p1a: Weavile|Choice Band|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|upkeep
+|turn|3
+|
+|t:|1665338433
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Weavile|Triple Axel|p2a: Tyranitar
+|-damage|p2a: Tyranitar|92/100
+|-damage|p2a: Tyranitar|77/100
+|-damage|p2a: Tyranitar|54/100
+|-hitcount|p2a: Tyranitar|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|77/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|60/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1665338437
+|move|p1a: Weavile|Low Kick|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|71/100|[from] Sandstorm
+|upkeep
+|
+|t:|1665338440
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|turn|5
+|
+|t:|1665338444
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-damage|p1a: rotomwash|94/100|[from] Sandstorm
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1665338447
+|move|p2a: Zapdos|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|66/100
+|
+|t:|1665338452
+|switch|p2a: Tapu Koko|Tapu Koko|84/100|[from]move: U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: rotomwash|Thunderbolt|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tapu Koko|52/100|[from] Sandstorm
+|-damage|p1a: rotomwash|60/100|[from] Sandstorm
+|-heal|p1a: rotomwash|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1665338458
+|move|p2a: Tapu Koko|Roost|p2a: Tapu Koko
+|-heal|p2a: Tapu Koko|100/100
+|-singleturn|p2a: Tapu Koko|move: Roost
+|move|p1a: rotomwash|Thunderbolt|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|72/100
+|
+|-weather|none
+|-heal|p1a: rotomwash|72/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1665338460
+|move|p2a: Tapu Koko|Toxic|p1a: rotomwash
+|-status|p1a: rotomwash|tox
+|move|p1a: rotomwash|Hydro Pump|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|6/100
+|
+|-heal|p1a: rotomwash|78/100 tox|[from] item: Leftovers
+|-damage|p1a: rotomwash|72/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1665338463
+|move|p2a: Tapu Koko|Roost|p2a: Tapu Koko
+|-heal|p2a: Tapu Koko|56/100
+|-singleturn|p2a: Tapu Koko|move: Roost
+|move|p1a: rotomwash|Hydro Pump|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|-heal|p1a: rotomwash|78/100 tox|[from] item: Leftovers
+|-damage|p1a: rotomwash|66/100 tox|[from] psn
+|upkeep
+|j| Vmaurox
+|
+|t:|1665338467
+|switch|p2a: Zapdos|Zapdos-Galar|94/100
+|turn|10
+|
+|t:|1665338469
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Zapdos|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|52/100
+|-unboost|p2a: Zapdos|def|1
+|-unboost|p2a: Zapdos|spd|1
+|-damage|p2a: Zapdos|78/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|11
+|l| Vmaurox
+|
+|t:|1665338475
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Excadrill
+|-damage|p2a: Excadrill|62/100
+|-heal|p1a: Tangrowth|69/100|[from] drain|[of] p2a: Excadrill
+|
+|-heal|p2a: Excadrill|68/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1665338480
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Tangrowth|Knock Off|p2a: Tornadus
+|-damage|p2a: Tornadus|77/100
+|-enditem|p2a: Tornadus|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|13
+|
+|t:|1665338487
+|switch|p1a: Weavile|Weavile, F|71/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Tornadus|Hurricane|p1a: Weavile
+|-damage|p1a: Weavile|12/100
+|
+|upkeep
+|turn|14
+|
+|t:|1665338499
+|switch|p2a: Excadrill|Excadrill, F|68/100
+|move|p1a: Weavile|Triple Axel|p2a: Excadrill
+|-damage|p2a: Excadrill|53/100
+|-damage|p2a: Excadrill|26/100
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|-hitcount|p2: Excadrill|3
+|
+|upkeep
+|
+|t:|1665338501
+|switch|p2a: Xurkitree|Xurkitree|100/100
+|turn|15
+|
+|t:|1665338505
+|move|p1a: Weavile|Ice Shard|p2a: Xurkitree
+|-damage|p2a: Xurkitree|74/100
+|move|p2a: Xurkitree|Energy Ball|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|
+|upkeep
+|
+|t:|1665338505
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|16
+|
+|t:|1665338510
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Heatran|Eruption|p2a: Tornadus
+|-damage|p2a: Tornadus|20/100
+|
+|upkeep
+|turn|17
+|
+|t:|1665338516
+|move|p2a: Tornadus|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|80/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Eruption|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1665338518
+|switch|p2a: Zapdos|Zapdos-Galar|78/100
+|turn|18
+|
+|t:|1665338520
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Zapdos|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|54/100
+|-unboost|p2a: Zapdos|def|1
+|-unboost|p2a: Zapdos|spd|1
+|-damage|p2a: Zapdos|61/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|19
+|j| T_Blizzy
+|
+|t:|1665338523
+|move|p2a: Zapdos|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|10/100
+|-unboost|p2a: Zapdos|def|1
+|-unboost|p2a: Zapdos|spd|1
+|-damage|p2a: Zapdos|45/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|move|p1a: Tangrowth|Knock Off|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|6/100
+|-enditem|p2a: Zapdos|Choice Band|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|20
+|
+|t:|1665338526
+|move|p2a: Zapdos|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|-unboost|p2a: Zapdos|def|1
+|-unboost|p2a: Zapdos|spd|1
+|-damage|p2a: Zapdos|0 fnt|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|faint|p1a: Tangrowth
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1665338528
+|switch|p2a: Xurkitree|Xurkitree|74/100
+|switch|p1a: Heatran|Heatran, M|80/100
+|turn|21
+|
+|t:|1665338530
+|move|p2a: Xurkitree|Rising Voltage|p1a: Heatran
+|-damage|p1a: Heatran|31/100
+|move|p1a: Heatran|Eruption|p2a: Xurkitree
+|-damage|p2a: Xurkitree|38/100
+|
+|upkeep
+|turn|22
+|
+|t:|1665338531
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Xurkitree|atk|1
+|move|p2a: Xurkitree|Rising Voltage|p1a: landorustherian
+|-immune|p1a: landorustherian
+|
+|upkeep
+|turn|23
+|
+|t:|1665338532
+|move|p2a: Xurkitree|Rising Voltage|p1a: landorustherian
+|-immune|p1a: landorustherian
+|move|p1a: landorustherian|Earthquake|p2a: Xurkitree
+|-supereffective|p2a: Xurkitree
+|-damage|p2a: Xurkitree|0 fnt
+|faint|p2a: Xurkitree
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1643 &rarr; <strong>1666</strong><br />(+23 for winning)
+|raw|Bunch24's rating: 1687 &rarr; <strong>1664</strong><br />(-23 for losing)
+|c|☆minimax_ai|gg

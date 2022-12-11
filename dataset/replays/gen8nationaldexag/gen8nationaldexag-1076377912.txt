@@ -1,0 +1,345 @@
+|j|☆Hogwashimperial
+|j|☆Jono1231
+|player|p1|Hogwashimperial|swimmer-gen4dp|
+|player|p2|Jono1231|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|clearpoke
+|poke|p1|Rayquaza|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Groudon|
+|poke|p1|Smeargle, M|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Yveltal|
+|poke|p2|Rattata, L1, M|
+|poke|p2|Aron, L1, M|
+|poke|p2|Magnemite, L1|
+|poke|p2|Nosepass, L1, F|
+|poke|p2|Yamask, L1, M|
+|poke|p2|Smeargle, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jono1231)
+|
+|start
+|switch|p1a: Groudon|Groudon|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|1
+|
+|move|p2a: Smeargle|Destiny Bond|p2a: Smeargle
+|-singlemove|p2a: Smeargle|Destiny Bond
+|move|p1a: Groudon|Earth Power|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|-activate|p2a: Smeargle|move: Destiny Bond
+|faint|p1a: Groudon
+|-weather|none
+|
+|upkeep
+|
+|switch|p2a: Nosepass|Nosepass, L1, F|100/100
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|2
+|
+|move|p1a: Zacian|Substitute|p1a: Zacian
+|-start|p1a: Zacian|Substitute
+|-damage|p1a: Zacian|76/100
+|move|p2a: Nosepass|Taunt|p1a: Zacian
+|-start|p1a: Zacian|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Nosepass
+|-supereffective|p2a: Nosepass
+|-ability|p2a: Nosepass|Sturdy
+|-damage|p2a: Nosepass|10/100
+|-enditem|p2a: Nosepass|Oran Berry|[eat]
+|-heal|p2a: Nosepass|100/100|[from] item: Oran Berry
+|move|p2a: Nosepass|Pain Split||[still]
+|-fail|p2a: Nosepass
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Nosepass
+|-supereffective|p2a: Nosepass
+|-ability|p2a: Nosepass|Sturdy
+|-damage|p2a: Nosepass|10/100
+|move|p2a: Nosepass|Pain Split||[still]
+|-fail|p2a: Nosepass
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Nosepass
+|-supereffective|p2a: Nosepass
+|-damage|p2a: Nosepass|0 fnt
+|faint|p2a: Nosepass
+|
+|-end|p1a: Zacian|move: Taunt
+|upkeep
+|
+|switch|p2a: Yamask|Yamask, L1, M|100/100
+|turn|6
+|
+|move|p1a: Zacian|Play Rough|p2a: Yamask
+|-enditem|p2a: Yamask|Focus Sash
+|-damage|p2a: Yamask|9/100
+|-activate|p2a: Yamask|ability: Mummy|Intrepid Sword|[of] p1a: Zacian
+|move|p2a: Yamask|Destiny Bond|p2a: Yamask
+|-singlemove|p2a: Yamask|Destiny Bond
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Zacian|Crunch|p2a: Yamask
+|-supereffective|p2a: Yamask
+|-damage|p2a: Yamask|0 fnt
+|faint|p2a: Yamask
+|-activate|p2a: Yamask|move: Destiny Bond
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|switch|p2a: Aron|Aron, L1, M|100/100
+|turn|8
+|
+|move|p1a: Smeargle|Spore|p2a: Aron
+|-status|p2a: Aron|slp|[from] move: Spore
+|cant|p2a: Aron|slp
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|turn|9
+|
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|-curestatus|p2a: Aron|slp|[msg]
+|move|p2a: Aron|Toxic|p1a: Rayquaza
+|-status|p1a: Rayquaza|tox
+|
+|-damage|p1a: Rayquaza|95/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Aron|Protect|p2a: Aron
+|-singleturn|p2a: Aron|Protect
+|move|p1a: Rayquaza|Extreme Speed|p2a: Aron
+|-activate|p2a: Aron|move: Protect
+|
+|-damage|p1a: Rayquaza|83/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Rayquaza|Extreme Speed|p2a: Aron
+|-resisted|p2a: Aron
+|-ability|p2a: Aron|Sturdy
+|-damage|p2a: Aron|9/100
+|-damage|p1a: Rayquaza|73/100 tox|[from] item: Life Orb
+|move|p2a: Aron|Endeavor|p1a: Rayquaza
+|-damage|p1a: Rayquaza|1/100 tox
+|-heal|p2a: Aron|100/100|[from] item: Shell Bell|[of] p1a: Rayquaza
+|
+|-damage|p1a: Rayquaza|0 fnt|[from] psn
+|faint|p1a: Rayquaza
+|upkeep
+|
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|turn|12
+|
+|move|p1a: Smeargle|Spore|p2a: Aron
+|-status|p2a: Aron|slp|[from] move: Spore
+|cant|p2a: Aron|slp
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spe|2
+|-unboost|p1a: Smeargle|spd|1
+|upkeep
+|turn|13
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|cant|p2a: Aron|slp
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Necrozma|Earthquake|p2a: Aron
+|-supereffective|p2a: Aron
+|-ability|p2a: Aron|Sturdy
+|-damage|p2a: Aron|9/100 slp
+|-curestatus|p2a: Aron|slp|[msg]
+|move|p2a: Aron|Swagger|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|2
+|-start|p1a: Necrozma|confusion
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|move|p2a: Aron|Endeavor|p1a: Smeargle
+|-damage|p1a: Smeargle|1/100
+|-heal|p2a: Aron|100/100|[from] item: Shell Bell|[of] p1a: Smeargle
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spa|1
+|upkeep
+|turn|16
+|
+|move|p1a: Smeargle|Spore|p2a: Aron
+|-status|p2a: Aron|slp|[from] move: Spore
+|cant|p2a: Aron|slp
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|turn|17
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|cant|p2a: Aron|slp
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Necrozma|Earthquake|p2a: Aron
+|-supereffective|p2a: Aron
+|-ability|p2a: Aron|Sturdy
+|-damage|p2a: Aron|9/100 slp
+|-curestatus|p2a: Aron|slp|[msg]
+|move|p2a: Aron|Endeavor|p1a: Necrozma
+|-damage|p1a: Necrozma|1/100
+|-heal|p2a: Aron|100/100|[from] item: Shell Bell|[of] p1a: Necrozma
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Aron|Protect|p2a: Aron
+|-singleturn|p2a: Aron|Protect
+|move|p1a: Necrozma|Earthquake|p2a: Aron
+|-activate|p2a: Aron|move: Protect
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Necrozma|Earthquake|p2a: Aron
+|-supereffective|p2a: Aron
+|-ability|p2a: Aron|Sturdy
+|-damage|p2a: Aron|9/100
+|move|p2a: Aron|Swagger|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|2
+|-start|p1a: Necrozma|confusion
+|
+|upkeep
+|turn|21
+|
+|-activate|p1a: Necrozma|confusion
+|move|p1a: Necrozma|Earthquake|p2a: Aron
+|-supereffective|p2a: Aron
+|-damage|p2a: Aron|0 fnt
+|faint|p2a: Aron
+|
+|upkeep
+|
+|switch|p2a: Rattata|Rattata, L1, M|100/100
+|turn|22
+|
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Rattata|Sucker Punch||[still]
+|-fail|p2a: Rattata
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Rattata|Protect|p2a: Rattata
+|-singleturn|p2a: Rattata|Protect
+|move|p1a: Yveltal|Taunt|p2a: Rattata
+|-activate|p2a: Rattata|move: Protect
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Yveltal|Taunt|p2a: Rattata
+|-start|p2a: Rattata|move: Taunt
+|move|p2a: Rattata|Endeavor|p1a: Yveltal
+|-damage|p1a: Yveltal|3/100
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Magnemite|Magnemite, L1|100/100
+|move|p1a: Yveltal|Oblivion Wing|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-ability|p2a: Magnemite|Sturdy
+|-damage|p2a: Magnemite|10/100
+|-heal|p1a: Yveltal|5/100|[from] drain|[of] p2a: Magnemite
+|-enditem|p2a: Magnemite|Berry Juice
+|-heal|p2a: Magnemite|100/100|[from] item: Berry Juice
+|-damage|p1a: Yveltal|0 fnt|[from] item: Life Orb
+|faint|p1a: Yveltal
+|
+|upkeep
+|inactive|Hogwashimperial has 270 seconds left.
+|
+|switch|p1a: Smeargle|Smeargle, M|1/100
+|turn|26
+|
+|move|p1a: Smeargle|Spore|p2a: Magnemite
+|-status|p2a: Magnemite|slp|[from] move: Spore
+|cant|p2a: Magnemite|slp
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spa|2
+|-unboost|p1a: Smeargle|def|1
+|upkeep
+|turn|27
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|1/100
+|cant|p2a: Magnemite|slp
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Necrozma|Earthquake|p2a: Magnemite
+|-supereffective|p2a: Magnemite
+|-ability|p2a: Magnemite|Sturdy
+|-damage|p2a: Magnemite|10/100 slp
+|cant|p2a: Magnemite|slp
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|
+|upkeep
+|
+|switch|p2a: Rattata|Rattata, L1, M|100/100
+|turn|30
+|
+|move|p2a: Rattata|Quick Attack|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|upkeep
+|-message|Hogwashimperial forfeited.
+|
+|win|Jono1231
+|l|☆Hogwashimperial

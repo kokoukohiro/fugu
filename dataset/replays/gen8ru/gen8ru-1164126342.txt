@@ -1,0 +1,208 @@
+|j|☆toxrus2
+|j|☆adelias
+|t:|1596696075
+|player|p1|toxrus2|pryce|1054
+|player|p2|adelias|pokemonranger-gen4|1061
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Vanilluxe, F|
+|poke|p1|Gastrodon-East, F|
+|poke|p1|Centiskorch, M|
+|poke|p1|Passimian, M|
+|poke|p1|Whimsicott, F|
+|poke|p1|Indeedee-F, F|
+|poke|p2|Stunfisk-Galar, F|
+|poke|p2|Shedinja|
+|poke|p2|Rapidash-Galar, F|
+|poke|p2|Type: Null|
+|poke|p2|Blastoise, M|
+|poke|p2|Comfey, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by adelias)
+|
+|t:|1596696100
+|start
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|switch|p2a: Rapidash|Rapidash-Galar, F, shiny|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|1
+|
+|t:|1596696108
+|move|p2a: Rapidash|Play Rough|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|18/100
+|move|p1a: Vanilluxe|Blizzard|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1596696123
+|switch|p2a: Comfey|Comfey, F|100/100
+|turn|2
+|
+|t:|1596696130
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Comfey|Draining Kiss|p1a: Indeedee
+|-activate|p1a: Indeedee|move: Psychic Terrain
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Indeedee|94/100|[from] Hail
+|-damage|p2a: Comfey|94/100|[from] Hail
+|upkeep
+|turn|3
+|
+|t:|1596696139
+|move|p1a: Indeedee|Expanding Force|p2a: Comfey
+|-crit|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Indeedee|88/100|[from] Hail
+|upkeep
+|
+|t:|1596696145
+|switch|p2a: Stunfisk|Stunfisk-Galar, F, shiny|100/100
+|-start|p2a: Stunfisk|typechange|Psychic|[from] ability: Mimicry
+|-item|p2a: Stunfisk|Air Balloon
+|turn|4
+|
+|t:|1596696159
+|move|p1a: Indeedee|Expanding Force|p2a: Stunfisk
+|-resisted|p2a: Stunfisk
+|-damage|p2a: Stunfisk|65/100
+|-enditem|p2a: Stunfisk|Air Balloon
+|move|p2a: Stunfisk|Earthquake|p1a: Indeedee
+|-damage|p1a: Indeedee|37/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Indeedee|31/100|[from] Hail
+|-damage|p2a: Stunfisk|59/100|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1596696167
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|move|p2a: Stunfisk|Earthquake|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|89/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1596696174
+|move|p2a: Stunfisk|Protect|p2a: Stunfisk
+|-singleturn|p2a: Stunfisk|Protect
+|move|p1a: Whimsicott|U-turn|p2a: Stunfisk
+|-activate|p2a: Stunfisk|move: Protect
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|-activate|p2a: Stunfisk|ability: Mimicry
+|-end|p2a: Stunfisk|typechange|[silent]
+|turn|7
+|
+|t:|1596696181
+|move|p2a: Stunfisk|Yawn|p1a: Whimsicott
+|-start|p1a: Whimsicott|move: Yawn|[of] p2a: Stunfisk
+|move|p1a: Whimsicott|U-turn|p2a: Stunfisk
+|-resisted|p2a: Stunfisk
+|-damage|p2a: Stunfisk|55/100
+|
+|t:|1596696186
+|switch|p1a: Vanilluxe|Vanilluxe, F|18/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Stunfisk|49/100|[from] Hail
+|upkeep
+|turn|8
+|
+|t:|1596696195
+|move|p1a: Vanilluxe|Blizzard|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|faint|p2a: Stunfisk
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|t:|1596696203
+|switch|p2a: Blastoise|Blastoise, M, shiny|100/100
+|turn|9
+|
+|t:|1596696206
+|switch|p1a: Gastrodon|Gastrodon-East, F|100/100
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Blastoise|94/100|[from] Hail
+|-damage|p1a: Gastrodon|94/100|[from] Hail
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1596696217
+|move|p2a: Blastoise|Ice Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|53/100
+|move|p1a: Gastrodon|Toxic|p2a: Blastoise
+|-status|p2a: Blastoise|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Blastoise|88/100 tox|[from] Hail
+|-damage|p1a: Gastrodon|47/100|[from] Hail
+|-heal|p1a: Gastrodon|53/100|[from] item: Leftovers
+|-damage|p2a: Blastoise|82/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1596696227
+|move|p2a: Blastoise|Ice Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|2/100
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|52/100
+|
+|-weather|none
+|-heal|p1a: Gastrodon|58/100|[from] item: Leftovers
+|-damage|p2a: Blastoise|70/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1596696235
+|move|p2a: Blastoise|Ice Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|10/100
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|60/100
+|
+|-heal|p1a: Gastrodon|66/100|[from] item: Leftovers
+|-damage|p2a: Blastoise|52/100 tox|[from] psn
+|upkeep
+|turn|13
+|c|☆adelias|gg
+|-message|adelias forfeited.
+|
+|win|toxrus2
+|l|☆adelias
+|raw|toxrus2's rating: 1055 &rarr; <strong>1087</strong><br />(+32 for winning)
+|raw|adelias's rating: 1061 &rarr; <strong>1042</strong><br />(-19 for losing)

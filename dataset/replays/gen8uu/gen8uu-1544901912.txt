@@ -1,0 +1,452 @@
+|j|☆Darkortex
+|j|☆PlasticPinnochio
+|t:|1648968928
+|gametype|singles
+|player|p1|Darkortex|hilbert|1448
+|player|p2|PlasticPinnochio|policeman-gen4|1440
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Hippowdon, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Skarmory, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Amoonguss, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p2|Entei|
+|poke|p2|Zarude|
+|poke|p2|Cobalion|
+|poke|p2|Gardevoir, F|
+|poke|p2|Slowking, M|
+|poke|p2|Mandibuzz, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Darkortex)
+|
+|t:|1648968947
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|1
+|
+|t:|1648968955
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Mandibuzz|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|76/100
+|-enditem|p1a: Rotom|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|2
+|
+|t:|1648968968
+|switch|p2a: Entei|Entei|100/100
+|move|p1a: Rotom|Pain Split|p2a: Entei
+|-sethp|p2a: Entei|81/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|99/100|[from] move: Pain Split
+|
+|upkeep
+|turn|3
+|
+|t:|1648968974
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Entei|Stone Edge|p1a: Hippowdon
+|-resisted|p1a: Hippowdon
+|-damage|p1a: Hippowdon|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Entei|75/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1648968981
+|move|p2a: Entei|Toxic|p1a: Hippowdon
+|-status|p1a: Hippowdon|tox
+|move|p1a: Hippowdon|Stealth Rock|p2a: Entei
+|-sidestart|p2: PlasticPinnochio|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Entei|69/100|[from] Sandstorm
+|-damage|p1a: Hippowdon|84/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1648968984
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Hippowdon|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hippowdon|71/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1648968989
+|move|p2a: Mandibuzz|Defog|p1a: Hippowdon
+|-unboost|p1a: Hippowdon|evasion|1
+|-sideend|p2: PlasticPinnochio|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Hippowdon|Toxic|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mandibuzz|94/100 tox|[from] psn
+|-damage|p1a: Hippowdon|53/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1648968993
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|85/100
+|-damage|p2a: Mandibuzz|78/100 tox|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-enditem|p1a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mandibuzz|66/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1648968997
+|move|p2a: Mandibuzz|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|83/100
+|
+|t:|1648969001
+|switch|p2a: Entei|Entei|69/100|[from]move: U-turn
+|move|p1a: Skarmory|Spikes|p2a: Entei
+|-sidestart|p2: PlasticPinnochio|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Entei|63/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1648969007
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|move|p2a: Entei|Sacred Fire|p1a: Keldeo|[miss]
+|-miss|p2a: Entei|p1a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|-damage|p2a: Entei|57/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1648969012
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Keldeo|Scald|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|84/100
+|-status|p2a: Slowking|brn
+|
+|-weather|none
+|-damage|p2a: Slowking|78/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1648969018
+|switch|p1a: Hippowdon|Hippowdon, M|53/100 tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Slowking|Future Sight|p1a: Hippowdon
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|72/100 brn|[from] Sandstorm
+|-damage|p1a: Hippowdon|47/100 tox|[from] psn
+|-damage|p2a: Slowking|65/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1648969022
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|97/100 tox
+|move|p2a: Slowking|Scald|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|38/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|59/100 brn|[from] Sandstorm
+|-damage|p1a: Hippowdon|26/100 tox|[from] psn
+|-damage|p2a: Slowking|53/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1648969025
+|move|p1a: Hippowdon|Stealth Rock|p2a: Slowking
+|-sidestart|p2: PlasticPinnochio|move: Stealth Rock
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1648969034
+|switch|p2a: Mandibuzz|Mandibuzz, F|66/100 tox|[from]move: Teleport
+|
+|-weather|Sandstorm|[upkeep]
+|-end|p1a: Hippowdon|move: Future Sight
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|-damage|p2a: Mandibuzz|59/100 tox|[from] psn
+|upkeep
+|
+|t:|1648969041
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|14
+|
+|t:|1648969045
+|move|p1a: Excadrill|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|33/100 tox
+|move|p2a: Mandibuzz|Defog|p1a: Excadrill
+|-unboost|p1a: Excadrill|evasion|1
+|-sideend|p2: PlasticPinnochio|Spikes|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: PlasticPinnochio|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mandibuzz|21/100 tox|[from] psn
+|upkeep
+|turn|15
+|j| Sigma2048
+|
+|t:|1648969051
+|move|p1a: Excadrill|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1648969058
+|switch|p2a: Zarude|Zarude|100/100
+|turn|16
+|
+|t:|1648969062
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Zarude|Power Whip|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-enditem|p1a: Excadrill|Air Balloon
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zarude|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1648969069
+|switch|p1a: Keldeo|Keldeo-Resolute|94/100
+|turn|17
+|
+|t:|1648969071
+|switch|p2a: Slowking|Slowking, M|87/100 brn
+|move|p1a: Keldeo|Secret Sword|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|55/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|-damage|p2a: Slowking|49/100 brn|[from] Sandstorm
+|-damage|p2a: Slowking|43/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1648969076
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Justified|[from] ability: Trace|[of] p1a: Keldeo
+|move|p1a: Keldeo|Secret Sword|p2a: Gardevoir
+|-resisted|p2a: Gardevoir
+|-damage|p2a: Gardevoir|72/100
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1648969085
+|switch|p1a: Rotom|Rotom-Heat|99/100
+|move|p2a: Gardevoir|Psyshock|p1a: Rotom
+|-damage|p1a: Rotom|57/100
+|
+|upkeep
+|turn|20
+|
+|t:|1648969092
+|move|p2a: Gardevoir|Psyshock|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1648969095
+|switch|p1a: Skarmory|Skarmory, F|83/100
+|turn|21
+|
+|t:|1648969105
+|switch|p2a: Cobalion|Cobalion|100/100
+|move|p1a: Skarmory|Spikes|p2a: Cobalion
+|-sidestart|p2: PlasticPinnochio|Spikes
+|
+|upkeep
+|turn|22
+|
+|t:|1648969108
+|move|p2a: Cobalion|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: Darkortex|move: Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Cobalion
+|-sidestart|p2: PlasticPinnochio|Spikes
+|
+|upkeep
+|turn|23
+|
+|t:|1648969111
+|move|p2a: Cobalion|Close Combat|p1a: Skarmory
+|-damage|p1a: Skarmory|53/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|move|p1a: Skarmory|Whirlwind|p2a: Cobalion
+|drag|p2a: Zarude|Zarude|95/100
+|-damage|p2a: Zarude|78/100|[from] Spikes
+|
+|upkeep
+|turn|24
+|
+|t:|1648969115
+|move|p2a: Zarude|Darkest Lariat|p1a: Skarmory
+|-damage|p1a: Skarmory|13/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|63/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|turn|25
+|
+|t:|1648969122
+|move|p2a: Zarude|Darkest Lariat|p1a: Skarmory
+|-damage|p1a: Skarmory|26/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|76/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|turn|26
+|
+|t:|1648969125
+|move|p2a: Zarude|Darkest Lariat|p1a: Skarmory
+|-damage|p1a: Skarmory|40/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|90/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|turn|27
+|
+|t:|1648969129
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|move|p2a: Zarude|Darkest Lariat|p1a: Amoonguss
+|-damage|p1a: Amoonguss|38/100
+|-damage|p2a: Zarude|61/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|upkeep
+|turn|28
+|
+|t:|1648969134
+|switch|p1a: Keldeo|Keldeo-Resolute|88/100
+|-damage|p1a: Keldeo|82/100|[from] Stealth Rock
+|move|p2a: Zarude|Darkest Lariat|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|49/100
+|-ability|p1a: Keldeo|Justified|boost
+|-boost|p1a: Keldeo|atk|1
+|
+|upkeep
+|turn|29
+|
+|t:|1648969140
+|switch|p2a: Slowking|Slowking, M|76/100 brn
+|move|p1a: Keldeo|Secret Sword|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|43/100 brn
+|
+|-damage|p2a: Slowking|37/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1648969147
+|move|p1a: Keldeo|Secret Sword|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|3/100 brn
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|53/100 brn
+|
+|-damage|p2a: Slowking|46/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1648969151
+|move|p1a: Keldeo|Secret Sword|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|14/100 brn
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|64/100 brn
+|
+|-damage|p2a: Slowking|58/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1648969157
+|switch|p2a: Gardevoir|Gardevoir, F|72/100
+|-damage|p2a: Gardevoir|55/100|[from] Spikes
+|-ability|p2a: Gardevoir|Justified|[from] ability: Trace|[of] p1a: Keldeo
+|move|p1a: Keldeo|Secret Sword|p2a: Gardevoir
+|-resisted|p2a: Gardevoir
+|-damage|p2a: Gardevoir|24/100
+|
+|upkeep
+|turn|33
+|
+|t:|1648969165
+|switch|p1a: Skarmory|Skarmory, F|90/100
+|-damage|p1a: Skarmory|77/100|[from] Stealth Rock
+|move|p2a: Gardevoir|Healing Wish|p2a: Gardevoir
+|faint|p2a: Gardevoir
+|
+|upkeep
+|
+|t:|1648969167
+|switch|p2a: Entei|Entei|57/100
+|-heal|p2a: Entei|100/100|[from] move: Healing Wish
+|turn|34
+|
+|t:|1648969172
+|switch|p1a: Keldeo|Keldeo-Resolute|49/100
+|-damage|p1a: Keldeo|43/100|[from] Stealth Rock
+|move|p2a: Entei|Sacred Fire|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|13/100
+|
+|upkeep
+|turn|35
+|
+|t:|1648969179
+|move|p2a: Entei|Extreme Speed|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|c|☆PlasticPinnochio|gg
+|-message|Darkortex forfeited.
+|
+|win|PlasticPinnochio
+|raw|Darkortex's rating: 1459 &rarr; <strong>1438</strong><br />(-21 for losing)
+|raw|PlasticPinnochio's rating: 1440 &rarr; <strong>1461</strong><br />(+21 for winning)
+|l|☆Darkortex
+|j|☆Darkortex
+|player|p1|Darkortex|hilbert

@@ -1,0 +1,305 @@
+|j|☆venuesaur_test
+|j|☆HaxxLR
+|t:|1649743429
+|gametype|singles
+|player|p1|venuesaur_test|bugsy|1275
+|player|p2|HaxxLR|grimsley|1444
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Roserade, F|
+|poke|p1|Swampert, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Aegislash, M|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Hydreigon, M|
+|poke|p2|Slowbro-Galar, F|
+|poke|p2|Tapu Bulu|
+|poke|p2|Swampert, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Inteleon, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by venuesaur_test)
+|
+|t:|1649743528
+|start
+|switch|p1a: Roserade|Roserade, F|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|1
+|inactive|HaxxLR has 120 seconds left.
+|
+|t:|1649743560
+|switch|p2a: Slowbro|Slowbro-Galar, F|100/100
+|move|p1a: Roserade|Spikes|p2a: Slowbro
+|-sidestart|p2: HaxxLR|Spikes
+|
+|upkeep
+|turn|2
+|inactive|HaxxLR has 120 seconds left.
+|
+|t:|1649743572
+|move|p1a: Roserade|Sleep Powder|p2a: Slowbro
+|-status|p2a: Slowbro|slp|[from] move: Sleep Powder
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|3
+|inactive|HaxxLR has 120 seconds left.
+|
+|t:|1649743591
+|switch|p1a: Swampert|Swampert, M|100/100
+|-curestatus|p2a: Slowbro|slp|[msg]
+|move|p2a: Slowbro|Psyshock|p1a: Swampert
+|-damage|p1a: Swampert|82/100
+|
+|-heal|p1a: Swampert|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|HaxxLR has 120 seconds left.
+|
+|t:|1649743612
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Swampert|Stealth Rock|p2a: Tapu Bulu
+|-sidestart|p2: HaxxLR|move: Stealth Rock
+|
+|-heal|p1a: Swampert|94/100|[from] Grassy Terrain
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|HaxxLR has 90 seconds left.
+|
+|t:|1649743650
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Tapu Bulu|Stone Edge|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|35/100
+|
+|upkeep
+|turn|6
+|
+|t:|1649743662
+|switch|p2a: Slowbro|Slowbro-Galar, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Spikes
+|-damage|p2a: Slowbro|76/100|[from] Stealth Rock
+|move|p1a: Rotom|Pain Split|p2a: Slowbro
+|-sethp|p2a: Slowbro|51/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|66/100|[from] move: Pain Split
+|
+|-heal|p2a: Slowbro|57/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1649743685
+|move|p1a: Rotom|Volt Switch|p2a: Slowbro
+|-damage|p2a: Slowbro|42/100
+|
+|t:|1649743693
+|switch|p1a: Hydreigon|Hydreigon, M|100/100|[from]move: Volt Switch
+|move|p2a: Slowbro|Future Sight|p1a: Hydreigon
+|-start|p2a: Slowbro|move: Future Sight
+|
+|-heal|p2a: Slowbro|48/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|inactive|HaxxLR has 90 seconds left.
+|inactive|venuesaur_test has 120 seconds left.
+|
+|t:|1649743724
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|15/100
+|-unboost|p1a: Hydreigon|spa|2
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1649743735
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Hydreigon|Draco Meteor|p2a: Tapu Bulu
+|-immune|p2a: Tapu Bulu
+|
+|-end|p1a: Hydreigon|move: Future Sight
+|-immune|p1a: Hydreigon
+|upkeep
+|turn|10
+|inactive|venuesaur_test has 120 seconds left.
+|inactive|HaxxLR has 60 seconds left.
+|
+|t:|1649743770
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Tapu Bulu|Stone Edge|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|84/100
+|
+|-heal|p1a: Aegislash|91/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|inactive|HaxxLR has 60 seconds left.
+|inactive|venuesaur_test has 120 seconds left.
+|inactive|venuesaur_test has 90 seconds left.
+|
+|t:|1649743825
+|move|p2a: Tapu Bulu|Darkest Lariat|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|39/100
+|-enditem|p1a: Aegislash|Weakness Policy
+|-boost|p1a: Aegislash|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Aegislash|spa|2|[from] item: Weakness Policy
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-heal|p1a: Aegislash|45/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|inactive|venuesaur_test has 60 seconds left.
+|
+|t:|1649743870
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Tapu Bulu|Darkest Lariat|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Tapu Bulu|atk|1
+|
+|-heal|p1a: Aegislash|51/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|inactive|HaxxLR has 30 seconds left.
+|inactive|venuesaur_test has 30 seconds left.
+|inactive|HaxxLR has 20 seconds left.
+|inactive|venuesaur_test has 20 seconds left.
+|inactive|venuesaur_test has 15 seconds left.
+|inactive|HaxxLR has 15 seconds left.
+|
+|t:|1649743918
+|switch|p2a: Slowbro|Slowbro-Galar, F|81/100
+|-damage|p2a: Slowbro|69/100|[from] Stealth Rock
+|-damage|p2a: Slowbro|56/100|[from] Spikes
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-heal|p1a: Aegislash|57/100|[from] Grassy Terrain
+|-heal|p2a: Slowbro|62/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|14
+|inactive|venuesaur_test has 25 seconds left this turn.
+|inactive|HaxxLR has 25 seconds left this turn.
+|inactive|HaxxLR has 20 seconds left.
+|inactive|HaxxLR has 15 seconds left.
+|
+|t:|1649743929
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|upkeep
+|inactive|venuesaur_test has 30 seconds left this turn.
+|inactive|HaxxLR has 20 seconds left this turn.
+|inactive|HaxxLR has 15 seconds left.
+|inactive|HaxxLR has 10 seconds left.
+|
+|t:|1649743940
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|88/100|[from] Spikes
+|-damage|p2a: Swampert|82/100|[from] Stealth Rock
+|turn|15
+|inactive|HaxxLR has 20 seconds left this turn.
+|
+|t:|1649743948
+|move|p1a: Aegislash|Close Combat|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|faint|p2a: Swampert
+|
+|upkeep
+|inactive|HaxxLR has 25 seconds left this turn.
+|inactive|HaxxLR has 20 seconds left.
+|
+|t:|1649743954
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|-damage|p2a: Conkeldurr|82/100|[from] Spikes
+|turn|16
+|inactive|HaxxLR has 30 seconds left this turn.
+|
+|t:|1649743960
+|move|p1a: Aegislash|Shadow Sneak|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|inactive|HaxxLR has 30 seconds left this turn.
+|
+|t:|1649743964
+|switch|p2a: Mandibuzz|Mandibuzz, F|15/100
+|turn|17
+|
+|t:|1649743968
+|move|p1a: Aegislash|Shadow Sneak|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|t:|1649743972
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|-damage|p2a: Inteleon|88/100|[from] Spikes
+|-damage|p2a: Inteleon|76/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1649743976
+|move|p1a: Aegislash|Shadow Sneak|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|upkeep
+|
+|t:|1649743980
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|19
+|
+|t:|1649743985
+|move|p1a: Aegislash|Shadow Sneak|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|22/100
+|move|p2a: Tapu Bulu|Darkest Lariat|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Tapu Bulu|28/100|[from] Grassy Terrain
+|upkeep
+|inactive|venuesaur_test has 90 seconds left.
+|
+|t:|1649743996
+|switch|p1a: Roserade|Roserade, F|100/100
+|turn|20
+|
+|t:|1649744000
+|move|p1a: Roserade|Sludge Bomb|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|0 fnt
+|faint|p2a: Tapu Bulu
+|
+|win|venuesaur_test
+|raw|venuesaur_test's rating: 1275 &rarr; <strong>1311</strong><br />(+36 for winning)
+|raw|HaxxLR's rating: 1444 &rarr; <strong>1415</strong><br />(-29 for losing)
+|l|☆HaxxLR

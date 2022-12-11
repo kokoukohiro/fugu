@@ -1,0 +1,936 @@
+|j|☆Crying Lighting
+|j|☆m3l33f0x
+|t:|1607561883
+|player|p1|Crying Lighting|roxie|1589
+|player|p2|m3l33f0x|266|1253
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Audino, M|
+|poke|p1|Tangela, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Quagsire, F|
+|poke|p1|Silvally-*|
+|poke|p1|Turtonator, F|
+|poke|p2|Perrserker, M|
+|poke|p2|Tangela, F|
+|poke|p2|Clefairy, M|
+|poke|p2|Sableye, M|
+|poke|p2|Quagsire, M|
+|poke|p2|Altaria, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Crying Lighting)
+|
+|t:|1607561915
+|start
+|switch|p1a: Tangela|Tangela, F|100/100
+|switch|p2a: Perrserker|Perrserker, M|100/100
+|turn|1
+|
+|t:|1607561921
+|move|p2a: Perrserker|U-turn|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|57/100
+|
+|t:|1607561928
+|switch|p2a: Altaria|Altaria, M|100/100|[from]move: U-turn
+|move|p1a: Tangela|Knock Off|p2a: Altaria
+|-damage|p2a: Altaria|88/100
+|-enditem|p2a: Altaria|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tangela
+|
+|upkeep
+|turn|2
+|
+|t:|1607561938
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Altaria|Toxic|p1a: Audino|[miss]
+|-miss|p2a: Altaria|p1a: Audino
+|
+|upkeep
+|turn|3
+|
+|t:|1607561945
+|switch|p1a: Silvally|Silvally-Poison|100/100
+|move|p2a: Altaria|Toxic|p1a: Silvally
+|-immune|p1a: Silvally
+|
+|upkeep
+|turn|4
+|
+|t:|1607561951
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: Silvally|Multi-Attack|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-crit|p2a: Quagsire
+|-damage|p2a: Quagsire|79/100
+|
+|-heal|p2a: Quagsire|85/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1607561959
+|move|p1a: Silvally|Parting Shot|p2a: Quagsire
+|-unboost|p2a: Quagsire|atk|1
+|-unboost|p2a: Quagsire|spa|1
+|
+|t:|1607561960
+|switch|p1a: Tangela|Tangela, F|91/100|[from]move: Parting Shot
+|move|p2a: Quagsire|Toxic|p1a: Tangela
+|-status|p1a: Tangela|tox
+|
+|-heal|p2a: Quagsire|91/100|[from] item: Leftovers
+|-damage|p1a: Tangela|85/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1607561972
+|switch|p2a: Altaria|Altaria, M|88/100
+|move|p1a: Tangela|Toxic|p2a: Altaria
+|-status|p2a: Altaria|tox
+|
+|-damage|p2a: Altaria|82/100 tox|[from] psn
+|-damage|p1a: Tangela|73/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1607561986
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Altaria|Hurricane|p1a: Audino|[miss]
+|-miss|p2a: Altaria|p1a: Audino
+|
+|-damage|p2a: Altaria|70/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1607561998
+|move|p1a: Audino|Protect|p1a: Audino
+|-singleturn|p1a: Audino|Protect
+|move|p2a: Altaria|Toxic|p1a: Audino
+|-activate|p1a: Audino|move: Protect
+|
+|-damage|p2a: Altaria|51/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1607562015
+|switch|p2a: Sableye|Sableye, M|100/100
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1607562033
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1607562040
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: Clefairy|Stealth Rock|p1a: Corsola
+|-sidestart|p1: Crying Lighting|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1607562045
+|move|p2a: Clefairy|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|89/100
+|-start|p2a: Clefairy|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Corsola
+|-enditem|p1a: Corsola|Eviolite|[from] move: Knock Off|[of] p2a: Clefairy
+|move|p1a: Corsola|Stealth Rock|p2a: Clefairy
+|-sidestart|p2: m3l33f0x|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1607562061
+|switch|p2a: Quagsire|Quagsire, M|91/100
+|-damage|p2a: Quagsire|85/100|[from] Stealth Rock
+|move|p1a: Corsola|Night Shade|p2a: Quagsire
+|-damage|p2a: Quagsire|60/100
+|
+|-heal|p2a: Quagsire|66/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1607562077
+|switch|p1a: Tangela|Tangela, F|100/100 tox
+|-damage|p1a: Tangela|88/100 tox|[from] Stealth Rock
+|switch|p2a: Perrserker|Perrserker, M|100/100
+|-damage|p2a: Perrserker|94/100|[from] Stealth Rock
+|
+|-damage|p1a: Tangela|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1607562092
+|move|p2a: Perrserker|U-turn|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|43/100 tox
+|inactive|m3l33f0x has 120 seconds left.
+|
+|t:|1607562103
+|switch|p2a: Altaria|Altaria, M|51/100|[from]move: U-turn
+|-damage|p2a: Altaria|26/100|[from] Stealth Rock
+|move|p1a: Tangela|Knock Off|p2a: Altaria
+|-damage|p2a: Altaria|18/100
+|
+|-damage|p1a: Tangela|31/100 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|m3l33f0x has 120 seconds left.
+|
+|t:|1607562125
+|switch|p1a: Turtonator|Turtonator, F|100/100
+|move|p2a: Altaria|Hurricane|p1a: Turtonator
+|-damage|p1a: Turtonator|60/100
+|-start|p1a: Turtonator|confusion
+|
+|upkeep
+|turn|17
+|inactive|m3l33f0x has 90 seconds left.
+|
+|t:|1607562157
+|switch|p1a: Silvally|Silvally-Poison|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|move|p2a: Altaria|Hurricane|p1a: Silvally
+|-crit|p1a: Silvally
+|-damage|p1a: Silvally|60/100
+|
+|upkeep
+|turn|18
+|inactive|m3l33f0x has 90 seconds left.
+|
+|t:|1607562174
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|68/100
+|-singleturn|p2a: Altaria|move: Roost
+|move|p1a: Silvally|Multi-Attack|p2a: Altaria
+|-damage|p2a: Altaria|27/100
+|
+|upkeep
+|turn|19
+|inactive|m3l33f0x has 90 seconds left.
+|
+|t:|1607562185
+|switch|p2a: Quagsire|Quagsire, M|66/100
+|-damage|p2a: Quagsire|60/100|[from] Stealth Rock
+|move|p1a: Silvally|Multi-Attack|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|45/100
+|
+|-heal|p2a: Quagsire|51/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|m3l33f0x has 90 seconds left.
+|
+|t:|1607562196
+|move|p1a: Silvally|Parting Shot|p2a: Quagsire
+|-unboost|p2a: Quagsire|atk|1
+|-unboost|p2a: Quagsire|spa|1
+|
+|t:|1607562198
+|switch|p1a: Tangela|Tangela, F|64/100 tox|[from]move: Parting Shot
+|-damage|p1a: Tangela|52/100 tox|[from] Stealth Rock
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|-damage|p1a: Tangela|46/100 tox|[from] psn
+|upkeep
+|turn|21
+|inactive|m3l33f0x has 90 seconds left.
+|inactive|m3l33f0x has 60 seconds left.
+|
+|t:|1607562254
+|switch|p2a: Perrserker|Perrserker, M|94/100
+|-damage|p2a: Perrserker|88/100|[from] Stealth Rock
+|move|p1a: Tangela|Knock Off|p2a: Perrserker
+|-damage|p2a: Perrserker|72/100
+|-enditem|p2a: Perrserker|Choice Band|[from] move: Knock Off|[of] p1a: Tangela
+|
+|-damage|p1a: Tangela|34/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1607562263
+|switch|p1a: Corsola|Corsola-Galar, F|89/100
+|-damage|p1a: Corsola|77/100|[from] Stealth Rock
+|move|p2a: Perrserker|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|40/100
+|-start|p2a: Perrserker|Disable|Iron Head|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|upkeep
+|turn|23
+|
+|t:|1607562273
+|move|p2a: Perrserker|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|27/100
+|
+|t:|1607562278
+|switch|p2a: Altaria|Altaria, M|27/100|[from]move: U-turn
+|-damage|p2a: Altaria|2/100|[from] Stealth Rock
+|move|p1a: Corsola|Strength Sap|p2a: Altaria
+|-unboost|p2a: Altaria|atk|1
+|-heal|p1a: Corsola|67/100
+|
+|upkeep
+|turn|24
+|inactive|m3l33f0x has 60 seconds left.
+|
+|t:|1607562296
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|52/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|upkeep
+|turn|25
+|
+|t:|1607562304
+|move|p2a: Altaria|Defog|p1a: Audino
+|-unboost|p1a: Audino|evasion|1
+|-sideend|p1: Crying Lighting|Stealth Rock|[from] move: Defog|[of] p2a: Altaria
+|-sideend|p2: m3l33f0x|Stealth Rock|[from] move: Defog|[of] p2a: Altaria
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|upkeep
+|turn|26
+|inactive|m3l33f0x has 60 seconds left.
+|
+|t:|1607562314
+|switch|p1a: Turtonator|Turtonator, F|60/100
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|-heal|p1a: Turtonator|100/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|27
+|inactive|m3l33f0x has 60 seconds left.
+|
+|t:|1607562328
+|switch|p2a: Clefairy|Clefairy, M|100/100
+|move|p1a: Turtonator|Shell Smash|p1a: Turtonator
+|-unboost|p1a: Turtonator|def|1
+|-unboost|p1a: Turtonator|spd|1
+|-boost|p1a: Turtonator|atk|2
+|-boost|p1a: Turtonator|spa|2
+|-boost|p1a: Turtonator|spe|2
+|
+|upkeep
+|turn|28
+|inactive|m3l33f0x has 60 seconds left.
+|inactive|m3l33f0x has 30 seconds left.
+|
+|t:|1607562369
+|move|p1a: Turtonator|Fire Blast|p2a: Clefairy
+|-damage|p2a: Clefairy|49/100
+|move|p2a: Clefairy|Seismic Toss|p1a: Turtonator
+|-damage|p1a: Turtonator|62/100
+|
+|upkeep
+|turn|29
+|inactive|m3l33f0x has 30 seconds left.
+|inactive|m3l33f0x has 20 seconds left.
+|inactive|m3l33f0x has 15 seconds left.
+|inactive|m3l33f0x has 10 seconds left.
+|inactive|m3l33f0x has 5 seconds left.
+|
+|t:|1607562406
+|move|p1a: Turtonator|Fire Blast|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|
+|upkeep
+|inactive|m3l33f0x has 10 seconds left this turn.
+|
+|t:|1607562411
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|turn|30
+|inactive|m3l33f0x has 20 seconds left this turn.
+|inactive|m3l33f0x has 15 seconds left.
+|
+|t:|1607562420
+|switch|p1a: Tangela|Tangela, F|67/100 tox
+|move|p2a: Quagsire|Earthquake|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|61/100 tox
+|
+|-damage|p1a: Tangela|55/100 tox|[from] psn
+|upkeep
+|turn|31
+|inactive|m3l33f0x has 25 seconds left this turn.
+|inactive|m3l33f0x has 20 seconds left.
+|inactive|m3l33f0x has 15 seconds left.
+|inactive|m3l33f0x has 10 seconds left.
+|
+|t:|1607562436
+|switch|p2a: Perrserker|Perrserker, M|72/100
+|move|p1a: Tangela|Giga Drain|p2a: Perrserker
+|-resisted|p2a: Perrserker
+|-damage|p2a: Perrserker|51/100
+|-heal|p1a: Tangela|64/100 tox|[from] drain|[of] p2a: Perrserker
+|
+|-damage|p1a: Tangela|52/100 tox|[from] psn
+|upkeep
+|turn|32
+|inactive|m3l33f0x has 20 seconds left this turn.
+|inactive|m3l33f0x has 15 seconds left.
+|inactive|m3l33f0x has 10 seconds left.
+|
+|t:|1607562457
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|move|p2a: Perrserker|U-turn|p1a: Quagsire
+|-damage|p1a: Quagsire|77/100
+|inactive|m3l33f0x has 15 seconds left this turn.
+|
+|t:|1607562462
+|switch|p2a: Tangela|Tangela, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Quagsire|83/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|m3l33f0x has 25 seconds left this turn.
+|inactive|m3l33f0x has 20 seconds left.
+|inactive|m3l33f0x has 15 seconds left.
+|
+|t:|1607562473
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Tangela|Giga Drain|p1a: Audino
+|-damage|p1a: Audino|83/100
+|
+|upkeep
+|turn|34
+|inactive|m3l33f0x has 25 seconds left this turn.
+|inactive|m3l33f0x has 20 seconds left.
+|inactive|Crying Lighting has 120 seconds left.
+|
+|t:|1607562511
+|move|p2a: Tangela|Leech Seed|p1a: Audino
+|-start|p1a: Audino|move: Leech Seed
+|move|p1a: Audino|Toxic|p2a: Tangela
+|-status|p2a: Tangela|tox
+|
+|-damage|p1a: Audino|70/100|[from] Leech Seed|[of] p2a: Tangela
+|-damage|p2a: Tangela|95/100 tox|[from] psn
+|upkeep
+|turn|35
+|inactive|m3l33f0x has 30 seconds left this turn.
+|inactive|Crying Lighting has 120 seconds left.
+|inactive|m3l33f0x has 20 seconds left.
+|
+|t:|1607562522
+|switch|p2a: Perrserker|Perrserker, M|51/100
+|switch|p1a: Silvally|Silvally-Poison|60/100
+|
+|upkeep
+|turn|36
+|inactive|m3l33f0x has 30 seconds left this turn.
+|
+|t:|1607562531
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: Silvally|Flamethrower|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-crit|p2a: Quagsire
+|-damage|p2a: Quagsire|82/100
+|
+|-heal|p2a: Quagsire|89/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|m3l33f0x has 30 seconds left.
+|inactive|m3l33f0x has 20 seconds left.
+|
+|t:|1607562549
+|move|p1a: Silvally|Parting Shot|p2a: Quagsire
+|-unboost|p2a: Quagsire|atk|1
+|-unboost|p2a: Quagsire|spa|1
+|inactive|m3l33f0x has 25 seconds left this turn.
+|
+|t:|1607562554
+|switch|p1a: Tangela|Tangela, F|85/100 tox|[from]move: Parting Shot
+|move|p2a: Quagsire|Earthquake|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|81/100 tox
+|
+|-heal|p2a: Quagsire|95/100|[from] item: Leftovers
+|-damage|p1a: Tangela|75/100 tox|[from] psn
+|upkeep
+|turn|38
+|inactive|m3l33f0x has 30 seconds left.
+|
+|t:|1607562563
+|switch|p2a: Altaria|Altaria, M|100/100
+|move|p1a: Tangela|Giga Drain|p2a: Altaria
+|-resisted|p2a: Altaria
+|-crit|p2a: Altaria
+|-damage|p2a: Altaria|93/100
+|-heal|p1a: Tangela|79/100 tox|[from] drain|[of] p2a: Altaria
+|
+|-damage|p1a: Tangela|67/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1607562567
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Altaria|Hurricane|p1a: Audino
+|-damage|p1a: Audino|83/100
+|-start|p1a: Audino|confusion
+|
+|upkeep
+|turn|40
+|
+|t:|1607562577
+|move|p2a: Altaria|Toxic|p1a: Audino
+|-status|p1a: Audino|tox
+|-activate|p1a: Audino|confusion
+|-damage|p1a: Audino|77/100 tox|[from] confusion
+|
+|-damage|p1a: Audino|71/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1607562585
+|switch|p2a: Tangela|Tangela, F|100/100 tox
+|-end|p1a: Audino|confusion
+|move|p1a: Audino|Heal Bell|p1a: Audino
+|-activate|p1a: Audino|move: Heal Bell
+|-curestatus|p1a: Audino|tox|[msg]
+|-curestatus|p1: Tangela|tox|[msg]
+|
+|-damage|p2a: Tangela|95/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1607562591
+|move|p2a: Tangela|Sleep Powder|p1a: Audino
+|-status|p1a: Audino|slp|[from] move: Sleep Powder
+|cant|p1a: Audino|slp
+|
+|-damage|p2a: Tangela|83/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1607562596
+|switch|p2a: Perrserker|Perrserker, M|51/100
+|-curestatus|p1a: Audino|slp|[msg]
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|upkeep
+|turn|44
+|
+|t:|1607562603
+|switch|p1a: Turtonator|Turtonator, F|62/100
+|move|p2a: Perrserker|U-turn|p1a: Turtonator
+|-resisted|p1a: Turtonator
+|-damage|p1a: Turtonator|47/100
+|inactive|m3l33f0x has 60 seconds left.
+|
+|t:|1607562621
+|switch|p2a: Altaria|Altaria, M|93/100|[from]move: U-turn
+|
+|-heal|p1a: Turtonator|100/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|45
+|inactive|m3l33f0x has 60 seconds left.
+|
+|t:|1607562632
+|move|p2a: Altaria|Hurricane|p1a: Turtonator
+|-damage|p1a: Turtonator|60/100
+|move|p1a: Turtonator|Draco Meteor|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|4/100
+|-unboost|p1a: Turtonator|spa|2
+|
+|upkeep
+|turn|46
+|
+|t:|1607562640
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|54/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|upkeep
+|turn|47
+|
+|t:|1607562655
+|move|p2a: Altaria|Hurricane|p1a: Audino
+|-damage|p1a: Audino|80/100
+|-start|p1a: Audino|confusion
+|-activate|p1a: Audino|confusion
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|upkeep
+|turn|48
+|
+|t:|1607562664
+|switch|p1a: Turtonator|Turtonator, F|60/100
+|move|p2a: Altaria|Hurricane|p1a: Turtonator
+|-damage|p1a: Turtonator|18/100
+|
+|-heal|p1a: Turtonator|96/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|49
+|
+|t:|1607562673
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|upkeep
+|turn|50
+|
+|t:|1607562686
+|switch|p2a: Sableye|Sableye, M|100/100
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|upkeep
+|turn|51
+|
+|t:|1607562697
+|switch|p1a: Silvally|Silvally-Poison|60/100
+|move|p2a: Sableye|Knock Off|p1a: Silvally
+|-damage|p1a: Silvally|43/100
+|
+|-heal|p1a: Silvally|95/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|52
+|
+|t:|1607562705
+|move|p2a: Sableye|Will-O-Wisp|p1a: Silvally|[miss]
+|-miss|p2a: Sableye|p1a: Silvally
+|move|p1a: Silvally|Parting Shot|p2a: Sableye
+|-unboost|p2a: Sableye|atk|1
+|-unboost|p2a: Sableye|spa|1
+|
+|t:|1607562707
+|switch|p1a: Turtonator|Turtonator, F|96/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|53
+|inactive|m3l33f0x has 90 seconds left.
+|
+|t:|1607562729
+|switch|p2a: Altaria|Altaria, M|100/100
+|move|p1a: Turtonator|Shell Smash|p1a: Turtonator
+|-unboost|p1a: Turtonator|def|1
+|-unboost|p1a: Turtonator|spd|1
+|-boost|p1a: Turtonator|atk|2
+|-boost|p1a: Turtonator|spa|2
+|-boost|p1a: Turtonator|spe|2
+|
+|upkeep
+|turn|54
+|
+|t:|1607562744
+|move|p1a: Turtonator|Draco Meteor|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|-unboost|p1a: Turtonator|spa|2
+|faint|p2a: Altaria
+|
+|upkeep
+|
+|t:|1607562750
+|switch|p2a: Quagsire|Quagsire, M|95/100
+|turn|55
+|
+|t:|1607562756
+|switch|p1a: Tangela|Tangela, F|99/100
+|move|p2a: Quagsire|Earthquake|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|94/100
+|
+|-heal|p2a: Quagsire|100/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1607562763
+|switch|p2a: Tangela|Tangela, F|100/100 tox
+|move|p1a: Tangela|Giga Drain|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|82/100 tox
+|-heal|p1a: Tangela|100/100|[from] drain|[of] p2a: Tangela
+|
+|-damage|p2a: Tangela|76/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|t:|1607562770
+|switch|p1a: Turtonator|Turtonator, F|96/100
+|move|p2a: Tangela|Sludge Bomb|p1a: Turtonator
+|-damage|p1a: Turtonator|66/100
+|-status|p1a: Turtonator|psn
+|
+|-damage|p1a: Turtonator|54/100 psn|[from] psn
+|-damage|p2a: Tangela|64/100 tox|[from] psn
+|upkeep
+|turn|58
+|inactive|m3l33f0x has 90 seconds left.
+|
+|t:|1607562779
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: Turtonator|Draco Meteor|p2a: Quagsire
+|-damage|p2a: Quagsire|40/100
+|-unboost|p1a: Turtonator|spa|2
+|
+|-heal|p2a: Quagsire|46/100|[from] item: Leftovers
+|-damage|p1a: Turtonator|42/100 psn|[from] psn
+|upkeep
+|turn|59
+|
+|t:|1607562786
+|move|p1a: Turtonator|Draco Meteor|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|-unboost|p1a: Turtonator|spa|2
+|faint|p2a: Quagsire
+|
+|-damage|p1a: Turtonator|30/100 psn|[from] psn
+|upkeep
+|inactive|m3l33f0x has 90 seconds left.
+|
+|t:|1607562797
+|switch|p2a: Perrserker|Perrserker, M|51/100
+|turn|60
+|
+|t:|1607562801
+|switch|p1a: Tangela|Tangela, F|100/100
+|move|p2a: Perrserker|Close Combat|p1a: Tangela
+|-damage|p1a: Tangela|77/100
+|-unboost|p2a: Perrserker|def|1
+|-unboost|p2a: Perrserker|spd|1
+|
+|upkeep
+|turn|61
+|
+|t:|1607562806
+|move|p2a: Perrserker|U-turn|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|50/100
+|
+|t:|1607562810
+|switch|p2a: Tangela|Tangela, F|97/100 tox|[from]move: U-turn
+|move|p1a: Tangela|Giga Drain|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|79/100 tox
+|-heal|p1a: Tangela|60/100|[from] drain|[of] p2a: Tangela
+|
+|-damage|p2a: Tangela|73/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|t:|1607562815
+|switch|p1a: Audino|Audino, M|100/100
+|move|p2a: Tangela|Sleep Powder|p1a: Audino
+|-status|p1a: Audino|slp|[from] move: Sleep Powder
+|
+|-damage|p2a: Tangela|61/100 tox|[from] psn
+|upkeep
+|turn|63
+|
+|t:|1607562818
+|switch|p2a: Perrserker|Perrserker, M|51/100
+|cant|p1a: Audino|slp
+|
+|upkeep
+|turn|64
+|
+|t:|1607562823
+|switch|p1a: Tangela|Tangela, F|93/100
+|move|p2a: Perrserker|Iron Head|p1a: Tangela
+|-damage|p1a: Tangela|71/100
+|
+|upkeep
+|turn|65
+|
+|t:|1607562831
+|move|p2a: Perrserker|Iron Head|p1a: Tangela
+|-damage|p1a: Tangela|48/100
+|cant|p1a: Tangela|flinch
+|
+|upkeep
+|turn|66
+|
+|t:|1607562837
+|move|p2a: Perrserker|Iron Head|p1a: Tangela
+|-damage|p1a: Tangela|25/100
+|cant|p1a: Tangela|flinch
+|
+|upkeep
+|turn|67
+|
+|t:|1607562845
+|switch|p1a: Corsola|Corsola-Galar, F|67/100
+|move|p2a: Perrserker|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|55/100
+|-start|p2a: Perrserker|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|t:|1607562855
+|switch|p2a: Tangela|Tangela, F|94/100 tox|[from]move: U-turn
+|
+|-damage|p2a: Tangela|88/100 tox|[from] psn
+|upkeep
+|turn|68
+|
+|t:|1607562858
+|move|p2a: Tangela|Leech Seed|p1a: Corsola|[miss]
+|-miss|p2a: Tangela|p1a: Corsola
+|move|p1a: Corsola|Stealth Rock|p2a: Tangela
+|-sidestart|p2: m3l33f0x|move: Stealth Rock
+|
+|-damage|p2a: Tangela|76/100 tox|[from] psn
+|upkeep
+|turn|69
+|
+|t:|1607562860
+|move|p2a: Tangela|Leech Seed|p1a: Corsola
+|-start|p1a: Corsola|move: Leech Seed
+|move|p1a: Corsola|Strength Sap|p2a: Tangela
+|-unboost|p2a: Tangela|atk|1
+|-heal|p1a: Corsola|87/100
+|
+|-damage|p1a: Corsola|75/100|[from] Leech Seed|[of] p2a: Tangela
+|-heal|p2a: Tangela|88/100 tox|[silent]
+|-damage|p2a: Tangela|70/100 tox|[from] psn
+|upkeep
+|turn|70
+|
+|t:|1607562864
+|switch|p2a: Perrserker|Perrserker, M|51/100
+|-damage|p2a: Perrserker|45/100|[from] Stealth Rock
+|switch|p1a: Silvally|Silvally-Poison|95/100
+|
+|upkeep
+|turn|71
+|
+|t:|1607562875
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|move|p1a: Silvally|Flamethrower|p2a: Sableye
+|-damage|p2a: Sableye|56/100
+|
+|-heal|p2a: Sableye|63/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|t:|1607562880
+|switch|p1a: Audino|Audino, M|100/100 slp
+|move|p2a: Sableye|Knock Off|p1a: Audino
+|-damage|p1a: Audino|75/100 slp
+|-enditem|p1a: Audino|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-heal|p2a: Sableye|69/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|t:|1607562888
+|switch|p2a: Tangela|Tangela, F|100/100 tox
+|-damage|p2a: Tangela|88/100 tox|[from] Stealth Rock
+|cant|p1a: Audino|slp
+|
+|-damage|p2a: Tangela|82/100 tox|[from] psn
+|upkeep
+|turn|74
+|
+|t:|1607562891
+|move|p2a: Tangela|Leech Seed|p1a: Audino
+|-start|p1a: Audino|move: Leech Seed
+|-curestatus|p1a: Audino|slp|[msg]
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-damage|p1a: Audino|62/100|[from] Leech Seed|[of] p2a: Tangela
+|-heal|p2a: Tangela|98/100 tox|[silent]
+|-damage|p2a: Tangela|86/100 tox|[from] psn
+|upkeep
+|turn|75
+|
+|t:|1607562894
+|switch|p1a: Turtonator|Turtonator, F|30/100 psn
+|move|p2a: Tangela|Sleep Powder||[still]
+|-fail|p2a: Tangela
+|
+|-heal|p1a: Turtonator|100/100 psn|[from] move: Wish|[wisher] Audino
+|-damage|p1a: Turtonator|88/100 psn|[from] psn
+|-damage|p2a: Tangela|68/100 tox|[from] psn
+|upkeep
+|turn|76
+|
+|t:|1607562905
+|switch|p2a: Perrserker|Perrserker, M|45/100
+|-damage|p2a: Perrserker|39/100|[from] Stealth Rock
+|move|p1a: Turtonator|Fire Blast|p2a: Perrserker
+|-supereffective|p2a: Perrserker
+|-damage|p2a: Perrserker|0 fnt
+|faint|p2a: Perrserker
+|
+|-damage|p1a: Turtonator|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1607562914
+|switch|p2a: Sableye|Sableye, M|69/100
+|-damage|p2a: Sableye|56/100|[from] Stealth Rock
+|turn|77
+|
+|t:|1607562917
+|move|p2a: Sableye|Encore|p1a: Turtonator
+|-start|p1a: Turtonator|Encore
+|move|p1a: Turtonator|Fire Blast|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-damage|p1a: Turtonator|64/100 psn|[from] psn
+|upkeep
+|
+|t:|1607562920
+|switch|p2a: Tangela|Tangela, F|100/100 tox
+|-damage|p2a: Tangela|88/100 tox|[from] Stealth Rock
+|turn|78
+|c|☆m3l33f0x|gg
+|c|☆Crying Lighting|gg
+|c|☆m3l33f0x|what do u think I could have done after that first shell smash'
+|c|☆m3l33f0x|I think it just went down hill from there
+|c|☆Crying Lighting|on which turn?
+|inactive|m3l33f0x has 120 seconds left.
+|c|☆Crying Lighting|when you went to clef?
+|c|☆m3l33f0x|yeah
+|
+|t:|1607562960
+|move|p1a: Turtonator|Fire Blast|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|win|Crying Lighting
+|c|☆Crying Lighting|so it was a 50 50 on draco vs smash
+|c|☆m3l33f0x|yeah
+|c|☆Crying Lighting|so you kinda had to guess with quag or clef
+|c|☆Crying Lighting|but i think using quag and switching to clef after the first draco maybe
+|c|☆Crying Lighting|becausae my team has so little tempo that you could get quag healed
+|c|☆Crying Lighting|but honestly i'm not sure
+|raw|Crying Lighting's rating: 1595 &rarr; <strong>1601</strong><br />(+6 for winning)
+|raw|m3l33f0x's rating: 1264 &rarr; <strong>1258</strong><br />(-6 for losing)
+|c|☆m3l33f0x|yeah it was tough decision
+|c|☆m3l33f0x|ggs though
+|c|☆Crying Lighting|it was mostly a bunch of 50 50s
+|c|☆Crying Lighting|ggs
+|l|☆m3l33f0x
+|l|☆Crying Lighting
+|j|☆m3l33f0x
+|player|p2|m3l33f0x|266

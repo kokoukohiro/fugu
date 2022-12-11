@@ -1,0 +1,725 @@
+|j|☆PatternJuggler
+|j|☆cafay sukray
+|t:|1654393792
+|gametype|singles
+|player|p1|PatternJuggler|grimsley|1310
+|player|p2|cafay sukray|swimmer-gen4dp|1573
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Jellicent, F|
+|poke|p1|Charizard, M|
+|poke|p1|Ribombee, F|
+|poke|p1|Regirock|
+|poke|p1|Scyther, F|
+|poke|p1|Aggron, M|
+|poke|p2|Accelgor, M|
+|poke|p2|Cinccino, F|
+|poke|p2|Cradily, M|
+|poke|p2|Shiinotic, M|
+|poke|p2|Quagsire, F|
+|poke|p2|Scrafty, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PatternJuggler)
+|
+|t:|1654393803
+|start
+|switch|p1a: Regirock|Regirock|100/100
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|turn|1
+|
+|t:|1654393810
+|switch|p2a: Shiinotic|Shiinotic, M|100/100
+|move|p1a: Regirock|Stealth Rock|p2a: Shiinotic
+|-sidestart|p2: cafay sukray|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1654393814
+|move|p1a: Regirock|Toxic|p2a: Shiinotic
+|-status|p2a: Shiinotic|tox
+|move|p2a: Shiinotic|Spore|p1a: Regirock
+|-status|p1a: Regirock|slp|[from] move: Spore
+|
+|-damage|p2a: Shiinotic|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1654393824
+|switch|p1a: Aggron|Aggron, M|100/100
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|-damage|p2a: Cinccino|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1654393836
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|-damage|p2a: Quagsire|94/100|[from] Stealth Rock
+|move|p1a: Aggron|Head Smash|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|55/100
+|
+|-heal|p2a: Quagsire|61/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1654393844
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1654393847
+|switch|p2a: Cradily|Cradily, M|100/100
+|-damage|p2a: Cradily|88/100|[from] Stealth Rock
+|move|p1a: Jellicent|Taunt|p2a: Cradily
+|-start|p2a: Cradily|move: Taunt
+|
+|-heal|p2a: Cradily|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1654393856
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Cradily
+|-status|p2a: Cradily|brn
+|move|p2a: Cradily|Giga Drain|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|64/100
+|-heal|p2a: Cradily|100/100 brn|[from] drain|[of] p1a: Jellicent
+|
+|-damage|p2a: Cradily|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1654393871
+|move|p1a: Jellicent|Hex|p2a: Cradily
+|-damage|p2a: Cradily|69/100 brn
+|move|p2a: Cradily|Stone Edge|p1a: Jellicent|[miss]
+|-miss|p2a: Cradily|p1a: Jellicent
+|
+|-heal|p2a: Cradily|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Cradily|69/100 brn|[from] brn
+|-end|p2a: Cradily|move: Taunt
+|upkeep
+|turn|9
+|
+|t:|1654393876
+|move|p1a: Jellicent|Hex|p2a: Cradily
+|-damage|p2a: Cradily|43/100 brn
+|move|p2a: Cradily|Giga Drain|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|31/100
+|-heal|p2a: Cradily|61/100 brn|[from] drain|[of] p1a: Jellicent
+|-start|p2a: Cradily|Disable|Giga Drain|[from] ability: Cursed Body|[of] p1a: Jellicent
+|
+|-heal|p2a: Cradily|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Cradily|61/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1654393879
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|81/100
+|move|p2a: Cradily|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: PatternJuggler|move: Stealth Rock
+|
+|-heal|p2a: Cradily|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Cradily|61/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1654393882
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|-damage|p2a: Scrafty|95/100|[from] Stealth Rock
+|move|p1a: Jellicent|Hex|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|86/100
+|
+|-heal|p2a: Scrafty|92/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1654393886
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Scrafty
+|-status|p2a: Scrafty|brn
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-enditem|p1a: Jellicent|Colbur Berry|[eat]
+|-enditem|p1a: Jellicent|Colbur Berry|[weaken]
+|-damage|p1a: Jellicent|69/100
+|
+|-heal|p2a: Scrafty|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|92/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1654393891
+|move|p1a: Jellicent|Taunt|p2a: Scrafty
+|-start|p2a: Scrafty|move: Taunt
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|54/100
+|
+|-heal|p2a: Scrafty|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|92/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1654393899
+|move|p1a: Jellicent|Hex|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|73/100 brn
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|38/100
+|
+|-heal|p2a: Scrafty|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|73/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1654393902
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|-damage|p1a: Ribombee|76/100|[from] Stealth Rock
+|move|p2a: Scrafty|Knock Off|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|61/100
+|-enditem|p1a: Ribombee|Choice Specs|[from] move: Knock Off|[of] p2a: Scrafty
+|
+|-heal|p2a: Scrafty|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|73/100 brn|[from] brn
+|-end|p2a: Scrafty|move: Taunt
+|upkeep
+|turn|16
+|
+|t:|1654393927
+|switch|p2a: Cradily|Cradily, M|61/100 brn
+|-damage|p2a: Cradily|48/100 brn|[from] Stealth Rock
+|move|p1a: Ribombee|Moonblast|p2a: Cradily
+|-damage|p2a: Cradily|25/100 brn
+|
+|-heal|p2a: Cradily|31/100 brn|[from] item: Leftovers
+|-damage|p2a: Cradily|25/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1654393948
+|move|p1a: Ribombee|Moonblast|p2a: Cradily
+|-damage|p2a: Cradily|1/100 brn
+|move|p2a: Cradily|Recover|p2a: Cradily
+|-heal|p2a: Cradily|51/100 brn
+|
+|-heal|p2a: Cradily|57/100 brn|[from] item: Leftovers
+|-damage|p2a: Cradily|51/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1654393952
+|move|p1a: Ribombee|U-turn|p2a: Cradily
+|-supereffective|p2a: Cradily
+|-damage|p2a: Cradily|27/100 brn
+|
+|t:|1654393959
+|switch|p1a: Charizard|Charizard, M|100/100|[from]move: U-turn
+|move|p2a: Cradily|Recover|p2a: Cradily
+|-heal|p2a: Cradily|77/100 brn
+|
+|-heal|p2a: Cradily|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Cradily|77/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1654393976
+|move|p1a: Charizard|Flare Blitz|p2a: Cradily
+|-damage|p2a: Cradily|34/100 brn
+|-damage|p1a: Charizard|83/100|[from] Recoil
+|move|p2a: Cradily|Stone Edge|p1a: Charizard|[miss]
+|-miss|p2a: Cradily|p1a: Charizard
+|
+|-heal|p2a: Cradily|40/100 brn|[from] item: Leftovers
+|-damage|p2a: Cradily|34/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1654393981
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|-damage|p2a: Quagsire|94/100|[from] Stealth Rock
+|move|p1a: Charizard|Flare Blitz|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|77/100
+|-damage|p1a: Charizard|75/100|[from] Recoil
+|
+|-heal|p2a: Quagsire|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1654393991
+|switch|p1a: Aggron|Aggron, M|100/100
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|move|p2a: Quagsire|Toxic|p1a: Aggron
+|-immune|p1a: Aggron
+|
+|-heal|p2a: Quagsire|89/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1654393995
+|move|p1a: Aggron|Head Smash|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|48/100
+|move|p2a: Quagsire|Earthquake|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|-heal|p2a: Quagsire|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1654394001
+|switch|p1a: Ribombee|Ribombee, F|61/100
+|-damage|p1a: Ribombee|36/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1654394019
+|switch|p2a: Accelgor|Accelgor, M|100/100
+|move|p1a: Ribombee|Moonblast|p2a: Accelgor
+|-damage|p2a: Accelgor|34/100
+|
+|upkeep
+|turn|24
+|j| ILoveChingling
+|
+|t:|1654394022
+|move|p2a: Accelgor|Bug Buzz|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1654394028
+|switch|p1a: Charizard|Charizard, M|75/100
+|turn|25
+|
+|t:|1654394039
+|move|p2a: Accelgor|Knock Off|p1a: Charizard
+|-damage|p1a: Charizard|54/100
+|-enditem|p1a: Charizard|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Accelgor
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|
+|upkeep
+|turn|26
+|
+|t:|1654394062
+|switch|p2a: Cradily|Cradily, M|34/100 brn
+|-damage|p2a: Cradily|22/100 brn|[from] Stealth Rock
+|move|p1a: Charizard|Flare Blitz|p2a: Cradily
+|-damage|p2a: Cradily|0 fnt
+|faint|p2a: Cradily
+|-damage|p1a: Charizard|46/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1654394064
+|switch|p2a: Quagsire|Quagsire, F|54/100
+|-damage|p2a: Quagsire|48/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1654394067
+|move|p1a: Charizard|Flare Blitz|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|31/100
+|-damage|p1a: Charizard|38/100|[from] Recoil
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|81/100
+|
+|-heal|p2a: Quagsire|87/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1654394073
+|move|p1a: Charizard|Flare Blitz|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|71/100
+|-damage|p1a: Charizard|31/100|[from] Recoil
+|move|p2a: Quagsire|Toxic|p1a: Charizard
+|-status|p1a: Charizard|tox
+|
+|-heal|p2a: Quagsire|77/100|[from] item: Leftovers
+|-damage|p1a: Charizard|25/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1654394075
+|move|p1a: Charizard|Flare Blitz|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-crit|p2a: Quagsire
+|-damage|p2a: Quagsire|38/100
+|-damage|p1a: Charizard|8/100 tox|[from] Recoil
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|88/100
+|
+|-heal|p2a: Quagsire|94/100|[from] item: Leftovers
+|-damage|p1a: Charizard|0 fnt|[from] psn
+|faint|p1a: Charizard
+|upkeep
+|c| ILoveChingling|good damage bro
+|c|☆cafay sukray|xd
+|c|☆PatternJuggler|i try
+|c|☆PatternJuggler|I def need a grass move lmao
+|
+|t:|1654394094
+|switch|p1a: Scyther|Scyther, F|100/100
+|turn|30
+|
+|t:|1654394098
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Quagsire|Toxic|p1a: Scyther
+|-status|p1a: Scyther|tox
+|
+|-heal|p2a: Quagsire|99/100|[from] item: Leftovers
+|-damage|p1a: Scyther|94/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1654394102
+|move|p1a: Scyther|Knock Off|p2a: Quagsire
+|-damage|p2a: Quagsire|81/100
+|-enditem|p2a: Quagsire|Leftovers|[from] move: Knock Off|[of] p1a: Scyther
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|-damage|p1a: Scyther|82/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1654394108
+|move|p1a: Scyther|Dual Wingbeat|p2a: Quagsire|[miss]
+|-miss|p1a: Scyther|p2a: Quagsire
+|move|p2a: Quagsire|Scald|p1a: Scyther
+|-damage|p1a: Scyther|55/100 tox
+|
+|-damage|p1a: Scyther|37/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1654394112
+|move|p1a: Scyther|Dual Wingbeat|p2a: Quagsire
+|-damage|p2a: Quagsire|81/100
+|-damage|p2a: Quagsire|61/100
+|-hitcount|p2a: Quagsire|2
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|-damage|p1a: Scyther|13/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1654394117
+|move|p1a: Scyther|Dual Wingbeat|p2a: Quagsire
+|-damage|p2a: Quagsire|80/100
+|-damage|p2a: Quagsire|60/100
+|-hitcount|p2a: Quagsire|2
+|move|p2a: Quagsire|Earthquake|p1a: Scyther
+|-immune|p1a: Scyther
+|
+|-damage|p1a: Scyther|0 fnt|[from] psn
+|faint|p1a: Scyther
+|upkeep
+|
+|t:|1654394119
+|switch|p1a: Jellicent|Jellicent, F|38/100
+|-damage|p1a: Jellicent|25/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1654394125
+|move|p1a: Jellicent|Taunt|p2a: Quagsire
+|-start|p2a: Quagsire|move: Taunt
+|cant|p2a: Quagsire|move: Taunt|Toxic
+|
+|upkeep
+|turn|36
+|
+|t:|1654394131
+|switch|p2a: Shiinotic|Shiinotic, M|94/100 tox
+|-damage|p2a: Shiinotic|82/100 tox|[from] Stealth Rock
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|75/100
+|
+|-heal|p2a: Shiinotic|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Shiinotic|82/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1654394134
+|move|p1a: Jellicent|Hex|p2a: Shiinotic
+|-damage|p2a: Shiinotic|38/100 tox
+|move|p2a: Shiinotic|Giga Drain|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|19/100
+|-heal|p2a: Shiinotic|74/100 tox|[from] drain|[of] p1a: Jellicent
+|
+|-heal|p2a: Shiinotic|80/100 tox|[from] item: Leftovers
+|-damage|p2a: Shiinotic|67/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1654394137
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|69/100
+|move|p2a: Shiinotic|Giga Drain|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|18/100
+|-heal|p2a: Shiinotic|99/100 tox|[from] drain|[of] p1a: Jellicent
+|-start|p2a: Shiinotic|Disable|Giga Drain|[from] ability: Cursed Body|[of] p1a: Jellicent
+|
+|-heal|p2a: Shiinotic|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Shiinotic|82/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1654394142
+|switch|p2a: Accelgor|Accelgor, M|34/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|68/100
+|
+|upkeep
+|turn|40
+|
+|t:|1654394145
+|move|p2a: Accelgor|Giga Drain|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|26/100
+|-heal|p2a: Accelgor|61/100|[from] drain|[of] p1a: Jellicent
+|-start|p2a: Accelgor|Disable|Giga Drain|[from] ability: Cursed Body|[of] p1a: Jellicent
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|76/100
+|
+|upkeep
+|turn|41
+|
+|t:|1654394149
+|switch|p2a: Scrafty|Scrafty, M|73/100 brn
+|-damage|p2a: Scrafty|67/100 brn|[from] Stealth Rock
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100
+|
+|-heal|p2a: Scrafty|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|67/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1654394156
+|switch|p2a: Accelgor|Accelgor, M|61/100
+|move|p1a: Jellicent|Hex|p2a: Accelgor
+|-damage|p2a: Accelgor|27/100
+|
+|upkeep
+|turn|43
+|
+|t:|1654394159
+|move|p2a: Accelgor|Giga Drain|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|62/100
+|-heal|p2a: Accelgor|52/100|[from] drain|[of] p1a: Jellicent
+|-start|p2a: Accelgor|Disable|Giga Drain|[from] ability: Cursed Body|[of] p1a: Jellicent
+|move|p1a: Jellicent|Hex|p2a: Accelgor
+|-crit|p2a: Accelgor
+|-damage|p2a: Accelgor|6/100
+|
+|upkeep
+|turn|44
+|
+|t:|1654394166
+|switch|p2a: Scrafty|Scrafty, M|67/100 brn
+|-damage|p2a: Scrafty|61/100 brn|[from] Stealth Rock
+|move|p1a: Jellicent|Hex|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|43/100 brn
+|
+|-heal|p2a: Scrafty|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|43/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1654394170
+|move|p1a: Jellicent|Hex|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|24/100 brn
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|45/100
+|
+|-heal|p2a: Scrafty|30/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|24/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1654394174
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|95/100
+|move|p2a: Scrafty|Rest|p2a: Scrafty
+|-status|p2a: Scrafty|slp|[from] move: Rest
+|-heal|p2a: Scrafty|100/100 slp|[silent]
+|
+|upkeep
+|turn|47
+|
+|t:|1654394178
+|move|p1a: Jellicent|Hex|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|84/100 slp
+|cant|p2a: Scrafty|slp
+|
+|-heal|p2a: Scrafty|90/100 slp|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1654394181
+|move|p1a: Jellicent|Hex|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|72/100 slp
+|cant|p2a: Scrafty|slp
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|slp|[msg]
+|-heal|p2a: Scrafty|78/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1654394184
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Scrafty
+|-status|p2a: Scrafty|brn
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|84/100 brn|[from] item: Leftovers
+|-damage|p2a: Scrafty|78/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|t:|1654394187
+|move|p1a: Jellicent|Taunt|p2a: Scrafty
+|-start|p2a: Scrafty|move: Taunt
+|cant|p2a: Scrafty|move: Taunt|Bulk Up
+|
+|-activate|p2a: Scrafty|ability: Shed Skin
+|-curestatus|p2a: Scrafty|brn|[msg]
+|-heal|p2a: Scrafty|84/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1654394190
+|move|p1a: Jellicent|Hex|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|74/100
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|46/100
+|-start|p2a: Scrafty|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Jellicent
+|
+|-heal|p2a: Scrafty|80/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1654394193
+|move|p1a: Jellicent|Hex|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|71/100
+|move|p2a: Scrafty|Drain Punch|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-heal|p2a: Scrafty|77/100|[from] item: Leftovers
+|-end|p2a: Scrafty|move: Taunt
+|upkeep
+|turn|53
+|c| ILoveChingling|Find it odd nobody uses Grapploct in PU
+|c|☆cafay sukray|there are better fighting types
+|c|☆cafay sukray|but that should be usable
+|
+|t:|1654394210
+|move|p1a: Jellicent|Hex|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|68/100
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|74/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|c| ILoveChingling|Octolock is pretty good
+|
+|t:|1654394218
+|move|p1a: Jellicent|Hex|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|66/100
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|72/100|[from] item: Leftovers
+|-end|p2a: Scrafty|Disable
+|upkeep
+|turn|55
+|
+|t:|1654394222
+|move|p1a: Jellicent|Hex|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|64/100
+|move|p2a: Scrafty|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-start|p2a: Scrafty|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Jellicent
+|faint|p1a: Jellicent
+|
+|-heal|p2a: Scrafty|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1654394226
+|switch|p1a: Regirock|Regirock|100/100 slp
+|-damage|p1a: Regirock|88/100 slp|[from] Stealth Rock
+|turn|56
+|
+|t:|1654394228
+|move|p2a: Scrafty|Drain Punch|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|38/100 slp
+|-heal|p2a: Scrafty|97/100|[from] drain|[of] p1a: Regirock
+|cant|p1a: Regirock|slp
+|
+|-heal|p2a: Scrafty|100/100|[from] item: Leftovers
+|-heal|p1a: Regirock|44/100 slp|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1654394230
+|move|p2a: Scrafty|Drain Punch|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|
+|win|cafay sukray
+|raw|PatternJuggler's rating: 1310 &rarr; <strong>1303</strong><br />(-7 for losing)
+|raw|cafay sukray's rating: 1573 &rarr; <strong>1580</strong><br />(+7 for winning)
+|c|☆PatternJuggler|gg
+|c|☆cafay sukray|gg
+|l|☆PatternJuggler

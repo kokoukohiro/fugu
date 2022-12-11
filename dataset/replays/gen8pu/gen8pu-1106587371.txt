@@ -1,0 +1,328 @@
+|j|☆allstarapology
+|j|☆LC2OU slime
+|player|p1|allstarapology|101|1464
+|player|p2|LC2OU slime|youngathlete|1173
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Stonjourner, F|
+|poke|p1|Type: Null|
+|poke|p1|Musharna, F|
+|poke|p1|Mawile, M|
+|poke|p1|Silvally-*|
+|poke|p1|Glaceon, M|
+|poke|p2|Silvally-*|
+|poke|p2|Mawile, M|
+|poke|p2|Gourgeist-*, M|
+|poke|p2|Liepard, F|
+|poke|p2|Heatmor, F|
+|poke|p2|Gastly, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LC2OU slime)
+|inactive|allstarapology also wants the timer to be on.
+|
+|start
+|switch|p1a: Stonjourner|Stonjourner, F|100/100
+|switch|p2a: Gastly|Gastly, F|100/100
+|turn|1
+|
+|switch|p1a: Silvally|Silvally-Poison|100/100
+|move|p2a: Gastly|Shadow Ball|p1a: Silvally
+|-damage|p1a: Silvally|64/100
+|-unboost|p1a: Silvally|spd|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Type: Null|Type: Null|100/100
+|move|p2a: Gastly|Shadow Ball|p1a: Type: Null
+|-immune|p1a: Type: Null
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Mawile|Mawile, M|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Type: Null|atk|1
+|move|p1a: Type: Null|U-turn|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|98/100
+|
+|switch|p1a: Stonjourner|Stonjourner, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Mawile|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p1a: Stonjourner|Choice Band|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Stonjourner|Heat Crash|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|21/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Gourgeist|atk|1
+|switch|p2a: Heatmor|Heatmor, F|100/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Type: Null|Type: Null|100/100
+|move|p2a: Heatmor|Fire Lash|p1a: Type: Null
+|-damage|p1a: Type: Null|80/100
+|-unboost|p1a: Type: Null|def|1
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Musharna|Musharna, F|100/100
+|move|p2a: Heatmor|Knock Off|p1a: Musharna
+|-supereffective|p1a: Musharna
+|-enditem|p1a: Musharna|Colbur Berry|[eat]
+|-enditem|p1a: Musharna|Colbur Berry|[weaken]
+|-damage|p1a: Musharna|72/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Heatmor|Fire Lash|p1a: Musharna
+|-damage|p1a: Musharna|34/100
+|-unboost|p1a: Musharna|def|1
+|move|p1a: Musharna|Future Sight|p2a: Heatmor
+|-start|p1a: Musharna|move: Future Sight
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Stonjourner|Stonjourner, F|100/100
+|move|p2a: Heatmor|Fire Lash|p1a: Stonjourner
+|-resisted|p1a: Stonjourner
+|-crit|p1a: Stonjourner
+|-damage|p1a: Stonjourner|80/100
+|-unboost|p1a: Stonjourner|def|1
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|21/100
+|-item|p1a: Stonjourner|Choice Band|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Stonjourner|Earthquake|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|5/100
+|
+|-end|p2a: Gourgeist|move: Future Sight
+|-damage|p2a: Gourgeist|0 fnt
+|upkeep
+|faint|p2a: Gourgeist
+|
+|switch|p2a: Gastly|Gastly, F|100/100
+|turn|11
+|
+|switch|p1a: Type: Null|Type: Null|80/100
+|move|p2a: Gastly|Trick|p1a: Type: Null
+|-activate|p2a: Gastly|move: Trick|[of] p1a: Type: Null
+|-item|p1a: Type: Null|Choice Scarf|[from] move: Trick
+|-item|p2a: Gastly|Eviolite|[from] move: Trick
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Gastly|Sludge Wave|p1a: Type: Null
+|-damage|p1a: Type: Null|50/100
+|move|p1a: Type: Null|U-turn|p2a: Gastly
+|-resisted|p2a: Gastly
+|-damage|p2a: Gastly|91/100
+|
+|switch|p1a: Glaceon|Glaceon, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|13
+|inactive|allstarapology has 120 seconds left.
+|inactive|allstarapology has 90 seconds left.
+|
+|move|p1a: Glaceon|Water Pulse|p2a: Gastly
+|-damage|p2a: Gastly|38/100
+|move|p2a: Gastly|Destiny Bond|p2a: Gastly
+|-singlemove|p2a: Gastly|Destiny Bond
+|
+|upkeep
+|turn|14
+|inactive|LC2OU slime has 120 seconds left.
+|
+|switch|p1a: Type: Null|Type: Null|50/100
+|switch|p2a: Silvally|Silvally-Dragon|100/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Type: Null
+|-damage|p1a: Type: Null|2/100
+|move|p1a: Type: Null|U-turn|p2a: Silvally
+|-damage|p2a: Silvally|85/100
+|
+|switch|p1a: Glaceon|Glaceon, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Heatmor|Heatmor, F|100/100
+|move|p1a: Glaceon|Ice Beam|p2a: Heatmor
+|-resisted|p2a: Heatmor
+|-damage|p2a: Heatmor|73/100
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Type: Null|Type: Null|2/100
+|move|p2a: Heatmor|Giga Drain|p1a: Type: Null
+|-damage|p1a: Type: Null|0 fnt
+|-heal|p2a: Heatmor|74/100|[from] drain|[of] p1a: Type: Null
+|faint|p1a: Type: Null
+|
+|upkeep
+|
+|switch|p1a: Stonjourner|Stonjourner, F|80/100
+|turn|18
+|
+|switch|p2a: Mawile|Mawile, M|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Stonjourner|atk|1
+|move|p1a: Stonjourner|Stone Edge|p2a: Mawile|[miss]
+|-miss|p1a: Stonjourner|p2a: Mawile
+|
+|upkeep
+|turn|19
+|inactive|allstarapology has 120 seconds left.
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Mawile|atk|1
+|move|p2a: Mawile|Stealth Rock|p1a: Mawile
+|-sidestart|p1: allstarapology|move: Stealth Rock
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Heatmor|Heatmor, F|74/100
+|move|p1a: Mawile|Stealth Rock|p2a: Heatmor
+|-sidestart|p2: LC2OU slime|move: Stealth Rock
+|
+|upkeep
+|turn|21
+|inactive|allstarapology has 120 seconds left.
+|
+|move|p2a: Heatmor|Fire Lash|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|35/100
+|-unboost|p1a: Mawile|def|1
+|move|p1a: Mawile|Toxic|p2a: Heatmor
+|-status|p2a: Heatmor|tox
+|
+|-heal|p1a: Mawile|42/100|[from] item: Leftovers
+|-damage|p2a: Heatmor|68/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Heatmor|Fire Lash|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|-damage|p2a: Heatmor|55/100 tox|[from] psn
+|upkeep
+|inactive|allstarapology has 120 seconds left.
+|
+|switch|p1a: Silvally|Silvally-Poison|64/100
+|-damage|p1a: Silvally|52/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Silvally|Surf|p2a: Heatmor
+|-supereffective|p2a: Heatmor
+|-damage|p2a: Heatmor|9/100 tox
+|move|p2a: Heatmor|Fire Lash|p1a: Silvally
+|-damage|p1a: Silvally|12/100
+|-unboost|p1a: Silvally|def|1
+|
+|-damage|p2a: Heatmor|0 fnt|[from] psn
+|faint|p2a: Heatmor
+|upkeep
+|
+|switch|p2a: Liepard|Liepard, F|100/100
+|-damage|p2a: Liepard|88/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Liepard|Knock Off|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Stonjourner|Stonjourner, F|80/100
+|-damage|p1a: Stonjourner|68/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Liepard|Knock Off|p1a: Stonjourner
+|-damage|p1a: Stonjourner|26/100
+|-enditem|p1a: Stonjourner|Choice Band|[from] move: Knock Off|[of] p2a: Liepard
+|move|p1a: Stonjourner|Heat Crash|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|upkeep
+|
+|switch|p2a: Gastly|Gastly, F|38/100
+|-damage|p2a: Gastly|26/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Glaceon|Glaceon, M|100/100
+|-damage|p1a: Glaceon|76/100|[from] Stealth Rock
+|move|p2a: Gastly|Sludge Wave|p1a: Glaceon
+|-damage|p1a: Glaceon|23/100
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Glaceon|Ice Beam|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|upkeep
+|
+|switch|p2a: Mawile|Mawile, M|100/100
+|-damage|p2a: Mawile|94/100|[from] Stealth Rock
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Glaceon|atk|1
+|turn|28
+|
+|move|p1a: Glaceon|Ice Beam|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|50/100
+|move|p2a: Mawile|Iron Head|p1a: Glaceon
+|-supereffective|p1a: Glaceon
+|-crit|p1a: Glaceon
+|-damage|p1a: Glaceon|0 fnt
+|faint|p1a: Glaceon
+|
+|-heal|p2a: Mawile|56/100|[from] item: Leftovers
+|upkeep
+|-message|allstarapology forfeited.
+|
+|win|LC2OU slime
+|l|☆allstarapology
+|raw|allstarapology's rating: 1464 &rarr; <strong>1430</strong><br />(-34 for losing)
+|raw|LC2OU slime's rating: 1173 &rarr; <strong>1215</strong><br />(+42 for winning)

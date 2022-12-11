@@ -1,0 +1,197 @@
+|j|☆groundt
+|j|☆Ojama Green
+|player|p1|groundt|winona-gen3|1554
+|player|p2|Ojama Green|254|1483
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Snorlax, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Jellicent, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Ditto|
+|poke|p2|Gyarados, M|
+|poke|p2|Ditto|
+|poke|p2|Darmanitan-Galar, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Rotom-Heat|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by groundt)
+|
+|start
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: groundt|move: Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Excadrill
+|-status|p2a: Excadrill|brn
+|
+|-damage|p2a: Excadrill|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Jellicent|Hex|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|44/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Dragapult|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|90/100
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Rotom|Trick|p1a: Mandibuzz
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Mandibuzz
+|-item|p1a: Mandibuzz|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Mandibuzz|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: groundt|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Rotom|Overheat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|7/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Excadrill|13/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Excadrill|Excadrill, F|94/100 brn
+|-ability|p2a: Excadrill|Mold Breaker
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|
+|-damage|p2a: Excadrill|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Snorlax
+|-sidestart|p1: groundt|move: Stealth Rock
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-damage|p2a: Excadrill|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Ojama Green has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Rotom|Trick|p1a: Snorlax
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Snorlax
+|-item|p1a: Snorlax|Heavy-Duty Boots|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Snorlax|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|16/100
+|
+|-heal|p2a: Rotom|22/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Ojama Green has 120 seconds left.
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|76/100
+|move|p1a: Snorlax|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|inactive|Ojama Green has 120 seconds left.
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Snorlax|[from] ability: Imposter
+|turn|11
+|
+|move|p2a: Ditto|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|56/100
+|move|p1a: Snorlax|Body Slam|p2a: Ditto
+|-damage|p2a: Ditto|65/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Ditto|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|36/100
+|move|p1a: Snorlax|Body Slam|p2a: Ditto
+|-damage|p2a: Ditto|26/100
+|
+|upkeep
+|turn|13
+|inactive|Ojama Green has 120 seconds left.
+|
+|move|p2a: Ditto|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|15/100
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|16
+|
+|-start|p1a: Snorlax|Dynamax
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Max Strike|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|-message|Ojama Green forfeited.
+|
+|win|groundt
+|l|☆Ojama Green
+|raw|groundt's rating: 1529 &rarr; <strong>1547</strong><br />(+18 for winning)
+|raw|Ojama Green's rating: 1483 &rarr; <strong>1466</strong><br />(-17 for losing)

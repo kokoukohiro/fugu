@@ -1,0 +1,128 @@
+|j|☆GEDO RINNE TENSEI
+|j|☆Yuki awsl
+|player|p1|GEDO RINNE TENSEI|1|1497
+|player|p2|Yuki awsl|266|1345
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Zacian-*|
+|poke|p1|Torkoal, M|
+|poke|p1|Ninetales, F|
+|poke|p1|Shiftry, M|
+|poke|p1|Arcanine, F|
+|poke|p1|Quagsire, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Excadrill, M|
+|poke|p2|Shiftry, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Charizard, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yuki awsl)
+|
+|start
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|switch|p2a: Charizard|Charizard, M, shiny|100/100
+|turn|1
+|
+|-start|p2a: Charizard|Dynamax
+|-formechange|p2a: Charizard|Charizard-Gmax
+|-heal|p2a: Charizard|100/100|[silent]
+|move|p2a: Charizard|Max Overgrowth|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|-fieldstart|move: Grassy Terrain
+|-damage|p2a: Charizard|96/100|[from] item: Life Orb
+|faint|p1a: Quagsire
+|
+|upkeep
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|2
+|
+|move|p1a: Zacian|Wild Charge|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|10/100
+|-damage|p1a: Zacian|61/100|[from] Recoil
+|move|p2a: Charizard|G-Max Wildfire|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|-sidestart|p1: GEDO RINNE TENSEI|G-Max Wildfire
+|-damage|p2a: Charizard|6/100|[from] item: Life Orb
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|3
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Shiftry|Shiftry, F|100/100
+|turn|4
+|
+|move|p2a: Shiftry|Swords Dance|p2a: Shiftry
+|-boost|p2a: Shiftry|atk|2
+|move|p1a: Ninetales|Fire Blast|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-enditem|p2a: Shiftry|Focus Sash
+|-damage|p2a: Shiftry|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Shiftry|7/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|move|p2a: Shiftry|Throat Chop|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Shiftry|13/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-sideend|p1: GEDO RINNE TENSEI|G-Max Wildfire
+|upkeep
+|
+|switch|p1a: Shiftry|Shiftry, M, shiny|100/100
+|turn|6
+|
+|move|p2a: Shiftry|Sucker Punch|p1a: Shiftry
+|-resisted|p1a: Shiftry
+|-damage|p1a: Shiftry|39/100
+|move|p1a: Shiftry|Sucker Punch||[still]
+|-fail|p1a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Shiftry|Sucker Punch|p1a: Shiftry
+|-resisted|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|faint|p1a: Shiftry
+|
+|-weather|none
+|upkeep
+|-message|GEDO RINNE TENSEI forfeited.
+|
+|win|Yuki awsl
+|l|☆GEDO RINNE TENSEI

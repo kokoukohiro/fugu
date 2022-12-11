@@ -1,0 +1,366 @@
+|j|☆yelodash
+|j|☆yvyxv
+|player|p1|yelodash|yellow|1471
+|player|p2|yvyxv|anabel|1487
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Ribombee, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Slurpuff, F|
+|poke|p1|Cloyster, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Blastoise, M|
+|poke|p2|Mew|
+|poke|p2|Clefable, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Conkeldurr, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yvyxv)
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Tyranitar|Toxic|p1a: Kommo-o|[miss]
+|-miss|p2a: Tyranitar|p1a: Kommo-o
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|63/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Ribombee
+|-damage|p1a: Ribombee|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ribombee|53/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|move|p1a: Ribombee|Light Screen|p1a: Ribombee
+|-sidestart|p1: yelodash|move: Light Screen
+|move|p2a: Clefable|Moonblast|p1a: Ribombee
+|-damage|p1a: Ribombee|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ribombee|25/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p1a: Ribombee|Sticky Web|p2a: Clefable
+|-sidestart|p2: yvyxv|move: Sticky Web
+|move|p2a: Clefable|Teleport|p2a: Clefable
+|
+|switch|p2a: Mew|Mew|100/100|[from]move: Teleport
+|-activate|p2a: Mew|move: Sticky Web
+|-unboost|p2a: Mew|spe|1
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p1a: Ribombee|Moonblast|p2a: Mew
+|-damage|p2a: Mew|73/100
+|move|p2a: Mew|Defog|p1a: Ribombee
+|-unboost|p1a: Ribombee|evasion|1
+|-sideend|p1: yelodash|move: Light Screen
+|-sideend|p2: yvyxv|Sticky Web|[from] move: Defog|[of] p2a: Mew
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Ribombee|Moonblast|p2a: Mew
+|-damage|p2a: Mew|48/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|98/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Ribombee|Moonblast|p2a: Mew
+|-damage|p2a: Mew|71/100
+|move|p2a: Mew|Will-O-Wisp|p1a: Ribombee
+|-status|p1a: Ribombee|brn
+|
+|-damage|p1a: Ribombee|18/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Ribombee|Moonblast|p2a: Mew
+|-damage|p2a: Mew|42/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|92/100
+|
+|-damage|p1a: Ribombee|12/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Ribombee|Moonblast|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|49/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|99/100
+|
+|-damage|p1a: Ribombee|6/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Ribombee|Light Screen|p1a: Ribombee
+|-sidestart|p1: yelodash|move: Light Screen
+|move|p2a: Mew|Defog|p1a: Ribombee
+|-unboost|p1a: Ribombee|evasion|1
+|-sideend|p1: yelodash|move: Light Screen
+|
+|-damage|p1a: Ribombee|0 fnt|[from] brn
+|faint|p1a: Ribombee
+|upkeep
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|turn|12
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Blastoise|Ice Beam|p2a: Seismitoad
+|-damage|p2a: Seismitoad|43/100
+|move|p2a: Seismitoad|Toxic|p1a: Blastoise
+|-status|p1a: Blastoise|tox
+|
+|-heal|p2a: Seismitoad|49/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Blastoise|Ice Beam|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|55/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Blastoise|Ice Beam|p2a: Clefable
+|-damage|p2a: Clefable|68/100
+|
+|-heal|p2a: Clefable|74/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|64/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Blastoise|Scald|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|80/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|40/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Blastoise|Hydro Cannon|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-mustrecharge|p1a: Blastoise
+|faint|p2a: Clefable
+|
+|-damage|p1a: Blastoise|10/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|18
+|
+|cant|p1a: Blastoise|recharge
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-damage|p1a: Blastoise|0 fnt|[from] psn
+|faint|p1a: Blastoise
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|19
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|cant|p2a: Corviknight|move: Taunt|Bulk Up
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Corviknight
+|-status|p2a: Corviknight|par
+|move|p2a: Corviknight|Brave Bird|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|38/100
+|-damage|p2a: Corviknight|80/100 par|[from] Recoil
+|-enditem|p1a: Grimmsnarl|Eject Button
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|
+|-heal|p2a: Corviknight|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Corviknight|Body Press|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|26/100
+|
+|-heal|p2a: Corviknight|92/100 par|[from] item: Leftovers
+|-end|p2a: Corviknight|move: Taunt
+|upkeep
+|turn|22
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Corviknight
+|-damage|p2a: Corviknight|80/100 par
+|-damage|p2a: Corviknight|66/100 par
+|-damage|p2a: Corviknight|53/100 par
+|-damage|p2a: Corviknight|40/100 par
+|-damage|p2a: Corviknight|26/100 par
+|-hitcount|p2a: Corviknight|5
+|cant|p2a: Corviknight|flinch
+|
+|-heal|p2a: Corviknight|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Seismitoad|Seismitoad, M|55/100
+|move|p1a: Cloyster|Icicle Spear|p2a: Seismitoad
+|-damage|p2a: Seismitoad|38/100
+|-damage|p2a: Seismitoad|22/100
+|-damage|p2a: Seismitoad|7/100
+|-damage|p2a: Seismitoad|0 fnt
+|-hitcount|p2a: Seismitoad|4
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|24
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|66/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|38/100
+|turn|25
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-damage|p2a: Conkeldurr|60/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Slurpuff|Slurpuff, F|100/100
+|turn|26
+|
+|move|p1a: Slurpuff|Play Rough|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Mew|Mew|99/100
+|turn|27
+|
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|50/100
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|75/100|[from] item: Sitrus Berry
+|move|p2a: Mew|Will-O-Wisp|p1a: Slurpuff|[miss]
+|-miss|p2a: Mew|p1a: Slurpuff
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Slurpuff|Play Rough|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|29
+|
+|move|p1a: Slurpuff|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-heal|p1a: Slurpuff|100/100|[from] drain|[of] p2a: Tyranitar
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slurpuff|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|32/100 par
+|-ability|p2a: Corviknight|Pressure
+|turn|30
+|
+|move|p1a: Slurpuff|Drain Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-heal|p1a: Slurpuff|100/100|[from] drain|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|win|yelodash
+|l|☆yelodash
+|l|☆yvyxv
+||Ladder (probably) updated, but score could not be retrieved (Response not received).
+|j|☆yvyxv
+|player|p2|yvyxv|anabel

@@ -1,0 +1,300 @@
+|j|☆CowpieMike
+|j|☆cump4
+|t:|1660945529
+|gametype|singles
+|player|p1|CowpieMike|scientist-gen4dp|1732
+|player|p2|cump4|pilot|1705
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Buzzwole|
+|poke|p1|Heatran, F|
+|poke|p1|Melmetal|
+|poke|p1|Volcanion|
+|poke|p1|Rillaboom, M|
+|poke|p2|Heatran, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Magnezone|
+|poke|p2|Dragapult, F|
+|poke|p2|Latios, M|
+|poke|p2|Rillaboom, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CowpieMike)
+|
+|t:|1660945540
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1660945545
+|move|p2a: Rillaboom|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|94/100
+|-status|p2a: Rillaboom|brn|[from] ability: Flame Body|[of] p1a: Heatran
+|-enditem|p1a: Heatran|Air Balloon
+|c|☆cump4|hf
+|c|☆CowpieMike|u2
+|
+|t:|1660945553
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Lava Plume|p2a: Landorus
+|-damage|p2a: Landorus|75/100
+|
+|-heal|p2a: Landorus|81/100|[from] item: Leftovers
+|-heal|p1a: Heatran|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1660945557
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Landorus|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1660945559
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: cump4|move: Stealth Rock
+|move|p2a: Landorus|Toxic|p1a: Landorus|[miss]
+|-miss|p2a: Landorus|p1a: Landorus
+|
+|-heal|p2a: Landorus|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1660945561
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|73/100
+|
+|t:|1660945565
+|switch|p1a: Buzzwole|Buzzwole|100/100|[from]move: U-turn
+|move|p2a: Landorus|Toxic|p1a: Buzzwole
+|-status|p1a: Buzzwole|tox
+|
+|-heal|p2a: Landorus|79/100|[from] item: Leftovers
+|-damage|p1a: Buzzwole|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1660945570
+|move|p1a: Buzzwole|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-ability|p1a: Buzzwole|Beast Boost|boost
+|-boost|p1a: Buzzwole|atk|1
+|
+|-heal|p1a: Buzzwole|100/100 tox|[from] Grassy Terrain
+|-damage|p1a: Buzzwole|88/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|j| KappaHalo
+|
+|t:|1660945577
+|switch|p2a: Latios|Latios, M, shiny|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1660945582
+|switch|p2a: Magnezone|Magnezone, shiny|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|move|p1a: Buzzwole|Ice Punch|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|81/100
+|
+|-heal|p2a: Magnezone|88/100|[from] item: Leftovers
+|-damage|p1a: Buzzwole|70/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1660945591
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Magnezone|Magnet Rise|p2a: Magnezone
+|-start|p2a: Magnezone|Magnet Rise
+|
+|-heal|p2a: Magnezone|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1660945596
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Heatran|Lava Plume|p2a: Heatran
+|-damage|p2a: Heatran|59/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|9
+|
+|t:|1660945601
+|move|p1a: Heatran|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1660945606
+|switch|p2a: Latios|Latios, M, shiny|88/100
+|-damage|p2a: Latios|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1660945608
+|move|p2a: Latios|Surf|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|22/100
+|move|p1a: Heatran|Toxic|p2a: Latios
+|-status|p2a: Latios|tox
+|
+|-damage|p2a: Latios|70/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1660945614
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Heatran|Taunt|p2a: Dragapult
+|-start|p2a: Dragapult|move: Taunt
+|
+|upkeep
+|turn|12
+|
+|t:|1660945618
+|move|p2a: Dragapult|Dragon Darts|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|9/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1660945623
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|turn|13
+|
+|t:|1660945627
+|switch|p2a: Rillaboom|Rillaboom, F|100/100 brn
+|-damage|p2a: Rillaboom|88/100 brn|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Landorus|Earthquake|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|73/100 brn
+|
+|-heal|p2a: Rillaboom|79/100 brn|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|73/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1660945630
+|move|p2a: Rillaboom|Grassy Glide|p1a: Landorus
+|-damage|p1a: Landorus|56/100
+|move|p1a: Landorus|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|t:|1660945638
+|switch|p1a: Buzzwole|Buzzwole|70/100 tox|[from]move: U-turn
+|
+|-heal|p1a: Buzzwole|76/100 tox|[from] Grassy Terrain
+|-damage|p1a: Buzzwole|70/100 tox|[from] psn
+|upkeep
+|
+|t:|1660945643
+|switch|p2a: Magnezone|Magnezone, shiny|94/100
+|-damage|p2a: Magnezone|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1660945646
+|switch|p2a: Dragapult|Dragapult, F, shiny|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|move|p1a: Buzzwole|Close Combat|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p1a: Buzzwole|76/100 tox|[from] Grassy Terrain
+|-heal|p2a: Dragapult|82/100|[from] Grassy Terrain
+|-damage|p1a: Buzzwole|63/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1660945649
+|switch|p1a: Landorus|Landorus-Therian, M|56/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|switch|p2a: Magnezone|Magnezone, shiny|88/100
+|-damage|p2a: Magnezone|81/100|[from] Stealth Rock
+|
+|-heal|p2a: Magnezone|88/100|[from] Grassy Terrain
+|-heal|p2a: Magnezone|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1660945655
+|switch|p2a: Latios|Latios, M, shiny|70/100 tox
+|-damage|p2a: Latios|58/100 tox|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|t:|1660945660
+|switch|p1a: Volcanion|Volcanion|100/100|[from]move: U-turn
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1660945664
+|switch|p2a: Dragapult|Dragapult, F, shiny|82/100
+|-damage|p2a: Dragapult|70/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1660945671
+|move|p2a: Dragapult|Dragon Darts|p1a: Volcanion
+|-damage|p1a: Volcanion|68/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Volcanion
+|-damage|p1a: Volcanion|33/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|4/100
+|-status|p2a: Dragapult|brn
+|
+|-damage|p2a: Dragapult|0 fnt|[from] brn
+|faint|p2a: Dragapult
+|upkeep
+|c|☆cump4|gg
+|-message|cump4 forfeited.
+|
+|win|CowpieMike
+|raw|CowpieMike's rating: 1732 &rarr; <strong>1750</strong><br />(+18 for winning)
+|raw|cump4's rating: 1705 &rarr; <strong>1687</strong><br />(-18 for losing)
+|c|☆CowpieMike|gg
+|l|☆cump4

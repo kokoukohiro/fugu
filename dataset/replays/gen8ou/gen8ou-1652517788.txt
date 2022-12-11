@@ -1,0 +1,386 @@
+|j|☆minimax_ai
+|j|☆Rediyu
+|t:|1661932542
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1525
+|player|p2|Rediyu|guitarist|1572
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Rillaboom, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Blaziken, M|
+|poke|p2|Melmetal|
+|poke|p2|Garchomp, F|
+|poke|p2|Slowbro, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1661932558
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Blaziken|atk|1
+|turn|1
+|
+|t:|1661932560
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|2
+|
+|t:|1661932562
+|move|p2a: Tornadus|Knock Off|p1a: landorustherian
+|-damage|p1a: landorustherian|82/100
+|-enditem|p1a: landorustherian|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|3
+|
+|t:|1661932567
+|move|p2a: Tornadus|Heat Wave|p1a: landorustherian
+|-damage|p1a: landorustherian|66/100
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|4
+|
+|t:|1661932571
+|move|p2a: Tornadus|Heat Wave|p1a: landorustherian|[miss]
+|-miss|p2a: Tornadus|p1a: landorustherian
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|5
+|
+|t:|1661932573
+|move|p2a: Tornadus|Heat Wave|p1a: landorustherian
+|-damage|p1a: landorustherian|48/100
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|6
+|
+|t:|1661932576
+|move|p2a: Tornadus|Heat Wave|p1a: landorustherian
+|-damage|p1a: landorustherian|30/100
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|7
+|
+|t:|1661932577
+|move|p2a: Tornadus|Heat Wave|p1a: landorustherian
+|-damage|p1a: landorustherian|12/100
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|8
+|
+|t:|1661932579
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Tornadus|Heat Wave|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|88/100
+|
+|-heal|p1a: rotomwash|95/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1661932581
+|move|p2a: Tornadus|Knock Off|p1a: rotomwash
+|-damage|p1a: rotomwash|72/100
+|-enditem|p1a: rotomwash|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: rotomwash|Thunderbolt|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|28/100
+|
+|upkeep
+|turn|10
+|
+|t:|1661932584
+|move|p2a: Tornadus|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|55/100
+|
+|t:|1661932586
+|switch|p2a: Garchomp|Garchomp, F|100/100|[from]move: U-turn
+|move|p1a: rotomwash|Hydro Pump|p2a: Garchomp
+|-damage|p2a: Garchomp|74/100
+|
+|-heal|p2a: Garchomp|80/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1661932592
+|move|p1a: rotomwash|Pain Split|p2a: Garchomp
+|-sethp|p2a: Garchomp|60/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|82/100|[from] move: Pain Split
+|move|p2a: Garchomp|Toxic|p1a: rotomwash
+|-status|p1a: rotomwash|tox
+|
+|-heal|p2a: Garchomp|66/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|76/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1661932595
+|move|p1a: rotomwash|Hydro Pump|p2a: Garchomp
+|-damage|p2a: Garchomp|38/100
+|move|p2a: Garchomp|Stealth Rock|p1a: rotomwash
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-heal|p2a: Garchomp|44/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|64/100 tox|[from] psn
+|upkeep
+|turn|13
+|j| Kyurem
+|
+|t:|1661932597
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: rotomwash|Hydro Pump|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|
+|-heal|p2a: Garchomp|50/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|45/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1661932601
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: rotomwash|Hydro Pump|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|78/100
+|
+|-heal|p2a: Rillaboom|84/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|90/100|[from] item: Leftovers
+|-damage|p1a: rotomwash|20/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1661932606
+|move|p1a: rotomwash|Thunderbolt|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|71/100
+|move|p2a: Rillaboom|Knock Off|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|-heal|p2a: Rillaboom|77/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1661932606
+|switch|p1a: Melmetal|Melmetal|100/100
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1661932609
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|88/100
+|-damage|p1a: Melmetal|78/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|70/100
+|-damage|p1a: Melmetal|61/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|-hitcount|p2a: Slowbro|2
+|
+|-heal|p1a: Melmetal|67/100|[from] Grassy Terrain
+|-heal|p2a: Slowbro|76/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1661932611
+|move|p1a: Melmetal|Double Iron Bash|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|65/100
+|-damage|p1a: Melmetal|51/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|54/100
+|-damage|p1a: Melmetal|34/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|-hitcount|p2a: Slowbro|2
+|cant|p2a: Slowbro|flinch
+|
+|-heal|p1a: Melmetal|40/100|[from] Grassy Terrain
+|-heal|p2a: Slowbro|60/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1661932614
+|move|p1a: Melmetal|Double Iron Bash|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|48/100
+|-damage|p1a: Melmetal|24/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|36/100
+|-damage|p1a: Melmetal|7/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|-hitcount|p2a: Slowbro|2
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1661932620
+|switch|p2a: Blaziken|Blaziken, M|100/100|[from]move: Teleport
+|
+|-heal|p1a: Melmetal|13/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1661932622
+|switch|p1a: landorustherian|Landorus-Therian, M|12/100
+|-damage|p1a: landorustherian|0 fnt|[from] Stealth Rock
+|faint|p1a: landorustherian
+|move|p2a: Blaziken|Flare Blitz|p1: landorustherian|[notarget]
+|-fail|p2a: Blaziken
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1661932622
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|20
+|
+|t:|1661932626
+|move|p2a: Blaziken|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|-enditem|p1a: Heatran|Air Balloon
+|faint|p1a: Heatran
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1661932626
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1661932630
+|switch|p2a: Tornadus|Tornadus-Therian, M|61/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|37/100
+|
+|upkeep
+|turn|22
+|
+|t:|1661932632
+|move|p2a: Tornadus|Heat Wave|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|17/100
+|move|p1a: Tangrowth|Sleep Powder|p2a: Tornadus
+|-status|p2a: Tornadus|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|23
+|
+|t:|1661932636
+|cant|p2a: Tornadus|slp
+|move|p1a: Tangrowth|Focus Blast|p2a: Tornadus|[miss]
+|-miss|p1a: Tangrowth|p2a: Tornadus
+|
+|upkeep
+|turn|24
+|
+|t:|1661932651
+|-curestatus|p2a: Tornadus|slp|[msg]
+|move|p2a: Tornadus|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|1/100
+|-damage|p2a: Tornadus|21/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1661932655
+|switch|p2a: Blaziken|Blaziken, M|100/100|[from]move: U-turn
+|move|p1a: Tangrowth|Focus Blast|p2a: Blaziken|[miss]
+|-miss|p1a: Tangrowth|p2a: Blaziken
+|
+|upkeep
+|turn|25
+|
+|t:|1661932658
+|move|p2a: Blaziken|Flare Blitz|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|-damage|p2a: Blaziken|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|faint|p1a: Tangrowth
+|-damage|p2a: Blaziken|84/100|[from] Recoil
+|
+|-heal|p2a: Blaziken|90/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1661932658
+|switch|p1a: Melmetal|Melmetal|13/100
+|-damage|p1a: Melmetal|7/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1661932660
+|move|p2a: Blaziken|Flare Blitz|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|-damage|p2a: Blaziken|87/100|[from] Recoil
+|
+|-heal|p2a: Blaziken|93/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1661932660
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|27
+|
+|t:|1661932662
+|move|p1a: Weavile|Ice Shard|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|74/100
+|move|p2a: Blaziken|Flare Blitz|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-damage|p2a: Blaziken|54/100|[from] Recoil
+|
+|win|Rediyu
+|raw|minimax_ai's rating: 1525 &rarr; <strong>1508</strong><br />(-17 for losing)
+|raw|Rediyu's rating: 1572 &rarr; <strong>1589</strong><br />(+17 for winning)
+|c|☆minimax_ai|gg

@@ -1,0 +1,283 @@
+|j|☆banana love
+|j|☆Trogba Trogba
+|player|p1|banana love|policeman-gen4|
+|player|p2|Trogba Trogba|lance|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|Tournament battle
+|clearpoke
+|poke|p1|Blissey, F|
+|poke|p1|Skarmory, M|
+|poke|p1|Sylveon, M|
+|poke|p1|Krookodile, M|
+|poke|p1|Starmie|
+|poke|p1|Roserade, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Blissey, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Jirachi|
+|poke|p2|Skarmory, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j|@estarossa
+|j| Thievullaby
+|
+|start
+|switch|p1a: Roserade|Roserade, F|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|j| ice cob
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Jirachi|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|97/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|26/100
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100|[from]move: Volt Switch
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|76/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-heal|p1a: Skarmory|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Skarmory
+|-damage|p1a: Skarmory|7/100
+|-unboost|p1a: Skarmory|spd|1
+|-damage|p2a: Aegislash|91/100|[from] item: Life Orb
+|move|p1a: Skarmory|Spikes|p2a: Aegislash
+|-sidestart|p2: Trogba Trogba|Spikes
+|
+|-heal|p1a: Skarmory|13/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| Datsplashtho
+|
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Aegislash|atk|1
+|move|p2a: Aegislash|Close Combat|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|14/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|-damage|p2a: Aegislash|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|j| roobydoop
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Krookodile|Knock Off|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100
+|-damage|p1a: Krookodile|0 fnt|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|faint|p1a: Krookodile
+|
+|upkeep
+|j| Pathooblers
+|
+|switch|p1a: Skarmory|Skarmory, M|13/100
+|turn|6
+|
+|switch|p2a: Aegislash|Aegislash, M|81/100
+|-damage|p2a: Aegislash|68/100|[from] Spikes
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|63/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-heal|p1a: Skarmory|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|j| the amuse
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Roserade|Roserade, F|100/100
+|move|p2a: Aegislash|Close Combat|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|60/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|-damage|p2a: Aegislash|58/100|[from] item: Life Orb
+|
+|-heal|p1a: Roserade|66/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|j| Yo Sunny
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Spikes
+|move|p1a: Roserade|Toxic Spikes|p2a: Blissey
+|-sidestart|p2: Trogba Trogba|move: Toxic Spikes
+|
+|-heal|p1a: Roserade|72/100|[from] item: Leftovers
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Skarmory|Skarmory, M|69/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|88/100|[from] Spikes
+|
+|-heal|p1a: Skarmory|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Jirachi|Trick|p1a: Skarmory
+|-activate|p2a: Jirachi|move: Trick|[of] p1a: Skarmory
+|-item|p1a: Skarmory|Choice Scarf|[from] move: Trick
+|-item|p2a: Jirachi|Leftovers|[from] move: Trick
+|move|p1a: Skarmory|Spikes|p2a: Jirachi
+|-sidestart|p2: Trogba Trogba|Spikes
+|
+|-heal|p2a: Jirachi|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Roserade|Roserade, F|72/100
+|move|p2a: Jirachi|Fire Punch|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-heal|p2a: Jirachi|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|100/100
+|turn|13
+|
+|move|p1a: Starmie|Scald|p2a: Jirachi
+|-damage|p2a: Jirachi|73/100
+|-status|p2a: Jirachi|brn
+|move|p2a: Jirachi|U-turn|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|75/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|-heal|p1a: Starmie|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Rotom|Defog|p1a: Blissey
+|-unboost|p1a: Blissey|evasion|1
+|-sideend|p2: Trogba Trogba|Spikes|[from] move: Defog|[of] p2a: Rotom
+|-sideend|p2: Trogba Trogba|Toxic Spikes|[from] move: Defog|[of] p2a: Rotom
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|90/100
+|
+|switch|p2a: Aegislash|Aegislash, M|58/100|[from]move: Volt Switch
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Skarmory|Skarmory, M|75/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Skarmory
+|-damage|p1a: Skarmory|46/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|-damage|p2a: Aegislash|48/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Skarmory|Iron Head|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|11/100
+|move|p2a: Aegislash|Shadow Ball|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: Aegislash|1/100|[from] item: Life Orb
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|turn|18
+|
+|move|p2a: Aegislash|Flash Cannon|p1a: Sylveon
+|-supereffective|p1a: Sylveon
+|-damage|p1a: Sylveon|6/100
+|-damage|p2a: Aegislash|0 fnt|[from] item: Life Orb
+|faint|p2a: Aegislash
+|move|p1a: Sylveon|Hyper Voice|p2: Aegislash|[notarget]
+|-fail|p1a: Sylveon
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|19
+|
+|move|p2a: Tyranitar|Crunch|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Blissey|Blissey, F|97/100
+|turn|20
+|
+|move|p2a: Tyranitar|Crunch|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|2/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|0 fnt|[from] Sandstorm
+|faint|p1a: Blissey
+|upkeep
+|
+|switch|p1a: Starmie|Starmie|82/100
+|turn|21
+|
+|move|p1a: Starmie|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|65/100
+|move|p2a: Tyranitar|Crunch|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|Trogba Trogba

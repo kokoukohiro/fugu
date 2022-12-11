@@ -1,0 +1,1711 @@
+|j|☆testing alt boi
+|j|☆Q114
+|player|p1|testing alt boi|209|1389
+|player|p2|Q114|1|1484
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Vikavolt, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Kommo-o, F|
+|poke|p1|Dracovish|
+|poke|p1|Corviknight, F|
+|poke|p1|Gengar, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Vikavolt|Bug Buzz|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|64/100
+|
+|-heal|p2a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testing alt boi)
+|
+|move|p1a: Vikavolt|Sticky Web|p2a: Ferrothorn
+|-sidestart|p2: Q114|move: Sticky Web
+|move|p2a: Ferrothorn|Leech Seed|p1a: Vikavolt|[miss]
+|-miss|p2a: Ferrothorn|p1a: Vikavolt
+|
+|-heal|p2a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Vikavolt|Bug Buzz|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|44/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Vikavolt
+|-start|p1a: Vikavolt|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|50/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|62/100|[silent]
+|upkeep
+|turn|4
+|
+|move|p1a: Vikavolt|Bug Buzz|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|28/100
+|-unboost|p2a: Ferrothorn|spd|1
+|move|p2a: Ferrothorn|Spikes|p1a: Vikavolt
+|-sidestart|p1: testing alt boi|Spikes
+|
+|-heal|p2a: Ferrothorn|34/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|46/100|[silent]
+|upkeep
+|turn|5
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Vikavolt|Bug Buzz|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|52/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|64/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|65/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|-activate|p2a: Clefable|move: Sticky Web
+|-unboost|p2a: Clefable|spe|1
+|move|p1a: Vikavolt|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|60/100
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p1a: Gengar|Gengar, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Gengar|88/100|[from] Spikes
+|
+|-heal|p2a: Clefable|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|testing alt boi has 120 seconds left.
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Gengar|Shadow Ball|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|72/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|move|p1a: Gengar|Sludge Wave|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|74/100
+|-damage|p1a: Gengar|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Toxapex|80/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|12/100
+|-damage|p1a: Gengar|69/100|[from] item: Life Orb
+|move|p2a: Toxapex|Scald|p1a: Gengar
+|-damage|p1a: Gengar|39/100
+|-start|p2a: Toxapex|Disable|Scald|[from] ability: Cursed Body|[of] p1a: Gengar
+|
+|-heal|p2a: Toxapex|18/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|64/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-activate|p2a: Tyranitar|move: Sticky Web
+|-unboost|p2a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|57/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p1a: Vikavolt|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|90/100
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Kommo-o|88/100|[from] Spikes
+|move|p2a: Tyranitar|Stone Edge|p1a: Kommo-o|[miss]
+|-miss|p2a: Tyranitar|p1a: Kommo-o
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|82/100|[from] Sandstorm
+|-heal|p1a: Kommo-o|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Toxapex|Toxapex, M|51/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|move|p1a: Kommo-o|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: Q114|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|82/100|[from] Sandstorm
+|-damage|p2a: Toxapex|45/100|[from] Sandstorm
+|-heal|p1a: Kommo-o|88/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|51/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p1a: Kommo-o|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|cant|p2a: Toxapex|move: Taunt|Recover
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|82/100|[from] Sandstorm
+|-damage|p2a: Toxapex|45/100|[from] Sandstorm
+|-heal|p1a: Kommo-o|88/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|51/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Kommo-o|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|21/100
+|move|p2a: Toxapex|Scald|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|80/100
+|
+|-weather|none
+|-heal|p1a: Kommo-o|86/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|27/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p1a: Gengar|Gengar, F|39/100
+|-damage|p1a: Gengar|27/100|[from] Spikes
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|16
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|57/100
+|switch|p2a: Tyranitar|Tyranitar, M|90/100
+|-damage|p2a: Tyranitar|77/100|[from] Stealth Rock
+|-activate|p2a: Tyranitar|move: Sticky Web
+|-unboost|p2a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|51/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|move|p1a: Vikavolt|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|66/100
+|
+|switch|p1a: Kommo-o|Kommo-o, F|86/100|[from]move: Volt Switch
+|-damage|p1a: Kommo-o|74/100|[from] Spikes
+|move|p2a: Tyranitar|Stone Edge|p1a: Kommo-o|[miss]
+|-miss|p2a: Tyranitar|p1a: Kommo-o
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|67/100|[from] Sandstorm
+|-heal|p1a: Kommo-o|74/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, F|88/100
+|-damage|p2a: Corviknight|76/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kommo-o|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|67/100|[from] Sandstorm
+|-heal|p1a: Kommo-o|74/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|testing alt boi has 90 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p1a: Corviknight|Pressure
+|switch|p2a: Toxapex|Toxapex, M|60/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|-damage|p2a: Toxapex|48/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|42/100|[from] Sandstorm
+|-heal|p2a: Toxapex|48/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|inactive|testing alt boi has 90 seconds left.
+|
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|75/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|98/100
+|
+|-weather|none
+|-heal|p1a: Corviknight|82/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Corviknight
+|-sidestart|p1: testing alt boi|move: Toxic Spikes
+|
+|-heal|p1a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Corviknight|Corviknight, F|76/100
+|-damage|p2a: Corviknight|64/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Gengar|Gengar, F|27/100
+|-damage|p1a: Gengar|15/100|[from] Spikes
+|-sideend|p1: testing alt boi|move: Toxic Spikes|[of] p1a: Gengar
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Gengar|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|17/100
+|-damage|p1a: Gengar|5/100|[from] item: Life Orb
+|
+|-heal|p2a: Toxapex|23/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, M|66/100
+|-activate|p2a: Tyranitar|move: Sticky Web
+|-unboost|p2a: Tyranitar|spe|1
+|-damage|p2a: Tyranitar|53/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Gengar|Sludge Wave|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|44/100
+|-damage|p1a: Gengar|0 fnt|[from] item: Life Orb
+|faint|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|74/100
+|-damage|p1a: Kommo-o|61/100|[from] Spikes
+|turn|29
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kommo-o|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|-damage|p1a: Kommo-o|45/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|38/100|[from] Sandstorm
+|-heal|p1a: Kommo-o|45/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|51/100
+|move|p2a: Corviknight|Defog|p1a: Vikavolt
+|-unboost|p1a: Vikavolt|evasion|1
+|-sideend|p1: testing alt boi|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Q114|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Q114|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|45/100|[from] Sandstorm
+|upkeep
+|turn|31
+|
+|switch|p2a: Tyranitar|Tyranitar, M|44/100
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|95/100
+|-singleturn|p1a: Vikavolt|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|89/100|[from] Sandstorm
+|upkeep
+|turn|32
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Tyranitar|Seismic Toss|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100
+|
+|-weather|none
+|-heal|p1a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Kommo-o|Kommo-o, F|45/100
+|switch|p2a: Toxapex|Toxapex, M|56/100
+|
+|-heal|p1a: Kommo-o|51/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|62/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|move|p1a: Kommo-o|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: Q114|move: Stealth Rock
+|move|p2a: Toxapex|Toxic Spikes|p1a: Kommo-o
+|-sidestart|p1: testing alt boi|move: Toxic Spikes
+|
+|-heal|p1a: Kommo-o|57/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|68/100|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|89/100
+|move|p2a: Toxapex|Scald|p1a: Vikavolt
+|-damage|p1a: Vikavolt|70/100
+|-status|p1a: Vikavolt|brn
+|
+|-heal|p2a: Toxapex|74/100|[from] item: Black Sludge
+|-damage|p1a: Vikavolt|64/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Vikavolt|Sticky Web|p2a: Seismitoad
+|-sidestart|p2: Q114|move: Sticky Web
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|57/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Vikavolt
+|-sidestart|p1: testing alt boi|move: Stealth Rock
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|100/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|
+|-damage|p1a: Vikavolt|94/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Seismitoad|Knock Off|p1a: Vikavolt
+|-damage|p1a: Vikavolt|74/100 brn
+|-enditem|p1a: Vikavolt|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Seismitoad
+|move|p1a: Vikavolt|Bug Buzz|p2a: Seismitoad
+|-damage|p2a: Seismitoad|44/100
+|
+|-heal|p2a: Seismitoad|50/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|68/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|65/100
+|-damage|p2a: Ferrothorn|59/100|[from] Stealth Rock
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|100/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|
+|-heal|p2a: Ferrothorn|65/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|94/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Vikavolt|Volt Switch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|88/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p1a: Vikavolt|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|57/100
+|
+|switch|p1a: Cinderace|Cinderace, F, shiny|100/100|[from]move: Volt Switch
+|move|p2a: Ferrothorn|Leech Seed|p1a: Cinderace
+|-start|p1a: Cinderace|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|63/100|[from] item: Leftovers
+|-damage|p1a: Cinderace|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|74/100|[silent]
+|upkeep
+|turn|42
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Cinderace|U-turn|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|80/100|[from] item: Leftovers
+|-damage|p1a: Cinderace|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|90/100|[silent]
+|upkeep
+|turn|43
+|
+|move|p1a: Cinderace|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|-damage|p1a: Cinderace|64/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|82/100|[from]move: U-turn
+|-damage|p1a: Corviknight|69/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|51/100
+|-enditem|p1a: Corviknight|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|80/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|86/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|99/100|[silent]
+|upkeep
+|turn|45
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|88/100 brn
+|-damage|p1a: Vikavolt|63/100 brn|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Vikavolt
+|-start|p1a: Vikavolt|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|51/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Vikavolt|45/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|95/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|move|p2a: Ferrothorn|Knock Off|p1a: Vikavolt
+|-damage|p1a: Vikavolt|80/100 brn
+|
+|-damage|p1a: Vikavolt|68/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Vikavolt|62/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Vikavolt|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|86/100
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|88/100|[from]move: Volt Switch
+|-damage|p1a: Corviknight|75/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|63/100
+|
+|-heal|p2a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|38/100
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|switch|p2a: Corviknight|Corviknight, F|62/100
+|-damage|p2a: Corviknight|49/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|88/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|50
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, F, shiny|64/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|99/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|51
+|inactive|testing alt boi has 120 seconds left.
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|33/100
+|move|p2a: Corviknight|Body Press|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|6/100
+|
+|upkeep
+|turn|52
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|64/100
+|
+|-heal|p2a: Toxapex|69/100|[from] item: Black Sludge
+|upkeep
+|turn|53
+|inactive|testing alt boi has 120 seconds left.
+|
+|move|p1a: Cinderace|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|63/100
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|62/100 brn|[from]move: U-turn
+|-damage|p1a: Vikavolt|37/100 brn|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Vikavolt
+|-damage|p1a: Vikavolt|16/100 brn
+|
+|-heal|p2a: Toxapex|69/100|[from] item: Black Sludge
+|-damage|p1a: Vikavolt|9/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|switch|p2a: Tyranitar|Tyranitar, M|44/100
+|-damage|p2a: Tyranitar|32/100|[from] Stealth Rock
+|-activate|p2a: Tyranitar|move: Sticky Web
+|-unboost|p2a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|59/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|53/100 brn|[from] Sandstorm
+|-damage|p1a: Vikavolt|47/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p1a: Vikavolt|Bug Buzz|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|41/100 brn|[from] Sandstorm
+|-damage|p1a: Vikavolt|35/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|98/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|-damage|p2a: Ferrothorn|92/100|[from] Stealth Rock
+|turn|56
+|
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|85/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|move|p2a: Ferrothorn|Leech Seed|p1a: Vikavolt
+|-start|p1a: Vikavolt|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vikavolt|79/100 brn|[from] Sandstorm
+|-heal|p2a: Ferrothorn|98/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|66/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|-damage|p1a: Vikavolt|60/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|88/100
+|-damage|p1a: Corviknight|75/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corviknight|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|58
+|
+|switch|p2a: Clefable|Clefable, F|72/100
+|-damage|p2a: Clefable|60/100|[from] Stealth Rock
+|-activate|p2a: Clefable|move: Sticky Web
+|-unboost|p2a: Clefable|spe|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|none
+|-heal|p2a: Clefable|66/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|88/100|[from] Leech Seed|[of] p2a: Clefable
+|-heal|p2a: Clefable|79/100|[silent]
+|upkeep
+|turn|59
+|inactive|testing alt boi has 120 seconds left.
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Clefable
+|-damage|p2a: Clefable|51/100
+|-damage|p1a: Corviknight|79/100|[from] Recoil
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|57/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|66/100|[from] Leech Seed|[of] p2a: Clefable
+|-heal|p2a: Clefable|70/100|[silent]
+|upkeep
+|turn|60
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, F, shiny|6/100
+|switch|p2a: Seismitoad|Seismitoad, M|50/100
+|-damage|p2a: Seismitoad|44/100|[from] Stealth Rock
+|-activate|p2a: Seismitoad|move: Sticky Web
+|-unboost|p2a: Seismitoad|spe|1
+|
+|-heal|p2a: Seismitoad|91/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Seismitoad|97/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|inactive|testing alt boi has 120 seconds left.
+|
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|73/100
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|60/100 brn|[from]move: U-turn
+|-damage|p1a: Vikavolt|35/100 brn|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Vikavolt
+|-damage|p1a: Vikavolt|7/100 brn
+|
+|-heal|p2a: Seismitoad|79/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|1/100 brn|[from] brn
+|upkeep
+|turn|62
+|
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|51/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|move|p2a: Seismitoad|Scald|p1a: Vikavolt
+|-damage|p1a: Vikavolt|24/100 brn
+|
+|-heal|p2a: Seismitoad|85/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|18/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|68/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|move|p2a: Seismitoad|Scald|p1a: Vikavolt
+|-damage|p1a: Vikavolt|42/100 brn
+|
+|-heal|p2a: Seismitoad|91/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|36/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|86/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|move|p2a: Seismitoad|Scald|p1a: Vikavolt
+|-damage|p1a: Vikavolt|60/100 brn
+|
+|-heal|p2a: Seismitoad|97/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|54/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p1a: Vikavolt|Bug Buzz|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|58/100
+|
+|-heal|p2a: Ferrothorn|64/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|47/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|move|p1a: Vikavolt|Bug Buzz|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|33/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Vikavolt
+|-start|p1a: Vikavolt|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|39/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|35/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|51/100|[silent]
+|-damage|p1a: Vikavolt|29/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|79/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|move|p2a: Ferrothorn|Knock Off|p1a: Vikavolt
+|-crit|p1a: Vikavolt
+|-damage|p1a: Vikavolt|55/100 brn
+|
+|-heal|p2a: Ferrothorn|57/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|42/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|70/100|[silent]
+|-damage|p1a: Vikavolt|36/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|86/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|move|p2a: Ferrothorn|Knock Off|p1a: Vikavolt
+|-damage|p1a: Vikavolt|70/100 brn
+|
+|-heal|p2a: Ferrothorn|76/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|58/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|88/100|[silent]
+|-damage|p1a: Vikavolt|52/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|66/100
+|-damage|p1a: Corviknight|54/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|43/100
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F|70/100
+|-damage|p2a: Clefable|57/100|[from] Stealth Rock
+|-activate|p2a: Clefable|move: Sticky Web
+|-unboost|p2a: Clefable|spe|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|93/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Clefable|64/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|inactive|testing alt boi has 120 seconds left.
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|70/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|switch|p2a: Corviknight|Corviknight, F|33/100
+|-damage|p2a: Corviknight|21/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|70/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|73
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|52/100 brn
+|-damage|p1a: Vikavolt|27/100 brn|[from] Stealth Rock
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-damage|p1a: Vikavolt|21/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|94/100
+|-damage|p2a: Ferrothorn|88/100|[from] Stealth Rock
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|71/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|65/100 brn|[from] brn
+|upkeep
+|turn|75
+|inactive|testing alt boi has 120 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|93/100
+|-damage|p1a: Corviknight|81/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|68/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|76
+|inactive|testing alt boi has 120 seconds left.
+|inactive|testing alt boi has 90 seconds left.
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Ferrothorn|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|88/100
+|
+|-damage|p1a: Corviknight|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|77
+|inactive|testing alt boi has 90 seconds left.
+|
+|switch|p1a: Kommo-o|Kommo-o, F|57/100
+|-damage|p1a: Kommo-o|51/100|[from] Stealth Rock
+|-status|p1a: Kommo-o|psn
+|switch|p2a: Clefable|Clefable, F|70/100
+|-damage|p2a: Clefable|57/100|[from] Stealth Rock
+|-activate|p2a: Clefable|move: Sticky Web
+|-unboost|p2a: Clefable|spe|1
+|
+|-heal|p1a: Kommo-o|57/100 psn|[from] item: Leftovers
+|-heal|p2a: Clefable|63/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|45/100 psn|[from] psn
+|upkeep
+|turn|78
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|65/100 brn
+|-damage|p1a: Vikavolt|40/100 brn|[from] Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|69/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|34/100 brn|[from] brn
+|upkeep
+|turn|79
+|
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|84/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|move|p2a: Clefable|Moonblast|p1a: Vikavolt
+|-damage|p1a: Vikavolt|48/100 brn
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|-damage|p1a: Vikavolt|42/100 brn|[from] brn
+|upkeep
+|turn|80
+|
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|92/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|move|p2a: Clefable|Moonblast|p1a: Vikavolt
+|-damage|p1a: Vikavolt|55/100 brn
+|
+|-damage|p1a: Vikavolt|49/100 brn|[from] brn
+|upkeep
+|turn|81
+|
+|move|p1a: Vikavolt|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|60/100
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|76/100|[from]move: Volt Switch
+|-damage|p1a: Corviknight|63/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Clefable|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|51/100
+|
+|-heal|p2a: Clefable|66/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|72/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|inactive|testing alt boi has 60 seconds left.
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Clefable
+|-damage|p2a: Clefable|42/100
+|-damage|p1a: Corviknight|91/100|[from] Recoil
+|move|p2a: Clefable|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|80/100
+|
+|-heal|p2a: Clefable|92/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|98/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|inactive|testing alt boi has 30 seconds left.
+|inactive|testing alt boi has 20 seconds left.
+|
+|switch|p1a: Dracovish|Dracovish, shiny|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|-status|p1a: Dracovish|psn
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|100/100|[from] item: Leftovers
+|-damage|p1a: Dracovish|76/100 psn|[from] psn
+|upkeep
+|turn|85
+|inactive|testing alt boi has 30 seconds left this turn.
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Clefable
+|-damage|p2a: Clefable|10/100
+|move|p2a: Clefable|Moonblast|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-heal|p2a: Clefable|60/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|66/100|[from] item: Leftovers
+|upkeep
+|inactive|testing alt boi has 30 seconds left this turn.
+|inactive|testing alt boi has 20 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, F, shiny|6/100
+|turn|86
+|inactive|testing alt boi has 30 seconds left this turn.
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|2/100
+|move|p2a: Clefable|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Clefable|8/100|[from] item: Leftovers
+|upkeep
+|inactive|testing alt boi has 30 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|80/100
+|-damage|p1a: Corviknight|67/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|87
+|inactive|testing alt boi has 30 seconds left this turn.
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Corviknight|Brave Bird|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|14/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|inactive|testing alt boi has 30 seconds left this turn.
+|
+|switch|p2a: Corviknight|Corviknight, F|70/100
+|-damage|p2a: Corviknight|57/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Corviknight|Brave Bird|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100
+|-damage|p1a: Corviknight|51/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Corviknight|47/100|[from] Recoil
+|
+|upkeep
+|turn|89
+|inactive|testing alt boi has 30 seconds left this turn.
+|inactive|testing alt boi has 20 seconds left.
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|96/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|97/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|90
+|inactive|testing alt boi has 25 seconds left this turn.
+|inactive|testing alt boi has 20 seconds left.
+|inactive|testing alt boi has 15 seconds left.
+|inactive|testing alt boi has 10 seconds left.
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|49/100 brn
+|-damage|p1a: Vikavolt|24/100 brn|[from] Stealth Rock
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-damage|p1a: Vikavolt|18/100 brn|[from] brn
+|upkeep
+|turn|91
+|inactive|testing alt boi has 15 seconds left this turn.
+|inactive|testing alt boi has 10 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Vikavolt|Roost|p1a: Vikavolt
+|-heal|p1a: Vikavolt|68/100 brn
+|-singleturn|p1a: Vikavolt|move: Roost
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|62/100 brn|[from] brn
+|upkeep
+|turn|92
+|inactive|testing alt boi has 15 seconds left this turn.
+|inactive|testing alt boi has 10 seconds left.
+|
+|move|p1a: Vikavolt|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|82/100
+|inactive|testing alt boi has 15 seconds left this turn.
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|97/100|[from]move: Volt Switch
+|-damage|p1a: Corviknight|84/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|74/100
+|
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|93
+|inactive|testing alt boi has 20 seconds left this turn.
+|inactive|testing alt boi has 15 seconds left.
+|inactive|testing alt boi has 10 seconds left.
+|
+|switch|p1a: Kommo-o|Kommo-o, F|45/100 psn
+|-damage|p1a: Kommo-o|38/100 psn|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Kommo-o
+|-sidestart|p1: testing alt boi|Spikes
+|
+|-heal|p1a: Kommo-o|45/100 psn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|32/100 psn|[from] psn
+|upkeep
+|turn|94
+|inactive|testing alt boi has 15 seconds left this turn.
+|inactive|testing alt boi has 10 seconds left.
+|
+|move|p1a: Kommo-o|Body Press|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|24/100
+|-damage|p1a: Kommo-o|20/100 psn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Kommo-o
+|-sidestart|p1: testing alt boi|Spikes
+|
+|-heal|p1a: Kommo-o|26/100 psn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|30/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|13/100 psn|[from] psn
+|upkeep
+|turn|95
+|inactive|testing alt boi has 15 seconds left this turn.
+|inactive|testing alt boi has 10 seconds left.
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Kommo-o|Body Press|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Kommo-o|20/100 psn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|7/100 psn|[from] psn
+|upkeep
+|turn|96
+|inactive|testing alt boi has 15 seconds left this turn.
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|move|p1a: Kommo-o|Body Press|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|76/100
+|
+|-heal|p1a: Kommo-o|13/100 psn|[from] item: Leftovers
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p1a: Kommo-o|1/100 psn|[from] psn
+|upkeep
+|turn|97
+|inactive|testing alt boi has 20 seconds left this turn.
+|inactive|testing alt boi has 15 seconds left.
+|inactive|testing alt boi has 10 seconds left.
+|inactive|testing alt boi has 5 seconds left.
+|
+|move|p1a: Kommo-o|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|53/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Kommo-o|7/100 psn|[from] item: Leftovers
+|-damage|p1a: Kommo-o|0 fnt|[from] psn
+|faint|p1a: Kommo-o
+|upkeep
+|inactive|testing alt boi has 10 seconds left this turn.
+|inactive|testing alt boi has 5 seconds left.
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|62/100 brn
+|-damage|p1a: Vikavolt|37/100 brn|[from] Stealth Rock
+|turn|98
+|inactive|testing alt boi has 10 seconds left this turn.
+|inactive|testing alt boi has 5 seconds left.
+|
+|move|p1a: Vikavolt|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|25/100
+|inactive|testing alt boi has 10 seconds left this turn.
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|74/100|[from]move: Volt Switch
+|-damage|p1a: Corviknight|61/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|75/100
+|
+|-heal|p2a: Toxapex|81/100|[from] item: Black Sludge
+|upkeep
+|turn|99
+|inactive|testing alt boi has 15 seconds left this turn.
+|inactive|testing alt boi has 10 seconds left.
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|37/100 brn
+|-damage|p1a: Vikavolt|12/100 brn|[from] Stealth Rock
+|switch|p2a: Corviknight|Corviknight, F|96/100
+|-damage|p2a: Corviknight|84/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-damage|p1a: Vikavolt|6/100 brn|[from] brn
+|upkeep
+|turn|100
+|inactive|testing alt boi has 15 seconds left this turn.
+|
+|move|p2a: Corviknight|Body Press|p1a: Vikavolt
+|-resisted|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|upkeep
+|inactive|testing alt boi has 20 seconds left this turn.
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|61/100
+|-damage|p1a: Corviknight|49/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|101
+|inactive|testing alt boi has 25 seconds left this turn.
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|99/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|102
+|inactive|testing alt boi has 30 seconds left this turn.
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|103
+|inactive|testing alt boi has 30 seconds left this turn.
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|104
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|74/100
+|
+|upkeep
+|turn|105
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|106
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|107
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|108
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|109
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|110
+|inactive|testing alt boi has 60 seconds left.
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Brave Bird|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|73/100
+|-damage|p1a: Corviknight|57/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Corviknight|54/100|[from] Recoil
+|
+|upkeep
+|turn|111
+|inactive|testing alt boi has 60 seconds left.
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|112
+|inactive|testing alt boi has 60 seconds left.
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-fail|p1a: Corviknight|move: Substitute
+|
+|upkeep
+|turn|113
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-fail|p1a: Corviknight|move: Substitute
+|
+|upkeep
+|turn|114
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-fail|p1a: Corviknight|move: Substitute
+|
+|upkeep
+|turn|115
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Brave Bird|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|63/100
+|-damage|p1a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Corviknight|80/100|[from] Recoil
+|
+|upkeep
+|turn|116
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Brave Bird|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|-damage|p1a: Corviknight|64/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Corviknight|60/100|[from] Recoil
+|
+|upkeep
+|turn|117
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|118
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-fail|p1a: Corviknight|move: Substitute
+|
+|upkeep
+|turn|119
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|120
+|
+|move|p2a: Corviknight|Defog|p1a: Corviknight
+|-sideend|p1: testing alt boi|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p1: testing alt boi|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p1: testing alt boi|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Q114|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Q114|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-fail|p1a: Corviknight|move: Substitute
+|
+|upkeep
+|turn|121
+|
+|move|p2a: Corviknight|Defog||[still]
+|-fail|p2a: Corviknight
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|122
+|
+|move|p2a: Corviknight|Defog||[still]
+|-fail|p2a: Corviknight
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-fail|p1a: Corviknight|move: Substitute
+|
+|upkeep
+|turn|123
+|
+|move|p2a: Corviknight|Defog||[still]
+|-fail|p2a: Corviknight
+|move|p1a: Corviknight|Brave Bird|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|90/100
+|-damage|p1a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Corviknight|80/100|[from] Recoil
+|
+|upkeep
+|turn|124
+|
+|move|p2a: Corviknight|Defog||[still]
+|-fail|p2a: Corviknight
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-fail|p1a: Corviknight|move: Substitute
+|
+|upkeep
+|turn|125
+|
+|move|p2a: Corviknight|Defog||[still]
+|-fail|p2a: Corviknight
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|126
+|
+|move|p2a: Corviknight|Defog||[still]
+|-fail|p2a: Corviknight
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-fail|p1a: Corviknight|move: Substitute
+|
+|upkeep
+|turn|127
+|
+|move|p2a: Corviknight|Defog||[still]
+|-fail|p2a: Corviknight
+|move|p1a: Corviknight|Brave Bird|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100
+|-damage|p1a: Corviknight|64/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Corviknight|60/100|[from] Recoil
+|
+|upkeep
+|turn|128
+|
+|move|p2a: Corviknight|Defog||[still]
+|-fail|p2a: Corviknight
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|129
+|
+|move|p2a: Corviknight|Defog||[still]
+|-fail|p2a: Corviknight
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|130
+|
+|move|p2a: Corviknight|Defog||[still]
+|-fail|p2a: Corviknight
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-fail|p1a: Corviknight|move: Substitute
+|
+|upkeep
+|turn|131
+|
+|move|p2a: Corviknight|Defog||[still]
+|-fail|p2a: Corviknight
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|132
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-fail|p1a: Corviknight|move: Substitute
+|
+|upkeep
+|turn|133
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|134
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|135
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|136
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Roost||[still]
+|-fail|p1a: Corviknight|heal
+|
+|upkeep
+|turn|137
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Brave Bird|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|68/100
+|-damage|p1a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Corviknight|80/100|[from] Recoil
+|
+|upkeep
+|turn|138
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|139
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|140
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|141
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|142
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|143
+|
+|move|p2a: Corviknight|Roost||[still]
+|-fail|p2a: Corviknight|heal
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-fail|p1a: Corviknight|move: Substitute
+|
+|upkeep
+|turn|144
+|
+|move|p2a: Corviknight|Roost||[still]
+|-fail|p2a: Corviknight|heal
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|145
+|-message|testing alt boi forfeited.
+|
+|win|Q114

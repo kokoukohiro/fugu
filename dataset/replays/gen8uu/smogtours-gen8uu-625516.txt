@@ -1,0 +1,600 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1652296769
+|gametype|singles
+|player|p1|pkmn cypher 2013|lyra|
+|player|p2|Moutemoute|#moutemoute|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Hippowdon, F|
+|poke|p1|Amoonguss, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Hydreigon, M|
+|poke|p2|Azelf|
+|poke|p2|Zarude|
+|poke|p2|Scizor, M|
+|poke|p2|Salamence, F|
+|poke|p2|Primarina, M|
+|poke|p2|Nidoqueen, F|
+|teampreview
+|c|☆Moutemoute|hf
+|c|☆pkmn cypher 2013|u2
+|inactive|pkmn cypher 2013 has 270 seconds left.
+|inactive|Moutemoute has 270 seconds left.
+|inactive|pkmn cypher 2013 has 240 seconds left.
+|inactive|Moutemoute has 240 seconds left.
+|
+|t:|1652296857
+|start
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|turn|1
+|
+|t:|1652296868
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Nidoqueen|Earth Power|p1a: Hippowdon
+|-damage|p1a: Hippowdon|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|67/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1652296893
+|move|p2a: Nidoqueen|Earth Power|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|1/100
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|58/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|pkmn cypher 2013 has 270 seconds left.
+|
+|t:|1652296914
+|switch|p2a: Primarina|Primarina, M|100/100
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|94/100|[from] Sandstorm
+|-damage|p2a: Primarina|94/100|[from] Sandstorm
+|-heal|p2a: Primarina|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|pkmn cypher 2013 has 270 seconds left.
+|
+|t:|1652296925
+|move|p1a: Keldeo|Flip Turn|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|93/100
+|
+|t:|1652296928
+|switch|p1a: Amoonguss|Amoonguss, F|100/100|[from]move: Flip Turn
+|move|p2a: Primarina|Calm Mind|p2a: Primarina
+|-boost|p2a: Primarina|spa|1
+|-boost|p2a: Primarina|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Primarina|87/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|94/100|[from] Sandstorm
+|-heal|p2a: Primarina|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1652296933
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Amoonguss|Spore|p2a: Scizor
+|-activate|p2a: Scizor|item: Safety Goggles|Spore
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1652296950
+|move|p2a: Scizor|Knock Off|p1a: Amoonguss
+|-damage|p1a: Amoonguss|71/100
+|-damage|p2a: Scizor|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|-enditem|p1a: Amoonguss|Rocky Helmet|[from] move: Knock Off|[of] p2a: Scizor
+|move|p1a: Amoonguss|Foul Play|p2a: Scizor
+|-damage|p2a: Scizor|53/100
+|
+|upkeep
+|turn|7
+|
+|t:|1652296959
+|switch|p1a: Keldeo|Keldeo-Resolute|94/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100/100
+|-singleturn|p2a: Scizor|move: Roost
+|
+|upkeep
+|turn|8
+|
+|t:|1652296971
+|move|p1a: Keldeo|Secret Sword|p2a: Scizor
+|-damage|p2a: Scizor|36/100
+|move|p2a: Scizor|Knock Off|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|73/100
+|-ability|p1a: Keldeo|Justified|boost
+|-boost|p1a: Keldeo|atk|1
+|-enditem|p1a: Keldeo|Choice Specs|[from] move: Knock Off|[of] p2a: Scizor
+|
+|upkeep
+|turn|9
+|
+|t:|1652296984
+|switch|p2a: Primarina|Primarina, M|93/100
+|move|p1a: Keldeo|Flip Turn|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|80/100
+|
+|t:|1652296986
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100|[from]move: Flip Turn
+|
+|-heal|p2a: Primarina|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1652296997
+|switch|p2a: Zarude|Zarude|100/100
+|move|p1a: Thundurus|Knock Off|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|90/100
+|-enditem|p2a: Zarude|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Thundurus
+|
+|upkeep
+|turn|11
+|inactive|pkmn cypher 2013 has 270 seconds left.
+|
+|t:|1652297052
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Zarude|Darkest Lariat|p1a: Amoonguss
+|-damage|p1a: Amoonguss|71/100
+|
+|upkeep
+|turn|12
+|inactive|pkmn cypher 2013 has 240 seconds left.
+|
+|t:|1652297068
+|move|p2a: Zarude|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|53/100
+|
+|t:|1652297077
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100|[from]move: U-turn
+|move|p1a: Amoonguss|Foul Play|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|83/100
+|
+|upkeep
+|turn|13
+|inactive|pkmn cypher 2013 has 240 seconds left.
+|inactive|pkmn cypher 2013 has 210 seconds left.
+|inactive|pkmn cypher 2013 has 180 seconds left.
+|
+|t:|1652297161
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Nidoqueen|Fire Blast|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|59/100
+|
+|upkeep
+|turn|14
+|inactive|pkmn cypher 2013 has 180 seconds left.
+|
+|t:|1652297181
+|move|p1a: Hydreigon|Dark Pulse|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|37/100
+|move|p2a: Nidoqueen|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: pkmn cypher 2013|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1652297202
+|switch|p2a: Zarude|Zarude|90/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|71/100
+|
+|upkeep
+|turn|16
+|inactive|pkmn cypher 2013 has 150 seconds left.
+|
+|t:|1652297226
+|switch|p1a: Keldeo|Keldeo-Resolute|73/100
+|-damage|p1a: Keldeo|67/100|[from] Stealth Rock
+|move|p2a: Zarude|U-turn|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|54/100
+|
+|t:|1652297229
+|switch|p2a: Azelf|Azelf|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|17
+|inactive|pkmn cypher 2013 has 150 seconds left.
+|
+|t:|1652297242
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Azelf|Psychic|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|74/100
+|
+|-heal|p1a: Aegislash|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|pkmn cypher 2013 has 150 seconds left.
+|
+|t:|1652297259
+|move|p2a: Azelf|U-turn|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|77/100
+|
+|t:|1652297260
+|switch|p2a: Salamence|Salamence, F|100/100|[from]move: U-turn
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Aegislash|atk|1
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Salamence
+|-damage|p2a: Salamence|46/100
+|
+|-heal|p1a: Aegislash|83/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|pkmn cypher 2013 has 150 seconds left.
+|
+|t:|1652297299
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Salamence|Roost|p2a: Salamence
+|-heal|p2a: Salamence|96/100
+|-singleturn|p2a: Salamence|move: Roost
+|
+|-heal|p1a: Aegislash|90/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1652297306
+|move|p2a: Salamence|Flamethrower|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|54/100
+|move|p1a: Aegislash|Toxic|p2a: Salamence
+|-status|p2a: Salamence|tox
+|
+|-heal|p1a: Aegislash|61/100|[from] item: Leftovers
+|-damage|p2a: Salamence|90/100 tox|[from] psn
+|upkeep
+|turn|21
+|inactive|pkmn cypher 2013 has 120 seconds left.
+|
+|t:|1652297327
+|move|p2a: Salamence|Flamethrower|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|24/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Salamence
+|-damage|p2a: Salamence|36/100 tox
+|
+|-heal|p1a: Aegislash|30/100|[from] item: Leftovers
+|-damage|p2a: Salamence|24/100 tox|[from] psn
+|upkeep
+|turn|22
+|inactive|pkmn cypher 2013 has 120 seconds left.
+|
+|t:|1652297343
+|switch|p2a: Zarude|Zarude|71/100
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield||[still]
+|-fail|p1a: Aegislash
+|
+|-heal|p1a: Aegislash|36/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1652297351
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Zarude|Darkest Lariat|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Zarude|atk|1
+|
+|-heal|p1a: Aegislash|42/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|pkmn cypher 2013 has 120 seconds left.
+|
+|t:|1652297377
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Zarude|Darkest Lariat|p1a: Thundurus
+|-damage|p1a: Thundurus|54/100
+|
+|upkeep
+|turn|25
+|
+|t:|1652297396
+|move|p2a: Zarude|Darkest Lariat|p1a: Thundurus
+|-damage|p1a: Thundurus|12/100
+|move|p1a: Thundurus|Defog|p2a: Zarude
+|-unboost|p2a: Zarude|evasion|1
+|-sideend|p1: pkmn cypher 2013|Stealth Rock|[from] move: Defog|[of] p1a: Thundurus
+|
+|upkeep
+|turn|26
+|
+|t:|1652297409
+|switch|p1a: Keldeo|Keldeo-Resolute|54/100
+|move|p2a: Zarude|U-turn|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|46/100
+|
+|t:|1652297413
+|switch|p2a: Azelf|Azelf|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|27
+|inactive|pkmn cypher 2013 has 120 seconds left.
+|
+|t:|1652297440
+|switch|p1a: Hydreigon|Hydreigon, M|59/100
+|move|p2a: Azelf|Psychic|p1a: Hydreigon
+|-immune|p1a: Hydreigon
+|
+|upkeep
+|turn|28
+|
+|t:|1652297447
+|switch|p2a: Primarina|Primarina, M|86/100
+|move|p1a: Hydreigon|U-turn|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|79/100
+|
+|t:|1652297451
+|switch|p1a: Thundurus|Thundurus-Therian, M|12/100|[from]move: U-turn
+|
+|-heal|p2a: Primarina|85/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1652297458
+|switch|p2a: Zarude|Zarude|71/100
+|move|p1a: Thundurus|Volt Switch|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|50/100
+|
+|t:|1652297461
+|switch|p1a: Hydreigon|Hydreigon, M|59/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|30
+|
+|t:|1652297467
+|switch|p2a: Primarina|Primarina, M|85/100
+|move|p1a: Hydreigon|U-turn|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|76/100
+|
+|t:|1652297471
+|switch|p1a: Thundurus|Thundurus-Therian, M|12/100|[from]move: U-turn
+|
+|-heal|p2a: Primarina|82/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1652297483
+|move|p1a: Thundurus|Volt Switch|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|34/100
+|inactive|pkmn cypher 2013 has 150 seconds left.
+|
+|t:|1652297489
+|switch|p1a: Amoonguss|Amoonguss, F|86/100|[from]move: Volt Switch
+|move|p2a: Primarina|Moonblast|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|69/100
+|
+|-heal|p2a: Primarina|40/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|pkmn cypher 2013 has 150 seconds left.
+|
+|t:|1652297517
+|move|p2a: Primarina|Rest|p2a: Primarina
+|-status|p2a: Primarina|slp|[from] move: Rest
+|-heal|p2a: Primarina|100/100 slp|[silent]
+|move|p1a: Amoonguss|Seed Bomb|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|20/100 slp
+|
+|-heal|p2a: Primarina|26/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1652297541
+|switch|p2a: Salamence|Salamence, F|24/100 tox
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|switch|p1a: Keldeo|Keldeo-Resolute|46/100
+|
+|-damage|p2a: Salamence|18/100 tox|[from] psn
+|upkeep
+|turn|34
+|inactive|pkmn cypher 2013 has 120 seconds left.
+|
+|t:|1652297560
+|move|p1a: Keldeo|Surf|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+|
+|t:|1652297565
+|switch|p2a: Azelf|Azelf|100/100
+|turn|35
+|
+|t:|1652297576
+|move|p2a: Azelf|U-turn|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|35/100
+|
+|t:|1652297581
+|switch|p2a: Nidoqueen|Nidoqueen, F|37/100|[from]move: U-turn
+|move|p1a: Keldeo|Surf|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|upkeep
+|
+|t:|1652297583
+|switch|p2a: Azelf|Azelf|100/100
+|turn|36
+|inactive|pkmn cypher 2013 has 120 seconds left.
+|inactive|Moutemoute has 270 seconds left.
+|inactive|pkmn cypher 2013 has 90 seconds left.
+|inactive|pkmn cypher 2013 has 60 seconds left.
+|
+|t:|1652297678
+|move|p2a: Azelf|Psychic|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|t:|1652297680
+|switch|p1a: Hydreigon|Hydreigon, M|59/100
+|turn|37
+|
+|t:|1652297694
+|switch|p2a: Zarude|Zarude|50/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|29/100
+|
+|upkeep
+|turn|38
+|inactive|pkmn cypher 2013 has 60 seconds left.
+|
+|t:|1652297721
+|switch|p1a: Hippowdon|Hippowdon, F|58/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Zarude|U-turn|p1a: Hippowdon
+|-damage|p1a: Hippowdon|41/100
+|
+|t:|1652297724
+|switch|p2a: Scizor|Scizor, M|36/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|48/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1652297727
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|86/100
+|-singleturn|p2a: Scizor|move: Roost
+|move|p1a: Hippowdon|Stealth Rock|p2a: Scizor
+|-sidestart|p2: Moutemoute|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|54/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|inactive|Moutemoute has 270 seconds left.
+|
+|t:|1652297742
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|41
+|
+|t:|1652297748
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amoonguss|94/100|[from] Sandstorm
+|upkeep
+|turn|42
+|inactive|Moutemoute has 270 seconds left.
+|c|☆Moutemoute|think that's a L
+|inactive|Moutemoute has 240 seconds left.
+|c|☆Moutemoute|that crit on prim was game i think
+|inactive|Moutemoute has 210 seconds left.
+|
+|t:|1652297844
+|move|p2a: Scizor|Bullet Punch|p1a: Amoonguss
+|-damage|p1a: Amoonguss|27/100
+|move|p1a: Amoonguss|Foul Play|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|none
+|upkeep
+|c|☆Moutemoute|yeah bad roll
+|inactive|Moutemoute has 180 seconds left.
+|c|☆Moutemoute|sucks
+|
+|t:|1652297885
+|switch|p2a: Zarude|Zarude|29/100
+|-damage|p2a: Zarude|17/100|[from] Stealth Rock
+|turn|43
+|inactive|pkmn cypher 2013 has 90 seconds left.
+|
+|t:|1652297897
+|switch|p1a: Thundurus|Thundurus-Therian, M|12/100
+|move|p2a: Zarude|Darkest Lariat|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1652297899
+|switch|p1a: Hydreigon|Hydreigon, M|59/100
+|turn|44
+|inactive|pkmn cypher 2013 has 90 seconds left.
+|
+|t:|1652297918
+|switch|p2a: Azelf|Azelf|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|upkeep
+|c|☆pkmn cypher 2013|ggs
+|inactive|Moutemoute has 180 seconds left.
+|
+|t:|1652297929
+|switch|p2a: Primarina|Primarina, M|26/100 slp
+|-damage|p2a: Primarina|13/100 slp|[from] Stealth Rock
+|turn|45
+|inactive|Moutemoute has 180 seconds left.
+|c|☆Moutemoute|meh, ggs
+|-message|Moutemoute forfeited.
+|
+|win|pkmn cypher 2013

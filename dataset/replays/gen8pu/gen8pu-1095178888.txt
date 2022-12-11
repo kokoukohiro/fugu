@@ -1,0 +1,460 @@
+|j|☆karrakarra
+|j|☆BossManSwag
+|player|p1|karrakarra|saturn|1505
+|player|p2|BossManSwag|101|1320
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Vespiquen, F|
+|poke|p1|Mawile, F|
+|poke|p1|Whiscash, M|
+|poke|p1|Raichu, M|
+|poke|p1|Liepard, F|
+|poke|p1|Glaceon, F|
+|poke|p2|Mawile, F|
+|poke|p2|Silvally-*|
+|poke|p2|Type: Null|
+|poke|p2|Manectric, F|
+|poke|p2|Gloom, F|
+|poke|p2|Hakamo-o, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BossManSwag)
+|inactive|karrakarra has 120 seconds left.
+|
+|start
+|switch|p1a: Whiscash|Whiscash, M|100/100
+|switch|p2a: Mawile|Mawile, F|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-immune|p1a: Whiscash|[from] ability: Oblivious
+|turn|1
+|
+|move|p1a: Whiscash|Earth Power|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|5/100
+|-unboost|p2a: Mawile|spd|1
+|move|p2a: Mawile|Stealth Rock|p1a: Whiscash
+|-sidestart|p1: karrakarra|move: Stealth Rock
+|
+|-heal|p2a: Mawile|11/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Gloom|Gloom, F|100/100
+|move|p1a: Whiscash|Scald|p2a: Gloom
+|-resisted|p2a: Gloom
+|-damage|p2a: Gloom|94/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Vespiquen|Vespiquen, F|100/100
+|-ability|p1a: Vespiquen|Unnerve|p2: BossManSwag
+|move|p2a: Gloom|Toxic|p1a: Vespiquen
+|-status|p1a: Vespiquen|tox
+|
+|-damage|p1a: Vespiquen|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Mawile|Mawile, F|11/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Vespiquen|atk|1
+|move|p1a: Vespiquen|Defog|p2a: Mawile
+|-unboost|p2a: Mawile|evasion|1
+|-sideend|p1: karrakarra|Stealth Rock|[from] move: Defog|[of] p1a: Vespiquen
+|
+|-heal|p2a: Mawile|18/100|[from] item: Leftovers
+|-damage|p1a: Vespiquen|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Manectric|Manectric, F|100/100
+|move|p1a: Vespiquen|U-turn|p2a: Manectric
+|-damage|p2a: Manectric|77/100
+|
+|switch|p1a: Whiscash|Whiscash, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Gloom|Gloom, F|94/100
+|move|p1a: Whiscash|Earth Power|p2a: Gloom
+|-damage|p2a: Gloom|79/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Mawile|Mawile, F|18/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-immune|p1a: Whiscash|[from] ability: Oblivious
+|move|p1a: Whiscash|Protect||[still]
+|-fail|p1a: Whiscash
+|
+|-heal|p2a: Mawile|24/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Gloom|Gloom, F|79/100
+|move|p1a: Whiscash|Scald|p2a: Gloom
+|-resisted|p2a: Gloom
+|-damage|p2a: Gloom|73/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Vespiquen|Vespiquen, F|82/100 tox
+|-ability|p1a: Vespiquen|Unnerve|p2: BossManSwag
+|move|p2a: Gloom|Giga Drain|p1a: Vespiquen
+|-resisted|p1a: Vespiquen
+|-damage|p1a: Vespiquen|77/100 tox
+|-heal|p2a: Gloom|75/100|[from] drain|[of] p1a: Vespiquen
+|
+|-damage|p1a: Vespiquen|71/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Mawile|Mawile, F|24/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Vespiquen|atk|1
+|move|p1a: Vespiquen|U-turn|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|21/100
+|
+|switch|p1a: Mawile|Mawile, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Mawile|27/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Silvally|Silvally-Ground|100/100
+|move|p1a: Mawile|Iron Head|p2a: Silvally
+|-damage|p2a: Silvally|45/100
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Whiscash|Whiscash, M|100/100
+|move|p2a: Silvally|Parting Shot|p1a: Whiscash
+|-unboost|p1a: Whiscash|atk|1
+|-unboost|p1a: Whiscash|spa|1
+|
+|switch|p2a: Hakamo-o|Hakamo-o, M|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Vespiquen|Vespiquen, F|71/100 tox
+|-ability|p1a: Vespiquen|Unnerve|p2: BossManSwag
+|move|p2a: Hakamo-o|Dragon Dance|p2a: Hakamo-o
+|-boost|p2a: Hakamo-o|atk|1
+|-boost|p2a: Hakamo-o|spe|1
+|
+|-damage|p1a: Vespiquen|65/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Hakamo-o|Dragon Claw|p1a: Vespiquen
+|-damage|p1a: Vespiquen|31/100 tox
+|move|p1a: Vespiquen|U-turn|p2a: Hakamo-o
+|-resisted|p2a: Hakamo-o
+|-damage|p2a: Hakamo-o|91/100
+|inactive|karrakarra has 120 seconds left.
+|
+|switch|p1a: Whiscash|Whiscash, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Hakamo-o|Dragon Dance|p2a: Hakamo-o
+|-boost|p2a: Hakamo-o|atk|1
+|-boost|p2a: Hakamo-o|spe|1
+|move|p1a: Whiscash|Toxic|p2a: Hakamo-o
+|-status|p2a: Hakamo-o|tox
+|
+|-damage|p2a: Hakamo-o|85/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Whiscash|Protect|p1a: Whiscash
+|-singleturn|p1a: Whiscash|Protect
+|move|p2a: Hakamo-o|Drain Punch|p1a: Whiscash
+|-activate|p1a: Whiscash|move: Protect
+|
+|-damage|p2a: Hakamo-o|73/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Hakamo-o|Drain Punch|p1a: Whiscash
+|-damage|p1a: Whiscash|56/100
+|-heal|p2a: Hakamo-o|100/100 tox|[from] drain|[of] p1a: Whiscash
+|move|p1a: Whiscash|Earth Power|p2a: Hakamo-o
+|-damage|p2a: Hakamo-o|68/100 tox
+|
+|-heal|p1a: Whiscash|62/100|[from] item: Leftovers
+|-damage|p2a: Hakamo-o|50/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Whiscash|Protect|p1a: Whiscash
+|-singleturn|p1a: Whiscash|Protect
+|move|p2a: Hakamo-o|Dragon Dance|p2a: Hakamo-o
+|-boost|p2a: Hakamo-o|atk|1
+|-boost|p2a: Hakamo-o|spe|1
+|
+|-heal|p1a: Whiscash|68/100|[from] item: Leftovers
+|-damage|p2a: Hakamo-o|26/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Vespiquen|Vespiquen, F|31/100 tox
+|-ability|p1a: Vespiquen|Unnerve|p2: BossManSwag
+|move|p2a: Hakamo-o|Drain Punch|p1a: Vespiquen
+|-resisted|p1a: Vespiquen
+|-damage|p1a: Vespiquen|17/100 tox
+|-heal|p2a: Hakamo-o|36/100 tox|[from] drain|[of] p1a: Vespiquen
+|
+|-damage|p2a: Hakamo-o|6/100 tox|[from] psn
+|-damage|p1a: Vespiquen|11/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Hakamo-o|Dragon Claw|p1a: Vespiquen
+|-damage|p1a: Vespiquen|0 fnt
+|faint|p1a: Vespiquen
+|
+|-damage|p2a: Hakamo-o|0 fnt|[from] psn
+|faint|p2a: Hakamo-o
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Ground|45/100
+|switch|p1a: Raichu|Raichu, M, shiny|100/100
+|turn|21
+|
+|switch|p2a: Gloom|Gloom, F|75/100
+|move|p1a: Raichu|Surf|p2a: Gloom
+|-resisted|p2a: Gloom
+|-damage|p2a: Gloom|66/100
+|-damage|p1a: Raichu|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Glaceon|Glaceon, F|100/100
+|move|p2a: Gloom|Strength Sap|p1a: Glaceon
+|-unboost|p1a: Glaceon|atk|1
+|-heal|p2a: Gloom|99/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Glaceon|Freeze-Dry|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|61/100
+|move|p2a: Gloom|Toxic|p1a: Glaceon
+|-status|p1a: Glaceon|tox
+|
+|-damage|p1a: Glaceon|94/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p1a: Liepard|Liepard, F|100/100
+|switch|p2a: Type: Null|Type: Null|100/100
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Liepard|Knock Off|p2a: Type: Null
+|-damage|p2a: Type: Null|73/100
+|-enditem|p2a: Type: Null|Eviolite|[from] move: Knock Off|[of] p1a: Liepard
+|move|p2a: Type: Null|Facade|p1a: Liepard
+|-damage|p1a: Liepard|47/100
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Liepard|U-turn|p2a: Type: Null
+|-damage|p2a: Type: Null|55/100
+|
+|switch|p1a: Mawile|Mawile, F|100/100|[from]move: U-turn
+|move|p2a: Type: Null|U-turn|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|94/100
+|
+|switch|p2a: Silvally|Silvally-Ground|45/100|[from]move: U-turn
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Whiscash|Whiscash, M|68/100
+|move|p2a: Silvally|Multi-Attack|p1a: Whiscash
+|-damage|p1a: Whiscash|37/100
+|
+|-heal|p1a: Whiscash|44/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Gloom|Gloom, F|61/100
+|move|p1a: Whiscash|Scald|p2a: Gloom
+|-resisted|p2a: Gloom
+|-damage|p2a: Gloom|55/100
+|-status|p2a: Gloom|brn
+|
+|-heal|p1a: Whiscash|50/100|[from] item: Leftovers
+|-damage|p2a: Gloom|48/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Whiscash|Protect|p1a: Whiscash
+|-singleturn|p1a: Whiscash|Protect
+|move|p2a: Gloom|Strength Sap|p1a: Whiscash
+|-activate|p1a: Whiscash|move: Protect
+|
+|-heal|p1a: Whiscash|56/100|[from] item: Leftovers
+|-damage|p2a: Gloom|42/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Liepard|Liepard, F|47/100
+|move|p2a: Gloom|Strength Sap|p1a: Liepard
+|-unboost|p1a: Liepard|atk|1
+|-heal|p2a: Gloom|100/100 brn
+|
+|-damage|p2a: Gloom|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Mawile|Mawile, F|27/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Liepard|atk|1
+|move|p1a: Liepard|U-turn|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|25/100
+|
+|switch|p1a: Mawile|Mawile, F|94/100|[from]move: U-turn
+|
+|-heal|p2a: Mawile|31/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Mawile|Iron Head|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|upkeep
+|
+|switch|p2a: Manectric|Manectric, F|77/100
+|turn|33
+|
+|switch|p1a: Glaceon|Glaceon, F|94/100 tox
+|move|p2a: Manectric|Switcheroo|p1a: Glaceon
+|-activate|p2a: Manectric|move: Trick|[of] p1a: Glaceon
+|-item|p1a: Glaceon|Choice Specs|[from] move: Switcheroo
+|-item|p2a: Manectric|Leftovers|[from] move: Switcheroo
+|
+|-heal|p2a: Manectric|83/100|[from] item: Leftovers
+|-damage|p1a: Glaceon|88/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p2a: Manectric|Volt Switch|p1a: Glaceon
+|-damage|p1a: Glaceon|62/100 tox
+|
+|switch|p2a: Silvally|Silvally-Ground|45/100|[from]move: Volt Switch
+|move|p1a: Glaceon|Freeze-Dry|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-crit|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-damage|p1a: Glaceon|50/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Type: Null|Type: Null|55/100
+|turn|35
+|
+|switch|p1a: Mawile|Mawile, F|94/100
+|move|p2a: Type: Null|Facade|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|76/100
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Mawile|Play Rough|p2a: Type: Null
+|-damage|p2a: Type: Null|0 fnt
+|faint|p2a: Type: Null
+|
+|upkeep
+|
+|switch|p2a: Manectric|Manectric, F|83/100
+|turn|37
+|
+|switch|p1a: Whiscash|Whiscash, M|56/100
+|move|p2a: Manectric|Thunderbolt|p1a: Whiscash
+|-immune|p1a: Whiscash
+|
+|-heal|p2a: Manectric|89/100|[from] item: Leftovers
+|-heal|p1a: Whiscash|62/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: Gloom|Gloom, F|94/100 brn
+|move|p1a: Whiscash|Earth Power|p2a: Gloom
+|-damage|p2a: Gloom|78/100 brn
+|
+|-heal|p1a: Whiscash|68/100|[from] item: Leftovers
+|-damage|p2a: Gloom|72/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p1a: Glaceon|Glaceon, F|50/100 tox
+|move|p2a: Gloom|Giga Drain|p1a: Glaceon
+|-damage|p1a: Glaceon|32/100 tox
+|-heal|p2a: Gloom|81/100 brn|[from] drain|[of] p1a: Glaceon
+|
+|-damage|p1a: Glaceon|26/100 tox|[from] psn
+|-damage|p2a: Gloom|75/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p1a: Glaceon|Freeze-Dry|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|16/100 brn
+|move|p2a: Gloom|Giga Drain|p1a: Glaceon
+|-damage|p1a: Glaceon|8/100 tox
+|-heal|p2a: Gloom|25/100 brn|[from] drain|[of] p1a: Glaceon
+|
+|-damage|p1a: Glaceon|0 fnt|[from] psn
+|faint|p1a: Glaceon
+|-damage|p2a: Gloom|19/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Liepard|Liepard, F|47/100
+|turn|41
+|
+|move|p1a: Liepard|Knock Off|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|-enditem|p2a: Gloom|Eviolite|[from] move: Knock Off|[of] p1a: Liepard
+|faint|p2a: Gloom
+|
+|upkeep
+|
+|switch|p2a: Manectric|Manectric, F|89/100
+|turn|42
+|-message|BossManSwag forfeited.
+|
+|win|karrakarra
+|l|☆BossManSwag
+|raw|karrakarra's rating: 1505 &rarr; <strong>1516</strong><br />(+11 for winning)
+|raw|BossManSwag's rating: 1320 &rarr; <strong>1310</strong><br />(-10 for losing)

@@ -1,0 +1,148 @@
+|j|☆tony pizza
+|j|☆JooshP
+|t:|1661106197
+|gametype|singles
+|player|p1|tony pizza|skier|1560
+|player|p2|JooshP|red|1601
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Kartana|
+|poke|p1|Magnezone|
+|poke|p1|Weavile, M|
+|poke|p1|Blaziken, F|
+|poke|p1|Lycanroc-Dusk, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Porygon-Z|
+|poke|p2|Dragonite, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tapu Fini|
+|poke|p2|Volcarona, M|
+|poke|p2|Ferrothorn, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JooshP)
+|
+|t:|1661106224
+|start
+|switch|p1a: Lycanroc|Lycanroc-Dusk, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Lycanroc|atk|1
+|turn|1
+|
+|t:|1661106233
+|move|p1a: Lycanroc|Stealth Rock|p2a: Landorus
+|-sidestart|p2: JooshP|move: Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-enditem|p1a: Lycanroc|Focus Sash
+|-damage|p1a: Lycanroc|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1661106239
+|switch|p1a: Weavile|Weavile, M|100/100
+|move|p2a: Landorus|Knock Off|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|73/100
+|-enditem|p1a: Weavile|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Landorus
+|-enditem|p2a: Landorus|Leftovers|[silent]|[from] ability: Pickpocket|[of] p2a: Landorus
+|-item|p1a: Weavile|Leftovers|[from] ability: Pickpocket|[of] p2a: Landorus
+|
+|-heal|p1a: Weavile|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1661106253
+|switch|p1a: Kartana|Kartana|100/100
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-damage|p2a: Tapu Fini|88/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|
+|-heal|p2a: Tapu Fini|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1661106260
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kartana|atk|1
+|-enditem|p1a: Kartana|Adrenaline Orb
+|-boost|p1a: Kartana|spe|1|[from] item: Adrenaline Orb
+|move|p1a: Kartana|Swords Dance|p1a: Kartana
+|-boost|p1a: Kartana|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1661106266
+|move|p1a: Kartana|Leaf Blade|p2a: Landorus
+|-damage|p2a: Landorus|23/100
+|move|p2a: Landorus|Earthquake|p1a: Kartana
+|-damage|p1a: Kartana|53/100
+|
+|upkeep
+|turn|6
+|
+|t:|1661106279
+|move|p1a: Kartana|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|upkeep
+|
+|t:|1661106297
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1661106300
+|move|p1a: Kartana|Sacred Sword|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Kartana|40/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1661106305
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1661106310
+|move|p2a: Dragonite|Extreme Speed|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|14/100
+|move|p1a: Kartana|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-enditem|p2a: Dragonite|Choice Band|[from] move: Knock Off|[of] p1a: Kartana
+|faint|p2a: Dragonite
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|upkeep
+|-message|JooshP forfeited.
+|
+|win|tony pizza
+|raw|tony pizza's rating: 1560 &rarr; <strong>1582</strong><br />(+22 for winning)
+|raw|JooshP's rating: 1601 &rarr; <strong>1579</strong><br />(-22 for losing)
+|l|☆JooshP

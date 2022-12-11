@@ -1,0 +1,364 @@
+|j|☆Chunkomucho
+|j|☆SawFan666555444
+|player|p1|Chunkomucho|erika|
+|player|p2|SawFan666555444|bellelba|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Dracovish|
+|poke|p1|Eternatus|
+|poke|p1|Corviknight, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Tyranitar, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Eternatus|
+|poke|p2|Dragapult, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chunkomucho)
+|
+|start
+|switch|p1a: Eternatus|Eternatus|100/100
+|switch|p2a: Kaiju|Tyranitar, M, shiny|100/100
+|-ability|p1a: Eternatus|Pressure
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Kaiju
+|turn|1
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|-start|p2a: Kaiju|Dynamax
+|-heal|p2a: Kaiju|100/100|[silent]
+|move|p2a: Kaiju|Max Darkness|p1a: Corviknight
+|-damage|p1a: Corviknight|59/100
+|-unboost|p1a: Corviknight|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Kaiju|Max Flare|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|3
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Kaiju
+|-supereffective|p2a: Kaiju
+|-damage|p2a: Kaiju|31/100
+|move|p2a: Kaiju|Max Darkness|p1a: Dracovish
+|-damage|p1a: Dracovish|36/100
+|-unboost|p1a: Dracovish|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kaiju|34/100|[from] item: Leftovers
+|-end|p2a: Kaiju|Dynamax
+|-heal|p2a: Kaiju|34/100|[silent]
+|upkeep
+|turn|4
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Kaiju
+|-supereffective|p2a: Kaiju
+|-damage|p2a: Kaiju|0 fnt
+|faint|p2a: Kaiju
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Nintoaster|Rotom-Heat, shiny|100/100
+|turn|5
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Nintoaster|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|37/100
+|
+|switch|p2a: Grassmine|Ferrothorn, F|100/100|[from]move: Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Toxapex|Knock Off|p2a: Grassmine
+|-damage|p2a: Grassmine|93/100
+|-damage|p1a: Toxapex|25/100|[from] ability: Iron Barbs|[of] p2a: Grassmine
+|-enditem|p2a: Grassmine|Leftovers|[from] move: Knock Off|[of] p1a: Toxapex
+|move|p2a: Grassmine|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|12/100
+|-enditem|p1a: Toxapex|Shed Shell|[from] move: Knock Off|[of] p2a: Grassmine
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|62/100
+|move|p2a: Grassmine|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|52/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Toxapex|Scald|p2a: Grassmine
+|-resisted|p2a: Grassmine
+|-damage|p2a: Grassmine|86/100
+|move|p2a: Grassmine|Leech Seed|p1a: Toxapex
+|-start|p1a: Toxapex|move: Leech Seed
+|
+|-damage|p1a: Toxapex|40/100|[from] Leech Seed|[of] p2a: Grassmine
+|-heal|p2a: Grassmine|97/100|[silent]
+|upkeep
+|turn|9
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Grassmine|Spikes|p1a: Mandibuzz
+|-sidestart|p1: Chunkomucho|Spikes
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Nintoaster|Rotom-Heat, shiny|100/100
+|move|p1a: Mandibuzz|Defog|p2a: Nintoaster
+|-unboost|p2a: Nintoaster|evasion|1
+|-sideend|p1: Chunkomucho|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Nintoaster|Volt Switch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|72/100
+|
+|switch|p2a: Metaknight|Corviknight, M, shiny|100/100|[from]move: Volt Switch
+|-ability|p2a: Metaknight|Pressure
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Metaknight
+|-damage|p2a: Metaknight|87/100
+|-enditem|p2a: Metaknight|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Metaknight|Body Press|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|80/100
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Metaknight|Body Press|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|91/100
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Eternatus|Flamethrower|p2a: Metaknight
+|-supereffective|p2a: Metaknight
+|-damage|p2a: Metaknight|0 fnt
+|-damage|p1a: Eternatus|81/100|[from] item: Life Orb
+|faint|p2a: Metaknight
+|
+|upkeep
+|
+|switch|p2a: Mushu|Dragapult, M, shiny|100/100
+|turn|15
+|
+|switch|p1a: Toxapex|Toxapex, M|73/100
+|move|p2a: Mushu|Dragon Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|80/100
+|move|p2a: Mushu|Dragon Pulse|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|47/100
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Mushu|Thunder Wave|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|par
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|97/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Mushu|Dragon Pulse|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|77/100 par
+|move|p1a: Mandibuzz|Knock Off|p2a: Mushu
+|-supereffective|p2a: Mushu
+|-damage|p2a: Mushu|45/100
+|-enditem|p2a: Mushu|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Nintoaster|Rotom-Heat, shiny|100/100
+|cant|p1a: Mandibuzz|par
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Nintoaster|Volt Switch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|48/100 par
+|
+|switch|p2a: Eternity|Eternatus|100/100|[from]move: Volt Switch
+|-ability|p2a: Eternity|Pressure
+|move|p1a: Mandibuzz|U-turn|p2a: Eternity
+|-resisted|p2a: Eternity
+|-damage|p2a: Eternity|97/100
+|
+|switch|p1a: Toxapex|Toxapex, M|75/100|[from]move: U-turn
+|
+|-heal|p2a: Eternity|100/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p2a: Eternity|Dynamax Cannon|p1a: Toxapex
+|-damage|p1a: Toxapex|34/100
+|move|p1a: Toxapex|Knock Off|p2a: Eternity
+|-damage|p2a: Eternity|92/100
+|-enditem|p2a: Eternity|Black Sludge|[from] move: Knock Off|[of] p1a: Toxapex
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|48/100 par
+|move|p2a: Eternity|Dynamax Cannon|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|22/100 par
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Eternity|Flamethrower|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|5/100 par
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|55/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Eternity|Dynamax Cannon|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|25/100 par
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|75/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Eternity|Toxic||[still]
+|-fail|p2a: Eternity
+|cant|p1a: Mandibuzz|par
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Eternity|Toxic||[still]
+|-fail|p2a: Eternity
+|cant|p1a: Mandibuzz|par
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Eternity|Flamethrower|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|50/100 par
+|move|p1a: Mandibuzz|U-turn|p2a: Eternity
+|-resisted|p2a: Eternity
+|-damage|p2a: Eternity|89/100
+|
+|switch|p1a: Himiko|Hatterene, F, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Eternity|Toxic|p1a: Himiko
+|move|p1a: Himiko|Toxic|p2a: Eternity|[from]Magic Bounce
+|-immune|p2a: Eternity
+|move|p1a: Himiko|Trick Room|p1a: Himiko
+|-fieldstart|move: Trick Room|[of] p1a: Himiko
+|
+|upkeep
+|turn|29
+|
+|-start|p1a: Himiko|Dynamax
+|-formechange|p1a: Himiko|Hatterene-Gmax
+|-heal|p1a: Himiko|100/100|[silent]
+|move|p1a: Himiko|Max Mindstorm|p2a: Eternity
+|-supereffective|p2a: Eternity
+|-damage|p2a: Eternity|0 fnt
+|-fieldstart|move: Psychic Terrain
+|-damage|p1a: Himiko|96/100|[from] item: Life Orb
+|faint|p2a: Eternity
+|
+|upkeep
+|
+|switch|p2a: Grassmine|Ferrothorn, F|97/100
+|turn|30
+|
+|move|p1a: Himiko|Max Flare|p2a: Grassmine
+|-supereffective|p2a: Grassmine
+|-crit|p2a: Grassmine
+|-damage|p2a: Grassmine|0 fnt
+|-weather|SunnyDay
+|-damage|p1a: Himiko|91/100|[from] item: Life Orb
+|faint|p2a: Grassmine
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Nintoaster|Rotom-Heat, shiny|100/100
+|turn|31
+|
+|move|p1a: Himiko|Max Mindstorm|p2a: Nintoaster
+|-damage|p2a: Nintoaster|0 fnt
+|-damage|p1a: Himiko|86/100|[from] item: Life Orb
+|faint|p2a: Nintoaster
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Himiko|Dynamax
+|-formechange|p1a: Himiko|Hatterene
+|-heal|p1a: Himiko|86/100|[silent]
+|upkeep
+|
+|switch|p2a: Mushu|Dragapult, M, shiny|45/100
+|turn|32
+|
+|move|p1a: Himiko|Dazzling Gleam|p2a: Mushu
+|-supereffective|p2a: Mushu
+|-damage|p2a: Mushu|0 fnt
+|-damage|p1a: Himiko|76/100|[from] item: Life Orb
+|faint|p2a: Mushu
+|
+|win|Chunkomucho
+|c|☆Chunkomucho|Gg

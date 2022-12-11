@@ -1,0 +1,601 @@
+|j|☆minimax_ai
+|j|☆Suricata2000
+|t:|1661926576
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1616
+|player|p2|Suricata2000|cynthia|1700
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Clefable, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Nidoking, M|
+|poke|p2|Slowbro, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Ferrothorn, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1661926604
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Clefable|Clefable, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Clefable|atk|1
+|turn|1
+|
+|t:|1661926612
+|move|p1a: landorustherian|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|55/100
+|move|p2a: Clefable|Stealth Rock|p1a: landorustherian
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-heal|p2a: Clefable|61/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1661926621
+|move|p1a: landorustherian|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|-sideend|p1: minimax_ai|Stealth Rock|[from] move: Defog|[of] p1a: landorustherian
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1661926628
+|move|p1a: landorustherian|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|55/100
+|move|p2a: Clefable|Stealth Rock|p1a: landorustherian
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-heal|p2a: Clefable|61/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1661926636
+|move|p1a: landorustherian|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|-sideend|p1: minimax_ai|Stealth Rock|[from] move: Defog|[of] p1a: landorustherian
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1661926643
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|6
+|
+|t:|1661926661
+|move|p2a: Tornadus|Knock Off|p1a: landorustherian
+|-damage|p1a: landorustherian|83/100
+|-enditem|p1a: landorustherian|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|7
+|
+|t:|1661926670
+|move|p2a: Tornadus|Icy Wind|p1a: landorustherian
+|-supereffective|p1a: landorustherian
+|-damage|p1a: landorustherian|38/100
+|-unboost|p1a: landorustherian|spe|1
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|8
+|c|☆Suricata2000|why
+|c|☆Suricata2000|earthquake
+|
+|t:|1661926687
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Tornadus|Hurricane|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|80/100
+|
+|-heal|p1a: rotomwash|86/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1661926696
+|move|p2a: Tornadus|Knock Off|p1a: rotomwash
+|-damage|p1a: rotomwash|64/100
+|-enditem|p1a: rotomwash|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: rotomwash|Thunderbolt|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|23/100
+|
+|upkeep
+|turn|10
+|
+|t:|1661926704
+|move|p2a: Tornadus|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|48/100
+|
+|t:|1661926706
+|switch|p2a: Clefable|Clefable, M|100/100|[from]move: U-turn
+|move|p1a: rotomwash|Hydro Pump|p2a: Clefable|[miss]
+|-miss|p1a: rotomwash|p2a: Clefable
+|
+|upkeep
+|turn|11
+|
+|t:|1661926717
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1661926727
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|move|p1a: Heatran|Eruption|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|63/100
+|
+|upkeep
+|turn|13
+|
+|t:|1661926740
+|move|p1a: Heatran|Stealth Rock|p2a: Slowbro
+|-sidestart|p2: Suricata2000|move: Stealth Rock
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1661926747
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from]move: Teleport
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1661926754
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Urshifu|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|75/100
+|-damage|p2a: Urshifu|78/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1661926761
+|switch|p2a: Nidoking|Nidoking, M|100/100|[from]move: U-turn
+|-damage|p2a: Nidoking|95/100|[from] Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1661926770
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Nidoking|Ice Beam|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|91/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|16
+|
+|t:|1661926779
+|switch|p1a: landorustherian|Landorus-Therian, M|38/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Nidoking|atk|1
+|move|p2a: Nidoking|Earth Power|p1a: landorustherian
+|-immune|p1a: landorustherian
+|
+|upkeep
+|turn|17
+|
+|t:|1661926787
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|57/100
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|18
+|
+|t:|1661926794
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Tornadus|Icy Wind|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|97/100
+|-unboost|p1a: Melmetal|spe|1
+|
+|upkeep
+|turn|19
+|
+|t:|1661926802
+|move|p2a: Tornadus|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|92/100
+|
+|t:|1661926806
+|switch|p2a: Slowbro|Slowbro, F|97/100|[from]move: U-turn
+|move|p1a: Melmetal|Ice Punch|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|87/100
+|
+|upkeep
+|turn|20
+|
+|t:|1661926817
+|move|p1a: Melmetal|Thunder Punch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|49/100
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1661926832
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Teleport
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1661926840
+|switch|p1a: Heatran|Heatran, M|91/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|76/100
+|
+|upkeep
+|turn|22
+|
+|t:|1661926847
+|switch|p2a: Slowbro|Slowbro, F|82/100 par
+|move|p1a: Heatran|Magma Storm|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|56/100 par
+|-activate|p2a: Slowbro|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Slowbro|44/100 par|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|23
+|
+|t:|1661926860
+|move|p1a: Heatran|Magma Storm|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|19/100 par
+|cant|p2a: Slowbro|par
+|
+|-damage|p2a: Slowbro|7/100 par|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|24
+|c|☆Suricata2000|ohno
+|
+|t:|1661926872
+|move|p1a: Heatran|Magma Storm|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|upkeep
+|
+|t:|1661926880
+|switch|p2a: Nidoking|Nidoking, M|95/100
+|-damage|p2a: Nidoking|89/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1661926891
+|switch|p1a: landorustherian|Landorus-Therian, M|38/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Nidoking|atk|1
+|move|p2a: Nidoking|Sludge Wave|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-crit|p1a: landorustherian
+|-damage|p1a: landorustherian|2/100
+|
+|upkeep
+|turn|26
+|
+|t:|1661926899
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|90/100
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|27
+|
+|t:|1661926907
+|switch|p1a: Melmetal|Melmetal|92/100
+|move|p2a: Tornadus|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|88/100
+|
+|t:|1661926917
+|switch|p2a: Nidoking|Nidoking, M|89/100|[from]move: U-turn
+|-damage|p2a: Nidoking|83/100|[from] Stealth Rock
+|
+|upkeep
+|turn|28
+|
+|t:|1661926931
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Melmetal|Ice Punch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|-damage|p1a: Melmetal|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1661926943
+|move|p1a: Melmetal|Ice Punch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|59/100
+|-damage|p1a: Melmetal|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Melmetal
+|-start|p1a: Melmetal|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|65/100|[from] item: Leftovers
+|-damage|p1a: Melmetal|51/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|81/100|[silent]
+|upkeep
+|turn|30
+|
+|t:|1661926955
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tangrowth
+|-immune|p1a: Tangrowth
+|
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1661926965
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Tangrowth|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|89/100
+|-enditem|p2a: Clefable|Leftovers|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|32
+|
+|t:|1661926977
+|move|p2a: Clefable|Moonblast|p1a: Tangrowth
+|-damage|p1a: Tangrowth|52/100
+|-unboost|p1a: Tangrowth|spa|1
+|move|p1a: Tangrowth|Sleep Powder|p2a: Clefable
+|-status|p2a: Clefable|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|33
+|
+|t:|1661926987
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|move|p1a: Tangrowth|Knock Off|p2a: Tornadus
+|-damage|p2a: Tornadus|78/100
+|-enditem|p2a: Tornadus|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|34
+|
+|t:|1661927000
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Tornadus|Hurricane|p1a: Weavile
+|-damage|p1a: Weavile|44/100
+|
+|upkeep
+|turn|35
+|
+|t:|1661927018
+|switch|p2a: Ferrothorn|Ferrothorn, M|87/100
+|-damage|p2a: Ferrothorn|81/100|[from] Stealth Rock
+|move|p1a: Weavile|Triple Axel|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|72/100
+|-damage|p1a: Weavile|31/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100
+|-damage|p1a: Weavile|19/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-hitcount|p2a: Ferrothorn|2
+|
+|-heal|p2a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1661927040
+|move|p1a: Weavile|Triple Axel|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|49/100
+|-damage|p1a: Weavile|7/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|30/100
+|-damage|p1a: Weavile|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Weavile
+|-hitcount|p2a: Ferrothorn|2
+|move|p2a: Ferrothorn|Spikes|p1: Weavile
+|-sidestart|p1: minimax_ai|Spikes
+|
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1661927040
+|switch|p1a: Heatran|Heatran, M|76/100
+|-damage|p1a: Heatran|64/100|[from] Spikes
+|turn|37
+|inactive|Suricata2000 has 120 seconds left.
+|
+|t:|1661927070
+|move|p1a: Heatran|Magma Storm|p2a: Ferrothorn|[miss]
+|-miss|p1a: Heatran|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|42/100|[from] item: Leftovers
+|-damage|p1a: Heatran|52/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|54/100|[silent]
+|upkeep
+|turn|38
+|
+|t:|1661927081
+|switch|p2a: Clefable|Clefable, M|89/100 slp
+|move|p1a: Heatran|Magma Storm|p2a: Clefable
+|-damage|p2a: Clefable|52/100 slp
+|-activate|p2a: Clefable|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p1a: Heatran|39/100|[from] Leech Seed|[of] p2a: Clefable
+|-heal|p2a: Clefable|62/100 slp|[silent]
+|upkeep
+|turn|39
+|
+|t:|1661927093
+|move|p1a: Heatran|Magma Storm|p2a: Clefable
+|-damage|p2a: Clefable|23/100 slp
+|cant|p2a: Clefable|slp
+|
+|-damage|p1a: Heatran|27/100|[from] Leech Seed|[of] p2a: Clefable
+|-heal|p2a: Clefable|33/100 slp|[silent]
+|upkeep
+|turn|40
+|
+|t:|1661927103
+|move|p1a: Heatran|Magma Storm|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1661927116
+|switch|p2a: Nidoking|Nidoking, M|83/100
+|-damage|p2a: Nidoking|77/100|[from] Stealth Rock
+|turn|41
+|
+|t:|1661927121
+|switch|p1a: landorustherian|Landorus-Therian, M|2/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Nidoking|atk|1
+|move|p2a: Nidoking|Earth Power|p1a: landorustherian
+|-immune|p1a: landorustherian
+|
+|upkeep
+|turn|42
+|inactive|Suricata2000 has 120 seconds left.
+|
+|t:|1661927132
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: landorustherian|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|43
+|inactive|Suricata2000 has 120 seconds left.
+|
+|t:|1661927143
+|switch|p1a: rotomwash|Rotom-Wash|48/100
+|move|p2a: Tornadus|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|34/100
+|
+|t:|1661927150
+|switch|p2a: Nidoking|Nidoking, M|77/100|[from]move: U-turn
+|-damage|p2a: Nidoking|71/100|[from] Stealth Rock
+|
+|upkeep
+|turn|44
+|inactive|Suricata2000 has 120 seconds left.
+|
+|t:|1661927157
+|switch|p1a: landorustherian|Landorus-Therian, M|2/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Nidoking|atk|1
+|move|p2a: Nidoking|Sludge Wave|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1661927157
+|switch|p1a: Tangrowth|Tangrowth, F|85/100
+|-damage|p1a: Tangrowth|73/100|[from] Spikes
+|turn|45
+|
+|t:|1661927171
+|switch|p1a: Heatran|Heatran, M|27/100
+|-damage|p1a: Heatran|14/100|[from] Spikes
+|move|p2a: Nidoking|Sludge Wave|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|upkeep
+|turn|46
+|
+|t:|1661927179
+|move|p2a: Nidoking|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1661927179
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Spikes
+|turn|47
+|
+|t:|1661927188
+|switch|p1a: Melmetal|Melmetal|51/100
+|-damage|p1a: Melmetal|38/100|[from] Spikes
+|move|p2a: Nidoking|Sludge Wave|p1a: Melmetal
+|-immune|p1a: Melmetal
+|
+|upkeep
+|turn|48
+|
+|t:|1661927196
+|move|p2a: Nidoking|Earth Power|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1661927196
+|switch|p1a: rotomwash|Rotom-Wash|34/100
+|turn|49
+|
+|t:|1661927204
+|move|p2a: Nidoking|Sludge Wave|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1661927205
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Spikes
+|turn|50
+|
+|t:|1661927213
+|move|p2a: Nidoking|Sludge Wave|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|win|Suricata2000
+|raw|minimax_ai's rating: 1616 &rarr; <strong>1601</strong><br />(-15 for losing)
+|raw|Suricata2000's rating: 1700 &rarr; <strong>1715</strong><br />(+15 for winning)
+|c|☆minimax_ai|gg
+|l|☆minimax_ai

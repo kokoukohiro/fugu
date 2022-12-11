@@ -1,0 +1,199 @@
+|j|☆TryingANewRod
+|j|☆Chunkomucho
+|player|p1|TryingANewRod|ghetsis|1403
+|player|p2|Chunkomucho|erika|1532
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Lunala|
+|poke|p1|Zamazenta|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Eternatus|
+|poke|p1|Rotom-Fan|
+|poke|p2|Pelipper, M|
+|poke|p2|Drednaw, F|
+|poke|p2|Tangrowth, M|
+|poke|p2|Magearna|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Urshifu-*, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chunkomucho)
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Magearna|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100|[from]move: Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Pelipper|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Pelipper
+|-start|p2a: Pelipper|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|90/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|3
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Magearna
+|-sidestart|p2: Chunkomucho|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Magearna|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100
+|
+|switch|p2a: Pelipper|Pelipper, M|88/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Leech Seed|p2a: Pelipper
+|-start|p2a: Pelipper|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Pelipper|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: Chunkomucho|Spikes|[from] move: Defog|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|63/100|[from] Leech Seed|[of] p1a: Rotom
+|upkeep
+|turn|6
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|-start|p1a: Rotom|Dynamax
+|-heal|p1a: Rotom|100/100|[silent]
+|move|p1a: Rotom|Max Darkness|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|78/100
+|-unboost|p2a: Magearna|spd|1
+|move|p2a: Magearna|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|88/100
+|
+|switch|p2a: Drednaw|Drednaw, F|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|-start|p2a: Drednaw|Dynamax
+|-formechange|p2a: Drednaw|Drednaw-Gmax
+|-heal|p2a: Drednaw|100/100|[silent]
+|move|p2a: Drednaw|G-Max Stonesurge|p1a: Rotom
+|-damage|p1a: Rotom|5/100
+|-sidestart|p1: TryingANewRod|move: Stealth Rock
+|-damage|p2a: Drednaw|96/100|[from] item: Life Orb
+|move|p1a: Rotom|Max Lightning|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Drednaw
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|9
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|10
+|
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Zamazenta|Wild Charge|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|86/100
+|-damage|p1a: Zamazenta|78/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-damage|p1a: Zamazenta|73/100|[from] Recoil
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Eternatus|Eternatus|100/100
+|-damage|p1a: Eternatus|88/100|[from] Stealth Rock
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Tangrowth|Knock Off|p1a: Eternatus
+|-damage|p1a: Eternatus|75/100
+|-enditem|p1a: Eternatus|Haban Berry|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Magearna|Magearna|78/100
+|move|p1a: Eternatus|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|44/100
+|
+|-heal|p2a: Magearna|50/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|13
+|
+|move|p1a: Eternatus|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|17/100
+|move|p2a: Magearna|Pain Split|p1a: Eternatus
+|-sethp|p1a: Eternatus|44/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Magearna|58/100|[from] move: Pain Split
+|
+|-heal|p2a: Magearna|65/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|-message|TryingANewRod forfeited.
+|
+|win|Chunkomucho
+|l|☆TryingANewRod
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

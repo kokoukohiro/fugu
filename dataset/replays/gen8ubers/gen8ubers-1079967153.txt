@@ -1,0 +1,201 @@
+|j|☆tugrin
+|j|☆SSaki Haise
+|player|p1|tugrin|2|1340
+|player|p2|SSaki Haise|165|1458
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Marshadow|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Gengar, M|
+|poke|p1|Melmetal|
+|poke|p1|Mewtwo|
+|poke|p2|Ditto|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Lunala|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Hippowdon, F|
+|poke|p2|Zekrom|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|turn|1
+|
+|move|p2a: Hippowdon|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: tugrin|move: Stealth Rock
+|move|p1a: Melmetal|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|66/100
+|
+|-heal|p2a: Hippowdon|72/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Hippowdon|Earthquake|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|60/100
+|move|p1a: Melmetal|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|41/100
+|
+|-heal|p2a: Hippowdon|47/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|97/100
+|move|p1a: Melmetal|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|63/100
+|
+|-heal|p2a: Hippowdon|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Mewtwo|Mewtwo|100/100
+|-damage|p1a: Mewtwo|88/100|[from] Stealth Rock
+|-ability|p1a: Mewtwo|Pressure
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Mewtwo|Ice Beam|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|45/100
+|-damage|p1a: Mewtwo|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p1a: Mewtwo|Ice Beam|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|81/100
+|-damage|p1a: Mewtwo|68/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Mewtwo|Fire Blast|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|16/100
+|-enditem|p2a: Necrozma|Weakness Policy
+|-boost|p2a: Necrozma|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Necrozma|spa|2|[from] item: Weakness Policy
+|-damage|p1a: Mewtwo|58/100|[from] item: Life Orb
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|upkeep
+|
+|switch|p1a: Marshadow|Marshadow|100/100
+|-damage|p1a: Marshadow|94/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|move|p1a: Marshadow|Spectral Thief|p2a: Hippowdon
+|-damage|p2a: Hippowdon|78/100
+|
+|-heal|p2a: Hippowdon|85/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Marshadow|Spectral Thief|p2a: Hippowdon
+|-damage|p2a: Hippowdon|61/100
+|move|p2a: Hippowdon|Earthquake|p1a: Marshadow
+|-damage|p1a: Marshadow|44/100
+|
+|-heal|p2a: Hippowdon|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Marshadow|Spectral Thief|p2a: Hippowdon
+|-damage|p2a: Hippowdon|44/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|94/100
+|
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Marshadow|Spectral Thief|p2a: Hippowdon
+|-damage|p2a: Hippowdon|78/100
+|move|p2a: Hippowdon|Earthquake|p1a: Marshadow
+|-damage|p1a: Marshadow|0 fnt
+|faint|p1a: Marshadow
+|
+|-heal|p2a: Hippowdon|84/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p1a: Necrozma|95/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Necrozma|Rock Polish|p1a: Necrozma
+|-boost|p1a: Necrozma|spe|2
+|move|p2a: Hippowdon|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|49/100
+|-enditem|p1a: Necrozma|Weakness Policy
+|-boost|p1a: Necrozma|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Necrozma|spa|2|[from] item: Weakness Policy
+|
+|-heal|p2a: Hippowdon|90/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|16/100
+|-start|p1a: Necrozma|Dynamax
+|-heal|p1a: Necrozma|49/100|[silent]
+|move|p1a: Necrozma|Max Quake|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|-boost|p1a: Necrozma|spd|1
+|faint|p2a: Necrozma
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Necrozma|[from] ability: Imposter
+|turn|14
+|
+|move|p2a: Ditto|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|15
+|
+|-start|p2a: Ditto|Dynamax
+|-heal|p2a: Ditto|100/100|[silent]
+|move|p2a: Ditto|Max Quake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-boost|p2a: Ditto|spd|1
+|faint|p1a: Gengar
+|
+|upkeep
+|-message|tugrin forfeited.
+|
+|win|SSaki Haise
+|l|☆tugrin
+|raw|tugrin's rating: 1340 &rarr; <strong>1326</strong><br />(-14 for losing)
+|raw|SSaki Haise's rating: 1458 &rarr; <strong>1471</strong><br />(+13 for winning)

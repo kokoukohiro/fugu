@@ -1,0 +1,390 @@
+|j|☆ash dub
+|j|☆Q114
+|player|p1|ash dub|101|1010
+|player|p2|Q114|265|1082
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|item
+|poke|p1|Grimmsnarl, M|item
+|poke|p1|Toxtricity, M|item
+|poke|p1|Chandelure, M|item
+|poke|p1|Golisopod, F|item
+|poke|p1|Mudsdale, M|item
+|poke|p2|Toxapex, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Corviknight, M|item
+|poke|p2|Corsola-Galar, F|item
+|poke|p2|Weezing-Galar, F|item
+|poke|p2|Dugtrio, M|item
+|teampreview
+|
+|start
+|switch|p1a: Mudsdale|Mudsdale, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|move|p1a: Mudsdale|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Q114|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Mudsdale
+|-sidestart|p1: ash dub|Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mudsdale|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|59/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mudsdale
+|-start|p1a: Mudsdale|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|65/100|[from] item: Leftovers
+|-damage|p1a: Mudsdale|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|79/100|[silent]
+|upkeep
+|turn|3
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|-damage|p1a: Chandelure|88/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Chandelure
+|-sidestart|p1: ash dub|Spikes
+|
+|-heal|p2a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Chandelure|Shadow Ball|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Chandelure|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100
+|
+|-heal|p2a: Toxapex|58/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|23/100
+|move|p2a: Toxapex|Scald|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|37/100
+|
+|-heal|p2a: Toxapex|29/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|move|p1a: Chandelure|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|42/100
+|-unboost|p2a: Corsola|spd|1
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|91/100
+|-damage|p2a: Ferrothorn|85/100|[from] Stealth Rock
+|move|p1a: Chandelure|Shadow Ball|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|58/100
+|
+|-heal|p2a: Ferrothorn|64/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|37/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Chandelure
+|-start|p1a: Chandelure|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|43/100|[from] item: Leftovers
+|-damage|p1a: Chandelure|25/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|52/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|22/100
+|move|p2a: Ferrothorn|Spikes|p1a: Chandelure
+|-sidestart|p1: ash dub|Spikes
+|
+|-heal|p2a: Ferrothorn|28/100|[from] item: Leftovers
+|-damage|p1a: Chandelure|12/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|38/100|[silent]
+|upkeep
+|turn|11
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Chandelure|Shadow Ball|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|44/100|[from] item: Leftovers
+|-damage|p1a: Chandelure|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|52/100|[silent]
+|faint|p1a: Chandelure
+|upkeep
+|
+|switch|p1a: Mudsdale|Mudsdale, M|88/100
+|-damage|p1a: Mudsdale|63/100|[from] Spikes
+|turn|12
+|
+|move|p1a: Mudsdale|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|10/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mudsdale
+|-start|p1a: Mudsdale|move: Leech Seed
+|
+|-heal|p1a: Mudsdale|69/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|16/100|[from] item: Leftovers
+|-damage|p1a: Mudsdale|57/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|30/100|[silent]
+|upkeep
+|turn|13
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Mudsdale|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Mudsdale|63/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|-damage|p1a: Mudsdale|51/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|51/100|[silent]
+|upkeep
+|turn|14
+|
+|move|p1a: Mudsdale|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|9/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Mudsdale
+|-damage|p1a: Mudsdale|33/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-enditem|p1a: Mudsdale|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|15/100|[from] item: Leftovers
+|-damage|p1a: Mudsdale|20/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|30/100|[silent]
+|upkeep
+|turn|15
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Mudsdale|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|-damage|p1a: Mudsdale|8/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|50/100|[silent]
+|upkeep
+|turn|16
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Mudsdale|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-damage|p1a: Mudsdale|0 fnt|[from] Leech Seed|[of] p2a: Corviknight
+|-heal|p2a: Corviknight|95/100|[silent]
+|faint|p1a: Mudsdale
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|76/100|[from] Spikes
+|turn|17
+|
+|switch|p2a: Corsola|Corsola-Galar, F|42/100
+|-damage|p2a: Corsola|30/100|[from] Stealth Rock
+|move|p1a: Dragapult|Fire Blast|p2a: Corsola
+|-damage|p2a: Corsola|5/100
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-damage|p2a: Dugtrio|94/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|-damage|p1a: Golisopod|76/100|[from] Spikes
+|-start|p2a: Dugtrio|Dynamax
+|-heal|p2a: Dugtrio|94/100|[silent]
+|move|p2a: Dugtrio|Max Darkness|p1a: Golisopod
+|-damage|p1a: Golisopod|51/100
+|-unboost|p1a: Golisopod|spd|1
+|
+|-heal|p1a: Golisopod|58/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Dugtrio|Max Rockfall|p1a: Golisopod
+|-supereffective|p1a: Golisopod
+|-damage|p1a: Golisopod|1/100
+|-weather|Sandstorm
+|-activate|p1a: Golisopod|ability: Emergency Exit
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|70/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|-start|p1a: Grimmsnarl|Dynamax
+|-formechange|p1a: Grimmsnarl|Grimmsnarl-Gmax|
+|-heal|p1a: Grimmsnarl|70/100|[silent]
+|move|p2a: Dugtrio|Max Quake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|38/100
+|-boost|p2a: Dugtrio|spd|1
+|-enditem|p1a: Grimmsnarl|Sitrus Berry|[eat]
+|-heal|p1a: Grimmsnarl|63/100|[from] item: Sitrus Berry
+|move|p1a: Grimmsnarl|Max Starfall|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-fieldstart|move: Misty Terrain
+|faint|p2a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|56/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F|63/100
+|-damage|p2a: Toxapex|50/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Grimmsnarl|G-Max Snooze|p2a: Toxapex
+|-damage|p2a: Toxapex|4/100
+|-start|p2a: Toxapex|move: Yawn|[of] p1a: Grimmsnarl
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|50/100|[from] Sandstorm
+|-damage|p2a: Toxapex|49/100|[from] Sandstorm
+|-heal|p2a: Toxapex|55/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p1a: Grimmsnarl|G-Max Snooze|p2a: Toxapex
+|-damage|p2a: Toxapex|9/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|44/100|[from] Sandstorm
+|-damage|p2a: Toxapex|53/100|[from] Sandstorm
+|-heal|p2a: Toxapex|59/100|[from] item: Black Sludge
+|-end|p2a: Toxapex|move: Yawn|[silent]
+|-end|p1a: Grimmsnarl|Dynamax
+|-formechange|p1a: Grimmsnarl|Grimmsnarl|
+|-heal|p1a: Grimmsnarl|44/100|[silent]
+|upkeep
+|turn|24
+|
+|move|p1a: Grimmsnarl|Drain Punch|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|-heal|p1a: Grimmsnarl|47/100|[from] drain|[of] p2a: Toxapex
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-weather|none
+|upkeep
+|turn|25
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|-damage|p1a: Toxtricity|76/100|[from] Spikes
+|move|p2a: Toxapex|Toxic Spikes|p1a: Toxtricity
+|-sidestart|p1: ash dub|move: Toxic Spikes
+|
+|-heal|p1a: Toxtricity|82/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|26
+|
+|switch|p2a: Corviknight|Corviknight, M|95/100
+|-damage|p2a: Corviknight|83/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxtricity|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Toxtricity|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|50/100
+|-damage|p2a: Ferrothorn|44/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Toxtricity|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Toxtricity|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Toxtricity|82/100|[from] item: Leftovers
+|upkeep
+|c|☆ash dub|fuck u
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Toxtricity|Thunderbolt|p2a: Weezing
+|-damage|p2a: Weezing|28/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Toxtricity
+|-status|p1a: Toxtricity|brn
+|
+|-heal|p1a: Toxtricity|88/100 brn|[from] item: Leftovers
+|-heal|p2a: Weezing|34/100|[from] item: Black Sludge
+|-damage|p1a: Toxtricity|82/100 brn|[from] brn
+|upkeep
+|turn|29
+|j|%Aeonic
+|c|☆ash dub|THIS guy takes the piss
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ash dub)
+|c|%Aeonic|/log ash dub was warned by Aeonic. (be nicer to opponents please)
+|unlink|ashdub
+|inactive|Q114 has 120 seconds left.
+|c|☆ash dub|dude he protects leach seeds then do it all over again for 15 turns
+|inactive|Q114 has 90 seconds left.
+|c|%Aeonic|stall is a valid tactic
+|c|%Aeonic|doesn't give you the right to be an ass
+|inactive|Q114 has 60 seconds left.
+|inactive|Q114 has 30 seconds left.
+|c|☆ash dub|ya staling untill the timer ALMOST goes out is GRATE
+|inactive|Q114 has 20 seconds left.
+|inactive|Q114 has 15 seconds left.
+|inactive|Q114 has 10 seconds left.
+|inactive|Q114 has 5 seconds left.
+|-message|Q114 lost due to inactivity.
+|
+|win|ash dub
+|raw|ash dub's rating: 1010 &rarr; <strong>1056</strong><br />(+46 for winning)
+|raw|Q114's rating: 1082 &rarr; <strong>1055</strong><br />(-27 for losing)

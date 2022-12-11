@@ -1,0 +1,201 @@
+|j|☆Giggling Grannie
+|j|‽CoconutCrabs
+|t:|1646249679
+|gametype|singles
+|player|p1|Giggling Grannie|medium|1651
+|player|p2|CoconutCrabs|chuck|1688
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Victini|
+|poke|p1|Tyranitar, M|
+|poke|p1|Zoroark, M|
+|poke|p1|Azumarill, M|
+|poke|p1|Latios, M|
+|poke|p1|Garchomp, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|teampreview
+|
+|t:|1646249736
+|start
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Giggling Grannie)
+|j| TCpoker
+|
+|t:|1646249749
+|move|p1a: Victini|Final Gambit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p1a: Victini
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1646249759
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|2
+|
+|t:|1646249764
+|move|p1a: Garchomp|Stealth Rock|p2a: Tangrowth
+|-sidestart|p2: CoconutCrabs|move: Stealth Rock
+|move|p2a: Tangrowth|Sleep Powder|p1a: Garchomp
+|-status|p1a: Garchomp|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+|l| TCpoker
+|
+|t:|1646249774
+|cant|p1a: Garchomp|slp
+|move|p2a: Tangrowth|Knock Off|p1a: Garchomp
+|-damage|p1a: Garchomp|85/100 slp
+|-damage|p2a: Tangrowth|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Tangrowth|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|-enditem|p1a: Garchomp|Rocky Helmet|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|4
+|
+|t:|1646249800
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Tangrowth|Giga Drain|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|85/100
+|-heal|p2a: Tangrowth|77/100|[from] drain|[of] p1a: Latios
+|
+|upkeep
+|turn|5
+|
+|t:|1646249814
+|move|p1a: Latios|Trick|p2a: Tangrowth
+|-activate|p1a: Latios|move: Trick|[of] p2a: Tangrowth
+|-item|p2a: Tangrowth|Choice Scarf|[from] move: Trick
+|-item|p1a: Latios|Rocky Helmet|[from] move: Trick
+|move|p2a: Tangrowth|Knock Off|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|31/100
+|-damage|p2a: Tangrowth|61/100|[from] item: Rocky Helmet|[of] p1a: Latios
+|-enditem|p1a: Latios|Rocky Helmet|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|6
+|
+|t:|1646249826
+|switch|p1a: Garchomp|Garchomp, F|85/100 slp
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1646249835
+|switch|p2a: Tangrowth|Tangrowth, F|94/100
+|-damage|p2a: Tangrowth|82/100|[from] Stealth Rock
+|cant|p1a: Garchomp|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tangrowth|75/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1646249842
+|-curestatus|p1a: Garchomp|slp|[msg]
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Tangrowth|Giga Drain|p1a: Garchomp
+|-damage|p1a: Garchomp|60/100
+|-heal|p2a: Tangrowth|88/100|[from] drain|[of] p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tangrowth|82/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1646249852
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Tangrowth|Giga Drain|p1a: Garchomp
+|-damage|p1a: Garchomp|33/100
+|-heal|p2a: Tangrowth|96/100|[from] drain|[of] p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tangrowth|90/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1646249860
+|move|p1a: Garchomp|Scale Shot|p2a: Tangrowth
+|-damage|p2a: Tangrowth|71/100
+|-damage|p2a: Tangrowth|51/100
+|-damage|p2a: Tangrowth|31/100
+|-hitcount|p2a: Tangrowth|3
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|move|p2a: Tangrowth|Giga Drain|p1a: Garchomp
+|-damage|p1a: Garchomp|8/100
+|-heal|p2a: Tangrowth|43/100|[from] drain|[of] p1a: Garchomp
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1646249871
+|move|p1a: Garchomp|Scale Shot|p2a: Tangrowth
+|-damage|p2a: Tangrowth|23/100
+|-damage|p2a: Tangrowth|4/100
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|-hitcount|p2: Tangrowth|3
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|
+|upkeep
+|
+|t:|1646249873
+|switch|p2a: Tyranitar|Tyranitar, M|94/100
+|-damage|p2a: Tyranitar|82/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|12
+|
+|t:|1646249884
+|move|p1a: Garchomp|Scale Shot|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|39/100
+|-damage|p2a: Tyranitar|12/100
+|-hitcount|p2a: Tyranitar|2
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|move|p2a: Tyranitar|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Giggling Grannie|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|18/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|-message|CoconutCrabs forfeited.
+|
+|win|Giggling Grannie
+|raw|Giggling Grannie's rating: 1651 &rarr; <strong>1673</strong><br />(+22 for winning)
+|raw|CoconutCrabs's rating: 1688 &rarr; <strong>1666</strong><br />(-22 for losing)
+|l|‽CoconutCrabs
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

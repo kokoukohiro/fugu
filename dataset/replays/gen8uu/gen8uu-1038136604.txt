@@ -1,0 +1,181 @@
+|j|☆DD Qyads
+|j|☆Kairak
+|player|p1|DD Qyads|hilbert-dueldisk|1567
+|player|p2|Kairak|hiker-gen4|1433
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Golisopod, F|
+|poke|p1|Lanturn, F|
+|poke|p1|Diggersby, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Bronzong|
+|poke|p1|Noivern, F|
+|poke|p2|Steelix, M|
+|poke|p2|Araquanid, M|
+|poke|p2|Reuniclus, F|
+|poke|p2|Runerigus, F|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Obstagoon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Noivern|Noivern, F|100/100
+|switch|p2a: Runerigus|Runerigus, F|100/100
+|turn|1
+|
+|move|p1a: Noivern|Taunt|p2a: Runerigus
+|-start|p2a: Runerigus|move: Taunt
+|cant|p2a: Runerigus|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Diggersby|Diggersby, F|100/100
+|move|p2a: Runerigus|Shadow Claw|p1a: Diggersby
+|-immune|p1a: Diggersby
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|move|p1a: Diggersby|Spikes|p2a: Weezing
+|-sidestart|p2: Kairak|Spikes
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Weezing|Defog|p1a: Bronzong
+|-unboost|p1a: Bronzong|evasion|1
+|-sideend|p2: Kairak|Spikes|[from] move: Defog|[of] p2a: Weezing
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Weezing|Will-O-Wisp|p1a: Bronzong
+|-status|p1a: Bronzong|brn
+|move|p1a: Bronzong|Psychic|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|30/100
+|
+|-heal|p2a: Weezing|36/100|[from] item: Black Sludge
+|-damage|p1a: Bronzong|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Bronzong|Body Press|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|93/100
+|
+|-damage|p1a: Bronzong|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|move|p2a: Araquanid|Sticky Web|p1a: Noivern
+|-sidestart|p1: DD Qyads|move: Sticky Web
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Noivern|Defog|p2a: Araquanid
+|-unboost|p2a: Araquanid|evasion|1
+|-sideend|p1: DD Qyads|Sticky Web|[from] move: Defog|[of] p1a: Noivern
+|move|p2a: Araquanid|Liquidation|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|51/100
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Noivern|Hurricane|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-crit|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|turn|10
+|
+|switch|p1a: Bronzong|Bronzong|88/100 brn
+|move|p2a: Steelix|Dragon Dance|p2a: Steelix
+|-boost|p2a: Steelix|atk|1
+|-boost|p2a: Steelix|spe|1
+|
+|-damage|p1a: Bronzong|82/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Steelix|Dragon Dance|p2a: Steelix
+|-boost|p2a: Steelix|atk|1
+|-boost|p2a: Steelix|spe|1
+|move|p1a: Bronzong|Body Press|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|83/100
+|
+|-damage|p1a: Bronzong|76/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Steelix|Dragon Dance|p2a: Steelix
+|-boost|p2a: Steelix|atk|1
+|-boost|p2a: Steelix|spe|1
+|move|p1a: Bronzong|Body Press|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|65/100
+|
+|-damage|p1a: Bronzong|69/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Steelix|Fire Fang|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|turn|14
+|
+|move|p1a: Golisopod|First Impression|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|49/100
+|move|p2a: Steelix|Stone Edge|p1a: Golisopod
+|-supereffective|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|-damage|p2a: Steelix|39/100|[from] item: Life Orb
+|faint|p1a: Golisopod
+|
+|upkeep
+|
+|switch|p1a: Lanturn|Lanturn, F|100/100
+|turn|15
+|
+|move|p2a: Steelix|Stone Edge|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|-damage|p2a: Steelix|29/100|[from] item: Life Orb
+|faint|p1a: Lanturn
+|
+|upkeep
+|-message|DD Qyads forfeited.
+|
+|win|Kairak
+|l|☆DD Qyads
+|raw|DD Qyads's rating: 1568 &rarr; <strong>1540</strong><br />(-28 for losing)
+|raw|Kairak's rating: 1420 &rarr; <strong>1448</strong><br />(+28 for winning)

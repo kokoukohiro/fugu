@@ -1,0 +1,436 @@
+|j|☆yung centibro
+|j|☆PeachSlices
+|player|p1|yung centibro|1|1327
+|player|p2|PeachSlices|cheren-gen5bw2|1217
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Passimian, M|
+|poke|p1|Sigilyph, M|
+|poke|p1|Silvally-*|
+|poke|p1|Vaporeon, F|
+|poke|p1|Vileplume, M|
+|poke|p1|Gigalith, F|
+|poke|p2|Dubwool, F|
+|poke|p2|Pangoro, M|
+|poke|p2|Mr. Rime, M|
+|poke|p2|Vileplume, M|
+|poke|p2|Gigalith, F|
+|poke|p2|Gallade, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PeachSlices)
+|
+|start
+|switch|p1a: Silvally|Silvally-Steel|100/100
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|1
+|inactive|yung centibro has 120 seconds left.
+|
+|move|p2a: Gallade|Trick||[still]
+|-fail|p2a: Gallade
+|move|p1a: Silvally|U-turn|p2a: Gallade
+|-damage|p2a: Gallade|68/100
+|inactive|yung centibro has 90 seconds left.
+|
+|switch|p1a: Passimian|Passimian, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|move|p1a: Passimian|U-turn|p2a: Vileplume
+|-damage|p2a: Vileplume|82/100
+|
+|switch|p1a: Sigilyph|Sigilyph, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Vileplume|89/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Sigilyph|Psychic|p2a: Gigalith
+|-damage|p2a: Gigalith|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|79/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Silvally|Silvally-Steel|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Silvally
+|-sidestart|p1: yung centibro|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|85/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Vileplume|Vileplume, M|89/100
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|82/100|[from] Sandstorm
+|-heal|p2a: Vileplume|89/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Vileplume|Strength Sap|p1a: Silvally
+|-unboost|p1a: Silvally|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|94/100|[from] Sandstorm
+|-heal|p2a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Vileplume|Strength Sap|p1a: Silvally
+|-unboost|p1a: Silvally|atk|1
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+|
+|switch|p2a: Gallade|Gallade, M|68/100
+|turn|9
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|move|p2a: Gallade|Close Combat|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|66/100
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|
+|-heal|p1a: Vileplume|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|100/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|65/100
+|
+|-heal|p1a: Vileplume|78/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|move|p2a: Mr. Rime|Focus Blast|p1a: Vaporeon
+|-damage|p1a: Vaporeon|65/100
+|
+|-heal|p1a: Vaporeon|71/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Mr. Rime|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|46/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|52/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|11/100
+|move|p1a: Vaporeon|Scald|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|29/100
+|
+|-heal|p1a: Vaporeon|61/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|68/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|25/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|31/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|81/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|87/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|49/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|55/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Pangoro|Pangoro, M|100/100
+|move|p1a: Vaporeon|Scald|p2a: Pangoro
+|-damage|p2a: Pangoro|61/100
+|-status|p2a: Pangoro|brn
+|
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-damage|p2a: Pangoro|55/100 brn|[from] brn
+|upkeep
+|turn|18
+|c|☆yung centibro|why
+|c|☆yung centibro|why on that turn
+|c|☆yung centibro|risk it
+|inactive|yung centibro has 120 seconds left.
+|
+|switch|p1a: Passimian|Passimian, M|100/100
+|-damage|p1a: Passimian|94/100|[from] Stealth Rock
+|move|p2a: Pangoro|Darkest Lariat|p1a: Passimian
+|-resisted|p1a: Passimian
+|-damage|p1a: Passimian|74/100
+|
+|-damage|p2a: Pangoro|49/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Passimian|Close Combat|p2a: Pangoro
+|-supereffective|p2a: Pangoro
+|-damage|p2a: Pangoro|0 fnt
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|faint|p2a: Pangoro
+|
+|upkeep
+|
+|switch|p2a: Gallade|Gallade, M|68/100
+|turn|20
+|
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|move|p2a: Gallade|Close Combat|p1a: Sigilyph
+|-resisted|p1a: Sigilyph
+|-damage|p1a: Sigilyph|77/100
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Gigalith|Gigalith, F|85/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Sigilyph|Psychic|p2a: Gigalith
+|-damage|p2a: Gigalith|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|65/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Vileplume|Vileplume, M|78/100
+|-damage|p1a: Vileplume|66/100|[from] Stealth Rock
+|move|p2a: Gigalith|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|39/100|[from] Sandstorm
+|-heal|p1a: Vileplume|45/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|72/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|29/100
+|move|p1a: Vileplume|Strength Sap|p2a: Mr. Rime
+|-unboost|p2a: Mr. Rime|atk|1
+|-heal|p1a: Vileplume|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mr. Rime|23/100|[from] Sandstorm
+|-damage|p1a: Vileplume|83/100|[from] Sandstorm
+|-heal|p1a: Vileplume|89/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mr. Rime|17/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|43/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|49/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Steel|100/100
+|-damage|p1a: Silvally|94/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Silvally|U-turn|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|0 fnt
+|faint|p2a: Mr. Rime
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100|[from]move: U-turn
+|-damage|p1a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gallade|Gallade, M|68/100
+|turn|27
+|
+|move|p2a: Gallade|Knock Off|p1a: Gigalith
+|-damage|p1a: Gigalith|71/100
+|-enditem|p1a: Gigalith|Leftovers|[from] move: Knock Off|[of] p2a: Gallade
+|move|p1a: Gigalith|Heavy Slam|p2a: Gallade
+|-damage|p2a: Gallade|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gallade|0 fnt|[from] Sandstorm
+|faint|p2a: Gallade
+|upkeep
+|
+|switch|p2a: Dubwool|Dubwool, F|100/100
+|turn|28
+|
+|switch|p1a: Silvally|Silvally-Steel|94/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|move|p2a: Dubwool|Cotton Guard|p2a: Dubwool
+|-boost|p2a: Dubwool|def|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dubwool|94/100|[from] Sandstorm
+|-heal|p2a: Dubwool|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Silvally|U-turn|p2a: Dubwool
+|-damage|p2a: Dubwool|96/100
+|
+|switch|p1a: Vileplume|Vileplume, M|89/100|[from]move: U-turn
+|-damage|p1a: Vileplume|77/100|[from] Stealth Rock
+|move|p2a: Dubwool|Body Press|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|59/100
+|-status|p2a: Dubwool|par|[from] ability: Effect Spore|[of] p1a: Vileplume
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|53/100|[from] Sandstorm
+|-damage|p2a: Dubwool|90/100 par|[from] Sandstorm
+|-heal|p1a: Vileplume|59/100|[from] item: Leftovers
+|-heal|p2a: Dubwool|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|1
+|-boost|p1a: Vileplume|spa|1
+|cant|p2a: Dubwool|par
+|
+|-weather|none
+|-heal|p1a: Vileplume|65/100|[from] item: Leftovers
+|-heal|p2a: Dubwool|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|1
+|-boost|p1a: Vileplume|spa|1
+|cant|p2a: Dubwool|par
+|
+|-heal|p1a: Vileplume|72/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Vileplume|Giga Drain|p2a: Dubwool
+|-damage|p2a: Dubwool|60/100 par
+|-heal|p1a: Vileplume|92/100|[from] drain|[of] p2a: Dubwool
+|move|p2a: Dubwool|Rest|p2a: Dubwool
+|-status|p2a: Dubwool|slp|[from] move: Rest
+|-heal|p2a: Dubwool|100/100 slp|[silent]
+|
+|-heal|p1a: Vileplume|98/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|cant|p2a: Dubwool|slp
+|move|p2a: Dubwool|Sleep Talk|p2a: Dubwool
+|move|p2a: Dubwool|Cotton Guard|p2a: Dubwool|[from]Sleep Talk
+|-boost|p2a: Dubwool|def|3
+|move|p1a: Vileplume|Sludge Bomb|p2a: Dubwool
+|-damage|p2a: Dubwool|46/100 slp
+|
+|-heal|p2a: Dubwool|52/100 slp|[from] item: Leftovers
+|-heal|p1a: Vileplume|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|cant|p2a: Dubwool|slp
+|move|p2a: Dubwool|Sleep Talk|p2a: Dubwool
+|move|p2a: Dubwool|Rest|p2a: Dubwool|[from]Sleep Talk
+|-fail|p2a: Dubwool
+|move|p1a: Vileplume|Sludge Bomb|p2a: Dubwool
+|-damage|p2a: Dubwool|0 fnt
+|faint|p2a: Dubwool
+|
+|upkeep
+|
+|switch|p2a: Gigalith|Gigalith, F|72/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|35
+|
+|move|p1a: Vileplume|Giga Drain|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|19/100
+|move|p2a: Gigalith|Rock Blast|p1a: Vileplume
+|-damage|p1a: Vileplume|92/100
+|-damage|p1a: Vileplume|83/100
+|-damage|p1a: Vileplume|75/100
+|-hitcount|p1a: Vileplume|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|68/100|[from] Sandstorm
+|-heal|p1a: Vileplume|75/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|25/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|-message|PeachSlices forfeited.
+|
+|win|yung centibro
+|l|☆PeachSlices

@@ -1,0 +1,394 @@
+|j|☆Gayskeletor
+|j|☆Groundt
+|player|p1|Gayskeletor|blackbelt-gen4dp|1622
+|player|p2|Groundt|winona|1631
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Mandibuzz, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Toxtricity, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Conkeldurr, F|
+|poke|p2|Sirfetch'd, M|
+|poke|p2|Dugtrio, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Rotom-Wash|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Groundt)
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Rotom|Thunder Wave|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Rotom|Trick|p1a: Ferrothorn
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Rocky Helmet|[from] move: Trick
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from]move: Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Groundt|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|move|p2a: Corviknight|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|86/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|61/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|90/100|[from]move: Volt Switch
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|80/100
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Corviknight|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: Groundt|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Ferrothorn|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|77/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Corviknight|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|70/100
+|-damage|p2a: Corviknight|65/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Rotom|Rotom-Wash|61/100|[from]move: U-turn
+|move|p1a: Ferrothorn|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|39/100
+|-damage|p1a: Ferrothorn|54/100|[from] item: Rocky Helmet|[of] p2a: Rotom
+|-enditem|p2a: Rotom|Rocky Helmet|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|39/100
+|
+|switch|p2a: Corviknight|Corviknight, F|65/100|[from]move: Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ferrothorn|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|53/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Aegislash|Aegislash, F, shiny|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Kommo-o
+|-immune|p2a: Kommo-o|[from] ability: Bulletproof
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Kommo-o|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Gayskeletor|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Kommo-o|Iron Defense|p2a: Kommo-o
+|-boost|p2a: Kommo-o|def|2
+|move|p1a: Mandibuzz|Defog|p2a: Kommo-o
+|-unboost|p2a: Kommo-o|evasion|1
+|-sideend|p1: Gayskeletor|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Kommo-o|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Gayskeletor|move: Stealth Rock
+|move|p1a: Mandibuzz|Taunt|p2a: Kommo-o
+|-start|p2a: Kommo-o|move: Taunt
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Aegislash|Aegislash, F, shiny|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Kommo-o|Body Press|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Steel Beam|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|52/100
+|-damage|p1a: Aegislash|44/100|[from] mindblown
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Gronkeldurr|Conkeldurr, F|100/100
+|-damage|p1a: Gronkeldurr|94/100|[from] Stealth Rock
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-status|p1a: Gronkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|17
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Gronkeldurr|Drain Punch|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-damage|p1a: Gronkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|91/100
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Dragapult|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|79/100
+|
+|switch|p2a: Rotom|Rotom-Wash|39/100|[from]move: U-turn
+|move|p1a: Mandibuzz|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: Gayskeletor|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|86/100
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|47/100
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Dugtrio
+|-immune|p2a: Dugtrio
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|79/100
+|move|p2a: Dugtrio|Stone Edge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|13/100
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Gronkeldurr|Conkeldurr, F|88/100 brn
+|move|p2a: Dugtrio|Stone Edge|p1a: Gronkeldurr
+|-resisted|p1a: Gronkeldurr
+|-damage|p1a: Gronkeldurr|69/100 brn
+|
+|-damage|p1a: Gronkeldurr|63/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Gronkeldurr|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|20/100
+|
+|-heal|p2a: Dragapult|26/100|[from] item: Leftovers
+|-damage|p1a: Gronkeldurr|56/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|13/100
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|5/100
+|
+|-heal|p2a: Dragapult|32/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-heal|p2a: Dragapult|38/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|39/100
+|turn|27
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Groundt|move: Stealth Rock
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|47/100
+|move|p2a: Corviknight|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|33/100
+|inactive|Groundt has 120 seconds left.
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100|[from]move: U-turn
+|-damage|p2a: Dugtrio|95/100|[from] Stealth Rock
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Rotom
+|-damage|p1a: Rotom|3/100
+|move|p1a: Rotom|Hydro Pump|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p1a: Aegislash|Aegislash, F, shiny|44/100
+|move|p2a: Kommo-o|Stealth Rock|p1a: Aegislash
+|-sidestart|p1: Gayskeletor|move: Stealth Rock
+|
+|-heal|p2a: Kommo-o|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Steel Beam|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|-damage|p1a: Aegislash|0 fnt|[from] mindblown
+|faint|p1a: Aegislash
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|38/100
+|switch|p1a: Rotom|Rotom-Wash, shiny|3/100
+|-damage|p1a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p1a: Rotom
+|-damage|p2a: Dragapult|26/100|[from] Stealth Rock
+|
+|switch|p1a: Toxtricity|Toxtricity, F, shiny|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Toxtricity
+|-damage|p1a: Toxtricity|3/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|
+|-heal|p2a: Dragapult|32/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p1a: Toxtricity|Throat Spray
+|-boost|p1a: Toxtricity|spa|1|[from] item: Throat Spray
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, M|100/100
+|-damage|p2a: Sirfetch'd|94/100|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Sirfetch'd|Quick Attack|p1a: Toxtricity
+|-crit|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Gronkeldurr|Conkeldurr, F|56/100 brn
+|-damage|p1a: Gronkeldurr|50/100 brn|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Sirfetch'd|Close Combat|p1a: Gronkeldurr
+|-damage|p1a: Gronkeldurr|0 fnt
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|faint|p1a: Gronkeldurr
+|
+|upkeep
+|-message|Gayskeletor forfeited.
+|
+|win|Groundt
+|l|☆Gayskeletor
+|raw|Gayskeletor's rating: 1622 &rarr; <strong>1602</strong><br />(-20 for losing)
+|raw|Groundt's rating: 1631 &rarr; <strong>1651</strong><br />(+20 for winning)

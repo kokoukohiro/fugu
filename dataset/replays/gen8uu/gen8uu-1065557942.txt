@@ -1,0 +1,502 @@
+|j|☆Adrift and Alone
+|j|☆gijion relish
+|player|p1|Adrift and Alone|ethan-gen2|1667
+|player|p2|gijion relish|tuberf|1826
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Pangoro, M|
+|poke|p1|Rhyperior, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Reuniclus, F|
+|poke|p1|Doublade, M|
+|poke|p1|Noivern, M|
+|poke|p2|Gigalith, M|
+|poke|p2|Diggersby, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Tsareena, F|
+|poke|p2|Jellicent, M|
+|poke|p2|Durant, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| gijion chilli
+|
+|start
+|switch|p1a: Noivern|Noivern, M|100/100
+|switch|p2a: Durant|Durant, F|100/100
+|-item|p2a: Durant|Choice Band|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adrift and Alone)
+|j| life saver sucuri
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|switch|p2a: Diggersby|Diggersby, F|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Diggersby|Earthquake|p1a: Weezing
+|-immune|p1a: Weezing|[from] ability: Levitate
+|
+|upkeep
+|turn|3
+|c| life saver sucuri|diggersby though
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Weezing|Sludge Bomb|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|95/100|[from] Sandstorm
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|-heal|p2a: Gigalith|96/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Rhyperior
+|-sidestart|p1: Adrift and Alone|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|move|p1a: Rhyperior|Stealth Rock|p2a: Tsareena
+|-sidestart|p2: gijion relish|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|95/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p2a: Tsareena|Knock Off|p1a: Rhyperior
+|-damage|p1a: Rhyperior|80/100
+|-enditem|p1a: Rhyperior|Leftovers|[from] move: Knock Off|[of] p2a: Tsareena
+|move|p1a: Rhyperior|Rock Blast|p2a: Tsareena
+|-damage|p2a: Tsareena|82/100
+|-damage|p2a: Tsareena|66/100
+|-hitcount|p2a: Tsareena|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|60/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p2a: Tsareena|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|65/100
+|
+|switch|p2a: Diggersby|Diggersby, F|100/100|[from]move: U-turn
+|-damage|p2a: Diggersby|94/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Rock Blast|p2a: Diggersby
+|-resisted|p2a: Diggersby
+|-damage|p2a: Diggersby|86/100
+|-resisted|p2a: Diggersby
+|-damage|p2a: Diggersby|79/100
+|-resisted|p2a: Diggersby
+|-damage|p2a: Diggersby|71/100
+|-hitcount|p2a: Diggersby|3
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|move|p2a: Diggersby|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|48/100
+|
+|switch|p2a: Tsareena|Tsareena, F|60/100|[from]move: U-turn
+|move|p1a: Rhyperior|Earthquake|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|35/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Doublade|Doublade, M|100/100
+|-damage|p1a: Doublade|94/100|[from] Stealth Rock
+|move|p2a: Tsareena|Power Whip|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|79/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Tsareena|Knock Off|p1a: Doublade
+|-supereffective|p1a: Doublade
+|-damage|p1a: Doublade|46/100
+|-enditem|p1a: Doublade|Eviolite|[from] move: Knock Off|[of] p2a: Tsareena
+|move|p1a: Doublade|Iron Head|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|-damage|p1a: Reuniclus|88/100|[from] Stealth Rock
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Reuniclus
+|-status|p1a: Reuniclus|brn
+|
+|-heal|p2a: Jellicent|94/100|[from] item: Leftovers
+|-damage|p1a: Reuniclus|82/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Jellicent|Hex|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|38/100 brn
+|move|p1a: Reuniclus|Future Sight|p2a: Jellicent
+|-start|p1a: Reuniclus|move: Future Sight
+|
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p1a: Reuniclus|32/100 brn|[from] brn
+|upkeep
+|turn|13
+|j| Adjective_noun
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|-item|p2a: Jellicent|Leftovers|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Noivern
+|-status|p1a: Noivern|brn
+|
+|-damage|p1a: Noivern|94/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Jellicent
+|-damage|p2a: Jellicent|59/100
+|-unboost|p1a: Noivern|spa|2
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100
+|
+|-end|p2a: Jellicent|move: Future Sight
+|-damage|p2a: Jellicent|45/100
+|-heal|p2a: Jellicent|51/100|[from] item: Leftovers
+|-damage|p1a: Noivern|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|-damage|p1a: Pangoro|94/100|[from] Stealth Rock
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Pangoro
+|-status|p1a: Pangoro|brn
+|
+|-heal|p2a: Jellicent|57/100|[from] item: Leftovers
+|-damage|p1a: Pangoro|88/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Pangoro|Knock Off|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|75/100
+|-enditem|p2a: Weezing|Black Sludge|[from] move: Knock Off|[of] p1a: Pangoro
+|
+|-damage|p1a: Pangoro|82/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Reuniclus|Reuniclus, F|65/100 brn
+|-damage|p1a: Reuniclus|53/100 brn|[from] Stealth Rock
+|switch|p2a: Durant|Durant, F|100/100
+|-damage|p2a: Durant|88/100|[from] Stealth Rock
+|
+|-damage|p1a: Reuniclus|47/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Doublade|Doublade, M|46/100
+|-damage|p1a: Doublade|40/100|[from] Stealth Rock
+|move|p2a: Durant|Iron Head|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|12/100
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Doublade|Shadow Sneak|p2a: Durant
+|-damage|p2a: Durant|65/100
+|move|p2a: Durant|Iron Head|p1a: Doublade
+|-resisted|p1a: Doublade
+|-damage|p1a: Doublade|0 fnt
+|faint|p1a: Doublade
+|
+|upkeep
+|
+|switch|p1a: Noivern|Noivern, M|88/100 brn
+|-item|p2a: Durant|Choice Band|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|turn|20
+|
+|switch|p1a: Rhyperior|Rhyperior, M|48/100
+|-damage|p1a: Rhyperior|42/100|[from] Stealth Rock
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-damage|p2a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Weezing|Weezing-Galar, M|75/100
+|-damage|p2a: Weezing|62/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Swords Dance|p1a: Rhyperior
+|-boost|p1a: Rhyperior|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|56/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|switch|p2a: Diggersby|Diggersby, F|71/100
+|-damage|p2a: Diggersby|65/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Rock Blast|p2a: Diggersby
+|-resisted|p2a: Diggersby
+|-damage|p2a: Diggersby|49/100
+|-resisted|p2a: Diggersby
+|-damage|p2a: Diggersby|35/100
+|-resisted|p2a: Diggersby
+|-damage|p2a: Diggersby|18/100
+|-hitcount|p2a: Diggersby|3
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: Diggersby|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|82/100
+|
+|switch|p2a: Durant|Durant, F|65/100|[from]move: U-turn
+|-damage|p2a: Durant|52/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|76/100|[from] Sandstorm
+|-heal|p1a: Weezing|82/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|switch|p1a: Pangoro|Pangoro, M|82/100 brn
+|-damage|p1a: Pangoro|76/100 brn|[from] Stealth Rock
+|move|p2a: Durant|Iron Head|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|faint|p1a: Pangoro
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Noivern|Noivern, M|88/100 brn
+|-item|p2a: Durant|Choice Band|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|turn|25
+|
+|switch|p1a: Rhyperior|Rhyperior, M|42/100
+|-damage|p1a: Rhyperior|36/100|[from] Stealth Rock
+|switch|p2a: Gigalith|Gigalith, M|94/100
+|-damage|p2a: Gigalith|82/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c| life saver sucuri|oh its cb
+|
+|switch|p2a: Diggersby|Diggersby, F|18/100
+|-damage|p2a: Diggersby|12/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Rock Blast|p2a: Diggersby
+|-resisted|p2a: Diggersby
+|-damage|p2a: Diggersby|4/100
+|-resisted|p2a: Diggersby
+|-damage|p2a: Diggersby|0 fnt
+|-hitcount|p2a: Diggersby|2
+|faint|p2a: Diggersby
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, M|57/100
+|-damage|p2a: Jellicent|45/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p1a: Reuniclus|Reuniclus, F|80/100 brn
+|-damage|p1a: Reuniclus|68/100 brn|[from] Stealth Rock
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|88/100|[from] Sandstorm
+|-damage|p1a: Reuniclus|62/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|95/100|[from] item: Leftovers
+|-damage|p1a: Reuniclus|56/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Jellicent|Hex|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|5/100 brn
+|move|p1a: Reuniclus|Shadow Ball|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|40/100|[from] Sandstorm
+|-damage|p1a: Reuniclus|0 fnt|[from] Sandstorm
+|faint|p1a: Reuniclus
+|-heal|p2a: Jellicent|46/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Noivern|Noivern, M|88/100 brn
+|-item|p2a: Jellicent|Leftovers|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|turn|29
+|
+|switch|p2a: Gigalith|Gigalith, M|88/100
+|-damage|p2a: Gigalith|76/100|[from] Stealth Rock
+|move|p1a: Noivern|Draco Meteor|p2a: Gigalith
+|-damage|p2a: Gigalith|42/100
+|-unboost|p1a: Noivern|spa|2
+|
+|-weather|none
+|-heal|p2a: Gigalith|48/100|[from] item: Leftovers
+|-damage|p1a: Noivern|82/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Rhyperior|Rhyperior, M|36/100
+|-damage|p1a: Rhyperior|30/100|[from] Stealth Rock
+|move|p2a: Gigalith|Stone Edge|p1a: Rhyperior|[miss]
+|-miss|p2a: Gigalith|p1a: Rhyperior
+|
+|-heal|p2a: Gigalith|55/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Weezing|Weezing-Galar, M|56/100
+|-damage|p2a: Weezing|44/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Rock Blast|p2a: Weezing
+|-damage|p2a: Weezing|36/100
+|-damage|p2a: Weezing|28/100
+|-damage|p2a: Weezing|21/100
+|-damage|p2a: Weezing|13/100
+|-damage|p2a: Weezing|4/100
+|-hitcount|p2a: Weezing|5
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Weezing|Weezing-Galar, M|82/100
+|-damage|p1a: Weezing|70/100|[from] Stealth Rock
+|move|p2a: Weezing|Toxic Spikes|p1a: Weezing
+|-sidestart|p1: Adrift and Alone|move: Toxic Spikes
+|
+|-heal|p1a: Weezing|76/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|j| gijion bbq sauce
+|
+|move|p1a: Weezing|Strange Steam|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|-heal|p1a: Weezing|82/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Durant|Durant, F|52/100
+|-damage|p2a: Durant|40/100|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Durant|Iron Head|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Noivern|Noivern, M|82/100 brn
+|-item|p2a: Durant|Choice Band|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|turn|35
+|
+|move|p1a: Noivern|Hurricane|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|-damage|p1a: Noivern|76/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Gigalith|Gigalith, M|55/100
+|-damage|p2a: Gigalith|42/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|36
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Gigalith|[miss]
+|-miss|p1a: Noivern|p2a: Gigalith
+|move|p2a: Gigalith|Stone Edge|p1a: Noivern|[miss]
+|-miss|p2a: Gigalith|p1a: Noivern
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Noivern|70/100 brn|[from] Sandstorm
+|-heal|p2a: Gigalith|48/100|[from] item: Leftovers
+|-damage|p1a: Noivern|64/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|switch|p1a: Rhyperior|Rhyperior, M|30/100
+|-damage|p1a: Rhyperior|23/100|[from] Stealth Rock
+|-status|p1a: Rhyperior|psn
+|move|p2a: Gigalith|Stone Edge|p1a: Rhyperior
+|-resisted|p1a: Rhyperior
+|-crit|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Noivern|Noivern, M|64/100 brn
+|-item|p2a: Gigalith|Leftovers|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|turn|38
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Gigalith
+|-damage|p2a: Gigalith|25/100
+|-unboost|p1a: Noivern|spa|2
+|move|p2a: Gigalith|Stone Edge|p1a: Noivern|[miss]
+|-miss|p2a: Gigalith|p1a: Noivern
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Noivern|58/100 brn|[from] Sandstorm
+|-heal|p2a: Gigalith|31/100|[from] item: Leftovers
+|-damage|p1a: Noivern|52/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Gigalith
+|-damage|p2a: Gigalith|16/100
+|-unboost|p1a: Noivern|spa|2
+|move|p2a: Gigalith|Stone Edge|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|win|gijion relish
+|l|☆Adrift and Alone

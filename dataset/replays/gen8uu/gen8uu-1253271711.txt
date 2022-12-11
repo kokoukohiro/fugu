@@ -1,0 +1,343 @@
+|j|☆polar_geass
+|j|☆luc ario power
+|t:|1609391789
+|player|p1|polar_geass|backersf|1499
+|player|p2|luc ario power|gambler|1364
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Celesteela|
+|poke|p1|Tangrowth, M|
+|poke|p1|Nidoqueen, F|
+|poke|p1|Terrakion|
+|poke|p1|Latias, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Azelf|
+|poke|p2|Diggersby, M|
+|poke|p2|Kommo-o, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Regieleki|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1609391823
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: doug dimma|Weezing-Galar, M|100/100
+|turn|1
+|
+|t:|1609391830
+|move|p1a: Rotom|Trick|p2a: doug dimma
+|-activate|p1a: Rotom|move: Trick|[of] p2a: doug dimma
+|-item|p2a: doug dimma|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: doug dimma|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-damage|p1a: Rotom|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1609391838
+|move|p1a: Rotom|Volt Switch|p2a: doug dimma
+|-damage|p2a: doug dimma|69/100
+|
+|t:|1609391852
+|switch|p1a: Tangrowth|Tangrowth, M|100/100|[from]move: Volt Switch
+|move|p2a: doug dimma|Will-O-Wisp|p1a: Tangrowth|[miss]
+|-miss|p2a: doug dimma|p1a: Tangrowth
+|
+|upkeep
+|turn|3
+|
+|t:|1609391861
+|move|p2a: doug dimma|Will-O-Wisp|p1a: Tangrowth
+|-status|p1a: Tangrowth|brn
+|move|p1a: Tangrowth|Stun Spore|p2a: doug dimma
+|-status|p2a: doug dimma|par
+|
+|-damage|p1a: Tangrowth|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1609391877
+|switch|p2a: gumbo|Azelf|100/100
+|move|p1a: Tangrowth|Stun Spore|p2a: gumbo|[miss]
+|-miss|p1a: Tangrowth|p2a: gumbo
+|
+|-damage|p1a: Tangrowth|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1609391885
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: gumbo|Flamethrower|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|84/100
+|-damage|p2a: gumbo|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1609391895
+|switch|p2a: doug dimma|Weezing-Galar, M|69/100 par
+|move|p1a: Latias|Draco Meteor|p2a: doug dimma
+|-immune|p2a: doug dimma
+|
+|upkeep
+|turn|7
+|
+|t:|1609391902
+|move|p1a: Latias|Psychic|p2a: doug dimma
+|-supereffective|p2a: doug dimma
+|-damage|p2a: doug dimma|0 fnt
+|faint|p2a: doug dimma
+|
+|upkeep
+|
+|t:|1609391927
+|switch|p2a: farmboy|Diggersby, M|100/100
+|turn|8
+|
+|t:|1609391935
+|move|p1a: Latias|Draco Meteor|p2a: farmboy
+|-damage|p2a: farmboy|29/100
+|-unboost|p1a: Latias|spa|2
+|move|p2a: farmboy|U-turn|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|8/100
+|
+|t:|1609391948
+|switch|p2a: how|Regieleki|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|9
+|
+|t:|1609391954
+|switch|p1a: Nidoqueen|Nidoqueen, F|100/100
+|move|p2a: how|Extreme Speed|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|71/100
+|-damage|p2a: how|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1609391994
+|move|p2a: how|Explosion|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p2a: how
+|faint|p1a: Nidoqueen
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by luc ario power)
+|
+|t:|1609392028
+|switch|p2a: gumbo|Azelf|91/100
+|switch|p1a: Rotom|Rotom-Wash|95/100 brn
+|turn|11
+|
+|t:|1609392043
+|move|p2a: gumbo|Psyshock|p1a: Rotom
+|-damage|p1a: Rotom|31/100 brn
+|-damage|p2a: gumbo|81/100|[from] item: Life Orb
+|move|p1a: Rotom|Hydro Pump|p2a: gumbo
+|-damage|p2a: gumbo|7/100
+|
+|-heal|p1a: Rotom|37/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|31/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1609392058
+|move|p2a: gumbo|Dazzling Gleam|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: gumbo|0 fnt|[from] item: Life Orb
+|faint|p1a: Rotom
+|faint|p2a: gumbo
+|
+|upkeep
+|
+|t:|1609392079
+|switch|p2a: farmboy|Diggersby, M|29/100
+|switch|p1a: Terrakion|Terrakion|100/100
+|turn|13
+|
+|t:|1609392087
+|move|p1a: Terrakion|Close Combat|p2a: farmboy
+|-supereffective|p2a: farmboy
+|-damage|p2a: farmboy|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: farmboy
+|
+|upkeep
+|
+|t:|1609392089
+|switch|p2a: Skreeee!|Kommo-o, M|100/100
+|turn|14
+|
+|t:|1609392095
+|move|p1a: Terrakion|Close Combat|p2a: Skreeee!
+|-damage|p2a: Skreeee!|10/100
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|-enditem|p2a: Skreeee!|Figy Berry|[eat]
+|-heal|p2a: Skreeee!|43/100|[from] item: Figy Berry
+|move|p2a: Skreeee!|Clangorous Soul|p2a: Skreeee!
+|-boost|p2a: Skreeee!|atk|1
+|-boost|p2a: Skreeee!|def|1
+|-boost|p2a: Skreeee!|spa|1
+|-boost|p2a: Skreeee!|spd|1
+|-boost|p2a: Skreeee!|spe|1
+|-damage|p2a: Skreeee!|10/100
+|
+|upkeep
+|turn|15
+|
+|t:|1609392113
+|switch|p1a: Tangrowth|Tangrowth, M|100/100 brn
+|move|p2a: Skreeee!|Drain Punch|p1a: Tangrowth
+|-crit|p1a: Tangrowth
+|-damage|p1a: Tangrowth|58/100 brn
+|-heal|p2a: Skreeee!|39/100|[from] drain|[of] p1a: Tangrowth
+|-damage|p2a: Skreeee!|23/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|-damage|p1a: Tangrowth|52/100 brn|[from] brn
+|upkeep
+|turn|16
+|inactive|luc ario power has 120 seconds left.
+|inactive|luc ario power has 90 seconds left.
+|
+|t:|1609392175
+|switch|p1a: Latias|Latias, F|8/100
+|move|p2a: Skreeee!|Drain Punch|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|-heal|p2a: Skreeee!|27/100|[from] drain|[of] p1a: Latias
+|faint|p1a: Latias
+|
+|upkeep
+|
+|t:|1609392183
+|switch|p1a: Tangrowth|Tangrowth, M|85/100 brn
+|turn|17
+|
+|t:|1609392191
+|move|p2a: Skreeee!|Drain Punch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|59/100 brn
+|-heal|p2a: Skreeee!|44/100|[from] drain|[of] p1a: Tangrowth
+|-damage|p2a: Skreeee!|28/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|move|p1a: Tangrowth|Stun Spore|p2a: Skreeee!
+|-status|p2a: Skreeee!|par
+|
+|-damage|p1a: Tangrowth|53/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1609392202
+|cant|p2a: Skreeee!|par
+|move|p1a: Tangrowth|Giga Drain|p2a: Skreeee!
+|-resisted|p2a: Skreeee!
+|-damage|p2a: Skreeee!|18/100 par
+|-heal|p1a: Tangrowth|57/100 brn|[from] drain|[of] p2a: Skreeee!
+|
+|-damage|p1a: Tangrowth|51/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1609392220
+|cant|p2a: Skreeee!|par
+|move|p1a: Tangrowth|Giga Drain|p2a: Skreeee!
+|-resisted|p2a: Skreeee!
+|-damage|p2a: Skreeee!|7/100 par
+|-heal|p1a: Tangrowth|55/100 brn|[from] drain|[of] p2a: Skreeee!
+|
+|-damage|p1a: Tangrowth|49/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|luc ario power has 120 seconds left.
+|
+|t:|1609392244
+|cant|p2a: Skreeee!|par
+|move|p1a: Tangrowth|Giga Drain|p2a: Skreeee!
+|-resisted|p2a: Skreeee!
+|-damage|p2a: Skreeee!|0 fnt
+|-heal|p1a: Tangrowth|51/100 brn|[from] drain|[of] p2a: Skreeee!
+|faint|p2a: Skreeee!
+|
+|-damage|p1a: Tangrowth|45/100 brn|[from] brn
+|upkeep
+|c|☆luc ario power|bruh
+|
+|t:|1609392260
+|switch|p2a: king me!|Bisharp, F|100/100
+|turn|21
+|
+|t:|1609392266
+|move|p2a: king me!|Swords Dance|p2a: king me!
+|-boost|p2a: king me!|atk|2
+|move|p1a: Tangrowth|Stun Spore|p2a: king me!
+|-status|p2a: king me!|par
+|
+|-damage|p1a: Tangrowth|39/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1609392273
+|move|p1a: Tangrowth|Knock Off|p2a: king me!
+|-resisted|p2a: king me!
+|-damage|p2a: king me!|94/100 par
+|-enditem|p2a: king me!|Life Orb|[from] move: Knock Off|[of] p1a: Tangrowth
+|move|p2a: king me!|Swords Dance|p2a: king me!
+|-boost|p2a: king me!|atk|2
+|
+|-damage|p1a: Tangrowth|32/100 brn|[from] brn
+|upkeep
+|turn|23
+|inactive|luc ario power has 120 seconds left.
+|
+|t:|1609392285
+|switch|p1a: Celesteela|Celesteela|100/100
+|cant|p2a: king me!|par
+|
+|upkeep
+|turn|24
+|inactive|luc ario power has 120 seconds left.
+|
+|t:|1609392293
+|move|p1a: Celesteela|Leech Seed|p2a: king me!
+|-start|p2a: king me!|move: Leech Seed
+|move|p2a: king me!|Knock Off|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|-enditem|p1a: Celesteela|Leftovers|[from] move: Knock Off|[of] p2a: king me!
+|faint|p1a: Celesteela
+|
+|upkeep
+|
+|t:|1609392300
+|switch|p1a: Terrakion|Terrakion|100/100
+|turn|25
+|
+|t:|1609392303
+|cant|p2a: king me!|par
+|move|p1a: Terrakion|Close Combat|p2a: king me!
+|-supereffective|p2a: king me!
+|-damage|p2a: king me!|0 fnt
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|faint|p2a: king me!
+|
+|win|polar_geass
+|raw|polar_geass's rating: 1500 &rarr; <strong>1512</strong><br />(+12 for winning)
+|raw|luc ario power's rating: 1364 &rarr; <strong>1351</strong><br />(-13 for losing)

@@ -1,0 +1,157 @@
+|j|☆Lunar Neo
+|j|☆sun520
+|player|p1|Lunar Neo|248|1649
+|player|p2|sun520|153|1553
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Mamoswine, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Clefable, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Toxtricity, F|
+|poke|p2|Hippowdon, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Sirfetch'd, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Duraludon, F|
+|poke|p2|Togekiss, F|
+|teampreview
+|j| psaro2009
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|switch|p2a: Sirfetch'd|Sirfetch'd, M|100/100
+|turn|1
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Sirfetch'd|Close Combat|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|56/100
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|
+|-heal|p1a: Clefable|62/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Duraludon|Duraludon, F|100/100
+|move|p1a: Clefable|Flamethrower|p2a: Duraludon
+|-damage|p2a: Duraludon|75/100
+|
+|-heal|p1a: Clefable|68/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Duraludon|Flash Cannon|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|86/100
+|
+|-heal|p1a: Aegislash|92/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|l| psaro2009
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sun520)
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-crit|p1a: Aegislash
+|-damage|p1a: Aegislash|32/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Duraludon
+|-damage|p2a: Duraludon|12/100
+|
+|-heal|p1a: Aegislash|38/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Duraludon|Dark Pulse|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p1a: Aegislash|44/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Duraludon|Draco Meteor|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|18/100
+|-unboost|p2a: Duraludon|spa|2
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|faint|p2a: Duraludon
+|
+|-heal|p1a: Aegislash|24/100|[from] item: Leftovers
+|upkeep
+|inactive|sun520 has 120 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|turn|7
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|upkeep
+|turn|8
+|j| psaro2009
+|j| gare23limit
+|
+|-start|p2a: Excadrill|Dynamax
+|-heal|p2a: Excadrill|100/100|[silent]
+|move|p2a: Excadrill|Max Rockfall|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-weather|Sandstorm
+|-damage|p2a: Excadrill|96/100|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|9
+|
+|-start|p1a: Hydreigon|Dynamax
+|-heal|p1a: Hydreigon|100/100|[silent]
+|move|p1a: Hydreigon|Max Guard|p1a: Hydreigon
+|-singleturn|p1a: Hydreigon|Max Guard
+|move|p2a: Excadrill|Max Steelspike|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Max Guard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|97/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Excadrill|Max Steelspike|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-boost|p2a: Excadrill|def|1
+|-damage|p2a: Excadrill|91/100|[from] item: Life Orb
+|faint|p1a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|-end|p2a: Excadrill|Dynamax
+|-heal|p2a: Excadrill|91/100|[silent]
+|upkeep
+|-message|Lunar Neo forfeited.
+|
+|win|sun520
+|l|☆Lunar Neo
+||Ladder (probably) updated, but score could not be retrieved (Response not received).
+|error|Unexpected response null from ladder server.

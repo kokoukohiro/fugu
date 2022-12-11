@@ -1,0 +1,96 @@
+|j|☆adhadda
+|j|☆Hiddenlake
+|player|p1|adhadda|102|1393
+|player|p2|Hiddenlake|fisherman-gen4|1381
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Shedinja|
+|poke|p1|Dubwool, F|
+|poke|p1|Mawile, M|
+|poke|p1|Mr. Mime, M|
+|poke|p1|Hitmontop, M|
+|poke|p1|Mareanie, M|
+|poke|p2|Crustle, F|
+|poke|p2|Fletchinder, F|
+|poke|p2|Pawniard, M|
+|poke|p2|Dusknoir, M|
+|poke|p2|Mawile, M|
+|poke|p2|Seaking, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mawile|Mawile, M|100/100
+|switch|p2a: Crustle|Crustle, F|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Crustle|atk|1
+|turn|1
+|
+|move|p2a: Crustle|Stealth Rock|p1a: Mawile
+|-sidestart|p1: adhadda|move: Stealth Rock
+|move|p1a: Mawile|Iron Head|p2a: Crustle
+|-supereffective|p2a: Crustle
+|-damage|p2a: Crustle|53/100
+|-ability|p2a: Crustle|Weak Armor|boost
+|-unboost|p2a: Crustle|def|1
+|-boost|p2a: Crustle|spe|2
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Crustle|Spikes|p1a: Mawile
+|-sidestart|p1: adhadda|Spikes
+|move|p1a: Mawile|Stealth Rock|p2a: Crustle
+|-sidestart|p2: Hiddenlake|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Crustle|Spikes|p1a: Mawile
+|-sidestart|p1: adhadda|Spikes
+|move|p1a: Mawile|Iron Head|p2a: Crustle
+|-supereffective|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|upkeep
+|
+|switch|p2a: Dusknoir|Dusknoir, M|100/100
+|-damage|p2a: Dusknoir|88/100|[from] Stealth Rock
+|-ability|p2a: Dusknoir|Pressure
+|turn|4
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|-damage|p1a: Mareanie|88/100|[from] Stealth Rock
+|-damage|p1a: Mareanie|72/100|[from] Spikes
+|move|p2a: Dusknoir|Earthquake|p1a: Mareanie
+|-supereffective|p1a: Mareanie
+|-damage|p1a: Mareanie|6/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Shedinja
+|-supereffective|p1a: Shedinja
+|-damage|p1a: Shedinja|0 fnt
+|faint|p1a: Shedinja
+|
+|upkeep
+|-message|adhadda forfeited.
+|
+|win|Hiddenlake
+|l|☆adhadda
+|raw|adhadda's rating: 1393 &rarr; <strong>1372</strong><br />(-21 for losing)
+|raw|Hiddenlake's rating: 1381 &rarr; <strong>1402</strong><br />(+21 for winning)

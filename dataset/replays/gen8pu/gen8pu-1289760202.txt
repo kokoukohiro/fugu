@@ -1,0 +1,285 @@
+|j|☆King of Dinosaurs
+|j|☆mefrog
+|t:|1614281346
+|player|p1|King of Dinosaurs|hiker-gen4|1354
+|player|p2|mefrog|pokefan-gen4|1456
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Gigalith, F|
+|poke|p1|Talonflame, M|
+|poke|p1|Lanturn, F|
+|poke|p1|Exeggutor-Alola, M|
+|poke|p1|Aromatisse, M|
+|poke|p1|Weezing, F|
+|poke|p2|Omastar, F|
+|poke|p2|Dugtrio, M|
+|poke|p2|Charizard, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Poliwrath, F|
+|poke|p2|Silvally-*|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by King of Dinosaurs)
+|
+|t:|1614281365
+|start
+|switch|p1a: Weezing|Weezing, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|1
+|
+|t:|1614281380
+|move|p2a: Dugtrio|Stealth Rock|p1a: Weezing
+|-sidestart|p1: King of Dinosaurs|move: Stealth Rock
+|move|p1a: Weezing|Toxic Spikes|p2a: Dugtrio
+|-sidestart|p2: mefrog|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1614281390
+|move|p2a: Dugtrio|Memento|p1a: Weezing
+|-unboost|p1a: Weezing|atk|2
+|-unboost|p1a: Weezing|spa|2
+|faint|p2a: Dugtrio
+|move|p1a: Weezing|Toxic Spikes|p2: Dugtrio
+|-sidestart|p2: mefrog|move: Toxic Spikes
+|
+|upkeep
+|
+|t:|1614281393
+|switch|p2a: Charizard|Charizard, F|100/100
+|turn|3
+|
+|t:|1614281398
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|-damage|p1a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Charizard|Belly Drum|p2a: Charizard
+|-damage|p2a: Charizard|51/100
+|-setboost|p2a: Charizard|atk|6|[from] move: Belly Drum
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|45/100|[from] Sandstorm
+|-heal|p1a: Gigalith|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1614281407
+|switch|p1a: Weezing|Weezing, F|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: Charizard|Earthquake|p1a: Weezing
+|-immune|p1a: Weezing|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|39/100|[from] Sandstorm
+|-damage|p1a: Weezing|82/100|[from] Sandstorm
+|-heal|p1a: Weezing|88/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1614281411
+|move|p2a: Charizard|Dual Wingbeat|p1a: Weezing
+|-damage|p1a: Weezing|46/100
+|-damage|p1a: Weezing|6/100
+|-hitcount|p1a: Weezing|2
+|move|p1a: Weezing|Sludge Bomb|p2a: Charizard
+|-damage|p2a: Charizard|5/100
+|-status|p2a: Charizard|psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] Sandstorm
+|-damage|p1a: Weezing|0 fnt|[from] Sandstorm
+|faint|p2a: Charizard
+|faint|p1a: Weezing
+|upkeep
+|
+|t:|1614281435
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|switch|p1a: Lanturn|Lanturn, F|100/100
+|-status|p2a: Ribombee|tox
+|-damage|p1a: Lanturn|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1614281448
+|move|p2a: Ribombee|Light Screen|p2a: Ribombee
+|-sidestart|p2: mefrog|move: Light Screen
+|move|p1a: Lanturn|Volt Switch|p2a: Ribombee
+|-damage|p2a: Ribombee|87/100 tox
+|
+|t:|1614281452
+|switch|p1a: Talonflame|Talonflame, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Talonflame|94/100|[from] Sandstorm
+|-damage|p2a: Ribombee|81/100 tox|[from] Sandstorm
+|-damage|p2a: Ribombee|74/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1614281459
+|move|p1a: Talonflame|Brave Bird|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-damage|p1a: Talonflame|72/100|[from] Recoil
+|faint|p2a: Ribombee
+|
+|-weather|none
+|upkeep
+|
+|t:|1614281464
+|switch|p2a: Omastar|Omastar, F|100/100
+|-status|p2a: Omastar|tox
+|turn|8
+|
+|t:|1614281467
+|switch|p1a: Lanturn|Lanturn, F|88/100
+|-damage|p1a: Lanturn|75/100|[from] Stealth Rock
+|move|p2a: Omastar|Shell Smash|p2a: Omastar
+|-unboost|p2a: Omastar|def|1
+|-unboost|p2a: Omastar|spd|1
+|-boost|p2a: Omastar|atk|2
+|-boost|p2a: Omastar|spa|2
+|-boost|p2a: Omastar|spe|2
+|
+|-heal|p1a: Lanturn|82/100|[from] item: Leftovers
+|-damage|p2a: Omastar|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1614281472
+|move|p1a: Lanturn|Protect|p1a: Lanturn
+|-singleturn|p1a: Lanturn|Protect
+|move|p2a: Omastar|Meteor Beam||[still]
+|-prepare|p2a: Omastar|Meteor Beam
+|-boost|p2a: Omastar|spa|1
+|-enditem|p2a: Omastar|Power Herb
+|-anim|p2a: Omastar|Meteor Beam|p1a: Lanturn
+|-activate|p1a: Lanturn|move: Protect
+|
+|-heal|p1a: Lanturn|88/100|[from] item: Leftovers
+|-damage|p2a: Omastar|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1614281479
+|move|p2a: Omastar|Surf|p1a: Lanturn
+|-resisted|p1a: Lanturn
+|-damage|p1a: Lanturn|45/100
+|move|p1a: Lanturn|Volt Switch|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|36/100 tox
+|
+|t:|1614281489
+|switch|p1a: Aromatisse|Aromatisse, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Aromatisse|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Aromatisse|94/100|[from] item: Leftovers
+|-damage|p2a: Omastar|18/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1614281498
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Omastar|Surf|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|100/100|[from] item: Leftovers
+|-damage|p2a: Omastar|0 fnt|[from] psn
+|faint|p2a: Omastar
+|upkeep
+|
+|t:|1614281502
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|-status|p2a: Silvally|tox
+|turn|12
+|
+|t:|1614281506
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|move|p1a: Aromatisse|Moonblast|p2a: Silvally
+|-damage|p2a: Silvally|84/100 tox
+|
+|-damage|p2a: Silvally|78/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1614281511
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-damage|p2a: Silvally|66/100 tox|[from] psn
+|-sideend|p2: mefrog|move: Light Screen
+|upkeep
+|turn|14
+|
+|t:|1614281514
+|move|p2a: Silvally|Multi-Attack|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|-damage|p2a: Silvally|48/100 tox|[from] psn
+|upkeep
+|
+|t:|1614281517
+|switch|p1a: Talonflame|Talonflame, M|72/100
+|turn|15
+|
+|t:|1614281521
+|move|p1a: Talonflame|Brave Bird|p2a: Silvally
+|-damage|p2a: Silvally|7/100 tox
+|-damage|p1a: Talonflame|60/100|[from] Recoil
+|move|p2a: Silvally|Psychic Fangs|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|-damage|p2a: Silvally|0 fnt|[from] psn
+|faint|p2a: Silvally
+|upkeep
+|
+|t:|1614281525
+|switch|p1a: Exeggutor|Exeggutor-Alola, M|100/100
+|switch|p2a: Poliwrath|Poliwrath, F|100/100
+|-status|p2a: Poliwrath|tox
+|-damage|p1a: Exeggutor|88/100|[from] Stealth Rock
+|-item|p2a: Poliwrath|Salac Berry|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|turn|16
+|
+|t:|1614281528
+|move|p2a: Poliwrath|Substitute|p2a: Poliwrath
+|-start|p2a: Poliwrath|Substitute
+|-damage|p2a: Poliwrath|76/100 tox
+|move|p1a: Exeggutor|Giga Drain|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-end|p2a: Poliwrath|Substitute
+|-heal|p1a: Exeggutor|99/100|[from] drain|[of] p2a: Poliwrath
+|
+|-damage|p2a: Poliwrath|69/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1614281531
+|move|p2a: Poliwrath|Liquidation|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|90/100
+|move|p1a: Exeggutor|Giga Drain|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|-heal|p1a: Exeggutor|100/100|[from] drain|[of] p2a: Poliwrath
+|faint|p2a: Poliwrath
+|
+|win|King of Dinosaurs
+|l|☆mefrog
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

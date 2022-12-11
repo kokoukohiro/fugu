@@ -1,0 +1,518 @@
+|j|☆IWSK
+|j|☆KeithanRunner
+|player|p1|IWSK|265|1495
+|player|p2|KeithanRunner|2|1355
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Gliscor, F|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Chansey, F|
+|poke|p1|Arceus-*|
+|poke|p1|Toxapex, M|
+|poke|p1|Ferrothorn, F|
+|poke|p2|Palkia|
+|poke|p2|Giratina|
+|poke|p2|Ho-Oh|
+|poke|p2|Mewtwo|
+|poke|p2|Zekrom|
+|poke|p2|Metagross|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KeithanRunner)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|turn|1
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|86/100
+|
+|-heal|p1a: Toxapex|92/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Mewtwo|Mewtwo|100/100
+|-ability|p2a: Mewtwo|Pressure
+|move|p1a: Toxapex|Toxic|p2a: Mewtwo
+|-status|p2a: Mewtwo|tox
+|
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p2a: Mewtwo|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p2a: Mewtwo|Calm Mind|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spa|1
+|-boost|p2a: Mewtwo|spd|1
+|
+|-heal|p2a: Mewtwo|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Mewtwo|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|42/100
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Mewtwo
+|-damage|p2a: Mewtwo|47/100 tox
+|
+|-heal|p2a: Mewtwo|53/100 tox|[from] item: Leftovers
+|-damage|p2a: Mewtwo|35/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Mewtwo|Flamethrower|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|81/100
+|
+|-heal|p2a: Mewtwo|41/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|87/100|[from] item: Black Sludge
+|-damage|p2a: Mewtwo|17/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|42/100
+|move|p2a: Mewtwo|Psystrike|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|33/100
+|
+|-heal|p2a: Mewtwo|23/100 tox|[from] item: Leftovers
+|-damage|p2a: Mewtwo|0 fnt|[from] psn
+|faint|p2a: Mewtwo
+|upkeep
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|turn|7
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Ho-Oh|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|62/100
+|
+|-heal|p1a: Toxapex|68/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p2a: Ho-Oh|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|30/100
+|move|p1a: Toxapex|Toxic|p2a: Ho-Oh
+|-status|p2a: Ho-Oh|tox
+|
+|-heal|p1a: Toxapex|37/100|[from] item: Black Sludge
+|-damage|p2a: Ho-Oh|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Gliscor
+|-damage|p1a: Gliscor|63/100
+|-status|p1a: Gliscor|brn
+|
+|-heal|p2a: Ho-Oh|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Gliscor|57/100 brn|[from] brn
+|-damage|p2a: Ho-Oh|88/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|32/100 brn
+|move|p2a: Ho-Oh|Brave Bird|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|-damage|p2a: Ho-Oh|80/100 tox|[from] Recoil|[of] p1a: Gliscor
+|
+|-heal|p2a: Ho-Oh|86/100 tox|[from] item: Leftovers
+|-damage|p1a: Gliscor|26/100 brn|[from] brn
+|-damage|p2a: Ho-Oh|68/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Ho-Oh|Brave Bird|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p2a: Ho-Oh|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Gliscor|20/100 brn|[from] brn
+|-damage|p2a: Ho-Oh|50/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Toxapex|Toxapex, M|70/100
+|move|p2a: Ho-Oh|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|36/100
+|-damage|p2a: Ho-Oh|40/100 tox|[from] Recoil
+|
+|-heal|p2a: Ho-Oh|46/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|42/100|[from] item: Black Sludge
+|-damage|p2a: Ho-Oh|16/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p1a: Gliscor|Gliscor, F|20/100 brn
+|move|p2a: Ho-Oh|Brave Bird|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-damage|p2a: Ho-Oh|10/100 tox|[from] Recoil
+|faint|p1a: Gliscor
+|
+|-heal|p2a: Ho-Oh|16/100 tox|[from] item: Leftovers
+|-damage|p2a: Ho-Oh|0 fnt|[from] psn
+|faint|p2a: Ho-Oh
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, M|75/100
+|switch|p2a: Palkia|Palkia|100/100
+|-ability|p2a: Palkia|Pressure
+|turn|14
+|
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Toxapex|Toxic|p2a: Metagross
+|-immune|p2a: Metagross
+|
+|-heal|p1a: Toxapex|82/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|detailschange|p2a: Metagross|Metagross-Mega
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|move|p2a: Metagross|Agility|p2a: Metagross
+|-boost|p2a: Metagross|spe|2
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Metagross|Power-Up Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|70/100
+|-boost|p2a: Metagross|atk|1
+|-damage|p2a: Metagross|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Metagross
+|-start|p2a: Metagross|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|-damage|p2a: Metagross|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|88/100|[silent]
+|upkeep
+|turn|17
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Metagross|Power-Up Punch|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|92/100
+|-boost|p2a: Metagross|atk|1
+|
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p2a: Metagross|63/100|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|100/100|[silent]
+|upkeep
+|turn|18
+|
+|switch|p2a: Zekrom|Zekrom|100/100
+|-ability|p2a: Zekrom|Teravolt
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|88/100
+|-start|p2a: Zekrom|Dynamax
+|-heal|p2a: Zekrom|100/100|[silent]
+|move|p2a: Zekrom|Max Lightning|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100
+|-fieldstart|move: Electric Terrain
+|
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Zekrom|Max Wyrmwind|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|41/100
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Zekrom|[miss]
+|-miss|p1a: Ferrothorn|p2a: Zekrom
+|
+|-heal|p1a: Ferrothorn|47/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Zekrom|Max Lightning|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|11/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Zekrom
+|-start|p2a: Zekrom|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|18/100|[from] item: Leftovers
+|-damage|p2a: Zekrom|94/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|31/100|[silent]
+|-end|p2a: Zekrom|Dynamax
+|-heal|p2a: Zekrom|94/100|[silent]
+|upkeep
+|turn|22
+|
+|switch|p2a: Giratina|Giratina|100/100
+|-ability|p2a: Giratina|Pressure
+|move|p1a: Ferrothorn|Knock Off|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|85/100
+|-enditem|p2a: Giratina|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|37/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Giratina|Earth Power|p1a: Chansey
+|-damage|p1a: Chansey|95/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|24
+|
+|switch|p2a: Metagross|Metagross-Mega|63/100
+|move|p1a: Chansey|Toxic|p2a: Metagross
+|-immune|p2a: Metagross
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Metagross|Power-Up Punch|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|96/100
+|-boost|p2a: Metagross|atk|1
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|move|p2a: Metagross|Meteor Mash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|72/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|78/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|move|p2a: Metagross|Power-Up Punch|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|74/100
+|-boost|p2a: Metagross|atk|1
+|move|p1a: Toxapex|Scald|p2a: Metagross
+|-damage|p2a: Metagross|51/100
+|
+|-heal|p1a: Toxapex|80/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|switch|p2a: Giratina|Giratina|85/100
+|-ability|p2a: Giratina|Pressure
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|86/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|move|p2a: Giratina|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|41/100
+|move|p1a: Toxapex|Toxic|p2a: Giratina
+|-status|p2a: Giratina|tox
+|
+|-heal|p1a: Toxapex|47/100|[from] item: Black Sludge
+|-damage|p2a: Giratina|79/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|switch|p1a: Chansey|Chansey, F|95/100
+|move|p2a: Giratina|Earth Power|p1a: Chansey
+|-damage|p1a: Chansey|88/100
+|
+|-damage|p2a: Giratina|67/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|move|p2a: Giratina|Dragon Pulse|p1a: Chansey
+|-damage|p1a: Chansey|81/100
+|move|p1a: Chansey|Seismic Toss|p2a: Giratina
+|-immune|p2a: Giratina
+|
+|-damage|p2a: Giratina|48/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p2a: Zekrom|Zekrom|94/100
+|-ability|p2a: Zekrom|Teravolt
+|move|p1a: Chansey|Seismic Toss|p2a: Zekrom
+|-damage|p2a: Zekrom|67/100
+|
+|-heal|p2a: Zekrom|73/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|37/100
+|move|p2a: Zekrom|Hone Claws|p2a: Zekrom
+|-boost|p2a: Zekrom|atk|1
+|-boost|p2a: Zekrom|accuracy|1
+|
+|-heal|p2a: Zekrom|80/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|43/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Zekrom|Crunch|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|14/100
+|-damage|p2a: Zekrom|67/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Zekrom
+|-start|p2a: Zekrom|move: Leech Seed
+|
+|-heal|p2a: Zekrom|73/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|20/100|[from] item: Leftovers
+|-damage|p2a: Zekrom|61/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|33/100|[silent]
+|upkeep
+|turn|35
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|33/100
+|move|p2a: Zekrom|Bolt Strike|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|-damage|p2a: Zekrom|45/100|[from] item: Rocky Helmet|[of] p1a: Necrozma
+|faint|p1a: Necrozma
+|
+|-heal|p2a: Zekrom|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|33/100
+|turn|36
+|
+|move|p2a: Zekrom|Bolt Strike|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Zekrom|38/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Zekrom|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Arceus|Arceus|100/100
+|turn|37
+|
+|move|p1a: Arceus|Recover||[still]
+|-fail|p1a: Arceus|heal
+|move|p2a: Zekrom|Bolt Strike|p1a: Arceus
+|-damage|p1a: Arceus|36/100
+|
+|-heal|p2a: Zekrom|51/100|[from] item: Leftovers
+|-damage|p2a: Zekrom|38/100|[from] Leech Seed|[of] p1a: Arceus
+|-heal|p1a: Arceus|47/100|[silent]
+|upkeep
+|turn|38
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|97/100
+|move|p2a: Zekrom|Bolt Strike|p1a: Arceus
+|-damage|p1a: Arceus|34/100
+|
+|-heal|p2a: Zekrom|45/100|[from] item: Leftovers
+|-damage|p2a: Zekrom|32/100|[from] Leech Seed|[of] p1a: Arceus
+|-heal|p1a: Arceus|44/100|[silent]
+|upkeep
+|turn|39
+|
+|switch|p2a: Palkia|Palkia|100/100
+|-ability|p2a: Palkia|Pressure
+|move|p1a: Arceus|Extreme Speed|p2a: Palkia
+|-damage|p2a: Palkia|68/100
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: Chansey|Chansey, F|81/100
+|move|p2a: Palkia|Aura Sphere|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|67/100
+|
+|upkeep
+|turn|41
+|
+|switch|p2a: Metagross|Metagross-Mega|51/100
+|move|p1a: Chansey|Toxic|p2a: Metagross
+|-immune|p2a: Metagross
+|
+|upkeep
+|turn|42
+|
+|switch|p1a: Toxapex|Toxapex, M|80/100
+|move|p2a: Metagross|Power-Up Punch|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100
+|-boost|p2a: Metagross|atk|1
+|
+|-heal|p1a: Toxapex|81/100|[from] item: Black Sludge
+|upkeep
+|turn|43
+|
+|move|p2a: Metagross|Meteor Mash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100
+|move|p1a: Toxapex|Scald|p2a: Metagross
+|-damage|p2a: Metagross|38/100
+|-status|p2a: Metagross|brn
+|
+|-heal|p1a: Toxapex|61/100|[from] item: Black Sludge
+|-damage|p2a: Metagross|32/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p2a: Metagross|Meteor Mash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|47/100
+|-boost|p2a: Metagross|atk|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|97/100
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Metagross|26/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|switch|p2a: Zekrom|Zekrom|32/100
+|-ability|p2a: Zekrom|Teravolt
+|switch|p1a: Arceus|Arceus|44/100
+|
+|-heal|p2a: Zekrom|38/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Arceus|Extreme Speed|p2a: Zekrom
+|-damage|p2a: Zekrom|14/100
+|move|p2a: Zekrom|Bolt Strike|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|-heal|p2a: Zekrom|20/100|[from] item: Leftovers
+|upkeep
+|-message|IWSK forfeited.
+|
+|win|KeithanRunner
+|l|☆IWSK
+|raw|IWSK's rating: 1495 &rarr; <strong>1469</strong><br />(-26 for losing)
+|raw|KeithanRunner's rating: 1375 &rarr; <strong>1401</strong><br />(+26 for winning)

@@ -1,0 +1,880 @@
+|j|☆minimax_ai
+|j|☆legitteambuilder
+|t:|1661757125
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1595
+|player|p2|legitteambuilder|koga|1615
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Kartana|
+|poke|p2|Nidoking, M|
+|poke|p2|Buzzwole|
+|poke|p2|Blissey, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Slowbro, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by legitteambuilder)
+|c|☆minimax_ai|hf
+|inactive|minimax_ai also wants the timer to be on.
+|
+|t:|1661757135
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|100/100
+|turn|1
+|
+|t:|1661757147
+|move|p2a: Attila|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|96/100
+|
+|t:|1661757149
+|switch|p2a: off da perc|Slowbro, F|100/100|[from]move: U-turn
+|move|p1a: Melmetal|Ice Punch|p2a: off da perc
+|-resisted|p2a: off da perc
+|-damage|p2a: off da perc|90/100
+|-damage|p1a: Melmetal|80/100|[from] item: Rocky Helmet|[of] p2a: off da perc
+|
+|upkeep
+|turn|2
+|
+|t:|1661757157
+|switch|p2a: Dragqueen|Nidoking, M, shiny|100/100
+|move|p1a: Melmetal|Thunder Punch|p2a: Dragqueen
+|-immune|p2a: Dragqueen
+|
+|upkeep
+|turn|3
+|
+|t:|1661757161
+|move|p2a: Dragqueen|Earth Power|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|5/100
+|move|p1a: Melmetal|Ice Punch|p2a: Dragqueen
+|-supereffective|p2a: Dragqueen
+|-damage|p2a: Dragqueen|7/100
+|
+|upkeep
+|turn|4
+|j| sgvh
+|
+|t:|1661757166
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Dragqueen|Ice Beam|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|77/100
+|
+|-heal|p1a: rotomwash|84/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1661757173
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|87/100
+|
+|-heal|p1a: rotomwash|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1661757176
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|move|p2a: Blissey|Stealth Rock|p1a: rotomwash
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-heal|p1a: rotomwash|96/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1661757178
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|61/100
+|move|p2a: Blissey|Teleport|p2a: Blissey
+|
+|t:|1661757182
+|switch|p2a: KitCut|Kartana, shiny|100/100|[from]move: Teleport
+|
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1661757190
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: KitCut|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|54/100
+|-damage|p2a: KitCut|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: KitCut
+|
+|upkeep
+|turn|9
+|
+|t:|1661757195
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|100/100
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p1a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Attila|atk|1
+|
+|-heal|p1a: landorustherian|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1661757197
+|move|p2a: Attila|Knock Off|p1a: landorustherian
+|-damage|p1a: landorustherian|82/100
+|-enditem|p1a: landorustherian|Leftovers|[from] move: Knock Off|[of] p2a: Attila
+|move|p1a: landorustherian|Defog|p2a: Attila
+|-unboost|p2a: Attila|evasion|1
+|-sideend|p1: minimax_ai|Stealth Rock|[from] move: Defog|[of] p1a: landorustherian
+|
+|upkeep
+|turn|11
+|
+|t:|1661757208
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Attila|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|91/100
+|
+|t:|1661757212
+|switch|p2a: KitCut|Kartana, shiny|84/100|[from]move: U-turn
+|
+|-heal|p1a: rotomwash|97/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1661757214
+|switch|p1a: Tangrowth|Tangrowth, M|87/100
+|move|p2a: KitCut|Leaf Blade|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|64/100
+|
+|upkeep
+|turn|13
+|
+|t:|1661757216
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|100/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Attila
+|-resisted|p2a: Attila
+|-damage|p2a: Attila|85/100
+|-heal|p1a: Tangrowth|71/100|[from] drain|[of] p2a: Attila
+|
+|upkeep
+|turn|14
+|
+|t:|1661757219
+|switch|p1a: landorustherian|Landorus-Therian, M|82/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Attila|atk|1
+|move|p2a: Attila|U-turn|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|77/100
+|
+|t:|1661757222
+|switch|p2a: Dragqueen|Nidoking, M, shiny|7/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+|
+|t:|1661757228
+|switch|p1a: rotomwash|Rotom-Wash|97/100
+|move|p2a: Dragqueen|Sludge Wave|p1a: rotomwash
+|-damage|p1a: rotomwash|27/100
+|
+|-heal|p1a: rotomwash|33/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1661757244
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|100/100
+|move|p1a: rotomwash|Thunderbolt|p2a: Attila
+|-supereffective|p2a: Attila
+|-damage|p2a: Attila|24/100
+|
+|-heal|p1a: rotomwash|39/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1661757248
+|move|p2a: Attila|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|24/100
+|
+|t:|1661757250
+|switch|p2a: Blissey|Blissey, F|61/100|[from]move: U-turn
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|41/100
+|
+|-heal|p1a: rotomwash|30/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1661757253
+|move|p1a: rotomwash|Pain Split|p2a: Blissey
+|-sethp|p2a: Blissey|27/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|62/100|[from] move: Pain Split
+|move|p2a: Blissey|Stealth Rock|p1a: rotomwash
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-heal|p1a: rotomwash|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1661757255
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|13/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|63/100
+|
+|-heal|p1a: rotomwash|75/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1661757258
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|51/100
+|-status|p2a: Blissey|par
+|cant|p2a: Blissey|par
+|
+|-heal|p1a: rotomwash|81/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1661757260
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|39/100 par
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|89/100 par
+|
+|-heal|p1a: rotomwash|87/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1661757263
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|77/100 par
+|move|p2a: Blissey|Teleport|p2a: Blissey
+|
+|t:|1661757266
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: KitCut|Kartana, shiny|84/100|[from]move: Teleport
+|
+|-heal|p1a: rotomwash|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1661757267
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: KitCut|Aerial Ace|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|44/100
+|
+|upkeep
+|turn|24
+|j| Ctannn
+|
+|t:|1661757283
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|57/100
+|switch|p1a: landorustherian|Landorus-Therian, M|77/100
+|-damage|p1a: landorustherian|65/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Attila|atk|1
+|
+|upkeep
+|turn|25
+|
+|t:|1661757287
+|move|p2a: Attila|Hurricane|p1a: landorustherian|[miss]
+|-miss|p2a: Attila|p1a: landorustherian
+|move|p1a: landorustherian|Defog|p2a: Attila
+|-unboost|p2a: Attila|evasion|1
+|-sideend|p1: minimax_ai|Stealth Rock|[from] move: Defog|[of] p1a: landorustherian
+|
+|upkeep
+|turn|26
+|
+|t:|1661757290
+|switch|p1a: rotomwash|Rotom-Wash|94/100
+|move|p2a: Attila|Knock Off|p1a: rotomwash
+|-damage|p1a: rotomwash|78/100
+|-enditem|p1a: rotomwash|Leftovers|[from] move: Knock Off|[of] p2a: Attila
+|
+|upkeep
+|turn|27
+|
+|t:|1661757300
+|move|p2a: Attila|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|68/100
+|
+|t:|1661757303
+|switch|p2a: Blissey|Blissey, F|77/100|[from]move: U-turn
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|63/100
+|
+|upkeep
+|turn|28
+|
+|t:|1661757305
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|move|p2a: Blissey|Stealth Rock|p1a: rotomwash
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|29
+|
+|t:|1661757308
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|37/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|87/100
+|
+|upkeep
+|turn|30
+|
+|t:|1661757310
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|60/100
+|move|p2a: Blissey|Teleport|p2a: Blissey
+|
+|t:|1661757313
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|90/100|[from]move: Teleport
+|
+|upkeep
+|turn|31
+|c|☆legitteambuilder|fuck
+|c|☆legitteambuilder|miclick
+|c|☆legitteambuilder|misclick
+|
+|t:|1661757332
+|move|p2a: Attila|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|53/100
+|
+|t:|1661757334
+|switch|p2a: Blissey|Blissey, F|60/100|[from]move: U-turn
+|move|p1a: rotomwash|Hydro Pump|p2a: Blissey|[miss]
+|-miss|p1a: rotomwash|p2a: Blissey
+|
+|upkeep
+|turn|32
+|
+|t:|1661757340
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|35/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|85/100
+|
+|upkeep
+|turn|33
+|
+|t:|1661757342
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|62/100
+|move|p2a: Blissey|Teleport|p2a: Blissey
+|
+|t:|1661757345
+|switch|p2a: KitCut|Kartana, shiny|84/100|[from]move: Teleport
+|
+|upkeep
+|turn|34
+|
+|t:|1661757351
+|switch|p1a: Tangrowth|Tangrowth, M|77/100
+|-damage|p1a: Tangrowth|64/100|[from] Stealth Rock
+|move|p2a: KitCut|Sacred Sword|p1a: Tangrowth
+|-crit|p1a: Tangrowth
+|-damage|p1a: Tangrowth|16/100
+|
+|upkeep
+|turn|35
+|
+|t:|1661757357
+|switch|p1a: landorustherian|Landorus-Therian, M|65/100
+|-damage|p1a: landorustherian|52/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: KitCut|atk|1
+|move|p2a: KitCut|Sacred Sword|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|32/100
+|
+|upkeep
+|turn|36
+|
+|t:|1661757362
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|100/100
+|move|p1a: landorustherian|Defog|p2a: Attila
+|-unboost|p2a: Attila|evasion|1
+|-sideend|p1: minimax_ai|Stealth Rock|[from] move: Defog|[of] p1a: landorustherian
+|
+|upkeep
+|turn|37
+|
+|t:|1661757368
+|move|p2a: Attila|U-turn|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|25/100
+|
+|t:|1661757369
+|switch|p2a: off da perc|Slowbro, F|100/100|[from]move: U-turn
+|move|p1a: landorustherian|Toxic|p2a: off da perc
+|-status|p2a: off da perc|tox
+|
+|-damage|p2a: off da perc|94/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1661757372
+|switch|p1a: Tangrowth|Tangrowth, M|50/100
+|move|p2a: off da perc|Teleport|p2a: off da perc
+|
+|t:|1661757377
+|switch|p2a: Dragqueen|Nidoking, M, shiny|7/100|[from]move: Teleport
+|
+|upkeep
+|turn|39
+|
+|t:|1661757385
+|switch|p1a: landorustherian|Landorus-Therian, M|25/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Dragqueen|atk|1
+|move|p2a: Dragqueen|Ice Beam|p1a: landorustherian
+|-supereffective|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1661757385
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|40
+|j| Mel0nL0rd
+|
+|t:|1661757415
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Attila
+|-damage|p2a: Attila|46/100
+|-activate|p2a: Attila|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Attila|33/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|41
+|
+|t:|1661757423
+|move|p2a: Attila|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100
+|-enditem|p1a: Heatran|Air Balloon
+|inactive|legitteambuilder has 120 seconds left.
+|
+|t:|1661757444
+|switch|p2a: Blissey|Blissey, F|62/100|[from]move: U-turn
+|move|p1a: Heatran|Magma Storm|p2a: Blissey
+|-damage|p2a: Blissey|42/100
+|-activate|p2a: Blissey|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Blissey|29/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|42
+|
+|t:|1661757449
+|move|p1a: Heatran|Magma Storm|p2a: Blissey
+|-damage|p2a: Blissey|9/100
+|move|p2a: Blissey|Seismic Toss|p1a: Heatran
+|-damage|p1a: Heatran|66/100
+|
+|-damage|p2a: Blissey|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p2a: Blissey
+|upkeep
+|
+|t:|1661757452
+|switch|p2a: KitCut|Kartana, shiny|84/100
+|turn|43
+|
+|t:|1661757456
+|switch|p1a: Tangrowth|Tangrowth, M|83/100
+|move|p2a: KitCut|Sacred Sword|p1a: Tangrowth
+|-damage|p1a: Tangrowth|50/100
+|
+|upkeep
+|turn|44
+|
+|t:|1661757461
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|67/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Attila
+|-resisted|p2a: Attila
+|-damage|p2a: Attila|50/100
+|
+|upkeep
+|turn|45
+|
+|t:|1661757465
+|switch|p1a: Melmetal|Melmetal|5/100
+|move|p2a: Attila|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|2/100
+|
+|t:|1661757467
+|switch|p2a: KitCut|Kartana, shiny|84/100|[from]move: U-turn
+|
+|upkeep
+|turn|46
+|
+|t:|1661757469
+|switch|p1a: Tangrowth|Tangrowth, M|83/100
+|move|p2a: KitCut|Sacred Sword|p1a: Tangrowth
+|-damage|p1a: Tangrowth|50/100
+|
+|upkeep
+|turn|47
+|
+|t:|1661757471
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|83/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Attila
+|-resisted|p2a: Attila
+|-damage|p2a: Attila|68/100
+|
+|upkeep
+|turn|48
+|
+|t:|1661757475
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Attila|U-turn|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|48/100
+|
+|t:|1661757481
+|switch|p2a: Vilgax|Buzzwole, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|49
+|
+|t:|1661757486
+|switch|p1a: Melmetal|Melmetal|2/100
+|move|p2a: Vilgax|Thunder Punch|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|-ability|p2a: Vilgax|Beast Boost|boost
+|-boost|p2a: Vilgax|atk|1
+|
+|upkeep
+|
+|t:|1661757486
+|switch|p1a: Heatran|Heatran, M|66/100
+|turn|50
+|
+|t:|1661757492
+|switch|p2a: off da perc|Slowbro, F|100/100 tox
+|move|p1a: Heatran|Magma Storm|p2a: off da perc
+|-resisted|p2a: off da perc
+|-damage|p2a: off da perc|73/100 tox
+|-activate|p2a: off da perc|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: off da perc|67/100 tox|[from] psn
+|-damage|p2a: off da perc|55/100 tox|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|51
+|
+|t:|1661757494
+|move|p1a: Heatran|Stealth Rock|p2a: off da perc
+|-sidestart|p2: legitteambuilder|move: Stealth Rock
+|move|p2a: off da perc|Teleport|p2a: off da perc
+|
+|t:|1661757504
+|switch|p2a: KitCut|Kartana, shiny|84/100|[from]move: Teleport
+|-damage|p2a: KitCut|78/100|[from] Stealth Rock
+|
+|upkeep
+|turn|52
+|
+|t:|1661757508
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|100/100
+|switch|p1a: Tangrowth|Tangrowth, M|84/100
+|
+|upkeep
+|turn|53
+|
+|t:|1661757509
+|switch|p1a: Heatran|Heatran, M|66/100
+|move|p2a: Attila|Defog|p1a: Heatran
+|-unboost|p1a: Heatran|evasion|1
+|-sideend|p2: legitteambuilder|Stealth Rock|[from] move: Defog|[of] p2a: Attila
+|
+|upkeep
+|turn|54
+|
+|t:|1661757512
+|move|p2a: Attila|Hurricane|p1a: Heatran|[miss]
+|-miss|p2a: Attila|p1a: Heatran
+|move|p1a: Heatran|Magma Storm|p2a: Attila
+|-damage|p2a: Attila|47/100
+|-activate|p2a: Attila|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Attila|35/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|55
+|inactive|legitteambuilder has 120 seconds left.
+|c|☆legitteambuilder|7 percent chance to miss lol
+|
+|t:|1661757548
+|move|p2a: Attila|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|62/100
+|
+|t:|1661757550
+|switch|p2a: off da perc|Slowbro, F|88/100 tox|[from]move: U-turn
+|move|p1a: Heatran|Eruption|p2a: off da perc
+|-resisted|p2a: off da perc
+|-damage|p2a: off da perc|64/100 tox
+|
+|-damage|p2a: off da perc|58/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|t:|1661757559
+|move|p1a: Heatran|Stealth Rock|p2a: off da perc
+|-sidestart|p2: legitteambuilder|move: Stealth Rock
+|move|p2a: off da perc|Teleport|p2a: off da perc
+|
+|t:|1661757565
+|switch|p2a: KitCut|Kartana, shiny|78/100|[from]move: Teleport
+|-damage|p2a: KitCut|72/100|[from] Stealth Rock
+|
+|upkeep
+|turn|57
+|
+|t:|1661757569
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: KitCut|Sacred Sword|p1a: Tangrowth
+|-damage|p1a: Tangrowth|71/100
+|
+|upkeep
+|turn|58
+|
+|t:|1661757571
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|68/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Attila
+|-resisted|p2a: Attila
+|-damage|p2a: Attila|54/100
+|
+|upkeep
+|turn|59
+|
+|t:|1661757574
+|switch|p1a: Heatran|Heatran, M|62/100
+|move|p2a: Attila|Defog|p1a: Heatran
+|-unboost|p1a: Heatran|evasion|1
+|-sideend|p2: legitteambuilder|Stealth Rock|[from] move: Defog|[of] p2a: Attila
+|
+|upkeep
+|turn|60
+|
+|t:|1661757579
+|move|p2a: Attila|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|58/100
+|
+|t:|1661757581
+|switch|p2a: off da perc|Slowbro, F|91/100 tox|[from]move: U-turn
+|move|p1a: Heatran|Magma Storm|p2a: off da perc|[miss]
+|-miss|p1a: Heatran|p2a: off da perc
+|
+|-damage|p2a: off da perc|85/100 tox|[from] psn
+|upkeep
+|turn|61
+|j| Majin Mew
+|
+|t:|1661757583
+|move|p1a: Heatran|Earth Power|p2a: off da perc
+|-damage|p2a: off da perc|52/100 tox
+|move|p2a: off da perc|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|4/100
+|
+|-damage|p2a: off da perc|40/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|t:|1661757591
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|87/100
+|move|p1a: Heatran|Magma Storm|p2a: Attila
+|-damage|p2a: Attila|28/100
+|-activate|p2a: Attila|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Attila|16/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|63
+|
+|t:|1661757595
+|switch|p1a: rotomwash|Rotom-Wash|53/100
+|move|p2a: Attila|Knock Off|p1a: rotomwash
+|-damage|p1a: rotomwash|38/100
+|
+|-end|p2a: Attila|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|64
+|
+|t:|1661757617
+|move|p2a: Attila|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|23/100
+|
+|t:|1661757620
+|switch|p2a: KitCut|Kartana, shiny|72/100|[from]move: U-turn
+|move|p1a: rotomwash|Hydro Pump|p2a: KitCut
+|-resisted|p2a: KitCut
+|-damage|p2a: KitCut|6/100
+|
+|upkeep
+|turn|65
+|
+|t:|1661757626
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: KitCut|Aerial Ace|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|57/100
+|
+|upkeep
+|turn|66
+|
+|t:|1661757629
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|49/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Attila
+|-resisted|p2a: Attila
+|-damage|p2a: Attila|35/100
+|-heal|p1a: Tangrowth|64/100|[from] drain|[of] p2a: Attila
+|
+|upkeep
+|turn|67
+|
+|t:|1661757636
+|switch|p1a: Heatran|Heatran, M|4/100
+|move|p2a: Attila|Hurricane|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1661757636
+|switch|p1a: Weavile|Weavile, F|48/100
+|-ability|p1a: Weavile|Pressure
+|turn|68
+|
+|t:|1661757640
+|switch|p2a: Vilgax|Buzzwole, shiny|100/100
+|move|p1a: Weavile|Triple Axel|p2a: Vilgax
+|-damage|p2a: Vilgax|90/100
+|-damage|p2a: Vilgax|70/100
+|-damage|p2a: Vilgax|42/100
+|-hitcount|p2a: Vilgax|3
+|
+|upkeep
+|turn|69
+|
+|t:|1661757645
+|switch|p2a: off da perc|Slowbro, F|73/100 tox
+|move|p1a: Weavile|Triple Axel|p2a: off da perc
+|-resisted|p2a: off da perc
+|-damage|p2a: off da perc|69/100 tox
+|-damage|p1a: Weavile|31/100|[from] item: Rocky Helmet|[of] p2a: off da perc
+|-resisted|p2a: off da perc
+|-damage|p2a: off da perc|61/100 tox
+|-damage|p1a: Weavile|15/100|[from] item: Rocky Helmet|[of] p2a: off da perc
+|-hitcount|p2a: off da perc|2
+|
+|-damage|p2a: off da perc|55/100 tox|[from] psn
+|upkeep
+|turn|70
+|
+|t:|1661757651
+|switch|p1a: rotomwash|Rotom-Wash|23/100
+|move|p2a: off da perc|Future Sight|p1a: rotomwash
+|-start|p2a: off da perc|move: Future Sight
+|
+|-damage|p2a: off da perc|42/100 tox|[from] psn
+|upkeep
+|turn|71
+|
+|t:|1661757653
+|move|p1a: rotomwash|Thunderbolt|p2a: off da perc
+|-supereffective|p2a: off da perc
+|-damage|p2a: off da perc|0 fnt
+|faint|p2a: off da perc
+|
+|upkeep
+|
+|t:|1661757656
+|switch|p2a: KitCut|Kartana, shiny|6/100
+|turn|72
+|
+|t:|1661757659
+|switch|p1a: Weavile|Weavile, F|15/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: KitCut|Sacred Sword|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-ability|p2a: KitCut|Beast Boost|boost
+|-boost|p2a: KitCut|atk|1
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1661757659
+|switch|p1a: Tangrowth|Tangrowth, M|97/100
+|turn|73
+|
+|t:|1661757662
+|switch|p2a: Attila|Tornadus-Therian, M, shiny|68/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Attila
+|-resisted|p2a: Attila
+|-damage|p2a: Attila|52/100
+|-heal|p1a: Tangrowth|100/100|[from] drain|[of] p2a: Attila
+|
+|upkeep
+|turn|74
+|
+|t:|1661757665
+|switch|p1a: rotomwash|Rotom-Wash|23/100
+|move|p2a: Attila|Hurricane|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1661757665
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|turn|75
+|
+|t:|1661757670
+|move|p2a: Attila|Hurricane|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|win|legitteambuilder
+|raw|minimax_ai's rating: 1595 &rarr; <strong>1576</strong><br />(-19 for losing)
+|raw|legitteambuilder's rating: 1615 &rarr; <strong>1634</strong><br />(+19 for winning)
+|c|☆minimax_ai|gg

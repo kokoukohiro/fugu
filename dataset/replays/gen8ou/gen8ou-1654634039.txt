@@ -1,0 +1,439 @@
+|j|☆minimax_ai
+|j|☆cump10
+|t:|1662154797
+|gametype|singles
+|player|p1|minimax_ai|102|1420
+|player|p2|cump10|266|1449
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Swampert, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Magnezone|
+|poke|p2|Tapu Lele|
+|poke|p2|Dragapult, F|
+|teampreview
+|c|☆minimax_ai|hf
+|c|☆cump10|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1662154806
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|turn|1
+|
+|t:|1662154809
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: landorustherian|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|2
+|
+|t:|1662154811
+|move|p1a: landorustherian|Toxic|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|tox
+|move|p2a: Mandibuzz|Foul Play|p1a: landorustherian
+|-damage|p1a: landorustherian|57/100
+|
+|-heal|p1a: landorustherian|63/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1662154812
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Mandibuzz|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|98/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|t:|1662154814
+|switch|p2a: Swampert|Swampert, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1662154817
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Swampert|Stealth Rock|p1a: Tangrowth
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1662154822
+|move|p1a: Tangrowth|Knock Off|p2a: Swampert
+|-damage|p2a: Swampert|81/100
+|-enditem|p2a: Swampert|Leftovers|[from] move: Knock Off|[of] p1a: Tangrowth
+|move|p2a: Swampert|Toxic|p1a: Tangrowth
+|-status|p1a: Tangrowth|tox
+|
+|-damage|p1a: Tangrowth|94/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1662154834
+|move|p1a: Tangrowth|Knock Off|p2a: Swampert
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|59/100
+|move|p2a: Swampert|Flip Turn|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|88/100 tox
+|-damage|p2a: Swampert|42/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1662154837
+|switch|p2a: Tapu Lele|Tapu Lele, shiny|100/100|[from]move: Flip Turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|-damage|p1a: Tangrowth|76/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1662154841
+|switch|p1a: Melmetal|Melmetal|100/100
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|move|p2a: Tapu Lele|Focus Blast|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|16/100
+|
+|upkeep
+|turn|8
+|
+|t:|1662154844
+|switch|p2a: Magnezone|Magnezone, shiny|100/100
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Melmetal|Earthquake|p2a: Magnezone
+|-immune|p2a: Magnezone
+|
+|upkeep
+|turn|9
+|
+|t:|1662154846
+|move|p2a: Magnezone|Body Press|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-crit|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1662154846
+|switch|p1a: landorustherian|Landorus-Therian, M|63/100
+|-damage|p1a: landorustherian|51/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Magnezone|atk|1
+|turn|10
+|
+|t:|1662154850
+|switch|p2a: Mandibuzz|Mandibuzz, F|94/100 tox
+|move|p1a: landorustherian|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|-heal|p1a: landorustherian|57/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|88/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|11
+|
+|t:|1662154851
+|move|p1a: landorustherian|Defog|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|evasion|1
+|-sideend|p1: minimax_ai|Stealth Rock|[from] move: Defog|[of] p1a: landorustherian
+|move|p2a: Mandibuzz|Foul Play|p1a: landorustherian
+|-damage|p1a: landorustherian|9/100
+|
+|-heal|p1a: landorustherian|15/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|76/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1662154853
+|move|p1a: landorustherian|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|64/100 tox
+|
+|t:|1662154853
+|switch|p1a: Heatran|Heatran, M|98/100|[from]move: U-turn
+|move|p2a: Mandibuzz|Foul Play|p1a: Heatran
+|-damage|p1a: Heatran|72/100
+|
+|-damage|p2a: Mandibuzz|45/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1662154857
+|switch|p2a: Swampert|Swampert, M|42/100
+|move|p1a: Heatran|Eruption|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|25/100
+|
+|upkeep
+|turn|14
+|
+|t:|1662154859
+|move|p1a: Heatran|Eruption|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|8/100
+|move|p2a: Swampert|Stealth Rock|p1a: Heatran
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1662154861
+|move|p1a: Heatran|Eruption|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+|
+|t:|1662154869
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|16
+|
+|t:|1662154870
+|switch|p1a: Tangrowth|Tangrowth, M|100/100 tox
+|-damage|p1a: Tangrowth|88/100 tox|[from] Stealth Rock
+|move|p2a: Rillaboom|Superpower|p1a: Tangrowth
+|-damage|p1a: Tangrowth|52/100 tox
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2a: Rillaboom|def|1
+|-damage|p2a: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|-heal|p2a: Rillaboom|90/100|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|58/100 tox|[from] Grassy Terrain
+|-damage|p1a: Tangrowth|52/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1662154875
+|switch|p2a: Mandibuzz|Mandibuzz, F|45/100 tox
+|move|p1a: Tangrowth|Sleep Powder|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz|[from] ability: Overcoat
+|
+|-heal|p1a: Tangrowth|58/100 tox|[from] Grassy Terrain
+|-damage|p2a: Mandibuzz|39/100 tox|[from] psn
+|-damage|p1a: Tangrowth|46/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1662154876
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|89/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Tangrowth|Giga Drain|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|61/100 tox
+|-heal|p1a: Tangrowth|61/100 tox|[from] drain|[of] p2a: Mandibuzz
+|
+|-heal|p2a: Mandibuzz|67/100 tox|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|67/100 tox|[from] Grassy Terrain
+|-damage|p2a: Mandibuzz|55/100 tox|[from] psn
+|-damage|p1a: Tangrowth|48/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1662154880
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Tangrowth|Giga Drain|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|73/100 tox
+|-heal|p1a: Tangrowth|63/100 tox|[from] drain|[of] p2a: Mandibuzz
+|
+|-heal|p2a: Mandibuzz|79/100 tox|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|69/100 tox|[from] Grassy Terrain
+|-damage|p2a: Mandibuzz|60/100 tox|[from] psn
+|-damage|p1a: Tangrowth|44/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1662154884
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Tangrowth|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|94/100 tox
+|-enditem|p2a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|-heal|p2a: Mandibuzz|99/100 tox|[from] Grassy Terrain
+|-heal|p1a: Tangrowth|50/100 tox|[from] Grassy Terrain
+|-damage|p2a: Mandibuzz|75/100 tox|[from] psn
+|-damage|p1a: Tangrowth|20/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1662154886
+|move|p2a: Mandibuzz|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|8/100 tox
+|-damage|p2a: Mandibuzz|59/100 tox|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1662154891
+|switch|p2a: Magnezone|Magnezone, shiny|100/100|[from]move: U-turn
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Tangrowth|Giga Drain|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|84/100
+|-heal|p1a: Tangrowth|15/100 tox|[from] drain|[of] p2a: Magnezone
+|-enditem|p2a: Magnezone|Air Balloon
+|
+|-damage|p1a: Tangrowth|0 fnt|[from] psn
+|faint|p1a: Tangrowth
+|upkeep
+|
+|t:|1662154891
+|switch|p1a: Heatran|Heatran, M|72/100
+|-damage|p1a: Heatran|59/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1662154894
+|move|p1a: Heatran|Magma Storm|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1662154897
+|switch|p2a: Rillaboom|Rillaboom, M|90/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|23
+|
+|t:|1662154899
+|move|p1a: Heatran|Magma Storm|p2a: Rillaboom|[miss]
+|-miss|p1a: Heatran|p2a: Rillaboom
+|move|p2a: Rillaboom|Superpower|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2a: Rillaboom|def|1
+|faint|p1a: Heatran
+|
+|-heal|p2a: Rillaboom|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1662154899
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|24
+|
+|t:|1662154905
+|switch|p2a: Mandibuzz|Mandibuzz, F|59/100 tox
+|move|p1a: Weavile|Triple Axel|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|40/100 tox
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|9/100 tox
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|-hitcount|p2: Mandibuzz|3
+|
+|-heal|p1a: Weavile|82/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1662154909
+|switch|p2a: Rillaboom|Rillaboom, M|96/100
+|turn|25
+|
+|t:|1662154910
+|switch|p1a: landorustherian|Landorus-Therian, M|15/100
+|-damage|p1a: landorustherian|3/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|move|p2a: Rillaboom|Grassy Glide|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|-heal|p2a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1662154910
+|switch|p1a: Weavile|Weavile, M|82/100
+|-damage|p1a: Weavile|57/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|26
+|
+|t:|1662154914
+|move|p1a: Weavile|Ice Shard|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|32/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-heal|p2a: Rillaboom|38/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1662154914
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1662154917
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|move|p1a: rotomwash|Thunderbolt|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|79/100
+|-status|p2a: Dragapult|par
+|
+|-heal|p1a: rotomwash|94/100|[from] item: Leftovers
+|-heal|p2a: Dragapult|85/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|28
+|
+|t:|1662154920
+|move|p1a: rotomwash|Thunderbolt|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|59/100 par
+|move|p2a: Dragapult|Dragon Darts|p1a: rotomwash
+|-damage|p1a: rotomwash|52/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: rotomwash
+|-damage|p1a: rotomwash|9/100
+|
+|-heal|p1a: rotomwash|16/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1662154922
+|move|p1a: rotomwash|Thunderbolt|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|35/100 par
+|move|p2a: Dragapult|Dragon Darts|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|win|cump10
+|raw|minimax_ai's rating: 1420 &rarr; <strong>1402</strong><br />(-18 for losing)
+|raw|cump10's rating: 1449 &rarr; <strong>1467</strong><br />(+18 for winning)
+|c|☆minimax_ai|gg

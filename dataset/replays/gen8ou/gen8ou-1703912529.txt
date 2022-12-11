@@ -1,0 +1,632 @@
+|j|☆grasssoul
+|j|‽minimax_ai
+|t:|1667711209
+|gametype|singles
+|player|p1|grasssoul|266|1610
+|player|p2|minimax_ai|169|1568
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Heatran, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Tapu Lele|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Zapdos|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, M|
+|poke|p2|Melmetal|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1667711224
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|1
+|
+|t:|1667711235
+|move|p1a: Landorus|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|79/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Landorus
+|move|p2a: Landorus|Toxic|p1a: Landorus|[miss]
+|-miss|p2a: Landorus|p1a: Landorus
+|
+|upkeep
+|turn|2
+|
+|t:|1667711256
+|move|p2a: Landorus|Defog|p1a: Landorus
+|-unboost|p1a: Landorus|evasion|1
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|70/100
+|inactive|grasssoul has 120 seconds left.
+|
+|t:|1667711276
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1667711283
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Dragapult|U-turn|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|90/100
+|
+|t:|1667711289
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Melmetal|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1667711298
+|move|p1a: Landorus|U-turn|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|83/100
+|
+|t:|1667711301
+|switch|p1a: Heatran|Heatran, F|100/100|[from]move: U-turn
+|move|p2a: Melmetal|Ice Punch|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1667711308
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1667711318
+|move|p2a: Rotom|Pain Split|p1a: Zapdos
+|-sethp|p1a: Zapdos|90/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|100/100|[from] move: Pain Split
+|move|p1a: Zapdos|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|69/100
+|
+|t:|1667711324
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Rotom|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1667711326
+|move|p2a: Rotom|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|86/100
+|move|p1a: Slowking|Future Sight|p2a: Rotom
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p2a: Rotom|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1667711332
+|switch|p2a: Melmetal|Melmetal|83/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Melmetal
+|-immune|p2a: Melmetal
+|
+|upkeep
+|turn|9
+|
+|t:|1667711336
+|move|p2a: Melmetal|Double Iron Bash|p1a: Slowking
+|-damage|p1a: Slowking|43/100
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|-hitcount|p1: Slowking|2
+|
+|-end|p2a: Melmetal|move: Future Sight
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|71/100
+|upkeep
+|
+|t:|1667711348
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Melmetal|atk|1
+|turn|10
+|
+|t:|1667711349
+|switch|p2a: Landorus|Landorus-Therian, M|70/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1667711353
+|move|p2a: Landorus|Defog|p1a: Landorus
+|-unboost|p1a: Landorus|evasion|1
+|-sideend|p2: minimax_ai|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|62/100
+|
+|t:|1667711367
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1667711370
+|switch|p2a: Melmetal|Melmetal|71/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|60/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|50/100
+|
+|upkeep
+|turn|13
+|
+|t:|1667711376
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|92/100
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|83/100
+|-hitcount|p1a: Heatran|2
+|
+|-heal|p1a: Heatran|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1667711382
+|switch|p2a: Rotom|Rotom-Wash|81/100
+|move|p1a: Heatran|Earth Power|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|-heal|p1a: Heatran|96/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1667711388
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: Heatran|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p2a: Rotom|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1667711397
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Dragapult|[miss]
+|-miss|p2a: Rotom|p1a: Dragapult
+|
+|-heal|p2a: Rotom|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|81/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1667711402
+|move|p1a: Dragapult|Dragon Darts|p2a: Rotom
+|-damage|p2a: Rotom|40/100 tox
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1667711402
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|18
+|
+|t:|1667711421
+|move|p1a: Dragapult|Dragon Darts|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|83/100
+|-enditem|p2a: Heatran|Air Balloon
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|66/100
+|move|p2a: Heatran|Eruption|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|67/100
+|
+|upkeep
+|turn|19
+|
+|t:|1667711430
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Heatran
+|-sidestart|p1: grasssoul|move: Stealth Rock
+|
+|upkeep
+|turn|20
+|
+|t:|1667711435
+|move|p2a: Heatran|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|19/100
+|move|p1a: Heatran|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-heal|p1a: Heatran|26/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667711435
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|21
+|
+|t:|1667711441
+|move|p2a: Weavile|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-enditem|p1a: Heatran|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1667711450
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-damage|p1a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|22
+|
+|t:|1667711457
+|switch|p2a: Melmetal|Melmetal|50/100
+|move|p1a: Tapu Lele|Moonblast|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|36/100
+|
+|upkeep
+|turn|23
+|
+|t:|1667711460
+|switch|p1a: Zapdos|Zapdos|90/100
+|move|p2a: Melmetal|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|41/100
+|-status|p2a: Melmetal|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|upkeep
+|turn|24
+|
+|t:|1667711467
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|92/100
+|-singleturn|p1a: Zapdos|move: Roost
+|cant|p2a: Melmetal|par
+|
+|upkeep
+|turn|25
+|
+|t:|1667711469
+|move|p1a: Zapdos|Defog|p2a: Melmetal
+|-unboost|p2a: Melmetal|evasion|1
+|-sideend|p1: grasssoul|Stealth Rock|[from] move: Defog|[of] p1a: Zapdos
+|-fieldend|move: Psychic Terrain
+|move|p2a: Melmetal|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|43/100
+|
+|upkeep
+|turn|26
+|
+|t:|1667711472
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|93/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|70/100
+|
+|upkeep
+|turn|27
+|
+|t:|1667711475
+|switch|p2a: Landorus|Landorus-Therian, M|62/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Heat Wave|p2a: Landorus|[miss]
+|-miss|p1a: Zapdos|p2a: Landorus
+|
+|upkeep
+|turn|28
+|
+|t:|1667711482
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-damage|p1a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1667711485
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|88/100 tox
+|
+|t:|1667711485
+|switch|p2a: Tangrowth|Tangrowth, M|100/100|[from]move: U-turn
+|move|p1a: Landorus|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|72/100
+|-damage|p1a: Landorus|72/100 tox|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|t:|1667711500
+|switch|p1a: Zapdos|Zapdos|70/100|[from]move: U-turn
+|
+|upkeep
+|turn|30
+|
+|t:|1667711502
+|switch|p2a: Landorus|Landorus-Therian, M|62/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Heat Wave|p2a: Landorus
+|-damage|p2a: Landorus|43/100
+|
+|upkeep
+|turn|31
+|
+|t:|1667711509
+|switch|p1a: Landorus|Landorus-Therian, M|72/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|66/100 tox
+|
+|t:|1667711509
+|switch|p2a: Weavile|Weavile, F|100/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|-heal|p1a: Landorus|72/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|66/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1667711519
+|move|p2a: Weavile|Triple Axel|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|20/100 tox
+|-hitcount|p1a: Landorus|1
+|move|p1a: Landorus|U-turn|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|20/100
+|
+|t:|1667711533
+|switch|p1a: Tapu Lele|Tapu Lele|88/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|
+|upkeep
+|turn|33
+|
+|t:|1667711538
+|switch|p2a: Melmetal|Melmetal|36/100 par
+|move|p1a: Tapu Lele|Moonblast|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-crit|p2a: Melmetal
+|-damage|p2a: Melmetal|17/100 par
+|
+|upkeep
+|turn|34
+|
+|t:|1667711542
+|switch|p1a: Zapdos|Zapdos|70/100
+|cant|p2a: Melmetal|par
+|
+|upkeep
+|turn|35
+|
+|t:|1667711547
+|switch|p2a: Landorus|Landorus-Therian, M|43/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|36
+|
+|t:|1667711549
+|move|p1a: Zapdos|Heat Wave|p2a: Landorus
+|-damage|p2a: Landorus|24/100
+|move|p2a: Landorus|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|37
+|
+|t:|1667711556
+|move|p1a: Zapdos|Heat Wave|p2a: Landorus
+|-damage|p2a: Landorus|5/100
+|move|p2a: Landorus|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|87/100 tox
+|-status|p2a: Landorus|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|t:|1667711556
+|switch|p2a: Weavile|Weavile, F|20/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|-damage|p1a: Zapdos|75/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1667711561
+|switch|p1a: Landorus|Landorus-Therian, M|20/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Weavile|atk|1
+|move|p2a: Weavile|Triple Axel|p1a: Landorus|[miss]
+|-miss|p2a: Weavile|p1a: Landorus
+|
+|-heal|p1a: Landorus|26/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|20/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1667711576
+|move|p2a: Weavile|Triple Axel|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-hitcount|p1: Landorus|1
+|
+|upkeep
+|
+|t:|1667711579
+|switch|p1a: Tapu Lele|Tapu Lele|88/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|40
+|
+|t:|1667711581
+|switch|p2a: Landorus|Landorus-Therian, M|5/100 par
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tapu Lele|atk|1
+|move|p1a: Tapu Lele|Moonblast|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1667711581
+|switch|p2a: Melmetal|Melmetal|17/100 par
+|turn|41
+|
+|t:|1667711591
+|switch|p1a: Zapdos|Zapdos|75/100 tox
+|move|p2a: Melmetal|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|27/100 tox
+|
+|-damage|p1a: Zapdos|21/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1667711602
+|move|p1a: Zapdos|Heat Wave|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|-damage|p1a: Zapdos|9/100 tox|[from] psn
+|upkeep
+|
+|t:|1667711602
+|switch|p2a: Weavile|Weavile, F|20/100
+|-ability|p2a: Weavile|Pressure
+|turn|43
+|
+|t:|1667711609
+|move|p2a: Weavile|Triple Axel|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-hitcount|p1: Zapdos|1
+|
+|upkeep
+|
+|t:|1667711612
+|switch|p1a: Tapu Lele|Tapu Lele|88/100
+|turn|44
+|
+|t:|1667711614
+|move|p1a: Tapu Lele|Moonblast|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1667711614
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|turn|45
+|
+|t:|1667711619
+|switch|p1a: Dragapult|Dragapult, F|67/100
+|move|p2a: Tangrowth|Sleep Powder|p1a: Dragapult
+|-status|p1a: Dragapult|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|46
+|
+|t:|1667711627
+|cant|p1a: Dragapult|slp
+|move|p2a: Tangrowth|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|8/100 slp
+|-enditem|p1a: Dragapult|Choice Band|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|47
+|
+|t:|1667711631
+|cant|p1a: Dragapult|slp
+|move|p2a: Tangrowth|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1667711633
+|switch|p1a: Tapu Lele|Tapu Lele|88/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|48
+|
+|t:|1667711635
+|move|p1a: Tapu Lele|Psychic|p2a: Tangrowth
+|-damage|p2a: Tangrowth|12/100
+|move|p2a: Tangrowth|Knock Off|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|56/100
+|-enditem|p1a: Tapu Lele|Choice Scarf|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|49
+|
+|t:|1667711638
+|move|p1a: Tapu Lele|Psychic|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|win|grasssoul
+|raw|grasssoul's rating: 1610 &rarr; <strong>1628</strong><br />(+18 for winning)
+|raw|minimax_ai's rating: 1568 &rarr; <strong>1550</strong><br />(-18 for losing)
+|l|‽minimax_ai

@@ -1,0 +1,362 @@
+|j|☆Jusegotinha
+|j|☆vive macron
+|t:|1612897470
+|player|p1|Jusegotinha|170|1418
+|player|p2|vive macron|tuber|1399
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Azelf|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Reuniclus, M|
+|poke|p1|Stakataka|
+|poke|p1|Marowak-Alola, M|
+|poke|p2|Scizor, F|
+|poke|p2|Slowking, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Ditto|
+|poke|p2|Nihilego|
+|poke|p2|Rotom-Heat|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1612897482
+|start
+|switch|p1a: Iluminaty|Azelf, shiny|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Iluminaty|[from] ability: Imposter
+|turn|1
+|
+|t:|1612897492
+|move|p2a: Ditto|Taunt|p1a: Iluminaty
+|-start|p1a: Iluminaty|move: Taunt
+|cant|p1a: Iluminaty|move: Taunt|Trick Room
+|
+|upkeep
+|turn|2
+|raw|<div class="broadcast-red"><b>The server needs to restart because of a crash.</b><br />No new battles can be started until the server is done restarting.</div>
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|raw|<div class="broadcast-red"><b>Moderated chat was set to +!</b><br />Only users of rank + and higher can talk.</div>
+|
+|t:|1612897501
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Iluminaty|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|92/100
+|raw|<div class="broadcast-green"><b>The server restart was canceled.</b></div>
+|
+|t:|1612897515
+|switch|p1a: Robson|Marowak-Alola, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|raw|<div class="broadcast-red"><b>The server needs to restart because of a crash.</b><br />No new battles can be started until the server is done restarting.</div>
+|
+|t:|1612897522
+|move|p2a: Scizor|Knock Off|p1a: Robson
+|-supereffective|p1a: Robson
+|-damage|p1a: Robson|19/100
+|-enditem|p1a: Robson|Thick Club|[from] move: Knock Off|[of] p2a: Scizor
+|-damage|p2a: Scizor|82/100|[from] item: Life Orb
+|move|p1a: Robson|Flare Blitz|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1612897539
+|switch|p2a: Nihilego|Nihilego|100/100
+|turn|4
+|
+|t:|1612897551
+|move|p2a: Nihilego|Power Gem|p1a: Robson
+|-supereffective|p1a: Robson
+|-damage|p1a: Robson|0 fnt
+|faint|p1a: Robson
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spe|1
+|
+|upkeep
+|
+|t:|1612897561
+|switch|p1a: Iluminaty|Azelf, shiny|100/100
+|turn|5
+|
+|t:|1612897570
+|move|p2a: Nihilego|Meteor Beam||[still]
+|-prepare|p2a: Nihilego|Meteor Beam
+|-boost|p2a: Nihilego|spa|1
+|-enditem|p2a: Nihilego|Power Herb
+|-anim|p2a: Nihilego|Meteor Beam|p1a: Iluminaty
+|-damage|p1a: Iluminaty|22/100
+|move|p1a: Iluminaty|Trick Room|p1a: Iluminaty
+|-fieldstart|move: Trick Room|[of] p1a: Iluminaty
+|
+|upkeep
+|turn|6
+|
+|t:|1612897589
+|move|p1a: Iluminaty|Stealth Rock|p2a: Nihilego
+|-sidestart|p2: vive macron|move: Stealth Rock
+|move|p2a: Nihilego|Thunderbolt|p1a: Iluminaty
+|-damage|p1a: Iluminaty|0 fnt
+|faint|p1a: Iluminaty
+|-ability|p2a: Nihilego|Beast Boost|boost
+|-boost|p2a: Nihilego|spe|1
+|
+|upkeep
+|
+|t:|1612897599
+|switch|p1a: Bem bam|Crawdaunt, F|100/100
+|turn|7
+|
+|t:|1612897607
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|move|p1a: Bem bam|Crabhammer|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|60/100
+|
+|-heal|p2a: Kommo-o|67/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1612897616
+|switch|p1a: Mano feto|Reuniclus, M, shiny|100/100
+|move|p2a: Kommo-o|Stealth Rock|p1a: Mano feto
+|-sidestart|p1: Jusegotinha|move: Stealth Rock
+|
+|-heal|p2a: Kommo-o|73/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1612897634
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Mano feto|Shadow Ball|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|50/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|t:|1612897641
+|move|p2a: Rotom|Pain Split|p1a: Mano feto
+|-sethp|p1a: Mano feto|68/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|95/100|[from] move: Pain Split
+|move|p1a: Mano feto|Trick Room|p1a: Mano feto
+|-fieldstart|move: Trick Room|[of] p1a: Mano feto
+|
+|-heal|p1a: Mano feto|74/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1612897669
+|move|p1a: Mano feto|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|43/100
+|move|p2a: Rotom|Overheat|p1a: Mano feto
+|-damage|p1a: Mano feto|32/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Mano feto|38/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1612897681
+|move|p1a: Mano feto|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|12/100
+|move|p2a: Rotom|Pain Split|p1a: Mano feto
+|-sethp|p1a: Mano feto|24/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|33/100|[from] move: Pain Split
+|
+|-heal|p1a: Mano feto|30/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1612897693
+|switch|p1a: Bem bam|Crawdaunt, F|100/100
+|-damage|p1a: Bem bam|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Bem bam
+|-supereffective|p1a: Bem bam
+|-damage|p1a: Bem bam|42/100
+|inactive|vive macron has 120 seconds left.
+|
+|t:|1612897704
+|switch|p2a: Kommo-o|Kommo-o, M|73/100|[from]move: Volt Switch
+|-damage|p2a: Kommo-o|67/100|[from] Stealth Rock
+|
+|-heal|p2a: Kommo-o|73/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|vive macron has 120 seconds left.
+|
+|t:|1612897714
+|move|p1a: Bem bam|Knock Off|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|36/100
+|-enditem|p2a: Kommo-o|Leftovers|[from] move: Knock Off|[of] p1a: Bem bam
+|move|p2a: Kommo-o|Body Press|p1a: Bem bam
+|-supereffective|p1a: Bem bam
+|-damage|p1a: Bem bam|0 fnt
+|faint|p1a: Bem bam
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1612897724
+|switch|p1a: Mano feto|Reuniclus, M, shiny|63/100
+|-damage|p1a: Mano feto|50/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1612897736
+|move|p2a: Kommo-o|Toxic|p1a: Mano feto
+|-status|p1a: Mano feto|tox
+|move|p1a: Mano feto|Trick Room|p1a: Mano feto
+|-fieldstart|move: Trick Room|[of] p1a: Mano feto
+|
+|-heal|p1a: Mano feto|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Mano feto|50/100 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|vive macron has 120 seconds left.
+|
+|t:|1612897775
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Mano feto|[from] ability: Imposter
+|move|p1a: Mano feto|Psychic|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|54/100
+|
+|-heal|p1a: Mano feto|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Mano feto|44/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1612897790
+|move|p1a: Mano feto|Shadow Ball|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-heal|p1a: Mano feto|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Mano feto|32/100 tox|[from] psn
+|upkeep
+|inactive|vive macron has 90 seconds left.
+|
+|t:|1612897806
+|switch|p2a: Slowking|Slowking, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1612897810
+|move|p2a: Slowking|Scald|p1a: Mano feto
+|-damage|p1a: Mano feto|7/100 tox
+|move|p1a: Mano feto|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|
+|-heal|p1a: Mano feto|13/100 tox|[from] item: Leftovers
+|-damage|p1a: Mano feto|0 fnt|[from] psn
+|faint|p1a: Mano feto
+|upkeep
+|
+|t:|1612897821
+|switch|p1a: takamasanomuro|Conkeldurr, F|100/100
+|-damage|p1a: takamasanomuro|94/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1612897828
+|switch|p2a: Rotom|Rotom-Heat|33/100
+|move|p1a: takamasanomuro|Thunder Punch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|18/100
+|
+|-fieldend|move: Trick Room
+|-status|p1a: takamasanomuro|brn|[from] item: Flame Orb
+|upkeep
+|turn|20
+|
+|t:|1612897837
+|move|p1a: takamasanomuro|Mach Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: takamasanomuro|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1612897844
+|switch|p2a: Slowking|Slowking, F|78/100
+|-damage|p2a: Slowking|66/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1612897849
+|move|p2a: Slowking|Psyshock|p1a: takamasanomuro
+|-supereffective|p1a: takamasanomuro
+|-crit|p1a: takamasanomuro
+|-damage|p1a: takamasanomuro|15/100 brn
+|move|p1a: takamasanomuro|Thunder Punch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|4/100
+|-damage|p1a: takamasanomuro|0 fnt|[from] item: Rocky Helmet|[of] p2a: Slowking
+|faint|p1a: takamasanomuro
+|
+|upkeep
+|
+|t:|1612897859
+|switch|p1a: Lutero|Stakataka|100/100
+|-damage|p1a: Lutero|94/100|[from] Stealth Rock
+|-item|p1a: Lutero|Air Balloon
+|turn|22
+|
+|t:|1612897866
+|move|p2a: Slowking|Scald|p1a: Lutero
+|-supereffective|p1a: Lutero
+|-damage|p1a: Lutero|37/100
+|-enditem|p1a: Lutero|Air Balloon
+|move|p1a: Lutero|Trick Room|p1a: Lutero
+|-fieldstart|move: Trick Room|[of] p1a: Lutero
+|
+|upkeep
+|turn|23
+|
+|t:|1612897874
+|move|p1a: Lutero|Gyro Ball|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-damage|p1a: Lutero|21/100|[from] item: Rocky Helmet|[of] p2a: Slowking
+|faint|p2a: Slowking
+|-ability|p1a: Lutero|Beast Boost|boost
+|-boost|p1a: Lutero|def|1
+|
+|upkeep
+|
+|t:|1612897881
+|switch|p2a: Kommo-o|Kommo-o, M|36/100
+|-damage|p2a: Kommo-o|30/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1612897888
+|move|p1a: Lutero|Earthquake|p2a: Kommo-o
+|-damage|p2a: Kommo-o|5/100
+|move|p2a: Kommo-o|Body Press|p1a: Lutero
+|-supereffective|p1a: Lutero
+|-damage|p1a: Lutero|0 fnt
+|faint|p1a: Lutero
+|
+|win|vive macron
+|raw|Jusegotinha's rating: 1418 &rarr; <strong>1397</strong><br />(-21 for losing)
+|raw|vive macron's rating: 1399 &rarr; <strong>1420</strong><br />(+21 for winning)
+|c|☆vive macron|yes

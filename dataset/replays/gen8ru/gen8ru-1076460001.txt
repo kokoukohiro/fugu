@@ -1,0 +1,602 @@
+|j|☆Umbra Soul
+|j|☆lighthouses
+|player|p1|Umbra Soul|69|1550
+|player|p2|lighthouses|tuberf|1497
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Copperajah, M|
+|poke|p1|Vespiquen, F|
+|poke|p1|Gastrodon, F|
+|poke|p1|Silvally-*|
+|poke|p1|Coalossal, F|
+|poke|p1|Indeedee, M|
+|poke|p2|Bewear, M|
+|poke|p2|Mudsdale, F|
+|poke|p2|Aromatisse, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Silvally-*|
+|poke|p2|Rotom|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lighthouses)
+|
+|start
+|switch|p1a: Silvally|Silvally-Ghost|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|move|p2a: Indeedee|Shadow Ball|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|52/100
+|-unboost|p1a: Silvally|spd|1
+|move|p1a: Silvally|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|12/100
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Aromatisse|Aromatisse, F, shiny|100/100
+|move|p1a: Indeedee|Psychic|p2a: Aromatisse
+|-damage|p2a: Aromatisse|65/100
+|
+|-heal|p2a: Aromatisse|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Coalossal|Coalossal, F|100/100
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|77/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Mudsdale|Mudsdale, F|100/100
+|move|p1a: Coalossal|Stealth Rock|p2a: Mudsdale
+|-sidestart|p2: lighthouses|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Vespiquen|Vespiquen, F|100/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Mudsdale|Stealth Rock|p1a: Vespiquen
+|-sidestart|p1: Umbra Soul|move: Stealth Rock
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|move|p1a: Vespiquen|Toxic|p2a: Mudsdale
+|-status|p2a: Mudsdale|tox
+|move|p2a: Mudsdale|Toxic|p1a: Vespiquen
+|-status|p1a: Vespiquen|tox
+|
+|-damage|p1a: Vespiquen|94/100 tox|[from] psn
+|-damage|p2a: Mudsdale|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Silvally|Silvally-Steel|100/100
+|-damage|p2a: Silvally|94/100|[from] Stealth Rock
+|move|p1a: Vespiquen|Aromatherapy|p1a: Vespiquen
+|-activate|p1a: Vespiquen|move: Aromatherapy
+|-curestatus|p1a: Vespiquen|tox|[msg]
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|move|p1a: Vespiquen|U-turn|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|83/100
+|
+|switch|p1a: Copperajah|Copperajah, M|100/100|[from]move: U-turn
+|-damage|p1a: Copperajah|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Silvally|U-turn|p1a: Copperajah
+|-resisted|p1a: Copperajah
+|-damage|p1a: Copperajah|67/100
+|
+|switch|p2a: Mudsdale|Mudsdale, F|94/100 tox|[from]move: U-turn
+|-damage|p2a: Mudsdale|88/100 tox|[from] Stealth Rock
+|move|p1a: Copperajah|Earth Power|p2a: Mudsdale
+|-damage|p2a: Mudsdale|62/100 tox
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|-heal|p2a: Mudsdale|68/100 tox|[from] item: Leftovers
+|-damage|p2a: Mudsdale|62/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Rotom|Rotom|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Copperajah|Protect||[still]
+|-fail|p1a: Copperajah
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Copperajah|Protect|p1a: Copperajah
+|-singleturn|p1a: Copperajah|Protect
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Discharge|p1a: Copperajah
+|-damage|p1a: Copperajah|0 fnt
+|faint|p1a: Copperajah
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Ghost|52/100
+|-damage|p1a: Silvally|40/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Bewear|Bewear, M|100/100
+|-damage|p2a: Bewear|94/100|[from] Stealth Rock
+|move|p1a: Silvally|Multi-Attack|p2a: Bewear
+|-immune|p2a: Bewear
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Silvally|U-turn|p2a: Bewear
+|-resisted|p2a: Bewear
+|-damage|p2a: Bewear|89/100
+|
+|switch|p1a: Vespiquen|Vespiquen, F|94/100|[from]move: U-turn
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Bewear|Shadow Claw|p1a: Vespiquen
+|-crit|p1a: Vespiquen
+|-damage|p1a: Vespiquen|70/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Silvally|Silvally-Steel|83/100
+|-damage|p2a: Silvally|77/100|[from] Stealth Rock
+|move|p1a: Vespiquen|U-turn|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|66/100
+|
+|switch|p1a: Coalossal|Coalossal, F|100/100|[from]move: U-turn
+|-damage|p1a: Coalossal|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Coalossal|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Silvally|U-turn|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|75/100
+|
+|switch|p2a: Indeedee|Indeedee, M|12/100|[from]move: U-turn
+|-damage|p2a: Indeedee|0 fnt|[from] Stealth Rock
+|faint|p2a: Indeedee
+|move|p1a: Coalossal|Heat Crash|p2: Indeedee|[notarget]
+|-fail|p1a: Coalossal
+|
+|-heal|p1a: Coalossal|81/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mudsdale|Mudsdale, F|62/100 tox
+|-damage|p2a: Mudsdale|56/100 tox|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Aromatisse|Aromatisse, F, shiny|77/100
+|-damage|p2a: Aromatisse|65/100|[from] Stealth Rock
+|switch|p1a: Vespiquen|Vespiquen, F|70/100
+|-ability|p1a: Vespiquen|Pressure
+|
+|-heal|p2a: Aromatisse|71/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Vespiquen|U-turn|p2a: Aromatisse
+|-resisted|p2a: Aromatisse
+|-damage|p2a: Aromatisse|60/100
+|
+|switch|p1a: Coalossal|Coalossal, F|81/100|[from]move: U-turn
+|-damage|p1a: Coalossal|56/100|[from] Stealth Rock
+|move|p2a: Aromatisse|Aromatherapy|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Aromatherapy
+|-curestatus|p2: Mudsdale|tox|[msg]
+|
+|-heal|p1a: Coalossal|63/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|67/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Coalossal|Rapid Spin|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p1a: Coalossal|69/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|73/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Mudsdale|Mudsdale, F|56/100
+|-damage|p2a: Mudsdale|50/100|[from] Stealth Rock
+|move|p1a: Coalossal|Rapid Spin|p2a: Mudsdale
+|-damage|p2a: Mudsdale|43/100
+|-boost|p1a: Coalossal|spe|1
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-sideend|p1: Umbra Soul|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Coalossal
+|
+|-heal|p1a: Coalossal|75/100|[from] item: Leftovers
+|-heal|p2a: Mudsdale|49/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Vespiquen|Vespiquen, F|70/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Mudsdale|Stealth Rock|p1a: Vespiquen
+|-sidestart|p1: Umbra Soul|move: Stealth Rock
+|
+|-heal|p2a: Mudsdale|55/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Vespiquen|U-turn|p2a: Mudsdale
+|-damage|p2a: Mudsdale|48/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100|[from]move: U-turn
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Mudsdale|Toxic|p1a: Gastrodon
+|-status|p1a: Gastrodon|tox
+|
+|-heal|p1a: Gastrodon|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Mudsdale|54/100|[from] item: Leftovers
+|-damage|p1a: Gastrodon|94/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p2a: Aromatisse|Aromatisse, F, shiny|73/100
+|-damage|p2a: Aromatisse|60/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Aromatisse
+|-damage|p2a: Aromatisse|43/100
+|
+|-heal|p1a: Gastrodon|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Aromatisse|49/100|[from] item: Leftovers
+|-damage|p1a: Gastrodon|88/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p1a: Vespiquen|Vespiquen, F|70/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|55/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Vespiquen|U-turn|p2a: Aromatisse
+|-resisted|p2a: Aromatisse
+|-crit|p2a: Aromatisse
+|-damage|p2a: Aromatisse|38/100
+|
+|switch|p1a: Coalossal|Coalossal, F|75/100|[from]move: U-turn
+|-damage|p1a: Coalossal|50/100|[from] Stealth Rock
+|move|p2a: Aromatisse|Moonblast|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|39/100
+|-unboost|p1a: Coalossal|spa|1
+|
+|-heal|p2a: Aromatisse|88/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Coalossal|46/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Mudsdale|Mudsdale, F|54/100
+|-damage|p2a: Mudsdale|48/100|[from] Stealth Rock
+|move|p1a: Coalossal|Heat Crash|p2a: Mudsdale
+|-damage|p2a: Mudsdale|39/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|-heal|p2a: Mudsdale|45/100|[from] item: Leftovers
+|-heal|p1a: Coalossal|52/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Vespiquen|Vespiquen, F|70/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Mudsdale|Earthquake|p1a: Vespiquen
+|-immune|p1a: Vespiquen
+|
+|-heal|p2a: Mudsdale|51/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Silvally|Silvally-Steel|66/100
+|-damage|p2a: Silvally|60/100|[from] Stealth Rock
+|move|p1a: Vespiquen|Toxic|p2a: Silvally
+|-immune|p2a: Silvally
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Silvally|Rock Slide|p1a: Vespiquen
+|-supereffective|p1a: Vespiquen
+|-damage|p1a: Vespiquen|10/100
+|move|p1a: Vespiquen|U-turn|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|50/100
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100|[from]move: U-turn
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Aromatisse|Aromatisse, F, shiny|94/100
+|-damage|p2a: Aromatisse|82/100|[from] Stealth Rock
+|move|p1a: Indeedee|Mystical Fire|p2a: Aromatisse
+|-damage|p2a: Aromatisse|67/100
+|-unboost|p2a: Aromatisse|spa|1
+|
+|-heal|p2a: Aromatisse|73/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Coalossal|Coalossal, F|52/100
+|-damage|p1a: Coalossal|27/100|[from] Stealth Rock
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p1a: Coalossal|33/100|[from] item: Leftovers
+|-heal|p2a: Aromatisse|79/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: Mudsdale|Mudsdale, F|51/100
+|-damage|p2a: Mudsdale|45/100|[from] Stealth Rock
+|move|p1a: Coalossal|Rapid Spin|p2a: Mudsdale
+|-damage|p2a: Mudsdale|38/100
+|-boost|p1a: Coalossal|spe|1
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-sideend|p1: Umbra Soul|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Coalossal
+|
+|-heal|p2a: Mudsdale|88/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Coalossal|39/100|[from] item: Leftovers
+|-heal|p2a: Mudsdale|94/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Gastrodon|Gastrodon, F|88/100 tox
+|move|p2a: Mudsdale|Stealth Rock|p1a: Gastrodon
+|-sidestart|p1: Umbra Soul|move: Stealth Rock
+|
+|-heal|p1a: Gastrodon|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Mudsdale|99/100|[from] item: Leftovers
+|-damage|p1a: Gastrodon|88/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|34
+|j| plasmagby
+|
+|switch|p2a: Aromatisse|Aromatisse, F, shiny|79/100
+|-damage|p2a: Aromatisse|67/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Toxic|p2a: Aromatisse
+|-status|p2a: Aromatisse|tox
+|
+|-heal|p1a: Gastrodon|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Aromatisse|73/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|82/100 tox|[from] psn
+|-damage|p2a: Aromatisse|67/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|switch|p1a: Vespiquen|Vespiquen, F|10/100
+|-ability|p1a: Vespiquen|Pressure
+|move|p2a: Aromatisse|Moonblast|p1a: Vespiquen
+|-crit|p1a: Vespiquen
+|-damage|p1a: Vespiquen|0 fnt
+|faint|p1a: Vespiquen
+|
+|-heal|p2a: Aromatisse|73/100 tox|[from] item: Leftovers
+|-damage|p2a: Aromatisse|61/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|88/100
+|-damage|p1a: Indeedee|76/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|36
+|
+|move|p1a: Indeedee|Psyshock|p2a: Aromatisse
+|-damage|p2a: Aromatisse|13/100 tox
+|move|p2a: Aromatisse|Aromatherapy|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Aromatherapy
+|-curestatus|p2a: Aromatisse|tox|[msg]
+|
+|-heal|p2a: Aromatisse|19/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p1a: Silvally|Silvally-Ghost|40/100
+|-damage|p1a: Silvally|27/100|[from] Stealth Rock
+|move|p2a: Aromatisse|Protect||[still]
+|-fail|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|26/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Silvally|Multi-Attack|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p2a: Aromatisse|32/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p2a: Mudsdale|Mudsdale, F|99/100
+|-damage|p2a: Mudsdale|94/100|[from] Stealth Rock
+|move|p1a: Silvally|U-turn|p2a: Mudsdale
+|-damage|p2a: Mudsdale|82/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|switch|p1a: Gastrodon|Gastrodon, F|82/100 tox|[from]move: U-turn
+|-damage|p1a: Gastrodon|76/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: Gastrodon|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Mudsdale|88/100|[from] item: Leftovers
+|-damage|p1a: Gastrodon|76/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|switch|p2a: Bewear|Bewear, M|89/100
+|-damage|p2a: Bewear|83/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Bewear
+|-damage|p2a: Bewear|44/100
+|-status|p2a: Bewear|brn
+|
+|-heal|p1a: Gastrodon|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Bewear|38/100 brn|[from] brn
+|-damage|p1a: Gastrodon|70/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|41
+|
+|move|p2a: Bewear|Swords Dance|p2a: Bewear
+|-boost|p2a: Bewear|atk|2
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100 tox
+|
+|-damage|p2a: Bewear|32/100 brn|[from] brn
+|-damage|p1a: Gastrodon|82/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|move|p2a: Bewear|Shadow Claw|p1a: Gastrodon
+|-damage|p1a: Gastrodon|58/100 tox
+|move|p1a: Gastrodon|Scald|p2a: Bewear
+|-damage|p2a: Bewear|0 fnt
+|faint|p2a: Bewear
+|
+|-heal|p1a: Gastrodon|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|40/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|43
+|
+|switch|p1a: Coalossal|Coalossal, F|39/100
+|-damage|p1a: Coalossal|15/100|[from] Stealth Rock
+|move|p2a: Rotom|Shadow Ball|p1a: Coalossal
+|-crit|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|faint|p1a: Coalossal
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|76/100
+|-damage|p1a: Indeedee|64/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|44
+|
+|move|p1a: Indeedee|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|2/100
+|move|p2a: Rotom|Discharge|p1a: Indeedee
+|-damage|p1a: Indeedee|21/100
+|
+|-heal|p2a: Rotom|8/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Indeedee|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Steel|50/100
+|-damage|p2a: Silvally|44/100|[from] Stealth Rock
+|turn|46
+|
+|move|p1a: Indeedee|Psychic|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|13/100
+|move|p2a: Silvally|Multi-Attack|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Ghost|27/100
+|-damage|p1a: Silvally|15/100|[from] Stealth Rock
+|turn|47
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, F|40/100 tox
+|-damage|p1a: Gastrodon|33/100 tox|[from] Stealth Rock
+|turn|48
+|
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|move|p1a: Gastrodon|Scald|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-heal|p1a: Gastrodon|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|33/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p2a: Mudsdale|Mudsdale, F|88/100
+|-damage|p2a: Mudsdale|82/100|[from] Stealth Rock
+|turn|49
+|
+|move|p1a: Gastrodon|Scald|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|31/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Earthquake|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|win|lighthouses
+|raw|Umbra Soul's rating: 1550 &rarr; <strong>1527</strong><br />(-23 for losing)
+|raw|lighthouses's rating: 1498 &rarr; <strong>1521</strong><br />(+23 for winning)
+|l|☆lighthouses

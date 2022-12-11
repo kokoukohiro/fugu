@@ -1,0 +1,790 @@
+|j|☆Umbra Soul
+|j|☆Enter Pls
+|player|p1|Umbra Soul|69|1316
+|player|p2|Enter Pls|koga|1487
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Pinsir, F|
+|poke|p1|Tauros, M|
+|poke|p1|Charizard, F|
+|poke|p1|Vaporeon, F|
+|poke|p1|Vileplume, M|
+|poke|p1|Sandslash-Alola, M|
+|poke|p2|Drapion, F|
+|poke|p2|Vikavolt, F|
+|poke|p2|Xatu, F|
+|poke|p2|Whimsicott, F|
+|poke|p2|Vaporeon, M|
+|poke|p2|Runerigus, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| scimi
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Enter Pls)
+|
+|start
+|switch|p1a: Tauros|Tauros, M|100/100
+|switch|p2a: Vikavolt|Vikavolt, F|100/100
+|turn|1
+|
+|switch|p2a: Runerigus|Runerigus, F|100/100
+|move|p1a: Tauros|Body Slam|p2a: Runerigus
+|-immune|p2a: Runerigus
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Tauros|Toxic|p2a: Runerigus
+|-status|p2a: Runerigus|tox
+|move|p2a: Runerigus|Stealth Rock|p1a: Tauros
+|-sidestart|p1: Umbra Soul|move: Stealth Rock
+|
+|-damage|p2a: Runerigus|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Charizard|Charizard, F|100/100
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Charizard|Defog|p2a: Vaporeon
+|-unboost|p2a: Vaporeon|evasion|1
+|-sideend|p1: Umbra Soul|Stealth Rock|[from] move: Defog|[of] p1a: Charizard
+|move|p2a: Vaporeon|Scald|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|58/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|switch|p2a: Runerigus|Runerigus, F|94/100 tox
+|
+|-heal|p2a: Runerigus|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Runerigus|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Vileplume|Giga Drain|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|52/100 tox
+|move|p2a: Runerigus|Stealth Rock|p1a: Vileplume
+|-sidestart|p1: Umbra Soul|move: Stealth Rock
+|
+|-heal|p2a: Runerigus|59/100 tox|[from] item: Leftovers
+|-damage|p2a: Runerigus|46/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Drapion|Drapion, F|100/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Drapion
+|-resisted|p2a: Drapion
+|-damage|p2a: Drapion|84/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Sandslash|Sandslash-Alola, M|100/100
+|-damage|p1a: Sandslash|88/100|[from] Stealth Rock
+|move|p2a: Drapion|Acupressure|p2a: Drapion
+|-boost|p2a: Drapion|def|2
+|
+|-heal|p1a: Sandslash|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|j| Mertook
+|
+|move|p2a: Drapion|Acupressure|p2a: Drapion
+|-boost|p2a: Drapion|def|2
+|move|p1a: Sandslash|Curse|p1a: Sandslash
+|-unboost|p1a: Sandslash|spe|1
+|-boost|p1a: Sandslash|atk|1
+|-boost|p1a: Sandslash|def|1
+|
+|-heal|p1a: Sandslash|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Drapion|Acupressure|p2a: Drapion
+|-boost|p2a: Drapion|spd|2
+|move|p1a: Sandslash|Curse|p1a: Sandslash
+|-unboost|p1a: Sandslash|spe|1
+|-boost|p1a: Sandslash|atk|1
+|-boost|p1a: Sandslash|def|1
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Drapion|Acupressure|p2a: Drapion
+|-boost|p2a: Drapion|atk|2
+|move|p1a: Sandslash|Curse|p1a: Sandslash
+|-unboost|p1a: Sandslash|spe|1
+|-boost|p1a: Sandslash|atk|1
+|-boost|p1a: Sandslash|def|1
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Drapion|Acupressure|p2a: Drapion
+|-boost|p2a: Drapion|spe|2
+|move|p1a: Sandslash|Iron Head|p2a: Drapion
+|-damage|p2a: Drapion|64/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Drapion|Knock Off|p1a: Sandslash
+|-damage|p1a: Sandslash|80/100
+|-enditem|p1a: Sandslash|Leftovers|[from] move: Knock Off|[of] p2a: Drapion
+|move|p1a: Sandslash|Curse|p1a: Sandslash
+|-unboost|p1a: Sandslash|spe|1
+|-boost|p1a: Sandslash|atk|1
+|-boost|p1a: Sandslash|def|1
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Drapion|Iron Defense|p2a: Drapion
+|-boost|p2a: Drapion|def|2
+|move|p1a: Sandslash|Iron Head|p2a: Drapion
+|-damage|p2a: Drapion|43/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Drapion|Acupressure|p2a: Drapion
+|-boost|p2a: Drapion|atk|2
+|move|p1a: Sandslash|Iron Head|p2a: Drapion
+|-damage|p2a: Drapion|24/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Drapion|Acupressure|p2a: Drapion
+|-boost|p2a: Drapion|spd|2
+|move|p1a: Sandslash|Iron Head|p2a: Drapion
+|-damage|p2a: Drapion|4/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Sandslash|Ice Shard|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|faint|p2a: Drapion
+|
+|upkeep
+|c|☆Enter Pls|when tf did it get ice shard
+|c|☆Enter Pls|lol
+|c|☆Umbra Soul|let's go pika/eevee
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|turn|18
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|73/100
+|
+|-heal|p1a: Vileplume|79/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Xatu|Xatu, F|100/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Xatu
+|-damage|p2a: Xatu|46/100
+|
+|-heal|p1a: Vileplume|85/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p1a: Charizard|Charizard, F|58/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|97/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Charizard|Defog|p2a: Xatu
+|move|p2a: Xatu|Defog|p1a: Charizard|[from]Magic Bounce
+|-unboost|p1a: Charizard|evasion|1
+|-sideend|p1: Umbra Soul|Stealth Rock|[from] move: Defog|[of] p2a: Xatu
+|move|p2a: Xatu|Calm Mind|p2a: Xatu
+|-boost|p2a: Xatu|spa|1
+|-boost|p2a: Xatu|spd|1
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Tauros|Tauros, M|100/100
+|move|p2a: Xatu|Calm Mind|p2a: Xatu
+|-boost|p2a: Xatu|spa|1
+|-boost|p2a: Xatu|spd|1
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Tauros|Body Slam|p2a: Xatu
+|-damage|p2a: Xatu|38/100
+|move|p2a: Xatu|Stored Power|p1a: Tauros
+|-damage|p1a: Tauros|3/100
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Runerigus|Runerigus, F|46/100 tox
+|move|p1a: Tauros|Body Slam|p2a: Runerigus
+|-immune|p2a: Runerigus
+|
+|-heal|p2a: Runerigus|52/100 tox|[from] item: Leftovers
+|-damage|p2a: Runerigus|46/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p1a: Charizard|Charizard, F|58/100
+|move|p2a: Runerigus|Stealth Rock|p1a: Charizard
+|-sidestart|p1: Umbra Soul|move: Stealth Rock
+|
+|-heal|p2a: Runerigus|52/100 tox|[from] item: Leftovers
+|-damage|p2a: Runerigus|40/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|move|p1a: Charizard|Defog|p2a: Vaporeon
+|-unboost|p2a: Vaporeon|evasion|1
+|-sideend|p1: Umbra Soul|Stealth Rock|[from] move: Defog|[of] p1a: Charizard
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Vileplume|Vileplume, M|85/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Vileplume|91/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|switch|p2a: Runerigus|Runerigus, F|40/100 tox
+|move|p1a: Vileplume|Sludge Bomb|p2a: Runerigus
+|-resisted|p2a: Runerigus
+|-damage|p2a: Runerigus|34/100 tox
+|
+|-heal|p2a: Runerigus|100/100 tox|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vileplume|98/100|[from] item: Black Sludge
+|-damage|p2a: Runerigus|94/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|switch|p2a: Vikavolt|Vikavolt, F|100/100
+|move|p1a: Vileplume|Giga Drain|p2a: Vikavolt
+|-resisted|p2a: Vikavolt
+|-damage|p2a: Vikavolt|77/100
+|-heal|p1a: Vileplume|100/100|[from] drain|[of] p2a: Vikavolt
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Vikavolt|Bug Buzz|p1a: Vileplume
+|-damage|p1a: Vileplume|46/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vikavolt
+|-damage|p2a: Vikavolt|18/100
+|-status|p2a: Vikavolt|psn
+|
+|-heal|p1a: Vileplume|52/100|[from] item: Black Sludge
+|-damage|p2a: Vikavolt|6/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p1a: Tauros|Tauros, M|3/100
+|move|p2a: Vikavolt|Roost|p2a: Vikavolt
+|-heal|p2a: Vikavolt|56/100 psn
+|-singleturn|p2a: Vikavolt|move: Roost
+|
+|-damage|p2a: Vikavolt|44/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p2a: Runerigus|Runerigus, F|94/100 tox
+|move|p1a: Tauros|Body Slam|p2a: Runerigus
+|-immune|p2a: Runerigus
+|
+|-heal|p2a: Runerigus|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Runerigus|94/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p1a: Charizard|Charizard, F|58/100
+|move|p2a: Runerigus|Stealth Rock|p1a: Charizard
+|-sidestart|p1: Umbra Soul|move: Stealth Rock
+|
+|-heal|p2a: Runerigus|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Runerigus|88/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|move|p1a: Charizard|Defog|p2a: Vaporeon
+|-unboost|p2a: Vaporeon|evasion|1
+|-sideend|p1: Umbra Soul|Stealth Rock|[from] move: Defog|[of] p1a: Charizard
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: Vileplume|Vileplume, M|52/100
+|move|p2a: Vaporeon|Heal Bell|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Heal Bell
+|-curestatus|p2: Runerigus|tox|[msg]
+|-curestatus|p2: Vikavolt|psn|[msg]
+|
+|-heal|p1a: Vileplume|58/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Vileplume|Giga Drain|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vileplume|65/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vaporeon
+|-damage|p2a: Vaporeon|73/100
+|
+|-heal|p2a: Vaporeon|79/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|71/100|[from] item: Black Sludge
+|upkeep
+|turn|38
+|
+|move|p2a: Vaporeon|Scald|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|54/100
+|move|p1a: Vileplume|Giga Drain|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|33/100
+|-heal|p1a: Vileplume|85/100|[from] drain|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|83/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|89/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|91/100|[from] item: Black Sludge
+|upkeep
+|turn|39
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Vileplume|Giga Drain|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|95/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|97/100|[from] item: Black Sludge
+|upkeep
+|turn|40
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Vileplume|Giga Drain|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|47/100
+|-heal|p1a: Vileplume|100/100|[from] drain|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|53/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Vaporeon|Scald|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|85/100
+|-status|p1a: Vileplume|brn
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vaporeon
+|-damage|p2a: Vaporeon|25/100
+|
+|-heal|p2a: Vaporeon|75/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|81/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|91/100 brn|[from] item: Black Sludge
+|-damage|p1a: Vileplume|85/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|87/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|91/100 brn|[from] item: Black Sludge
+|-damage|p1a: Vileplume|85/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vaporeon
+|-damage|p2a: Vaporeon|57/100
+|
+|-heal|p2a: Vaporeon|63/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|91/100 brn|[from] item: Black Sludge
+|-damage|p1a: Vileplume|85/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vileplume|91/100 brn|[from] item: Black Sludge
+|-damage|p1a: Vileplume|85/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Vileplume|Moonblast|p2a: Vaporeon
+|-damage|p2a: Vaporeon|82/100
+|
+|-heal|p2a: Vaporeon|88/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|91/100 brn|[from] item: Black Sludge
+|-damage|p1a: Vileplume|85/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|switch|p2a: Runerigus|Runerigus, F|88/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Runerigus
+|-resisted|p2a: Runerigus
+|-crit|p2a: Runerigus
+|-damage|p2a: Runerigus|77/100
+|
+|-heal|p2a: Runerigus|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vileplume|91/100 brn|[from] item: Black Sludge
+|-damage|p1a: Vileplume|85/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Vileplume|Giga Drain|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|55/100
+|-heal|p1a: Vileplume|100/100 brn|[from] drain|[of] p2a: Runerigus
+|move|p2a: Runerigus|Stealth Rock|p1a: Vileplume
+|-sidestart|p1: Umbra Soul|move: Stealth Rock
+|
+|-heal|p2a: Runerigus|61/100|[from] item: Leftovers
+|-damage|p1a: Vileplume|94/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|switch|p2a: Vaporeon|Vaporeon, M|88/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Vaporeon
+|-damage|p2a: Vaporeon|58/100
+|-status|p2a: Vaporeon|psn
+|
+|-heal|p2a: Vaporeon|64/100 psn|[from] item: Leftovers
+|-heal|p1a: Vileplume|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Vaporeon|52/100 psn|[from] psn
+|-damage|p1a: Vileplume|94/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Vileplume|Giga Drain|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|6/100 psn
+|-heal|p1a: Vileplume|100/100 brn|[from] drain|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|12/100 psn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|0 fnt|[from] psn
+|faint|p2a: Vaporeon
+|-damage|p1a: Vileplume|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Xatu|Xatu, F|38/100
+|turn|50
+|
+|switch|p1a: Pinsir|Pinsir, F|100/100
+|-damage|p1a: Pinsir|76/100|[from] Stealth Rock
+|move|p2a: Xatu|Calm Mind|p2a: Xatu
+|-boost|p2a: Xatu|spa|1
+|-boost|p2a: Xatu|spd|1
+|
+|-heal|p2a: Xatu|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|51
+|
+|move|p1a: Pinsir|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-enditem|p2a: Xatu|Colbur Berry|[eat]
+|-enditem|p2a: Xatu|Colbur Berry|[weaken]
+|-damage|p2a: Xatu|71/100
+|move|p2a: Xatu|Heat Wave|p1a: Pinsir
+|-supereffective|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|upkeep
+|
+|switch|p1a: Charizard|Charizard, F|58/100
+|turn|52
+|
+|move|p1a: Charizard|Defog|p2a: Xatu
+|move|p2a: Xatu|Defog|p1a: Charizard|[from]Magic Bounce
+|-unboost|p1a: Charizard|evasion|1
+|-sideend|p1: Umbra Soul|Stealth Rock|[from] move: Defog|[of] p2a: Xatu
+|move|p2a: Xatu|Calm Mind|p2a: Xatu
+|-boost|p2a: Xatu|spa|1
+|-boost|p2a: Xatu|spd|1
+|
+|upkeep
+|turn|53
+|
+|move|p1a: Charizard|Flamethrower|p2a: Xatu
+|-damage|p2a: Xatu|47/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|97/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Charizard|Flamethrower|p2a: Xatu
+|-damage|p2a: Xatu|76/100
+|move|p2a: Xatu|Calm Mind|p2a: Xatu
+|-boost|p2a: Xatu|spa|1
+|-boost|p2a: Xatu|spd|1
+|
+|upkeep
+|turn|55
+|
+|switch|p1a: Sandslash|Sandslash-Alola, M|80/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|upkeep
+|turn|56
+|
+|move|p1a: Sandslash|Ice Shard|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|72/100
+|move|p2a: Xatu|Heat Wave|p1a: Sandslash|[miss]
+|-miss|p2a: Xatu|p1a: Sandslash
+|
+|upkeep
+|turn|57
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Sandslash|Iron Head|p2a: Xatu
+|-damage|p2a: Xatu|77/100
+|
+|upkeep
+|turn|58
+|
+|move|p1a: Sandslash|Ice Shard|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|51/100
+|move|p2a: Xatu|Heat Wave|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|upkeep
+|
+|switch|p1a: Tauros|Tauros, M|3/100
+|turn|59
+|c|☆Enter Pls|damn
+|c|☆Enter Pls|that miss
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|switch|p2a: Runerigus|Runerigus, F|61/100
+|
+|-heal|p2a: Runerigus|67/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|move|p1a: Vaporeon|Ice Beam|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|25/100
+|
+|upkeep
+|turn|61
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Whimsicott|Switcheroo|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|upkeep
+|turn|62
+|
+|switch|p1a: Tauros|Tauros, M|3/100
+|move|p2a: Whimsicott|Switcheroo|p1a: Tauros
+|-activate|p2a: Whimsicott|move: Trick|[of] p1a: Tauros
+|-item|p1a: Tauros|Choice Specs|[from] move: Switcheroo
+|-item|p2a: Whimsicott|Life Orb|[from] move: Switcheroo
+|
+|upkeep
+|turn|63
+|
+|move|p2a: Whimsicott|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|-damage|p2a: Whimsicott|15/100|[from] item: Life Orb
+|faint|p1a: Tauros
+|
+|upkeep
+|
+|switch|p1a: Charizard|Charizard, F|58/100
+|turn|64
+|
+|move|p2a: Whimsicott|Moonblast|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|40/100
+|-unboost|p1a: Charizard|spa|1
+|-damage|p2a: Whimsicott|5/100|[from] item: Life Orb
+|move|p1a: Charizard|Roost|p1a: Charizard
+|-heal|p1a: Charizard|90/100
+|-singleturn|p1a: Charizard|move: Roost
+|
+|upkeep
+|turn|65
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Whimsicott|Moonblast|p1a: Vaporeon
+|-damage|p1a: Vaporeon|69/100
+|-damage|p2a: Whimsicott|0 fnt|[from] item: Life Orb
+|faint|p2a: Whimsicott
+|
+|-heal|p1a: Vaporeon|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Xatu|Xatu, F|51/100
+|turn|66
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Vaporeon|Ice Beam|p2a: Xatu
+|-damage|p2a: Xatu|68/100
+|
+|-heal|p1a: Vaporeon|81/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|move|p2a: Xatu|Calm Mind|p2a: Xatu
+|-boost|p2a: Xatu|spa|1
+|-boost|p2a: Xatu|spd|1
+|move|p1a: Vaporeon|Ice Beam|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|28/100
+|
+|-heal|p1a: Vaporeon|87/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|78/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Vaporeon|Ice Beam|p2a: Xatu
+|-damage|p2a: Xatu|56/100
+|
+|-heal|p1a: Vaporeon|93/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Vaporeon|Ice Beam|p2a: Xatu
+|-damage|p2a: Xatu|79/100
+|
+|-heal|p1a: Vaporeon|99/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|move|p2a: Xatu|Calm Mind|p2a: Xatu
+|-boost|p2a: Xatu|spa|1
+|-boost|p2a: Xatu|spd|1
+|move|p1a: Vaporeon|Ice Beam|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|47/100
+|
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|j| toinha ♫♪
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|97/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Vaporeon|Ice Beam|p2a: Xatu
+|-damage|p2a: Xatu|82/100
+|
+|upkeep
+|turn|72
+|
+|move|p2a: Xatu|Calm Mind|p2a: Xatu
+|-boost|p2a: Xatu|spa|1
+|-boost|p2a: Xatu|spd|1
+|move|p1a: Vaporeon|Ice Beam|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|56/100
+|
+|upkeep
+|turn|73
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Vaporeon|Ice Beam|p2a: Xatu
+|-damage|p2a: Xatu|87/100
+|
+|upkeep
+|turn|74
+|
+|move|p2a: Xatu|Stored Power|p1a: Vaporeon
+|-damage|p1a: Vaporeon|15/100
+|move|p1a: Vaporeon|Ice Beam|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|62/100
+|-status|p2a: Xatu|frz
+|
+|-heal|p1a: Vaporeon|21/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|-curestatus|p2a: Xatu|frz|[msg]
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Vaporeon|Ice Beam|p2a: Xatu
+|-damage|p2a: Xatu|89/100
+|
+|-heal|p1a: Vaporeon|27/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|move|p2a: Xatu|Stored Power|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|upkeep
+|-message|Umbra Soul forfeited.
+|
+|win|Enter Pls
+|l|☆Umbra Soul
+|raw|Umbra Soul's rating: 1316 &rarr; <strong>1305</strong><br />(-11 for losing)
+|raw|Enter Pls's rating: 1487 &rarr; <strong>1498</strong><br />(+11 for winning)

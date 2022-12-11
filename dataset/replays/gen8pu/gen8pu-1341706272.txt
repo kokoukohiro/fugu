@@ -1,0 +1,326 @@
+|j|☆ayo bb
+|j|☆kurtyv
+|t:|1621190274
+|gametype|singles
+|player|p1|ayo bb|266|1646
+|player|p2|kurtyv|265|1521
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Boltund, F|
+|poke|p1|Persian-Alola, M|
+|poke|p1|Stunfisk-Galar, M|
+|poke|p1|Gourgeist-*, M|
+|poke|p1|Cramorant, M|
+|poke|p1|Mesprit|
+|poke|p2|Carbink|
+|poke|p2|Cursola, M|
+|poke|p2|Aromatisse, M|
+|poke|p2|Exeggutor-Alola, F|
+|poke|p2|Beheeyem, M|
+|poke|p2|Gigalith, F|
+|teampreview
+|
+|t:|1621190294
+|start
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|-item|p2a: Aromatisse|Life Orb|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|1
+|
+|t:|1621190301
+|move|p1a: Gourgeist|Poltergeist|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Poltergeist|Life Orb
+|-damage|p2a: Aromatisse|7/100
+|move|p2a: Aromatisse|Trick Room|p2a: Aromatisse
+|-fieldstart|move: Trick Room|[of] p2a: Aromatisse
+|
+|upkeep
+|turn|2
+|
+|t:|1621190307
+|switch|p1a: stream electric|Stunfisk-Galar, M|100/100
+|move|p2a: Aromatisse|Misty Explosion|p1a: stream electric
+|-resisted|p1a: stream electric
+|-damage|p1a: stream electric|79/100
+|faint|p2a: Aromatisse
+|
+|-heal|p1a: stream electric|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1621190319
+|switch|p2a: Exeggutor|Exeggutor-Alola, F|100/100
+|-item|p1a: stream electric|Leftovers|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|turn|3
+|
+|t:|1621190325
+|move|p1a: stream electric|Protect|p1a: stream electric
+|-singleturn|p1a: stream electric|Protect
+|move|p2a: Exeggutor|Leaf Storm|p1a: stream electric
+|-activate|p1a: stream electric|move: Protect
+|
+|-heal|p1a: stream electric|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1621190330
+|move|p2a: Exeggutor|Flamethrower|p1a: stream electric
+|-supereffective|p1a: stream electric
+|-damage|p1a: stream electric|50/100
+|move|p1a: stream electric|Snap Trap|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|99/100
+|-activate|p2a: Exeggutor|move: Snap Trap|[of] p1a: stream electric
+|
+|-heal|p1a: stream electric|56/100|[from] item: Leftovers
+|-damage|p2a: Exeggutor|87/100|[from] move: Snap Trap|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1621190342
+|move|p1a: stream electric|Protect|p1a: stream electric
+|-singleturn|p1a: stream electric|Protect
+|move|p2a: Exeggutor|Flamethrower|p1a: stream electric
+|-activate|p1a: stream electric|move: Protect
+|
+|-heal|p1a: stream electric|62/100|[from] item: Leftovers
+|-damage|p2a: Exeggutor|74/100|[from] move: Snap Trap|[partiallytrapped]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1621190353
+|switch|p1a: Mesprit|Mesprit|100/100
+|move|p2a: Exeggutor|Trick Room|p2a: Exeggutor
+|-fieldstart|move: Trick Room|[of] p2a: Exeggutor
+|
+|-end|p2a: Exeggutor|Snap Trap|[partiallytrapped]|[silent]
+|upkeep
+|turn|7
+|
+|t:|1621190360
+|move|p2a: Exeggutor|Leaf Storm|p1a: Mesprit
+|-crit|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|-unboost|p2a: Exeggutor|spa|2
+|-enditem|p2a: Exeggutor|Eject Pack
+|faint|p1a: Mesprit
+|
+|t:|1621190381
+|switch|p2a: Cursola|Cursola, M|100/100
+|
+|upkeep
+|
+|t:|1621190388
+|switch|p1a: Persian|Persian-Alola, M|100/100
+|turn|8
+|
+|t:|1621190395
+|move|p2a: Cursola|Meteor Beam||[still]
+|-prepare|p2a: Cursola|Meteor Beam
+|-boost|p2a: Cursola|spa|1
+|-enditem|p2a: Cursola|Power Herb
+|-anim|p2a: Cursola|Meteor Beam|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|upkeep
+|
+|t:|1621190404
+|switch|p1a: Cramorant|Cramorant, M|100/100
+|turn|9
+|
+|t:|1621190413
+|move|p2a: Cursola|Shadow Ball|p1a: Cramorant
+|-damage|p1a: Cramorant|18/100
+|move|p1a: Cramorant|Surf|p2a: Cursola
+|-formechange|p1a: Cramorant|Cramorant-Gorging|
+|-damage|p2a: Cursola|78/100
+|
+|upkeep
+|turn|10
+|
+|t:|1621190421
+|move|p2a: Cursola|Shadow Ball|p1a: Cramorant
+|-damage|p1a: Cramorant|0 fnt
+|-damage|p2a: Cursola|53/100|[from] ability: Gulp Missile|[of] p1a: Cramorant
+|-status|p2a: Cursola|par
+|-formechange|p1a: Cramorant|Cramorant|
+|faint|p1a: Cramorant
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1621190434
+|switch|p1a: Boltund|Boltund, F|100/100
+|turn|11
+|
+|t:|1621190441
+|move|p1a: Boltund|Psychic Fangs|p2a: Cursola
+|-damage|p2a: Cursola|0 fnt
+|-ability|p2a: Cursola|Perish Body
+|faint|p2a: Cursola
+|
+|-start|p1a: Boltund|perish3
+|upkeep
+|
+|t:|1621190453
+|switch|p2a: Carbink|Carbink|100/100
+|turn|12
+|
+|t:|1621190464
+|switch|p1a: stream electric|Stunfisk-Galar, M|62/100
+|move|p2a: Carbink|Stealth Rock|p1a: stream electric
+|-sidestart|p1: ayo bb|move: Stealth Rock
+|
+|-heal|p1a: stream electric|68/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1621190470
+|move|p1a: stream electric|Snap Trap|p2a: Carbink
+|-supereffective|p2a: Carbink
+|-crit|p2a: Carbink
+|-damage|p2a: Carbink|85/100
+|-activate|p2a: Carbink|move: Snap Trap|[of] p1a: stream electric
+|move|p2a: Carbink|Sandstorm|p2a: Carbink
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: stream electric|74/100|[from] item: Leftovers
+|-damage|p2a: Carbink|72/100|[from] move: Snap Trap|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1621190479
+|move|p1a: stream electric|Earthquake|p2a: Carbink
+|-supereffective|p2a: Carbink
+|-damage|p2a: Carbink|22/100
+|move|p2a: Carbink|Trick Room|p2a: Carbink
+|-fieldstart|move: Trick Room|[of] p2a: Carbink
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: stream electric|80/100|[from] item: Leftovers
+|-damage|p2a: Carbink|10/100|[from] move: Snap Trap|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1621190489
+|move|p2a: Carbink|Misty Explosion|p1a: stream electric
+|-resisted|p1a: stream electric
+|-damage|p1a: stream electric|74/100
+|faint|p2a: Carbink
+|move|p1a: stream electric|Earthquake|p2: Carbink|[notarget]
+|-fail|p1a: stream electric
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: stream electric|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1621190493
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|turn|16
+|
+|t:|1621190499
+|move|p1a: stream electric|Protect|p1a: stream electric
+|-singleturn|p1a: stream electric|Protect
+|move|p2a: Gigalith|Earthquake|p1a: stream electric
+|-activate|p1a: stream electric|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: stream electric|86/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1621190510
+|move|p2a: Gigalith|Earthquake|p1a: stream electric
+|-supereffective|p1a: stream electric
+|-damage|p1a: stream electric|0 fnt
+|faint|p1a: stream electric
+|-damage|p2a: Gigalith|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1621190523
+|switch|p1a: Boltund|Boltund, F|100/100
+|-damage|p1a: Boltund|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1621190528
+|move|p2a: Gigalith|Earthquake|p1a: Boltund
+|-supereffective|p1a: Boltund
+|-damage|p1a: Boltund|0 fnt
+|faint|p1a: Boltund
+|-damage|p2a: Gigalith|81/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1621190529
+|switch|p1a: Gourgeist|Gourgeist-Super, M|100/100
+|-damage|p1a: Gourgeist|88/100|[from] Stealth Rock
+|-item|p2a: Gigalith|Life Orb|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|19
+|
+|t:|1621190536
+|move|p1a: Gourgeist|Poltergeist|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Poltergeist|Life Orb
+|-damage|p2a: Gigalith|21/100
+|move|p2a: Gigalith|Heavy Slam|p1a: Gourgeist
+|-damage|p1a: Gourgeist|16/100
+|-damage|p2a: Gigalith|11/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gourgeist|10/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1621190547
+|move|p1a: Gourgeist|Poltergeist|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Poltergeist|Life Orb
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|none
+|upkeep
+|
+|t:|1621190551
+|switch|p2a: Exeggutor|Exeggutor-Alola, F|74/100
+|-item|p1a: Gourgeist|Choice Band|[from] ability: Frisk|[of] p2a: Exeggutor|[identify]
+|turn|21
+|
+|t:|1621190553
+|move|p1a: Gourgeist|Poltergeist||[still]
+|-fail|p1a: Gourgeist
+|move|p2a: Exeggutor|Trick Room|p2a: Exeggutor
+|-fieldstart|move: Trick Room|[of] p2a: Exeggutor
+|
+|upkeep
+|turn|22
+|
+|t:|1621190558
+|move|p2a: Exeggutor|Flamethrower|p1a: Gourgeist
+|-supereffective|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|win|kurtyv
+|raw|ayo bb's rating: 1646 &rarr; <strong>1619</strong><br />(-27 for losing)
+|raw|kurtyv's rating: 1521 &rarr; <strong>1548</strong><br />(+27 for winning)
+|c|☆ayo bb|gg
+|c|☆kurtyv|gg
+|l|☆ayo bb
+|c|☆kurtyv|check out my alt
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

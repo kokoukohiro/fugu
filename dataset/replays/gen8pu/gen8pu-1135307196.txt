@@ -1,0 +1,393 @@
+|j|☆Joke sets
+|j|☆KimagureOrangeRoad
+|player|p1|Joke sets|teacher-gen2|1333
+|player|p2|KimagureOrangeRoad|169|1192
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Manectric, F|
+|poke|p1|Crustle, F|
+|poke|p1|Mawile, F|
+|poke|p1|Basculin, F|
+|poke|p1|Mr. Mime-Galar, M|
+|poke|p1|Vibrava, F|
+|poke|p2|Leafeon, F|
+|poke|p2|Mr. Rime, F|
+|poke|p2|Wailord, F|
+|poke|p2|Dusknoir, M|
+|poke|p2|Onix, M|
+|poke|p2|Cutiefly, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Basculin|Basculin, F|100/100
+|switch|p2a: Specs yo Asss|Cutiefly, F|100/100
+|turn|1
+|
+|move|p2a: Specs yo Asss|Protect|p2a: Specs yo Asss
+|-singleturn|p2a: Specs yo Asss|Protect
+|move|p1a: Basculin|Flip Turn|p2a: Specs yo Asss
+|-activate|p2a: Specs yo Asss|move: Protect
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Basculin|Flip Turn|p2a: Specs yo Asss
+|-enditem|p2a: Specs yo Asss|Focus Sash
+|-damage|p2a: Specs yo Asss|1/100
+|
+|switch|p1a: Mawile|Mawile, F|100/100|[from]move: Flip Turn
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Specs yo Asss|atk|1
+|move|p2a: Specs yo Asss|Sticky Web|p1a: Mawile
+|-sidestart|p1: Joke sets|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Specs yo Asss|U-turn|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|98/100
+|
+|switch|p2a: Dragon Dance|Onix, M|100/100|[from]move: U-turn
+|move|p1a: Mawile|Knock Off|p2a: Dragon Dance
+|-damage|p2a: Dragon Dance|78/100
+|-enditem|p2a: Dragon Dance|Weakness Policy|[from] move: Knock Off|[of] p1a: Mawile
+|
+|-heal|p1a: Mawile|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Vibrava|Vibrava, F|100/100
+|move|p2a: Dragon Dance|Stealth Rock|p1a: Vibrava
+|-sidestart|p1: Joke sets|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Dragon Dance|Taunt|p1a: Vibrava
+|-start|p1a: Vibrava|move: Taunt
+|move|p1a: Vibrava|Scorching Sands|p2a: Dragon Dance
+|-supereffective|p2a: Dragon Dance
+|-damage|p2a: Dragon Dance|0 fnt
+|faint|p2a: Dragon Dance
+|
+|upkeep
+|
+|switch|p2a: a Ship|Wailord, F|100/100
+|turn|6
+|
+|move|p2a: a Ship|Water Spout|p1a: Vibrava
+|-damage|p1a: Vibrava|13/100
+|move|p1a: Vibrava|U-turn|p2a: a Ship
+|-damage|p2a: a Ship|86/100
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, M|100/100|[from]move: U-turn
+|-activate|p1a: Mr. Mime|move: Sticky Web
+|-unboost|p1a: Mr. Mime|spe|1
+|-damage|p1a: Mr. Mime|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: badabingBadaboom|Dusknoir, M|100/100
+|-ability|p2a: badabingBadaboom|Pressure
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: badabingBadaboom
+|-damage|p2a: badabingBadaboom|75/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Vibrava|Vibrava, F|13/100
+|-damage|p1a: Vibrava|7/100|[from] Stealth Rock
+|switch|p2a: Specs yo Asss|Cutiefly, F|1/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Mawile|Mawile, F|100/100
+|-activate|p1a: Mawile|move: Sticky Web
+|-unboost|p1a: Mawile|spe|1
+|-damage|p1a: Mawile|95/100|[from] Stealth Rock
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Specs yo Asss|atk|1
+|move|p2a: Specs yo Asss|U-turn|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|91/100
+|
+|switch|p2a: DickButt|Mr. Rime, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Mawile|97/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: DickButt|Rapid Spin|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|94/100
+|-boost|p2a: DickButt|spe|1
+|move|p1a: Mawile|Toxic|p2a: DickButt
+|-status|p2a: DickButt|tox
+|
+|-heal|p1a: Mawile|99/100|[from] item: Leftovers
+|-damage|p2a: DickButt|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: DickButt|Calm Mind|p2a: DickButt
+|-boost|p2a: DickButt|spa|1
+|-boost|p2a: DickButt|spd|1
+|move|p1a: Mawile|Stealth Rock|p2a: DickButt
+|-sidestart|p2: KimagureOrangeRoad|move: Stealth Rock
+|
+|-heal|p1a: Mawile|100/100|[from] item: Leftovers
+|-damage|p2a: DickButt|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p2a: DickButt|Stored Power|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|58/100
+|move|p1a: Mawile|Play Rough|p2a: DickButt
+|-damage|p2a: DickButt|47/100 tox
+|
+|-heal|p1a: Mawile|64/100|[from] item: Leftovers
+|-damage|p2a: DickButt|28/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: DickButt|Rapid Spin|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|60/100
+|-boost|p2a: DickButt|spe|1
+|-sideend|p2: KimagureOrangeRoad|Stealth Rock|[from] move: Rapid Spin|[of] p2a: DickButt
+|move|p1a: Mawile|Play Rough|p2a: DickButt
+|-damage|p2a: DickButt|0 fnt
+|faint|p2a: DickButt
+|
+|-heal|p1a: Mawile|66/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: a Ship|Wailord, F|86/100
+|turn|14
+|
+|switch|p1a: Vibrava|Vibrava, F|7/100
+|-damage|p1a: Vibrava|1/100|[from] Stealth Rock
+|move|p2a: a Ship|Water Spout|p1a: Vibrava
+|-damage|p1a: Vibrava|0 fnt
+|faint|p1a: Vibrava
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, M|76/100
+|-damage|p1a: Mr. Mime|51/100|[from] Stealth Rock
+|-activate|p1a: Mr. Mime|move: Sticky Web
+|-unboost|p1a: Mr. Mime|spe|1
+|turn|15
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: a Ship
+|-supereffective|p2a: a Ship
+|-damage|p2a: a Ship|11/100
+|move|p2a: a Ship|Water Spout|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|34/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: a Ship
+|-supereffective|p2a: a Ship
+|-crit|p2a: a Ship
+|-damage|p2a: a Ship|0 fnt
+|faint|p2a: a Ship
+|
+|upkeep
+|
+|switch|p2a: Specs yo Asss|Cutiefly, F|1/100
+|turn|17
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Specs yo Asss
+|-damage|p2a: Specs yo Asss|0 fnt
+|faint|p2a: Specs yo Asss
+|
+|upkeep
+|
+|switch|p2a: badabingBadaboom|Dusknoir, M|75/100
+|-ability|p2a: badabingBadaboom|Pressure
+|turn|18
+|
+|switch|p1a: Mawile|Mawile, F|66/100
+|-activate|p1a: Mawile|move: Sticky Web
+|-unboost|p1a: Mawile|spe|1
+|-damage|p1a: Mawile|60/100|[from] Stealth Rock
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: badabingBadaboom|atk|1
+|move|p2a: badabingBadaboom|Will-O-Wisp|p1a: Mawile
+|-status|p1a: Mawile|brn
+|
+|-heal|p1a: Mawile|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Mawile|60/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: badabingBadaboom|Taunt|p1a: Mawile
+|-start|p1a: Mawile|move: Taunt
+|cant|p1a: Mawile|move: Taunt|Toxic
+|
+|-heal|p1a: Mawile|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Mawile|60/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: badabingBadaboom|Mean Look|p1a: Mawile
+|-activate|p1a: Mawile|trapped
+|move|p1a: Mawile|Knock Off|p2a: badabingBadaboom
+|-supereffective|p2a: badabingBadaboom
+|-damage|p2a: badabingBadaboom|60/100
+|-enditem|p2a: badabingBadaboom|Sitrus Berry|[from] move: Knock Off|[of] p1a: Mawile
+|
+|-heal|p1a: Mawile|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Mawile|60/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: badabingBadaboom|Taunt||[still]
+|-fail|p2a: badabingBadaboom
+|move|p1a: Mawile|Knock Off|p2a: badabingBadaboom
+|-supereffective|p2a: badabingBadaboom
+|-damage|p2a: badabingBadaboom|51/100
+|
+|-heal|p1a: Mawile|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Mawile|60/100 brn|[from] brn
+|-end|p1a: Mawile|move: Taunt
+|upkeep
+|turn|22
+|
+|move|p2a: badabingBadaboom|Memento|p1a: Mawile
+|-unboost|p1a: Mawile|atk|2
+|-unboost|p1a: Mawile|spa|2
+|faint|p2a: badabingBadaboom
+|move|p1a: Mawile|Knock Off|p2: badabingBadaboom|[notarget]
+|-fail|p1a: Mawile
+|
+|-heal|p1a: Mawile|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Mawile|60/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|turn|23
+|
+|move|p2a: Leafeon|Substitute|p2a: Leafeon
+|-start|p2a: Leafeon|Substitute
+|-damage|p2a: Leafeon|75/100
+|move|p1a: Mawile|Toxic||[still]
+|-fail|p1a: Mawile
+|
+|-heal|p1a: Mawile|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Mawile|60/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Basculin|Basculin, F|100/100
+|-activate|p1a: Basculin|move: Sticky Web
+|-unboost|p1a: Basculin|spe|1
+|-damage|p1a: Basculin|88/100|[from] Stealth Rock
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Basculin|Aqua Jet|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-activate|p2a: Leafeon|move: Substitute|[damage]
+|move|p2a: Leafeon|Leaf Blade|p1a: Basculin
+|-supereffective|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|faint|p1a: Basculin
+|
+|upkeep
+|
+|switch|p1a: Mawile|Mawile, F|60/100 brn
+|-activate|p1a: Mawile|move: Sticky Web
+|-unboost|p1a: Mawile|spe|1
+|-damage|p1a: Mawile|54/100 brn|[from] Stealth Rock
+|-ability|p1a: Mawile|Intimidate|boost
+|-immune|p2a: Leafeon
+|turn|26
+|
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|move|p1a: Mawile|Play Rough|p2a: Leafeon
+|-end|p2a: Leafeon|Substitute
+|
+|-heal|p1a: Mawile|60/100 brn|[from] item: Leftovers
+|-damage|p1a: Mawile|54/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Leafeon|Substitute|p2a: Leafeon
+|-start|p2a: Leafeon|Substitute
+|-damage|p2a: Leafeon|50/100
+|move|p1a: Mawile|Play Rough|p2a: Leafeon
+|-activate|p2a: Leafeon|move: Substitute|[damage]
+|
+|-heal|p1a: Mawile|60/100 brn|[from] item: Leftovers
+|-damage|p1a: Mawile|54/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Leafeon|Leaf Blade|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|upkeep
+|
+|switch|p1a: Crustle|Crustle, F|100/100
+|turn|29
+|
+|move|p2a: Leafeon|Leaf Blade|p1a: Crustle
+|-ability|p1a: Crustle|Sturdy
+|-damage|p1a: Crustle|1/100
+|move|p1a: Crustle|Skitter Smack|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-end|p2a: Leafeon|Substitute
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Manectric|Manectric, F|100/100
+|-damage|p1a: Manectric|88/100|[from] Stealth Rock
+|-activate|p1a: Manectric|move: Sticky Web
+|-unboost|p1a: Manectric|spe|1
+|move|p2a: Leafeon|Leaf Blade|p1a: Manectric
+|-crit|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, M|34/100
+|-activate|p1a: Mr. Mime|move: Sticky Web
+|-unboost|p1a: Mr. Mime|spe|1
+|-damage|p1a: Mr. Mime|9/100|[from] Stealth Rock
+|turn|31
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|win|Joke sets
+|l|☆KimagureOrangeRoad
+|raw|Joke sets's rating: 1334 &rarr; <strong>1346</strong><br />(+12 for winning)
+|raw|KimagureOrangeRoad's rating: 1192 &rarr; <strong>1176</strong><br />(-16 for losing)

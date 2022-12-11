@@ -1,0 +1,406 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1644105977
+|gametype|singles
+|player|p1|mncmt|lyra|
+|player|p2|Stallion|#wcop2021oceania|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Ubers
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Calyrex-Ice|
+|poke|p1|Xerneas-*|
+|poke|p1|Eternatus|
+|poke|p1|Yveltal|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Kyogre|
+|poke|p2|Shuckle, M|
+|poke|p2|Marshadow|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Yveltal|
+|poke|p2|Weavile, F|
+|poke|p2|Eternatus|
+|teampreview
+|c|☆mncmt|hf
+|c|☆Stallion|u2
+|inactive|mncmt has 270 seconds left.
+|inactive|Stallion has 270 seconds left.
+|inactive|mncmt has 240 seconds left.
+|
+|t:|1644106045
+|start
+|switch|p1a: Kyogre|Kyogre|100/100
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|
+|t:|1644106056
+|move|p1a: Kyogre|Surf|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|7/100
+|move|p2a: Shuckle|Sticky Web|p1a: Kyogre
+|-sidestart|p1: mncmt|move: Sticky Web
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1644106063
+|move|p1a: Kyogre|Surf|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Stallion has 270 seconds left.
+|
+|t:|1644106103
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|turn|3
+|
+|t:|1644106119
+|move|p2a: Eternatus|Meteor Beam||[still]
+|-prepare|p2a: Eternatus|Meteor Beam
+|-boost|p2a: Eternatus|spa|1
+|-enditem|p2a: Eternatus|Power Herb
+|-anim|p2a: Eternatus|Meteor Beam|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|33/100
+|move|p1a: Kyogre|Calm Mind|p1a: Kyogre
+|-boost|p1a: Kyogre|spa|1
+|-boost|p1a: Kyogre|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|Stallion has 270 seconds left.
+|
+|t:|1644106132
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1644106145
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-activate|p1a: Necrozma|move: Sticky Web
+|-unboost|p1a: Necrozma|spe|1
+|turn|5
+|
+|t:|1644106150
+|move|p2a: Eternatus|Substitute|p2a: Eternatus
+|-start|p2a: Eternatus|Substitute
+|-damage|p2a: Eternatus|76/100
+|move|p1a: Necrozma|Thunder Wave||[still]
+|-fail|p1a: Necrozma
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1644106155
+|move|p2a: Eternatus|Flamethrower|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|52/100
+|move|p1a: Necrozma|Iron Head|p2a: Eternatus
+|-crit|p2a: Eternatus
+|-end|p2a: Eternatus|Substitute
+|
+|-heal|p1a: Necrozma|58/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1644106166
+|move|p2a: Eternatus|Flamethrower|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|6/100
+|-status|p1a: Necrozma|brn
+|move|p1a: Necrozma|Thunder Wave|p2a: Eternatus
+|-status|p2a: Eternatus|par
+|
+|-heal|p1a: Necrozma|12/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|6/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1644106174
+|switch|p1a: Xerneas|Xerneas|100/100
+|-activate|p1a: Xerneas|move: Sticky Web
+|-unboost|p1a: Xerneas|spe|1
+|-ability|p1a: Xerneas|Fairy Aura
+|move|p2a: Eternatus|Flamethrower|p1a: Xerneas
+|-damage|p1a: Xerneas|54/100
+|
+|upkeep
+|turn|9
+|
+|t:|1644106192
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|
+|upkeep
+|turn|10
+|
+|t:|1644106200
+|move|p1a: Xerneas|Thunder Wave|p2a: Necrozma
+|-status|p2a: Necrozma|par
+|-enditem|p2a: Necrozma|Lum Berry|[eat]
+|-curestatus|p2a: Necrozma|par|[msg]
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Xerneas
+|-supereffective|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|upkeep
+|
+|t:|1644106204
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|11
+|
+|t:|1644106218
+|move|p1a: Yveltal|Defog|p2a: Necrozma
+|-unboost|p2a: Necrozma|evasion|1
+|-sideend|p1: mncmt|Sticky Web|[from] move: Defog|[of] p1a: Yveltal
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1644106222
+|move|p2a: Necrozma|Stone Edge|p1a: Yveltal|[miss]
+|-miss|p2a: Necrozma|p1a: Yveltal
+|move|p1a: Yveltal|Foul Play|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|upkeep
+|c|☆Stallion|tbh I deserved to miss that
+|c|☆Stallion|lol
+|
+|t:|1644106237
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|13
+|c|☆mncmt|u did
+|
+|t:|1644106248
+|move|p2a: Weavile|Triple Axel|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|82/100
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|48/100
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|-hitcount|p1: Yveltal|3
+|
+|upkeep
+|
+|t:|1644106262
+|switch|p1a: Calyrex|Calyrex-Ice|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|14
+|inactive|mncmt has 270 seconds left.
+|inactive|Stallion has 270 seconds left.
+|
+|t:|1644106310
+|move|p2a: Weavile|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|54/100
+|-enditem|p1a: Calyrex|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Calyrex|Body Press|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1644106321
+|switch|p2a: Marshadow|Marshadow|100/100
+|turn|15
+|
+|t:|1644106328
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Marshadow|Spectral Thief|p1a: Eternatus
+|-crit|p1a: Eternatus
+|-damage|p1a: Eternatus|39/100
+|-damage|p2a: Marshadow|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Eternatus|46/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|inactive|mncmt has 270 seconds left.
+|inactive|Stallion has 270 seconds left.
+|
+|t:|1644106349
+|move|p2a: Marshadow|Bulk Up|p2a: Marshadow
+|-boost|p2a: Marshadow|atk|1
+|-boost|p2a: Marshadow|def|1
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|96/100
+|
+|-heal|p1a: Eternatus|100/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|inactive|mncmt has 270 seconds left.
+|
+|t:|1644106364
+|move|p2a: Marshadow|Spectral Thief|p1a: Eternatus
+|-damage|p1a: Eternatus|45/100
+|-damage|p2a: Marshadow|81/100|[from] item: Life Orb
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|95/100
+|
+|-heal|p1a: Eternatus|100/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|inactive|mncmt has 270 seconds left.
+|inactive|Stallion has 270 seconds left.
+|inactive|mncmt has 240 seconds left.
+|inactive|Stallion has 240 seconds left.
+|
+|t:|1644106427
+|move|p2a: Marshadow|Bulk Up|p2a: Marshadow
+|-boost|p2a: Marshadow|atk|1
+|-boost|p2a: Marshadow|def|1
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Marshadow
+|-damage|p2a: Marshadow|27/100
+|
+|upkeep
+|turn|19
+|inactive|Stallion has 240 seconds left.
+|c|☆Stallion|cool caly tech by the way
+|inactive|mncmt has 210 seconds left.
+|
+|t:|1644106443
+|move|p2a: Marshadow|Spectral Thief|p1a: Eternatus
+|-damage|p1a: Eternatus|21/100
+|-damage|p2a: Marshadow|17/100|[from] item: Life Orb
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|
+|-heal|p1a: Eternatus|27/100|[from] item: Black Sludge
+|upkeep
+|c|☆mncmt|thx
+|
+|t:|1644106453
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|20
+|
+|t:|1644106460
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|77/100
+|move|p2a: Yveltal|Knock Off|p1a: Eternatus
+|-damage|p1a: Eternatus|24/100
+|-enditem|p1a: Eternatus|Black Sludge|[from] move: Knock Off|[of] p2a: Yveltal
+|-damage|p2a: Yveltal|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|
+|t:|1644106465
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|74/100
+|move|p2a: Yveltal|Taunt|p1a: Eternatus
+|-start|p1a: Eternatus|move: Taunt
+|
+|upkeep
+|turn|22
+|
+|t:|1644106480
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|6/100 brn
+|move|p2a: Yveltal|Sucker Punch||[still]
+|-fail|p2a: Yveltal
+|
+|-heal|p1a: Necrozma|12/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|6/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1644106485
+|move|p2a: Yveltal|Knock Off|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|-enditem|p1a: Necrozma|Leftovers|[from] move: Knock Off|[of] p2a: Yveltal
+|faint|p1a: Necrozma
+|-damage|p2a: Yveltal|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1644106488
+|switch|p1a: Eternatus|Eternatus|74/100
+|-ability|p1a: Eternatus|Pressure
+|turn|24
+|
+|t:|1644106496
+|move|p2a: Yveltal|Sucker Punch||[still]
+|-fail|p2a: Yveltal
+|move|p1a: Eternatus|Toxic|p2a: Yveltal
+|-status|p2a: Yveltal|tox
+|
+|-damage|p2a: Yveltal|75/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1644106502
+|move|p1a: Eternatus|Recover|p1a: Eternatus
+|-heal|p1a: Eternatus|100/100
+|move|p2a: Yveltal|Taunt|p1a: Eternatus
+|-start|p1a: Eternatus|move: Taunt
+|
+|-damage|p2a: Yveltal|62/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1644106510
+|move|p2a: Yveltal|Sucker Punch|p1a: Eternatus
+|-damage|p1a: Eternatus|60/100
+|-damage|p2a: Yveltal|52/100 tox|[from] item: Life Orb
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Yveltal
+|-damage|p2a: Yveltal|8/100 tox
+|
+|-damage|p2a: Yveltal|0 fnt|[from] psn
+|faint|p2a: Yveltal
+|upkeep
+|c|☆Stallion|gg
+|
+|t:|1644106516
+|switch|p2a: Eternatus|Eternatus|76/100 par
+|-ability|p2a: Eternatus|Pressure
+|turn|27
+|
+|t:|1644106522
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|
+|win|mncmt
+|c|☆mncmt|gg

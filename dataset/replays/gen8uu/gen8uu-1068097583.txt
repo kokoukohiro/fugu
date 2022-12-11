@@ -1,0 +1,257 @@
+|j|☆gijion chilli
+|j|☆MalachiteOW
+|player|p1|gijion chilli|103|1614
+|player|p2|MalachiteOW|cynthia|1337
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Machamp, M|
+|poke|p1|Weavile, F|
+|poke|p1|Duraludon, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Doublade, F|
+|poke|p1|Gardevoir, F|
+|poke|p2|Centiskorch, M|
+|poke|p2|Umbreon, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Reuniclus, M|
+|poke|p2|Tsareena, F|
+|poke|p2|Gardevoir, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: Azura|Gardevoir, F, shiny|100/100
+|-ability|p2a: Azura|Heavy Metal|[from] ability: Trace|[of] p1a: Duraludon
+|turn|1
+|
+|switch|p2a: Obsidian|Umbreon, M, shiny|100/100
+|move|p1a: Duraludon|Thunder Wave|p2a: Obsidian
+|-status|p2a: Obsidian|par
+|-activate|p2a: Obsidian|ability: Synchronize
+|-status|p1a: Duraludon|par
+|
+|upkeep
+|turn|2
+|
+|cant|p1a: Duraludon|par
+|cant|p2a: Obsidian|par
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Duraludon|Stealth Rock|p2a: Obsidian
+|-sidestart|p2: MalachiteOW|move: Stealth Rock
+|move|p2a: Obsidian|Wish|p2a: Obsidian
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Machamp|Machamp, M|100/100
+|switch|p2a: Bacon Bug|Centiskorch, M|100/100
+|
+|-status|p1a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|switch|p2a: :C|Corsola-Galar, F|100/100
+|-damage|p2a: :C|88/100|[from] Stealth Rock
+|move|p1a: Machamp|Facade|p2a: :C
+|-immune|p2a: :C
+|
+|-damage|p1a: Machamp|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Machamp|Knock Off|p2a: :C
+|-supereffective|p2a: :C
+|-damage|p2a: :C|34/100
+|-enditem|p2a: :C|Eviolite|[from] move: Knock Off|[of] p1a: Machamp
+|move|p2a: :C|Strength Sap|p1a: Machamp
+|-unboost|p1a: Machamp|atk|1
+|-heal|p2a: :C|100/100
+|
+|-damage|p1a: Machamp|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: :C|Stealth Rock|p1a: Weezing
+|-sidestart|p1: gijion chilli|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Azura|Gardevoir, F, shiny|100/100
+|-damage|p2a: Azura|88/100|[from] Stealth Rock
+|-ability|p2a: Azura|Levitate|[from] ability: Trace|[of] p1a: Weezing
+|move|p1a: Weezing|Toxic|p2a: Azura
+|-status|p2a: Azura|tox
+|
+|-damage|p2a: Azura|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100 par
+|-damage|p1a: Duraludon|94/100 par|[from] Stealth Rock
+|move|p2a: Azura|Teleport|p2a: Azura
+|
+|switch|p2a: Squishy|Reuniclus, M, shiny|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Duraludon|Thunder Wave|p2a: Squishy
+|-status|p2a: Squishy|par
+|move|p2a: Squishy|Focus Blast|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|11
+|
+|switch|p2a: :C|Corsola-Galar, F|100/100
+|-damage|p2a: :C|88/100|[from] Stealth Rock
+|move|p1a: Weavile|Knock Off|p2a: :C
+|-supereffective|p2a: :C
+|-damage|p2a: :C|25/100
+|-start|p1a: Weavile|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: :C
+|-damage|p1a: Weavile|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: :C|Strength Sap|p1a: Weezing
+|-unboost|p1a: Weezing|atk|1
+|-heal|p2a: :C|77/100
+|
+|-heal|p1a: Weezing|94/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Squishy|Reuniclus, M, shiny|100/100 par
+|move|p1a: Weezing|Sludge Bomb|p2a: Squishy
+|-damage|p2a: Squishy|63/100 par
+|
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|switch|p1a: Weavile|Weavile, F|66/100
+|-damage|p1a: Weavile|41/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|cant|p2a: Squishy|par
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: :C|Corsola-Galar, F|77/100
+|-damage|p2a: :C|64/100|[from] Stealth Rock
+|move|p1a: Weavile|Knock Off|p2a: :C
+|-supereffective|p2a: :C
+|-damage|p2a: :C|0 fnt
+|-start|p1a: Weavile|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: :C
+|-damage|p1a: Weavile|31/100|[from] item: Life Orb
+|faint|p2a: :C
+|
+|upkeep
+|
+|switch|p2a: Azura|Gardevoir, F, shiny|82/100 tox
+|-damage|p2a: Azura|70/100 tox|[from] Stealth Rock
+|-ability|p2a: Azura|Pressure|[from] ability: Trace|[of] p1a: Weavile
+|-ability|p2a: Azura|Pressure
+|turn|16
+|
+|move|p1a: Weavile|Ice Shard|p2a: Azura
+|-damage|p2a: Azura|26/100 tox
+|-damage|p1a: Weavile|21/100|[from] item: Life Orb
+|move|p2a: Azura|Moonblast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-damage|p2a: Azura|20/100 tox|[from] psn
+|upkeep
+|l|☆gijion chilli
+|player|p1|
+|j|☆gijion chilli
+|player|p1|gijion chilli|103
+|
+|switch|p1a: Machamp|Machamp, M|88/100 brn
+|-damage|p1a: Machamp|82/100 brn|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Bacon Bug|Centiskorch, M|100/100
+|move|p1a: Machamp|Bullet Punch|p2a: Bacon Bug
+|-resisted|p2a: Bacon Bug
+|-damage|p2a: Bacon Bug|85/100
+|
+|-damage|p1a: Machamp|76/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Machamp|Facade|p2a: Bacon Bug
+|-damage|p2a: Bacon Bug|0 fnt
+|faint|p2a: Bacon Bug
+|
+|-damage|p1a: Machamp|69/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Shakira|Tsareena, F, shiny|100/100
+|-damage|p2a: Shakira|88/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: Shakira|Power Whip|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|61/100
+|
+|-heal|p2a: Shakira|94/100|[from] item: Leftovers
+|-heal|p1a: Weezing|67/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Shakira|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|61/100
+|
+|switch|p2a: Squishy|Reuniclus, M, shiny|63/100 par|[from]move: U-turn
+|move|p1a: Weezing|Sludge Bomb|p2a: Squishy
+|-crit|p2a: Squishy
+|-damage|p2a: Squishy|3/100 par
+|
+|-heal|p1a: Weezing|67/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p1a: Weezing|Sludge Bomb|p2a: Squishy
+|-damage|p2a: Squishy|0 fnt
+|faint|p2a: Squishy
+|
+|-heal|p1a: Weezing|73/100|[from] item: Black Sludge
+|upkeep
+|-message|MalachiteOW forfeited.
+|
+|win|gijion chilli
+|l|☆MalachiteOW
+|raw|gijion chilli's rating: 1614 &rarr; <strong>1620</strong><br />(+6 for winning)
+|raw|MalachiteOW's rating: 1317 &rarr; <strong>1311</strong><br />(-6 for losing)

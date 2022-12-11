@@ -1,0 +1,396 @@
+|j|☆Molothrus_aeneus
+|j|☆1WeedBeard
+|player|p1|Molothrus_aeneus|colress|1277
+|player|p2|1WeedBeard|lusamine-nihilego|1352
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Lopunny, F|
+|poke|p1|Durant, F|
+|poke|p1|Darmanitan-Galar, M|
+|poke|p1|Ditto|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Blastoise, F|
+|poke|p2|Xerneas|
+|poke|p2|Arceus-*|
+|poke|p2|Marshadow|
+|poke|p2|Groudon|
+|poke|p2|Blaziken, M|
+|poke|p2|Smeargle, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 1WeedBeard)
+|
+|start
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|turn|1
+|
+|move|p2a: Smeargle|Spore|p1a: Blastoise
+|-status|p1a: Blastoise|slp|[from] move: Spore
+|cant|p1a: Blastoise|slp
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|turn|2
+|
+|move|p2a: Smeargle|Substitute|p2a: Smeargle
+|-start|p2a: Smeargle|Substitute
+|-damage|p2a: Smeargle|76/100
+|cant|p1a: Blastoise|slp
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|3
+|
+|move|p2a: Smeargle|Shell Smash|p2a: Smeargle
+|-unboost|p2a: Smeargle|def|1
+|-unboost|p2a: Smeargle|spd|1
+|-boost|p2a: Smeargle|atk|2
+|-boost|p2a: Smeargle|spa|2
+|-boost|p2a: Smeargle|spe|2
+|cant|p1a: Blastoise|slp
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|atk|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|4
+|
+|move|p2a: Smeargle|Baton Pass|p2a: Smeargle
+|
+|switch|p2a: Arceus-Normal|Arceus-Ghost|100/100|[from]move: Baton Pass
+|-curestatus|p1a: Blastoise|slp|[msg]
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|
+|upkeep
+|turn|5
+|
+|-start|p1a: Blastoise|Dynamax
+|-heal|p1a: Blastoise|100/100|[silent]
+|move|p2a: Arceus-Normal|Shadow Force||[still]
+|-prepare|p2a: Arceus-Normal|Shadow Force|p1a: Blastoise
+|move|p1a: Blastoise|Max Geyser|p2a: Arceus-Normal|[miss]
+|-miss|p1a: Blastoise|p2a: Arceus-Normal
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Arceus-Normal|Shadow Force|p1a: Blastoise|[from]lockedmove
+|-damage|p1a: Blastoise|17/100
+|move|p1a: Blastoise|Max Geyser|p2a: Arceus-Normal
+|-end|p2a: Arceus-Normal|Substitute
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Blastoise|20/100|[from] ability: Rain Dish
+|upkeep
+|turn|7
+|
+|move|p2a: Arceus-Normal|Shadow Force||[still]
+|-prepare|p2a: Arceus-Normal|Shadow Force|p1a: Blastoise
+|move|p1a: Blastoise|Max Geyser|p2a: Arceus-Normal|[miss]
+|-miss|p1a: Blastoise|p2a: Arceus-Normal
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Blastoise|23/100|[from] ability: Rain Dish
+|-end|p1a: Blastoise|Dynamax
+|-heal|p1a: Blastoise|23/100|[silent]
+|upkeep
+|turn|8
+|
+|switch|p1a: Lopunny|Lopunny, F|100/100
+|move|p2a: Arceus-Normal|Shadow Force|p1a: Lopunny|[from]lockedmove
+|-immune|p1a: Lopunny
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|detailschange|p1a: Lopunny|Lopunny-Mega, F
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Fake Out|p2a: Arceus-Normal
+|-damage|p2a: Arceus-Normal|69/100
+|cant|p2a: Arceus-Normal|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Arceus-Normal|Brick Break|p1a: Lopunny
+|-supereffective|p1a: Lopunny
+|-crit|p1a: Lopunny
+|-damage|p1a: Lopunny|0 fnt
+|faint|p1a: Lopunny
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|11
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Arceus-Normal
+|-supereffective|p2a: Arceus-Normal
+|-damage|p2a: Arceus-Normal|0 fnt
+|-damage|p1a: Grimmsnarl|90/100|[from] item: Life Orb
+|faint|p2a: Arceus-Normal
+|
+|upkeep
+|
+|switch|p2a: Smeargle|Smeargle, M|76/100
+|turn|12
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Smeargle
+|-status|p2a: Smeargle|par
+|move|p2a: Smeargle|Spore|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|slp|[from] move: Spore
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|turn|13
+|
+|cant|p1a: Grimmsnarl|slp
+|move|p2a: Smeargle|Shell Smash|p2a: Smeargle
+|-unboost|p2a: Smeargle|def|1
+|-unboost|p2a: Smeargle|spd|1
+|-boost|p2a: Smeargle|atk|2
+|-boost|p2a: Smeargle|spa|2
+|-boost|p2a: Smeargle|spe|2
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|turn|14
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Smeargle|[from] ability: Imposter
+|move|p2a: Smeargle|Baton Pass|p2a: Smeargle
+|
+|switch|p2a: Agumon|Groudon, shiny|100/100|[from]move: Baton Pass
+|detailschange|p2a: Agumon|Groudon-Primal, shiny
+|-primal|p2a: Agumon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Agumon
+|
+|-weather|DesolateLand|[upkeep]
+|-ability|p1a: Ditto|Moody|boost
+|-boost|p1a: Ditto|spe|2
+|-unboost|p1a: Ditto|atk|1
+|upkeep
+|turn|15
+|
+|move|p1a: Ditto|Spore|p2a: Agumon
+|-status|p2a: Agumon|slp|[from] move: Spore
+|cant|p2a: Agumon|slp
+|
+|-weather|DesolateLand|[upkeep]
+|-ability|p1a: Ditto|Moody|boost
+|-boost|p1a: Ditto|atk|2
+|-unboost|p1a: Ditto|spe|1
+|upkeep
+|turn|16
+|
+|switch|p1a: Darmanitan|Darmanitan-Galar, M|100/100
+|-curestatus|p2a: Agumon|slp|[msg]
+|move|p2a: Agumon|Thunder Punch|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Agumon|[from] ability: Imposter
+|turn|17
+|
+|move|p1a: Ditto|Precipice Blades|p2a: Agumon
+|-supereffective|p2a: Agumon
+|-damage|p2a: Agumon|0 fnt
+|faint|p2a: Agumon
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|
+|switch|p2a: Stanislaw Ponte Pr|Marshadow|100/100
+|turn|18
+|
+|move|p1a: Ditto|Precipice Blades|p2a: Stanislaw Ponte Pr
+|-enditem|p2a: Stanislaw Ponte Pr|Focus Sash
+|-damage|p2a: Stanislaw Ponte Pr|1/100
+|move|p2a: Stanislaw Ponte Pr|Spectral Thief||[still]
+|-clearpositiveboost|p1a: Ditto|p2a: Stanislaw Ponte Pr|move: Spectral Thief
+|-boost|p2a: Stanislaw Ponte Pr|atk|2
+|-boost|p2a: Stanislaw Ponte Pr|spa|3
+|-boost|p2a: Stanislaw Ponte Pr|spe|2
+|-anim|p2a: Stanislaw Ponte Pr|Spectral Thief|p1a: Ditto
+|-damage|p1a: Ditto|9/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|19
+|
+|-start|p2a: Stanislaw Ponte Pr|Dynamax
+|-heal|p2a: Stanislaw Ponte Pr|1/100|[silent]
+|move|p2a: Stanislaw Ponte Pr|Max Knuckle|p1a: Ditto
+|-crit|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-boost|p2a: Stanislaw Ponte Pr|atk|1
+|faint|p1a: Ditto
+|-weather|none
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|90/100 slp
+|turn|20
+|
+|-curestatus|p1a: Grimmsnarl|slp|[msg]
+|move|p1a: Grimmsnarl|Power Swap|p2a: Stanislaw Ponte Pr
+|-swapboost|p1a: Grimmsnarl|p2a: Stanislaw Ponte Pr|atk, spa|[from] move: Power Swap
+|move|p2a: Stanislaw Ponte Pr|Max Knuckle|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|41/100
+|-boost|p2a: Stanislaw Ponte Pr|atk|1
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Stanislaw Ponte Pr
+|-damage|p2a: Stanislaw Ponte Pr|0 fnt
+|-damage|p1a: Grimmsnarl|31/100|[from] item: Life Orb
+|faint|p2a: Stanislaw Ponte Pr
+|
+|upkeep
+|
+|switch|p2a: Mr Bungle|Xerneas, shiny|100/100
+|-ability|p2a: Mr Bungle|Fairy Aura
+|turn|22
+|
+|move|p1a: Grimmsnarl|Sucker Punch||[still]
+|-fail|p1a: Grimmsnarl
+|move|p2a: Mr Bungle|Geomancy||[still]
+|-prepare|p2a: Mr Bungle|Geomancy|p2a: Mr Bungle
+|-enditem|p2a: Mr Bungle|Power Herb
+|-anim|p2a: Mr Bungle|Geomancy|p2a: Mr Bungle
+|-boost|p2a: Mr Bungle|spa|2
+|-boost|p2a: Mr Bungle|spd|2
+|-boost|p2a: Mr Bungle|spe|2
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Mr Bungle
+|-resisted|p2a: Mr Bungle
+|-crit|p2a: Mr Bungle
+|-damage|p2a: Mr Bungle|21/100
+|-damage|p1a: Grimmsnarl|21/100|[from] item: Life Orb
+|move|p2a: Mr Bungle|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Durant|Durant, F|100/100
+|turn|24
+|
+|move|p1a: Durant|First Impression|p2a: Mr Bungle
+|-resisted|p2a: Mr Bungle
+|-damage|p2a: Mr Bungle|0 fnt
+|faint|p2a: Mr Bungle
+|
+|upkeep
+|
+|switch|p2a: Smeargle|Smeargle, M|76/100 par
+|turn|25
+|
+|move|p1a: Durant|Superpower|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|-unboost|p1a: Durant|atk|1
+|-unboost|p1a: Durant|def|1
+|faint|p2a: Smeargle
+|
+|upkeep
+|
+|switch|p2a: Blaziken|Blaziken, M, shiny|100/100
+|turn|26
+|
+|switch|p1a: Blastoise|Blastoise, F|23/100
+|move|p2a: Blaziken|Protect||[still]
+|-fail|p2a: Blaziken
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|27
+|
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Blastoise|Hydro Pump|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|28
+|
+|move|p2a: Blaziken|Bulk Up|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|1
+|-boost|p2a: Blaziken|def|1
+|move|p1a: Blastoise|Hydro Pump|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|7/100
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|29
+|
+|move|p2a: Blaziken|Acrobatics|p1a: Blastoise
+|-damage|p1a: Blastoise|2/100
+|move|p1a: Blastoise|Hydro Pump|p2a: Blaziken|[miss]
+|-miss|p1a: Blastoise|p2a: Blaziken
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|30
+|
+|move|p2a: Blaziken|Acrobatics|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|switch|p1a: Durant|Durant, F|100/100
+|turn|31
+|c|☆Molothrus_aeneus|gg
+|
+|move|p1a: Durant|First Impression|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|win|Molothrus_aeneus
+|l|☆1WeedBeard
+|raw|Molothrus_aeneus's rating: 1277 &rarr; <strong>1308</strong><br />(+31 for winning)
+|raw|1WeedBeard's rating: 1352 &rarr; <strong>1328</strong><br />(-24 for losing)

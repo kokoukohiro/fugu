@@ -1,0 +1,297 @@
+|j|☆Hiddenlake
+|j|☆adhadda
+|player|p1|Hiddenlake|fisherman-gen4|1378
+|player|p2|adhadda|102|1420
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Crustle, M|
+|poke|p1|Fletchinder, F|
+|poke|p1|Pawniard, F|
+|poke|p1|Dusknoir, M|
+|poke|p1|Beheeyem, F|
+|poke|p1|Seaking, F|
+|poke|p2|Shedinja|
+|poke|p2|Dubwool, F|
+|poke|p2|Mawile, M|
+|poke|p2|Mr. Mime, M|
+|poke|p2|Hitmontop, M|
+|poke|p2|Mareanie, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Somalia
+|
+|start
+|switch|p1a: Crustle|Crustle, M|100/100
+|switch|p2a: Mawile|Mawile, M|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Crustle|atk|1
+|turn|1
+|
+|move|p1a: Crustle|Stealth Rock|p2a: Mawile
+|-sidestart|p2: adhadda|move: Stealth Rock
+|move|p2a: Mawile|Stealth Rock|p1a: Crustle
+|-sidestart|p1: Hiddenlake|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Crustle|Spikes|p2a: Mawile
+|-sidestart|p2: adhadda|Spikes
+|move|p2a: Mawile|Iron Head|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-damage|p1a: Crustle|49/100
+|-ability|p1a: Crustle|Weak Armor|boost
+|-unboost|p1a: Crustle|def|1
+|-boost|p1a: Crustle|spe|2
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Crustle|Spikes|p2a: Mawile
+|-sidestart|p2: adhadda|Spikes
+|move|p2a: Mawile|Iron Head|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|faint|p1a: Crustle
+|
+|upkeep
+|
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-damage|p1a: Dusknoir|88/100|[from] Stealth Rock
+|-ability|p1a: Dusknoir|Pressure
+|turn|4
+|
+|switch|p2a: Mareanie|Mareanie, F|100/100
+|-damage|p2a: Mareanie|88/100|[from] Stealth Rock
+|-damage|p2a: Mareanie|72/100|[from] Spikes
+|move|p1a: Dusknoir|Poltergeist|p2a: Mareanie
+|-activate|p2a: Mareanie|move: Poltergeist|Eviolite
+|-damage|p2a: Mareanie|0 fnt
+|faint|p2a: Mareanie
+|
+|upkeep
+|
+|switch|p2a: Dubwool|Dubwool, F|100/100
+|-damage|p2a: Dubwool|84/100|[from] Spikes
+|-damage|p2a: Dubwool|71/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p1a: Fletchinder|Fletchinder, F|100/100
+|move|p2a: Dubwool|Cotton Guard|p2a: Dubwool
+|-boost|p2a: Dubwool|def|3
+|
+|-heal|p2a: Dubwool|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Dubwool|Cotton Guard|p2a: Dubwool
+|-boost|p2a: Dubwool|def|3
+|move|p1a: Fletchinder|Overheat|p2a: Dubwool
+|-damage|p2a: Dubwool|8/100
+|-unboost|p1a: Fletchinder|spa|2
+|
+|-heal|p2a: Dubwool|14/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Dusknoir|Dusknoir, M|88/100
+|-damage|p1a: Dusknoir|76/100|[from] Stealth Rock
+|-ability|p1a: Dusknoir|Pressure
+|move|p2a: Dubwool|Rest|p2a: Dubwool
+|-status|p2a: Dubwool|slp|[from] move: Rest
+|-heal|p2a: Dubwool|100/100 slp|[silent]
+|
+|upkeep
+|turn|8
+|
+|cant|p2a: Dubwool|slp
+|move|p1a: Dusknoir|Trick|p2a: Dubwool
+|-activate|p1a: Dusknoir|move: Trick|[of] p2a: Dubwool
+|-item|p2a: Dubwool|Choice Band|[from] move: Trick
+|-item|p1a: Dusknoir|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Dusknoir|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-damage|p2a: Hitmontop|84/100|[from] Spikes
+|-damage|p2a: Hitmontop|78/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Dusknoir|atk|1
+|move|p1a: Dusknoir|Earthquake|p2a: Hitmontop
+|-damage|p2a: Hitmontop|51/100
+|
+|-heal|p2a: Hitmontop|57/100|[from] item: Leftovers
+|-heal|p1a: Dusknoir|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Hitmontop|Toxic|p1a: Dusknoir
+|-status|p1a: Dusknoir|tox
+|move|p1a: Dusknoir|Poltergeist|p2a: Hitmontop
+|-activate|p2a: Hitmontop|move: Poltergeist|Leftovers
+|-damage|p2a: Hitmontop|15/100
+|
+|-heal|p2a: Hitmontop|22/100|[from] item: Leftovers
+|-heal|p1a: Dusknoir|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Dusknoir|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Dubwool|Dubwool, F|100/100 slp
+|-damage|p2a: Dubwool|88/100 slp|[from] Stealth Rock
+|-damage|p2a: Dubwool|71/100 slp|[from] Spikes
+|switch|p1a: Fletchinder|Fletchinder, F|100/100
+|
+|upkeep
+|turn|12
+|
+|cant|p2a: Dubwool|slp
+|move|p1a: Fletchinder|Overheat|p2a: Dubwool
+|-damage|p2a: Dubwool|0 fnt
+|-unboost|p1a: Fletchinder|spa|2
+|faint|p2a: Dubwool
+|
+|upkeep
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|100/100
+|-damage|p2a: Mr. Mime|84/100|[from] Spikes
+|-damage|p2a: Mr. Mime|72/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Mawile|Mawile, M|100/100
+|-damage|p2a: Mawile|94/100|[from] Stealth Rock
+|-damage|p2a: Mawile|78/100|[from] Spikes
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Fletchinder|atk|1
+|switch|p1a: Beheeyem|Beheeyem, F|100/100
+|-damage|p1a: Beheeyem|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Mawile|84/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Mawile|Iron Head|p1a: Beheeyem
+|-damage|p1a: Beheeyem|56/100
+|move|p1a: Beheeyem|Shadow Ball|p2a: Mawile
+|-damage|p2a: Mawile|47/100
+|
+|-heal|p2a: Mawile|53/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Mawile|Iron Head|p1a: Beheeyem
+|-damage|p1a: Beheeyem|25/100
+|move|p1a: Beheeyem|Recover|p1a: Beheeyem
+|-heal|p1a: Beheeyem|75/100
+|
+|-heal|p2a: Mawile|60/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Mawile|Iron Head|p1a: Beheeyem
+|-damage|p1a: Beheeyem|46/100
+|cant|p1a: Beheeyem|flinch
+|
+|-heal|p2a: Mawile|66/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Mawile|Play Rough|p1a: Beheeyem
+|-damage|p1a: Beheeyem|13/100
+|move|p1a: Beheeyem|Recover|p1a: Beheeyem
+|-heal|p1a: Beheeyem|63/100
+|
+|-heal|p2a: Mawile|72/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Mawile|Iron Head|p1a: Beheeyem
+|-crit|p1a: Beheeyem
+|-damage|p1a: Beheeyem|17/100
+|move|p1a: Beheeyem|Recover|p1a: Beheeyem
+|-heal|p1a: Beheeyem|67/100
+|
+|-heal|p2a: Mawile|78/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Mawile|Iron Head|p1a: Beheeyem
+|-damage|p1a: Beheeyem|36/100
+|move|p1a: Beheeyem|Recover|p1a: Beheeyem
+|-heal|p1a: Beheeyem|86/100
+|
+|-heal|p2a: Mawile|85/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Mawile|Iron Head|p1a: Beheeyem
+|-damage|p1a: Beheeyem|56/100
+|move|p1a: Beheeyem|Shadow Ball|p2a: Mawile
+|-damage|p2a: Mawile|48/100
+|-unboost|p2a: Mawile|spd|1
+|
+|-heal|p2a: Mawile|54/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Mawile|Iron Head|p1a: Beheeyem
+|-damage|p1a: Beheeyem|28/100
+|move|p1a: Beheeyem|Recover|p1a: Beheeyem
+|-heal|p1a: Beheeyem|78/100
+|
+|-heal|p2a: Mawile|60/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Mawile|Iron Head|p1a: Beheeyem
+|-damage|p1a: Beheeyem|50/100
+|move|p1a: Beheeyem|Shadow Ball|p2a: Mawile
+|-damage|p2a: Mawile|12/100
+|
+|-heal|p2a: Mawile|18/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Mawile|Sucker Punch||[still]
+|-fail|p2a: Mawile
+|move|p1a: Beheeyem|Recover|p1a: Beheeyem
+|-heal|p1a: Beheeyem|99/100
+|
+|-heal|p2a: Mawile|24/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Mawile|Sucker Punch|p1a: Beheeyem
+|-supereffective|p1a: Beheeyem
+|-enditem|p1a: Beheeyem|Colbur Berry|[eat]
+|-enditem|p1a: Beheeyem|Colbur Berry|[weaken]
+|-damage|p1a: Beheeyem|83/100
+|move|p1a: Beheeyem|Shadow Ball|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|upkeep
+|
+|switch|p2a: Mr. Mime|Mr. Mime, M|72/100
+|-damage|p2a: Mr. Mime|60/100|[from] Stealth Rock
+|-damage|p2a: Mr. Mime|43/100|[from] Spikes
+|turn|25
+|-message|adhadda forfeited.
+|
+|win|Hiddenlake
+|l|☆adhadda
+|raw|Hiddenlake's rating: 1378 &rarr; <strong>1400</strong><br />(+22 for winning)
+|raw|adhadda's rating: 1420 &rarr; <strong>1398</strong><br />(-22 for losing)

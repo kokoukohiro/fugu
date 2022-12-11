@@ -1,0 +1,336 @@
+|j|☆bebo7788
+|j|☆BubbaBillyBob
+|player|p1|bebo7788|266|1584
+|player|p2|BubbaBillyBob|gentleman-gen4|1325
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Silvally-*|
+|poke|p1|Sigilyph, F|
+|poke|p1|Passimian, F|
+|poke|p1|Vaporeon, F|
+|poke|p1|Vileplume, F|
+|poke|p1|Gigalith, F|
+|poke|p2|Gigalith, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Goodra, F|
+|poke|p2|Sigilyph, M|
+|poke|p2|Silvally-*|
+|poke|p2|Roserade, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bebo7788)
+|
+|start
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|switch|p2a: Goodra|Goodra, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|
+|switch|p2a: Roserade|Roserade, M|100/100
+|move|p1a: Gigalith|Protect||[still]
+|-fail|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|move|p2a: Roserade|Toxic Spikes|p1a: Sigilyph
+|-sidestart|p1: bebo7788|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|88/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|move|p1a: Sigilyph|Psyshock|p2a: Gigalith
+|-damage|p2a: Gigalith|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|-sideend|p1: bebo7788|move: Toxic Spikes|[of] p1a: Vileplume
+|move|p2a: Gigalith|Protect||[still]
+|-fail|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vileplume|94/100|[from] Sandstorm
+|-heal|p1a: Vileplume|100/100|[from] item: Black Sludge
+|-heal|p2a: Gigalith|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|move|p2a: Gigalith|Protect||[still]
+|-fail|p2a: Gigalith
+|
+|-weather|none
+|-heal|p2a: Gigalith|83/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Gigalith|Stealth Rock|p2a: Gigalith
+|-sidestart|p2: BubbaBillyBob|move: Stealth Rock
+|move|p2a: Gigalith|Stealth Rock|p1a: Gigalith
+|-sidestart|p1: bebo7788|move: Stealth Rock
+|
+|-heal|p2a: Gigalith|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Gigalith|Body Press|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|46/100
+|move|p2a: Gigalith|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|67/100
+|
+|-heal|p1a: Gigalith|73/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|52/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Silvally|Silvally-Steel|100/100
+|-damage|p1a: Silvally|94/100|[from] Stealth Rock
+|move|p2a: Gigalith|Protect||[still]
+|-fail|p2a: Gigalith
+|
+|-heal|p2a: Gigalith|58/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|
+|-heal|p2a: Gigalith|64/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|upkeep
+|
+|switch|p2a: Goodra|Goodra, F|100/100
+|-damage|p2a: Goodra|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Silvally|spe|1
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Rillaboom|Superpower|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2a: Rillaboom|def|1
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|turn|13
+|
+|switch|p2a: Sigilyph|Sigilyph, M|100/100
+|move|p1a: Sigilyph|Calm Mind|p1a: Sigilyph
+|-boost|p1a: Sigilyph|spa|1
+|-boost|p1a: Sigilyph|spd|1
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Sigilyph|Heat Wave|p2a: Sigilyph
+|-damage|p2a: Sigilyph|24/100
+|move|p2a: Sigilyph|Ice Beam|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|29/100
+|-status|p1a: Sigilyph|frz
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|-damage|p2a: Silvally|88/100|[from] Stealth Rock
+|cant|p1a: Sigilyph|frz
+|
+|upkeep
+|turn|16
+|
+|cant|p1a: Sigilyph|frz
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|
+|-heal|p1a: Vileplume|94/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|c|☆bebo7788|imagine
+|c|☆bebo7788|just losing
+|c|☆bebo7788|then lucking like that
+|inactive|BubbaBillyBob has 120 seconds left.
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|39/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|11/100
+|
+|-heal|p1a: Vileplume|45/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p1a: Sigilyph|Sigilyph, F|29/100 frz
+|move|p2a: Silvally|Multi-Attack|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, F|100/100
+|-damage|p1a: Passimian|94/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Passimian|U-turn|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|switch|p1a: Gigalith|Gigalith, F|73/100|[from]move: U-turn
+|-damage|p1a: Gigalith|61/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|67/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Roserade|Roserade, M|88/100
+|-damage|p2a: Roserade|76/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Roserade|Petal Dance|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|70/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Vileplume|Vileplume, F|45/100
+|-damage|p1a: Vileplume|33/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Roserade|Petal Dance|p1a: Vileplume|[from]lockedmove
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|10/100
+|-start|p2a: Roserade|confusion|[fatigue]
+|move|p1a: Vileplume|Sludge Bomb|p2a: Roserade
+|-damage|p2a: Roserade|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|23/100|[from] Sandstorm
+|-damage|p1a: Vileplume|4/100|[from] Sandstorm
+|-heal|p1a: Vileplume|10/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|-activate|p2a: Roserade|confusion
+|move|p2a: Roserade|Petal Dance|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|17/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, F|94/100
+|-damage|p1a: Passimian|88/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Passimian|Knock Off|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|-enditem|p2a: Roserade|Choice Specs|[from] move: Knock Off|[of] p1a: Passimian
+|faint|p2a: Roserade
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, M|88/100
+|-damage|p2a: Rillaboom|76/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|move|p2a: Rillaboom|Drum Beating|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|upkeep
+|
+|switch|p1a: Passimian|Passimian, F|88/100
+|-damage|p1a: Passimian|82/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Passimian|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|39/100
+|-enditem|p2a: Rillaboom|Choice Band|[from] move: Knock Off|[of] p1a: Passimian
+|move|p2a: Rillaboom|Drum Beating|p1a: Passimian
+|-damage|p1a: Passimian|40/100
+|-unboost|p1a: Passimian|spe|1
+|-ability|p1a: Passimian|Defiant
+|-boost|p1a: Passimian|atk|2
+|
+|upkeep
+|turn|27
+|j| ZinZin_Moretto
+|c|☆bebo7788|man
+|c|☆bebo7788|mmmmmmm
+|
+|move|p2a: Rillaboom|Drum Beating|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|faint|p1a: Passimian
+|
+|win|BubbaBillyBob
+|c|☆bebo7788|gg man
+|c|☆BubbaBillyBob|gg
+|l|☆bebo7788
+|raw|bebo7788's rating: 1601 &rarr; <strong>1568</strong><br />(-33 for losing)
+|raw|BubbaBillyBob's rating: 1325 &rarr; <strong>1358</strong><br />(+33 for winning)

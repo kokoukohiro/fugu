@@ -1,0 +1,274 @@
+|j|☆minimax_ai
+|j|‽cets on creck
+|t:|1661334024
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1460
+|player|p2|cets on creck|bugcatcher-gen4dp|1726
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Excadrill, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Kartana|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Buzzwole|
+|poke|p2|Slowking, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1661334053
+|start
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|switch|p2a: Slowking|Slowking, F|100/100
+|turn|1
+|
+|t:|1661334060
+|move|p1a: Tangrowth|Sleep Powder|p2a: Slowking
+|-status|p2a: Slowking|slp|[from] move: Sleep Powder
+|cant|p2a: Slowking|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1661334066
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|81/100
+|
+|upkeep
+|turn|3
+|
+|t:|1661334072
+|move|p2a: Buzzwole|Leech Life|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|55/100
+|-heal|p2a: Buzzwole|100/100|[from] drain|[of] p1a: Tangrowth
+|-damage|p2a: Buzzwole|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|move|p1a: Tangrowth|Giga Drain|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|65/100
+|-heal|p1a: Tangrowth|65/100|[from] drain|[of] p2a: Buzzwole
+|
+|upkeep
+|turn|4
+|
+|t:|1661334082
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Buzzwole|Leech Life|p1a: rotomwash
+|-damage|p1a: rotomwash|59/100
+|-heal|p2a: Buzzwole|80/100|[from] drain|[of] p1a: rotomwash
+|
+|-heal|p1a: rotomwash|65/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1661334086
+|switch|p2a: Slowking|Slowking, F|100/100 slp
+|move|p1a: rotomwash|Pain Split|p2a: Slowking
+|-sethp|p2a: Slowking|76/100 slp|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|98/100|[from] move: Pain Split
+|
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1661334091
+|move|p1a: rotomwash|Thunderbolt|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|33/100 slp
+|cant|p2a: Slowking|slp
+|
+|upkeep
+|turn|7
+|
+|t:|1661334097
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: rotomwash|Hydro Pump|p2a: Tyranitar|[miss]
+|-miss|p1a: rotomwash|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|94/100|[from] Sandstorm
+|-heal|p1a: rotomwash|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1661334101
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|move|p2a: Tyranitar|Stone Edge|p1a: rotomwash
+|-damage|p1a: rotomwash|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|5/100|[from] Sandstorm
+|-heal|p1a: rotomwash|11/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1661334110
+|move|p1a: rotomwash|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotomwash|5/100|[from] Sandstorm
+|-heal|p1a: rotomwash|11/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1661334114
+|switch|p2a: Kartana|Kartana|100/100
+|turn|10
+|
+|t:|1661334121
+|switch|p1a: Tangrowth|Tangrowth, F|99/100
+|move|p2a: Kartana|Swords Dance|p2a: Kartana
+|-boost|p2a: Kartana|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tangrowth|92/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1661334131
+|move|p2a: Kartana|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|44/100
+|-damage|p2a: Kartana|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Kartana
+|move|p1a: Tangrowth|Focus Blast|p2a: Kartana
+|-supereffective|p2a: Kartana
+|-enditem|p2a: Kartana|Chople Berry|[eat]
+|-enditem|p2a: Kartana|Chople Berry|[weaken]
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|-weather|none
+|upkeep
+|
+|t:|1661334139
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|turn|12
+|
+|t:|1661334143
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1661334145
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Excadrill|Iron Head|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|81/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|14
+|
+|t:|1661334150
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|upkeep
+|turn|15
+|
+|t:|1661334152
+|move|p2a: Excadrill|Iron Head|p1a: landorustherian
+|-damage|p1a: landorustherian|7/100
+|cant|p1a: landorustherian|flinch
+|
+|-heal|p1a: landorustherian|13/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1661334156
+|switch|p1a: rotomwash|Rotom-Wash|11/100
+|move|p2a: Excadrill|Rapid Spin|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|-boost|p2a: Excadrill|spe|1
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1661334156
+|switch|p1a: Tangrowth|Tangrowth, F|77/100
+|turn|17
+|
+|t:|1661334162
+|move|p2a: Excadrill|Iron Head|p1a: Tangrowth
+|-damage|p1a: Tangrowth|31/100
+|move|p1a: Tangrowth|Giga Drain|p2a: Excadrill
+|-damage|p2a: Excadrill|65/100
+|-heal|p1a: Tangrowth|48/100|[from] drain|[of] p2a: Excadrill
+|
+|-heal|p2a: Excadrill|71/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1661334169
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Tangrowth|Focus Blast|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1661334176
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|19
+|
+|t:|1661334178
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Tornadus|Nasty Plot|p2a: Tornadus
+|-boost|p2a: Tornadus|spa|2
+|
+|upkeep
+|turn|20
+|
+|t:|1661334180
+|move|p2a: Tornadus|Focus Blast|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|28/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Tornadus
+|-damage|p2a: Tornadus|42/100
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-hitcount|p2: Tornadus|2
+|
+|upkeep
+|-message|cets on creck forfeited.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1460 &rarr; <strong>1493</strong><br />(+33 for winning)
+|raw|cets on creck's rating: 1726 &rarr; <strong>1693</strong><br />(-33 for losing)
+|c|☆minimax_ai|gg
+|l|‽cets on creck

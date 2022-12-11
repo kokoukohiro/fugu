@@ -1,0 +1,646 @@
+|j|☆SPINOSAURUS01
+|j|☆bioche80
+|t:|1611074129
+|player|p1|SPINOSAURUS01|hiker-gen4|1465
+|player|p2|bioche80|palmer|1348
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Jirachi|
+|poke|p1|Chansey, F|
+|poke|p1|Primarina, M|
+|poke|p1|Tentacruel, F|
+|poke|p1|Tapu Bulu|
+|poke|p2|Kyurem|
+|poke|p2|Rotom-Heat|
+|poke|p2|Amoonguss, M|
+|poke|p2|Jirachi|
+|poke|p2|Zeraora|
+|poke|p2|Primarina, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SPINOSAURUS01)
+|
+|t:|1611074141
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Élaictoluxe|Zeraora|100/100
+|turn|1
+|
+|t:|1611074147
+|move|p2a: Élaictoluxe|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|42/100
+|-enditem|p1a: Jirachi|Leftovers|[from] move: Knock Off|[of] p2a: Élaictoluxe
+|move|p1a: Jirachi|U-turn|p2a: Élaictoluxe
+|-damage|p2a: Élaictoluxe|79/100
+|
+|t:|1611074153
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100|[from]move: U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|
+|-heal|p2a: Élaictoluxe|85/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1611074160
+|move|p2a: Élaictoluxe|Volt Switch|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|86/100
+|
+|t:|1611074165
+|switch|p2a: Daïsonne|Amoonguss, M|100/100|[from]move: Volt Switch
+|move|p1a: Tapu Bulu|Zen Headbutt|p2a: Daïsonne
+|-supereffective|p2a: Daïsonne
+|-damage|p2a: Daïsonne|28/100
+|-damage|p1a: Tapu Bulu|70/100|[from] item: Rocky Helmet|[of] p2a: Daïsonne
+|
+|-heal|p1a: Tapu Bulu|76/100|[from] Grassy Terrain
+|-heal|p2a: Daïsonne|35/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1611074175
+|switch|p1a: Jirachi|Jirachi|42/100
+|switch|p2a: Boshe|Rotom-Heat|100/100
+|
+|-heal|p1a: Jirachi|48/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1611074184
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Boshe|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|92/100
+|
+|t:|1611074193
+|switch|p2a: Élaictoluxe|Zeraora|85/100|[from]move: Volt Switch
+|
+|-heal|p2a: Élaictoluxe|91/100|[from] Grassy Terrain
+|-heal|p1a: Chansey|99/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1611074203
+|switch|p1a: Tapu Bulu|Tapu Bulu|76/100
+|move|p2a: Élaictoluxe|Knock Off|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|58/100
+|-enditem|p1a: Tapu Bulu|Choice Band|[from] move: Knock Off|[of] p2a: Élaictoluxe
+|
+|-heal|p2a: Élaictoluxe|97/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|64/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1611074220
+|move|p2a: Élaictoluxe|Volt Switch|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|49/100
+|
+|t:|1611074228
+|switch|p2a: Boshe|Rotom-Heat|100/100|[from]move: Volt Switch
+|move|p1a: Tapu Bulu|Close Combat|p2a: Boshe
+|-damage|p2a: Boshe|59/100
+|-unboost|p1a: Tapu Bulu|def|1
+|-unboost|p1a: Tapu Bulu|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1611074241
+|move|p2a: Boshe|Pain Split|p1a: Tapu Bulu
+|-sethp|p1a: Tapu Bulu|56/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Boshe|52/100|[from] move: Pain Split
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Boshe
+|-resisted|p2a: Boshe
+|-damage|p2a: Boshe|34/100
+|-heal|p1a: Tapu Bulu|67/100|[from] drain|[of] p2a: Boshe
+|
+|upkeep
+|turn|8
+|
+|t:|1611074250
+|switch|p1a: Chansey|Chansey, F|99/100
+|move|p2a: Boshe|Overheat|p1a: Chansey
+|-damage|p1a: Chansey|84/100
+|-unboost|p2a: Boshe|spa|2
+|
+|upkeep
+|turn|9
+|
+|t:|1611074256
+|move|p2a: Boshe|Pain Split|p1a: Chansey
+|-sethp|p1a: Chansey|49/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Boshe|100/100|[from] move: Pain Split
+|move|p1a: Chansey|Seismic Toss|p2a: Boshe
+|-damage|p2a: Boshe|67/100
+|
+|upkeep
+|turn|10
+|
+|t:|1611074263
+|move|p2a: Boshe|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|45/100
+|
+|t:|1611074267
+|switch|p2a: Élaictoluxe|Zeraora|97/100|[from]move: Volt Switch
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|95/100
+|
+|upkeep
+|turn|11
+|
+|t:|1611074282
+|switch|p1a: Tapu Bulu|Tapu Bulu|67/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Élaictoluxe|Knock Off|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-crit|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|50/100
+|
+|-heal|p2a: Élaictoluxe|100/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|56/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1611074292
+|move|p2a: Élaictoluxe|Volt Switch|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|43/100
+|
+|t:|1611074296
+|switch|p2a: Daïsonne|Amoonguss, M|68/100|[from]move: Volt Switch
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Daïsonne
+|-resisted|p2a: Daïsonne
+|-damage|p2a: Daïsonne|58/100
+|-heal|p1a: Tapu Bulu|51/100|[from] drain|[of] p2a: Daïsonne
+|-damage|p1a: Tapu Bulu|34/100|[from] item: Rocky Helmet|[of] p2a: Daïsonne
+|
+|-heal|p1a: Tapu Bulu|40/100|[from] Grassy Terrain
+|-heal|p2a: Daïsonne|65/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1611074308
+|move|p1a: Tapu Bulu|Zen Headbutt|p2a: Daïsonne
+|-supereffective|p2a: Daïsonne
+|-damage|p2a: Daïsonne|22/100
+|-damage|p1a: Tapu Bulu|24/100|[from] item: Rocky Helmet|[of] p2a: Daïsonne
+|cant|p2a: Daïsonne|flinch
+|
+|-heal|p1a: Tapu Bulu|30/100|[from] Grassy Terrain
+|-heal|p2a: Daïsonne|28/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1611074318
+|switch|p2a: Boshe|Rotom-Heat|67/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Boshe
+|-resisted|p2a: Boshe
+|-damage|p2a: Boshe|40/100
+|-heal|p1a: Tapu Bulu|45/100|[from] drain|[of] p2a: Boshe
+|
+|-heal|p1a: Tapu Bulu|51/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1611074327
+|switch|p1a: Chansey|Chansey, F|95/100
+|move|p2a: Boshe|Overheat|p1a: Chansey
+|-damage|p1a: Chansey|81/100
+|-unboost|p2a: Boshe|spa|2
+|
+|-heal|p1a: Chansey|87/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1611074336
+|move|p2a: Boshe|Pain Split|p1a: Chansey
+|-sethp|p1a: Chansey|52/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Boshe|100/100|[from] move: Pain Split
+|move|p1a: Chansey|Toxic|p2a: Boshe
+|-status|p2a: Boshe|tox
+|
+|-damage|p2a: Boshe|95/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1611074344
+|move|p2a: Boshe|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|48/100
+|
+|t:|1611074347
+|switch|p2a: Daïsonne|Amoonguss, M|62/100|[from]move: Volt Switch
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|98/100
+|
+|upkeep
+|turn|18
+|
+|t:|1611074357
+|move|p1a: Chansey|Seismic Toss|p2a: Daïsonne
+|-damage|p2a: Daïsonne|38/100
+|-damage|p1a: Chansey|82/100|[from] item: Rocky Helmet|[of] p2a: Daïsonne
+|move|p2a: Daïsonne|Stun Spore|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|19
+|
+|t:|1611074368
+|switch|p2a: Ciémainsse|Jirachi|100/100
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|20
+|
+|t:|1611074374
+|switch|p1a: Jirachi|Jirachi|48/100
+|move|p2a: Ciémainsse|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: SPINOSAURUS01|move: Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|t:|1611074381
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ciémainsse|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|35/100
+|
+|t:|1611074389
+|switch|p2a: Élaictoluxe|Zeraora|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|22
+|
+|t:|1611074397
+|switch|p1a: Tapu Bulu|Tapu Bulu|51/100
+|-damage|p1a: Tapu Bulu|38/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Élaictoluxe|Close Combat|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|14/100
+|-unboost|p2a: Élaictoluxe|def|1
+|-unboost|p2a: Élaictoluxe|spd|1
+|
+|-heal|p1a: Tapu Bulu|86/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Tapu Bulu|92/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1611074415
+|switch|p2a: Ciémainsse|Jirachi|100/100
+|move|p1a: Tapu Bulu|Zen Headbutt|p2a: Ciémainsse
+|-resisted|p2a: Ciémainsse
+|-damage|p2a: Ciémainsse|94/100
+|
+|-heal|p2a: Ciémainsse|99/100|[from] Grassy Terrain
+|-heal|p2a: Ciémainsse|100/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|98/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1611074425
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Ciémainsse|Toxic|p1a: Tentacruel
+|-immune|p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|94/100|[from] Grassy Terrain
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|t:|1611074442
+|move|p2a: Ciémainsse|Stealth Rock||[still]
+|-fail|p2a: Ciémainsse
+|move|p1a: Tentacruel|Rapid Spin|p2a: Ciémainsse
+|-resisted|p2a: Ciémainsse
+|-damage|p2a: Ciémainsse|97/100
+|-boost|p1a: Tentacruel|spe|1
+|-sideend|p1: SPINOSAURUS01|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|100/100|[from] Grassy Terrain
+|-heal|p2a: Ciémainsse|100/100|[from] Grassy Terrain
+|upkeep
+|turn|26
+|
+|t:|1611074452
+|switch|p2a: Daïsonne|Amoonguss, M|72/100
+|move|p1a: Tentacruel|Knock Off|p2a: Daïsonne
+|-damage|p2a: Daïsonne|62/100
+|-damage|p1a: Tentacruel|84/100|[from] item: Rocky Helmet|[of] p2a: Daïsonne
+|-enditem|p2a: Daïsonne|Rocky Helmet|[from] move: Knock Off|[of] p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|90/100|[from] Grassy Terrain
+|-heal|p1a: Tentacruel|96/100|[from] item: Black Sludge
+|-heal|p2a: Daïsonne|68/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|27
+|
+|t:|1611074466
+|switch|p1a: Chansey|Chansey, F|82/100
+|move|p2a: Daïsonne|Spore|p1a: Chansey
+|-status|p1a: Chansey|slp|[from] move: Spore
+|
+|upkeep
+|turn|28
+|
+|t:|1611074475
+|-curestatus|p1a: Chansey|slp|[from] ability: Natural Cure
+|switch|p1a: Jirachi|Jirachi|35/100
+|move|p2a: Daïsonne|Spore|p1a: Jirachi
+|-status|p1a: Jirachi|slp|[from] move: Spore
+|
+|upkeep
+|turn|29
+|
+|t:|1611074484
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Bremdt|Kyurem|100/100
+|-ability|p2a: Bremdt|Pressure
+|
+|upkeep
+|turn|30
+|
+|t:|1611074494
+|move|p1a: Thundurus|U-turn|p2a: Bremdt
+|-damage|p2a: Bremdt|86/100
+|
+|t:|1611074496
+|switch|p1a: Chansey|Chansey, F|82/100|[from]move: U-turn
+|move|p2a: Bremdt|Freeze-Dry|p1a: Chansey
+|-damage|p1a: Chansey|63/100
+|
+|upkeep
+|turn|31
+|
+|t:|1611074504
+|switch|p2a: Élaictoluxe|Zeraora|100/100
+|move|p1a: Chansey|Seismic Toss|p2a: Élaictoluxe
+|-damage|p2a: Élaictoluxe|69/100
+|
+|upkeep
+|turn|32
+|
+|t:|1611074517
+|switch|p1a: Tapu Bulu|Tapu Bulu|98/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Élaictoluxe|Volt Switch|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|84/100
+|
+|t:|1611074524
+|switch|p2a: Daïsonne|Amoonguss, M|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Tapu Bulu|90/100|[from] Grassy Terrain
+|upkeep
+|turn|33
+|
+|t:|1611074532
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Daïsonne|Sludge Bomb|p1a: Thundurus
+|-damage|p1a: Thundurus|62/100
+|
+|upkeep
+|turn|34
+|
+|t:|1611074541
+|move|p1a: Thundurus|Psychic|p2a: Daïsonne
+|-supereffective|p2a: Daïsonne
+|-damage|p2a: Daïsonne|36/100
+|move|p2a: Daïsonne|Sludge Bomb|p1a: Thundurus
+|-damage|p1a: Thundurus|26/100
+|-status|p1a: Thundurus|psn
+|
+|-heal|p2a: Daïsonne|42/100|[from] Grassy Terrain
+|-damage|p1a: Thundurus|14/100 psn|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1611074552
+|switch|p2a: Ciémainsse|Jirachi|100/100
+|move|p1a: Thundurus|U-turn|p2a: Ciémainsse
+|-damage|p2a: Ciémainsse|87/100
+|
+|t:|1611074555
+|switch|p1a: Jirachi|Jirachi|35/100 slp|[from]move: U-turn
+|
+|-heal|p2a: Ciémainsse|93/100|[from] Grassy Terrain
+|-heal|p2a: Ciémainsse|99/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|41/100 slp|[from] Grassy Terrain
+|upkeep
+|turn|36
+|
+|t:|1611074564
+|cant|p1a: Jirachi|slp
+|move|p2a: Ciémainsse|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: SPINOSAURUS01|move: Stealth Rock
+|
+|-heal|p1a: Jirachi|48/100 slp|[from] Grassy Terrain
+|-heal|p2a: Ciémainsse|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|37
+|
+|t:|1611074572
+|switch|p2a: Boshe|Rotom-Heat|95/100 tox
+|cant|p1a: Jirachi|slp
+|
+|-damage|p2a: Boshe|89/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1611074584
+|switch|p1a: Chansey|Chansey, F|63/100
+|-damage|p1a: Chansey|51/100|[from] Stealth Rock
+|move|p2a: Boshe|Overheat|p1a: Chansey
+|-damage|p1a: Chansey|35/100
+|-unboost|p2a: Boshe|spa|2
+|
+|-damage|p2a: Boshe|77/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1611074597
+|switch|p2a: Élaictoluxe|Zeraora|69/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|85/100
+|
+|upkeep
+|turn|40
+|
+|t:|1611074608
+|switch|p1a: Tapu Bulu|Tapu Bulu|90/100
+|-damage|p1a: Tapu Bulu|77/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Élaictoluxe|Volt Switch|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|62/100
+|
+|t:|1611074621
+|switch|p2a: Bremdt|Kyurem|86/100|[from]move: Volt Switch
+|-ability|p2a: Bremdt|Pressure
+|
+|-heal|p2a: Bremdt|92/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|68/100|[from] Grassy Terrain
+|upkeep
+|turn|41
+|
+|t:|1611074630
+|switch|p1a: Chansey|Chansey, F|85/100
+|-damage|p1a: Chansey|73/100|[from] Stealth Rock
+|move|p2a: Bremdt|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|51/100
+|
+|-heal|p2a: Bremdt|98/100|[from] Grassy Terrain
+|-heal|p1a: Chansey|58/100|[from] Grassy Terrain
+|upkeep
+|turn|42
+|
+|t:|1611074641
+|switch|p2a: Daïsonne|Amoonguss, M|75/100
+|move|p1a: Chansey|Toxic|p2a: Daïsonne
+|-immune|p2a: Daïsonne
+|
+|-heal|p1a: Chansey|64/100|[from] Grassy Terrain
+|-heal|p2a: Daïsonne|82/100|[from] Grassy Terrain
+|upkeep
+|turn|43
+|
+|t:|1611074654
+|move|p1a: Chansey|Heal Bell|p1a: Chansey
+|-activate|p1a: Chansey|move: Heal Bell
+|-curestatus|p1: Thundurus|psn|[msg]
+|-curestatus|p1: Jirachi|slp|[msg]
+|move|p2a: Daïsonne|Sludge Bomb|p1a: Chansey
+|-damage|p1a: Chansey|55/100
+|
+|-heal|p1a: Chansey|62/100|[from] Grassy Terrain
+|-heal|p2a: Daïsonne|88/100|[from] Grassy Terrain
+|upkeep
+|turn|44
+|
+|t:|1611074665
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|move|p2a: Daïsonne|Spore|p1a: Chansey
+|-status|p1a: Chansey|slp|[from] move: Spore
+|
+|-heal|p2a: Daïsonne|94/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|45
+|
+|t:|1611074678
+|cant|p1a: Chansey|slp
+|move|p2a: Daïsonne|Spore|p1a: Chansey
+|-fail|p1a: Chansey|slp
+|
+|upkeep
+|turn|46
+|
+|t:|1611074687
+|cant|p1a: Chansey|slp
+|move|p2a: Daïsonne|Spore|p1a: Chansey
+|-fail|p1a: Chansey|slp
+|
+|upkeep
+|turn|47
+|
+|t:|1611074693
+|cant|p1a: Chansey|slp
+|move|p2a: Daïsonne|Spore|p1a: Chansey
+|-fail|p1a: Chansey|slp
+|
+|upkeep
+|turn|48
+|
+|t:|1611074699
+|-curestatus|p1a: Chansey|slp|[msg]
+|move|p1a: Chansey|Seismic Toss|p2a: Daïsonne
+|-damage|p2a: Daïsonne|71/100
+|move|p2a: Daïsonne|Spore|p1a: Chansey
+|-status|p1a: Chansey|slp|[from] move: Spore
+|
+|upkeep
+|turn|49
+|
+|t:|1611074708
+|switch|p2a: Élaictoluxe|Zeraora|69/100
+|cant|p1a: Chansey|slp
+|
+|upkeep
+|turn|50
+|
+|t:|1611074723
+|-curestatus|p1a: Chansey|slp|[from] ability: Natural Cure
+|switch|p1a: Tapu Bulu|Tapu Bulu|68/100
+|-damage|p1a: Tapu Bulu|56/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Élaictoluxe|Volt Switch|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|41/100
+|
+|t:|1611074732
+|switch|p2a: Ciémainsse|Jirachi|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Tapu Bulu|47/100|[from] Grassy Terrain
+|upkeep
+|turn|51
+|
+|t:|1611074746
+|move|p2a: Ciémainsse|Iron Head|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|0 fnt
+|faint|p1a: Tapu Bulu
+|
+|upkeep
+|
+|t:|1611074748
+|switch|p1a: Jirachi|Jirachi|48/100
+|-damage|p1a: Jirachi|41/100|[from] Stealth Rock
+|turn|52
+|
+|t:|1611074758
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: Ciémainsse|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|27/100
+|
+|t:|1611074761
+|switch|p2a: Élaictoluxe|Zeraora|69/100|[from]move: U-turn
+|
+|-heal|p2a: Élaictoluxe|75/100|[from] Grassy Terrain
+|-heal|p1a: Jirachi|34/100|[from] Grassy Terrain
+|upkeep
+|turn|53
+|
+|t:|1611074777
+|move|p2a: Élaictoluxe|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-heal|p2a: Élaictoluxe|81/100|[from] Grassy Terrain
+|upkeep
+|-message|SPINOSAURUS01 forfeited.
+|
+|win|bioche80
+|l|☆SPINOSAURUS01
+|c|☆bioche80|gg
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

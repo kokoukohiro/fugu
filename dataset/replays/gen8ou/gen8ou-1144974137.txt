@@ -1,0 +1,264 @@
+|j|☆ElTester2000
+|j|☆Spn_Kin
+|player|p1|ElTester2000|126|1406
+|player|p2|Spn_Kin|sightseer|1372
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Poliwrath, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Kingdra, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Barraskewda, M|
+|poke|p1|Scizor, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Chansey, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Magearna|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ElTester2000)
+|
+|start
+|switch|p1a: Sniper|Barraskewda, M|100/100
+|switch|p2a: V de vingança|Volcarona, M, shiny|100/100
+|turn|1
+|
+|switch|p2a: Girl|Toxapex, F, shiny|100/100
+|move|p1a: Sniper|Flip Turn|p2a: Girl
+|-resisted|p2a: Girl
+|-damage|p2a: Girl|86/100
+|
+|switch|p1a: Pelikan|Pelipper, M|100/100|[from]move: Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelikan
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Girl|92/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Pelikan|Scald|p2a: Chansey
+|-damage|p2a: Chansey|82/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Chansey|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Pelikan|U-turn|p2a: Chansey
+|-damage|p2a: Chansey|80/100
+|
+|switch|p1a: Cacharcas|Ferrothorn, M|100/100|[from]move: U-turn
+|move|p2a: Chansey|Thunder Wave|p1a: Cacharcas
+|-status|p1a: Cacharcas|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Chansey|87/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Chansey|Stealth Rock|p1a: Cacharcas
+|-sidestart|p1: ElTester2000|move: Stealth Rock
+|move|p1a: Cacharcas|Stealth Rock|p2a: Chansey
+|-sidestart|p2: Spn_Kin|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Chansey|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Cacharcas
+|-damage|p1a: Cacharcas|72/100 par
+|-damage|p2a: Chansey|80/100|[from] ability: Iron Barbs|[of] p1a: Cacharcas
+|move|p1a: Cacharcas|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|60/100
+|-enditem|p2a: Chansey|Leftovers|[from] move: Knock Off|[of] p1a: Cacharcas
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cacharcas|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|move|p1a: Cacharcas|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cacharcas|85/100 par|[from] item: Leftovers
+|-damage|p2a: Chansey|88/100|[from] Leech Seed|[of] p1a: Cacharcas
+|-heal|p1a: Cacharcas|100/100 par|[silent]
+|upkeep
+|turn|7
+|
+|switch|p2a: V de vingança|Volcarona, M, shiny|100/100
+|switch|p1a: Pelikan|Pelipper, M|100/100
+|-damage|p1a: Pelikan|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Chansey|Chansey, F|88/100
+|-damage|p2a: Chansey|76/100|[from] Stealth Rock
+|move|p1a: Pelikan|Defog|p2a: Chansey
+|-unboost|p2a: Chansey|evasion|1
+|-sideend|p2: Spn_Kin|Stealth Rock|[from] move: Defog|[of] p1a: Pelikan
+|-sideend|p1: ElTester2000|Stealth Rock|[from] move: Defog|[of] p1a: Pelikan
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p1a: Pelikan|U-turn|p2a: Chansey
+|-damage|p2a: Chansey|68/100
+|
+|switch|p1a: Cacharcas|Ferrothorn, M|100/100 par|[from]move: U-turn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: V de vingança|Volcarona, M, shiny|100/100
+|move|p1a: Cacharcas|Leech Seed|p2a: V de vingança
+|-start|p2a: V de vingança|move: Leech Seed
+|
+|-damage|p2a: V de vingança|88/100|[from] Leech Seed|[of] p1a: Cacharcas
+|upkeep
+|turn|11
+|
+|move|p2a: V de vingança|Fiery Dance|p1a: Cacharcas
+|-supereffective|p1a: Cacharcas
+|-damage|p1a: Cacharcas|0 fnt
+|faint|p1a: Cacharcas
+|
+|upkeep
+|
+|switch|p1a: Sniper|Barraskewda, M|100/100
+|turn|12
+|
+|switch|p2a: Girl|Toxapex, F, shiny|100/100
+|move|p1a: Sniper|Psychic Fangs|p2a: Girl
+|-supereffective|p2a: Girl
+|-damage|p2a: Girl|43/100
+|
+|-heal|p2a: Girl|50/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p1a: Pelikan|Pelipper, M|76/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelikan
+|switch|p2a: quebra galho|Urshifu, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: quebra galho|Wicked Blow|p1a: Pelikan
+|-crit|p1a: Pelikan
+|-damage|p1a: Pelikan|3/100
+|move|p1a: Pelikan|U-turn|p2a: quebra galho
+|-damage|p2a: quebra galho|93/100
+|
+|switch|p1a: Buffo|Poliwrath, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Girl|Toxapex, F, shiny|83/100
+|move|p1a: Buffo|Belly Drum|p1a: Buffo
+|-damage|p1a: Buffo|50/100
+|-setboost|p1a: Buffo|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Buffo|Sitrus Berry|[eat]
+|-heal|p1a: Buffo|75/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Girl|89/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Buffo|Earthquake|p2a: Girl
+|-supereffective|p2a: Girl
+|-damage|p2a: Girl|0 fnt
+|faint|p2a: Girl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|turn|17
+|
+|move|p1a: Buffo|Liquidation|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: quebra galho|Urshifu, M|93/100
+|turn|18
+|
+|move|p1a: Buffo|Liquidation|p2a: quebra galho
+|-damage|p2a: quebra galho|0 fnt
+|faint|p2a: quebra galho
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: V de vingança|Volcarona, M, shiny|88/100
+|turn|19
+|
+|move|p1a: Buffo|Liquidation|p2a: V de vingança
+|-supereffective|p2a: V de vingança
+|-damage|p2a: V de vingança|0 fnt
+|-status|p1a: Buffo|brn|[from] ability: Flame Body|[of] p2a: V de vingança
+|faint|p2a: V de vingança
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Buffo|69/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|20
+|
+|move|p2a: Cinderace|Iron Head|p1a: Buffo
+|-start|p2a: Cinderace|typechange|Steel|[from] ability: Libero
+|-resisted|p1a: Buffo
+|-damage|p1a: Buffo|46/100 brn
+|move|p1a: Buffo|Liquidation|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|none
+|-damage|p1a: Buffo|40/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: princess|Magearna|100/100
+|turn|21
+|
+|move|p2a: princess|Shift Gear|p2a: princess
+|-boost|p2a: princess|spe|2
+|-boost|p2a: princess|atk|1
+|move|p1a: Buffo|Close Combat|p2a: princess
+|-damage|p2a: princess|0 fnt
+|-unboost|p1a: Buffo|def|1
+|-unboost|p1a: Buffo|spd|1
+|faint|p2a: princess
+|
+|win|ElTester2000
+|l|☆Spn_Kin

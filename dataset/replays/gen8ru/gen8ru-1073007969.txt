@@ -1,0 +1,416 @@
+|j|☆Dragon Couture
+|j|☆whistling
+|player|p1|Dragon Couture|morty-gen2|1406
+|player|p2|whistling|#ssdastrotias|1468
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Abomasnow, F|
+|poke|p1|Mantine, F|
+|poke|p1|Copperajah, M|
+|poke|p1|Mudsdale, M|
+|poke|p1|Silvally-*|
+|poke|p1|Rotom|
+|poke|p2|Copperajah, M|
+|poke|p2|Rhydon, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Aromatisse, F|
+|poke|p2|Goodra, M|
+|poke|p2|Mantine, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by whistling)
+|inactive|Dragon Couture has 120 seconds left.
+|
+|start
+|switch|p1a: Mudsdale|Mudsdale, M|100/100
+|switch|p2a: Goodra|Goodra, M|100/100
+|turn|1
+|
+|move|p1a: Mudsdale|Protect|p1a: Mudsdale
+|-singleturn|p1a: Mudsdale|Protect
+|move|p2a: Goodra|Draco Meteor|p1a: Mudsdale
+|-activate|p1a: Mudsdale|move: Protect
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|switch|p1a: Copperajah|Copperajah, M|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Mudsdale|Mudsdale, M|100/100
+|move|p2a: Rhydon|Earthquake|p1a: Mudsdale
+|-damage|p1a: Mudsdale|60/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|-heal|p1a: Mudsdale|67/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Rhydon|Stealth Rock|p1a: Mudsdale
+|-sidestart|p1: Dragon Couture|move: Stealth Rock
+|move|p1a: Mudsdale|Stealth Rock|p2a: Rhydon
+|-sidestart|p2: whistling|move: Stealth Rock
+|
+|-heal|p1a: Mudsdale|73/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: Mudsdale|Rock Slide|p2a: Mantine
+|-supereffective|p2a: Mantine
+|-damage|p2a: Mantine|66/100
+|
+|-heal|p1a: Mudsdale|79/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Mantine|Toxic|p1a: Mudsdale
+|-status|p1a: Mudsdale|tox
+|move|p1a: Mudsdale|Rock Slide|p2a: Mantine|[miss]
+|-miss|p1a: Mudsdale|p2a: Mantine
+|
+|-heal|p1a: Mudsdale|85/100 tox|[from] item: Leftovers
+|-damage|p1a: Mudsdale|79/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Rotom|Rotom|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Mantine|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-damage|p1a: Rotom|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|-damage|p1a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rillaboom|82/100|[from] Hail
+|upkeep
+|turn|9
+|
+|switch|p1a: Mantine|Mantine, F|100/100
+|move|p2a: Rillaboom|U-turn|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|90/100
+|
+|switch|p2a: Goodra|Goodra, M|100/100|[from]move: U-turn
+|-damage|p2a: Goodra|88/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Goodra|82/100|[from] Hail
+|-damage|p1a: Mantine|84/100|[from] Hail
+|upkeep
+|turn|10
+|
+|switch|p1a: Copperajah|Copperajah, M|100/100
+|-damage|p1a: Copperajah|94/100|[from] Stealth Rock
+|move|p2a: Goodra|Draco Meteor|p1a: Copperajah
+|-resisted|p1a: Copperajah
+|-crit|p1a: Copperajah
+|-damage|p1a: Copperajah|50/100
+|-unboost|p2a: Goodra|spa|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Goodra|76/100|[from] Hail
+|-damage|p1a: Copperajah|44/100|[from] Hail
+|upkeep
+|turn|11
+|
+|switch|p2a: Mantine|Mantine, M|66/100
+|move|p1a: Copperajah|Heavy Slam|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|52/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Mantine|46/100|[from] Hail
+|-damage|p1a: Copperajah|37/100|[from] Hail
+|upkeep
+|turn|12
+|
+|switch|p2a: Goodra|Goodra, M|76/100
+|-damage|p2a: Goodra|63/100|[from] Stealth Rock
+|move|p1a: Copperajah|Power Whip|p2a: Goodra
+|-ability|p2a: Goodra|Sap Sipper|boost
+|-boost|p2a: Goodra|atk|1
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|move|p2a: Goodra|Fire Blast|p1a: Silvally
+|-damage|p1a: Silvally|33/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|-damage|p2a: Rhydon|95/100|[from] Stealth Rock
+|move|p1a: Silvally|U-turn|p2a: Rhydon
+|-damage|p2a: Rhydon|83/100
+|
+|switch|p1a: Abomasnow|Abomasnow, F|76/100|[from]move: U-turn
+|-damage|p1a: Abomasnow|51/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rhydon|77/100|[from] Hail
+|upkeep
+|turn|15
+|
+|switch|p2a: Copperajah|Copperajah, M|100/100
+|-damage|p2a: Copperajah|94/100|[from] Stealth Rock
+|move|p1a: Abomasnow|Earth Power|p2a: Copperajah
+|-supereffective|p2a: Copperajah
+|-damage|p2a: Copperajah|42/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Copperajah|36/100|[from] Hail
+|upkeep
+|turn|16
+|inactive|whistling has 120 seconds left.
+|j| Ramolost
+|
+|switch|p1a: Rotom|Rotom|82/100 tox
+|-damage|p1a: Rotom|69/100 tox|[from] Stealth Rock
+|switch|p2a: Mantine|Mantine, M|46/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|63/100 tox|[from] Hail
+|-damage|p2a: Mantine|40/100|[from] Hail
+|-damage|p1a: Rotom|57/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p2a: Rhydon|Rhydon, M|77/100
+|-damage|p2a: Rhydon|71/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Rhydon
+|-ability|p2a: Rhydon|Lightning Rod|boost
+|-boost|p2a: Rhydon|spa|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|51/100 tox|[from] Hail
+|-damage|p2a: Rhydon|65/100|[from] Hail
+|-damage|p1a: Rotom|38/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Mudsdale|Mudsdale, M|79/100 tox
+|-damage|p1a: Mudsdale|73/100 tox|[from] Stealth Rock
+|move|p2a: Rhydon|Swords Dance|p2a: Rhydon
+|-boost|p2a: Rhydon|atk|2
+|
+|-weather|none
+|-heal|p1a: Mudsdale|79/100 tox|[from] item: Leftovers
+|-damage|p1a: Mudsdale|73/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Rhydon|Earthquake|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|upkeep
+|
+|switch|p1a: Abomasnow|Abomasnow, F|51/100
+|-damage|p1a: Abomasnow|26/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|20
+|
+|switch|p2a: Copperajah|Copperajah, M|36/100
+|-damage|p2a: Copperajah|30/100|[from] Stealth Rock
+|move|p1a: Abomasnow|Blizzard|p2a: Copperajah
+|-resisted|p2a: Copperajah
+|-damage|p2a: Copperajah|9/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Copperajah|3/100|[from] Hail
+|upkeep
+|turn|21
+|
+|move|p1a: Abomasnow|Blizzard|p2a: Copperajah
+|-resisted|p2a: Copperajah
+|-damage|p2a: Copperajah|0 fnt
+|faint|p2a: Copperajah
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, M|82/100
+|-damage|p2a: Rillaboom|70/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Rotom|Rotom|38/100 tox
+|-damage|p1a: Rotom|26/100 tox|[from] Stealth Rock
+|move|p2a: Rillaboom|U-turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|6/100 tox
+|
+|switch|p2a: Rhydon|Rhydon, M|65/100|[from]move: U-turn
+|-damage|p2a: Rhydon|59/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|0 fnt|[from] Hail
+|-damage|p2a: Rhydon|53/100|[from] Hail
+|faint|p1a: Rotom
+|upkeep
+|
+|switch|p1a: Abomasnow|Abomasnow, F|26/100
+|-damage|p1a: Abomasnow|1/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p2a: Goodra|Goodra, M|63/100
+|-damage|p2a: Goodra|51/100|[from] Stealth Rock
+|move|p1a: Abomasnow|Blizzard|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, M|70/100
+|-damage|p2a: Rillaboom|57/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Rillaboom|Wood Hammer|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|-damage|p2a: Rillaboom|57/100|[from] Recoil
+|faint|p1a: Abomasnow
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Mantine|Mantine, F|84/100
+|turn|25
+|
+|move|p2a: Rillaboom|Wood Hammer|p1a: Mantine
+|-damage|p1a: Mantine|29/100
+|-damage|p2a: Rillaboom|37/100|[from] Recoil
+|move|p1a: Mantine|Hurricane|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|switch|p2a: Mantine|Mantine, M|40/100
+|turn|26
+|
+|switch|p1a: Silvally|Silvally-Fairy|33/100
+|-damage|p1a: Silvally|20/100|[from] Stealth Rock
+|move|p2a: Mantine|Toxic|p1a: Silvally
+|-status|p1a: Silvally|tox
+|
+|-damage|p1a: Silvally|14/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|-damage|p1a: Silvally|2/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Rhydon|Rhydon, M|53/100
+|-damage|p2a: Rhydon|48/100|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Rhydon
+|-damage|p2a: Rhydon|18/100
+|move|p2a: Rhydon|Earthquake|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Mantine|Mantine, F|29/100
+|turn|29
+|
+|move|p1a: Mantine|Scald|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|upkeep
+|
+|switch|p2a: Aromatisse|Aromatisse, F|100/100
+|-damage|p2a: Aromatisse|88/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|79/100
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Aromatisse|Moonblast|p1a: Mantine
+|-damage|p1a: Mantine|55/100
+|
+|-heal|p2a: Aromatisse|94/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Aromatisse|Moonblast|p1a: Mantine
+|-damage|p1a: Mantine|78/100
+|-unboost|p1a: Mantine|spa|1
+|
+|-heal|p2a: Aromatisse|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Mantine|Scald|p2a: Aromatisse
+|-damage|p2a: Aromatisse|85/100
+|-status|p2a: Aromatisse|brn
+|move|p2a: Aromatisse|Moonblast|p1a: Mantine
+|-damage|p1a: Mantine|56/100
+|-unboost|p1a: Mantine|spa|1
+|
+|-heal|p2a: Aromatisse|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Aromatisse|85/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Aromatisse|Moonblast|p1a: Mantine
+|-damage|p1a: Mantine|76/100
+|
+|-heal|p2a: Aromatisse|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Aromatisse|85/100 brn|[from] brn
+|upkeep
+|turn|34
+|c|☆whistling|gg
+|-message|whistling forfeited.
+|
+|win|Dragon Couture
+|l|☆whistling
+|l|☆Dragon Couture
+||Ladder (probably) updated, but score could not be retrieved (Response not received).
+|j|☆Dragon Couture
+|player|p1|Dragon Couture|morty-gen2

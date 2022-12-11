@@ -1,0 +1,306 @@
+|html|<div class="broadcast-blue"><strong>[Gen 8] OU is currently suspecting Melmetal! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/np-ss-ou-suspect-process-round-12-monster-mash.3709234/">suspect thread</a>.</strong></div>
+|j|☆minimax_ai
+|j|☆A3720
+|t:|1665949056
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1534
+|player|p2|A3720|101|1512
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Mienshao, M|
+|poke|p2|Nidoking, M|
+|poke|p2|Kartana|
+|poke|p2|Clefable, F|
+|poke|p2|Zapdos|
+|poke|p2|Slowbro, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1665949072
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|1
+|
+|t:|1665949078
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|move|p1a: Melmetal|Ice Punch|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|89/100
+|
+|upkeep
+|turn|2
+|
+|t:|1665949088
+|move|p1a: Melmetal|Thunder Punch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|39/100
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1665949106
+|switch|p2a: Nidoking|Nidoking, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|3
+|
+|t:|1665949108
+|move|p2a: Nidoking|Earth Power|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|35/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Nidoking
+|-damage|p2a: Nidoking|49/100
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|-hitcount|p2: Nidoking|2
+|
+|upkeep
+|
+|t:|1665949116
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|4
+|
+|t:|1665949127
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Mienshao|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|63/100
+|-unboost|p2a: Mienshao|def|1
+|-unboost|p2a: Mienshao|spd|1
+|-damage|p2a: Mienshao|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-damage|p2a: Mienshao|74/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1665949146
+|move|p2a: Mienshao|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|40/100
+|-damage|p2a: Mienshao|57/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|-enditem|p1a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p2a: Mienshao
+|-damage|p2a: Mienshao|47/100|[from] item: Life Orb
+|move|p1a: Tangrowth|Giga Drain|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|-heal|p1a: Tangrowth|56/100|[from] drain|[of] p2a: Mienshao
+|faint|p2a: Mienshao
+|
+|upkeep
+|
+|t:|1665949155
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|6
+|
+|t:|1665949158
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Clefable|Stealth Rock|p1a: Heatran
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1665949161
+|switch|p2a: Slowbro|Slowbro, F|73/100
+|move|p1a: Heatran|Magma Storm|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|51/100
+|-activate|p2a: Slowbro|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Slowbro|39/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1665949163
+|move|p1a: Heatran|Eruption|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|9/100
+|move|p2a: Slowbro|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|48/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-damage|p2a: Slowbro|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p2a: Slowbro
+|upkeep
+|
+|t:|1665949168
+|switch|p2a: Kartana|Kartana|100/100
+|turn|9
+|
+|t:|1665949175
+|switch|p1a: Tangrowth|Tangrowth, F|89/100
+|-damage|p1a: Tangrowth|76/100|[from] Stealth Rock
+|move|p2a: Kartana|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|60/100
+|
+|upkeep
+|turn|10
+|
+|t:|1665949178
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p1a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|
+|-heal|p1a: landorustherian|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1665949181
+|move|p2a: Zapdos|Hurricane|p1a: landorustherian
+|-damage|p1a: landorustherian|57/100
+|move|p1a: landorustherian|Defog|p2a: Zapdos
+|-unboost|p2a: Zapdos|evasion|1
+|-sideend|p1: minimax_ai|Stealth Rock|[from] move: Defog|[of] p1a: landorustherian
+|
+|-heal|p1a: landorustherian|63/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1665949184
+|move|p2a: Zapdos|Hurricane|p1a: landorustherian
+|-damage|p1a: landorustherian|30/100
+|-start|p1a: landorustherian|confusion
+|-activate|p1a: landorustherian|confusion
+|-damage|p1a: landorustherian|17/100|[from] confusion
+|
+|-heal|p1a: landorustherian|23/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1665949187
+|switch|p1a: Melmetal|Melmetal|35/100
+|move|p2a: Zapdos|Hurricane|p1a: Melmetal|[miss]
+|-miss|p2a: Zapdos|p1a: Melmetal
+|
+|upkeep
+|turn|14
+|
+|t:|1665949190
+|move|p2a: Zapdos|Discharge|p1a: Melmetal
+|-damage|p1a: Melmetal|15/100
+|move|p1a: Melmetal|Ice Punch|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|49/100
+|-status|p1a: Melmetal|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|upkeep
+|turn|15
+|
+|t:|1665949194
+|switch|p1a: Heatran|Heatran, M|48/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|99/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|16
+|
+|t:|1665949197
+|move|p1a: Heatran|Magma Storm|p2a: Zapdos
+|-damage|p2a: Zapdos|46/100
+|-activate|p2a: Zapdos|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Zapdos|Discharge|p1a: Heatran
+|-damage|p1a: Heatran|12/100
+|-status|p1a: Heatran|par
+|
+|-damage|p2a: Zapdos|33/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1665949201
+|move|p2a: Zapdos|Discharge|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-end|p2a: Zapdos|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1665949201
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|18
+|
+|t:|1665949211
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Weavile|Triple Axel|p2a: Clefable
+|-damage|p2a: Clefable|83/100
+|-damage|p2a: Clefable|49/100
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-hitcount|p2: Clefable|3
+|
+|upkeep
+|
+|t:|1665949213
+|switch|p2a: Kartana|Kartana|100/100
+|turn|19
+|
+|t:|1665949218
+|switch|p2a: Zapdos|Zapdos|33/100
+|switch|p1a: Tangrowth|Tangrowth, F|93/100
+|
+|upkeep
+|turn|20
+|
+|t:|1665949225
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Zapdos|Hurricane|p1a: Weavile
+|-damage|p1a: Weavile|33/100
+|
+|upkeep
+|turn|21
+|
+|t:|1665949239
+|move|p1a: Weavile|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-enditem|p2a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1665949242
+|switch|p2a: Kartana|Kartana|100/100
+|turn|22
+|
+|t:|1665949252
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Kartana|Leaf Blade|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|85/100
+|
+|upkeep
+|turn|23
+|
+|t:|1665949258
+|move|p2a: Kartana|Leaf Blade|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|70/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Kartana
+|-supereffective|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|faint|p2a: Kartana
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1534 &rarr; <strong>1553</strong><br />(+19 for winning)
+|raw|A3720's rating: 1512 &rarr; <strong>1493</strong><br />(-19 for losing)
+|c|☆minimax_ai|gg

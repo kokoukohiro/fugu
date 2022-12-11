@@ -1,0 +1,490 @@
+|j|☆Log4j
+|j|☆Pkmn3443
+|t:|1617994769
+|gametype|singles
+|player|p1|Log4j|2|1793
+|player|p2|Pkmn3443|266|1850
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Xerneas|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Yveltal|
+|poke|p1|Calyrex-Shadow|
+|poke|p1|Ho-Oh|
+|poke|p1|Rayquaza|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Ditto|
+|poke|p2|Ho-Oh|
+|poke|p2|Rayquaza|
+|poke|p2|Yveltal|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|
+|t:|1617994798
+|start
+|switch|p1a: Xerneas|Xerneas|100/100
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|1
+|
+|t:|1617994813
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Ho-Oh|Whirlwind|p1a: Ho-Oh
+|drag|p1a: Xerneas|Xerneas|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|
+|upkeep
+|turn|2
+|
+|t:|1617994821
+|switch|p1a: Ho-Oh|Ho-Oh|100/100
+|move|p2a: Ho-Oh|Toxic|p1a: Ho-Oh
+|-status|p1a: Ho-Oh|tox
+|
+|-damage|p1a: Ho-Oh|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1617994828
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|64/100
+|-status|p2a: Necrozma|brn
+|
+|-damage|p1a: Ho-Oh|82/100 tox|[from] psn
+|-damage|p2a: Necrozma|58/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1617994841
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Necrozma|Morning Sun|p2a: Necrozma
+|-heal|p2a: Necrozma|100/100 brn
+|
+|-damage|p2a: Necrozma|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1617994849
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Yveltal|Dark Pulse|p2a: Zacian
+|-resisted|p2a: Zacian
+|-crit|p2a: Zacian
+|-damage|p2a: Zacian|47/100
+|-damage|p1a: Yveltal|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1617994856
+|switch|p1a: Ho-Oh|Ho-Oh|100/100 tox
+|move|p2a: Zacian|Behemoth Blade|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|64/100 tox
+|
+|-damage|p1a: Ho-Oh|58/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1617994866
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|94/100 brn
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|58/100 brn
+|
+|-damage|p1a: Ho-Oh|46/100 tox|[from] psn
+|-damage|p2a: Necrozma|52/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1617994869
+|switch|p1a: Yveltal|Yveltal|91/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Necrozma|Stealth Rock|p1a: Yveltal
+|-sidestart|p1: Log4j|move: Stealth Rock
+|
+|-damage|p2a: Necrozma|46/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1617994878
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|move|p1a: Yveltal|Dark Pulse|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|62/100
+|-damage|p1a: Yveltal|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1617994888
+|switch|p1a: Ho-Oh|Ho-Oh|79/100 tox
+|move|p2a: Ho-Oh|Toxic|p1a: Ho-Oh
+|-fail|p1a: Ho-Oh|tox
+|
+|-damage|p1a: Ho-Oh|73/100 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Log4j)
+|
+|t:|1617994893
+|switch|p2a: Rayquaza|Rayquaza|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|move|p1a: Ho-Oh|Defog|p2a: Rayquaza
+|-unboost|p2a: Rayquaza|evasion|1
+|-sideend|p1: Log4j|Stealth Rock|[from] move: Defog|[of] p1a: Ho-Oh
+|
+|-damage|p1a: Ho-Oh|61/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1617994902
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|detailschange|p2a: Rayquaza|Rayquaza-Mega
+|-mega|p2a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|47/100
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|-damage|p2a: Rayquaza|91/100|[from] item: Life Orb
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1617994911
+|-weather|none
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|46/100 brn
+|move|p1a: Zacian|Behemoth Blade|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|16/100 brn
+|-damage|p1a: Zacian|31/100|[from] item: Rocky Helmet|[of] p2a: Necrozma
+|
+|-damage|p2a: Necrozma|10/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1617994919
+|move|p1a: Zacian|Behemoth Blade|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|-damage|p1a: Zacian|14/100|[from] item: Rocky Helmet|[of] p2a: Necrozma
+|faint|p2a: Necrozma
+|
+|upkeep
+|
+|t:|1617994922
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Zacian|[from] ability: Imposter
+|-ability|p2a: Ditto|Intrepid Sword|boost
+|-boost|p2a: Ditto|atk|1
+|turn|15
+|
+|t:|1617994931
+|move|p2a: Ditto|Behemoth Blade|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|t:|1617994934
+|switch|p1a: Ho-Oh|Ho-Oh|94/100 tox
+|turn|16
+|
+|t:|1617994948
+|switch|p2a: Ho-Oh|Ho-Oh|95/100
+|move|p1a: Ho-Oh|Toxic|p2a: Ho-Oh
+|-status|p2a: Ho-Oh|tox
+|
+|-damage|p1a: Ho-Oh|88/100 tox|[from] psn
+|-damage|p2a: Ho-Oh|89/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1617994955
+|switch|p1a: Yveltal|Yveltal|81/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Yveltal
+|-damage|p1a: Yveltal|40/100
+|
+|-damage|p2a: Ho-Oh|76/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1617994959
+|move|p1a: Yveltal|Oblivion Wing|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|43/100 tox
+|-heal|p1a: Yveltal|66/100|[from] drain|[of] p2a: Ho-Oh
+|-damage|p1a: Yveltal|56/100|[from] item: Life Orb
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Yveltal
+|-damage|p1a: Yveltal|19/100
+|-status|p1a: Yveltal|brn
+|
+|-damage|p1a: Yveltal|13/100 brn|[from] brn
+|-damage|p2a: Ho-Oh|25/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1617994966
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Yveltal|[from] ability: Imposter
+|-ability|p2a: Ditto|Dark Aura
+|move|p1a: Yveltal|Oblivion Wing|p2a: Ditto
+|-damage|p2a: Ditto|30/100
+|-heal|p1a: Yveltal|54/100 brn|[from] drain|[of] p2a: Ditto
+|-damage|p1a: Yveltal|44/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Yveltal|38/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1617994979
+|switch|p2a: Zacian|Zacian-Crowned|47/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Yveltal|Sucker Punch||[still]
+|-fail|p1a: Yveltal
+|
+|-damage|p1a: Yveltal|31/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1617994987
+|move|p2a: Zacian|Behemoth Blade|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|
+|upkeep
+|
+|t:|1617994990
+|switch|p1a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|22
+|
+|t:|1617994998
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|
+|upkeep
+|turn|23
+|
+|t:|1617995015
+|switch|p1a: Ho-Oh|Ho-Oh|100/100 tox
+|-start|p2a: Yveltal|Dynamax
+|-heal|p2a: Yveltal|100/100|[silent]
+|move|p2a: Yveltal|Max Airstream|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|56/100 tox
+|-boost|p2a: Yveltal|spe|1
+|-damage|p2a: Yveltal|96/100|[from] item: Life Orb
+|
+|-damage|p1a: Ho-Oh|50/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1617995020
+|move|p2a: Yveltal|Max Darkness|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|-damage|p2a: Yveltal|91/100|[from] item: Life Orb
+|faint|p1a: Ho-Oh
+|
+|upkeep
+|
+|t:|1617995022
+|switch|p1a: Xerneas|Xerneas|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|25
+|
+|t:|1617995035
+|-start|p1a: Xerneas|Dynamax
+|-heal|p1a: Xerneas|100/100|[silent]
+|move|p1a: Xerneas|Max Guard|p1a: Xerneas
+|-singleturn|p1a: Xerneas|Max Guard
+|move|p2a: Yveltal|Max Airstream|p1a: Xerneas
+|-activate|p1a: Xerneas|move: Max Guard
+|
+|-end|p2a: Yveltal|Dynamax
+|-heal|p2a: Yveltal|91/100|[silent]
+|upkeep
+|turn|26
+|
+|t:|1617995041
+|switch|p2a: Ho-Oh|Ho-Oh|58/100 tox
+|move|p1a: Xerneas|Max Starfall|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|33/100 tox
+|-fieldstart|move: Misty Terrain
+|
+|-damage|p2a: Ho-Oh|27/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1617995048
+|move|p1a: Xerneas|Max Lightning|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Ho-Oh
+|
+|-end|p1a: Xerneas|Dynamax
+|-heal|p1a: Xerneas|100/100|[silent]
+|upkeep
+|
+|t:|1617995052
+|switch|p2a: Zacian|Zacian-Crowned|47/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|28
+|
+|t:|1617995067
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|move|p2a: Zacian|Behemoth Blade|p1a: Rayquaza
+|-enditem|p1a: Rayquaza|Focus Sash
+|-damage|p1a: Rayquaza|1/100
+|
+|upkeep
+|turn|29
+|
+|t:|1617995075
+|detailschange|p1a: Rayquaza|Rayquaza-Mega
+|-mega|p1a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p1a: Rayquaza|Extreme Speed|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|27/100
+|move|p2a: Zacian|Behemoth Blade|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|-weather|none
+|
+|upkeep
+|
+|t:|1617995081
+|switch|p1a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|30
+|
+|t:|1617995099
+|move|p1a: Calyrex|Astral Barrage|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1617995102
+|switch|p2a: Yveltal|Yveltal|91/100
+|-ability|p2a: Yveltal|Dark Aura
+|turn|31
+|
+|t:|1617995109
+|switch|p1a: Xerneas|Xerneas|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|switch|p2a: Rayquaza|Rayquaza-Mega|91/100
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p2a: Rayquaza
+|
+|-weather|DeltaStream|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|32
+|
+|t:|1617995116
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Xerneas
+|-damage|p1a: Xerneas|13/100
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|-damage|p2a: Rayquaza|81/100|[from] item: Life Orb
+|move|p1a: Xerneas|Moonblast|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-crit|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|-weather|none
+|
+|upkeep
+|
+|t:|1617995128
+|switch|p2a: Ditto|Ditto|30/100
+|-transform|p2a: Ditto|p1a: Xerneas|[from] ability: Imposter
+|-ability|p2a: Ditto|Fairy Aura
+|turn|33
+|
+|t:|1617995133
+|move|p2a: Ditto|Moonblast|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|upkeep
+|
+|t:|1617995136
+|switch|p1a: Calyrex|Calyrex-Shadow|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|34
+|
+|t:|1617995148
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|move|p2a: Ditto|Moonblast|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|
+|upkeep
+|turn|35
+|
+|t:|1617995156
+|switch|p2a: Yveltal|Yveltal|91/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Calyrex|Draining Kiss|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|17/100
+|-heal|p1a: Calyrex|64/100|[from] drain|[of] p2a: Yveltal
+|
+|upkeep
+|turn|36
+|
+|t:|1617995164
+|move|p1a: Calyrex|Draining Kiss|p2a: Yveltal
+|-supereffective|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|-heal|p1a: Calyrex|79/100|[from] drain|[of] p2a: Yveltal
+|faint|p2a: Yveltal
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1617995167
+|switch|p2a: Ditto|Ditto|30/100
+|-transform|p2a: Ditto|p1a: Calyrex|[from] ability: Imposter
+|turn|37
+|c|☆Log4j|you lose without that crit
+|
+|t:|1617995186
+|move|p2a: Ditto|Astral Barrage|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|Pkmn3443
+|raw|Log4j's rating: 1794 &rarr; <strong>1777</strong><br />(-17 for losing)
+|raw|Pkmn3443's rating: 1850 &rarr; <strong>1867</strong><br />(+17 for winning)

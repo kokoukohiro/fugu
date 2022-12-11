@@ -1,0 +1,330 @@
+|j|☆lord cube
+|j|☆The Last Hero
+|player|p1|lord cube|riley|1629
+|player|p2|The Last Hero|acetrainersnow|1722
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Primarina, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Gengar, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Clefable, F|
+|poke|p2|Gardevoir, F|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Kommo-o, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by The Last Hero)
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Flames|Salazzle, F|100/100
+|turn|1
+|
+|move|p2a: Flames|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|move|p1a: Rotom|Volt Switch|p2a: Flames
+|-damage|p2a: Flames|62/100
+|
+|switch|p1a: Gengar|Gengar, M|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Flames|69/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Clanger|Kommo-o, M|100/100
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|76/100
+|
+|-heal|p1a: Gengar|82/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p1a: Gengar|Will-O-Wisp|p2a: Clanger
+|-status|p2a: Clanger|brn
+|move|p2a: Clanger|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-crit|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|
+|-heal|p1a: Gengar|88/100|[from] item: Black Sludge
+|-damage|p2a: Clanger|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Primarina|Primarina, F|100/100
+|switch|p2a: Flames|Salazzle, F|69/100
+|
+|-heal|p2a: Flames|75/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100 tox
+|move|p2a: Flames|Toxic|p1a: Rotom
+|-fail|p1a: Rotom|tox
+|
+|-heal|p2a: Flames|81/100|[from] item: Black Sludge
+|-damage|p1a: Rotom|95/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Flames|Protect|p2a: Flames
+|-singleturn|p2a: Flames|Protect
+|move|p1a: Rotom|Toxic|p2a: Flames
+|-activate|p2a: Flames|move: Protect
+|
+|-heal|p2a: Flames|87/100|[from] item: Black Sludge
+|-damage|p1a: Rotom|83/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Vibracio|Seismitoad, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Vibracio
+|-immune|p2a: Vibracio
+|
+|-damage|p1a: Rotom|65/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Vibracio|Stealth Rock|p1a: Clefable
+|-sidestart|p1: lord cube|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Vibracio|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|89/100
+|-enditem|p1a: Clefable|Leftovers|[from] move: Knock Off|[of] p2a: Vibracio
+|move|p1a: Clefable|Thunder Wave|p2a: Vibracio
+|-immune|p2a: Vibracio
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Fabiole|Clefable, F|100/100
+|move|p1a: Clefable|Stealth Rock|p2a: Fabiole
+|-sidestart|p2: The Last Hero|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Clefable|Thunder Wave|p2a: Fabiole
+|-status|p2a: Fabiole|par
+|move|p2a: Fabiole|Teleport|p2a: Fabiole
+|
+|switch|p2a: Crow Of Judgement|Corviknight, M|100/100|[from]move: Teleport
+|-damage|p2a: Crow Of Judgement|88/100|[from] Stealth Rock
+|-ability|p2a: Crow Of Judgement|Pressure
+|
+|-heal|p2a: Crow Of Judgement|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Crow Of Judgement|Brave Bird|p1a: Clefable
+|-damage|p1a: Clefable|46/100
+|-damage|p2a: Crow Of Judgement|80/100|[from] Recoil
+|move|p1a: Clefable|Thunder Wave|p2a: Crow Of Judgement
+|-status|p2a: Crow Of Judgement|par
+|
+|-heal|p2a: Crow Of Judgement|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|96/100
+|move|p2a: Crow Of Judgement|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p1: lord cube|Stealth Rock|[from] move: Defog|[of] p2a: Crow Of Judgement
+|-sideend|p2: The Last Hero|Stealth Rock|[from] move: Defog|[of] p2a: Crow Of Judgement
+|
+|-heal|p2a: Crow Of Judgement|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Crow Of Judgement
+|-sidestart|p2: The Last Hero|move: Stealth Rock
+|move|p2a: Crow Of Judgement|Brave Bird|p1a: Clefable
+|-damage|p1a: Clefable|58/100
+|-damage|p2a: Crow Of Judgement|80/100 par|[from] Recoil
+|
+|-heal|p2a: Crow Of Judgement|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|100/100
+|move|p2a: Crow Of Judgement|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p2: The Last Hero|Stealth Rock|[from] move: Defog|[of] p2a: Crow Of Judgement
+|
+|-heal|p2a: Crow Of Judgement|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Crow Of Judgement
+|-sidestart|p2: The Last Hero|move: Stealth Rock
+|move|p2a: Crow Of Judgement|Brave Bird|p1a: Clefable
+|-damage|p1a: Clefable|57/100
+|-damage|p2a: Crow Of Judgement|77/100 par|[from] Recoil
+|
+|-heal|p2a: Crow Of Judgement|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|100/100
+|move|p2a: Crow Of Judgement|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p2: The Last Hero|Stealth Rock|[from] move: Defog|[of] p2a: Crow Of Judgement
+|
+|-heal|p2a: Crow Of Judgement|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Crow Of Judgement
+|-sidestart|p2: The Last Hero|move: Stealth Rock
+|cant|p2a: Crow Of Judgement|par
+|
+|-heal|p2a: Crow Of Judgement|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Crow Of Judgement|U-turn|p1a: Bisharp
+|-damage|p1a: Bisharp|81/100
+|
+|switch|p2a: Vibracio|Seismitoad, M|100/100|[from]move: U-turn
+|-damage|p2a: Vibracio|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Vibracio|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Vibracio|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|-damage|p2a: Vibracio|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Vibracio
+|
+|-heal|p2a: Vibracio|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Crow Of Judgement|Corviknight, M|95/100 par
+|-damage|p2a: Crow Of Judgement|83/100 par|[from] Stealth Rock
+|-ability|p2a: Crow Of Judgement|Pressure
+|move|p1a: Ferrothorn|Knock Off|p2a: Crow Of Judgement
+|-damage|p2a: Crow Of Judgement|66/100 par
+|-enditem|p2a: Crow Of Judgement|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Bisharp|Bisharp, M|81/100
+|cant|p2a: Crow Of Judgement|par
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Clanger|Kommo-o, M|94/100 brn
+|-damage|p2a: Clanger|88/100 brn|[from] Stealth Rock
+|move|p1a: Bisharp|Knock Off|p2a: Clanger
+|-resisted|p2a: Clanger
+|-crit|p2a: Clanger
+|-damage|p2a: Clanger|55/100 brn
+|-enditem|p2a: Clanger|Leftovers|[from] move: Knock Off|[of] p1a: Bisharp
+|
+|-damage|p2a: Clanger|49/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Clanger|Rest|p2a: Clanger
+|-status|p2a: Clanger|slp|[from] move: Rest
+|-heal|p2a: Clanger|100/100 slp|[silent]
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Heartless Lady|Gardevoir, F, shiny|100/100
+|-damage|p2a: Heartless Lady|88/100|[from] Stealth Rock
+|-ability|p2a: Heartless Lady|Torrent|[from] ability: Trace|[of] p1a: Primarina
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|75/100
+|
+|-heal|p2a: Heartless Lady|94/100|[from] item: Leftovers
+|-heal|p1a: Primarina|82/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Heartless Lady|Calm Mind|p2a: Heartless Lady
+|-boost|p2a: Heartless Lady|spa|1
+|-boost|p2a: Heartless Lady|spd|1
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-heal|p2a: Heartless Lady|100/100|[from] item: Leftovers
+|-heal|p1a: Primarina|88/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Heartless Lady|Calm Mind|p2a: Heartless Lady
+|-boost|p2a: Heartless Lady|spa|1
+|-boost|p2a: Heartless Lady|spd|1
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-heal|p1a: Primarina|94/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Heartless Lady|Moonblast|p1a: Primarina
+|-end|p1a: Primarina|Substitute
+|move|p1a: Primarina|Moonblast|p2a: Heartless Lady
+|-damage|p2a: Heartless Lady|58/100
+|
+|-heal|p2a: Heartless Lady|64/100|[from] item: Leftovers
+|-heal|p1a: Primarina|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Bisharp|Bisharp, M|81/100
+|move|p2a: Heartless Lady|Psyshock|p1a: Bisharp
+|-immune|p1a: Bisharp
+|
+|-heal|p2a: Heartless Lady|71/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Heartless Lady
+|-damage|p2a: Heartless Lady|0 fnt
+|faint|p2a: Heartless Lady
+|
+|upkeep
+|-message|The Last Hero forfeited.
+|
+|win|lord cube
+|l|☆The Last Hero
+|raw|lord cube's rating: 1617 &rarr; <strong>1643</strong><br />(+26 for winning)
+|raw|The Last Hero's rating: 1722 &rarr; <strong>1696</strong><br />(-26 for losing)

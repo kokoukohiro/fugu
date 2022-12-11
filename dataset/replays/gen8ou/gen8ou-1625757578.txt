@@ -1,0 +1,912 @@
+|j|☆Cono de la Correze
+|j|☆noudle soop
+|t:|1658857718
+|gametype|singles
+|player|p1|Cono de la Correze|hilbert|1802
+|player|p2|noudle soop|worker|1874
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Jirachi|
+|poke|p1|Blissey, F|
+|poke|p1|Heatran, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Tapu Lele|
+|poke|p1|Volcanion|
+|poke|p2|Aegislash, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Blacephalon|
+|poke|p2|Rotom-Wash|
+|poke|p2|Hydreigon, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by noudle soop)
+|inactive|noudle soop has 120 seconds left.
+|
+|t:|1658857768
+|start
+|switch|p1a: Volcanion|Volcanion|100/100
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|turn|1
+|
+|t:|1658857778
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|92/100
+|
+|t:|1658857784
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1658857789
+|move|p2a: Ferrothorn|Body Press|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|43/100
+|move|p1a: Blissey|Teleport|p1a: Blissey
+|
+|t:|1658857793
+|switch|p1a: Heatran|Heatran, M|100/100|[from]move: Teleport
+|-item|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1658857799
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Rotom
+|-sidestart|p2: noudle soop|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1658857802
+|switch|p1a: Blissey|Blissey, F|43/100
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|32/100
+|
+|t:|1658857808
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1658857812
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1658857818
+|move|p1a: Heatran|Magma Storm|p2a: Landorus
+|-damage|p2a: Landorus|66/100
+|-activate|p2a: Landorus|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Landorus|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|97/100
+|-status|p2a: Landorus|brn|[from] ability: Flame Body|[of] p1a: Heatran
+|-enditem|p1a: Heatran|Air Balloon
+|j| Savoyevatel
+|
+|t:|1658857824
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100|[from]move: U-turn
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|l| Savoyevatel
+|
+|t:|1658857839
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Rotom|Volt Switch|p1a: Tapu Lele
+|-crit|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|62/100
+|
+|t:|1658857842
+|switch|p2a: Aegislash|Aegislash, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1658857856
+|switch|p1a: Heatran|Heatran, M|97/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|90/100
+|-status|p2a: Aegislash|brn|[from] ability: Flame Body|[of] p1a: Heatran
+|
+|-damage|p2a: Aegislash|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|j| tigers jaw
+|
+|t:|1658857864
+|switch|p1a: Blissey|Blissey, F|32/100
+|switch|p2a: Rotom|Rotom-Wash, shiny|94/100
+|-damage|p2a: Rotom|82/100|[from] Stealth Rock
+|
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1658857868
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|23/100
+|
+|t:|1658857870
+|switch|p2a: Landorus|Landorus-Therian, M|66/100 brn|[from]move: Volt Switch
+|-damage|p2a: Landorus|53/100 brn|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|73/100
+|
+|-heal|p2a: Landorus|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Landorus|53/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1658857877
+|move|p2a: Landorus|Defog|p1a: Blissey
+|-unboost|p1a: Blissey|evasion|1
+|-sideend|p2: noudle soop|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|-fieldend|move: Psychic Terrain
+|move|p1a: Blissey|Teleport|p1a: Blissey
+|
+|t:|1658857889
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: Teleport
+|
+|-heal|p2a: Landorus|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Landorus|53/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1658857892
+|move|p1a: Dragapult|Dragon Darts|p2a: Landorus
+|-damage|p2a: Landorus|28/100 brn
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Landorus
+|-damage|p2a: Landorus|3/100 brn
+|move|p2a: Landorus|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|92/100
+|
+|t:|1658857898
+|switch|p2a: Hydreigon|Hydreigon, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|13
+|
+|t:|1658857903
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: Blissey|Blissey, F|73/100
+|
+|upkeep
+|turn|14
+|
+|t:|1658857907
+|switch|p1a: Heatran|Heatran, M|90/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Cono de la Correze|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1658857909
+|switch|p2a: Rotom|Rotom-Wash, shiny|88/100
+|move|p1a: Heatran|Stealth Rock|p2a: Rotom
+|-sidestart|p2: noudle soop|move: Stealth Rock
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1658857914
+|switch|p1a: Blissey|Blissey, F|73/100
+|-damage|p1a: Blissey|60/100|[from] Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Blissey
+|-damage|p1a: Blissey|46/100
+|
+|-heal|p2a: Rotom|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1658857917
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|35/100
+|
+|t:|1658857919
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|85/100
+|
+|upkeep
+|turn|18
+|
+|t:|1658857929
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Ferrothorn|Body Press|p1a: Volcanion
+|-damage|p1a: Volcanion|68/100
+|
+|upkeep
+|turn|19
+|
+|t:|1658857935
+|switch|p2a: Rotom|Rotom-Wash, shiny|99/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Volcanion|Steam Eruption|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|64/100
+|-status|p2a: Rotom|brn
+|
+|-heal|p2a: Rotom|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|64/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1658857957
+|move|p1a: Volcanion|Steam Eruption|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|42/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|4/100
+|
+|t:|1658857964
+|switch|p2a: Hydreigon|Hydreigon, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|t:|1658857967
+|move|p2a: Hydreigon|Dark Pulse|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+|
+|t:|1658857974
+|switch|p1a: Blissey|Blissey, F|85/100
+|-damage|p1a: Blissey|73/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1658857980
+|switch|p2a: Landorus|Landorus-Therian, M|3/100 brn
+|-damage|p2a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p2a: Landorus
+|move|p1a: Blissey|Reflect|p1a: Blissey
+|-sidestart|p1: Cono de la Correze|Reflect
+|
+|upkeep
+|
+|t:|1658857984
+|switch|p2a: Ferrothorn|Ferrothorn, M|95/100
+|-damage|p2a: Ferrothorn|89/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1658857988
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: Cono de la Correze|move: Light Screen
+|move|p2a: Ferrothorn|Body Press|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|47/100
+|
+|upkeep
+|turn|24
+|
+|t:|1658857991
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Jirachi
+|-start|p1a: Jirachi|move: Leech Seed
+|
+|-damage|p1a: Jirachi|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|25
+|l| tigers jaw
+|
+|t:|1658858002
+|switch|p2a: Storm|Blacephalon, shiny|100/100
+|-damage|p2a: Storm|76/100|[from] Stealth Rock
+|move|p1a: Jirachi|Cosmic Power|p1a: Jirachi
+|-boost|p1a: Jirachi|def|1
+|-boost|p1a: Jirachi|spd|1
+|
+|-damage|p1a: Jirachi|70/100|[from] Leech Seed|[of] p2a: Storm
+|-heal|p2a: Storm|96/100|[silent]
+|upkeep
+|turn|26
+|
+|t:|1658858007
+|move|p2a: Storm|Trick|p1a: Jirachi
+|-activate|p2a: Storm|move: Trick|[of] p1a: Jirachi
+|-item|p1a: Jirachi|Choice Specs|[from] move: Trick
+|-item|p2a: Storm|Weakness Policy|[from] move: Trick
+|move|p1a: Jirachi|Stored Power|p2a: Storm
+|-damage|p2a: Storm|44/100
+|
+|-damage|p1a: Jirachi|57/100|[from] Leech Seed|[of] p2a: Storm
+|-heal|p2a: Storm|64/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1658858021
+|switch|p1a: Blissey|Blissey, F|47/100
+|-damage|p1a: Blissey|34/100|[from] Stealth Rock
+|move|p2a: Storm|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|25/100
+|
+|upkeep
+|turn|28
+|
+|t:|1658858027
+|move|p2a: Storm|Trick|p1a: Blissey
+|-activate|p2a: Storm|move: Trick|[of] p1a: Blissey
+|-item|p1a: Blissey|Weakness Policy|[from] move: Trick
+|-item|p2a: Storm|Light Clay|[from] move: Trick
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|75/100
+|
+|upkeep
+|turn|29
+|j| chinchiliconcarne
+|
+|t:|1658858036
+|move|p2a: Storm|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|65/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-sideend|p1: Cono de la Correze|Reflect
+|upkeep
+|turn|30
+|
+|t:|1658858041
+|move|p2a: Storm|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|90/100
+|move|p1a: Blissey|Teleport|p1a: Blissey
+|
+|t:|1658858048
+|switch|p1a: Dragapult|Dragapult, F|92/100|[from]move: Teleport
+|-damage|p1a: Dragapult|80/100|[from] Stealth Rock
+|
+|-sideend|p1: Cono de la Correze|move: Light Screen
+|upkeep
+|turn|31
+|c| chinchiliconcarne|noudle soop bigent noobent
+|
+|t:|1658858056
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Dragapult|Dragon Darts|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|79/100
+|
+|upkeep
+|turn|32
+|c| chinchiliconcarne|cono >> all
+|
+|t:|1658858062
+|move|p1a: Dragapult|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|c|☆Cono de la Correze|:)
+|
+|t:|1658858068
+|switch|p2a: Hydreigon|Hydreigon, M|88/100
+|-damage|p2a: Hydreigon|76/100|[from] Stealth Rock
+|turn|33
+|j| hiffa
+|l| chinchiliconcarne
+|c|☆Cono de la Correze|je me prep pour l'olt
+|
+|t:|1658858093
+|switch|p2a: Rotom|Rotom-Wash, shiny|42/100 brn
+|-damage|p2a: Rotom|30/100 brn|[from] Stealth Rock
+|switch|p1a: Blissey|Blissey, F|90/100
+|-damage|p1a: Blissey|78/100|[from] Stealth Rock
+|
+|-heal|p2a: Rotom|36/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|30/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1658858103
+|switch|p1a: Tapu Lele|Tapu Lele|62/100
+|-damage|p1a: Tapu Lele|50/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Rotom|Pain Split|p1a: Tapu Lele
+|-sethp|p1a: Tapu Lele|41/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|38/100 brn|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|44/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|38/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1658858109
+|switch|p2a: Aegislash|Aegislash, M|88/100 brn
+|-damage|p2a: Aegislash|82/100 brn|[from] Stealth Rock
+|move|p1a: Tapu Lele|Moonblast|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|61/100 brn
+|
+|-damage|p2a: Aegislash|54/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1658858118
+|switch|p1a: Jirachi|Jirachi|57/100
+|-damage|p1a: Jirachi|51/100|[from] Stealth Rock
+|switch|p2a: Hydreigon|Hydreigon, M|76/100
+|-damage|p2a: Hydreigon|64/100|[from] Stealth Rock
+|
+|upkeep
+|turn|37
+|
+|t:|1658858123
+|move|p2a: Hydreigon|Dark Pulse|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+|
+|t:|1658858127
+|switch|p1a: Blissey|Blissey, F|78/100
+|-damage|p1a: Blissey|65/100|[from] Stealth Rock
+|turn|38
+|
+|t:|1658858132
+|switch|p2a: Rotom|Rotom-Wash, shiny|38/100 brn
+|-damage|p2a: Rotom|26/100 brn|[from] Stealth Rock
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-heal|p2a: Rotom|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|26/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|39
+|
+|t:|1658858139
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|92/100
+|
+|t:|1658858144
+|switch|p2a: Aegislash|Aegislash, M|54/100 brn|[from]move: Volt Switch
+|-damage|p2a: Aegislash|48/100 brn|[from] Stealth Rock
+|move|p1a: Blissey|Teleport|p1a: Blissey
+|
+|t:|1658858148
+|switch|p1a: Dragapult|Dragapult, F|80/100|[from]move: Teleport
+|-damage|p1a: Dragapult|67/100|[from] Stealth Rock
+|
+|-damage|p2a: Aegislash|42/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|t:|1658858162
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|30/100
+|-enditem|p1a: Dragapult|Weakness Policy
+|-boost|p1a: Dragapult|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Dragapult|spa|2|[from] item: Weakness Policy
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|
+|-damage|p2a: Aegislash|36/100 brn|[from] brn
+|upkeep
+|turn|41
+|j| Cashbandicook
+|
+|t:|1658858172
+|move|p2a: Aegislash|Shadow Sneak|p1a: Dragapult|[miss]
+|-miss|p2a: Aegislash|p1a: Dragapult
+|move|p1a: Dragapult|Phantom Force|p2a: Aegislash|[from]lockedmove
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|t:|1658858176
+|switch|p2a: Hydreigon|Hydreigon, M|64/100
+|-damage|p2a: Hydreigon|51/100|[from] Stealth Rock
+|turn|42
+|
+|t:|1658858188
+|switch|p1a: Heatran|Heatran, M|90/100
+|-damage|p1a: Heatran|78/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Dark Pulse|p1a: Heatran
+|-damage|p1a: Heatran|45/100
+|
+|upkeep
+|turn|43
+|
+|t:|1658858191
+|move|p2a: Hydreigon|Dark Pulse|p1a: Heatran
+|-damage|p1a: Heatran|14/100
+|cant|p1a: Heatran|flinch
+|
+|upkeep
+|turn|44
+|
+|t:|1658858193
+|move|p2a: Hydreigon|Dark Pulse|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1658858199
+|switch|p1a: Blissey|Blissey, F|92/100
+|-damage|p1a: Blissey|79/100|[from] Stealth Rock
+|turn|45
+|
+|t:|1658858203
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|65/100
+|move|p1a: Blissey|Teleport|p1a: Blissey
+|
+|t:|1658858212
+|switch|p1a: Dragapult|Dragapult, F|30/100|[from]move: Teleport
+|-damage|p1a: Dragapult|18/100|[from] Stealth Rock
+|
+|upkeep
+|turn|46
+|
+|t:|1658858217
+|switch|p2a: Rotom|Rotom-Wash, shiny|26/100 brn
+|-damage|p2a: Rotom|13/100 brn|[from] Stealth Rock
+|switch|p1a: Blissey|Blissey, F|65/100
+|-damage|p1a: Blissey|53/100|[from] Stealth Rock
+|
+|-heal|p2a: Rotom|19/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|13/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1658858226
+|switch|p1a: Tapu Lele|Tapu Lele|41/100
+|-damage|p1a: Tapu Lele|28/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Rotom|Pain Split|p1a: Tapu Lele
+|-sethp|p1a: Tapu Lele|21/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|20/100 brn|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|26/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|20/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1658858230
+|switch|p2a: Storm|Blacephalon, shiny|64/100
+|-damage|p2a: Storm|39/100|[from] Stealth Rock
+|move|p1a: Tapu Lele|Moonblast|p2a: Storm
+|-resisted|p2a: Storm
+|-damage|p2a: Storm|0 fnt
+|faint|p2a: Storm
+|
+|upkeep
+|
+|t:|1658858233
+|switch|p2a: Hydreigon|Hydreigon, M|51/100
+|-damage|p2a: Hydreigon|39/100|[from] Stealth Rock
+|turn|49
+|
+|t:|1658858240
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|faint|p1a: Tapu Lele
+|
+|upkeep
+|
+|t:|1658858242
+|switch|p1a: Blissey|Blissey, F|53/100
+|-damage|p1a: Blissey|40/100|[from] Stealth Rock
+|turn|50
+|
+|t:|1658858251
+|switch|p2a: Rotom|Rotom-Wash, shiny|20/100 brn
+|-damage|p2a: Rotom|7/100 brn|[from] Stealth Rock
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|90/100
+|
+|-heal|p2a: Rotom|13/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|7/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|t:|1658858257
+|move|p2a: Rotom|Pain Split|p1a: Blissey
+|-sethp|p1a: Blissey|47/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|100/100 brn|[from] move: Pain Split
+|move|p1a: Blissey|Teleport|p1a: Blissey
+|
+|t:|1658858259
+|switch|p1a: Dragapult|Dragapult, F|18/100|[from]move: Teleport
+|-damage|p1a: Dragapult|6/100|[from] Stealth Rock
+|
+|-damage|p2a: Rotom|95/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|52
+|
+|t:|1658858268
+|move|p1a: Dragapult|Dragon Darts|p2a: Rotom
+|-damage|p2a: Rotom|65/100 brn
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Rotom
+|-damage|p2a: Rotom|37/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|t:|1658858270
+|switch|p2a: Hydreigon|Hydreigon, M|39/100|[from]move: Volt Switch
+|-damage|p2a: Hydreigon|27/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1658858272
+|switch|p1a: Blissey|Blissey, F|47/100
+|-damage|p1a: Blissey|34/100|[from] Stealth Rock
+|turn|53
+|
+|t:|1658858280
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|19/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|69/100
+|
+|upkeep
+|turn|54
+|
+|t:|1658858284
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|54/100
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: Cono de la Correze|move: Light Screen
+|
+|upkeep
+|turn|55
+|c|☆noudle soop|gg
+|
+|t:|1658858290
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|46/100
+|move|p1a: Blissey|Reflect|p1a: Blissey
+|-sidestart|p1: Cono de la Correze|Reflect
+|
+|upkeep
+|turn|56
+|
+|t:|1658858293
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|39/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|89/100
+|
+|upkeep
+|turn|57
+|
+|t:|1658858294
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|82/100
+|move|p1a: Blissey|Teleport||[still]
+|-fail|p1a: Blissey
+|
+|upkeep
+|turn|58
+|
+|t:|1658858296
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|74/100
+|cant|p1a: Blissey|flinch
+|
+|-sideend|p1: Cono de la Correze|move: Light Screen
+|upkeep
+|turn|59
+|
+|t:|1658858298
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|58/100
+|cant|p1a: Blissey|flinch
+|
+|-sideend|p1: Cono de la Correze|Reflect
+|upkeep
+|turn|60
+|
+|t:|1658858300
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|36/100
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: Cono de la Correze|move: Light Screen
+|
+|upkeep
+|turn|61
+|
+|t:|1658858303
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|28/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|78/100
+|
+|upkeep
+|turn|62
+|c|☆noudle soop|this game was
+|c|☆noudle soop|impossible to lose
+|c|☆noudle soop|and you still managed to lose
+|
+|t:|1658858311
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|71/100
+|move|p1a: Blissey|Reflect|p1a: Blissey
+|-sidestart|p1: Cono de la Correze|Reflect
+|
+|upkeep
+|turn|63
+|
+|t:|1658858314
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|64/100
+|move|p1a: Blissey|Teleport||[still]
+|-fail|p1a: Blissey
+|
+|upkeep
+|turn|64
+|j| tigers jaw
+|
+|t:|1658858317
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|57/100
+|cant|p1a: Blissey|flinch
+|
+|-sideend|p1: Cono de la Correze|move: Light Screen
+|upkeep
+|turn|65
+|
+|t:|1658858321
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|43/100
+|cant|p1a: Blissey|flinch
+|
+|upkeep
+|turn|66
+|
+|t:|1658858324
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|28/100
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: Cono de la Correze|move: Light Screen
+|
+|-sideend|p1: Cono de la Correze|Reflect
+|upkeep
+|turn|67
+|
+|t:|1658858326
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|20/100
+|cant|p1a: Blissey|flinch
+|
+|upkeep
+|turn|68
+|
+|t:|1658858329
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|13/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|63/100
+|
+|upkeep
+|turn|69
+|j| 0meltdown
+|
+|t:|1658858335
+|move|p2a: Hydreigon|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|56/100
+|cant|p1a: Blissey|flinch
+|
+|upkeep
+|turn|70
+|
+|t:|1658858337
+|-activate|p2a: Hydreigon|move: Struggle
+|move|p2a: Hydreigon|Struggle|p1a: Blissey
+|-damage|p1a: Blissey|48/100
+|-damage|p2a: Hydreigon|2/100|[from] recoil
+|move|p1a: Blissey|Reflect|p1a: Blissey
+|-sidestart|p1: Cono de la Correze|Reflect
+|
+|-sideend|p1: Cono de la Correze|move: Light Screen
+|upkeep
+|turn|71
+|
+|t:|1658858343
+|-activate|p2a: Hydreigon|move: Struggle
+|move|p2a: Hydreigon|Struggle|p1a: Blissey
+|-damage|p1a: Blissey|44/100
+|-damage|p2a: Hydreigon|0 fnt|[from] recoil
+|faint|p2a: Hydreigon
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|94/100
+|
+|upkeep
+|
+|t:|1658858345
+|switch|p2a: Rotom|Rotom-Wash, shiny|37/100 brn
+|-damage|p2a: Rotom|25/100 brn|[from] Stealth Rock
+|turn|72
+|j| Nancy J McDonie
+|
+|t:|1658858348
+|move|p2a: Rotom|Pain Split|p1a: Blissey
+|-sethp|p1a: Blissey|52/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|100/100 brn|[from] move: Pain Split
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: Cono de la Correze|move: Light Screen
+|
+|-damage|p2a: Rotom|95/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|t:|1658858356
+|move|p2a: Rotom|Toxic|p1a: Blissey
+|-status|p1a: Blissey|tox
+|move|p1a: Blissey|Teleport||[still]
+|-fail|p1a: Blissey
+|
+|-heal|p2a: Rotom|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|46/100 tox|[from] psn
+|-damage|p2a: Rotom|95/100 brn|[from] brn
+|upkeep
+|turn|74
+|c|☆Cono de la Correze|bruh
+|c|☆Cono de la Correze|gg
+|c|☆noudle soop|gg
+|-message|Cono de la Correze forfeited.
+|
+|win|noudle soop
+|raw|Cono de la Correze's rating: 1802 &rarr; <strong>1786</strong><br />(-16 for losing)
+|raw|noudle soop's rating: 1874 &rarr; <strong>1890</strong><br />(+16 for winning)
+|l|☆Cono de la Correze
+|l| Cashbandicook
+|l| tigers jaw
+|l| Nancy J McDonie
+|l| hiffa
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

@@ -1,0 +1,410 @@
+|j|☆Rudy (Academy HTD)
+|j|☆Greyheracross
+|player|p1|Rudy (Academy HTD)|clown|1417
+|player|p2|Greyheracross|162|1511
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Steelix, M|
+|poke|p1|Sylveon, F|
+|poke|p1|Umbreon, F|
+|poke|p1|Gengar, M|
+|poke|p1|Diggersby, M|
+|poke|p1|Xatu, M|
+|poke|p2|Rhyperior, M|
+|poke|p2|Frosmoth, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Umbreon, F|
+|poke|p2|Golisopod, M|
+|poke|p2|Salazzle, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Diggersby|Diggersby, M|100/100
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|turn|1
+|
+|switch|p2a: Golisopod|Golisopod, M|100/100
+|move|p1a: Diggersby|Earthquake|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|73/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Golisopod|First Impression|p1a: Diggersby
+|-damage|p1a: Diggersby|42/100
+|move|p1a: Diggersby|Quick Attack|p2a: Golisopod
+|-damage|p2a: Golisopod|50/100
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|move|p2a: Rotom|Trick|p1a: Umbreon
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Umbreon
+|-item|p1a: Umbreon|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: Umbreon|Yawn|p2a: Rotom
+|-start|p2a: Rotom|move: Yawn|[of] p1a: Umbreon
+|
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rudy (Academy HTD))
+|
+|switch|p2a: Golisopod|Golisopod, M|50/100
+|move|p1a: Umbreon|Yawn|p2a: Golisopod
+|-start|p2a: Golisopod|move: Yawn|[of] p1a: Umbreon
+|
+|upkeep
+|turn|6
+|j| ochoagenalyn
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Volt Switch|p1a: Sylveon
+|-damage|p1a: Sylveon|78/100
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100|[from]move: Volt Switch
+|move|p1a: Sylveon|Mystical Fire|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|87/100
+|-unboost|p2a: Salazzle|spa|1
+|
+|-heal|p2a: Salazzle|93/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j| DIO-D Trixiewagon
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|move|p2a: Salazzle|Toxic|p1a: Xatu
+|move|p1a: Xatu|Toxic|p2a: Salazzle|[from]Magic Bounce
+|-immune|p2a: Salazzle
+|
+|-heal|p2a: Salazzle|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Umbreon|Umbreon, F|100/100
+|move|p1a: Xatu|Thunder Wave|p2a: Umbreon
+|-status|p2a: Umbreon|par
+|-activate|p2a: Umbreon|ability: Synchronize
+|-status|p1a: Xatu|par
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Xatu|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|83/100 par
+|
+|switch|p1a: Steelix|Steelix, M|100/100|[from]move: U-turn
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Golisopod|Golisopod, M|50/100
+|move|p1a: Steelix|Body Press|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|37/100
+|
+|-heal|p2a: Golisopod|93/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|12
+|j| NasPena2
+|
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|move|p2a: Golisopod|Spikes|p1a: Umbreon
+|-sidestart|p1: Rudy (Academy HTD)|Spikes
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Umbreon|Umbreon, F|89/100 par
+|move|p1a: Umbreon|Foul Play|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|83/100 par
+|
+|-heal|p2a: Umbreon|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Xatu|Xatu, M|100/100 par
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|
+|upkeep
+|turn|15
+|j| laugh & Ladder
+|
+|move|p2a: Rhyperior|Stone Edge|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|21/100 par
+|move|p1a: Xatu|U-turn|p2a: Rhyperior
+|-damage|p2a: Rhyperior|94/100
+|
+|switch|p1a: Steelix|Steelix, M|100/100|[from]move: U-turn
+|-damage|p1a: Steelix|88/100|[from] Spikes
+|
+|-heal|p2a: Rhyperior|99/100|[from] item: Leftovers
+|-heal|p1a: Steelix|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|j| moltrez
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|43/100
+|move|p1a: Steelix|Iron Defense|p1a: Steelix
+|-boost|p1a: Steelix|def|2
+|
+|-heal|p2a: Rhyperior|100/100|[from] item: Leftovers
+|-heal|p1a: Steelix|49/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c| NasPena2|My mans, you lackin, you even know who youre playing rn?!
+|c|☆Rudy (Academy HTD)|?
+|c| NasPena2|Dont choke
+|c| NasPena2|Dont do it
+|c|☆Rudy (Academy HTD)|?
+|inactive|Greyheracross has 120 seconds left.
+|c| NasPena2|lol not you Rudy
+|
+|switch|p2a: Golisopod|Golisopod, M|93/100
+|move|p1a: Steelix|Body Press|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|67/100
+|
+|-heal|p1a: Steelix|55/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆Rudy (Academy HTD)|i will most probs lose dis
+|j| nirv lucE
+|
+|move|p2a: Golisopod|Liquidation|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|32/100
+|-unboost|p1a: Steelix|def|1
+|move|p1a: Steelix|Stealth Rock|p2a: Golisopod
+|-sidestart|p2: Greyheracross|move: Stealth Rock
+|
+|-heal|p1a: Steelix|38/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Golisopod|Liquidation|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|4/100
+|move|p1a: Steelix|Body Press|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|49/100
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|
+|switch|p2a: Salazzle|Salazzle, F|99/100
+|-damage|p2a: Salazzle|75/100|[from] Stealth Rock
+|
+|-heal|p2a: Salazzle|81/100|[from] item: Leftovers
+|-heal|p1a: Steelix|10/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|-heal|p2a: Salazzle|87/100|[from] item: Leftovers
+|upkeep
+|c| NasPena2|Bro dont say that, reprepsent
+|
+|switch|p1a: Diggersby|Diggersby, M|42/100
+|-damage|p1a: Diggersby|30/100|[from] Spikes
+|turn|21
+|c| DIO-D Trixiewagon|no Rudy
+|
+|move|p1a: Diggersby|Quick Attack|p2a: Salazzle
+|-damage|p2a: Salazzle|39/100
+|move|p2a: Salazzle|Flamethrower|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|faint|p1a: Diggersby
+|
+|-heal|p2a: Salazzle|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Spikes
+|turn|22
+|c| DIO-D Trixiewagon|take those juicy points
+|c| NasPena2|Rudy.. gotta take those points lol
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Gengar|Shadow Ball|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-heal|p2a: Salazzle|51/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Umbreon|Umbreon, F|89/100 par
+|-damage|p2a: Umbreon|77/100 par|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|65/100 par
+|
+|-heal|p2a: Umbreon|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Sylveon|Sylveon, F|84/100
+|-damage|p1a: Sylveon|71/100|[from] Spikes
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p1a: Sylveon|77/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Salazzle|Salazzle, F|51/100
+|-damage|p2a: Salazzle|26/100|[from] Stealth Rock
+|move|p1a: Sylveon|Hyper Voice|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-crit|p2a: Salazzle
+|-damage|p2a: Salazzle|6/100
+|
+|-heal|p2a: Salazzle|64/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Salazzle|70/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|83/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Xatu|Xatu, M|21/100 par
+|move|p2a: Salazzle|Toxic|p1a: Xatu
+|move|p1a: Xatu|Toxic|p2a: Salazzle|[from]Magic Bounce
+|-immune|p2a: Salazzle
+|
+|-heal|p2a: Salazzle|76/100|[from] item: Leftovers
+|-heal|p1a: Xatu|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|j| mons in 2020
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-heal|p2a: Salazzle|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|88/100
+|-damage|p1a: Gengar|76/100|[from] Spikes
+|turn|28
+|
+|switch|p2a: Umbreon|Umbreon, F|78/100 par
+|-damage|p2a: Umbreon|65/100 par|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|55/100 par
+|
+|-heal|p2a: Umbreon|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Sylveon|Sylveon, F|83/100
+|-damage|p1a: Sylveon|71/100|[from] Spikes
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p1a: Sylveon|77/100|[from] item: Leftovers
+|-heal|p2a: Umbreon|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Gengar|Gengar, M|76/100
+|-damage|p1a: Gengar|64/100|[from] Spikes
+|switch|p2a: Salazzle|Salazzle, F|82/100
+|-damage|p2a: Salazzle|57/100|[from] Stealth Rock
+|
+|-heal|p2a: Salazzle|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|31
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Gengar|Shadow Ball|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Salazzle
+|-damage|p2a: Salazzle|39/100
+|move|p2a: Salazzle|Toxic|p1a: Gengar
+|-status|p1a: Gengar|tox
+|
+|-heal|p2a: Salazzle|46/100|[from] item: Leftovers
+|-damage|p1a: Gengar|58/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|-damage|p1a: Umbreon|88/100|[from] Spikes
+|move|p2a: Salazzle|Protect||[still]
+|-fail|p2a: Salazzle
+|
+|-heal|p2a: Salazzle|52/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Gengar|Gengar, M|58/100 tox
+|-damage|p1a: Gengar|45/100 tox|[from] Spikes
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|27/100
+|
+|-heal|p2a: Salazzle|33/100|[from] item: Leftovers
+|-damage|p1a: Gengar|39/100 tox|[from] psn
+|upkeep
+|turn|35
+|c|☆Rudy (Academy HTD)|gg
+|-message|Rudy (Academy HTD) forfeited.
+|
+|win|Greyheracross
+|c|☆Greyheracross|gg
+|l|☆Rudy (Academy HTD)
+|l| mons in 2020
+|raw|Rudy (Academy HTD)'s rating: 1417 &rarr; <strong>1402</strong><br />(-15 for losing)
+|raw|Greyheracross's rating: 1512 &rarr; <strong>1526</strong><br />(+14 for winning)
+|c| NasPena2|RUUUUUUUDY
+|l| NasPena2
+|c| DIO-D Trixiewagon|noooooooo
+|c|☆Greyheracross|:(
+|c| DIO-D Trixiewagon|gg
+|c| DIO-D Trixiewagon|good match
+|c|☆Greyheracross|gg
+|l| DIO-D Trixiewagon

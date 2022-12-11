@@ -1,0 +1,357 @@
+|j|☆2(H2O)
+|j|☆Mimikyu VG919
+|t:|1659100753
+|gametype|singles
+|player|p1|2(H2O)|chase|1594
+|player|p2|Mimikyu VG919|pokemonrangerf-gen4|1559
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Tapu Lele|
+|poke|p1|Victini|
+|poke|p1|Melmetal|
+|poke|p1|Dragonite, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Pyukumuku, M|
+|poke|p2|Audino, M|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Gastrodon-East, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 2(H2O))
+|
+|t:|1659100766
+|start
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|switch|p2a: Audino|Audino, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|turn|1
+|
+|t:|1659100769
+|move|p1a: Tapu Lele|Future Sight|p2a: Audino
+|-start|p1a: Tapu Lele|move: Future Sight
+|move|p2a: Audino|Knock Off|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|76/100
+|-enditem|p1a: Tapu Lele|Choice Scarf|[from] move: Knock Off|[of] p2a: Audino
+|
+|upkeep
+|turn|2
+|
+|t:|1659100773
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|upkeep
+|turn|3
+|
+|t:|1659100778
+|switch|p2a: Pyukumuku|Pyukumuku, M|100/100
+|move|p1a: Urshifu|Close Combat|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|39/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|-end|p2a: Pyukumuku|move: Future Sight
+|-damage|p2a: Pyukumuku|0 fnt
+|faint|p2a: Pyukumuku
+|upkeep
+|
+|t:|1659100788
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|4
+|
+|t:|1659100792
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Toxapex|atk|1
+|move|p2a: Toxapex|Block|p1a: Landorus
+|-activate|p1a: Landorus|trapped
+|
+|upkeep
+|turn|5
+|
+|t:|1659100796
+|move|p1a: Landorus|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: Mimikyu VG919|move: Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|76/100
+|-status|p1a: Landorus|brn
+|
+|-heal|p1a: Landorus|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|76/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1659100805
+|move|p1a: Landorus|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|97/100
+|-damage|p1a: Landorus|60/100 brn|[from] item: Rocky Helmet|[of] p2a: Toxapex
+|
+|t:|1659100807
+|switch|p1a: Tapu Lele|Tapu Lele|76/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Toxapex|Scald|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|58/100
+|-status|p1a: Tapu Lele|brn
+|
+|-damage|p1a: Tapu Lele|52/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1659100821
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Tapu Lele|Future Sight|p2a: Corviknight
+|-start|p1a: Tapu Lele|move: Future Sight
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|-damage|p1a: Tapu Lele|46/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1659100824
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Corviknight|Defog|p1a: Victini
+|-unboost|p1a: Victini|evasion|1
+|-sideend|p2: Mimikyu VG919|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-fieldend|move: Psychic Terrain
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1659100833
+|move|p1a: Victini|V-create|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|faint|p2a: Corviknight
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1659100836
+|switch|p2a: Gastrodon|Gastrodon-East, M|100/100
+|turn|10
+|
+|t:|1659100840
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Gastrodon|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|93/100
+|
+|upkeep
+|turn|11
+|
+|t:|1659100847
+|move|p1a: Dragonite|Heal Bell|p1a: Dragonite
+|-activate|p1a: Dragonite|move: Heal Bell
+|-curestatus|p1: Tapu Lele|brn|[msg]
+|-curestatus|p1: Landorus|brn|[msg]
+|move|p2a: Gastrodon|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|83/100
+|
+|upkeep
+|turn|12
+|
+|t:|1659100856
+|switch|p1a: Landorus|Landorus-Therian, M|60/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gastrodon|atk|1
+|move|p2a: Gastrodon|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-heal|p1a: Landorus|66/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|60/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1659100862
+|move|p1a: Landorus|Toxic|p2a: Gastrodon
+|-status|p2a: Gastrodon|tox
+|move|p2a: Gastrodon|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|24/100 tox
+|
+|-heal|p1a: Landorus|30/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|18/100 tox|[from] psn
+|-damage|p2a: Gastrodon|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1659100866
+|move|p1a: Landorus|Stealth Rock|p2a: Gastrodon
+|-sidestart|p2: Mimikyu VG919|move: Stealth Rock
+|move|p2a: Gastrodon|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Gastrodon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 tox|[from] psn
+|upkeep
+|
+|t:|1659100871
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|15
+|
+|t:|1659100874
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Urshifu|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|-damage|p1a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2a: Toxapex
+|
+|t:|1659100876
+|switch|p1a: Tapu Lele|Tapu Lele|46/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|
+|upkeep
+|turn|16
+|
+|t:|1659100879
+|move|p1a: Tapu Lele|Future Sight|p2a: Toxapex
+|-start|p1a: Tapu Lele|move: Future Sight
+|move|p2a: Toxapex|Scald|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|29/100
+|
+|upkeep
+|turn|17
+|
+|t:|1659100883
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|84/100
+|move|p2a: Toxapex|Scald|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|72/100
+|
+|upkeep
+|turn|18
+|
+|t:|1659100891
+|switch|p2a: Gastrodon|Gastrodon-East, M|88/100 tox
+|-damage|p2a: Gastrodon|82/100 tox|[from] Stealth Rock
+|move|p1a: Urshifu|Close Combat|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Gastrodon
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1659100896
+|switch|p2a: Clefable|Clefable, F|100/100
+|-damage|p2a: Clefable|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1659100905
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Clefable|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: 2(H2O)|move: Stealth Rock
+|
+|-heal|p2a: Clefable|94/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|20
+|
+|t:|1659100909
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Melmetal|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|39/100
+|
+|upkeep
+|turn|21
+|
+|t:|1659100916
+|move|p1a: Melmetal|Double Iron Bash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|-damage|p1a: Melmetal|84/100|[from] item: Rocky Helmet|[of] p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|11/100
+|-damage|p1a: Melmetal|67/100|[from] item: Rocky Helmet|[of] p2a: Toxapex
+|-hitcount|p2a: Toxapex|2
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|62/100
+|
+|upkeep
+|turn|22
+|
+|t:|1659100924
+|switch|p2a: Audino|Audino, M|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|move|p1a: Melmetal|Earthquake|p2a: Audino
+|-damage|p2a: Audino|52/100
+|
+|-heal|p2a: Audino|58/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1659100928
+|switch|p2a: Toxapex|Toxapex, M|95/100
+|-damage|p2a: Toxapex|83/100|[from] Stealth Rock
+|move|p1a: Melmetal|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|30/100
+|
+|upkeep
+|turn|24
+|
+|t:|1659100934
+|switch|p2a: Audino|Audino, M|91/100
+|-damage|p2a: Audino|79/100|[from] Stealth Rock
+|move|p1a: Melmetal|Earthquake|p2a: Audino
+|-damage|p2a: Audino|45/100
+|
+|-heal|p2a: Audino|51/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1659100939
+|move|p2a: Audino|Wish|p2a: Audino
+|move|p1a: Melmetal|Earthquake|p2a: Audino
+|-damage|p2a: Audino|17/100
+|
+|-heal|p2a: Audino|23/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1659100948
+|switch|p2a: Toxapex|Toxapex, M|63/100
+|-damage|p2a: Toxapex|51/100|[from] Stealth Rock
+|move|p1a: Melmetal|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|-message|Mimikyu VG919 forfeited.
+|
+|win|2(H2O)
+|raw|2(H2O)'s rating: 1594 &rarr; <strong>1612</strong><br />(+18 for winning)
+|raw|Mimikyu VG919's rating: 1559 &rarr; <strong>1541</strong><br />(-18 for losing)
+|l|☆Mimikyu VG919

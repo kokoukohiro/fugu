@@ -1,0 +1,372 @@
+|j|☆crossfit virus
+|j|☆Onoufrios
+|player|p1|crossfit virus|backers|1524
+|player|p2|Onoufrios|psychic-gen4|1704
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Yveltal|
+|poke|p1|Zygarde|
+|poke|p1|Ditto|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Arceus-*|
+|poke|p1|Groudon|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Arceus-*|
+|poke|p2|Xerneas|
+|poke|p2|Lugia|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Groudon|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|
+|start
+|switch|p1a: Yveltal|Yveltal|100/100
+|switch|p2a: Lugia|Lugia|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|1
+|
+|move|p1a: Yveltal|Knock Off|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|68/100
+|-enditem|p2a: Lugia|Light Clay|[from] move: Knock Off|[of] p1a: Yveltal
+|-damage|p1a: Yveltal|91/100|[from] item: Life Orb
+|move|p2a: Lugia|Thunder Wave|p1a: Yveltal
+|-status|p1a: Yveltal|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Lugia|Light Screen|p2a: Lugia
+|-sidestart|p2: Onoufrios|move: Light Screen
+|move|p1a: Yveltal|Heat Wave|p2a: Lugia
+|-damage|p2a: Lugia|53/100
+|-damage|p1a: Yveltal|81/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Lugia|Reflect|p2a: Lugia
+|-sidestart|p2: Onoufrios|Reflect
+|move|p1a: Yveltal|Dark Pulse|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|12/100
+|-damage|p1a: Yveltal|71/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Lugia|Thunder Wave|p1a: Yveltal
+|-fail|p1a: Yveltal|par
+|cant|p1a: Yveltal|par
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Lugia|Thunder Wave|p1a: Yveltal
+|-fail|p1a: Yveltal|par
+|cant|p1a: Yveltal|par
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Lugia|Thunder Wave|p1a: Yveltal
+|-fail|p1a: Yveltal|par
+|move|p1a: Yveltal|Oblivion Wing|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|-heal|p1a: Yveltal|80/100 par|[from] drain|[of] p2a: Lugia
+|-damage|p1a: Yveltal|70/100 par|[from] item: Life Orb
+|faint|p2a: Lugia
+|
+|-sideend|p2: Onoufrios|move: Light Screen
+|upkeep
+|
+|switch|p2a: Xerneas|Xerneas|100/100
+|-ability|p2a: Xerneas|Fairy Aura
+|turn|7
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p2a: Xerneas|Geomancy||[still]
+|-prepare|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-enditem|p2a: Xerneas|Power Herb
+|-anim|p2a: Xerneas|Geomancy|p2a: Xerneas
+|-boost|p2a: Xerneas|spa|2
+|-boost|p2a: Xerneas|spd|2
+|-boost|p2a: Xerneas|spe|2
+|
+|-sideend|p2: Onoufrios|Reflect
+|upkeep
+|turn|8
+|
+|-start|p2a: Xerneas|Dynamax
+|-heal|p2a: Xerneas|100/100|[silent]
+|move|p2a: Xerneas|Max Flare|p1a: Necrozma|[from]Hidden Power
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆crossfit virus|huh
+|c|☆crossfit virus|so that just dies in one
+|c|☆crossfit virus|252 hp 4 spd
+|c|☆crossfit virus|bet
+|
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|9
+|
+|move|p2a: Xerneas|Max Starfall|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|29/100
+|-fieldstart|move: Misty Terrain
+|move|p1a: Groudon|Stealth Rock|p2a: Xerneas
+|-sidestart|p2: Onoufrios|move: Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Xerneas|Max Starfall|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-weather|none
+|
+|-end|p2a: Xerneas|Dynamax
+|-heal|p2a: Xerneas|100/100|[silent]
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Xerneas|[from] ability: Imposter
+|-ability|p1a: Ditto|Fairy Aura
+|turn|11
+|
+|move|p1a: Ditto|Moonblast|p2a: Xerneas
+|-damage|p2a: Xerneas|45/100
+|move|p2a: Xerneas|Moonblast|p1a: Ditto
+|-damage|p1a: Ditto|19/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Ditto|Moonblast|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|upkeep
+|
+|switch|p2a: Arceus|Arceus|100/100
+|-damage|p2a: Arceus|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Zygarde|Zygarde|100/100
+|move|p2a: Arceus|Extreme Speed|p1a: Zygarde
+|-damage|p1a: Zygarde|62/100
+|
+|-heal|p1a: Zygarde|68/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|14
+|
+|move|p1a: Zygarde|Substitute|p1a: Zygarde
+|-start|p1a: Zygarde|Substitute
+|-damage|p1a: Zygarde|43/100
+|move|p2a: Arceus|Blizzard|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-end|p1a: Zygarde|Substitute
+|
+|-heal|p1a: Zygarde|49/100|[from] item: Leftovers
+|-activate|p1a: Zygarde|ability: Power Construct
+|detailschange|p1a: Zygarde|Zygarde-Complete
+|-heal|p1a: Zygarde|69/100|[silent]
+|upkeep
+|turn|15
+|
+|switch|p1a: Arceus|Arceus-Water|100/100
+|move|p2a: Arceus|Extreme Speed|p1a: Arceus
+|-damage|p1a: Arceus|74/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Groudon|Groudon|100/100
+|-damage|p2a: Groudon|94/100|[from] Stealth Rock
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Arceus|Toxic|p2a: Groudon
+|-status|p2a: Groudon|tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|move|p2a: Groudon|Stealth Rock|p1a: Arceus
+|-sidestart|p1: crossfit virus|move: Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|76/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Arceus|Ice Beam|p2a: Groudon
+|-damage|p2a: Groudon|54/100 tox
+|move|p2a: Groudon|Precipice Blades|p1a: Arceus
+|-damage|p1a: Arceus|53/100
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|36/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|move|p2a: Groudon|Precipice Blades|p1a: Arceus
+|-damage|p1a: Arceus|55/100
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|11/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Arceus|Recover|p1a: Arceus
+|-heal|p1a: Arceus|100/100
+|move|p2a: Groudon|Precipice Blades|p1a: Arceus|[miss]
+|-miss|p2a: Groudon|p1a: Arceus
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Groudon|0 fnt|[from] psn
+|faint|p2a: Groudon
+|-weather|none
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-damage|p2a: Zacian|94/100|[from] Stealth Rock
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|21
+|
+|switch|p1a: Yveltal|Yveltal|70/100 par
+|-damage|p1a: Yveltal|45/100 par|[from] Stealth Rock
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Zacian|Wild Charge|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|-damage|p2a: Zacian|81/100|[from] Recoil
+|faint|p1a: Yveltal
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|19/100
+|-damage|p1a: Ditto|7/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Zacian|[from] ability: Imposter
+|-ability|p1a: Ditto|Intrepid Sword|boost
+|-boost|p1a: Ditto|atk|1
+|turn|22
+|
+|move|p1a: Ditto|Close Combat|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|-unboost|p1a: Ditto|def|1
+|-unboost|p1a: Ditto|spd|1
+|faint|p2a: Zacian
+|
+|upkeep
+|
+|switch|p2a: Arceus|Arceus|88/100
+|-damage|p2a: Arceus|76/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|j| pushchan
+|l| pushchan
+|
+|switch|p1a: Zygarde|Zygarde-Complete|69/100
+|-damage|p1a: Zygarde|62/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Zygarde
+|-damage|p1a: Zygarde|36/100
+|move|p1a: Zygarde|Glare|p2a: Arceus
+|-status|p2a: Arceus|par
+|
+|-heal|p1a: Zygarde|42/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|-start|p1a: Zygarde|Dynamax
+|-heal|p1a: Zygarde|42/100|[silent]
+|move|p2a: Arceus|Extreme Speed|p1a: Zygarde
+|-damage|p1a: Zygarde|29/100
+|move|p1a: Zygarde|Max Quake|p2a: Arceus
+|-damage|p2a: Arceus|38/100 par
+|-boost|p1a: Zygarde|spd|1
+|
+|-heal|p1a: Zygarde|32/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Zygarde|Max Quake|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|-boost|p1a: Zygarde|spd|1
+|faint|p2a: Arceus
+|
+|-heal|p1a: Zygarde|35/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p2a: Necrozma|94/100|[from] Stealth Rock
+|turn|27
+|
+|detailschange|p2a: Necrozma|Necrozma-Ultra
+|-burst|p2a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Zygarde|Max Quake|p2a: Necrozma
+|-damage|p2a: Necrozma|39/100
+|-boost|p1a: Zygarde|spd|1
+|
+|-heal|p1a: Zygarde|38/100|[from] item: Leftovers
+|-end|p1a: Zygarde|Dynamax
+|-heal|p1a: Zygarde|38/100|[silent]
+|upkeep
+|turn|28
+|
+|move|p2a: Necrozma|Photon Geyser|p1a: Zygarde
+|-damage|p1a: Zygarde|0 fnt
+|faint|p1a: Zygarde
+|
+|upkeep
+|
+|switch|p1a: Arceus|Arceus-Water|100/100
+|-damage|p1a: Arceus|88/100|[from] Stealth Rock
+|turn|29
+|
+|-zpower|p2a: Necrozma
+|move|p2a: Necrozma|Light That Burns the Sky|p1a: Arceus|[zeffect]
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|win|Onoufrios
+|c|☆crossfit virus|aaaaaaaa
+|l|☆crossfit virus
+|raw|crossfit virus's rating: 1524 &rarr; <strong>1513</strong><br />(-11 for losing)
+|raw|Onoufrios's rating: 1704 &rarr; <strong>1715</strong><br />(+11 for winning)
+|l|☆Onoufrios

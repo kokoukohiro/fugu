@@ -1,0 +1,812 @@
+|j|☆Retired Aggron
+|j|☆Dollarsalt
+|player|p1|Retired Aggron|200|1536
+|player|p2|Dollarsalt|pokekid|1610
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Aromatisse, F|
+|poke|p1|Drampa, M|
+|poke|p1|Steelix, M|
+|poke|p1|Jellicent, M|
+|poke|p1|Eldegoss, F|
+|poke|p1|Toxicroak, F|
+|poke|p2|Sableye, F|
+|poke|p2|Gigalith, M|
+|poke|p2|Vileplume, F|
+|poke|p2|Vaporeon, F|
+|poke|p2|Xatu, M|
+|poke|p2|Salazzle, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dollarsalt)
+|c|☆Dollarsalt|Gl
+|c|☆Retired Aggron|Hf
+|
+|start
+|switch|p1a: Steelix|Steelix, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|1
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|switch|p1a: Drampa|Drampa, M|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Drampa|Draco Meteor|p2a: Vaporeon
+|-damage|p2a: Vaporeon|38/100
+|-unboost|p1a: Drampa|spa|2
+|
+|-heal|p2a: Vaporeon|44/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|51/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Drampa|Drampa, M|100/100
+|move|p2a: Sableye|Knock Off|p1a: Drampa
+|-damage|p1a: Drampa|68/100
+|-enditem|p1a: Drampa|Choice Specs|[from] move: Knock Off|[of] p2a: Sableye
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Vaporeon|Vaporeon, F|51/100
+|move|p1a: Drampa|Dragon Pulse|p2a: Vaporeon
+|-damage|p2a: Vaporeon|24/100
+|
+|-heal|p2a: Vaporeon|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Drampa|Draco Meteor|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-unboost|p1a: Drampa|spa|2
+|faint|p2a: Vaporeon
+|
+|upkeep
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|8
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Salazzle|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|
+|-damage|p1a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Drampa|Drampa, M|68/100
+|switch|p2a: Sableye|Sableye, F|100/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Drampa
+|-status|p1a: Drampa|brn
+|move|p1a: Drampa|Dragon Pulse|p2a: Sableye
+|-damage|p2a: Sableye|32/100
+|
+|-heal|p2a: Sableye|38/100|[from] item: Leftovers
+|-damage|p1a: Drampa|62/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Drampa|Draco Meteor|p2a: Gigalith
+|-damage|p2a: Gigalith|51/100
+|-unboost|p1a: Drampa|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drampa|56/100 brn|[from] Sandstorm
+|-heal|p2a: Gigalith|57/100|[from] item: Leftovers
+|-damage|p1a: Drampa|50/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Sableye|Sableye, F|38/100
+|switch|p1a: Eldegoss|Eldegoss, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sableye|32/100|[from] Sandstorm
+|-damage|p1a: Eldegoss|94/100|[from] Sandstorm
+|-heal|p2a: Sableye|38/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|88/100
+|move|p1a: Eldegoss|Aromatherapy|p1a: Eldegoss
+|-activate|p1a: Eldegoss|move: Aromatherapy
+|-curestatus|p1: Jellicent|tox|[msg]
+|-curestatus|p1: Drampa|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eldegoss|88/100|[from] Sandstorm
+|-damage|p2a: Sableye|82/100|[from] Sandstorm
+|-heal|p2a: Sableye|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Aromatisse|Aromatisse, F, shiny|100/100
+|move|p2a: Sableye|Encore|p1a: Aromatisse
+|-activate|p1a: Aromatisse|ability: Aroma Veil|[of] p1a: Aromatisse
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sableye|82/100|[from] Sandstorm
+|-damage|p1a: Aromatisse|94/100|[from] Sandstorm
+|-heal|p2a: Sableye|88/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Sableye|Knock Off|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-damage|p1a: Aromatisse|89/100
+|-enditem|p1a: Aromatisse|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+|move|p1a: Aromatisse|Trick Room|p1a: Aromatisse
+|-fieldstart|move: Trick Room|[of] p1a: Aromatisse
+|
+|-weather|none
+|-heal|p2a: Sableye|95/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|switch|p2a: Gigalith|Gigalith, M|57/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Steelix|Head Smash|p2a: Vileplume
+|-damage|p2a: Vileplume|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|62/100|[from] Sandstorm
+|-heal|p2a: Vileplume|68/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Steelix|Stealth Rock|p2a: Vileplume
+|-sidestart|p2: Dollarsalt|move: Stealth Rock
+|move|p2a: Vileplume|Sludge Bomb|p1a: Steelix
+|-immune|p1a: Steelix
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|62/100|[from] Sandstorm
+|-heal|p2a: Vileplume|68/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|62/100|[from] Sandstorm
+|-damage|p1a: Toxicroak|71/100|[from] Sandstorm
+|-heal|p2a: Vileplume|68/100|[from] item: Black Sludge
+|-fieldend|move: Trick Room
+|upkeep
+|turn|21
+|
+|move|p1a: Toxicroak|Gunk Shot|p2a: Vileplume
+|-damage|p2a: Vileplume|5/100
+|-damage|p1a: Toxicroak|61/100|[from] item: Life Orb
+|move|p2a: Vileplume|Sleep Powder|p1a: Toxicroak
+|-status|p1a: Toxicroak|slp|[from] move: Sleep Powder
+|
+|-weather|none
+|-heal|p2a: Vileplume|12/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|switch|p1a: Drampa|Drampa, M|50/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Drampa
+|-damage|p1a: Drampa|10/100
+|
+|-heal|p2a: Vileplume|18/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p1a: Drampa|Dragon Pulse|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+|
+|switch|p2a: Gigalith|Gigalith, M|63/100
+|-damage|p2a: Gigalith|51/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|24
+|
+|switch|p1a: Eldegoss|Eldegoss, F|100/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Eldegoss
+|-sidestart|p1: Retired Aggron|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eldegoss|94/100|[from] Sandstorm
+|-heal|p2a: Gigalith|57/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Sableye|Sableye, F|95/100
+|-damage|p2a: Sableye|82/100|[from] Stealth Rock
+|move|p1a: Eldegoss|Leech Seed|p2a: Sableye
+|-start|p2a: Sableye|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Eldegoss|88/100|[from] Sandstorm
+|-damage|p2a: Sableye|76/100|[from] Sandstorm
+|-heal|p2a: Sableye|82/100|[from] item: Leftovers
+|-damage|p2a: Sableye|70/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|99/100|[silent]
+|upkeep
+|turn|26
+|
+|switch|p1a: Toxicroak|Toxicroak, F|61/100 slp
+|-damage|p1a: Toxicroak|55/100 slp|[from] Stealth Rock
+|move|p2a: Sableye|Knock Off|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|39/100 slp
+|-enditem|p1a: Toxicroak|Life Orb|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxicroak|33/100 slp|[from] Sandstorm
+|-damage|p2a: Sableye|63/100|[from] Sandstorm
+|-heal|p2a: Sableye|70/100|[from] item: Leftovers
+|-damage|p2a: Sableye|57/100|[from] Leech Seed|[of] p1a: Toxicroak
+|-heal|p1a: Toxicroak|43/100 slp|[silent]
+|upkeep
+|turn|27
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|cant|p1a: Toxicroak|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|94/100|[from] Sandstorm
+|-damage|p1a: Toxicroak|37/100 slp|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|switch|p1a: Jellicent|Jellicent, M|88/100
+|-damage|p1a: Jellicent|75/100|[from] Stealth Rock
+|move|p2a: Salazzle|Flamethrower|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|65/100
+|-start|p2a: Salazzle|Disable|Flamethrower|[from] ability: Cursed Body|[of] p1a: Jellicent
+|
+|-weather|none
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Salazzle|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|77/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|71/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|-damage|p1a: Steelix|97/100|[from] Stealth Rock
+|move|p2a: Salazzle|Protect||[still]
+|-fail|p2a: Salazzle
+|
+|-heal|p1a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Steelix|Gyro Ball|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-end|p2a: Salazzle|Disable
+|upkeep
+|turn|32
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|-damage|p2a: Xatu|76/100|[from] Stealth Rock
+|move|p1a: Steelix|Earthquake|p2a: Xatu
+|-immune|p2a: Xatu
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Steelix|Head Smash|p2a: Xatu|[miss]
+|-miss|p1a: Steelix|p2a: Xatu
+|move|p2a: Xatu|Heat Wave|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|44/100
+|
+|-heal|p1a: Steelix|50/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|34
+|
+|switch|p1a: Jellicent|Jellicent, M|71/100 tox
+|-damage|p1a: Jellicent|59/100 tox|[from] Stealth Rock
+|move|p2a: Xatu|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|52/100 tox
+|
+|switch|p2a: Salazzle|Salazzle, F|94/100|[from]move: U-turn
+|
+|-heal|p1a: Jellicent|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|52/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|69/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100 tox
+|
+|-damage|p1a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|77/100 tox
+|-start|p2a: Salazzle|Disable|Flamethrower|[from] ability: Cursed Body|[of] p1a: Jellicent
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|83/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|64/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|switch|p1a: Eldegoss|Eldegoss, F|100/100
+|-damage|p1a: Eldegoss|88/100|[from] Stealth Rock
+|move|p2a: Salazzle|Protect||[still]
+|-fail|p2a: Salazzle
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Eldegoss|Rapid Spin|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Substitute|[damage]
+|-sideend|p1: Retired Aggron|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|-boost|p1a: Eldegoss|spe|1
+|move|p2a: Salazzle|Toxic|p1a: Eldegoss
+|-status|p1a: Eldegoss|tox
+|
+|-damage|p1a: Eldegoss|82/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|move|p1a: Eldegoss|Aromatherapy|p1a: Eldegoss
+|-activate|p1a: Eldegoss|move: Aromatherapy
+|-curestatus|p1a: Eldegoss|tox|[msg]
+|-curestatus|p1: Toxicroak|slp|[msg]
+|-curestatus|p1: Jellicent|tox|[msg]
+|move|p2a: Salazzle|Toxic|p1a: Eldegoss
+|-status|p1a: Eldegoss|tox
+|
+|-damage|p1a: Eldegoss|76/100 tox|[from] psn
+|-end|p2a: Salazzle|Disable
+|upkeep
+|turn|40
+|
+|switch|p1a: Jellicent|Jellicent, M|64/100
+|move|p2a: Salazzle|Flamethrower|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|55/100
+|
+|-heal|p1a: Jellicent|61/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|41
+|
+|move|p2a: Salazzle|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|move|p1a: Jellicent|Hex|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|
+|-heal|p1a: Jellicent|67/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|61/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|44/100
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|67/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|55/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|move|p1a: Jellicent|Hex|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|move|p2a: Salazzle|Flamethrower|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|45/100 tox
+|
+|-heal|p1a: Jellicent|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|33/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|switch|p1a: Eldegoss|Eldegoss, F|100/100 tox
+|move|p2a: Salazzle|Protect||[still]
+|-fail|p2a: Salazzle
+|
+|-damage|p1a: Eldegoss|94/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|move|p1a: Eldegoss|Aromatherapy|p1a: Eldegoss
+|-activate|p1a: Eldegoss|move: Aromatherapy
+|-curestatus|p1a: Eldegoss|tox|[msg]
+|-curestatus|p1: Jellicent|tox|[msg]
+|move|p2a: Salazzle|Flamethrower|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|29/100
+|
+|upkeep
+|turn|46
+|
+|switch|p1a: Aromatisse|Aromatisse, F, shiny|89/100
+|move|p2a: Salazzle|Flamethrower|p1a: Aromatisse
+|-damage|p1a: Aromatisse|57/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|47
+|
+|move|p2a: Salazzle|Toxic|p1a: Aromatisse
+|-status|p1a: Aromatisse|tox
+|move|p1a: Aromatisse|Trick Room|p1a: Aromatisse
+|-fieldstart|move: Trick Room|[of] p1a: Aromatisse
+|
+|-damage|p1a: Aromatisse|51/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p1a: Jellicent|Jellicent, M|33/100
+|move|p2a: Salazzle|Protect||[still]
+|-fail|p2a: Salazzle
+|
+|-heal|p1a: Jellicent|39/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|switch|p2a: Gigalith|Gigalith, M|57/100
+|-damage|p2a: Gigalith|45/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|83/100|[from] Sandstorm
+|-heal|p2a: Gigalith|51/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|89/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Gigalith|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: Retired Aggron|move: Stealth Rock
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Gigalith
+|-status|p2a: Gigalith|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|83/100|[from] Sandstorm
+|-heal|p2a: Gigalith|57/100 brn|[from] item: Leftovers
+|-heal|p1a: Jellicent|89/100|[from] item: Leftovers
+|-damage|p2a: Gigalith|51/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|switch|p2a: Sableye|Sableye, F|57/100
+|-damage|p2a: Sableye|45/100|[from] Stealth Rock
+|move|p1a: Jellicent|Hex|p2a: Sableye
+|-damage|p2a: Sableye|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sableye|14/100|[from] Sandstorm
+|-damage|p1a: Jellicent|83/100|[from] Sandstorm
+|-heal|p2a: Sableye|21/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|89/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|52
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|71/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Sableye
+|-status|p2a: Sableye|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|83/100|[from] Sandstorm
+|-damage|p2a: Sableye|64/100 brn|[from] Sandstorm
+|-heal|p1a: Jellicent|89/100|[from] item: Leftovers
+|-heal|p2a: Sableye|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Sableye|64/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p1a: Jellicent|Hex|p2a: Sableye
+|-damage|p2a: Sableye|15/100 brn
+|move|p2a: Sableye|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|56/100
+|-enditem|p1a: Jellicent|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-weather|none
+|-heal|p2a: Sableye|21/100 brn|[from] item: Leftovers
+|-damage|p2a: Sableye|15/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|65/100 brn
+|move|p1a: Jellicent|Hex|p2a: Sableye
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+|
+|switch|p2a: Xatu|Xatu, M|76/100
+|-damage|p2a: Xatu|51/100|[from] Stealth Rock
+|turn|55
+|
+|move|p2a: Xatu|Psychic|p1a: Jellicent
+|-damage|p1a: Jellicent|38/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|88/100
+|
+|upkeep
+|turn|56
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Jellicent|Hex|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|50/100
+|
+|upkeep
+|turn|57
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|99/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|upkeep
+|turn|58
+|
+|move|p1a: Jellicent|Hex|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|42/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|92/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|upkeep
+|turn|59
+|
+|switch|p1a: Eldegoss|Eldegoss, F|62/100
+|-damage|p1a: Eldegoss|50/100|[from] Stealth Rock
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|upkeep
+|turn|60
+|
+|move|p1a: Eldegoss|Rapid Spin|p2a: Xatu
+|-damage|p2a: Xatu|94/100
+|-damage|p1a: Eldegoss|33/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|-sideend|p1: Retired Aggron|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|-boost|p1a: Eldegoss|spe|1
+|move|p2a: Xatu|Heat Wave|p1a: Eldegoss|[miss]
+|-miss|p2a: Xatu|p1a: Eldegoss
+|
+|upkeep
+|turn|61
+|l|☆Dollarsalt
+|inactive|Dollarsalt disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Dollarsalt
+|inactive|Dollarsalt reconnected and has 145 seconds left.
+|player|p2|Dollarsalt|pokekid
+|
+|switch|p1a: Jellicent|Jellicent, M|88/100
+|move|p2a: Xatu|Psychic|p1a: Jellicent
+|-damage|p1a: Jellicent|71/100
+|-start|p2a: Xatu|Disable|Psychic|[from] ability: Cursed Body|[of] p1a: Jellicent
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|62
+|c|☆Dollarsalt|Mans runs speed on tr
+|
+|move|p2a: Xatu|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|65/100
+|
+|switch|p2a: Gigalith|Gigalith, M|51/100 brn|[from]move: U-turn
+|-damage|p2a: Gigalith|38/100 brn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|58/100|[from] Sandstorm
+|-heal|p2a: Gigalith|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Gigalith|38/100 brn|[from] brn
+|upkeep
+|turn|63
+|j| BigConns
+|
+|switch|p1a: Steelix|Steelix, M|50/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Steelix
+|-sidestart|p1: Retired Aggron|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Steelix|57/100|[from] item: Leftovers
+|-heal|p2a: Gigalith|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Gigalith|38/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|move|p1a: Steelix|Earthquake|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Steelix|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Salazzle|Salazzle, F|44/100
+|turn|65
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Steelix|Gyro Ball|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Salazzle|38/100|[from] Sandstorm
+|-heal|p1a: Steelix|69/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|switch|p2a: Xatu|Xatu, M|94/100
+|-damage|p2a: Xatu|69/100|[from] Stealth Rock
+|move|p1a: Steelix|Earthquake|p2a: Xatu
+|-immune|p2a: Xatu
+|
+|-weather|none
+|-heal|p1a: Steelix|75/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|67
+|
+|switch|p1a: Jellicent|Jellicent, M|58/100
+|-damage|p1a: Jellicent|46/100|[from] Stealth Rock
+|move|p2a: Xatu|Heat Wave|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|40/100
+|-start|p2a: Xatu|Disable|Heat Wave|[from] ability: Cursed Body|[of] p1a: Jellicent
+|
+|upkeep
+|turn|68
+|
+|move|p2a: Xatu|Psychic|p1a: Jellicent
+|-damage|p1a: Jellicent|23/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|73/100
+|
+|upkeep
+|turn|69
+|
+|move|p2a: Xatu|Psychic|p1a: Jellicent
+|-damage|p1a: Jellicent|56/100
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|upkeep
+|turn|70
+|
+|switch|p1a: Steelix|Steelix, M|75/100
+|-damage|p1a: Steelix|72/100|[from] Stealth Rock
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|-heal|p1a: Steelix|79/100|[from] item: Leftovers
+|-end|p2a: Xatu|Disable
+|upkeep
+|turn|71
+|
+|move|p1a: Steelix|Head Smash|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-damage|p1a: Steelix|62/100|[from] item: Rocky Helmet|[of] p2a: Xatu
+|faint|p2a: Xatu
+|
+|-heal|p1a: Steelix|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Salazzle|Salazzle, F|38/100
+|turn|72
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Steelix|Earthquake|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-heal|p1a: Steelix|75/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|move|p2a: Salazzle|Protect||[still]
+|-fail|p2a: Salazzle
+|move|p1a: Steelix|Earthquake|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|win|Retired Aggron
+|l|☆Dollarsalt
+|raw|Retired Aggron's rating: 1536 &rarr; <strong>1560</strong><br />(+24 for winning)
+|raw|Dollarsalt's rating: 1610 &rarr; <strong>1585</strong><br />(-25 for losing)
+|c|☆Retired Aggron|Gg

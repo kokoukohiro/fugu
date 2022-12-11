@@ -1,0 +1,280 @@
+|j|☆HighPr0phet
+|j|☆Eesturn
+|t:|1629433830
+|gametype|singles
+|player|p1|HighPr0phet|pokemonranger-gen3|1170
+|player|p2|Eesturn|psychic-gen4|1243
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Druddigon, F|
+|poke|p1|Dusknoir, M|
+|poke|p1|Ditto|
+|poke|p1|Weezing, M|
+|poke|p1|Sandslash-Alola, M|
+|poke|p1|Centiskorch, F|
+|poke|p2|Silvally-*|
+|poke|p2|Jolteon, F|
+|poke|p2|Passimian, M|
+|poke|p2|Aromatisse, M|
+|poke|p2|Absol, M|
+|poke|p2|Froslass, F|
+|teampreview
+|
+|t:|1629433849
+|start
+|switch|p1a: Weezing|Weezing, M|100/100
+|switch|p2a: Froslass|Froslass, F|100/100
+|turn|1
+|
+|t:|1629433855
+|move|p2a: Froslass|Taunt|p1a: Weezing
+|-start|p1a: Weezing|move: Taunt
+|move|p1a: Weezing|Shadow Ball|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|47/100
+|
+|upkeep
+|turn|2
+|
+|t:|1629433862
+|move|p2a: Froslass|Destiny Bond|p2a: Froslass
+|-singlemove|p2a: Froslass|Destiny Bond
+|move|p1a: Weezing|Shadow Ball|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|-activate|p2a: Froslass|move: Destiny Bond
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|t:|1629433875
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|switch|p1a: Druddigon|Druddigon, F|100/100
+|turn|3
+|
+|t:|1629433888
+|move|p1a: Druddigon|Glare|p2a: Aromatisse
+|-status|p2a: Aromatisse|par
+|move|p2a: Aromatisse|Moonblast|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|
+|upkeep
+|
+|t:|1629433897
+|switch|p1a: Sandslash|Sandslash-Alola, M|100/100
+|turn|4
+|
+|t:|1629433902
+|switch|p2a: Silvally|Silvally-Ghost|100/100
+|move|p1a: Sandslash|Spikes|p2a: Silvally
+|-sidestart|p2: Eesturn|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1629433911
+|move|p1a: Sandslash|Spikes|p2a: Silvally
+|-sidestart|p2: Eesturn|Spikes
+|move|p2a: Silvally|Parting Shot|p1a: Sandslash
+|-unboost|p1a: Sandslash|atk|1
+|-unboost|p1a: Sandslash|spa|1
+|
+|t:|1629433923
+|switch|p2a: Jolteon|Jolteon, F|100/100|[from]move: Parting Shot
+|-damage|p2a: Jolteon|84/100|[from] Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1629433931
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Jolteon|[from] ability: Imposter
+|move|p2a: Jolteon|Thunderbolt|p1a: Ditto
+|-immune|p1a: Ditto|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|7
+|
+|t:|1629433940
+|switch|p2a: Absol|Absol, M|100/100
+|-damage|p2a: Absol|84/100|[from] Spikes
+|move|p1a: Ditto|Shadow Ball|p2a: Absol
+|-resisted|p2a: Absol
+|-crit|p2a: Absol
+|-damage|p2a: Absol|50/100
+|
+|upkeep
+|turn|8
+|
+|t:|1629433952
+|switch|p1a: Sandslash|Sandslash-Alola, M|100/100
+|move|p2a: Absol|Knock Off|p1a: Sandslash
+|-damage|p1a: Sandslash|34/100
+|-enditem|p1a: Sandslash|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Absol
+|
+|upkeep
+|turn|9
+|
+|t:|1629433959
+|move|p1a: Sandslash|Ice Shard|p2a: Absol
+|-crit|p2a: Absol
+|-damage|p2a: Absol|9/100
+|move|p2a: Absol|Knock Off|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|upkeep
+|
+|t:|1629433970
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Absol|[from] ability: Imposter
+|turn|10
+|
+|t:|1629433978
+|move|p1a: Ditto|Close Combat|p2a: Absol
+|-supereffective|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|-unboost|p1a: Ditto|def|1
+|-unboost|p1a: Ditto|spd|1
+|faint|p2a: Absol
+|
+|upkeep
+|
+|t:|1629433986
+|switch|p2a: Silvally|Silvally-Ghost|100/100
+|-damage|p2a: Silvally|84/100|[from] Spikes
+|turn|11
+|
+|t:|1629433991
+|switch|p1a: Centiskorch|Centiskorch, F|100/100
+|move|p2a: Silvally|Parting Shot|p1a: Centiskorch
+|-unboost|p1a: Centiskorch|atk|1
+|-unboost|p1a: Centiskorch|spa|1
+|
+|t:|1629433996
+|switch|p2a: Passimian|Passimian, M|100/100|[from]move: Parting Shot
+|-damage|p2a: Passimian|84/100|[from] Spikes
+|
+|upkeep
+|turn|12
+|
+|t:|1629434003
+|move|p2a: Passimian|Rock Slide|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|
+|t:|1629434009
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-ability|p1a: Dusknoir|Pressure
+|turn|13
+|
+|t:|1629434014
+|switch|p2a: Aromatisse|Aromatisse, M|100/100 par
+|-damage|p2a: Aromatisse|84/100 par|[from] Spikes
+|move|p1a: Dusknoir|Will-O-Wisp||[still]
+|-fail|p1a: Dusknoir
+|
+|upkeep
+|turn|14
+|
+|t:|1629434022
+|move|p1a: Dusknoir|Poltergeist|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Poltergeist|Choice Specs
+|-damage|p2a: Aromatisse|40/100 par
+|move|p2a: Aromatisse|Flash Cannon|p1a: Dusknoir
+|-crit|p1a: Dusknoir
+|-damage|p1a: Dusknoir|54/100
+|
+|-heal|p1a: Dusknoir|60/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1629434030
+|move|p1a: Dusknoir|Poltergeist|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Poltergeist|Choice Specs
+|-damage|p2a: Aromatisse|0 fnt
+|faint|p2a: Aromatisse
+|
+|-heal|p1a: Dusknoir|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1629434041
+|switch|p2a: Silvally|Silvally-Ghost|84/100
+|-damage|p2a: Silvally|67/100|[from] Spikes
+|turn|16
+|
+|t:|1629434047
+|move|p2a: Silvally|Multi-Attack|p1a: Dusknoir
+|-supereffective|p1a: Dusknoir
+|-damage|p1a: Dusknoir|0 fnt
+|faint|p1a: Dusknoir
+|
+|upkeep
+|
+|t:|1629434052
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Silvally|[from] ability: Imposter
+|turn|17
+|
+|t:|1629434058
+|move|p1a: Ditto|Multi-Attack|p2a: Silvally
+|-immune|p2a: Silvally
+|move|p2a: Silvally|Parting Shot|p1a: Ditto
+|-unboost|p1a: Ditto|atk|1
+|-unboost|p1a: Ditto|spa|1
+|
+|t:|1629434065
+|switch|p2a: Passimian|Passimian, M|84/100|[from]move: Parting Shot
+|-damage|p2a: Passimian|68/100|[from] Spikes
+|
+|upkeep
+|turn|18
+|c|☆HighPr0phet|why immune?
+|
+|t:|1629434076
+|move|p2a: Passimian|Knock Off|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|47/100
+|-enditem|p1a: Ditto|Choice Scarf|[from] move: Knock Off|[of] p2a: Passimian
+|move|p1a: Ditto|Multi-Attack|p2a: Passimian
+|-damage|p2a: Passimian|47/100
+|
+|upkeep
+|turn|19
+|
+|t:|1629434085
+|switch|p2a: Silvally|Silvally-Ghost|67/100
+|-damage|p2a: Silvally|51/100|[from] Spikes
+|move|p1a: Ditto|Multi-Attack|p2a: Silvally
+|-immune|p2a: Silvally
+|
+|upkeep
+|turn|20
+|
+|t:|1629434096
+|move|p2a: Silvally|Multi-Attack|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|win|Eesturn
+|raw|HighPr0phet's rating: 1170 &rarr; <strong>1150</strong><br />(-20 for losing)
+|raw|Eesturn's rating: 1243 &rarr; <strong>1263</strong><br />(+20 for winning)
+|l|☆Eesturn

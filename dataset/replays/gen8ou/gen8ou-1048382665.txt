@@ -1,0 +1,314 @@
+|j|☆TheLindomar
+|j|☆Kay9ine1
+|player|p1|TheLindomar|163|1714
+|player|p2|Kay9ine1|170|1614
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Crawdaunt, M|
+|poke|p1|Kommo-o, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Rotom-Mow|
+|poke|p1|Claydol|
+|poke|p1|Togekiss, M|
+|poke|p2|Maractus, M|
+|poke|p2|Dugtrio, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Shiftry, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheLindomar)
+|
+|start
+|switch|p1a: ORACLE|Claydol|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|move|p1a: ORACLE|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|5/100
+|move|p2a: Torkoal|Yawn|p1a: ORACLE
+|-start|p1a: ORACLE|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: ANKYLOZORD|Kommo-o, M, shiny|100/100
+|move|p2a: Torkoal|Stealth Rock|p1a: ANKYLOZORD
+|-sidestart|p1: TheLindomar|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: ANKYLOZORD|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: Kay9ine1|move: Stealth Rock
+|move|p2a: Torkoal|Yawn|p1a: ANKYLOZORD
+|-start|p1a: ANKYLOZORD|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: ORACLE|Claydol|100/100
+|-damage|p1a: ORACLE|94/100|[from] Stealth Rock
+|move|p2a: Torkoal|Rapid Spin|p1a: ORACLE
+|-damage|p1a: ORACLE|84/100
+|-sideend|p2: Kay9ine1|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-boost|p2a: Torkoal|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Maractus|Maractus, M|100/100
+|move|p1a: ORACLE|Ice Beam|p2a: Maractus
+|-supereffective|p2a: Maractus
+|-damage|p2a: Maractus|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Maractus|34/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: LASERBEAK|Corviknight, M|100/100
+|-damage|p1a: LASERBEAK|88/100|[from] Stealth Rock
+|-ability|p1a: LASERBEAK|Pressure
+|move|p2a: Maractus|Giga Drain|p1a: LASERBEAK
+|-resisted|p1a: LASERBEAK
+|-damage|p1a: LASERBEAK|82/100
+|-heal|p2a: Maractus|38/100|[from] drain|[of] p1a: LASERBEAK
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Maractus|44/100|[from] item: Leftovers
+|-heal|p1a: LASERBEAK|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Maractus|Weather Ball|p1a: LASERBEAK
+|-supereffective|p1a: LASERBEAK
+|-damage|p1a: LASERBEAK|31/100
+|move|p1a: LASERBEAK|Defog|p2a: Maractus
+|-unboost|p2a: Maractus|evasion|1
+|-sideend|p1: TheLindomar|Stealth Rock|[from] move: Defog|[of] p1a: LASERBEAK
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Maractus|51/100|[from] item: Leftovers
+|-heal|p1a: LASERBEAK|37/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: ANKYLOZORD|Kommo-o, M, shiny|100/100
+|move|p2a: Maractus|Giga Drain|p1a: ANKYLOZORD
+|-resisted|p1a: ANKYLOZORD
+|-damage|p1a: ANKYLOZORD|83/100
+|-heal|p2a: Maractus|61/100|[from] drain|[of] p1a: ANKYLOZORD
+|
+|-weather|none
+|-heal|p2a: Maractus|67/100|[from] item: Leftovers
+|-heal|p1a: ANKYLOZORD|89/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: ANKYLOZORD|Stealth Rock|p2a: Dugtrio
+|-sidestart|p2: Kay9ine1|move: Stealth Rock
+|
+|-heal|p1a: ANKYLOZORD|95/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Dugtrio|Screech|p1a: ANKYLOZORD
+|-unboost|p1a: ANKYLOZORD|def|2
+|move|p1a: ANKYLOZORD|Body Press|p2a: Dugtrio
+|-damage|p2a: Dugtrio|36/100
+|
+|-heal|p1a: ANKYLOZORD|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Dugtrio|Earthquake|p1a: ANKYLOZORD
+|-damage|p1a: ANKYLOZORD|43/100
+|move|p1a: ANKYLOZORD|Body Press|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|-heal|p1a: ANKYLOZORD|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: HM 01|Rotom-Mow|100/100
+|move|p2a: Seismitoad|Scald|p1a: HM 01
+|-resisted|p1a: HM 01
+|-crit|p1a: HM 01
+|-damage|p1a: HM 01|75/100
+|-status|p1a: HM 01|brn
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|-damage|p1a: HM 01|69/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: GALARIAN PARAS|Crawdaunt, M|100/100
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|
+|upkeep
+|turn|14
+|
+|move|p1a: GALARIAN PARAS|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|20/100
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: GALARIAN PARAS
+|move|p2a: Seismitoad|Scald|p1a: GALARIAN PARAS
+|-resisted|p1a: GALARIAN PARAS
+|-damage|p1a: GALARIAN PARAS|74/100
+|-status|p1a: GALARIAN PARAS|brn
+|
+|-damage|p1a: GALARIAN PARAS|68/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: GALARIAN PARAS|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: GALARIAN PARAS|62/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|16
+|
+|switch|p1a: ANKYLOZORD|Kommo-o, M, shiny|49/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Kay9ine1|Stealth Rock|[silent]
+|-sidestart|p1: TheLindomar|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|
+|-heal|p1a: ANKYLOZORD|55/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Cinderace|U-turn|p1a: ANKYLOZORD
+|-resisted|p1a: ANKYLOZORD
+|-damage|p1a: ANKYLOZORD|48/100
+|
+|switch|p2a: Torkoal|Torkoal, F|5/100|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: ANKYLOZORD|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: Kay9ine1|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: ANKYLOZORD|54/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: ANKYLOZORD|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: ANKYLOZORD|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Maractus|Maractus, M|67/100
+|-damage|p2a: Maractus|55/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: ANKYLOZORD|Protect|p1a: ANKYLOZORD
+|-singleturn|p1a: ANKYLOZORD|Protect
+|move|p2a: Maractus|Growth|p2a: Maractus
+|-boost|p2a: Maractus|atk|2
+|-boost|p2a: Maractus|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Maractus|61/100|[from] item: Leftovers
+|-heal|p1a: ANKYLOZORD|66/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Maractus|Giga Drain|p1a: ANKYLOZORD
+|-resisted|p1a: ANKYLOZORD
+|-damage|p1a: ANKYLOZORD|37/100
+|-heal|p2a: Maractus|79/100|[from] drain|[of] p1a: ANKYLOZORD
+|move|p1a: ANKYLOZORD|Body Press|p2a: Maractus
+|-damage|p2a: Maractus|9/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Maractus|15/100|[from] item: Leftovers
+|-heal|p1a: ANKYLOZORD|43/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Maractus|Growth|p2a: Maractus
+|-boost|p2a: Maractus|atk|2
+|-boost|p2a: Maractus|spa|2
+|move|p1a: ANKYLOZORD|Body Press|p2a: Maractus
+|-damage|p2a: Maractus|0 fnt
+|faint|p2a: Maractus
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: ANKYLOZORD|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|-damage|p2a: Shiftry|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Shiftry|Air Slash|p1a: ANKYLOZORD
+|-supereffective|p1a: ANKYLOZORD
+|-damage|p1a: ANKYLOZORD|17/100
+|move|p1a: ANKYLOZORD|Body Press|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|faint|p2a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: ANKYLOZORD|23/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|23
+|
+|move|p1a: ANKYLOZORD|Protect|p1a: ANKYLOZORD
+|-singleturn|p1a: ANKYLOZORD|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: ANKYLOZORD
+|-activate|p1a: ANKYLOZORD|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: ANKYLOZORD|29/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: ANKYLOZORD
+|-immune|p1a: ANKYLOZORD|[from] ability: Bulletproof
+|move|p1a: ANKYLOZORD|Body Press|p2a: Cinderace
+|-damage|p2a: Cinderace|35/100
+|
+|-weather|none
+|-heal|p1a: ANKYLOZORD|35/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|-message|Kay9ine1 forfeited.
+|
+|win|TheLindomar
+|l|☆Kay9ine1
+|raw|TheLindomar's rating: 1714 &rarr; <strong>1729</strong><br />(+15 for winning)
+|raw|Kay9ine1's rating: 1614 &rarr; <strong>1600</strong><br />(-14 for losing)

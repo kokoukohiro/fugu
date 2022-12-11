@@ -1,0 +1,450 @@
+|j|☆JigglyThot
+|j|☆Paparuski
+|player|p1|JigglyThot|swimmerf|1218
+|player|p2|Paparuski|266|1083
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Xatu, M|
+|poke|p1|Boltund, M|
+|poke|p1|Aromatisse, M|
+|poke|p1|Snorlax, F|
+|poke|p1|Gallade, M|
+|poke|p1|Jellicent, M|
+|poke|p2|Raichu-Alola, F|
+|poke|p2|Pincurchin, M|
+|poke|p2|Butterfree, F|
+|poke|p2|Passimian, F|
+|poke|p2|Vileplume, F|
+|poke|p2|Coalossal, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JigglyThot)
+|
+|start
+|switch|p1a: Boltund|Boltund, M|100/100
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|move|p2a: Pincurchin|Hex|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|52/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Xatu|Trick|p2a: Pincurchin
+|-activate|p1a: Xatu|move: Trick|[of] p2a: Pincurchin
+|-item|p2a: Pincurchin|Choice Scarf|[from] move: Trick
+|-item|p1a: Xatu|Leftovers|[from] move: Trick
+|move|p2a: Pincurchin|Hex|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|9/100
+|
+|-heal|p1a: Xatu|15/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|move|p2a: Pincurchin|Hex|p1a: Aromatisse
+|-damage|p1a: Aromatisse|88/100
+|-enditem|p1a: Aromatisse|Eject Button
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Passimian|Passimian, F|100/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Passimian|U-turn|p1a: Snorlax
+|-damage|p1a: Snorlax|82/100
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100|[from]move: U-turn
+|move|p1a: Snorlax|Facade|p2a: Vileplume
+|-damage|p2a: Vileplume|44/100
+|
+|-heal|p2a: Vileplume|50/100|[from] item: Black Sludge
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|move|p2a: Vileplume|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|-heal|p2a: Vileplume|100/100
+|move|p1a: Snorlax|Facade|p2a: Vileplume
+|-damage|p2a: Vileplume|64/100
+|
+|-heal|p2a: Vileplume|71/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p2a: Vileplume|Sleep Powder|p1a: Snorlax|[miss]
+|-miss|p2a: Vileplume|p1a: Snorlax
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Vileplume|77/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p2a: Vileplume|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|-heal|p2a: Vileplume|100/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Vileplume|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Vileplume|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Vileplume|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Sleep Powder
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Vileplume|Sludge Bomb|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|51/100 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Facade|p2a: Vileplume
+|-damage|p2a: Vileplume|43/100
+|
+|-heal|p2a: Vileplume|49/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p2a: Vileplume|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Sleep Powder
+|cant|p1a: Snorlax|slp
+|
+|-heal|p2a: Vileplume|55/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p2a: Vileplume|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|-heal|p2a: Vileplume|100/100
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Vileplume|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Recycle||[still]
+|-fail|p1a: Snorlax
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Vileplume|Sludge Bomb|p1a: Snorlax
+|-damage|p1a: Snorlax|28/100
+|-status|p1a: Snorlax|psn
+|-enditem|p1a: Snorlax|Figy Berry|[eat]
+|-heal|p1a: Snorlax|61/100 psn|[from] item: Figy Berry
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-damage|p1a: Snorlax|49/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Vileplume|Giga Drain|p1a: Snorlax
+|-damage|p1a: Snorlax|28/100 psn
+|move|p1a: Snorlax|Recycle|p1a: Snorlax
+|-item|p1a: Snorlax|Figy Berry|[from] move: Recycle
+|-enditem|p1a: Snorlax|Figy Berry|[eat]
+|-heal|p1a: Snorlax|61/100 psn|[from] item: Figy Berry
+|
+|-damage|p1a: Snorlax|48/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: Vileplume|Sludge Bomb|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|17/100 psn
+|move|p1a: Snorlax|Recycle|p1a: Snorlax
+|-item|p1a: Snorlax|Figy Berry|[from] move: Recycle
+|-enditem|p1a: Snorlax|Figy Berry|[eat]
+|-heal|p1a: Snorlax|49/100 psn|[from] item: Figy Berry
+|
+|-damage|p1a: Snorlax|37/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Vileplume|Sludge Bomb|p1a: Snorlax
+|-damage|p1a: Snorlax|12/100 psn
+|move|p1a: Snorlax|Facade|p2a: Vileplume
+|-damage|p2a: Vileplume|26/100
+|
+|-heal|p2a: Vileplume|32/100|[from] item: Black Sludge
+|-damage|p1a: Snorlax|0 fnt|[from] psn
+|faint|p1a: Snorlax
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|turn|20
+|
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Gallade|Psycho Cut|p2a: Pincurchin
+|-damage|p2a: Pincurchin|65/100
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Xatu|Xatu, M|15/100
+|move|p2a: Pincurchin|Thunder Wave|p1a: Xatu
+|move|p1a: Xatu|Thunder Wave|p2a: Pincurchin|[from]Magic Bounce
+|-immune|p2a: Pincurchin
+|
+|-heal|p1a: Xatu|21/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Raichu|Raichu-Alola, F|100/100
+|move|p1a: Xatu|Psychic|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|72/100
+|
+|-heal|p1a: Xatu|27/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Raichu|Psychic|p1a: Xatu
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|switch|p1a: Aromatisse|Aromatisse, M|88/100
+|turn|24
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|move|p2a: Raichu|Psychic|p1a: Gallade
+|-damage|p1a: Gallade|42/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|25
+|
+|switch|p2a: Pincurchin|Pincurchin, M|65/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|switch|p1a: Aromatisse|Aromatisse, M|88/100
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Pincurchin|Thunder Wave|p1a: Aromatisse
+|-status|p1a: Aromatisse|par
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Vileplume|Vileplume, F|32/100
+|switch|p1a: Gallade|Gallade, M|42/100
+|
+|-heal|p1a: Gallade|100/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Vileplume|38/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|switch|p2a: Butterfree|Butterfree, F|100/100
+|move|p1a: Gallade|Psycho Cut|p2a: Butterfree
+|-damage|p2a: Butterfree|17/100
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Aromatisse|Aromatisse, M|88/100 par
+|move|p2a: Butterfree|Sleep Powder||[still]
+|-fail|p2a: Butterfree
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|30
+|
+|move|p2a: Butterfree|Roost|p2a: Butterfree
+|-heal|p2a: Butterfree|68/100
+|-singleturn|p2a: Butterfree|move: Roost
+|cant|p1a: Aromatisse|par
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Vileplume|Vileplume, F|38/100
+|switch|p1a: Boltund|Boltund, M|100/100
+|
+|-heal|p2a: Vileplume|44/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|move|p1a: Boltund|Fire Fang|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-damage|p1a: Boltund|91/100|[from] item: Life Orb
+|faint|p2a: Vileplume
+|
+|upkeep
+|
+|switch|p2a: Pincurchin|Pincurchin, M|65/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|33
+|
+|move|p1a: Boltund|Bulk Up|p1a: Boltund
+|-boost|p1a: Boltund|atk|1
+|-boost|p1a: Boltund|def|1
+|move|p2a: Pincurchin|Hex|p1a: Boltund
+|-damage|p1a: Boltund|66/100
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Boltund|Psychic Fangs|p2a: Pincurchin
+|-damage|p2a: Pincurchin|12/100
+|-damage|p1a: Boltund|56/100|[from] item: Life Orb
+|move|p2a: Pincurchin|Hex|p1a: Boltund
+|-crit|p1a: Boltund
+|-damage|p1a: Boltund|21/100
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Boltund|Thunder Fang|p2a: Pincurchin
+|-resisted|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|-damage|p1a: Boltund|12/100|[from] item: Life Orb
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|switch|p2a: Raichu|Raichu-Alola, F|72/100
+|turn|36
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Raichu|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+|
+|switch|p1a: Aromatisse|Aromatisse, M|88/100 par
+|turn|37
+|
+|cant|p1a: Aromatisse|par
+|move|p2a: Raichu|Thunderbolt|p1a: Aromatisse
+|-damage|p1a: Aromatisse|27/100 par
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|38
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|turn|39
+|
+|switch|p2a: Butterfree|Butterfree, F|68/100
+|move|p1a: Gallade|Knock Off|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|-enditem|p2a: Butterfree|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Gallade
+|faint|p2a: Butterfree
+|
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, F|100/100
+|turn|40
+|
+|move|p2a: Passimian|Close Combat|p1a: Gallade
+|-resisted|p1a: Gallade
+|-damage|p1a: Gallade|31/100
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|move|p1a: Gallade|Knock Off|p2a: Passimian
+|-resisted|p2a: Passimian
+|-damage|p2a: Passimian|73/100
+|-enditem|p2a: Passimian|Choice Band|[from] move: Knock Off|[of] p1a: Gallade
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Passimian|Close Combat|p1a: Gallade
+|-resisted|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|faint|p1a: Gallade
+|
+|upkeep
+|
+|switch|p1a: Boltund|Boltund, M|12/100
+|turn|42
+|c|☆Paparuski|Not jolly?
+|
+|move|p1a: Boltund|Bulk Up|p1a: Boltund
+|-boost|p1a: Boltund|atk|1
+|-boost|p1a: Boltund|def|1
+|move|p2a: Passimian|Close Combat|p1a: Boltund
+|-damage|p1a: Boltund|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|faint|p1a: Boltund
+|
+|win|Paparuski
+|l|☆JigglyThot
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

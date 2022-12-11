@@ -1,0 +1,409 @@
+|j|☆SWITCHGeN8
+|j|☆Daunzu
+|player|p1|SWITCHGeN8|clerk|1360
+|player|p2|Daunzu|ingo|1411
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Zeraora|
+|poke|p1|Cinderace, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Scizor, M|
+|poke|p1|Kyurem|
+|poke|p1|Chansey, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Magnezone|
+|poke|p2|Tangrowth, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Tentacruel, M|
+|poke|p2|Scizor, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|1
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|U-turn|p1a: Gyarados
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|92/100
+|
+|switch|p2a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|
+|-heal|p1a: Gyarados|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Magnezone|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|86/100
+|
+|switch|p2a: Tangrowth|Tangrowth, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Tangrowth
+|-status|p2a: Tangrowth|par
+|move|p2a: Tangrowth|Knock Off|p1a: Chansey
+|-damage|p1a: Chansey|52/100
+|-enditem|p1a: Chansey|Eviolite|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|move|p2a: Tangrowth|Leech Seed|p1a: Chansey
+|-start|p1a: Chansey|move: Leech Seed
+|
+|-damage|p1a: Chansey|88/100|[from] Leech Seed|[of] p2a: Tangrowth
+|upkeep
+|turn|5
+|
+|cant|p2a: Tangrowth|par
+|move|p1a: Chansey|Teleport|p1a: Chansey
+|
+|switch|p1a: Scizor|Scizor, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Scizor|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|36/100 par
+|-damage|p1a: Scizor|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|switch|p1a: Kyurem|Kyurem|100/100|[from]move: U-turn
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Tangrowth|Knock Off|p1a: Kyurem
+|-damage|p1a: Kyurem|83/100
+|-enditem|p1a: Kyurem|Choice Band|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Kyurem|Scale Shot|p2a: Tentacruel
+|-damage|p2a: Tentacruel|82/100
+|-damage|p2a: Tentacruel|63/100
+|-hitcount|p2a: Tentacruel|2
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-heal|p2a: Tentacruel|69/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p1a: Kyurem|Scale Shot|p2a: Tentacruel
+|-damage|p2a: Tentacruel|52/100
+|-damage|p2a: Tentacruel|33/100
+|-hitcount|p2a: Tentacruel|2
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Tentacruel|Toxic|p1a: Kyurem
+|-status|p1a: Kyurem|tox
+|
+|-heal|p2a: Tentacruel|39/100|[from] item: Black Sludge
+|-damage|p1a: Kyurem|77/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Kyurem|Scale Shot|p2a: Tentacruel|[miss]
+|-miss|p1a: Kyurem|p2a: Tentacruel
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Kyurem
+|-damage|p1a: Kyurem|51/100 tox
+|
+|-heal|p2a: Tentacruel|45/100|[from] item: Black Sludge
+|-damage|p1a: Kyurem|39/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Kyurem|Scale Shot|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|17/100
+|-damage|p2a: Tentacruel|0 fnt
+|-hitcount|p2a: Tentacruel|2
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|faint|p2a: Tentacruel
+|
+|-damage|p1a: Kyurem|21/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|11
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|98/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|U-turn|p1a: Gyarados
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|89/100
+|
+|switch|p2a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|
+|-heal|p1a: Gyarados|95/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Chansey|Chansey, F|88/100
+|move|p2a: Magnezone|Volt Switch|p1a: Chansey
+|-damage|p1a: Chansey|67/100
+|
+|switch|p2a: Scizor|Scizor, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Scizor|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p2a: Tangrowth|Tangrowth, F|69/100 par|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|84/100
+|turn|14
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Scizor|U-turn|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|86/100
+|
+|switch|p1a: Kyurem|Kyurem|21/100 tox|[from]move: U-turn
+|-ability|p1a: Kyurem|Pressure
+|
+|-heal|p2a: Togekiss|92/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|15/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Tangrowth|Tangrowth, F|100/100 par
+|move|p1a: Kyurem|Iron Head|p2a: Tangrowth
+|-damage|p2a: Tangrowth|85/100 par
+|-damage|p1a: Kyurem|0 fnt|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|turn|16
+|
+|move|p1a: Zeraora|Bulk Up|p1a: Zeraora
+|-boost|p1a: Zeraora|atk|1
+|-boost|p1a: Zeraora|def|1
+|move|p2a: Tangrowth|Knock Off|p1a: Zeraora
+|-damage|p1a: Zeraora|82/100
+|-enditem|p1a: Zeraora|Life Orb|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Zeraora|Bulk Up|p1a: Zeraora
+|-boost|p1a: Zeraora|atk|1
+|-boost|p1a: Zeraora|def|1
+|move|p2a: Tangrowth|Leech Seed|p1a: Zeraora|[miss]
+|-miss|p2a: Tangrowth|p1a: Zeraora
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Zeraora|Blaze Kick|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-crit|p2a: Tangrowth
+|-damage|p2a: Tangrowth|3/100 par
+|-damage|p1a: Zeraora|66/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|move|p2a: Tangrowth|Leech Seed|p1a: Zeraora
+|-start|p1a: Zeraora|move: Leech Seed
+|
+|-damage|p1a: Zeraora|53/100|[from] Leech Seed|[of] p2a: Tangrowth
+|-heal|p2a: Tangrowth|13/100 par|[silent]
+|upkeep
+|turn|19
+|
+|switch|p2a: Togekiss|Togekiss, M|92/100
+|move|p1a: Zeraora|Drain Punch|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|81/100
+|-heal|p1a: Zeraora|60/100|[from] drain|[of] p2a: Togekiss
+|
+|-heal|p2a: Togekiss|87/100|[from] item: Leftovers
+|-damage|p1a: Zeraora|48/100|[from] Leech Seed|[of] p2a: Togekiss
+|-heal|p2a: Togekiss|98/100|[silent]
+|upkeep
+|turn|20
+|
+|switch|p2a: Tangrowth|Tangrowth, F|46/100 par
+|move|p1a: Zeraora|Plasma Fists|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|22/100 par
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|31/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|-damage|p1a: Zeraora|19/100|[from] Leech Seed|[of] p2a: Tangrowth
+|-heal|p2a: Tangrowth|31/100 par|[silent]
+|upkeep
+|turn|21
+|
+|switch|p2a: Togekiss|Togekiss, M|98/100
+|move|p1a: Zeraora|Blaze Kick|p2a: Togekiss|[miss]
+|-miss|p1a: Zeraora|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|100/100|[from] item: Leftovers
+|-damage|p1a: Zeraora|7/100|[from] Leech Seed|[of] p2a: Togekiss
+|upkeep
+|turn|22
+|
+|move|p1a: Zeraora|Blaze Kick|p2a: Togekiss
+|-damage|p2a: Togekiss|49/100
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|-heal|p2a: Togekiss|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|84/100
+|turn|23
+|
+|switch|p2a: Tangrowth|Tangrowth, F|64/100 par
+|move|p1a: Scizor|Bullet Punch|p2a: Tangrowth
+|-damage|p2a: Tangrowth|47/100 par
+|-damage|p1a: Scizor|68/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|cant|p2a: Tangrowth|par
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Scizor|Scizor, M|68/100
+|switch|p2a: Togekiss|Togekiss, M|55/100
+|
+|-heal|p2a: Togekiss|61/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Scizor|U-turn|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|46/100
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|move|p2a: Togekiss|Air Slash|p1a: Cinderace
+|-damage|p1a: Cinderace|38/100
+|
+|-heal|p2a: Togekiss|52/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|28
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|59/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|95/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|turn|29
+|
+|switch|p2a: Tangrowth|Tangrowth, F|80/100 par
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Gyarados|Waterfall|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|68/100 par
+|-damage|p1a: Gyarados|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|move|p2a: Tangrowth|Leech Seed|p1a: Gyarados|[miss]
+|-miss|p2a: Tangrowth|p1a: Gyarados
+|
+|-heal|p1a: Gyarados|90/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Tangrowth|Knock Off|p1a: Gyarados
+|-damage|p1a: Gyarados|74/100
+|-enditem|p1a: Gyarados|Leftovers|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Tangrowth|Leech Seed|p1a: Gyarados
+|-start|p1a: Gyarados|move: Leech Seed
+|
+|-damage|p1a: Gyarados|62/100|[from] Leech Seed|[of] p2a: Tangrowth
+|-heal|p2a: Tangrowth|80/100 par|[silent]
+|upkeep
+|turn|33
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Tangrowth|Sludge Bomb|p1a: Gyarados
+|-damage|p1a: Gyarados|42/100
+|
+|-damage|p1a: Gyarados|30/100|[from] Leech Seed|[of] p2a: Tangrowth
+|-heal|p2a: Tangrowth|92/100 par|[silent]
+|upkeep
+|turn|34
+|
+|move|p1a: Gyarados|Waterfall|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|68/100 par
+|-damage|p1a: Gyarados|13/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|move|p2a: Tangrowth|Sludge Bomb|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|-message|SWITCHGeN8 forfeited.
+|
+|win|Daunzu
+|l|☆SWITCHGeN8

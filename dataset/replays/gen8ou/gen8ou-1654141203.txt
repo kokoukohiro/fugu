@@ -1,0 +1,593 @@
+|j|☆minimax_ai
+|j|☆galarian dragapult
+|t:|1662105068
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1529
+|player|p2|galarian dragapult|zinzolin|1786
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, F|
+|poke|p1|Melmetal|
+|poke|p2|Blacephalon|
+|poke|p2|Blissey, F|
+|poke|p2|Buzzwole|
+|poke|p2|Melmetal|
+|poke|p2|Slowbro, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|inactive|galarian dragapult has 120 seconds left.
+|c|☆galarian dragapult|again?
+|c|☆galarian dragapult|damn
+|c|☆galarian dragapult|not a lot of people are playing]
+|c|☆galarian dragapult|hf
+|c|☆galarian dragapult|bro
+|
+|t:|1662105117
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|turn|1
+|
+|t:|1662105124
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Slowbro|Scald|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|87/100
+|-status|p1a: rotomwash|brn
+|
+|-heal|p1a: rotomwash|93/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|87/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1662105128
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|
+|-heal|p1a: rotomwash|93/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|87/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1662105131
+|move|p1a: rotomwash|Pain Split|p2a: Blissey
+|-sethp|p2a: Blissey|69/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|100/100 brn|[from] move: Pain Split
+|move|p2a: Blissey|Stealth Rock|p1a: rotomwash
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-damage|p1a: rotomwash|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1662105134
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-heal|p1a: rotomwash|100/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1662105136
+|move|p1a: rotomwash|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|55/100
+|move|p2a: Blissey|Seismic Toss|p1a: rotomwash
+|-damage|p1a: rotomwash|61/100 brn
+|
+|-heal|p1a: rotomwash|68/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|61/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1662105139
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|13/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|63/100
+|
+|-heal|p1a: rotomwash|68/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|61/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1662105140
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|26/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|76/100
+|
+|-heal|p1a: rotomwash|68/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|61/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1662105143
+|move|p1a: rotomwash|Pain Split|p2a: Blissey
+|-sethp|p2a: Blissey|51/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|100/100 brn|[from] move: Pain Split
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-damage|p1a: rotomwash|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1662105146
+|move|p1a: rotomwash|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|53/100
+|move|p2a: Blissey|Seismic Toss|p1a: rotomwash
+|-damage|p1a: rotomwash|61/100 brn
+|
+|-heal|p1a: rotomwash|68/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|61/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1662105148
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|14/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|64/100
+|
+|-heal|p1a: rotomwash|68/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|61/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1662105149
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|24/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|74/100
+|
+|-heal|p1a: rotomwash|68/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|61/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1662105153
+|move|p1a: rotomwash|Pain Split|p2a: Blissey
+|-sethp|p2a: Blissey|50/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|100/100 brn|[from] move: Pain Split
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|99/100
+|
+|-damage|p1a: rotomwash|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1662105154
+|move|p1a: rotomwash|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|49/100
+|move|p2a: Blissey|Seismic Toss|p1a: rotomwash
+|-damage|p1a: rotomwash|61/100 brn
+|
+|-heal|p1a: rotomwash|68/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|61/100 brn|[from] brn
+|upkeep
+|turn|14
+|c|☆galarian dragapult|that burn was bad lol
+|
+|t:|1662105177
+|move|p1a: rotomwash|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|13/100
+|move|p2a: Blissey|Seismic Toss|p1a: rotomwash
+|-damage|p1a: rotomwash|28/100 brn
+|
+|-heal|p1a: rotomwash|35/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|28/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1662105179
+|move|p1a: rotomwash|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|-heal|p1a: rotomwash|35/100 brn|[from] item: Leftovers
+|-damage|p1a: rotomwash|28/100 brn|[from] brn
+|upkeep
+|
+|t:|1662105181
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|turn|16
+|
+|t:|1662105183
+|move|p2a: Blacephalon|Shadow Ball|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1662105183
+|switch|p1a: Melmetal|Melmetal|100/100
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1662105187
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|move|p1a: Melmetal|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|71/100
+|
+|upkeep
+|turn|18
+|
+|t:|1662105193
+|move|p1a: Melmetal|Thunder Punch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|14/100
+|-damage|p1a: Melmetal|78/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|move|p2a: Slowbro|Future Sight|p1a: Melmetal
+|-start|p2a: Slowbro|move: Future Sight
+|
+|upkeep
+|turn|19
+|
+|t:|1662105196
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|move|p1a: Melmetal|Thunder Punch|p2a: Buzzwole
+|-damage|p2a: Buzzwole|85/100
+|
+|upkeep
+|turn|20
+|
+|t:|1662105198
+|switch|p2a: Slowbro|Slowbro, F|47/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|31/100
+|-damage|p1a: Melmetal|61/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|15/100
+|-damage|p1a: Melmetal|45/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|-hitcount|p2a: Slowbro|2
+|
+|-end|p1a: Melmetal|move: Future Sight
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|34/100
+|upkeep
+|turn|21
+|
+|t:|1662105199
+|switch|p2a: Buzzwole|Buzzwole|85/100
+|move|p1a: Melmetal|Double Iron Bash|p2a: Buzzwole
+|-damage|p2a: Buzzwole|66/100
+|-damage|p2a: Buzzwole|48/100
+|-hitcount|p2a: Buzzwole|2
+|
+|upkeep
+|turn|22
+|
+|t:|1662105201
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Buzzwole|Roost|p2a: Buzzwole
+|-heal|p2a: Buzzwole|98/100
+|-singleturn|p2a: Buzzwole|move: Roost
+|
+|upkeep
+|turn|23
+|
+|t:|1662105207
+|switch|p2a: Slowbro|Slowbro, F|48/100
+|move|p1a: Tangrowth|Sleep Powder|p2a: Slowbro
+|-status|p2a: Slowbro|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|24
+|
+|t:|1662105208
+|switch|p2a: Buzzwole|Buzzwole|98/100
+|move|p1a: Tangrowth|Knock Off|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|93/100
+|-enditem|p2a: Buzzwole|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|25
+|
+|t:|1662105215
+|move|p2a: Buzzwole|Ice Punch|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|62/100
+|-status|p1a: Tangrowth|frz
+|-damage|p2a: Buzzwole|77/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|cant|p1a: Tangrowth|frz
+|
+|upkeep
+|turn|26
+|
+|t:|1662105219
+|move|p2a: Buzzwole|Roost|p2a: Buzzwole
+|-heal|p2a: Buzzwole|100/100
+|-singleturn|p2a: Buzzwole|move: Roost
+|cant|p1a: Tangrowth|frz
+|
+|upkeep
+|turn|27
+|
+|t:|1662105220
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|-curestatus|p1a: Tangrowth|frz|[msg]
+|move|p1a: Tangrowth|Giga Drain|p2a: Blacephalon
+|-resisted|p2a: Blacephalon
+|-damage|p2a: Blacephalon|77/100
+|-heal|p1a: Tangrowth|70/100|[from] drain|[of] p2a: Blacephalon
+|
+|upkeep
+|turn|28
+|
+|t:|1662105223
+|switch|p1a: Melmetal|Melmetal|34/100
+|-damage|p1a: Melmetal|28/100|[from] Stealth Rock
+|move|p2a: Blacephalon|Shadow Ball|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1662105223
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|29
+|
+|t:|1662105226
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|move|p1a: Weavile|Knock Off|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|90/100
+|
+|upkeep
+|turn|30
+|
+|t:|1662105231
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|switch|p2a: Blacephalon|Blacephalon|77/100
+|
+|upkeep
+|turn|31
+|
+|t:|1662105233
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-damage|p1a: landorustherian|88/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Blacephalon|atk|1
+|move|p2a: Blacephalon|Shadow Ball|p1a: landorustherian
+|-damage|p1a: landorustherian|36/100
+|
+|-heal|p1a: landorustherian|42/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1662105235
+|switch|p1a: Weavile|Weavile, F|76/100
+|-damage|p1a: Weavile|51/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Blacephalon|Shadow Ball|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1662105235
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1662105237
+|switch|p1a: landorustherian|Landorus-Therian, M|42/100
+|-damage|p1a: landorustherian|30/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Blacephalon|atk|1
+|move|p2a: Blacephalon|Shadow Ball|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1662105237
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|34
+|
+|t:|1662105243
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|35
+|
+|t:|1662105250
+|move|p2a: Landorus|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|63/100
+|-damage|p2a: Landorus|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1662105251
+|switch|p2a: Buzzwole|Buzzwole|90/100|[from]move: U-turn
+|move|p1a: Tangrowth|Knock Off|p2a: Buzzwole
+|-resisted|p2a: Buzzwole
+|-damage|p2a: Buzzwole|87/100
+|
+|upkeep
+|turn|36
+|
+|t:|1662105257
+|move|p2a: Buzzwole|Ice Punch|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|38/100
+|-status|p1a: Tangrowth|frz
+|-damage|p2a: Buzzwole|71/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|cant|p1a: Tangrowth|frz
+|
+|upkeep
+|turn|37
+|
+|t:|1662105260
+|move|p2a: Buzzwole|Roost|p2a: Buzzwole
+|-heal|p2a: Buzzwole|100/100
+|-singleturn|p2a: Buzzwole|move: Roost
+|cant|p1a: Tangrowth|frz
+|
+|upkeep
+|turn|38
+|
+|t:|1662105264
+|move|p2a: Buzzwole|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|8/100 frz
+|-unboost|p2a: Buzzwole|def|1
+|-unboost|p2a: Buzzwole|spd|1
+|-damage|p2a: Buzzwole|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|cant|p1a: Tangrowth|frz
+|
+|upkeep
+|turn|39
+|
+|t:|1662105265
+|move|p2a: Buzzwole|Close Combat|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|-unboost|p2a: Buzzwole|def|1
+|-unboost|p2a: Buzzwole|spd|1
+|-damage|p2a: Buzzwole|67/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|faint|p1a: Tangrowth
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|def|1
+|
+|upkeep
+|
+|t:|1662105265
+|switch|p1a: Heatran|Heatran, M|88/100
+|-damage|p1a: Heatran|76/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|40
+|
+|t:|1662105266
+|move|p1a: Heatran|Eruption|p2a: Buzzwole
+|-supereffective|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|faint|p2a: Buzzwole
+|
+|upkeep
+|
+|t:|1662105271
+|switch|p2a: Blacephalon|Blacephalon|77/100
+|turn|41
+|
+|t:|1662105272
+|move|p2a: Blacephalon|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|4/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Earth Power|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|faint|p2a: Blacephalon
+|
+|upkeep
+|
+|t:|1662105276
+|switch|p2a: Slowbro|Slowbro, F|82/100 slp
+|turn|42
+|
+|t:|1662105277
+|move|p1a: Heatran|Magma Storm|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|63/100 slp
+|-activate|p2a: Slowbro|move: Magma Storm|[of] p1a: Heatran
+|cant|p2a: Slowbro|slp
+|
+|-damage|p2a: Slowbro|50/100 slp|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|43
+|
+|t:|1662105278
+|move|p1a: Heatran|Magma Storm|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|32/100 slp
+|cant|p2a: Slowbro|slp
+|
+|-damage|p2a: Slowbro|20/100 slp|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|44
+|
+|t:|1662105280
+|move|p1a: Heatran|Magma Storm|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|upkeep
+|
+|t:|1662105281
+|switch|p2a: Melmetal|Melmetal|100/100
+|turn|45
+|
+|t:|1662105283
+|move|p1a: Heatran|Magma Storm|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|upkeep
+|
+|t:|1662105285
+|switch|p2a: Landorus|Landorus-Therian, M|84/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|46
+|
+|t:|1662105287
+|move|p1a: Heatran|Magma Storm|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|21/100
+|-activate|p2a: Landorus|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|galarian dragapult
+|raw|minimax_ai's rating: 1529 &rarr; <strong>1522</strong><br />(-7 for losing)
+|raw|galarian dragapult's rating: 1786 &rarr; <strong>1793</strong><br />(+7 for winning)
+|c|☆minimax_ai|gg
+|c|☆galarian dragapult|gg
+|l|☆minimax_ai

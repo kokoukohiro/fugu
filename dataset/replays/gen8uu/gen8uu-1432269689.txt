@@ -1,0 +1,208 @@
+|j|☆aaam
+|j|☆aspicon
+|t:|1633794814
+|gametype|singles
+|player|p1|aaam|hiker-gen4|1292
+|player|p2|aspicon|hiker-gen4|1391
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Haxorus, M|
+|poke|p1|Mamoswine, M|
+|poke|p1|Krookodile, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Aegislash, F|
+|poke|p1|Tapu Bulu|
+|poke|p2|Krookodile, M|
+|poke|p2|Lycanroc-Dusk, M|
+|poke|p2|Azumarill, F|
+|poke|p2|Entei|
+|poke|p2|Regieleki|
+|poke|p2|Hydreigon, F|
+|teampreview
+|
+|t:|1633794820
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Lycanroc|Lycanroc-Dusk, M|100/100
+|turn|1
+|
+|t:|1633794828
+|move|p2a: Lycanroc|Stealth Rock|p1a: Mamoswine
+|-sidestart|p1: aaam|move: Stealth Rock
+|move|p1a: Mamoswine|Earthquake|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-enditem|p2a: Lycanroc|Focus Sash
+|-damage|p2a: Lycanroc|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1633794836
+|move|p2a: Lycanroc|Accelerock|p1a: Mamoswine
+|-damage|p1a: Mamoswine|77/100
+|move|p1a: Mamoswine|Ice Shard|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by aaam)
+|
+|t:|1633794851
+|switch|p2a: Entei|Entei|100/100
+|-ability|p2a: Entei|Pressure
+|turn|3
+|
+|t:|1633794855
+|move|p2a: Entei|Sacred Fire|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|7/100
+|move|p1a: Mamoswine|Earthquake|p2a: Entei
+|-supereffective|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|
+|upkeep
+|
+|t:|1633794871
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|turn|4
+|
+|t:|1633794874
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100
+|-damage|p1a: Tapu Bulu|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Azumarill|Aqua Jet|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|75/100
+|
+|-heal|p1a: Tapu Bulu|81/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1633794877
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|71/100
+|-heal|p1a: Tapu Bulu|100/100|[from] drain|[of] p2a: Hydreigon
+|
+|upkeep
+|turn|6
+|
+|t:|1633794884
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Hydreigon|Fire Blast|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|74/100
+|-damage|p2a: Hydreigon|61/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1633794890
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Rotom|Defog|p2a: Hydreigon
+|-unboost|p2a: Hydreigon|evasion|1
+|-sideend|p1: aaam|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|-fieldend|move: Grassy Terrain
+|
+|upkeep
+|turn|8
+|
+|t:|1633794895
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-damage|p2a: Hydreigon|51/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1633794900
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|turn|9
+|
+|t:|1633794905
+|move|p1a: Krookodile|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Krookodile|def|1
+|-unboost|p1a: Krookodile|spd|1
+|faint|p2a: Hydreigon
+|-ability|p1a: Krookodile|Moxie|boost
+|-boost|p1a: Krookodile|atk|1
+|
+|upkeep
+|
+|t:|1633794906
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|turn|10
+|
+|t:|1633794912
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Azumarill|Play Rough|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|43/100
+|
+|-heal|p1a: Tapu Bulu|49/100|[from] Grassy Terrain
+|-heal|p1a: Tapu Bulu|55/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1633794915
+|move|p2a: Azumarill|Aqua Jet|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|41/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|-heal|p1a: Tapu Bulu|100/100|[from] drain|[of] p2a: Azumarill
+|faint|p2a: Azumarill
+|
+|upkeep
+|
+|t:|1633794918
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|12
+|
+|t:|1633794925
+|move|p2a: Regieleki|Ancient Power|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|66/100
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Regieleki
+|-damage|p2a: Regieleki|0 fnt
+|-heal|p1a: Tapu Bulu|100/100|[from] drain|[of] p2a: Regieleki
+|faint|p2a: Regieleki
+|
+|upkeep
+|
+|t:|1633794929
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|turn|13
+|
+|t:|1633794932
+|move|p2a: Krookodile|Knock Off|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|75/100
+|-enditem|p1a: Tapu Bulu|Leftovers|[from] move: Knock Off|[of] p2a: Krookodile
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|-heal|p1a: Tapu Bulu|100/100|[from] drain|[of] p2a: Krookodile
+|faint|p2a: Krookodile
+|
+|win|aaam
+|raw|aaam's rating: 1292 &rarr; <strong>1324</strong><br />(+32 for winning)
+|raw|aspicon's rating: 1391 &rarr; <strong>1365</strong><br />(-26 for losing)
+|l|☆aspicon

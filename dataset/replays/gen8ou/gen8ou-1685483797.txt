@@ -1,0 +1,298 @@
+|html|<div class="broadcast-blue"><strong>[Gen 8] OU is currently suspecting Melmetal! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/np-ss-ou-suspect-process-round-12-monster-mash.3709234/">suspect thread</a>.</strong></div>
+|j|☆FvkboyCharmander
+|j|☆minimax_ai
+|t:|1665744871
+|gametype|singles
+|player|p1|FvkboyCharmander|1|1585
+|player|p2|minimax_ai|101|1578
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Blaziken, F|
+|poke|p1|Azumarill, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Hawlucha, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, M|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1665744887
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|turn|1
+|
+|t:|1665744893
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: landorustherian|atk|1
+|move|p2a: landorustherian|Toxic|p1a: Landorus|[miss]
+|-miss|p2a: landorustherian|p1a: Landorus
+|
+|upkeep
+|turn|2
+|
+|t:|1665744909
+|move|p1a: Landorus|Toxic|p2a: landorustherian
+|-status|p2a: landorustherian|tox
+|move|p2a: landorustherian|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-damage|p1a: Landorus|94/100 tox|[from] psn
+|-damage|p2a: landorustherian|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1665744910
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: rotomwash
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|
+|-damage|p1a: Landorus|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1665744913
+|move|p1a: Landorus|Toxic|p2a: rotomwash
+|-status|p2a: rotomwash|tox
+|move|p2a: rotomwash|Thunderbolt|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-damage|p1a: Landorus|63/100 tox|[from] psn
+|-damage|p2a: rotomwash|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1665744916
+|move|p1a: Landorus|Knock Off|p2a: rotomwash
+|-damage|p2a: rotomwash|57/100 tox
+|-enditem|p2a: rotomwash|Leftovers|[from] move: Knock Off|[of] p1a: Landorus
+|move|p2a: rotomwash|Thunderbolt|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-damage|p1a: Landorus|38/100 tox|[from] psn
+|-damage|p2a: rotomwash|45/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1665744918
+|move|p1a: Landorus|Stealth Rock||[still]
+|-fail|p1a: Landorus
+|move|p2a: rotomwash|Thunderbolt|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-damage|p1a: Landorus|7/100 tox|[from] psn
+|-damage|p2a: rotomwash|26/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1665744922
+|move|p1a: Landorus|Knock Off|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|faint|p2a: rotomwash
+|
+|-damage|p1a: Landorus|0 fnt|[from] psn
+|faint|p1a: Landorus
+|upkeep
+|
+|t:|1665744925
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1665744931
+|switch|p2a: Melmetal|Melmetal|100/100
+|-damage|p2a: Melmetal|94/100|[from] Stealth Rock
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: FvkboyCharmander|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Melmetal|88/100|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1665744933
+|move|p1a: Ninetales|Freeze-Dry|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|81/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-hitcount|p1: Ninetales|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Melmetal|75/100|[from] Hail
+|upkeep
+|
+|t:|1665744935
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|turn|10
+|
+|t:|1665744938
+|move|p1a: Blaziken|Close Combat|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: Melmetal
+|-damage|p1a: Blaziken|91/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blaziken|85/100|[from] Hail
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1665744938
+|switch|p2a: landorustherian|Landorus-Therian, M|94/100 tox
+|-damage|p2a: landorustherian|82/100 tox|[from] Stealth Rock
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Blaziken|atk|1
+|turn|11
+|
+|t:|1665744941
+|move|p1a: Blaziken|Flare Blitz|p2a: landorustherian
+|-damage|p2a: landorustherian|24/100 tox
+|-damage|p1a: Blaziken|60/100|[from] Recoil
+|-damage|p1a: Blaziken|50/100|[from] item: Life Orb
+|move|p2a: landorustherian|Defog|p1a: Blaziken
+|-unboost|p1a: Blaziken|evasion|1
+|-sideend|p1: FvkboyCharmander|move: Aurora Veil
+|-sideend|p2: minimax_ai|Stealth Rock|[from] move: Defog|[of] p2a: landorustherian
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blaziken|45/100|[from] Hail
+|-damage|p2a: landorustherian|18/100 tox|[from] Hail
+|-heal|p2a: landorustherian|24/100 tox|[from] item: Leftovers
+|-damage|p2a: landorustherian|18/100 tox|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|12
+|
+|t:|1665744945
+|move|p1a: Blaziken|Flare Blitz|p2a: landorustherian
+|-crit|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|-damage|p1a: Blaziken|37/100|[from] Recoil
+|-damage|p1a: Blaziken|27/100|[from] item: Life Orb
+|
+|-weather|none
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1665744945
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|turn|13
+|
+|t:|1665744947
+|move|p1a: Blaziken|Flare Blitz|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|45/100
+|-damage|p1a: Blaziken|11/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-damage|p1a: Blaziken|0 fnt|[from] Recoil
+|faint|p1a: Blaziken
+|move|p2a: Tangrowth|Giga Drain|p1: Blaziken|[notarget]
+|-fail|p2a: Tangrowth
+|
+|upkeep
+|
+|t:|1665744950
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|14
+|
+|t:|1665744955
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Grassy Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Grassy Seed
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|15
+|
+|t:|1665744958
+|move|p1a: Hawlucha|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|-enditem|p2a: Heatran|Air Balloon
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1665744958
+|switch|p2a: Tangrowth|Tangrowth, M|78/100
+|turn|16
+|
+|t:|1665744961
+|move|p1a: Hawlucha|Acrobatics|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|29/100
+|-damage|p1a: Hawlucha|84/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|move|p2a: Tangrowth|Sleep Powder|p1a: Hawlucha|[miss]
+|-miss|p2a: Tangrowth|p1a: Hawlucha
+|
+|-heal|p2a: Tangrowth|35/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1665744964
+|move|p1a: Hawlucha|Acrobatics|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|-damage|p1a: Hawlucha|68/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|faint|p2a: Tangrowth
+|
+|upkeep
+|
+|t:|1665744964
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|18
+|
+|t:|1665744967
+|move|p2a: Weavile|Ice Shard|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|1/100
+|move|p1a: Hawlucha|Close Combat|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Weavile
+|
+|win|FvkboyCharmander
+|raw|FvkboyCharmander's rating: 1585 &rarr; <strong>1605</strong><br />(+20 for winning)
+|raw|minimax_ai's rating: 1578 &rarr; <strong>1558</strong><br />(-20 for losing)
+|c|☆minimax_ai|gg

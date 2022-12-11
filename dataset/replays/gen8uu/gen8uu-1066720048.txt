@@ -1,0 +1,288 @@
+|j|☆Complex is Banned
+|j|☆gijion chilli
+|player|p1|Complex is Banned|169|1528
+|player|p2|gijion chilli|twins-gen4dp|1548
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Diggersby, M|
+|poke|p1|Haxorus, F|
+|poke|p1|Araquanid, F|
+|poke|p1|Chandelure, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Umbreon, M|
+|poke|p2|Machamp, F|
+|poke|p2|Weavile, F|
+|poke|p2|Duraludon, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Doublade, M|
+|poke|p2|Gardevoir, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Complex is Banned)
+|
+|start
+|switch|p1a: Chandelure|Chandelure, F|100/100
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|turn|1
+|j| Codsauce
+|
+|move|p2a: Duraludon|Thunder Wave|p1a: Chandelure
+|-status|p1a: Chandelure|par
+|move|p1a: Chandelure|Fire Blast|p2a: Duraludon
+|-enditem|p2a: Duraludon|Focus Sash
+|-damage|p2a: Duraludon|1/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|move|p2a: Duraludon|Stealth Rock|p1a: Torkoal
+|-sidestart|p1: Complex is Banned|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|move|p1a: Torkoal|Rapid Spin|p2a: Weezing
+|-damage|p2a: Weezing|93/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: Complex is Banned|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-heal|p2a: Weezing|99/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p2a: Weezing|Toxic|p1a: Torkoal
+|-status|p1a: Torkoal|tox
+|move|p1a: Torkoal|Lava Plume|p2a: Weezing
+|-damage|p2a: Weezing|64/100
+|
+|-heal|p2a: Weezing|71/100|[from] item: Black Sludge
+|-damage|p1a: Torkoal|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Weezing|Sludge Bomb|p1a: Torkoal
+|-damage|p1a: Torkoal|47/100 tox
+|move|p1a: Torkoal|Stealth Rock|p2a: Weezing
+|-sidestart|p2: gijion chilli|move: Stealth Rock
+|
+|-heal|p2a: Weezing|77/100|[from] item: Black Sludge
+|-damage|p1a: Torkoal|35/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Umbreon
+|-damage|p1a: Umbreon|81/100
+|-status|p1a: Umbreon|psn
+|-activate|p1a: Umbreon|ability: Synchronize
+|-immune|p2a: Weezing
+|
+|-heal|p2a: Weezing|83/100|[from] item: Black Sludge
+|-heal|p1a: Umbreon|87/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbreon|74/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Weezing|Strange Steam|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|36/100 psn
+|move|p1a: Umbreon|Heal Bell|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Heal Bell
+|-curestatus|p1a: Umbreon|psn|[msg]
+|-curestatus|p1: Chandelure|par|[msg]
+|-curestatus|p1: Torkoal|tox|[msg]
+|
+|-heal|p2a: Weezing|89/100|[from] item: Black Sludge
+|-heal|p1a: Umbreon|42/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Weezing|Toxic|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p2a: Weezing|95/100|[from] item: Black Sludge
+|-heal|p1a: Umbreon|48/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Weezing|Toxic|p1a: Umbreon
+|-status|p1a: Umbreon|tox
+|-activate|p1a: Umbreon|ability: Synchronize
+|-immune|p2a: Weezing
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|-heal|p1a: Umbreon|54/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|48/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Chandelure|Chandelure, F|100/100
+|move|p2a: Weezing|Strange Steam|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|74/100
+|
+|-heal|p1a: Chandelure|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|11
+|
+|switch|p2a: Duraludon|Duraludon, M|1/100
+|-damage|p2a: Duraludon|0 fnt|[from] Stealth Rock
+|faint|p2a: Duraludon
+|move|p1a: Chandelure|Fire Blast|p2: Duraludon|[notarget]
+|-fail|p1a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, F|100/100
+|-damage|p2a: Machamp|94/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|move|p2a: Machamp|Knock Off|p1a: Araquanid
+|-damage|p1a: Araquanid|62/100
+|-enditem|p1a: Araquanid|Focus Sash|[from] move: Knock Off|[of] p2a: Machamp
+|
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|
+|move|p2a: Machamp|Facade|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|-damage|p2a: Machamp|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, F|100/100
+|turn|14
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Machamp
+|-damage|p2a: Machamp|3/100 brn
+|move|p2a: Machamp|Knock Off|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|-enditem|p1a: Chandelure|Choice Specs|[from] move: Knock Off|[of] p2a: Machamp
+|faint|p1a: Chandelure
+|
+|-damage|p2a: Machamp|0 fnt|[from] brn
+|faint|p2a: Machamp
+|upkeep
+|
+|switch|p1a: Torkoal|Torkoal, M|35/100
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Weezing|Sludge Bomb|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-heal|p2a: Weezing|94/100|[from] item: Black Sludge
+|upkeep
+|inactive|Complex is Banned has 120 seconds left.
+|l| Codsauce
+|
+|switch|p1a: Diggersby|Diggersby, M|100/100
+|turn|16
+|
+|move|p1a: Diggersby|Body Slam|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|switch|p2a: Doublade|Doublade, M|100/100
+|-damage|p2a: Doublade|94/100|[from] Stealth Rock
+|turn|17
+|inactive|Complex is Banned has 120 seconds left.
+|
+|switch|p1a: Haxorus|Haxorus, F|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Mold Breaker|[from] ability: Trace|[of] p1a: Haxorus
+|-ability|p2a: Gardevoir|Mold Breaker
+|
+|upkeep
+|turn|18
+|inactive|Complex is Banned has 120 seconds left.
+|j| Adrift & Alone
+|j| Et Capra
+|
+|switch|p1a: Umbreon|Umbreon, M|48/100 tox
+|move|p2a: Gardevoir|Moonblast|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|1/100 tox
+|
+|-heal|p1a: Umbreon|7/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|1/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|upkeep
+|
+|switch|p1a: Diggersby|Diggersby, M|100/100
+|turn|20
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Diggersby
+|-damage|p1a: Diggersby|40/100
+|move|p1a: Diggersby|Earthquake|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|21
+|
+|move|p2a: Weavile|Ice Shard|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|-damage|p2a: Weavile|66/100|[from] item: Life Orb
+|faint|p1a: Diggersby
+|
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, F|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|22
+|j| Adjective_noun
+|
+|move|p2a: Weavile|Ice Shard|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|33/100
+|-damage|p2a: Weavile|56/100|[from] item: Life Orb
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|
+|upkeep
+|turn|23
+|-message|Complex is Banned forfeited.
+|
+|win|gijion chilli
+|l|☆Complex is Banned

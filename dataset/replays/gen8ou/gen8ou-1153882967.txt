@@ -1,0 +1,390 @@
+|j|☆Rencube ツ
+|j|☆user1_ou
+|player|p1|Rencube ツ|clemont|1723
+|player|p2|user1_ou|eusine|1654
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Toxapex, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Clefable, M|
+|poke|p1|Hippowdon, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Chansey, F|
+|poke|p2|Clefable, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Blissey, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Rotom-Heat|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: SHATTERING|Cinderace, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|switch|p1a: MAD ASPECT|Toxapex, F|100/100
+|move|p2a: Dragapult|Thunder Wave|p1a: MAD ASPECT
+|-status|p1a: MAD ASPECT|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|U-turn|p1a: MAD ASPECT
+|-resisted|p1a: MAD ASPECT
+|-damage|p1a: MAD ASPECT|93/100 par
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|move|p1a: MAD ASPECT|Knock Off|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100
+|-damage|p1a: MAD ASPECT|81/100 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: MAD ASPECT|64/100 par|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Rocky Helmet|[from] move: Knock Off|[of] p1a: MAD ASPECT
+|
+|-heal|p1a: MAD ASPECT|70/100 par|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: SHATTERING|Cinderace, M|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: SHATTERING
+|-sidestart|p1: Rencube ツ|Spikes
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: SHATTERING|Gunk Shot|p2a: Dragapult
+|-start|p1a: SHATTERING|typechange|Poison|[from] ability: Libero
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|58/100
+|
+|upkeep
+|turn|5
+|j| myjava
+|
+|switch|p1a: DRAGONLORD|Corviknight, M|100/100
+|-ability|p1a: DRAGONLORD|Pressure
+|move|p2a: Dragapult|U-turn|p1a: DRAGONLORD
+|-resisted|p1a: DRAGONLORD
+|-damage|p1a: DRAGONLORD|97/100
+|-damage|p2a: Dragapult|41/100|[from] item: Rocky Helmet|[of] p1a: DRAGONLORD
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Discharge|p1a: DRAGONLORD
+|-supereffective|p1a: DRAGONLORD
+|-damage|p1a: DRAGONLORD|43/100
+|-status|p1a: DRAGONLORD|par
+|move|p1a: DRAGONLORD|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|93/100
+|
+|switch|p1a: CATACLYSM|Chansey, F|100/100|[from]move: U-turn
+|-damage|p1a: CATACLYSM|88/100|[from] Spikes
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|88/100
+|move|p1a: CATACLYSM|Heal Bell|p1a: CATACLYSM
+|-activate|p1a: CATACLYSM|move: Heal Bell
+|-curestatus|p1: MAD ASPECT|par|[msg]
+|-curestatus|p1: DRAGONLORD|par|[msg]
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: DRAGONLORD|Corviknight, M|43/100
+|-ability|p1a: DRAGONLORD|Pressure
+|move|p2a: Ferrothorn|Spikes|p1a: DRAGONLORD
+|-sidestart|p1: Rencube ツ|Spikes
+|
+|upkeep
+|turn|9
+|
+|move|p1a: DRAGONLORD|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: Rencube ツ|Spikes|[from] move: Defog|[of] p1a: DRAGONLORD
+|move|p2a: Ferrothorn|Leech Seed|p1a: DRAGONLORD
+|-start|p1a: DRAGONLORD|move: Leech Seed
+|
+|-damage|p1a: DRAGONLORD|31/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p1a: DRAGONLORD|Roost|p1a: DRAGONLORD
+|-heal|p1a: DRAGONLORD|81/100
+|-singleturn|p1a: DRAGONLORD|move: Roost
+|move|p2a: Ferrothorn|Thunder Wave|p1a: DRAGONLORD
+|-status|p1a: DRAGONLORD|par
+|
+|-damage|p1a: DRAGONLORD|68/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|11
+|
+|switch|p1a: NELTHARION|Clefable, M, shiny|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: NELTHARION
+|-sidestart|p1: Rencube ツ|Spikes
+|
+|upkeep
+|turn|12
+|
+|move|p1a: NELTHARION|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Knock Off|p1a: NELTHARION
+|-resisted|p1a: NELTHARION
+|-damage|p1a: NELTHARION|93/100
+|-enditem|p1a: NELTHARION|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|13
+|
+|move|p1a: NELTHARION|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100 par
+|-damage|p1a: NELTHARION|80/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Thunder Wave|p1a: NELTHARION
+|-status|p1a: NELTHARION|par
+|
+|upkeep
+|turn|14
+|j| angrrry
+|
+|switch|p1a: DRAGONLORD|Corviknight, M|68/100 par
+|-ability|p1a: DRAGONLORD|Pressure
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Rotom|Rotom-Heat|93/100
+|move|p1a: DRAGONLORD|Roost|p1a: DRAGONLORD
+|-heal|p1a: DRAGONLORD|100/100 par
+|-singleturn|p1a: DRAGONLORD|move: Roost
+|
+|upkeep
+|turn|16
+|j| Stryfe
+|
+|switch|p1a: EARTH WARDER|Hippowdon, M|100/100
+|-damage|p1a: EARTH WARDER|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: EARTH WARDER
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|87/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|switch|p1a: CATACLYSM|Chansey, F|88/100
+|-damage|p1a: CATACLYSM|76/100|[from] Spikes
+|move|p2a: Rotom|Overheat|p1a: CATACLYSM
+|-damage|p1a: CATACLYSM|49/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|81/100|[from] Sandstorm
+|-damage|p1a: CATACLYSM|43/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: CATACLYSM|Soft-Boiled|p1a: CATACLYSM
+|-heal|p1a: CATACLYSM|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|75/100|[from] Sandstorm
+|-damage|p1a: CATACLYSM|87/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: CATACLYSM|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|69/100 tox|[from] Sandstorm
+|-damage|p1a: CATACLYSM|81/100|[from] Sandstorm
+|-damage|p2a: Rotom|63/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: NELTHARION|Clefable, M, shiny|80/100 par
+|-damage|p1a: NELTHARION|68/100 par|[from] Spikes
+|move|p2a: Rotom|Discharge|p1a: NELTHARION
+|-damage|p1a: NELTHARION|42/100 par
+|
+|-weather|none
+|-damage|p2a: Rotom|51/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: NELTHARION|Moonlight|p1a: NELTHARION
+|-heal|p1a: NELTHARION|92/100 par
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Dragapult|Dragapult, F|41/100
+|switch|p1a: DRAGONLORD|Corviknight, M|100/100 par
+|-ability|p1a: DRAGONLORD|Pressure
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: CATACLYSM|Chansey, F|81/100
+|-damage|p1a: CATACLYSM|68/100|[from] Spikes
+|move|p2a: Dragapult|Hex|p1a: CATACLYSM
+|-immune|p1a: CATACLYSM
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|U-turn|p1a: CATACLYSM
+|-damage|p1a: CATACLYSM|53/100
+|
+|switch|p2a: Clefable|Clefable, M|100/100|[from]move: U-turn
+|move|p1a: CATACLYSM|Heal Bell|p1a: CATACLYSM
+|-activate|p1a: CATACLYSM|move: Heal Bell
+|-curestatus|p1: DRAGONLORD|par|[msg]
+|-curestatus|p1: NELTHARION|par|[msg]
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Clefable|Knock Off|p1a: CATACLYSM
+|-damage|p1a: CATACLYSM|42/100
+|-enditem|p1a: CATACLYSM|Eviolite|[from] move: Knock Off|[of] p2a: Clefable
+|move|p1a: CATACLYSM|Soft-Boiled|p1a: CATACLYSM
+|-heal|p1a: CATACLYSM|93/100
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Clefable|Stealth Rock|p1a: CATACLYSM
+|-sidestart|p1: Rencube ツ|move: Stealth Rock
+|move|p1a: CATACLYSM|Seismic Toss|p2a: Clefable
+|-damage|p2a: Clefable|75/100
+|
+|-heal|p2a: Clefable|81/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|j| curiosity
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|switch|p1a: DRAGONLORD|Corviknight, M|100/100
+|-damage|p1a: DRAGONLORD|88/100|[from] Stealth Rock
+|-ability|p1a: DRAGONLORD|Pressure
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|94/100 par
+|move|p1a: DRAGONLORD|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: Rencube ツ|Spikes|[from] move: Defog|[of] p1a: DRAGONLORD
+|-sideend|p1: Rencube ツ|Stealth Rock|[from] move: Defog|[of] p1a: DRAGONLORD
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: SHATTERING|Cinderace, M|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: SHATTERING
+|-start|p1a: SHATTERING|move: Leech Seed
+|
+|-damage|p1a: SHATTERING|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|30
+|
+|switch|p2a: Clefable|Clefable, M|81/100
+|move|p1a: SHATTERING|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|36/100
+|
+|-heal|p2a: Clefable|42/100|[from] item: Leftovers
+|-damage|p1a: SHATTERING|76/100|[from] Leech Seed|[of] p2a: Clefable
+|-heal|p2a: Clefable|52/100|[silent]
+|upkeep
+|turn|31
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rencube ツ)
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100 par
+|move|p1a: SHATTERING|U-turn|p2a: Ferrothorn
+|-start|p1a: SHATTERING|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Ferrothorn|81/100 par
+|-damage|p1a: SHATTERING|64/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|j| Calem∞DPU
+|
+|switch|p1a: MAD ASPECT|Toxapex, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: SHATTERING|Cinderace, M|64/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: SHATTERING
+|-status|p1a: SHATTERING|par
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Dragapult|Dragapult, F|41/100
+|move|p1a: SHATTERING|Pyro Ball|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|52/100
+|turn|34
+|
+|move|p1a: SHATTERING|Gunk Shot|p2a: Clefable
+|-start|p1a: SHATTERING|typechange|Poison|[from] ability: Libero
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|j| gomikyu☭
+|-message|user1_ou forfeited.
+|
+|win|Rencube ツ
+|l|☆user1_ou
+|raw|Rencube ツ's rating: 1724 &rarr; <strong>1740</strong><br />(+16 for winning)
+|raw|user1_ou's rating: 1654 &rarr; <strong>1638</strong><br />(-16 for losing)
+|j| Raskingball
+|j| Electric win
+|l| gomikyu☭
+|l| Raskingball
+|l| Electric win
+|j| pastagirl ♡
+|l|☆Rencube ツ
+|l| myjava
+|l| Calem∞DPU
+|l| curiosity
+|l| pastagirl ♡
+|l| angrrry
+|j| pastagirl ♡

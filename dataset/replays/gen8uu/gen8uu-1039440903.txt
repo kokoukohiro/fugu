@@ -1,0 +1,279 @@
+|j|☆DD Qyads
+|j|☆Thismanlol
+|player|p1|DD Qyads|hilbert-dueldisk|1514
+|player|p2|Thismanlol|will|1337
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Golisopod, F|
+|poke|p1|Lanturn, F|
+|poke|p1|Diggersby, F|
+|poke|p1|Gengar, M|
+|poke|p1|Bronzong|
+|poke|p1|Noivern, F|
+|poke|p2|Doublade, F|
+|poke|p2|Mamoswine, M|
+|poke|p2|Noivern, M|
+|poke|p2|Passimian, F|
+|poke|p2|Polteageist|
+|poke|p2|Haxorus, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thismanlol)
+|
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|1
+|
+|move|p2a: Mamoswine|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: DD Qyads|move: Stealth Rock
+|move|p1a: Bronzong|Stealth Rock|p2a: Mamoswine
+|-sidestart|p2: Thismanlol|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-damage|p2a: Haxorus|88/100|[from] Stealth Rock
+|-ability|p2a: Haxorus|Mold Breaker
+|move|p1a: Bronzong|Gyro Ball|p2a: Haxorus
+|-damage|p2a: Haxorus|41/100
+|
+|-heal|p2a: Haxorus|47/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|
+|-heal|p2a: Haxorus|53/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Haxorus|Dragon Claw|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|-heal|p2a: Haxorus|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, F|100/100
+|-damage|p2a: Passimian|94/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|move|p2a: Passimian|Knock Off|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-enditem|p1a: Bronzong|Colbur Berry|[eat]
+|-enditem|p1a: Bronzong|Colbur Berry|[weaken]
+|-damage|p1a: Bronzong|74/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Passimian|Knock Off|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|45/100
+|move|p1a: Bronzong|Psychic|p2a: Passimian
+|-supereffective|p2a: Passimian
+|-damage|p2a: Passimian|15/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Doublade|Doublade, F|100/100
+|-damage|p2a: Doublade|94/100|[from] Stealth Rock
+|move|p1a: Bronzong|Psychic|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|77/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Doublade|Sacred Sword|p1a: Bronzong
+|-damage|p1a: Bronzong|27/100
+|move|p1a: Bronzong|Psychic|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|62/100
+|-unboost|p2a: Doublade|spd|1
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|1/100
+|move|p1a: Bronzong|Psychic|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|38/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|upkeep
+|
+|switch|p1a: Diggersby|Diggersby, F|100/100
+|-damage|p1a: Diggersby|94/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Diggersby|Body Slam|p2a: Doublade
+|-immune|p2a: Doublade
+|move|p2a: Doublade|Sacred Sword|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|4/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Diggersby|Body Slam|p2a: Doublade
+|-immune|p2a: Doublade
+|move|p2a: Doublade|Sacred Sword|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|faint|p1a: Diggersby
+|
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|turn|14
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Golisopod
+|-damage|p1a: Golisopod|85/100
+|move|p1a: Golisopod|Liquidation|p2a: Doublade
+|-damage|p2a: Doublade|14/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Golisopod
+|-damage|p1a: Golisopod|70/100
+|move|p1a: Golisopod|Liquidation|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|upkeep
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|-damage|p2a: Noivern|76/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Lanturn|Lanturn, F|100/100
+|-damage|p1a: Lanturn|88/100|[from] Stealth Rock
+|move|p2a: Noivern|Defog|p1a: Lanturn
+|-unboost|p1a: Lanturn|evasion|1
+|-sideend|p1: DD Qyads|Stealth Rock|[from] move: Defog|[of] p2a: Noivern
+|-sideend|p2: Thismanlol|Stealth Rock|[from] move: Defog|[of] p2a: Noivern
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Lanturn
+|-damage|p1a: Lanturn|41/100
+|-unboost|p2a: Noivern|spa|2
+|-damage|p2a: Noivern|66/100|[from] item: Life Orb
+|move|p1a: Lanturn|Ice Beam|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|switch|p2a: Passimian|Passimian, F|15/100
+|turn|18
+|
+|move|p2a: Passimian|Earthquake|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, F|70/100
+|turn|19
+|
+|move|p1a: Golisopod|First Impression|p2a: Passimian
+|-resisted|p2a: Passimian
+|-damage|p2a: Passimian|0 fnt
+|faint|p2a: Passimian
+|
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|20
+|
+|move|p1a: Golisopod|Sucker Punch||[still]
+|-fail|p1a: Golisopod
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Golisopod|Sucker Punch||[still]
+|-fail|p1a: Golisopod
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Golisopod|Sucker Punch|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|move|p2a: Polteageist|Giga Drain|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|-heal|p2a: Polteageist|45/100|[from] drain|[of] p1a: Golisopod
+|faint|p1a: Golisopod
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|88/100
+|turn|23
+|-message|DD Qyads forfeited.
+|
+|win|Thismanlol
+|l|☆DD Qyads
+|raw|DD Qyads's rating: 1514 &rarr; <strong>1484</strong><br />(-30 for losing)
+|raw|Thismanlol's rating: 1337 &rarr; <strong>1367</strong><br />(+30 for winning)

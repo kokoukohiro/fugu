@@ -1,0 +1,477 @@
+|j|☆one step from eden
+|j|☆vile things
+|player|p1|one step from eden|grimsley-gen7|1570
+|player|p2|vile things|medium|1465
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Noctowl, M|
+|poke|p1|Sneasel, F|
+|poke|p1|Wishiwashi, M|
+|poke|p1|Rhydon, M|
+|poke|p1|Decidueye, M|
+|poke|p1|Togedemaru, M|
+|poke|p2|Frosmoth, M|
+|poke|p2|Sableye, F|
+|poke|p2|Wishiwashi, M|
+|poke|p2|Gallade, M|
+|poke|p2|Duraludon, F|
+|poke|p2|Rotom-Mow|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rhydon|Rhydon, M|100/100
+|switch|p2a: Duraludon|Duraludon, F|100/100
+|turn|1
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Rhydon|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Togedemaru
+|-ability|p1a: Togedemaru|Lightning Rod|boost
+|-boost|p1a: Togedemaru|spa|1
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Togedemaru|U-turn|p2a: Sableye
+|-damage|p2a: Sableye|82/100
+|
+|switch|p1a: Sneasel|Sneasel, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Sableye|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Sneasel|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|29/100
+|-enditem|p2a: Sableye|Leftovers|[from] move: Knock Off|[of] p1a: Sneasel
+|move|p2a: Sableye|Knock Off|p1a: Sneasel
+|-resisted|p1a: Sneasel
+|-damage|p1a: Sneasel|75/100
+|-enditem|p1a: Sneasel|Choice Band|[from] move: Knock Off|[of] p2a: Sableye
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Wishiwashi|Wishiwashi, M|100/100
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|79/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Wishiwashi
+|-status|p1a: Wishiwashi|brn
+|move|p1a: Wishiwashi|Scald|p2a: Sableye
+|-damage|p2a: Sableye|23/100
+|-status|p2a: Sableye|brn
+|
+|-damage|p2a: Sableye|17/100 brn|[from] brn
+|-damage|p1a: Wishiwashi|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|move|p1a: Wishiwashi|U-turn|p2a: Gallade
+|-damage|p2a: Gallade|87/100
+|
+|switch|p1a: Togedemaru|Togedemaru, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Gallade|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Gallade|Protect|p2a: Gallade
+|-singleturn|p2a: Gallade|Protect
+|move|p1a: Togedemaru|U-turn|p2a: Gallade
+|-activate|p2a: Gallade|move: Protect
+|
+|-heal|p2a: Gallade|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Togedemaru|U-turn|p2a: Gallade
+|-damage|p2a: Gallade|77/100
+|
+|switch|p1a: Noctowl|Noctowl, M|100/100|[from]move: U-turn
+|move|p2a: Gallade|Knock Off|p1a: Noctowl
+|-damage|p1a: Noctowl|53/100
+|-enditem|p1a: Noctowl|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gallade
+|
+|-heal|p2a: Gallade|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Noctowl|Hurricane|p2a: Gallade|[miss]
+|-miss|p1a: Noctowl|p2a: Gallade
+|move|p2a: Gallade|Teleport|p2a: Gallade
+|
+|switch|p2a: Wishiwashi|Wishiwashi, M|100/100|[from]move: Teleport
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Decidueye|Decidueye, M|100/100
+|move|p2a: Wishiwashi|Scald|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-damage|p1a: Decidueye|82/100
+|
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vile things)
+|
+|switch|p1a: Sneasel|Sneasel, F|75/100
+|move|p2a: Wishiwashi|Protect||[still]
+|-fail|p2a: Wishiwashi
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Decidueye|Decidueye, M|82/100
+|move|p2a: Wishiwashi|U-turn|p1a: Decidueye
+|-damage|p1a: Decidueye|63/100
+|
+|switch|p2a: Gallade|Gallade, M|83/100|[from]move: U-turn
+|
+|-heal|p2a: Gallade|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Gallade|Protect|p2a: Gallade
+|-singleturn|p2a: Gallade|Protect
+|move|p1a: Decidueye|Hurricane|p2a: Gallade
+|-activate|p2a: Gallade|move: Protect
+|
+|-heal|p2a: Gallade|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Gallade|Knock Off|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-enditem|p1a: Decidueye|Colbur Berry|[eat]
+|-enditem|p1a: Decidueye|Colbur Berry|[weaken]
+|-damage|p1a: Decidueye|37/100
+|move|p1a: Decidueye|Roost|p1a: Decidueye
+|-heal|p1a: Decidueye|87/100
+|-singleturn|p1a: Decidueye|move: Roost
+|
+|-heal|p2a: Gallade|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Gallade|Wish|p2a: Gallade
+|move|p1a: Decidueye|Hurricane|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|57/100
+|
+|-heal|p2a: Gallade|63/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Rhydon|Rhydon, M|100/100
+|move|p2a: Gallade|Protect||[still]
+|-fail|p2a: Gallade
+|
+|-heal|p2a: Gallade|100/100|[from] move: Wish|[wisher] Gallade
+|upkeep
+|turn|18
+|
+|move|p1a: Rhydon|Stealth Rock|p2a: Gallade
+|-sidestart|p2: vile things|move: Stealth Rock
+|move|p2a: Gallade|Teleport|p2a: Gallade
+|
+|switch|p2a: Wishiwashi|Wishiwashi, M|100/100|[from]move: Teleport
+|-damage|p2a: Wishiwashi|88/100|[from] Stealth Rock
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|
+|-heal|p2a: Wishiwashi|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Decidueye|Decidueye, M|87/100
+|move|p2a: Wishiwashi|Ice Beam|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|31/100
+|
+|-heal|p2a: Wishiwashi|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|-damage|p2a: Gallade|94/100|[from] Stealth Rock
+|move|p1a: Decidueye|Grass Knot|p2a: Gallade
+|-damage|p2a: Gallade|62/100
+|
+|-heal|p2a: Gallade|68/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Gallade|Wish|p2a: Gallade
+|move|p1a: Decidueye|Roost|p1a: Decidueye
+|-heal|p1a: Decidueye|81/100
+|-singleturn|p1a: Decidueye|move: Roost
+|
+|-heal|p2a: Gallade|75/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Sneasel|Sneasel, F|75/100
+|move|p2a: Gallade|Teleport|p2a: Gallade
+|
+|switch|p2a: Sableye|Sableye, F|17/100 brn|[from]move: Teleport
+|-damage|p2a: Sableye|4/100 brn|[from] Stealth Rock
+|
+|-heal|p2a: Sableye|60/100 brn|[from] move: Wish|[wisher] Gallade
+|-damage|p2a: Sableye|54/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100 brn
+|move|p1a: Sneasel|Icicle Crash|p2a: Sableye
+|-damage|p2a: Sableye|64/100 brn
+|
+|-damage|p2a: Sableye|58/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Wishiwashi|Wishiwashi, M|94/100 brn
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p2a: Sableye|Knock Off|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|83/100 brn
+|-enditem|p1a: Wishiwashi|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-damage|p2a: Sableye|51/100 brn|[from] brn
+|-damage|p1a: Wishiwashi|77/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p2a: Wishiwashi|Wishiwashi, M|100/100
+|-damage|p2a: Wishiwashi|88/100|[from] Stealth Rock
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p1a: Wishiwashi|Scald|p2a: Wishiwashi
+|-resisted|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|77/100
+|-status|p2a: Wishiwashi|brn
+|
+|-heal|p2a: Wishiwashi|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Wishiwashi|71/100 brn|[from] brn
+|-damage|p2a: Wishiwashi|77/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Wishiwashi|Scald|p1a: Wishiwashi
+|-resisted|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|57/100 brn
+|move|p1a: Wishiwashi|U-turn|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|66/100 brn
+|
+|switch|p1a: Decidueye|Decidueye, M|81/100|[from]move: U-turn
+|
+|-heal|p2a: Wishiwashi|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Wishiwashi|66/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p2a: Gallade|Gallade, M|75/100
+|-damage|p2a: Gallade|68/100|[from] Stealth Rock
+|move|p1a: Decidueye|Grass Knot|p2a: Gallade
+|-damage|p2a: Gallade|45/100
+|
+|-heal|p2a: Gallade|51/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Gallade|Wish|p2a: Gallade
+|move|p1a: Decidueye|Hurricane|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|9/100
+|
+|-heal|p2a: Gallade|15/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Noctowl|Noctowl, M|53/100
+|move|p2a: Gallade|Protect||[still]
+|-fail|p2a: Gallade
+|
+|-heal|p2a: Gallade|65/100|[from] move: Wish|[wisher] Gallade
+|-heal|p2a: Gallade|71/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Noctowl|Hurricane|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|4/100
+|-start|p2a: Gallade|confusion
+|-activate|p2a: Gallade|confusion
+|move|p2a: Gallade|Wish|p2a: Gallade
+|
+|-heal|p2a: Gallade|10/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|-activate|p2a: Gallade|confusion
+|move|p2a: Gallade|Protect|p2a: Gallade
+|-singleturn|p2a: Gallade|Protect
+|move|p1a: Noctowl|Nasty Plot|p1a: Noctowl
+|-boost|p1a: Noctowl|spa|2
+|
+|-heal|p2a: Gallade|60/100|[from] move: Wish|[wisher] Gallade
+|-heal|p2a: Gallade|66/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: Sableye|Sableye, F|51/100 brn
+|-damage|p2a: Sableye|39/100 brn|[from] Stealth Rock
+|move|p1a: Noctowl|Hurricane|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|33
+|
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Togedemaru
+|-ability|p1a: Togedemaru|Lightning Rod|boost
+|-boost|p1a: Togedemaru|spa|1
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: Duraludon|Duraludon, F|100/100
+|-damage|p2a: Duraludon|94/100|[from] Stealth Rock
+|move|p1a: Togedemaru|U-turn|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|85/100
+|
+|switch|p1a: Sneasel|Sneasel, F|75/100|[from]move: U-turn
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Sneasel|Knock Off|p2a: Duraludon
+|-damage|p2a: Duraludon|46/100
+|-enditem|p2a: Duraludon|Dragon Fang|[from] move: Knock Off|[of] p1a: Sneasel
+|move|p2a: Duraludon|Flash Cannon|p1a: Sneasel
+|-supereffective|p1a: Sneasel
+|-damage|p1a: Sneasel|0 fnt
+|faint|p1a: Sneasel
+|
+|upkeep
+|
+|switch|p1a: Rhydon|Rhydon, M|100/100
+|turn|36
+|
+|move|p2a: Duraludon|Metal Sound|p1a: Rhydon
+|-unboost|p1a: Rhydon|spd|2
+|move|p1a: Rhydon|Earthquake|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|faint|p2a: Duraludon
+|
+|upkeep
+|
+|switch|p2a: Frosmoth|Frosmoth, M, shiny|100/100
+|turn|37
+|
+|move|p2a: Frosmoth|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|upkeep
+|
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|turn|38
+|
+|switch|p2a: Wishiwashi|Wishiwashi, M|66/100 brn
+|-damage|p2a: Wishiwashi|54/100 brn|[from] Stealth Rock
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|move|p1a: Togedemaru|Iron Head|p2a: Wishiwashi
+|-resisted|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|39/100 brn
+|
+|-heal|p2a: Wishiwashi|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Wishiwashi|39/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p1a: Decidueye|Decidueye, M|81/100
+|move|p2a: Wishiwashi|Ice Beam|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|27/100
+|
+|-heal|p2a: Wishiwashi|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Wishiwashi|39/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p1a: Decidueye|Hurricane|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|19/100 brn
+|move|p2a: Wishiwashi|Ice Beam|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|-heal|p2a: Wishiwashi|25/100 brn|[from] item: Leftovers
+|-damage|p2a: Wishiwashi|19/100 brn|[from] brn
+|-formechange|p2a: Wishiwashi|Wishiwashi||[from] ability: Schooling
+|upkeep
+|
+|switch|p1a: Noctowl|Noctowl, M|53/100
+|turn|41
+|
+|move|p2a: Wishiwashi|Protect|p2a: Wishiwashi
+|-singleturn|p2a: Wishiwashi|Protect
+|move|p1a: Noctowl|Agility|p1a: Noctowl
+|-boost|p1a: Noctowl|spe|2
+|
+|-heal|p2a: Wishiwashi|25/100 brn|[from] item: Leftovers
+|-damage|p2a: Wishiwashi|19/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p1a: Noctowl|Nasty Plot|p1a: Noctowl
+|-boost|p1a: Noctowl|spa|2
+|move|p2a: Wishiwashi|U-turn|p1a: Noctowl
+|-resisted|p1a: Noctowl
+|-damage|p1a: Noctowl|50/100
+|
+|switch|p2a: Frosmoth|Frosmoth, M, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Noctowl|Hurricane|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|-message|vile things forfeited.
+|
+|win|one step from eden

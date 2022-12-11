@@ -1,0 +1,538 @@
+|j|☆Candice
+|j|☆minimax_ai
+|t:|1662224332
+|gametype|singles
+|player|p1|Candice|psychicf-gen4|1703
+|player|p2|minimax_ai|lusamine-nihilego|1635
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Tapu Lele|
+|poke|p1|Zapdos|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Melmetal|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|
+|t:|1662224335
+|start
+|switch|p1a: Matrouchka|Tapu Lele|100/100
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Matrouchka
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Matrouchka|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1662224338
+|move|p1a: Matrouchka|Psychic|p2a: landorustherian
+|-damage|p2a: landorustherian|24/100
+|move|p2a: landorustherian|U-turn|p1a: Matrouchka
+|-damage|p1a: Matrouchka|66/100
+|
+|t:|1662224339
+|switch|p2a: Weavile|Weavile, F|100/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|2
+|
+|t:|1662224346
+|switch|p1a: Kuma|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Weavile|Knock Off|p1a: Kuma
+|-resisted|p1a: Kuma
+|-damage|p1a: Kuma|63/100
+|-enditem|p1a: Kuma|Choice Band|[from] move: Knock Off|[of] p2a: Weavile
+|
+|upkeep
+|turn|3
+|
+|t:|1662224348
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Kuma|U-turn|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|74/100
+|-damage|p1a: Kuma|47/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|t:|1662224360
+|switch|p1a: Lapérouse|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p1a: Lapérouse|Intimidate|boost
+|-unboost|p2a: Tangrowth|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1662224362
+|switch|p2a: landorustherian|Landorus-Therian, M|24/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Lapérouse|atk|1
+|move|p1a: Lapérouse|Toxic|p2a: landorustherian
+|-status|p2a: landorustherian|tox
+|
+|-heal|p2a: landorustherian|30/100 tox|[from] item: Leftovers
+|-damage|p2a: landorustherian|24/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1662224364
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Lapérouse|Stealth Rock|p2a: Melmetal
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1662224366
+|move|p1a: Lapérouse|U-turn|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|96/100
+|
+|t:|1662224368
+|switch|p1a: Voltaire|Zapdos|100/100|[from]move: U-turn
+|move|p2a: Melmetal|Double Iron Bash|p1a: Voltaire
+|-resisted|p1a: Voltaire
+|-crit|p1a: Voltaire
+|-damage|p1a: Voltaire|76/100
+|-resisted|p1a: Voltaire
+|-damage|p1a: Voltaire|58/100
+|-hitcount|p1a: Voltaire|2
+|
+|upkeep
+|turn|7
+|
+|t:|1662224372
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|100/100
+|-singleturn|p1a: Voltaire|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-damage|p1a: Voltaire|72/100
+|
+|upkeep
+|turn|8
+|
+|t:|1662224377
+|move|p1a: Voltaire|Discharge|p2a: Melmetal
+|-damage|p2a: Melmetal|78/100
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-supereffective|p1a: Voltaire
+|-damage|p1a: Voltaire|13/100
+|
+|upkeep
+|turn|9
+|
+|t:|1662224379
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|63/100
+|-singleturn|p1a: Voltaire|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-damage|p1a: Voltaire|34/100
+|-status|p2a: Melmetal|par|[from] ability: Static|[of] p1a: Voltaire
+|
+|upkeep
+|turn|10
+|
+|t:|1662224381
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|84/100
+|-singleturn|p1a: Voltaire|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-damage|p1a: Voltaire|57/100
+|
+|upkeep
+|turn|11
+|
+|t:|1662224383
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|100/100
+|-singleturn|p1a: Voltaire|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-damage|p1a: Voltaire|75/100
+|
+|upkeep
+|turn|12
+|
+|t:|1662224385
+|move|p1a: Voltaire|Discharge|p2a: Melmetal
+|-damage|p2a: Melmetal|59/100 par
+|cant|p2a: Melmetal|par
+|
+|upkeep
+|turn|13
+|
+|t:|1662224389
+|move|p1a: Voltaire|Discharge|p2a: Melmetal
+|-damage|p2a: Melmetal|40/100 par
+|move|p2a: Melmetal|Double Iron Bash|p1a: Voltaire
+|-resisted|p1a: Voltaire
+|-damage|p1a: Voltaire|59/100
+|-resisted|p1a: Voltaire
+|-crit|p1a: Voltaire
+|-damage|p1a: Voltaire|33/100
+|-hitcount|p1a: Voltaire|2
+|
+|upkeep
+|turn|14
+|
+|t:|1662224390
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|84/100
+|-singleturn|p1a: Voltaire|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-damage|p1a: Voltaire|58/100
+|
+|upkeep
+|turn|15
+|
+|t:|1662224392
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|100/100
+|-singleturn|p1a: Voltaire|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-damage|p1a: Voltaire|74/100
+|
+|upkeep
+|turn|16
+|j| AnloveBack
+|
+|t:|1662224394
+|move|p1a: Voltaire|Discharge|p2a: Melmetal
+|-damage|p2a: Melmetal|23/100 par
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-supereffective|p1a: Voltaire
+|-damage|p1a: Voltaire|22/100
+|
+|upkeep
+|turn|17
+|
+|t:|1662224395
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|72/100
+|-singleturn|p1a: Voltaire|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-damage|p1a: Voltaire|45/100
+|
+|upkeep
+|turn|18
+|
+|t:|1662224397
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|95/100
+|-singleturn|p1a: Voltaire|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-damage|p1a: Voltaire|69/100
+|
+|upkeep
+|turn|19
+|
+|t:|1662224399
+|move|p1a: Voltaire|Discharge|p2a: Melmetal
+|-damage|p2a: Melmetal|5/100 par
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-supereffective|p1a: Voltaire
+|-damage|p1a: Voltaire|18/100
+|
+|upkeep
+|turn|20
+|
+|t:|1662224401
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|68/100
+|-singleturn|p1a: Voltaire|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-damage|p1a: Voltaire|42/100
+|
+|upkeep
+|turn|21
+|
+|t:|1662224402
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|92/100
+|-singleturn|p1a: Voltaire|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-damage|p1a: Voltaire|64/100
+|
+|upkeep
+|turn|22
+|l| AnloveBack
+|
+|t:|1662224404
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|100/100
+|-singleturn|p1a: Voltaire|move: Roost
+|move|p2a: Melmetal|Ice Punch|p1a: Voltaire
+|-damage|p1a: Voltaire|75/100
+|
+|upkeep
+|turn|23
+|
+|t:|1662224407
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|100/100
+|-singleturn|p1a: Voltaire|move: Roost
+|cant|p2a: Melmetal|par
+|
+|upkeep
+|turn|24
+|
+|t:|1662224409
+|move|p1a: Voltaire|Discharge|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|upkeep
+|
+|t:|1662224409
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|turn|25
+|j| Me1oNz
+|
+|t:|1662224425
+|move|p2a: Heatran|Eruption|p1a: Voltaire
+|-damage|p1a: Voltaire|39/100
+|move|p1a: Voltaire|Discharge|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|35/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|26
+|j| maybeimwrong
+|
+|t:|1662224431
+|move|p2a: Heatran|Stealth Rock|p1a: Voltaire
+|-sidestart|p1: Candice|move: Stealth Rock
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|90/100
+|-singleturn|p1a: Voltaire|move: Roost
+|
+|upkeep
+|turn|27
+|
+|t:|1662224433
+|move|p2a: Heatran|Magma Storm|p1a: Voltaire|[miss]
+|-miss|p2a: Heatran|p1a: Voltaire
+|move|p1a: Voltaire|Discharge|p2a: Heatran
+|-damage|p2a: Heatran|2/100
+|
+|upkeep
+|turn|28
+|
+|t:|1662224437
+|move|p2a: Heatran|Magma Storm|p1a: Voltaire
+|-damage|p1a: Voltaire|38/100
+|-activate|p1a: Voltaire|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Voltaire|Discharge|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Voltaire|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1662224437
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|-damage|p2a: rotomwash|88/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1662224440
+|move|p2a: rotomwash|Hydro Pump|p1a: Voltaire|[miss]
+|-miss|p2a: rotomwash|p1a: Voltaire
+|move|p1a: Voltaire|Roost|p1a: Voltaire
+|-heal|p1a: Voltaire|88/100
+|-singleturn|p1a: Voltaire|move: Roost
+|
+|-heal|p2a: rotomwash|94/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|c|☆Candice|rip
+|
+|t:|1662224447
+|move|p2a: rotomwash|Nasty Plot|p2a: rotomwash
+|-boost|p2a: rotomwash|spa|2
+|move|p1a: Voltaire|Discharge|p2a: rotomwash
+|-damage|p2a: rotomwash|58/100
+|
+|-heal|p2a: rotomwash|64/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1662224454
+|move|p2a: rotomwash|Thunderbolt|p1a: Voltaire
+|-crit|p1a: Voltaire
+|-damage|p1a: Voltaire|0 fnt
+|faint|p1a: Voltaire
+|
+|-heal|p2a: rotomwash|70/100|[from] item: Leftovers
+|upkeep
+|c|☆Candice|that's better
+|
+|t:|1662224467
+|switch|p1a: Matrouchka|Tapu Lele|66/100
+|-damage|p1a: Matrouchka|54/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Matrouchka
+|turn|32
+|
+|t:|1662224468
+|switch|p2a: landorustherian|Landorus-Therian, M|24/100 tox
+|-damage|p2a: landorustherian|12/100 tox|[from] Stealth Rock
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Matrouchka|atk|1
+|move|p1a: Matrouchka|Moonblast|p2a: landorustherian
+|-damage|p2a: landorustherian|0 fnt
+|faint|p2a: landorustherian
+|
+|upkeep
+|
+|t:|1662224469
+|switch|p2a: Weavile|Weavile, F|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|33
+|
+|t:|1662224473
+|switch|p1a: Kuma|Urshifu-Rapid-Strike, M|47/100
+|-damage|p1a: Kuma|41/100|[from] Stealth Rock
+|move|p2a: Weavile|Knock Off|p1a: Kuma
+|-resisted|p1a: Kuma
+|-damage|p1a: Kuma|15/100
+|
+|upkeep
+|turn|34
+|
+|t:|1662224478
+|switch|p1a: Lapérouse|Landorus-Therian, M|100/100
+|-damage|p1a: Lapérouse|88/100|[from] Stealth Rock
+|-ability|p1a: Lapérouse|Intimidate|boost
+|-unboost|p2a: Weavile|atk|1
+|move|p2a: Weavile|Knock Off|p1a: Lapérouse
+|-damage|p1a: Lapérouse|46/100
+|-enditem|p1a: Lapérouse|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|
+|upkeep
+|turn|35
+|
+|t:|1662224480
+|switch|p1a: Kuma|Urshifu-Rapid-Strike, M|15/100
+|-damage|p1a: Kuma|9/100|[from] Stealth Rock
+|move|p2a: Weavile|Knock Off|p1a: Kuma
+|-resisted|p1a: Kuma
+|-damage|p1a: Kuma|0 fnt
+|faint|p1a: Kuma
+|
+|upkeep
+|j| Malabar323
+|
+|t:|1662224491
+|switch|p1a: Evinrude|Dragapult, F|100/100
+|-damage|p1a: Evinrude|88/100|[from] Stealth Rock
+|turn|36
+|
+|t:|1662224497
+|move|p1a: Evinrude|Shadow Ball|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|40/100
+|-unboost|p2a: Weavile|spd|1
+|move|p2a: Weavile|Knock Off|p1a: Evinrude
+|-supereffective|p1a: Evinrude
+|-damage|p1a: Evinrude|0 fnt
+|-enditem|p1a: Evinrude|Choice Specs|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Evinrude
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1662224501
+|switch|p1a: Opal|Melmetal|100/100
+|-damage|p1a: Opal|94/100|[from] Stealth Rock
+|turn|37
+|
+|t:|1662224503
+|move|p2a: Weavile|Knock Off|p1a: Opal
+|-damage|p1a: Opal|68/100
+|-enditem|p1a: Opal|Assault Vest|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Opal|Superpower|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-unboost|p1a: Opal|atk|1
+|-unboost|p1a: Opal|def|1
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1662224503
+|switch|p2a: rotomwash|Rotom-Wash|70/100
+|-damage|p2a: rotomwash|58/100|[from] Stealth Rock
+|turn|38
+|
+|t:|1662224506
+|move|p2a: rotomwash|Hydro Pump|p1a: Opal
+|-damage|p1a: Opal|24/100
+|move|p1a: Opal|Superpower|p2a: rotomwash
+|-damage|p2a: rotomwash|23/100
+|-unboost|p1a: Opal|atk|1
+|-unboost|p1a: Opal|def|1
+|
+|-heal|p2a: rotomwash|29/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1662224510
+|move|p2a: rotomwash|Hydro Pump|p1a: Opal
+|-damage|p1a: Opal|0 fnt
+|faint|p1a: Opal
+|
+|-heal|p2a: rotomwash|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1662224512
+|switch|p1a: Matrouchka|Tapu Lele|54/100
+|-damage|p1a: Matrouchka|41/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Matrouchka
+|turn|40
+|
+|t:|1662224518
+|move|p1a: Matrouchka|Psychic|p2a: rotomwash
+|-damage|p2a: rotomwash|0 fnt
+|faint|p2a: rotomwash
+|
+|upkeep
+|
+|t:|1662224518
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|turn|41
+|
+|t:|1662224521
+|move|p1a: Matrouchka|Psychic|p2a: Tangrowth
+|-damage|p2a: Tangrowth|0 fnt
+|faint|p2a: Tangrowth
+|
+|win|Candice
+|raw|Candice's rating: 1703 &rarr; <strong>1719</strong><br />(+16 for winning)
+|raw|minimax_ai's rating: 1635 &rarr; <strong>1619</strong><br />(-16 for losing)
+|c|☆minimax_ai|gg
+|l|☆minimax_ai
+|c|☆Candice|gg
+|l| maybeimwrong
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

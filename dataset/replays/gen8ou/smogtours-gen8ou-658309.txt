@@ -1,0 +1,468 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1667155114
+|gametype|singles
+|player|p1|reyscarface|scientist|
+|player|p2|NeoNaruto®++|burglar-gen1rb|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Blissey, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Slowbro, M|
+|poke|p1|Buzzwole|
+|poke|p1|Nidoking, M|
+|poke|p1|Heatran, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Tapu Koko|
+|poke|p2|Dragonite, M|
+|poke|p2|Darmanitan, M|
+|poke|p2|Tyranitar, M|
+|teampreview
+|inactive|NeoNaruto®++ also wants the timer to be on.
+|inactive|reyscarface has 270 seconds left.
+|
+|t:|1667155173
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: RX PAPi|Ferrothorn, F|100/100
+|turn|1
+|
+|t:|1667155190
+|move|p1a: Tornadus|Knock Off|p2a: RX PAPi
+|-damage|p2a: RX PAPi|89/100
+|-damage|p1a: Tornadus|88/100|[from] ability: Iron Barbs|[of] p2a: RX PAPi
+|-damage|p1a: Tornadus|71/100|[from] item: Rocky Helmet|[of] p2a: RX PAPi
+|-enditem|p2a: RX PAPi|Rocky Helmet|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: RX PAPi|Leech Seed|p1a: Tornadus
+|-start|p1a: Tornadus|move: Leech Seed
+|
+|-damage|p1a: Tornadus|59/100|[from] Leech Seed|[of] p2a: RX PAPi
+|-heal|p2a: RX PAPi|100/100|[silent]
+|upkeep
+|turn|2
+|
+|t:|1667155205
+|move|p1a: Tornadus|U-turn|p2a: RX PAPi
+|-damage|p2a: RX PAPi|93/100
+|-damage|p1a: Tornadus|47/100|[from] ability: Iron Barbs|[of] p2a: RX PAPi
+|
+|t:|1667155207
+|switch|p1a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|move|p2a: RX PAPi|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-damage|p1a: Heatran|88/100|[from] Leech Seed|[of] p2a: RX PAPi
+|-heal|p2a: RX PAPi|100/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1667155217
+|switch|p2a: DA LAST REX(3005)|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: DA LAST REX(3005)
+|move|p1a: Heatran|Stealth Rock|p2a: DA LAST REX(3005)
+|-sidestart|p2: NeoNaruto®++|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|-damage|p1a: Heatran|82/100|[from] Leech Seed|[of] p2a: DA LAST REX(3005)
+|upkeep
+|turn|4
+|
+|t:|1667155229
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: DA LAST REX(3005)|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|78/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1667155237
+|move|p2a: DA LAST REX(3005)|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|60/100
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1667155242
+|switch|p1a: Buzzwole|Buzzwole|100/100|[from]move: Teleport
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Buzzwole|94/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1667155247
+|switch|p2a: Bernie Landers|Landorus-Therian, M|100/100
+|-damage|p2a: Bernie Landers|88/100|[from] Stealth Rock
+|-ability|p2a: Bernie Landers|Intimidate|boost
+|-unboost|p1a: Buzzwole|atk|1
+|move|p1a: Buzzwole|Close Combat|p2a: Bernie Landers
+|-resisted|p2a: Bernie Landers
+|-damage|p2a: Bernie Landers|76/100
+|-unboost|p1a: Buzzwole|def|1
+|-unboost|p1a: Buzzwole|spd|1
+|-damage|p1a: Buzzwole|78/100|[from] item: Rocky Helmet|[of] p2a: Bernie Landers
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Buzzwole|72/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1667155255
+|move|p2a: Bernie Landers|Stealth Rock|p1a: Buzzwole
+|-sidestart|p1: reyscarface|move: Stealth Rock
+|move|p1a: Buzzwole|Ice Punch|p2a: Bernie Landers
+|-supereffective|p2a: Bernie Landers
+|-damage|p2a: Bernie Landers|32/100
+|-damage|p1a: Buzzwole|55/100|[from] item: Rocky Helmet|[of] p2a: Bernie Landers
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1667155261
+|move|p2a: Bernie Landers|U-turn|p1a: Buzzwole
+|-resisted|p1a: Buzzwole
+|-damage|p1a: Buzzwole|47/100
+|-damage|p2a: Bernie Landers|16/100|[from] item: Rocky Helmet|[of] p1a: Buzzwole
+|
+|t:|1667155264
+|switch|p2a: RX PAPi|Ferrothorn, F|100/100|[from]move: U-turn
+|-damage|p2a: RX PAPi|94/100|[from] Stealth Rock
+|move|p1a: Buzzwole|Roost|p1a: Buzzwole
+|-heal|p1a: Buzzwole|97/100
+|-singleturn|p1a: Buzzwole|move: Roost
+|
+|upkeep
+|turn|9
+|
+|t:|1667155269
+|move|p1a: Buzzwole|Close Combat|p2a: RX PAPi
+|-supereffective|p2a: RX PAPi
+|-damage|p2a: RX PAPi|48/100
+|-unboost|p1a: Buzzwole|def|1
+|-unboost|p1a: Buzzwole|spd|1
+|-damage|p1a: Buzzwole|84/100|[from] ability: Iron Barbs|[of] p2a: RX PAPi
+|move|p2a: RX PAPi|Leech Seed|p1a: Buzzwole
+|-start|p1a: Buzzwole|move: Leech Seed
+|
+|-damage|p1a: Buzzwole|72/100|[from] Leech Seed|[of] p2a: RX PAPi
+|-heal|p2a: RX PAPi|63/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1667155274
+|switch|p1a: Heatran|Heatran, M|82/100
+|-damage|p1a: Heatran|69/100|[from] Stealth Rock
+|move|p2a: RX PAPi|Toxic|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|-heal|p1a: Heatran|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1667155278
+|switch|p2a: DA LAST REX(3005)|Tyranitar, M|100/100
+|-damage|p2a: DA LAST REX(3005)|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: DA LAST REX(3005)
+|move|p1a: Heatran|Magma Storm|p2a: DA LAST REX(3005)
+|-resisted|p2a: DA LAST REX(3005)
+|-damage|p2a: DA LAST REX(3005)|82/100
+|-activate|p2a: DA LAST REX(3005)|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|-damage|p2a: DA LAST REX(3005)|69/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1667155285
+|switch|p1a: Slowbro|Slowbro, M|93/100
+|-damage|p1a: Slowbro|80/100|[from] Stealth Rock
+|move|p2a: DA LAST REX(3005)|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|56/100|[from] Sandstorm
+|-end|p2a: DA LAST REX(3005)|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|13
+|
+|t:|1667155299
+|switch|p2a: RX PAPi|Ferrothorn, F|63/100
+|-damage|p2a: RX PAPi|57/100|[from] Stealth Rock
+|move|p1a: Slowbro|Body Press|p2a: RX PAPi
+|-supereffective|p2a: RX PAPi
+|-damage|p2a: RX PAPi|22/100
+|-damage|p1a: Slowbro|43/100|[from] ability: Iron Barbs|[of] p2a: RX PAPi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|37/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1667155313
+|switch|p1a: Heatran|Heatran, M|82/100
+|-damage|p1a: Heatran|69/100|[from] Stealth Rock
+|move|p2a: RX PAPi|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Heatran|76/100|[from] item: Leftovers
+|-damage|p1a: Heatran|63/100|[from] Leech Seed|[of] p2a: RX PAPi
+|-heal|p2a: RX PAPi|36/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1667155321
+|switch|p1a: Nidoking|Nidoking, M|100/100
+|-damage|p1a: Nidoking|95/100|[from] Stealth Rock
+|move|p2a: RX PAPi|Protect||[still]
+|-fail|p2a: RX PAPi
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1667155327
+|move|p2a: RX PAPi|Protect|p2a: RX PAPi
+|-singleturn|p2a: RX PAPi|Protect
+|move|p1a: Nidoking|Earth Power|p2a: RX PAPi
+|-activate|p2a: RX PAPi|move: Protect
+|
+|upkeep
+|turn|17
+|
+|t:|1667155331
+|switch|p2a: Bernie Landers|Landorus-Therian, M|16/100
+|-damage|p2a: Bernie Landers|4/100|[from] Stealth Rock
+|-ability|p2a: Bernie Landers|Intimidate|boost
+|-unboost|p1a: Nidoking|atk|1
+|move|p1a: Nidoking|Earth Power|p2a: Bernie Landers
+|-immune|p2a: Bernie Landers
+|
+|upkeep
+|turn|18
+|
+|t:|1667155336
+|move|p1a: Nidoking|Ice Beam|p2a: Bernie Landers
+|-supereffective|p2a: Bernie Landers
+|-damage|p2a: Bernie Landers|0 fnt
+|faint|p2a: Bernie Landers
+|
+|upkeep
+|
+|t:|1667155339
+|switch|p2a: DA LAST REX(3005)|Tyranitar, M|69/100
+|-damage|p2a: DA LAST REX(3005)|57/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: DA LAST REX(3005)
+|turn|19
+|
+|t:|1667155357
+|switch|p1a: Slowbro|Slowbro, M|70/100
+|-damage|p1a: Slowbro|58/100|[from] Stealth Rock
+|move|p2a: DA LAST REX(3005)|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|33/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1667155361
+|switch|p2a: VODECi|Tapu Koko|100/100
+|-damage|p2a: VODECi|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: VODECi
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1667155365
+|switch|p1a: Nidoking|Nidoking, M|95/100|[from]move: Teleport
+|-damage|p1a: Nidoking|89/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: VODECi|82/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1667155375
+|switch|p2a: DA LAST REX(3005)|Tyranitar, M|57/100
+|-damage|p2a: DA LAST REX(3005)|44/100|[from] Stealth Rock
+|move|p1a: Nidoking|Ice Beam|p2a: DA LAST REX(3005)
+|-damage|p2a: DA LAST REX(3005)|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1667155377
+|move|p1a: Nidoking|Earth Power|p2a: DA LAST REX(3005)
+|-supereffective|p2a: DA LAST REX(3005)
+|-damage|p2a: DA LAST REX(3005)|0 fnt
+|faint|p2a: DA LAST REX(3005)
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1667155380
+|switch|p2a: Fat Charizard|Dragonite, M, shiny|100/100
+|turn|23
+|inactive|reyscarface has 270 seconds left.
+|inactive|reyscarface has 240 seconds left.
+|
+|t:|1667155441
+|switch|p1a: Tornadus|Tornadus-Therian, M|80/100
+|move|p2a: Fat Charizard|Earthquake|p1a: Tornadus
+|-immune|p1a: Tornadus
+|
+|-weather|none
+|upkeep
+|turn|24
+|
+|t:|1667155449
+|switch|p2a: RX PAPi|Ferrothorn, F|36/100
+|-damage|p2a: RX PAPi|29/100|[from] Stealth Rock
+|move|p1a: Tornadus|Knock Off|p2a: RX PAPi
+|-damage|p2a: RX PAPi|21/100
+|-damage|p1a: Tornadus|67/100|[from] ability: Iron Barbs|[of] p2a: RX PAPi
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|25
+|
+|t:|1667155461
+|move|p1a: Tornadus|Hurricane|p2a: RX PAPi|[miss]
+|-miss|p1a: Tornadus|p2a: RX PAPi
+|move|p2a: RX PAPi|Spikes|p1a: Tornadus
+|-sidestart|p1: reyscarface|Spikes
+|
+|upkeep
+|turn|26
+|
+|t:|1667155465
+|move|p1a: Tornadus|Defog|p2a: RX PAPi
+|-unboost|p2a: RX PAPi|evasion|1
+|-sideend|p2: NeoNaruto®++|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|-sideend|p1: reyscarface|Spikes|[from] move: Defog|[of] p1a: Tornadus
+|-sideend|p1: reyscarface|Stealth Rock|[from] move: Defog|[of] p1a: Tornadus
+|move|p2a: RX PAPi|Leech Seed|p1a: Tornadus
+|-start|p1a: Tornadus|move: Leech Seed
+|
+|-damage|p1a: Tornadus|55/100|[from] Leech Seed|[of] p2a: RX PAPi
+|-heal|p2a: RX PAPi|34/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1667155469
+|switch|p1a: Heatran|Heatran, M|63/100
+|move|p2a: RX PAPi|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-heal|p1a: Heatran|69/100|[from] item: Leftovers
+|-damage|p1a: Heatran|57/100|[from] Leech Seed|[of] p2a: RX PAPi
+|-heal|p2a: RX PAPi|47/100|[silent]
+|upkeep
+|turn|28
+|
+|t:|1667155474
+|switch|p2a: Fat Charizard|Dragonite, M, shiny|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Fat Charizard
+|-sidestart|p2: NeoNaruto®++|move: Stealth Rock
+|
+|-heal|p1a: Heatran|63/100|[from] item: Leftovers
+|-damage|p1a: Heatran|51/100|[from] Leech Seed|[of] p2a: Fat Charizard
+|upkeep
+|turn|29
+|
+|t:|1667155479
+|switch|p1a: Tornadus|Tornadus-Therian, M|88/100
+|move|p2a: Fat Charizard|Earthquake|p1a: Tornadus
+|-immune|p1a: Tornadus
+|
+|upkeep
+|turn|30
+|
+|t:|1667155485
+|switch|p2a: RX PAPi|Ferrothorn, F|47/100
+|-damage|p2a: RX PAPi|41/100|[from] Stealth Rock
+|move|p1a: Tornadus|Hurricane|p2a: RX PAPi
+|-damage|p2a: RX PAPi|8/100
+|
+|upkeep
+|turn|31
+|
+|t:|1667155490
+|move|p1a: Tornadus|Knock Off|p2a: RX PAPi
+|-damage|p2a: RX PAPi|0 fnt
+|-damage|p1a: Tornadus|76/100|[from] ability: Iron Barbs|[of] p2a: RX PAPi
+|faint|p2a: RX PAPi
+|
+|upkeep
+|
+|t:|1667155492
+|switch|p2a: VODECi|Tapu Koko|82/100
+|-damage|p2a: VODECi|70/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: VODECi
+|turn|32
+|
+|t:|1667155497
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: VODECi|Dazzling Gleam|p1a: Blissey
+|-damage|p1a: Blissey|81/100
+|
+|upkeep
+|turn|33
+|
+|t:|1667155501
+|switch|p2a: PURRP FOR SALE|Darmanitan, M|100/100
+|-damage|p2a: PURRP FOR SALE|76/100|[from] Stealth Rock
+|move|p1a: Blissey|Toxic|p2a: PURRP FOR SALE
+|-status|p2a: PURRP FOR SALE|tox
+|
+|-damage|p2a: PURRP FOR SALE|70/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1667155511
+|switch|p1a: Buzzwole|Buzzwole|72/100
+|move|p2a: PURRP FOR SALE|U-turn|p1a: Buzzwole
+|-resisted|p1a: Buzzwole
+|-damage|p1a: Buzzwole|62/100
+|-damage|p2a: PURRP FOR SALE|53/100 tox|[from] item: Rocky Helmet|[of] p1a: Buzzwole
+|
+|t:|1667155513
+|switch|p2a: VODECi|Tapu Koko|70/100|[from]move: U-turn
+|-damage|p2a: VODECi|57/100|[from] Stealth Rock
+|
+|upkeep
+|turn|35
+|
+|t:|1667155516
+|switch|p1a: Blissey|Blissey, F|81/100
+|move|p2a: VODECi|Dazzling Gleam|p1a: Blissey
+|-damage|p1a: Blissey|60/100
+|
+|upkeep
+|turn|36
+|
+|t:|1667155518
+|switch|p2a: Fat Charizard|Dragonite, M, shiny|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|37
+|-message|NeoNaruto®++ forfeited.
+|
+|win|reyscarface

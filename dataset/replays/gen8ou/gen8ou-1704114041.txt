@@ -1,0 +1,338 @@
+|j|☆minimax_ai
+|j|☆zKally
+|t:|1667744764
+|gametype|singles
+|player|p1|minimax_ai|169|1628
+|player|p2|zKally|steven|1633
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Dragapult, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Clefable, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Magnezone|
+|poke|p2|Garchomp, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|j| Esquini11
+|c|☆zKally|hf
+|
+|t:|1667744777
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|turn|1
+|j| yemansosick
+|
+|t:|1667744785
+|move|p1a: landorustherian|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|72/100
+|move|p2a: Ferrothorn|Body Press|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|85/100
+|
+|-heal|p1a: landorustherian|91/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1667744787
+|move|p1a: landorustherian|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|-damage|p1a: landorustherian|79/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|t:|1667744787
+|switch|p1a: Tangrowth|Tangrowth, M|100/100|[from]move: U-turn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tangrowth
+|-immune|p1a: Tangrowth
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1667744794
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|86/100
+|
+|upkeep
+|turn|4
+|
+|t:|1667744798
+|switch|p1a: landorustherian|Landorus-Therian, M|79/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|move|p2a: Tornadus|Knock Off|p1a: landorustherian
+|-damage|p1a: landorustherian|67/100
+|-enditem|p1a: landorustherian|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|upkeep
+|turn|5
+|
+|t:|1667744804
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Tornadus|Hurricane|p1a: Heatran|[miss]
+|-miss|p2a: Tornadus|p1a: Heatran
+|
+|upkeep
+|turn|6
+|
+|t:|1667744808
+|move|p2a: Tornadus|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|86/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Eruption|p2a: Tornadus
+|-damage|p2a: Tornadus|16/100
+|
+|upkeep
+|turn|7
+|j| El Pogo Loco
+|
+|t:|1667744813
+|move|p2a: Tornadus|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|84/100
+|
+|t:|1667744816
+|switch|p2a: Garchomp|Garchomp, M|100/100|[from]move: U-turn
+|move|p1a: Heatran|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: zKally|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1667744824
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Garchomp|Toxic|p1a: Tangrowth
+|-status|p1a: Tangrowth|tox
+|
+|-damage|p1a: Tangrowth|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1667744828
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Garchomp|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1667744841
+|switch|p2a: Ferrothorn|Ferrothorn, F|72/100
+|-damage|p2a: Ferrothorn|66/100|[from] Stealth Rock
+|move|p1a: Melmetal|Ice Punch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|47/100
+|-damage|p1a: Melmetal|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|53/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1667744847
+|move|p1a: Melmetal|Ice Punch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|33/100
+|-damage|p1a: Melmetal|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Melmetal
+|-start|p1a: Melmetal|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|39/100|[from] item: Leftovers
+|-damage|p1a: Melmetal|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|55/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1667744856
+|switch|p1a: landorustherian|Landorus-Therian, M|67/100
+|-damage|p1a: landorustherian|54/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Ferrothorn|atk|1
+|move|p2a: Ferrothorn|Body Press|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|40/100
+|
+|-heal|p2a: Ferrothorn|61/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1667744858
+|move|p1a: landorustherian|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: landorustherian
+|-start|p1a: landorustherian|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|42/100|[from] item: Leftovers
+|-damage|p1a: landorustherian|28/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|55/100|[silent]
+|upkeep
+|turn|14
+|
+|t:|1667744863
+|move|p1a: landorustherian|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|41/100
+|-damage|p1a: landorustherian|16/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|t:|1667744863
+|switch|p1a: Tangrowth|Tangrowth, M|100/100 tox|[from]move: U-turn
+|-damage|p1a: Tangrowth|88/100 tox|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Tangrowth
+|-sidestart|p1: minimax_ai|Spikes
+|
+|-heal|p2a: Ferrothorn|48/100|[from] item: Leftovers
+|-damage|p1a: Tangrowth|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1667744867
+|switch|p2a: Tornadus|Tornadus-Therian, M|50/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|33/100
+|
+|-damage|p1a: Tangrowth|70/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1667744875
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|move|p2a: Tornadus|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|73/100
+|
+|t:|1667744891
+|switch|p2a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|
+|-heal|p1a: rotomwash|79/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1667744894
+|move|p1a: rotomwash|Hydro Pump|p2a: Magnezone
+|-damage|p2a: Magnezone|42/100
+|move|p2a: Magnezone|Volt Switch|p1a: rotomwash
+|-damage|p1a: rotomwash|24/100
+|
+|t:|1667744901
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|-heal|p1a: rotomwash|30/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1667744906
+|switch|p1a: landorustherian|Landorus-Therian, M|16/100
+|-damage|p1a: landorustherian|3/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|move|p2a: Dragapult|U-turn|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|t:|1667744913
+|switch|p2a: Tornadus|Tornadus-Therian, M|67/100|[from]move: U-turn
+|
+|upkeep
+|
+|t:|1667744914
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-damage|p1a: Weavile|63/100|[from] Spikes
+|-ability|p1a: Weavile|Pressure
+|turn|19
+|
+|t:|1667744921
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Weavile|Triple Axel|p2a: Clefable
+|-damage|p2a: Clefable|88/100
+|-damage|p2a: Clefable|63/100
+|-damage|p2a: Clefable|24/100
+|-hitcount|p2a: Clefable|3
+|
+|-heal|p2a: Clefable|30/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|zKally has 120 seconds left.
+|inactive|zKally has 90 seconds left.
+|
+|t:|1667744987
+|switch|p2a: Ferrothorn|Ferrothorn, F|48/100
+|-damage|p2a: Ferrothorn|41/100|[from] Stealth Rock
+|move|p1a: Weavile|Triple Axel|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|32/100
+|-damage|p1a: Weavile|51/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|15/100
+|-damage|p1a: Weavile|38/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Weavile|26/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|-hitcount|p2: Ferrothorn|3
+|
+|upkeep
+|inactive|zKally has 60 seconds left.
+|
+|t:|1667745019
+|switch|p2a: Magnezone|Magnezone|42/100
+|-damage|p2a: Magnezone|36/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1667745021
+|move|p1a: Weavile|Triple Axel|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|27/100
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|12/100
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|-hitcount|p2: Magnezone|3
+|
+|upkeep
+|
+|t:|1667745028
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1667745031
+|move|p1a: Weavile|Triple Axel|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|36/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-hitcount|p2: Dragapult|2
+|
+|upkeep
+|-message|zKally forfeited.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1628 &rarr; <strong>1648</strong><br />(+20 for winning)
+|raw|zKally's rating: 1633 &rarr; <strong>1613</strong><br />(-20 for losing)
+|c|☆minimax_ai|gg
+|l|☆zKally

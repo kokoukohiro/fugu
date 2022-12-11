@@ -1,0 +1,234 @@
+|j|☆LudwigFrog
+|j|☆moo5 9
+|t:|1636404356
+|gametype|singles
+|player|p1|LudwigFrog|hilbert-wonderlauncher|1589
+|player|p2|moo5 9|266|1524
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Weavile, F|
+|poke|p1|Magnezone|
+|poke|p1|Tapu Fini|
+|poke|p1|Volcarona, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p2|Kartana|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Weavile, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LudwigFrog)
+|
+|t:|1636404382
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|1
+|
+|t:|1636404394
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|move|p1a: Tornadus|Hurricane|p2a: Landorus|[miss]
+|-miss|p1a: Tornadus|p2a: Landorus
+|
+|upkeep
+|turn|2
+|
+|t:|1636404398
+|move|p1a: Tornadus|Taunt|p2a: Landorus
+|-start|p2a: Landorus|move: Taunt
+|cant|p2a: Landorus|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1636404402
+|move|p1a: Tornadus|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|59/100
+|move|p2a: Landorus|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|88/100
+|
+|t:|1636404407
+|switch|p2a: Weavile|Weavile, M|100/100|[from]move: U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|4
+|
+|t:|1636404411
+|move|p2a: Weavile|Knock Off|p1a: Tornadus
+|-damage|p1a: Tornadus|35/100
+|-enditem|p1a: Tornadus|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Tornadus|U-turn|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|66/100
+|
+|t:|1636404418
+|switch|p1a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1636404424
+|switch|p2a: Landorus|Landorus-Therian, M|59/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magnezone|atk|1
+|move|p1a: Magnezone|Flash Cannon|p2a: Landorus
+|-damage|p2a: Landorus|13/100
+|
+|-heal|p2a: Landorus|19/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1636404427
+|switch|p1a: Tornadus|Tornadus-Therian, M|68/100
+|move|p2a: Landorus|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: LudwigFrog|move: Stealth Rock
+|
+|-heal|p2a: Landorus|25/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1636404431
+|move|p1a: Tornadus|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1636404433
+|switch|p2a: Weavile|Weavile, M|66/100
+|-ability|p2a: Weavile|Pressure
+|turn|8
+|
+|t:|1636404436
+|move|p2a: Weavile|Triple Axel|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|46/100
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|2/100
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-hitcount|p1: Tornadus|3
+|
+|upkeep
+|
+|t:|1636404441
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1636404449
+|move|p2a: Weavile|Low Kick|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|36/100
+|move|p1a: Magnezone|Volt Switch|p2a: Weavile
+|-damage|p2a: Weavile|19/100
+|
+|t:|1636404457
+|switch|p1a: Weavile|Weavile, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Weavile|Pressure
+|
+|upkeep
+|turn|10
+|
+|t:|1636404463
+|move|p2a: Weavile|Low Kick|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1636404467
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|11
+|
+|t:|1636404475
+|move|p2a: Weavile|Knock Off|p1a: Volcarona
+|-damage|p1a: Volcarona|35/100
+|-enditem|p1a: Volcarona|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1636404479
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|85/100
+|-singleturn|p1a: Volcarona|move: Roost
+|move|p2a: Weavile|Triple Axel|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|79/100
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|66/100
+|-status|p2a: Weavile|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|-hitcount|p1a: Volcarona|2
+|
+|-damage|p2a: Weavile|13/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1636404490
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p1a: Volcarona|Roost|p1a: Volcarona
+|-heal|p1a: Volcarona|100/100
+|-singleturn|p1a: Volcarona|move: Roost
+|
+|upkeep
+|turn|14
+|l|☆moo5 9
+|inactive|moo5 9 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|moo5 9 has 30 seconds to reconnect!
+|inactive|moo5 9 has 20 seconds to reconnect!
+|j|☆moo5 9
+|inactive|moo5 9 reconnected and has 85 seconds left.
+|player|p2|moo5 9|266
+|
+|t:|1636404557
+|move|p1a: Volcarona|Flamethrower|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|56/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|28/100
+|-status|p2a: Urshifu|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|-hitcount|p1: Volcarona|2
+|
+|-damage|p2a: Urshifu|49/100 brn|[from] brn
+|upkeep
+|-message|LudwigFrog forfeited.
+|
+|win|moo5 9
+|raw|LudwigFrog's rating: 1589 &rarr; <strong>1565</strong><br />(-24 for losing)
+|raw|moo5 9's rating: 1524 &rarr; <strong>1548</strong><br />(+24 for winning)
+|l|☆LudwigFrog
+|l|☆moo5 9
+||Ladder isn't responding, score probably updated but might not have (Request timeout).
+|j|☆moo5 9
+|player|p2|moo5 9|266

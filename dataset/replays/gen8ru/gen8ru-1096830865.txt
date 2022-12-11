@@ -1,0 +1,344 @@
+|j|☆caio_nlink
+|j|☆plavns
+|player|p1|caio_nlink|hilbert|1246
+|player|p2|plavns|102|1339
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Charizard, F|
+|poke|p1|Silvally-*|
+|poke|p1|Steelix, F|
+|poke|p1|Claydol|
+|poke|p1|Leafeon, F|
+|poke|p2|Ninetales, F|
+|poke|p2|Charizard, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Xatu, M|
+|poke|p2|Silvally-*|
+|poke|p2|Bewear, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by plavns)
+|
+|start
+|switch|p1a: Charizard|Charizard, F|100/100
+|switch|p2a: Silvally|Silvally-Dragon|100/100
+|turn|1
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|move|p2a: Silvally|Multi-Attack|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|92/100
+|
+|-heal|p1a: Steelix|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Silvally|U-turn|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|95/100
+|
+|switch|p2a: Xatu|Xatu, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Silvally|Silvally-Dragon|100/100
+|move|p1a: Charizard|Flamethrower|p2a: Silvally
+|-resisted|p2a: Silvally
+|-crit|p2a: Silvally
+|-damage|p2a: Silvally|79/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Steelix|Steelix, F|98/100
+|move|p2a: Silvally|U-turn|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|95/100
+|
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Charizard|Charizard, F|95/100
+|move|p2a: Rillaboom|U-turn|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|83/100
+|
+|switch|p2a: Silvally|Silvally-Dragon|79/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|inactive|caio_nlink has 120 seconds left.
+|
+|move|p1a: Charizard|Air Slash|p2a: Silvally
+|-damage|p2a: Silvally|56/100
+|cant|p2a: Silvally|flinch
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Charizard|Air Slash|p2a: Silvally
+|-damage|p2a: Silvally|35/100
+|cant|p2a: Silvally|flinch
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Charizard|Air Slash|p2a: Silvally
+|-damage|p2a: Silvally|13/100
+|move|p2a: Silvally|Multi-Attack|p1a: Charizard
+|-damage|p1a: Charizard|32/100
+|
+|upkeep
+|turn|9
+|inactive|caio_nlink has 120 seconds left.
+|
+|move|p1a: Charizard|Air Slash|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|10
+|
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Ninetales|Weather Ball|p1a: Claydol
+|-damage|p1a: Claydol|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Claydol|62/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Claydol|Earth Power|p2a: Xatu
+|-immune|p2a: Xatu
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Claydol|68/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Xatu|U-turn|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|49/100
+|
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from]move: U-turn
+|move|p1a: Claydol|Psychic|p2a: Rillaboom
+|-damage|p2a: Rillaboom|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Claydol|55/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|caio_nlink has 120 seconds left.
+|
+|move|p2a: Rillaboom|Knock Off|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|-enditem|p1a: Claydol|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|faint|p1a: Claydol
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|caio_nlink has 120 seconds left.
+|inactive|caio_nlink has 90 seconds left.
+|
+|switch|p1a: Leafeon|Leafeon, F|100/100
+|turn|14
+|
+|switch|p2a: Bewear|Bewear, F|100/100
+|move|p1a: Leafeon|Weather Ball|p2a: Bewear
+|-damage|p2a: Bewear|68/100
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|move|p2a: Bewear|Close Combat|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-crit|p1a: Steelix
+|-damage|p1a: Steelix|17/100
+|-unboost|p2a: Bewear|def|1
+|-unboost|p2a: Bewear|spd|1
+|
+|-heal|p1a: Steelix|24/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|caio_nlink has 90 seconds left.
+|
+|move|p2a: Bewear|Close Combat|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|-unboost|p2a: Bewear|def|1
+|-unboost|p2a: Bewear|spd|1
+|faint|p1a: Steelix
+|
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|17
+|inactive|caio_nlink has 90 seconds left.
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Ninetales|Weather Ball|p2a: Xatu
+|-damage|p2a: Xatu|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|inactive|caio_nlink has 90 seconds left.
+|c|☆plavns|This was definitely the wrong sac i think
+|inactive|caio_nlink has 60 seconds left.
+|
+|move|p1a: Ninetales|Weather Ball|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|faint|p2a: Xatu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|19
+|inactive|caio_nlink has 60 seconds left.
+|
+|move|p2a: Charizard|Weather Ball|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|4/100
+|move|p1a: Ninetales|Weather Ball|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|52/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|20
+|inactive|caio_nlink has 30 seconds left.
+|
+|switch|p1a: Charizard|Charizard, F|32/100
+|move|p2a: Charizard|Weather Ball|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|40/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|inactive|caio_nlink has 30 seconds left.
+|
+|switch|p1a: Leafeon|Leafeon, F|100/100
+|turn|21
+|
+|move|p1a: Leafeon|Knock Off|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-enditem|p2a: Charizard|Choice Specs|[from] move: Knock Off|[of] p1a: Leafeon
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Bewear|Bewear, F|68/100
+|turn|22
+|inactive|caio_nlink has 30 seconds left.
+|
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade|p2a: Bewear
+|-anim|p1a: Leafeon|Solar Blade|p2a: Bewear
+|-damage|p2a: Bewear|30/100
+|move|p2a: Bewear|Close Combat|p1a: Leafeon
+|-damage|p1a: Leafeon|34/100
+|-unboost|p2a: Bewear|def|1
+|-unboost|p2a: Bewear|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|inactive|caio_nlink has 30 seconds left.
+|
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade|p2a: Bewear
+|-anim|p1a: Leafeon|Solar Blade|p2a: Bewear
+|-damage|p2a: Bewear|0 fnt
+|faint|p2a: Bewear
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|caio_nlink has 30 seconds left this turn.
+|
+|switch|p2a: Rillaboom|Rillaboom, F|71/100
+|turn|24
+|inactive|caio_nlink has 30 seconds left.
+|
+|move|p1a: Leafeon|Weather Ball|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|17/100
+|move|p2a: Rillaboom|U-turn|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-crit|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|inactive|caio_nlink has 30 seconds left this turn.
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|inactive|caio_nlink has 30 seconds left.
+|
+|switch|p1a: Silvally|Silvally-Ice|100/100
+|turn|25
+|c|☆caio_nlink|gg
+|
+|switch|p2a: Rillaboom|Rillaboom, F|17/100
+|move|p1a: Silvally|Multi-Attack|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|26
+|c|☆plavns|Gg
+|
+|move|p2a: Ninetales|Weather Ball|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-crit|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, M|4/100
+|turn|27
+|
+|move|p2a: Ninetales|Weather Ball|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|win|plavns
+|raw|caio_nlink's rating: 1247 &rarr; <strong>1228</strong><br />(-19 for losing)
+|raw|plavns's rating: 1339 &rarr; <strong>1354</strong><br />(+15 for winning)

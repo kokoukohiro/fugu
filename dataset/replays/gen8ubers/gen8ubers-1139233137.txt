@@ -1,0 +1,192 @@
+|j|☆Xintou-test
+|j|☆LT Ubers
+|player|p1|Xintou-test|265|1614
+|player|p2|LT Ubers|lance-gen1rb|1487
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Lunala|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Tangrowth, M|
+|poke|p1|Heracross, M|
+|poke|p1|Kyurem-White|
+|poke|p2|Tyranitar, F|
+|poke|p2|Dugtrio, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Eternatus|
+|poke|p2|Necrozma-Dusk-Mane|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Xintou-test)
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|1
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Dugtrio
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|2
+|
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|-start|p1a: Cinderace|Dynamax
+|-formechange|p1a: Cinderace|Cinderace-Gmax
+|-heal|p1a: Cinderace|100/100|[silent]
+|move|p1a: Cinderace|G-Max Fire Ball|p2a: Eternatus
+|-start|p1a: Cinderace|typechange|Fire|[from] ability: Libero
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|73/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Cinderace
+|-damage|p1a: Cinderace|21/100
+|move|p1a: Cinderace|Max Mindstorm|p2a: Eternatus
+|-start|p1a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|-fieldstart|move: Psychic Terrain
+|faint|p2a: Eternatus
+|
+|upkeep
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|turn|4
+|
+|move|p1a: Cinderace|G-Max Fire Ball|p2a: Necrozma
+|-start|p1a: Cinderace|typechange|Fire|[from] ability: Libero
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|40/100
+|move|p2a: Necrozma|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-enditem|p1a: Cinderace|Choice Band|[from] move: Knock Off|[of] p2a: Necrozma
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Necrozma|46/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Lunala|Lunala|100/100
+|turn|5
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Lunala|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|45/100
+|-unboost|p2a: Tyranitar|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lunala|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|51/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Lunala|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lunala|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|7
+|
+|move|p1a: Lunala|Moongeist Beam|p2a: Volcarona
+|-damage|p2a: Volcarona|56/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|50/100|[from] Sandstorm
+|-damage|p1a: Lunala|82/100|[from] Sandstorm
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|8
+|
+|-start|p2a: Volcarona|Dynamax
+|-heal|p2a: Volcarona|50/100|[silent]
+|move|p2a: Volcarona|Max Flutterby|p1a: Lunala
+|-damage|p1a: Lunala|4/100
+|-unboost|p1a: Lunala|spa|1
+|move|p1a: Lunala|Moongeist Beam|p2a: Volcarona
+|-damage|p2a: Volcarona|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|36/100|[from] Sandstorm
+|-damage|p1a: Lunala|0 fnt|[from] Sandstorm
+|faint|p1a: Lunala
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem-White|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|turn|9
+|
+|move|p2a: Volcarona|Max Flare|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Kyurem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Heracross|Heracross, M|100/100
+|turn|10
+|
+|move|p2a: Volcarona|Max Flare|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Volcarona|Dynamax
+|-heal|p2a: Volcarona|36/100|[silent]
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|turn|11
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|turn|12
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|win|LT Ubers
+|l|☆Xintou-test
+|raw|Xintou-test's rating: 1614 &rarr; <strong>1587</strong><br />(-27 for losing)
+|raw|LT Ubers's rating: 1487 &rarr; <strong>1514</strong><br />(+27 for winning)

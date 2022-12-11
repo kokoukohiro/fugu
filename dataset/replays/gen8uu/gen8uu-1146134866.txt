@@ -1,0 +1,366 @@
+|j|☆grovyleisbest
+|j|☆Bamarah
+|player|p1|grovyleisbest|steven|1364
+|player|p2|Bamarah|eusine-gen2|1383
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Rhyperior, M|
+|poke|p1|Chandelure, M|
+|poke|p1|Scolipede, M|
+|poke|p1|Milotic, M|
+|poke|p1|Sirfetch’d, F|
+|poke|p2|Noivern, M|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Darmanitan, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Skarmory, M|
+|poke|p2|Blissey, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by grovyleisbest)
+|inactive|Bamarah also wants the timer to be on.
+|
+|start
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Darmanitan|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|83/100
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100|[from]move: U-turn
+|move|p1a: Rhyperior|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: Bamarah|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|90/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Milotic|Milotic, M|100/100
+|move|p2a: Keldeo|Surf|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|85/100
+|-damage|p2a: Keldeo|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Milotic
+|-damage|p1a: Milotic|25/100
+|-damage|p2a: Keldeo|81/100|[from] item: Life Orb
+|move|p1a: Milotic|Flip Turn|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-crit|p2a: Keldeo
+|-damage|p2a: Keldeo|70/100
+|
+|switch|p1a: Sirfetch’d|Sirfetch’d, F|100/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Keldeo|Surf|p1a: Sirfetch’d
+|-damage|p1a: Sirfetch’d|26/100
+|-damage|p2a: Keldeo|60/100|[from] item: Life Orb
+|move|p1a: Sirfetch’d|Close Combat|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-unboost|p1a: Sirfetch’d|def|1
+|-unboost|p1a: Sirfetch’d|spd|1
+|faint|p2a: Keldeo
+|
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p1a: Milotic|Milotic, M|25/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Milotic
+|-damage|p1a: Milotic|2/100
+|
+|-heal|p1a: Milotic|8/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|upkeep
+|
+|switch|p1a: Rhyperior|Rhyperior, M|90/100
+|turn|7
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Rhyperior|Swords Dance|p1a: Rhyperior
+|-boost|p1a: Rhyperior|atk|2
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|96/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|move|p1a: Rhyperior|Rock Blast|p2a: Skarmory
+|-damage|p2a: Skarmory|82/100
+|-damage|p2a: Skarmory|70/100
+|-damage|p2a: Skarmory|58/100
+|-damage|p2a: Skarmory|47/100
+|-damage|p2a: Skarmory|37/100
+|-hitcount|p2a: Skarmory|5
+|
+|-heal|p2a: Skarmory|43/100|[from] item: Leftovers
+|-heal|p1a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|move|p1a: Rhyperior|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|-heal|p2a: Skarmory|49/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|j| angrrry
+|
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|move|p1a: Rhyperior|Swords Dance|p1a: Rhyperior
+|-boost|p1a: Rhyperior|atk|2
+|
+|-heal|p2a: Skarmory|55/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Skarmory|Body Press|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-heal|p2a: Skarmory|61/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|move|p1a: Chandelure|Trick|p2a: Blissey
+|-activate|p1a: Chandelure|move: Trick|[of] p2a: Blissey
+|-item|p2a: Blissey|Choice Specs|[from] move: Trick
+|-item|p1a: Chandelure|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|move|p2a: Blissey|Thunder Wave|p1a: Weezing
+|-status|p1a: Weezing|par
+|
+|upkeep
+|turn|14
+|inactive|Bamarah has 120 seconds left.
+|
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|100/100
+|-damage|p2a: Darmanitan|75/100|[from] Stealth Rock
+|cant|p1a: Weezing|par
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|move|p2a: Darmanitan|U-turn|p1a: Rhyperior
+|-damage|p1a: Rhyperior|83/100
+|inactive|Bamarah has 90 seconds left.
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|76/100|[from]move: U-turn
+|-damage|p2a: Chandelure|51/100|[from] Stealth Rock
+|
+|-heal|p1a: Rhyperior|89/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Chandelure|Energy Ball|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|
+|switch|p1a: Scolipede|Scolipede, M|100/100
+|turn|17
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|61/100
+|-damage|p2a: Skarmory|48/100|[from] Stealth Rock
+|move|p1a: Scolipede|Swords Dance|p1a: Scolipede
+|-boost|p1a: Scolipede|atk|2
+|
+|-heal|p2a: Skarmory|54/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|18
+|
+|move|p1a: Scolipede|Megahorn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|29/100
+|-damage|p1a: Scolipede|91/100|[from] item: Life Orb
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|79/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-heal|p2a: Skarmory|85/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|19
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|-heal|p2a: Skarmory|91/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Blissey|Blissey, F, shiny|88/100
+|-damage|p2a: Blissey|76/100|[from] Stealth Rock
+|move|p1a: Chandelure|Fire Blast|p2a: Blissey
+|-damage|p2a: Blissey|59/100
+|-status|p2a: Blissey|brn
+|
+|-damage|p2a: Blissey|52/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100 par
+|move|p2a: Blissey|Seismic Toss|p1a: Weezing
+|-damage|p1a: Weezing|70/100 par
+|
+|-heal|p1a: Weezing|76/100 par|[from] item: Black Sludge
+|-damage|p2a: Blissey|46/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-damage|p2a: Blissey|40/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Blissey
+|-immune|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-damage|p2a: Blissey|34/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Blissey
+|-immune|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-damage|p2a: Blissey|28/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Blissey
+|-immune|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-damage|p2a: Blissey|22/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Blissey
+|-immune|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-damage|p2a: Blissey|15/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Blissey
+|-immune|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-damage|p2a: Blissey|9/100 brn|[from] brn
+|upkeep
+|turn|28
+|inactive|Bamarah has 90 seconds left.
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Blissey
+|-immune|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-damage|p2a: Blissey|3/100 brn|[from] brn
+|upkeep
+|turn|29
+|inactive|Bamarah has 90 seconds left.
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Blissey
+|-immune|p2a: Blissey
+|move|p2a: Blissey|Seismic Toss|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-damage|p2a: Blissey|0 fnt|[from] brn
+|faint|p2a: Blissey
+|upkeep
+|inactive|Bamarah has 90 seconds left.
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|51/100
+|-damage|p2a: Chandelure|26/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p1a: Weezing|Weezing-Galar, F|76/100 par
+|move|p2a: Chandelure|Shadow Ball|p1a: Weezing
+|-damage|p1a: Weezing|19/100 par
+|
+|-heal|p1a: Weezing|25/100 par|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Sirfetch’d|Sirfetch’d, F|26/100
+|turn|32
+|
+|move|p1a: Sirfetch’d|First Impression|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|8/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Sirfetch’d
+|-damage|p1a: Sirfetch’d|0 fnt
+|faint|p1a: Sirfetch’d
+|
+|upkeep
+|
+|switch|p1a: Scolipede|Scolipede, M|91/100
+|turn|33
+|-message|grovyleisbest forfeited.
+|
+|win|Bamarah
+|l|☆grovyleisbest

@@ -1,0 +1,338 @@
+|j|☆MetaMenace
+|j|☆testotesto321
+|player|p1|MetaMenace|290|1739
+|player|p2|testotesto321|bellelba|1750
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Urshifu, M|
+|poke|p1|Magnezone|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Vaporeon, F|
+|poke|p1|Mamoswine, M|
+|poke|p2|Alakazam, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Hippowdon, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Toxapex, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| DR4GON D4NCE
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|j| Z the Immortal
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Mamoswine|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|30/100
+|move|p2a: Mandibuzz|U-turn|p1a: Mamoswine
+|-damage|p1a: Mamoswine|88/100
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|51/100
+|move|p2a: Hippowdon|Earthquake|p1a: Mamoswine
+|-damage|p1a: Mamoswine|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|58/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Mamoswine|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: testotesto321|move: Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Mamoswine
+|-damage|p1a: Mamoswine|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j| The Heatbender
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|6
+|
+|move|p2a: Cinderace|U-turn|p1a: Mamoswine
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|j| qaqhx
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|84/100
+|
+|switch|p1a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|
+|-heal|p2a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|l| qaqhx
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Magnezone|Thunderbolt|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|39/100
+|
+|upkeep
+|turn|9
+|j| Poirepi3
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Dragapult|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|71/100
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|79/100
+|
+|-heal|p1a: Vaporeon|85/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|j| Sailor Neub
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MetaMenace)
+|
+|move|p2a: Cinderace|U-turn|p1a: Vaporeon
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Vaporeon|61/100
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100|[from]move: U-turn
+|move|p1a: Vaporeon|Flip Turn|p2a: Alakazam
+|-damage|p2a: Alakazam|68/100
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|71/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|12
+|j| Nartey
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Cinderace|Gunk Shot|p1a: Mandibuzz
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-damage|p1a: Mandibuzz|58/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|70/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|14
+|j| Nada1998
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Weezing
+|-start|p2a: Cinderace|typechange|Fire|[from] ability: Libero
+|-damage|p1a: Weezing|60/100
+|
+|upkeep
+|turn|15
+|l| Nada1998
+|
+|move|p2a: Cinderace|Gunk Shot|p1a: Weezing
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-damage|p1a: Weezing|20/100
+|move|p1a: Weezing|Pain Split|p2a: Cinderace
+|-sethp|p2a: Cinderace|46/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|41/100|[from] move: Pain Split
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Cinderace|Gunk Shot|p1a: Weezing
+|-damage|p1a: Weezing|6/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|26/100
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Weezing
+|-start|p2a: Cinderace|typechange|Fire|[from] ability: Libero
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|61/100
+|turn|18
+|
+|move|p2a: Cinderace|U-turn|p1a: Vaporeon
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Vaporeon|37/100
+|j| kthuloutre
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100|[from]move: U-turn
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|44/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Toxapex|Toxic|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|94/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|99/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|j| ronartesting
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|switch|p2a: Alakazam|Alakazam, M|68/100
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|58/100
+|move|p2a: Alakazam|Focus Blast|p1a: Mandibuzz|[miss]
+|-miss|p2a: Alakazam|p1a: Mandibuzz
+|
+|upkeep
+|turn|22
+|j| Shellnuts
+|j| Le chat 99
+|l| kthuloutre
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|23/100
+|-unboost|p1a: Mandibuzz|spd|1
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|73/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|23
+|l| Shellnuts
+|j| Commando 55
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|23/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|-enditem|p2a: Alakazam|Life Orb|[from] move: Knock Off|[of] p1a: Mandibuzz
+|faint|p2a: Alakazam
+|
+|upkeep
+|j| ElEV4TE
+|
+|switch|p2a: Cinderace|Cinderace, M|26/100
+|-damage|p2a: Cinderace|1/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p1a: Vaporeon|Vaporeon, F|99/100
+|move|p2a: Cinderace|Gunk Shot|p1a: Vaporeon
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-damage|p1a: Vaporeon|60/100
+|
+|-heal|p1a: Vaporeon|66/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Cinderace|U-turn|p1a: Vaporeon
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Vaporeon|40/100
+|
+|switch|p2a: Dragapult|Dragapult, F|39/100|[from]move: U-turn
+|-damage|p2a: Dragapult|26/100|[from] Stealth Rock
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|47/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Dragapult|Dragon Darts|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|97/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|-message|testotesto321 forfeited.
+|
+|win|MetaMenace
+|l|☆testotesto321
+|raw|MetaMenace's rating: 1739 &rarr; <strong>1760</strong><br />(+21 for winning)
+|raw|testotesto321's rating: 1750 &rarr; <strong>1730</strong><br />(-20 for losing)
+|l| Nartey
+|l| Commando 55
+|l| ronartesting
+|j| Commando 55
+|l| Sailor Neub
+|l| Commando 55
+|l| Le chat 99
+|l| Poirepi3
+|l| The Heatbender
+|j| x555
+|j| sedg
+|l| sedg

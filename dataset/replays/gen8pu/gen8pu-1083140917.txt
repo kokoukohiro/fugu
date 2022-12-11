@@ -1,0 +1,264 @@
+|j|☆Carrot Flowers
+|j|☆Today's weather
+|player|p1|Carrot Flowers|gardenia|1440
+|player|p2|Today's weather|olivia|1367
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Pawniard, F|
+|poke|p1|Raichu, M|
+|poke|p1|Type: Null|
+|poke|p1|Arctovish|
+|poke|p1|Silvally-*|
+|poke|p1|Ninjask, M|
+|poke|p2|Mawile, F|
+|poke|p2|Gourgeist-*, M|
+|poke|p2|Ninjask, M|
+|poke|p2|Hattrem, F|
+|poke|p2|Lapras, F|
+|poke|p2|Manectric, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pawniard|Pawniard, F|100/100
+|switch|p2a: Ninjask|Ninjask, M|100/100
+|turn|1
+|
+|move|p2a: Ninjask|U-turn|p1a: Pawniard
+|-damage|p1a: Pawniard|33/100
+|
+|switch|p2a: Lapras|Lapras, F|100/100|[from]move: U-turn
+|move|p1a: Pawniard|Swords Dance|p1a: Pawniard
+|-boost|p1a: Pawniard|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Pawniard|Beat Up|p2a: Lapras
+|-damage|p2a: Lapras|90/100
+|-damage|p2a: Lapras|78/100
+|-damage|p2a: Lapras|67/100
+|-damage|p2a: Lapras|55/100
+|-damage|p2a: Lapras|43/100
+|-damage|p2a: Lapras|32/100
+|-hitcount|p2a: Lapras|6
+|move|p2a: Lapras|Surf|p1a: Pawniard
+|-damage|p1a: Pawniard|0 fnt
+|faint|p1a: Pawniard
+|
+|-heal|p2a: Lapras|39/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Arctovish|Arctovish|100/100
+|turn|3
+|
+|switch|p2a: Mawile|Mawile, F|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Arctovish|atk|1
+|move|p1a: Arctovish|Substitute|p1a: Arctovish
+|-start|p1a: Arctovish|Substitute
+|-damage|p1a: Arctovish|76/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Arctovish|Fishious Rend|p2a: Mawile
+|-damage|p2a: Mawile|60/100
+|-damage|p1a: Arctovish|59/100|[from] item: Rocky Helmet|[of] p2a: Mawile
+|move|p2a: Mawile|Stealth Rock|p1a: Arctovish
+|-sidestart|p1: Carrot Flowers|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Arctovish|Fishious Rend|p2a: Mawile
+|-damage|p2a: Mawile|11/100
+|-damage|p1a: Arctovish|43/100|[from] item: Rocky Helmet|[of] p2a: Mawile
+|move|p2a: Mawile|Play Rough|p1a: Arctovish
+|-end|p1a: Arctovish|Substitute
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100
+|-item|p1a: Arctovish|Metronome|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Arctovish|Stone Edge|p2a: Gourgeist
+|-damage|p2a: Gourgeist|83/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Type: Null|Type: Null|100/100
+|-damage|p1a: Type: Null|88/100|[from] Stealth Rock
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Type: Null
+|-status|p1a: Type: Null|brn
+|
+|-damage|p1a: Type: Null|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Mawile|Mawile, F|11/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Type: Null|atk|1
+|move|p1a: Type: Null|U-turn|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|10/100
+|-damage|p1a: Type: Null|65/100 brn|[from] item: Rocky Helmet|[of] p2a: Mawile
+|
+|switch|p1a: Silvally|Silvally-Ground|100/100|[from]move: U-turn
+|-damage|p1a: Silvally|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|-damage|p1a: Silvally|78/100|[from] item: Rocky Helmet|[of] p2a: Mawile
+|faint|p2a: Mawile
+|
+|upkeep
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|83/100
+|-item|p1a: Silvally|Ground Memory|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|10
+|
+|move|p1a: Silvally|U-turn|p2a: Gourgeist
+|-damage|p2a: Gourgeist|67/100
+|
+|switch|p1a: Type: Null|Type: Null|65/100 brn|[from]move: U-turn
+|-damage|p1a: Type: Null|53/100 brn|[from] Stealth Rock
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Type: Null
+|-fail|p1a: Type: Null|brn
+|
+|-damage|p1a: Type: Null|47/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Gourgeist|Power Whip|p1a: Type: Null|[miss]
+|-miss|p2a: Gourgeist|p1a: Type: Null
+|move|p1a: Type: Null|Rest|p1a: Type: Null
+|-status|p1a: Type: Null|slp|[from] move: Rest
+|-heal|p1a: Type: Null|100/100 slp|[silent]
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|100/100
+|cant|p1a: Type: Null|slp
+|move|p1a: Type: Null|Sleep Talk|p1a: Type: Null
+|move|p1a: Type: Null|Tri Attack|p2a: Gourgeist|[from]Sleep Talk
+|-immune|p2a: Gourgeist
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Gourgeist|Power Whip|p1a: Type: Null
+|-damage|p1a: Type: Null|59/100 slp
+|-damage|p2a: Gourgeist|91/100|[from] item: Life Orb
+|cant|p1a: Type: Null|slp
+|move|p1a: Type: Null|Sleep Talk|p1a: Type: Null
+|move|p1a: Type: Null|U-turn|p2a: Gourgeist|[from]Sleep Talk
+|-damage|p2a: Gourgeist|79/100
+|
+|switch|p1a: Ninjask|Ninjask, M|100/100|[from]move: U-turn
+|-damage|p1a: Ninjask|51/100|[from] Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Gourgeist|Shadow Sneak|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|-damage|p2a: Gourgeist|69/100|[from] item: Life Orb
+|faint|p1a: Ninjask
+|
+|upkeep
+|
+|switch|p1a: Raichu|Raichu, M|100/100
+|-damage|p1a: Raichu|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Manectric|Manectric, F|100/100
+|move|p1a: Raichu|Volt Switch|p2a: Manectric
+|-ability|p2a: Manectric|Lightning Rod|boost
+|-boost|p2a: Manectric|spa|1
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Type: Null|Type: Null|59/100 slp
+|-damage|p1a: Type: Null|46/100 slp|[from] Stealth Rock
+|move|p2a: Manectric|Flamethrower|p1a: Type: Null
+|-damage|p1a: Type: Null|29/100 slp
+|
+|upkeep
+|turn|17
+|j| PudimdeLimao
+|
+|move|p2a: Manectric|Flamethrower|p1a: Type: Null
+|-damage|p1a: Type: Null|10/100 slp
+|-curestatus|p1a: Type: Null|slp|[msg]
+|move|p1a: Type: Null|Rest|p1a: Type: Null
+|-status|p1a: Type: Null|slp|[from] move: Rest
+|-heal|p1a: Type: Null|100/100 slp|[silent]
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|69/100
+|-item|p1a: Type: Null|Eviolite|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|cant|p1a: Type: Null|slp
+|move|p1a: Type: Null|Sleep Talk|p1a: Type: Null
+|move|p1a: Type: Null|Rest|p1a: Type: Null|[from]Sleep Talk
+|-fail|p1a: Type: Null|heal
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|100/100
+|cant|p1a: Type: Null|slp
+|move|p1a: Type: Null|Sleep Talk|p1a: Type: Null
+|move|p1a: Type: Null|Tri Attack|p2a: Gourgeist|[from]Sleep Talk
+|-immune|p2a: Gourgeist
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Gourgeist|Power Whip|p1a: Type: Null
+|-damage|p1a: Type: Null|63/100 slp
+|-damage|p2a: Gourgeist|91/100|[from] item: Life Orb
+|-curestatus|p1a: Type: Null|slp|[msg]
+|move|p1a: Type: Null|U-turn|p2a: Gourgeist
+|-damage|p2a: Gourgeist|76/100
+|
+|switch|p1a: Arctovish|Arctovish|43/100|[from]move: U-turn
+|-damage|p1a: Arctovish|18/100|[from] Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Gourgeist|Shadow Sneak|p1a: Arctovish
+|-damage|p1a: Arctovish|0 fnt
+|-damage|p2a: Gourgeist|66/100|[from] item: Life Orb
+|faint|p1a: Arctovish
+|
+|upkeep
+|-message|Carrot Flowers forfeited.
+|
+|win|Today's weather
+|l|☆Carrot Flowers
+|raw|Carrot Flowers's rating: 1440 &rarr; <strong>1416</strong><br />(-24 for losing)
+|raw|Today&apos;s weather's rating: 1367 &rarr; <strong>1391</strong><br />(+24 for winning)

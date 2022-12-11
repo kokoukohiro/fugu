@@ -1,0 +1,420 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1665945374
+|gametype|singles
+|player|p1|RichardMillePlain|169|
+|player|p2|Floss|#scl2machines|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Ubers
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Urshifu-*, F|
+|poke|p1|Groudon|
+|poke|p1|Ho-Oh|
+|poke|p1|Yveltal|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Eternatus|
+|poke|p2|Eternatus|
+|poke|p2|Kyogre|
+|poke|p2|Groudon|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Yveltal|
+|poke|p2|Marshadow|
+|teampreview
+|c|☆Floss|hf
+|c|☆RichardMillePlain|u2
+|inactive|RichardMillePlain has 270 seconds left.
+|inactive|Floss has 270 seconds left.
+|inactive|Floss has 240 seconds left.
+|
+|t:|1665945446
+|start
+|switch|p1a: Groudon|Groudon|100/100
+|switch|p2a: Kyogre|Kyogre|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|1
+|inactive|Floss has 270 seconds left.
+|
+|t:|1665945495
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Kyogre|Ice Beam|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|RichardMillePlain has 270 seconds left.
+|
+|t:|1665945526
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p2a: Kyogre|Ice Beam|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|90/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Necrozma|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1665945533
+|switch|p2a: Groudon|Groudon|100/100
+|move|p1a: Necrozma|Knock Off|p2a: Groudon
+|-damage|p2a: Groudon|84/100
+|-enditem|p2a: Groudon|Leftovers|[from] move: Knock Off|[of] p1a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Necrozma|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1665945541
+|switch|p1a: Yveltal|Yveltal|37/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: Groudon|Bulk Up|p2a: Groudon
+|-boost|p2a: Groudon|atk|1
+|-boost|p2a: Groudon|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1665945546
+|move|p1a: Yveltal|Dark Pulse|p2a: Groudon
+|-damage|p2a: Groudon|17/100
+|-damage|p1a: Yveltal|27/100|[from] item: Life Orb
+|move|p2a: Groudon|Rock Tomb|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|
+|-weather|none
+|upkeep
+|
+|t:|1665945549
+|switch|p1a: Urshifu|Urshifu, F|100/100
+|turn|6
+|
+|t:|1665945551
+|move|p1a: Urshifu|Wicked Blow|p2a: Groudon
+|-crit|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|upkeep
+|inactive|Floss has 270 seconds left.
+|
+|t:|1665945576
+|switch|p2a: Kyogre|Kyogre|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|7
+|
+|t:|1665945596
+|switch|p1a: Eternatus|Eternatus|100/100
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Kyogre|Origin Pulse|p1a: Eternatus|[miss]
+|-miss|p2a: Kyogre|p1a: Eternatus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1665945611
+|switch|p1a: Ho-Oh|Ho-Oh, shiny|100/100
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1665945617
+|switch|p1a: Groudon|Groudon|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2a: Necrozma|Stealth Rock|p1a: Groudon
+|-sidestart|p1: RichardMillePlain|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1665945630
+|switch|p2a: Eternatus|Eternatus|100/100
+|-ability|p2a: Eternatus|Pressure
+|-item|p2a: Eternatus|Air Balloon
+|move|p1a: Groudon|Stealth Rock|p2a: Eternatus
+|-sidestart|p2: Floss|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1665945649
+|switch|p2a: Kyogre|Kyogre|100/100
+|-damage|p2a: Kyogre|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Groudon|Thunder Wave|p2a: Kyogre
+|-status|p2a: Kyogre|par
+|-enditem|p2a: Kyogre|Lum Berry|[eat]
+|-curestatus|p2a: Kyogre|par|[msg]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1665945658
+|switch|p1a: Eternatus|Eternatus|100/100
+|-damage|p1a: Eternatus|88/100|[from] Stealth Rock
+|-ability|p1a: Eternatus|Pressure
+|move|p2a: Kyogre|Origin Pulse|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-crit|p1a: Eternatus
+|-damage|p1a: Eternatus|44/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Eternatus|50/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1665945662
+|move|p1a: Eternatus|Toxic|p2a: Kyogre
+|-status|p2a: Kyogre|tox
+|move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+|-boost|p2a: Kyogre|spa|1
+|-boost|p2a: Kyogre|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Eternatus|56/100|[from] item: Black Sludge
+|-damage|p2a: Kyogre|82/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1665945668
+|move|p1a: Eternatus|Mystical Fire|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|80/100 tox
+|-unboost|p2a: Kyogre|spa|1
+|move|p2a: Kyogre|Ice Beam|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-crit|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kyogre|67/100 tox|[from] psn
+|upkeep
+|
+|t:|1665945670
+|switch|p1a: Urshifu|Urshifu, F|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|turn|15
+|inactive|Floss has 270 seconds left.
+|
+|t:|1665945701
+|switch|p2a: Yveltal|Yveltal|100/100
+|-ability|p2a: Yveltal|Dark Aura
+|move|p1a: Urshifu|Wicked Blow|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-crit|p2a: Yveltal
+|-damage|p2a: Yveltal|48/100
+|
+|-weather|none
+|upkeep
+|turn|16
+|inactive|Floss has 240 seconds left.
+|
+|t:|1665945733
+|move|p1a: Urshifu|Wicked Blow|p2a: Yveltal
+|-resisted|p2a: Yveltal
+|-crit|p2a: Yveltal
+|-damage|p2a: Yveltal|0 fnt
+|faint|p2a: Yveltal
+|
+|upkeep
+|
+|t:|1665945734
+|switch|p2a: Eternatus|Eternatus|100/100
+|-damage|p2a: Eternatus|88/100|[from] Stealth Rock
+|-ability|p2a: Eternatus|Pressure
+|-item|p2a: Eternatus|Air Balloon
+|turn|17
+|
+|t:|1665945743
+|move|p2a: Eternatus|Toxic Spikes|p1a: Urshifu
+|-sidestart|p1: RichardMillePlain|move: Toxic Spikes
+|move|p1a: Urshifu|Wicked Blow|p2a: Eternatus
+|-crit|p2a: Eternatus
+|-damage|p2a: Eternatus|21/100
+|-enditem|p2a: Eternatus|Air Balloon
+|
+|upkeep
+|turn|18
+|
+|t:|1665945748
+|switch|p1a: Ho-Oh|Ho-Oh, shiny|100/100
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|71/100
+|
+|upkeep
+|turn|19
+|
+|t:|1665945757
+|move|p2a: Eternatus|Sludge Bomb|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|79/100
+|move|p1a: Ho-Oh|Brave Bird|p2a: Eternatus
+|-damage|p2a: Eternatus|34/100
+|-damage|p1a: Ho-Oh|65/100|[from] Recoil
+|
+|upkeep
+|turn|20
+|
+|t:|1665945760
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|84/100
+|move|p1a: Ho-Oh|Defog|p2a: Eternatus
+|-unboost|p2a: Eternatus|evasion|1
+|-sideend|p2: Floss|Stealth Rock|[from] move: Defog|[of] p1a: Ho-Oh
+|-sideend|p1: RichardMillePlain|Toxic Spikes|[from] move: Defog|[of] p1a: Ho-Oh
+|-sideend|p1: RichardMillePlain|Stealth Rock|[from] move: Defog|[of] p1a: Ho-Oh
+|
+|upkeep
+|turn|21
+|
+|t:|1665945765
+|move|p2a: Eternatus|Toxic Spikes|p1a: Ho-Oh
+|-sidestart|p1: RichardMillePlain|move: Toxic Spikes
+|move|p1a: Ho-Oh|Thunder Wave|p2a: Eternatus
+|-status|p2a: Eternatus|par
+|
+|upkeep
+|turn|22
+|
+|t:|1665945769
+|move|p1a: Ho-Oh|Brave Bird|p2a: Eternatus
+|-damage|p2a: Eternatus|46/100 par
+|-damage|p1a: Ho-Oh|50/100|[from] Recoil
+|move|p2a: Eternatus|Sludge Bomb|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|28/100
+|
+|upkeep
+|turn|23
+|
+|t:|1665945773
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|cant|p2a: Eternatus|par
+|
+|upkeep
+|turn|24
+|
+|t:|1665945790
+|switch|p1a: Ho-Oh|Ho-Oh, shiny|61/100
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|
+|upkeep
+|turn|25
+|
+|t:|1665945792
+|move|p1a: Ho-Oh|Defog|p2a: Necrozma
+|-unboost|p2a: Necrozma|evasion|1
+|-sideend|p1: RichardMillePlain|Toxic Spikes|[from] move: Defog|[of] p1a: Ho-Oh
+|move|p2a: Necrozma|Thunder Wave|p1a: Ho-Oh
+|-status|p1a: Ho-Oh|par
+|
+|upkeep
+|turn|26
+|
+|t:|1665945799
+|switch|p1a: Groudon|Groudon|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2a: Necrozma|Stealth Rock|p1a: Groudon
+|-sidestart|p1: RichardMillePlain|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|27
+|inactive|Floss has 270 seconds left.
+|
+|t:|1665945847
+|switch|p2a: Eternatus|Eternatus|46/100 par
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Groudon|Precipice Blades|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1665945849
+|switch|p2a: Kyogre|Kyogre|67/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|28
+|
+|t:|1665945870
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p1a: Necrozma|94/100|[from] Stealth Rock
+|move|p2a: Kyogre|Origin Pulse|p1a: Necrozma
+|-damage|p1a: Necrozma|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Necrozma|41/100|[from] item: Leftovers
+|-damage|p2a: Kyogre|61/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1665945873
+|move|p2a: Kyogre|Origin Pulse|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kyogre|49/100 tox|[from] psn
+|upkeep
+|
+|t:|1665945875
+|switch|p1a: Urshifu|Urshifu, F|94/100
+|-damage|p1a: Urshifu|88/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1665945877
+|move|p1a: Urshifu|Wicked Blow|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1665945879
+|switch|p2a: Marshadow|Marshadow|100/100
+|turn|31
+|
+|t:|1665945886
+|move|p2a: Marshadow|Bulk Up|p2a: Marshadow
+|-boost|p2a: Marshadow|atk|1
+|-boost|p2a: Marshadow|def|1
+|move|p1a: Urshifu|Wicked Blow|p2a: Marshadow
+|-crit|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Floss|gg
+|c|☆RichardMillePlain|gg
+|-message|Floss forfeited.
+|
+|win|RichardMillePlain
+|player|p2|Floss|#scl2machines
+|player|p2|
+|player|p2|Floss|#scl2machines
+|player|p1|RichardMillePlain|169

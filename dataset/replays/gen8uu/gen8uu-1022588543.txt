@@ -1,0 +1,117 @@
+|j|☆less than human
+|j|☆Slowlii
+|player|p1|less than human|cynthia-gen4|1131
+|player|p2|Slowlii|140|1123
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Polteageist|
+|poke|p1|Sirfetch'd, M|
+|poke|p1|Mantine, F|
+|poke|p1|Flygon, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Hippowdon, M|
+|poke|p2|Polteageist|
+|poke|p2|Reuniclus, M|
+|poke|p2|Diggersby, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Tsareena, F|
+|poke|p2|Gastrodon-East, F|
+|teampreview
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Diggersby|Diggersby, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|move|p2a: Diggersby|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|66/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Diggersby
+|-sidestart|p2: Slowlii|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|72/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|-damage|p2a: Tsareena|88/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|82/100|[from] Sandstorm
+|-heal|p2a: Tsareena|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|100/100
+|move|p2a: Tsareena|Rapid Spin|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|84/100
+|-sideend|p2: Slowlii|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tsareena
+|-boost|p2a: Tsareena|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|82/100|[from] Sandstorm
+|-damage|p1a: Sirfetch'd|78/100|[from] Sandstorm
+|-heal|p2a: Tsareena|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Sirfetch'd|First Impression||[still]
+|cant|p2a: Tsareena|ability: Queenly Majesty|First Impression|[of] p1a: Sirfetch'd
+|move|p2a: Tsareena|Power Whip|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|82/100|[from] Sandstorm
+|-damage|p1a: Sirfetch'd|9/100|[from] Sandstorm
+|-heal|p2a: Tsareena|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Tsareena|Rapid Spin|p1a: Flygon
+|-damage|p1a: Flygon|77/100
+|-boost|p2a: Tsareena|spe|1
+|
+|-weather|none
+|-heal|p2a: Tsareena|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Tsareena|Power Whip|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|-heal|p2a: Tsareena|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|7
+|
+|move|p2a: Tsareena|Power Whip|p1a: Indeedee
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-heal|p2a: Tsareena|100/100|[from] item: Leftovers
+|upkeep
+|-message|less than human forfeited.
+|
+|win|Slowlii
+|l|☆less than human
+|raw|less than human's rating: 1132 &rarr; <strong>1106</strong><br />(-26 for losing)
+|raw|Slowlii's rating: 1123 &rarr; <strong>1149</strong><br />(+26 for winning)

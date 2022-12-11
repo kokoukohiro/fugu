@@ -1,0 +1,203 @@
+|j|☆Fred546
+|j|☆thievul is good
+|player|p1|Fred546|veteran-gen4|1397
+|player|p2|thievul is good|lucas|1455
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Charizard, F|
+|poke|p1|Ninetales, M|
+|poke|p1|Gigalith, M|
+|poke|p1|Dhelmise|
+|poke|p1|Drampa, M|
+|poke|p1|Jellicent, M|
+|poke|p2|Thievul, F|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Gigalith, F|
+|poke|p2|Silvally-*|
+|poke|p2|Gurdurr, F|
+|poke|p2|Whimsicott, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fred546)
+|
+|start
+|switch|p1a: Drampa|Drampa, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|-ability|p1a: Drampa|Cloud Nine
+|turn|1
+|
+|move|p2a: Whimsicott|U-turn|p1a: Drampa
+|-damage|p1a: Drampa|88/100
+|
+|switch|p2a: Gigalith|Gigalith, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Drampa|Ice Beam|p2a: Gigalith
+|-damage|p2a: Gigalith|55/100
+|-damage|p1a: Drampa|78/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|61/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Drampa|Hydro Pump|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-damage|p1a: Drampa|68/100|[from] item: Life Orb
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|3
+|
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|move|p2a: Whimsicott|Moonblast|p1a: Gigalith
+|-damage|p1a: Gigalith|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Whimsicott|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|move|p2a: Whimsicott|Giga Drain|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-crit|p1a: Gigalith
+|-damage|p1a: Gigalith|34/100
+|-heal|p2a: Whimsicott|100/100|[from] drain|[of] p1a: Gigalith
+|move|p1a: Gigalith|Explosion|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p1a: Gigalith
+|faint|p2a: Whimsicott
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Ghost|100/100
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|5
+|
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Silvally
+|-status|p2a: Silvally|brn
+|move|p2a: Silvally|Multi-Attack|p1a: Ninetales
+|-damage|p1a: Ninetales|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Silvally|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Silvally|Multi-Attack|p1a: Charizard
+|-damage|p1a: Charizard|66/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|54/100|[from] ability: Solar Power|[of] p1a: Charizard
+|-damage|p2a: Silvally|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Charizard|Flamethrower|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|41/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|8
+|
+|move|p1a: Charizard|Flamethrower|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|29/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|
+|switch|p2a: Thievul|Thievul, F|100/100
+|-enditem|p2a: Thievul|Psychic Seed
+|-boost|p2a: Thievul|spd|1|[from] item: Psychic Seed
+|turn|9
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Drampa|Drampa, M|68/100
+|-ability|p1a: Drampa|Cloud Nine
+|turn|10
+|
+|move|p2a: Thievul|Nasty Plot|p2a: Thievul
+|-boost|p2a: Thievul|spa|2
+|move|p1a: Drampa|Dragon Pulse|p2a: Thievul
+|-damage|p2a: Thievul|39/100
+|-damage|p1a: Drampa|58/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Drampa
+|-damage|p1a: Drampa|0 fnt
+|faint|p1a: Drampa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, M|63/100
+|turn|12
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|100/100
+|turn|13
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|11/100
+|cant|p1a: Jellicent|flinch
+|
+|-heal|p1a: Jellicent|18/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|j| Frito135
+|
+|move|p2a: Thievul|Grass Knot|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-crit|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+|-message|Fred546 forfeited.
+|
+|win|thievul is good
+|l|☆Fred546
+|l| Frito135
+|raw|Fred546's rating: 1397 &rarr; <strong>1380</strong><br />(-17 for losing)
+|raw|thievul is good's rating: 1455 &rarr; <strong>1472</strong><br />(+17 for winning)

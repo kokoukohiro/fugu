@@ -1,0 +1,378 @@
+|j|☆onetwoskiptotheloo
+|j|☆Blue chen
+|player|p1|onetwoskiptotheloo|169|1694
+|player|p2|Blue chen|karen|1659
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Venusaur, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Jirachi|
+|poke|p1|Darmanitan, M|
+|poke|p2|Shuckle, M|
+|poke|p2|Inteleon, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Kyurem|
+|poke|p2|Dracozolt|
+|poke|p2|Zeraora|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|1
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|move|p1a: Jirachi|Iron Head|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|81/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Dracozolt|Substitute|p2a: Dracozolt
+|-start|p2a: Dracozolt|Substitute
+|-damage|p2a: Dracozolt|56/100
+|
+|-heal|p2a: Dracozolt|62/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|move|p1a: Rillaboom|Bullet Seed|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-activate|p2a: Dracozolt|move: Substitute|[damage]
+|-resisted|p2a: Dracozolt
+|-end|p2a: Dracozolt|Substitute
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|46/100
+|-hitcount|p2a: Dracozolt|3
+|move|p2a: Dracozolt|Outrage|p1a: Rillaboom
+|-damage|p1a: Rillaboom|37/100
+|
+|-heal|p1a: Rillaboom|43/100|[from] Grassy Terrain
+|-heal|p2a: Dracozolt|52/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|j| HeavenStar
+|
+|move|p1a: Rillaboom|Bullet Seed|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|36/100
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|19/100
+|-hitcount|p2a: Dracozolt|2
+|move|p2a: Dracozolt|Outrage|p1a: Rillaboom|[from]lockedmove
+|-damage|p1a: Rillaboom|0 fnt
+|-start|p2a: Dracozolt|confusion|[fatigue]
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Dracozolt|25/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|5
+|
+|-activate|p2a: Dracozolt|confusion
+|move|p2a: Dracozolt|Outrage|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|33/100
+|move|p1a: Torkoal|Lava Plume|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|39/100|[from] Grassy Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by onetwoskiptotheloo)
+|
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|turn|6
+|
+|move|p1a: Torkoal|Yawn|p2a: Shuckle
+|-start|p2a: Shuckle|move: Yawn|[of] p1a: Torkoal
+|move|p2a: Shuckle|Sticky Web|p1a: Torkoal
+|-sidestart|p1: onetwoskiptotheloo|move: Sticky Web
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|45/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Torkoal|Rapid Spin|p2a: Kyurem
+|-damage|p2a: Kyurem|93/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: onetwoskiptotheloo|Sticky Web|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|68/100
+|move|p1a: Torkoal|Yawn||[still]
+|-fail|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|move|p2a: Kyurem|Earth Power|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|10
+|
+|move|p1a: Cinderace|U-turn|p2a: Kyurem
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-end|p2a: Kyurem|Substitute
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100|[from]move: U-turn
+|move|p2a: Kyurem|Earth Power|p1a: Venusaur
+|-damage|p1a: Venusaur|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|move|p1a: Venusaur|Weather Ball|p2a: Shuckle
+|-damage|p2a: Shuckle|58/100
+|-enditem|p2a: Shuckle|Red Card|[of] p1a: Venusaur
+|-damage|p1a: Venusaur|49/100|[from] item: Life Orb
+|drag|p1a: Torkoal|Torkoal, F|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Torkoal|Yawn|p2a: Shuckle
+|-start|p2a: Shuckle|move: Yawn|[of] p1a: Torkoal
+|move|p2a: Shuckle|Encore|p1a: Torkoal
+|-start|p1a: Torkoal|Encore
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Shuckle|Sticky Web|p1a: Cinderace
+|-sidestart|p1: onetwoskiptotheloo|move: Sticky Web
+|
+|-end|p2a: Shuckle|move: Yawn|[silent]
+|-status|p2a: Shuckle|slp
+|upkeep
+|turn|14
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-sideend|p1: onetwoskiptotheloo|Sticky Web|[silent]
+|-sidestart|p2: Blue chen|Sticky Web|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Zeraora|Knock Off|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|12/100
+|-enditem|p1a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Zeraora
+|-damage|p2a: Zeraora|91/100|[from] item: Life Orb
+|move|p1a: Cinderace|U-turn|p2a: Zeraora
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Zeraora|42/100
+|
+|switch|p1a: Torkoal|Torkoal, F|45/100|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Zeraora|Plasma Fists|p1a: Torkoal
+|-damage|p1a: Torkoal|12/100
+|-fieldactivate|move: Ion Deluge
+|-damage|p2a: Zeraora|33/100|[from] item: Life Orb
+|move|p1a: Torkoal|Lava Plume|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|17
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-sideend|p2: Blue chen|Sticky Web|[silent]
+|-sidestart|p1: onetwoskiptotheloo|Sticky Web|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Torkoal|Toxic|p2a: Cinderace
+|-status|p2a: Cinderace|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Cinderace|95/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Torkoal|[miss]
+|-start|p2a: Cinderace|typechange|Fire|[from] ability: Libero
+|-miss|p2a: Cinderace|p1a: Torkoal
+|move|p1a: Torkoal|Rapid Spin|p2a: Cinderace
+|-damage|p2a: Cinderace|84/100 tox
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: onetwoskiptotheloo|Sticky Web|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Cinderace|72/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Cinderace|U-turn|p1a: Torkoal
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|4/100
+|
+|switch|p2a: Shuckle|Shuckle, M|58/100 slp|[from]move: U-turn
+|move|p1a: Torkoal|Lava Plume|p2a: Shuckle
+|-damage|p2a: Shuckle|35/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Torkoal|Lava Plume|p2a: Shuckle
+|-damage|p2a: Shuckle|12/100 slp
+|cant|p2a: Shuckle|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p1a: Torkoal|Lava Plume|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|72/100 tox
+|turn|22
+|
+|switch|p1a: Cinderace|Cinderace, F|12/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|none
+|-damage|p2a: Cinderace|66/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Torkoal|Torkoal, F|4/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|23
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Cinderace|54/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Venusaur|Venusaur, M|49/100
+|turn|24
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Venusaur
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p1a: Venusaur|3/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-damage|p1a: Venusaur|0 fnt|[from] item: Life Orb
+|faint|p2a: Cinderace
+|faint|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|25
+|
+|move|p1a: Jirachi|Zen Headbutt|p2a: Inteleon
+|-damage|p2a: Inteleon|39/100
+|move|p2a: Inteleon|Focus Energy|p2a: Inteleon
+|-start|p2a: Inteleon|move: Focus Energy
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p1a: Jirachi|Zen Headbutt|p2a: Inteleon
+|-crit|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem|68/100
+|-ability|p2a: Kyurem|Pressure
+|turn|27
+|
+|move|p1a: Jirachi|Zen Headbutt|p2a: Kyurem
+|-damage|p2a: Kyurem|37/100
+|cant|p2a: Kyurem|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p1a: Jirachi|Zen Headbutt|p2a: Kyurem
+|-damage|p2a: Kyurem|1/100
+|cant|p2a: Kyurem|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|29
+|
+|move|p1a: Jirachi|Zen Headbutt|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|win|onetwoskiptotheloo
+|l|☆Blue chen
+|l|☆onetwoskiptotheloo
+|raw|onetwoskiptotheloo's rating: 1694 &rarr; <strong>1712</strong><br />(+18 for winning)
+|raw|Blue chen's rating: 1659 &rarr; <strong>1641</strong><br />(-18 for losing)

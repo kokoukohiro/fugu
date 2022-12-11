@@ -1,0 +1,490 @@
+|j|☆minimax_ai
+|j|☆Justin UA
+|t:|1665259531
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1583
+|player|p2|Justin UA|ethan|1713
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Dragapult, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Heatran, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|c|☆Justin UA|u2
+|
+|t:|1665259552
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|turn|1
+|
+|t:|1665259554
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Urshifu|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-crit|p1a: Tangrowth
+|-damage|p1a: Tangrowth|40/100
+|-damage|p2a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1665259558
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1665259569
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Dragapult|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|96/100
+|
+|t:|1665259572
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|84/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1665259574
+|switch|p1a: Tangrowth|Tangrowth, M|73/100
+|move|p2a: Urshifu|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|32/100
+|-damage|p2a: Urshifu|68/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1665259577
+|switch|p2a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|upkeep
+|turn|4
+|
+|t:|1665259581
+|switch|p1a: Melmetal|Melmetal|96/100
+|move|p2a: Tapu Lele|Focus Blast|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|18/100
+|
+|upkeep
+|turn|5
+|
+|t:|1665259586
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Melmetal|atk|1
+|move|p1a: Melmetal|Double Iron Bash|p2a: Landorus
+|-damage|p2a: Landorus|75/100
+|-damage|p2a: Landorus|51/100
+|-hitcount|p2a: Landorus|2
+|
+|-heal|p2a: Landorus|57/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1665259588
+|switch|p1a: Tangrowth|Tangrowth, M|65/100
+|move|p2a: Landorus|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|43/100
+|-damage|p2a: Landorus|41/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1665259591
+|switch|p2a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1665259593
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|move|p2a: Tapu Lele|Moonblast|p1a: landorustherian
+|-damage|p1a: landorustherian|42/100
+|
+|-heal|p1a: landorustherian|48/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|8
+|
+|t:|1665259597
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Tapu Lele|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|80/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|9
+|
+|t:|1665259599
+|switch|p2a: Landorus|Landorus-Therian, M|41/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Justin UA|move: Stealth Rock
+|
+|-heal|p2a: Landorus|47/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1665259601
+|move|p1a: Heatran|Eruption|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1665259604
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|68/100
+|-damage|p2a: Urshifu|61/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1665259607
+|switch|p1a: Tangrowth|Tangrowth, M|76/100
+|move|p2a: Urshifu|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|34/100
+|-damage|p2a: Urshifu|45/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|t:|1665259609
+|switch|p2a: Tapu Lele|Tapu Lele|100/100|[from]move: U-turn
+|-damage|p2a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|upkeep
+|turn|12
+|
+|t:|1665259612
+|switch|p1a: Melmetal|Melmetal|18/100
+|move|p2a: Tapu Lele|Psychic|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1665259612
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|13
+|
+|t:|1665259615
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Weavile|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|
+|upkeep
+|turn|14
+|
+|t:|1665259617
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|96/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|15
+|
+|t:|1665259621
+|move|p1a: rotomwash|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|28/100
+|-status|p2a: Corviknight|par
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|78/100 par
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|16
+|
+|t:|1665259623
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: rotomwash|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|68/100
+|
+|-heal|p2a: Heatran|74/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1665259626
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|
+|upkeep
+|turn|18
+|
+|t:|1665259628
+|move|p2a: Dragapult|Draco Meteor|p1a: rotomwash
+|-damage|p1a: rotomwash|5/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: rotomwash|Thunderbolt|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|39/100
+|
+|-heal|p1a: rotomwash|12/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1665259630
+|move|p2a: Dragapult|Draco Meteor|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1665259630
+|switch|p1a: Tangrowth|Tangrowth, M|67/100
+|turn|20
+|
+|t:|1665259633
+|switch|p2a: Corviknight|Corviknight, F|78/100 par
+|-damage|p2a: Corviknight|65/100 par|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|
+|upkeep
+|turn|21
+|
+|t:|1665259636
+|move|p1a: Weavile|Triple Axel|p2a: Corviknight|[miss]
+|-miss|p1a: Weavile|p2a: Corviknight
+|move|p2a: Corviknight|Body Press|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1665259636
+|switch|p1a: Heatran|Heatran, M|80/100
+|turn|22
+|
+|t:|1665259651
+|switch|p2a: Heatran|Heatran, M|74/100
+|-damage|p2a: Heatran|62/100|[from] Stealth Rock
+|move|p1a: Heatran|Eruption|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-heal|p2a: Heatran|68/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1665259653
+|switch|p1a: landorustherian|Landorus-Therian, M|48/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Earth Power|p1a: landorustherian
+|-immune|p1a: landorustherian
+|
+|-heal|p1a: landorustherian|54/100|[from] item: Leftovers
+|-heal|p2a: Heatran|74/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1665259656
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Corviknight|Corviknight, F|65/100 par
+|-damage|p2a: Corviknight|53/100 par|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: landorustherian|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p1a: landorustherian|60/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1665259660
+|move|p1a: landorustherian|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100 par
+|
+|t:|1665259660
+|switch|p1a: Heatran|Heatran, M|80/100|[from]move: U-turn
+|move|p2a: Corviknight|Defog|p1a: Heatran
+|-unboost|p1a: Heatran|evasion|1
+|-sideend|p2: Justin UA|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|26
+|
+|t:|1665259667
+|switch|p2a: Heatran|Heatran, M|74/100
+|move|p1a: Heatran|Eruption|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-heal|p2a: Heatran|80/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1665259674
+|move|p1a: Heatran|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1665259677
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|45/100
+|turn|28
+|
+|t:|1665259679
+|switch|p1a: landorustherian|Landorus-Therian, M|60/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|move|p2a: Urshifu|Close Combat|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|28/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|-heal|p1a: landorustherian|34/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1665259683
+|switch|p2a: Corviknight|Corviknight, F|49/100 par
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: landorustherian|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p1a: landorustherian|40/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1665259685
+|move|p1a: landorustherian|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100 par
+|
+|t:|1665259685
+|switch|p1a: Heatran|Heatran, M|80/100|[from]move: U-turn
+|move|p2a: Corviknight|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|76/100
+|
+|t:|1665259688
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|45/100|[from]move: U-turn
+|
+|upkeep
+|turn|31
+|
+|t:|1665259690
+|switch|p1a: landorustherian|Landorus-Therian, M|40/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|move|p2a: Urshifu|U-turn|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|28/100
+|
+|t:|1665259692
+|switch|p2a: Dragapult|Dragapult, M, shiny|39/100|[from]move: U-turn
+|
+|-heal|p1a: landorustherian|34/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1665259694
+|move|p2a: Dragapult|Shadow Ball|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1665259694
+|switch|p1a: Heatran|Heatran, M|76/100
+|turn|33
+|
+|t:|1665259699
+|switch|p2a: Corviknight|Corviknight, F|46/100 par
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Heatran|Magma Storm|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1665259719
+|switch|p2a: Dragapult|Dragapult, M, shiny|39/100
+|turn|34
+|
+|t:|1665259721
+|move|p2a: Dragapult|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|26/100
+|move|p1a: Heatran|Magma Storm|p2a: Dragapult|[miss]
+|-miss|p1a: Heatran|p2a: Dragapult
+|
+|upkeep
+|turn|35
+|
+|t:|1665259724
+|move|p2a: Dragapult|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1665259724
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|turn|36
+|
+|t:|1665259726
+|move|p2a: Dragapult|Shadow Ball|p1a: Tangrowth
+|-damage|p1a: Tangrowth|20/100
+|move|p1a: Tangrowth|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Tangrowth
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1665259728
+|switch|p2a: Tapu Lele|Tapu Lele|88/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|37
+|
+|t:|1665259730
+|move|p2a: Tapu Lele|Psychic|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|win|Justin UA
+|raw|minimax_ai's rating: 1583 &rarr; <strong>1570</strong><br />(-13 for losing)
+|raw|Justin UA's rating: 1713 &rarr; <strong>1726</strong><br />(+13 for winning)
+|c|☆minimax_ai|gg

@@ -1,0 +1,242 @@
+|j|☆RendoNintendo
+|j|☆ray713testteam
+|player|p1|RendoNintendo|blaine|1330
+|player|p2|ray713testteam|n|1487
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ubers
+|rated|
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Marshadow|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Melmetal|
+|poke|p1|Quagsire, M|
+|poke|p1|Zacian-Crowned|
+|poke|p2|Galvantula, M|
+|poke|p2|Cobalion|
+|poke|p2|Dragapult, F|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Togekiss, M|
+|poke|p2|Zacian-Crowned|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|html|Ubers Dynamax Clause: Pokémon on the <a href="https://www.smogon.com/dex/ss/formats/uber/">Ubers Dynamax Banlist</a> cannot Dynamax.
+|teampreview
+|
+|start
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RendoNintendo)
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Melmetal
+|-sidestart|p1: RendoNintendo|move: Sticky Web
+|move|p1a: Melmetal|Double Iron Bash|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|61/100
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|22/100
+|-hitcount|p2a: Galvantula|2
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Galvantula|Thunder|p1a: Melmetal
+|-damage|p1a: Melmetal|71/100
+|move|p1a: Melmetal|Earthquake|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|3
+|
+|-start|p1a: Melmetal|Dynamax
+|-heal|p1a: Melmetal|71/100|[silent]
+|move|p2a: Cobalion|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: RendoNintendo|move: Stealth Rock
+|move|p1a: Melmetal|Max Quake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|9/100
+|-boost|p1a: Melmetal|spd|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Cobalion|Focus Blast|p1a: Melmetal|[miss]
+|-miss|p2a: Cobalion|p1a: Melmetal
+|move|p1a: Melmetal|Max Quake|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|-boost|p1a: Melmetal|spd|1
+|faint|p2a: Cobalion
+|
+|upkeep
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|turn|5
+|
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|move|p1a: Melmetal|Max Darkness|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|38/100
+|-unboost|p2a: Necrozma|spd|1
+|
+|-end|p1a: Melmetal|Dynamax
+|-heal|p1a: Melmetal|71/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p2a: Necrozma|Earthquake|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|-damage|p2a: Necrozma|29/100|[from] item: Life Orb
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|-activate|p1a: Quagsire|move: Sticky Web
+|-unboost|p1a: Quagsire|spe|1
+|-damage|p1a: Quagsire|94/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Necrozma|Photon Geyser|p1a: Quagsire
+|-damage|p1a: Quagsire|19/100
+|-damage|p2a: Necrozma|19/100|[from] item: Life Orb
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Togekiss|Air Slash|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|61/100
+|-damage|p2a: Togekiss|91/100|[from] item: Life Orb
+|move|p1a: Mandibuzz|Defog|p2a: Togekiss
+|-unboost|p2a: Togekiss|evasion|1
+|-sideend|p1: RendoNintendo|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: RendoNintendo|Sticky Web|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|76/100
+|-damage|p2a: Togekiss|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Zacian|Agility|p1a: Zacian
+|-boost|p1a: Zacian|spe|2
+|move|p2a: Togekiss|Flamethrower|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|2/100
+|-damage|p2a: Togekiss|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|13
+|
+|move|p1a: Zacian|Behemoth Blade|p2a: Zacian
+|-damage|p2a: Zacian|32/100
+|move|p2a: Zacian|Close Combat|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|-unboost|p2a: Zacian|def|1
+|-unboost|p2a: Zacian|spd|1
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|61/100
+|turn|14
+|
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|move|p1a: Mandibuzz|Knock Off|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|24/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Zacian|Behemoth Blade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Marshadow|Marshadow|100/100
+|turn|16
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|19/100
+|move|p1a: Marshadow|Spectral Thief|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|move|p1a: Marshadow|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|3/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Marshadow
+|-damage|p1a: Marshadow|62/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Marshadow
+|-damage|p1a: Marshadow|21/100
+|-damage|p2a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Zacian|Zacian-Crowned|24/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|18
+|
+|move|p1a: Marshadow|Shadow Sneak|p2a: Zacian
+|-crit|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|win|RendoNintendo
+|raw|RendoNintendo's rating: 1330 &rarr; <strong>1358</strong><br />(+28 for winning)
+|raw|ray713testteam's rating: 1487 &rarr; <strong>1459</strong><br />(-28 for losing)
+|c|☆RendoNintendo|gg
+|c|☆ray713testteam|gg
+|l|☆ray713testteam

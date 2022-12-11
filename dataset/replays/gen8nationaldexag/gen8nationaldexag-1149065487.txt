@@ -1,0 +1,312 @@
+|j|☆Catdaddy44
+|j|☆cheziqua
+|player|p1|Catdaddy44|nate|1185
+|player|p2|cheziqua|hilbert-dueldisk|1224
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Mewtwo|
+|poke|p1|Ninetales, M|
+|poke|p1|Mew|
+|poke|p1|Persian-Alola, M|
+|poke|p1|Shuckle, M|
+|poke|p1|Dragonite, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Porygon2|
+|poke|p2|Melmetal|
+|poke|p2|Mawile, F|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|
+|start
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|turn|1
+|
+|move|p2a: Porygon2|Tri Attack|p1a: Shuckle
+|-resisted|p1a: Shuckle
+|-damage|p1a: Shuckle|90/100
+|move|p1a: Shuckle|Toxic|p2a: Porygon2
+|-status|p2a: Porygon2|tox
+|
+|-heal|p1a: Shuckle|96/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Shuckle|Protect|p1a: Shuckle
+|-singleturn|p1a: Shuckle|Protect
+|move|p2a: Porygon2|Tri Attack|p1a: Shuckle
+|-activate|p1a: Shuckle|move: Protect
+|
+|-heal|p1a: Shuckle|100/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Porygon2|Tri Attack|p1a: Shuckle
+|-resisted|p1a: Shuckle
+|-damage|p1a: Shuckle|89/100
+|move|p1a: Shuckle|Stealth Rock|p2a: Porygon2
+|-sidestart|p2: cheziqua|move: Stealth Rock
+|
+|-heal|p1a: Shuckle|96/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|64/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Shuckle|Protect|p1a: Shuckle
+|-singleturn|p1a: Shuckle|Protect
+|move|p2a: Porygon2|Tri Attack|p1a: Shuckle
+|-activate|p1a: Shuckle|move: Protect
+|
+|-heal|p1a: Shuckle|100/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|39/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Shuckle|Protect||[still]
+|-fail|p1a: Shuckle
+|move|p2a: Porygon2|Tri Attack|p1a: Shuckle
+|-resisted|p1a: Shuckle
+|-damage|p1a: Shuckle|89/100
+|-status|p1a: Shuckle|par
+|
+|-heal|p1a: Shuckle|96/100 par|[from] item: Leftovers
+|-damage|p2a: Porygon2|8/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Shuckle|Protect|p1a: Shuckle
+|-singleturn|p1a: Shuckle|Protect
+|move|p2a: Porygon2|Tri Attack|p1a: Shuckle
+|-activate|p1a: Shuckle|move: Protect
+|
+|-heal|p1a: Shuckle|100/100 par|[from] item: Leftovers
+|-damage|p2a: Porygon2|0 fnt|[from] psn
+|faint|p2a: Porygon2
+|upkeep
+|
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|-damage|p2a: Araquanid|75/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Araquanid|Liquidation|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-ability|p1a: Shuckle|Sturdy
+|-damage|p1a: Shuckle|1/100 par
+|-damage|p2a: Araquanid|65/100|[from] item: Life Orb
+|cant|p1a: Shuckle|par
+|
+|-heal|p1a: Shuckle|7/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Araquanid|Leech Life|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|-heal|p2a: Araquanid|68/100|[from] drain|[of] p1a: Shuckle
+|-damage|p2a: Araquanid|58/100|[from] item: Life Orb
+|faint|p1a: Shuckle
+|
+|upkeep
+|
+|switch|p1a: Persian|Persian-Alola, M|100/100
+|turn|9
+|
+|switch|p2a: Mawile|Mawile, F|100/100
+|-damage|p2a: Mawile|94/100|[from] Stealth Rock
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Persian|atk|1
+|move|p1a: Persian|Fake Out|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|87/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Persian|Knock Off|p2a: Mawile
+|-resisted|p2a: Mawile
+|-damage|p2a: Mawile|75/100
+|move|p2a: Mawile|Play Rough|p1a: Persian
+|-supereffective|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|11
+|
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Ninetales|Flamethrower|p2a: Indeedee
+|-damage|p2a: Indeedee|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Ninetales|Flamethrower|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|13
+|
+|-start|p1a: Ninetales|Dynamax
+|-heal|p1a: Ninetales|100/100|[silent]
+|move|p1a: Ninetales|Max Flare|p2a: Hatterene
+|-damage|p2a: Hatterene|3/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Hatterene|Expanding Force|p1a: Ninetales
+|-damage|p1a: Ninetales|47/100
+|move|p1a: Ninetales|Max Mindstorm|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Araquanid|Araquanid, M|58/100
+|-damage|p2a: Araquanid|33/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Araquanid|Liquidation|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-damage|p2a: Araquanid|23/100|[from] item: Life Orb
+|faint|p1a: Ninetales
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|16
+|
+|move|p2a: Araquanid|Crunch|p1a: Dragonite
+|-damage|p1a: Dragonite|70/100
+|-unboost|p1a: Dragonite|def|1
+|-damage|p2a: Araquanid|13/100|[from] item: Life Orb
+|move|p1a: Dragonite|Fly||[still]
+|-prepare|p1a: Dragonite|Fly|p2a: Araquanid
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Araquanid|Poison Jab|p1a: Dragonite|[miss]
+|-miss|p2a: Araquanid|p1a: Dragonite
+|move|p1a: Dragonite|Fly|p2a: Araquanid|[from]lockedmove
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Mawile|Mawile, F|75/100
+|-damage|p2a: Mawile|69/100|[from] Stealth Rock
+|-ability|p2a: Mawile|Intimidate|boost
+|-immune|p1a: Dragonite|[from] ability: Inner Focus
+|turn|18
+|
+|switch|p1a: Mewtwo|Mewtwo|100/100
+|-ability|p1a: Mewtwo|Pressure
+|move|p2a: Mawile|Swords Dance|p2a: Mawile
+|-boost|p2a: Mawile|atk|2
+|
+|upkeep
+|turn|19
+|
+|detailschange|p1a: Mewtwo|Mewtwo-Mega-Y
+|-mega|p1a: Mewtwo|Mewtwo|Mewtwonite Y
+|detailschange|p2a: Mawile|Mawile-Mega, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1a: Mewtwo|Flamethrower|p2a: Mawile
+|-supereffective|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|upkeep
+|
+|switch|p2a: Melmetal|Melmetal|100/100
+|-damage|p2a: Melmetal|94/100|[from] Stealth Rock
+|turn|20
+|
+|-start|p2a: Melmetal|Dynamax
+|-heal|p2a: Melmetal|94/100|[silent]
+|move|p1a: Mewtwo|Flamethrower|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|64/100
+|move|p2a: Melmetal|Max Quake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|40/100
+|-boost|p2a: Melmetal|spd|1
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Mewtwo|Flamethrower|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|42/100
+|move|p2a: Melmetal|Max Quake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|-boost|p2a: Melmetal|spd|1
+|faint|p1a: Mewtwo
+|
+|upkeep
+|
+|switch|p1a: Dragonite|Dragonite, F|70/100
+|turn|22
+|
+|-zpower|p1a: Dragonite
+|move|p1a: Dragonite|Devastating Drake|p2a: Melmetal|[zeffect]
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|28/100
+|move|p2a: Melmetal|Max Hailstorm|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-weather|Hail
+|faint|p1a: Dragonite
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Melmetal|25/100|[from] Hail
+|-end|p2a: Melmetal|Dynamax
+|-heal|p2a: Melmetal|25/100|[silent]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cheziqua)
+|c|☆Catdaddy44|Nice
+|
+|switch|p1a: Mew|Mew|100/100
+|turn|23
+|
+|move|p1a: Mew|Fire Punch|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|win|Catdaddy44
+|raw|Catdaddy44's rating: 1185 &rarr; <strong>1213</strong><br />(+28 for winning)
+|raw|cheziqua's rating: 1224 &rarr; <strong>1196</strong><br />(-28 for losing)
+|l|☆cheziqua

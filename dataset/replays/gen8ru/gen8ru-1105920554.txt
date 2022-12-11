@@ -1,0 +1,413 @@
+|j|☆07l中国大妈
+|j|☆Purple Urkel
+|player|p1|07l中国大妈|pokefanf-gen4|1141
+|player|p2|Purple Urkel|bellelba|1260
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Aromatisse, M|
+|poke|p1|Decidueye, F|
+|poke|p1|Steelix, F|
+|poke|p1|Jellicent, F|
+|poke|p1|Morpeko, F|
+|poke|p1|Weezing, F|
+|poke|p2|Xatu, F|
+|poke|p2|Sandaconda, M|
+|poke|p2|Charizard, F|
+|poke|p2|Gallade, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Lapras, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Decidueye|Decidueye, F|100/100
+|switch|p2a: BUU|Gallade, M, shiny|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Purple Urkel)
+|
+|move|p2a: BUU|Knock Off|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|10/100
+|-enditem|p1a: Decidueye|Assault Vest|[from] move: Knock Off|[of] p2a: BUU
+|move|p1a: Decidueye|U-turn|p2a: BUU
+|-damage|p2a: BUU|56/100
+|
+|switch|p1a: Aromatisse|Aromatisse, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|move|p2a: BUU|Knock Off|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-damage|p1a: Aromatisse|87/100
+|-enditem|p1a: Aromatisse|Leftovers|[from] move: Knock Off|[of] p2a: BUU
+|move|p1a: Aromatisse|Moonblast|p2a: BUU
+|-supereffective|p2a: BUU
+|-damage|p2a: BUU|13/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: BUU|Poison Jab|p1a: Aromatisse
+|-supereffective|p1a: Aromatisse
+|-damage|p1a: Aromatisse|40/100
+|move|p1a: Aromatisse|Moonblast|p2a: BUU
+|-supereffective|p2a: BUU
+|-damage|p2a: BUU|0 fnt
+|faint|p2a: BUU
+|
+|upkeep
+|
+|switch|p2a: MOOO|Sandaconda, M, shiny|100/100
+|turn|4
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: MOOO|Iron Head|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|90/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Jellicent|Trick|p2a: MOOO
+|-activate|p1a: Jellicent|move: Trick|[of] p2a: MOOO
+|-item|p2a: MOOO|Choice Scarf|[from] move: Trick
+|-item|p1a: Jellicent|Leftovers|[from] move: Trick
+|move|p2a: MOOO|Glare|p1a: Jellicent
+|-status|p1a: Jellicent|par
+|
+|-heal|p1a: Jellicent|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: MEOW|Lapras, M, shiny|100/100
+|switch|p1a: Steelix|Steelix, F|100/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: MEOW|Surf|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|17/100
+|move|p1a: Steelix|Body Press|p2a: MEOW
+|-supereffective|p2a: MEOW
+|-damage|p2a: MEOW|30/100
+|
+|-heal|p1a: Steelix|24/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Jellicent|Jellicent, F|97/100 par
+|move|p2a: MEOW|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|87/100 par
+|
+|-heal|p1a: Jellicent|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: MEOW|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|66/100 par
+|move|p1a: Jellicent|Hex|p2a: MEOW
+|-damage|p2a: MEOW|20/100
+|
+|-heal|p1a: Jellicent|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: MEOW|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|47/100 par
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|97/100 par
+|
+|-heal|p1a: Jellicent|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: MEOW|Ice Beam|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|92/100 par
+|move|p1a: Jellicent|Hex|p2a: MEOW
+|-damage|p2a: MEOW|11/100
+|
+|-heal|p1a: Jellicent|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: MEOW|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|74/100 par
+|cant|p1a: Jellicent|par
+|
+|-heal|p1a: Jellicent|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: MEOW|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|57/100 par
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100 par
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: MOOO|Sandaconda, M, shiny|100/100
+|move|p1a: Jellicent|Hex|p2a: MOOO
+|-damage|p2a: MOOO|77/100
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Steelix|Steelix, F|24/100
+|move|p2a: MOOO|Stealth Rock|p1a: Steelix
+|-sidestart|p1: 07l中国大妈|move: Stealth Rock
+|
+|-heal|p1a: Steelix|30/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: PEEK-A-BOO|Xatu, F, shiny|100/100
+|move|p1a: Steelix|Dragon Tail|p2a: PEEK-A-BOO
+|-damage|p2a: PEEK-A-BOO|79/100
+|drag|p2a: NOT-A-DRAGON|Charizard, F, shiny|100/100
+|
+|-heal|p1a: Steelix|36/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100 par
+|-damage|p1a: Jellicent|88/100 par|[from] Stealth Rock
+|move|p2a: NOT-A-DRAGON|Flamethrower|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|71/100 par
+|
+|-heal|p1a: Jellicent|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: MEOW|Lapras, M, shiny|11/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100 par
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: PEEK-A-BOO|Xatu, F, shiny|79/100
+|move|p1a: Jellicent|Hex|p2a: PEEK-A-BOO
+|-supereffective|p2a: PEEK-A-BOO
+|-damage|p2a: PEEK-A-BOO|39/100
+|
+|upkeep
+|turn|20
+|
+|move|p2a: PEEK-A-BOO|Giga Drain|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|74/100 par
+|-heal|p2a: PEEK-A-BOO|58/100|[from] drain|[of] p1a: Jellicent
+|cant|p1a: Jellicent|par
+|
+|-heal|p1a: Jellicent|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: PEEK-A-BOO|Giga Drain|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|55/100 par
+|-heal|p2a: PEEK-A-BOO|77/100|[from] drain|[of] p1a: Jellicent
+|move|p1a: Jellicent|Scald|p2a: PEEK-A-BOO
+|-damage|p2a: PEEK-A-BOO|54/100
+|
+|-heal|p1a: Jellicent|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: PEEK-A-BOO|Giga Drain|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|31/100 par
+|-heal|p2a: PEEK-A-BOO|76/100|[from] drain|[of] p1a: Jellicent
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|81/100 par
+|
+|-heal|p1a: Jellicent|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: MEOW|Lapras, M, shiny|11/100
+|move|p1a: Jellicent|Scald|p2a: MEOW
+|-heal|p2a: MEOW|36/100|[from] ability: Water Absorb|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: MEOW|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|67/100 par
+|cant|p1a: Jellicent|par
+|
+|-heal|p1a: Jellicent|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: TEEHEE|Galvantula, M, shiny|100/100
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100 par
+|
+|upkeep
+|turn|26
+|
+|move|p2a: TEEHEE|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-crit|p1a: Jellicent
+|-damage|p1a: Jellicent|29/100 par
+|move|p1a: Jellicent|Scald|p2a: TEEHEE
+|-damage|p2a: TEEHEE|60/100
+|
+|-heal|p1a: Jellicent|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: NOT-A-DRAGON|Charizard, F, shiny|100/100
+|switch|p1a: Steelix|Steelix, F|36/100
+|-damage|p1a: Steelix|33/100|[from] Stealth Rock
+|
+|-heal|p1a: Steelix|39/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: NOT-A-DRAGON|Flamethrower|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|upkeep
+|
+|switch|p1a: Weezing|Weezing, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: NOT-A-DRAGON|Flamethrower|p1a: Weezing
+|-damage|p1a: Weezing|3/100
+|move|p1a: Weezing|Toxic Spikes|p2a: NOT-A-DRAGON
+|-sidestart|p2: Purple Urkel|move: Toxic Spikes
+|
+|upkeep
+|turn|30
+|
+|move|p2a: NOT-A-DRAGON|Flamethrower|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Morpeko|Morpeko, F|100/100
+|turn|31
+|
+|move|p1a: Morpeko|Fake Out|p2a: NOT-A-DRAGON
+|-damage|p2a: NOT-A-DRAGON|83/100
+|cant|p2a: NOT-A-DRAGON|flinch
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|32
+|
+|move|p2a: NOT-A-DRAGON|Flamethrower|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|faint|p1a: Morpeko
+|
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, F|35/100 par
+|-damage|p1a: Jellicent|23/100 par|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: NOT-A-DRAGON|Flamethrower|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|3/100 par
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|53/100 par
+|
+|-heal|p1a: Jellicent|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: TEEHEE|Galvantula, M, shiny|60/100
+|-status|p2a: TEEHEE|psn
+|cant|p1a: Jellicent|par
+|
+|-heal|p1a: Jellicent|66/100 par|[from] item: Leftovers
+|-damage|p2a: TEEHEE|47/100 psn|[from] psn
+|upkeep
+|turn|35
+|
+|switch|p1a: Decidueye|Decidueye, F|10/100
+|-damage|p1a: Decidueye|0 fnt|[from] Stealth Rock
+|faint|p1a: Decidueye
+|move|p2a: TEEHEE|Thunderbolt|p1: Decidueye|[notarget]
+|-fail|p2a: TEEHEE
+|
+|-damage|p2a: TEEHEE|35/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Aromatisse|Aromatisse, M|40/100
+|-damage|p1a: Aromatisse|27/100|[from] Stealth Rock
+|turn|36
+|
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: TEEHEE|Thunderbolt|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-damage|p2a: TEEHEE|23/100 psn|[from] psn
+|upkeep
+|turn|37
+|
+|move|p2a: TEEHEE|Thunderbolt|p1a: Aromatisse
+|-damage|p1a: Aromatisse|0 fnt
+|faint|p1a: Aromatisse
+|
+|-damage|p2a: TEEHEE|10/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, F|66/100 par
+|-damage|p1a: Jellicent|53/100 par|[from] Stealth Rock
+|turn|38
+|
+|move|p2a: TEEHEE|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|5/100 par
+|cant|p1a: Jellicent|par
+|
+|-heal|p1a: Jellicent|11/100 par|[from] item: Leftovers
+|-damage|p2a: TEEHEE|0 fnt|[from] psn
+|faint|p2a: TEEHEE
+|upkeep
+|
+|switch|p2a: MEOW|Lapras, M, shiny|36/100
+|-status|p2a: MEOW|psn
+|turn|39
+|
+|move|p2a: MEOW|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|win|Purple Urkel
+|c|☆Purple Urkel|Gg
+|raw|07l中国大妈's rating: 1141 &rarr; <strong>1124</strong><br />(-17 for losing)
+|raw|Purple Urkel's rating: 1260 &rarr; <strong>1276</strong><br />(+16 for winning)

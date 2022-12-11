@@ -1,0 +1,159 @@
+|j|☆agslash23
+|j|☆Bloody Busybody
+|t:|1662457988
+|gametype|singles
+|player|p1|agslash23|1|1621
+|player|p2|Bloody Busybody|bugcatcher|1684
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Garchomp, M|
+|poke|p1|Gengar, M|
+|poke|p1|Weavile, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Heatran, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p2|Volcanion|
+|poke|p2|Corviknight, M|
+|poke|p2|Mamoswine, M|
+|poke|p2|Blissey, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Hydreigon, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bloody Busybody)
+|
+|t:|1662458007
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|1
+|
+|t:|1662458015
+|move|p1a: Tornadus|Knock Off|p2a: Volcanion
+|-damage|p2a: Volcanion|86/100
+|-enditem|p2a: Volcanion|Choice Specs|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Volcanion|Steam Eruption|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|10/100
+|
+|upkeep
+|turn|2
+|
+|t:|1662458026
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Tornadus|Hurricane|p2a: Corviknight|[miss]
+|-miss|p1a: Tornadus|p2a: Corviknight
+|
+|upkeep
+|turn|3
+|
+|t:|1662458034
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Corviknight|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|89/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Rotom
+|
+|t:|1662458038
+|switch|p2a: Rillaboom|Rillaboom, M|100/100|[from]move: U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|upkeep
+|turn|4
+|
+|t:|1662458044
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Rillaboom|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|54/100
+|-enditem|p1a: Heatran|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-heal|p1a: Heatran|61/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1662458053
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: Bloody Busybody|move: Stealth Rock
+|
+|-heal|p1a: Heatran|67/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1662458069
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Hydreigon|Dark Pulse|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|65/100
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Weavile|71/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1662458081
+|switch|p2a: Corviknight|Corviknight, M|84/100
+|-damage|p2a: Corviknight|72/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Weavile|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|24/100
+|-damage|p1a: Weavile|54/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Weavile
+|
+|-heal|p1a: Weavile|60/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1662458093
+|switch|p2a: Hydreigon|Hydreigon, F|91/100
+|-damage|p2a: Hydreigon|78/100|[from] Stealth Rock
+|move|p1a: Weavile|Knock Off|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|34/100
+|-enditem|p2a: Hydreigon|Life Orb|[from] move: Knock Off|[of] p1a: Weavile
+|
+|upkeep
+|turn|9
+|
+|t:|1662458108
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|84/100
+|-singleturn|p2a: Hydreigon|move: Roost
+|
+|upkeep
+|turn|10
+|
+|t:|1662458114
+|move|p1a: Garchomp|Scale Shot|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|51/100
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|21/100
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|-hitcount|p2: Hydreigon|3
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|
+|upkeep
+|-message|Bloody Busybody forfeited.
+|
+|win|agslash23
+|raw|agslash23's rating: 1621 &rarr; <strong>1645</strong><br />(+24 for winning)
+|raw|Bloody Busybody's rating: 1684 &rarr; <strong>1660</strong><br />(-24 for losing)
+|l|☆Bloody Busybody

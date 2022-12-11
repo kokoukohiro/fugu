@@ -1,0 +1,343 @@
+|j|☆ruznoob
+|j|☆Winter in Chicago
+|player|p1|ruznoob|morty-gen2|1114
+|player|p2|Winter in Chicago|blue|1018
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Ivysaur, F|
+|poke|p1|Gastrodon-East, F|
+|poke|p1|Copperajah, F|
+|poke|p1|Silvally-*|
+|poke|p1|Passimian, F|
+|poke|p2|Goodra, M|
+|poke|p2|Scrafty, M|
+|poke|p2|Vileplume, M|
+|poke|p2|Steelix, F|
+|poke|p2|Mantine, F|
+|poke|p2|Indeedee, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Mantine|Mantine, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|move|p1a: Ninetales|Toxic|p2a: Mantine
+|-status|p2a: Mantine|tox
+|move|p2a: Mantine|Toxic|p1a: Ninetales|[miss]
+|-miss|p2a: Mantine|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mantine|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Copperajah|Copperajah, F|100/100
+|move|p2a: Mantine|Toxic|p1a: Copperajah
+|-immune|p1a: Copperajah
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mantine|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Steelix|Steelix, F|100/100
+|move|p1a: Copperajah|Stealth Rock|p2a: Steelix
+|-sidestart|p2: Winter in Chicago|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Ivysaur|Ivysaur, F|100/100
+|move|p2a: Steelix|Stealth Rock|p1a: Ivysaur
+|-sidestart|p1: ruznoob|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Mantine|Mantine, F|82/100 tox
+|move|p1a: Ivysaur|Growth|p1a: Ivysaur
+|-boost|p1a: Ivysaur|atk|2
+|-boost|p1a: Ivysaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mantine|76/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Ivysaur|Sludge Bomb|p2a: Mantine
+|-damage|p2a: Mantine|29/100 tox
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|79/100 tox
+|-singleturn|p2a: Mantine|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mantine|67/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Ivysaur|Sludge Bomb|p2a: Mantine
+|-damage|p2a: Mantine|24/100 tox
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|74/100 tox
+|-singleturn|p2a: Mantine|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Mantine|56/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Ivysaur|Sludge Bomb|p2a: Mantine
+|-crit|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|9
+|
+|switch|p1a: Copperajah|Copperajah, F|100/100
+|-damage|p1a: Copperajah|94/100|[from] Stealth Rock
+|move|p2a: Indeedee|Psychic|p1a: Copperajah
+|-resisted|p1a: Copperajah
+|-damage|p1a: Copperajah|65/100
+|
+|-heal|p1a: Copperajah|71/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|-damage|p2a: Scrafty|95/100|[from] Stealth Rock
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Scrafty|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|-damage|p2a: Vileplume|88/100|[from] Stealth Rock
+|move|p1a: Silvally|Multi-Attack|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vileplume|76/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p1a: Silvally|Parting Shot|p2a: Vileplume
+|-unboost|p2a: Vileplume|atk|1
+|-unboost|p2a: Vileplume|spa|1
+|
+|switch|p1a: Copperajah|Copperajah, F|71/100|[from]move: Parting Shot
+|-damage|p1a: Copperajah|65/100|[from] Stealth Rock
+|move|p2a: Vileplume|Growth|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|-boost|p2a: Vileplume|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vileplume|82/100|[from] item: Black Sludge
+|-heal|p1a: Copperajah|71/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|14
+|
+|switch|p1a: Ninetales|Ninetales, F|76/100
+|-damage|p1a: Ninetales|51/100|[from] Stealth Rock
+|move|p2a: Vileplume|Strength Sap|p1a: Ninetales
+|-unboost|p1a: Ninetales|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|-damage|p2a: Goodra|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Gastrodon|Gastrodon-East, F|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Goodra|Fire Blast|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gastrodon|62/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Steelix|Steelix, F|100/100
+|-damage|p2a: Steelix|97/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Toxic|p2a: Steelix
+|-immune|p2a: Steelix
+|
+|-weather|none
+|-heal|p1a: Gastrodon|69/100|[from] item: Leftovers
+|-heal|p2a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Gastrodon|Scald|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|50/100
+|move|p2a: Steelix|Toxic|p1a: Gastrodon
+|-status|p1a: Gastrodon|tox
+|
+|-heal|p1a: Gastrodon|75/100 tox|[from] item: Leftovers
+|-heal|p2a: Steelix|56/100|[from] item: Leftovers
+|-damage|p1a: Gastrodon|69/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p2a: Goodra|Goodra, M|88/100
+|-damage|p2a: Goodra|76/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|65/100
+|
+|-heal|p1a: Gastrodon|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|62/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Steelix|Steelix, F|56/100
+|-damage|p2a: Steelix|53/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Toxic|p2a: Steelix
+|-immune|p2a: Steelix
+|
+|-heal|p1a: Gastrodon|69/100 tox|[from] item: Leftovers
+|-heal|p2a: Steelix|59/100|[from] item: Leftovers
+|-damage|p1a: Gastrodon|50/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|-damage|p2a: Scrafty|95/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Scrafty
+|-damage|p2a: Scrafty|76/100
+|
+|-heal|p2a: Scrafty|82/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|56/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|32/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p1a: Passimian|Passimian, F|100/100
+|-damage|p1a: Passimian|94/100|[from] Stealth Rock
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-heal|p2a: Scrafty|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Passimian|U-turn|p2a: Scrafty
+|-damage|p2a: Scrafty|73/100
+|
+|switch|p1a: Silvally|Silvally-Fairy|88/100|[from]move: U-turn
+|-damage|p1a: Silvally|76/100|[from] Stealth Rock
+|move|p2a: Scrafty|Rest|p2a: Scrafty
+|-status|p2a: Scrafty|slp|[from] move: Rest
+|-heal|p2a: Scrafty|100/100 slp|[silent]
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Steelix|Steelix, F|59/100
+|-damage|p2a: Steelix|56/100|[from] Stealth Rock
+|move|p1a: Silvally|Multi-Attack|p2a: Steelix
+|-resisted|p2a: Steelix
+|-crit|p2a: Steelix
+|-damage|p2a: Steelix|41/100
+|
+|-heal|p2a: Steelix|47/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Silvally|Parting Shot|p2a: Steelix
+|-unboost|p2a: Steelix|atk|1
+|-unboost|p2a: Steelix|spa|1
+|
+|switch|p1a: Passimian|Passimian, F|94/100|[from]move: Parting Shot
+|-damage|p1a: Passimian|88/100|[from] Stealth Rock
+|move|p2a: Steelix|Toxic|p1a: Passimian
+|-status|p1a: Passimian|tox
+|
+|-heal|p2a: Steelix|54/100|[from] item: Leftovers
+|-damage|p1a: Passimian|82/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Indeedee|Indeedee, M|88/100
+|-damage|p2a: Indeedee|76/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Passimian|Close Combat|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|faint|p2a: Indeedee
+|
+|-damage|p1a: Passimian|70/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Goodra|Goodra, M|65/100
+|-damage|p2a: Goodra|53/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Passimian|Close Combat|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1a: Passimian|def|1
+|-unboost|p1a: Passimian|spd|1
+|faint|p2a: Goodra
+|
+|-damage|p1a: Passimian|51/100 tox|[from] psn
+|upkeep
+|-message|Winter in Chicago forfeited.
+|
+|win|ruznoob
+|l|☆Winter in Chicago
+|raw|ruznoob's rating: 1134 &rarr; <strong>1154</strong><br />(+20 for winning)
+|raw|Winter in Chicago's rating: 1063 &rarr; <strong>1048</strong><br />(-15 for losing)

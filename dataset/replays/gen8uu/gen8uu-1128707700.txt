@@ -1,0 +1,420 @@
+|j|☆floringay
+|j|☆Kla0Trixx
+|player|p1|floringay|marlon|1389
+|player|p2|Kla0Trixx|102|1521
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Incineroar, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Celebi|
+|poke|p1|Pelipper, M|
+|poke|p1|Sirfetch’d, M|
+|poke|p2|Incineroar, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Gastrodon-East, F|
+|poke|p2|Cobalion|
+|poke|p2|Celebi|
+|poke|p2|Rotom-Mow|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Sirfetch’d|Sirfetch’d, M|100/100
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|turn|1
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|move|p2a: Weezing|Strange Steam|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|79/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Toxtricity|Boomburst|p2a: Celebi
+|-damage|p2a: Celebi|5/100
+|
+|-heal|p2a: Celebi|11/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Celebi|Stealth Rock|p1a: Celebi
+|-sidestart|p1: floringay|move: Stealth Rock
+|
+|-heal|p2a: Celebi|18/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by floringay)
+|
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Celebi|atk|1
+|move|p1a: Celebi|Stealth Rock|p2a: Incineroar
+|-sidestart|p2: Kla0Trixx|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Celebi|Toxic|p2a: Incineroar
+|-status|p2a: Incineroar|tox
+|move|p2a: Incineroar|Knock Off|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|14/100
+|-enditem|p1a: Celebi|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-damage|p2a: Incineroar|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Celebi|Synthesis|p1a: Celebi
+|-heal|p1a: Celebi|64/100
+|move|p2a: Incineroar|Leech Life|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|-heal|p2a: Incineroar|100/100 tox|[from] drain|[of] p1a: Celebi
+|faint|p1a: Celebi
+|
+|-damage|p2a: Incineroar|88/100 tox|[from] psn
+|upkeep
+|j| 7/0 t_o\9/0gxe?
+|
+|switch|p1a: Sirfetch’d|Sirfetch’d, M|100/100
+|-damage|p1a: Sirfetch’d|94/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Sirfetch’d|Brave Bird|p2a: Weezing
+|-damage|p2a: Weezing|59/100
+|-damage|p1a: Sirfetch’d|85/100|[from] Recoil
+|
+|-heal|p2a: Weezing|65/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Weezing|Strange Steam|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|10/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Weezing|71/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1a: Pelipper|Hurricane|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Weezing|77/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p2a: Gastrodon|Gastrodon-East, F|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|move|p1a: Pelipper|Hurricane|p2a: Gastrodon
+|-damage|p2a: Gastrodon|45/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|51/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Pelipper|Hurricane|p2a: Gastrodon
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Celebi|Celebi|18/100
+|-damage|p2a: Celebi|5/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Celebi|Psychic|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|none
+|-heal|p2a: Celebi|11/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|turn|13
+|
+|move|p2a: Celebi|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|94/100
+|
+|switch|p2a: Weezing|Weezing-Galar, M|77/100|[from]move: U-turn
+|-damage|p2a: Weezing|64/100|[from] Stealth Rock
+|move|p1a: Incineroar|Knock Off|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|53/100
+|-enditem|p2a: Weezing|Black Sludge|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Incineroar|Flare Blitz|p2a: Weezing
+|-damage|p2a: Weezing|22/100
+|-damage|p1a: Incineroar|86/100|[from] Recoil
+|move|p2a: Weezing|Strange Steam|p1a: Incineroar
+|-damage|p1a: Incineroar|59/100
+|-start|p1a: Incineroar|confusion
+|
+|upkeep
+|turn|15
+|
+|-activate|p1a: Incineroar|confusion
+|-damage|p1a: Incineroar|52/100|[from] confusion
+|move|p2a: Weezing|Toxic|p1a: Incineroar
+|-status|p1a: Incineroar|tox
+|
+|-damage|p1a: Incineroar|46/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|-end|p1a: Incineroar|confusion
+|move|p1a: Incineroar|Parting Shot|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|
+|-damage|p1a: Incineroar|34/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Incineroar|Flare Blitz|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Incineroar|28/100 tox|[from] Recoil
+|faint|p2a: Weezing
+|
+|-damage|p1a: Incineroar|9/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|switch|p1a: Sirfetch’d|Sirfetch’d, M|85/100
+|-damage|p1a: Sirfetch’d|78/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Celebi|Celebi|11/100
+|-damage|p2a: Celebi|0 fnt|[from] Stealth Rock
+|faint|p2a: Celebi
+|move|p1a: Sirfetch’d|Close Combat|p2: Celebi|[notarget]
+|-fail|p1a: Sirfetch’d
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|88/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Rotom|Leaf Storm|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|63/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Rillaboom|69/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|75/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|97/100|[from] Stealth Rock
+|move|p1a: Rillaboom|Substitute|p1a: Rillaboom
+|-start|p1a: Rillaboom|Substitute
+|-damage|p1a: Rillaboom|50/100
+|
+|-heal|p2a: Cobalion|100/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|57/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|63/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|move|p2a: Cobalion|Iron Head|p1a: Rillaboom
+|-end|p1a: Rillaboom|Substitute
+|move|p1a: Rillaboom|Bulk Up|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|1
+|-boost|p1a: Rillaboom|def|1
+|
+|-heal|p1a: Rillaboom|69/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|75/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|move|p2a: Cobalion|Volt Switch|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|70/100
+|
+|switch|p2a: Incineroar|Incineroar, F|88/100 tox|[from]move: Volt Switch
+|-damage|p2a: Incineroar|63/100 tox|[from] Stealth Rock
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|move|p1a: Rillaboom|Drain Punch|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|23/100 tox
+|-heal|p1a: Rillaboom|90/100|[from] drain|[of] p2a: Incineroar
+|
+|-heal|p1a: Rillaboom|96/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|29/100 tox|[from] Grassy Terrain
+|-damage|p2a: Incineroar|23/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p1a: Rillaboom|Drain Punch|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|76/100
+|-damage|p2a: Rotom|63/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Toxtricity|Toxtricity, F|79/100
+|-damage|p1a: Toxtricity|67/100|[from] Stealth Rock
+|move|p2a: Rotom|Trick|p1a: Toxtricity
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Toxtricity
+|-item|p1a: Toxtricity|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Choice Specs|[from] move: Trick
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|47/100
+|move|p2a: Rotom|Thunderbolt|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|19/100
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Rotom|Thunderbolt|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|65/100
+|
+|-heal|p1a: Rillaboom|71/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|77/100|[from] Grassy Terrain
+|upkeep
+|turn|28
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|52/100
+|move|p1a: Rillaboom|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|17/100
+|-heal|p1a: Rillaboom|61/100|[from] drain|[of] p2a: Rotom
+|
+|-heal|p1a: Rillaboom|68/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|74/100|[from] Grassy Terrain
+|upkeep
+|turn|29
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|50/100
+|move|p1a: Rillaboom|Substitute|p1a: Rillaboom
+|-start|p1a: Rillaboom|Substitute
+|-damage|p1a: Rillaboom|25/100
+|
+|-heal|p1a: Rillaboom|31/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|38/100|[from] Grassy Terrain
+|upkeep
+|turn|30
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-activate|p1a: Rillaboom|move: Substitute|[damage]
+|move|p1a: Rillaboom|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: Rillaboom|43/100|[from] drain|[of] p2a: Rotom
+|faint|p2a: Rotom
+|
+|-heal|p1a: Rillaboom|49/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|55/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|-damage|p2a: Cobalion|97/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Cobalion|Iron Head|p1a: Rillaboom
+|-end|p1a: Rillaboom|Substitute
+|move|p1a: Rillaboom|Drain Punch|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-crit|p2a: Cobalion
+|-damage|p2a: Cobalion|45/100
+|-heal|p1a: Rillaboom|76/100|[from] drain|[of] p2a: Cobalion
+|
+|-heal|p2a: Cobalion|52/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|82/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|88/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|32
+|
+|move|p2a: Cobalion|Iron Head|p1a: Rillaboom
+|-damage|p1a: Rillaboom|58/100
+|move|p1a: Rillaboom|Drain Punch|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|18/100
+|-heal|p1a: Rillaboom|72/100|[from] drain|[of] p2a: Cobalion
+|-enditem|p2a: Cobalion|Salac Berry|[eat]
+|-boost|p2a: Cobalion|spe|1|[from] item: Salac Berry
+|
+|-heal|p1a: Rillaboom|78/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Cobalion|Iron Head|p1a: Rillaboom
+|-damage|p1a: Rillaboom|48/100
+|move|p1a: Rillaboom|Drain Punch|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|-heal|p1a: Rillaboom|55/100|[from] drain|[of] p2a: Cobalion
+|faint|p2a: Cobalion
+|
+|win|floringay
+|l|☆Kla0Trixx
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

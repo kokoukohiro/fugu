@@ -1,0 +1,548 @@
+|j|☆Moon Rime
+|j|☆Testinganteater
+|t:|1645176471
+|gametype|singles
+|player|p1|Moon Rime|lady-gen4|1124
+|player|p2|Testinganteater|juggler|1383
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Celebi|
+|poke|p1|Incineroar, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Gastrodon-East, M|
+|poke|p1|Registeel|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Tornadus, M|
+|poke|p2|Heracross, M|
+|poke|p2|Milotic, F|
+|poke|p2|Celebi|
+|poke|p2|Steelix, M|
+|poke|p2|Crobat, M|
+|teampreview
+|
+|t:|1645176496
+|start
+|switch|p1a: Incineroar|Incineroar, F|100/100
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|turn|1
+|
+|t:|1645176501
+|move|p2a: Tornadus|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|88/100
+|
+|t:|1645176506
+|switch|p2a: Milotic|Milotic, F|100/100|[from]move: U-turn
+|move|p1a: Incineroar|Knock Off|p2a: Milotic
+|-damage|p2a: Milotic|71/100
+|-enditem|p2a: Milotic|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1645176514
+|move|p2a: Milotic|Flip Turn|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|65/100
+|
+|t:|1645176520
+|switch|p2a: Tornadus|Tornadus, M|100/100|[from]move: Flip Turn
+|move|p1a: Incineroar|Toxic|p2a: Tornadus
+|-status|p2a: Tornadus|tox
+|
+|-damage|p2a: Tornadus|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1645176527
+|switch|p1a: Registeel|Registeel|100/100
+|move|p2a: Tornadus|U-turn|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|94/100
+|
+|t:|1645176530
+|switch|p2a: Heracross|Heracross, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Registeel|99/100|[from] item: Leftovers
+|-status|p2a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1645176537
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Heracross|Knock Off|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|74/100
+|-enditem|p1a: Togekiss|Choice Scarf|[from] move: Knock Off|[of] p2a: Heracross
+|
+|-damage|p2a: Heracross|95/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1645176547
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Togekiss|Air Slash|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|84/100
+|
+|-heal|p2a: Steelix|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1645176552
+|move|p1a: Togekiss|Aura Sphere|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|40/100
+|move|p2a: Steelix|Toxic|p1a: Togekiss
+|-status|p1a: Togekiss|tox
+|
+|-heal|p2a: Steelix|46/100|[from] item: Leftovers
+|-damage|p1a: Togekiss|68/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1645176564
+|move|p1a: Togekiss|Trick|p2a: Steelix
+|-activate|p1a: Togekiss|move: Trick|[of] p2a: Steelix
+|-enditem|p2a: Steelix|Leftovers|[silent]|[from] move: Trick
+|-item|p1a: Togekiss|Leftovers|[from] move: Trick
+|move|p2a: Steelix|Stealth Rock|p1a: Togekiss
+|-sidestart|p1: Moon Rime|move: Stealth Rock
+|
+|-heal|p1a: Togekiss|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Togekiss|62/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1645176574
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Togekiss|Roost|p1a: Togekiss
+|-heal|p1a: Togekiss|100/100 tox
+|-singleturn|p1a: Togekiss|move: Roost
+|
+|-damage|p1a: Togekiss|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1645176589
+|switch|p1a: Incineroar|Incineroar, F|65/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Celebi|atk|1
+|move|p2a: Celebi|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|56/100
+|
+|t:|1645176596
+|switch|p2a: Heracross|Heracross, M|95/100 brn|[from]move: U-turn
+|
+|-damage|p2a: Heracross|89/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1645176602
+|move|p2a: Heracross|Facade|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-damage|p2a: Heracross|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1645176606
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1645176612
+|switch|p2a: Milotic|Milotic, F|71/100
+|move|p1a: Weezing|Defog|p2a: Milotic
+|-unboost|p2a: Milotic|evasion|1
+|-sideend|p1: Moon Rime|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|
+|upkeep
+|turn|12
+|
+|t:|1645176621
+|switch|p1a: Celebi|Celebi|100/100
+|move|p2a: Milotic|Toxic|p1a: Celebi
+|-status|p1a: Celebi|tox
+|
+|-damage|p1a: Celebi|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1645176629
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Celebi|Psychic|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|82/100
+|
+|-damage|p1a: Celebi|82/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1645176666
+|switch|p2a: Steelix|Steelix, M|46/100
+|-curestatus|p1a: Celebi|tox|[from] ability: Natural Cure
+|switch|p1a: Registeel|Registeel|99/100
+|
+|-heal|p1a: Registeel|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1645176679
+|move|p1a: Registeel|Stealth Rock|p2a: Steelix
+|-sidestart|p2: Testinganteater|move: Stealth Rock
+|move|p2a: Steelix|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|60/100
+|
+|-heal|p1a: Registeel|66/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1645176697
+|switch|p1a: Celebi|Celebi|82/100
+|move|p2a: Steelix|Stealth Rock|p1a: Celebi
+|-sidestart|p1: Moon Rime|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1645176706
+|switch|p2a: Crobat|Crobat, M|100/100
+|move|p1a: Celebi|Leaf Storm|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|81/100
+|-unboost|p1a: Celebi|spa|2
+|
+|upkeep
+|turn|18
+|
+|t:|1645176713
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Crobat|U-turn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|80/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Moon Rime)
+|
+|t:|1645176763
+|switch|p2a: Celebi|Celebi|82/100|[from]move: U-turn
+|
+|-heal|p1a: Gastrodon|86/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1645176773
+|switch|p1a: Registeel|Registeel|66/100
+|-damage|p1a: Registeel|60/100|[from] Stealth Rock
+|move|p2a: Celebi|U-turn|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|56/100
+|
+|t:|1645176776
+|switch|p2a: Heracross|Heracross, M|83/100 brn|[from]move: U-turn
+|-damage|p2a: Heracross|70/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Registeel|62/100|[from] item: Leftovers
+|-damage|p2a: Heracross|64/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1645176787
+|switch|p1a: Weezing|Weezing-Galar, M|88/100
+|-damage|p1a: Weezing|76/100|[from] Stealth Rock
+|move|p2a: Heracross|Facade|p1a: Weezing
+|-damage|p1a: Weezing|30/100
+|-damage|p2a: Heracross|48/100 brn|[from] item: Rocky Helmet|[of] p1a: Weezing
+|
+|-damage|p2a: Heracross|42/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1645176797
+|move|p2a: Heracross|Facade|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|-damage|p2a: Heracross|25/100 brn|[from] item: Rocky Helmet|[of] p1a: Weezing
+|faint|p1a: Weezing
+|
+|-damage|p2a: Heracross|19/100 brn|[from] brn
+|upkeep
+|
+|t:|1645176802
+|switch|p1a: Celebi|Celebi|82/100
+|turn|22
+|
+|t:|1645176815
+|switch|p2a: Steelix|Steelix, M|46/100
+|-damage|p2a: Steelix|43/100|[from] Stealth Rock
+|move|p1a: Celebi|Psychic|p2a: Steelix
+|-resisted|p2a: Steelix
+|-crit|p2a: Steelix
+|-damage|p2a: Steelix|15/100
+|
+|upkeep
+|turn|23
+|
+|t:|1645176824
+|move|p1a: Celebi|Psychic|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|upkeep
+|
+|t:|1645176833
+|switch|p2a: Crobat|Crobat, M|81/100
+|turn|24
+|
+|t:|1645176860
+|switch|p1a: Gastrodon|Gastrodon-East, M|86/100
+|-damage|p1a: Gastrodon|80/100|[from] Stealth Rock
+|move|p2a: Crobat|U-turn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|66/100
+|
+|t:|1645176864
+|switch|p2a: Celebi|Celebi|82/100|[from]move: U-turn
+|
+|-heal|p1a: Gastrodon|72/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1645176873
+|switch|p1a: Registeel|Registeel|62/100
+|-damage|p1a: Registeel|56/100|[from] Stealth Rock
+|move|p2a: Celebi|U-turn|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|51/100
+|
+|t:|1645176877
+|switch|p2a: Heracross|Heracross, M|19/100 brn|[from]move: U-turn
+|-damage|p2a: Heracross|7/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Registeel|57/100|[from] item: Leftovers
+|-damage|p2a: Heracross|1/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1645176887
+|move|p1a: Registeel|Protect|p1a: Registeel
+|-singleturn|p1a: Registeel|Protect
+|move|p2a: Heracross|Close Combat|p1a: Registeel
+|-activate|p1a: Registeel|move: Protect
+|
+|-heal|p1a: Registeel|63/100|[from] item: Leftovers
+|-damage|p2a: Heracross|0 fnt|[from] brn
+|faint|p2a: Heracross
+|upkeep
+|
+|t:|1645176891
+|switch|p2a: Tornadus|Tornadus, M|94/100 tox
+|turn|27
+|
+|t:|1645176896
+|move|p2a: Tornadus|Knock Off|p1a: Registeel
+|-damage|p1a: Registeel|48/100
+|-enditem|p1a: Registeel|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Registeel|Seismic Toss|p2a: Tornadus
+|-damage|p2a: Tornadus|61/100 tox
+|
+|-damage|p2a: Tornadus|55/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1645176904
+|move|p1a: Registeel|Protect|p1a: Registeel
+|-singleturn|p1a: Registeel|Protect
+|move|p2a: Tornadus|U-turn|p1a: Registeel
+|-activate|p1a: Registeel|move: Protect
+|
+|-damage|p2a: Tornadus|43/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1645176911
+|move|p1a: Registeel|Protect||[still]
+|-fail|p1a: Registeel
+|move|p2a: Tornadus|U-turn|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|42/100
+|inactive|Testinganteater has 120 seconds left.
+|
+|t:|1645176959
+|switch|p2a: Milotic|Milotic, F|71/100|[from]move: U-turn
+|-damage|p2a: Milotic|59/100|[from] Stealth Rock
+|
+|upkeep
+|turn|30
+|
+|t:|1645176969
+|move|p2a: Milotic|Scald|p1a: Registeel
+|-damage|p1a: Registeel|28/100
+|-status|p1a: Registeel|brn
+|move|p1a: Registeel|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-damage|p2a: Milotic|53/100 tox|[from] psn
+|-damage|p1a: Registeel|22/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1645176975
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100 tox
+|move|p1a: Registeel|Seismic Toss|p2a: Milotic
+|-damage|p2a: Milotic|75/100 tox
+|
+|-damage|p2a: Milotic|63/100 tox|[from] psn
+|-damage|p1a: Registeel|16/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1645176984
+|move|p2a: Milotic|Flip Turn|p1a: Registeel
+|-damage|p1a: Registeel|8/100 brn
+|
+|t:|1645176991
+|switch|p2a: Celebi|Celebi|82/100|[from]move: Flip Turn
+|move|p1a: Registeel|Seismic Toss|p2a: Celebi
+|-damage|p2a: Celebi|52/100
+|
+|-damage|p1a: Registeel|2/100 brn|[from] brn
+|upkeep
+|turn|33
+|inactive|Testinganteater has 120 seconds left.
+|
+|t:|1645177021
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|100/100
+|move|p1a: Registeel|Seismic Toss|p2a: Celebi
+|-damage|p2a: Celebi|71/100
+|
+|-damage|p1a: Registeel|0 fnt|[from] brn
+|faint|p1a: Registeel
+|upkeep
+|
+|t:|1645177028
+|switch|p1a: Togekiss|Togekiss, F|82/100 tox
+|-damage|p1a: Togekiss|57/100 tox|[from] Stealth Rock
+|turn|34
+|
+|t:|1645177040
+|move|p2a: Celebi|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|53/100 tox
+|
+|t:|1645177050
+|switch|p2a: Tornadus|Tornadus, M|43/100 tox|[from]move: U-turn
+|move|p1a: Togekiss|Air Slash|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-heal|p1a: Togekiss|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Togekiss|53/100 tox|[from] psn
+|upkeep
+|
+|t:|1645177064
+|switch|p2a: Crobat|Crobat, M|81/100
+|turn|35
+|
+|t:|1645177070
+|move|p2a: Crobat|Brave Bird|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|-damage|p2a: Crobat|64/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1645177077
+|switch|p1a: Gastrodon|Gastrodon-East, M|72/100
+|-damage|p1a: Gastrodon|66/100|[from] Stealth Rock
+|turn|36
+|
+|t:|1645177082
+|move|p2a: Crobat|U-turn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|52/100
+|
+|t:|1645177086
+|switch|p2a: Celebi|Celebi|71/100|[from]move: U-turn
+|move|p1a: Gastrodon|Ice Beam|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|29/100
+|
+|-heal|p1a: Gastrodon|58/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1645177094
+|move|p2a: Celebi|Recover|p2a: Celebi
+|-heal|p2a: Celebi|79/100
+|move|p1a: Gastrodon|Toxic|p2a: Celebi
+|-status|p2a: Celebi|tox
+|
+|-heal|p1a: Gastrodon|65/100|[from] item: Leftovers
+|-damage|p2a: Celebi|73/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1645177099
+|switch|p1a: Celebi|Celebi|82/100
+|move|p2a: Celebi|U-turn|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|21/100
+|
+|t:|1645177102
+|-curestatus|p2a: Celebi|tox|[from] ability: Natural Cure
+|switch|p2a: Crobat|Crobat, M|64/100|[from]move: U-turn
+|
+|upkeep
+|turn|39
+|
+|t:|1645177107
+|switch|p1a: Gastrodon|Gastrodon-East, M|65/100
+|-damage|p1a: Gastrodon|58/100|[from] Stealth Rock
+|move|p2a: Crobat|Brave Bird|p1a: Gastrodon
+|-damage|p1a: Gastrodon|23/100
+|-damage|p2a: Crobat|48/100|[from] Recoil
+|
+|-heal|p1a: Gastrodon|29/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1645177112
+|move|p2a: Crobat|Brave Bird|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|-damage|p2a: Crobat|36/100|[from] Recoil
+|
+|upkeep
+|c|☆Testinganteater|gg
+|
+|t:|1645177114
+|switch|p1a: Celebi|Celebi|21/100
+|turn|41
+|c|☆Moon Rime|Gg
+|
+|t:|1645177119
+|move|p2a: Crobat|Brave Bird|p1a: Celebi
+|-supereffective|p1a: Celebi
+|-damage|p1a: Celebi|0 fnt
+|faint|p1a: Celebi
+|-damage|p2a: Crobat|28/100|[from] Recoil
+|
+|win|Testinganteater
+|raw|Moon Rime's rating: 1124 &rarr; <strong>1115</strong><br />(-9 for losing)
+|raw|Testinganteater's rating: 1383 &rarr; <strong>1390</strong><br />(+7 for winning)
+|c|☆Moon Rime|Wp
+|c|☆Testinganteater|u2
+|l|☆Moon Rime

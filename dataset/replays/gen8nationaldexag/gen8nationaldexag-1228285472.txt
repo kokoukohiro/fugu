@@ -1,0 +1,467 @@
+|j|‽ChunkyRat
+|j|☆LinktheAnnihilator
+|t:|1605950260
+|player|p1|ChunkyRat|policeman|1720
+|player|p2|LinktheAnnihilator|unknown|1551
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Kyurem-White|
+|poke|p1|Rayquaza|
+|poke|p1|Lugia|
+|poke|p1|Groudon|
+|poke|p1|Yveltal|
+|poke|p2|Groudon|
+|poke|p2|Zacian-Crowned|
+|poke|p2|Yveltal|
+|poke|p2|Rayquaza|
+|poke|p2|Giratina|
+|poke|p2|Chansey, F|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ChunkyRat)
+|
+|t:|1605950282
+|start
+|switch|p1a: Kyurem|Kyurem-White|100/100
+|switch|p2a: egg|Chansey, F|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|turn|1
+|
+|t:|1605950289
+|switch|p1a: Yveltal|Yveltal|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|move|p2a: egg|Stealth Rock|p1a: Yveltal
+|-sidestart|p1: ChunkyRat|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1605950292
+|move|p1a: Yveltal|Knock Off|p2a: egg
+|-damage|p2a: egg|47/100
+|-enditem|p2a: egg|Eviolite|[from] move: Knock Off|[of] p1a: Yveltal
+|move|p2a: egg|Toxic|p1a: Yveltal
+|-status|p1a: Yveltal|tox
+|
+|-damage|p1a: Yveltal|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1605950299
+|move|p1a: Yveltal|Sucker Punch||[still]
+|-fail|p1a: Yveltal
+|move|p2a: egg|Soft-Boiled|p2a: egg
+|-heal|p2a: egg|97/100
+|
+|-damage|p1a: Yveltal|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1605950308
+|switch|p2a: Pog|Groudon, shiny|100/100
+|detailschange|p2a: Pog|Groudon-Primal, shiny
+|-primal|p2a: Pog
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Pog
+|move|p1a: Yveltal|Knock Off|p2a: Pog
+|-damage|p2a: Pog|69/100
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Yveltal|64/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1605950314
+|move|p1a: Yveltal|Toxic|p2a: Pog
+|-status|p2a: Pog|tox
+|move|p2a: Pog|Rock Polish|p2a: Pog
+|-boost|p2a: Pog|spe|2
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Pog|63/100 tox|[from] psn
+|-damage|p1a: Yveltal|39/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1605950318
+|move|p2a: Pog|Swords Dance|p2a: Pog
+|-boost|p2a: Pog|atk|2
+|move|p1a: Yveltal|Roost|p1a: Yveltal
+|-heal|p1a: Yveltal|89/100 tox
+|-singleturn|p1a: Yveltal|move: Roost
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Pog|50/100 tox|[from] psn
+|-damage|p1a: Yveltal|58/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1605950324
+|move|p1a: Yveltal|Sucker Punch|p2a: Pog
+|-damage|p2a: Pog|20/100 tox
+|move|p2a: Pog|Stone Edge|p1a: Yveltal
+|-supereffective|p1a: Yveltal
+|-damage|p1a: Yveltal|0 fnt
+|faint|p1a: Yveltal
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Pog|1/100 tox|[from] psn
+|upkeep
+|
+|t:|1605950330
+|switch|p1a: Lugia|Lugia|100/100
+|turn|8
+|
+|t:|1605950334
+|move|p2a: Pog|Stone Edge|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|52/100
+|move|p1a: Lugia|Defog|p2a: Pog
+|-unboost|p2a: Pog|evasion|1
+|-sideend|p1: ChunkyRat|Stealth Rock|[from] move: Defog|[of] p1a: Lugia
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p2a: Pog|0 fnt|[from] psn
+|faint|p2a: Pog
+|-weather|none
+|upkeep
+|
+|t:|1605950343
+|switch|p2a: dargone|Giratina, shiny|100/100
+|-ability|p2a: dargone|Pressure
+|turn|9
+|
+|t:|1605950345
+|move|p1a: Lugia|Thunder Wave|p2a: dargone
+|-status|p2a: dargone|par
+|move|p2a: dargone|Defog|p1a: Lugia
+|-unboost|p1a: Lugia|evasion|1
+|
+|upkeep
+|turn|10
+|
+|t:|1605950348
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|100/100
+|-singleturn|p1a: Lugia|move: Roost
+|move|p2a: dargone|Will-O-Wisp|p1a: Lugia
+|-status|p1a: Lugia|brn
+|
+|-damage|p1a: Lugia|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|c|☆LinktheAnnihilator|misclick
+|
+|t:|1605950356
+|switch|p1a: Kyurem|Kyurem-White|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|move|p2a: dargone|Hex|p1a: Kyurem
+|-damage|p1a: Kyurem|82/100
+|
+|upkeep
+|turn|12
+|
+|t:|1605950362
+|move|p1a: Kyurem|Ice Beam|p2a: dargone
+|-supereffective|p2a: dargone
+|-damage|p2a: dargone|35/100 par
+|move|p2a: dargone|Will-O-Wisp|p1a: Kyurem
+|-status|p1a: Kyurem|brn
+|
+|-heal|p2a: dargone|41/100 par|[from] item: Leftovers
+|-damage|p1a: Kyurem|76/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1605950370
+|switch|p2a: egg|Chansey, F|97/100
+|move|p1a: Kyurem|Ice Beam|p2a: egg
+|-damage|p2a: egg|76/100
+|
+|-damage|p1a: Kyurem|70/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1605950375
+|switch|p1a: Groudon|Groudon|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|move|p2a: egg|Toxic|p1a: Groudon
+|-status|p1a: Groudon|tox
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1605950380
+|move|p1a: Groudon|Stealth Rock|p2a: egg
+|-sidestart|p2: LinktheAnnihilator|move: Stealth Rock
+|move|p2a: egg|Stealth Rock|p1a: Groudon
+|-sidestart|p1: ChunkyRat|move: Stealth Rock
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1605950385
+|move|p1a: Groudon|Thunder Wave|p2a: egg
+|-status|p2a: egg|par
+|move|p2a: egg|Soft-Boiled|p2a: egg
+|-heal|p2a: egg|100/100 par
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|64/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1605950390
+|-weather|none
+|switch|p1a: Lugia|Lugia|94/100 brn
+|move|p2a: egg|Heal Bell|p2a: egg
+|-activate|p2a: egg|move: Heal Bell
+|-curestatus|p2a: egg|par|[msg]
+|-curestatus|p2: dargone|par|[msg]
+|
+|-damage|p1a: Lugia|88/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1605950397
+|move|p2a: egg|Stealth Rock||[still]
+|-fail|p2a: egg
+|move|p1a: Lugia|Roar|p2a: egg
+|drag|p2a: dargone|Giratina, shiny|41/100
+|-damage|p2a: dargone|29/100|[from] Stealth Rock
+|-ability|p2a: dargone|Pressure
+|
+|-heal|p2a: dargone|35/100|[from] item: Leftovers
+|-damage|p1a: Lugia|82/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1605950403
+|move|p1a: Lugia|Thunder Wave|p2a: dargone
+|-status|p2a: dargone|par
+|cant|p2a: dargone|par
+|
+|-heal|p2a: dargone|41/100 par|[from] item: Leftovers
+|-damage|p1a: Lugia|75/100 brn|[from] brn
+|upkeep
+|turn|20
+|c|☆LinktheAnnihilator|bruh
+|
+|t:|1605950410
+|move|p1a: Lugia|Defog|p2a: dargone
+|-unboost|p2a: dargone|evasion|1
+|-sideend|p2: LinktheAnnihilator|Stealth Rock|[from] move: Defog|[of] p1a: Lugia
+|-sideend|p1: ChunkyRat|Stealth Rock|[from] move: Defog|[of] p1a: Lugia
+|move|p2a: dargone|Hex|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|29/100 brn
+|
+|-heal|p2a: dargone|47/100 par|[from] item: Leftovers
+|-damage|p1a: Lugia|23/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1605950414
+|switch|p1a: Groudon|Groudon-Primal|64/100 tox
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|move|p2a: dargone|Rest|p2a: dargone
+|-status|p2a: dargone|slp|[from] move: Rest
+|-heal|p2a: dargone|100/100 slp|[silent]
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|58/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1605950419
+|move|p1a: Groudon|Stealth Rock|p2a: dargone
+|-sidestart|p2: LinktheAnnihilator|move: Stealth Rock
+|cant|p2a: dargone|slp
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Groudon|45/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1605950422
+|-weather|none
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|cant|p2a: dargone|slp
+|
+|upkeep
+|turn|24
+|
+|t:|1605950426
+|detailschange|p1a: Rayquaza|Rayquaza-Mega
+|-mega|p1a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p1a: Rayquaza|Dragon Dance|p1a: Rayquaza
+|-boost|p1a: Rayquaza|atk|1
+|-boost|p1a: Rayquaza|spe|1
+|-curestatus|p2a: dargone|slp|[msg]
+|move|p2a: dargone|Will-O-Wisp|p1a: Rayquaza
+|-status|p1a: Rayquaza|brn
+|
+|-weather|DeltaStream|[upkeep]
+|-damage|p1a: Rayquaza|94/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1605950431
+|move|p1a: Rayquaza|Dragon Dance|p1a: Rayquaza
+|-boost|p1a: Rayquaza|atk|1
+|-boost|p1a: Rayquaza|spe|1
+|move|p2a: dargone|Hex|p1a: Rayquaza
+|-damage|p1a: Rayquaza|50/100 brn
+|
+|-weather|DeltaStream|[upkeep]
+|-damage|p1a: Rayquaza|44/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1605950434
+|move|p1a: Rayquaza|Dragon Ascent|p2a: dargone
+|-damage|p2a: dargone|62/100
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|move|p2a: dargone|Hex|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|-weather|none
+|
+|-heal|p2a: dargone|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1605950439
+|switch|p1a: Kyurem|Kyurem-White|70/100 brn
+|-ability|p1a: Kyurem|Turboblaze
+|turn|27
+|
+|t:|1605950443
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|switch|p2a: egg|Chansey, F|100/100
+|-damage|p2a: egg|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|28
+|
+|t:|1605950446
+|move|p1a: Necrozma|Autotomize|p1a: Necrozma
+|-boost|p1a: Necrozma|spe|2
+|-start|p1a: Necrozma|Autotomize
+|move|p2a: egg|Stealth Rock|p1a: Necrozma
+|-sidestart|p1: ChunkyRat|move: Stealth Rock
+|
+|upkeep
+|turn|29
+|
+|t:|1605950455
+|move|p1a: Necrozma|Earthquake|p2a: egg
+|-damage|p2a: egg|41/100
+|move|p2a: egg|Soft-Boiled|p2a: egg
+|-heal|p2a: egg|91/100
+|
+|upkeep
+|turn|30
+|
+|t:|1605950470
+|switch|p2a: dargone|Giratina, shiny|68/100
+|-damage|p2a: dargone|56/100|[from] Stealth Rock
+|-ability|p2a: dargone|Pressure
+|move|p1a: Necrozma|Earthquake|p2a: dargone
+|-damage|p2a: dargone|40/100
+|
+|-heal|p2a: dargone|46/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1605950475
+|-start|p1a: Necrozma|Dynamax
+|-heal|p1a: Necrozma|100/100|[silent]
+|move|p1a: Necrozma|Max Quake|p2a: dargone
+|-damage|p2a: dargone|25/100
+|-boost|p1a: Necrozma|spd|1
+|move|p2a: dargone|Defog|p1a: Necrozma
+|-unboost|p1a: Necrozma|evasion|1
+|-sideend|p1: ChunkyRat|Stealth Rock|[from] move: Defog|[of] p2a: dargone
+|-sideend|p2: LinktheAnnihilator|Stealth Rock|[from] move: Defog|[of] p2a: dargone
+|
+|-heal|p2a: dargone|31/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1605950483
+|move|p1a: Necrozma|Max Mindstorm|p2a: dargone
+|-damage|p2a: dargone|5/100
+|-fieldstart|move: Psychic Terrain
+|move|p2a: dargone|Will-O-Wisp|p1a: Necrozma
+|-status|p1a: Necrozma|brn
+|
+|-heal|p2a: dargone|11/100|[from] item: Leftovers
+|-damage|p1a: Necrozma|97/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1605950487
+|move|p1a: Necrozma|Max Mindstorm|p2a: dargone
+|-damage|p2a: dargone|0 fnt
+|faint|p2a: dargone
+|
+|-damage|p1a: Necrozma|94/100 brn|[from] brn
+|-end|p1a: Necrozma|Dynamax
+|-heal|p1a: Necrozma|94/100 brn|[silent]
+|upkeep
+|
+|t:|1605950494
+|switch|p2a: egg|Chansey, F|91/100
+|turn|34
+|
+|t:|1605950497
+|move|p1a: Necrozma|Earthquake|p2a: egg
+|-damage|p2a: egg|66/100
+|move|p2a: egg|Soft-Boiled|p2a: egg
+|-heal|p2a: egg|100/100
+|
+|-damage|p1a: Necrozma|88/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1605950501
+|move|p1a: Necrozma|Earthquake|p2a: egg
+|-damage|p2a: egg|77/100
+|move|p2a: egg|Soft-Boiled|p2a: egg
+|-heal|p2a: egg|100/100
+|
+|-damage|p1a: Necrozma|82/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1605950505
+|move|p1a: Necrozma|Earthquake|p2a: egg
+|-damage|p2a: egg|78/100
+|move|p2a: egg|Stealth Rock|p1a: Necrozma
+|-sidestart|p1: ChunkyRat|move: Stealth Rock
+|
+|-damage|p1a: Necrozma|76/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|37
+|-message|ChunkyRat forfeited.
+|
+|win|LinktheAnnihilator
+|l|‽ChunkyRat
+|raw|ChunkyRat's rating: 1726 &rarr; <strong>1697</strong><br />(-29 for losing)
+|raw|LinktheAnnihilator's rating: 1551 &rarr; <strong>1580</strong><br />(+29 for winning)

@@ -1,0 +1,148 @@
+|j|☆eclecticempiricist
+|j|☆Frito135
+|player|p1|eclecticempiricist|1|1357
+|player|p2|Frito135|shadowtriad|1372
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Salazzle, F|
+|poke|p1|Swoobat, M|
+|poke|p1|Indeedee-F, F|
+|poke|p1|Rotom-Fan|
+|poke|p1|Thievul, M|
+|poke|p1|Gigalith, F|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Gurdurr, F|
+|poke|p2|Silvally-*|
+|poke|p2|Mr. Rime, F|
+|poke|p2|Goodra, F|
+|poke|p2|Gigalith, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|switch|p2a: Gurdurr|Gurdurr, F|100/100
+|turn|1
+|
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Rotom|Volt Switch|p2a: Gigalith
+|-damage|p2a: Gigalith|83/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Frito135)
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|89/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Gigalith|Earthquake|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|50/100
+|move|p2a: Gigalith|Toxic|p1a: Gigalith
+|-status|p1a: Gigalith|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|56/100|[from] item: Leftovers
+|-damage|p1a: Gigalith|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|j| chris7
+|
+|switch|p2a: Gurdurr|Gurdurr, F|100/100
+|move|p1a: Gigalith|Earthquake|p2a: Gurdurr
+|-damage|p2a: Gurdurr|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gurdurr|68/100|[from] Sandstorm
+|-heal|p1a: Gigalith|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Gigalith|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Gurdurr|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|65/100
+|-enditem|p1a: Rotom|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gurdurr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|59/100|[from] Sandstorm
+|-damage|p2a: Gurdurr|62/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p2a: Goodra|Goodra, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|95/100
+|
+|switch|p1a: Indeedee|Indeedee-F, F|100/100|[from]move: Volt Switch
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p1a: Indeedee|Psychic|p2a: Goodra
+|-damage|p2a: Goodra|72/100
+|move|p2a: Goodra|Draco Meteor|p1a: Indeedee
+|-damage|p1a: Indeedee|30/100
+|-unboost|p2a: Goodra|spa|2
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Swoobat|Swoobat, M|100/100
+|-enditem|p1a: Swoobat|Psychic Seed
+|-boost|p1a: Swoobat|spd|2|[from] item: Psychic Seed
+|switch|p2a: Silvally|Silvally-Steel|100/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Swoobat|Calm Mind|p1a: Swoobat
+|-boost|p1a: Swoobat|spa|2
+|-boost|p1a: Swoobat|spd|2
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Swoobat|Heat Wave|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p2a: Gigalith|Gigalith, F|56/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|10
+|
+|move|p1a: Swoobat|Stored Power|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Swoobat|94/100|[from] Sandstorm
+|upkeep
+|-message|Frito135 forfeited.
+|
+|win|eclecticempiricist
+|l| chris7
+|raw|eclecticempiricist's rating: 1357 &rarr; <strong>1378</strong><br />(+21 for winning)
+|raw|Frito135's rating: 1372 &rarr; <strong>1351</strong><br />(-21 for losing)

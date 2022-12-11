@@ -1,0 +1,276 @@
+|j|☆Gladio
+|j|☆Player 58
+|player|p1|Gladio|emmet|1051
+|player|p2|Player 58|1|1013
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gallade, M|
+|poke|p1|Sigilyph, M|
+|poke|p1|Steelix, M|
+|poke|p1|Jellicent, F|
+|poke|p1|Vanilluxe, F|
+|poke|p1|Rillaboom, M|
+|poke|p2|Rhydon, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Sigilyph, F|
+|poke|p2|Silvally-*|
+|poke|p2|Appletun, M|
+|poke|p2|Jellicent, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|1
+|
+|move|p1a: Rillaboom|Earthquake|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|upkeep
+|
+|switch|p2a: Sigilyph|Sigilyph, F|100/100
+|turn|2
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Sigilyph|Air Slash|p1a: Jellicent
+|-damage|p1a: Jellicent|64/100
+|
+|-heal|p1a: Jellicent|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|move|p2a: Sigilyph|Energy Ball|p1a: Steelix
+|-crit|p1a: Steelix
+|-damage|p1a: Steelix|56/100
+|
+|-heal|p1a: Steelix|63/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Sigilyph|Heat Wave|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|5
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|move|p1a: Vanilluxe|Blizzard|p2a: Silvally
+|-damage|p2a: Silvally|30/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Silvally|23/100|[from] Hail
+|upkeep
+|turn|6
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|30/100
+|move|p1a: Vanilluxe|Blizzard|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Sigilyph|Sigilyph, F|100/100
+|turn|7
+|
+|switch|p1a: Jellicent|Jellicent, F|70/100
+|move|p2a: Sigilyph|Heat Wave|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|55/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Jellicent|49/100|[from] Hail
+|-heal|p1a: Jellicent|55/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Sigilyph|Energy Ball|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|turn|9
+|
+|switch|p2a: Appletun|Appletun, M|100/100
+|move|p1a: Rillaboom|Knock Off|p2a: Appletun
+|-damage|p2a: Appletun|78/100
+|-enditem|p2a: Appletun|Leftovers|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|move|p2a: Appletun|Leech Seed|p1a: Sigilyph
+|-start|p1a: Sigilyph|move: Leech Seed
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|move|p1a: Sigilyph|Calm Mind|p1a: Sigilyph
+|-boost|p1a: Sigilyph|spa|1
+|-boost|p1a: Sigilyph|spd|1
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Sigilyph|Psyshock|p2a: Rhydon
+|-damage|p2a: Rhydon|67/100
+|move|p2a: Rhydon|Rock Slide|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, F|30/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|13
+|
+|move|p1a: Vanilluxe|Aurora Veil|p1a: Vanilluxe
+|-sidestart|p1: Gladio|move: Aurora Veil
+|move|p2a: Rhydon|Rock Slide|p1a: Vanilluxe
+|-supereffective|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|faint|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rhydon|61/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|turn|14
+|
+|move|p1a: Rillaboom|U-turn|p2a: Rhydon
+|-damage|p2a: Rhydon|49/100
+|
+|switch|p1a: Gallade|Gallade, M|100/100|[from]move: U-turn
+|move|p2a: Rhydon|Megahorn|p1a: Gallade
+|-damage|p1a: Gallade|64/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gallade|58/100|[from] Hail
+|-damage|p2a: Rhydon|43/100|[from] Hail
+|upkeep
+|turn|15
+|
+|move|p1a: Gallade|Close Combat|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|-damage|p1a: Gallade|48/100|[from] item: Life Orb
+|faint|p2a: Rhydon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gallade|42/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Sigilyph|Sigilyph, F|100/100
+|turn|16
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|move|p2a: Sigilyph|Air Slash|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|43/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rillaboom|37/100|[from] Hail
+|upkeep
+|turn|17
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|91/100
+|
+|switch|p1a: Gallade|Gallade, M|42/100|[from]move: U-turn
+|
+|-weather|none
+|-heal|p2a: Jellicent|97/100|[from] item: Leftovers
+|-sideend|p1: Gladio|move: Aurora Veil
+|upkeep
+|turn|18
+|
+|move|p1a: Gallade|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|30/100
+|-enditem|p2a: Jellicent|Leftovers|[from] move: Knock Off|[of] p1a: Gallade
+|-damage|p1a: Gallade|32/100|[from] item: Life Orb
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Gallade
+|-status|p1a: Gallade|brn
+|
+|-damage|p1a: Gallade|26/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Gallade|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|7/100
+|-damage|p1a: Gallade|16/100 brn|[from] item: Life Orb
+|move|p2a: Jellicent|Strength Sap|p1a: Gallade
+|-unboost|p1a: Gallade|atk|1
+|-heal|p2a: Jellicent|94/100
+|
+|-damage|p1a: Gallade|10/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p1a: Gallade|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|79/100
+|-damage|p1a: Gallade|0 fnt|[from] item: Life Orb
+|faint|p1a: Gallade
+|move|p2a: Jellicent|Scald|p1: Gallade|[notarget]
+|-fail|p2a: Jellicent
+|
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, M|37/100
+|turn|21
+|
+|switch|p2a: Appletun|Appletun, M|78/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Appletun
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|68/100
+|-damage|p1a: Rillaboom|33/100|[from] Recoil
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Rillaboom|Wood Hammer|p2a: Appletun
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|54/100
+|-damage|p1a: Rillaboom|27/100|[from] Recoil
+|move|p2a: Appletun|Dragon Pulse|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|win|Player 58
+|c|☆Gladio|gg

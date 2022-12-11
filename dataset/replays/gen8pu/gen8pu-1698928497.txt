@@ -1,0 +1,693 @@
+|j|☆JoJo Reference #11
+|j|☆Chumpadoo
+|t:|1667174822
+|gametype|singles
+|player|p1|JoJo Reference #11|1|1437
+|player|p2|Chumpadoo|101|1348
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Mr. Rime, F|
+|poke|p1|Sawk, M|
+|poke|p1|Sandaconda, M|
+|poke|p1|Aromatisse, M|
+|poke|p1|Charizard, F|
+|poke|p1|Silvally-*|
+|poke|p2|Sandslash, F|
+|poke|p2|Glaceon, F|
+|poke|p2|Wailord, M|
+|poke|p2|Gigalith, F|
+|poke|p2|Jolteon, M|
+|poke|p2|Comfey, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JoJo Reference #11)
+|
+|t:|1667174848
+|start
+|switch|p1a: Sawk|Sawk, M|100/100
+|switch|p2a: Comfey|Comfey, M|100/100
+|-ability|p1a: Sawk|Mold Breaker
+|turn|1
+|
+|t:|1667174856
+|switch|p1a: Silvally|Silvally-Steel|100/100
+|move|p2a: Comfey|Leech Seed|p1a: Silvally
+|-start|p1a: Silvally|move: Leech Seed
+|
+|-damage|p1a: Silvally|88/100|[from] Leech Seed|[of] p2a: Comfey
+|upkeep
+|turn|2
+|
+|t:|1667174861
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|move|p2a: Comfey|Substitute|p2a: Comfey
+|-start|p2a: Comfey|Substitute
+|-damage|p2a: Comfey|76/100
+|
+|-heal|p2a: Comfey|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1667174866
+|move|p1a: Mr. Rime|Psyshock|p2a: Comfey
+|-end|p2a: Comfey|Substitute
+|move|p2a: Comfey|Leech Seed|p1a: Mr. Rime
+|-start|p1a: Mr. Rime|move: Leech Seed
+|
+|-heal|p2a: Comfey|88/100|[from] item: Leftovers
+|-damage|p1a: Mr. Rime|88/100|[from] Leech Seed|[of] p2a: Comfey
+|-heal|p2a: Comfey|99/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1667174869
+|switch|p1a: Silvally|Silvally-Steel|88/100
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|-heal|p2a: Comfey|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1667174878
+|switch|p2a: Eevee-yella|Jolteon, M|100/100
+|move|p1a: Silvally|Multi-Attack|p2a: Eevee-yella
+|-resisted|p2a: Eevee-yella
+|-damage|p2a: Eevee-yella|66/100
+|
+|upkeep
+|turn|6
+|
+|t:|1667174882
+|switch|p1a: Sandaconda|Sandaconda, M|100/100
+|move|p2a: Eevee-yella|Toxic|p1a: Sandaconda
+|-status|p1a: Sandaconda|tox
+|
+|-activate|p1a: Sandaconda|ability: Shed Skin
+|-curestatus|p1a: Sandaconda|tox|[msg]
+|upkeep
+|turn|7
+|j| GenericPUTeam
+|
+|t:|1667174892
+|switch|p2a: Eevee-shit|Glaceon, F|100/100
+|move|p1a: Sandaconda|Stealth Rock|p2a: Eevee-shit
+|-sidestart|p2: Chumpadoo|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1667174900
+|switch|p1a: Silvally|Silvally-Steel|88/100
+|move|p2a: Eevee-shit|Copycat|p2a: Eevee-shit
+|move|p2a: Eevee-shit|Stealth Rock|p1a: Silvally|[from]move: Copycat
+|-sidestart|p1: JoJo Reference #11|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1667174908
+|switch|p2a: Eevee-yella|Jolteon, M|66/100
+|-damage|p2a: Eevee-yella|54/100|[from] Stealth Rock
+|move|p1a: Silvally|Multi-Attack|p2a: Eevee-yella
+|-resisted|p2a: Eevee-yella
+|-damage|p2a: Eevee-yella|17/100
+|
+|upkeep
+|turn|10
+|
+|t:|1667174917
+|switch|p2a: 🦦|Sandslash, F|100/100
+|switch|p1a: Sandaconda|Sandaconda, M|100/100
+|-damage|p1a: Sandaconda|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Sandaconda|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1667174919
+|move|p2a: 🦦|Rapid Spin|p1a: Sandaconda
+|-damage|p1a: Sandaconda|88/100
+|-boost|p2a: 🦦|spe|1
+|-sideend|p2: Chumpadoo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: 🦦
+|move|p1a: Sandaconda|Glare|p2a: 🦦
+|-status|p2a: 🦦|par
+|
+|-heal|p1a: Sandaconda|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1667174931
+|move|p1a: Sandaconda|Stealth Rock|p2a: 🦦
+|-sidestart|p2: Chumpadoo|move: Stealth Rock
+|cant|p2a: 🦦|par
+|
+|-heal|p1a: Sandaconda|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1667174935
+|switch|p1a: Aromatisse|Aromatisse, M|100/100
+|cant|p2a: 🦦|par
+|
+|upkeep
+|turn|14
+|
+|t:|1667174937
+|move|p2a: 🦦|Rapid Spin|p1a: Aromatisse
+|-damage|p1a: Aromatisse|88/100
+|-boost|p2a: 🦦|spe|1
+|-sideend|p2: Chumpadoo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: 🦦
+|move|p1a: Aromatisse|Moonblast|p2a: 🦦
+|-damage|p2a: 🦦|35/100 par
+|
+|upkeep
+|turn|15
+|
+|t:|1667174957
+|cant|p2a: 🦦|par
+|move|p1a: Aromatisse|Moonblast|p2a: 🦦
+|-damage|p2a: 🦦|0 fnt
+|faint|p2a: 🦦
+|
+|upkeep
+|
+|t:|1667174962
+|switch|p2a: Verlisify|Wailord, M|100/100
+|turn|16
+|
+|t:|1667174968
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Verlisify|Amnesia|p2a: Verlisify
+|-boost|p2a: Verlisify|spd|2
+|
+|upkeep
+|turn|17
+|j| Yogapants
+|
+|t:|1667174971
+|move|p2a: Verlisify|Amnesia|p2a: Verlisify
+|-boost|p2a: Verlisify|spd|2
+|move|p1a: Aromatisse|Moonblast|p2a: Verlisify
+|-damage|p2a: Verlisify|91/100
+|
+|upkeep
+|turn|18
+|
+|t:|1667174976
+|move|p2a: Verlisify|Curse|p2a: Verlisify
+|-unboost|p2a: Verlisify|spe|1
+|-boost|p2a: Verlisify|atk|1
+|-boost|p2a: Verlisify|def|1
+|move|p1a: Aromatisse|Moonblast|p2a: Verlisify
+|-damage|p2a: Verlisify|81/100
+|
+|upkeep
+|turn|19
+|
+|t:|1667174979
+|switch|p1a: Mr. Rime|Mr. Rime, F|88/100
+|-damage|p1a: Mr. Rime|63/100|[from] Stealth Rock
+|move|p2a: Verlisify|Curse|p2a: Verlisify
+|-unboost|p2a: Verlisify|spe|1
+|-boost|p2a: Verlisify|atk|1
+|-boost|p2a: Verlisify|def|1
+|
+|upkeep
+|turn|20
+|
+|t:|1667174984
+|move|p1a: Mr. Rime|Trick|p2a: Verlisify
+|-activate|p1a: Mr. Rime|move: Trick|[of] p2a: Verlisify
+|-item|p2a: Verlisify|Choice Specs|[from] move: Trick
+|-item|p1a: Mr. Rime|Chesto Berry|[from] move: Trick
+|move|p2a: Verlisify|Liquidation|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|0 fnt
+|faint|p1a: Mr. Rime
+|
+|upkeep
+|
+|t:|1667174993
+|switch|p1a: Aromatisse|Aromatisse, M|88/100
+|turn|21
+|
+|t:|1667174995
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|move|p2a: Verlisify|Liquidation|p1a: Aromatisse
+|-damage|p1a: Aromatisse|49/100
+|
+|upkeep
+|turn|22
+|
+|t:|1667174998
+|move|p1a: Aromatisse|Moonblast|p2a: Verlisify
+|-damage|p2a: Verlisify|72/100
+|move|p2a: Verlisify|Liquidation|p1a: Aromatisse
+|-damage|p1a: Aromatisse|11/100
+|
+|-heal|p1a: Aromatisse|61/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|23
+|
+|t:|1667175001
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Verlisify|Liquidation|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|upkeep
+|turn|24
+|
+|t:|1667175004
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|move|p2a: Verlisify|Liquidation|p1a: Aromatisse
+|-damage|p1a: Aromatisse|17/100
+|-unboost|p1a: Aromatisse|def|1
+|
+|upkeep
+|turn|25
+|
+|t:|1667175009
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Verlisify|Liquidation|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-heal|p1a: Aromatisse|67/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|26
+|
+|t:|1667175020
+|switch|p1a: Silvally|Silvally-Steel|88/100
+|-damage|p1a: Silvally|82/100|[from] Stealth Rock
+|move|p2a: Verlisify|Liquidation|p1a: Silvally
+|-damage|p1a: Silvally|44/100
+|
+|upkeep
+|turn|27
+|
+|t:|1667175023
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Verlisify|Liquidation|p1a: Silvally
+|-damage|p1a: Silvally|3/100
+|
+|upkeep
+|turn|28
+|
+|t:|1667175025
+|move|p1a: Silvally|Rest|p1a: Silvally
+|-status|p1a: Silvally|slp|[from] move: Rest
+|-heal|p1a: Silvally|100/100 slp|[silent]
+|move|p2a: Verlisify|Liquidation|p1a: Silvally
+|-damage|p1a: Silvally|63/100 slp
+|
+|upkeep
+|turn|29
+|
+|t:|1667175029
+|cant|p1a: Silvally|slp
+|move|p1a: Silvally|Sleep Talk|p1a: Silvally
+|move|p1a: Silvally|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Silvally
+|move|p2a: Verlisify|Liquidation|p1a: Silvally
+|-damage|p1a: Silvally|21/100 slp
+|
+|upkeep
+|turn|30
+|
+|t:|1667175033
+|cant|p1a: Silvally|slp
+|move|p2a: Verlisify|Liquidation|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|t:|1667175036
+|switch|p1a: Aromatisse|Aromatisse, M|67/100
+|turn|31
+|
+|t:|1667175038
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: Verlisify|Liquidation|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|upkeep
+|turn|32
+|
+|t:|1667175041
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|move|p2a: Verlisify|Liquidation|p1a: Aromatisse
+|-damage|p1a: Aromatisse|26/100
+|
+|upkeep
+|turn|33
+|
+|t:|1667175050
+|switch|p2a: Comfey|Comfey, M|100/100
+|move|p1a: Aromatisse|Protect||[still]
+|-fail|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|76/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|34
+|
+|t:|1667175054
+|move|p2a: Comfey|Substitute|p2a: Comfey
+|-start|p2a: Comfey|Substitute
+|-damage|p2a: Comfey|76/100
+|move|p1a: Aromatisse|Moonblast|p2a: Comfey
+|-end|p2a: Comfey|Substitute
+|
+|-heal|p2a: Comfey|82/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1667175060
+|move|p2a: Comfey|Leech Seed|p1a: Aromatisse
+|-start|p1a: Aromatisse|move: Leech Seed
+|move|p1a: Aromatisse|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|50/100
+|
+|-heal|p2a: Comfey|56/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|64/100|[from] Leech Seed|[of] p2a: Comfey
+|-heal|p2a: Comfey|72/100|[silent]
+|upkeep
+|turn|36
+|
+|t:|1667175064
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Comfey|Substitute|p2a: Comfey
+|-start|p2a: Comfey|Substitute
+|-damage|p2a: Comfey|47/100
+|
+|-heal|p2a: Comfey|53/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1667175066
+|move|p1a: Charizard|Flamethrower|p2a: Comfey
+|-end|p2a: Comfey|Substitute
+|move|p2a: Comfey|Leech Seed|p1a: Charizard
+|-start|p1a: Charizard|move: Leech Seed
+|
+|-heal|p2a: Comfey|60/100|[from] item: Leftovers
+|-damage|p1a: Charizard|88/100|[from] Leech Seed|[of] p2a: Comfey
+|-heal|p2a: Comfey|74/100|[silent]
+|upkeep
+|turn|38
+|
+|t:|1667175069
+|move|p1a: Charizard|Hurricane|p2a: Comfey
+|-damage|p2a: Comfey|36/100
+|-start|p2a: Comfey|confusion
+|-activate|p2a: Comfey|confusion
+|-damage|p2a: Comfey|31/100|[from] confusion
+|
+|-heal|p2a: Comfey|37/100|[from] item: Leftovers
+|-damage|p1a: Charizard|75/100|[from] Leech Seed|[of] p2a: Comfey
+|-heal|p2a: Comfey|52/100|[silent]
+|upkeep
+|turn|39
+|
+|t:|1667175074
+|switch|p1a: Aromatisse|Aromatisse, M|64/100
+|-activate|p2a: Comfey|confusion
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|-heal|p2a: Comfey|58/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1667175077
+|-activate|p2a: Comfey|confusion
+|-damage|p2a: Comfey|53/100|[from] confusion
+|move|p1a: Aromatisse|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|29/100
+|
+|-heal|p2a: Comfey|35/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1667175080
+|-activate|p2a: Comfey|confusion
+|move|p2a: Comfey|Leech Seed|p1a: Aromatisse
+|-start|p1a: Aromatisse|move: Leech Seed
+|move|p1a: Aromatisse|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|14/100
+|
+|-heal|p2a: Comfey|20/100|[from] item: Leftovers
+|-damage|p1a: Aromatisse|51/100|[from] Leech Seed|[of] p2a: Comfey
+|-heal|p2a: Comfey|36/100|[silent]
+|upkeep
+|turn|42
+|
+|t:|1667175086
+|switch|p1a: Sandaconda|Sandaconda, M|99/100
+|-damage|p1a: Sandaconda|94/100|[from] Stealth Rock
+|-end|p2a: Comfey|confusion
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|-heal|p2a: Comfey|43/100|[from] item: Leftovers
+|-heal|p1a: Sandaconda|99/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1667175090
+|move|p2a: Comfey|Substitute|p2a: Comfey
+|-start|p2a: Comfey|Substitute
+|-damage|p2a: Comfey|18/100
+|move|p1a: Sandaconda|Earthquake|p2a: Comfey
+|-end|p2a: Comfey|Substitute
+|
+|-heal|p2a: Comfey|24/100|[from] item: Leftovers
+|-heal|p1a: Sandaconda|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1667175095
+|move|p2a: Comfey|Draining Kiss|p1a: Sandaconda
+|-damage|p1a: Sandaconda|75/100
+|-heal|p2a: Comfey|46/100|[from] drain|[of] p1a: Sandaconda
+|move|p1a: Sandaconda|Earthquake|p2a: Comfey
+|-damage|p2a: Comfey|12/100
+|
+|-heal|p2a: Comfey|18/100|[from] item: Leftovers
+|-heal|p1a: Sandaconda|81/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1667175099
+|move|p2a: Comfey|Draining Kiss|p1a: Sandaconda
+|-damage|p1a: Sandaconda|56/100
+|-heal|p2a: Comfey|39/100|[from] drain|[of] p1a: Sandaconda
+|move|p1a: Sandaconda|Earthquake|p2a: Comfey
+|-damage|p2a: Comfey|9/100
+|
+|-heal|p2a: Comfey|16/100|[from] item: Leftovers
+|-heal|p1a: Sandaconda|62/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1667175102
+|move|p2a: Comfey|Draining Kiss|p1a: Sandaconda
+|-damage|p1a: Sandaconda|38/100
+|-heal|p2a: Comfey|36/100|[from] drain|[of] p1a: Sandaconda
+|move|p1a: Sandaconda|Earthquake|p2a: Comfey
+|-damage|p2a: Comfey|3/100
+|
+|-heal|p2a: Comfey|9/100|[from] item: Leftovers
+|-heal|p1a: Sandaconda|44/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1667175104
+|move|p2a: Comfey|Draining Kiss|p1a: Sandaconda
+|-damage|p1a: Sandaconda|20/100
+|-heal|p2a: Comfey|30/100|[from] drain|[of] p1a: Sandaconda
+|move|p1a: Sandaconda|Earthquake|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|
+|-heal|p1a: Sandaconda|26/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667175121
+|switch|p2a: Eevee-yella|Jolteon, M|17/100
+|turn|48
+|
+|t:|1667175123
+|move|p2a: Eevee-yella|Shadow Ball|p1a: Sandaconda
+|-damage|p1a: Sandaconda|3/100
+|-unboost|p1a: Sandaconda|spd|1
+|move|p1a: Sandaconda|Rest|p1a: Sandaconda
+|-status|p1a: Sandaconda|slp|[from] move: Rest
+|-heal|p1a: Sandaconda|100/100 slp|[silent]
+|
+|-activate|p1a: Sandaconda|ability: Shed Skin
+|-curestatus|p1a: Sandaconda|slp|[msg]
+|upkeep
+|turn|49
+|
+|t:|1667175129
+|switch|p2a: Eevee-shit|Glaceon, F|100/100
+|move|p1a: Sandaconda|Earthquake|p2a: Eevee-shit
+|-crit|p2a: Eevee-shit
+|-damage|p2a: Eevee-shit|49/100
+|
+|upkeep
+|turn|50
+|
+|t:|1667175133
+|switch|p1a: Charizard|Charizard, F|75/100
+|move|p2a: Eevee-shit|Ice Beam|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1667175135
+|switch|p1a: Sawk|Sawk, M|100/100
+|-damage|p1a: Sawk|94/100|[from] Stealth Rock
+|-ability|p1a: Sawk|Mold Breaker
+|turn|51
+|
+|t:|1667175141
+|switch|p2a: Eevee-yella|Jolteon, M|17/100
+|move|p1a: Sawk|Earthquake|p2a: Eevee-yella
+|-supereffective|p2a: Eevee-yella
+|-damage|p2a: Eevee-yella|0 fnt
+|faint|p2a: Eevee-yella
+|
+|upkeep
+|
+|t:|1667175148
+|switch|p2a: Eevee-shit|Glaceon, F|49/100
+|turn|52
+|
+|t:|1667175152
+|move|p1a: Sawk|Earthquake|p2a: Eevee-shit
+|-damage|p2a: Eevee-shit|0 fnt
+|faint|p2a: Eevee-shit
+|
+|upkeep
+|
+|t:|1667175155
+|switch|p2a: Verlisify|Wailord, M|72/100
+|turn|53
+|
+|t:|1667175158
+|switch|p1a: Aromatisse|Aromatisse, M|51/100
+|move|p2a: Verlisify|Liquidation|p1a: Aromatisse
+|-damage|p1a: Aromatisse|31/100
+|
+|upkeep
+|turn|54
+|
+|t:|1667175161
+|switch|p2a: 🐯 thic|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: 🐯 thic
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aromatisse|25/100|[from] Sandstorm
+|upkeep
+|turn|55
+|
+|t:|1667175172
+|move|p1a: Aromatisse|Protect|p1a: Aromatisse
+|-singleturn|p1a: Aromatisse|Protect
+|move|p2a: 🐯 thic|Earthquake|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Aromatisse|19/100|[from] Sandstorm
+|-heal|p1a: Aromatisse|69/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|turn|56
+|
+|t:|1667175175
+|switch|p1a: Sandaconda|Sandaconda, M|100/100
+|-damage|p1a: Sandaconda|94/100|[from] Stealth Rock
+|move|p2a: 🐯 thic|Earthquake|p1a: Sandaconda
+|-damage|p1a: Sandaconda|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sandaconda|77/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1667175178
+|move|p1a: Sandaconda|Glare|p2a: 🐯 thic
+|-status|p2a: 🐯 thic|par
+|cant|p2a: 🐯 thic|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sandaconda|83/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1667175180
+|move|p1a: Sandaconda|Stealth Rock|p2a: 🐯 thic
+|-sidestart|p2: Chumpadoo|move: Stealth Rock
+|move|p2a: 🐯 thic|Explosion|p1a: Sandaconda
+|-damage|p1a: Sandaconda|19/100
+|faint|p2a: 🐯 thic
+|
+|-weather|none
+|-heal|p1a: Sandaconda|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667175183
+|switch|p2a: Verlisify|Wailord, M|72/100
+|-damage|p2a: Verlisify|59/100|[from] Stealth Rock
+|turn|59
+|
+|t:|1667175185
+|move|p1a: Sandaconda|Glare|p2a: Verlisify
+|-status|p2a: Verlisify|par
+|move|p2a: Verlisify|Liquidation|p1a: Sandaconda
+|-supereffective|p1a: Sandaconda
+|-damage|p1a: Sandaconda|0 fnt
+|faint|p1a: Sandaconda
+|
+|upkeep
+|
+|t:|1667175187
+|switch|p1a: Sawk|Sawk, M|94/100
+|-damage|p1a: Sawk|88/100|[from] Stealth Rock
+|-ability|p1a: Sawk|Mold Breaker
+|turn|60
+|
+|t:|1667175188
+|move|p1a: Sawk|Close Combat|p2a: Verlisify
+|-damage|p2a: Verlisify|0 fnt
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|faint|p2a: Verlisify
+|
+|win|JoJo Reference #11
+|raw|JoJo Reference #11's rating: 1437 &rarr; <strong>1452</strong><br />(+15 for winning)
+|raw|Chumpadoo's rating: 1348 &rarr; <strong>1333</strong><br />(-15 for losing)
+|c|☆JoJo Reference #11|gg
+|l|☆Chumpadoo
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

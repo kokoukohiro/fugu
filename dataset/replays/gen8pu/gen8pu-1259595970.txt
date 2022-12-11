@@ -1,0 +1,242 @@
+|j|☆BiggMommacita
+|j|☆Lirvothethird
+|t:|1610302015
+|player|p1|BiggMommacita|lenora|1473
+|player|p2|Lirvothethird|lucas|1200
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Pinsir, M|
+|poke|p1|Malamar, M|
+|poke|p1|Cofagrigus, M|
+|poke|p1|Toxicroak, M|
+|poke|p1|Pawniard, F|
+|poke|p1|Coalossal, M|
+|poke|p2|Kingler, M|
+|poke|p2|Magneton|
+|poke|p2|Scrafty, M|
+|poke|p2|Xatu, M|
+|poke|p2|Vanilluxe, F|
+|poke|p2|Audino, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lirvothethird)
+|
+|t:|1610302023
+|start
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Coalossal|atk|1
+|turn|1
+|
+|t:|1610302033
+|switch|p1a: Cofagrigus|Cofagrigus, M|100/100
+|move|p2a: Scrafty|Drain Punch|p1a: Cofagrigus
+|-immune|p1a: Cofagrigus
+|
+|upkeep
+|turn|2
+|
+|t:|1610302042
+|move|p2a: Scrafty|Knock Off|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|52/100
+|-activate|p1a: Cofagrigus|ability: Mummy|Intimidate|[of] p2a: Scrafty
+|-enditem|p1a: Cofagrigus|Lum Berry|[from] move: Knock Off|[of] p2a: Scrafty
+|move|p1a: Cofagrigus|Body Press|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|42/100
+|
+|-heal|p2a: Scrafty|48/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1610302058
+|switch|p2a: Vanilluxe|Vanilluxe, F|100/100
+|move|p1a: Cofagrigus|Toxic Spikes|p2a: Vanilluxe
+|-sidestart|p2: Lirvothethird|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1610302063
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|move|p2a: Vanilluxe|Ice Beam|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|80/100
+|
+|upkeep
+|turn|5
+|
+|t:|1610302069
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Coalossal|Rock Blast|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|79/100
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|60/100
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|39/100
+|-hitcount|p2a: Xatu|3
+|
+|upkeep
+|turn|6
+|
+|t:|1610302078
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|89/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Coalossal|Rock Blast|p2a: Xatu
+|-damage|p2a: Xatu|80/100
+|-damage|p2a: Xatu|70/100
+|-damage|p2a: Xatu|60/100
+|-hitcount|p2a: Xatu|3
+|
+|upkeep
+|turn|7
+|
+|t:|1610302087
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Coalossal|Rock Blast|p2a: Xatu
+|-damage|p2a: Xatu|91/100
+|-crit|p2a: Xatu
+|-damage|p2a: Xatu|76/100
+|-damage|p2a: Xatu|66/100
+|-hitcount|p2a: Xatu|3
+|
+|upkeep
+|turn|8
+|
+|t:|1610302096
+|switch|p1a: Pawniard|Pawniard, F|100/100
+|move|p2a: Xatu|Thunder Wave|p1a: Pawniard
+|-status|p1a: Pawniard|par
+|
+|upkeep
+|turn|9
+|
+|t:|1610302105
+|move|p2a: Xatu|Defog|p1a: Pawniard
+|-unboost|p1a: Pawniard|evasion|1
+|-ability|p1a: Pawniard|Defiant
+|-boost|p1a: Pawniard|atk|2
+|-sideend|p2: Lirvothethird|Toxic Spikes|[from] move: Defog|[of] p2a: Xatu
+|move|p1a: Pawniard|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|0 fnt
+|-enditem|p2a: Xatu|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Pawniard
+|faint|p2a: Xatu
+|
+|upkeep
+|
+|t:|1610302118
+|switch|p2a: Scrafty|Scrafty, M|48/100
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Pawniard|atk|1
+|-ability|p1a: Pawniard|Defiant
+|-boost|p1a: Pawniard|atk|2
+|turn|10
+|
+|t:|1610302128
+|switch|p1a: Cofagrigus|Cofagrigus, M|52/100
+|move|p2a: Scrafty|Drain Punch|p1a: Cofagrigus
+|-immune|p1a: Cofagrigus
+|
+|-heal|p2a: Scrafty|54/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1610302133
+|move|p2a: Scrafty|Dragon Dance|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|spe|1
+|move|p1a: Cofagrigus|Toxic Spikes|p2a: Scrafty
+|-sidestart|p2: Lirvothethird|move: Toxic Spikes
+|
+|-heal|p2a: Scrafty|60/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1610302138
+|move|p2a: Scrafty|Knock Off|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|4/100
+|-activate|p1a: Cofagrigus|ability: Mummy|Intimidate|[of] p2a: Scrafty
+|move|p1a: Cofagrigus|Body Press|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|upkeep
+|
+|t:|1610302142
+|switch|p2a: Magneton|Magneton|100/100
+|turn|13
+|
+|t:|1610302148
+|move|p2a: Magneton|Volt Switch|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|t:|1610302153
+|switch|p2a: Kingler|Kingler, M|100/100|[from]move: Volt Switch
+|-status|p2a: Kingler|psn
+|
+|-damage|p2a: Kingler|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1610302158
+|switch|p1a: Malamar|Malamar, M|100/100
+|turn|14
+|
+|t:|1610302165
+|move|p1a: Malamar|Superpower|p2a: Kingler
+|-damage|p2a: Kingler|53/100 psn
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Kingler|Liquidation|p1a: Malamar
+|-damage|p1a: Malamar|38/100
+|
+|-damage|p2a: Kingler|40/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1610302172
+|move|p1a: Malamar|Superpower|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Kingler
+|
+|upkeep
+|
+|t:|1610302181
+|switch|p2a: Magneton|Magneton|100/100
+|turn|16
+|
+|t:|1610302184
+|move|p1a: Malamar|Superpower|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Magneton
+|
+|upkeep
+|-message|Lirvothethird forfeited.
+|
+|win|BiggMommacita
+|l|☆Lirvothethird

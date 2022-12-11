@@ -1,0 +1,400 @@
+|j|☆Rheinmetal
+|j|☆R4ze Lynx
+|player|p1|Rheinmetal|cynthia|1456
+|player|p2|R4ze Lynx|iris|1496
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Kingdra, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Magearna|
+|poke|p1|Amoonguss, F|
+|poke|p1|Kommo-o, F|
+|poke|p2|Goodra, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Cobalion|
+|poke|p2|Lycanroc-Dusk, F|
+|poke|p2|Toxapex, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rheinmetal)
+|
+|start
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|1
+|
+|move|p2a: Cobalion|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|94/100
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from]move: Volt Switch
+|move|p1a: Kommo-o|Iron Defense|p1a: Kommo-o
+|-boost|p1a: Kommo-o|def|2
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Toxapex|Toxic|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Goodra|Goodra, F|100/100
+|move|p1a: Magearna|Volt Switch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|97/100
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100|[from]move: Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Goodra|Thunderbolt|p1a: Magearna
+|-damage|p1a: Magearna|88/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Goodra|Flamethrower|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|74/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|51/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Kingdra|Kingdra, M, shiny|100/100
+|move|p2a: Goodra|Flamethrower|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|97/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Kingdra|Draco Meteor|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1a: Kingdra|spa|2
+|faint|p2a: Goodra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|8
+|
+|switch|p1a: Kommo-o|Kommo-o, F|94/100
+|move|p2a: Cobalion|Iron Head|p1a: Kommo-o
+|-damage|p1a: Kommo-o|72/100
+|-damage|p2a: Cobalion|84/100|[from] item: Rocky Helmet|[of] p1a: Kommo-o
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Cobalion|Iron Head|p1a: Kommo-o
+|-damage|p1a: Kommo-o|52/100
+|-damage|p2a: Cobalion|68/100|[from] item: Rocky Helmet|[of] p1a: Kommo-o
+|move|p1a: Kommo-o|Stealth Rock|p2a: Cobalion
+|-sidestart|p2: R4ze Lynx|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Body Press|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|
+|-weather|none
+|-heal|p2a: Toxapex|81/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Magearna|Magearna|74/100
+|move|p2a: Toxapex|Scald|p1a: Magearna
+|-damage|p1a: Magearna|67/100
+|
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Magearna|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|
+|switch|p1a: Amoonguss|Amoonguss, F, shiny|100/100|[from]move: Volt Switch
+|move|p2a: Toxapex|Scald|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|93/100
+|
+|-heal|p2a: Toxapex|57/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2a: Rillaboom|Grassy Seed
+|-boost|p2a: Rillaboom|def|1|[from] item: Grassy Seed
+|move|p1a: Amoonguss|Spore|p2a: Rillaboom
+|-immune|p2a: Rillaboom
+|
+|-heal|p2a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|99/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|move|p2a: Rillaboom|Swords Dance|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|2
+|move|p1a: Amoonguss|Clear Smog|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|60/100
+|-clearboost|p2a: Rillaboom
+|
+|-heal|p2a: Rillaboom|66/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|100/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|move|p2a: Rillaboom|Acrobatics|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|45/100
+|-damage|p2a: Rillaboom|49/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|move|p1a: Amoonguss|Clear Smog|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|15/100
+|-clearboost|p2a: Rillaboom
+|
+|-heal|p2a: Rillaboom|21/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|51/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Rillaboom|Acrobatics|p1a: Pelipper
+|-damage|p1a: Pelipper|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|27/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|move|p2a: Rillaboom|Grassy Glide|p1a: Pelipper
+|-damage|p1a: Pelipper|38/100
+|move|p1a: Pelipper|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|11/100
+|
+|switch|p1a: Amoonguss|Amoonguss, F, shiny|84/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|17/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|90/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|18
+|
+|move|p2a: Rillaboom|Acrobatics|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|38/100
+|-damage|p2a: Rillaboom|1/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|move|p1a: Amoonguss|Clear Smog|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-clearboost|p2a: Rillaboom
+|faint|p2a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Cobalion|Cobalion|68/100
+|-damage|p2a: Cobalion|65/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Kingdra|Kingdra, M, shiny|97/100
+|move|p2a: Cobalion|Steel Beam|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|69/100
+|-damage|p2a: Cobalion|14/100|[from] mindblown
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Kingdra|Surf|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|90/100
+|-damage|p2a: Toxapex|78/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Kingdra|Surf|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|93/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|switch|p1a: Amoonguss|Amoonguss, F, shiny|71/100
+|move|p2a: Toxapex|Toxic|p1a: Amoonguss
+|-immune|p1a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p2a: Toxapex|Scald|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|59/100
+|-status|p1a: Amoonguss|brn
+|move|p1a: Amoonguss|Spore|p2a: Toxapex
+|-status|p2a: Toxapex|slp|[from] move: Spore
+|
+|-weather|none
+|-damage|p1a: Amoonguss|52/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|Rheinmetal has 120 seconds left.
+|
+|switch|p2a: Urshifu|Urshifu, F|100/100
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|
+|upkeep
+|turn|25
+|inactive|Rheinmetal has 90 seconds left.
+|inactive|Rheinmetal has 60 seconds left.
+|inactive|Rheinmetal has 30 seconds left.
+|
+|switch|p1a: Amoonguss|Amoonguss, F, shiny|86/100 brn
+|move|p2a: Urshifu|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|58/100 brn
+|-damage|p2a: Urshifu|78/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|switch|p2a: Lycanroc|Lycanroc-Dusk, F|100/100|[from]move: U-turn
+|-damage|p2a: Lycanroc|88/100|[from] Stealth Rock
+|
+|-damage|p1a: Amoonguss|52/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p1a: Kommo-o|Kommo-o, F|52/100
+|move|p2a: Lycanroc|Psychic Fangs|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-damage|p2a: Lycanroc|72/100|[from] item: Rocky Helmet|[of] p1a: Kommo-o
+|-damage|p2a: Lycanroc|62/100|[from] item: Life Orb
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, M|38/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|27
+|
+|move|p2a: Lycanroc|Swords Dance|p2a: Lycanroc
+|-boost|p2a: Lycanroc|atk|2
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|88/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p2a: Lycanroc|Accelerock|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p2a: Lycanroc|52/100|[from] item: Life Orb
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Kingdra|Kingdra, M, shiny|69/100
+|turn|29
+|
+|move|p2a: Lycanroc|Accelerock|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|-damage|p2a: Lycanroc|42/100|[from] item: Life Orb
+|faint|p1a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Magearna|Magearna|67/100
+|turn|30
+|
+|move|p2a: Lycanroc|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|-damage|p2a: Lycanroc|32/100|[from] item: Life Orb
+|faint|p1a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|turn|31
+|
+|move|p2a: Lycanroc|Accelerock|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|-damage|p2a: Lycanroc|22/100|[from] item: Life Orb
+|faint|p1a: Crawdaunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Amoonguss|Amoonguss, F, shiny|85/100 brn
+|turn|32
+|c|☆R4ze Lynx|gg :)
+|
+|move|p2a: Lycanroc|Psychic Fangs|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2a: Lycanroc|5/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|-damage|p2a: Lycanroc|0 fnt|[from] item: Life Orb
+|faint|p1a: Amoonguss
+|faint|p2a: Lycanroc
+|
+|win|R4ze Lynx
+|l|☆Rheinmetal
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

@@ -1,0 +1,219 @@
+|j|☆minimax_ai
+|j|☆stopthreat
+|t:|1661739254
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1471
+|player|p2|stopthreat|skier|1430
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|inactive|stopthreat has 120 seconds left.
+|inactive|stopthreat has 90 seconds left.
+|
+|t:|1661739335
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|turn|1
+|
+|t:|1661739341
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: stopthreat|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|94/100|[from] Hail
+|upkeep
+|turn|2
+|
+|t:|1661739365
+|move|p2a: Ninetales|Hypnosis|p1a: Heatran|[miss]
+|-miss|p2a: Ninetales|p1a: Heatran
+|move|p1a: Heatran|Stealth Rock|p2a: Ninetales
+|-sidestart|p2: stopthreat|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|88/100|[from] Hail
+|upkeep
+|turn|3
+|
+|t:|1661739367
+|move|p2a: Ninetales|Hypnosis|p1a: Heatran
+|-status|p1a: Heatran|slp|[from] move: Hypnosis
+|cant|p1a: Heatran|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Heatran|82/100 slp|[from] Hail
+|upkeep
+|turn|4
+|
+|t:|1661739369
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|cant|p1a: Heatran|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Kommo-o|88/100|[from] Hail
+|-damage|p1a: Heatran|76/100 slp|[from] Hail
+|upkeep
+|turn|5
+|
+|t:|1661739374
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Kommo-o|atk|1
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|63/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1661739377
+|move|p2a: Kommo-o|Belly Drum|p2a: Kommo-o
+|-damage|p2a: Kommo-o|13/100
+|-setboost|p2a: Kommo-o|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Kommo-o|Salac Berry|[eat]
+|-boost|p2a: Kommo-o|spe|1|[from] item: Salac Berry
+|move|p1a: landorustherian|Defog|p2a: Kommo-o
+|-sideend|p2: stopthreat|move: Aurora Veil
+|-sideend|p2: stopthreat|Stealth Rock|[from] move: Defog|[of] p1a: landorustherian
+|
+|upkeep
+|turn|7
+|
+|t:|1661739385
+|move|p2a: Kommo-o|Drain Punch|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|35/100
+|-heal|p2a: Kommo-o|56/100|[from] drain|[of] p1a: landorustherian
+|move|p1a: landorustherian|Earthquake|p2a: Kommo-o
+|-end|p2a: Kommo-o|Substitute
+|
+|-heal|p1a: landorustherian|41/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1661739388
+|move|p2a: Kommo-o|Drain Punch|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|-heal|p2a: Kommo-o|83/100|[from] drain|[of] p1a: landorustherian
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1661739388
+|switch|p1a: Melmetal|Melmetal|100/100
+|turn|9
+|
+|t:|1661739391
+|move|p2a: Kommo-o|Drain Punch|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|-heal|p2a: Kommo-o|100/100|[from] drain|[of] p1a: Melmetal
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1661739391
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|turn|10
+|
+|t:|1661739392
+|move|p2a: Kommo-o|Drain Punch|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1661739392
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|11
+|
+|t:|1661739394
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Kommo-o|Drain Punch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|27/100
+|-damage|p2a: Kommo-o|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|12
+|
+|t:|1661739395
+|move|p2a: Kommo-o|Drain Punch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|-heal|p2a: Kommo-o|100/100|[from] drain|[of] p1a: Tangrowth
+|-damage|p2a: Kommo-o|84/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|faint|p1a: Tangrowth
+|
+|upkeep
+|
+|t:|1661739395
+|switch|p1a: Heatran|Heatran, M|76/100 slp
+|-item|p1a: Heatran|Air Balloon
+|turn|13
+|
+|t:|1661739397
+|move|p2a: Kommo-o|Drain Punch|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-heal|p2a: Kommo-o|100/100|[from] drain|[of] p1a: Heatran
+|-enditem|p1a: Heatran|Air Balloon
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1661739397
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|14
+|
+|t:|1661739398
+|move|p1a: Weavile|Ice Shard|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|38/100
+|move|p2a: Kommo-o|Drain Punch|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-heal|p2a: Kommo-o|86/100|[from] drain|[of] p1a: Weavile
+|faint|p1a: Weavile
+|
+|win|stopthreat
+|raw|minimax_ai's rating: 1471 &rarr; <strong>1449</strong><br />(-22 for losing)
+|raw|stopthreat's rating: 1430 &rarr; <strong>1452</strong><br />(+22 for winning)
+|c|☆minimax_ai|gg
+|l|☆minimax_ai
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

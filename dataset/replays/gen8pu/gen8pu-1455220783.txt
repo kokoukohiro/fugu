@@ -1,0 +1,263 @@
+|j|☆mefrog
+|j|☆critmonger
+|t:|1637079703
+|gametype|singles
+|player|p1|mefrog|volkner|1339
+|player|p2|critmonger|norman|1347
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Charizard, F|
+|poke|p1|Liepard, M|
+|poke|p1|Onix, M|
+|poke|p1|Shiftry, M|
+|poke|p1|Sandslash, M|
+|poke|p1|Leafeon, F|
+|poke|p2|Weezing, M|
+|poke|p2|Lycanroc, F|
+|poke|p2|Lanturn, F|
+|poke|p2|Scrafty, M|
+|poke|p2|Thwackey, F|
+|poke|p2|Drampa, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mefrog)
+|inactive|critmonger has 120 seconds left.
+|
+|t:|1637079751
+|start
+|switch|p1a: Coil|Onix, M|100/100
+|switch|p2a: Thwackey|Thwackey, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|turn|1
+|
+|t:|1637079768
+|move|p2a: Thwackey|Taunt|p1a: Coil
+|-start|p1a: Coil|move: Taunt
+|cant|p1a: Coil|move: Taunt|Sunny Day
+|
+|upkeep
+|turn|2
+|inactive|critmonger has 120 seconds left.
+|
+|t:|1637079804
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Thwackey|U-turn|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|95/100
+|
+|t:|1637079807
+|switch|p2a: Lycanroc|Lycanroc, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1637079813
+|switch|p1a: Coil|Onix, M|100/100
+|move|p2a: Lycanroc|Stone Edge|p1a: Coil
+|-resisted|p1a: Coil
+|-crit|p1a: Coil
+|-damage|p1a: Coil|48/100
+|
+|-heal|p1a: Coil|55/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|j| ii77
+|
+|t:|1637079830
+|switch|p2a: Lanturn|Lanturn, F|100/100
+|move|p1a: Coil|Sunny Day|p1a: Coil
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Coil|61/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1637079837
+|move|p1a: Coil|Stealth Rock|p2a: Lanturn
+|-sidestart|p2: critmonger|move: Stealth Rock
+|move|p2a: Lanturn|Scald|p1a: Coil
+|-supereffective|p1a: Coil
+|-damage|p1a: Coil|0 fnt
+|faint|p1a: Coil
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1637079844
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|turn|6
+|
+|t:|1637079855
+|move|p1a: Shiftry|Swords Dance|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|move|p2a: Lanturn|Ice Beam|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1637079876
+|move|p1a: Shiftry|Solar Blade||[still]
+|-prepare|p1a: Shiftry|Solar Blade
+|-anim|p1a: Shiftry|Solar Blade|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|faint|p2a: Lanturn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1637079883
+|switch|p2a: Lycanroc|Lycanroc, F|100/100
+|-damage|p2a: Lycanroc|88/100|[from] Stealth Rock
+|turn|8
+|inactive|mefrog has 120 seconds left.
+|
+|t:|1637079915
+|move|p1a: Shiftry|Sucker Punch|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|critmonger has 120 seconds left.
+|
+|t:|1637079947
+|switch|p2a: Weezing|Weezing, M, shiny|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1637079952
+|move|p1a: Shiftry|Knock Off|p2a: Weezing
+|-damage|p2a: Weezing|30/100
+|-enditem|p2a: Weezing|Black Sludge|[from] move: Knock Off|[of] p1a: Shiftry
+|move|p2a: Weezing|Sludge Bomb|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|faint|p1a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1637079958
+|switch|p1a: Charizard|Charizard, F|95/100
+|turn|10
+|
+|t:|1637079967
+|move|p1a: Charizard|Weather Ball|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|83/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|
+|t:|1637079971
+|switch|p2a: Thwackey|Thwackey, F|100/100
+|-damage|p2a: Thwackey|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|turn|11
+|
+|t:|1637079976
+|move|p1a: Charizard|Weather Ball|p2a: Thwackey
+|-supereffective|p2a: Thwackey
+|-crit|p2a: Thwackey
+|-damage|p2a: Thwackey|0 fnt
+|faint|p2a: Thwackey
+|
+|-weather|none
+|upkeep
+|
+|t:|1637079978
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|-damage|p2a: Scrafty|95/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1637079983
+|move|p1a: Charizard|Sunny Day|p1a: Charizard
+|-weather|SunnyDay
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|70/100|[from] ability: Solar Power|[of] p1a: Charizard
+|-heal|p2a: Scrafty|100/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1637079987
+|move|p1a: Charizard|Weather Ball|p2a: Scrafty
+|-damage|p2a: Scrafty|3/100
+|move|p2a: Scrafty|Knock Off|p1a: Charizard
+|-damage|p1a: Charizard|5/100
+|-enditem|p1a: Charizard|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Scrafty
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|0 fnt|[from] ability: Solar Power|[of] p1a: Charizard
+|faint|p1a: Charizard
+|-heal|p2a: Scrafty|9/100|[from] Grassy Terrain
+|-heal|p2a: Scrafty|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1637079996
+|switch|p1a: Leafeon|Leafeon, F|100/100
+|turn|14
+|
+|t:|1637080001
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade
+|-anim|p1a: Leafeon|Solar Blade|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|-damage|p1a: Leafeon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Leafeon|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1637080004
+|switch|p2a: Drampa|Drampa, M|100/100
+|-damage|p2a: Drampa|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1637080016
+|move|p1a: Leafeon|Knock Off|p2a: Drampa
+|-crit|p2a: Drampa
+|-damage|p2a: Drampa|2/100
+|-enditem|p2a: Drampa|Choice Specs|[from] move: Knock Off|[of] p1a: Leafeon
+|-damage|p1a: Leafeon|86/100|[from] item: Life Orb
+|move|p2a: Drampa|Hyper Voice|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Drampa|8/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1637080024
+|switch|p1a: Sandslash|Sandslash, M|100/100
+|turn|16
+|-message|critmonger forfeited.
+|
+|win|mefrog
+|raw|mefrog's rating: 1339 &rarr; <strong>1359</strong><br />(+20 for winning)
+|raw|critmonger's rating: 1347 &rarr; <strong>1327</strong><br />(-20 for losing)
+|l|☆critmonger

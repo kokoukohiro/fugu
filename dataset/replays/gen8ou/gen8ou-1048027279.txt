@@ -1,0 +1,280 @@
+|j|☆TheLindomar
+|j|☆4arms67
+|player|p1|TheLindomar|163|1594
+|player|p2|4arms67|1|1535
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Crawdaunt, M|
+|poke|p1|Kommo-o, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Rotom-Mow|
+|poke|p1|Claydol|
+|poke|p1|Togekiss, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Mew|
+|poke|p2|Lucario, F|
+|poke|p2|Bisharp, F|
+|poke|p2|Dragapult, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|l|☆4arms67
+|player|p2|
+|j|☆4arms67
+|player|p2|4arms67|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 4arms67)
+|
+|start
+|switch|p1a: HM 01|Rotom-Mow|100/100
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-item|p2a: Aegislash|Air Balloon
+|turn|1
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: HM 01|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|78/100
+|
+|switch|p1a: GALARIAN PARAS|Crawdaunt, M|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Dragapult|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Lucario|Lucario, F|100/100
+|switch|p1a: ORACLE|Claydol|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Lucario|Swords Dance|p2a: Lucario
+|-boost|p2a: Lucario|atk|2
+|move|p1a: ORACLE|Earth Power|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|4
+|
+|switch|p1a: ANKYLOZORD|Kommo-o, M, shiny|100/100
+|move|p2a: Crawdaunt|Knock Off|p1a: ANKYLOZORD
+|-resisted|p1a: ANKYLOZORD
+|-damage|p1a: ANKYLOZORD|73/100
+|-enditem|p1a: ANKYLOZORD|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: ANKYLOZORD|Stealth Rock|p2a: Mew
+|-sidestart|p2: 4arms67|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: GALARIAN PARAS|Crawdaunt, M|100/100
+|move|p2a: Mew|Stealth Rock|p1a: GALARIAN PARAS
+|-sidestart|p1: TheLindomar|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Mew|Spikes|p1a: GALARIAN PARAS
+|-sidestart|p1: TheLindomar|Spikes
+|move|p1a: GALARIAN PARAS|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-enditem|p2a: Mew|Red Card|[from] move: Knock Off|[of] p1a: GALARIAN PARAS
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|turn|8
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: GALARIAN PARAS
+|-supereffective|p1a: GALARIAN PARAS
+|-damage|p1a: GALARIAN PARAS|0 fnt
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|faint|p1a: GALARIAN PARAS
+|
+|upkeep
+|
+|switch|p1a: LASERBEAK|Corviknight, M|100/100
+|-damage|p1a: LASERBEAK|88/100|[from] Stealth Rock
+|-ability|p1a: LASERBEAK|Pressure
+|turn|9
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|move|p1a: LASERBEAK|Defog|p2a: Bisharp
+|-unboost|p2a: Bisharp|evasion|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|-sideend|p2: 4arms67|Stealth Rock|[from] move: Defog|[of] p1a: LASERBEAK
+|-sideend|p1: TheLindomar|Spikes|[from] move: Defog|[of] p1a: LASERBEAK
+|-sideend|p1: TheLindomar|Stealth Rock|[from] move: Defog|[of] p1a: LASERBEAK
+|
+|-heal|p1a: LASERBEAK|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: LASERBEAK|Brave Bird|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-damage|p2a: Bisharp|59/100
+|-damage|p1a: LASERBEAK|86/100|[from] Recoil
+|
+|-heal|p1a: LASERBEAK|92/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Bisharp|Throat Chop|p1a: LASERBEAK
+|-damage|p1a: LASERBEAK|0 fnt
+|-damage|p2a: Bisharp|49/100|[from] item: Life Orb
+|faint|p1a: LASERBEAK
+|
+|upkeep
+|
+|switch|p1a: WHIS|Togekiss, M|100/100
+|turn|12
+|
+|move|p1a: WHIS|Flamethrower|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|91/100
+|turn|13
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: WHIS
+|-damage|p1a: WHIS|63/100
+|-damage|p2a: Crawdaunt|81/100|[from] item: Life Orb
+|move|p1a: WHIS|Air Slash|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|19/100
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: HM 01|Rotom-Mow|100/100
+|move|p2a: Crawdaunt|Aqua Jet|p1a: HM 01
+|-resisted|p1a: HM 01
+|-damage|p1a: HM 01|74/100
+|-damage|p2a: Crawdaunt|9/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|
+|move|p1a: HM 01|Volt Switch|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|switch|p1a: ANKYLOZORD|Kommo-o, M, shiny|73/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|84/100
+|turn|16
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: ANKYLOZORD
+|-supereffective|p1a: ANKYLOZORD
+|-damage|p1a: ANKYLOZORD|42/100
+|-supereffective|p1a: ANKYLOZORD
+|-damage|p1a: ANKYLOZORD|14/100
+|-hitcount|p1a: ANKYLOZORD|2
+|move|p1a: ANKYLOZORD|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|51/100
+|
+|-heal|p2a: Dragapult|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: ANKYLOZORD
+|-supereffective|p1a: ANKYLOZORD
+|-damage|p1a: ANKYLOZORD|0 fnt
+|-hitcount|p1a: ANKYLOZORD|1
+|faint|p1a: ANKYLOZORD
+|
+|-heal|p2a: Dragapult|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: HM 01|Rotom-Mow|74/100
+|turn|18
+|
+|move|p1a: HM 01|Trick|p2a: Dragapult
+|-activate|p1a: HM 01|move: Trick|[of] p2a: Dragapult
+|-item|p2a: Dragapult|Choice Scarf|[from] move: Trick
+|-item|p1a: HM 01|Leftovers|[from] move: Trick
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|38/100
+|
+|-heal|p1a: HM 01|80/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Aegislash|Aegislash, F|94/100
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: HM 01|Volt Switch|p2a: Aegislash
+|-damage|p2a: Aegislash|63/100
+|-enditem|p2a: Aegislash|Air Balloon
+|
+|switch|p1a: ORACLE|Claydol|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|move|p1a: ORACLE|Earth Power|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|38/100
+|turn|21
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: ORACLE
+|move|p1a: ORACLE|Ice Beam|p2a: Dragapult|[miss]
+|-miss|p1a: ORACLE|p2a: Dragapult
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Dragapult|Phantom Force|p1a: ORACLE|[from]lockedmove
+|-supereffective|p1a: ORACLE
+|-damage|p1a: ORACLE|17/100
+|move|p1a: ORACLE|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|TheLindomar
+|l|☆4arms67

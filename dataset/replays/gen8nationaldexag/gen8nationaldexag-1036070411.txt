@@ -1,0 +1,191 @@
+|j|☆Onoufrios
+|j|☆Raythepidgeot
+|player|p1|Onoufrios|lucas|1402
+|player|p2|Raythepidgeot|hiker-gen4|1332
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Arceus-*|
+|poke|p1|Xerneas|
+|poke|p1|Groudon|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Lugia|
+|poke|p1|Kyogre|
+|poke|p2|Smeargle, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Melmetal|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Rayquaza|
+|poke|p2|Pyukumuku, F|
+|teampreview
+|
+|start
+|switch|p1a: Groudon|Groudon|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|detailschange|p1a: Groudon|Groudon-Primal
+|-primal|p1a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|1
+|
+|move|p2a: Smeargle|Spore|p1a: Groudon
+|-status|p1a: Groudon|slp|[from] move: Spore
+|cant|p1a: Groudon|slp
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|2
+|
+|-weather|none
+|switch|p1a: Zacian|Zacian-Crowned|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|move|p2a: Smeargle|Shell Smash|p2a: Smeargle
+|-unboost|p2a: Smeargle|def|1
+|-unboost|p2a: Smeargle|spd|1
+|-boost|p2a: Smeargle|atk|2
+|-boost|p2a: Smeargle|spa|2
+|-boost|p2a: Smeargle|spe|2
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Smeargle|Spore|p1a: Zacian
+|-status|p1a: Zacian|slp|[from] move: Spore
+|cant|p1a: Zacian|slp
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Smeargle|Sticky Web|p1a: Zacian
+|-sidestart|p1: Onoufrios|move: Sticky Web
+|cant|p1a: Zacian|slp
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Smeargle|Shell Smash|p2a: Smeargle
+|-unboost|p2a: Smeargle|def|1
+|-unboost|p2a: Smeargle|spd|1
+|-boost|p2a: Smeargle|atk|2
+|-boost|p2a: Smeargle|spa|2
+|-boost|p2a: Smeargle|spe|2
+|cant|p1a: Zacian|slp
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Smeargle|Shell Smash|p2a: Smeargle
+|-unboost|p2a: Smeargle|def|1
+|-unboost|p2a: Smeargle|spd|1
+|-boost|p2a: Smeargle|atk|2
+|-boost|p2a: Smeargle|spa|2
+|-boost|p2a: Smeargle|spe|2
+|-curestatus|p1a: Zacian|slp|[msg]
+|move|p1a: Zacian|Behemoth Blade|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Smeargle|Spore|p1a: Zacian
+|-status|p1a: Zacian|slp|[from] move: Spore
+|cant|p1a: Zacian|slp
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Smeargle|Baton Pass|p2a: Smeargle
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100|[from]move: Baton Pass
+|-enditem|p2a: Toxtricity|White Herb
+|-clearnegativeboost|p2a: Toxtricity|[silent]
+|cant|p1a: Zacian|slp
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|switch|p1a: Groudon|Groudon-Primal|100/100 slp
+|-activate|p1a: Groudon|move: Sticky Web
+|-unboost|p1a: Groudon|spe|1
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: Groudon
+|turn|10
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-weather|none
+|
+|upkeep
+|
+|switch|p1a: Lugia|Lugia|100/100
+|turn|11
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|0 fnt
+|faint|p1a: Lugia
+|
+|upkeep
+|
+|switch|p1a: Arceus|Arceus|100/100
+|-activate|p1a: Arceus|move: Sticky Web
+|-unboost|p1a: Arceus|spe|1
+|turn|12
+|c|☆Raythepidgeot|Gg
+|
+|move|p1a: Arceus|Extreme Speed|p2a: Toxtricity
+|-damage|p2a: Toxtricity|36/100
+|move|p2a: Toxtricity|Overdrive|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|
+|switch|p1a: Xerneas|Xerneas|100/100
+|-activate|p1a: Xerneas|move: Sticky Web
+|-unboost|p1a: Xerneas|spe|1
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|13
+|
+|-start|p1a: Xerneas|Dynamax
+|-heal|p1a: Xerneas|100/100|[silent]
+|move|p2a: Toxtricity|Venoshock|p1a: Xerneas
+|-supereffective|p1a: Xerneas
+|-damage|p1a: Xerneas|0 fnt
+|faint|p1a: Xerneas
+|
+|upkeep
+|
+|switch|p1a: Kyogre|Kyogre|100/100
+|-activate|p1a: Kyogre|move: Sticky Web
+|-unboost|p1a: Kyogre|spe|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|14
+|c|☆Raythepidgeot|Gg
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Raythepidgeot)
+|
+|-start|p2a: Toxtricity|Dynamax
+|-heal|p2a: Toxtricity|36/100|[silent]
+|move|p2a: Toxtricity|Max Lightning|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p1a: Kyogre
+|
+|win|Raythepidgeot
+|l|☆Onoufrios
+|raw|Onoufrios's rating: 1402 &rarr; <strong>1377</strong><br />(-25 for losing)
+|raw|Raythepidgeot's rating: 1311 &rarr; <strong>1336</strong><br />(+25 for winning)

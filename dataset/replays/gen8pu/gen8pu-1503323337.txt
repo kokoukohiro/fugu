@@ -1,0 +1,298 @@
+|j|☆panned bomb
+|j|☆eruza02
+|t:|1643847023
+|gametype|singles
+|player|p1|panned bomb|265|1458
+|player|p2|eruza02|hooligans|1381
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Frosmoth, M|
+|poke|p1|Lunatone|
+|poke|p1|Charizard, M|
+|poke|p1|Quagsire, M|
+|poke|p1|Skuntank, F|
+|poke|p1|Flapple, F|
+|poke|p2|Lilligant, F|
+|poke|p2|Whimsicott, M|
+|poke|p2|Rhydon, F|
+|poke|p2|Silvally-*|
+|poke|p2|Wishiwashi, F|
+|poke|p2|Rapidash, F|
+|teampreview
+|
+|t:|1643847053
+|start
+|switch|p1a: Flapple|Flapple, F|100/100
+|switch|p2a: Lilligant|Lilligant, F|100/100
+|turn|1
+|
+|t:|1643847067
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|move|p2a: Lilligant|Pollen Puff|p1a: Skuntank
+|-damage|p1a: Skuntank|62/100
+|
+|-heal|p1a: Skuntank|68/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1643847076
+|move|p2a: Lilligant|Sleep Powder|p1a: Skuntank|[miss]
+|-miss|p2a: Lilligant|p1a: Skuntank
+|move|p1a: Skuntank|Poison Jab|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|7/100
+|
+|-heal|p1a: Skuntank|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1643847085
+|move|p2a: Lilligant|Sleep Powder|p1a: Skuntank
+|-status|p1a: Skuntank|slp|[from] move: Sleep Powder
+|cant|p1a: Skuntank|slp
+|
+|-heal|p1a: Skuntank|80/100 slp|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1643847094
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1643847102
+|move|p2a: Lilligant|Petal Dance|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|69/100
+|move|p1a: Charizard|Flamethrower|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|upkeep
+|
+|t:|1643847113
+|switch|p2a: Wishiwashi|Wishiwashi, F|100/100
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|6
+|
+|t:|1643847119
+|switch|p1a: Frosmoth|Frosmoth, M|100/100
+|move|p2a: Wishiwashi|Surf|p1a: Frosmoth
+|-damage|p1a: Frosmoth|49/100
+|
+|upkeep
+|turn|7
+|
+|t:|1643847130
+|switch|p2a: Rapidash|Rapidash, F|100/100
+|move|p1a: Frosmoth|Giga Drain|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|82/100
+|-heal|p1a: Frosmoth|57/100|[from] drain|[of] p2a: Rapidash
+|
+|upkeep
+|turn|8
+|
+|t:|1643847139
+|switch|p1a: Lunatone|Lunatone|100/100
+|move|p2a: Rapidash|High Horsepower|p1a: Lunatone
+|-immune|p1a: Lunatone|[from] ability: Levitate
+|
+|upkeep
+|turn|9
+|
+|t:|1643847149
+|switch|p2a: Silvally|Silvally|100/100
+|move|p1a: Lunatone|Future Sight|p2a: Silvally
+|-start|p1a: Lunatone|move: Future Sight
+|
+|upkeep
+|turn|10
+|
+|t:|1643847156
+|move|p2a: Silvally|U-turn|p1a: Lunatone
+|-supereffective|p1a: Lunatone
+|-damage|p1a: Lunatone|9/100
+|
+|t:|1643847163
+|switch|p2a: Whimsicott|Whimsicott, M|100/100|[from]move: U-turn
+|move|p1a: Lunatone|Power Gem|p2a: Whimsicott
+|-damage|p2a: Whimsicott|44/100
+|
+|-heal|p1a: Lunatone|15/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1643847172
+|switch|p1a: Charizard|Charizard, M|69/100
+|move|p2a: Whimsicott|Moonblast|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|47/100
+|-unboost|p1a: Charizard|spa|1
+|
+|-end|p2a: Whimsicott|move: Future Sight
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|upkeep
+|
+|t:|1643847185
+|switch|p2a: Rhydon|Rhydon, F|100/100
+|turn|12
+|
+|t:|1643847191
+|switch|p1a: Flapple|Flapple, F|100/100
+|move|p2a: Rhydon|Rock Polish|p2a: Rhydon
+|-boost|p2a: Rhydon|spe|2
+|
+|upkeep
+|turn|13
+|
+|t:|1643847198
+|move|p2a: Rhydon|Rock Blast|p1a: Flapple
+|-damage|p1a: Flapple|82/100
+|-damage|p1a: Flapple|63/100
+|-hitcount|p1a: Flapple|2
+|move|p1a: Flapple|Grav Apple|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|upkeep
+|
+|t:|1643847209
+|switch|p2a: Silvally|Silvally|100/100
+|turn|14
+|
+|t:|1643847217
+|switch|p1a: Skuntank|Skuntank, F|80/100 slp
+|move|p2a: Silvally|U-turn|p1a: Skuntank
+|-damage|p1a: Skuntank|41/100 slp
+|
+|t:|1643847228
+|switch|p2a: Wishiwashi|Wishiwashi, F|100/100|[from]move: U-turn
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|
+|-heal|p1a: Skuntank|47/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1643847236
+|-curestatus|p1a: Skuntank|slp|[msg]
+|move|p1a: Skuntank|Poison Jab|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|72/100
+|move|p2a: Wishiwashi|Surf|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|upkeep
+|
+|t:|1643847240
+|switch|p1a: Flapple|Flapple, F|63/100
+|turn|16
+|
+|t:|1643847254
+|switch|p2a: Rapidash|Rapidash, F|82/100
+|move|p1a: Flapple|Grav Apple|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|34/100
+|-unboost|p2a: Rapidash|def|1
+|
+|upkeep
+|turn|17
+|
+|t:|1643847262
+|move|p1a: Flapple|Sucker Punch|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|upkeep
+|
+|t:|1643847268
+|switch|p2a: Silvally|Silvally|100/100
+|turn|18
+|
+|t:|1643847273
+|switch|p1a: Lunatone|Lunatone|15/100
+|move|p2a: Silvally|Multi-Attack|p1a: Lunatone
+|-resisted|p1a: Lunatone
+|-damage|p1a: Lunatone|0 fnt
+|faint|p1a: Lunatone
+|
+|upkeep
+|
+|t:|1643847282
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|turn|19
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eruza02)
+|
+|t:|1643847290
+|move|p2a: Silvally|Multi-Attack|p1a: Quagsire
+|-damage|p1a: Quagsire|46/100
+|move|p1a: Quagsire|Earthquake|p2a: Silvally
+|-damage|p2a: Silvally|69/100
+|
+|upkeep
+|turn|20
+|
+|t:|1643847297
+|move|p2a: Silvally|Multi-Attack|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|upkeep
+|
+|t:|1643847303
+|switch|p1a: Charizard|Charizard, M|47/100
+|turn|21
+|
+|t:|1643847307
+|move|p1a: Charizard|Flamethrower|p2a: Silvally
+|-damage|p2a: Silvally|20/100
+|move|p2a: Silvally|Multi-Attack|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1643847308
+|switch|p1a: Flapple|Flapple, F|63/100
+|turn|22
+|
+|t:|1643847319
+|move|p1a: Flapple|Sucker Punch|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|t:|1643847323
+|switch|p2a: Wishiwashi|Wishiwashi, F|72/100
+|-formechange|p2a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|23
+|
+|t:|1643847344
+|move|p1a: Flapple|Grav Apple|p2a: Wishiwashi
+|-supereffective|p2a: Wishiwashi
+|-damage|p2a: Wishiwashi|0 fnt
+|faint|p2a: Wishiwashi
+|
+|win|panned bomb
+|raw|panned bomb's rating: 1458 &rarr; <strong>1474</strong><br />(+16 for winning)
+|raw|eruza02's rating: 1381 &rarr; <strong>1365</strong><br />(-16 for losing)

@@ -1,0 +1,427 @@
+|j|☆Kwaga
+|j|☆samohi0
+|t:|1664070817
+|gametype|singles
+|player|p1|Kwaga|ginter|1719
+|player|p2|samohi0|1|1769
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Tapu Lele|
+|poke|p1|Kartana|
+|poke|p1|Magnezone|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Toxapex, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Venusaur, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Heatran, M|
+|poke|p2|Tyranitar, F|
+|teampreview
+|
+|t:|1664070827
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: blisma ᕦ(ò_óˇ)ᕤ|Torkoal, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: blisma ᕦ(ò_óˇ)ᕤ|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: blisma ᕦ(ò_óˇ)ᕤ
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kwaga)
+|
+|t:|1664070853
+|switch|p2a: thunderbolt <3|Rillaboom, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: thunderbolt <3
+|move|p1a: Landorus|U-turn|p2a: thunderbolt <3
+|-supereffective|p2a: thunderbolt <3
+|-damage|p2a: thunderbolt <3|55/100
+|
+|t:|1664070859
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: thunderbolt <3|61/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1664070861
+|switch|p2a: earthquake|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: earthquake
+|move|p1a: Tornadus|Knock Off|p2a: earthquake
+|-resisted|p2a: earthquake
+|-damage|p2a: earthquake|91/100
+|-enditem|p2a: earthquake|Choice Band|[from] move: Knock Off|[of] p1a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|94/100|[from] Sandstorm
+|-heal|p2a: earthquake|97/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1664070864
+|move|p1a: Tornadus|U-turn|p2a: earthquake
+|-supereffective|p2a: earthquake
+|-damage|p2a: earthquake|69/100
+|j| LT_Alt1
+|
+|t:|1664070867
+|switch|p1a: Toxapex|Toxapex, M|100/100|[from]move: U-turn
+|move|p2a: earthquake|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|73/100
+|-unboost|p1a: Toxapex|def|1
+|-damage|p2a: earthquake|52/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|67/100|[from] Sandstorm
+|-heal|p2a: earthquake|58/100|[from] Grassy Terrain
+|-heal|p1a: Toxapex|73/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1664070869
+|move|p2a: earthquake|Stone Edge|p1a: Toxapex|[miss]
+|-miss|p2a: earthquake|p1a: Toxapex
+|move|p1a: Toxapex|Toxic|p2a: earthquake
+|-status|p2a: earthquake|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|67/100|[from] Sandstorm
+|-heal|p2a: earthquake|64/100 tox|[from] Grassy Terrain
+|-heal|p1a: Toxapex|73/100|[from] Grassy Terrain
+|-damage|p2a: earthquake|58/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1664070871
+|move|p2a: earthquake|Stone Edge|p1a: Toxapex
+|-damage|p1a: Toxapex|20/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|65/100|[from] Sandstorm
+|-heal|p2a: earthquake|64/100 tox|[from] Grassy Terrain
+|-heal|p1a: Toxapex|70/100|[from] Grassy Terrain
+|-damage|p2a: earthquake|52/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1664070878
+|switch|p1a: Magnezone|Magnezone|100/100
+|-item|p1a: Magnezone|Air Balloon
+|move|p2a: earthquake|Stone Edge|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|79/100
+|-enditem|p1a: Magnezone|Air Balloon
+|
+|-weather|none
+|-damage|p2a: earthquake|34/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1664070882
+|move|p2a: earthquake|Fire Punch|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|39/100
+|move|p1a: Magnezone|Body Press|p2a: earthquake
+|-supereffective|p2a: earthquake
+|-damage|p2a: earthquake|0 fnt
+|faint|p2a: earthquake
+|
+|upkeep
+|
+|t:|1664070890
+|switch|p2a: Agyptian ✨|Heatran, M|100/100
+|turn|8
+|
+|t:|1664070892
+|move|p2a: Agyptian ✨|Lava Plume|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|t:|1664070895
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Agyptian ✨|atk|1
+|turn|9
+|
+|t:|1664070898
+|switch|p2a: blisma ᕦ(ò_óˇ)ᕤ|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: blisma ᕦ(ò_óˇ)ᕤ
+|move|p1a: Landorus|Earthquake|p2a: blisma ᕦ(ò_óˇ)ᕤ
+|-supereffective|p2a: blisma ᕦ(ò_óˇ)ᕤ
+|-damage|p2a: blisma ᕦ(ò_óˇ)ᕤ|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1664070901
+|switch|p2a: thunderbolt <3|Rillaboom, M, shiny|61/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: thunderbolt <3
+|move|p1a: Landorus|Earthquake|p2a: thunderbolt <3
+|-resisted|p2a: thunderbolt <3
+|-damage|p2a: thunderbolt <3|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: thunderbolt <3|54/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1664070904
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: thunderbolt <3|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|83/100
+|
+|t:|1664070906
+|switch|p2a: Agyptian ✨|Heatran, M|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|l| LT_Alt1
+|
+|t:|1664070911
+|move|p2a: Agyptian ✨|Eruption|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1664070915
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|13
+|j| LT_Alt1
+|
+|t:|1664070918
+|switch|p2a: Uno reverse card|Hatterene, F, shiny|100/100
+|move|p1a: Toxapex|Knock Off|p2a: Uno reverse card
+|-damage|p2a: Uno reverse card|84/100
+|-enditem|p2a: Uno reverse card|Leftovers|[from] move: Knock Off|[of] p1a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Uno reverse card|90/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1664070922
+|switch|p1a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Tapu Lele
+|move|p2a: Uno reverse card|Psyshock|p1a: Tapu Lele
+|-resisted|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1664070928
+|move|p1a: Tapu Lele|Moonblast|p2a: Uno reverse card
+|-damage|p2a: Uno reverse card|5/100
+|move|p2a: Uno reverse card|Psyshock|p1a: Tapu Lele
+|-resisted|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|2/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1664070933
+|move|p1a: Tapu Lele|Moonblast|p2a: Uno reverse card
+|-damage|p2a: Uno reverse card|0 fnt
+|faint|p2a: Uno reverse card
+|
+|-weather|none
+|upkeep
+|
+|t:|1664070935
+|switch|p2a: blisma ᕦ(ò_óˇ)ᕤ|Torkoal, M, shiny|46/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: blisma ᕦ(ò_óˇ)ᕤ
+|turn|17
+|
+|t:|1664070936
+|switch|p2a: flamethrower :>|Venusaur, M, shiny|100/100
+|move|p1a: Tapu Lele|Moonblast|p2a: flamethrower :>
+|-resisted|p2a: flamethrower :>
+|-damage|p2a: flamethrower :>|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1664070939
+|move|p2a: flamethrower :>|Giga Drain|p1a: Tapu Lele
+|-damage|p1a: Tapu Lele|0 fnt
+|-heal|p2a: flamethrower :>|52/100|[from] drain|[of] p1a: Tapu Lele
+|faint|p1a: Tapu Lele
+|-damage|p2a: flamethrower :>|42/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1664070942
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: flamethrower :>|atk|1
+|turn|19
+|
+|t:|1664070944
+|move|p2a: flamethrower :>|Weather Ball|p1a: Landorus
+|-damage|p1a: Landorus|51/100
+|-damage|p2a: flamethrower :>|32/100|[from] item: Life Orb
+|move|p1a: Landorus|Earthquake|p2a: flamethrower :>
+|-damage|p2a: flamethrower :>|0 fnt
+|faint|p2a: flamethrower :>
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1664070947
+|switch|p2a: Agyptian ✨|Heatran, M|100/100
+|turn|20
+|
+|t:|1664070949
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Agyptian ✨|Eruption|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1664070951
+|move|p2a: Agyptian ✨|Eruption|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|6/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1664070955
+|move|p2a: Agyptian ✨|Eruption|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|5/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1664070959
+|move|p2a: Agyptian ✨|Eruption|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|4/100
+|move|p1a: Toxapex|Knock Off|p2a: Agyptian ✨
+|-damage|p2a: Agyptian ✨|86/100
+|-enditem|p2a: Agyptian ✨|Choice Scarf|[from] move: Knock Off|[of] p1a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|j| Pigglesworth
+|
+|t:|1664070965
+|move|p2a: Agyptian ✨|Lava Plume|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-weather|none
+|upkeep
+|
+|t:|1664070968
+|switch|p1a: Landorus|Landorus-Therian, M|57/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Agyptian ✨|atk|1
+|turn|25
+|
+|t:|1664070973
+|move|p2a: Agyptian ✨|Eruption|p1a: Landorus
+|-damage|p1a: Landorus|9/100
+|move|p1a: Landorus|Stealth Rock|p2a: Agyptian ✨
+|-sidestart|p2: samohi0|move: Stealth Rock
+|
+|-heal|p1a: Landorus|15/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1664070976
+|move|p2a: Agyptian ✨|Lava Plume|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1664070977
+|switch|p1a: Kartana|Kartana|100/100
+|turn|27
+|
+|t:|1664070979
+|move|p1a: Kartana|Sacred Sword|p2a: Agyptian ✨
+|-supereffective|p2a: Agyptian ✨
+|-damage|p2a: Agyptian ✨|0 fnt
+|faint|p2a: Agyptian ✨
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|upkeep
+|
+|t:|1664070982
+|switch|p2a: blisma ᕦ(ò_óˇ)ᕤ|Torkoal, M, shiny|46/100
+|-damage|p2a: blisma ᕦ(ò_óˇ)ᕤ|21/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: blisma ᕦ(ò_óˇ)ᕤ
+|turn|28
+|
+|t:|1664070984
+|move|p1a: Kartana|Sacred Sword|p2a: blisma ᕦ(ò_óˇ)ᕤ
+|-damage|p2a: blisma ᕦ(ò_óˇ)ᕤ|0 fnt
+|faint|p2a: blisma ᕦ(ò_óˇ)ᕤ
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1664070986
+|switch|p2a: thunderbolt <3|Rillaboom, M, shiny|54/100
+|-damage|p2a: thunderbolt <3|42/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: thunderbolt <3
+|turn|29
+|
+|t:|1664070987
+|move|p2a: thunderbolt <3|Grassy Glide|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|81/100
+|move|p1a: Kartana|Sacred Sword|p2a: thunderbolt <3
+|-damage|p2a: thunderbolt <3|0 fnt
+|faint|p2a: thunderbolt <3
+|
+|win|Kwaga
+|raw|Kwaga's rating: 1719 &rarr; <strong>1742</strong><br />(+23 for winning)
+|raw|samohi0's rating: 1769 &rarr; <strong>1746</strong><br />(-23 for losing)

@@ -1,0 +1,352 @@
+|j|☆Flashybee
+|j|☆cruistieheadass
+|player|p1|Flashybee|70|1471
+|player|p2|cruistieheadass|221|1460
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Toxtricity-Low-Key, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Milotic, F|
+|poke|p1|Weavile, M|
+|poke|p1|Chandelure, M|
+|poke|p2|Dracovish|
+|poke|p2|Mantine, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Mandibuzz, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Dracovish
+|-sidestart|p2: cruistieheadass|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|64/100
+|
+|-status|p1a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|41/100 brn
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|91/100 brn
+|
+|-damage|p1a: Milotic|85/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Milotic|Dragon Tail|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|95/100
+|drag|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|
+|-damage|p1a: Milotic|79/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Milotic|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Pelipper|U-turn|p1a: Milotic
+|-damage|p1a: Milotic|90/100 brn
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Milotic|Dragon Tail|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|93/100
+|-damage|p1a: Milotic|78/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|drag|p2a: Pelipper|Pelipper, F|76/100
+|-damage|p2a: Pelipper|51/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Milotic|72/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100 brn
+|move|p2a: Pelipper|Hurricane|p1a: Milotic
+|-damage|p1a: Milotic|73/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Milotic|67/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Pelipper|Hurricane|p1a: Milotic
+|-damage|p1a: Milotic|39/100 brn
+|-start|p1a: Milotic|confusion
+|-activate|p1a: Milotic|confusion
+|-damage|p1a: Milotic|38/100 brn|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Milotic|32/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|-end|p1a: Milotic|confusion
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|82/100 brn
+|move|p2a: Pelipper|Hurricane|p1a: Milotic
+|-damage|p1a: Milotic|57/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Milotic|51/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100 brn
+|move|p2a: Pelipper|Hurricane|p1a: Milotic
+|-damage|p1a: Milotic|73/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Milotic|67/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100 brn
+|move|p2a: Pelipper|Hurricane|p1a: Milotic
+|-damage|p1a: Milotic|73/100 brn
+|-start|p1a: Milotic|confusion
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Milotic|67/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|95/100
+|-activate|p1a: Milotic|confusion
+|-damage|p1a: Milotic|65/100 brn|[from] confusion
+|
+|-weather|none
+|-damage|p1a: Milotic|59/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Mandibuzz|Defog|p1a: Weavile
+|-unboost|p1a: Weavile|evasion|1
+|-sideend|p2: cruistieheadass|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|51/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|15
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|93/100
+|move|p1a: Weavile|Icicle Crash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|59/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|65/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Aegislash
+|-start|p1a: Aegislash|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|-damage|p1a: Aegislash|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|83/100|[silent]
+|upkeep
+|turn|17
+|
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Aegislash
+|-sidestart|p1: Flashybee|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|-damage|p1a: Aegislash|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|18
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Aegislash|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|-damage|p1a: Aegislash|54/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|88/100
+|turn|19
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Dracovish
+|-damage|p2a: Dracovish|32/100
+|-damage|p1a: Aegislash|44/100|[from] item: Life Orb
+|move|p2a: Dracovish|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Milotic|Milotic, F|59/100 brn
+|-damage|p1a: Milotic|47/100 brn|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Pelipper|Pelipper, F|51/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|97/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Milotic|91/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p1a: Excadrill|Excadrill, M|1/100
+|-damage|p1a: Excadrill|0 fnt|[from] Stealth Rock
+|faint|p1a: Excadrill
+|move|p2a: Pelipper|Hurricane|p1: Excadrill|[notarget]
+|-fail|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Mantine|Mantine, F|100/100
+|move|p1a: Toxtricity|Boomburst|p2a: Mantine
+|-damage|p2a: Mantine|29/100
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|switch|p2a: Pelipper|Pelipper, F|51/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Toxtricity|Boomburst|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|32/100
+|turn|24
+|
+|switch|p1a: Milotic|Milotic, F|91/100 brn
+|-damage|p1a: Milotic|78/100 brn|[from] Stealth Rock
+|move|p2a: Dracovish|Fishious Rend|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|40/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Milotic|34/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|26
+|
+|move|p1a: Weavile|Ice Shard|p2a: Dracovish
+|-damage|p2a: Dracovish|2/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Flashybee|oof
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|-damage|p1a: Chandelure|76/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|88/100
+|-damage|p1a: Toxtricity|76/100|[from] Stealth Rock
+|turn|28
+|c|☆cruistieheadass|gg
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|win|cruistieheadass
+|l|☆Flashybee
+|raw|Flashybee's rating: 1491 &rarr; <strong>1470</strong><br />(-21 for losing)
+|raw|cruistieheadass's rating: 1478 &rarr; <strong>1499</strong><br />(+21 for winning)

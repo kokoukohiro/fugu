@@ -1,0 +1,352 @@
+|j|☆xenon filled lungs
+|j|☆Parasector
+|t:|1608673219
+|player|p1|xenon filled lungs|molayne|1362
+|player|p2|Parasector|1|1169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Sigilyph, M|
+|poke|p1|Malamar, F|
+|poke|p1|Virizion|
+|poke|p1|Aggron, M|
+|poke|p1|Silvally-*|
+|poke|p2|Electivire, F|
+|poke|p2|Trevenant, M|
+|poke|p2|Orbeetle, M|
+|poke|p2|Guzzlord|
+|poke|p2|Regigigas|
+|poke|p2|Sandslash-Alola, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1608673240
+|start
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|switch|p2a: Bring it|Electivire, F|100/100
+|turn|1
+|
+|t:|1608673252
+|switch|p1a: Virizion|Virizion|100/100
+|move|p2a: Bring it|Thunder Punch|p1a: Virizion
+|-resisted|p1a: Virizion
+|-damage|p1a: Virizion|72/100
+|
+|upkeep
+|turn|2
+|
+|t:|1608673262
+|move|p1a: Virizion|Leaf Blade|p2a: Bring it
+|-damage|p2a: Bring it|28/100
+|-damage|p1a: Virizion|62/100|[from] item: Life Orb
+|move|p2a: Bring it|Ice Punch|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|0 fnt
+|faint|p1a: Virizion
+|
+|upkeep
+|
+|t:|1608673269
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|turn|3
+|
+|t:|1608673279
+|move|p1a: Sigilyph|Air Slash|p2a: Bring it
+|-resisted|p2a: Bring it
+|-damage|p2a: Bring it|0 fnt
+|faint|p2a: Bring it
+|
+|upkeep
+|
+|t:|1608673285
+|switch|p2a: Fat|Guzzlord|100/100
+|turn|4
+|
+|t:|1608673304
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|move|p2a: Fat|Knock Off|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|66/100
+|-enditem|p1a: Ribombee|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Fat
+|
+|upkeep
+|turn|5
+|
+|t:|1608673312
+|move|p1a: Ribombee|U-turn|p2a: Fat
+|-supereffective|p2a: Fat
+|-damage|p2a: Fat|84/100
+|
+|t:|1608673316
+|switch|p1a: Aggron|Aggron, M|100/100|[from]move: U-turn
+|move|p2a: Fat|Sludge Wave|p1a: Aggron
+|-immune|p1a: Aggron
+|
+|upkeep
+|turn|6
+|
+|t:|1608673325
+|move|p1a: Aggron|Head Smash|p2a: Fat
+|-damage|p2a: Fat|31/100
+|move|p2a: Fat|Knock Off|p1a: Aggron
+|-damage|p1a: Aggron|78/100
+|-enditem|p1a: Aggron|Leftovers|[from] move: Knock Off|[of] p2a: Fat
+|
+|upkeep
+|turn|7
+|
+|t:|1608673342
+|move|p1a: Aggron|Stealth Rock|p2a: Fat
+|-sidestart|p2: Parasector|move: Stealth Rock
+|move|p2a: Fat|Draco Meteor|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|35/100
+|-unboost|p2a: Fat|spa|2
+|
+|upkeep
+|turn|8
+|
+|t:|1608673350
+|switch|p1a: Ribombee|Ribombee, F|66/100
+|move|p2a: Fat|Heat Wave|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|28/100
+|
+|upkeep
+|turn|9
+|
+|t:|1608673358
+|move|p1a: Ribombee|Moonblast|p2a: Fat
+|-supereffective|p2a: Fat
+|-damage|p2a: Fat|0 fnt
+|faint|p2a: Fat
+|
+|upkeep
+|
+|t:|1608673365
+|switch|p2a: Speed|Sandslash-Alola, M|100/100
+|-damage|p2a: Speed|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1608673370
+|move|p1a: Ribombee|U-turn|p2a: Speed
+|-resisted|p2a: Speed
+|-damage|p2a: Speed|81/100
+|
+|t:|1608673372
+|switch|p1a: Malamar|Malamar, F|100/100|[from]move: U-turn
+|move|p2a: Speed|Rapid Spin|p1a: Malamar
+|-damage|p1a: Malamar|81/100
+|-boost|p2a: Speed|spe|1
+|-sideend|p2: Parasector|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Speed
+|-damage|p2a: Speed|71/100|[from] item: Life Orb
+|
+|-heal|p1a: Malamar|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1608673385
+|move|p2a: Speed|Iron Head|p1a: Malamar
+|-damage|p1a: Malamar|37/100
+|-damage|p2a: Speed|61/100|[from] item: Life Orb
+|cant|p1a: Malamar|flinch
+|
+|-heal|p1a: Malamar|43/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆xenon filled lungs|ok
+|
+|t:|1608673393
+|switch|p1a: Ribombee|Ribombee, F|28/100
+|move|p2a: Speed|Iron Head|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|-damage|p2a: Speed|51/100|[from] item: Life Orb
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1608673401
+|switch|p1a: Silvally|Silvally-Dragon|100/100
+|turn|13
+|
+|t:|1608673406
+|move|p2a: Speed|Ice Punch|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|15/100
+|-damage|p2a: Speed|41/100|[from] item: Life Orb
+|move|p1a: Silvally|Flame Charge|p2a: Speed
+|-supereffective|p2a: Speed
+|-damage|p2a: Speed|0 fnt
+|-boost|p1a: Silvally|spe|1
+|faint|p2a: Speed
+|
+|upkeep
+|
+|t:|1608673424
+|switch|p2a: Orbit|Orbeetle, M|100/100
+|-item|p1a: Silvally|Dragon Memory|[from] ability: Frisk|[of] p2a: Orbit|[identify]
+|turn|14
+|
+|t:|1608673441
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Orbit|Sticky Web|p1a: Silvally
+|-sidestart|p1: xenon filled lungs|move: Sticky Web
+|
+|upkeep
+|turn|15
+|
+|t:|1608673447
+|move|p1a: Silvally|Multi-Attack|p2a: Orbit
+|-damage|p2a: Orbit|2/100
+|move|p2a: Orbit|Psychic|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|t:|1608673453
+|switch|p1a: Malamar|Malamar, F|43/100
+|-activate|p1a: Malamar|move: Sticky Web
+|-boost|p1a: Malamar|spe|1
+|turn|16
+|
+|t:|1608673461
+|switch|p2a: Spooky|Trevenant, M|100/100
+|move|p1a: Malamar|Superpower|p2a: Spooky
+|-immune|p2a: Spooky
+|
+|-heal|p1a: Malamar|50/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1608673469
+|switch|p1a: Aggron|Aggron, M|35/100
+|-activate|p1a: Aggron|move: Sticky Web
+|-unboost|p1a: Aggron|spe|1
+|move|p2a: Spooky|Will-O-Wisp|p1a: Aggron
+|-status|p1a: Aggron|brn
+|
+|-damage|p1a: Aggron|29/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1608673480
+|move|p2a: Spooky|Substitute|p2a: Spooky
+|-start|p2a: Spooky|Substitute
+|-damage|p2a: Spooky|76/100
+|move|p1a: Aggron|Head Smash|p2a: Spooky
+|-end|p2a: Spooky|Substitute
+|
+|-damage|p1a: Aggron|23/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1608673494
+|move|p2a: Spooky|Substitute|p2a: Spooky
+|-start|p2a: Spooky|Substitute
+|-damage|p2a: Spooky|51/100
+|move|p1a: Aggron|Heavy Slam|p2a: Spooky
+|-end|p2a: Spooky|Substitute
+|
+|-damage|p1a: Aggron|17/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1608673504
+|move|p2a: Spooky|Horn Leech|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|-heal|p2a: Spooky|58/100|[from] drain|[of] p1a: Aggron
+|faint|p1a: Aggron
+|
+|upkeep
+|
+|t:|1608673507
+|switch|p1a: Malamar|Malamar, F|50/100
+|-activate|p1a: Malamar|move: Sticky Web
+|-boost|p1a: Malamar|spe|1
+|turn|21
+|
+|t:|1608673514
+|move|p1a: Malamar|Substitute|p1a: Malamar
+|-start|p1a: Malamar|Substitute
+|-damage|p1a: Malamar|25/100
+|move|p2a: Spooky|Will-O-Wisp||[still]
+|-fail|p2a: Spooky
+|
+|-heal|p1a: Malamar|31/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1608673525
+|move|p1a: Malamar|Knock Off|p2a: Spooky
+|-supereffective|p2a: Spooky
+|-damage|p2a: Spooky|2/100
+|-enditem|p2a: Spooky|Sitrus Berry|[from] move: Knock Off|[of] p1a: Malamar
+|move|p2a: Spooky|Poltergeist|p1a: Malamar
+|-activate|p1a: Malamar|move: Poltergeist|Leftovers
+|-end|p1a: Malamar|Substitute
+|
+|-heal|p1a: Malamar|37/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1608673538
+|move|p1a: Malamar|Knock Off|p2a: Spooky
+|-supereffective|p2a: Spooky
+|-damage|p2a: Spooky|0 fnt
+|faint|p2a: Spooky
+|
+|-heal|p1a: Malamar|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1608673547
+|switch|p2a: Error|Regigigas|100/100
+|-start|p2a: Error|ability: Slow Start
+|turn|24
+|
+|t:|1608673552
+|move|p1a: Malamar|Superpower|p2a: Error
+|-supereffective|p2a: Error
+|-damage|p2a: Error|59/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Error|Knock Off|p1a: Malamar
+|-damage|p1a: Malamar|29/100
+|-enditem|p1a: Malamar|Leftovers|[from] move: Knock Off|[of] p2a: Error
+|
+|-heal|p2a: Error|65/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1608673563
+|move|p1a: Malamar|Superpower|p2a: Error
+|-supereffective|p2a: Error
+|-damage|p2a: Error|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Error
+|-end|p2a: Error|Slow Start|[silent]
+|
+|upkeep
+|c|☆xenon filled lungs|gg
+|-message|Parasector forfeited.
+|
+|win|xenon filled lungs
+|l|☆Parasector
+|l|☆xenon filled lungs
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).
+|j|☆xenon filled lungs
+|player|p1|xenon filled lungs|molayne

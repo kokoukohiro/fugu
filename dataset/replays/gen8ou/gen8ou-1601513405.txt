@@ -1,0 +1,172 @@
+|j|☆IMSOMALD
+|j|☆LaMount
+|t:|1655863435
+|gametype|singles
+|player|p1|IMSOMALD|n|1609
+|player|p2|LaMount|ghetsis|1737
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Buzzwole|
+|poke|p1|Cursola, F|
+|poke|p1|Tapu Koko|
+|poke|p1|Corviknight, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Garchomp, M|
+|poke|p2|Victini|
+|poke|p2|Tangrowth, F|
+|poke|p2|Blissey, F|
+|poke|p2|Salamence, F|
+|poke|p2|Mamoswine, M|
+|poke|p2|Tapu Fini|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LaMount)
+|
+|t:|1655863450
+|start
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|1
+|
+|t:|1655863459
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|move|p1a: Tapu Koko|Dazzling Gleam|p2a: Mamoswine
+|-damage|p2a: Mamoswine|72/100
+|
+|upkeep
+|turn|2
+|j| banbootsplz
+|
+|t:|1655863480
+|switch|p1a: Buzzwole|Buzzwole|100/100
+|switch|p2a: Victini|Victini|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1655863485
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Victini|Trick|p1a: Garchomp
+|-activate|p2a: Victini|move: Trick|[of] p1a: Garchomp
+|-item|p1a: Garchomp|Choice Band|[from] move: Trick
+|-item|p2a: Victini|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|4
+|
+|t:|1655863494
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Stealth Rock|p2a: Salamence
+|-sidestart|p2: LaMount|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1655863508
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Salamence|Defog|p1a: Corviknight
+|-unboost|p1a: Corviknight|evasion|1
+|-sideend|p2: LaMount|Stealth Rock|[from] move: Defog|[of] p2a: Salamence
+|-fieldend|move: Electric Terrain
+|
+|upkeep
+|turn|6
+|
+|t:|1655863515
+|move|p2a: Salamence|Fire Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|59/100
+|move|p1a: Corviknight|U-turn|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|95/100
+|c|☆LaMount|bulky
+|
+|t:|1655863527
+|switch|p1a: Cursola|Cursola, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1655863533
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Cursola|Shadow Ball|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|53/100
+|-unboost|p2a: Tapu Fini|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1655863542
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|move|p1a: Cursola|Shadow Ball|p2a: Blissey
+|-immune|p2a: Blissey
+|
+|upkeep
+|turn|9
+|
+|t:|1655863549
+|move|p1a: Cursola|Substitute|p1a: Cursola
+|-start|p1a: Cursola|Substitute
+|-damage|p1a: Cursola|76/100
+|move|p2a: Blissey|Seismic Toss|p1a: Cursola
+|-immune|p1a: Cursola
+|
+|upkeep
+|turn|10
+|
+|t:|1655863562
+|switch|p2a: Mamoswine|Mamoswine, M|72/100
+|move|p1a: Cursola|Meteor Beam||[still]
+|-prepare|p1a: Cursola|Meteor Beam
+|-boost|p1a: Cursola|spa|1
+|-enditem|p1a: Cursola|Power Herb
+|-anim|p1a: Cursola|Meteor Beam|p2a: Mamoswine
+|-damage|p2a: Mamoswine|22/100
+|
+|upkeep
+|turn|11
+|
+|t:|1655863566
+|move|p2a: Mamoswine|Ice Shard|p1a: Cursola
+|-end|p1a: Cursola|Substitute
+|move|p1a: Cursola|Shadow Ball|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1655863570
+|switch|p2a: Victini|Victini|100/100
+|turn|12
+|j| dsfsfsgsfd
+|
+|t:|1655863596
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Victini|Bolt Strike|p1a: Garchomp
+|-immune|p1a: Garchomp
+|
+|upkeep
+|turn|13
+|-message|LaMount forfeited.
+|
+|win|IMSOMALD
+|raw|IMSOMALD's rating: 1609 &rarr; <strong>1636</strong><br />(+27 for winning)
+|raw|LaMount's rating: 1737 &rarr; <strong>1710</strong><br />(-27 for losing)
+|l|☆LaMount

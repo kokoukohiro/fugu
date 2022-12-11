@@ -1,0 +1,378 @@
+|j|☆SDK04
+|j|☆DarkHorse344
+|t:|1667528558
+|gametype|singles
+|player|p1|SDK04|nate|1393
+|player|p2|DarkHorse344|brendan-gen3rs|1448
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Vanilluxe, F|
+|poke|p1|Salamence, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Azelf|
+|poke|p1|Slowking, F|
+|poke|p1|Zarude-Dada|
+|poke|p2|Torkoal, F|
+|poke|p2|Darmanitan, M|
+|poke|p2|Venusaur, F|
+|poke|p2|Chansey, F|
+|poke|p2|Zygarde-10%|
+|poke|p2|Skarmory, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SDK04)
+|
+|t:|1667528570
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1667528574
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Azelf|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|86/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|j| Com.Corsola
+|l| Com.Corsola
+|
+|t:|1667528577
+|move|p1a: Azelf|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|68/100
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Azelf
+|move|p2a: Chansey|Teleport|p2a: Chansey
+|
+|t:|1667528587
+|switch|p2a: Darmanitan|Darmanitan, M|100/100|[from]move: Teleport
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1667528592
+|switch|p1a: Slowking|Slowking, F|100/100
+|move|p2a: Darmanitan|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|60/100
+|
+|t:|1667528598
+|switch|p2a: Venusaur|Venusaur, F|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1667528600
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|move|p1a: Slowking|Future Sight|p2a: Venusaur
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1667528609
+|switch|p1a: Zarude|Zarude-Dada|100/100
+|move|p2a: Venusaur|Giga Drain|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|51/100
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1667528622
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|switch|p1a: Slowking|Slowking, F|94/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Skarmory|move: Future Sight
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|71/100
+|-heal|p2a: Skarmory|77/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1667528635
+|switch|p2a: Venusaur|Venusaur, F|91/100
+|move|p1a: Slowking|Future Sight|p2a: Venusaur
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1667528641
+|move|p2a: Venusaur|Sludge Bomb|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|-status|p1a: Slowking|psn
+|-damage|p2a: Venusaur|81/100|[from] item: Life Orb
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1667528644
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100|[from]move: Teleport
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Venusaur|75/100|[from] Hail
+|upkeep
+|turn|9
+|
+|t:|1667528649
+|switch|p2a: Chansey|Chansey, F|68/100
+|move|p1a: Vanilluxe|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|32/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Chansey|26/100|[from] Hail
+|-end|p2a: Chansey|move: Future Sight
+|-damage|p2a: Chansey|8/100
+|upkeep
+|turn|10
+|
+|t:|1667528657
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Vanilluxe|Blizzard|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1667528672
+|switch|p2a: Chansey|Chansey, F|8/100
+|move|p1a: Vanilluxe|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1667528685
+|switch|p2a: Venusaur|Venusaur, F|75/100
+|turn|12
+|
+|t:|1667528695
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Venusaur|atk|1
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1667528701
+|move|p2a: Venusaur|Sludge Bomb|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|-damage|p2a: Venusaur|65/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1667528706
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|14
+|inactive|DarkHorse344 has 120 seconds left.
+|
+|t:|1667528739
+|switch|p1a: Zarude|Zarude-Dada|51/100
+|move|p2a: Venusaur|Sludge Bomb|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|0 fnt
+|faint|p1a: Zarude
+|-damage|p2a: Venusaur|55/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Venusaur|49/100|[from] Hail
+|upkeep
+|
+|t:|1667528746
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|15
+|
+|t:|1667528754
+|switch|p2a: Skarmory|Skarmory, F|77/100
+|move|p1a: Excadrill|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|64/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Excadrill|94/100|[from] Hail
+|-damage|p2a: Skarmory|58/100|[from] Hail
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|-heal|p2a: Skarmory|64/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1667528760
+|switch|p1a: Azelf|Azelf|100/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Azelf|94/100|[from] Hail
+|-damage|p2a: Skarmory|95/100|[from] Hail
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1667528778
+|switch|p2a: Torkoal|Torkoal, F|49/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Azelf|Flamethrower|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|inactive|DarkHorse344 has 120 seconds left.
+|
+|t:|1667528807
+|switch|p2a: Zygarde|Zygarde-10%|100/100
+|-ability|p2a: Zygarde|Aura Break
+|move|p1a: Azelf|Psychic|p2a: Zygarde
+|-damage|p2a: Zygarde|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1667528811
+|move|p2a: Zygarde|Outrage|p1a: Azelf
+|-crit|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1667528814
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|20
+|
+|t:|1667528816
+|move|p2a: Zygarde|Outrage|p1a: Excadrill|[from]lockedmove
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|46/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Zygarde
+|-damage|p2a: Zygarde|1/100
+|-boost|p1a: Excadrill|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Excadrill|53/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1667528823
+|move|p1a: Excadrill|Iron Head|p2a: Zygarde
+|-crit|p2a: Zygarde
+|-damage|p2a: Zygarde|0 fnt
+|faint|p2a: Zygarde
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Excadrill|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667528847
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|turn|22
+|
+|t:|1667528850
+|move|p2a: Darmanitan|Flare Blitz|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-damage|p2a: Darmanitan|81/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1667528851
+|switch|p1a: Slowking|Slowking, F|80/100 psn
+|turn|23
+|
+|t:|1667528858
+|switch|p2a: Venusaur|Venusaur, F|49/100
+|move|p1a: Slowking|Scald|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|41/100
+|-status|p2a: Venusaur|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Slowking|68/100 psn|[from] psn
+|-damage|p2a: Venusaur|35/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1667528866
+|move|p2a: Venusaur|Giga Drain|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-heal|p2a: Venusaur|80/100 brn|[from] drain|[of] p1a: Slowking
+|faint|p1a: Slowking
+|-damage|p2a: Venusaur|70/100 brn|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p2a: Venusaur|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1667528868
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|25
+|
+|t:|1667528872
+|switch|p2a: Torkoal|Torkoal, F|20/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Vanilluxe|Blizzard|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1667528874
+|switch|p2a: Venusaur|Venusaur, F|64/100 brn
+|turn|26
+|
+|t:|1667528875
+|move|p2a: Venusaur|Weather Ball|p1a: Vanilluxe
+|-supereffective|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|faint|p1a: Vanilluxe
+|-damage|p2a: Venusaur|54/100 brn|[from] item: Life Orb
+|
+|win|DarkHorse344
+|raw|SDK04's rating: 1393 &rarr; <strong>1376</strong><br />(-17 for losing)
+|raw|DarkHorse344's rating: 1448 &rarr; <strong>1465</strong><br />(+17 for winning)
+|l|☆SDK04

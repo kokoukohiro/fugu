@@ -1,0 +1,490 @@
+|j|☆Pyroeh
+|j|☆teenage bream
+|t:|1623325668
+|gametype|singles
+|player|p1|Pyroeh|giovanni|1271
+|player|p2|teenage bream|266|1568
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Exeggutor-Alola, F|
+|poke|p1|Silvally-*|
+|poke|p1|Morpeko, F|
+|poke|p1|Mesprit|
+|poke|p1|Carracosta, M|
+|poke|p1|Absol, M|
+|poke|p2|Gigalith, M|
+|poke|p2|Eldegoss, M|
+|poke|p2|Accelgor, F|
+|poke|p2|Aromatisse, F|
+|poke|p2|Stunfisk-Galar, F|
+|poke|p2|Boltund, F|
+|teampreview
+|
+|t:|1623325699
+|start
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|switch|p2a: Accelgor|Accelgor, F|100/100
+|turn|1
+|
+|t:|1623325708
+|move|p2a: Accelgor|U-turn|p1a: Carracosta
+|-damage|p1a: Carracosta|86/100
+|
+|t:|1623325711
+|switch|p2a: Boltund|Boltund, F|100/100|[from]move: U-turn
+|move|p1a: Carracosta|Stone Edge|p2a: Boltund
+|-damage|p2a: Boltund|28/100
+|
+|-heal|p1a: Carracosta|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1623325730
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|move|p1a: Carracosta|Aqua Jet|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|91/100
+|
+|-heal|p1a: Carracosta|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1623325741
+|switch|p1a: Mesprit|Mesprit|100/100
+|move|p2a: Eldegoss|Sleep Powder|p1a: Mesprit|[miss]
+|-miss|p2a: Eldegoss|p1a: Mesprit
+|
+|upkeep
+|turn|4
+|
+|t:|1623325746
+|switch|p1a: Exeggutor|Exeggutor-Alola, F|100/100
+|-item|p2a: Eldegoss|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|move|p2a: Eldegoss|Pollen Puff|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|45/100
+|
+|upkeep
+|turn|5
+|
+|t:|1623325755
+|switch|p1a: Silvally|Silvally-Steel|100/100
+|move|p2a: Eldegoss|Pollen Puff|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|91/100
+|
+|upkeep
+|turn|6
+|
+|t:|1623325766
+|switch|p2a: Stunfisk|Stunfisk-Galar, F|100/100
+|move|p1a: Silvally|Parting Shot|p2a: Stunfisk
+|-unboost|p2a: Stunfisk|atk|1
+|-unboost|p2a: Stunfisk|spa|1
+|
+|t:|1623325772
+|switch|p1a: Exeggutor|Exeggutor-Alola, F|45/100|[from]move: Parting Shot
+|-item|p2a: Stunfisk|Leftovers|[from] ability: Frisk|[of] p1a: Exeggutor|[identify]
+|
+|upkeep
+|turn|7
+|
+|t:|1623325779
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|move|p1a: Exeggutor|Giga Drain|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|46/100
+|-heal|p1a: Exeggutor|71/100|[from] drain|[of] p2a: Gigalith
+|-damage|p1a: Exeggutor|61/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Exeggutor|55/100|[from] Sandstorm
+|-heal|p2a: Gigalith|52/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1623325803
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|switch|p1a: Carracosta|Carracosta, M|98/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|94/100|[from] Sandstorm
+|-heal|p1a: Carracosta|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1623325827
+|move|p2a: Eldegoss|Sleep Powder|p1a: Carracosta
+|-status|p1a: Carracosta|slp|[from] move: Sleep Powder
+|cant|p1a: Carracosta|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|88/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1623325836
+|switch|p2a: Stunfisk|Stunfisk-Galar, F|100/100
+|-curestatus|p1a: Carracosta|slp|[msg]
+|move|p1a: Carracosta|Stealth Rock|p2a: Stunfisk
+|-sidestart|p2: teenage bream|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1623325845
+|switch|p1a: Mesprit|Mesprit|100/100
+|move|p2a: Stunfisk|Snap Trap|p1a: Mesprit
+|-crit|p1a: Mesprit
+|-damage|p1a: Mesprit|85/100
+|-activate|p1a: Mesprit|move: Snap Trap|[of] p2a: Stunfisk
+|
+|-weather|none
+|-damage|p1a: Mesprit|73/100|[from] move: Snap Trap|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1623325854
+|move|p1a: Mesprit|Ice Beam|p2a: Stunfisk
+|-damage|p2a: Stunfisk|70/100
+|-status|p2a: Stunfisk|frz
+|-damage|p1a: Mesprit|63/100|[from] item: Life Orb
+|-curestatus|p2a: Stunfisk|frz|[msg]
+|move|p2a: Stunfisk|Yawn|p1a: Mesprit
+|-start|p1a: Mesprit|move: Yawn|[of] p2a: Stunfisk
+|
+|-heal|p2a: Stunfisk|76/100|[from] item: Leftovers
+|-damage|p1a: Mesprit|50/100|[from] move: Snap Trap|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1623325868
+|move|p1a: Mesprit|Ice Beam|p2a: Stunfisk
+|-damage|p2a: Stunfisk|45/100
+|-damage|p1a: Mesprit|40/100|[from] item: Life Orb
+|move|p2a: Stunfisk|Stone Edge|p1a: Mesprit
+|-damage|p1a: Mesprit|15/100
+|
+|-heal|p2a: Stunfisk|51/100|[from] item: Leftovers
+|-damage|p1a: Mesprit|3/100|[from] move: Snap Trap|[partiallytrapped]
+|-end|p1a: Mesprit|move: Yawn|[silent]
+|-status|p1a: Mesprit|slp
+|upkeep
+|turn|14
+|
+|t:|1623325879
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|cant|p1a: Mesprit|slp
+|
+|-end|p1a: Mesprit|Snap Trap|[partiallytrapped]|[silent]
+|upkeep
+|turn|15
+|
+|t:|1623325886
+|switch|p1a: Silvally|Silvally-Steel|91/100
+|move|p2a: Eldegoss|Rapid Spin|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|89/100
+|-boost|p2a: Eldegoss|spe|1
+|-sideend|p2: teenage bream|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Eldegoss
+|
+|upkeep
+|turn|16
+|
+|t:|1623325896
+|move|p2a: Eldegoss|Sleep Powder|p1a: Silvally
+|-message|Sleep Clause Mod activated.
+|move|p1a: Silvally|Multi-Attack|p2a: Eldegoss
+|-damage|p2a: Eldegoss|46/100
+|
+|upkeep
+|turn|17
+|
+|t:|1623325906
+|switch|p2a: Stunfisk|Stunfisk-Galar, F|51/100
+|move|p1a: Silvally|Multi-Attack|p2a: Stunfisk
+|-resisted|p2a: Stunfisk
+|-damage|p2a: Stunfisk|36/100
+|
+|-heal|p2a: Stunfisk|42/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1623325913
+|move|p1a: Silvally|Flamethrower|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|12/100
+|move|p2a: Stunfisk|Snap Trap|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|85/100
+|-activate|p1a: Silvally|move: Snap Trap|[of] p2a: Stunfisk
+|
+|-heal|p2a: Stunfisk|19/100|[from] item: Leftovers
+|-damage|p1a: Silvally|73/100|[from] move: Snap Trap|[partiallytrapped]
+|upkeep
+|turn|19
+|
+|t:|1623325925
+|move|p1a: Silvally|Flamethrower|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|faint|p2a: Stunfisk
+|
+|-end|p1a: Silvally|Snap Trap|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1623325928
+|switch|p2a: Boltund|Boltund, F|28/100
+|turn|20
+|
+|t:|1623325940
+|move|p2a: Boltund|Crunch|p1a: Silvally
+|-crit|p1a: Silvally
+|-damage|p1a: Silvally|12/100
+|move|p1a: Silvally|Multi-Attack|p2a: Boltund
+|-resisted|p2a: Boltund
+|-damage|p2a: Boltund|0 fnt
+|faint|p2a: Boltund
+|
+|upkeep
+|
+|t:|1623325944
+|switch|p2a: Accelgor|Accelgor, F|100/100
+|turn|21
+|
+|t:|1623325950
+|move|p2a: Accelgor|Knock Off|p1a: Silvally
+|-damage|p1a: Silvally|1/100
+|move|p1a: Silvally|Flamethrower|p2a: Accelgor
+|-supereffective|p2a: Accelgor
+|-damage|p2a: Accelgor|52/100
+|
+|upkeep
+|turn|22
+|
+|t:|1623325956
+|move|p2a: Accelgor|Knock Off|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|t:|1623325967
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|turn|23
+|
+|t:|1623325974
+|move|p2a: Accelgor|U-turn|p1a: Carracosta
+|-damage|p1a: Carracosta|87/100
+|
+|t:|1623325976
+|switch|p2a: Eldegoss|Eldegoss, M|80/100|[from]move: U-turn
+|move|p1a: Carracosta|Liquidation|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|59/100
+|
+|-heal|p1a: Carracosta|93/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1623325992
+|switch|p1a: Morpeko|Morpeko, F|100/100
+|move|p2a: Eldegoss|Leaf Storm|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|-unboost|p2a: Eldegoss|spa|2
+|faint|p1a: Morpeko
+|
+|upkeep
+|
+|t:|1623326000
+|switch|p1a: Absol|Absol, M|100/100
+|turn|25
+|
+|t:|1623326007
+|switch|p2a: Aromatisse|Aromatisse, F|100/100
+|move|p1a: Absol|Knock Off|p2a: Aromatisse
+|-resisted|p2a: Aromatisse
+|-damage|p2a: Aromatisse|82/100
+|-enditem|p2a: Aromatisse|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Absol
+|
+|upkeep
+|turn|26
+|j| TOT_mit_TH
+|
+|t:|1623326017
+|switch|p1a: Carracosta|Carracosta, M|93/100
+|move|p2a: Aromatisse|Moonblast|p1a: Carracosta
+|-damage|p1a: Carracosta|65/100
+|-unboost|p1a: Carracosta|spa|1
+|
+|-heal|p1a: Carracosta|71/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1623326027
+|move|p1a: Carracosta|Stone Edge|p2a: Aromatisse
+|-damage|p2a: Aromatisse|55/100
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p1a: Carracosta|77/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1623326033
+|move|p1a: Carracosta|Stealth Rock|p2a: Aromatisse
+|-sidestart|p2: teenage bream|move: Stealth Rock
+|move|p2a: Aromatisse|Moonblast|p1a: Carracosta
+|-damage|p1a: Carracosta|49/100
+|-unboost|p1a: Carracosta|spa|1
+|
+|-heal|p2a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Carracosta|55/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1623326045
+|move|p1a: Carracosta|Liquidation|p2a: Aromatisse
+|-damage|p2a: Aromatisse|79/100
+|move|p2a: Aromatisse|Moonblast|p1a: Carracosta
+|-damage|p1a: Carracosta|24/100
+|-unboost|p1a: Carracosta|spa|1
+|
+|-heal|p1a: Carracosta|30/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1623326053
+|move|p1a: Carracosta|Liquidation|p2a: Aromatisse
+|-damage|p2a: Aromatisse|54/100
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p1a: Carracosta|36/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1623326059
+|move|p1a: Carracosta|Liquidation|p2a: Aromatisse
+|-damage|p2a: Aromatisse|33/100
+|move|p2a: Aromatisse|Moonblast|p1a: Carracosta
+|-damage|p1a: Carracosta|8/100
+|
+|-heal|p2a: Aromatisse|83/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Carracosta|15/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1623326072
+|move|p1a: Carracosta|Stone Edge|p2a: Aromatisse|[miss]
+|-miss|p1a: Carracosta|p2a: Aromatisse
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p1a: Carracosta|21/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1623326077
+|move|p1a: Carracosta|Stone Edge|p2a: Aromatisse
+|-damage|p2a: Aromatisse|55/100
+|move|p2a: Aromatisse|Moonblast|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|-heal|p2a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|upkeep
+|
+|t:|1623326091
+|switch|p1a: Exeggutor|Exeggutor-Alola, F|55/100
+|turn|34
+|
+|t:|1623326098
+|switch|p2a: Accelgor|Accelgor, F|52/100
+|move|p1a: Exeggutor|Giga Drain|p2a: Accelgor
+|-resisted|p2a: Accelgor
+|-damage|p2a: Accelgor|14/100
+|-heal|p1a: Exeggutor|72/100|[from] drain|[of] p2a: Accelgor
+|-damage|p1a: Exeggutor|62/100|[from] item: Life Orb
+|
+|upkeep
+|turn|35
+|
+|t:|1623326110
+|move|p2a: Accelgor|U-turn|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|28/100
+|
+|t:|1623326112
+|switch|p2a: Eldegoss|Eldegoss, M|92/100|[from]move: U-turn
+|move|p1a: Exeggutor|Flamethrower|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|3/100
+|-damage|p1a: Exeggutor|19/100|[from] item: Life Orb
+|
+|upkeep
+|turn|36
+|
+|t:|1623326131
+|move|p2a: Eldegoss|Pollen Puff|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|upkeep
+|
+|t:|1623326137
+|switch|p1a: Absol|Absol, M|100/100
+|turn|37
+|
+|t:|1623326143
+|move|p1a: Absol|Play Rough|p2a: Eldegoss
+|-damage|p2a: Eldegoss|0 fnt
+|faint|p2a: Eldegoss
+|
+|upkeep
+|
+|t:|1623326145
+|switch|p2a: Aromatisse|Aromatisse, F|100/100
+|-damage|p2a: Aromatisse|88/100|[from] Stealth Rock
+|turn|38
+|
+|t:|1623326150
+|move|p1a: Absol|Play Rough|p2a: Aromatisse
+|-damage|p2a: Aromatisse|66/100
+|move|p2a: Aromatisse|Moonblast|p1a: Absol
+|-supereffective|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|
+|upkeep
+|
+|t:|1623326157
+|switch|p1a: Mesprit|Mesprit|3/100 slp
+|turn|39
+|
+|t:|1623326163
+|switch|p2a: Gigalith|Gigalith, M|52/100
+|-damage|p2a: Gigalith|40/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|cant|p1a: Mesprit|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mesprit|0 fnt|[from] Sandstorm
+|faint|p1a: Mesprit
+|
+|win|teenage bream
+|upkeep
+|raw|Pyroeh's rating: 1271 &rarr; <strong>1263</strong><br />(-8 for losing)
+|raw|teenage bream's rating: 1568 &rarr; <strong>1574</strong><br />(+6 for winning)
+|c|☆teenage bream|gg

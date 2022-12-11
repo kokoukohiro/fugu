@@ -1,0 +1,629 @@
+|j|☆A
+|j|☆Draco Meteor Herd
+|player|p1|A|clemont|1641
+|player|p2|Draco Meteor Herd|ethan|1497
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Jirachi|
+|poke|p1|Rillaboom, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Cloyster, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: cool laddy|Jirachi, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by A)
+|
+|move|p1a: cool laddy|Trick|p2a: Dragapult
+|-activate|p1a: cool laddy|move: Trick|[of] p2a: Dragapult
+|-item|p2a: Dragapult|Choice Scarf|[from] move: Trick
+|-item|p1a: cool laddy|Choice Specs|[from] move: Trick
+|move|p2a: Dragapult|Shadow Ball|p1a: cool laddy
+|-supereffective|p1a: cool laddy
+|-damage|p1a: cool laddy|30/100
+|-unboost|p1a: cool laddy|spd|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: lamer than me|Toxapex, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: lamer than me
+|-damage|p1a: lamer than me|68/100
+|
+|-heal|p1a: lamer than me|74/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: lamer than me|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|58/100
+|
+|-heal|p1a: lamer than me|80/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: lamer than me
+|-sidestart|p1: A|move: Stealth Rock
+|move|p1a: lamer than me|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|15/100
+|
+|-heal|p1a: lamer than me|86/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: mr gamer man|Rillaboom, M, shiny|100/100
+|-damage|p1a: mr gamer man|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: mr gamer man
+|move|p2a: Excadrill|Earthquake|p1a: mr gamer man
+|-resisted|p1a: mr gamer man
+|-damage|p1a: mr gamer man|75/100
+|
+|-heal|p2a: Excadrill|21/100|[from] Grassy Terrain
+|-heal|p1a: mr gamer man|81/100|[from] item: Leftovers
+|-heal|p1a: mr gamer man|88/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|move|p2a: Excadrill|Toxic|p1a: mr gamer man
+|-status|p1a: mr gamer man|tox
+|move|p1a: mr gamer man|Knock Off|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-enditem|p2a: Excadrill|Focus Sash|[from] move: Knock Off|[of] p1a: mr gamer man
+|faint|p2a: Excadrill
+|
+|-heal|p1a: mr gamer man|94/100 tox|[from] item: Leftovers
+|-heal|p1a: mr gamer man|99/100 tox|[from] Grassy Terrain
+|-damage|p1a: mr gamer man|94/100 tox|[from] psn
+|upkeep
+|inactive|Draco Meteor Herd has 120 seconds left.
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|7
+|
+|switch|p1a: gamer girl|Arcanine, F, shiny|100/100
+|-ability|p1a: gamer girl|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|Pyro Ball|p1a: gamer girl
+|-resisted|p1a: gamer girl
+|-damage|p1a: gamer girl|81/100
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Cinderace|97/100|[from] Grassy Terrain
+|-heal|p1a: gamer girl|87/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: gamer girl|Will-O-Wisp|p2a: Dragapult
+|-status|p2a: Dragapult|brn
+|
+|-heal|p1a: gamer girl|93/100|[from] Grassy Terrain
+|-damage|p2a: Dragapult|95/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: lamer than me|Toxapex, F|100/100
+|-damage|p1a: lamer than me|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Shadow Ball|p1a: lamer than me
+|-damage|p1a: lamer than me|57/100
+|-unboost|p1a: lamer than me|spd|1
+|
+|-heal|p2a: Dragapult|100/100 brn|[from] Grassy Terrain
+|-heal|p1a: lamer than me|63/100|[from] item: Black Sludge
+|-heal|p1a: lamer than me|68/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Dragapult|95/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: lamer than me
+|-damage|p1a: lamer than me|20/100
+|-unboost|p1a: lamer than me|spd|1
+|move|p1a: lamer than me|Recover|p1a: lamer than me
+|-heal|p1a: lamer than me|70/100
+|
+|-heal|p1a: lamer than me|76/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|89/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: lamer than me|Baneful Bunker|p1a: lamer than me
+|-singleturn|p1a: lamer than me|move: Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: lamer than me
+|-activate|p1a: lamer than me|move: Protect
+|
+|-heal|p1a: lamer than me|82/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|83/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: gamer girl|Arcanine, F, shiny|93/100
+|-ability|p1a: gamer girl|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|move|p2a: Dragapult|Shadow Ball|p1a: gamer girl
+|-damage|p1a: gamer girl|55/100
+|
+|-damage|p2a: Dragapult|77/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: gamer girl
+|-damage|p1a: gamer girl|14/100
+|move|p1a: gamer girl|Morning Sun|p1a: gamer girl
+|-heal|p1a: gamer girl|64/100
+|
+|-damage|p2a: Dragapult|71/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: lamer than me|Toxapex, F|100/100
+|-damage|p1a: lamer than me|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Shadow Ball|p1a: lamer than me
+|-damage|p1a: lamer than me|57/100
+|-unboost|p1a: lamer than me|spd|1
+|
+|-heal|p1a: lamer than me|63/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|65/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: lamer than me|Baneful Bunker|p1a: lamer than me
+|-singleturn|p1a: lamer than me|move: Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: lamer than me
+|-activate|p1a: lamer than me|move: Protect
+|
+|-heal|p1a: lamer than me|68/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|59/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: lamer than me
+|-damage|p1a: lamer than me|27/100
+|-unboost|p1a: lamer than me|spd|1
+|move|p1a: lamer than me|Recover|p1a: lamer than me
+|-heal|p1a: lamer than me|77/100
+|
+|-heal|p1a: lamer than me|83/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|53/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: lamer than me|Baneful Bunker|p1a: lamer than me
+|-singleturn|p1a: lamer than me|move: Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: lamer than me
+|-activate|p1a: lamer than me|move: Protect
+|
+|-heal|p1a: lamer than me|89/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|47/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: lamer than me
+|-damage|p1a: lamer than me|26/100
+|move|p1a: lamer than me|Recover|p1a: lamer than me
+|-heal|p1a: lamer than me|76/100
+|
+|-heal|p1a: lamer than me|82/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|41/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Cinderace|Cinderace, F|97/100
+|move|p1a: lamer than me|Baneful Bunker||[still]
+|-fail|p1a: lamer than me
+|
+|-heal|p1a: lamer than me|88/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Cinderace|Bulk Up|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-boost|p2a: Cinderace|atk|1
+|-boost|p2a: Cinderace|def|1
+|move|p1a: lamer than me|Scald|p2a: Cinderace
+|-damage|p2a: Cinderace|71/100
+|-status|p2a: Cinderace|brn
+|
+|-heal|p1a: lamer than me|94/100|[from] item: Black Sludge
+|-damage|p2a: Cinderace|65/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p1a: gamer girl|Arcanine, F, shiny|64/100
+|-ability|p1a: gamer girl|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|Zen Headbutt|p1a: gamer girl
+|-start|p2a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-damage|p1a: gamer girl|46/100
+|-damage|p2a: Cinderace|55/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Cinderace|49/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Dragapult|Dragapult, M|41/100 brn
+|move|p1a: gamer girl|Morning Sun|p1a: gamer girl
+|-heal|p1a: gamer girl|95/100
+|
+|-damage|p2a: Dragapult|35/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p1a: lamer than me|Toxapex, F|100/100
+|-damage|p1a: lamer than me|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Draco Meteor|p1a: lamer than me
+|-damage|p1a: lamer than me|35/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-heal|p1a: lamer than me|41/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|29/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: lamer than me|Recover|p1a: lamer than me
+|-heal|p1a: lamer than me|92/100
+|
+|-heal|p1a: lamer than me|98/100|[from] item: Black Sludge
+|-heal|p1a: lamer than me|100/100|[from] Grassy Terrain
+|upkeep
+|turn|25
+|
+|move|p1a: lamer than me|Baneful Bunker|p1a: lamer than me
+|-singleturn|p1a: lamer than me|move: Protect
+|move|p2a: Rillaboom|Wood Hammer|p1a: lamer than me
+|-activate|p1a: lamer than me|move: Protect
+|-status|p2a: Rillaboom|psn
+|
+|-damage|p2a: Rillaboom|88/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p1a: gamer girl|Arcanine, F, shiny|95/100
+|-ability|p1a: gamer girl|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|move|p2a: Rillaboom|Wood Hammer|p1a: gamer girl
+|-resisted|p1a: gamer girl
+|-damage|p1a: gamer girl|76/100
+|-damage|p2a: Rillaboom|81/100 psn|[from] Recoil
+|
+|-heal|p2a: Rillaboom|87/100 psn|[from] Grassy Terrain
+|-heal|p1a: gamer girl|83/100|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|75/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|switch|p2a: Dragapult|Dragapult, M|29/100 brn
+|move|p1a: gamer girl|Teleport|p1a: gamer girl
+|
+|switch|p1a: HIM|Aegislash, M, shiny|100/100|[from]move: Teleport
+|-damage|p1a: HIM|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Dragapult|35/100 brn|[from] Grassy Terrain
+|-heal|p1a: HIM|100/100|[from] Grassy Terrain
+|-damage|p2a: Dragapult|29/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|-formechange|p1a: HIM|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: HIM|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|29
+|
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|move|p1a: HIM|Close Combat|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-unboost|p1a: HIM|def|1
+|-unboost|p1a: HIM|spd|1
+|faint|p2a: Cloyster
+|
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, M|75/100 psn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|30
+|
+|switch|p1a: cool laddy|Jirachi, shiny|30/100
+|-damage|p1a: cool laddy|24/100|[from] Stealth Rock
+|move|p2a: Rillaboom|U-turn|p1a: cool laddy
+|-damage|p1a: cool laddy|1/100
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100|[from]move: U-turn
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|
+|-heal|p1a: cool laddy|7/100|[from] Grassy Terrain
+|upkeep
+|turn|31
+|
+|switch|p1a: gamer girl|Arcanine, F, shiny|83/100
+|-ability|p1a: gamer girl|Intimidate|boost
+|-unboost|p2a: Hawlucha|atk|1
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|-heal|p1a: gamer girl|89/100|[from] Grassy Terrain
+|upkeep
+|turn|32
+|
+|switch|p1a: cool laddy|Jirachi, shiny|7/100
+|-damage|p1a: cool laddy|1/100|[from] Stealth Rock
+|move|p2a: Hawlucha|Acrobatics|p1a: cool laddy
+|-resisted|p1a: cool laddy
+|-damage|p1a: cool laddy|0 fnt
+|faint|p1a: cool laddy
+|
+|upkeep
+|
+|switch|p1a: gamer girl|Arcanine, F, shiny|89/100
+|-ability|p1a: gamer girl|Intimidate|boost
+|-unboost|p2a: Hawlucha|atk|1
+|turn|33
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: gamer girl|Flamethrower|p2a: Hawlucha
+|-crit|p2a: Hawlucha
+|-damage|p2a: Hawlucha|33/100
+|
+|-heal|p1a: gamer girl|95/100|[from] Grassy Terrain
+|upkeep
+|turn|34
+|
+|switch|p1a: HIM|Aegislash, M, shiny|100/100
+|-damage|p1a: HIM|94/100|[from] Stealth Rock
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|83/100
+|-singleturn|p2a: Hawlucha|move: Roost
+|
+|-heal|p2a: Hawlucha|89/100|[from] Grassy Terrain
+|-heal|p1a: HIM|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|35
+|
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|100/100
+|-singleturn|p2a: Hawlucha|move: Roost
+|-formechange|p1a: HIM|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: HIM|Shadow Claw|p2a: Hawlucha
+|-damage|p2a: Hawlucha|56/100
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|100/100
+|-singleturn|p2a: Hawlucha|move: Roost
+|move|p1a: HIM|Shadow Claw|p2a: Hawlucha
+|-damage|p2a: Hawlucha|62/100
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: HIM
+|-resisted|p1a: HIM
+|-damage|p1a: HIM|0 fnt
+|faint|p1a: HIM
+|
+|upkeep
+|
+|switch|p1a: gamer girl|Arcanine, F, shiny|95/100
+|-ability|p1a: gamer girl|Intimidate|boost
+|-unboost|p2a: Hawlucha|atk|1
+|turn|38
+|
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|100/100
+|-singleturn|p2a: Hawlucha|move: Roost
+|move|p1a: gamer girl|Will-O-Wisp|p2a: Hawlucha
+|-status|p2a: Hawlucha|brn
+|
+|-damage|p2a: Hawlucha|94/100 brn|[from] brn
+|upkeep
+|turn|39
+|l|☆A
+|inactive|A disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆A
+|inactive|A reconnected and has 120 seconds left.
+|player|p1|A|clemont
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: gamer girl|Will-O-Wisp|p2a: Hawlucha
+|-fail|p2a: Hawlucha|brn
+|
+|-damage|p2a: Hawlucha|88/100 brn|[from] brn
+|upkeep
+|turn|40
+|inactive|A has 120 seconds left.
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: gamer girl|Flamethrower|p2a: Hawlucha
+|-damage|p2a: Hawlucha|45/100 brn
+|
+|-damage|p2a: Hawlucha|39/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|switch|p1a: mr gamer man|Rillaboom, M, shiny|94/100 tox
+|-damage|p1a: mr gamer man|81/100 tox|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: mr gamer man
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|89/100 brn
+|-singleturn|p2a: Hawlucha|move: Roost
+|
+|-heal|p2a: Hawlucha|95/100 brn|[from] Grassy Terrain
+|-heal|p1a: mr gamer man|88/100 tox|[from] item: Leftovers
+|-heal|p1a: mr gamer man|94/100 tox|[from] Grassy Terrain
+|-damage|p2a: Hawlucha|89/100 brn|[from] brn
+|-damage|p1a: mr gamer man|88/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: mr gamer man
+|-supereffective|p1a: mr gamer man
+|-damage|p1a: mr gamer man|0 fnt
+|faint|p1a: mr gamer man
+|
+|-damage|p2a: Hawlucha|83/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: gamer girl|Arcanine, F, shiny|95/100
+|-ability|p1a: gamer girl|Intimidate|boost
+|-unboost|p2a: Hawlucha|atk|1
+|turn|43
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: gamer girl|Flamethrower|p2a: Hawlucha
+|-damage|p2a: Hawlucha|39/100 brn
+|
+|-heal|p1a: gamer girl|100/100|[from] Grassy Terrain
+|-damage|p2a: Hawlucha|33/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|83/100 brn
+|-singleturn|p2a: Hawlucha|move: Roost
+|move|p1a: gamer girl|Flamethrower|p2a: Hawlucha
+|-damage|p2a: Hawlucha|41/100 brn
+|
+|-heal|p2a: Hawlucha|47/100 brn|[from] Grassy Terrain
+|-damage|p2a: Hawlucha|41/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|91/100 brn
+|-singleturn|p2a: Hawlucha|move: Roost
+|move|p1a: gamer girl|Flamethrower|p2a: Hawlucha
+|-damage|p2a: Hawlucha|44/100 brn
+|
+|-heal|p2a: Hawlucha|50/100 brn|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Hawlucha|44/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|94/100 brn
+|-singleturn|p2a: Hawlucha|move: Roost
+|move|p1a: gamer girl|Flamethrower|p2a: Hawlucha
+|-damage|p2a: Hawlucha|46/100 brn
+|
+|-damage|p2a: Hawlucha|40/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|90/100 brn
+|-singleturn|p2a: Hawlucha|move: Roost
+|move|p1a: gamer girl|Flamethrower|p2a: Hawlucha
+|-damage|p2a: Hawlucha|41/100 brn
+|
+|-damage|p2a: Hawlucha|35/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|85/100 brn
+|-singleturn|p2a: Hawlucha|move: Roost
+|move|p1a: gamer girl|Flamethrower|p2a: Hawlucha
+|-damage|p2a: Hawlucha|37/100 brn
+|
+|-damage|p2a: Hawlucha|31/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: gamer girl
+|-damage|p1a: gamer girl|23/100
+|move|p1a: gamer girl|Flamethrower|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|49/100 brn
+|turn|50
+|
+|switch|p1a: lamer than me|Toxapex, F|100/100
+|-damage|p1a: lamer than me|88/100|[from] Stealth Rock
+|move|p2a: Cinderace|Zen Headbutt|p1a: lamer than me
+|-start|p2a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-supereffective|p1a: lamer than me
+|-damage|p1a: lamer than me|57/100
+|-damage|p2a: Cinderace|39/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: lamer than me|63/100|[from] item: Black Sludge
+|-damage|p2a: Cinderace|33/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|switch|p2a: Rillaboom|Rillaboom, M|75/100 psn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: lamer than me|Recover|p1a: lamer than me
+|-heal|p1a: lamer than me|100/100
+|
+|-heal|p2a: Rillaboom|81/100 psn|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|69/100 psn|[from] psn
+|upkeep
+|turn|52
+|
+|move|p1a: lamer than me|Baneful Bunker|p1a: lamer than me
+|-singleturn|p1a: lamer than me|move: Protect
+|move|p2a: Rillaboom|Wood Hammer|p1a: lamer than me
+|-activate|p1a: lamer than me|move: Protect
+|
+|-heal|p2a: Rillaboom|75/100 psn|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|63/100 psn|[from] psn
+|upkeep
+|turn|53
+|-message|Draco Meteor Herd forfeited.
+|
+|win|A
+|l|☆Draco Meteor Herd
+|raw|A's rating: 1641 &rarr; <strong>1653</strong><br />(+12 for winning)
+|raw|Draco Meteor Herd's rating: 1497 &rarr; <strong>1484</strong><br />(-13 for losing)

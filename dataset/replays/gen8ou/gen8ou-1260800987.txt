@@ -1,0 +1,233 @@
+|j|☆lando expando
+|j|☆auag
+|t:|1610468572
+|player|p1|lando expando|lucas|1705
+|player|p2|auag|101|1658
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Lucario, M|
+|poke|p1|Noivern, M|
+|poke|p1|Sirfetch’d, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Mantine, F|
+|poke|p1|Darmanitan, F|
+|poke|p2|Nidoking, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Gastrodon, M|
+|poke|p2|Mandibuzz, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by auag)
+|
+|t:|1610468589
+|start
+|switch|p1a: Sirfetch’d|Sirfetch’d, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1610468599
+|switch|p1a: Mantine|Mantine, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Mantine
+|-damage|p1a: Mantine|74/100
+|
+|upkeep
+|turn|2
+|
+|t:|1610468606
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Sirfetch’d|Sirfetch’d, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sirfetch’d|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1610468617
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Sirfetch’d|Close Combat|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|37/100
+|-unboost|p1a: Sirfetch’d|def|1
+|-unboost|p1a: Sirfetch’d|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sirfetch’d|88/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1610468627
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Sirfetch’d|Close Combat|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Sirfetch’d|def|1
+|-unboost|p1a: Sirfetch’d|spd|1
+|faint|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sirfetch’d|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1610468648
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|turn|5
+|
+|t:|1610468652
+|switch|p1a: Lucario|Lucario, M|100/100
+|move|p2a: Nidoking|Sludge Wave|p1a: Lucario
+|-immune|p1a: Lucario
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1610468661
+|move|p1a: Lucario|Psychic|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|-damage|p1a: Lucario|91/100|[from] item: Life Orb
+|faint|p2a: Nidoking
+|
+|-weather|none
+|upkeep
+|
+|t:|1610468673
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|turn|7
+|
+|t:|1610468683
+|switch|p1a: Noivern|Noivern, M|100/100
+|move|p2a: Gastrodon|Ice Beam|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|upkeep
+|
+|t:|1610468690
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|8
+|
+|t:|1610468695
+|move|p1a: Weezing|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|move|p2a: Gastrodon|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|80/100
+|
+|-heal|p1a: Weezing|86/100|[from] item: Black Sludge
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1610468706
+|move|p1a: Weezing|Strange Steam|p2a: Gastrodon|[miss]
+|-miss|p1a: Weezing|p2a: Gastrodon
+|move|p2a: Gastrodon|Ice Beam|p1a: Weezing
+|-damage|p1a: Weezing|59/100
+|
+|-heal|p1a: Weezing|65/100|[from] item: Black Sludge
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1610468716
+|move|p1a: Weezing|Pain Split|p2a: Gastrodon
+|-sethp|p2a: Gastrodon|72/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|92/100|[from] move: Pain Split
+|move|p2a: Gastrodon|Ice Beam|p1a: Weezing
+|-damage|p1a: Weezing|65/100
+|
+|-heal|p1a: Weezing|71/100|[from] item: Black Sludge
+|-heal|p2a: Gastrodon|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|72/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1610468728
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Darmanitan|Darmanitan, F|100/100
+|move|p2a: Gastrodon|Ice Beam|p1a: Darmanitan
+|-resisted|p1a: Darmanitan
+|-damage|p1a: Darmanitan|86/100
+|
+|-heal|p2a: Gastrodon|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|72/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1610468740
+|move|p1a: Darmanitan|Trick|p2a: Gastrodon
+|-activate|p1a: Darmanitan|move: Trick|[of] p2a: Gastrodon
+|-item|p2a: Gastrodon|Choice Band|[from] move: Trick
+|-item|p1a: Darmanitan|Leftovers|[from] move: Trick
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-heal|p1a: Darmanitan|92/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1610468750
+|switch|p2a: Mandibuzz|Mandibuzz, F|37/100
+|move|p1a: Darmanitan|Flare Blitz|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-damage|p1a: Darmanitan|77/100|[from] Recoil
+|faint|p2a: Mandibuzz
+|
+|-heal|p1a: Darmanitan|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1610468760
+|switch|p2a: Gastrodon|Gastrodon, M|94/100 brn
+|turn|14
+|
+|t:|1610468767
+|move|p1a: Darmanitan|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|66/100 brn
+|
+|t:|1610468770
+|switch|p1a: Mantine|Mantine, F|74/100|[from]move: U-turn
+|move|p2a: Gastrodon|Ice Beam|p1a: Mantine
+|-damage|p1a: Mantine|64/100
+|
+|-damage|p2a: Gastrodon|60/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1610468779
+|switch|p1a: Sirfetch’d|Sirfetch’d, M|82/100
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-heal|p1a: Sirfetch’d|88/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1610468789
+|move|p1a: Sirfetch’d|First Impression|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Sirfetch’d|94/100|[from] Grassy Terrain
+|upkeep
+|-message|auag forfeited.
+|
+|win|lando expando
+|l|☆auag

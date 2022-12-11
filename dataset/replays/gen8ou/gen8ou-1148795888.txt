@@ -1,0 +1,202 @@
+|j|☆Kolgrade
+|j|☆TheLindomar
+|player|p1|Kolgrade|cynthia-gen4|1714
+|player|p2|TheLindomar|red|1725
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Clefable, F|
+|poke|p1|Toxicroak, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Toxapex, F|
+|poke|p2|Golurk|
+|poke|p2|Dragapult, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Amoonguss, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Magearna|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheLindomar)
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: Golurk
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Golurk
+|-crit|p2a: Golurk
+|-damage|p2a: Golurk|65/100
+|j| Coronavirus EUW
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100|[from]move: U-turn
+|move|p2a: Golurk|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Kolgrade|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Golurk
+|-resisted|p2a: Golurk
+|-damage|p2a: Golurk|58/100
+|
+|switch|p1a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|move|p2a: Golurk|Trick|p1a: Clefable
+|-activate|p2a: Golurk|move: Trick|[of] p1a: Clefable
+|-item|p1a: Clefable|Assault Vest|[from] move: Trick
+|-item|p2a: Golurk|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Golurk|Poltergeist|p1a: Clefable
+|-activate|p1a: Clefable|move: Poltergeist|Assault Vest
+|-damage|p1a: Clefable|42/100
+|move|p1a: Clefable|Knock Off|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|22/100
+|-enditem|p2a: Golurk|Leftovers|[from] move: Knock Off|[of] p1a: Clefable
+|
+|upkeep
+|turn|4
+|j| Galbart Glover
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Golurk|Poltergeist|p1a: Mandibuzz
+|-activate|p1a: Mandibuzz|move: Poltergeist|Heavy-Duty Boots
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|82/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Mandibuzz|Defog|p2a: Golurk
+|-unboost|p2a: Golurk|evasion|1
+|-sideend|p1: Kolgrade|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Golurk|Trick|p1a: Mandibuzz
+|-activate|p2a: Golurk|move: Trick|[of] p1a: Mandibuzz
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[silent]|[from] move: Trick
+|-item|p2a: Golurk|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Amoonguss
+|-damage|p2a: Amoonguss|86/100
+|-damage|p1a: Mandibuzz|66/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|move|p2a: Amoonguss|Spore|p1a: Toxicroak
+|-status|p1a: Toxicroak|slp|[from] move: Spore
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Golurk|Golurk|22/100
+|cant|p1a: Toxicroak|slp
+|
+|upkeep
+|turn|9
+|
+|-curestatus|p1a: Toxicroak|slp|[msg]
+|move|p1a: Toxicroak|Earthquake|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|10
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|66/100
+|move|p2a: Cinderace|Bulk Up|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-boost|p2a: Cinderace|atk|1
+|-boost|p2a: Cinderace|def|1
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Cinderace|Bulk Up|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|1
+|-boost|p2a: Cinderace|def|1
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Cinderace|Bulk Up|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|1
+|-boost|p2a: Cinderace|def|1
+|move|p1a: Mandibuzz|Foul Play|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|66/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Cinderace|Bulk Up|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|1
+|-boost|p2a: Cinderace|def|1
+|move|p1a: Mandibuzz|Foul Play|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|28/100
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Mandibuzz
+|-start|p2a: Cinderace|typechange|Fire|[from] ability: Libero
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|15
+|
+|move|p2a: Cinderace|Bulk Up|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-boost|p2a: Cinderace|atk|1
+|-boost|p2a: Cinderace|def|1
+|move|p1a: Cinderace|U-turn|p2a: Cinderace
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|21/100
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Cinderace|Zen Headbutt|p1a: Toxapex
+|-start|p2a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|-message|Kolgrade forfeited.
+|
+|win|TheLindomar
+|l|☆Kolgrade

@@ -1,0 +1,162 @@
+|j|☆UULT1 Misa
+|j|☆dead reckoning
+|player|p1|UULT1 Misa|lass-gen4dp|1588
+|player|p2|dead reckoning|lucas|1562
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Xatu, F|
+|poke|p1|Duraludon, M|
+|poke|p1|Incineroar, F|
+|poke|p1|Necrozma|
+|poke|p1|Haxorus, M|
+|poke|p1|Polteageist|
+|poke|p2|Salazzle, F|
+|poke|p2|Flygon, F|
+|poke|p2|Pangoro, F|
+|poke|p2|Sylveon, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Copperajah, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| pokemonisfull
+|
+|start
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|1
+|j| fuma b
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Duraludon
+|-damage|p1a: Duraludon|14/100
+|move|p1a: Duraludon|Dragon Pulse|p2a: Salazzle
+|-damage|p2a: Salazzle|8/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Salazzle|Flamethrower|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|66/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Salazzle|Sludge Wave|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|upkeep
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|turn|4
+|
+|move|p2a: Salazzle|Sludge Wave|p1a: Xatu
+|-damage|p1a: Xatu|40/100
+|move|p1a: Xatu|Light Screen|p1a: Xatu
+|-sidestart|p1: UULT1 Misa|move: Light Screen
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Pangoro|Pangoro, F|100/100
+|move|p1a: Xatu|Reflect|p1a: Xatu
+|-sidestart|p1: UULT1 Misa|Reflect
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Xatu|Thunder Wave|p2a: Pangoro
+|-status|p2a: Pangoro|par
+|move|p2a: Pangoro|Brick Break|p1a: Xatu
+|-sideend|p1: UULT1 Misa|Reflect
+|-sideend|p1: UULT1 Misa|move: Light Screen
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|19/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Xatu|Reflect|p1a: Xatu
+|-sidestart|p1: UULT1 Misa|Reflect
+|cant|p2a: Pangoro|par
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Necrozma|Necrozma|100/100
+|move|p2a: Pangoro|Brick Break|p1a: Necrozma
+|-sideend|p1: UULT1 Misa|Reflect
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|68/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|
+|upkeep
+|turn|10
+|j| uult1 SOMALIA
+|
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|move|p2a: Rotom|Will-O-Wisp|p1a: Necrozma
+|-status|p1a: Necrozma|brn
+|-enditem|p1a: Necrozma|Lum Berry|[eat]
+|-curestatus|p1a: Necrozma|brn|[msg]
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Rotom
+|-damage|p2a: Rotom|24/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Necrozma|[miss]
+|-miss|p2a: Rotom|p1a: Necrozma
+|
+|-heal|p2a: Rotom|30/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|l| fuma b
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by UULT1 Misa)
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Pangoro|Pangoro, F|100/100 par
+|turn|13
+|
+|move|p1a: Necrozma|Earthquake|p2a: Pangoro
+|-damage|p2a: Pangoro|14/100 par
+|cant|p2a: Pangoro|par
+|
+|upkeep
+|turn|14
+|c|☆dead reckoning|this game's great
+|-message|dead reckoning forfeited.
+|
+|win|UULT1 Misa
+|raw|UULT1 Misa's rating: 1588 &rarr; <strong>1606</strong><br />(+18 for winning)
+|raw|dead reckoning's rating: 1562 &rarr; <strong>1544</strong><br />(-18 for losing)
+|c|☆UULT1 Misa|Yep my bad
+|l|☆dead reckoning
+|l|☆UULT1 Misa

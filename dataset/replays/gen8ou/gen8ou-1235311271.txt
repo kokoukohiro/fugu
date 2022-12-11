@@ -1,0 +1,1242 @@
+|j|☆X-Wing Fighter
+|j|☆WhyWouldUSashThat!
+|t:|1606868342
+|player|p1|X-Wing Fighter|hilbert|1754
+|player|p2|WhyWouldUSashThat!|schoolboy-gen2|1757
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Magearna|
+|poke|p1|Slowking, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Garchomp, M|
+|poke|p1|Zapdos|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Slowking, F|
+|poke|p2|Magearna|
+|poke|p2|Toxapex, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Landorus-Therian, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1606868358
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Slowking|Slowking, F|100/100
+|turn|1
+|
+|t:|1606868367
+|move|p1a: Magearna|Volt Switch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|67/100
+|
+|t:|1606868370
+|switch|p1a: Slowking|Slowking, M|100/100|[from]move: Volt Switch
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1606868375
+|switch|p2a: Magearna|Magearna|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|2
+|
+|t:|1606868381
+|move|p2a: Magearna|Volt Switch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|41/100
+|
+|t:|1606868384
+|switch|p2a: Slowking|Slowking, F|99/100|[from]move: Volt Switch
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|j| BrickBoom
+|
+|t:|1606868390
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|3
+|
+|t:|1606868394
+|move|p1a: Garchomp|Toxic|p2a: Slowking
+|-status|p2a: Slowking|tox
+|move|p2a: Slowking|Scald|p1a: Garchomp
+|-damage|p1a: Garchomp|77/100
+|-status|p1a: Garchomp|brn
+|
+|-damage|p1a: Garchomp|70/100 brn|[from] brn
+|-damage|p2a: Slowking|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1606868401
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Stealth Rock|p2a: Landorus
+|-sidestart|p2: WhyWouldUSashThat!|move: Stealth Rock
+|
+|-damage|p1a: Garchomp|64/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1606868404
+|move|p2a: Landorus|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: X-Wing Fighter|move: Stealth Rock
+|move|p1a: Garchomp|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|
+|-damage|p2a: Landorus|94/100 tox|[from] psn
+|-damage|p1a: Garchomp|58/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1606868418
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1606868426
+|switch|p2a: Landorus|Landorus-Therian, M|94/100 tox
+|-damage|p2a: Landorus|82/100 tox|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Volt Switch|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-damage|p2a: Landorus|76/100 tox|[from] psn
+|upkeep
+|turn|8
+|j| Resurgasm
+|
+|t:|1606868430
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|move|p2a: Landorus|Stone Edge|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|76/100
+|
+|-damage|p2a: Landorus|63/100 tox|[from] psn
+|upkeep
+|turn|9
+|j| 75 sb
+|
+|t:|1606868438
+|switch|p2a: Slowking|Slowking, F|100/100 tox
+|move|p1a: Magearna|Volt Switch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|68/100 tox
+|
+|t:|1606868441
+|switch|p1a: Urshifu|Urshifu, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|
+|-damage|p2a: Slowking|62/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1606868449
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Urshifu|Wicked Blow|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|34/100
+|-damage|p1a: Urshifu|78/100|[from] item: Rocky Helmet|[of] p2a: Toxapex
+|
+|upkeep
+|turn|11
+|l| 75 sb
+|
+|t:|1606868453
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Urshifu|Wicked Blow|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|71/100
+|
+|upkeep
+|turn|12
+|
+|t:|1606868460
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Mandibuzz|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|96/100
+|
+|t:|1606868484
+|switch|p2a: Magearna|Magearna|100/100|[from]move: U-turn
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1606868493
+|switch|p1a: Slowking|Slowking, M|74/100
+|move|p2a: Magearna|Volt Switch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|22/100
+|
+|t:|1606868508
+|switch|p2a: Urshifu|Urshifu, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1606868515
+|switch|p1a: Urshifu|Urshifu, M|78/100
+|-damage|p1a: Urshifu|72/100|[from] Stealth Rock
+|move|p2a: Urshifu|U-turn|p1a: Urshifu
+|-damage|p1a: Urshifu|36/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by X-Wing Fighter)
+|inactive|WhyWouldUSashThat! has 120 seconds left.
+|
+|t:|1606868603
+|switch|p2a: Mandibuzz|Mandibuzz, F|71/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+|
+|t:|1606868624
+|switch|p1a: Zapdos|Zapdos|96/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|16
+|
+|t:|1606868635
+|switch|p2a: Slowking|Slowking, F|95/100 tox
+|move|p1a: Zapdos|Volt Switch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|60/100 tox
+|
+|t:|1606868641
+|switch|p1a: Slowking|Slowking, M|55/100|[from]move: Volt Switch
+|
+|-damage|p2a: Slowking|54/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1606868644
+|switch|p2a: Toxapex|Toxapex, M|67/100
+|-damage|p2a: Toxapex|55/100|[from] Stealth Rock
+|move|p1a: Slowking|Future Sight|p2a: Toxapex
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|18
+|
+|t:|1606868651
+|move|p2a: Toxapex|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|29/100
+|-enditem|p1a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Toxapex
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1606868659
+|switch|p1a: Zapdos|Zapdos|96/100|[from]move: Teleport
+|
+|upkeep
+|turn|19
+|
+|t:|1606868666
+|switch|p2a: Slowking|Slowking, F|87/100 tox
+|move|p1a: Zapdos|Volt Switch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|55/100 tox
+|
+|t:|1606868676
+|switch|p1a: Slowking|Slowking, M|62/100|[from]move: Volt Switch
+|-damage|p1a: Slowking|50/100|[from] Stealth Rock
+|
+|-end|p2a: Slowking|move: Future Sight
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|43/100 tox
+|-damage|p2a: Slowking|37/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1606868687
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1606868694
+|switch|p1a: Urshifu|Urshifu, M|36/100|[from]move: Teleport
+|-damage|p1a: Urshifu|30/100|[from] Stealth Rock
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1606868706
+|switch|p2a: Toxapex|Toxapex, M|88/100|[from]move: Teleport
+|-damage|p2a: Toxapex|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|t:|1606868717
+|switch|p1a: Slowking|Slowking, M|83/100
+|-damage|p1a: Slowking|71/100|[from] Stealth Rock
+|move|p2a: Toxapex|Toxic Spikes|p1a: Slowking
+|-sidestart|p1: X-Wing Fighter|move: Toxic Spikes
+|
+|upkeep
+|turn|22
+|
+|t:|1606868724
+|switch|p2a: Urshifu|Urshifu, M|94/100
+|-damage|p2a: Urshifu|88/100|[from] Stealth Rock
+|move|p1a: Slowking|Future Sight|p2a: Urshifu
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|23
+|
+|t:|1606868730
+|switch|p1a: Magearna|Magearna|76/100
+|-damage|p1a: Magearna|70/100|[from] Stealth Rock
+|move|p2a: Urshifu|Wicked Blow|p1a: Magearna
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|22/100
+|
+|upkeep
+|turn|24
+|j| Reign1997
+|
+|t:|1606868735
+|move|p1a: Magearna|Fleur Cannon|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Urshifu
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-hint|Future Sight did not hit because the target is the user.
+|upkeep
+|c| Reign1997|scarf?
+|c|☆WhyWouldUSashThat!|nah
+|c|☆WhyWouldUSashThat!|oh that one
+|c|☆WhyWouldUSashThat!|duh
+|inactive|WhyWouldUSashThat! has 120 seconds left.
+|c|☆WhyWouldUSashThat!|i expected vest because weak
+|c| Reign1997|ahhhh
+|c|☆WhyWouldUSashThat!|but apparently not that weak
+|c|☆WhyWouldUSashThat!|I don't know any rolls
+|
+|t:|1606868792
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|25
+|j| CovidRuinedMyLife
+|inactive|WhyWouldUSashThat! has 90 seconds left.
+|
+|t:|1606868817
+|switch|p1a: Zapdos|Zapdos|96/100
+|move|p2a: Toxapex|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|84/100
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|upkeep
+|turn|26
+|inactive|WhyWouldUSashThat! has 90 seconds left.
+|
+|t:|1606868824
+|switch|p2a: Magearna|Magearna|94/100
+|-damage|p2a: Magearna|88/100|[from] Stealth Rock
+|move|p1a: Zapdos|Defog|p2a: Magearna
+|-unboost|p2a: Magearna|evasion|1
+|-sideend|p2: WhyWouldUSashThat!|Stealth Rock|[from] move: Defog|[of] p1a: Zapdos
+|-sideend|p1: X-Wing Fighter|Toxic Spikes|[from] move: Defog|[of] p1a: Zapdos
+|-sideend|p1: X-Wing Fighter|Stealth Rock|[from] move: Defog|[of] p1a: Zapdos
+|
+|upkeep
+|turn|27
+|
+|t:|1606868831
+|move|p1a: Zapdos|Volt Switch|p2a: Magearna
+|-damage|p2a: Magearna|60/100
+|
+|t:|1606868834
+|switch|p1a: Slowking|Slowking, M|100/100|[from]move: Volt Switch
+|move|p2a: Magearna|Fleur Cannon|p1a: Slowking
+|-damage|p1a: Slowking|19/100
+|-unboost|p2a: Magearna|spa|2
+|
+|upkeep
+|turn|28
+|
+|t:|1606868839
+|switch|p1a: Magearna|Magearna|22/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Magearna
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+|
+|t:|1606868851
+|switch|p1a: Zapdos|Zapdos|84/100
+|turn|29
+|inactive|WhyWouldUSashThat! has 120 seconds left.
+|
+|t:|1606868869
+|switch|p2a: Landorus|Landorus-Therian, M|63/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|7/100 tox
+|
+|-damage|p2a: Landorus|0 fnt|[from] psn
+|faint|p2a: Landorus
+|upkeep
+|
+|t:|1606868875
+|switch|p2a: Slowking|Slowking, F|70/100 tox
+|turn|30
+|
+|t:|1606868878
+|move|p1a: Zapdos|Volt Switch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|33/100 tox
+|
+|t:|1606868883
+|switch|p1a: Slowking|Slowking, M|52/100|[from]move: Volt Switch
+|move|p2a: Slowking|Scald|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|43/100
+|-status|p1a: Slowking|brn
+|
+|-damage|p2a: Slowking|27/100 tox|[from] psn
+|-damage|p1a: Slowking|37/100 brn|[from] brn
+|upkeep
+|turn|31
+|c|☆WhyWouldUSashThat!|that's game i think
+|
+|t:|1606868893
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Slowking|Teleport|p2a: Slowking
+|
+|t:|1606868896
+|switch|p2a: Magearna|Magearna|60/100|[from]move: Teleport
+|
+|-damage|p1a: Slowking|30/100 brn|[from] brn
+|upkeep
+|turn|32
+|c|☆WhyWouldUSashThat!|what a wack series of plays
+|c|☆WhyWouldUSashThat!|by me
+|inactive|WhyWouldUSashThat! has 120 seconds left.
+|
+|t:|1606868923
+|switch|p1a: Garchomp|Garchomp, M|58/100 brn
+|move|p2a: Magearna|Fleur Cannon|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Garchomp
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+|j| Satsuki Nubaru
+|l| Resurgasm
+|
+|t:|1606868945
+|switch|p1a: Zapdos|Zapdos|84/100
+|turn|33
+|
+|t:|1606868949
+|switch|p2a: Slowking|Slowking, F|61/100 tox
+|move|p1a: Zapdos|Volt Switch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|22/100 tox
+|
+|t:|1606868963
+|switch|p1a: Slowking|Slowking, M|64/100 brn|[from]move: Volt Switch
+|
+|-end|p2a: Slowking|move: Future Sight
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|10/100 tox
+|-damage|p2a: Slowking|4/100 tox|[from] psn
+|-damage|p1a: Slowking|58/100 brn|[from] brn
+|upkeep
+|turn|34
+|j| Resurgasm
+|
+|t:|1606868969
+|move|p1a: Slowking|Scald|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-damage|p1a: Slowking|52/100 brn|[from] brn
+|upkeep
+|
+|t:|1606868977
+|switch|p2a: Magearna|Magearna|60/100
+|turn|35
+|inactive|X-Wing Fighter has 120 seconds left.
+|j| Riiguez 幸福
+|inactive|X-Wing Fighter has 90 seconds left.
+|
+|t:|1606869044
+|switch|p1a: Urshifu|Urshifu, M|30/100
+|move|p2a: Magearna|Volt Switch|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|t:|1606869062
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|inactive|X-Wing Fighter has 90 seconds left.
+|
+|t:|1606869068
+|switch|p1a: Zapdos|Zapdos|84/100
+|turn|36
+|
+|t:|1606869075
+|move|p1a: Zapdos|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|58/100
+|
+|t:|1606869078
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from]move: Volt Switch
+|move|p2a: Mandibuzz|U-turn|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|89/100
+|
+|t:|1606869080
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|37
+|l| CovidRuinedMyLife
+|
+|t:|1606869088
+|switch|p1a: Slowking|Slowking, M|85/100 brn
+|move|p2a: Toxapex|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|66/100 brn
+|
+|-damage|p1a: Slowking|60/100 brn|[from] brn
+|upkeep
+|turn|38
+|inactive|X-Wing Fighter has 120 seconds left.
+|
+|t:|1606869095
+|switch|p2a: Magearna|Magearna|60/100
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1606869098
+|switch|p1a: Cinderace|Cinderace, F|89/100|[from]move: Teleport
+|
+|upkeep
+|turn|39
+|
+|t:|1606869100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|85/100
+|
+|upkeep
+|turn|40
+|
+|t:|1606869109
+|switch|p2a: Mandibuzz|Mandibuzz, F|58/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|19/100
+|
+|upkeep
+|turn|41
+|
+|t:|1606869112
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Cinderace|Gunk Shot|p2a: Toxapex
+|-start|p1a: Cinderace|typechange|Poison|[from] ability: Libero
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|
+|upkeep
+|turn|42
+|
+|t:|1606869126
+|switch|p1a: Zapdos|Zapdos|84/100
+|move|p2a: Toxapex|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|76/100
+|
+|upkeep
+|turn|43
+|
+|t:|1606869132
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|31/100
+|
+|t:|1606869136
+|switch|p1a: Slowking|Slowking, M|94/100 brn|[from]move: Volt Switch
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|81/100
+|
+|-damage|p1a: Slowking|88/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1606869142
+|move|p2a: Toxapex|Toxic Spikes|p1a: Slowking
+|-sidestart|p1: X-Wing Fighter|move: Toxic Spikes
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1606869147
+|switch|p1a: Zapdos|Zapdos|76/100|[from]move: Teleport
+|
+|upkeep
+|turn|45
+|
+|t:|1606869153
+|move|p1a: Zapdos|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|41/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|92/100
+|
+|upkeep
+|turn|46
+|
+|t:|1606869166
+|move|p1a: Zapdos|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|-start|p2a: Toxapex|confusion
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|47
+|
+|t:|1606869172
+|move|p1a: Zapdos|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|65/100
+|-activate|p2a: Toxapex|confusion
+|-damage|p2a: Toxapex|61/100|[from] confusion
+|
+|upkeep
+|turn|48
+|
+|t:|1606869176
+|switch|p2a: Magearna|Magearna|60/100
+|move|p1a: Zapdos|Hurricane|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|39/100
+|-start|p2a: Magearna|confusion
+|
+|upkeep
+|turn|49
+|
+|t:|1606869183
+|move|p1a: Zapdos|Volt Switch|p2a: Magearna
+|-damage|p2a: Magearna|12/100
+|
+|t:|1606869185
+|switch|p1a: Slowking|Slowking, M|100/100 brn|[from]move: Volt Switch
+|-activate|p2a: Magearna|confusion
+|move|p2a: Magearna|Volt Switch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|46/100 brn
+|
+|t:|1606869189
+|switch|p2a: Mandibuzz|Mandibuzz, F|19/100|[from]move: Volt Switch
+|
+|-damage|p1a: Slowking|40/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|t:|1606869196
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|70/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Slowking|Future Sight|p2a: Mandibuzz
+|-start|p1a: Slowking|move: Future Sight
+|
+|-damage|p1a: Slowking|33/100 brn|[from] brn
+|upkeep
+|turn|51
+|inactive|WhyWouldUSashThat! has 120 seconds left.
+|
+|t:|1606869229
+|move|p2a: Mandibuzz|Foul Play|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1606869235
+|switch|p1a: Zapdos|Zapdos|76/100
+|turn|52
+|
+|t:|1606869239
+|move|p1a: Zapdos|Hurricane|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|35/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|85/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-end|p2a: Mandibuzz|move: Future Sight
+|-immune|p2a: Mandibuzz
+|upkeep
+|turn|53
+|inactive|WhyWouldUSashThat! has 120 seconds left.
+|j| Promii
+|
+|t:|1606869273
+|switch|p2a: Toxapex|Toxapex, M|94/100
+|move|p1a: Zapdos|Hurricane|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|34/100
+|
+|upkeep
+|turn|54
+|inactive|WhyWouldUSashThat! has 120 seconds left.
+|j| AquaVanilla
+|
+|t:|1606869283
+|switch|p2a: Mandibuzz|Mandibuzz, F|85/100
+|move|p1a: Zapdos|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|44/100
+|j| Devon
+|
+|t:|1606869285
+|switch|p1a: Cinderace|Cinderace, F|89/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|55
+|inactive|WhyWouldUSashThat! has 120 seconds left.
+|
+|t:|1606869306
+|move|p1a: Cinderace|Gunk Shot|p2a: Mandibuzz
+|-start|p1a: Cinderace|typechange|Poison|[from] ability: Libero
+|-damage|p2a: Mandibuzz|9/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|59/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|56
+|j| okryu✿
+|
+|t:|1606869313
+|switch|p1a: Zapdos|Zapdos|76/100
+|switch|p2a: Toxapex|Toxapex, M|67/100
+|
+|upkeep
+|turn|57
+|inactive|WhyWouldUSashThat! has 120 seconds left.
+|
+|t:|1606869321
+|move|p1a: Zapdos|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|28/100
+|-start|p2a: Toxapex|confusion
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|78/100
+|
+|upkeep
+|turn|58
+|c|☆X-Wing Fighter|i should went hard dos on the foul play
+|inactive|WhyWouldUSashThat! has 120 seconds left.
+|c|☆X-Wing Fighter|rip
+|c|☆WhyWouldUSashThat!|ye
+|l| Riiguez 幸福
+|inactive|WhyWouldUSashThat! has 90 seconds left.
+|c|☆WhyWouldUSashThat!|i had to do something
+|
+|t:|1606869375
+|move|p1a: Zapdos|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|38/100
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|89/100
+|
+|upkeep
+|turn|59
+|c|☆WhyWouldUSashThat!|how did you hack wide lens onto your boots zap?
+|
+|t:|1606869393
+|move|p1a: Zapdos|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|49/100
+|-end|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|99/100
+|
+|upkeep
+|turn|60
+|l| okryu✿
+|
+|t:|1606869412
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100
+|
+|t:|1606869416
+|switch|p1a: Cinderace|Cinderace, F|89/100|[from]move: Volt Switch
+|move|p2a: Toxapex|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|67/100
+|-enditem|p1a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Toxapex
+|
+|upkeep
+|turn|61
+|inactive|WhyWouldUSashThat! has 60 seconds left.
+|
+|t:|1606869450
+|switch|p1a: Zapdos|Zapdos|76/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|59/100
+|
+|upkeep
+|turn|62
+|
+|t:|1606869455
+|move|p1a: Zapdos|Hurricane|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|23/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|73/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|63
+|
+|t:|1606869462
+|move|p1a: Zapdos|Defog|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|evasion|1
+|-sideend|p1: X-Wing Fighter|Toxic Spikes|[from] move: Defog|[of] p1a: Zapdos
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|64
+|
+|t:|1606869479
+|move|p1a: Zapdos|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|59/100
+|
+|t:|1606869482
+|switch|p1a: Cinderace|Cinderace, F|67/100|[from]move: Volt Switch
+|move|p2a: Mandibuzz|U-turn|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|59/100
+|
+|t:|1606869485
+|switch|p2a: Toxapex|Toxapex, M|79/100|[from]move: U-turn
+|
+|upkeep
+|turn|65
+|
+|t:|1606869491
+|switch|p1a: Zapdos|Zapdos|76/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|66
+|
+|t:|1606869497
+|move|p1a: Zapdos|Hurricane|p2a: Toxapex|[miss]
+|-miss|p1a: Zapdos|p2a: Toxapex
+|move|p2a: Toxapex|Toxic Spikes|p1a: Zapdos
+|-sidestart|p1: X-Wing Fighter|move: Toxic Spikes
+|
+|upkeep
+|turn|67
+|
+|t:|1606869503
+|switch|p2a: Magearna|Magearna|12/100
+|move|p1a: Zapdos|Defog|p2a: Magearna
+|-unboost|p2a: Magearna|evasion|1
+|-sideend|p1: X-Wing Fighter|Toxic Spikes|[from] move: Defog|[of] p1a: Zapdos
+|
+|upkeep
+|turn|68
+|l| BrickBoom
+|
+|t:|1606869524
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100
+|
+|t:|1606869527
+|switch|p1a: Cinderace|Cinderace, F|59/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|69
+|
+|t:|1606869539
+|switch|p1a: Zapdos|Zapdos|76/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|59/100
+|
+|upkeep
+|turn|70
+|
+|t:|1606869543
+|move|p1a: Zapdos|Hurricane|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|27/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|77/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|71
+|inactive|WhyWouldUSashThat! has 60 seconds left.
+|j| back from pluto
+|
+|t:|1606869567
+|switch|p2a: Toxapex|Toxapex, M|80/100
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|33/100
+|
+|t:|1606869570
+|switch|p1a: Cinderace|Cinderace, F|59/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|72
+|inactive|WhyWouldUSashThat! has 60 seconds left.
+|
+|t:|1606869587
+|switch|p1a: Zapdos|Zapdos|76/100
+|switch|p2a: Magearna|Magearna|12/100
+|
+|upkeep
+|turn|73
+|l| Devon
+|
+|t:|1606869609
+|switch|p2a: Toxapex|Toxapex, M|66/100
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|21/100
+|
+|t:|1606869613
+|switch|p1a: Cinderace|Cinderace, F|59/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|74
+|inactive|X-Wing Fighter has 120 seconds left.
+|
+|t:|1606869636
+|switch|p2a: Mandibuzz|Mandibuzz, F|77/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|40/100
+|
+|upkeep
+|turn|75
+|j| r8 kONIJN
+|
+|t:|1606869638
+|move|p1a: Cinderace|Gunk Shot|p2a: Mandibuzz|[miss]
+|-start|p1a: Cinderace|typechange|Poison|[from] ability: Libero
+|-miss|p1a: Cinderace|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|90/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|76
+|l| r8 kONIJN
+|
+|t:|1606869651
+|switch|p2a: Toxapex|Toxapex, M|54/100
+|move|p1a: Cinderace|Gunk Shot|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100
+|
+|upkeep
+|turn|77
+|
+|t:|1606869659
+|switch|p1a: Zapdos|Zapdos|76/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|88/100
+|
+|upkeep
+|turn|78
+|
+|t:|1606869664
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100
+|
+|t:|1606869667
+|switch|p1a: Cinderace|Cinderace, F|59/100|[from]move: Volt Switch
+|move|p2a: Toxapex|Toxic Spikes|p1a: Cinderace
+|-sidestart|p1: X-Wing Fighter|move: Toxic Spikes
+|
+|upkeep
+|turn|79
+|
+|t:|1606869670
+|switch|p1a: Zapdos|Zapdos|76/100
+|switch|p2a: Magearna|Magearna|12/100
+|
+|upkeep
+|turn|80
+|
+|t:|1606869692
+|switch|p2a: Mandibuzz|Mandibuzz, F|90/100
+|move|p1a: Zapdos|Hurricane|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|42/100
+|-start|p2a: Mandibuzz|confusion
+|
+|upkeep
+|turn|81
+|
+|t:|1606869701
+|move|p1a: Zapdos|Hurricane|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|9/100
+|-activate|p2a: Mandibuzz|confusion
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|59/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|82
+|l| Reign1997
+|inactive|WhyWouldUSashThat! has 30 seconds left.
+|inactive|WhyWouldUSashThat! has 20 seconds left.
+|
+|t:|1606869723
+|switch|p2a: Magearna|Magearna|12/100
+|move|p1a: Zapdos|Hurricane|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|upkeep
+|inactive|WhyWouldUSashThat! has 25 seconds left this turn.
+|
+|t:|1606869728
+|switch|p2a: Mandibuzz|Mandibuzz, F|59/100
+|turn|83
+|inactive|WhyWouldUSashThat! has 30 seconds left this turn.
+|
+|t:|1606869732
+|move|p1a: Zapdos|Defog|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|evasion|1
+|-sideend|p1: X-Wing Fighter|Toxic Spikes|[from] move: Defog|[of] p1a: Zapdos
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|84
+|inactive|WhyWouldUSashThat! has 30 seconds left.
+|
+|t:|1606869746
+|move|p1a: Zapdos|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|59/100
+|
+|t:|1606869747
+|switch|p1a: Cinderace|Cinderace, F|59/100|[from]move: Volt Switch
+|move|p2a: Mandibuzz|Foul Play|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1606869752
+|switch|p1a: Zapdos|Zapdos|76/100
+|turn|85
+|inactive|WhyWouldUSashThat! has 30 seconds left.
+|
+|t:|1606869768
+|move|p1a: Zapdos|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|14/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|64/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|86
+|inactive|WhyWouldUSashThat! has 30 seconds left.
+|
+|t:|1606869779
+|move|p1a: Zapdos|Defog|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|evasion|1
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|87
+|inactive|WhyWouldUSashThat! has 30 seconds left this turn.
+|inactive|WhyWouldUSashThat! has 20 seconds left.
+|inactive|WhyWouldUSashThat! has 15 seconds left.
+|
+|t:|1606869795
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Mandibuzz|U-turn|p1a: Zapdos
+|-damage|p1a: Zapdos|92/100
+|-status|p2a: Mandibuzz|par|[from] ability: Static|[of] p1a: Zapdos
+|inactive|WhyWouldUSashThat! has 20 seconds left this turn.
+|
+|t:|1606869798
+|switch|p2a: Toxapex|Toxapex, M|71/100|[from]move: U-turn
+|
+|upkeep
+|turn|88
+|inactive|WhyWouldUSashThat! has 25 seconds left this turn.
+|inactive|WhyWouldUSashThat! has 20 seconds left.
+|inactive|WhyWouldUSashThat! has 15 seconds left.
+|
+|t:|1606869809
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|23/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|73/100
+|
+|upkeep
+|turn|89
+|inactive|WhyWouldUSashThat! has 20 seconds left this turn.
+|inactive|WhyWouldUSashThat! has 15 seconds left.
+|j| MgcCpu
+|inactive|WhyWouldUSashThat! has 10 seconds left.
+|
+|t:|1606869820
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100 par
+|move|p1a: Zapdos|Defog|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|evasion|1
+|
+|upkeep
+|turn|90
+|inactive|WhyWouldUSashThat! has 15 seconds left this turn.
+|j| okryu✿
+|
+|t:|1606869826
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Zapdos|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|
+|upkeep
+|turn|91
+|inactive|WhyWouldUSashThat! has 20 seconds left this turn.
+|inactive|WhyWouldUSashThat! has 15 seconds left.
+|
+|t:|1606869832
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100 par
+|move|p1a: Zapdos|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|59/100 par
+|
+|upkeep
+|turn|92
+|inactive|WhyWouldUSashThat! has 20 seconds left this turn.
+|inactive|WhyWouldUSashThat! has 15 seconds left.
+|
+|t:|1606869837
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|
+|upkeep
+|turn|93
+|inactive|WhyWouldUSashThat! has 20 seconds left this turn.
+|l| okryu✿
+|inactive|WhyWouldUSashThat! has 15 seconds left.
+|
+|t:|1606869843
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|7/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|57/100
+|
+|upkeep
+|turn|94
+|inactive|WhyWouldUSashThat! has 20 seconds left this turn.
+|inactive|WhyWouldUSashThat! has 15 seconds left.
+|
+|t:|1606869850
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|11/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|61/100
+|
+|upkeep
+|turn|95
+|inactive|WhyWouldUSashThat! has 20 seconds left this turn.
+|inactive|WhyWouldUSashThat! has 15 seconds left.
+|inactive|WhyWouldUSashThat! has 10 seconds left.
+|c|☆X-Wing Fighter|just one crit
+|c|☆X-Wing Fighter|for me
+|c|☆X-Wing Fighter|plz
+|
+|t:|1606869870
+|switch|p2a: Mandibuzz|Mandibuzz, F|59/100 par
+|move|p1a: Zapdos|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|18/100 par
+|
+|upkeep
+|turn|96
+|inactive|WhyWouldUSashThat! has 15 seconds left this turn.
+|inactive|WhyWouldUSashThat! has 10 seconds left.
+|c|☆WhyWouldUSashThat!|gg
+|-message|WhyWouldUSashThat! forfeited.
+|
+|win|X-Wing Fighter
+|inactive|WhyWouldUSashThat! has 15 seconds left this turn.
+|c|☆X-Wing Fighter|wait
+|c|☆X-Wing Fighter|yeah u fucked up hard
+|c|☆WhyWouldUSashThat!|no other play
+|c|☆X-Wing Fighter|nice choke
+|c|☆WhyWouldUSashThat!|either regen early or lose volt switch
+|raw|X-Wing Fighter's rating: 1754 &rarr; <strong>1775</strong><br />(+21 for winning)
+|raw|WhyWouldUSashThat!'s rating: 1757 &rarr; <strong>1737</strong><br />(-20 for losing)
+|j| ppev
+|j| Thats quite Unfor
+|c|☆WhyWouldUSashThat!|couldn't stay in with pex because the turn i run out of roosts you still have 3
+|c|☆WhyWouldUSashThat!|did i miscount
+|l| back from pluto
+|c|☆WhyWouldUSashThat!|ahh, well if no para I guess it was possible
+|c| Thats quite Unfor|#NerfWiggilytuff
+|c| Thats quite Unfor|:]
+|c|☆WhyWouldUSashThat!|it happens
+|l|☆WhyWouldUSashThat!
+|l| MgcCpu
+|l| Thats quite Unfor
+|l| ppev
+|l| AquaVanilla
+|j| Thats quite Unfor
+|l| Thats quite Unfor

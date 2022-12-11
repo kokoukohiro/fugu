@@ -1,0 +1,518 @@
+|j|☆Adrift and Alone
+|j|☆smpark22
+|player|p1|Adrift and Alone|ethan-gen2|1669
+|player|p2|smpark22|camper|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Haxorus, M|
+|poke|p1|Roserade, F|
+|poke|p1|Rhyperior, F|
+|poke|p1|Doublade, F|
+|poke|p1|Vaporeon, M|
+|poke|p1|Noivern, M|
+|poke|p2|Haxorus, F|
+|poke|p2|Milotic, M|
+|poke|p2|Steelix, M|
+|poke|p2|Gallade, M|
+|poke|p2|Frosmoth, M|
+|poke|p2|Espeon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adrift and Alone)
+|
+|start
+|switch|p1a: Memento Mori|Haxorus, M|100/100
+|switch|p2a: Milotic|Milotic, M|100/100
+|-ability|p1a: Memento Mori|Mold Breaker
+|turn|1
+|
+|switch|p1a: Roserade|Roserade, F, shiny|100/100
+|switch|p2a: Steelix|Steelix, M|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Espeon|Espeon, F|100/100
+|move|p1a: Roserade|Sleep Powder|p2a: Espeon
+|move|p2a: Espeon|Sleep Powder|p1a: Roserade|[from]Magic Bounce
+|-immune|p1a: Roserade
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Espeon|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|70/100
+|
+|-heal|p1a: Vaporeon|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Espeon|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|47/100
+|move|p1a: Vaporeon|Scald|p2a: Espeon
+|-damage|p2a: Espeon|66/100
+|
+|-heal|p2a: Espeon|72/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|53/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Espeon|Toxic|p1a: Vaporeon
+|-status|p1a: Vaporeon|tox
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p2a: Espeon|78/100|[from] item: Leftovers
+|-heal|p1a: Vaporeon|60/100 tox|[from] item: Leftovers
+|-damage|p1a: Vaporeon|53/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Vaporeon|Heal Bell|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Heal Bell
+|-curestatus|p1a: Vaporeon|tox|[msg]
+|
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|switch|p1a: Roserade|Roserade, F, shiny|100/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Roserade|Sleep Powder|p2a: Frosmoth
+|-status|p2a: Frosmoth|slp|[from] move: Sleep Powder
+|cant|p2a: Frosmoth|slp
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Roserade|Toxic Spikes|p2a: Frosmoth
+|-sidestart|p2: smpark22|move: Toxic Spikes
+|cant|p2a: Frosmoth|slp
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|-curestatus|p2a: Frosmoth|slp|[msg]
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Doublade|Doublade, F, shiny|100/100
+|move|p2a: Frosmoth|Defog|p1a: Doublade
+|-unboost|p1a: Doublade|evasion|1
+|-sideend|p2: smpark22|Toxic Spikes|[from] move: Defog|[of] p2a: Frosmoth
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Milotic|Milotic, M|100/100 brn
+|move|p1a: Doublade|Iron Head|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|88/100 brn
+|
+|-damage|p2a: Milotic|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Roserade|Roserade, F, shiny|100/100
+|move|p2a: Milotic|Toxic|p1a: Roserade
+|-immune|p1a: Roserade
+|
+|-damage|p2a: Milotic|76/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Espeon|Espeon, F|78/100
+|move|p1a: Roserade|Sludge Bomb|p2a: Espeon
+|-damage|p2a: Espeon|30/100
+|
+|-heal|p2a: Espeon|36/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|move|p2a: Espeon|Protect||[still]
+|-fail|p2a: Espeon
+|
+|-heal|p2a: Espeon|42/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Milotic|Milotic, M|76/100 brn
+|move|p1a: Noivern|Hurricane|p2a: Milotic
+|-damage|p2a: Milotic|44/100 brn
+|
+|-damage|p2a: Milotic|38/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Noivern|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|31/100 brn
+|
+|switch|p1a: Roserade|Roserade, F, shiny|100/100|[from]move: U-turn
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|81/100 brn
+|
+|-damage|p2a: Milotic|75/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|move|p1a: Roserade|Sludge Bomb|p2a: Frosmoth
+|-damage|p2a: Frosmoth|67/100
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Frosmoth|Ice Beam|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|83/100
+|
+|-heal|p1a: Vaporeon|89/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|j| SlimePressed
+|
+|switch|p1a: Doublade|Doublade, F, shiny|100/100
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Doublade|Iron Head|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|90/100
+|
+|-heal|p2a: Steelix|96/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|move|p2a: Steelix|Stealth Rock|p1a: Rhyperior
+|-sidestart|p1: Adrift and Alone|move: Stealth Rock
+|
+|-heal|p2a: Steelix|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Rhyperior|Earthquake|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|53/100
+|move|p2a: Steelix|Earthquake|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|57/100
+|
+|-heal|p1a: Rhyperior|63/100|[from] item: Leftovers
+|-heal|p2a: Steelix|59/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Milotic|Milotic, M|75/100 brn
+|move|p1a: Rhyperior|Stealth Rock|p2a: Milotic
+|-sidestart|p2: smpark22|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|69/100|[from] item: Leftovers
+|-damage|p2a: Milotic|69/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Roserade|Roserade, F, shiny|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|move|p2a: Milotic|Scald|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|69/100
+|
+|-heal|p1a: Roserade|75/100|[from] item: Black Sludge
+|-damage|p2a: Milotic|63/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Frosmoth|Frosmoth, M|67/100
+|move|p1a: Roserade|Giga Drain|p2a: Frosmoth
+|-resisted|p2a: Frosmoth
+|-damage|p2a: Frosmoth|54/100
+|-heal|p1a: Roserade|82/100|[from] drain|[of] p2a: Frosmoth
+|
+|-heal|p1a: Roserade|88/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|move|p1a: Roserade|Sleep Powder|p2a: Frosmoth
+|-status|p2a: Frosmoth|slp|[from] move: Sleep Powder
+|cant|p2a: Frosmoth|slp
+|
+|-heal|p1a: Roserade|94/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|l| SlimePressed
+|
+|switch|p1a: Doublade|Doublade, F, shiny|100/100
+|-damage|p1a: Doublade|95/100|[from] Stealth Rock
+|-curestatus|p2a: Frosmoth|slp|[msg]
+|move|p2a: Frosmoth|Defog|p1a: Doublade
+|-unboost|p1a: Doublade|evasion|1
+|-sideend|p1: Adrift and Alone|Stealth Rock|[from] move: Defog|[of] p2a: Frosmoth
+|-sideend|p2: smpark22|Stealth Rock|[from] move: Defog|[of] p2a: Frosmoth
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Milotic|Milotic, M|63/100 brn
+|move|p1a: Doublade|Close Combat|p2a: Milotic
+|-damage|p2a: Milotic|41/100 brn
+|-unboost|p1a: Doublade|def|1
+|-unboost|p1a: Doublade|spd|1
+|
+|-damage|p2a: Milotic|35/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Roserade|Roserade, F, shiny|94/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|85/100 brn
+|
+|-heal|p1a: Roserade|100/100|[from] item: Black Sludge
+|-damage|p2a: Milotic|79/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Steelix|Steelix, M|59/100
+|move|p1a: Roserade|Sludge Bomb|p2a: Steelix
+|-immune|p2a: Steelix
+|
+|-heal|p2a: Steelix|65/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Roserade|Sleep Powder|p2a: Steelix|[miss]
+|-miss|p1a: Roserade|p2a: Steelix
+|move|p2a: Steelix|Gyro Ball|p1a: Roserade
+|-damage|p1a: Roserade|13/100
+|
+|-heal|p1a: Roserade|19/100|[from] item: Black Sludge
+|-heal|p2a: Steelix|71/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Roserade|Sleep Powder|p2a: Steelix
+|-status|p2a: Steelix|slp|[from] move: Sleep Powder
+|cant|p2a: Steelix|slp
+|
+|-heal|p1a: Roserade|25/100|[from] item: Black Sludge
+|-heal|p2a: Steelix|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Rhyperior|Rhyperior, F|69/100
+|switch|p2a: Frosmoth|Frosmoth, M|54/100
+|
+|-heal|p1a: Rhyperior|75/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Frosmoth|Ice Beam|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|15/100
+|move|p1a: Rhyperior|Rock Blast|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|-hitcount|p2a: Frosmoth|1
+|faint|p2a: Frosmoth
+|
+|-heal|p1a: Rhyperior|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|36
+|
+|move|p2a: Haxorus|Earthquake|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|turn|37
+|
+|switch|p2a: Milotic|Milotic, M|79/100 brn
+|move|p1a: Noivern|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|72/100 brn
+|
+|switch|p1a: Memento Mori|Haxorus, M|100/100|[from]move: U-turn
+|-ability|p1a: Memento Mori|Mold Breaker
+|
+|-damage|p2a: Milotic|66/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Memento Mori|Dragon Claw|p2a: Milotic
+|-damage|p2a: Milotic|12/100 brn
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|62/100 brn
+|
+|-damage|p2a: Milotic|56/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p2a: Steelix|Steelix, M|78/100 slp
+|move|p1a: Memento Mori|Dragon Claw|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|60/100 slp
+|
+|-heal|p2a: Steelix|66/100 slp|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p1a: Vaporeon|Vaporeon, M|89/100
+|cant|p2a: Steelix|slp
+|
+|-heal|p1a: Vaporeon|96/100|[from] item: Leftovers
+|-heal|p2a: Steelix|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|move|p1a: Vaporeon|Scald|p2a: Gallade
+|-damage|p2a: Gallade|68/100
+|
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p1a: Noivern|Noivern, M|100/100
+|move|p2a: Gallade|Leaf Blade|p1a: Noivern
+|-resisted|p1a: Noivern
+|-crit|p1a: Noivern
+|-damage|p1a: Noivern|78/100
+|
+|upkeep
+|turn|43
+|
+|switch|p2a: Milotic|Milotic, M|56/100 brn
+|move|p1a: Noivern|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|50/100 brn
+|
+|switch|p1a: Memento Mori|Haxorus, M|100/100|[from]move: U-turn
+|-ability|p1a: Memento Mori|Mold Breaker
+|
+|-damage|p2a: Milotic|44/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|switch|p2a: Steelix|Steelix, M|72/100 slp
+|move|p1a: Memento Mori|Earthquake|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|7/100 slp
+|
+|-heal|p2a: Steelix|13/100 slp|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Memento Mori|Earthquake|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|upkeep
+|
+|switch|p2a: Milotic|Milotic, M|44/100 brn
+|turn|46
+|
+|move|p1a: Memento Mori|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|switch|p2a: Gallade|Gallade, M|68/100
+|turn|47
+|
+|move|p2a: Gallade|Shadow Sneak|p1a: Memento Mori
+|-damage|p1a: Memento Mori|73/100
+|move|p1a: Memento Mori|Earthquake|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|48
+|
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|move|p1a: Memento Mori|Earthquake|p2a: Haxorus
+|-damage|p2a: Haxorus|23/100
+|
+|upkeep
+|turn|49
+|
+|switch|p1a: Roserade|Roserade, F, shiny|25/100
+|move|p2a: Haxorus|Dragon Claw|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|switch|p1a: Doublade|Doublade, F, shiny|95/100
+|turn|50
+|c|☆Adrift and Alone|gg
+|
+|move|p1a: Doublade|Shadow Sneak|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|switch|p2a: Espeon|Espeon, F|42/100
+|turn|51
+|
+|move|p2a: Espeon|Protect|p2a: Espeon
+|-singleturn|p2a: Espeon|Protect
+|move|p1a: Doublade|Shadow Sneak|p2a: Espeon
+|-activate|p2a: Espeon|move: Protect
+|
+|-heal|p2a: Espeon|48/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p1a: Doublade|Shadow Sneak|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|win|Adrift and Alone
+|c|☆smpark22|gg
+|l|☆smpark22
+|raw|Adrift and Alone's rating: 1669 &rarr; <strong>1676</strong><br />(+7 for winning)
+|raw|smpark22's rating: 1396 &rarr; <strong>1389</strong><br />(-7 for losing)

@@ -1,0 +1,227 @@
+|j|☆IWSK
+|j|☆nosaher
+|player|p1|IWSK|1|1418
+|player|p2|nosaher|lance|1290
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Chansey, F|
+|poke|p1|Darkrai|
+|poke|p1|Toxapex, F|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Rayquaza|
+|poke|p2|Groudon|
+|poke|p2|Kyogre|
+|poke|p2|Hydreigon, M|
+|poke|p2|Tapu Koko|
+|poke|p2|Landorus-Therian, M|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IWSK)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|1
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Hydreigon|Heat Wave|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|87/100
+|
+|-heal|p1a: Toxapex|93/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|inactive|nosaher has 120 seconds left.
+|
+|move|p2a: Hydreigon|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|move|p1a: Toxapex|Toxic|p2a: Hydreigon
+|-status|p2a: Hydreigon|tox
+|
+|-heal|p1a: Toxapex|71/100|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Hydreigon|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|40/100
+|move|p1a: Toxapex|Toxic|p2a: Hydreigon
+|-fail|p2a: Hydreigon|tox
+|
+|-heal|p1a: Toxapex|46/100|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Hydreigon|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|17/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|67/100
+|
+|-heal|p1a: Toxapex|74/100|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|64/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|nosaher has 90 seconds left.
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Toxapex|Toxic|p2a: Groudon
+|-status|p2a: Groudon|tox
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Toxapex|80/100|[from] item: Black Sludge
+|-damage|p2a: Groudon|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|inactive|nosaher has 90 seconds left.
+|
+|-start|p1a: Toxapex|Dynamax
+|-heal|p1a: Toxapex|80/100|[silent]
+|move|p1a: Toxapex|Max Guard|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Max Guard
+|move|p2a: Groudon|Precipice Blades|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Max Guard
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Toxapex|83/100|[from] item: Black Sludge
+|-damage|p2a: Groudon|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|nosaher has 60 seconds left.
+|
+|move|p2a: Groudon|Precipice Blades|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|38/100
+|move|p1a: Toxapex|Max Geyser||[still]
+|-fail|p1a: Toxapex|Max Geyser|[from] Desolate Land
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Toxapex|41/100|[from] item: Black Sludge
+|-damage|p2a: Groudon|64/100 tox|[from] psn
+|upkeep
+|turn|8
+|inactive|nosaher has 60 seconds left.
+|
+|move|p1a: Toxapex|Max Guard|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Max Guard
+|move|p2a: Groudon|Precipice Blades|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Max Guard
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Toxapex|44/100|[from] item: Black Sludge
+|-damage|p2a: Groudon|39/100 tox|[from] psn
+|-end|p1a: Toxapex|Dynamax
+|-heal|p1a: Toxapex|44/100|[silent]
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Groudon|Precipice Blades|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|37/100
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Ferrothorn|43/100|[from] item: Leftovers
+|-damage|p2a: Groudon|8/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|nosaher has 30 seconds left.
+|inactive|nosaher has 20 seconds left.
+|
+|switch|p1a: Darkrai|Darkrai|100/100
+|move|p2a: Groudon|Precipice Blades|p1a: Darkrai
+|-damage|p1a: Darkrai|3/100
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p1a: Darkrai|9/100|[from] item: Leftovers
+|-damage|p2a: Groudon|0 fnt|[from] psn
+|faint|p2a: Groudon
+|-weather|none
+|upkeep
+|inactive|nosaher has 25 seconds left this turn.
+|inactive|nosaher has 20 seconds left.
+|inactive|nosaher has 15 seconds left.
+|inactive|nosaher has 10 seconds left.
+|inactive|nosaher has 5 seconds left.
+|
+|switch|p2a: Kyogre|Kyogre|100/100
+|detailschange|p2a: Kyogre|Kyogre-Primal
+|-primal|p2a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p2a: Kyogre
+|turn|11
+|inactive|nosaher has 15 seconds left this turn.
+|inactive|nosaher has 10 seconds left.
+|inactive|nosaher has 5 seconds left.
+|
+|move|p1a: Darkrai|Dark Pulse|p2a: Kyogre
+|-damage|p2a: Kyogre|76/100
+|move|p2a: Kyogre|Origin Pulse|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-weather|PrimordialSea|[upkeep]
+|upkeep
+|inactive|nosaher has 10 seconds left this turn.
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|turn|12
+|inactive|nosaher has 20 seconds left this turn.
+|inactive|nosaher has 15 seconds left.
+|inactive|nosaher has 10 seconds left.
+|
+|move|p2a: Kyogre|Origin Pulse|p1a: Chansey
+|-damage|p1a: Chansey|71/100
+|move|p1a: Chansey|Toxic|p2a: Kyogre
+|-status|p2a: Kyogre|tox
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p2a: Kyogre|70/100 tox|[from] psn
+|upkeep
+|turn|13
+|inactive|nosaher has 20 seconds left this turn.
+|inactive|nosaher has 15 seconds left.
+|inactive|nosaher has 10 seconds left.
+|inactive|nosaher has 5 seconds left.
+|
+|move|p2a: Kyogre|Thunder|p1a: Chansey
+|-damage|p1a: Chansey|57/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p2a: Kyogre|57/100 tox|[from] psn
+|upkeep
+|turn|14
+|inactive|nosaher has 15 seconds left this turn.
+|inactive|nosaher has 10 seconds left.
+|inactive|nosaher has 5 seconds left.
+|
+|move|p2a: Kyogre|Thunder|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|80/100
+|move|p1a: Chansey|Seismic Toss|p2a: Kyogre
+|-damage|p2a: Kyogre|32/100 tox
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p2a: Kyogre|14/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|nosaher has 15 seconds left this turn.
+|inactive|nosaher has 10 seconds left.
+|inactive|nosaher has 5 seconds left.
+|-message|nosaher lost due to inactivity.
+|
+|win|IWSK

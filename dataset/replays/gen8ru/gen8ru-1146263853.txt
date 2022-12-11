@@ -1,0 +1,346 @@
+|j|☆ChrisL) Zapador
+|j|☆LameUsername
+|player|p1|ChrisL) Zapador|wally|1365
+|player|p2|LameUsername|pokemonrangerf|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Porygon2|
+|poke|p1|Silvally-*|
+|poke|p1|Drapion, M|
+|poke|p1|Machamp, F|
+|poke|p1|Vaporeon, M|
+|poke|p1|Rotom-Mow|
+|poke|p2|Pikachu, M|
+|poke|p2|Pincurchin, F|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Jellicent, M|
+|poke|p2|Braviary, M|
+|poke|p2|Coalossal, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Machamp|Machamp, F|100/100
+|switch|p2a: Braviary|Braviary, M|100/100
+|turn|1
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Defiant|[from] ability: Trace|[of] p2a: Braviary
+|move|p2a: Braviary|Brave Bird|p1a: Porygon2
+|-damage|p1a: Porygon2|58/100
+|-damage|p2a: Braviary|85/100|[from] Recoil
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Hitmonlee|Bulk Up|p2a: Hitmonlee
+|-boost|p2a: Hitmonlee|atk|1
+|-boost|p2a: Hitmonlee|def|1
+|move|p1a: Porygon2|Thunder Wave|p2a: Hitmonlee
+|-status|p2a: Hitmonlee|par
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|cant|p2a: Hitmonlee|par
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Coalossal|Coalossal, F|100/100
+|-item|p2a: Coalossal|Air Balloon
+|move|p1a: Silvally|Multi-Attack|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|87/100
+|-enditem|p2a: Coalossal|Air Balloon
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Coalossal|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: ChrisL) Zapador|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Vaporeon|Scald|p2a: Pincurchin
+|-damage|p2a: Pincurchin|60/100
+|
+|-heal|p2a: Pincurchin|66/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Pincurchin|Rising Voltage|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|79/100
+|
+|-heal|p1a: Rotom|85/100|[from] item: Leftovers
+|-heal|p2a: Pincurchin|72/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Defog|p2a: Pincurchin
+|-unboost|p2a: Pincurchin|evasion|1
+|-sideend|p1: ChrisL) Zapador|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|-fieldend|move: Electric Terrain
+|move|p2a: Pincurchin|Spikes|p1a: Rotom
+|-sidestart|p1: ChrisL) Zapador|Spikes
+|
+|-heal|p1a: Rotom|91/100|[from] item: Leftovers
+|-heal|p2a: Pincurchin|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Rotom|Defog|p2a: Pincurchin
+|-unboost|p2a: Pincurchin|evasion|1
+|-sideend|p1: ChrisL) Zapador|Spikes|[from] move: Defog|[of] p1a: Rotom
+|move|p2a: Pincurchin|Recover|p2a: Pincurchin
+|-heal|p2a: Pincurchin|100/100
+|
+|-heal|p1a: Rotom|97/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Pincurchin
+|-status|p2a: Pincurchin|brn
+|move|p2a: Pincurchin|Spikes|p1a: Rotom
+|-sidestart|p1: ChrisL) Zapador|Spikes
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|-damage|p2a: Pincurchin|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Coalossal|Coalossal, F|87/100
+|move|p1a: Rotom|Leaf Storm|p2a: Coalossal
+|-damage|p2a: Coalossal|40/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Rotom|Volt Switch|p2a: Coalossal
+|-damage|p2a: Coalossal|26/100
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Vaporeon|88/100|[from] Spikes
+|move|p2a: Coalossal|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: ChrisL) Zapador|move: Stealth Rock
+|
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Vaporeon|Scald|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Pikachu|Pikachu, M|100/100
+|turn|15
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Pikachu|Volt Switch|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Pikachu|Volt Switch|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|74/100
+|
+|switch|p2a: Braviary|Braviary, M|85/100|[from]move: Volt Switch
+|
+|-heal|p1a: Rotom|81/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Braviary|Brave Bird|p1a: Rotom
+|-damage|p1a: Rotom|5/100
+|-damage|p2a: Braviary|68/100|[from] Recoil
+|move|p1a: Rotom|Defog|p2a: Braviary
+|-unboost|p2a: Braviary|evasion|1
+|-ability|p2a: Braviary|Defiant
+|-boost|p2a: Braviary|atk|2
+|-sideend|p1: ChrisL) Zapador|Spikes|[from] move: Defog|[of] p1a: Rotom
+|-sideend|p1: ChrisL) Zapador|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|
+|-heal|p1a: Rotom|11/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Braviary|Brave Bird|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Braviary|65/100|[from] Recoil
+|faint|p1a: Rotom
+|
+|upkeep
+|j| GotenRed
+|
+|switch|p1a: Drapion|Drapion, M|100/100
+|turn|19
+|
+|move|p1a: Drapion|Knock Off|p2a: Braviary
+|-damage|p2a: Braviary|18/100
+|-enditem|p2a: Braviary|Choice Scarf|[from] move: Knock Off|[of] p1a: Drapion
+|move|p2a: Braviary|Brave Bird|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|-damage|p2a: Braviary|0 fnt|[from] Recoil
+|faint|p1a: Drapion
+|faint|p2a: Braviary
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|switch|p2a: Pincurchin|Pincurchin, F|94/100 brn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|20
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Electric Surge|[from] ability: Trace|[of] p2a: Pincurchin
+|move|p2a: Pincurchin|Toxic Spikes|p1a: Porygon2
+|-sidestart|p1: ChrisL) Zapador|move: Toxic Spikes
+|
+|-heal|p2a: Pincurchin|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Pincurchin|94/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Porygon2|Ice Beam|p2a: Pincurchin
+|-damage|p2a: Pincurchin|68/100 brn
+|move|p2a: Pincurchin|Toxic Spikes|p1a: Porygon2
+|-sidestart|p1: ChrisL) Zapador|move: Toxic Spikes
+|
+|-heal|p2a: Pincurchin|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Pincurchin|68/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Porygon2|Ice Beam|p2a: Pincurchin
+|-damage|p2a: Pincurchin|41/100 brn
+|move|p2a: Pincurchin|Spikes|p1a: Porygon2
+|-sidestart|p1: ChrisL) Zapador|Spikes
+|
+|-heal|p2a: Pincurchin|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Pincurchin|41/100 brn|[from] brn
+|upkeep
+|turn|23
+|j| monotypewhat
+|
+|move|p1a: Porygon2|Ice Beam|p2a: Pincurchin
+|-damage|p2a: Pincurchin|13/100 brn
+|move|p2a: Pincurchin|Recover|p2a: Pincurchin
+|-heal|p2a: Pincurchin|63/100 brn
+|
+|-heal|p2a: Pincurchin|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Pincurchin|63/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Machamp|Machamp, F|100/100
+|-damage|p1a: Machamp|88/100|[from] Spikes
+|-status|p1a: Machamp|tox
+|move|p2a: Pincurchin|Recover|p2a: Pincurchin
+|-heal|p2a: Pincurchin|100/100 brn
+|
+|-damage|p1a: Machamp|82/100 tox|[from] psn
+|-damage|p2a: Pincurchin|94/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|25
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Machamp|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-crit|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|-enditem|p2a: Jellicent|Leftovers|[from] move: Knock Off|[of] p1a: Machamp
+|faint|p2a: Jellicent
+|
+|-damage|p1a: Machamp|69/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Pincurchin|Pincurchin, F|94/100 brn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|26
+|
+|move|p1a: Machamp|Knock Off|p2a: Pincurchin
+|-crit|p2a: Pincurchin
+|-damage|p2a: Pincurchin|25/100 brn
+|-enditem|p2a: Pincurchin|Leftovers|[from] move: Knock Off|[of] p1a: Machamp
+|move|p2a: Pincurchin|Rising Voltage|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|-damage|p2a: Pincurchin|19/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|-damage|p1a: Silvally|88/100|[from] Spikes
+|-status|p1a: Silvally|tox
+|turn|27
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|-damage|p1a: Silvally|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Pikachu|Pikachu, M|100/100
+|turn|28
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|-damage|p1a: Silvally|70/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100 par
+|-enditem|p2a: Hitmonlee|Electric Seed
+|-boost|p2a: Hitmonlee|def|1|[from] item: Electric Seed
+|turn|29
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|win|ChrisL) Zapador
+|l|☆LameUsername
+|l|☆ChrisL) Zapador
+|l| monotypewhat
+||Ladder (probably) updated, but score could not be retrieved (Request timeout).

@@ -1,0 +1,289 @@
+|j|☆yung centibro
+|j|☆SoloJ
+|player|p1|yung centibro|1|1374
+|player|p2|SoloJ|riley|1242
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Passimian, F|
+|poke|p1|Sigilyph, M|
+|poke|p1|Silvally-*|
+|poke|p1|Vaporeon, M|
+|poke|p1|Vileplume, M|
+|poke|p1|Gigalith, F|
+|poke|p2|Galvantula, F|
+|poke|p2|Piloswine, F|
+|poke|p2|Silvally-*|
+|poke|p2|Passimian, M|
+|poke|p2|Mr. Rime, M|
+|poke|p2|Indeedee-F, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SoloJ)
+|j| shittyteammaker
+|inactive|yung centibro has 120 seconds left.
+|
+|start
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|turn|1
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Vileplume
+|-sidestart|p1: yung centibro|move: Sticky Web
+|move|p1a: Vileplume|Sludge Bomb|p2a: Galvantula
+|-damage|p2a: Galvantula|44/100
+|
+|upkeep
+|turn|2
+|j| Chrus is nub
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|-activate|p1a: Gigalith|move: Sticky Web
+|-unboost|p1a: Gigalith|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Galvantula|Bug Buzz|p1a: Gigalith
+|-damage|p1a: Gigalith|78/100
+|-unboost|p1a: Gigalith|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Galvantula|38/100|[from] Sandstorm
+|-heal|p1a: Gigalith|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Galvantula|Giga Drain|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|49/100
+|-heal|p2a: Galvantula|61/100|[from] drain|[of] p1a: Gigalith
+|move|p1a: Gigalith|Stealth Rock|p2a: Galvantula
+|-sidestart|p2: SoloJ|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Galvantula|55/100|[from] Sandstorm
+|-heal|p1a: Gigalith|55/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Silvally|Silvally-Steel|100/100
+|-activate|p1a: Silvally|move: Sticky Web
+|-unboost|p1a: Silvally|spe|1
+|move|p2a: Galvantula|Giga Drain|p1a: Silvally
+|-resisted|p1a: Silvally
+|-crit|p1a: Silvally
+|-damage|p1a: Silvally|84/100
+|-heal|p2a: Galvantula|65/100|[from] drain|[of] p1a: Silvally
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Galvantula|59/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p2a: Galvantula|Thunder|p1a: Silvally
+|-damage|p1a: Silvally|35/100
+|move|p1a: Silvally|U-turn|p2a: Galvantula
+|-damage|p2a: Galvantula|20/100
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100|[from]move: U-turn
+|-activate|p1a: Vileplume|move: Sticky Web
+|-unboost|p1a: Vileplume|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Galvantula|14/100|[from] Sandstorm
+|-damage|p1a: Vileplume|94/100|[from] Sandstorm
+|-heal|p1a: Vileplume|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Galvantula|Bug Buzz|p1a: Vileplume
+|-damage|p1a: Vileplume|60/100
+|move|p1a: Vileplume|Giga Drain|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|-heal|p1a: Vileplume|65/100|[from] drain|[of] p2a: Galvantula
+|faint|p2a: Galvantula
+|
+|-weather|none
+|-heal|p1a: Vileplume|72/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|100/100
+|turn|7
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|-activate|p1a: Vaporeon|move: Sticky Web
+|-unboost|p1a: Vaporeon|spe|1
+|move|p2a: Mr. Rime|Rapid Spin|p1a: Vaporeon
+|-damage|p1a: Vaporeon|94/100
+|-sideend|p2: SoloJ|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mr. Rime
+|-boost|p2a: Mr. Rime|spe|1
+|
+|-heal|p1a: Vaporeon|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Mr. Rime|Nasty Plot|p2a: Mr. Rime
+|-boost|p2a: Mr. Rime|spa|2
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Gigalith|Gigalith, F|55/100
+|-activate|p1a: Gigalith|move: Sticky Web
+|-unboost|p1a: Gigalith|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Gigalith
+|-damage|p1a: Gigalith|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mr. Rime|95/100|[from] Sandstorm
+|-heal|p1a: Gigalith|77/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Gigalith|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Piloswine|Piloswine, F|100/100
+|move|p1a: Gigalith|Rock Blast|p2a: Piloswine
+|-damage|p2a: Piloswine|89/100
+|-damage|p2a: Piloswine|79/100
+|-damage|p2a: Piloswine|67/100
+|-damage|p2a: Piloswine|57/100
+|-hitcount|p2a: Piloswine|4
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|89/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|j| Zigurat420
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|-activate|p1a: Vaporeon|move: Sticky Web
+|-unboost|p1a: Vaporeon|spe|1
+|move|p2a: Piloswine|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|52/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|58/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|95/100
+|move|p1a: Vaporeon|Scald|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|61/100
+|-status|p2a: Mr. Rime|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mr. Rime|55/100 brn|[from] Sandstorm
+|-damage|p1a: Vaporeon|52/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|58/100|[from] item: Leftovers
+|-damage|p2a: Mr. Rime|49/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|19/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-weather|none
+|-heal|p1a: Vaporeon|25/100|[from] item: Leftovers
+|-damage|p2a: Mr. Rime|43/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Piloswine|Piloswine, F|57/100
+|move|p1a: Vaporeon|Protect||[still]
+|-fail|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|75/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|43/100 brn
+|move|p1a: Vaporeon|Scald|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|9/100 brn
+|
+|-heal|p1a: Vaporeon|88/100|[from] item: Leftovers
+|-damage|p2a: Mr. Rime|3/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|-damage|p2a: Mr. Rime|0 fnt|[from] brn
+|faint|p2a: Mr. Rime
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|17
+|
+|move|p2a: Indeedee|Trick|p1a: Vaporeon
+|-activate|p2a: Indeedee|move: Trick|[of] p1a: Vaporeon
+|-item|p1a: Vaporeon|Choice Scarf|[from] move: Trick
+|-item|p2a: Indeedee|Leftovers|[from] move: Trick
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Passimian|Passimian, M|100/100
+|switch|p1a: Silvally|Silvally-Steel|35/100
+|-activate|p1a: Silvally|move: Sticky Web
+|-unboost|p1a: Silvally|spe|1
+|
+|-heal|p1a: Silvally|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|19
+|
+|switch|p1a: Vileplume|Vileplume, M|72/100
+|-activate|p1a: Vileplume|move: Sticky Web
+|-unboost|p1a: Vileplume|spe|1
+|move|p2a: Passimian|Close Combat|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|38/100
+|-status|p2a: Passimian|psn|[from] ability: Effect Spore|[of] p1a: Vileplume
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|
+|-heal|p1a: Vileplume|44/100|[from] item: Leftovers
+|-damage|p2a: Passimian|88/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Passimian|Close Combat|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|12/100
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|move|p1a: Vileplume|Strength Sap|p2a: Passimian
+|-unboost|p2a: Passimian|atk|1
+|-ability|p2a: Passimian|Defiant
+|-boost|p2a: Passimian|atk|2
+|-heal|p1a: Vileplume|100/100
+|
+|-damage|p2a: Passimian|76/100 psn|[from] psn
+|upkeep
+|turn|21
+|-message|SoloJ forfeited.
+|
+|win|yung centibro
+|l|☆SoloJ
+|c|☆yung centibro|woosh

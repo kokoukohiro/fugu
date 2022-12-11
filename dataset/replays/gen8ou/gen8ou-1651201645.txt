@@ -1,0 +1,460 @@
+|j|☆minimax_ai
+|j|☆bizarman
+|t:|1661795428
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1531
+|player|p2|bizarman|scientist-gen4|1595
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Volcanion|
+|poke|p2|Tapu Koko|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Garchomp, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1661795437
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: landorustherian|atk|1
+|turn|1
+|
+|t:|1661795445
+|move|p1a: landorustherian|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|move|p2a: Landorus|Toxic|p1a: landorustherian
+|-status|p1a: landorustherian|tox
+|
+|-damage|p1a: landorustherian|94/100 tox|[from] psn
+|-damage|p2a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1661795452
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: rotomwash
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-heal|p2a: Landorus|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1661795459
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1661795465
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tangrowth
+|-immune|p1a: Tangrowth
+|
+|upkeep
+|turn|5
+|
+|t:|1661795474
+|move|p1a: Tangrowth|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Tangrowth|[miss]
+|-miss|p2a: Ferrothorn|p1a: Tangrowth
+|
+|-heal|p2a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1661795483
+|move|p1a: Tangrowth|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|17/100
+|move|p2a: Ferrothorn|Spikes|p1a: Tangrowth
+|-sidestart|p1: minimax_ai|Spikes
+|
+|-heal|p2a: Ferrothorn|23/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1661795490
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Tangrowth|Focus Blast|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|84/100
+|
+|upkeep
+|turn|8
+|
+|t:|1661795496
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|-damage|p1a: rotomwash|88/100|[from] Stealth Rock
+|move|p2a: Tornadus|Knock Off|p1a: rotomwash
+|-damage|p1a: rotomwash|67/100
+|-enditem|p1a: rotomwash|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|upkeep
+|turn|9
+|
+|t:|1661795503
+|move|p2a: Tornadus|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|52/100
+|
+|t:|1661795509
+|switch|p2a: Ferrothorn|Ferrothorn, M|23/100|[from]move: U-turn
+|move|p1a: rotomwash|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|8/100
+|
+|-heal|p2a: Ferrothorn|14/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1661795518
+|move|p1a: rotomwash|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|t:|1661795523
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|11
+|
+|t:|1661795527
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|80/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|12
+|
+|t:|1661795536
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|72/100
+|-activate|p2a: Garchomp|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Garchomp|78/100|[from] item: Leftovers
+|-damage|p2a: Garchomp|66/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1661795546
+|switch|p1a: landorustherian|Landorus-Therian, M|94/100 tox
+|-damage|p1a: landorustherian|82/100 tox|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Earthquake|p1a: landorustherian
+|-immune|p1a: landorustherian
+|
+|-heal|p2a: Garchomp|72/100|[from] item: Leftovers
+|-heal|p1a: landorustherian|88/100 tox|[from] item: Leftovers
+|-damage|p1a: landorustherian|82/100 tox|[from] psn
+|-end|p2a: Garchomp|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|14
+|
+|t:|1661795561
+|switch|p2a: Landorus|Landorus-Therian, M|88/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: landorustherian|atk|1
+|move|p1a: landorustherian|Defog|p2a: Landorus
+|-unboost|p2a: Landorus|evasion|1
+|-sideend|p1: minimax_ai|Spikes|[from] move: Defog|[of] p1a: landorustherian
+|-sideend|p1: minimax_ai|Stealth Rock|[from] move: Defog|[of] p1a: landorustherian
+|-fieldend|move: Electric Terrain
+|
+|-heal|p1a: landorustherian|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Landorus|94/100 tox|[from] item: Leftovers
+|-damage|p1a: landorustherian|76/100 tox|[from] psn
+|-damage|p2a: Landorus|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1661795572
+|switch|p1a: rotomwash|Rotom-Wash|52/100
+|move|p2a: Landorus|Stealth Rock|p1a: rotomwash
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|-heal|p2a: Landorus|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1661795581
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: rotomwash|Pain Split|p2a: Volcanion
+|-sethp|p2a: Volcanion|77/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|76/100|[from] move: Pain Split
+|
+|upkeep
+|turn|17
+|
+|t:|1661795591
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: rotomwash|Thunderbolt|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|74/100
+|
+|upkeep
+|turn|18
+|
+|t:|1661795599
+|switch|p1a: Melmetal|Melmetal|100/100
+|-damage|p1a: Melmetal|94/100|[from] Stealth Rock
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Melmetal
+|-damage|p1a: Melmetal|68/100
+|
+|upkeep
+|turn|19
+|
+|t:|1661795605
+|move|p2a: Tapu Koko|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|64/100
+|
+|t:|1661795608
+|switch|p2a: Landorus|Landorus-Therian, M|82/100 tox|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Melmetal|atk|1
+|move|p1a: Melmetal|Thunder Punch|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p2a: Landorus|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Landorus|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1661795619
+|switch|p1a: rotomwash|Rotom-Wash|76/100
+|-damage|p1a: rotomwash|63/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|41/100
+|
+|t:|1661795625
+|switch|p2a: Tapu Koko|Tapu Koko|74/100|[from]move: U-turn
+|
+|upkeep
+|turn|21
+|
+|t:|1661795629
+|switch|p1a: Heatran|Heatran, M|80/100
+|-damage|p1a: Heatran|67/100|[from] Stealth Rock
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|18/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|22
+|
+|t:|1661795635
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1661795635
+|switch|p1a: landorustherian|Landorus-Therian, M|76/100 tox
+|-damage|p1a: landorustherian|64/100 tox|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tapu Koko|atk|1
+|turn|23
+|
+|t:|1661795644
+|move|p2a: Tapu Koko|U-turn|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|58/100 tox
+|
+|t:|1661795648
+|switch|p2a: Landorus|Landorus-Therian, M|82/100 tox|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: landorustherian|atk|1
+|move|p1a: landorustherian|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p1a: landorustherian|64/100 tox|[from] item: Leftovers
+|-heal|p2a: Landorus|88/100 tox|[from] item: Leftovers
+|-damage|p1a: landorustherian|58/100 tox|[from] psn
+|-damage|p2a: Landorus|82/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1661795658
+|move|p1a: landorustherian|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|47/100 tox
+|
+|t:|1661795666
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: landorustherian|54/100 tox|[from] item: Leftovers
+|-damage|p1a: landorustherian|41/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1661795672
+|move|p2a: Tornadus|Hurricane|p1a: landorustherian
+|-damage|p1a: landorustherian|13/100 tox
+|move|p1a: landorustherian|Defog|p2a: Tornadus
+|-unboost|p2a: Tornadus|evasion|1
+|-sideend|p1: minimax_ai|Stealth Rock|[from] move: Defog|[of] p1a: landorustherian
+|
+|-heal|p1a: landorustherian|19/100 tox|[from] item: Leftovers
+|-damage|p1a: landorustherian|1/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1661795680
+|move|p2a: Tornadus|Knock Off|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|-enditem|p1a: landorustherian|Leftovers|[from] move: Knock Off|[of] p2a: Tornadus
+|faint|p1a: landorustherian
+|
+|upkeep
+|
+|t:|1661795680
+|switch|p1a: rotomwash|Rotom-Wash|41/100
+|turn|27
+|
+|t:|1661795688
+|move|p2a: Tornadus|U-turn|p1a: rotomwash
+|-damage|p1a: rotomwash|25/100
+|
+|t:|1661795693
+|switch|p2a: Tapu Koko|Tapu Koko|74/100|[from]move: U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: rotomwash|Pain Split|p2a: Tapu Koko
+|-sethp|p2a: Tapu Koko|51/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|47/100|[from] move: Pain Split
+|
+|upkeep
+|turn|28
+|
+|t:|1661795701
+|move|p2a: Tapu Koko|Thunderbolt|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1661795701
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|turn|29
+|
+|t:|1661795711
+|switch|p2a: Landorus|Landorus-Therian, M|82/100 tox
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tangrowth|atk|1
+|move|p1a: Tangrowth|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|68/100 tox
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|-damage|p2a: Landorus|61/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1661795720
+|move|p2a: Landorus|Stealth Rock|p1a: Tangrowth
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|move|p1a: Tangrowth|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|52/100 tox
+|
+|-damage|p2a: Landorus|40/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1661795726
+|move|p2a: Landorus|Toxic|p1a: Tangrowth
+|-status|p1a: Tangrowth|tox
+|move|p1a: Tangrowth|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|18/100 tox
+|
+|-damage|p2a: Landorus|0 fnt|[from] psn
+|faint|p2a: Landorus
+|-damage|p1a: Tangrowth|94/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1661795734
+|switch|p2a: Volcanion|Volcanion|77/100
+|turn|32
+|
+|t:|1661795738
+|move|p2a: Volcanion|Flamethrower|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|upkeep
+|
+|t:|1661795739
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|33
+|
+|t:|1661795747
+|move|p1a: Weavile|Knock Off|p2a: Volcanion
+|-damage|p2a: Volcanion|10/100
+|-enditem|p2a: Volcanion|Choice Specs|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Volcanion|Flamethrower|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1661795747
+|switch|p1a: Melmetal|Melmetal|64/100
+|-damage|p1a: Melmetal|57/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1661795756
+|move|p2a: Volcanion|Flamethrower|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|win|bizarman
+|raw|minimax_ai's rating: 1531 &rarr; <strong>1515</strong><br />(-16 for losing)
+|raw|bizarman's rating: 1595 &rarr; <strong>1611</strong><br />(+16 for winning)
+|c|☆minimax_ai|gg

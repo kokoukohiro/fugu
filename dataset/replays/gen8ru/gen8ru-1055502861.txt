@@ -1,0 +1,356 @@
+|j|☆h2otogo2
+|j|☆Cowtao
+|player|p1|h2otogo2|101|1401
+|player|p2|Cowtao|hiker|1442
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Pangoro, F|
+|poke|p1|Dhelmise|
+|poke|p1|Salazzle, F|
+|poke|p1|Jolteon, M|
+|poke|p1|Vaporeon, F|
+|poke|p1|Steelix, F|
+|poke|p2|Quagsire, F|
+|poke|p2|Machamp, F|
+|poke|p2|Gigalith, M|
+|poke|p2|Turtonator, M|
+|poke|p2|Roserade, F|
+|poke|p2|Silvally-*|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|switch|p2a: Gnar|Machamp, F, shiny|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cowtao)
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Gnar|Knock Off|p1a: Vaporeon
+|-damage|p1a: Vaporeon|73/100
+|-enditem|p1a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p2a: Gnar
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Vaporeon|Scald|p2a: Gnar
+|-damage|p2a: Gnar|79/100
+|move|p2a: Gnar|Knock Off|p1a: Vaporeon
+|-damage|p1a: Vaporeon|56/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Gnar|Rock Tomb|p1a: Vaporeon
+|-damage|p1a: Vaporeon|40/100
+|-unboost|p1a: Vaporeon|spe|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Gnar|Close Combat|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-unboost|p2a: Gnar|def|1
+|-unboost|p2a: Gnar|spd|1
+|faint|p1a: Vaporeon
+|
+|upkeep
+|
+|switch|p1a: Pangoro|Pangoro, F|100/100
+|turn|5
+|inactive|h2otogo2 has 120 seconds left.
+|
+|switch|p2a: Whooper|Quagsire, F|100/100
+|move|p1a: Pangoro|Close Combat|p2a: Whooper
+|-damage|p2a: Whooper|26/100
+|-unboost|p1a: Pangoro|def|1
+|-unboost|p1a: Pangoro|spd|1
+|
+|-heal|p2a: Whooper|32/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Pangoro|Close Combat|p2a: Whooper
+|-damage|p2a: Whooper|0 fnt
+|-unboost|p1a: Pangoro|def|1
+|-unboost|p1a: Pangoro|spd|1
+|faint|p2a: Whooper
+|
+|upkeep
+|
+|switch|p2a: Fiya! Fiya!|Turtonator, M, shiny|100/100
+|turn|7
+|
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|move|p2a: Fiya! Fiya!|Shell Smash|p2a: Fiya! Fiya!
+|-unboost|p2a: Fiya! Fiya!|def|1
+|-unboost|p2a: Fiya! Fiya!|spd|1
+|-boost|p2a: Fiya! Fiya!|atk|2
+|-boost|p2a: Fiya! Fiya!|spa|2
+|-boost|p2a: Fiya! Fiya!|spe|2
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Fiya! Fiya!|Fire Blast|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|switch|p1a: Steelix|Steelix, F|100/100
+|turn|9
+|
+|switch|p2a: Gnar|Machamp, F, shiny|79/100
+|move|p1a: Steelix|Earthquake|p2a: Gnar
+|-damage|p2a: Gnar|33/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Gnar|Close Combat|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|36/100
+|-unboost|p2a: Gnar|def|1
+|-unboost|p2a: Gnar|spd|1
+|move|p1a: Steelix|Stealth Rock|p2a: Gnar
+|-sidestart|p2: Cowtao|move: Stealth Rock
+|
+|-heal|p1a: Steelix|42/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Gnar|Close Combat|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|51/100
+|-unboost|p2a: Gnar|def|1
+|-unboost|p2a: Gnar|spd|1
+|
+|-heal|p1a: Salazzle|57/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Gnar
+|-damage|p2a: Gnar|0 fnt
+|faint|p2a: Gnar
+|
+|-heal|p1a: Salazzle|63/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Fiya! Fiya!|Turtonator, M, shiny|100/100
+|turn|13
+|
+|move|p1a: Salazzle|Toxic|p2a: Fiya! Fiya!
+|-status|p2a: Fiya! Fiya!|tox
+|move|p2a: Fiya! Fiya!|Rapid Spin|p1a: Salazzle
+|-crit|p1a: Salazzle
+|-damage|p1a: Salazzle|47/100
+|-sideend|p2: Cowtao|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Fiya! Fiya!
+|-boost|p2a: Fiya! Fiya!|spe|1
+|
+|-heal|p1a: Salazzle|54/100|[from] item: Black Sludge
+|-damage|p2a: Fiya! Fiya!|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|29/100
+|move|p2a: Fiya! Fiya!|Shell Smash|p2a: Fiya! Fiya!
+|-unboost|p2a: Fiya! Fiya!|def|1
+|-unboost|p2a: Fiya! Fiya!|spd|1
+|-boost|p2a: Fiya! Fiya!|atk|2
+|-boost|p2a: Fiya! Fiya!|spa|2
+|-boost|p2a: Fiya! Fiya!|spe|2
+|
+|-heal|p1a: Salazzle|35/100|[from] item: Black Sludge
+|-damage|p2a: Fiya! Fiya!|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Fiya! Fiya!|Fire Blast|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|41/100|[from] item: Black Sludge
+|-damage|p2a: Fiya! Fiya!|64/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Fiya! Fiya!|Fire Blast|p1a: Salazzle|[miss]
+|-miss|p2a: Fiya! Fiya!|p1a: Salazzle
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-fail|p1a: Salazzle|move: Substitute
+|
+|-heal|p1a: Salazzle|47/100|[from] item: Black Sludge
+|-damage|p2a: Fiya! Fiya!|39/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Fiya! Fiya!|Draco Meteor|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|54/100|[from] item: Black Sludge
+|-damage|p2a: Fiya! Fiya!|9/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: Fiya! Fiya!|Draco Meteor|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|-unboost|p2a: Fiya! Fiya!|spa|2
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|29/100
+|
+|-heal|p1a: Salazzle|35/100|[from] item: Black Sludge
+|-damage|p2a: Fiya! Fiya!|0 fnt|[from] psn
+|faint|p2a: Fiya! Fiya!
+|upkeep
+|
+|switch|p2a: DataErr0r|Silvally-Ghost, shiny|100/100
+|turn|19
+|
+|move|p1a: Salazzle|Toxic|p2a: DataErr0r
+|-status|p2a: DataErr0r|tox
+|move|p2a: DataErr0r|Multi-Attack|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|41/100|[from] item: Black Sludge
+|-damage|p2a: DataErr0r|94/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: DataErr0r|Multi-Attack|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|47/100|[from] item: Black Sludge
+|-damage|p2a: DataErr0r|82/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|23/100
+|move|p2a: DataErr0r|Multi-Attack|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|29/100|[from] item: Black Sludge
+|-damage|p2a: DataErr0r|64/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: DataErr0r|Multi-Attack|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|35/100|[from] item: Black Sludge
+|-damage|p2a: DataErr0r|40/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|10/100
+|move|p2a: DataErr0r|Multi-Attack|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|16/100|[from] item: Black Sludge
+|-damage|p2a: DataErr0r|10/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: DataErr0r|Multi-Attack|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|23/100|[from] item: Black Sludge
+|-damage|p2a: DataErr0r|0 fnt|[from] psn
+|faint|p2a: DataErr0r
+|upkeep
+|
+|switch|p2a: Monolith|Gigalith, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Monolith
+|turn|25
+|
+|switch|p1a: Pangoro|Pangoro, F|100/100
+|move|p2a: Monolith|Stone Edge|p1a: Pangoro|[miss]
+|-miss|p2a: Monolith|p1a: Pangoro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pangoro|94/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|move|p2a: Monolith|Protect|p2a: Monolith
+|-singleturn|p2a: Monolith|Protect
+|move|p1a: Pangoro|Close Combat|p2a: Monolith
+|-activate|p2a: Monolith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pangoro|88/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|move|p1a: Pangoro|Close Combat|p2a: Monolith
+|-supereffective|p2a: Monolith
+|-damage|p2a: Monolith|0 fnt
+|-unboost|p1a: Pangoro|def|1
+|-unboost|p1a: Pangoro|spd|1
+|faint|p2a: Monolith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pangoro|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Shroob|Roserade, F, shiny|100/100
+|turn|28
+|
+|move|p2a: Shroob|Sludge Bomb|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|-damage|p2a: Shroob|91/100|[from] item: Life Orb
+|faint|p1a: Pangoro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shroob|84/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|23/100
+|turn|29
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Shroob
+|-supereffective|p2a: Shroob
+|-damage|p2a: Shroob|2/100
+|move|p2a: Shroob|Extrasensory|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|-damage|p2a: Shroob|0 fnt|[from] item: Life Orb
+|faint|p1a: Salazzle
+|faint|p2a: Shroob
+|
+|win|h2otogo2
+|c|☆h2otogo2|gg
+|raw|h2otogo2's rating: 1402 &rarr; <strong>1424</strong><br />(+22 for winning)
+|raw|Cowtao's rating: 1442 &rarr; <strong>1420</strong><br />(-22 for losing)
+|c|☆Cowtao|gg
+|l|☆Cowtao

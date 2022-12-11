@@ -1,0 +1,299 @@
+|j|☆gotei 14
+|j|☆Colorsee
+|player|p1|gotei 14|ghetsis|
+|player|p2|Colorsee|norman|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|clearpoke
+|poke|p1|Blastoise, F|
+|poke|p1|Tangrowth, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Venusaur, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Lucario, M|
+|poke|p2|Venusaur, F|
+|poke|p2|Salamence, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Chansey, F|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|
+|start
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: gotei 14|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Toxapex|Toxic|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Toxapex|Scald|p2a: Chansey
+|-damage|p2a: Chansey|97/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Salamence|Salamence, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Toxapex|atk|1
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|switch|p2a: Chansey|Chansey, F|97/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p2a: Chansey|Toxic|p1a: Tangrowth
+|-status|p1a: Tangrowth|tox
+|move|p1a: Tangrowth|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Sleep Powder
+|
+|-damage|p1a: Tangrowth|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Torkoal|Yawn|p1a: Toxapex
+|-start|p1a: Toxapex|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Toxapex|Scald|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|80/100
+|move|p2a: Torkoal|Lava Plume|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Toxapex|move: Yawn|[silent]
+|-status|p1a: Toxapex|slp
+|upkeep
+|turn|10
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-damage|p1a: Torkoal|76/100|[from] Stealth Rock
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Chansey|Chansey, F|97/100
+|move|p1a: Torkoal|Lava Plume|p2a: Chansey
+|-damage|p2a: Chansey|80/100
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Aegislash
+|-sidestart|p2: Colorsee|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Chansey|Chansey, F|80/100
+|-damage|p2a: Chansey|68/100|[from] Stealth Rock
+|move|p1a: Torkoal|Will-O-Wisp|p2a: Chansey
+|-status|p2a: Chansey|brn
+|
+|-damage|p2a: Chansey|62/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100 slp
+|-damage|p1a: Toxapex|88/100 slp|[from] Stealth Rock
+|move|p2a: Chansey|Aromatherapy|p2a: Chansey
+|-activate|p2a: Chansey|move: Aromatherapy
+|-curestatus|p2a: Chansey|brn|[msg]
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Torkoal|Torkoal, M|80/100
+|-damage|p2a: Torkoal|55/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|cant|p1a: Toxapex|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|cant|p1a: Toxapex|slp
+|move|p2a: Torkoal|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|82/100 slp
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: Colorsee|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|-curestatus|p1a: Toxapex|slp|[msg]
+|move|p1a: Toxapex|Toxic|p2a: Venusaur
+|-immune|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Venusaur|Giga Drain|p1a: Toxapex
+|-damage|p1a: Toxapex|63/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Toxapex|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|
+|-damage|p2a: Togekiss|94/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Chansey|Chansey, F|62/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Chansey|Aromatherapy|p2a: Chansey
+|-activate|p2a: Chansey|move: Aromatherapy
+|-curestatus|p2: Togekiss|tox|[msg]
+|move|p1a: Toxapex|Scald|p2a: Chansey
+|-damage|p2a: Chansey|54/100
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Toxapex|Toxic|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Togekiss|Togekiss, M|94/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Togekiss|Substitute|p2a: Togekiss
+|-start|p2a: Togekiss|Substitute
+|-damage|p2a: Togekiss|69/100
+|move|p1a: Toxapex|Toxic||[still]
+|-fail|p1a: Toxapex
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|72/100
+|cant|p1a: Toxapex|flinch
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|44/100
+|cant|p1a: Toxapex|flinch
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex|[miss]
+|-miss|p2a: Togekiss|p1a: Toxapex
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|16/100
+|cant|p1a: Toxapex|flinch
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|98/100
+|-damage|p1a: Lucario|95/100|[from] Stealth Rock
+|turn|32
+|-message|gotei 14 forfeited.
+|
+|win|Colorsee
+|l|☆gotei 14

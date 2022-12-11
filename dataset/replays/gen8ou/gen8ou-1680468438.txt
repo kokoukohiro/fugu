@@ -1,0 +1,336 @@
+|j|☆brettfavreinnocent
+|j|☆JeffS69
+|t:|1665194569
+|gametype|singles
+|player|p1|brettfavreinnocent|aromalady|1694
+|player|p2|JeffS69|elesa|1645
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Regigigas|
+|poke|p1|Moltres-Galar|
+|poke|p1|Scizor, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Registeel|
+|poke|p1|Mamoswine, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Slowbro, M|
+|poke|p2|Nidoking, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JeffS69)
+|
+|t:|1665194604
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: dplt-MKII|Dragapult, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1665194628
+|move|p2a: dplt-MKII|Flamethrower|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1665194638
+|switch|p1a: Regigigas|Regigigas|100/100
+|-start|p1a: Regigigas|ability: Slow Start
+|turn|2
+|
+|t:|1665194658
+|switch|p2a: Gluttony|Slowbro, M|100/100
+|move|p1a: Regigigas|Knock Off|p2a: Gluttony
+|-supereffective|p2a: Gluttony
+|-damage|p2a: Gluttony|79/100
+|-enditem|p2a: Gluttony|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Regigigas
+|
+|-heal|p2a: Gluttony|85/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1665194663
+|move|p1a: Regigigas|Block|p2a: Gluttony
+|-activate|p2a: Gluttony|trapped
+|move|p2a: Gluttony|Teleport|p2a: Gluttony
+|
+|t:|1665194665
+|switch|p2a: Ebb|Urshifu-Rapid-Strike, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|4
+|
+|t:|1665194669
+|move|p2a: Ebb|Close Combat|p1a: Regigigas
+|-supereffective|p1a: Regigigas
+|-damage|p1a: Regigigas|0 fnt
+|-unboost|p2a: Ebb|def|1
+|-unboost|p2a: Ebb|spd|1
+|faint|p1a: Regigigas
+|-end|p1a: Regigigas|Slow Start|[silent]
+|
+|upkeep
+|
+|t:|1665194681
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|5
+|
+|t:|1665194689
+|switch|p2a: dplt-MKII|Dragapult, F|100/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1665194695
+|move|p1a: Scizor|Bullet Punch|p2a: dplt-MKII
+|-damage|p2a: dplt-MKII|0 fnt
+|faint|p2a: dplt-MKII
+|-damage|p1a: Scizor|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1665194698
+|switch|p2a: Temple|Landorus-Therian, M|100/100
+|-ability|p2a: Temple|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|turn|7
+|
+|t:|1665194701
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Temple|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|34/100
+|
+|upkeep
+|turn|8
+|
+|t:|1665194706
+|switch|p2a: Mantle|Heatran, F|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Mantle
+|-resisted|p2a: Mantle
+|-damage|p2a: Mantle|77/100
+|-status|p1a: Scizor|brn|[from] ability: Flame Body|[of] p2a: Mantle
+|-damage|p1a: Scizor|24/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Mantle|83/100|[from] item: Leftovers
+|-damage|p1a: Scizor|18/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1665194711
+|move|p1a: Scizor|Superpower|p2a: Mantle
+|-supereffective|p2a: Mantle
+|-damage|p2a: Mantle|0 fnt
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|def|1
+|faint|p2a: Mantle
+|-damage|p1a: Scizor|8/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Scizor|2/100 brn|[from] brn
+|upkeep
+|
+|t:|1665194715
+|switch|p2a: Ebb|Urshifu-Rapid-Strike, M|100/100
+|turn|10
+|
+|t:|1665194723
+|switch|p2a: Gluttony|Slowbro, M|100/100
+|move|p1a: Scizor|Quick Attack|p2a: Gluttony
+|-damage|p2a: Gluttony|83/100
+|-damage|p1a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1665194725
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|turn|11
+|
+|t:|1665194731
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|move|p2a: Gluttony|Teleport|p2a: Gluttony
+|
+|t:|1665194735
+|switch|p2a: Noxious|Nidoking, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|12
+|
+|t:|1665194740
+|move|p1a: Moltres|Nasty Plot|p1a: Moltres
+|-boost|p1a: Moltres|spa|2
+|move|p2a: Noxious|Ice Beam|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|31/100
+|
+|upkeep
+|turn|13
+|
+|t:|1665194745
+|move|p1a: Moltres|Fiery Wrath|p2a: Noxious
+|-damage|p2a: Noxious|0 fnt
+|faint|p2a: Noxious
+|
+|upkeep
+|
+|t:|1665194749
+|switch|p2a: Temple|Landorus-Therian, M|100/100
+|-ability|p2a: Temple|Intimidate|boost
+|-unboost|p1a: Moltres|atk|1
+|turn|14
+|
+|t:|1665194753
+|move|p1a: Moltres|Rest|p1a: Moltres
+|-status|p1a: Moltres|slp|[from] move: Rest
+|-heal|p1a: Moltres|100/100 slp|[silent]
+|-enditem|p1a: Moltres|Chesto Berry|[eat]
+|-curestatus|p1a: Moltres|slp|[msg]
+|move|p2a: Temple|Knock Off|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|89/100
+|
+|upkeep
+|turn|15
+|
+|t:|1665194755
+|move|p1a: Moltres|Nasty Plot|p1a: Moltres
+|-boost|p1a: Moltres|spa|2
+|move|p2a: Temple|U-turn|p1a: Moltres
+|-damage|p1a: Moltres|65/100
+|
+|t:|1665194759
+|switch|p2a: Gluttony|Slowbro, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|16
+|
+|t:|1665194763
+|move|p1a: Moltres|Nasty Plot|p1a: Moltres
+|-boost|p1a: Moltres|spa|2
+|move|p2a: Gluttony|Scald|p1a: Moltres
+|-damage|p1a: Moltres|43/100
+|-status|p1a: Moltres|brn
+|
+|-damage|p1a: Moltres|37/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1665194771
+|move|p1a: Moltres|Fiery Wrath|p2a: Gluttony
+|-supereffective|p2a: Gluttony
+|-damage|p2a: Gluttony|0 fnt
+|faint|p2a: Gluttony
+|
+|-damage|p1a: Moltres|31/100 brn|[from] brn
+|upkeep
+|
+|t:|1665194775
+|switch|p2a: Ebb|Urshifu-Rapid-Strike, M|100/100
+|turn|18
+|
+|t:|1665194778
+|move|p2a: Ebb|Aqua Jet|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1665194781
+|switch|p1a: Registeel|Registeel|100/100
+|turn|19
+|
+|t:|1665194788
+|switch|p2a: Temple|Landorus-Therian, M|100/100
+|-ability|p2a: Temple|Intimidate|boost
+|-fail|p1a: Registeel|unboost|[from] ability: Clear Body|[of] p1a: Registeel
+|move|p1a: Registeel|Iron Defense|p1a: Registeel
+|-boost|p1a: Registeel|def|2
+|
+|upkeep
+|turn|20
+|
+|t:|1665194792
+|move|p2a: Temple|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|77/100
+|move|p1a: Registeel|Iron Defense|p1a: Registeel
+|-boost|p1a: Registeel|def|2
+|
+|-heal|p1a: Registeel|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1665194795
+|move|p2a: Temple|Knock Off|p1a: Registeel
+|-damage|p1a: Registeel|78/100
+|-enditem|p1a: Registeel|Leftovers|[from] move: Knock Off|[of] p2a: Temple
+|move|p1a: Registeel|Iron Defense|p1a: Registeel
+|-boost|p1a: Registeel|def|2
+|
+|upkeep
+|turn|22
+|
+|t:|1665194797
+|move|p2a: Temple|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|66/100
+|move|p1a: Registeel|Body Press|p2a: Temple
+|-resisted|p2a: Temple
+|-damage|p2a: Temple|32/100
+|
+|-heal|p2a: Temple|38/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1665194799
+|move|p2a: Temple|Earthquake|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|52/100
+|move|p1a: Registeel|Body Press|p2a: Temple
+|-resisted|p2a: Temple
+|-damage|p2a: Temple|0 fnt
+|faint|p2a: Temple
+|
+|upkeep
+|
+|t:|1665194801
+|switch|p2a: Ebb|Urshifu-Rapid-Strike, M|100/100
+|turn|24
+|
+|t:|1665194802
+|move|p2a: Ebb|Surging Strikes|p1a: Registeel
+|-crit|p1a: Registeel
+|-damage|p1a: Registeel|38/100
+|-crit|p1a: Registeel
+|-damage|p1a: Registeel|22/100
+|-crit|p1a: Registeel
+|-damage|p1a: Registeel|7/100
+|-hitcount|p1a: Registeel|3
+|move|p1a: Registeel|Body Press|p2a: Ebb
+|-damage|p2a: Ebb|0 fnt
+|faint|p2a: Ebb
+|
+|win|brettfavreinnocent
+|raw|brettfavreinnocent's rating: 1694 &rarr; <strong>1711</strong><br />(+17 for winning)
+|raw|JeffS69's rating: 1645 &rarr; <strong>1628</strong><br />(-17 for losing)
+|l|☆JeffS69
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

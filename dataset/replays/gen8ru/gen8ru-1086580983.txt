@@ -1,0 +1,585 @@
+|j|☆JLT3 Danyul
+|j|☆JLT3 oSuave
+|player|p1|JLT3 Danyul|262|1332
+|player|p2|JLT3 oSuave|ethan-gen2c|1266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Cramorant, M|
+|poke|p1|Mantine, M|
+|poke|p1|Steelix, M|
+|poke|p1|Flapple, F|
+|poke|p1|Galvantula, F|
+|poke|p1|Gallade, M|
+|poke|p2|Sableye, F|
+|poke|p2|Mantine, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Steelix, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Cramorant, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JLT3 oSuave)
+|
+|start
+|switch|p1a: Steelix|Steelix, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|1
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: Steelix|Earthquake|p2a: Mantine
+|-immune|p2a: Mantine
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|move|p2a: Mantine|Scald|p1a: Mantine
+|-immune|p1a: Mantine|[from] ability: Water Absorb
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mantine|Toxic|p1a: Mantine
+|-status|p1a: Mantine|tox
+|move|p1a: Mantine|Toxic|p2a: Mantine|[miss]
+|-miss|p1a: Mantine|p2a: Mantine
+|
+|-damage|p1a: Mantine|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Mantine|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|
+|-damage|p1a: Mantine|82/100 tox|[from] psn
+|-damage|p2a: Snorlax|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|switch|p2a: Steelix|Steelix, M|100/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Gallade|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|70/100
+|-enditem|p2a: Sableye|Leftovers|[from] move: Knock Off|[of] p1a: Gallade
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Mantine|Mantine, M|82/100 tox
+|move|p2a: Sableye|Knock Off|p1a: Mantine
+|-damage|p1a: Mantine|59/100 tox
+|-enditem|p1a: Mantine|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-damage|p1a: Mantine|53/100 tox|[from] psn
+|upkeep
+|turn|8
+|j| scblol26
+|
+|switch|p2a: Snorlax|Snorlax, M|94/100 tox
+|move|p1a: Mantine|Scald|p2a: Snorlax
+|-damage|p2a: Snorlax|82/100 tox
+|
+|-heal|p2a: Snorlax|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Mantine|40/100 tox|[from] psn
+|-damage|p2a: Snorlax|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|c| scblol26|jlt3 matchup :eyes:
+|c|☆JLT3 Danyul|finna lose hella points
+|
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|90/100 tox
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Mantine|72/100 tox|[from] psn
+|-damage|p2a: Snorlax|76/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Gallade
+|-damage|p1a: Gallade|15/100
+|
+|-heal|p2a: Snorlax|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|64/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Sableye|Sableye, F|70/100
+|move|p1a: Gallade|Poison Jab|p2a: Sableye
+|-resisted|p2a: Sableye
+|-damage|p2a: Sableye|58/100
+|-status|p2a: Sableye|psn
+|
+|-damage|p2a: Sableye|45/100 psn|[from] psn
+|upkeep
+|turn|12
+|c|☆JLT3 oSuave|ok
+|
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|95/100 psn
+|
+|-damage|p2a: Sableye|83/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|move|p1a: Galvantula|Sticky Web|p2a: Steelix
+|-sidestart|p2: JLT3 oSuave|move: Sticky Web
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Cramorant|Cramorant, M|100/100
+|move|p2a: Steelix|Stealth Rock|p1a: Cramorant
+|-sidestart|p1: JLT3 Danyul|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: Cramorant|Hurricane|p2a: Mantine
+|-damage|p2a: Mantine|54/100
+|
+|upkeep
+|turn|16
+|c| scblol26|holy shit
+|
+|move|p1a: Cramorant|Hurricane|p2a: Mantine
+|-damage|p2a: Mantine|10/100
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|60/100
+|-singleturn|p2a: Mantine|move: Roost
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|-damage|p1a: Galvantula|76/100|[from] Stealth Rock
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|100/100
+|-singleturn|p2a: Mantine|move: Roost
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Steelix|Steelix, M|100/100
+|-activate|p2a: Steelix|move: Sticky Web
+|-unboost|p2a: Steelix|spe|1
+|move|p1a: Galvantula|Energy Ball|p2a: Steelix
+|-damage|p2a: Steelix|76/100
+|
+|-heal|p2a: Steelix|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Mantine|Mantine, M|72/100 tox
+|-damage|p1a: Mantine|47/100 tox|[from] Stealth Rock
+|move|p2a: Steelix|Earthquake|p1a: Mantine
+|-immune|p1a: Mantine
+|
+|-heal|p2a: Steelix|88/100|[from] item: Leftovers
+|-damage|p1a: Mantine|41/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Snorlax|Snorlax, M|64/100 tox
+|-activate|p2a: Snorlax|move: Sticky Web
+|-unboost|p2a: Snorlax|spe|1
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|91/100 tox
+|-singleturn|p1a: Mantine|move: Roost
+|
+|-heal|p2a: Snorlax|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Mantine|79/100 tox|[from] psn
+|-damage|p2a: Snorlax|64/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p1a: Gallade|Gallade, M|15/100
+|-damage|p1a: Gallade|9/100|[from] Stealth Rock
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Cramorant|Cramorant, M|100/100
+|-damage|p1a: Cramorant|76/100|[from] Stealth Rock
+|switch|p2a: Sableye|Sableye, F|83/100 psn
+|-activate|p2a: Sableye|move: Sticky Web
+|-unboost|p2a: Sableye|spe|1
+|
+|-damage|p2a: Sableye|70/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: Cramorant|Surf|p2a: Mantine
+|-immune|p2a: Mantine|[from] ability: Water Absorb
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Mantine|Mantine, M|79/100 tox
+|-damage|p1a: Mantine|54/100 tox|[from] Stealth Rock
+|move|p2a: Mantine|Hurricane|p1a: Mantine
+|-damage|p1a: Mantine|33/100 tox
+|
+|-damage|p1a: Mantine|27/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100 slp
+|-activate|p2a: Snorlax|move: Sticky Web
+|-unboost|p2a: Snorlax|spe|1
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|77/100 tox
+|-singleturn|p1a: Mantine|move: Roost
+|
+|-damage|p1a: Mantine|65/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p1a: Mantine|Defog|p2a: Snorlax
+|-unboost|p2a: Snorlax|evasion|1
+|-sideend|p2: JLT3 oSuave|Sticky Web|[from] move: Defog|[of] p1a: Mantine
+|-sideend|p1: JLT3 Danyul|Stealth Rock|[from] move: Defog|[of] p1a: Mantine
+|cant|p2a: Snorlax|slp
+|
+|-damage|p1a: Mantine|46/100 tox|[from] psn
+|upkeep
+|turn|27
+|c| scblol26|i hate that ur mantine doesn't have defog suave lmao
+|
+|switch|p1a: Gallade|Gallade, M|9/100
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Sableye|Sableye, F|70/100 psn
+|move|p1a: Gallade|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|48/100 psn
+|
+|-damage|p2a: Sableye|35/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|switch|p1a: Galvantula|Galvantula, F|76/100
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|85/100 psn
+|
+|-damage|p2a: Sableye|73/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Galvantula|Energy Ball|p2a: Sableye
+|-damage|p2a: Sableye|33/100 psn
+|move|p2a: Sableye|Knock Off|p1a: Galvantula
+|-damage|p1a: Galvantula|24/100
+|-enditem|p1a: Galvantula|Focus Sash|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-damage|p2a: Sableye|21/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100 slp
+|move|p1a: Galvantula|Thunder|p2a: Snorlax
+|-damage|p2a: Snorlax|73/100 slp
+|
+|-heal|p2a: Snorlax|80/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|86/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|move|p1a: Steelix|Roar|p2a: Snorlax
+|drag|p2a: Salazzle|Salazzle, F|100/100
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: Steelix|Earthquake|p2a: Mantine
+|-immune|p2a: Mantine
+|
+|upkeep
+|turn|35
+|
+|switch|p2a: Snorlax|Snorlax, M|86/100
+|switch|p1a: Mantine|Mantine, M|46/100 tox
+|
+|-heal|p2a: Snorlax|92/100|[from] item: Leftovers
+|-damage|p1a: Mantine|40/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|move|p1a: Mantine|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|move|p2a: Snorlax|Body Slam|p1a: Mantine
+|-damage|p1a: Mantine|15/100 tox
+|
+|-heal|p2a: Snorlax|98/100 tox|[from] item: Leftovers
+|-damage|p1a: Mantine|3/100 tox|[from] psn
+|-damage|p2a: Snorlax|92/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|92/100
+|-status|p1a: Steelix|par
+|
+|-heal|p2a: Snorlax|98/100 tox|[from] item: Leftovers
+|-heal|p1a: Steelix|99/100 par|[from] item: Leftovers
+|-damage|p2a: Snorlax|86/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|move|p1a: Steelix|Stealth Rock|p2a: Snorlax
+|-sidestart|p2: JLT3 oSuave|move: Stealth Rock
+|
+|-heal|p1a: Steelix|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Gallade|Gallade, M|9/100
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|40
+|
+|switch|p2a: Cramorant|Cramorant, F, shiny|100/100
+|move|p1a: Gallade|Close Combat|p2a: Cramorant
+|-resisted|p2a: Cramorant
+|-crit|p2a: Cramorant
+|-damage|p2a: Cramorant|54/100
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|
+|upkeep
+|turn|41
+|
+|switch|p1a: Mantine|Mantine, M|3/100 tox
+|move|p2a: Cramorant|Defog|p1a: Mantine
+|-unboost|p1a: Mantine|evasion|1
+|-sideend|p2: JLT3 oSuave|Stealth Rock|[from] move: Defog|[of] p2a: Cramorant
+|
+|-damage|p1a: Mantine|0 fnt|[from] psn
+|faint|p1a: Mantine
+|upkeep
+|
+|switch|p1a: Cramorant|Cramorant, M|76/100
+|turn|42
+|
+|switch|p2a: Steelix|Steelix, M|88/100
+|move|p1a: Cramorant|Hurricane|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|55/100
+|
+|-heal|p2a: Steelix|62/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p1a: Steelix|Steelix, M|100/100 par
+|move|p2a: Steelix|Stealth Rock|p1a: Steelix
+|-sidestart|p1: JLT3 Danyul|move: Stealth Rock
+|
+|-heal|p2a: Steelix|68/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p2a: Cramorant|Cramorant, F, shiny|54/100
+|move|p1a: Steelix|Stealth Rock|p2a: Cramorant
+|-sidestart|p2: JLT3 oSuave|move: Stealth Rock
+|
+|upkeep
+|turn|45
+|
+|switch|p1a: Galvantula|Galvantula, F|24/100
+|-damage|p1a: Galvantula|0 fnt|[from] Stealth Rock
+|faint|p1a: Galvantula
+|move|p2a: Cramorant|Roost|p2a: Cramorant
+|-heal|p2a: Cramorant|100/100
+|-singleturn|p2a: Cramorant|move: Roost
+|
+|upkeep
+|
+|switch|p1a: Flapple|Flapple, F|100/100
+|-damage|p1a: Flapple|88/100|[from] Stealth Rock
+|turn|46
+|
+|move|p1a: Flapple|Dragon Dance|p1a: Flapple
+|-boost|p1a: Flapple|atk|1
+|-boost|p1a: Flapple|spe|1
+|move|p2a: Cramorant|Hurricane|p1a: Flapple
+|-supereffective|p1a: Flapple
+|-damage|p1a: Flapple|0 fnt
+|faint|p1a: Flapple
+|
+|upkeep
+|c|☆JLT3 Danyul|RIP the wincon
+|
+|switch|p1a: Cramorant|Cramorant, M|76/100
+|-damage|p1a: Cramorant|51/100|[from] Stealth Rock
+|turn|47
+|inactive|JLT3 oSuave has 120 seconds left.
+|
+|switch|p2a: Sableye|Sableye, F|21/100 psn
+|-damage|p2a: Sableye|8/100 psn|[from] Stealth Rock
+|move|p1a: Cramorant|Hurricane|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+|
+|switch|p2a: Steelix|Steelix, M|68/100
+|-damage|p2a: Steelix|65/100|[from] Stealth Rock
+|turn|48
+|
+|switch|p1a: Steelix|Steelix, M|100/100 par
+|-damage|p1a: Steelix|97/100 par|[from] Stealth Rock
+|move|p2a: Steelix|Heavy Slam|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|94/100 par
+|
+|-heal|p2a: Steelix|71/100|[from] item: Leftovers
+|-heal|p1a: Steelix|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p2a: Steelix|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|70/100 par
+|move|p1a: Steelix|Roar|p2a: Steelix
+|drag|p2a: Mantine|Mantine, M|100/100
+|
+|-heal|p1a: Steelix|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Mantine|Scald|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|26/100 par
+|cant|p1a: Steelix|par
+|
+|-heal|p1a: Steelix|33/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p2a: Mantine|Scald|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|upkeep
+|
+|switch|p1a: Cramorant|Cramorant, M|51/100
+|-damage|p1a: Cramorant|26/100|[from] Stealth Rock
+|turn|52
+|inactive|JLT3 oSuave has 120 seconds left.
+|
+|move|p1a: Cramorant|Hurricane|p2a: Mantine
+|-damage|p2a: Mantine|55/100
+|move|p2a: Mantine|Scald|p1a: Cramorant
+|-resisted|p1a: Cramorant
+|-damage|p1a: Cramorant|10/100
+|
+|upkeep
+|turn|53
+|inactive|JLT3 oSuave has 120 seconds left.
+|
+|move|p1a: Cramorant|Hurricane|p2a: Mantine
+|-damage|p2a: Mantine|11/100
+|move|p2a: Mantine|Scald|p1a: Cramorant
+|-resisted|p1a: Cramorant
+|-damage|p1a: Cramorant|0 fnt
+|faint|p1a: Cramorant
+|
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|9/100
+|-damage|p1a: Gallade|3/100|[from] Stealth Rock
+|turn|54
+|c|☆JLT3 oSuave|gg
+|
+|move|p1a: Gallade|Close Combat|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|faint|p2a: Mantine
+|
+|upkeep
+|c|☆JLT3 Danyul|gg
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-damage|p2a: Salazzle|76/100|[from] Stealth Rock
+|turn|55
+|
+|move|p1a: Gallade|Close Combat|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|20/100
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|move|p2a: Salazzle|Flamethrower|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|win|JLT3 oSuave
+|l|☆JLT3 Danyul
+|raw|JLT3 Danyul's rating: 1332 &rarr; <strong>1309</strong><br />(-23 for losing)
+|raw|JLT3 oSuave's rating: 1278 &rarr; <strong>1307</strong><br />(+29 for winning)
+|c|☆JLT3 oSuave|who was that
+|c|☆JLT3 oSuave|scb
+|c| scblol26|danyual
+|c| scblol26|the
+|c| scblol26|patrick guy
+|c| scblol26|in the discord
+|c| scblol26|he played ubers during fpl
+|l| scblol26
+|l|☆JLT3 oSuave
+|j|☆JLT3 oSuave
+|player|p2|JLT3 oSuave|ethan-gen2c

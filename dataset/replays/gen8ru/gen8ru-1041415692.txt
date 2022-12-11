@@ -1,0 +1,250 @@
+|j|☆Chrisloud
+|j|☆pyrromanis
+|player|p1|Chrisloud|leaf-gen3|1423
+|player|p2|pyrromanis|125|1316
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom|
+|poke|p1|Pangoro, M|
+|poke|p1|Gigalith, M|
+|poke|p1|Indeedee-F, F|
+|poke|p1|Whimsicott, M|
+|poke|p1|Salazzle, F|
+|poke|p2|Kingler, F|
+|poke|p2|Vikavolt, M|
+|poke|p2|Carkol, M|
+|poke|p2|Whimsicott, F|
+|poke|p2|Barbaracle, M|
+|poke|p2|Sigilyph, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pyrromanis)
+|j| rqov
+|
+|start
+|switch|p1a: Gigalith|Gigalith, M|100/100
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|j| joca jola
+|
+|move|p2a: Vikavolt|Sticky Web|p1a: Gigalith
+|-sidestart|p1: Chrisloud|move: Sticky Web
+|move|p1a: Gigalith|Rock Blast|p2a: Vikavolt
+|-supereffective|p2a: Vikavolt
+|-damage|p2a: Vikavolt|65/100
+|-supereffective|p2a: Vikavolt
+|-damage|p2a: Vikavolt|25/100
+|-supereffective|p2a: Vikavolt
+|-crit|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|-hitcount|p2a: Vikavolt|3
+|faint|p2a: Vikavolt
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Kingler|Kingler, F|100/100
+|turn|2
+|
+|move|p2a: Kingler|Liquidation|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kingler|95/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Rotom|Rotom|100/100
+|turn|3
+|
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|64/100
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salazzle|94/100|[from] Sandstorm
+|-damage|p2a: Whimsicott|58/100|[from] Sandstorm
+|-heal|p2a: Whimsicott|64/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Carkol|Carkol, M|100/100
+|move|p1a: Salazzle|Toxic|p2a: Carkol
+|-status|p2a: Carkol|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salazzle|88/100|[from] Sandstorm
+|-damage|p2a: Carkol|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|-activate|p1a: Pangoro|move: Sticky Web
+|-unboost|p1a: Pangoro|spe|1
+|move|p2a: Carkol|Stealth Rock|p1a: Pangoro
+|-sidestart|p1: Chrisloud|move: Stealth Rock
+|
+|-weather|none
+|-damage|p2a: Carkol|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Kingler|Kingler, F|95/100
+|move|p1a: Pangoro|Darkest Lariat|p2a: Kingler
+|-damage|p2a: Kingler|7/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|-activate|p1a: Whimsicott|move: Sticky Web
+|-unboost|p1a: Whimsicott|spe|1
+|-damage|p1a: Whimsicott|88/100|[from] Stealth Rock
+|move|p2a: Kingler|Liquidation|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|36/100
+|
+|-heal|p1a: Whimsicott|42/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Kingler|Liquidation|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|88/100
+|turn|9
+|l| rqov
+|
+|switch|p2a: Carkol|Carkol, M|82/100 tox
+|move|p1a: Salazzle|Sludge Wave|p2a: Carkol
+|-resisted|p2a: Carkol
+|-damage|p2a: Carkol|71/100 tox
+|
+|-damage|p2a: Carkol|65/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|-damage|p1a: Pangoro|94/100|[from] Stealth Rock
+|-activate|p1a: Pangoro|move: Sticky Web
+|-unboost|p1a: Pangoro|spe|1
+|move|p2a: Carkol|Body Press|p1a: Pangoro
+|-supereffective|p1a: Pangoro
+|-damage|p1a: Pangoro|49/100
+|
+|-damage|p2a: Carkol|53/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Pangoro|Darkest Lariat|p2a: Carkol
+|-damage|p2a: Carkol|3/100 tox
+|move|p2a: Carkol|Body Press|p1a: Pangoro
+|-supereffective|p1a: Pangoro
+|-damage|p1a: Pangoro|9/100
+|
+|-damage|p2a: Carkol|0 fnt|[from] psn
+|faint|p2a: Carkol
+|upkeep
+|
+|switch|p2a: Kingler|Kingler, F|7/100
+|turn|12
+|
+|move|p2a: Kingler|Liquidation|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|faint|p1a: Pangoro
+|
+|upkeep
+|j| kickassin666
+|
+|switch|p1a: Rotom|Rotom|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Rotom|Shadow Ball|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|upkeep
+|l| kickassin666
+|
+|switch|p2a: Whimsicott|Whimsicott, F|64/100
+|turn|14
+|
+|move|p2a: Whimsicott|Encore|p1a: Rotom
+|-start|p1a: Rotom|Encore
+|move|p1a: Rotom|Shadow Ball|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|switch|p2a: Barbaracle|Barbaracle, M|100/100
+|turn|15
+|
+|move|p1a: Rotom|Shadow Ball|p2a: Barbaracle
+|-damage|p2a: Barbaracle|31/100
+|move|p2a: Barbaracle|Shell Smash|p2a: Barbaracle
+|-unboost|p2a: Barbaracle|def|1
+|-unboost|p2a: Barbaracle|spd|1
+|-boost|p2a: Barbaracle|atk|2
+|-boost|p2a: Barbaracle|spa|2
+|-boost|p2a: Barbaracle|spe|2
+|-enditem|p2a: Barbaracle|White Herb
+|-clearnegativeboost|p2a: Barbaracle|[silent]
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Barbaracle|Liquidation|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-activate|p1a: Indeedee|move: Sticky Web
+|-unboost|p1a: Indeedee|spe|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|17
+|
+|move|p2a: Barbaracle|Liquidation|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|88/100
+|turn|18
+|
+|move|p2a: Barbaracle|Liquidation|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|win|pyrromanis
+|c|☆pyrromanis|gg
+|l|☆Chrisloud
+|l| joca jola
+|raw|Chrisloud's rating: 1423 &rarr; <strong>1397</strong><br />(-26 for losing)
+|raw|pyrromanis's rating: 1316 &rarr; <strong>1342</strong><br />(+26 for winning)

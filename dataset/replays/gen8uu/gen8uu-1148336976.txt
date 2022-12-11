@@ -1,0 +1,368 @@
+|j|☆pieface1
+|j|☆Bamarah
+|player|p1|pieface1|worker|1341
+|player|p2|Bamarah|eusine-gen2|1453
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Mienshao, F|
+|poke|p1|Scyther, F|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Kyurem|
+|poke|p1|Rotom-Wash|
+|poke|p1|Cobalion|
+|poke|p2|Noivern, M|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Darmanitan, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Skarmory, M|
+|poke|p2|Blissey, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bamarah)
+|inactive|pieface1 has 120 seconds left.
+|
+|start
+|switch|p1a: Cobalion|Cobalion|100/100
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Darmanitan|Flare Blitz|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|57/100
+|-damage|p2a: Darmanitan|88/100|[from] Recoil
+|
+|-heal|p1a: Rotom|63/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Blissey
+|-damage|p2a: Blissey|94/100
+|
+|switch|p1a: Cobalion|Cobalion|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Noivern|Noivern, M, shiny|100/100
+|move|p1a: Cobalion|Stealth Rock|p2a: Noivern
+|-sidestart|p2: Bamarah|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Noivern|Defog|p1a: Cobalion
+|-unboost|p1a: Cobalion|evasion|1
+|-sideend|p2: Bamarah|Stealth Rock|[from] move: Defog|[of] p2a: Noivern
+|move|p1a: Cobalion|Volt Switch|p2a: Noivern
+|-damage|p2a: Noivern|82/100
+|
+|switch|p1a: Kyurem|Kyurem|100/100|[from]move: Volt Switch
+|-ability|p1a: Kyurem|Pressure
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Blissey|Blissey, F, shiny|99/100
+|move|p1a: Kyurem|Draco Meteor|p2a: Blissey
+|-damage|p2a: Blissey|80/100
+|-unboost|p1a: Kyurem|spa|2
+|
+|-heal|p2a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Blissey|Thunder Wave|p1a: Cobalion
+|-status|p1a: Cobalion|par
+|
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Noivern|Noivern, M, shiny|82/100
+|move|p1a: Cobalion|Stealth Rock|p2a: Noivern
+|-sidestart|p2: Bamarah|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Noivern|Defog|p1a: Cobalion
+|-unboost|p1a: Cobalion|evasion|1
+|-sideend|p2: Bamarah|Stealth Rock|[from] move: Defog|[of] p2a: Noivern
+|move|p1a: Cobalion|Stealth Rock|p2a: Noivern
+|-sidestart|p2: Bamarah|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Noivern|Defog|p1a: Cobalion
+|-unboost|p1a: Cobalion|evasion|1
+|-sideend|p2: Bamarah|Stealth Rock|[from] move: Defog|[of] p2a: Noivern
+|move|p1a: Cobalion|Volt Switch|p2a: Noivern
+|-damage|p2a: Noivern|64/100
+|
+|switch|p1a: Rotom|Rotom-Wash|63/100|[from]move: Volt Switch
+|
+|-heal|p1a: Rotom|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Blissey|Blissey, F, shiny|92/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|
+|-heal|p1a: Rotom|75/100|[from] item: Leftovers
+|-heal|p2a: Blissey|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|92/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Rotom|Volt Switch|p2a: Blissey
+|-damage|p2a: Blissey|85/100 brn
+|
+|switch|p1a: Cobalion|Cobalion|100/100 par|[from]move: Volt Switch
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p2a: Blissey|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Blissey|85/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Noivern|Noivern, M, shiny|64/100
+|cant|p1a: Cobalion|par
+|
+|-heal|p2a: Noivern|100/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|13
+|
+|move|p2a: Noivern|Flamethrower|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|-damage|p2a: Noivern|91/100|[from] item: Life Orb
+|faint|p1a: Cobalion
+|
+|upkeep
+|
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|turn|14
+|
+|move|p1a: Mienshao|Fake Out|p2a: Noivern
+|-damage|p2a: Noivern|67/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|cant|p2a: Noivern|flinch
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Rotom|Rotom-Wash|75/100
+|move|p2a: Noivern|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|3/100
+|-unboost|p2a: Noivern|spa|2
+|-damage|p2a: Noivern|57/100|[from] item: Life Orb
+|
+|-heal|p1a: Rotom|9/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|move|p2a: Noivern|Draco Meteor|p1a: Mienshao
+|-damage|p1a: Mienshao|37/100
+|-unboost|p2a: Noivern|spa|2
+|-damage|p2a: Noivern|47/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|move|p1a: Mienshao|Knock Off|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-enditem|p2a: Chandelure|Choice Scarf|[from] move: Knock Off|[of] p1a: Mienshao
+|-damage|p1a: Mienshao|27/100|[from] item: Life Orb
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|88/100
+|turn|18
+|
+|switch|p1a: Rotom|Rotom-Wash|9/100
+|move|p2a: Darmanitan|Flare Blitz|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Darmanitan|85/100|[from] Recoil
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|turn|19
+|inactive|pieface1 has 120 seconds left.
+|
+|switch|p2a: Noivern|Noivern, M, shiny|47/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|-enditem|p2a: Noivern|Life Orb|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|91/100|[from] item: Life Orb
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|20
+|inactive|pieface1 has 120 seconds left.
+|
+|switch|p1a: Scyther|Scyther, F|100/100
+|move|p2a: Keldeo|Icy Wind|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|27/100
+|-unboost|p1a: Scyther|spe|1
+|-damage|p2a: Keldeo|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|j| Javvee
+|
+|move|p2a: Keldeo|Surf|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|-damage|p2a: Keldeo|81/100|[from] item: Life Orb
+|faint|p1a: Scyther
+|
+|upkeep
+|
+|switch|p1a: Mienshao|Mienshao, F|60/100
+|turn|22
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|100/100
+|move|p1a: Mienshao|Fake Out|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|94/100
+|-damage|p1a: Mienshao|50/100|[from] item: Life Orb
+|
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Mienshao|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|95/100
+|-damage|p1a: Mienshao|40/100|[from] item: Life Orb
+|
+|switch|p1a: Kyurem|Kyurem|100/100|[from]move: U-turn
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Skarmory|Body Press|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|35/100
+|
+|-heal|p2a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Blissey|Blissey, F, shiny|85/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Blissey
+|-damage|p2a: Blissey|74/100
+|-status|p2a: Blissey|frz
+|
+|-heal|p2a: Blissey|80/100 frz|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆Bamarah|!dt freeze dry
+|raw|<ul class="utilichart"><li class="result"><span class="col movenamecol"><a href="https://dex.pokemonshowdown.com/moves/freezedry">Freeze-Dry</a></span> <span class="col typecol"><img src="//play.pokemonshowdown.com/sprites/types/Ice.png" alt="Ice" width="32" height="14"><img src="//play.pokemonshowdown.com/sprites/categories/Special.png" alt="Special" width="32" height="14"></span> <span class="col labelcol"><em>Power</em><br>70</span> <span class="col widelabelcol"><em>Accuracy</em><br>100%</span> <span class="col pplabelcol"><em>PP</em><br>32</span> <span class="col movedesccol">10% chance to freeze. Super effective on Water.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Priority:</font> 0&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 6&nbsp;|&ThickSpace;&#10003; Secondary effect&nbsp;|&ThickSpace;<font color="#686868">Z-Power:</font> 140&nbsp;|&ThickSpace;<font color="#686868">Dynamax Power:</font> 120&nbsp;|&ThickSpace;<font color="#686868">Target:</font> One Adjacent Pokémon</font>
+
+|c|☆Bamarah|10%..............
+|
+|switch|p1a: Mienshao|Mienshao, F|73/100
+|-curestatus|p2a: Blissey|frz|[from] ability: Natural Cure
+|switch|p2a: Darmanitan|Darmanitan, M, shiny|85/100
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Mienshao|Fake Out|p2a: Darmanitan
+|-damage|p2a: Darmanitan|55/100
+|-damage|p1a: Mienshao|63/100|[from] item: Life Orb
+|cant|p2a: Darmanitan|flinch
+|
+|upkeep
+|turn|27
+|inactive|pieface1 has 120 seconds left.
+|c|☆pieface1|i mean its not gonna end up mattering but yeah
+|
+|move|p2a: Darmanitan|Superpower|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|-unboost|p2a: Darmanitan|atk|1
+|-unboost|p2a: Darmanitan|def|1
+|faint|p1a: Mienshao
+|
+|upkeep
+|inactive|pieface1 has 120 seconds left.
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|91/100
+|turn|28
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Darmanitan
+|-supereffective|p2a: Darmanitan
+|-damage|p2a: Darmanitan|0 fnt
+|-damage|p1a: Crawdaunt|81/100|[from] item: Life Orb
+|faint|p2a: Darmanitan
+|
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|81/100
+|turn|29
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|-damage|p2a: Keldeo|71/100|[from] item: Life Orb
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|c|☆pieface1|gg
+|
+|switch|p1a: Kyurem|Kyurem|35/100
+|-ability|p1a: Kyurem|Pressure
+|turn|30
+|
+|move|p1a: Kyurem|Freeze-Dry|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|upkeep
+|
+|switch|p2a: Blissey|Blissey, F, shiny|80/100
+|turn|31
+|
+|move|p1a: Kyurem|Freeze-Dry|p2a: Blissey
+|-damage|p2a: Blissey|69/100
+|move|p2a: Blissey|Seismic Toss|p1a: Kyurem
+|-damage|p1a: Kyurem|9/100
+|
+|-heal|p2a: Blissey|75/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Kyurem|Freeze-Dry|p2a: Blissey
+|-damage|p2a: Blissey|64/100
+|move|p2a: Blissey|Seismic Toss|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|Bamarah

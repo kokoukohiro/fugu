@@ -1,0 +1,453 @@
+|j|☆SDK04
+|j|☆cump3
+|t:|1654990283
+|gametype|singles
+|player|p1|SDK04|nate|1561
+|player|p2|cump3|gentleman-gen4|1586
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Blacephalon|
+|poke|p1|Dragapult, M|
+|poke|p1|Weavile, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Swampert, M|
+|poke|p2|Zapdos|
+|poke|p2|Clefable, F|
+|poke|p2|Machamp, M|
+|poke|p2|Gengar, F|
+|poke|p2|Jirachi|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SDK04)
+|
+|t:|1654990291
+|start
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|switch|p2a: Swampert|Swampert, M, shiny|100/100
+|turn|1
+|
+|t:|1654990295
+|move|p1a: Rotom|Hydro Pump|p2a: Swampert
+|-damage|p2a: Swampert|76/100
+|move|p2a: Swampert|Flip Turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|90/100
+|
+|t:|1654990303
+|switch|p2a: Clefable|Clefable, F|100/100|[from]move: Flip Turn
+|
+|-heal|p1a: Rotom|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1654990307
+|move|p1a: Rotom|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Moonblast|p1a: Rotom
+|-damage|p1a: Rotom|68/100
+|-unboost|p1a: Rotom|spa|1
+|
+|-heal|p1a: Rotom|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1654990313
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|78/100 par
+|
+|t:|1654990319
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|cant|p2a: Clefable|par
+|
+|upkeep
+|turn|4
+|
+|t:|1654990323
+|switch|p2a: Machamp|Machamp, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Machamp
+|-sidestart|p2: cump3|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1654990327
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Machamp|atk|1
+|move|p2a: Machamp|Dynamic Punch|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|83/100
+|-start|p1a: Landorus|confusion
+|
+|-heal|p1a: Landorus|89/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1654990333
+|-activate|p1a: Landorus|confusion
+|move|p1a: Landorus|Knock Off|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|81/100
+|-enditem|p2a: Machamp|Expert Belt|[from] move: Knock Off|[of] p1a: Landorus
+|move|p2a: Machamp|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|19/100
+|
+|-heal|p1a: Landorus|25/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1654990347
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Machamp|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|85/100
+|-damage|p2a: Machamp|69/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Machamp|53/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Rocky Helmet|[from] move: Knock Off|[of] p2a: Machamp
+|
+|upkeep
+|turn|8
+|
+|t:|1654990354
+|switch|p2a: Clefable|Clefable, F|78/100 par
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1654990357
+|move|p1a: Dragapult|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|61/100 par
+|
+|t:|1654990360
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|25/100|[from]move: U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Clefable|atk|1
+|cant|p2a: Clefable|par
+|
+|-heal|p1a: Landorus|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1654990371
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|move|p1a: Landorus|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|78/100
+|-enditem|p2a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Landorus
+|
+|-heal|p1a: Landorus|37/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1654990380
+|switch|p1a: Rotom|Rotom-Wash, shiny|74/100
+|move|p2a: Zapdos|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: cump3|Stealth Rock|[from] move: Defog|[of] p2a: Zapdos
+|
+|-heal|p1a: Rotom|80/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1654990384
+|switch|p2a: Swampert|Swampert, M, shiny|76/100
+|move|p1a: Rotom|Hydro Pump|p2a: Swampert
+|-damage|p2a: Swampert|48/100
+|
+|-heal|p1a: Rotom|86/100|[from] item: Leftovers
+|-heal|p2a: Swampert|54/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1654990390
+|switch|p1a: Ferrothorn|Ferrothorn, M|85/100
+|move|p2a: Swampert|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: SDK04|move: Stealth Rock
+|
+|-heal|p2a: Swampert|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1654990403
+|switch|p2a: Machamp|Machamp, M|53/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Machamp
+|-start|p2a: Machamp|move: Leech Seed
+|
+|-damage|p2a: Machamp|40/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|97/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1654990409
+|move|p2a: Machamp|Dynamic Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|30/100
+|-start|p1a: Ferrothorn|confusion
+|-damage|p2a: Machamp|28/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|confusion
+|move|p1a: Ferrothorn|Power Whip|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|upkeep
+|
+|t:|1654990413
+|switch|p2a: Gengar|Gengar, F, shiny|100/100
+|turn|16
+|
+|t:|1654990419
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|76/100
+|-end|p1a: Ferrothorn|confusion
+|move|p1a: Ferrothorn|Power Whip|p2a: Gengar
+|-resisted|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-heal|p2a: Gengar|82/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1654990425
+|move|p2a: Gengar|Hex|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1654990430
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1654990439
+|switch|p2a: Clefable|Clefable, F|61/100 par
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|
+|upkeep
+|turn|19
+|
+|t:|1654990443
+|switch|p2a: Zapdos|Zapdos, shiny|78/100
+|move|p1a: Dragapult|Phantom Force|p2a: Zapdos|[from]lockedmove
+|-damage|p2a: Zapdos|28/100
+|
+|upkeep
+|turn|20
+|
+|t:|1654990446
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|78/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|21
+|
+|t:|1654990448
+|move|p1a: Dragapult|Phantom Force|p2a: Zapdos|[from]lockedmove
+|-damage|p2a: Zapdos|23/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|73/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|22
+|
+|t:|1654990454
+|switch|p1a: Rotom|Rotom-Wash, shiny|86/100
+|-damage|p1a: Rotom|74/100|[from] Stealth Rock
+|move|p2a: Zapdos|Hurricane|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|57/100
+|-start|p1a: Rotom|confusion
+|
+|-heal|p1a: Rotom|63/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1654990458
+|switch|p2a: Swampert|Swampert, M, shiny|60/100
+|-activate|p1a: Rotom|confusion
+|move|p1a: Rotom|Pain Split|p2a: Swampert
+|-sethp|p2a: Swampert|54/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|71/100|[from] move: Pain Split
+|
+|-heal|p1a: Rotom|77/100|[from] item: Leftovers
+|-heal|p2a: Swampert|60/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1654990462
+|-activate|p1a: Rotom|confusion
+|move|p1a: Rotom|Hydro Pump|p2a: Swampert
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|23/100
+|move|p2a: Swampert|Flip Turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|67/100
+|
+|t:|1654990466
+|switch|p2a: Gengar|Gengar, F, shiny|88/100|[from]move: Flip Turn
+|
+|-heal|p2a: Gengar|94/100|[from] item: Black Sludge
+|-heal|p1a: Rotom|72/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1654990469
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|69/100
+|-end|p1a: Rotom|confusion
+|move|p1a: Rotom|Thunder Wave||[still]
+|-fail|p1a: Rotom
+|
+|-heal|p2a: Gengar|75/100|[from] item: Black Sludge
+|-heal|p1a: Rotom|78/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1654990472
+|move|p2a: Gengar|Nasty Plot|p2a: Gengar
+|-boost|p2a: Gengar|spa|2
+|move|p1a: Rotom|Volt Switch|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|t:|1654990476
+|switch|p1a: Dragapult|Dragapult, M|88/100|[from]move: Volt Switch
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Gengar|81/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|t:|1654990485
+|switch|p2a: Swampert|Swampert, M, shiny|23/100
+|move|p1a: Dragapult|Sucker Punch||[still]
+|-fail|p1a: Dragapult
+|
+|-heal|p2a: Swampert|29/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1654990489
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|37/100
+|-damage|p1a: Landorus|25/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|move|p2a: Swampert|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Swampert|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1654990492
+|switch|p1a: Blacephalon|Blacephalon, shiny|100/100
+|-damage|p1a: Blacephalon|76/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1654990494
+|move|p1a: Blacephalon|Shadow Ball|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|-ability|p1a: Blacephalon|Beast Boost|boost
+|-boost|p1a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1654990500
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|30
+|
+|t:|1654990502
+|move|p2a: Jirachi|Iron Head|p1a: Blacephalon
+|-resisted|p1a: Blacephalon
+|-damage|p1a: Blacephalon|38/100
+|move|p1a: Blacephalon|Shadow Ball|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|-ability|p1a: Blacephalon|Beast Boost|boost
+|-boost|p1a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1654990505
+|switch|p2a: Gengar|Gengar, F, shiny|81/100
+|turn|31
+|
+|t:|1654990512
+|switch|p1a: Rotom|Rotom-Wash, shiny|78/100
+|-damage|p1a: Rotom|66/100|[from] Stealth Rock
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|56/100
+|
+|-heal|p2a: Gengar|63/100|[from] item: Black Sludge
+|-heal|p1a: Rotom|72/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1654990517
+|move|p2a: Gengar|Nasty Plot|p2a: Gengar
+|-boost|p2a: Gengar|spa|2
+|move|p1a: Rotom|Volt Switch|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|t:|1654990519
+|switch|p1a: Weavile|Weavile, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Weavile|Pressure
+|
+|-heal|p2a: Gengar|69/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|t:|1654990541
+|switch|p2a: Clefable|Clefable, F|61/100 par
+|move|p1a: Weavile|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|41/100 par
+|-enditem|p2a: Clefable|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|
+|upkeep
+|turn|34
+|
+|t:|1654990545
+|move|p1a: Weavile|Triple Axel|p2a: Clefable
+|-damage|p2a: Clefable|32/100 par
+|-damage|p2a: Clefable|14/100 par
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-hitcount|p2: Clefable|3
+|
+|upkeep
+|-message|cump3 forfeited.
+|
+|win|SDK04
+|raw|SDK04's rating: 1561 &rarr; <strong>1582</strong><br />(+21 for winning)
+|raw|cump3's rating: 1586 &rarr; <strong>1565</strong><br />(-21 for losing)
+|l|☆cump3
+||Ladder isn't responding, score probably updated but might not have (Request timeout).
+|j| slapthatman
+|j| Echo2615
+|j| Altranzarino
+|l| Altranzarino

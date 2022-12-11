@@ -1,0 +1,304 @@
+|j|☆Goto-9
+|j|☆Monsieur Eans
+|t:|1645921716
+|gametype|singles
+|player|p1|Goto-9|102|1440
+|player|p2|Monsieur Eans|juan|1474
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Magnezone|
+|poke|p1|Clefable, M|
+|poke|p1|Tapu Fini|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragonite, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Melmetal|
+|poke|p2|Tapu Koko|
+|poke|p2|Trevenant, F|
+|teampreview
+|
+|t:|1645921727
+|start
+|switch|p1a: Magnezone|Magnezone|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|1
+|
+|t:|1645921733
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Urshifu|Close Combat|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|56/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|-heal|p1a: Tapu Fini|62/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1645921737
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Tapu Fini|Gravity|p1a: Tapu Fini
+|-fieldstart|move: Gravity
+|
+|-heal|p1a: Tapu Fini|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1645921748
+|move|p2a: Tapu Koko|U-turn|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|62/100
+|
+|t:|1645921754
+|switch|p2a: Trevenant|Trevenant, F, shiny|100/100|[from]move: U-turn
+|-item|p1a: Tapu Fini|Leftovers|[from] ability: Frisk|[of] p2a: Trevenant|[identify]
+|move|p1a: Tapu Fini|Knock Off|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|50/100
+|-enditem|p2a: Trevenant|Choice Band|[from] move: Knock Off|[of] p1a: Tapu Fini
+|
+|-heal|p1a: Tapu Fini|68/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1645921773
+|move|p1a: Tapu Fini|Taunt|p2a: Trevenant
+|-start|p2a: Trevenant|move: Taunt
+|cant|p2a: Trevenant|move: Taunt|Trick
+|
+|-heal|p1a: Tapu Fini|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1645921782
+|move|p1a: Tapu Fini|Nature's Madness|p2a: Trevenant
+|-damage|p2a: Trevenant|25/100
+|move|p2a: Trevenant|Horn Leech|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|3/100
+|-heal|p2a: Trevenant|62/100|[from] drain|[of] p1a: Tapu Fini
+|
+|-heal|p1a: Tapu Fini|9/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1645921793
+|move|p1a: Tapu Fini|Knock Off|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|27/100
+|move|p2a: Trevenant|Horn Leech|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|-heal|p2a: Trevenant|31/100|[from] drain|[of] p1a: Tapu Fini
+|faint|p1a: Tapu Fini
+|
+|-end|p2a: Trevenant|move: Taunt
+|-fieldend|move: Gravity
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1645921804
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|7
+|
+|t:|1645921811
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1645921820
+|move|p1a: Dragonite|Earthquake|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|39/100
+|move|p2a: Melmetal|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1645921848
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Melmetal|atk|1
+|turn|9
+|
+|t:|1645921854
+|switch|p2a: Pelipper|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Landorus|Earthquake|p2a: Pelipper
+|-immune|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1645921861
+|move|p1a: Landorus|Stone Edge|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1645921867
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|11
+|
+|t:|1645921872
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|59/100
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|19/100
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|-hitcount|p1: Clefable|3
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1645921880
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|12
+|
+|t:|1645921887
+|switch|p2a: Melmetal|Melmetal|39/100
+|move|p1a: Rillaboom|U-turn|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|28/100
+|
+|t:|1645921898
+|switch|p1a: Magnezone|Magnezone|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Melmetal|34/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1645921901
+|move|p1a: Magnezone|Thunderbolt|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|-weather|none
+|upkeep
+|
+|t:|1645921916
+|switch|p2a: Trevenant|Trevenant, F, shiny|31/100
+|-item|p1a: Magnezone|Choice Specs|[from] ability: Frisk|[of] p2a: Trevenant|[identify]
+|turn|14
+|
+|t:|1645921923
+|move|p1a: Magnezone|Thunderbolt|p2a: Trevenant
+|-resisted|p2a: Trevenant
+|-damage|p2a: Trevenant|0 fnt
+|faint|p2a: Trevenant
+|
+|upkeep
+|
+|t:|1645921931
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|15
+|
+|t:|1645921943
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|move|p2a: Urshifu|Close Combat|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1645921952
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|turn|16
+|
+|t:|1645921962
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Landorus|Rock Polish|p1a: Landorus
+|-boost|p1a: Landorus|spe|2
+|
+|upkeep
+|turn|17
+|
+|t:|1645921970
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|move|p2a: Tapu Koko|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|87/100
+|j| smol gremlin
+|
+|t:|1645921986
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|18
+|
+|t:|1645921990
+|move|p1a: Landorus|Earthquake|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|upkeep
+|
+|t:|1645921992
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|19
+|
+|t:|1645921994
+|move|p1a: Landorus|Earthquake|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|upkeep
+|
+|t:|1645921996
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|20
+|
+|t:|1645921998
+|move|p1a: Landorus|Earthquake|p2a: Tapu Koko
+|-supereffective|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|win|Goto-9
+|raw|Goto-9's rating: 1440 &rarr; <strong>1462</strong><br />(+22 for winning)
+|raw|Monsieur Eans's rating: 1474 &rarr; <strong>1452</strong><br />(-22 for losing)
+|l|☆Monsieur Eans
+|l| smol gremlin
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

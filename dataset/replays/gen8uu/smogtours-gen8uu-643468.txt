@@ -1,0 +1,369 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1660420874
+|gametype|singles
+|player|p1|Monky25|flint|
+|player|p2|Amane Misa|#amanemisa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Krookodile, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Salamence, F|
+|poke|p1|Cobalion|
+|poke|p1|Necrozma|
+|poke|p1|Scolipede, M|
+|poke|p2|Chansey, F|
+|poke|p2|Scizor, F|
+|poke|p2|Salamence, M|
+|poke|p2|Slowking, F|
+|poke|p2|Hippowdon, F|
+|poke|p2|Crobat, F|
+|teampreview
+|c|☆Monky25|hf
+|c|☆Amane Misa|hf
+|inactive|Monky25 has 270 seconds left.
+|inactive|Amane Misa has 270 seconds left.
+|inactive|Monky25 has 240 seconds left.
+|inactive|Amane Misa has 240 seconds left.
+|inactive|Amane Misa has 210 seconds left.
+|inactive|Monky25 has 210 seconds left.
+|inactive|Amane Misa has 180 seconds left.
+|inactive|Monky25 has 180 seconds left.
+|
+|t:|1660421032
+|start
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|switch|p2a: Kowsling|Slowking, F|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Kowsling|atk|1
+|turn|1
+|inactive|Monky25 has 240 seconds left.
+|
+|t:|1660421039
+|move|p1a: Krookodile|Knock Off|p2a: Kowsling
+|-supereffective|p2a: Kowsling
+|-damage|p2a: Kowsling|30/100
+|-enditem|p2a: Kowsling|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Krookodile
+|move|p2a: Kowsling|Scald|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|32/100
+|-status|p1a: Krookodile|brn
+|
+|-damage|p1a: Krookodile|26/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1660421049
+|move|p1a: Krookodile|Stealth Rock|p2a: Kowsling
+|-sidestart|p2: Amane Misa|move: Stealth Rock
+|move|p2a: Kowsling|Teleport|p2a: Kowsling
+|
+|t:|1660421050
+|switch|p2a: Brocat|Crobat, F|100/100|[from]move: Teleport
+|
+|-damage|p1a: Krookodile|20/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1660421052
+|move|p2a: Brocat|Brave Bird|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|-damage|p2a: Brocat|84/100|[from] item: Rocky Helmet|[of] p1a: Krookodile
+|faint|p1a: Krookodile
+|-damage|p2a: Brocat|77/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1660421059
+|switch|p1a: Necrozma|Necrozma|100/100
+|turn|4
+|
+|t:|1660421063
+|switch|p2a: Sanchey|Chansey, F|100/100
+|-damage|p2a: Sanchey|88/100|[from] Stealth Rock
+|move|p1a: Necrozma|Photon Geyser|p2a: Sanchey
+|-damage|p2a: Sanchey|57/100
+|
+|upkeep
+|turn|5
+|
+|t:|1660421076
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|move|p2a: Sanchey|Toxic|p1a: Necrozma
+|-status|p1a: Necrozma|tox
+|-enditem|p1a: Necrozma|Lum Berry|[eat]
+|-curestatus|p1a: Necrozma|tox|[msg]
+|
+|upkeep
+|turn|6
+|
+|t:|1660421080
+|move|p1a: Necrozma|Photon Geyser|p2a: Sanchey
+|-damage|p2a: Sanchey|7/100
+|move|p2a: Sanchey|Toxic|p1a: Necrozma
+|-status|p1a: Necrozma|tox
+|
+|-damage|p1a: Necrozma|95/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1660421086
+|move|p1a: Necrozma|X-Scissor|p2a: Sanchey
+|-damage|p2a: Sanchey|0 fnt
+|faint|p2a: Sanchey
+|
+|-damage|p1a: Necrozma|83/100 tox|[from] psn
+|upkeep
+|
+|t:|1660421087
+|switch|p2a: Hidowppon|Hippowdon, F|100/100
+|-damage|p2a: Hidowppon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hidowppon
+|turn|8
+|
+|t:|1660421107
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Hidowppon|Stealth Rock|p1a: Gyarados
+|-sidestart|p1: Monky25|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1660421111
+|switch|p2a: Malasence|Salamence, M|100/100
+|-ability|p2a: Malasence|Intimidate|boost
+|-unboost|p1a: Gyarados|atk|1
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|69/100|[from] Sandstorm
+|-damage|p2a: Malasence|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1660421113
+|switch|p2a: Ziscor|Scizor, F|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|69/100|[from] Sandstorm
+|-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1660421115
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Ziscor|Knock Off|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|69/100|[from] Sandstorm
+|-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1660421118
+|move|p1a: Gyarados|Waterfall|p2a: Ziscor
+|-damage|p2a: Ziscor|34/100
+|move|p2a: Ziscor|Knock Off|p1a: Gyarados
+|-damage|p1a: Gyarados|39/100
+|-enditem|p1a: Gyarados|Leftovers|[from] move: Knock Off|[of] p2a: Ziscor
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1660421128
+|switch|p2a: Hidowppon|Hippowdon, F|94/100
+|-damage|p2a: Hidowppon|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hidowppon
+|move|p1a: Gyarados|Waterfall|p2a: Hidowppon
+|-supereffective|p2a: Hidowppon
+|-damage|p2a: Hidowppon|10/100
+|-damage|p1a: Gyarados|22/100|[from] item: Rocky Helmet|[of] p2a: Hidowppon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|16/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1660421134
+|move|p1a: Gyarados|Waterfall|p2a: Hidowppon
+|-supereffective|p2a: Hidowppon
+|-damage|p2a: Hidowppon|0 fnt
+|-damage|p1a: Gyarados|0 fnt|[from] item: Rocky Helmet|[of] p2a: Hidowppon
+|faint|p2a: Hidowppon
+|faint|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Monky25 has 270 seconds left.
+|inactive|Amane Misa has 270 seconds left.
+|
+|t:|1660421181
+|switch|p1a: Necrozma|Necrozma|83/100 tox
+|switch|p2a: Brocat|Crobat, F|77/100
+|-damage|p1a: Necrozma|70/100 tox|[from] Stealth Rock
+|turn|15
+|inactive|Amane Misa has 270 seconds left.
+|
+|t:|1660421193
+|move|p2a: Brocat|U-turn|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|41/100 tox
+|
+|t:|1660421196
+|switch|p2a: Kowsling|Slowking, F|64/100|[from]move: U-turn
+|-damage|p2a: Kowsling|51/100|[from] Stealth Rock
+|move|p1a: Necrozma|Photon Geyser|p2a: Kowsling
+|-resisted|p2a: Kowsling
+|-damage|p2a: Kowsling|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Necrozma|35/100 tox|[from] Sandstorm
+|-damage|p2a: Kowsling|27/100|[from] Sandstorm
+|-damage|p1a: Necrozma|29/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1660421205
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|move|p2a: Kowsling|Teleport|p2a: Kowsling
+|inactive|Amane Misa has 270 seconds left.
+|
+|t:|1660421235
+|switch|p2a: Ziscor|Scizor, F|34/100|[from]move: Teleport
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Necrozma|23/100 tox|[from] Sandstorm
+|-damage|p1a: Necrozma|11/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1660421240
+|move|p2a: Ziscor|Bullet Punch|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-weather|none
+|upkeep
+|
+|t:|1660421242
+|switch|p1a: Cobalion|Cobalion|100/100
+|-damage|p1a: Cobalion|97/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1660421247
+|switch|p2a: Malasence|Salamence, M|94/100
+|-ability|p2a: Malasence|Intimidate|boost
+|-unboost|p1a: Cobalion|atk|1
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|
+|upkeep
+|turn|19
+|inactive|Amane Misa has 270 seconds left.
+|inactive|Monky25 has 270 seconds left.
+|
+|t:|1660421298
+|move|p1a: Cobalion|Swords Dance|p1a: Cobalion
+|-boost|p1a: Cobalion|atk|2
+|move|p2a: Malasence|Flamethrower|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|41/100
+|
+|upkeep
+|turn|20
+|inactive|Amane Misa has 240 seconds left.
+|
+|t:|1660421347
+|switch|p2a: Kowsling|Slowking, F|61/100
+|-damage|p2a: Kowsling|48/100|[from] Stealth Rock
+|move|p1a: Cobalion|Stone Edge|p2a: Kowsling
+|-damage|p2a: Kowsling|0 fnt
+|faint|p2a: Kowsling
+|
+|upkeep
+|
+|t:|1660421358
+|switch|p2a: Brocat|Crobat, F|77/100
+|turn|21
+|
+|t:|1660421366
+|move|p2a: Brocat|Brave Bird|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|-damage|p2a: Brocat|63/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1660421374
+|switch|p1a: Salamence|Salamence, F|100/100
+|turn|22
+|inactive|Amane Misa has 210 seconds left.
+|inactive|Amane Misa has 180 seconds left.
+|
+|t:|1660421431
+|move|p2a: Brocat|Taunt|p1a: Salamence
+|-start|p1a: Salamence|move: Taunt
+|move|p1a: Salamence|Outrage|p2a: Brocat
+|-damage|p2a: Brocat|0 fnt
+|faint|p2a: Brocat
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1660421433
+|switch|p2a: Malasence|Salamence, M|94/100
+|-ability|p2a: Malasence|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|turn|23
+|
+|t:|1660421443
+|move|p1a: Salamence|Outrage|p2a: Malasence|[from]lockedmove
+|-supereffective|p2a: Malasence
+|-damage|p2a: Malasence|0 fnt
+|faint|p2a: Malasence
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-start|p1a: Salamence|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1660421444
+|switch|p2a: Ziscor|Scizor, F|34/100
+|turn|24
+|
+|t:|1660421448
+|-activate|p1a: Salamence|confusion
+|move|p1a: Salamence|Earthquake|p2a: Ziscor
+|-damage|p2a: Ziscor|0 fnt
+|faint|p2a: Ziscor
+|
+|win|Monky25
+|c|☆Amane Misa|gg
+|c|☆Monky25|gg

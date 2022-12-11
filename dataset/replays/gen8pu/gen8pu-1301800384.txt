@@ -1,0 +1,801 @@
+|j|☆Tony Soprano Jr.
+|j|☆Toxicidad fuera
+|t:|1615811084
+|player|p1|Tony Soprano Jr.|giovanni|1379
+|player|p2|Toxicidad fuera|argenta|1249
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Talonflame, F|
+|poke|p1|Pyukumuku, M|
+|poke|p1|Weezing, M|
+|poke|p1|Audino, M|
+|poke|p1|Sableye, F|
+|poke|p1|Palossand, M|
+|poke|p2|Thwackey, M|
+|poke|p2|Thievul, F|
+|poke|p2|Gourgeist-*, M|
+|poke|p2|Garbodor, F|
+|poke|p2|Regirock|
+|poke|p2|Xatu, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1615811112
+|start
+|switch|p1a: Palossand|Palossand, M|100/100
+|switch|p2a: Thwackey|Thwackey, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|turn|1
+|
+|t:|1615811117
+|switch|p1a: Weezing|Weezing, M|100/100
+|move|p2a: Thwackey|Knock Off|p1a: Weezing
+|-damage|p1a: Weezing|79/100
+|-enditem|p1a: Weezing|Black Sludge|[from] move: Knock Off|[of] p2a: Thwackey
+|-damage|p2a: Thwackey|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Thwackey|97/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1615811130
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Xatu
+|-damage|p2a: Xatu|65/100
+|
+|upkeep
+|turn|3
+|
+|t:|1615811145
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|switch|p1a: Sableye|Sableye, F|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1615811149
+|switch|p1a: Weezing|Weezing, M|79/100
+|move|p2a: Garbodor|Spikes|p1a: Weezing
+|-sidestart|p1: Tony Soprano Jr.|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1615811162
+|switch|p2a: Regirock|Regirock|100/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Regirock
+|-status|p2a: Regirock|brn
+|
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Regirock|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1615811180
+|switch|p1a: Sableye|Sableye, F|100/100
+|-damage|p1a: Sableye|88/100|[from] Spikes
+|move|p2a: Regirock|Stealth Rock|p1a: Sableye
+|-sidestart|p1: Tony Soprano Jr.|move: Stealth Rock
+|
+|-heal|p2a: Regirock|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Sableye|94/100|[from] item: Leftovers
+|-damage|p2a: Regirock|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1615811188
+|move|p2a: Regirock|Toxic|p1a: Sableye
+|-status|p1a: Sableye|tox
+|move|p1a: Sableye|Knock Off|p2a: Regirock
+|-damage|p2a: Regirock|85/100 brn
+|-enditem|p2a: Regirock|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Regirock|79/100 brn|[from] brn
+|-damage|p1a: Sableye|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1615811196
+|switch|p2a: Xatu|Xatu, M|65/100
+|move|p1a: Sableye|Encore|p2a: Xatu
+|move|p2a: Xatu|Encore||[from]ability: Magic Bounce|[still]
+|-fail|p2a: Xatu
+|
+|-heal|p1a: Sableye|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Sableye|88/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1615811210
+|switch|p2a: Regirock|Regirock|79/100 brn
+|move|p1a: Sableye|Knock Off|p2a: Regirock
+|-damage|p2a: Regirock|71/100 brn
+|
+|-heal|p1a: Sableye|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Regirock|65/100 brn|[from] brn
+|-damage|p1a: Sableye|75/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1615811217
+|switch|p2a: Xatu|Xatu, M|65/100
+|switch|p1a: Audino|Audino, M|100/100
+|-damage|p1a: Audino|88/100|[from] Stealth Rock
+|-damage|p1a: Audino|76/100|[from] Spikes
+|
+|-heal|p1a: Audino|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1615811223
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Audino|Heal Bell|p1a: Audino
+|-activate|p1a: Audino|move: Heal Bell
+|-curestatus|p1: Sableye|tox|[msg]
+|
+|-heal|p1a: Audino|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1615811230
+|switch|p2a: Regirock|Regirock|65/100 brn
+|move|p1a: Audino|Knock Off|p2a: Regirock
+|-damage|p2a: Regirock|61/100 brn
+|
+|-heal|p1a: Audino|94/100|[from] item: Leftovers
+|-damage|p2a: Regirock|55/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1615811236
+|move|p2a: Regirock|Toxic|p1a: Audino
+|-status|p1a: Audino|tox
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-heal|p1a: Audino|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Regirock|49/100 brn|[from] brn
+|-damage|p1a: Audino|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1615811241
+|move|p2a: Regirock|Rock Blast|p1a: Audino
+|-damage|p1a: Audino|90/100 tox
+|-damage|p1a: Audino|86/100 tox
+|-damage|p1a: Audino|82/100 tox
+|-hitcount|p1a: Audino|3
+|move|p1a: Audino|Knock Off|p2a: Regirock
+|-damage|p2a: Regirock|46/100 brn
+|
+|-heal|p1a: Audino|100/100 tox|[from] move: Wish|[wisher] Audino
+|-damage|p2a: Regirock|40/100 brn|[from] brn
+|-damage|p1a: Audino|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1615811246
+|move|p2a: Regirock|Body Press|p1a: Audino
+|-supereffective|p1a: Audino
+|-damage|p1a: Audino|48/100 tox
+|move|p1a: Audino|Knock Off|p2a: Regirock
+|-damage|p2a: Regirock|35/100 brn
+|
+|-heal|p1a: Audino|54/100 tox|[from] item: Leftovers
+|-damage|p2a: Regirock|29/100 brn|[from] brn
+|-damage|p1a: Audino|36/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1615811267
+|switch|p1a: Weezing|Weezing, M|79/100
+|-damage|p1a: Weezing|66/100|[from] Stealth Rock
+|move|p2a: Regirock|Toxic|p1a: Weezing
+|-immune|p1a: Weezing
+|
+|-damage|p2a: Regirock|23/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1615811273
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Xatu
+|-damage|p2a: Xatu|65/100
+|
+|upkeep
+|turn|18
+|
+|t:|1615811282
+|switch|p2a: Gourgeist|Gourgeist-Small, M|100/100
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|
+|upkeep
+|turn|19
+|
+|t:|1615811294
+|move|p1a: Talonflame|Defog|p2a: Gourgeist
+|-unboost|p2a: Gourgeist|evasion|1
+|-sideend|p1: Tony Soprano Jr.|Spikes|[from] move: Defog|[of] p1a: Talonflame
+|-sideend|p1: Tony Soprano Jr.|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|move|p2a: Gourgeist|Poltergeist|p1a: Talonflame
+|-activate|p1a: Talonflame|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Talonflame|18/100
+|
+|upkeep
+|turn|20
+|
+|t:|1615811308
+|switch|p1a: Audino|Audino, M|69/100 tox
+|move|p2a: Gourgeist|Poltergeist|p1a: Audino
+|-immune|p1a: Audino
+|
+|-heal|p1a: Audino|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Audino|69/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1615811328
+|switch|p2a: Regirock|Regirock|23/100 brn
+|move|p1a: Audino|Knock Off|p2a: Regirock
+|-damage|p2a: Regirock|19/100 brn
+|
+|-heal|p1a: Audino|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Regirock|13/100 brn|[from] brn
+|-damage|p1a: Audino|63/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1615811333
+|switch|p1a: Weezing|Weezing, M|66/100
+|move|p2a: Regirock|Stealth Rock|p1a: Weezing
+|-sidestart|p1: Tony Soprano Jr.|move: Stealth Rock
+|
+|-damage|p2a: Regirock|7/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1615811337
+|switch|p2a: Xatu|Xatu, M|65/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Xatu
+|-damage|p2a: Xatu|27/100
+|-status|p2a: Xatu|psn
+|
+|-damage|p2a: Xatu|15/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1615811344
+|switch|p1a: Audino|Audino, M|96/100 tox
+|-damage|p1a: Audino|84/100 tox|[from] Stealth Rock
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|65/100 psn
+|-singleturn|p2a: Xatu|move: Roost
+|
+|-heal|p1a: Audino|90/100 tox|[from] item: Leftovers
+|-damage|p2a: Xatu|53/100 psn|[from] psn
+|-damage|p1a: Audino|84/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1615811348
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100 psn
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Audino|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|78/100 psn
+|-enditem|p2a: Xatu|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Audino
+|
+|-heal|p1a: Audino|90/100 tox|[from] item: Leftovers
+|-damage|p2a: Xatu|65/100 psn|[from] psn
+|-damage|p1a: Audino|78/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1615811352
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100 psn
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Audino|Heal Bell|p1a: Audino
+|-activate|p1a: Audino|move: Heal Bell
+|-curestatus|p1a: Audino|tox|[msg]
+|
+|-heal|p1a: Audino|84/100|[from] item: Leftovers
+|-damage|p2a: Xatu|88/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1615811367
+|switch|p2a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p1a: Audino|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-heal|p1a: Audino|90/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1615811382
+|switch|p1a: Weezing|Weezing, M|66/100
+|-damage|p1a: Weezing|54/100|[from] Stealth Rock
+|move|p2a: Gourgeist|Power Whip|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|30/100
+|
+|-heal|p1a: Weezing|92/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|29
+|
+|t:|1615811391
+|switch|p2a: Garbodor|Garbodor, F|100/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|91/100
+|
+|-heal|p2a: Garbodor|97/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|t:|1615811399
+|switch|p2a: Xatu|Xatu, M|88/100 psn
+|switch|p1a: Palossand|Palossand, M|100/100
+|-damage|p1a: Palossand|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Palossand|100/100|[from] item: Leftovers
+|-damage|p2a: Xatu|76/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1615811425
+|switch|p2a: Regirock|Regirock|7/100 brn
+|switch|p1a: Talonflame|Talonflame, F|18/100
+|
+|-damage|p2a: Regirock|1/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1615811442
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|68/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Regirock|Rock Blast|p1a: Talonflame|[miss]
+|-miss|p2a: Regirock|p1a: Talonflame
+|
+|-damage|p2a: Regirock|0 fnt|[from] brn
+|faint|p2a: Regirock
+|upkeep
+|
+|t:|1615811464
+|switch|p2a: Gourgeist|Gourgeist-Small, M|100/100
+|-item|p1a: Talonflame|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|33
+|
+|t:|1615811477
+|move|p1a: Talonflame|Brave Bird|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|24/100
+|-damage|p1a: Talonflame|50/100|[from] Recoil
+|move|p2a: Gourgeist|Poltergeist|p1a: Talonflame
+|-activate|p1a: Talonflame|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|upkeep
+|
+|t:|1615811490
+|switch|p1a: Weezing|Weezing, M|92/100
+|-damage|p1a: Weezing|80/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1615811495
+|switch|p2a: Xatu|Xatu, M|76/100 psn
+|move|p1a: Weezing|Sludge Bomb|p2a: Xatu
+|-damage|p2a: Xatu|40/100 psn
+|
+|-damage|p2a: Xatu|28/100 psn|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1615811502
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|78/100 psn
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Weezing|Sludge Bomb|p2a: Xatu
+|-damage|p2a: Xatu|44/100 psn
+|
+|-damage|p2a: Xatu|32/100 psn|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1615811507
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100
+|-damage|p1a: Pyukumuku|88/100|[from] Stealth Rock
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|82/100 psn
+|-singleturn|p2a: Xatu|move: Roost
+|
+|-damage|p2a: Xatu|70/100 psn|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1615811519
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100 psn
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Pyukumuku|Block|p2a: Xatu
+|move|p2a: Xatu|Block|p1a: Pyukumuku|[from]ability: Magic Bounce
+|-activate|p1a: Pyukumuku|trapped
+|
+|-damage|p2a: Xatu|88/100 psn|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1615811525
+|move|p2a: Xatu|Psychic|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|69/100
+|move|p1a: Pyukumuku|Spite|p2a: Xatu
+|move|p2a: Xatu|Spite|p1a: Pyukumuku|[from]ability: Magic Bounce
+|-activate|p1a: Pyukumuku|move: Spite|Spite|4
+|
+|-damage|p2a: Xatu|76/100 psn|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1615811535
+|move|p2a: Xatu|Psychic|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|48/100
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|98/100
+|
+|-damage|p2a: Xatu|64/100 psn|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1615811540
+|move|p2a: Xatu|Psychic|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|80/100
+|-unboost|p1a: Pyukumuku|spd|1
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100
+|
+|-damage|p2a: Xatu|51/100 psn|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1615811548
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100 psn
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Pyukumuku|Recover||[still]
+|-fail|p1a: Pyukumuku|heal
+|
+|-damage|p2a: Xatu|88/100 psn|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1615811551
+|move|p2a: Xatu|Psychic|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|71/100
+|move|p1a: Pyukumuku|Rest|p1a: Pyukumuku
+|-status|p1a: Pyukumuku|slp|[from] move: Rest
+|-heal|p1a: Pyukumuku|100/100 slp|[silent]
+|
+|-damage|p2a: Xatu|76/100 psn|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1615811561
+|switch|p2a: Gourgeist|Gourgeist-Small, M|24/100
+|-item|p1a: Pyukumuku|Rocky Helmet|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|cant|p1a: Pyukumuku|slp
+|
+|upkeep
+|turn|44
+|
+|t:|1615811571
+|switch|p1a: Weezing|Weezing, M|80/100
+|-damage|p1a: Weezing|67/100|[from] Stealth Rock
+|move|p2a: Gourgeist|Power Whip|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|44/100
+|
+|upkeep
+|turn|45
+|
+|t:|1615811577
+|switch|p2a: Xatu|Xatu, M|76/100 psn
+|move|p1a: Weezing|Rest|p1a: Weezing
+|-status|p1a: Weezing|slp|[from] move: Rest
+|-heal|p1a: Weezing|100/100 slp|[silent]
+|
+|-damage|p2a: Xatu|64/100 psn|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1615811590
+|switch|p2a: Garbodor|Garbodor, F|97/100
+|switch|p1a: Sableye|Sableye, F|75/100
+|-damage|p1a: Sableye|63/100|[from] Stealth Rock
+|
+|-heal|p2a: Garbodor|100/100|[from] item: Black Sludge
+|-heal|p1a: Sableye|69/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1615811598
+|move|p2a: Garbodor|Spikes|p1a: Sableye
+|-sidestart|p1: Tony Soprano Jr.|Spikes
+|move|p1a: Sableye|Knock Off|p2a: Garbodor
+|-damage|p2a: Garbodor|73/100
+|-enditem|p2a: Garbodor|Black Sludge|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|75/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1615811604
+|move|p1a: Sableye|Will-O-Wisp|p2a: Garbodor
+|-status|p2a: Garbodor|brn
+|move|p2a: Garbodor|Spikes|p1a: Sableye
+|-sidestart|p1: Tony Soprano Jr.|Spikes
+|
+|-heal|p1a: Sableye|82/100|[from] item: Leftovers
+|-damage|p2a: Garbodor|67/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1615811616
+|move|p1a: Sableye|Encore|p2a: Garbodor
+|-start|p2a: Garbodor|Encore
+|move|p2a: Garbodor|Spikes|p1a: Sableye
+|-sidestart|p1: Tony Soprano Jr.|Spikes
+|
+|-heal|p1a: Sableye|88/100|[from] item: Leftovers
+|-damage|p2a: Garbodor|61/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|t:|1615811622
+|switch|p2a: Xatu|Xatu, M|64/100 psn
+|move|p1a: Sableye|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|30/100 psn
+|
+|-heal|p1a: Sableye|94/100|[from] item: Leftovers
+|-damage|p2a: Xatu|17/100 psn|[from] psn
+|upkeep
+|turn|51
+|
+|t:|1615811630
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|67/100 psn
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Sableye|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-crit|p2a: Xatu
+|-damage|p2a: Xatu|15/100 psn
+|
+|-heal|p1a: Sableye|100/100|[from] item: Leftovers
+|-damage|p2a: Xatu|3/100 psn|[from] psn
+|upkeep
+|turn|52
+|
+|t:|1615811637
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|53/100 psn
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Sableye|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|22/100 psn
+|
+|-damage|p2a: Xatu|10/100 psn|[from] psn
+|upkeep
+|turn|53
+|
+|t:|1615811663
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|60/100 psn
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Sableye|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|27/100 psn
+|
+|-damage|p2a: Xatu|15/100 psn|[from] psn
+|upkeep
+|turn|54
+|
+|t:|1615811673
+|switch|p2a: Garbodor|Garbodor, F|61/100 brn
+|move|p1a: Sableye|Knock Off|p2a: Garbodor
+|-crit|p2a: Garbodor
+|-damage|p2a: Garbodor|33/100 brn
+|
+|-damage|p2a: Garbodor|27/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|t:|1615811678
+|move|p2a: Garbodor|Pain Split|p1a: Sableye
+|-sethp|p1a: Sableye|66/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|55/100 brn|[from] move: Pain Split
+|move|p1a: Sableye|Knock Off|p2a: Garbodor
+|-crit|p2a: Garbodor
+|-damage|p2a: Garbodor|25/100 brn
+|
+|-heal|p1a: Sableye|72/100|[from] item: Leftovers
+|-damage|p2a: Garbodor|19/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|t:|1615811693
+|move|p2a: Garbodor|Pain Split|p1a: Sableye
+|-sethp|p1a: Sableye|47/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|40/100 brn|[from] move: Pain Split
+|move|p1a: Sableye|Knock Off|p2a: Garbodor
+|-damage|p2a: Garbodor|21/100 brn
+|
+|-heal|p1a: Sableye|53/100|[from] item: Leftovers
+|-damage|p2a: Garbodor|15/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|t:|1615811700
+|move|p2a: Garbodor|Pain Split|p1a: Sableye
+|-sethp|p1a: Sableye|36/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|30/100 brn|[from] move: Pain Split
+|move|p1a: Sableye|Knock Off|p2a: Garbodor
+|-damage|p2a: Garbodor|10/100 brn
+|
+|-heal|p1a: Sableye|42/100|[from] item: Leftovers
+|-damage|p2a: Garbodor|4/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|t:|1615811707
+|move|p2a: Garbodor|Pain Split|p1a: Sableye
+|-sethp|p1a: Sableye|23/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Garbodor|19/100 brn|[from] move: Pain Split
+|move|p1a: Sableye|Knock Off|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|-damage|p1a: Sableye|0 fnt|[from] ability: Aftermath|[of] p2a: Garbodor
+|faint|p2a: Garbodor
+|faint|p1a: Sableye
+|
+|upkeep
+|
+|t:|1615811725
+|switch|p2a: Xatu|Xatu, M|15/100 psn
+|switch|p1a: Weezing|Weezing, M|100/100 slp
+|-damage|p1a: Weezing|88/100 slp|[from] Stealth Rock
+|turn|59
+|
+|t:|1615811731
+|switch|p1a: Audino|Audino, M|100/100
+|-damage|p1a: Audino|88/100|[from] Stealth Rock
+|-damage|p1a: Audino|63/100|[from] Spikes
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|65/100 psn
+|-singleturn|p2a: Xatu|move: Roost
+|
+|-heal|p1a: Audino|69/100|[from] item: Leftovers
+|-damage|p2a: Xatu|53/100 psn|[from] psn
+|upkeep
+|turn|60
+|
+|t:|1615811742
+|switch|p2a: Gourgeist|Gourgeist-Small, M|24/100
+|-item|p1a: Audino|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Audino|Wish|p1a: Audino
+|
+|-heal|p1a: Audino|75/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|t:|1615811745
+|move|p2a: Gourgeist|Trick|p1a: Audino
+|-activate|p2a: Gourgeist|move: Trick|[of] p1a: Audino
+|-item|p1a: Audino|Choice Band|[from] move: Trick
+|-item|p2a: Gourgeist|Leftovers|[from] move: Trick
+|move|p1a: Audino|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|-enditem|p2a: Gourgeist|Leftovers|[from] move: Knock Off|[of] p1a: Audino
+|faint|p2a: Gourgeist
+|
+|-heal|p1a: Audino|100/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|
+|t:|1615811749
+|switch|p2a: Thwackey|Thwackey, M|97/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|turn|62
+|
+|t:|1615811758
+|switch|p1a: Weezing|Weezing, M|88/100 slp
+|-damage|p1a: Weezing|76/100 slp|[from] Stealth Rock
+|move|p2a: Thwackey|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|68/100 slp
+|-damage|p2a: Thwackey|87/100|[from] item: Life Orb
+|
+|t:|1615811762
+|switch|p2a: Thievul|Thievul, F|100/100|[from]move: U-turn
+|-enditem|p2a: Thievul|Grassy Seed
+|-boost|p2a: Thievul|def|1|[from] item: Grassy Seed
+|
+|upkeep
+|turn|63
+|
+|t:|1615811769
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100 slp
+|-damage|p1a: Pyukumuku|88/100 slp|[from] Stealth Rock
+|-damage|p1a: Pyukumuku|63/100 slp|[from] Spikes
+|move|p2a: Thievul|Nasty Plot|p2a: Thievul
+|-boost|p2a: Thievul|spa|2
+|
+|-heal|p1a: Pyukumuku|69/100 slp|[from] Grassy Terrain
+|upkeep
+|turn|64
+|
+|t:|1615811773
+|move|p2a: Thievul|Dark Pulse|p1a: Pyukumuku
+|-crit|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|3/100 slp
+|cant|p1a: Pyukumuku|slp
+|
+|-heal|p1a: Pyukumuku|9/100 slp|[from] Grassy Terrain
+|upkeep
+|turn|65
+|
+|t:|1615811778
+|move|p2a: Thievul|Dark Pulse|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|0 fnt
+|-damage|p2a: Thievul|91/100|[from] ability: Innards Out|[of] p1a: Pyukumuku
+|faint|p1a: Pyukumuku
+|
+|-heal|p2a: Thievul|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1615811782
+|switch|p1a: Audino|Audino, M|100/100
+|-damage|p1a: Audino|88/100|[from] Stealth Rock
+|-damage|p1a: Audino|63/100|[from] Spikes
+|turn|66
+|
+|t:|1615811787
+|move|p2a: Thievul|Dark Pulse|p1a: Audino
+|-damage|p1a: Audino|16/100
+|move|p1a: Audino|Knock Off|p2a: Thievul
+|-resisted|p2a: Thievul
+|-damage|p2a: Thievul|89/100
+|
+|-heal|p2a: Thievul|95/100|[from] Grassy Terrain
+|-heal|p1a: Audino|22/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|67
+|
+|t:|1615811798
+|move|p2a: Thievul|Dark Pulse|p1a: Audino
+|-damage|p1a: Audino|0 fnt
+|faint|p1a: Audino
+|
+|upkeep
+|-message|Tony Soprano Jr. forfeited.
+|
+|win|Toxicidad fuera
+|raw|Tony Soprano Jr.'s rating: 1379 &rarr; <strong>1352</strong><br />(-27 for losing)
+|raw|Toxicidad fuera's rating: 1249 &rarr; <strong>1271</strong><br />(+22 for winning)
+|l|☆Tony Soprano Jr.

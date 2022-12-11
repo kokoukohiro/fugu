@@ -1,0 +1,319 @@
+|j|☆Onoufrios
+|j|☆Chloe
+|player|p1|Onoufrios|psychic-gen4|1855
+|player|p2|Chloe|#chloe|1775
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Arceus-*|
+|poke|p1|Xerneas|
+|poke|p1|Lugia|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Rayquaza|
+|poke|p2|Arceus-*|
+|poke|p2|Arceus-*|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Ho-Oh|
+|poke|p2|Ditto|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|
+|start
+|switch|p1a: Xerneas|Xerneas|100/100
+|switch|p2a: Arceus|Arceus-Ground|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|turn|1
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p1a: Xerneas|Geomancy||[still]
+|-prepare|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-enditem|p1a: Xerneas|Power Herb
+|-anim|p1a: Xerneas|Geomancy|p1a: Xerneas
+|-boost|p1a: Xerneas|spa|2
+|-boost|p1a: Xerneas|spd|2
+|-boost|p1a: Xerneas|spe|2
+|
+|upkeep
+|turn|2
+|
+|-start|p1a: Xerneas|Dynamax
+|-heal|p1a: Xerneas|100/100|[silent]
+|move|p1a: Xerneas|Max Lightning|p2a: Necrozma
+|-damage|p2a: Necrozma|17/100
+|-fieldstart|move: Electric Terrain
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Xerneas
+|-supereffective|p1a: Xerneas
+|-damage|p1a: Xerneas|63/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Xerneas|Max Lightning|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|58/100
+|
+|-heal|p2a: Ferrothorn|64/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| Lambovino
+|
+|switch|p2a: Ho-Oh|Ho-Oh|100/100
+|move|p1a: Xerneas|Max Starfall|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|43/100
+|-fieldstart|move: Misty Terrain
+|
+|-end|p1a: Xerneas|Dynamax
+|-heal|p1a: Xerneas|63/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|17/100
+|move|p1a: Xerneas|Moonblast|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|64/100
+|turn|6
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Xerneas|Moonblast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Xerneas|Moonblast|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|24/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Xerneas
+|-start|p1a: Xerneas|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|30/100|[from] item: Leftovers
+|-damage|p1a: Xerneas|51/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|46/100|[silent]
+|upkeep
+|turn|8
+|j| orangeflood
+|
+|switch|p1a: Rayquaza|Rayquaza|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|52/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|9
+|
+|detailschange|p1a: Rayquaza|Rayquaza-Mega
+|-mega|p1a: Rayquaza|Rayquaza|
+|-weather|DeltaStream|[from] ability: Delta Stream|[of] p1a: Rayquaza
+|move|p1a: Rayquaza|Dragon Ascent|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|-damage|p1a: Rayquaza|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Rayquaza|78/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Rayquaza|[from] ability: Imposter
+|turn|10
+|
+|move|p1a: Rayquaza|Extreme Speed|p2a: Ditto
+|-damage|p2a: Ditto|16/100
+|-damage|p1a: Rayquaza|68/100|[from] item: Life Orb
+|move|p2a: Ditto|Dragon Ascent|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|-unboost|p2a: Ditto|def|1
+|-unboost|p2a: Ditto|spd|1
+|faint|p1a: Rayquaza
+|
+|-weather|DeltaStream|[upkeep]
+|upkeep
+|
+|switch|p1a: Arceus|Arceus|100/100
+|turn|11
+|j| tay sachs
+|
+|move|p1a: Arceus|Extreme Speed|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|-weather|none
+|
+|upkeep
+|
+|switch|p2a: Arceus|Arceus-Ground|100/100
+|turn|12
+|
+|switch|p1a: Lugia|Lugia|100/100
+|move|p2a: Arceus|Judgment|p1a: Lugia
+|-immune|p1a: Lugia
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Arceus|Ice Beam|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|86/100
+|move|p1a: Lugia|Toxic|p2a: Arceus
+|-status|p2a: Arceus|tox
+|
+|-damage|p2a: Arceus|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Arceus|Refresh|p2a: Arceus
+|-curestatus|p2a: Arceus|tox|[msg]
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|100/100
+|-singleturn|p1a: Lugia|move: Roost
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Arceus|Ice Beam|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|87/100
+|-status|p1a: Lugia|frz
+|cant|p1a: Lugia|frz
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Arceus|Ice Beam|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|58/100 frz
+|-curestatus|p1a: Lugia|frz|[msg]
+|move|p1a: Lugia|Toxic|p2a: Arceus
+|-status|p2a: Arceus|tox
+|
+|-damage|p2a: Arceus|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Arceus|Refresh|p2a: Arceus
+|-curestatus|p2a: Arceus|tox|[msg]
+|move|p1a: Lugia|Roost|p1a: Lugia
+|-heal|p1a: Lugia|100/100
+|-singleturn|p1a: Lugia|move: Roost
+|
+|upkeep
+|turn|18
+|j| ImmanentLordLance
+|j| Fard-in
+|
+|move|p2a: Arceus|Ice Beam|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|88/100
+|move|p1a: Lugia|Whirlwind|p2a: Arceus
+|drag|p2a: Ho-Oh|Ho-Oh|76/100
+|
+|upkeep
+|turn|19
+|l| orangeflood
+|
+|move|p1a: Lugia|Thunder Wave|p2a: Ho-Oh|[miss]
+|-miss|p1a: Lugia|p2a: Ho-Oh
+|move|p2a: Ho-Oh|Toxic|p1a: Lugia|[miss]
+|-miss|p2a: Ho-Oh|p1a: Lugia
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|move|p2a: Ho-Oh|Toxic|p1a: Necrozma
+|-immune|p1a: Necrozma
+|
+|upkeep
+|turn|21
+|c| Fard-in|terribad
+|c|☆Chloe|ik ben slecht
+|
+|detailschange|p1a: Necrozma|Necrozma-Ultra
+|-burst|p1a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p1a: Necrozma|Stone Edge|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|upkeep
+|
+|switch|p2a: Arceus|Arceus|100/100
+|turn|22
+|c| Fard-in|it was a combo of
+|c| Fard-in|terrible and bad
+|c|☆Chloe|oh
+|
+|switch|p2a: Arceus|Arceus-Ground|88/100
+|-zpower|p1a: Necrozma
+|move|p1a: Necrozma|Light That Burns the Sky|p2a: Arceus|[zeffect]
+|-damage|p2a: Arceus|12/100
+|
+|upkeep
+|turn|23
+|c| Fard-in|not another
+|c| Fard-in|lang
+|c| Fard-in|nerd
+|
+|move|p2a: Arceus|Ice Beam|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|56/100
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|
+|upkeep
+|turn|24
+|c| ImmanentLordLance|Chloe's not in form
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|upkeep
+|
+|switch|p2a: Arceus|Arceus|100/100
+|turn|25
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Necrozma
+|-damage|p1a: Necrozma|9/100
+|-damage|p2a: Arceus|91/100|[from] item: Life Orb
+|move|p1a: Necrozma|Photon Geyser|p2a: Arceus
+|-damage|p2a: Arceus|14/100
+|
+|upkeep
+|turn|26
+|c|☆Chloe|rip
+|
+|move|p2a: Arceus|Extreme Speed|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|-damage|p2a: Arceus|4/100|[from] item: Life Orb
+|faint|p1a: Necrozma
+|
+|upkeep
+|l| Fard-in
+|-message|Chloe forfeited.
+|
+|win|Onoufrios
+|c|☆Chloe|gg
+|l|☆Chloe
+|raw|Onoufrios's rating: 1855 &rarr; <strong>1871</strong><br />(+16 for winning)
+|raw|Chloe's rating: 1775 &rarr; <strong>1759</strong><br />(-16 for losing)

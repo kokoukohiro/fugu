@@ -1,0 +1,222 @@
+|j|☆Opposite3
+|j|☆PokeDa
+|player|p1|Opposite3|camper|1205
+|player|p2|PokeDa|wallace|1207
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Hatterene, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Clefable, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Darmanitan-Galar, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Conkeldurr, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Godzilla|Tyranitar, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Godzilla
+|-item|p1a: Godzilla|Air Balloon
+|turn|1
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Seismitoad|[from]Magic Bounce
+|-sidestart|p2: PokeDa|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p2a: Seismitoad|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|76/100
+|-status|p1a: Hatterene|brn
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Seismitoad
+|-damage|p2a: Seismitoad|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|70/100 brn|[from] Sandstorm
+|-heal|p2a: Seismitoad|56/100|[from] item: Leftovers
+|-damage|p1a: Hatterene|64/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Hatterene|Giga Drain|p2a: Excadrill
+|-damage|p2a: Excadrill|70/100
+|-heal|p1a: Hatterene|80/100 brn|[from] drain|[of] p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|74/100 brn|[from] Sandstorm
+|-damage|p1a: Hatterene|68/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Rotom
+|-damage|p1a: Rotom|76/100
+|-sideend|p2: PokeDa|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|70/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p2a: Excadrill|Earthquake|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: BubbleMan|Seismitoad, M|100/100
+|turn|6
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: BubbleMan|Scald|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|70/100
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|move|p1a: BubbleMan|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: PokeDa|move: Stealth Rock
+|move|p2a: Conkeldurr|Drain Punch|p1a: BubbleMan
+|-damage|p1a: BubbleMan|53/100
+|-heal|p2a: Conkeldurr|94/100 brn|[from] drain|[of] p1a: BubbleMan
+|
+|-heal|p1a: BubbleMan|59/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Hatterene|Hatterene, F|68/100 brn
+|move|p2a: Conkeldurr|Drain Punch|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|49/100 brn
+|-heal|p2a: Conkeldurr|95/100 brn|[from] drain|[of] p1a: Hatterene
+|
+|-damage|p2a: Conkeldurr|89/100 brn|[from] brn
+|-damage|p1a: Hatterene|43/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Conkeldurr|Poison Jab|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-damage|p2a: Conkeldurr|83/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Slithery Snake|Dragapult, F|100/100
+|turn|10
+|
+|switch|p2a: Seismitoad|Seismitoad, F|56/100
+|-damage|p2a: Seismitoad|50/100|[from] Stealth Rock
+|move|p1a: Slithery Snake|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|37/100
+|
+|switch|p1a: I am Speed|Excadrill, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Seismitoad|43/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: I am Speed|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: I am Speed|91/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|83/100 brn
+|-damage|p2a: Conkeldurr|77/100 brn|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Slithery Snake|Dragapult, F|100/100
+|switch|p2a: Clefable|Clefable, M|100/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Slithery Snake|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|90/100
+|
+|switch|p1a: Godzilla|Tyranitar, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Godzilla
+|-item|p1a: Godzilla|Air Balloon
+|move|p2a: Clefable|Moonblast|p1a: Godzilla
+|-supereffective|p1a: Godzilla
+|-damage|p1a: Godzilla|30/100
+|-enditem|p1a: Godzilla|Air Balloon
+|-unboost|p1a: Godzilla|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|77/100 brn
+|-damage|p2a: Conkeldurr|71/100 brn|[from] Stealth Rock
+|move|p1a: Godzilla|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|38/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|32/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|26/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Godzilla
+|-supereffective|p1a: Godzilla
+|-damage|p1a: Godzilla|0 fnt
+|faint|p1a: Godzilla
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|20/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|14/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: I am Speed|Excadrill, M|91/100
+|turn|16
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: I am Speed
+|-supereffective|p1a: I am Speed
+|-damage|p1a: I am Speed|0 fnt
+|faint|p1a: I am Speed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|8/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|2/100 brn|[from] brn
+|upkeep
+|-message|Opposite3 forfeited.
+|
+|win|PokeDa
+|raw|Opposite3's rating: 1205 &rarr; <strong>1180</strong><br />(-25 for losing)
+|raw|PokeDa's rating: 1207 &rarr; <strong>1232</strong><br />(+25 for winning)
+|l|☆Opposite3

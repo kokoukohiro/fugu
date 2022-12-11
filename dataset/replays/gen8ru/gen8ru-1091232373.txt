@@ -1,0 +1,250 @@
+|j|☆manbeast209
+|j|☆07l中国大妈
+|player|p1|manbeast209|101|1128
+|player|p2|07l中国大妈|pokefanf-gen4|1051
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Barraskewda, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Vikavolt, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Xatu, M|
+|poke|p1|Dugtrio-Alola, M|
+|poke|p2|Aromatisse, F|
+|poke|p2|Decidueye, M|
+|poke|p2|Steelix, F|
+|poke|p2|Jellicent, M|
+|poke|p2|Morpeko, F|
+|poke|p2|Weezing, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by manbeast209)
+|
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|turn|1
+|
+|switch|p2a: Weezing|Weezing, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Rillaboom|Knock Off|p2a: Weezing
+|-damage|p2a: Weezing|76/100
+|-damage|p1a: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2a: Weezing
+|-enditem|p2a: Weezing|Rocky Helmet|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Dugtrio|Dugtrio-Alola, M|100/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Dugtrio
+|-immune|p1a: Dugtrio
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Weezing
+|-sidestart|p2: 07l中国大妈|move: Stealth Rock
+|move|p2a: Weezing|Will-O-Wisp|p1a: Dugtrio
+|-status|p1a: Dugtrio|brn
+|
+|-damage|p1a: Dugtrio|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|44/100
+|move|p2a: Weezing|Toxic Spikes|p1a: Dugtrio
+|-sidestart|p1: manbeast209|move: Toxic Spikes
+|
+|-damage|p1a: Dugtrio|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|switch|p2a: Aromatisse|Aromatisse, F|100/100
+|-damage|p2a: Aromatisse|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Aromatisse|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Xatu|Defog|p2a: Aromatisse
+|-unboost|p2a: Aromatisse|evasion|1
+|-sideend|p2: 07l中国大妈|Stealth Rock|[from] move: Defog|[of] p1a: Xatu
+|-sideend|p1: manbeast209|Toxic Spikes|[from] move: Defog|[of] p1a: Xatu
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|move|p1a: Xatu|Psychic|p2a: Morpeko
+|-immune|p2a: Morpeko
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|8
+|
+|switch|p1a: Dugtrio|Dugtrio-Alola, M|88/100 brn
+|move|p2a: Morpeko|Aura Wheel|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Dugtrio
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, F|84/100
+|turn|9
+|
+|switch|p2a: Weezing|Weezing, F|44/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Rillaboom|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|switch|p2a: Decidueye|Decidueye, M|100/100
+|turn|10
+|
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|move|p2a: Decidueye|Knock Off|p1a: Vikavolt
+|-damage|p1a: Vikavolt|68/100
+|-enditem|p1a: Vikavolt|Choice Specs|[from] move: Knock Off|[of] p2a: Decidueye
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Decidueye|U-turn|p1a: Vikavolt
+|-damage|p1a: Vikavolt|46/100
+|
+|switch|p2a: Steelix|Steelix, F|100/100|[from]move: U-turn
+|move|p1a: Vikavolt|Bug Buzz|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|61/100
+|
+|-heal|p2a: Steelix|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|move|p1a: Vikavolt|Energy Ball|p2a: Morpeko
+|-damage|p2a: Morpeko|37/100
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|13
+|
+|move|p2a: Morpeko|Fake Out|p1a: Vikavolt
+|-damage|p1a: Vikavolt|32/100
+|cant|p1a: Vikavolt|flinch
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|14
+|
+|move|p2a: Morpeko|Parting Shot|p1a: Vikavolt
+|-unboost|p1a: Vikavolt|atk|1
+|-unboost|p1a: Vikavolt|spa|1
+|
+|switch|p2a: Decidueye|Decidueye, M|100/100|[from]move: Parting Shot
+|move|p1a: Vikavolt|Bug Buzz|p2a: Decidueye
+|-crit|p2a: Decidueye
+|-damage|p2a: Decidueye|44/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Decidueye|Knock Off|p1a: Vikavolt
+|-damage|p1a: Vikavolt|11/100
+|move|p1a: Vikavolt|Bug Buzz|p2a: Decidueye
+|-damage|p2a: Decidueye|22/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Decidueye|Knock Off|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|turn|17
+|
+|move|p2a: Decidueye|Shadow Sneak|p1a: Salazzle
+|-damage|p1a: Salazzle|62/100
+|move|p1a: Salazzle|Flamethrower|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|-heal|p1a: Salazzle|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|turn|18
+|
+|switch|p1a: Rillaboom|Rillaboom, F|84/100
+|move|p2a: Jellicent|Scald|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|68/100
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Aromatisse|Aromatisse, F|100/100
+|move|p1a: Rillaboom|Drum Beating|p2a: Aromatisse
+|-damage|p2a: Aromatisse|71/100
+|-unboost|p2a: Aromatisse|spe|1
+|
+|-heal|p2a: Aromatisse|77/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Aromatisse
+|-damage|p2a: Aromatisse|26/100
+|move|p2a: Aromatisse|Moonblast|p1a: Barraskewda
+|-damage|p1a: Barraskewda|27/100
+|
+|-heal|p2a: Aromatisse|76/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Aromatisse|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Barraskewda|Liquidation|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p2a: Aromatisse|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|-message|manbeast209 forfeited.
+|
+|win|07l中国大妈
+|l|☆manbeast209
+|raw|manbeast209's rating: 1128 &rarr; <strong>1097</strong><br />(-31 for losing)
+|raw|07l中国大妈's rating: 1051 &rarr; <strong>1090</strong><br />(+39 for winning)

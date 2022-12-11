@@ -1,0 +1,542 @@
+|j|☆Jensen01
+|j|☆Kla0Trixx
+|player|p1|Jensen01|n|1341
+|player|p2|Kla0Trixx|102|1392
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|html|<div class="broadcast-blue"><strong>UU is currently suspecting Haxorus! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3664575/">suspect thread</a>.</strong></div>
+|clearpoke
+|poke|p1|Necrozma|
+|poke|p1|Ditto|
+|poke|p1|Rotom-Wash|
+|poke|p1|Darmanitan, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Drapion, M|
+|poke|p2|Incineroar, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Gastrodon-East, M|
+|poke|p2|Cobalion|
+|poke|p2|Celebi|
+|poke|p2|Rotom-Mow|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|move|p1a: Darmanitan|Flare Blitz|p2a: Weezing
+|-damage|p2a: Weezing|23/100
+|-damage|p1a: Darmanitan|76/100|[from] Recoil
+|
+|-heal|p2a: Weezing|29/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1a: Darmanitan|Flare Blitz|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|
+|-heal|p2a: Weezing|35/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Levitate|[from] ability: Trace|[of] p2a: Weezing
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Gardevoir|atk|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Gardevoir|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|64/100
+|-unboost|p2a: Incineroar|spa|1
+|move|p2a: Incineroar|Knock Off|p1a: Gardevoir
+|-damage|p1a: Gardevoir|15/100
+|-enditem|p1a: Gardevoir|Assault Vest|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Incineroar|Leech Life|p1a: Rotom
+|-damage|p1a: Rotom|73/100
+|-heal|p2a: Incineroar|75/100|[from] drain|[of] p1a: Rotom
+|
+|-heal|p1a: Rotom|79/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Celebi|Celebi|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|86/100
+|
+|switch|p1a: Darmanitan|Darmanitan, M|76/100|[from]move: Volt Switch
+|
+|-heal|p2a: Celebi|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Celebi|U-turn|p1a: Darmanitan
+|-resisted|p1a: Darmanitan
+|-damage|p1a: Darmanitan|65/100
+|
+|switch|p2a: Weezing|Weezing-Galar, M|35/100|[from]move: U-turn
+|move|p1a: Darmanitan|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|28/100
+|
+|switch|p1a: Rotom|Rotom-Wash|79/100|[from]move: U-turn
+|
+|-heal|p1a: Rotom|85/100|[from] item: Leftovers
+|-heal|p2a: Weezing|34/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|
+|-heal|p1a: Rotom|92/100|[from] item: Leftovers
+|-heal|p2a: Weezing|40/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p2a: Celebi|Celebi|93/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Celebi
+|-status|p2a: Celebi|brn
+|
+|-heal|p2a: Celebi|99/100 brn|[from] item: Leftovers
+|-heal|p1a: Rotom|98/100|[from] item: Leftovers
+|-damage|p2a: Celebi|93/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Celebi|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Jensen01|move: Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|79/100 brn
+|
+|switch|p1a: Drapion|Drapion, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Drapion|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Celebi|86/100 brn|[from] item: Leftovers
+|-heal|p1a: Drapion|94/100|[from] item: Black Sludge
+|-damage|p2a: Celebi|79/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Rotom|Rotom-Wash|98/100
+|-damage|p1a: Rotom|85/100|[from] Stealth Rock
+|move|p2a: Celebi|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|77/100
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100|[from]move: U-turn
+|
+|-heal|p1a: Rotom|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Rotom|[miss]
+|-miss|p2a: Rotom|p1a: Rotom
+|move|p1a: Rotom|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: Jensen01|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|
+|-heal|p1a: Rotom|90/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Gardevoir|Gardevoir, F|15/100
+|-ability|p1a: Gardevoir|Levitate|[from] ability: Trace|[of] p2a: Rotom
+|move|p2a: Rotom|Leaf Storm|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|switch|p1a: Darmanitan|Darmanitan, M|65/100
+|turn|14
+|
+|switch|p2a: Weezing|Weezing-Galar, M|40/100
+|move|p1a: Darmanitan|Flare Blitz|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Darmanitan|52/100|[from] Recoil
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|switch|p2a: Celebi|Celebi|79/100
+|turn|15
+|
+|move|p2a: Celebi|Psychic|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p1a: Darmanitan
+|
+|-heal|p2a: Celebi|86/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Drapion|Drapion, M|94/100
+|turn|16
+|
+|move|p2a: Celebi|U-turn|p1a: Drapion
+|-damage|p1a: Drapion|84/100
+|
+|switch|p2a: Cobalion|Cobalion|100/100|[from]move: U-turn
+|move|p1a: Drapion|Knock Off|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|87/100
+|-ability|p2a: Cobalion|Justified|boost
+|-boost|p2a: Cobalion|atk|1
+|-enditem|p2a: Cobalion|Salac Berry|[from] move: Knock Off|[of] p1a: Drapion
+|
+|-heal|p1a: Drapion|90/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p1a: Rotom|Rotom-Wash|90/100
+|move|p2a: Cobalion|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|70/100
+|
+|-heal|p1a: Rotom|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Cobalion|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|65/100
+|
+|switch|p2a: Celebi|Celebi|86/100|[from]move: Volt Switch
+|move|p1a: Rotom|Volt Switch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|71/100
+|
+|switch|p1a: Drapion|Drapion, M|90/100|[from]move: Volt Switch
+|
+|-heal|p2a: Celebi|77/100|[from] item: Leftovers
+|-heal|p1a: Drapion|96/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Celebi|Stealth Rock|p1a: Drapion
+|-sidestart|p1: Jensen01|move: Stealth Rock
+|move|p1a: Drapion|Knock Off|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-crit|p2a: Celebi
+|-damage|p2a: Celebi|0 fnt
+|-enditem|p2a: Celebi|Leftovers|[from] move: Knock Off|[of] p1a: Drapion
+|faint|p2a: Celebi
+|
+|-heal|p1a: Drapion|100/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Cobalion|Cobalion|87/100
+|turn|20
+|
+|move|p2a: Cobalion|Swords Dance|p2a: Cobalion
+|-boost|p2a: Cobalion|atk|2
+|move|p1a: Drapion|Swords Dance|p1a: Drapion
+|-boost|p1a: Drapion|atk|2
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Cobalion|Close Combat|p1a: Drapion
+|-damage|p1a: Drapion|30/100
+|-unboost|p2a: Cobalion|def|1
+|-unboost|p2a: Cobalion|spd|1
+|move|p1a: Drapion|Knock Off|p2a: Cobalion
+|-resisted|p2a: Cobalion
+|-damage|p2a: Cobalion|62/100
+|-ability|p2a: Cobalion|Justified|boost
+|-boost|p2a: Cobalion|atk|1
+|
+|-heal|p1a: Drapion|36/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p2a: Cobalion|Iron Head|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|faint|p1a: Drapion
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Cobalion|[from] ability: Imposter
+|turn|23
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jensen01)
+|
+|move|p1a: Ditto|Close Combat|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|-unboost|p1a: Ditto|def|1
+|-unboost|p1a: Ditto|spd|1
+|faint|p2a: Cobalion
+|
+|upkeep
+|
+|switch|p2a: Incineroar|Incineroar, F|75/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ditto|atk|1
+|turn|24
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Ditto|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Ditto|def|1
+|-unboost|p1a: Ditto|spd|1
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Incineroar|Incineroar, F|75/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ditto|atk|1
+|turn|25
+|
+|move|p1a: Ditto|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1a: Ditto|def|1
+|-unboost|p1a: Ditto|spd|1
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|100/100
+|turn|26
+|
+|switch|p1a: Rotom|Rotom-Wash|65/100
+|-damage|p1a: Rotom|53/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Earth Power|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-heal|p1a: Rotom|59/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|move|p2a: Gastrodon|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p1a: Rotom|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|59/100 tox|[from] psn
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p1a: Rotom|Defog|p2a: Gastrodon
+|-unboost|p2a: Gastrodon|evasion|1
+|-sideend|p1: Jensen01|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|move|p2a: Gastrodon|Toxic|p1a: Rotom
+|-fail|p1a: Rotom|tox
+|
+|-heal|p1a: Rotom|65/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|53/100 tox|[from] psn
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gastrodon
+|-fail|p2a: Gastrodon|brn
+|move|p2a: Gastrodon|Earth Power|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-heal|p1a: Rotom|59/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|40/100 tox|[from] psn
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Rotom|Volt Switch|p2a: Gastrodon
+|-immune|p2a: Gastrodon
+|move|p2a: Gastrodon|Earth Power|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-heal|p1a: Rotom|47/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|22/100 tox|[from] psn
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Rotom|Volt Switch|p2a: Gastrodon
+|-immune|p2a: Gastrodon
+|move|p2a: Gastrodon|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|10/100 tox
+|
+|-heal|p1a: Rotom|16/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|0 fnt|[from] psn
+|faint|p1a: Rotom
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Necrozma|Necrozma|100/100
+|turn|32
+|
+|move|p1a: Necrozma|Calm Mind|p1a: Necrozma
+|-boost|p1a: Necrozma|spa|1
+|-boost|p1a: Necrozma|spd|1
+|move|p2a: Gastrodon|Toxic|p1a: Necrozma
+|-status|p1a: Necrozma|tox
+|
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|94/100 tox|[from] psn
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Necrozma|Calm Mind|p1a: Necrozma
+|-boost|p1a: Necrozma|spa|1
+|-boost|p1a: Necrozma|spd|1
+|move|p2a: Gastrodon|Earth Power|p1a: Necrozma
+|-damage|p1a: Necrozma|81/100 tox
+|
+|-heal|p1a: Necrozma|87/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|75/100 tox|[from] psn
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Gastrodon
+|-damage|p2a: Gastrodon|44/100 brn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|94/100 brn
+|
+|-heal|p1a: Necrozma|81/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|62/100 tox|[from] psn
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|35
+|inactive|Kla0Trixx has 120 seconds left.
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Gastrodon
+|-damage|p2a: Gastrodon|38/100 brn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|88/100 brn
+|
+|-heal|p1a: Necrozma|68/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|44/100 tox|[from] psn
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Gastrodon
+|-damage|p2a: Gastrodon|33/100 brn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|83/100 brn
+|
+|-heal|p1a: Necrozma|50/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|20/100 tox|[from] psn
+|-damage|p2a: Gastrodon|83/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Gastrodon
+|-damage|p2a: Gastrodon|29/100 brn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|79/100 brn
+|
+|-heal|p1a: Necrozma|26/100 tox|[from] item: Leftovers
+|-heal|p2a: Gastrodon|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Necrozma|0 fnt|[from] psn
+|faint|p1a: Necrozma
+|-damage|p2a: Gastrodon|79/100 brn|[from] brn
+|upkeep
+|c|☆Jensen01|I choked this shit
+|
+|switch|p1a: Ditto|Ditto|88/100
+|-transform|p1a: Ditto|p2a: Gastrodon|[from] ability: Imposter
+|turn|38
+|c|☆Kla0Trixx|yeah
+|c|☆Kla0Trixx|but i also choked when i ignored ditto
+|
+|move|p1a: Ditto|Earth Power|p2a: Gastrodon
+|-damage|p2a: Gastrodon|60/100 brn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|39
+|inactive|Jensen01 has 120 seconds left.
+|c|☆Jensen01|Yeah gg anyway
+|
+|move|p1a: Ditto|Earth Power|p2a: Gastrodon
+|-damage|p2a: Gastrodon|77/100 brn
+|move|p2a: Gastrodon|Toxic|p1a: Ditto
+|-status|p1a: Ditto|tox
+|
+|-heal|p2a: Gastrodon|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Ditto|82/100 tox|[from] psn
+|-damage|p2a: Gastrodon|77/100 brn|[from] brn
+|upkeep
+|turn|40
+|c|☆Kla0Trixx|g
+|c|☆Kla0Trixx|g
+|inactive|Jensen01 has 120 seconds left.
+|
+|move|p1a: Ditto|Earth Power|p2a: Gastrodon
+|-damage|p2a: Gastrodon|58/100 brn
+|move|p2a: Gastrodon|Earth Power|p1a: Ditto
+|-damage|p1a: Ditto|55/100 tox
+|
+|-heal|p2a: Gastrodon|64/100 brn|[from] item: Leftovers
+|-damage|p1a: Ditto|42/100 tox|[from] psn
+|-damage|p2a: Gastrodon|58/100 brn|[from] brn
+|upkeep
+|turn|41
+|inactive|Jensen01 has 120 seconds left.
+|
+|move|p1a: Ditto|Earth Power|p2a: Gastrodon
+|-damage|p2a: Gastrodon|38/100 brn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|88/100 brn
+|
+|-heal|p2a: Gastrodon|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Ditto|24/100 tox|[from] psn
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|42
+|inactive|Jensen01 has 120 seconds left.
+|
+|move|p1a: Ditto|Earth Power|p2a: Gastrodon
+|-damage|p2a: Gastrodon|69/100 brn
+|move|p2a: Gastrodon|Earth Power|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|win|Kla0Trixx
+|raw|Jensen01's rating: 1341 &rarr; <strong>1324</strong><br />(-17 for losing)
+|raw|Kla0Trixx's rating: 1392 &rarr; <strong>1409</strong><br />(+17 for winning)
+|l|☆Jensen01

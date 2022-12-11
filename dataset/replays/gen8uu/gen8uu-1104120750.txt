@@ -1,0 +1,150 @@
+|j|☆Youngster Maxance
+|j|☆Carkoaler
+|player|p1|Youngster Maxance|preschooler|1300
+|player|p2|Carkoaler|hapu|1296
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Haxorus, M|
+|poke|p1|Golisopod, F|
+|poke|p1|Tsareena, F|
+|poke|p1|Passimian, F|
+|poke|p1|Bronzong|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Xatu, M|
+|poke|p2|Barbaracle, F|
+|poke|p2|Haxorus, M|
+|poke|p2|Linoone, M|
+|poke|p2|Incineroar, F|
+|poke|p2|Toxtricity, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Youngster Maxance)
+|
+|start
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|1
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Toxtricity|Shift Gear|p2a: Toxtricity
+|-boost|p2a: Toxtricity|spe|2
+|-boost|p2a: Toxtricity|atk|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Haxorus
+|-damage|p1a: Haxorus|10/100
+|-enditem|p2a: Toxtricity|Throat Spray
+|-boost|p2a: Toxtricity|spa|1|[from] item: Throat Spray
+|move|p1a: Haxorus|Earthquake|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|turn|3
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|move|p2a: Xatu|Reflect|p2a: Xatu
+|-sidestart|p2: Carkoaler|Reflect
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Xatu|Light Screen|p2a: Xatu
+|-sidestart|p2: Carkoaler|move: Light Screen
+|move|p1a: Golisopod|Spikes|p2a: Xatu
+|move|p2a: Xatu|Spikes|p1a: Golisopod|[from]Magic Bounce
+|-sidestart|p1: Youngster Maxance|Spikes
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Golisopod|Liquidation|p2a: Xatu
+|-damage|p2a: Xatu|71/100
+|-unboost|p2a: Xatu|def|1
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Linoone|Linoone, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Linoone|Belly Drum|p2a: Linoone
+|-damage|p2a: Linoone|50/100
+|-setboost|p2a: Linoone|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Linoone|Figy Berry|[eat]
+|-heal|p2a: Linoone|83/100|[from] item: Figy Berry
+|move|p1a: Golisopod|Liquidation|p2a: Linoone
+|-damage|p2a: Linoone|42/100
+|-unboost|p2a: Linoone|def|1
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Haxorus|Haxorus, M|10/100
+|-damage|p1a: Haxorus|0 fnt|[from] Spikes
+|faint|p1a: Haxorus
+|move|p2a: Linoone|Extreme Speed|p1: Haxorus|[notarget]
+|-fail|p2a: Linoone
+|
+|upkeep
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|turn|8
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Linoone|Throat Chop|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Linoone|Throat Chop|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|turn|10
+|
+|move|p2a: Linoone|Extreme Speed|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|faint|p1a: Golisopod
+|
+|-sideend|p2: Carkoaler|Reflect
+|upkeep
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|turn|11
+|
+|move|p2a: Linoone|Extreme Speed|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|-sideend|p2: Carkoaler|move: Light Screen
+|upkeep
+|-message|Youngster Maxance forfeited.
+|
+|win|Carkoaler
+|l|☆Youngster Maxance
+|raw|Youngster Maxance's rating: 1301 &rarr; <strong>1281</strong><br />(-20 for losing)
+|raw|Carkoaler's rating: 1296 &rarr; <strong>1321</strong><br />(+25 for winning)

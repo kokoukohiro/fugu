@@ -1,0 +1,214 @@
+|j|☆automagico
+|j|☆Godzillo
+|player|p1|automagico|giovanni|1307
+|player|p2|Godzillo|pokemaniac|1130
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Pikachu, F|
+|poke|p1|Kangaskhan, F|
+|poke|p1|Lilligant, F|
+|poke|p1|Silvally-*|
+|poke|p1|Butterfree, M|
+|poke|p1|Sandslash, F|
+|poke|p2|Raboot, M|
+|poke|p2|Pikachu, F|
+|poke|p2|Lycanroc-Midnight, F|
+|poke|p2|Butterfree, F|
+|poke|p2|Silvally-*|
+|poke|p2|Kadabra, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Godzillo)
+|
+|start
+|switch|p1a: Sandslash|Sandslash, F|100/100
+|switch|p2a: Raboot|Raboot, M|100/100
+|turn|1
+|
+|move|p2a: Raboot|U-turn|p1a: Sandslash
+|-start|p2a: Raboot|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Sandslash|65/100
+|
+|switch|p2a: Silvally|Silvally-Ice|100/100|[from]move: U-turn
+|move|p1a: Sandslash|Stealth Rock|p2a: Silvally
+|-sidestart|p2: Godzillo|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Silvally|Defog|p1a: Sandslash
+|-unboost|p1a: Sandslash|evasion|1
+|-sideend|p2: Godzillo|Stealth Rock|[from] move: Defog|[of] p2a: Silvally
+|move|p1a: Sandslash|Rapid Spin|p2a: Silvally
+|-damage|p2a: Silvally|88/100
+|-boost|p1a: Sandslash|spe|1
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Sandslash|Stealth Rock|p2a: Silvally
+|-sidestart|p2: Godzillo|move: Stealth Rock
+|move|p2a: Silvally|Ice Beam|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Rock|100/100
+|turn|4
+|
+|move|p2a: Silvally|Steel Beam|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|1/100
+|-damage|p2a: Silvally|37/100|[from] mindblown
+|move|p1a: Silvally|Flame Charge|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|7/100
+|-boost|p1a: Silvally|spe|1
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Pikachu|Pikachu, F|100/100
+|-damage|p2a: Pikachu|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Pikachu|Extreme Speed|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Kangaskhan|Kangaskhan, F|100/100
+|turn|7
+|
+|move|p1a: Kangaskhan|Fake Out|p2a: Pikachu
+|-damage|p2a: Pikachu|11/100
+|cant|p2a: Pikachu|flinch
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|upkeep
+|
+|switch|p2a: Raboot|Raboot, M|100/100
+|-damage|p2a: Raboot|76/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Kangaskhan|Sucker Punch|p2a: Raboot
+|-damage|p2a: Raboot|37/100
+|move|p2a: Raboot|High Jump Kick|p1a: Kangaskhan
+|-start|p2a: Raboot|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|upkeep
+|
+|switch|p1a: Pikachu|Pikachu, F|100/100
+|turn|10
+|
+|move|p1a: Pikachu|Extreme Speed|p2a: Raboot
+|-damage|p2a: Raboot|0 fnt
+|faint|p2a: Raboot
+|
+|upkeep
+|
+|switch|p2a: Lycanroc|Lycanroc-Midnight, F|100/100
+|-damage|p2a: Lycanroc|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Lycanroc|Stone Edge|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|
+|upkeep
+|
+|switch|p1a: Lilligant|Lilligant, F|100/100
+|turn|12
+|
+|move|p2a: Lycanroc|Stone Edge|p1a: Lilligant
+|-damage|p1a: Lilligant|26/100
+|move|p1a: Lilligant|Energy Ball|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|-damage|p1a: Lilligant|16/100|[from] item: Life Orb
+|faint|p2a: Lycanroc
+|
+|upkeep
+|
+|switch|p2a: Kadabra|Kadabra, F|100/100
+|turn|13
+|
+|move|p2a: Kadabra|Psychic|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|upkeep
+|
+|switch|p1a: Butterfree|Butterfree, M|100/100
+|turn|14
+|
+|move|p2a: Kadabra|Psychic|p1a: Butterfree
+|-damage|p1a: Butterfree|32/100
+|move|p1a: Butterfree|Quiver Dance|p1a: Butterfree
+|-boost|p1a: Butterfree|spa|1
+|-boost|p1a: Butterfree|spd|1
+|-boost|p1a: Butterfree|spe|1
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Butterfree|Roost|p1a: Butterfree
+|-heal|p1a: Butterfree|82/100
+|-singleturn|p1a: Butterfree|move: Roost
+|move|p2a: Kadabra|Psychic|p1a: Butterfree
+|-damage|p1a: Butterfree|30/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Butterfree|Hurricane|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|
+|upkeep
+|
+|switch|p2a: Butterfree|Butterfree, F|100/100
+|-damage|p2a: Butterfree|51/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Butterfree|Hurricane|p2a: Butterfree|[miss]
+|-miss|p1a: Butterfree|p2a: Butterfree
+|move|p2a: Butterfree|Hurricane|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|win|Godzillo
+|l|☆automagico
+|c|☆Godzillo|Lol

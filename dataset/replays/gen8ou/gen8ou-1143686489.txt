@@ -1,0 +1,229 @@
+|j|☆Meroz
+|j|☆Fakery King
+|player|p1|Meroz|101|1833
+|player|p2|Fakery King|pokemonranger-gen4|1608
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Alakazam, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Jirachi|
+|poke|p1|Togekiss, F|
+|poke|p1|Volcarona, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Magearna|
+|poke|p2|Zeraora|
+|poke|p2|Dragapult, F|
+|poke|p2|Clefable, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fakery King)
+|inactive|Meroz has 120 seconds left.
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Indeedee
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|switch|p2a: Magearna|Magearna|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|2
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|3
+|
+|switch|p1a: Alakazam|Alakazam, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Alakazam
+|-enditem|p1a: Alakazam|Focus Sash
+|-damage|p1a: Alakazam|1/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1|[from] item: Psychic Seed
+|turn|5
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Hawlucha|Acrobatics|p2a: Clefable
+|-damage|p2a: Clefable|61/100
+|
+|-fieldend|move: Psychic Terrain
+|-damage|p1a: Hawlucha|88/100|[from] item: Sticky Barb
+|upkeep
+|turn|6
+|inactive|Meroz has 120 seconds left.
+|
+|move|p1a: Hawlucha|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|move|p2a: Clefable|Moonblast|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|22/100
+|
+|-damage|p1a: Hawlucha|10/100|[from] item: Sticky Barb
+|upkeep
+|turn|7
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Clefable
+|-damage|p2a: Clefable|40/100
+|move|p2a: Clefable|Moonblast|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|8
+|inactive|Fakery King has 120 seconds left.
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Volcarona
+|-damage|p1a: Volcarona|16/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Volcarona|Psychic|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|11
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Mimikyu|Curse|p1a: Togekiss
+|-start|p1a: Togekiss|Curse|[of] p2a: Mimikyu
+|-damage|p2a: Mimikyu|51/100
+|
+|-damage|p1a: Togekiss|76/100|[from] Curse
+|-damage|p2a: Mimikyu|38/100|[from] item: Sticky Barb
+|upkeep
+|turn|12
+|
+|switch|p1a: Volcarona|Volcarona, M|16/100
+|move|p2a: Mimikyu|Thunder Wave|p1a: Volcarona|[miss]
+|-miss|p2a: Mimikyu|p1a: Volcarona
+|
+|-damage|p2a: Mimikyu|26/100|[from] item: Sticky Barb
+|upkeep
+|turn|13
+|
+|move|p1a: Volcarona|Psychic|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|26/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|13/100|[from] pokemon: Mimikyu-Busted
+|move|p2a: Mimikyu|Trick|p1a: Volcarona
+|-activate|p2a: Mimikyu|move: Trick|[of] p1a: Volcarona
+|-item|p1a: Volcarona|Sticky Barb|[from] move: Trick
+|-item|p2a: Mimikyu|Heavy-Duty Boots|[from] move: Trick
+|
+|-damage|p1a: Volcarona|4/100|[from] item: Sticky Barb
+|upkeep
+|turn|14
+|
+|move|p1a: Volcarona|Fire Blast|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-damage|p1a: Volcarona|0 fnt|[from] item: Sticky Barb
+|faint|p1a: Volcarona
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|15
+|
+|move|p1a: Jirachi|U-turn|p2a: Zeraora
+|-damage|p2a: Zeraora|74/100
+|
+|switch|p1a: Togekiss|Togekiss, F|76/100|[from]move: U-turn
+|move|p2a: Zeraora|Knock Off|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|60/100
+|-enditem|p1a: Togekiss|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Zeraora
+|
+|-heal|p2a: Zeraora|80/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Zeraora|Plasma Fists|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-fieldactivate|move: Ion Deluge
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Zeraora|86/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|17
+|
+|move|p1a: Jirachi|Iron Head|p2a: Zeraora
+|-resisted|p2a: Zeraora
+|-damage|p2a: Zeraora|64/100
+|move|p2a: Zeraora|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|44/100
+|-enditem|p1a: Jirachi|Choice Scarf|[from] move: Knock Off|[of] p2a: Zeraora
+|
+|-heal|p2a: Zeraora|70/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|-message|Meroz forfeited.
+|
+|win|Fakery King
+|l|☆Meroz
+|raw|Meroz's rating: 1833 &rarr; <strong>1802</strong><br />(-31 for losing)
+|raw|Fakery King's rating: 1608 &rarr; <strong>1639</strong><br />(+31 for winning)

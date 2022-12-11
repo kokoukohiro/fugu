@@ -1,0 +1,332 @@
+|j|☆HJAD
+|j|☆Brandon
+|player|p1|HJAD|lance-gen2|
+|player|p2|Brandon|#brandon|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|clearpoke
+|poke|p1|Raichu, M|
+|poke|p1|Ninjask, M|
+|poke|p1|Wailord, M|
+|poke|p1|Mawile, M|
+|poke|p1|Chinchou, M|
+|poke|p1|Vibrava, M|
+|poke|p2|Grapploct, M|
+|poke|p2|Gourgeist-*, M|
+|poke|p2|Clefairy, M|
+|poke|p2|Vullaby, F|
+|poke|p2|Silvally-*|
+|poke|p2|Raichu, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| royesk
+|c|☆HJAD|hf
+|c|☆HJAD|roy how did u join so quick
+|
+|start
+|switch|p1a: Ninjask|Ninjask, M|100/100
+|switch|p2a: Vullaby|Vullaby, F|100/100
+|turn|1
+|
+|move|p1a: Ninjask|U-turn|p2a: Vullaby
+|-damage|p2a: Vullaby|75/100
+|
+|switch|p1a: Mawile|Mawile, M|100/100|[from]move: U-turn
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Vullaby|atk|1
+|move|p2a: Vullaby|U-turn|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|99/100
+|-damage|p2a: Vullaby|59/100|[from] item: Rocky Helmet|[of] p1a: Mawile
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|100/100|[from]move: U-turn
+|-item|p1a: Mawile|Rocky Helmet|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Mawile|[miss]
+|-miss|p2a: Gourgeist|p1a: Mawile
+|move|p1a: Mawile|Stealth Rock|p2a: Gourgeist
+|-sidestart|p2: Brandon|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|c| royesk|i never john when it comes to watching u play
+|
+|move|p2a: Gourgeist|Leech Seed|p1a: Mawile
+|-start|p1a: Mawile|move: Leech Seed
+|move|p1a: Mawile|Toxic|p2a: Gourgeist
+|-status|p2a: Gourgeist|tox
+|
+|-damage|p1a: Mawile|87/100|[from] Leech Seed|[of] p2a: Gourgeist
+|-damage|p2a: Gourgeist|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|c|☆HJAD|uwu
+|
+|switch|p1a: Vibrava|Vibrava, M|100/100
+|move|p2a: Gourgeist|Will-O-Wisp|p1a: Vibrava
+|-status|p1a: Vibrava|brn
+|
+|-damage|p1a: Vibrava|95/100 brn|[from] brn
+|-damage|p2a: Gourgeist|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|j|+tjay
+|
+|switch|p2a: Clefengy ㋛|Clefairy, M, shiny|100/100
+|move|p1a: Vibrava|U-turn|p2a: Clefengy ㋛
+|-resisted|p2a: Clefengy ㋛
+|-damage|p2a: Clefengy ㋛|98/100
+|
+|switch|p1a: Ninjask|Ninjask, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Ninjask|Swords Dance|p1a: Ninjask
+|-boost|p1a: Ninjask|atk|2
+|move|p2a: Clefengy ㋛|Soft-Boiled|p2a: Clefengy ㋛
+|-heal|p2a: Clefengy ㋛|100/100
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|7
+|
+|move|p1a: Ninjask|Aerial Ace|p2a: Clefengy ㋛
+|-damage|p2a: Clefengy ㋛|58/100
+|move|p2a: Clefengy ㋛|Moonblast|p1a: Ninjask
+|-damage|p1a: Ninjask|54/100
+|-unboost|p1a: Ninjask|spa|1
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|8
+|
+|move|p1a: Ninjask|Swords Dance|p1a: Ninjask
+|-boost|p1a: Ninjask|atk|2
+|move|p2a: Clefengy ㋛|Moonblast|p1a: Ninjask
+|-damage|p1a: Ninjask|7/100
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|9
+|
+|move|p1a: Ninjask|Aerial Ace|p2a: Clefengy ㋛
+|-damage|p2a: Clefengy ㋛|0 fnt
+|faint|p2a: Clefengy ㋛
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|
+|switch|p2a: Grapploct|Grapploct, M|100/100
+|-damage|p2a: Grapploct|94/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Mawile|Mawile, M|87/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Grapploct|atk|1
+|move|p2a: Grapploct|Sucker Punch||[still]
+|-fail|p2a: Grapploct
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|82/100 tox
+|-damage|p2a: Gourgeist|70/100 tox|[from] Stealth Rock
+|-item|p1a: Mawile|Rocky Helmet|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Mawile|Play Rough|p2a: Gourgeist
+|-damage|p2a: Gourgeist|55/100 tox
+|-unboost|p2a: Gourgeist|atk|1
+|
+|-damage|p2a: Gourgeist|49/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Ninjask|Ninjask, M|7/100
+|move|p2a: Gourgeist|Synthesis|p2a: Gourgeist
+|-heal|p2a: Gourgeist|99/100 tox
+|
+|-damage|p2a: Gourgeist|87/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Ninjask|U-turn|p2a: Gourgeist
+|-damage|p2a: Gourgeist|71/100 tox
+|
+|switch|p1a: Vibrava|Vibrava, M|95/100 brn|[from]move: U-turn
+|move|p2a: Gourgeist|Foul Play|p1a: Vibrava
+|-damage|p1a: Vibrava|80/100 brn
+|
+|-damage|p1a: Vibrava|74/100 brn|[from] brn
+|-damage|p2a: Gourgeist|52/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p2a: Vullaby|Vullaby, F|59/100
+|-damage|p2a: Vullaby|34/100|[from] Stealth Rock
+|move|p1a: Vibrava|U-turn|p2a: Vullaby
+|-crit|p2a: Vullaby
+|-damage|p2a: Vullaby|27/100
+|
+|switch|p1a: Wailord|Wailord, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+|j| yogibears
+|
+|move|p1a: Wailord|Water Spout|p2a: Vullaby
+|-damage|p2a: Vullaby|0 fnt
+|faint|p2a: Vullaby
+|
+|upkeep
+|
+|switch|p2a: Grapploct|Grapploct, M|94/100
+|-damage|p2a: Grapploct|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Mawile|Mawile, M|87/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Grapploct|atk|1
+|move|p2a: Grapploct|Circle Throw|p1a: Mawile
+|-damage|p1a: Mawile|58/100
+|-damage|p2a: Grapploct|72/100|[from] item: Rocky Helmet|[of] p1a: Mawile
+|drag|p1a: Chinchou|Chinchou, M|100/100
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Gourgeist|Gourgeist-Super, M|52/100 tox
+|-damage|p2a: Gourgeist|40/100 tox|[from] Stealth Rock
+|-item|p1a: Chinchou|Eviolite|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Chinchou|Volt Switch|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|31/100 tox
+|c| yogibears|Why didn't you bring heatmor
+|
+|switch|p1a: Wailord|Wailord, M|100/100|[from]move: Volt Switch
+|
+|-damage|p2a: Gourgeist|25/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Wailord|Water Spout|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|faint|p2a: Gourgeist
+|
+|upkeep
+|
+|switch|p2a: Grapploct|Grapploct, M|72/100
+|-damage|p2a: Grapploct|66/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Mawile|Mawile, M|58/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Grapploct|atk|1
+|move|p2a: Grapploct|Drain Punch|p1a: Mawile
+|-damage|p1a: Mawile|36/100
+|-heal|p2a: Grapploct|75/100|[from] drain|[of] p1a: Mawile
+|-damage|p2a: Grapploct|58/100|[from] item: Rocky Helmet|[of] p1a: Mawile
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Mawile|Play Rough|p2a: Grapploct
+|-supereffective|p2a: Grapploct
+|-damage|p2a: Grapploct|5/100
+|move|p2a: Grapploct|Drain Punch|p1a: Mawile
+|-damage|p1a: Mawile|12/100
+|-heal|p2a: Grapploct|15/100|[from] drain|[of] p1a: Mawile
+|-damage|p2a: Grapploct|0 fnt|[from] item: Rocky Helmet|[of] p1a: Mawile
+|faint|p2a: Grapploct
+|
+|upkeep
+|
+|switch|p2a: Raichu|Raichu, F|100/100
+|-damage|p2a: Raichu|88/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Chinchou|Chinchou, M|100/100
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|2
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Raichu|Focus Blast|p1a: Chinchou
+|-damage|p1a: Chinchou|48/100
+|-damage|p2a: Raichu|78/100|[from] item: Life Orb
+|move|p1a: Chinchou|Scald|p2a: Raichu
+|-damage|p2a: Raichu|49/100
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Raichu|Focus Blast|p1a: Chinchou
+|-damage|p1a: Chinchou|0 fnt
+|-damage|p2a: Raichu|39/100|[from] item: Life Orb
+|faint|p1a: Chinchou
+|
+|upkeep
+|
+|switch|p1a: Ninjask|Ninjask, M|7/100
+|turn|24
+|
+|move|p1a: Ninjask|U-turn|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|switch|p1a: Wailord|Wailord, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Poison|100/100
+|-damage|p2a: Silvally|88/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Wailord|Water Spout|p2a: Silvally
+|-damage|p2a: Silvally|15/100
+|move|p2a: Silvally|Multi-Attack|p1a: Wailord
+|-damage|p1a: Wailord|39/100
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Mawile|Mawile, M|12/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Silvally|atk|1
+|move|p2a: Silvally|Flamethrower|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|upkeep
+|c|+tjay|hjad ur bad
+|
+|switch|p1a: Raichu|Raichu, M|100/100
+|turn|27
+|c|+tjay|noob
+|c|☆HJAD|hbad is jad
+|
+|move|p1a: Raichu|Volt Switch|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|win|HJAD
+|c|☆HJAD|gg
+|c|☆Brandon|Gg

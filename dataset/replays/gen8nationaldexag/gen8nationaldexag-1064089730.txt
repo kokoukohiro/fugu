@@ -1,0 +1,647 @@
+|j|☆BD MASTER KZ
+|j|☆Onoufrios
+|player|p1|BD MASTER KZ|shauntal|1652
+|player|p2|Onoufrios|170|1643
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] National Dex AG
+|rated|
+|clearpoke
+|poke|p1|Xerneas|
+|poke|p1|Necrozma-Dusk-Mane|
+|poke|p1|Ditto|
+|poke|p1|Arceus-*|
+|poke|p1|Zacian-Crowned|
+|poke|p1|Sableye, M|
+|poke|p2|Lugia|
+|poke|p2|Xerneas|
+|poke|p2|Necrozma-Dusk-Mane|
+|poke|p2|Ditto|
+|poke|p2|Kyogre|
+|poke|p2|Ferrothorn, F|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|teampreview
+|j| pokebinh
+|
+|start
+|switch|p1a: Sableye|Sableye, M|100/100
+|switch|p2a: Kyogre|Kyogre|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|detailschange|p1a: Sableye|Sableye-Mega, M
+|-mega|p1a: Sableye|Sableye|Sablenite
+|move|p1a: Sableye|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|93/100
+|cant|p2a: Kyogre|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-transform|p1a: Ditto|p2a: Kyogre|[from] ability: Imposter
+|move|p2a: Kyogre|Water Spout|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|53/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Ditto|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|82/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Sableye|Sableye-Mega, M|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|91/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Zacian|Zacian-Crowned, shiny|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Zacian
+|-damage|p1a: Zacian|52/100
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Lugia|Lugia|100/100
+|move|p1a: Zacian|Wild Charge|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|72/100
+|-damage|p1a: Zacian|43/100|[from] Recoil
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Zacian|Wild Charge|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|12/100
+|-damage|p1a: Zacian|24/100|[from] Recoil
+|move|p2a: Lugia|Whirlwind|p1a: Zacian
+|drag|p1a: Sableye|Sableye-Mega, M|91/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Sableye|Fake Out|p2a: Lugia
+|-damage|p2a: Lugia|9/100
+|cant|p2a: Lugia|flinch
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Zacian|Zacian-Crowned, shiny|24/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|59/100
+|-singleturn|p2a: Lugia|move: Roost
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Zacian|Wild Charge|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|-damage|p1a: Zacian|12/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Zacian|7/100|[from] Recoil
+|
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Lugia|Lugia|59/100
+|move|p1a: Zacian|Close Combat|p2a: Lugia
+|-resisted|p2a: Lugia
+|-damage|p2a: Lugia|48/100
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Zacian|Close Combat|p2a: Lugia
+|-resisted|p2a: Lugia
+|-damage|p2a: Lugia|37/100
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|move|p2a: Lugia|Thunder Wave|p1a: Zacian|[miss]
+|-miss|p2a: Lugia|p1a: Zacian
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Zacian|Close Combat|p2a: Lugia
+|-resisted|p2a: Lugia
+|-damage|p2a: Lugia|27/100
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|move|p2a: Lugia|Thunder Wave|p1a: Zacian|[miss]
+|-miss|p2a: Lugia|p1a: Zacian
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Zacian|Close Combat|p2a: Lugia
+|-resisted|p2a: Lugia
+|-damage|p2a: Lugia|18/100
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|68/100
+|-singleturn|p2a: Lugia|move: Roost
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Zacian|Close Combat|p2a: Lugia
+|-resisted|p2a: Lugia
+|-damage|p2a: Lugia|57/100
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|move|p2a: Lugia|Thunder Wave|p1a: Zacian
+|-status|p1a: Zacian|par
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|100/100
+|-singleturn|p2a: Lugia|move: Roost
+|move|p1a: Zacian|Wild Charge|p2a: Lugia
+|-damage|p2a: Lugia|86/100
+|-damage|p1a: Zacian|2/100 par|[from] Recoil
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|100/100
+|-singleturn|p2a: Lugia|move: Roost
+|move|p1a: Zacian|Wild Charge|p2a: Lugia
+|-damage|p2a: Lugia|84/100
+|-damage|p1a: Zacian|0 fnt|[from] Recoil
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|switch|p1a: Arceus|Arceus-Ground, shiny|100/100
+|turn|18
+|
+|move|p1a: Arceus|Stealth Rock|p2a: Lugia
+|-sidestart|p2: Onoufrios|move: Stealth Rock
+|move|p2a: Lugia|Whirlwind|p1a: Arceus
+|drag|p1a: Ditto|Ditto, shiny|53/100
+|-transform|p1a: Ditto|p2a: Lugia|[from] ability: Imposter
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Sableye|Sableye-Mega, M|91/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|89/100
+|-damage|p2a: Ferrothorn|83/100|[from] Stealth Rock
+|
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Sableye|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|-damage|p1a: Sableye|78/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|move|p2a: Ferrothorn|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|69/100
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|90/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Sableye|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|63/100
+|-damage|p1a: Sableye|77/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|67/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Sableye|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|54/100
+|-damage|p1a: Sableye|55/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Sableye
+|-damage|p1a: Sableye|44/100
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Kyogre|Kyogre|93/100
+|-damage|p2a: Kyogre|81/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|94/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|switch|p1a: Ditto|Ditto, shiny|53/100
+|-transform|p1a: Ditto|p2a: Kyogre|[from] ability: Imposter
+|move|p2a: Kyogre|Origin Pulse|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|11/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|54/100
+|-damage|p2a: Ferrothorn|47/100|[from] Stealth Rock
+|move|p1a: Ditto|Thunder|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|28/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p1a: Arceus|Arceus-Ground, shiny|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Arceus
+|-start|p1a: Arceus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Arceus|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|41/100|[silent]
+|upkeep
+|turn|28
+|
+|move|p1a: Arceus|Judgment|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Kyogre|Kyogre|81/100
+|-damage|p2a: Kyogre|69/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|29
+|
+|move|p2a: Kyogre|Origin Pulse|p1a: Arceus
+|-supereffective|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ditto|Ditto, shiny|11/100
+|-transform|p1a: Ditto|p2a: Kyogre|[from] ability: Imposter
+|turn|30
+|
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane|100/100
+|-damage|p2a: Necrozma|94/100|[from] Stealth Rock
+|move|p1a: Ditto|Thunder|p2a: Necrozma
+|-damage|p2a: Necrozma|62/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|switch|p1a: Sableye|Sableye-Mega, M|94/100
+|move|p2a: Necrozma|Dragon Dance|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|1
+|-boost|p2a: Necrozma|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|move|p2a: Necrozma|Earthquake|p1a: Sableye
+|-crit|p1a: Sableye
+|-damage|p1a: Sableye|29/100
+|move|p1a: Sableye|Foul Play|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Kyogre|Kyogre|69/100
+|-damage|p2a: Kyogre|56/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Kyogre|Thunder|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Ditto|Ditto, shiny|11/100
+|-transform|p1a: Ditto|p2a: Kyogre|[from] ability: Imposter
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ditto
+|turn|34
+|
+|-start|p2a: Kyogre|Dynamax
+|-heal|p2a: Kyogre|56/100|[silent]
+|move|p1a: Ditto|Thunder|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|27/100
+|-status|p2a: Kyogre|par
+|cant|p2a: Kyogre|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|35
+|
+|move|p1a: Ditto|Thunder|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Lugia|Lugia|84/100
+|turn|36
+|
+|move|p1a: Ditto|Thunder|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|35/100
+|move|p2a: Lugia|Thunder Wave|p1a: Ditto
+|-status|p1a: Ditto|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|37
+|
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|85/100
+|-singleturn|p2a: Lugia|move: Roost
+|move|p1a: Ditto|Thunder|p2a: Lugia
+|-damage|p2a: Lugia|61/100
+|-status|p2a: Lugia|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|38
+|
+|move|p1a: Ditto|Thunder|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|13/100 par
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|63/100 par
+|-singleturn|p2a: Lugia|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|39
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane, shiny|100/100
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|100/100 par
+|-singleturn|p2a: Lugia|move: Roost
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: Ditto|Ditto, shiny|11/100 par
+|-transform|p1a: Ditto|p2a: Lugia|[from] ability: Imposter
+|move|p2a: Lugia|Thunder Wave|p1a: Ditto
+|-fail|p1a: Ditto|par
+|
+|upkeep
+|turn|41
+|j| Rup❤Ainu
+|
+|move|p1a: Ditto|Roost|p1a: Ditto
+|-heal|p1a: Ditto|61/100 par
+|-singleturn|p1a: Ditto|move: Roost
+|cant|p2a: Lugia|par
+|
+|upkeep
+|turn|42
+|
+|cant|p1a: Ditto|par
+|move|p2a: Lugia|Whirlwind|p1a: Ditto
+|drag|p1a: Necrozma|Necrozma-Dusk-Mane, shiny|100/100
+|
+|upkeep
+|turn|43
+|
+|switch|p1a: Ditto|Ditto, shiny|61/100 par
+|-transform|p1a: Ditto|p2a: Lugia|[from] ability: Imposter
+|move|p2a: Lugia|Whirlwind|p1a: Ditto
+|drag|p1a: Xerneas|Xerneas, shiny|100/100
+|-ability|p1a: Xerneas|Fairy Aura
+|
+|upkeep
+|turn|44
+|
+|switch|p1a: Ditto|Ditto, shiny|61/100 par
+|-transform|p1a: Ditto|p2a: Lugia|[from] ability: Imposter
+|move|p2a: Lugia|Thunder Wave|p1a: Ditto
+|-fail|p1a: Ditto|par
+|
+|upkeep
+|turn|45
+|
+|switch|p2a: Xerneas|Xerneas|100/100
+|-damage|p2a: Xerneas|88/100|[from] Stealth Rock
+|-ability|p2a: Xerneas|Fairy Aura
+|move|p1a: Ditto|Whirlwind|p2a: Xerneas
+|drag|p2a: Lugia|Lugia|100/100 par
+|
+|upkeep
+|turn|46
+|
+|move|p1a: Ditto|Whirlwind|p2a: Lugia
+|drag|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Ditto|Transform||[still]
+|-fail|p2a: Ditto
+|cant|p1a: Ditto|par
+|
+|upkeep
+|turn|48
+|
+|switch|p2a: Lugia|Lugia|100/100 par
+|cant|p1a: Ditto|par
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Ditto|Whirlwind|p2a: Lugia
+|drag|p2a: Ditto|Ditto|88/100
+|-damage|p2a: Ditto|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|50
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane, shiny|100/100
+|move|p2a: Ditto|Transform|p1a: Necrozma
+|-transform|p2a: Ditto|p1a: Necrozma
+|-endability|p2a: Ditto|Imposter|[from] move: Transform
+|
+|upkeep
+|turn|51
+|
+|switch|p2a: Lugia|Lugia|100/100 par
+|move|p1a: Necrozma|Earthquake|p2a: Lugia
+|-immune|p2a: Lugia
+|
+|upkeep
+|turn|52
+|
+|switch|p1a: Ditto|Ditto, shiny|61/100 par
+|-transform|p1a: Ditto|p2a: Lugia|[from] ability: Imposter
+|switch|p2a: Xerneas|Xerneas|88/100
+|-damage|p2a: Xerneas|75/100|[from] Stealth Rock
+|-ability|p2a: Xerneas|Fairy Aura
+|
+|upkeep
+|turn|53
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BD MASTER KZ)
+|
+|move|p2a: Xerneas|Moonblast|p1a: Ditto
+|-damage|p1a: Ditto|5/100 par
+|move|p1a: Ditto|Whirlwind|p2a: Xerneas
+|drag|p2a: Ditto|Ditto|76/100
+|-damage|p2a: Ditto|63/100|[from] Stealth Rock
+|
+|upkeep
+|turn|54
+|
+|switch|p2a: Lugia|Lugia|100/100 par
+|cant|p1a: Ditto|par
+|
+|upkeep
+|turn|55
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane, shiny|100/100
+|move|p2a: Lugia|Whirlwind|p1a: Necrozma
+|drag|p1a: Ditto|Ditto, shiny|5/100 par
+|-transform|p1a: Ditto|p2a: Lugia|[from] ability: Imposter
+|
+|upkeep
+|turn|56
+|
+|switch|p2a: Xerneas|Xerneas|75/100
+|-damage|p2a: Xerneas|63/100|[from] Stealth Rock
+|-ability|p2a: Xerneas|Fairy Aura
+|move|p1a: Ditto|Roost|p1a: Ditto
+|-heal|p1a: Ditto|56/100 par
+|-singleturn|p1a: Ditto|move: Roost
+|
+|upkeep
+|turn|57
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane, shiny|100/100
+|move|p2a: Xerneas|Thunder|p1a: Necrozma
+|-damage|p1a: Necrozma|72/100
+|
+|upkeep
+|turn|58
+|
+|switch|p2a: Lugia|Lugia|100/100 par
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Lugia
+|-damage|p2a: Lugia|76/100 par
+|
+|upkeep
+|turn|59
+|
+|switch|p2a: Xerneas|Xerneas|63/100
+|-damage|p2a: Xerneas|50/100|[from] Stealth Rock
+|-ability|p2a: Xerneas|Fairy Aura
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Xerneas
+|-supereffective|p2a: Xerneas
+|-damage|p2a: Xerneas|0 fnt
+|faint|p2a: Xerneas
+|
+|upkeep
+|inactive|Onoufrios has 120 seconds left.
+|
+|switch|p2a: Ditto|Ditto|63/100
+|-damage|p2a: Ditto|51/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Necrozma|[from] ability: Imposter
+|turn|60
+|
+|move|p2a: Ditto|Earthquake|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|38/100
+|-enditem|p1a: Necrozma|Weakness Policy
+|-boost|p1a: Necrozma|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Necrozma|spa|2|[from] item: Weakness Policy
+|move|p1a: Necrozma|Earthquake|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+|l| pokebinh
+|inactive|Onoufrios has 120 seconds left.
+|
+|switch|p2a: Lugia|Lugia|76/100 par
+|turn|61
+|j| pokebinh
+|
+|-start|p1a: Necrozma|Dynamax
+|-heal|p1a: Necrozma|38/100|[silent]
+|move|p1a: Necrozma|Max Steelspike|p2a: Lugia
+|-damage|p2a: Lugia|14/100 par
+|-boost|p1a: Necrozma|def|1
+|move|p2a: Lugia|Thunder Wave|p1a: Necrozma
+|-status|p1a: Necrozma|par
+|
+|upkeep
+|turn|62
+|l| pokebinh
+|
+|cant|p2a: Lugia|par
+|cant|p1a: Necrozma|par
+|
+|upkeep
+|turn|63
+|
+|move|p2a: Lugia|Roost|p2a: Lugia
+|-heal|p2a: Lugia|64/100 par
+|-singleturn|p2a: Lugia|move: Roost
+|move|p1a: Necrozma|Max Steelspike|p2a: Lugia
+|-damage|p2a: Lugia|0 fnt
+|-boost|p1a: Necrozma|def|1
+|faint|p2a: Lugia
+|
+|win|BD MASTER KZ
+|raw|BD MASTER KZ's rating: 1652 &rarr; <strong>1672</strong><br />(+20 for winning)
+|raw|Onoufrios's rating: 1643 &rarr; <strong>1623</strong><br />(-20 for losing)

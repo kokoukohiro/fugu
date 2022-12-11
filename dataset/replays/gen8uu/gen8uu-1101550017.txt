@@ -1,0 +1,250 @@
+|j|☆Angelborn
+|j|☆uult1 shoot
+|player|p1|Angelborn|colress|1476
+|player|p2|uult1 shoot|silver-gen2|1347
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Umbreon, F|
+|poke|p1|Haxorus, M|
+|poke|p1|Escavalier, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Gastrodon-East, F|
+|poke|p1|Gigalith, F|
+|poke|p2|Polteageist|
+|poke|p2|Golisopod, F|
+|poke|p2|Shuckle, F|
+|poke|p2|Haxorus, F|
+|poke|p2|Necrozma|
+|poke|p2|Tsareena, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Varian|Escavalier, M|100/100
+|switch|p2a: Shuckle|Shuckle, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Varian|Iron Head|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|50/100
+|move|p2a: Shuckle|Sticky Web|p1a: Varian
+|-sidestart|p1: Angelborn|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Mal'Ganis|Weezing-Galar, M|100/100
+|move|p2a: Shuckle|Stealth Rock|p1a: Mal'Ganis
+|-sidestart|p1: Angelborn|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mal'Ganis|Defog|p2a: Shuckle
+|-unboost|p2a: Shuckle|evasion|1
+|-sideend|p1: Angelborn|Stealth Rock|[from] move: Defog|[of] p1a: Mal'Ganis
+|-sideend|p1: Angelborn|Sticky Web|[from] move: Defog|[of] p1a: Mal'Ganis
+|move|p2a: Shuckle|Encore|p1a: Mal'Ganis
+|-start|p1a: Mal'Ganis|Encore
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Mal'Ganis|Defog|p2a: Shuckle
+|-unboost|p2a: Shuckle|evasion|1
+|move|p2a: Shuckle|Stealth Rock|p1a: Mal'Ganis
+|-sidestart|p1: Angelborn|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Mal'Ganis|Defog|p2a: Shuckle
+|-unboost|p2a: Shuckle|evasion|1
+|-sideend|p1: Angelborn|Stealth Rock|[from] move: Defog|[of] p1a: Mal'Ganis
+|move|p2a: Shuckle|Sticky Web|p1a: Mal'Ganis
+|-sidestart|p1: Angelborn|move: Sticky Web
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Therazane|Gigalith, F, shiny|100/100
+|-activate|p1a: Therazane|move: Sticky Web
+|-unboost|p1a: Therazane|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Therazane
+|move|p2a: Shuckle|Stealth Rock|p1a: Therazane
+|-sidestart|p1: Angelborn|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Therazane|Toxic|p2a: Shuckle
+|-status|p2a: Shuckle|tox
+|move|p2a: Shuckle|Final Gambit|p1a: Therazane
+|-damage|p1a: Therazane|68/100
+|faint|p2a: Shuckle
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Therazane|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, F, shiny|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|8
+|
+|switch|p1a: Elune|Umbreon, F, shiny|100/100
+|-damage|p1a: Elune|88/100|[from] Stealth Rock
+|-activate|p1a: Elune|move: Sticky Web
+|-unboost|p1a: Elune|spe|1
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haxorus|94/100|[from] Sandstorm
+|-damage|p1a: Elune|82/100|[from] Sandstorm
+|-heal|p1a: Elune|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Haxorus|Dragon Claw|p1a: Elune
+|-damage|p1a: Elune|29/100
+|-damage|p2a: Haxorus|84/100|[from] item: Life Orb
+|move|p1a: Elune|Foul Play|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Elune|23/100|[from] Sandstorm
+|-heal|p1a: Elune|29/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|10
+|
+|move|p1a: Elune|Protect|p1a: Elune
+|-singleturn|p1a: Elune|Protect
+|move|p2a: Tsareena|U-turn|p1a: Elune
+|-activate|p1a: Elune|move: Protect
+|
+|-weather|none
+|-heal|p1a: Elune|36/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Mal'Ganis|Weezing-Galar, M|100/100
+|-damage|p1a: Mal'Ganis|88/100|[from] Stealth Rock
+|move|p2a: Tsareena|U-turn|p1a: Mal'Ganis
+|-resisted|p1a: Mal'Ganis
+|-damage|p1a: Mal'Ganis|84/100
+|
+|switch|p2a: Necrozma|Necrozma, shiny|100/100|[from]move: U-turn
+|
+|-heal|p1a: Mal'Ganis|90/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p2a: Necrozma|Photon Geyser|p1a: Mal'Ganis
+|-supereffective|p1a: Mal'Ganis
+|-damage|p1a: Mal'Ganis|0 fnt
+|faint|p1a: Mal'Ganis
+|
+|upkeep
+|
+|switch|p1a: Varian|Escavalier, M|100/100
+|-activate|p1a: Varian|move: Sticky Web
+|-unboost|p1a: Varian|spe|1
+|-damage|p1a: Varian|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Necrozma|Heat Wave|p1a: Varian
+|-supereffective|p1a: Varian
+|-damage|p1a: Varian|0 fnt
+|faint|p1a: Varian
+|
+|upkeep
+|
+|switch|p1a: Therazane|Gigalith, F, shiny|74/100
+|-damage|p1a: Therazane|62/100|[from] Stealth Rock
+|-activate|p1a: Therazane|move: Sticky Web
+|-unboost|p1a: Therazane|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Therazane
+|turn|14
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|move|p1a: Therazane|Stealth Rock|p2a: Tsareena
+|-sidestart|p2: uult1 shoot|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|95/100|[from] Sandstorm
+|-heal|p1a: Therazane|68/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Tsareena|Power Whip|p1a: Therazane
+|-supereffective|p1a: Therazane
+|-damage|p1a: Therazane|0 fnt
+|faint|p1a: Therazane
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|89/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Elune|Umbreon, F, shiny|36/100
+|-damage|p1a: Elune|23/100|[from] Stealth Rock
+|-activate|p1a: Elune|move: Sticky Web
+|-unboost|p1a: Elune|spe|1
+|turn|16
+|
+|move|p1a: Elune|Protect|p1a: Elune
+|-singleturn|p1a: Elune|Protect
+|move|p2a: Tsareena|Power Whip|p1a: Elune
+|-activate|p1a: Elune|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|83/100|[from] Sandstorm
+|-damage|p1a: Elune|17/100|[from] Sandstorm
+|-heal|p1a: Elune|23/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Tsareena|Power Whip|p1a: Elune
+|-damage|p1a: Elune|0 fnt
+|faint|p1a: Elune
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|77/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Nozdormu|Haxorus, M|100/100
+|-activate|p1a: Nozdormu|move: Sticky Web
+|-unboost|p1a: Nozdormu|spe|1
+|-damage|p1a: Nozdormu|88/100|[from] Stealth Rock
+|-ability|p1a: Nozdormu|Mold Breaker
+|turn|18
+|
+|move|p2a: Tsareena|Knock Off|p1a: Nozdormu
+|-crit|p1a: Nozdormu
+|-damage|p1a: Nozdormu|26/100
+|-enditem|p1a: Nozdormu|Choice Band|[from] move: Knock Off|[of] p2a: Tsareena
+|move|p1a: Nozdormu|Poison Jab|p2a: Tsareena
+|-supereffective|p2a: Tsareena
+|-damage|p2a: Tsareena|4/100
+|
+|-weather|none
+|upkeep
+|turn|19
+|-message|Angelborn forfeited.
+|
+|win|uult1 shoot

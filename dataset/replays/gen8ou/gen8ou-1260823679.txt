@@ -1,0 +1,280 @@
+|j|☆Aurinko
+|j|☆lando expando
+|t:|1610470722
+|player|p1|Aurinko|hugh|1777
+|player|p2|lando expando|lucas|1719
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Volcarona, F|
+|poke|p1|Tapu Fini|
+|poke|p1|Celesteela|
+|poke|p1|Marowak-Alola, M|
+|poke|p1|Garchomp, M|
+|poke|p2|Lucario, F|
+|poke|p2|Noivern, F|
+|poke|p2|Sirfetch’d, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Mantine, F|
+|poke|p2|Darmanitan, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Nylez
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aurinko)
+|j| simple spectator
+|
+|t:|1610470738
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Noivern|Noivern, F|100/100
+|turn|1
+|j| a7 blazing
+|
+|t:|1610470747
+|move|p1a: Garchomp|Stone Edge|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|4/100
+|move|p2a: Noivern|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|25/100
+|
+|upkeep
+|turn|2
+|
+|t:|1610470754
+|switch|p2a: Lucario|Lucario, F|100/100
+|move|p1a: Garchomp|Stone Edge|p2a: Lucario|[miss]
+|-miss|p1a: Garchomp|p2a: Lucario
+|
+|upkeep
+|turn|3
+|
+|t:|1610470765
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Lucario|Nasty Plot|p2a: Lucario
+|-boost|p2a: Lucario|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1610470784
+|move|p2a: Lucario|Flash Cannon|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|20/100
+|-unboost|p1a: Tapu Fini|spd|1
+|-damage|p2a: Lucario|91/100|[from] item: Life Orb
+|move|p1a: Tapu Fini|Draining Kiss|p2a: Lucario
+|-damage|p2a: Lucario|63/100
+|-heal|p1a: Tapu Fini|37/100|[from] drain|[of] p2a: Lucario
+|
+|-heal|p1a: Tapu Fini|43/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1610470795
+|move|p2a: Lucario|Psychic|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|-damage|p2a: Lucario|53/100|[from] item: Life Orb
+|faint|p1a: Tapu Fini
+|
+|upkeep
+|
+|t:|1610470801
+|switch|p1a: Celesteela|Celesteela|100/100
+|turn|6
+|
+|t:|1610470804
+|move|p2a: Lucario|Focus Blast|p1a: Celesteela
+|-damage|p1a: Celesteela|26/100
+|-damage|p2a: Lucario|43/100|[from] item: Life Orb
+|move|p1a: Celesteela|Earthquake|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|-ability|p1a: Celesteela|Beast Boost|boost
+|-boost|p1a: Celesteela|atk|1
+|
+|upkeep
+|
+|t:|1610470817
+|switch|p2a: Noivern|Noivern, F|4/100
+|turn|7
+|
+|t:|1610470821
+|move|p2a: Noivern|Flamethrower|p1a: Celesteela
+|-supereffective|p1a: Celesteela
+|-damage|p1a: Celesteela|0 fnt
+|faint|p1a: Celesteela
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1610470831
+|switch|p1a: Garchomp|Garchomp, M|25/100
+|turn|8
+|
+|t:|1610470836
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Garchomp|Stone Edge|p2a: Weezing
+|-damage|p2a: Weezing|79/100
+|
+|-heal|p2a: Weezing|85/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1610470848
+|switch|p1a: Marowak|Marowak-Alola, M|100/100
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1610470861
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Darmanitan|Earthquake|p1a: Ninetales
+|-damage|p1a: Ninetales|14/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Darmanitan|95/100|[from] Hail
+|upkeep
+|turn|11
+|
+|t:|1610470870
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Aurinko|move: Aurora Veil
+|move|p2a: Darmanitan|Earthquake|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Darmanitan|89/100|[from] Hail
+|upkeep
+|
+|t:|1610470880
+|switch|p1a: Garchomp|Garchomp, M|25/100
+|turn|12
+|
+|t:|1610470884
+|switch|p2a: Noivern|Noivern, F|4/100
+|move|p1a: Garchomp|Stone Edge|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-crit|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Garchomp|19/100|[from] Hail
+|upkeep
+|
+|t:|1610470889
+|switch|p2a: Sirfetch’d|Sirfetch’d, M|100/100
+|turn|13
+|
+|t:|1610470904
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Sirfetch’d|Brave Bird|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Sirfetch’d|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|-damage|p2a: Sirfetch’d|62/100 brn|[from] Recoil
+|faint|p1a: Volcarona
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Sirfetch’d|56/100 brn|[from] Hail
+|-damage|p2a: Sirfetch’d|50/100 brn|[from] brn
+|upkeep
+|j| epsilon_xd
+|
+|t:|1610470918
+|switch|p1a: Marowak|Marowak-Alola, M|100/100
+|turn|14
+|
+|t:|1610470921
+|move|p2a: Sirfetch’d|Brave Bird|p1a: Marowak
+|-damage|p1a: Marowak|79/100
+|-damage|p2a: Sirfetch’d|42/100 brn|[from] Recoil
+|move|p1a: Marowak|Shadow Bone|p2a: Sirfetch’d
+|-damage|p2a: Sirfetch’d|0 fnt
+|faint|p2a: Sirfetch’d
+|
+|-weather|none
+|upkeep
+|
+|t:|1610470938
+|switch|p2a: Weezing|Weezing-Galar, F|85/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|15
+|
+|t:|1610470943
+|move|p1a: Marowak|Shadow Bone|p2a: Weezing
+|-damage|p2a: Weezing|39/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Marowak
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|68/100
+|
+|-heal|p2a: Weezing|45/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1610470967
+|move|p1a: Marowak|Shadow Bone|p2a: Weezing
+|-damage|p2a: Weezing|1/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Marowak
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|58/100
+|
+|-heal|p2a: Weezing|7/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1610470982
+|move|p1a: Marowak|Shadow Bone|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1610470984
+|switch|p2a: Darmanitan|Darmanitan, M|89/100
+|turn|18
+|
+|t:|1610470990
+|move|p2a: Darmanitan|Earthquake|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|-sideend|p1: Aurinko|move: Aurora Veil
+|upkeep
+|
+|t:|1610470998
+|switch|p1a: Garchomp|Garchomp, M|19/100
+|turn|19
+|
+|t:|1610471001
+|move|p1a: Garchomp|Stone Edge|p2a: Darmanitan|[miss]
+|-miss|p1a: Garchomp|p2a: Darmanitan
+|move|p2a: Darmanitan|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|win|lando expando
+|l|☆lando expando
+|l|☆Aurinko
+|l| Nylez
+|j|☆lando expando
+|player|p2|lando expando|lucas

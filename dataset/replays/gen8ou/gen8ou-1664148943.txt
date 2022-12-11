@@ -1,0 +1,532 @@
+|j|☆pikasunny
+|j|☆greengamer12
+|t:|1663170143
+|gametype|singles
+|player|p1|pikasunny|1|1488
+|player|p2|greengamer12|265|1462
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Magnezone|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Blissey, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Blacephalon|
+|poke|p2|Nidoking, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Slowbro, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Weavile, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by greengamer12)
+|
+|t:|1663170199
+|start
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|t:|1663170207
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Weavile|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|71/100
+|-damage|p2a: Weavile|84/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|-enditem|p1a: Toxapex|Rocky Helmet|[from] move: Knock Off|[of] p2a: Weavile
+|
+|upkeep
+|turn|2
+|
+|t:|1663170220
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|move|p1a: Toxapex|Scald|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|92/100
+|-status|p2a: Slowbro|brn
+|
+|-damage|p2a: Slowbro|86/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1663170236
+|move|p1a: Toxapex|Knock Off|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|59/100 brn
+|-enditem|p2a: Slowbro|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Toxapex
+|move|p2a: Slowbro|Future Sight|p1a: Toxapex
+|-start|p2a: Slowbro|move: Future Sight
+|
+|-damage|p2a: Slowbro|53/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1663170247
+|move|p1a: Toxapex|Knock Off|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|38/100 brn
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1663170262
+|switch|p2a: Tapu Lele|Tapu Lele|100/100|[from]move: Teleport
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|upkeep
+|turn|5
+|
+|t:|1663170267
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Tapu Lele|Psyshock|p1a: Blissey
+|-damage|p1a: Blissey|52/100
+|
+|-end|p1a: Blissey|move: Future Sight
+|-damage|p1a: Blissey|32/100
+|upkeep
+|turn|6
+|
+|t:|1663170281
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Tapu Lele|Psyshock|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|79/100
+|
+|-heal|p1a: Magnezone|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1663170295
+|switch|p2a: Slowbro|Slowbro, F|71/100 brn
+|move|p1a: Magnezone|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|9/100 brn
+|
+|-heal|p1a: Magnezone|91/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|3/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1663170310
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magnezone|atk|1
+|move|p1a: Magnezone|Substitute|p1a: Magnezone
+|-start|p1a: Magnezone|Substitute
+|-damage|p1a: Magnezone|66/100
+|
+|-heal|p1a: Magnezone|72/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1663170336
+|move|p2a: Landorus|Earthquake|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-end|p1a: Magnezone|Substitute
+|move|p1a: Magnezone|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|86/100
+|
+|-heal|p1a: Magnezone|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1663170345
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Landorus|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|96/100
+|
+|t:|1663170350
+|switch|p2a: Nidoking|Nidoking, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+|
+|t:|1663170359
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Nidoking|atk|1
+|move|p2a: Nidoking|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1663170370
+|switch|p1a: Blissey|Blissey, F|32/100
+|turn|12
+|
+|t:|1663170388
+|switch|p2a: Slowbro|Slowbro, F|37/100 brn
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|82/100
+|
+|-damage|p2a: Slowbro|30/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1663170412
+|move|p1a: Blissey|Seismic Toss|p2a: Slowbro
+|-damage|p2a: Slowbro|5/100 brn
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|55/100 brn
+|
+|-damage|p2a: Slowbro|49/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1663170420
+|move|p2a: Slowbro|Future Sight|p1a: Blissey
+|-start|p2a: Slowbro|move: Future Sight
+|move|p1a: Blissey|Teleport|p1a: Blissey
+|
+|t:|1663170427
+|switch|p1a: Blacephalon|Blacephalon|100/100|[from]move: Teleport
+|
+|-damage|p2a: Slowbro|43/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1663170446
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Blacephalon|Shadow Ball|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|45/100
+|
+|-heal|p2a: Ferrothorn|51/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1663170455
+|move|p1a: Blacephalon|Shadow Ball|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|-ability|p1a: Blacephalon|Beast Boost|boost
+|-boost|p1a: Blacephalon|spa|1
+|
+|-end|p1a: Blacephalon|move: Future Sight
+|-damage|p1a: Blacephalon|28/100
+|upkeep
+|
+|t:|1663170459
+|switch|p2a: Weavile|Weavile, M|84/100
+|-ability|p2a: Weavile|Pressure
+|turn|17
+|
+|t:|1663170471
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Weavile|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|82/100
+|
+|upkeep
+|turn|18
+|
+|t:|1663170483
+|switch|p2a: Slowbro|Slowbro, F|76/100 brn
+|move|p1a: Toxapex|Knock Off|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|60/100 brn
+|
+|-damage|p2a: Slowbro|54/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1663170495
+|switch|p1a: Dragonite|Dragonite, F|96/100
+|move|p2a: Slowbro|Future Sight|p1a: Dragonite
+|-start|p2a: Slowbro|move: Future Sight
+|
+|-damage|p2a: Slowbro|48/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1663170503
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1663170507
+|switch|p2a: Tapu Lele|Tapu Lele|100/100|[from]move: Teleport
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|upkeep
+|turn|21
+|
+|t:|1663170517
+|move|p2a: Tapu Lele|Psyshock|p1a: Dragonite
+|-damage|p1a: Dragonite|52/100
+|move|p1a: Dragonite|Earthquake|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|20/100
+|
+|-end|p1a: Dragonite|move: Future Sight
+|-damage|p1a: Dragonite|7/100
+|upkeep
+|turn|22
+|
+|t:|1663170528
+|switch|p1a: Magnezone|Magnezone|78/100
+|move|p2a: Tapu Lele|Psyshock|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|58/100
+|
+|-heal|p1a: Magnezone|64/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1663170550
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|move|p1a: Magnezone|Body Press|p2a: Nidoking
+|-resisted|p2a: Nidoking
+|-damage|p2a: Nidoking|82/100
+|
+|-heal|p1a: Magnezone|70/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1663170561
+|switch|p2a: Slowbro|Slowbro, F|81/100 brn
+|switch|p1a: Blissey|Blissey, F|82/100
+|
+|-damage|p2a: Slowbro|75/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|25
+|
+|t:|1663170568
+|move|p2a: Slowbro|Future Sight|p1a: Blissey
+|-start|p2a: Slowbro|move: Future Sight
+|move|p1a: Blissey|Teleport|p1a: Blissey
+|
+|t:|1663170572
+|switch|p1a: Dragonite|Dragonite, F|7/100|[from]move: Teleport
+|
+|-damage|p2a: Slowbro|69/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1663170577
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|57/100
+|-singleturn|p1a: Dragonite|move: Roost
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1663170580
+|switch|p2a: Tapu Lele|Tapu Lele|20/100|[from]move: Teleport
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|upkeep
+|turn|27
+|
+|t:|1663170592
+|switch|p1a: Magnezone|Magnezone|70/100
+|move|p2a: Tapu Lele|Moonblast|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|37/100
+|
+|-end|p1a: Magnezone|move: Future Sight
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|2/100
+|-heal|p1a: Magnezone|8/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1663170606
+|switch|p2a: Slowbro|Slowbro, F|100/100 brn
+|switch|p1a: Blissey|Blissey, F|82/100
+|
+|-damage|p2a: Slowbro|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1663170614
+|switch|p1a: Dragonite|Dragonite, F|57/100
+|move|p2a: Slowbro|Future Sight|p1a: Dragonite
+|-start|p2a: Slowbro|move: Future Sight
+|
+|-damage|p2a: Slowbro|88/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1663170620
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|-singleturn|p1a: Dragonite|move: Roost
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1663170625
+|switch|p2a: Weavile|Weavile, M|84/100|[from]move: Teleport
+|-ability|p2a: Weavile|Pressure
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|31
+|
+|t:|1663170634
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|-end|p1a: Toxapex|move: Future Sight
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100
+|upkeep
+|turn|32
+|
+|t:|1663170646
+|switch|p1a: Magnezone|Magnezone|8/100
+|move|p2a: Weavile|Knock Off|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-enditem|p1a: Magnezone|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|t:|1663170653
+|switch|p1a: Toxapex|Toxapex, M|63/100
+|turn|33
+|
+|t:|1663170683
+|switch|p2a: Slowbro|Slowbro, F|100/100 brn
+|move|p1a: Toxapex|Scald|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|95/100 brn
+|
+|-damage|p2a: Slowbro|89/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1663170692
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Slowbro|Future Sight|p1a: Dragonite
+|-start|p2a: Slowbro|move: Future Sight
+|
+|-damage|p2a: Slowbro|83/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1663170697
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|inactive|greengamer12 has 120 seconds left.
+|
+|t:|1663170731
+|switch|p2a: Nidoking|Nidoking, M|82/100|[from]move: Teleport
+|
+|upkeep
+|turn|36
+|inactive|greengamer12 has 120 seconds left.
+|
+|t:|1663170738
+|move|p1a: Dragonite|Earthquake|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|-end|p1a: Dragonite|move: Future Sight
+|-damage|p1a: Dragonite|82/100
+|upkeep
+|inactive|greengamer12 has 120 seconds left.
+|
+|t:|1663170745
+|switch|p2a: Weavile|Weavile, M|84/100
+|-ability|p2a: Weavile|Pressure
+|turn|37
+|
+|t:|1663170751
+|switch|p1a: Toxapex|Toxapex, M|96/100
+|move|p2a: Weavile|Ice Shard|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|90/100
+|
+|upkeep
+|turn|38
+|
+|t:|1663170759
+|switch|p2a: Slowbro|Slowbro, F|100/100 brn
+|move|p1a: Toxapex|Scald|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|95/100 brn
+|
+|-damage|p2a: Slowbro|89/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|t:|1663170767
+|switch|p1a: Dragonite|Dragonite, F|82/100
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1663170770
+|switch|p2a: Weavile|Weavile, M|84/100|[from]move: Teleport
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|40
+|
+|t:|1663170776
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Weavile|Triple Axel|p1a: Toxapex|[miss]
+|-miss|p2a: Weavile|p1a: Toxapex
+|
+|upkeep
+|turn|41
+|
+|t:|1663170785
+|switch|p2a: Slowbro|Slowbro, F|100/100 brn
+|move|p1a: Toxapex|Scald|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|95/100 brn
+|
+|-damage|p2a: Slowbro|89/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1663170796
+|switch|p1a: Blacephalon|Blacephalon|28/100
+|move|p2a: Slowbro|Scald|p1a: Blacephalon
+|-supereffective|p1a: Blacephalon
+|-damage|p1a: Blacephalon|0 fnt
+|faint|p1a: Blacephalon
+|
+|-damage|p2a: Slowbro|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1663170804
+|switch|p1a: Dragonite|Dragonite, F|82/100
+|turn|43
+|
+|t:|1663170808
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|-singleturn|p1a: Dragonite|move: Roost
+|move|p2a: Slowbro|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|94/100
+|-status|p1a: Dragonite|brn
+|
+|-damage|p1a: Dragonite|88/100 brn|[from] brn
+|-damage|p2a: Slowbro|77/100 brn|[from] brn
+|upkeep
+|turn|44
+|-message|pikasunny forfeited.
+|
+|win|greengamer12
+|raw|pikasunny's rating: 1488 &rarr; <strong>1467</strong><br />(-21 for losing)
+|raw|greengamer12's rating: 1462 &rarr; <strong>1483</strong><br />(+21 for winning)
+|l|☆pikasunny
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

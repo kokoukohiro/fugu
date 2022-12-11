@@ -1,0 +1,298 @@
+|j|☆c rien c la RU
+|j|☆VoidDestroid
+|player|p1|c rien c la RU|104|1314
+|player|p2|VoidDestroid|266|1203
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Decidueye, F|
+|poke|p1|Steelix, M|
+|poke|p1|Vileplume, F|
+|poke|p1|Raichu-Alola, M|
+|poke|p1|Coalossal, F|
+|poke|p1|Braviary, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Magneton|
+|poke|p2|Drapion, M|
+|poke|p2|Runerigus, M|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Rotom-Fan|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VoidDestroid)
+|inactive|c rien c la RU has 120 seconds left.
+|
+|start
+|switch|p1a: Steelix|Steelix, M|100/100
+|switch|p2a: Runerigus|Runerigus, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|move|p2a: Runerigus|Toxic Spikes|p1a: Vileplume
+|-sidestart|p1: c rien c la RU|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Fan, shiny|100/100
+|move|p1a: Vileplume|Sleep Powder|p2a: Rotom
+|-status|p2a: Rotom|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Magneton|Magneton, shiny|100/100
+|switch|p1a: Steelix|Steelix, M|100/100
+|
+|upkeep
+|turn|4
+|j| Csizzlesix
+|
+|switch|p2a: Runerigus|Runerigus, M, shiny|100/100
+|move|p1a: Steelix|Stealth Rock|p2a: Runerigus
+|-sidestart|p2: VoidDestroid|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Steelix|Toxic|p2a: Runerigus
+|-status|p2a: Runerigus|tox
+|move|p2a: Runerigus|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|59/100
+|
+|-heal|p1a: Steelix|65/100|[from] item: Leftovers
+|-damage|p2a: Runerigus|95/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|-sideend|p1: c rien c la RU|move: Toxic Spikes|[of] p1a: Vileplume
+|move|p2a: Runerigus|Toxic Spikes|p1a: Vileplume
+|-sidestart|p1: c rien c la RU|move: Toxic Spikes
+|
+|-damage|p2a: Runerigus|83/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Runerigus
+|-resisted|p2a: Runerigus
+|-damage|p2a: Runerigus|74/100 tox
+|move|p2a: Runerigus|Toxic Spikes|p1a: Vileplume
+|-sidestart|p1: c rien c la RU|move: Toxic Spikes
+|
+|-damage|p2a: Runerigus|56/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Vileplume|Sludge Bomb|p2a: Runerigus
+|-resisted|p2a: Runerigus
+|-damage|p2a: Runerigus|47/100 tox
+|move|p2a: Runerigus|Poltergeist|p1a: Vileplume
+|-activate|p1a: Vileplume|move: Poltergeist|Leftovers
+|-damage|p1a: Vileplume|51/100
+|
+|-heal|p1a: Vileplume|57/100|[from] item: Leftovers
+|-damage|p2a: Runerigus|23/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Magneton|Magneton, shiny|100/100
+|-damage|p2a: Magneton|94/100|[from] Stealth Rock
+|move|p1a: Vileplume|Giga Drain|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|74/100
+|-heal|p1a: Vileplume|64/100|[from] drain|[of] p2a: Magneton
+|
+|-heal|p1a: Vileplume|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Coalossal|Coalossal, F|100/100
+|move|p2a: Magneton|Flash Cannon|p1a: Coalossal
+|-damage|p1a: Coalossal|48/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Steelix|Steelix, M|65/100
+|move|p2a: Magneton|Flash Cannon|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|25/100
+|
+|-heal|p1a: Steelix|31/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Magneton|Flash Cannon|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|
+|upkeep
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|turn|13
+|
+|move|p1a: Braviary|Close Combat|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|-unboost|p1a: Braviary|def|1
+|-unboost|p1a: Braviary|spd|1
+|faint|p2a: Magneton
+|
+|upkeep
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M, shiny|100/100
+|-damage|p2a: Hitmonlee|94/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Vileplume|Vileplume, F|70/100
+|-sideend|p1: c rien c la RU|move: Toxic Spikes|[of] p1a: Vileplume
+|move|p2a: Hitmonlee|Fake Out|p1a: Vileplume
+|-damage|p1a: Vileplume|58/100
+|-message|Sleep Clause Mod activated.
+|
+|-heal|p1a: Vileplume|65/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Hitmonlee|Bullet Punch|p1a: Vileplume
+|-damage|p1a: Vileplume|53/100
+|move|p1a: Vileplume|Strength Sap|p2a: Hitmonlee
+|-unboost|p2a: Hitmonlee|atk|1
+|-heal|p1a: Vileplume|100/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Drapion|Drapion, M, shiny|100/100
+|-damage|p2a: Drapion|88/100|[from] Stealth Rock
+|move|p1a: Vileplume|Sludge Bomb|p2a: Drapion
+|-resisted|p2a: Drapion
+|-damage|p2a: Drapion|61/100
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Drapion|Cross Poison|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|47/100
+|move|p1a: Vileplume|Strength Sap|p2a: Drapion
+|-unboost|p2a: Drapion|atk|1
+|-heal|p1a: Vileplume|100/100
+|
+|upkeep
+|turn|18
+|inactive|c rien c la RU has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Fan, shiny|100/100 slp
+|move|p1a: Vileplume|Sludge Bomb|p2a: Rotom
+|-damage|p2a: Rotom|57/100 slp
+|
+|upkeep
+|turn|19
+|c|☆VoidDestroid|Fuck man strength sap is so broken
+|
+|cant|p2a: Rotom|slp
+|move|p1a: Vileplume|Sludge Bomb|p2a: Rotom
+|-damage|p2a: Rotom|9/100 slp
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Coalossal|Coalossal, F|48/100
+|cant|p2a: Rotom|slp
+|
+|upkeep
+|turn|21
+|
+|-curestatus|p2a: Rotom|slp|[msg]
+|move|p2a: Rotom|Thunderbolt|p1a: Coalossal
+|-damage|p1a: Coalossal|24/100
+|move|p1a: Coalossal|Flamethrower|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Runerigus|Runerigus, M, shiny|23/100 tox
+|-damage|p2a: Runerigus|17/100 tox|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Runerigus|Poltergeist|p1a: Coalossal
+|-activate|p1a: Coalossal|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Coalossal|0 fnt
+|faint|p1a: Coalossal
+|
+|-damage|p2a: Runerigus|11/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|turn|23
+|
+|move|p1a: Braviary|Brave Bird|p2a: Runerigus
+|-damage|p2a: Runerigus|0 fnt
+|-activate|p2a: Runerigus|ability: Wandering Spirit|Defiant|Wandering Spirit|[of] p1a: Braviary
+|-damage|p1a: Braviary|97/100|[from] Recoil
+|faint|p2a: Runerigus
+|
+|upkeep
+|
+|switch|p2a: Hitmonlee|Hitmonlee, M, shiny|94/100
+|-damage|p2a: Hitmonlee|88/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Hitmonlee|Fake Out|p1a: Braviary
+|-damage|p1a: Braviary|78/100
+|-activate|p1a: Braviary|ability: Wandering Spirit|Unburden|Wandering Spirit|[of] p2a: Hitmonlee
+|cant|p1a: Braviary|flinch
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Braviary|Brave Bird|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|-activate|p2a: Hitmonlee|ability: Wandering Spirit|Unburden|Wandering Spirit|[of] p1a: Braviary
+|-damage|p1a: Braviary|57/100|[from] Recoil
+|faint|p2a: Hitmonlee
+|
+|upkeep
+|
+|switch|p2a: Drapion|Drapion, M, shiny|61/100
+|-damage|p2a: Drapion|49/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Braviary|Brave Bird|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|-damage|p1a: Braviary|44/100|[from] Recoil
+|faint|p2a: Drapion
+|
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, M, shiny|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|27
+|
+|move|p1a: Braviary|Brave Bird|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p1a: Braviary|15/100|[from] Recoil
+|faint|p2a: Rillaboom
+|
+|win|c rien c la RU
+|l|☆c rien c la RU
+|raw|c rien c la RU's rating: 1343 &rarr; <strong>1356</strong><br />(+13 for winning)
+|raw|VoidDestroid's rating: 1220 &rarr; <strong>1204</strong><br />(-16 for losing)

@@ -1,0 +1,280 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1619358186
+|gametype|singles
+|player|p1|estarossa|#estarossa|
+|player|p2|basaninho|kiawe|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|clearpoke
+|poke|p1|Indeedee-F, F|
+|poke|p1|Jirachi|
+|poke|p1|Nihilego|
+|poke|p1|Zarude|
+|poke|p1|Seismitoad, M|
+|poke|p1|Aegislash, F|
+|poke|p2|Buzzwole|
+|poke|p2|Sylveon, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Thundurus, M|
+|poke|p2|Tentacruel, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|basaninho also wants the timer to be on.
+|c|☆basaninho|hf
+|inactive|estarossa has 270 seconds left.
+|inactive|basaninho has 270 seconds left.
+|c|☆estarossa|u2
+|inactive|basaninho has 240 seconds left.
+|
+|t:|1619358274
+|start
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1619358289
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1619358305
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|82/100
+|
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1619358316
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Tentacruel|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|90/100
+|-enditem|p1a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|94/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1619358331
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Kommo-o
+|-sidestart|p2: basaninho|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1619358336
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Kommo-o|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: estarossa|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1619358341
+|move|p1a: Jirachi|Expanding Force|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|t:|1619358344
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|turn|7
+|c|☆basaninho|lol
+|c|☆basaninho|cool
+|
+|t:|1619358354
+|move|p1a: Jirachi|Fire Punch|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|52/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Jirachi
+|-damage|p1a: Jirachi|57/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1619358370
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|move|p1a: Jirachi|Expanding Force|p2a: Thundurus
+|-damage|p2a: Thundurus|4/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1619358379
+|move|p2a: Thundurus|Focus Blast|p1a: Jirachi
+|-damage|p1a: Jirachi|14/100
+|-unboost|p1a: Jirachi|spd|1
+|move|p1a: Jirachi|Fire Punch|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|
+|t:|1619358385
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|-damage|p2a: Buzzwole|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1619358399
+|move|p2a: Buzzwole|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|-ability|p2a: Buzzwole|Beast Boost|boost
+|-boost|p2a: Buzzwole|atk|1
+|
+|upkeep
+|inactive|estarossa has 270 seconds left.
+|
+|t:|1619358444
+|switch|p1a: Zarude|Zarude|100/100
+|-damage|p1a: Zarude|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1619358448
+|move|p2a: Buzzwole|Earthquake|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|62/100
+|move|p1a: Zarude|Bulk Up|p1a: Zarude
+|-boost|p1a: Zarude|atk|1
+|-boost|p1a: Zarude|def|1
+|
+|upkeep
+|turn|12
+|
+|t:|1619358462
+|switch|p2a: Tentacruel|Tentacruel, M|94/100
+|-damage|p2a: Tentacruel|81/100|[from] Stealth Rock
+|move|p1a: Zarude|Synthesis|p1a: Zarude
+|-heal|p1a: Zarude|100/100
+|
+|-heal|p2a: Tentacruel|87/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|inactive|estarossa has 270 seconds left.
+|
+|t:|1619358484
+|move|p1a: Zarude|Power Whip|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|
+|t:|1619358510
+|switch|p2a: Buzzwole|Buzzwole|88/100
+|-damage|p2a: Buzzwole|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1619358520
+|switch|p1a: Seismitoad|Seismitoad, M|90/100
+|-damage|p1a: Seismitoad|84/100|[from] Stealth Rock
+|move|p2a: Buzzwole|Close Combat|p1a: Seismitoad
+|-damage|p1a: Seismitoad|33/100
+|-unboost|p2a: Buzzwole|def|1
+|-unboost|p2a: Buzzwole|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1619358533
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|74/100
+|-enditem|p2a: Sylveon|Leftovers|[from] move: Knock Off|[of] p1a: Seismitoad
+|
+|upkeep
+|turn|16
+|inactive|estarossa has 270 seconds left.
+|
+|t:|1619358550
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Sylveon|Hyper Voice|p1a: Indeedee
+|-damage|p1a: Indeedee|38/100
+|
+|upkeep
+|turn|17
+|
+|t:|1619358559
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1619358563
+|switch|p1a: Nihilego|Nihilego|100/100
+|-damage|p1a: Nihilego|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1619358571
+|switch|p2a: Aegislash|Aegislash, F|52/100
+|-damage|p2a: Aegislash|46/100|[from] Stealth Rock
+|move|p1a: Nihilego|Meteor Beam||[still]
+|-prepare|p1a: Nihilego|Meteor Beam
+|-boost|p1a: Nihilego|spa|1
+|-enditem|p1a: Nihilego|Power Herb
+|-anim|p1a: Nihilego|Meteor Beam|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spe|1
+|
+|upkeep
+|
+|t:|1619358574
+|switch|p2a: Buzzwole|Buzzwole|76/100
+|-damage|p2a: Buzzwole|63/100|[from] Stealth Rock
+|turn|19
+|c|☆basaninho|gg
+|c|☆estarossa|gg
+|
+|t:|1619358600
+|move|p1a: Nihilego|Sludge Wave|p2a: Buzzwole
+|-damage|p2a: Buzzwole|0 fnt
+|faint|p2a: Buzzwole
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spe|1
+|
+|upkeep
+|
+|t:|1619358601
+|switch|p2a: Sylveon|Sylveon, M|74/100
+|-damage|p2a: Sylveon|62/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1619358610
+|move|p1a: Nihilego|Sludge Wave|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|win|estarossa

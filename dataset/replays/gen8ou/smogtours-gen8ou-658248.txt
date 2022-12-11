@@ -1,0 +1,576 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1667153668
+|gametype|singles
+|player|p1|shadowtime1999|biker-gen4|
+|player|p2|Antonazz|palmer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Blaziken, M|
+|poke|p1|Melmetal|
+|poke|p1|Garchomp, M|
+|poke|p1|Slowbro, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Kartana|
+|poke|p2|Clefable, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Heatran, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|c|☆shadowtime1999|glhf
+|c|☆Antonazz|hf
+|
+|t:|1667153678
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|t:|1667153691
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Dragapult|Draco Meteor|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1667153706
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Slowbro
+|-damage|p1a: Slowbro|12/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1667153714
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|switch|p1a: Melmetal|Melmetal|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1667153720
+|move|p2a: Rotom|Will-O-Wisp|p1a: Melmetal|[miss]
+|-miss|p2a: Rotom|p1a: Melmetal
+|move|p1a: Melmetal|Thunder Punch|p2a: Rotom
+|-damage|p2a: Rotom|71/100
+|
+|-heal|p2a: Rotom|77/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆shadowtime1999|oops
+|
+|t:|1667153738
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Tornadus
+|-status|p1a: Tornadus|brn
+|
+|-heal|p2a: Rotom|83/100|[from] item: Leftovers
+|-damage|p1a: Tornadus|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1667153747
+|move|p1a: Tornadus|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|77/100
+|
+|t:|1667153750
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from]move: U-turn
+|move|p2a: Rotom|Volt Switch|p1a: Garchomp
+|-immune|p1a: Garchomp
+|
+|-heal|p2a: Rotom|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1667153754
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Antonazz|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1667153767
+|switch|p1a: Melmetal|Melmetal|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Melmetal|atk|1
+|
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1667153772
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100 brn
+|move|p2a: Landorus|Defog|p1a: Tornadus
+|-unboost|p1a: Tornadus|evasion|1
+|-sideend|p2: Antonazz|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|-damage|p1a: Tornadus|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1667153777
+|move|p1a: Tornadus|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|90/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Landorus|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|82/100 brn
+|
+|t:|1667153791
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|
+|-damage|p1a: Tornadus|76/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1667153799
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|67/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-heal|p1a: Melmetal|73/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1667153811
+|switch|p2a: Rotom|Rotom-Wash|83/100
+|move|p1a: Melmetal|Superpower|p2a: Rotom
+|-damage|p2a: Rotom|42/100
+|-unboost|p1a: Melmetal|atk|1
+|-unboost|p1a: Melmetal|def|1
+|
+|-heal|p2a: Rotom|48/100|[from] item: Leftovers
+|-heal|p1a: Melmetal|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1667153822
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Garchomp
+|-immune|p1a: Garchomp
+|
+|-heal|p2a: Rotom|54/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1667153829
+|move|p1a: Garchomp|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|move|p2a: Rotom|Will-O-Wisp|p1a: Garchomp
+|-status|p1a: Garchomp|brn
+|
+|-heal|p2a: Rotom|60/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|54/100 tox|[from] psn
+|-damage|p1a: Garchomp|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1667153840
+|move|p1a: Garchomp|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Antonazz|move: Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Garchomp
+|-damage|p1a: Garchomp|66/100 brn
+|
+|-heal|p1a: Garchomp|72/100 brn|[from] item: Leftovers
+|-heal|p2a: Rotom|60/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|48/100 tox|[from] psn
+|-damage|p1a: Garchomp|66/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1667153851
+|switch|p2a: Landorus|Landorus-Therian, M|90/100
+|-damage|p2a: Landorus|77/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Protect||[still]
+|-fail|p1a: Garchomp
+|
+|-heal|p1a: Garchomp|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Garchomp|66/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1667153866
+|switch|p1a: Slowbro|Slowbro, F|45/100
+|move|p2a: Landorus|Earthquake|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|upkeep
+|inactive|shadowtime1999 has 270 seconds left.
+|
+|t:|1667153904
+|switch|p1a: Melmetal|Melmetal|79/100
+|turn|18
+|
+|t:|1667153917
+|move|p2a: Landorus|Defog|p1a: Melmetal
+|-unboost|p1a: Melmetal|evasion|1
+|-sideend|p2: Antonazz|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|move|p1a: Melmetal|Double Iron Bash|p2a: Landorus
+|-damage|p2a: Landorus|31/100
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-hitcount|p2: Landorus|2
+|
+|-heal|p1a: Melmetal|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667153924
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|19
+|
+|t:|1667153931
+|switch|p1a: Garchomp|Garchomp, M|66/100 brn
+|move|p2a: Heatran|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: shadowtime1999|move: Stealth Rock
+|
+|-heal|p1a: Garchomp|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Garchomp|66/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1667153936
+|switch|p2a: Kartana|Kartana|100/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Kartana
+|-sidestart|p2: Antonazz|move: Stealth Rock
+|
+|-heal|p1a: Garchomp|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Garchomp|66/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1667153943
+|move|p2a: Kartana|Knock Off|p1a: Garchomp
+|-damage|p1a: Garchomp|8/100 brn
+|-damage|p2a: Kartana|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-enditem|p1a: Garchomp|Leftovers|[from] move: Knock Off|[of] p2a: Kartana
+|move|p1a: Garchomp|Earthquake|p2a: Kartana
+|-damage|p2a: Kartana|65/100
+|
+|-damage|p1a: Garchomp|2/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1667153954
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Garchomp|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|61/100
+|
+|-damage|p1a: Garchomp|0 fnt|[from] brn
+|faint|p1a: Garchomp
+|upkeep
+|
+|t:|1667153964
+|switch|p1a: Melmetal|Melmetal|85/100
+|-damage|p1a: Melmetal|79/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1667153975
+|move|p2a: Dragapult|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|74/100
+|
+|t:|1667153977
+|switch|p2a: Rotom|Rotom-Wash|48/100 tox|[from]move: U-turn
+|-damage|p2a: Rotom|36/100 tox|[from] Stealth Rock
+|move|p1a: Melmetal|Double Iron Bash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|27/100 tox
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|18/100 tox
+|-hitcount|p2a: Rotom|2
+|
+|-heal|p2a: Rotom|24/100 tox|[from] item: Leftovers
+|-heal|p1a: Melmetal|80/100|[from] item: Leftovers
+|-damage|p2a: Rotom|18/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1667153990
+|move|p1a: Melmetal|Protect|p1a: Melmetal
+|-singleturn|p1a: Melmetal|Protect
+|move|p2a: Rotom|Pain Split|p1a: Melmetal
+|-activate|p1a: Melmetal|move: Protect
+|
+|-heal|p2a: Rotom|24/100 tox|[from] item: Leftovers
+|-heal|p1a: Melmetal|86/100|[from] item: Leftovers
+|-damage|p2a: Rotom|12/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1667154007
+|move|p1a: Melmetal|Protect||[still]
+|-fail|p1a: Melmetal
+|move|p2a: Rotom|Pain Split|p1a: Melmetal
+|-sethp|p1a: Melmetal|48/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|65/100 tox|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|71/100 tox|[from] item: Leftovers
+|-heal|p1a: Melmetal|54/100|[from] item: Leftovers
+|-damage|p2a: Rotom|53/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1667154021
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100 brn
+|move|p2a: Rotom|Will-O-Wisp|p1a: Tornadus
+|-fail|p1a: Tornadus|brn
+|
+|-heal|p2a: Rotom|59/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|35/100 tox|[from] psn
+|-damage|p1a: Tornadus|94/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1667154027
+|move|p1a: Tornadus|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|28/100 tox
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Rotom|Volt Switch|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|47/100 brn
+|
+|t:|1667154030
+|switch|p2a: Dragapult|Dragapult, F|61/100|[from]move: Volt Switch
+|-damage|p2a: Dragapult|49/100|[from] Stealth Rock
+|
+|-damage|p1a: Tornadus|41/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1667154039
+|switch|p1a: Melmetal|Melmetal|54/100
+|-damage|p1a: Melmetal|48/100|[from] Stealth Rock
+|move|p2a: Dragapult|Shadow Ball|p1a: Melmetal
+|-crit|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1667154059
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|29
+|
+|t:|1667154070
+|switch|p2a: Rotom|Rotom-Wash|28/100 tox
+|-damage|p2a: Rotom|16/100 tox|[from] Stealth Rock
+|move|p1a: Rillaboom|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667154075
+|switch|p2a: Kartana|Kartana|65/100
+|-damage|p2a: Kartana|59/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1667154082
+|move|p2a: Kartana|Leaf Blade|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|46/100
+|move|p1a: Rillaboom|Drain Punch|p2a: Kartana
+|-supereffective|p2a: Kartana
+|-damage|p2a: Kartana|5/100
+|-heal|p1a: Rillaboom|63/100|[from] drain|[of] p2a: Kartana
+|
+|-heal|p2a: Kartana|11/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|69/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|76/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1667154096
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Rillaboom|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|56/100
+|-status|p1a: Rillaboom|brn|[from] ability: Flame Body|[of] p2a: Heatran
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|82/100 brn|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|88/100 brn|[from] item: Leftovers
+|-heal|p2a: Heatran|62/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|82/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1667154111
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|-damage|p1a: Blaziken|88/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Blaziken|[miss]
+|-miss|p2a: Heatran|p1a: Blaziken
+|
+|-heal|p1a: Blaziken|94/100|[from] Grassy Terrain
+|-heal|p1a: Blaziken|100/100|[from] item: Leftovers
+|-heal|p2a: Heatran|68/100|[from] Grassy Terrain
+|upkeep
+|turn|33
+|
+|t:|1667154121
+|move|p1a: Blaziken|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: Heatran
+|
+|-fieldend|move: Grassy Terrain
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1667154124
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|34
+|
+|t:|1667154134
+|switch|p1a: Rillaboom|Rillaboom, F|82/100 brn
+|-damage|p1a: Rillaboom|69/100 brn|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Clefable|Moonblast|p1a: Rillaboom
+|-damage|p1a: Rillaboom|32/100 brn
+|-unboost|p1a: Rillaboom|spa|1
+|
+|-heal|p1a: Rillaboom|39/100 brn|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|45/100 brn|[from] item: Leftovers
+|-damage|p1a: Rillaboom|39/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1667154140
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Rillaboom|45/100 brn|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Rillaboom|45/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1667154146
+|move|p1a: Rillaboom|Grassy Glide|p2a: Clefable
+|-damage|p2a: Clefable|63/100
+|move|p2a: Clefable|Flamethrower|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Clefable|69/100|[from] Grassy Terrain
+|-heal|p2a: Clefable|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1667154155
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|-damage|p1a: Blaziken|88/100|[from] Stealth Rock
+|turn|37
+|
+|t:|1667154161
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Clefable|Moonblast|p1a: Blaziken
+|-damage|p1a: Blaziken|29/100
+|-unboost|p1a: Blaziken|spa|1
+|
+|-heal|p1a: Blaziken|35/100|[from] Grassy Terrain
+|-heal|p1a: Blaziken|41/100|[from] item: Leftovers
+|-heal|p2a: Clefable|81/100|[from] Grassy Terrain
+|-heal|p2a: Clefable|87/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|38
+|
+|t:|1667154189
+|move|p1a: Blaziken|Flare Blitz|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-damage|p1a: Blaziken|8/100|[from] Recoil
+|
+|-heal|p1a: Blaziken|14/100|[from] Grassy Terrain
+|-heal|p1a: Blaziken|20/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1667154195
+|switch|p2a: Dragapult|Dragapult, F|49/100
+|-damage|p2a: Dragapult|37/100|[from] Stealth Rock
+|turn|39
+|
+|t:|1667154201
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-heal|p1a: Blaziken|27/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|40
+|
+|t:|1667154211
+|move|p1a: Blaziken|Flare Blitz|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-damage|p1a: Blaziken|15/100|[from] Recoil
+|
+|-heal|p1a: Blaziken|22/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|inactive|Antonazz disconnected and has 300 seconds to reconnect!
+|player|p2|
+|c|☆shadowtime1999|loool
+|inactive|Antonazz has 270 seconds to reconnect!
+|inactive|Antonazz has 240 seconds to reconnect!
+|inactive|Antonazz has 210 seconds to reconnect!
+|inactive|Antonazz has 180 seconds to reconnect!
+|inactive|Antonazz has 150 seconds to reconnect!
+|inactive|Antonazz has 120 seconds to reconnect!
+|inactive|Antonazz has 90 seconds to reconnect!
+|inactive|Antonazz has 60 seconds to reconnect!
+|inactive|Antonazz has 30 seconds to reconnect!
+|inactive|Antonazz has 20 seconds to reconnect!
+|inactive|Antonazz has 15 seconds to reconnect!
+|inactive|Antonazz has 10 seconds to reconnect!
+|inactive|Antonazz has 5 seconds to reconnect!
+|-message|Antonazz lost due to inactivity.
+|
+|win|shadowtime1999

@@ -1,0 +1,130 @@
+|j|☆Catboy500
+|j|☆JLT3 oSuave
+|player|p1|Catboy500|168|1373
+|player|p2|JLT3 oSuave|ethan-gen2c|1524
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Barraskewda, M|
+|poke|p1|Gurdurr, M|
+|poke|p1|Slurpuff, M|
+|poke|p1|Charizard, M|
+|poke|p1|Silvally-*|
+|poke|p1|Rotom|
+|poke|p2|Sableye, M|
+|poke|p2|Mantine, M|
+|poke|p2|Snorlax, F|
+|poke|p2|Steelix, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Cramorant, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JLT3 oSuave)
+|
+|start
+|switch|p1a: Rotom|Rotom|100/100
+|switch|p2a: Cramorant|Cramorant, F, shiny|100/100
+|turn|1
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Rotom|Trick|p2a: Salazzle
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Salazzle
+|-item|p2a: Salazzle|Choice Specs|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|3
+|
+|switch|p2a: Cramorant|Cramorant, F, shiny|100/100
+|move|p1a: Barraskewda|Psychic Fangs|p2a: Cramorant
+|-damage|p2a: Cramorant|55/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|move|p1a: Barraskewda|Psychic Fangs|p2a: Sableye
+|-immune|p2a: Sableye
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Gurdurr|Gurdurr, M|100/100
+|move|p2a: Sableye|Knock Off|p1a: Gurdurr
+|-resisted|p1a: Gurdurr
+|-damage|p1a: Gurdurr|92/100
+|-enditem|p1a: Gurdurr|Eviolite|[from] move: Knock Off|[of] p2a: Sableye
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Sableye|Knock Off|p1a: Gurdurr
+|-resisted|p1a: Gurdurr
+|-damage|p1a: Gurdurr|84/100
+|move|p1a: Gurdurr|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|72/100
+|-enditem|p2a: Sableye|Leftovers|[from] move: Knock Off|[of] p1a: Gurdurr
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Sableye|Encore|p1a: Gurdurr
+|-start|p1a: Gurdurr|Encore
+|move|p1a: Gurdurr|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|51/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Slurpuff|Slurpuff, M|100/100
+|move|p2a: Sableye|Knock Off|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-damage|p1a: Slurpuff|84/100
+|-enditem|p1a: Slurpuff|Sitrus Berry|[from] move: Knock Off|[of] p2a: Sableye
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Slurpuff
+|-status|p1a: Slurpuff|brn
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|34/100 brn
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|
+|-damage|p1a: Slurpuff|27/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Sableye|Encore|p1a: Slurpuff
+|-start|p1a: Slurpuff|Encore
+|move|p1a: Slurpuff|Belly Drum||[still]
+|-fail|p1a: Slurpuff
+|
+|-damage|p1a: Slurpuff|21/100 brn|[from] brn
+|upkeep
+|turn|11
+|-message|Catboy500 forfeited.
+|
+|win|JLT3 oSuave
+|l|☆Catboy500
+|raw|Catboy500's rating: 1373 &rarr; <strong>1361</strong><br />(-12 for losing)
+|raw|JLT3 oSuave's rating: 1524 &rarr; <strong>1536</strong><br />(+12 for winning)

@@ -1,0 +1,166 @@
+|j|☆big boss 447
+|j|☆Frederic McBoss
+|player|p1|big boss 447|n|1708
+|player|p2|Frederic McBoss|zinnia|1601
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Runerigus, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Togekiss, M|
+|poke|p2|Zeraora|
+|poke|p2|Sylveon, F|
+|poke|p2|Jirachi|
+|poke|p2|Seismitoad, M|
+|poke|p2|Arcanine, M|
+|poke|p2|Roserade, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Frederic McBoss|I'm the true boss
+|
+|start
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Seismitoad|Earth Power|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|turn|2
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Seismitoad
+|-damage|p2a: Seismitoad|3/100
+|move|p2a: Seismitoad|Earth Power|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-heal|p2a: Seismitoad|9/100|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Frederic McBoss)
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|3
+|
+|move|p1a: Bisharp|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Bisharp
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|4
+|
+|switch|p1a: Runerigus|Runerigus, M|100/100
+|move|p2a: Zeraora|Bulk Up|p2a: Zeraora
+|-boost|p2a: Zeraora|atk|1
+|-boost|p2a: Zeraora|def|1
+|
+|upkeep
+|turn|5
+|inactive|Frederic McBoss has 120 seconds left.
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|move|p1a: Runerigus|Will-O-Wisp|p2a: Sylveon|[miss]
+|-miss|p1a: Runerigus|p2a: Sylveon
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|move|p1a: Runerigus|Stealth Rock|p2a: Sylveon
+|-sidestart|p2: Frederic McBoss|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|83/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Aegislash|atk|1
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Runerigus|Runerigus, M|100/100
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Runerigus
+|-status|p1a: Runerigus|brn
+|
+|-damage|p1a: Runerigus|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Runerigus|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|77/100
+|move|p2a: Arcanine|Teleport|p2a: Arcanine
+|
+|switch|p2a: Roserade|Roserade, M|100/100|[from]move: Teleport
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|
+|-damage|p1a: Runerigus|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Roserade|Sleep Powder|p1a: Togekiss
+|-status|p1a: Togekiss|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|12
+|
+|cant|p1a: Togekiss|slp
+|move|p2a: Roserade|Spikes|p1a: Togekiss
+|-sidestart|p1: big boss 447|Spikes
+|
+|upkeep
+|turn|13
+|
+|cant|p1a: Togekiss|slp
+|move|p2a: Roserade|Sludge Bomb|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p2a: Roserade|78/100|[from] item: Life Orb
+|faint|p1a: Togekiss
+|
+|upkeep
+|-message|big boss 447 forfeited.
+|
+|win|Frederic McBoss
+|l|☆big boss 447
+|raw|big boss 447's rating: 1723 &rarr; <strong>1696</strong><br />(-27 for losing)
+|raw|Frederic McBoss's rating: 1601 &rarr; <strong>1628</strong><br />(+27 for winning)

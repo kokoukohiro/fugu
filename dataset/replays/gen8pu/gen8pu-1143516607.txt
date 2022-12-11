@@ -1,0 +1,197 @@
+|j|☆libraryWifi
+|j|☆Karrakarra
+|player|p1|libraryWifi|proton|
+|player|p2|Karrakarra|saturn|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|Tournament battle
+|clearpoke
+|poke|p1|Shuckle, F|
+|poke|p1|Tauros, M|
+|poke|p1|Hitmonchan, M|
+|poke|p1|Kadabra, M|
+|poke|p1|Marowak, F|
+|poke|p1|Boltund, M|
+|poke|p2|Kangaskhan, F|
+|poke|p2|Koffing, F|
+|poke|p2|Perrserker, F|
+|poke|p2|Vespiquen, F|
+|poke|p2|Whiscash, F|
+|poke|p2|Glaceon, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| ski Dump
+|j|+keppy ㋛
+|j| R!sque Biscuit
+|c|☆libraryWifi|glhf
+|l| R!sque Biscuit
+|j| fashionista
+|j| IT Waffle Kam
+|
+|start
+|switch|p1a: Shuckle|Shuckle, F|100/100
+|switch|p2a: Glaceon|Glaceon, F|100/100
+|turn|1
+|
+|move|p2a: Glaceon|Ice Beam|p1a: Shuckle
+|-damage|p1a: Shuckle|62/100
+|move|p1a: Shuckle|Stealth Rock|p2a: Glaceon
+|-sidestart|p2: Karrakarra|move: Stealth Rock
+|
+|-heal|p1a: Shuckle|69/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|j|%ptf
+|j| Obstabooze
+|
+|move|p2a: Glaceon|Ice Beam|p1a: Shuckle
+|-damage|p1a: Shuckle|25/100
+|move|p1a: Shuckle|Sticky Web|p2a: Glaceon
+|-sidestart|p2: Karrakarra|move: Sticky Web
+|
+|-heal|p1a: Shuckle|31/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Glaceon|Ice Beam|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|faint|p1a: Shuckle
+|
+|upkeep
+|
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|turn|4
+|
+|switch|p2a: Koffing|Koffing, F|100/100
+|-damage|p2a: Koffing|88/100|[from] Stealth Rock
+|move|p1a: Hitmonchan|Drain Punch|p2a: Koffing
+|-resisted|p2a: Koffing
+|-damage|p2a: Koffing|68/100
+|-damage|p1a: Hitmonchan|84/100|[from] item: Rocky Helmet|[of] p2a: Koffing
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Tauros|Tauros, M|100/100
+|switch|p2a: Vespiquen|Vespiquen, F|100/100
+|-ability|p2a: Vespiquen|Unnerve|p1: libraryWifi
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Tauros|Rock Slide|p2a: Vespiquen
+|-supereffective|p2a: Vespiquen
+|-damage|p2a: Vespiquen|0 fnt
+|faint|p2a: Vespiquen
+|
+|upkeep
+|
+|switch|p2a: Whiscash|Whiscash, F|100/100
+|-activate|p2a: Whiscash|move: Sticky Web
+|-unboost|p2a: Whiscash|spe|1
+|-damage|p2a: Whiscash|94/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Tauros|Body Slam|p2a: Whiscash
+|-damage|p2a: Whiscash|49/100
+|move|p2a: Whiscash|Scald|p1a: Tauros
+|-damage|p1a: Tauros|63/100
+|
+|-heal|p2a: Whiscash|55/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|l| Obstabooze
+|
+|switch|p1a: Kadabra|Kadabra, M|100/100
+|move|p2a: Whiscash|Protect||[still]
+|-fail|p2a: Whiscash
+|
+|-heal|p2a: Whiscash|61/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Perrserker|Perrserker, F|100/100
+|-damage|p2a: Perrserker|94/100|[from] Stealth Rock
+|-activate|p2a: Perrserker|move: Sticky Web
+|-unboost|p2a: Perrserker|spe|1
+|move|p1a: Kadabra|Psychic|p2a: Perrserker
+|-resisted|p2a: Perrserker
+|-damage|p2a: Perrserker|80/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Perrserker|U-turn|p1a: Kadabra
+|-supereffective|p1a: Kadabra
+|-enditem|p1a: Kadabra|Focus Sash
+|-damage|p1a: Kadabra|1/100
+|l|%ptf
+|
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100|[from]move: U-turn
+|-activate|p2a: Kangaskhan|move: Sticky Web
+|-unboost|p2a: Kangaskhan|spe|1
+|-damage|p2a: Kangaskhan|88/100|[from] Stealth Rock
+|move|p1a: Kadabra|Counter|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|
+|switch|p2a: Perrserker|Perrserker, F|80/100
+|-activate|p2a: Perrserker|move: Sticky Web
+|-unboost|p2a: Perrserker|spe|1
+|-damage|p2a: Perrserker|74/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Kadabra|Shadow Ball|p2a: Perrserker
+|-damage|p2a: Perrserker|56/100
+|move|p2a: Perrserker|U-turn|p1a: Kadabra
+|-supereffective|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|switch|p2a: Whiscash|Whiscash, F|61/100|[from]move: U-turn
+|-damage|p2a: Whiscash|55/100|[from] Stealth Rock
+|-activate|p2a: Whiscash|move: Sticky Web
+|-unboost|p2a: Whiscash|spe|1
+|
+|-heal|p2a: Whiscash|61/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Marowak|Marowak, F|100/100
+|turn|12
+|
+|switch|p2a: Koffing|Koffing, F|68/100
+|-damage|p2a: Koffing|56/100|[from] Stealth Rock
+|move|p1a: Marowak|Knock Off|p2a: Koffing
+|-damage|p2a: Koffing|7/100
+|-damage|p1a: Marowak|84/100|[from] item: Rocky Helmet|[of] p2a: Koffing
+|-enditem|p2a: Koffing|Rocky Helmet|[from] move: Knock Off|[of] p1a: Marowak
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Marowak|Fire Punch|p2a: Koffing
+|-damage|p2a: Koffing|0 fnt
+|faint|p2a: Koffing
+|
+|upkeep
+|j| X-Vile 6900
+|
+|switch|p2a: Glaceon|Glaceon, F|100/100
+|-activate|p2a: Glaceon|move: Sticky Web
+|-unboost|p2a: Glaceon|spe|1
+|-damage|p2a: Glaceon|76/100|[from] Stealth Rock
+|turn|14
+|-message|Karrakarra forfeited.
+|
+|win|libraryWifi

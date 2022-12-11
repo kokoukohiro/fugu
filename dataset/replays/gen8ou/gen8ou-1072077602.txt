@@ -1,0 +1,308 @@
+|j|☆ithinkim
+|j|☆Groundt
+|player|p1|ithinkim|lyra|1741
+|player|p2|Groundt|winona|1731
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Zeraora|
+|poke|p1|Incineroar, M|
+|poke|p1|Jirachi|
+|poke|p1|Primarina, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Cloyster, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Bronzong|
+|poke|p2|Gardevoir, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|j| Kezrul
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ithinkim)
+|
+|move|p1a: Mew|Block|p2a: Bronzong
+|-activate|p2a: Bronzong|trapped
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Bronzong|Stealth Rock|p1a: Mew
+|-sidestart|p1: ithinkim|move: Stealth Rock
+|move|p1a: Mew|Imprison|p1a: Mew
+|-start|p1a: Mew|move: Imprison
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Bronzong|Steel Beam|p1a: Mew
+|-damage|p1a: Mew|50/100
+|-damage|p2a: Bronzong|50/100|[from] mindblown
+|move|p1a: Mew|Transform|p2a: Bronzong
+|-transform|p1a: Mew|p2a: Bronzong
+|-endability|p1a: Mew|Synchronize|[from] move: Transform
+|
+|-heal|p1a: Mew|56/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|-activate|p2a: Bronzong|move: Struggle
+|move|p2a: Bronzong|Struggle|p1a: Mew
+|-damage|p1a: Mew|48/100
+|-damage|p2a: Bronzong|25/100|[from] recoil
+|move|p1a: Mew|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: Groundt|move: Stealth Rock
+|
+|-heal|p1a: Mew|54/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|-activate|p2a: Bronzong|move: Struggle
+|move|p2a: Bronzong|Struggle|p1a: Mew
+|-damage|p1a: Mew|46/100
+|-damage|p2a: Bronzong|0 fnt|[from] recoil
+|faint|p2a: Bronzong
+|move|p1a: Mew|Trick Room|p1a: Mew
+|-fieldend|move: Trick Room
+|
+|-heal|p1a: Mew|52/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p1a: Primarina|Primarina, F|100/100
+|-damage|p1a: Primarina|88/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Knock Off|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|60/100
+|-enditem|p1a: Primarina|Choice Specs|[from] move: Knock Off|[of] p2a: Conkeldurr
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|switch|p2a: Gardevoir|Gardevoir, F, shiny|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Torrent|[from] ability: Trace|[of] p1a: Primarina
+|move|p1a: Primarina|Sparkling Aria|p2a: Gardevoir
+|-damage|p2a: Gardevoir|55/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Gardevoir|Trick Room|p2a: Gardevoir
+|-fieldstart|move: Trick Room|[of] p2a: Gardevoir
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Jirachi|U-turn|p2a: Gardevoir
+|-damage|p2a: Gardevoir|30/100
+|
+|switch|p1a: Mew|Mew|52/100|[from]move: U-turn
+|-damage|p1a: Mew|40/100|[from] Stealth Rock
+|move|p2a: Gardevoir|Teleport|p2a: Gardevoir
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|94/100 brn|[from]move: Teleport
+|-damage|p2a: Conkeldurr|88/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Mew|46/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Conkeldurr|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-enditem|p1a: Mew|Leftovers|[from] move: Knock Off|[of] p2a: Conkeldurr
+|faint|p1a: Mew
+|
+|-damage|p2a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Conkeldurr|atk|1
+|turn|11
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Close Combat|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-damage|p2a: Conkeldurr|70/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Conkeldurr|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Life Orb|[from] move: Knock Off|[of] p2a: Conkeldurr
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Conkeldurr|64/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Primarina|Primarina, F|60/100
+|-damage|p1a: Primarina|47/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Gardevoir|Gardevoir, F, shiny|30/100
+|-damage|p2a: Gardevoir|17/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Torrent|[from] ability: Trace|[of] p1a: Primarina
+|move|p1a: Primarina|Moonblast|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Jirachi|Jirachi|94/100
+|-damage|p1a: Jirachi|88/100|[from] Stealth Rock
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|11/100
+|-unboost|p1a: Jirachi|spa|1
+|-damage|p2a: Hatterene|78/100|[from] item: Life Orb
+|move|p1a: Jirachi|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|4/100
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|85/100
+|-unboost|p1a: Incineroar|spa|1
+|-damage|p2a: Hatterene|0 fnt|[from] item: Life Orb
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|64/100 brn
+|-damage|p2a: Conkeldurr|58/100 brn|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Jirachi|Jirachi|11/100
+|-damage|p1a: Jirachi|5/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Close Combat|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|faint|p1a: Jirachi
+|
+|-damage|p2a: Conkeldurr|52/100 brn|[from] brn
+|upkeep
+|j| Light chanseyy
+|
+|switch|p1a: Incineroar|Incineroar, M|85/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Conkeldurr|atk|1
+|turn|18
+|
+|move|p2a: Conkeldurr|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|faint|p1a: Incineroar
+|
+|-damage|p2a: Conkeldurr|46/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|-damage|p1a: Zeraora|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Zeraora
+|-damage|p1a: Zeraora|56/100
+|move|p1a: Zeraora|Plasma Fists|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|46/100|[from] item: Life Orb
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-damage|p2a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|20
+|
+|move|p1a: Zeraora|Plasma Fists|p2a: Torkoal
+|-damage|p2a: Torkoal|29/100
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|36/100|[from] item: Life Orb
+|move|p2a: Torkoal|Earth Power|p1a: Zeraora
+|-supereffective|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Primarina|Primarina, F|47/100
+|-damage|p1a: Primarina|35/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Primarina|Sparkling Aria|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|-damage|p2a: Cloyster|76/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Cloyster|Rock Blast|p1a: Primarina
+|-damage|p1a: Primarina|26/100
+|-damage|p1a: Primarina|16/100
+|-damage|p1a: Primarina|5/100
+|-damage|p1a: Primarina|0 fnt
+|-hitcount|p1a: Primarina|4
+|faint|p1a: Primarina
+|
+|win|Groundt
+|raw|ithinkim's rating: 1755 &rarr; <strong>1734</strong><br />(-21 for losing)
+|raw|Groundt's rating: 1731 &rarr; <strong>1753</strong><br />(+22 for winning)
+|l|☆ithinkim

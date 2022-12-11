@@ -1,0 +1,307 @@
+|j|☆COMUNICADO OFICIAL
+|j|☆Lonely copier
+|player|p1|COMUNICADO OFICIAL|2|1340
+|player|p2|Lonely copier|juan|1320
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|html|<div class="broadcast-blue"><strong>OU is currently suspecting Dracovish! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3664521/">suspect thread</a>.</strong></div>
+|clearpoke
+|poke|p1|Salazzle, F|
+|poke|p1|Clefable, F|
+|poke|p1|Kommo-o, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Zeraora|
+|poke|p1|Excadrill, M|
+|poke|p2|Dracovish|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Aegislash, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|1
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Kommo-o|Draco Meteor|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|80/100
+|-unboost|p1a: Kommo-o|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Aegislash|Toxic|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Excadrill|Toxic|p2a: Dracovish|[miss]
+|-miss|p1a: Excadrill|p2a: Dracovish
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|54/100
+|
+|-heal|p1a: Kommo-o|60/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Aegislash|Aegislash, M|80/100
+|move|p1a: Kommo-o|Stealth Rock|p2a: Aegislash
+|-sidestart|p2: Lonely copier|move: Stealth Rock
+|
+|-heal|p1a: Kommo-o|67/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Kommo-o|Protect|p1a: Kommo-o
+|-singleturn|p1a: Kommo-o|Protect
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Protect
+|
+|-heal|p1a: Kommo-o|73/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lonely copier)
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|95/100|[from] Stealth Rock
+|switch|p1a: Zeraora|Zeraora|100/100
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|64/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Clefable
+|
+|-damage|p2a: Conkeldurr|95/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Conkeldurr|Facade|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-damage|p2a: Conkeldurr|89/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|10
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-damage|p2a: Gyarados|75/100|[from] Stealth Rock
+|move|p1a: Corviknight|Brave Bird|p2a: Gyarados
+|-damage|p2a: Gyarados|32/100
+|-enditem|p2a: Gyarados|Sitrus Berry|[eat]
+|-heal|p2a: Gyarados|57/100|[from] item: Sitrus Berry
+|-damage|p1a: Corviknight|88/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Gyarados|Waterfall|p1a: Corviknight
+|-damage|p1a: Corviknight|60/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|66/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|41/100
+|
+|-heal|p1a: Corviknight|47/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|32/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|53/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|59/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|65/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Gyarados|Waterfall|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|71/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Gyarados|Waterfall|p1a: Corviknight
+|-damage|p1a: Corviknight|67/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|73/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Gyarados|Waterfall|p1a: Corviknight
+|-damage|p1a: Corviknight|46/100
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|22/100
+|
+|-heal|p1a: Corviknight|28/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|78/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|84/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Gyarados|Waterfall|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|move|p1a: Corviknight|Brave Bird|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|-damage|p1a: Corviknight|77/100|[from] Recoil|[of] p2a: Gyarados
+|
+|-heal|p1a: Corviknight|83/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Gyarados|Waterfall|p1a: Corviknight
+|-damage|p1a: Corviknight|48/100
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|24/100
+|
+|-heal|p1a: Corviknight|30/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Gyarados|Waterfall|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|80/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|86/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Gyarados|Waterfall|p1a: Corviknight
+|-damage|p1a: Corviknight|55/100
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|30/100
+|
+|-heal|p1a: Corviknight|36/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Gyarados|Waterfall|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|86/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|92/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Gyarados|Waterfall|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|c|☆Lonely copier|lol
+|l|☆COMUNICADO OFICIAL
+|inactive|COMUNICADO OFICIAL disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|COMUNICADO OFICIAL has 30 seconds to reconnect!
+|inactive|COMUNICADO OFICIAL has 20 seconds to reconnect!
+|inactive|COMUNICADO OFICIAL has 15 seconds to reconnect!
+|inactive|COMUNICADO OFICIAL has 10 seconds to reconnect!
+|inactive|COMUNICADO OFICIAL has 5 seconds to reconnect!
+|-message|COMUNICADO OFICIAL lost due to inactivity.
+|
+|win|Lonely copier
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

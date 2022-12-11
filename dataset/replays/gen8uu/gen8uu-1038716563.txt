@@ -1,0 +1,406 @@
+|j|☆DD Qyads
+|j|☆Aggronauts
+|player|p1|DD Qyads|hilbert-dueldisk|1554
+|player|p2|Aggronauts|firebreather-gen2|1437
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Golisopod, F|
+|poke|p1|Lanturn, F|
+|poke|p1|Diggersby, F|
+|poke|p1|Gengar, F|
+|poke|p1|Bronzong|
+|poke|p1|Noivern, F|
+|poke|p2|Rhyperior, F|
+|poke|p2|Vanilluxe, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Gardevoir, F|
+|poke|p2|Noivern, F|
+|poke|p2|Doublade, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Aggronauts|hf
+|c|☆DD Qyads|glhf
+|
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Noivern|Noivern, F|100/100
+|-item|p1a: Bronzong|Colbur Berry|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|turn|1
+|
+|move|p2a: Noivern|Flamethrower|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|54/100
+|move|p1a: Bronzong|Gyro Ball|p2a: Noivern
+|-damage|p2a: Noivern|37/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Noivern|Flamethrower|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|11/100
+|move|p1a: Bronzong|Gyro Ball|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|switch|p2a: Vanilluxe|Vanilluxe, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|3
+|
+|move|p2a: Vanilluxe|Freeze-Dry|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|turn|4
+|
+|switch|p2a: Doublade|Doublade, F|100/100
+|move|p1a: Golisopod|First Impression|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|94/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Golisopod|94/100|[from] Hail
+|-damage|p2a: Doublade|88/100|[from] Hail
+|upkeep
+|turn|5
+|
+|switch|p1a: Diggersby|Diggersby, F|100/100
+|move|p2a: Doublade|Shadow Claw|p1a: Diggersby
+|-immune|p1a: Diggersby
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diggersby|94/100|[from] Hail
+|-damage|p2a: Doublade|82/100|[from] Hail
+|upkeep
+|turn|6
+|
+|move|p1a: Diggersby|Earthquake|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diggersby|88/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Huge Power|[from] ability: Trace|[of] p1a: Diggersby
+|turn|7
+|
+|switch|p1a: Lanturn|Lanturn, F|100/100
+|move|p2a: Gardevoir|Moonblast|p1a: Lanturn
+|-damage|p1a: Lanturn|71/100
+|-unboost|p1a: Lanturn|spa|1
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|move|p1a: Lanturn|Volt Switch|p2a: Rhyperior
+|-immune|p2a: Rhyperior
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Volt Absorb|[from] ability: Trace|[of] p1a: Lanturn
+|move|p1a: Lanturn|Scald|p2a: Gardevoir
+|-damage|p2a: Gardevoir|80/100
+|-status|p2a: Gardevoir|brn
+|
+|-damage|p2a: Gardevoir|73/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Lanturn
+|-damage|p1a: Lanturn|41/100
+|move|p1a: Lanturn|Scald|p2a: Gardevoir
+|-damage|p2a: Gardevoir|55/100 brn
+|
+|-damage|p2a: Gardevoir|49/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Gardevoir|Moonblast|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|59/100
+|
+|-damage|p2a: Gardevoir|42/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Gengar|Sludge Wave|p2a: Vaporeon
+|-damage|p2a: Vaporeon|72/100
+|
+|-heal|p2a: Vaporeon|78/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Lanturn|Lanturn, F|41/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Gardevoir|Gardevoir, F|42/100 brn
+|-ability|p2a: Gardevoir|Volt Absorb|[from] ability: Trace|[of] p1a: Lanturn
+|move|p1a: Lanturn|Scald|p2a: Gardevoir
+|-damage|p2a: Gardevoir|12/100 brn
+|
+|-heal|p2a: Gardevoir|95/100 brn|[from] move: Wish|[wisher] Vaporeon
+|-damage|p2a: Gardevoir|89/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Gardevoir|Psychic|p1a: Lanturn
+|-damage|p1a: Lanturn|12/100
+|move|p1a: Lanturn|Scald|p2a: Gardevoir
+|-damage|p2a: Gardevoir|56/100 brn
+|
+|-damage|p2a: Gardevoir|50/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Gardevoir|Psychic|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|-damage|p2a: Gardevoir|44/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, F|94/100
+|turn|17
+|
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|move|p1a: Golisopod|First Impression|p2a: Rhyperior
+|-damage|p2a: Rhyperior|69/100
+|
+|-heal|p2a: Rhyperior|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Diggersby|Diggersby, F|88/100
+|move|p2a: Rhyperior|Stealth Rock|p1a: Diggersby
+|-sidestart|p1: DD Qyads|move: Stealth Rock
+|
+|-heal|p2a: Rhyperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Diggersby|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|switch|p2a: Vanilluxe|Vanilluxe, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|20
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|move|p2a: Vanilluxe|Autotomize|p2a: Vanilluxe
+|-boost|p2a: Vanilluxe|spe|2
+|-start|p2a: Vanilluxe|Autotomize
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Noivern|94/100|[from] Hail
+|upkeep
+|turn|21
+|
+|move|p2a: Vanilluxe|Blizzard|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, F|94/100
+|turn|22
+|
+|move|p1a: Golisopod|First Impression|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|29/100
+|move|p2a: Vanilluxe|Freeze-Dry|p1a: Golisopod
+|-supereffective|p1a: Golisopod
+|-damage|p1a: Golisopod|4/100
+|-activate|p1a: Golisopod|ability: Emergency Exit
+|
+|switch|p1a: Diggersby|Diggersby, F|88/100
+|-damage|p1a: Diggersby|82/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diggersby|76/100|[from] Hail
+|upkeep
+|turn|23
+|
+|switch|p2a: Vaporeon|Vaporeon, F|85/100
+|move|p1a: Diggersby|Quick Attack|p2a: Vaporeon
+|-damage|p2a: Vaporeon|39/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diggersby|70/100|[from] Hail
+|-damage|p2a: Vaporeon|33/100|[from] Hail
+|-heal|p2a: Vaporeon|39/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Diggersby|Quick Attack|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-weather|none
+|-heal|p2a: Vaporeon|45/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Gardevoir|Gardevoir, F|44/100 brn
+|-ability|p2a: Gardevoir|Huge Power|[from] ability: Trace|[of] p1a: Diggersby
+|move|p1a: Diggersby|Quick Attack|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, F|45/100
+|turn|26
+|j| Grass Bell
+|
+|switch|p1a: Gengar|Gengar, F|59/100
+|-damage|p1a: Gengar|47/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|51/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Vaporeon
+|-damage|p2a: Vaporeon|22/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|28/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Gengar|Sludge Wave|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|78/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|84/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Vaporeon
+|-damage|p2a: Vaporeon|55/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|61/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Vaporeon
+|-damage|p2a: Vaporeon|31/100
+|move|p2a: Vaporeon|Yawn|p1a: Gengar
+|-start|p1a: Gengar|move: Yawn|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|81/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|87/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Vaporeon
+|-damage|p2a: Vaporeon|58/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|64/100|[from] item: Leftovers
+|-end|p1a: Gengar|move: Yawn|[silent]
+|-status|p1a: Gengar|slp
+|upkeep
+|turn|32
+|
+|switch|p2a: Vanilluxe|Vanilluxe, M|29/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|cant|p1a: Gengar|slp
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gengar|41/100 slp|[from] Hail
+|-heal|p2a: Vanilluxe|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|33
+|
+|cant|p1a: Gengar|slp
+|move|p2a: Vanilluxe|Blizzard|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, F|4/100
+|turn|34
+|
+|switch|p2a: Vaporeon|Vaporeon, F|64/100
+|move|p1a: Golisopod|First Impression|p2a: Vaporeon
+|-damage|p2a: Vaporeon|11/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vaporeon|5/100|[from] Hail
+|-damage|p1a: Golisopod|0 fnt|[from] Hail
+|faint|p1a: Golisopod
+|-heal|p2a: Vaporeon|11/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Diggersby|Diggersby, F|70/100
+|-damage|p1a: Diggersby|64/100|[from] Stealth Rock
+|turn|35
+|
+|move|p1a: Diggersby|Quick Attack|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Diggersby|58/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Vanilluxe|Vanilluxe, M|100/100
+|turn|36
+|
+|move|p1a: Diggersby|Quick Attack|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|46/100
+|move|p2a: Vanilluxe|Blizzard|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|faint|p1a: Diggersby
+|
+|win|Aggronauts
+|l|☆DD Qyads
+|c|☆Aggronauts|ff
+|c|☆Aggronauts|gg
+|raw|DD Qyads's rating: 1554 &rarr; <strong>1529</strong><br />(-25 for losing)
+|raw|Aggronauts's rating: 1452 &rarr; <strong>1478</strong><br />(+26 for winning)

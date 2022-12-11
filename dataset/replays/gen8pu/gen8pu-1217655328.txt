@@ -1,0 +1,359 @@
+|j|☆Eesturn
+|j|☆PurpleEchoes
+|t:|1604639517
+|player|p1|Eesturn|janitor|1188
+|player|p2|PurpleEchoes|1|1109
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Liepard, F|
+|poke|p1|Rotom-Fan|
+|poke|p1|Lapras, F|
+|poke|p1|Calyrex|
+|poke|p1|Flareon, F|
+|poke|p1|Togedemaru, M|
+|poke|p2|Cinccino, F|
+|poke|p2|Kangaskhan, F|
+|poke|p2|Ferroseed, M|
+|poke|p2|Cryogonal|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Combusken, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Eesturn|glhf
+|
+|t:|1604639549
+|start
+|switch|p1a: Flareon|Flareon, F|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100
+|turn|1
+|
+|t:|1604639557
+|move|p2a: Kangaskhan|Fake Out|p1a: Flareon
+|-damage|p1a: Flareon|67/100
+|cant|p1a: Flareon|flinch
+|
+|-status|p1a: Flareon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1604639563
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Kangaskhan|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom
+|
+|upkeep
+|turn|3
+|
+|t:|1604639570
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Cryogonal
+|-status|p2a: Cryogonal|brn
+|
+|-damage|p2a: Cryogonal|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1604639587
+|switch|p1a: Lapras|Lapras, F|100/100
+|move|p2a: Cryogonal|Toxic|p1a: Lapras
+|-status|p1a: Lapras|tox
+|
+|-damage|p2a: Cryogonal|88/100 brn|[from] brn
+|-damage|p1a: Lapras|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1604639596
+|switch|p1a: Flareon|Flareon, F|67/100 tox
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|53/100 tox
+|
+|-damage|p2a: Cryogonal|82/100 brn|[from] brn
+|-damage|p1a: Flareon|47/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1604639607
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Flareon|Flare Blitz|p2a: Corsola
+|-damage|p2a: Corsola|57/100
+|-damage|p1a: Flareon|30/100 tox|[from] Recoil
+|
+|-damage|p1a: Flareon|18/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1604639616
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Corsola|Strength Sap|p1a: Rotom
+|-unboost|p1a: Rotom|atk|1
+|-heal|p2a: Corsola|94/100
+|
+|upkeep
+|turn|8
+|
+|t:|1604639625
+|move|p1a: Rotom|Thunderbolt|p2a: Corsola
+|-damage|p2a: Corsola|71/100
+|move|p2a: Corsola|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Eesturn|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1604639654
+|switch|p2a: Cryogonal|Cryogonal|82/100 brn
+|move|p1a: Rotom|Defog|p2a: Cryogonal
+|-unboost|p2a: Cryogonal|evasion|1
+|-sideend|p1: Eesturn|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|
+|-damage|p2a: Cryogonal|76/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1604639664
+|switch|p1a: Lapras|Lapras, F|94/100 tox
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Lapras
+|-damage|p1a: Lapras|73/100 tox
+|
+|-heal|p1a: Lapras|79/100 tox|[from] item: Leftovers
+|-damage|p2a: Cryogonal|70/100 brn|[from] brn
+|-damage|p1a: Lapras|73/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1604639675
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|100/100 brn
+|move|p1a: Lapras|Liquidation|p2a: Cryogonal
+|-damage|p2a: Cryogonal|46/100 brn
+|
+|-heal|p1a: Lapras|79/100 tox|[from] item: Leftovers
+|-damage|p2a: Cryogonal|40/100 brn|[from] brn
+|-damage|p1a: Lapras|66/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1604639689
+|switch|p2a: Ferroseed|Ferroseed, M|100/100
+|switch|p1a: Calyrex|Calyrex|100/100
+|-ability|p1a: Calyrex|Unnerve|p2: PurpleEchoes
+|
+|upkeep
+|turn|13
+|
+|t:|1604639698
+|move|p1a: Calyrex|Trick|p2a: Ferroseed
+|-activate|p1a: Calyrex|move: Trick|[of] p2a: Ferroseed
+|-item|p2a: Ferroseed|Choice Specs|[from] move: Trick
+|-item|p1a: Calyrex|Eviolite|[from] move: Trick
+|move|p2a: Ferroseed|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|75/100
+|-enditem|p1a: Calyrex|Eviolite|[from] move: Knock Off|[of] p2a: Ferroseed
+|
+|upkeep
+|turn|14
+|
+|t:|1604639717
+|move|p1a: Calyrex|Psychic|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|74/100
+|move|p2a: Ferroseed|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|56/100
+|
+|upkeep
+|turn|15
+|
+|t:|1604639738
+|switch|p2a: Cryogonal|Cryogonal|40/100 brn
+|move|p1a: Calyrex|Psychic|p2a: Cryogonal
+|-damage|p2a: Cryogonal|12/100 brn
+|
+|-damage|p2a: Cryogonal|5/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1604639747
+|switch|p1a: Flareon|Flareon, F|18/100 tox
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|56/100 brn
+|
+|-damage|p2a: Cryogonal|50/100 brn|[from] brn
+|-damage|p1a: Flareon|12/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1604639783
+|switch|p2a: Corsola|Corsola-Galar, F|71/100
+|move|p1a: Flareon|Flare Blitz|p2a: Corsola
+|-damage|p2a: Corsola|24/100
+|-damage|p1a: Flareon|0 fnt|[from] Recoil
+|faint|p1a: Flareon
+|
+|upkeep
+|
+|t:|1604639792
+|switch|p1a: Calyrex|Calyrex|56/100
+|-ability|p1a: Calyrex|Unnerve|p2: PurpleEchoes
+|turn|18
+|
+|t:|1604639797
+|switch|p2a: Ferroseed|Ferroseed, M|74/100
+|move|p1a: Calyrex|Leaf Storm|p2a: Ferroseed
+|-resisted|p2a: Ferroseed
+|-damage|p2a: Ferroseed|55/100
+|-unboost|p1a: Calyrex|spa|2
+|
+|upkeep
+|turn|19
+|
+|t:|1604639813
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Ferroseed|Gyro Ball|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|85/100
+|
+|upkeep
+|turn|20
+|
+|t:|1604639819
+|switch|p2a: Cryogonal|Cryogonal|50/100 brn
+|move|p1a: Rotom|Will-O-Wisp|p2a: Cryogonal
+|-fail|p2a: Cryogonal|brn
+|
+|-damage|p2a: Cryogonal|43/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1604639830
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|94/100 brn
+|move|p1a: Rotom|Thunderbolt|p2a: Cryogonal
+|-damage|p2a: Cryogonal|69/100 brn
+|
+|-damage|p2a: Cryogonal|63/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1604639869
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|50/100
+|move|p1a: Rotom|Pain Split|p2a: Cryogonal
+|-sethp|p2a: Cryogonal|52/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|62/100|[from] move: Pain Split
+|
+|-damage|p2a: Cryogonal|46/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1604639878
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|move|p2a: Cryogonal|Toxic|p1a: Togedemaru
+|-immune|p1a: Togedemaru
+|
+|-damage|p2a: Cryogonal|40/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1604639887
+|switch|p2a: Ferroseed|Ferroseed, M|55/100
+|switch|p1a: Liepard|Liepard, F|100/100
+|
+|upkeep
+|turn|25
+|
+|t:|1604639899
+|move|p1a: Liepard|Burning Jealousy|p2a: Ferroseed
+|-supereffective|p2a: Ferroseed
+|-damage|p2a: Ferroseed|0 fnt
+|faint|p2a: Ferroseed
+|
+|upkeep
+|
+|t:|1604639913
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|turn|26
+|
+|t:|1604639921
+|switch|p1a: Rotom|Rotom-Fan|62/100
+|move|p2a: Cinccino|U-turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|47/100
+|
+|t:|1604639925
+|switch|p2a: Kangaskhan|Kangaskhan, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|27
+|
+|t:|1604639930
+|move|p2a: Kangaskhan|Double-Edge|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Kangaskhan|87/100|[from] Recoil
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1604639935
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|turn|28
+|
+|t:|1604639941
+|move|p2a: Kangaskhan|Earthquake|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-ability|p1a: Togedemaru|Sturdy
+|-damage|p1a: Togedemaru|1/100
+|-enditem|p1a: Togedemaru|Weakness Policy
+|-boost|p1a: Togedemaru|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Togedemaru|spa|2|[from] item: Weakness Policy
+|move|p1a: Togedemaru|Reversal|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|
+|t:|1604639951
+|switch|p2a: Combusken|Combusken, M|100/100
+|turn|29
+|
+|t:|1604639956
+|move|p2a: Combusken|Protect|p2a: Combusken
+|-singleturn|p2a: Combusken|Protect
+|move|p1a: Togedemaru|Agility|p1a: Togedemaru
+|-boost|p1a: Togedemaru|spe|2
+|
+|-ability|p2a: Combusken|Speed Boost|boost
+|-boost|p2a: Combusken|spe|1
+|upkeep
+|turn|30
+|
+|t:|1604639965
+|move|p1a: Togedemaru|Reversal|p2a: Combusken
+|-damage|p2a: Combusken|0 fnt
+|faint|p2a: Combusken
+|
+|upkeep
+|-message|PurpleEchoes forfeited.
+|
+|win|Eesturn
+|c|☆Eesturn|nice choke lol
+|l|☆PurpleEchoes
+|c|☆Eesturn|LMAO
+|raw|Eesturn's rating: 1188 &rarr; <strong>1207</strong><br />(+19 for winning)
+|raw|PurpleEchoes's rating: 1109 &rarr; <strong>1090</strong><br />(-19 for losing)

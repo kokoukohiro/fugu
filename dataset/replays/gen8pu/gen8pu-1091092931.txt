@@ -1,0 +1,318 @@
+|j|☆Karrakarra
+|j|☆kopvip
+|player|p1|Karrakarra|saturn|1473
+|player|p2|kopvip|drayden|1226
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Vespiquen, F|
+|poke|p1|Mawile, F|
+|poke|p1|Whiscash, M|
+|poke|p1|Raichu, M|
+|poke|p1|Liepard, F|
+|poke|p1|Glaceon, F|
+|poke|p2|Leafeon, F|
+|poke|p2|Dusknoir, F|
+|poke|p2|Whiscash, F|
+|poke|p2|Duosion, F|
+|poke|p2|Glalie, F|
+|poke|p2|Silvally-*|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| snow rat
+|
+|start
+|switch|p1a: Raichu|Raichu, M, shiny|100/100
+|switch|p2a: Dusknoir|Dusknoir, F|100/100
+|-item|p1a: Raichu|Life Orb|[from] ability: Frisk|[of] p2a: Dusknoir|[identify]
+|turn|1
+|
+|move|p1a: Raichu|Volt Switch|p2a: Dusknoir
+|-damage|p2a: Dusknoir|66/100
+|-damage|p1a: Raichu|91/100|[from] item: Life Orb
+|
+|switch|p1a: Vespiquen|Vespiquen, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Vespiquen|Unnerve|p2: kopvip
+|move|p2a: Dusknoir|Substitute|p2a: Dusknoir
+|-start|p2a: Dusknoir|Substitute
+|-damage|p2a: Dusknoir|41/100
+|
+|-heal|p2a: Dusknoir|47/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Dusknoir|Power-Up Punch|p1a: Vespiquen
+|-resisted|p1a: Vespiquen
+|-damage|p1a: Vespiquen|98/100
+|-boost|p2a: Dusknoir|atk|1
+|move|p1a: Vespiquen|Toxic Spikes|p2a: Dusknoir
+|-sidestart|p2: kopvip|move: Toxic Spikes
+|
+|-heal|p2a: Dusknoir|54/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Dusknoir|Power-Up Punch|p1a: Vespiquen
+|-resisted|p1a: Vespiquen
+|-damage|p1a: Vespiquen|95/100
+|-boost|p2a: Dusknoir|atk|1
+|move|p1a: Vespiquen|U-turn|p2a: Dusknoir
+|-resisted|p2a: Dusknoir
+|-activate|p2a: Dusknoir|move: Substitute|[damage]
+|
+|switch|p1a: Whiscash|Whiscash, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Dusknoir|60/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Whiscash|Scald|p2a: Dusknoir
+|-end|p2a: Dusknoir|Substitute
+|move|p2a: Dusknoir|Power-Up Punch|p1a: Whiscash
+|-damage|p1a: Whiscash|83/100
+|-boost|p2a: Dusknoir|atk|1
+|
+|-heal|p1a: Whiscash|89/100|[from] item: Leftovers
+|-heal|p2a: Dusknoir|66/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Whiscash
+|-damage|p1a: Whiscash|58/100
+|move|p1a: Whiscash|Scald|p2a: Dusknoir
+|-crit|p2a: Dusknoir
+|-damage|p2a: Dusknoir|38/100
+|
+|-heal|p1a: Whiscash|64/100|[from] item: Leftovers
+|-heal|p2a: Dusknoir|44/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Whiscash|Scald|p2a: Dusknoir
+|-damage|p2a: Dusknoir|23/100
+|move|p2a: Dusknoir|Pain Split|p1a: Whiscash
+|-sethp|p1a: Whiscash|40/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Dusknoir|58/100|[from] move: Pain Split
+|
+|-heal|p1a: Whiscash|46/100|[from] item: Leftovers
+|-heal|p2a: Dusknoir|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Whiscash|Toxic|p2a: Dusknoir|[miss]
+|-miss|p1a: Whiscash|p2a: Dusknoir
+|move|p2a: Dusknoir|Power-Up Punch|p1a: Whiscash
+|-damage|p1a: Whiscash|25/100
+|-boost|p2a: Dusknoir|atk|1
+|
+|-heal|p1a: Whiscash|31/100|[from] item: Leftovers
+|-heal|p2a: Dusknoir|70/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Dusknoir|Shadow Sneak|p1a: Whiscash
+|-damage|p1a: Whiscash|0 fnt
+|faint|p1a: Whiscash
+|
+|-heal|p2a: Dusknoir|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Liepard|Liepard, F|100/100
+|turn|9
+|
+|move|p1a: Liepard|Knock Off|p2a: Dusknoir
+|-supereffective|p2a: Dusknoir
+|-damage|p2a: Dusknoir|0 fnt
+|-enditem|p2a: Dusknoir|Leftovers|[from] move: Knock Off|[of] p1a: Liepard
+|faint|p2a: Dusknoir
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Dragon|100/100
+|-status|p2a: Silvally|psn
+|turn|10
+|
+|move|p1a: Liepard|U-turn|p2a: Silvally
+|-damage|p2a: Silvally|81/100 psn
+|
+|switch|p1a: Vespiquen|Vespiquen, F|95/100|[from]move: U-turn
+|-ability|p1a: Vespiquen|Unnerve|p2: kopvip
+|move|p2a: Silvally|Swords Dance|p2a: Silvally
+|-boost|p2a: Silvally|atk|2
+|
+|-damage|p2a: Silvally|69/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Silvally|Flame Charge|p1a: Vespiquen
+|-supereffective|p1a: Vespiquen
+|-crit|p1a: Vespiquen
+|-damage|p1a: Vespiquen|35/100
+|-boost|p2a: Silvally|spe|1
+|move|p1a: Vespiquen|U-turn|p2a: Silvally
+|-damage|p2a: Silvally|48/100 psn
+|
+|switch|p1a: Liepard|Liepard, F|100/100|[from]move: U-turn
+|
+|-damage|p2a: Silvally|36/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Liepard|Sucker Punch|p2a: Silvally
+|-damage|p2a: Silvally|1/100 psn
+|move|p2a: Silvally|Multi-Attack|p1a: Liepard
+|-damage|p1a: Liepard|0 fnt
+|faint|p1a: Liepard
+|
+|-damage|p2a: Silvally|0 fnt|[from] psn
+|faint|p2a: Silvally
+|upkeep
+|
+|switch|p1a: Glaceon|Glaceon, F|100/100
+|switch|p2a: Whiscash|Whiscash, F, shiny|100/100
+|-status|p2a: Whiscash|psn
+|turn|13
+|
+|move|p2a: Whiscash|Substitute|p2a: Whiscash
+|-start|p2a: Whiscash|Substitute
+|-damage|p2a: Whiscash|76/100 psn
+|move|p1a: Glaceon|Freeze-Dry|p2a: Whiscash
+|-supereffective|p2a: Whiscash
+|-end|p2a: Whiscash|Substitute
+|
+|-heal|p2a: Whiscash|82/100 psn|[from] item: Leftovers
+|-damage|p2a: Whiscash|69/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p2a: Glalie|Glalie, F|100/100
+|-status|p2a: Glalie|psn
+|move|p1a: Glaceon|Freeze-Dry|p2a: Glalie
+|-resisted|p2a: Glalie
+|-damage|p2a: Glalie|81/100 psn
+|
+|-damage|p2a: Glalie|68/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Glalie|Iron Head|p1a: Glaceon
+|-supereffective|p1a: Glaceon
+|-damage|p1a: Glaceon|53/100
+|cant|p1a: Glaceon|flinch
+|
+|-heal|p1a: Glaceon|59/100|[from] item: Leftovers
+|-damage|p2a: Glalie|56/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Glalie|Earthquake|p1a: Glaceon
+|-damage|p1a: Glaceon|34/100
+|move|p1a: Glaceon|Freeze-Dry|p2a: Glalie
+|-resisted|p2a: Glalie
+|-damage|p2a: Glalie|36/100 psn
+|
+|-heal|p1a: Glaceon|40/100|[from] item: Leftovers
+|-damage|p2a: Glalie|24/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Glaceon|Protect|p1a: Glaceon
+|-singleturn|p1a: Glaceon|Protect
+|move|p2a: Glalie|Iron Head|p1a: Glaceon
+|-activate|p1a: Glaceon|move: Protect
+|
+|-heal|p1a: Glaceon|46/100|[from] item: Leftovers
+|-damage|p2a: Glalie|12/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Mawile|Mawile, F|100/100
+|move|p2a: Glalie|Iron Head|p1a: Mawile
+|-damage|p1a: Mawile|70/100
+|
+|-damage|p2a: Glalie|0 fnt|[from] psn
+|faint|p2a: Glalie
+|upkeep
+|
+|switch|p2a: Duosion|Duosion, F, shiny|100/100
+|-status|p2a: Duosion|psn
+|turn|19
+|
+|move|p1a: Mawile|Iron Head|p2a: Duosion
+|-damage|p2a: Duosion|36/100 psn
+|move|p2a: Duosion|Iron Defense|p2a: Duosion
+|-boost|p2a: Duosion|def|2
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Mawile|Play Rough|p2a: Duosion|[miss]
+|-miss|p1a: Mawile|p2a: Duosion
+|move|p2a: Duosion|Recover|p2a: Duosion
+|-heal|p2a: Duosion|86/100 psn
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Mawile|Swords Dance|p1a: Mawile
+|-boost|p1a: Mawile|atk|2
+|move|p2a: Duosion|Iron Defense|p2a: Duosion
+|-boost|p2a: Duosion|def|2
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Mawile|Play Rough|p2a: Duosion|[miss]
+|-miss|p1a: Mawile|p2a: Duosion
+|move|p2a: Duosion|Iron Defense|p2a: Duosion
+|-boost|p2a: Duosion|def|2
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Mawile|Swords Dance|p1a: Mawile
+|-boost|p1a: Mawile|atk|2
+|move|p2a: Duosion|Calm Mind|p2a: Duosion
+|-boost|p2a: Duosion|spa|1
+|-boost|p2a: Duosion|spd|1
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Mawile|Play Rough|p2a: Duosion
+|-damage|p2a: Duosion|31/100 psn
+|move|p2a: Duosion|Stored Power|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|
+|upkeep
+|
+|switch|p1a: Raichu|Raichu, M, shiny|91/100
+|turn|25
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Duosion
+|-damage|p2a: Duosion|10/100 psn
+|-damage|p1a: Raichu|81/100|[from] item: Life Orb
+|move|p2a: Duosion|Recover|p2a: Duosion
+|-heal|p2a: Duosion|60/100 psn
+|
+|upkeep
+|turn|26
+|-message|Karrakarra forfeited.
+|
+|win|kopvip
+|l|☆Karrakarra
+|l| snow rat
+|raw|Karrakarra's rating: 1485 &rarr; <strong>1452</strong><br />(-33 for losing)
+|raw|kopvip's rating: 1202 &rarr; <strong>1243</strong><br />(+41 for winning)

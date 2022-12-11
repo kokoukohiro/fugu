@@ -1,0 +1,194 @@
+|j|☆kacj0
+|j|☆WutWutHut
+|t:|1640199363
+|gametype|singles
+|player|p1|kacj0|cowgirl|1267
+|player|p2|WutWutHut|102|1300
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Tsareena, F|
+|poke|p1|Rapidash, F|
+|poke|p1|Bouffalant, F|
+|poke|p1|Walrein, F|
+|poke|p1|Jolteon, F|
+|poke|p1|Gallade, M|
+|poke|p2|Scrafty, F|
+|poke|p2|Absol, M|
+|poke|p2|Uxie|
+|poke|p2|Charizard, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Rapidash, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kacj0)
+|
+|t:|1640199382
+|start
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|switch|p2a: Uxie|Uxie|100/100
+|turn|1
+|
+|t:|1640199390
+|move|p1a: Jolteon|Thunderbolt|p2a: Uxie
+|-damage|p2a: Uxie|50/100
+|move|p2a: Uxie|Yawn|p1a: Jolteon
+|-start|p1a: Jolteon|move: Yawn|[of] p2a: Uxie
+|
+|upkeep
+|turn|2
+|
+|t:|1640199399
+|switch|p1a: Bouffalant|Bouffalant, F|100/100
+|move|p2a: Uxie|Sunny Day|p2a: Uxie
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1640199408
+|move|p2a: Uxie|Yawn|p1a: Bouffalant
+|-start|p1a: Bouffalant|move: Yawn|[of] p2a: Uxie
+|move|p1a: Bouffalant|Head Charge|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|faint|p2a: Uxie
+|-damage|p1a: Bouffalant|88/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1640199424
+|switch|p2a: Scrafty|Scrafty, F|100/100
+|turn|4
+|
+|t:|1640199429
+|move|p2a: Scrafty|Bulk Up|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|def|1
+|move|p1a: Bouffalant|Head Charge|p2a: Scrafty
+|-damage|p2a: Scrafty|30/100
+|-damage|p1a: Bouffalant|72/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Scrafty|36/100|[from] item: Leftovers
+|-end|p1a: Bouffalant|move: Yawn|[silent]
+|-status|p1a: Bouffalant|slp
+|upkeep
+|turn|5
+|
+|t:|1640199455
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|move|p2a: Scrafty|Drain Punch|p1a: Jolteon
+|-damage|p1a: Jolteon|37/100
+|-heal|p2a: Scrafty|62/100|[from] drain|[of] p1a: Jolteon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Scrafty|68/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1640199464
+|move|p1a: Jolteon|Thunderbolt|p2a: Scrafty
+|-damage|p2a: Scrafty|27/100
+|move|p2a: Scrafty|Drain Punch|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|-heal|p2a: Scrafty|41/100|[from] drain|[of] p1a: Jolteon
+|faint|p1a: Jolteon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Scrafty|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1640199473
+|switch|p1a: Gallade|Gallade, M|100/100
+|turn|7
+|
+|t:|1640199477
+|move|p1a: Gallade|Close Combat|p2a: Scrafty
+|-supereffective|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|faint|p2a: Scrafty
+|-damage|p1a: Gallade|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1640199489
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|8
+|
+|t:|1640199493
+|move|p2a: Ribombee|Moonblast|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1640199505
+|switch|p1a: Walrein|Walrein, F|100/100
+|turn|9
+|
+|t:|1640199509
+|move|p2a: Ribombee|Moonblast|p1a: Walrein
+|-damage|p1a: Walrein|52/100
+|move|p1a: Walrein|Ice Beam|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-weather|none
+|upkeep
+|
+|t:|1640199522
+|switch|p2a: Absol|Absol, M|100/100
+|turn|10
+|
+|t:|1640199528
+|move|p2a: Absol|Swords Dance|p2a: Absol
+|-boost|p2a: Absol|atk|2
+|move|p1a: Walrein|Ice Beam|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|
+|upkeep
+|
+|t:|1640199535
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|11
+|
+|t:|1640199541
+|switch|p1a: Rapidash|Rapidash, F|100/100
+|move|p2a: Charizard|Fire Blast|p1a: Rapidash
+|-start|p1a: Rapidash|ability: Flash Fire
+|
+|upkeep
+|turn|12
+|
+|t:|1640199553
+|move|p1a: Rapidash|Wild Charge|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|-damage|p1a: Rapidash|73/100|[from] Recoil
+|
+|upkeep
+|-message|WutWutHut forfeited.
+|
+|win|kacj0
+|raw|kacj0's rating: 1267 &rarr; <strong>1294</strong><br />(+27 for winning)
+|raw|WutWutHut's rating: 1300 &rarr; <strong>1273</strong><br />(-27 for losing)
+|l|☆WutWutHut
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

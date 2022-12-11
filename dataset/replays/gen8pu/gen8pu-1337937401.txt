@@ -1,0 +1,366 @@
+|j|☆Baetulo
+|j|☆ayo bb
+|t:|1620658750
+|gametype|singles
+|player|p1|Baetulo|brycen|1321
+|player|p2|ayo bb|169|1591
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Hitmonlee, M|
+|poke|p1|Thwackey, M|
+|poke|p1|Whimsicott, F|
+|poke|p1|Scrafty, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Lanturn, M|
+|poke|p2|Gigalith, M|
+|poke|p2|Stunfisk-Galar, F|
+|poke|p2|Scyther, M|
+|poke|p2|Perrserker, F|
+|poke|p2|Aromatisse, M|
+|poke|p2|Flapple, M|
+|teampreview
+|
+|t:|1620658772
+|start
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|switch|p2a: Scyther|Scyther, M|100/100
+|turn|1
+|
+|t:|1620658790
+|move|p2a: Scyther|Knock Off|p1a: Lanturn
+|-crit|p1a: Lanturn
+|-damage|p1a: Lanturn|54/100
+|-enditem|p1a: Lanturn|Leftovers|[from] move: Knock Off|[of] p2a: Scyther
+|move|p1a: Lanturn|Scald|p2a: Scyther
+|-damage|p2a: Scyther|65/100
+|
+|upkeep
+|turn|2
+|
+|t:|1620658794
+|switch|p2a: Stunfisk|Stunfisk-Galar, F|100/100
+|move|p1a: Lanturn|Thunder Wave|p2a: Stunfisk
+|-immune|p2a: Stunfisk
+|
+|upkeep
+|turn|3
+|
+|t:|1620658796
+|move|p1a: Lanturn|Scald|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|69/100
+|-status|p2a: Stunfisk|brn
+|move|p2a: Stunfisk|Snap Trap|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|47/100
+|-activate|p1a: Lanturn|move: Snap Trap|[of] p2a: Stunfisk
+|
+|-heal|p2a: Stunfisk|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Stunfisk|69/100 brn|[from] brn
+|-damage|p1a: Lanturn|34/100|[from] move: Snap Trap|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1620658814
+|move|p2a: Stunfisk|Protect|p2a: Stunfisk
+|-singleturn|p2a: Stunfisk|Protect
+|move|p1a: Lanturn|Scald|p2a: Stunfisk
+|-activate|p2a: Stunfisk|move: Protect
+|
+|-heal|p2a: Stunfisk|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Stunfisk|69/100 brn|[from] brn
+|-damage|p1a: Lanturn|22/100|[from] move: Snap Trap|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1620658817
+|move|p1a: Lanturn|Scald|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|39/100 brn
+|move|p2a: Stunfisk|Earthquake|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|-heal|p2a: Stunfisk|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Stunfisk|39/100 brn|[from] brn
+|upkeep
+|
+|t:|1620658832
+|switch|p1a: Thwackey|Thwackey, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Thwackey
+|-start|p2a: Stunfisk|typechange|Grass|[from] ability: Mimicry
+|turn|6
+|
+|t:|1620658835
+|move|p1a: Thwackey|U-turn|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|faint|p2a: Stunfisk
+|
+|t:|1620658844
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100|[from]move: U-turn
+|-enditem|p1a: Hitmonlee|Grassy Seed
+|-boost|p1a: Hitmonlee|def|1|[from] item: Grassy Seed
+|
+|upkeep
+|
+|t:|1620658851
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|turn|7
+|
+|t:|1620658862
+|move|p1a: Hitmonlee|Bulk Up|p1a: Hitmonlee
+|-boost|p1a: Hitmonlee|atk|1
+|-boost|p1a: Hitmonlee|def|1
+|move|p2a: Aromatisse|Moonblast|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|49/100
+|-unboost|p1a: Hitmonlee|spa|1
+|
+|-heal|p1a: Hitmonlee|55/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1620658867
+|move|p1a: Hitmonlee|Poison Jab|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|56/100
+|move|p2a: Aromatisse|Moonblast|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|3/100
+|
+|-heal|p1a: Hitmonlee|10/100|[from] Grassy Terrain
+|-heal|p2a: Aromatisse|62/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1620658878
+|move|p1a: Hitmonlee|Close Combat|p2a: Aromatisse
+|-resisted|p2a: Aromatisse
+|-damage|p2a: Aromatisse|35/100
+|-unboost|p1a: Hitmonlee|def|1
+|-unboost|p1a: Hitmonlee|spd|1
+|move|p2a: Aromatisse|Moonblast|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|-heal|p2a: Aromatisse|41/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1620658885
+|switch|p1a: Thwackey|Thwackey, M|100/100
+|turn|10
+|
+|t:|1620658888
+|move|p2a: Aromatisse|Protect|p2a: Aromatisse
+|-singleturn|p2a: Aromatisse|Protect
+|move|p1a: Thwackey|Grassy Glide|p2a: Aromatisse
+|-activate|p2a: Aromatisse|move: Protect
+|
+|-heal|p2a: Aromatisse|47/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1620658909
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|switch|p2a: Perrserker|Perrserker, F|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1620658913
+|move|p1a: Whimsicott|Memento|p2a: Perrserker
+|-unboost|p2a: Perrserker|atk|2
+|-unboost|p2a: Perrserker|spa|2
+|faint|p1a: Whimsicott
+|move|p2a: Perrserker|Iron Head|p1: Whimsicott|[notarget]
+|-fail|p2a: Perrserker
+|
+|upkeep
+|
+|t:|1620658916
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|turn|13
+|
+|t:|1620658950
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|move|p2a: Perrserker|Iron Head|p1a: Scrafty
+|-damage|p1a: Scrafty|52/100
+|
+|upkeep
+|turn|14
+|
+|t:|1620658965
+|switch|p2a: Scyther|Scyther, M|65/100
+|move|p1a: Scrafty|Drain Punch|p2a: Scyther
+|-resisted|p2a: Scyther
+|-damage|p2a: Scyther|45/100
+|-heal|p1a: Scrafty|62/100|[from] drain|[of] p2a: Scyther
+|-damage|p1a: Scrafty|53/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|
+|t:|1620658968
+|move|p1a: Scrafty|Ice Punch|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|-ability|p1a: Scrafty|Moxie|boost
+|-boost|p1a: Scrafty|atk|1
+|-damage|p1a: Scrafty|43/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1620658971
+|switch|p2a: Flapple|Flapple, M|100/100
+|turn|16
+|
+|t:|1620658980
+|move|p2a: Flapple|Grav Apple|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|upkeep
+|
+|t:|1620658984
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|17
+|
+|t:|1620658988
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|switch|p1a: Thwackey|Thwackey, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Thwackey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thwackey|94/100|[from] Sandstorm
+|-heal|p1a: Thwackey|100/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1620658990
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Thwackey|Grassy Glide|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thwackey|94/100|[from] Sandstorm
+|-heal|p1a: Thwackey|100/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1620659006
+|switch|p2a: Flapple|Flapple, M|100/100
+|move|p1a: Thwackey|Grassy Glide|p2a: Flapple
+|-resisted|p2a: Flapple
+|-damage|p2a: Flapple|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Flapple|71/100|[from] Sandstorm
+|-damage|p1a: Thwackey|94/100|[from] Sandstorm
+|-heal|p2a: Flapple|77/100|[from] Grassy Terrain
+|-heal|p1a: Thwackey|100/100|[from] Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1620659010
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|move|p2a: Flapple|Grav Apple|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Flapple|71/100|[from] Sandstorm
+|-damage|p1a: Ribombee|19/100|[from] Sandstorm
+|-heal|p2a: Flapple|77/100|[from] Grassy Terrain
+|-heal|p1a: Ribombee|25/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1620659023
+|move|p2a: Flapple|Grav Apple|p1a: Ribombee|[miss]
+|-miss|p2a: Flapple|p1a: Ribombee
+|move|p1a: Ribombee|Bug Buzz|p2a: Flapple
+|-supereffective|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|faint|p2a: Flapple
+|-damage|p1a: Ribombee|15/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1a: Ribombee|21/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1620659027
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|22
+|
+|t:|1620659030
+|move|p1a: Ribombee|Energy Ball|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|61/100
+|-unboost|p2a: Gigalith|spd|1
+|-damage|p1a: Ribombee|11/100|[from] item: Life Orb
+|move|p2a: Gigalith|Rock Blast|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|-hitcount|p1a: Ribombee|1
+|faint|p1a: Ribombee
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1620659032
+|switch|p1a: Thwackey|Thwackey, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Thwackey
+|turn|23
+|
+|t:|1620659034
+|move|p1a: Thwackey|Grassy Glide|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thwackey|94/100|[from] Sandstorm
+|-heal|p1a: Thwackey|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1620659036
+|switch|p2a: Perrserker|Perrserker, F|100/100
+|turn|24
+|
+|t:|1620659038
+|move|p1a: Thwackey|Grassy Glide|p2a: Perrserker
+|-resisted|p2a: Perrserker
+|-damage|p2a: Perrserker|67/100
+|move|p2a: Perrserker|Iron Head|p1a: Thwackey
+|-damage|p1a: Thwackey|0 fnt
+|faint|p1a: Thwackey
+|
+|win|ayo bb
+|raw|Baetulo's rating: 1321 &rarr; <strong>1314</strong><br />(-7 for losing)
+|raw|ayo bb's rating: 1592 &rarr; <strong>1599</strong><br />(+7 for winning)
+|c|☆ayo bb|gg
+|l|☆Baetulo
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

@@ -1,0 +1,731 @@
+|j|☆greatalex
+|j|☆Wariotime98
+|player|p1|greatalex|293|1452
+|player|p2|Wariotime98|219|1474
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dugtrio, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Clefable, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|66/100
+|
+|-heal|p2a: Hydreigon|72/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|48/100
+|
+|-heal|p2a: Hydreigon|54/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|60/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|22/100
+|move|p1a: Clefable|Moonblast|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|-heal|p2a: Hydreigon|66/100|[from] item: Leftovers
+|-heal|p1a: Clefable|28/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Hydreigon|Flash Cannon|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100
+|-unboost|p1a: Toxapex|spd|1
+|
+|-heal|p2a: Hydreigon|72/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|47/100
+|
+|-heal|p2a: Hydreigon|53/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|31/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p2a: Hydreigon|60/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|37/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|28/100
+|
+|-heal|p2a: Hydreigon|66/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|35/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p1a: Clefable|Clefable, M|28/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Hydreigon|72/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|10
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-boost|p1a: Excadrill|spe|1
+|
+|-heal|p2a: Hydreigon|78/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Excadrill|Earthquake|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|37/100
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|27/100
+|-status|p1a: Ferrothorn|brn
+|
+|-heal|p1a: Ferrothorn|33/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|27/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|33/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|48/100 brn|[silent]
+|-damage|p1a: Ferrothorn|42/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Aegislash
+|-sidestart|p2: Wariotime98|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|42/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Aegislash|Substitute|p2a: Aegislash
+|-start|p2a: Aegislash|Substitute
+|-damage|p2a: Aegislash|75/100
+|
+|-heal|p2a: Aegislash|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|42/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Toxapex|Toxapex, F|68/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|35/100
+|
+|-heal|p2a: Aegislash|88/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|41/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p2a: Aegislash|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|11/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|61/100
+|
+|-heal|p2a: Aegislash|94/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|67/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Aegislash|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|34/100
+|-unboost|p1a: Toxapex|spd|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|84/100
+|
+|-heal|p2a: Aegislash|99/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Aegislash|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|44/100
+|-unboost|p1a: Toxapex|spd|1
+|move|p1a: Toxapex|Scald|p2a: Aegislash
+|-end|p2a: Aegislash|Substitute
+|
+|-heal|p2a: Aegislash|100/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|50/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p1a: Excadrill|Excadrill, F|1/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Aegislash|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|turn|21
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|88/100
+|move|p1a: Dugtrio|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|42/100 brn
+|move|p2a: Mandibuzz|Knock Off|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|20/100 brn
+|-damage|p2a: Mandibuzz|75/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|-damage|p1a: Ferrothorn|14/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Leech Seed
+|
+|-damage|p1a: Ferrothorn|7/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Toxapex|Toxapex, F|83/100
+|move|p2a: Mandibuzz|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|-sideend|p2: Wariotime98|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-heal|p1a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Toxapex
+|-start|p1a: Toxapex|move: Taunt
+|move|p1a: Toxapex|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|66/100
+|
+|-heal|p1a: Toxapex|96/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Toxapex|Scald|p2a: Seismitoad
+|-immune|p2a: Seismitoad|[from] ability: Water Absorb
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: greatalex|move: Stealth Rock
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corviknight
+|-damage|p1a: Corviknight|41/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|47/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corviknight
+|-damage|p1a: Corviknight|7/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|57/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|63/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Corsola
+|-damage|p2a: Corsola|61/100
+|-damage|p1a: Corviknight|90/100|[from] Recoil
+|move|p2a: Corsola|Will-O-Wisp|p1a: Corviknight
+|-status|p1a: Corviknight|brn
+|
+|-heal|p1a: Corviknight|96/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|90/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|33/100
+|-start|p1a: Corviknight|Disable|Brave Bird|[from] ability: Cursed Body|[of] p2a: Corsola
+|-damage|p1a: Corviknight|82/100 brn|[from] Recoil
+|move|p2a: Corsola|Strength Sap|p1a: Corviknight
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Corsola|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-heal|p1a: Corviknight|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|82/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|66/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|82/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100 brn
+|-enditem|p1a: Corviknight|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-damage|p1a: Corviknight|68/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Corviknight|Iron Head|p2a: Corsola
+|-damage|p2a: Corsola|82/100
+|
+|-damage|p1a: Corviknight|62/100 brn|[from] brn
+|-end|p1a: Corviknight|Disable
+|upkeep
+|turn|37
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Corsola|Strength Sap|p1a: Corviknight
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Corsola|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-damage|p1a: Corviknight|56/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Corsola|Night Shade|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100 brn
+|
+|-damage|p1a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Corsola|Night Shade|p1a: Corviknight
+|-damage|p1a: Corviknight|44/100 brn
+|
+|-damage|p1a: Corviknight|38/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|88/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Corsola|Night Shade|p1a: Corviknight
+|-damage|p1a: Corviknight|63/100 brn
+|
+|-damage|p1a: Corviknight|57/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Corsola|Night Shade|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100 brn
+|
+|-damage|p1a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p1a: Corviknight|Iron Head|p2a: Corsola
+|-damage|p2a: Corsola|78/100
+|-start|p1a: Corviknight|Disable|Iron Head|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Strength Sap|p1a: Corviknight
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Corsola|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-damage|p1a: Corviknight|63/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Corsola
+|-damage|p2a: Corsola|63/100
+|-damage|p1a: Corviknight|53/100 brn|[from] Recoil
+|move|p2a: Corsola|Night Shade|p1a: Corviknight
+|-damage|p1a: Corviknight|28/100 brn
+|
+|-damage|p1a: Corviknight|22/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|72/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Corsola|Strength Sap|p1a: Corviknight
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Corsola|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-damage|p1a: Corviknight|65/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Corsola
+|-damage|p2a: Corsola|63/100
+|-damage|p1a: Corviknight|55/100 brn|[from] Recoil
+|move|p2a: Corsola|Night Shade|p1a: Corviknight
+|-damage|p1a: Corviknight|30/100 brn
+|
+|-damage|p1a: Corviknight|24/100 brn|[from] brn
+|-end|p1a: Corviknight|Disable
+|upkeep
+|turn|46
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|74/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Corsola|Strength Sap|p1a: Corviknight
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Corsola|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-damage|p1a: Corviknight|68/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Corsola|Night Shade|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100 brn
+|
+|-damage|p1a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Corviknight|Brave Bird|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-crit|p2a: Aegislash
+|-damage|p2a: Aegislash|56/100
+|-damage|p1a: Corviknight|57/100 brn|[from] Recoil
+|
+|-heal|p2a: Aegislash|62/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|51/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|72/100 brn
+|
+|-heal|p2a: Aegislash|68/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|65/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Corviknight|Brave Bird|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Aegislash|atk|1
+|
+|-heal|p2a: Aegislash|74/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|59/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|47/100
+|-damage|p1a: Corviknight|52/100 brn|[from] Recoil
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|23/100 brn
+|
+|-heal|p2a: Aegislash|54/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|16/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|66/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Aegislash|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|39/100 brn
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Aegislash|spd|1
+|
+|-heal|p2a: Aegislash|60/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|33/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Corviknight|Iron Head|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Aegislash|atk|1
+|
+|-heal|p2a: Aegislash|66/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|27/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|77/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100 brn
+|
+|-heal|p2a: Aegislash|72/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|43/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Corviknight|Brave Bird|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Aegislash|atk|1
+|
+|-heal|p2a: Aegislash|78/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|37/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|87/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Aegislash|Substitute|p2a: Aegislash
+|-start|p2a: Aegislash|Substitute
+|-damage|p2a: Aegislash|53/100
+|
+|-heal|p2a: Aegislash|59/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|81/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-crit|p2a: Aegislash
+|-end|p2a: Aegislash|Substitute
+|-damage|p1a: Corviknight|74/100 brn|[from] Recoil|[of] p2a: Aegislash
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|48/100 brn
+|
+|-heal|p2a: Aegislash|66/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|42/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|-damage|p1a: Dugtrio|94/100|[from] Stealth Rock
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield||[still]
+|-fail|p2a: Aegislash
+|
+|-heal|p2a: Aegislash|72/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|66/100
+|move|p1a: Dugtrio|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|60
+|
+|move|p1a: Dugtrio|Stone Edge|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|20/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Dugtrio
+|-damage|p1a: Dugtrio|32/100
+|-enditem|p1a: Dugtrio|Focus Sash|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|61
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Dugtrio|Stone Edge|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|91/100
+|
+|-heal|p2a: Seismitoad|97/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|move|p1a: Dugtrio|Stone Edge|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|82/100
+|move|p2a: Seismitoad|Scald|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-heal|p2a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|63
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|50/100
+|move|p1a: Toxapex|Scald|p2a: Seismitoad
+|-heal|p2a: Seismitoad|100/100|[from] ability: Water Absorb|[of] p1a: Toxapex
+|
+|-heal|p1a: Toxapex|57/100|[from] item: Black Sludge
+|upkeep
+|turn|64
+|
+|switch|p1a: Corviknight|Corviknight, F|42/100 brn
+|-damage|p1a: Corviknight|29/100 brn|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-damage|p1a: Corviknight|23/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|73/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p1a: Corviknight|67/100 brn|[from] brn
+|upkeep
+|turn|66
+|-message|greatalex forfeited.
+|
+|win|Wariotime98
+|l|☆greatalex
+|raw|greatalex's rating: 1452 &rarr; <strong>1433</strong><br />(-19 for losing)
+|raw|Wariotime98's rating: 1474 &rarr; <strong>1493</strong><br />(+19 for winning)

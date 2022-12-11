@@ -1,0 +1,444 @@
+|j|☆lanouille
+|j|☆miltank67
+|t:|1612958247
+|player|p1|lanouille|tuber|1339
+|player|p2|miltank67|169|1392
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Incineroar, M|
+|poke|p1|Ditto|
+|poke|p1|Rotom-Heat|
+|poke|p1|Nihilego|
+|poke|p1|Jirachi|
+|poke|p2|Salazzle, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Zygarde-10%|
+|poke|p2|Ditto|
+|poke|p2|Skarmory, F|
+|poke|p2|Mimikyu, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Hurrup!
+|
+|t:|1612958283
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|-transform|p1a: Ditto|p2a: Obstagoon|[from] ability: Imposter
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by miltank67)
+|
+|t:|1612958299
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Ditto|Parting Shot|p2a: Skarmory
+|-unboost|p2a: Skarmory|atk|1
+|-unboost|p2a: Skarmory|spa|1
+|
+|t:|1612958304
+|switch|p1a: Rotom|Rotom-Heat|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|2
+|
+|t:|1612958311
+|switch|p2a: Zygarde|Zygarde-10%|100/100
+|-ability|p2a: Zygarde|Aura Break
+|move|p1a: Rotom|Overheat|p2a: Zygarde
+|-resisted|p2a: Zygarde
+|-damage|p2a: Zygarde|67/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1612958329
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zygarde|atk|1
+|move|p2a: Zygarde|Thousand Arrows|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|25/100
+|
+|upkeep
+|turn|4
+|
+|t:|1612958355
+|move|p2a: Zygarde|Thousand Arrows|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|inactive|lanouille has 120 seconds left.
+|
+|t:|1612958371
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Zygarde|[from] ability: Imposter
+|-ability|p1a: Ditto|Aura Break
+|turn|5
+|inactive|lanouille has 120 seconds left.
+|inactive|miltank67 has 120 seconds left.
+|
+|t:|1612958395
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Ditto|Thousand Arrows|p2a: Skarmory
+|-damage|p2a: Skarmory|86/100
+|-start|p2a: Skarmory|Smack Down
+|
+|-heal|p2a: Skarmory|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|lanouille has 120 seconds left.
+|
+|t:|1612958406
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Rotom
+|-sidestart|p1: lanouille|move: Stealth Rock
+|
+|-heal|p2a: Skarmory|98/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1612958421
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|move|p1a: Rotom|Defog|p2a: Obstagoon
+|-unboost|p2a: Obstagoon|evasion|1
+|-ability|p2a: Obstagoon|Defiant
+|-boost|p2a: Obstagoon|atk|2
+|-sideend|p1: lanouille|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|
+|upkeep
+|turn|8
+|inactive|lanouille has 120 seconds left.
+|inactive|miltank67 has 120 seconds left.
+|
+|t:|1612958443
+|move|p2a: Obstagoon|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|22/100
+|-enditem|p1a: Rotom|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Obstagoon
+|move|p1a: Rotom|Volt Switch|p2a: Obstagoon
+|-damage|p2a: Obstagoon|72/100
+|
+|t:|1612958450
+|switch|p1a: Ditto|Ditto|100/100|[from]move: Volt Switch
+|-transform|p1a: Ditto|p2a: Obstagoon|[from] ability: Imposter
+|
+|upkeep
+|turn|9
+|inactive|lanouille has 120 seconds left.
+|
+|t:|1612958459
+|move|p2a: Obstagoon|Knock Off|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|56/100
+|-enditem|p1a: Ditto|Choice Scarf|[from] move: Knock Off|[of] p2a: Obstagoon
+|move|p1a: Ditto|Knock Off|p2a: Obstagoon
+|-resisted|p2a: Obstagoon
+|-damage|p2a: Obstagoon|29/100
+|-enditem|p2a: Obstagoon|Choice Scarf|[from] move: Knock Off|[of] p1a: Ditto
+|
+|upkeep
+|turn|10
+|inactive|lanouille has 120 seconds left.
+|
+|t:|1612958472
+|move|p2a: Obstagoon|Close Combat|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-unboost|p2a: Obstagoon|def|1
+|-unboost|p2a: Obstagoon|spd|1
+|faint|p1a: Ditto
+|
+|upkeep
+|inactive|lanouille has 120 seconds left.
+|
+|t:|1612958485
+|switch|p1a: Nihilego|Nihilego|100/100
+|turn|11
+|inactive|lanouille has 120 seconds left.
+|inactive|miltank67 has 120 seconds left.
+|
+|t:|1612958522
+|switch|p2a: Skarmory|Skarmory, F|98/100
+|move|p1a: Nihilego|Meteor Beam||[still]
+|-prepare|p1a: Nihilego|Meteor Beam
+|-boost|p1a: Nihilego|spa|1
+|-enditem|p1a: Nihilego|Power Herb
+|-anim|p1a: Nihilego|Meteor Beam|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spe|1
+|
+|upkeep
+|
+|t:|1612958543
+|switch|p2a: Zygarde|Zygarde-10%|67/100
+|-ability|p2a: Zygarde|Aura Break
+|turn|12
+|
+|t:|1612958560
+|move|p2a: Zygarde|Extreme Speed|p1a: Nihilego
+|-resisted|p1a: Nihilego
+|-damage|p1a: Nihilego|74/100
+|move|p1a: Nihilego|Sludge Wave|p2a: Zygarde
+|-resisted|p2a: Zygarde
+|-damage|p2a: Zygarde|11/100
+|-status|p2a: Zygarde|psn
+|
+|-damage|p2a: Zygarde|0 fnt|[from] psn
+|faint|p2a: Zygarde
+|upkeep
+|
+|t:|1612958572
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Nihilego|[from] ability: Imposter
+|turn|13
+|
+|t:|1612958591
+|move|p2a: Ditto|Power Gem|p1a: Nihilego
+|-damage|p1a: Nihilego|35/100
+|move|p1a: Nihilego|Meteor Beam||[still]
+|-prepare|p1a: Nihilego|Meteor Beam
+|-boost|p1a: Nihilego|spa|1
+|
+|upkeep
+|turn|14
+|inactive|lanouille has 120 seconds left.
+|
+|t:|1612958599
+|switch|p2a: Obstagoon|Obstagoon, M|29/100
+|move|p1a: Nihilego|Meteor Beam|p2a: Obstagoon|[from]lockedmove
+|-damage|p2a: Obstagoon|0 fnt
+|faint|p2a: Obstagoon
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spe|1
+|
+|upkeep
+|
+|t:|1612958613
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Nihilego|[from] ability: Imposter
+|turn|15
+|inactive|miltank67 has 90 seconds left.
+|
+|t:|1612958640
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Ditto|Power Gem|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|77/100
+|
+|-heal|p1a: Jirachi|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1612958657
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Salazzle
+|-sidestart|p2: miltank67|move: Stealth Rock
+|
+|-heal|p1a: Jirachi|90/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1612958677
+|switch|p1a: Rotom|Rotom-Heat|22/100
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|76/100
+|
+|-heal|p2a: Salazzle|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1612958697
+|move|p2a: Salazzle|Sludge Wave|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Salazzle|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1612958708
+|switch|p1a: Nihilego|Nihilego|35/100
+|turn|19
+|
+|t:|1612958714
+|move|p2a: Salazzle|Flamethrower|p1a: Nihilego
+|-resisted|p1a: Nihilego
+|-damage|p1a: Nihilego|20/100
+|move|p1a: Nihilego|Power Gem|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|
+|-heal|p2a: Salazzle|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1612958724
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Nihilego|[from] ability: Imposter
+|move|p1a: Nihilego|Power Gem|p2a: Ditto
+|-damage|p2a: Ditto|51/100
+|
+|upkeep
+|turn|21
+|
+|t:|1612958734
+|switch|p1a: Jirachi|Jirachi|90/100
+|move|p2a: Ditto|Power Gem|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|76/100
+|
+|-heal|p1a: Jirachi|83/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|miltank67 has 90 seconds left.
+|
+|t:|1612958745
+|switch|p2a: Salazzle|Salazzle, F|94/100
+|-damage|p2a: Salazzle|69/100|[from] Stealth Rock
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p2a: Salazzle|75/100|[from] item: Leftovers
+|-heal|p1a: Jirachi|89/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|miltank67 has 90 seconds left.
+|
+|t:|1612958763
+|switch|p1a: Nihilego|Nihilego|20/100
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|50/100
+|
+|-heal|p1a: Nihilego|73/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Salazzle|56/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|miltank67 has 90 seconds left.
+|
+|t:|1612958776
+|move|p2a: Salazzle|Nasty Plot|p2a: Salazzle
+|-boost|p2a: Salazzle|spa|2
+|move|p1a: Nihilego|Power Gem|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|
+|-heal|p2a: Salazzle|63/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1612958784
+|move|p2a: Salazzle|Sludge Wave|p1a: Nihilego
+|-resisted|p1a: Nihilego
+|-damage|p1a: Nihilego|57/100
+|move|p1a: Nihilego|Power Gem|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spe|1
+|
+|upkeep
+|inactive|miltank67 has 90 seconds left.
+|
+|t:|1612958795
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|-damage|p2a: Mimikyu|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1612958803
+|move|p1a: Nihilego|Sludge Wave|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|88/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|76/100|[from] pokemon: Mimikyu-Busted
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|upkeep
+|turn|27
+|
+|t:|1612958812
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|-damage|p2a: Mimikyu|66/100|[from] item: Life Orb
+|faint|p1a: Nihilego
+|
+|upkeep
+|
+|t:|1612958817
+|switch|p1a: Jirachi|Jirachi|89/100
+|turn|28
+|
+|t:|1612958823
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|15/100
+|-damage|p2a: Mimikyu|56/100|[from] item: Life Orb
+|move|p1a: Jirachi|Iron Head|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-heal|p1a: Jirachi|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1612958830
+|switch|p2a: Ditto|Ditto|51/100
+|-damage|p2a: Ditto|38/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Jirachi|[from] ability: Imposter
+|turn|29
+|
+|t:|1612958839
+|move|p2a: Ditto|Iron Head|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|11/100
+|cant|p1a: Jirachi|flinch
+|
+|-heal|p1a: Jirachi|17/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1612958846
+|move|p2a: Ditto|Iron Head|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|6/100
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|
+|-heal|p1a: Jirachi|12/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1612958856
+|move|p2a: Ditto|Iron Head|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|1/100
+|cant|p1a: Jirachi|flinch
+|
+|-heal|p1a: Jirachi|51/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p1a: Jirachi|57/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|-message|miltank67 forfeited.
+|
+|win|lanouille
+|l|☆miltank67
+|raw|lanouille's rating: 1307 &rarr; <strong>1332</strong><br />(+25 for winning)
+|raw|miltank67's rating: 1392 &rarr; <strong>1367</strong><br />(-25 for losing)
+|l| Hurrup!

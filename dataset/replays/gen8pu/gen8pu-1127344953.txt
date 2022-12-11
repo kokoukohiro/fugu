@@ -1,0 +1,496 @@
+|j|☆zSpxdes
+|j|☆allstarapology
+|player|p1|zSpxdes|ethan|
+|player|p2|allstarapology|iris-gen5bw2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|clearpoke
+|poke|p1|Raichu, F|
+|poke|p1|Mareanie, M|
+|poke|p1|Stonjourner, M|
+|poke|p1|Mr. Mime, M|
+|poke|p1|Type: Null|
+|poke|p1|Silvally-*|
+|poke|p2|Crustle, F|
+|poke|p2|Pincurchin, F|
+|poke|p2|Hitmontop, M|
+|poke|p2|Gourgeist-*, M|
+|poke|p2|Meowstic-F, F|
+|poke|p2|Pawniard, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| tlenit1
+|c|☆zSpxdes|hf
+|c|☆allstarapology|u2
+|j| SpacialRendevous
+|j| royesk
+|j| Madinina
+|j| Lambovino
+|j| Horodro
+|j| HaxxSel
+|
+|start
+|switch|p1a: Stonjourner|Stonjourner, M|100/100
+|switch|p2a: Meowstic|Meowstic-F, F|100/100
+|turn|1
+|j|%Brandon
+|c|%Brandon|yaaaas asa
+|
+|switch|p1a: Type: Null|Type: Null|100/100
+|move|p2a: Meowstic|Psychic|p1a: Type: Null
+|-damage|p1a: Type: Null|77/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Pawniard|Pawniard, F|100/100
+|move|p1a: Type: Null|U-turn|p2a: Pawniard
+|-damage|p2a: Pawniard|85/100
+|
+|switch|p1a: Silvally|Silvally-Grass|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Silvally|Flamethrower|p2a: Pawniard
+|-supereffective|p2a: Pawniard
+|-damage|p2a: Pawniard|29/100
+|move|p2a: Pawniard|Iron Head|p1a: Silvally
+|-damage|p1a: Silvally|73/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|move|p1a: Silvally|Flamethrower|p2a: Pincurchin
+|-damage|p2a: Pincurchin|79/100
+|
+|-heal|p2a: Pincurchin|85/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|l| Madinina
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Pincurchin
+|-damage|p2a: Pincurchin|39/100
+|move|p2a: Pincurchin|Spikes|p1a: Silvally
+|-sidestart|p1: zSpxdes|Spikes
+|
+|-heal|p2a: Pincurchin|45/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Pincurchin
+|-damage|p2a: Pincurchin|1/100
+|move|p2a: Pincurchin|Recover|p2a: Pincurchin
+|-heal|p2a: Pincurchin|51/100
+|
+|-heal|p2a: Pincurchin|57/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Silvally|Defog|p2a: Pincurchin
+|-unboost|p2a: Pincurchin|evasion|1
+|-sideend|p1: zSpxdes|Spikes|[from] move: Defog|[of] p1a: Silvally
+|move|p2a: Pincurchin|Discharge|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|59/100
+|-status|p1a: Silvally|par
+|
+|-heal|p2a: Pincurchin|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Pincurchin
+|-damage|p2a: Pincurchin|19/100
+|move|p2a: Pincurchin|Recover|p2a: Pincurchin
+|-heal|p2a: Pincurchin|69/100
+|
+|-heal|p2a: Pincurchin|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Pincurchin
+|-damage|p2a: Pincurchin|32/100
+|move|p2a: Pincurchin|Recover|p2a: Pincurchin
+|-heal|p2a: Pincurchin|82/100
+|
+|-heal|p2a: Pincurchin|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Silvally|U-turn|p2a: Pincurchin
+|-damage|p2a: Pincurchin|72/100
+|
+|switch|p1a: Raichu|Raichu, F|100/100|[from]move: U-turn
+|move|p2a: Pincurchin|Spikes|p1a: Raichu
+|-sidestart|p1: zSpxdes|Spikes
+|
+|-heal|p2a: Pincurchin|78/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Gourgeist|Gourgeist, M|100/100
+|-item|p1a: Raichu|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Raichu|Substitute|p1a: Raichu
+|-start|p1a: Raichu|Substitute
+|-damage|p1a: Raichu|76/100
+|
+|-heal|p1a: Raichu|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Raichu|Toxic|p2a: Gourgeist
+|-status|p2a: Gourgeist|tox
+|move|p2a: Gourgeist|Giga Drain|p1a: Raichu
+|-end|p1a: Raichu|Substitute
+|
+|-heal|p1a: Raichu|88/100|[from] item: Leftovers
+|-damage|p2a: Gourgeist|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Raichu|Volt Switch|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|77/100 tox
+|
+|switch|p1a: Type: Null|Type: Null|77/100|[from]move: Volt Switch
+|-damage|p1a: Type: Null|64/100|[from] Spikes
+|move|p2a: Gourgeist|Giga Drain|p1a: Type: Null
+|-damage|p1a: Type: Null|54/100
+|-heal|p2a: Gourgeist|84/100 tox|[from] drain|[of] p1a: Type: Null
+|
+|-damage|p2a: Gourgeist|72/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p2a: Pawniard|Pawniard, F|29/100
+|move|p1a: Type: Null|U-turn|p2a: Pawniard
+|-damage|p2a: Pawniard|13/100
+|
+|switch|p1a: Raichu|Raichu, F|88/100|[from]move: U-turn
+|-damage|p1a: Raichu|76/100|[from] Spikes
+|
+|-heal|p1a: Raichu|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Raichu|Volt Switch|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Mareanie|88/100|[from] Spikes
+|
+|upkeep
+|
+|switch|p2a: Meowstic|Meowstic-F, F|100/100
+|turn|16
+|j|+tjay
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|100/100
+|-damage|p1a: Mr. Mime|88/100|[from] Spikes
+|move|p2a: Meowstic|Psychic|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|53/100
+|-unboost|p1a: Mr. Mime|spd|1
+|
+|upkeep
+|turn|17
+|j| calda notte
+|l| calda notte
+|
+|switch|p2a: Pincurchin|Pincurchin, F|78/100
+|switch|p1a: Silvally|Silvally-Grass|59/100 par
+|-damage|p1a: Silvally|46/100 par|[from] Spikes
+|
+|-heal|p2a: Pincurchin|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Silvally|Defog|p2a: Pincurchin
+|-unboost|p2a: Pincurchin|evasion|1
+|-sideend|p1: zSpxdes|Spikes|[from] move: Defog|[of] p1a: Silvally
+|move|p2a: Pincurchin|Spikes|p1a: Silvally
+|-sidestart|p1: zSpxdes|Spikes
+|
+|-heal|p2a: Pincurchin|90/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Silvally|Defog|p2a: Pincurchin
+|-unboost|p2a: Pincurchin|evasion|1
+|-sideend|p1: zSpxdes|Spikes|[from] move: Defog|[of] p1a: Silvally
+|move|p2a: Pincurchin|Spikes|p1a: Silvally
+|-sidestart|p1: zSpxdes|Spikes
+|
+|-heal|p2a: Pincurchin|96/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Pincurchin
+|-damage|p2a: Pincurchin|57/100
+|move|p2a: Pincurchin|Spikes|p1a: Silvally
+|-sidestart|p1: zSpxdes|Spikes
+|
+|-heal|p2a: Pincurchin|63/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|cant|p1a: Silvally|par
+|move|p2a: Pincurchin|Recover|p2a: Pincurchin
+|-heal|p2a: Pincurchin|100/100
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Meowstic|Meowstic-F, F|100/100
+|cant|p1a: Silvally|par
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Meowstic|Psychic|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|upkeep
+|
+|switch|p1a: Raichu|Raichu, F|82/100
+|-damage|p1a: Raichu|66/100|[from] Spikes
+|turn|24
+|
+|move|p1a: Raichu|Knock Off|p2a: Meowstic
+|-supereffective|p2a: Meowstic
+|-crit|p2a: Meowstic
+|-damage|p2a: Meowstic|13/100
+|-enditem|p2a: Meowstic|Choice Specs|[from] move: Knock Off|[of] p1a: Raichu
+|move|p2a: Meowstic|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|21/100
+|
+|-heal|p1a: Raichu|27/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Gourgeist|Gourgeist, M|72/100 tox
+|-item|p1a: Raichu|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Raichu|Knock Off|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-enditem|p2a: Gourgeist|Colbur Berry|[eat]
+|-enditem|p2a: Gourgeist|Colbur Berry|[weaken]
+|-damage|p2a: Gourgeist|52/100 tox
+|
+|-heal|p1a: Raichu|33/100|[from] item: Leftovers
+|-damage|p2a: Gourgeist|45/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p1a: Raichu|Volt Switch|p2a: Gourgeist
+|-resisted|p2a: Gourgeist
+|-damage|p2a: Gourgeist|28/100 tox
+|
+|switch|p1a: Type: Null|Type: Null|54/100|[from]move: Volt Switch
+|-damage|p1a: Type: Null|38/100|[from] Spikes
+|move|p2a: Gourgeist|Giga Drain|p1a: Type: Null
+|-damage|p1a: Type: Null|27/100
+|-heal|p2a: Gourgeist|35/100 tox|[from] drain|[of] p1a: Type: Null
+|
+|-damage|p2a: Gourgeist|23/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|move|p1a: Type: Null|Rest|p1a: Type: Null
+|-status|p1a: Type: Null|slp|[from] move: Rest
+|-heal|p1a: Type: Null|100/100 slp|[silent]
+|
+|upkeep
+|turn|28
+|j| wild drud
+|
+|switch|p1a: Mareanie|Mareanie, M|100/100
+|-damage|p1a: Mareanie|84/100|[from] Spikes
+|move|p2a: Hitmontop|Earthquake|p1a: Mareanie
+|-supereffective|p1a: Mareanie
+|-damage|p1a: Mareanie|25/100
+|-damage|p2a: Hitmontop|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Hitmontop|Earthquake|p1a: Mareanie
+|-supereffective|p1a: Mareanie
+|-damage|p1a: Mareanie|0 fnt
+|-damage|p2a: Hitmontop|81/100|[from] item: Life Orb
+|faint|p1a: Mareanie
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|53/100
+|-damage|p1a: Mr. Mime|37/100|[from] Spikes
+|turn|30
+|
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|move|p1a: Mr. Mime|Psyshock|p2a: Pincurchin
+|-damage|p2a: Pincurchin|63/100
+|
+|-heal|p2a: Pincurchin|69/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Mr. Mime|Nasty Plot|p1a: Mr. Mime
+|-boost|p1a: Mr. Mime|spa|2
+|move|p2a: Pincurchin|Toxic Spikes|p1a: Mr. Mime
+|-sidestart|p1: zSpxdes|move: Toxic Spikes
+|
+|-heal|p2a: Pincurchin|75/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Mr. Mime|Psyshock|p2a: Pincurchin
+|-crit|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|switch|p2a: Meowstic|Meowstic-F, F|13/100
+|turn|33
+|
+|switch|p1a: Type: Null|Type: Null|100/100 slp
+|-damage|p1a: Type: Null|84/100 slp|[from] Spikes
+|move|p2a: Meowstic|Thunderbolt|p1a: Type: Null
+|-damage|p1a: Type: Null|73/100 slp
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: Gourgeist|Gourgeist, M|23/100 tox
+|-item|p1a: Type: Null|Eviolite|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|cant|p1a: Type: Null|slp
+|move|p1a: Type: Null|Sleep Talk|p1a: Type: Null
+|move|p1a: Type: Null|Toxic|p2a: Gourgeist|[from]Sleep Talk
+|-fail|p2a: Gourgeist|tox
+|
+|-damage|p2a: Gourgeist|17/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p2a: Gourgeist|Nasty Plot|p2a: Gourgeist
+|-boost|p2a: Gourgeist|spa|2
+|cant|p1a: Type: Null|slp
+|move|p1a: Type: Null|Sleep Talk|p1a: Type: Null
+|move|p1a: Type: Null|Toxic|p2a: Gourgeist|[from]Sleep Talk
+|-fail|p2a: Gourgeist|tox
+|
+|-damage|p2a: Gourgeist|4/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|move|p2a: Gourgeist|Giga Drain|p1a: Type: Null
+|-damage|p1a: Type: Null|53/100 slp
+|-heal|p2a: Gourgeist|18/100 tox|[from] drain|[of] p1a: Type: Null
+|-curestatus|p1a: Type: Null|slp|[msg]
+|move|p1a: Type: Null|U-turn|p2a: Gourgeist
+|-damage|p2a: Gourgeist|2/100 tox
+|
+|switch|p1a: Mr. Mime|Mr. Mime, M|37/100|[from]move: U-turn
+|-status|p1a: Mr. Mime|psn
+|-damage|p1a: Mr. Mime|20/100 psn|[from] Spikes
+|
+|-damage|p1a: Mr. Mime|8/100 psn|[from] psn
+|-damage|p2a: Gourgeist|0 fnt|[from] psn
+|faint|p2a: Gourgeist
+|upkeep
+|
+|switch|p2a: Hitmontop|Hitmontop, M|81/100
+|turn|37
+|
+|move|p2a: Hitmontop|Mach Punch|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|-damage|p2a: Hitmontop|71/100|[from] item: Life Orb
+|faint|p1a: Mr. Mime
+|
+|upkeep
+|
+|switch|p1a: Raichu|Raichu, F|33/100
+|-status|p1a: Raichu|psn
+|-damage|p1a: Raichu|17/100 psn|[from] Spikes
+|turn|38
+|
+|move|p2a: Hitmontop|Mach Punch|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|-damage|p2a: Hitmontop|61/100|[from] item: Life Orb
+|faint|p1a: Raichu
+|
+|upkeep
+|
+|switch|p1a: Stonjourner|Stonjourner, M|100/100
+|-damage|p1a: Stonjourner|84/100|[from] Spikes
+|-status|p1a: Stonjourner|psn
+|turn|39
+|
+|move|p2a: Hitmontop|Mach Punch|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-damage|p1a: Stonjourner|29/100 psn
+|-damage|p2a: Hitmontop|51/100|[from] item: Life Orb
+|move|p1a: Stonjourner|Heat Crash|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|-damage|p1a: Stonjourner|17/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Meowstic|Meowstic-F, F|13/100
+|turn|40
+|
+|move|p1a: Stonjourner|Heat Crash|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|
+|-damage|p1a: Stonjourner|5/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Crustle|Crustle, F|100/100
+|turn|41
+|
+|move|p1a: Stonjourner|Heat Crash|p2a: Crustle
+|-damage|p2a: Crustle|79/100
+|-ability|p2a: Crustle|Weak Armor|boost
+|-unboost|p2a: Crustle|def|1
+|-boost|p2a: Crustle|spe|2
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|
+|-damage|p1a: Stonjourner|0 fnt|[from] psn
+|faint|p1a: Stonjourner
+|upkeep
+|
+|switch|p1a: Type: Null|Type: Null|53/100
+|-status|p1a: Type: Null|psn
+|-damage|p1a: Type: Null|37/100 psn|[from] Spikes
+|turn|42
+|c|☆zSpxdes|gg
+|c|☆allstarapology|gg
+|
+|move|p2a: Crustle|Solar Blade||[still]
+|-prepare|p2a: Crustle|Solar Blade|p1a: Type: Null
+|-enditem|p2a: Crustle|Power Herb
+|-anim|p2a: Crustle|Solar Blade|p1a: Type: Null
+|-damage|p1a: Type: Null|0 fnt
+|faint|p1a: Type: Null
+|
+|win|allstarapology

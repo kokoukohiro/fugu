@@ -1,0 +1,273 @@
+|j|☆Automagico
+|j|☆Barkjaw
+|player|p1|Automagico|aaron|1360
+|player|p2|Barkjaw|sina|1472
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Marowak, M|
+|poke|p1|Throh, M|
+|poke|p1|Mawile, M|
+|poke|p1|Slowpoke, F|
+|poke|p1|Dusclops, M|
+|poke|p1|Solrock|
+|poke|p2|Ninjask, F|
+|poke|p2|Appletun, M|
+|poke|p2|Type: Null|
+|poke|p2|Stunfisk, M|
+|poke|p2|Silvally-*|
+|poke|p2|Glaceon, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Sunny Day|Solrock|100/100
+|switch|p2a: Glaceon|Glaceon, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Automagico)
+|
+|move|p2a: Glaceon|Ice Beam|p1a: Sunny Day
+|-damage|p1a: Sunny Day|5/100
+|move|p1a: Sunny Day|Trick Room|p1a: Sunny Day
+|-fieldstart|move: Trick Room|[of] p1a: Sunny Day
+|
+|upkeep
+|turn|2
+|j| pigassaultking
+|
+|switch|p2a: Silvally|Silvally-Rock|100/100
+|move|p1a: Sunny Day|Stealth Rock|p2a: Silvally
+|-sidestart|p2: Barkjaw|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Sunny Day|Explosion|p2a: Silvally
+|-resisted|p2a: Silvally
+|-damage|p2a: Silvally|69/100
+|faint|p1a: Sunny Day
+|move|p2a: Silvally|Multi-Attack|p1: Sunny Day|[notarget]
+|-fail|p2a: Silvally
+|
+|upkeep
+|j| ClickingButton$
+|
+|switch|p1a: BulkUp|Throh, M|100/100
+|turn|4
+|
+|move|p1a: BulkUp|Superpower|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|-unboost|p1a: BulkUp|atk|1
+|-unboost|p1a: BulkUp|def|1
+|faint|p2a: Silvally
+|
+|-status|p1a: BulkUp|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: Stunfisk|Stunfisk, M|100/100
+|-damage|p2a: Stunfisk|94/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: BulkUp|Knock Off|p2a: Stunfisk
+|-damage|p2a: Stunfisk|73/100
+|-damage|p1a: BulkUp|84/100 brn|[from] item: Rocky Helmet|[of] p2a: Stunfisk
+|-enditem|p2a: Stunfisk|Rocky Helmet|[from] move: Knock Off|[of] p1a: BulkUp
+|move|p2a: Stunfisk|Stealth Rock|p1a: BulkUp
+|-sidestart|p1: Automagico|move: Stealth Rock
+|
+|-damage|p1a: BulkUp|78/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|move|p2a: Stunfisk|Discharge|p1a: BulkUp
+|-damage|p1a: BulkUp|57/100 brn
+|move|p1a: BulkUp|Ice Punch|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|41/100
+|
+|-damage|p1a: BulkUp|51/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Poltergeist|Dusclops, M|100/100
+|-damage|p1a: Poltergeist|88/100|[from] Stealth Rock
+|-ability|p1a: Poltergeist|Pressure
+|move|p2a: Stunfisk|Earth Power|p1a: Poltergeist
+|-damage|p1a: Poltergeist|76/100
+|-unboost|p1a: Poltergeist|spd|1
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Stunfisk|Toxic|p1a: Poltergeist|[miss]
+|-miss|p2a: Stunfisk|p1a: Poltergeist
+|move|p1a: Poltergeist|Trick Room|p1a: Poltergeist
+|-fieldstart|move: Trick Room|[of] p1a: Poltergeist
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: BulkUp|Throh, M|51/100 brn
+|-damage|p1a: BulkUp|45/100 brn|[from] Stealth Rock
+|move|p2a: Stunfisk|Earth Power|p1a: BulkUp
+|-damage|p1a: BulkUp|23/100 brn
+|-unboost|p1a: BulkUp|spd|1
+|
+|-damage|p1a: BulkUp|16/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: BulkUp|Facade|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|faint|p2a: Stunfisk
+|
+|-damage|p1a: BulkUp|10/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, M|100/100
+|-damage|p2a: Appletun|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: BulkUp|Ice Punch|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|41/100
+|-damage|p1a: BulkUp|0 fnt|[from] item: Rocky Helmet|[of] p2a: Appletun
+|faint|p1a: BulkUp
+|move|p2a: Appletun|Recover|p2a: Appletun
+|-heal|p2a: Appletun|91/100
+|
+|upkeep
+|
+|switch|p1a: IronHead|Mawile, M|100/100
+|-damage|p1a: IronHead|94/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Type: Null|Type: Null|100/100
+|-damage|p2a: Type: Null|88/100|[from] Stealth Rock
+|move|p1a: IronHead|Play Rough|p2a: Type: Null
+|-damage|p2a: Type: Null|46/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|switch|p1a: Poltergeist|Dusclops, M|76/100
+|-damage|p1a: Poltergeist|64/100|[from] Stealth Rock
+|-ability|p1a: Poltergeist|Pressure
+|move|p2a: Type: Null|Toxic|p1a: Poltergeist
+|-status|p1a: Poltergeist|tox
+|
+|-damage|p1a: Poltergeist|58/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Type: Null|U-turn|p1a: Poltergeist
+|-resisted|p1a: Poltergeist
+|-damage|p1a: Poltergeist|53/100 tox
+|
+|switch|p2a: Appletun|Appletun, M|91/100|[from]move: U-turn
+|-damage|p2a: Appletun|78/100|[from] Stealth Rock
+|move|p1a: Poltergeist|Trick Room|p1a: Poltergeist
+|-fieldstart|move: Trick Room|[of] p1a: Poltergeist
+|
+|-damage|p1a: Poltergeist|41/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Poltergeist|Curse|p2a: Appletun
+|-start|p2a: Appletun|Curse|[of] p1a: Poltergeist
+|-damage|p1a: Poltergeist|0 fnt
+|faint|p1a: Poltergeist
+|move|p2a: Appletun|Iron Defense|p2a: Appletun
+|-boost|p2a: Appletun|def|2
+|
+|-damage|p2a: Appletun|53/100|[from] Curse
+|upkeep
+|
+|switch|p1a: IronHead|Mawile, M|94/100
+|-damage|p1a: IronHead|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: IronHead|Ice Beam|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|
+|upkeep
+|
+|switch|p2a: Ninjask|Ninjask, F|100/100
+|turn|17
+|
+|move|p2a: Ninjask|Protect|p2a: Ninjask
+|-singleturn|p2a: Ninjask|Protect
+|move|p1a: IronHead|Flamethrower|p2a: Ninjask
+|-activate|p2a: Ninjask|move: Protect
+|
+|-ability|p2a: Ninjask|Speed Boost|boost
+|-boost|p2a: Ninjask|spe|1
+|upkeep
+|turn|18
+|
+|switch|p2a: Type: Null|Type: Null|46/100
+|-damage|p2a: Type: Null|34/100|[from] Stealth Rock
+|move|p1a: IronHead|Play Rough|p2a: Type: Null
+|-damage|p2a: Type: Null|0 fnt
+|faint|p2a: Type: Null
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Ninjask|Ninjask, F|100/100
+|turn|19
+|
+|move|p2a: Ninjask|Dual Wingbeat|p1a: IronHead
+|-resisted|p1a: IronHead
+|-damage|p1a: IronHead|74/100
+|-resisted|p1a: IronHead
+|-damage|p1a: IronHead|61/100
+|-hitcount|p1a: IronHead|2
+|move|p1a: IronHead|Iron Head|p2a: Ninjask
+|-damage|p2a: Ninjask|0 fnt
+|faint|p2a: Ninjask
+|
+|upkeep
+|
+|switch|p2a: Glaceon|Glaceon, M|100/100
+|-damage|p2a: Glaceon|76/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Glaceon|Freeze-Dry|p1a: IronHead
+|-resisted|p1a: IronHead
+|-damage|p1a: IronHead|0 fnt
+|faint|p1a: IronHead
+|
+|upkeep
+|
+|switch|p1a: Amnesia|Slowpoke, F|100/100
+|-damage|p1a: Amnesia|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Glaceon|Freeze-Dry|p1a: Amnesia
+|-supereffective|p1a: Amnesia
+|-damage|p1a: Amnesia|0 fnt
+|faint|p1a: Amnesia
+|
+|upkeep
+|-message|Automagico forfeited.
+|
+|win|Barkjaw
+|l|☆Automagico
+|raw|Automagico's rating: 1360 &rarr; <strong>1347</strong><br />(-13 for losing)
+|raw|Barkjaw's rating: 1483 &rarr; <strong>1496</strong><br />(+13 for winning)

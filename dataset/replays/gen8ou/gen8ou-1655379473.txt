@@ -1,0 +1,111 @@
+|j|☆minimax_ai
+|j|☆Stimo96
+|t:|1662237983
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1550
+|player|p2|Stimo96|alder|1501
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Rillaboom, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Magnezone|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zapdos|
+|poke|p2|Tapu Fini|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|c|☆Stimo96|hf
+|
+|t:|1662237991
+|start
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Tapu Fini|atk|1
+|turn|1
+|
+|t:|1662238001
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: landorustherian|atk|1
+|switch|p1a: Melmetal|Melmetal|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1662238009
+|move|p2a: Landorus|Stealth Rock|p1a: Melmetal
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|move|p1a: Melmetal|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1662238023
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|3
+|
+|t:|1662238026
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|76/100
+|move|p1a: Melmetal|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-end|p2a: Magnezone|Substitute
+|
+|-heal|p2a: Magnezone|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1662238037
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Melmetal|Earthquake|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|90/100
+|
+|-heal|p2a: Rillaboom|96/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1662238045
+|move|p2a: Rillaboom|Knock Off|p1a: Melmetal
+|-damage|p1a: Melmetal|69/100
+|-enditem|p1a: Melmetal|Assault Vest|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1a: Melmetal|Ice Punch|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|18/100
+|
+|-heal|p2a: Rillaboom|25/100|[from] Grassy Terrain
+|-heal|p1a: Melmetal|75/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|-message|Stimo96 forfeited.
+|
+|win|minimax_ai
+|raw|minimax_ai's rating: 1550 &rarr; <strong>1567</strong><br />(+17 for winning)
+|raw|Stimo96's rating: 1501 &rarr; <strong>1484</strong><br />(-17 for losing)
+|c|☆minimax_ai|gg
+|l|☆Stimo96

@@ -1,0 +1,297 @@
+|j|☆EliotEnRetar
+|j|☆Dasmagicheeinhorn
+|t:|1609855694
+|player|p1|EliotEnRetar|falkner|1369
+|player|p2|Dasmagicheeinhorn|mars|1276
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Venusaur, F|
+|poke|p1|Talonflame, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Slowking, F|
+|poke|p1|Latias, F|
+|poke|p2|Shedinja|
+|poke|p2|Politoed, F|
+|poke|p2|Arcanine, M|
+|poke|p2|Flygon, M|
+|poke|p2|Golduck, F|
+|poke|p2|Jirachi|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1609855719
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1609855730
+|move|p2a: Arcanine|Toxic|p1a: Torkoal
+|-status|p1a: Torkoal|tox
+|move|p1a: Torkoal|Stealth Rock|p2a: Arcanine
+|-sidestart|p2: Dasmagicheeinhorn|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Torkoal|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1609855739
+|switch|p1a: Slowking|Slowking, F|100/100
+|move|p2a: Arcanine|Teleport|p2a: Arcanine
+|
+|t:|1609855749
+|switch|p2a: Shedinja|Shedinja, shiny|100/100|[from]move: Teleport
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1609855754
+|move|p2a: Shedinja|Toxic|p1a: Slowking
+|-status|p1a: Slowking|tox
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1609855758
+|switch|p1a: Venusaur|Venusaur, F|100/100|[from]move: Teleport
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1609855765
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Shedinja|Poltergeist|p1a: Venusaur
+|-activate|p1a: Venusaur|move: Poltergeist|Life Orb
+|-damage|p1a: Venusaur|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1609855773
+|move|p2a: Shedinja|Protect|p2a: Shedinja
+|-singleturn|p2a: Shedinja|Protect
+|move|p1a: Venusaur|Weather Ball|p2a: Shedinja
+|-activate|p2a: Shedinja|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1609855780
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Venusaur|Weather Ball|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|47/100
+|-damage|p1a: Venusaur|29/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|53/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1609855792
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Politoed|Whirlpool|p1a: Bisharp
+|-damage|p1a: Bisharp|70/100
+|-activate|p1a: Bisharp|move: Whirlpool|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|59/100|[from] item: Leftovers
+|-damage|p1a: Bisharp|58/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1609855802
+|move|p1a: Bisharp|Knock Off|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-enditem|p2a: Politoed|Leftovers|[from] move: Knock Off|[of] p1a: Bisharp
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Bisharp|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1609855809
+|switch|p2a: Flygon|Flygon, M, shiny|100/100
+|-damage|p2a: Flygon|94/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1609855814
+|switch|p1a: Torkoal|Torkoal, M|94/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Flygon|Defog|p1a: Torkoal
+|-unboost|p1a: Torkoal|evasion|1
+|-sideend|p2: Dasmagicheeinhorn|Stealth Rock|[from] move: Defog|[of] p2a: Flygon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Torkoal|88/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1609855825
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Flygon|Earthquake|p1a: Latias
+|-immune|p1a: Latias|[from] ability: Levitate
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1609855833
+|switch|p2a: Shedinja|Shedinja, shiny|100/100
+|move|p1a: Latias|Draco Meteor|p2a: Shedinja
+|-immune|p2a: Shedinja|[from] ability: Wonder Guard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1609855840
+|switch|p1a: Bisharp|Bisharp, M|58/100
+|move|p2a: Shedinja|Poltergeist|p1a: Bisharp
+|-activate|p1a: Bisharp|move: Poltergeist|Black Glasses
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1609855853
+|switch|p2a: Flygon|Flygon, M, shiny|94/100
+|move|p1a: Bisharp|Knock Off|p2a: Flygon
+|-damage|p2a: Flygon|22/100
+|-enditem|p2a: Flygon|Focus Sash|[from] move: Knock Off|[of] p1a: Bisharp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1609855860
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|move|p2a: Flygon|Roost|p2a: Flygon
+|-heal|p2a: Flygon|72/100
+|-singleturn|p2a: Flygon|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1609855870
+|switch|p1a: Slowking|Slowking, F|100/100 tox
+|move|p2a: Flygon|Outrage|p1a: Slowking
+|-damage|p1a: Slowking|54/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Slowking|48/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1609855878
+|move|p2a: Flygon|Outrage|p1a: Slowking|[from]lockedmove
+|-damage|p1a: Slowking|6/100 tox
+|move|p1a: Slowking|Teleport|p1a: Slowking
+|
+|t:|1609855884
+|switch|p1a: Latias|Latias, F|100/100|[from]move: Teleport
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1609855889
+|move|p1a: Latias|Draco Meteor|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|-unboost|p1a: Latias|spa|2
+|faint|p2a: Flygon
+|
+|upkeep
+|
+|t:|1609855895
+|switch|p2a: Shedinja|Shedinja, shiny|100/100
+|turn|18
+|
+|t:|1609855898
+|switch|p1a: Torkoal|Torkoal, M|88/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Shedinja|Poltergeist|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Poltergeist|Heat Rock
+|-damage|p1a: Torkoal|58/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Torkoal|52/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1609855908
+|move|p2a: Shedinja|Poltergeist|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Poltergeist|Heat Rock
+|-damage|p1a: Torkoal|25/100 tox
+|move|p1a: Torkoal|Lava Plume|p2a: Shedinja
+|-supereffective|p2a: Shedinja
+|-damage|p2a: Shedinja|0 fnt
+|faint|p2a: Shedinja
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Torkoal|13/100 tox|[from] psn
+|upkeep
+|
+|t:|1609855919
+|switch|p2a: Golduck|Golduck, F|100/100
+|turn|20
+|
+|t:|1609855930
+|move|p2a: Golduck|Ice Beam|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p2a: Golduck|91/100|[from] item: Life Orb
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1609855936
+|switch|p1a: Venusaur|Venusaur, F|29/100
+|turn|21
+|
+|t:|1609855939
+|move|p1a: Venusaur|Giga Drain|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|-heal|p1a: Venusaur|75/100|[from] drain|[of] p2a: Golduck
+|-damage|p1a: Venusaur|65/100|[from] item: Life Orb
+|faint|p2a: Golduck
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Dasmagicheeinhorn forfeited.
+|
+|win|EliotEnRetar
+|l|☆Dasmagicheeinhorn
+|l|☆EliotEnRetar
+|raw|EliotEnRetar's rating: 1383 &rarr; <strong>1397</strong><br />(+14 for winning)
+|raw|Dasmagicheeinhorn's rating: 1276 &rarr; <strong>1259</strong><br />(-17 for losing)
+|j| Xemnas80

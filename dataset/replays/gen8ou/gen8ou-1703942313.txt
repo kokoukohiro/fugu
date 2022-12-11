@@ -1,0 +1,770 @@
+|j|☆Steez Ibanez
+|j|‽minimax_ai
+|t:|1667716172
+|gametype|singles
+|player|p1|Steez Ibanez|acetrainer-gen7|1732
+|player|p2|minimax_ai|169|1622
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Zeraora|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Gastrodon-East, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Zapdos|
+|poke|p1|Heatran, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|poke|p2|Melmetal|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Steez Ibanez)
+|inactive|minimax_ai also wants the timer to be on.
+|
+|t:|1667716185
+|start
+|switch|p1a: Bolt|Zapdos|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Bolt|atk|1
+|turn|1
+|
+|t:|1667716188
+|switch|p1a: Abomination|Ferrothorn, M|100/100
+|move|p2a: Landorus|Earthquake|p1a: Abomination
+|-damage|p1a: Abomination|71/100
+|
+|upkeep
+|turn|2
+|
+|t:|1667716190
+|move|p2a: Landorus|Earthquake|p1a: Abomination
+|-damage|p1a: Abomination|46/100
+|move|p1a: Abomination|Leech Seed|p2a: Landorus|[miss]
+|-miss|p1a: Abomination|p2a: Landorus
+|
+|upkeep
+|turn|3
+|
+|t:|1667716192
+|switch|p1a: Speedwagon|Weezing-Galar, M|100/100
+|move|p2a: Landorus|Earthquake|p1a: Speedwagon
+|-immune|p1a: Speedwagon|[from] ability: Levitate
+|
+|upkeep
+|turn|4
+|
+|t:|1667716193
+|move|p2a: Landorus|U-turn|p1a: Speedwagon
+|-resisted|p1a: Speedwagon
+|-damage|p1a: Speedwagon|97/100
+|
+|t:|1667716194
+|switch|p2a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Speedwagon|Toxic Spikes|p2a: Heatran
+|-sidestart|p2: minimax_ai|move: Toxic Spikes
+|
+|-heal|p1a: Speedwagon|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1667716197
+|switch|p1a: Gary|Gastrodon-East, M, shiny|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Gary
+|-sidestart|p1: Steez Ibanez|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1667716200
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Gary|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|87/100
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|j| Tsukimizaka Kiriha
+|
+|t:|1667716203
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: Gary|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|81/100
+|-status|p2a: Rotom|brn
+|
+|-heal|p2a: Rotom|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|81/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1667716206
+|move|p2a: Rotom|Thunderbolt|p1a: Gary
+|-immune|p1a: Gary
+|move|p1a: Gary|Clear Smog|p2a: Rotom
+|-damage|p2a: Rotom|70/100 brn
+|-clearboost|p2a: Rotom
+|
+|-heal|p2a: Rotom|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|70/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1667716209
+|move|p2a: Rotom|Thunderbolt|p1a: Gary
+|-immune|p1a: Gary
+|move|p1a: Gary|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|57/100 brn
+|
+|-heal|p2a: Rotom|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|57/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1667716212
+|switch|p1a: Abomination|Ferrothorn, M|46/100
+|-damage|p1a: Abomination|40/100|[from] Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Abomination
+|-resisted|p1a: Abomination
+|-damage|p1a: Abomination|22/100
+|
+|-heal|p2a: Rotom|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|57/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1667716217
+|move|p2a: Rotom|Hydro Pump|p1a: Abomination
+|-resisted|p1a: Abomination
+|-damage|p1a: Abomination|2/100
+|move|p1a: Abomination|Spikes|p2a: Rotom
+|-sidestart|p2: minimax_ai|Spikes
+|
+|-heal|p2a: Rotom|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|57/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1667716220
+|move|p2a: Rotom|Hydro Pump|p1a: Abomination
+|-resisted|p1a: Abomination
+|-damage|p1a: Abomination|0 fnt
+|faint|p1a: Abomination
+|
+|-heal|p2a: Rotom|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1667716222
+|switch|p1a: Jotaro|Zeraora|100/100
+|turn|13
+|
+|t:|1667716224
+|move|p1a: Jotaro|Taunt|p2a: Rotom
+|-start|p2a: Rotom|move: Taunt
+|move|p2a: Rotom|Hydro Pump|p1a: Jotaro|[miss]
+|-miss|p2a: Rotom|p1a: Jotaro
+|
+|-heal|p2a: Rotom|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|57/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1667716227
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jotaro|atk|1
+|move|p1a: Jotaro|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|80/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Jotaro
+|
+|upkeep
+|turn|15
+|
+|t:|1667716229
+|move|p1a: Jotaro|Taunt|p2a: Landorus
+|-start|p2a: Landorus|move: Taunt
+|cant|p2a: Landorus|move: Taunt|Defog
+|
+|upkeep
+|turn|16
+|
+|t:|1667716233
+|switch|p1a: Bolt|Zapdos|100/100
+|move|p2a: Landorus|U-turn|p1a: Bolt
+|-resisted|p1a: Bolt
+|-damage|p1a: Bolt|92/100
+|
+|t:|1667716233
+|switch|p2a: Weavile|Weavile, M|100/100|[from]move: U-turn
+|-status|p2a: Weavile|psn
+|-damage|p2a: Weavile|88/100 psn|[from] Spikes
+|-ability|p2a: Weavile|Pressure
+|
+|-damage|p2a: Weavile|76/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1667716237
+|move|p2a: Weavile|Triple Axel|p1a: Bolt
+|-supereffective|p1a: Bolt
+|-damage|p1a: Bolt|71/100
+|-supereffective|p1a: Bolt
+|-damage|p1a: Bolt|29/100
+|-supereffective|p1a: Bolt
+|-damage|p1a: Bolt|0 fnt
+|faint|p1a: Bolt
+|-hitcount|p1: Bolt|3
+|
+|-damage|p2a: Weavile|63/100 psn|[from] psn
+|upkeep
+|j| Noob 0_o
+|
+|t:|1667716241
+|switch|p1a: Hephaestus|Heatran, M|100/100
+|-damage|p1a: Hephaestus|88/100|[from] Stealth Rock
+|-item|p1a: Hephaestus|Air Balloon
+|turn|18
+|
+|t:|1667716244
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Hephaestus|Stealth Rock|p2a: Heatran
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|t:|1667716246
+|switch|p1a: Gary|Gastrodon-East, M, shiny|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Gary
+|-resisted|p1a: Gary
+|-damage|p1a: Gary|82/100
+|-activate|p1a: Gary|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Gary|70/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|20
+|
+|t:|1667716249
+|switch|p2a: Rotom|Rotom-Wash|57/100 brn
+|-damage|p2a: Rotom|45/100 brn|[from] Stealth Rock
+|move|p1a: Gary|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|32/100 brn
+|
+|-heal|p2a: Rotom|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|32/100 brn|[from] brn
+|-end|p1a: Gary|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|21
+|
+|t:|1667716251
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|46/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|65/100 brn|[from] move: Pain Split
+|move|p1a: Gary|Recover|p1a: Gary
+|-heal|p1a: Gary|96/100
+|
+|-heal|p2a: Rotom|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|65/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1667716255
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|71/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|99/100 brn|[from] move: Pain Split
+|move|p1a: Gary|Clear Smog|p2a: Rotom
+|-damage|p2a: Rotom|87/100 brn
+|-clearboost|p2a: Rotom
+|
+|-heal|p2a: Rotom|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|87/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1667716257
+|move|p2a: Rotom|Thunderbolt|p1a: Gary
+|-immune|p1a: Gary
+|move|p1a: Gary|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|75/100 brn
+|
+|-heal|p2a: Rotom|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|75/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1667716260
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|62/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|87/100 brn|[from] move: Pain Split
+|move|p1a: Gary|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|74/100 brn
+|
+|-heal|p2a: Rotom|80/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|74/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1667716278
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|57/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|80/100 brn|[from] move: Pain Split
+|move|p1a: Gary|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|67/100 brn
+|
+|-heal|p2a: Rotom|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|67/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1667716282
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|53/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|74/100 brn|[from] move: Pain Split
+|move|p1a: Gary|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|60/100 brn
+|
+|-heal|p2a: Rotom|66/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|60/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1667716286
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|48/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|67/100 brn|[from] move: Pain Split
+|move|p1a: Gary|Recover|p1a: Gary
+|-heal|p1a: Gary|98/100
+|
+|-heal|p2a: Rotom|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|67/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1667716291
+|switch|p1a: Jotaro|Zeraora|100/100
+|move|p2a: Rotom|Pain Split|p1a: Jotaro
+|-sethp|p1a: Jotaro|82/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|86/100 brn|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|86/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1667716295
+|switch|p1a: Gary|Gastrodon-East, M, shiny|98/100
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|79/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|100/100 brn|[from] move: Pain Split
+|
+|-damage|p2a: Rotom|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1667716299
+|move|p2a: Rotom|Thunderbolt|p1a: Gary
+|-immune|p1a: Gary
+|move|p1a: Gary|Clear Smog|p2a: Rotom
+|-damage|p2a: Rotom|83/100 brn
+|-clearboost|p2a: Rotom
+|
+|-heal|p2a: Rotom|89/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|83/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1667716300
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|69/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|97/100 brn|[from] move: Pain Split
+|move|p1a: Gary|Clear Smog|p2a: Rotom
+|-damage|p2a: Rotom|85/100 brn
+|-clearboost|p2a: Rotom
+|
+|-heal|p2a: Rotom|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|85/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1667716303
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|65/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|91/100 brn|[from] move: Pain Split
+|move|p1a: Gary|Clear Smog|p2a: Rotom
+|-damage|p2a: Rotom|79/100 brn
+|-clearboost|p2a: Rotom
+|
+|-heal|p2a: Rotom|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|79/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1667716305
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|61/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|85/100 brn|[from] move: Pain Split
+|move|p1a: Gary|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|72/100 brn
+|
+|-heal|p2a: Rotom|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|72/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1667716319
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|56/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|78/100 brn|[from] move: Pain Split
+|move|p1a: Gary|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|65/100 brn
+|
+|-heal|p2a: Rotom|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|65/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1667716321
+|move|p2a: Rotom|Pain Split|p1a: Gary
+|-sethp|p1a: Gary|51/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|72/100 brn|[from] move: Pain Split
+|move|p1a: Gary|Recover|p1a: Gary
+|-heal|p1a: Gary|100/100
+|
+|-heal|p2a: Rotom|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|72/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1667716324
+|switch|p1a: Jotaro|Zeraora|82/100
+|move|p2a: Rotom|Pain Split|p1a: Jotaro
+|-sethp|p1a: Jotaro|75/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|78/100 brn|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|78/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1667716326
+|move|p1a: Jotaro|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|46/100 brn
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Jotaro
+|move|p2a: Rotom|Pain Split|p1a: Jotaro
+|-sethp|p1a: Jotaro|59/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|62/100 brn|[from] move: Pain Split
+|
+|-damage|p2a: Rotom|56/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1667716330
+|move|p1a: Jotaro|Plasma Fists|p2a: Rotom
+|-damage|p2a: Rotom|4/100 brn
+|-fieldactivate|move: Ion Deluge
+|-hint|Normal-type moves become Electric-type after using Plasma Fists.
+|move|p2a: Rotom|Pain Split|p1a: Jotaro
+|-heal|p1a: Jotaro|84/100|[from] ability: Volt Absorb|[of] p2a: Rotom
+|
+|-damage|p2a: Rotom|0 fnt|[from] brn
+|faint|p2a: Rotom
+|upkeep
+|
+|t:|1667716331
+|switch|p2a: Landorus|Landorus-Therian, M|80/100
+|-damage|p2a: Landorus|67/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jotaro|atk|1
+|turn|39
+|
+|t:|1667716338
+|switch|p1a: Hephaestus|Heatran, M|88/100
+|-damage|p1a: Hephaestus|76/100|[from] Stealth Rock
+|-item|p1a: Hephaestus|Air Balloon
+|move|p2a: Landorus|Earthquake|p1a: Hephaestus
+|-immune|p1a: Hephaestus
+|
+|upkeep
+|turn|40
+|
+|t:|1667716339
+|move|p1a: Hephaestus|Eruption|p2a: Landorus
+|-damage|p2a: Landorus|23/100
+|move|p2a: Landorus|Defog|p1a: Hephaestus
+|-unboost|p1a: Hephaestus|evasion|1
+|-sideend|p1: Steez Ibanez|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|-sideend|p2: minimax_ai|Spikes|[from] move: Defog|[of] p2a: Landorus
+|-sideend|p2: minimax_ai|Toxic Spikes|[from] move: Defog|[of] p2a: Landorus
+|-sideend|p2: minimax_ai|Stealth Rock|[from] move: Defog|[of] p2a: Landorus
+|
+|upkeep
+|turn|41
+|
+|t:|1667716344
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Hephaestus|Stealth Rock|p2a: Heatran
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|42
+|
+|t:|1667716348
+|switch|p1a: Gary|Gastrodon-East, M, shiny|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Gary
+|-resisted|p1a: Gary
+|-damage|p1a: Gary|83/100
+|-activate|p1a: Gary|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Gary|71/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|43
+|
+|t:|1667716352
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|move|p1a: Gary|Scald|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|68/100
+|-status|p2a: Tangrowth|brn
+|
+|-damage|p2a: Tangrowth|62/100 brn|[from] brn
+|-end|p1a: Gary|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|44
+|
+|t:|1667716355
+|switch|p1a: Speedwagon|Weezing-Galar, M|100/100
+|move|p2a: Tangrowth|Giga Drain|p1a: Speedwagon
+|-resisted|p1a: Speedwagon
+|-damage|p1a: Speedwagon|81/100
+|-heal|p2a: Tangrowth|70/100 brn|[from] drain|[of] p1a: Speedwagon
+|
+|-heal|p1a: Speedwagon|87/100|[from] item: Black Sludge
+|-damage|p2a: Tangrowth|64/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1667716358
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Speedwagon|Toxic Spikes|p2a: Heatran
+|-sidestart|p2: minimax_ai|move: Toxic Spikes
+|
+|-heal|p1a: Speedwagon|93/100|[from] item: Black Sludge
+|upkeep
+|turn|46
+|
+|t:|1667716361
+|switch|p1a: Gary|Gastrodon-East, M, shiny|71/100
+|move|p2a: Heatran|Stealth Rock|p1a: Gary
+|-sidestart|p1: Steez Ibanez|move: Stealth Rock
+|
+|upkeep
+|turn|47
+|
+|t:|1667716364
+|switch|p2a: Tangrowth|Tangrowth, F|97/100 brn
+|-damage|p2a: Tangrowth|84/100 brn|[from] Stealth Rock
+|move|p1a: Gary|Recover|p1a: Gary
+|-heal|p1a: Gary|100/100
+|
+|-damage|p2a: Tangrowth|78/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1667716366
+|switch|p1a: Speedwagon|Weezing-Galar, M|93/100
+|-damage|p1a: Speedwagon|81/100|[from] Stealth Rock
+|move|p2a: Tangrowth|Giga Drain|p1a: Speedwagon
+|-resisted|p1a: Speedwagon
+|-damage|p1a: Speedwagon|61/100
+|-heal|p2a: Tangrowth|86/100 brn|[from] drain|[of] p1a: Speedwagon
+|
+|-heal|p1a: Speedwagon|67/100|[from] item: Black Sludge
+|-damage|p2a: Tangrowth|80/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1667716369
+|switch|p2a: Heatran|Heatran, M|88/100
+|-damage|p2a: Heatran|76/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Speedwagon|Strange Steam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|69/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-heal|p1a: Speedwagon|73/100|[from] item: Black Sludge
+|upkeep
+|turn|50
+|
+|t:|1667716375
+|move|p2a: Heatran|Magma Storm|p1a: Speedwagon|[miss]
+|-miss|p2a: Heatran|p1a: Speedwagon
+|move|p1a: Speedwagon|Strange Steam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|63/100
+|
+|-heal|p1a: Speedwagon|79/100|[from] item: Black Sludge
+|upkeep
+|turn|51
+|
+|t:|1667716377
+|switch|p1a: Hephaestus|Heatran, M|76/100
+|-damage|p1a: Hephaestus|63/100|[from] Stealth Rock
+|-item|p1a: Hephaestus|Air Balloon
+|move|p2a: Heatran|Magma Storm|p1a: Hephaestus
+|-start|p1a: Hephaestus|ability: Flash Fire
+|
+|upkeep
+|turn|52
+|
+|t:|1667716380
+|switch|p2a: Landorus|Landorus-Therian, M|23/100
+|-damage|p2a: Landorus|11/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hephaestus|atk|1
+|move|p1a: Hephaestus|Earth Power|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|53
+|
+|t:|1667716381
+|move|p1a: Hephaestus|Eruption|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1667716381
+|switch|p2a: Weavile|Weavile, M|63/100 psn
+|-damage|p2a: Weavile|38/100 psn|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|54
+|
+|t:|1667716384
+|-end|p1a: Hephaestus|ability: Flash Fire|[silent]
+|switch|p1a: Speedwagon|Weezing-Galar, M|79/100
+|-damage|p1a: Speedwagon|67/100|[from] Stealth Rock
+|move|p2a: Weavile|Knock Off|p1a: Speedwagon
+|-resisted|p1a: Speedwagon
+|-damage|p1a: Speedwagon|44/100
+|-enditem|p1a: Speedwagon|Black Sludge|[from] move: Knock Off|[of] p2a: Weavile
+|
+|-damage|p2a: Weavile|26/100 psn|[from] psn
+|upkeep
+|turn|55
+|
+|t:|1667716387
+|move|p2a: Weavile|Knock Off|p1a: Speedwagon
+|-resisted|p1a: Speedwagon
+|-damage|p1a: Speedwagon|30/100
+|move|p1a: Speedwagon|Strange Steam|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1667716387
+|switch|p2a: Melmetal|Melmetal|100/100
+|-damage|p2a: Melmetal|94/100|[from] Stealth Rock
+|turn|56
+|
+|t:|1667716389
+|move|p1a: Speedwagon|Pain Split|p2a: Melmetal
+|-sethp|p2a: Melmetal|59/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Speedwagon|77/100|[from] move: Pain Split
+|move|p2a: Melmetal|Double Iron Bash|p1a: Speedwagon
+|-supereffective|p1a: Speedwagon
+|-damage|p1a: Speedwagon|21/100
+|-supereffective|p1a: Speedwagon
+|-damage|p1a: Speedwagon|0 fnt
+|faint|p1a: Speedwagon
+|-hitcount|p1: Speedwagon|2
+|
+|upkeep
+|
+|t:|1667716391
+|switch|p1a: Hephaestus|Heatran, M|63/100
+|-damage|p1a: Hephaestus|51/100|[from] Stealth Rock
+|-item|p1a: Hephaestus|Air Balloon
+|turn|57
+|
+|t:|1667716395
+|move|p1a: Hephaestus|Eruption|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|16/100
+|move|p2a: Melmetal|Thunder Punch|p1a: Hephaestus
+|-damage|p1a: Hephaestus|18/100
+|-enditem|p1a: Hephaestus|Air Balloon
+|
+|upkeep
+|turn|58
+|
+|t:|1667716398
+|move|p1a: Hephaestus|Earth Power|p2a: Melmetal
+|-supereffective|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|upkeep
+|
+|t:|1667716398
+|switch|p2a: Heatran|Heatran, M|63/100
+|-damage|p2a: Heatran|50/100|[from] Stealth Rock
+|turn|59
+|
+|t:|1667716400
+|switch|p1a: Gary|Gastrodon-East, M, shiny|100/100
+|move|p2a: Heatran|Earth Power|p1a: Gary
+|-damage|p1a: Gary|78/100
+|-unboost|p1a: Gary|spd|1
+|
+|upkeep
+|turn|60
+|
+|t:|1667716404
+|switch|p1a: Hephaestus|Heatran, M|18/100
+|-damage|p1a: Hephaestus|6/100|[from] Stealth Rock
+|move|p2a: Heatran|Earth Power|p1a: Hephaestus
+|-supereffective|p1a: Hephaestus
+|-damage|p1a: Hephaestus|0 fnt
+|faint|p1a: Hephaestus
+|
+|upkeep
+|-message|Steez Ibanez forfeited.
+|
+|win|minimax_ai
+|raw|Steez Ibanez's rating: 1732 &rarr; <strong>1706</strong><br />(-26 for losing)
+|raw|minimax_ai's rating: 1622 &rarr; <strong>1648</strong><br />(+26 for winning)
+|l|☆Steez Ibanez

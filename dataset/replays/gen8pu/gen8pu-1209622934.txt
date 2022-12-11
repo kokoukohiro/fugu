@@ -1,0 +1,221 @@
+|j|☆cafay sen sukr
+|j|☆guhuh
+|t:|1603679268
+|player|p1|cafay sen sukr|swimmer-gen4dp|1391
+|player|p2|guhuh|266|1341
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Roselia, F|
+|poke|p1|Magmar, F|
+|poke|p1|Glaceon, F|
+|poke|p1|Unfezant, F|
+|poke|p1|Hattrem, F|
+|poke|p1|Stunfisk, M|
+|poke|p2|Jolteon, M|
+|poke|p2|Hitmonchan, M|
+|poke|p2|Runerigus, F|
+|poke|p2|Leafeon, M|
+|poke|p2|Cramorant, M|
+|poke|p2|Pinsir, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1603679278
+|start
+|switch|p1a: Glaceon|Glaceon, F|100/100
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|turn|1
+|j| Ktutverde
+|
+|t:|1603679296
+|move|p2a: Leafeon|Knock Off|p1a: Glaceon
+|-damage|p1a: Glaceon|57/100
+|-enditem|p1a: Glaceon|Choice Specs|[from] move: Knock Off|[of] p2a: Leafeon
+|-damage|p2a: Leafeon|91/100|[from] item: Life Orb
+|move|p1a: Glaceon|Ice Beam|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|upkeep
+|j| Pilloladipungitopo
+|
+|t:|1603679309
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100
+|turn|2
+|
+|t:|1603679324
+|switch|p1a: Hattrem|Hattrem, F|100/100
+|move|p2a: Hitmonchan|Rapid Spin|p1a: Hattrem
+|-damage|p1a: Hattrem|89/100
+|-boost|p2a: Hitmonchan|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1603679330
+|move|p2a: Hitmonchan|Throat Chop|p1a: Hattrem
+|-supereffective|p1a: Hattrem
+|-damage|p1a: Hattrem|52/100
+|-start|p1a: Hattrem|Throat Chop|[silent]
+|move|p1a: Hattrem|Psychic|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|65/100
+|
+|upkeep
+|turn|4
+|
+|t:|1603679338
+|move|p2a: Hitmonchan|Throat Chop|p1a: Hattrem
+|-supereffective|p1a: Hattrem
+|-damage|p1a: Hattrem|13/100
+|move|p1a: Hattrem|Nuzzle|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|62/100
+|-status|p2a: Hitmonchan|par
+|
+|-end|p1a: Hattrem|Throat Chop|[silent]
+|upkeep
+|turn|5
+|
+|t:|1603679345
+|move|p1a: Hattrem|Psychic|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|26/100 par
+|move|p2a: Hitmonchan|Throat Chop|p1a: Hattrem
+|-supereffective|p1a: Hattrem
+|-damage|p1a: Hattrem|0 fnt
+|faint|p1a: Hattrem
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by guhuh)
+|
+|t:|1603679365
+|switch|p1a: Magmar|Magmar, F|100/100
+|turn|6
+|
+|t:|1603679370
+|switch|p2a: Ja Morant|Cramorant, M|100/100
+|move|p1a: Magmar|Flamethrower|p2a: Ja Morant
+|-resisted|p2a: Ja Morant
+|-damage|p2a: Ja Morant|61/100
+|
+|upkeep
+|turn|7
+|
+|t:|1603679377
+|switch|p1a: Roselia|Roselia, F|100/100
+|move|p2a: Ja Morant|Surf|p1a: Roselia
+|-formechange|p2a: Ja Morant|Cramorant-Gulping|
+|-resisted|p1a: Roselia
+|-damage|p1a: Roselia|91/100
+|
+|upkeep
+|turn|8
+|l| Pilloladipungitopo
+|
+|t:|1603679387
+|move|p2a: Ja Morant|Air Slash|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|56/100
+|cant|p1a: Roselia|flinch
+|
+|upkeep
+|turn|9
+|
+|t:|1603679391
+|move|p2a: Ja Morant|Air Slash|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|20/100
+|move|p1a: Roselia|Giga Drain|p2a: Ja Morant
+|-damage|p2a: Ja Morant|29/100
+|-heal|p1a: Roselia|35/100|[from] drain|[of] p2a: Ja Morant
+|-damage|p1a: Roselia|10/100|[from] ability: Gulp Missile|[of] p2a: Ja Morant
+|-unboost|p1a: Roselia|def|1
+|-formechange|p2a: Ja Morant|Cramorant|
+|
+|upkeep
+|turn|10
+|
+|t:|1603679404
+|move|p2a: Ja Morant|Air Slash|p1a: Roselia
+|-supereffective|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|faint|p1a: Roselia
+|
+|upkeep
+|
+|t:|1603679406
+|switch|p1a: Magmar|Magmar, F|100/100
+|turn|11
+|
+|t:|1603679415
+|switch|p2a: Runerigus|Runerigus, F|100/100
+|move|p1a: Magmar|Flamethrower|p2a: Runerigus
+|-damage|p2a: Runerigus|61/100
+|
+|upkeep
+|turn|12
+|
+|t:|1603679424
+|move|p1a: Magmar|Flamethrower|p2a: Runerigus
+|-damage|p2a: Runerigus|16/100
+|move|p2a: Runerigus|Stealth Rock|p1a: Magmar
+|-sidestart|p1: cafay sen sukr|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1603679429
+|move|p1a: Magmar|Flamethrower|p2a: Runerigus
+|-damage|p2a: Runerigus|0 fnt
+|faint|p2a: Runerigus
+|
+|upkeep
+|
+|t:|1603679435
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|14
+|
+|t:|1603679439
+|move|p2a: Jolteon|Thunderbolt|p1a: Magmar
+|-damage|p1a: Magmar|8/100
+|move|p1a: Magmar|Flamethrower|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|upkeep
+|
+|t:|1603679446
+|switch|p2a: Pinsir|Pinsir, F|100/100
+|turn|15
+|
+|t:|1603679457
+|move|p1a: Magmar|Flamethrower|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-crit|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|upkeep
+|
+|t:|1603679460
+|switch|p2a: Hitmonchan|Hitmonchan, M|26/100 par
+|turn|16
+|-message|guhuh forfeited.
+|
+|win|cafay sen sukr
+|l|☆guhuh
+|raw|cafay sen sukr's rating: 1391 &rarr; <strong>1408</strong><br />(+17 for winning)
+|raw|guhuh's rating: 1341 &rarr; <strong>1324</strong><br />(-17 for losing)

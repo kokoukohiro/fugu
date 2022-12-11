@@ -1,0 +1,384 @@
+|j|☆N30N3
+|j|☆Lucky Noob No Son
+|player|p1|N30N3|170|1821
+|player|p2|Lucky Noob No Son|roughneck|1863
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Hippowdon, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Drapion, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Necrozma|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by N30N3)
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Necrozma|Necrozma|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|j| bpewn
+|j| WYHFO
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|58/100
+|-unboost|p2a: Seismitoad|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|64/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Drapion|Drapion, M|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Drapion
+|-resisted|p2a: Drapion
+|-damage|p2a: Drapion|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drapion|67/100|[from] Sandstorm
+|-heal|p2a: Drapion|73/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|move|p2a: Drapion|Toxic Spikes|p1a: Hippowdon
+|-sidestart|p1: N30N3|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drapion|67/100|[from] Sandstorm
+|-heal|p2a: Drapion|73/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p2a: Drapion|Taunt|p1a: Hippowdon
+|-start|p1a: Hippowdon|move: Taunt
+|cant|p1a: Hippowdon|move: Taunt|Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drapion|67/100|[from] Sandstorm
+|-heal|p2a: Drapion|73/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-status|p1a: Tyranitar|psn
+|move|p2a: Drapion|Knock Off|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|86/100 psn
+|-enditem|p1a: Tyranitar|Choice Band|[from] move: Knock Off|[of] p2a: Drapion
+|
+|-weather|none
+|-heal|p2a: Drapion|79/100|[from] item: Black Sludge
+|-damage|p1a: Tyranitar|73/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Seismitoad|Seismitoad, F|64/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Lucky Noob No Son|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|70/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|61/100 psn|[from] psn
+|upkeep
+|turn|7
+|c| bpewn|yo n3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: N30N3|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Cinderace
+|-sidestart|p2: Lucky Noob No Son|Spikes
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-status|p1a: Hippowdon|psn
+|-damage|p1a: Hippowdon|94/100 psn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Cinderace|U-turn|p1a: Hippowdon
+|-damage|p1a: Hippowdon|83/100 psn
+|
+|switch|p2a: Seismitoad|Seismitoad, F|76/100|[from]move: U-turn
+|-damage|p2a: Seismitoad|63/100|[from] Spikes
+|-damage|p2a: Seismitoad|57/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|63/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|70/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|95/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Tyranitar|Tyranitar, M|61/100 psn
+|-damage|p1a: Tyranitar|49/100 psn|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Tyranitar|[miss]
+|-miss|p2a: Cinderace|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|89/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|37/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|move|p2a: Cinderace|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|switch|p2a: Drapion|Drapion, M|79/100|[from]move: U-turn
+|-damage|p2a: Drapion|67/100|[from] Spikes
+|-damage|p2a: Drapion|54/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drapion|48/100|[from] Sandstorm
+|-heal|p2a: Drapion|54/100|[from] item: Black Sludge
+|upkeep
+|inactive|N30N3 has 120 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-damage|p2a: Aegislash|88/100|[from] Spikes
+|-damage|p2a: Aegislash|82/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-damage|p1a: Excadrill|87/100|[from] item: Life Orb
+|faint|p2a: Aegislash
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|j| garbos
+|
+|switch|p2a: Necrozma|Necrozma|100/100
+|-damage|p2a: Necrozma|88/100|[from] Spikes
+|-damage|p2a: Necrozma|76/100|[from] Stealth Rock
+|turn|14
+|inactive|N30N3 has 120 seconds left.
+|
+|move|p1a: Excadrill|Earthquake|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|-damage|p1a: Excadrill|78/100|[from] item: Life Orb
+|faint|p2a: Necrozma
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|15
+|c| bpewn|yo n3
+|inactive|N30N3 has 120 seconds left.
+|c|☆Lucky Noob No Son|excadrill got me
+|j| HeavenStar
+|
+|switch|p2a: Seismitoad|Seismitoad, F|63/100
+|-damage|p2a: Seismitoad|57/100|[from] Stealth Rock
+|-damage|p2a: Seismitoad|45/100|[from] Spikes
+|move|p1a: Excadrill|Iron Head|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|22/100
+|-damage|p1a: Excadrill|68/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|28/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|c| bpewn|n3 do you think you have the best possible team for ou
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Seismitoad
+|-damage|p2a: Seismitoad|9/100
+|-boost|p1a: Excadrill|spe|1
+|-sideend|p1: N30N3|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: N30N3|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-damage|p1a: Excadrill|58/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|none
+|-heal|p2a: Seismitoad|15/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|17
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|89/100
+|turn|18
+|
+|switch|p1a: Hippowdon|Hippowdon, F|70/100 psn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Lucky Noob No Son|Spikes|[silent]
+|-sidestart|p1: N30N3|Spikes|[silent]
+|-sideend|p2: Lucky Noob No Son|Stealth Rock|[silent]
+|-sidestart|p1: N30N3|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|83/100|[from] Sandstorm
+|-damage|p1a: Hippowdon|58/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Hippowdon
+|-damage|p1a: Hippowdon|27/100 psn
+|move|p1a: Hippowdon|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: Lucky Noob No Son|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|77/100|[from] Sandstorm
+|-damage|p1a: Hippowdon|14/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|71/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|88/100|[from] Spikes
+|-damage|p1a: Conkeldurr|82/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Drapion|Drapion, M|54/100
+|-damage|p2a: Drapion|42/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Drain Punch|p2a: Drapion
+|-damage|p2a: Drapion|2/100
+|-heal|p1a: Conkeldurr|100/100|[from] drain|[of] p2a: Drapion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Drapion|0 fnt|[from] Sandstorm
+|-damage|p1a: Conkeldurr|94/100|[from] Sandstorm
+|faint|p2a: Drapion
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|76/100
+|-damage|p2a: Togekiss|51/100|[from] Stealth Rock
+|turn|22
+|c| bpewn|:
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|82/100|[from] Spikes
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|45/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|48/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|33/100
+|-enditem|p2a: Togekiss|Choice Scarf|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|27/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|54/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Togekiss|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|21/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|88/100|[from] Spikes
+|-damage|p1a: Kyurem|63/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|turn|25
+|
+|move|p1a: Kyurem|Ice Beam|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|71/100
+|turn|26
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Kyurem
+|-damage|p1a: Kyurem|4/100
+|move|p1a: Kyurem|Ice Beam|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|win|N30N3
+|c|☆N30N3|Gg
+|l|☆Lucky Noob No Son
+|c| bpewn|n3 i have a question
+|c| bpewn|OMG
+|c| bpewn|GARBOS
+||Ladder (probably) updated, but score could not be retrieved (Response not received).
+|c| bpewn|YOU THE ONE WHO HELPED ME WITH TEH GRAVITY TEAM
+|c| garbos|yeah
+|c| bpewn|REMEMBER?
+|c| garbos|oh hello i remember now

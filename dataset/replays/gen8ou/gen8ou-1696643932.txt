@@ -1,0 +1,310 @@
+|html|<div class="broadcast-blue"><strong>[Gen 8] OU is currently suspecting Melmetal! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/np-ss-ou-suspect-process-round-12-monster-mash.3709234/">suspect thread</a>.</strong></div>
+|j|☆minimax_ai
+|j|☆corumba
+|t:|1666913501
+|gametype|singles
+|player|p1|minimax_ai|lusamine-nihilego|1521
+|player|p2|corumba|schoolkid-gen4|1538
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Tangrowth, M|
+|poke|p1|Melmetal|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Melmetal|
+|poke|p2|Heatran, M|
+|poke|p2|Dragapult, F|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|c|☆corumba|hf
+|
+|t:|1666913522
+|start
+|switch|p1a: rotomwash|Rotom-Wash|100/100
+|switch|p2a: Melmetal|Melmetal|100/100
+|turn|1
+|
+|t:|1666913527
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: rotomwash|Nasty Plot|p1a: rotomwash
+|-boost|p1a: rotomwash|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1666913529
+|move|p1a: rotomwash|Pain Split|p2a: Rotom
+|-sethp|p2a: Rotom|100/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|99/100|[from] move: Pain Split
+|move|p2a: Rotom|Volt Switch|p1a: rotomwash
+|-damage|p1a: rotomwash|72/100
+|
+|t:|1666913533
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: rotomwash|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1666913540
+|switch|p1a: Melmetal|Melmetal|100/100
+|move|p2a: Dragapult|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|89/100
+|
+|t:|1666913544
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from]move: U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Melmetal|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1666913547
+|move|p2a: Landorus|U-turn|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|81/100
+|
+|t:|1666913550
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p1a: Melmetal|Ice Punch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|91/100
+|
+|-heal|p2a: Rotom|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1666913553
+|switch|p1a: rotomwash|Rotom-Wash|78/100
+|move|p2a: Rotom|Hydro Pump|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|59/100
+|
+|-heal|p1a: rotomwash|65/100|[from] item: Leftovers
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1666913555
+|move|p1a: rotomwash|Pain Split|p2a: Rotom
+|-sethp|p2a: Rotom|83/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: rotomwash|82/100|[from] move: Pain Split
+|move|p2a: Rotom|Volt Switch|p1a: rotomwash
+|-damage|p1a: rotomwash|54/100
+|
+|t:|1666913558
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: rotomwash|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1666913559
+|switch|p1a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p1a: landorustherian|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|move|p2a: Dragapult|U-turn|p1a: landorustherian
+|-resisted|p1a: landorustherian
+|-damage|p1a: landorustherian|82/100
+|
+|t:|1666913566
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100|[from]move: U-turn
+|
+|-heal|p1a: landorustherian|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1666913568
+|switch|p1a: Melmetal|Melmetal|81/100
+|move|p2a: Keldeo|Scald|p1a: Melmetal
+|-damage|p1a: Melmetal|61/100
+|-status|p1a: Melmetal|brn
+|
+|-damage|p1a: Melmetal|55/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1666913572
+|switch|p2a: Rotom|Rotom-Wash|83/100
+|switch|p1a: rotomwash|Rotom-Wash|61/100
+|
+|-heal|p1a: rotomwash|67/100|[from] item: Leftovers
+|-heal|p2a: Rotom|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1666913574
+|move|p1a: rotomwash|Thunderbolt|p2a: Rotom
+|-damage|p2a: Rotom|53/100
+|move|p2a: Rotom|Volt Switch|p1a: rotomwash
+|-damage|p1a: rotomwash|40/100
+|
+|t:|1666913580
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: rotomwash|47/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1666913584
+|switch|p1a: Tangrowth|Tangrowth, M|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Tangrowth
+|-damage|p1a: Tangrowth|78/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Tangrowth
+|-damage|p1a: Tangrowth|58/100
+|
+|upkeep
+|turn|12
+|
+|t:|1666913588
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Tangrowth|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|86/100
+|-status|p1a: Tangrowth|brn|[from] ability: Flame Body|[of] p2a: Heatran
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|-damage|p1a: Tangrowth|51/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1666913592
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Heatran|Stealth Rock|p1a: Heatran
+|-sidestart|p1: minimax_ai|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1666913601
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: corumba|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1666913606
+|switch|p1a: Melmetal|Melmetal|55/100 brn
+|-damage|p1a: Melmetal|49/100 brn|[from] Stealth Rock
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|
+|-damage|p1a: Melmetal|42/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1666913608
+|move|p2a: Keldeo|Secret Sword|p1a: Melmetal
+|-supereffective|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1666913609
+|switch|p1a: Tangrowth|Tangrowth, M|85/100 brn
+|-damage|p1a: Tangrowth|72/100 brn|[from] Stealth Rock
+|turn|17
+|
+|t:|1666913615
+|move|p2a: Keldeo|Icy Wind|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|faint|p1a: Tangrowth
+|
+|upkeep
+|
+|t:|1666913615
+|switch|p1a: landorustherian|Landorus-Therian, M|88/100
+|-damage|p1a: landorustherian|76/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|turn|18
+|
+|t:|1666913621
+|switch|p1a: rotomwash|Rotom-Wash|47/100
+|-damage|p1a: rotomwash|34/100|[from] Stealth Rock
+|move|p2a: Keldeo|Scald|p1a: rotomwash
+|-resisted|p1a: rotomwash
+|-damage|p1a: rotomwash|0 fnt
+|faint|p1a: rotomwash
+|
+|upkeep
+|
+|t:|1666913621
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|19
+|
+|t:|1666913624
+|move|p1a: Weavile|Triple Axel|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|93/100
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|76/100
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|50/100
+|-hitcount|p2a: Keldeo|3
+|move|p2a: Keldeo|Secret Sword|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-heal|p2a: Keldeo|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1666913624
+|switch|p1a: landorustherian|Landorus-Therian, M|76/100
+|-damage|p1a: landorustherian|64/100|[from] Stealth Rock
+|-ability|p1a: landorustherian|Intimidate|boost
+|-unboost|p2a: Keldeo|atk|1
+|turn|20
+|
+|t:|1666913627
+|move|p2a: Keldeo|Scald|p1a: landorustherian
+|-supereffective|p1a: landorustherian
+|-damage|p1a: landorustherian|0 fnt
+|faint|p1a: landorustherian
+|
+|-heal|p2a: Keldeo|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1666913627
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|turn|21
+|
+|t:|1666913629
+|move|p2a: Keldeo|Scald|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-enditem|p1a: Heatran|Air Balloon
+|faint|p1a: Heatran
+|
+|win|corumba
+|raw|minimax_ai's rating: 1504 &rarr; <strong>1486</strong><br />(-18 for losing)
+|raw|corumba's rating: 1538 &rarr; <strong>1556</strong><br />(+18 for winning)
+|c|☆minimax_ai|gg

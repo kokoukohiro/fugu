@@ -1,0 +1,512 @@
+|j|☆Alison Hargreeves
+|j|☆Test Techles1
+|player|p1|Alison Hargreeves|viola|1338
+|player|p2|Test Techles1|pryce-gen2|1244
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Copperajah, M|
+|poke|p1|Xatu, M|
+|poke|p1|Whimsicott, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Rhydon, M|
+|poke|p1|Silvally-*|
+|poke|p2|Haunter, M|
+|poke|p2|Scrafty, M|
+|poke|p2|Sandaconda, F|
+|poke|p2|Vileplume, M|
+|poke|p2|Charizard, F|
+|poke|p2|Snorlax, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Alison Hargreeves|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Test Techles1)
+|c|☆Test Techles1|u2
+|
+|start
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|turn|1
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|move|p1a: Whimsicott|U-turn|p2a: Vileplume
+|-damage|p2a: Vileplume|92/100
+|
+|switch|p1a: Xatu|Xatu, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Vileplume|98/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p1a: Xatu|U-turn|p2a: Vileplume
+|-damage|p2a: Vileplume|88/100
+|-status|p1a: Xatu|slp|[from] ability: Effect Spore|[of] p2a: Vileplume
+|
+|switch|p1a: Copperajah|Copperajah, M|100/100|[from]move: U-turn
+|move|p2a: Vileplume|Sludge Bomb|p1a: Copperajah
+|-immune|p1a: Copperajah
+|
+|-heal|p2a: Vileplume|94/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Vileplume|Stun Spore|p1a: Copperajah
+|-status|p1a: Copperajah|par
+|move|p1a: Copperajah|Heat Crash|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|15/100
+|
+|-heal|p2a: Vileplume|21/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|switch|p1a: Xatu|Xatu, M|100/100 slp
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|move|p2a: Scrafty|Knock Off|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|71/100
+|-enditem|p1a: Whimsicott|Choice Specs|[from] move: Knock Off|[of] p2a: Scrafty
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Charizard|Charizard, F|100/100
+|move|p1a: Whimsicott|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|78/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Whimsicott|U-turn|p2a: Charizard
+|-resisted|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|74/100
+|
+|switch|p1a: Rhydon|Rhydon, M|100/100|[from]move: U-turn
+|move|p2a: Charizard|Toxic|p1a: Rhydon
+|-status|p1a: Rhydon|tox
+|
+|-damage|p1a: Rhydon|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Vileplume|Vileplume, M|21/100
+|move|p1a: Rhydon|Stealth Rock|p2a: Vileplume
+|-sidestart|p2: Test Techles1|move: Stealth Rock
+|
+|-heal|p2a: Vileplume|28/100|[from] item: Black Sludge
+|-damage|p1a: Rhydon|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Xatu|Xatu, M|100/100 slp
+|move|p2a: Vileplume|Sludge Bomb|p1a: Xatu
+|-damage|p1a: Xatu|67/100 slp
+|
+|-heal|p2a: Vileplume|34/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|cant|p1a: Xatu|slp
+|move|p2a: Vileplume|Sludge Bomb|p1a: Xatu
+|-damage|p1a: Xatu|30/100 slp
+|
+|-heal|p2a: Vileplume|40/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Vileplume|Sludge Bomb|p1a: Indeedee
+|-damage|p1a: Indeedee|56/100
+|
+|-heal|p2a: Vileplume|46/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|33/100
+|move|p2a: Vileplume|Sludge Bomb|p1a: Indeedee
+|-damage|p1a: Indeedee|7/100
+|
+|-heal|p2a: Vileplume|39/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p1a: Copperajah|Copperajah, M|100/100 par
+|move|p2a: Vileplume|Strength Sap|p1a: Copperajah
+|-unboost|p1a: Copperajah|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Sandaconda|Sandaconda, F|100/100
+|-damage|p2a: Sandaconda|94/100|[from] Stealth Rock
+|move|p1a: Copperajah|Heat Crash|p2a: Sandaconda
+|-damage|p2a: Sandaconda|77/100
+|
+|-heal|p2a: Sandaconda|83/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Haunter|Haunter, M|100/100
+|-damage|p2a: Haunter|88/100|[from] Stealth Rock
+|switch|p1a: Xatu|Xatu, M|30/100 slp
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|16
+|
+|switch|p1a: Copperajah|Copperajah, M|100/100 par
+|move|p2a: Haunter|Hex|p1a: Copperajah
+|-damage|p1a: Copperajah|29/100 par
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Charizard|Charizard, F|74/100
+|switch|p1a: Indeedee|Indeedee, M|7/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Indeedee|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|28/100
+|move|p2a: Charizard|Defog|p1a: Indeedee
+|-unboost|p1a: Indeedee|evasion|1
+|-sideend|p2: Test Techles1|Stealth Rock|[from] move: Defog|[of] p2a: Charizard
+|-fieldend|move: Psychic Terrain
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|move|p1a: Indeedee|Psychic|p2a: Scrafty
+|-immune|p2a: Scrafty
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Whimsicott|Whimsicott, F|71/100
+|move|p2a: Scrafty|Close Combat|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|36/100
+|-unboost|p2a: Scrafty|def|1
+|-unboost|p2a: Scrafty|spd|1
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Whimsicott|U-turn|p2a: Snorlax
+|-damage|p2a: Snorlax|91/100
+|
+|switch|p1a: Indeedee|Indeedee, M|7/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|
+|-heal|p2a: Snorlax|97/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Indeedee|Trick|p2a: Snorlax
+|-activate|p1a: Indeedee|move: Trick|[of] p2a: Snorlax
+|-item|p2a: Snorlax|Choice Scarf|[from] move: Trick
+|-item|p1a: Indeedee|Leftovers|[from] move: Trick
+|move|p2a: Snorlax|Body Slam|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|switch|p1a: Rhydon|Rhydon, M|82/100 tox
+|turn|23
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|move|p1a: Rhydon|Stealth Rock|p2a: Vileplume
+|-sidestart|p2: Test Techles1|move: Stealth Rock
+|
+|-damage|p1a: Rhydon|76/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p1a: Copperajah|Copperajah, M|29/100 par
+|move|p2a: Vileplume|Giga Drain|p1a: Copperajah
+|-resisted|p1a: Copperajah
+|-damage|p1a: Copperajah|19/100 par
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Vileplume|Giga Drain|p1a: Copperajah
+|-resisted|p1a: Copperajah
+|-damage|p1a: Copperajah|9/100 par
+|move|p1a: Copperajah|Heat Crash|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|21/100
+|
+|-heal|p2a: Vileplume|28/100|[from] item: Black Sludge
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|26
+|
+|move|p2a: Vileplume|Giga Drain|p1a: Copperajah
+|-resisted|p1a: Copperajah
+|-damage|p1a: Copperajah|0 fnt
+|-heal|p2a: Vileplume|32/100|[from] drain|[of] p1a: Copperajah
+|faint|p1a: Copperajah
+|
+|-heal|p2a: Vileplume|39/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Dragon|100/100
+|turn|27
+|
+|move|p1a: Silvally|Flamethrower|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M|97/100
+|-damage|p2a: Snorlax|85/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p1a: Rhydon|Rhydon, M|76/100 tox
+|move|p2a: Snorlax|Darkest Lariat|p1a: Rhydon
+|-damage|p1a: Rhydon|65/100 tox
+|
+|-damage|p1a: Rhydon|59/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|switch|p2a: Sandaconda|Sandaconda, F|83/100
+|-damage|p2a: Sandaconda|77/100|[from] Stealth Rock
+|switch|p1a: Whimsicott|Whimsicott, F|36/100
+|
+|-heal|p2a: Sandaconda|83/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Snorlax|Snorlax, M|85/100
+|-damage|p2a: Snorlax|72/100|[from] Stealth Rock
+|move|p1a: Whimsicott|Energy Ball|p2a: Snorlax
+|-damage|p2a: Snorlax|58/100
+|-unboost|p2a: Snorlax|spd|1
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Whimsicott|U-turn|p2a: Snorlax
+|-damage|p2a: Snorlax|48/100
+|
+|switch|p1a: Rhydon|Rhydon, M|59/100 tox|[from]move: U-turn
+|move|p2a: Snorlax|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|51/100 tox
+|
+|-damage|p1a: Rhydon|45/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|move|p2a: Snorlax|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|37/100 tox
+|move|p1a: Rhydon|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|-damage|p1a: Rhydon|24/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Haunter|Haunter, M|88/100
+|-damage|p2a: Haunter|76/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Haunter|Shadow Ball|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Dragon|100/100
+|turn|34
+|
+|move|p2a: Haunter|Shadow Ball|p1a: Silvally
+|-damage|p1a: Silvally|40/100
+|move|p1a: Silvally|Multi-Attack|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|upkeep
+|
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|-damage|p2a: Scrafty|95/100|[from] Stealth Rock
+|turn|35
+|
+|move|p1a: Silvally|Work Up|p1a: Silvally
+|-boost|p1a: Silvally|atk|1
+|-boost|p1a: Silvally|spa|1
+|move|p2a: Scrafty|Close Combat|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|-unboost|p2a: Scrafty|def|1
+|-unboost|p2a: Scrafty|spd|1
+|faint|p1a: Silvally
+|-ability|p2a: Scrafty|Moxie|boost
+|-boost|p2a: Scrafty|atk|1
+|
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, F|36/100
+|turn|36
+|
+|switch|p2a: Sandaconda|Sandaconda, F|83/100
+|-damage|p2a: Sandaconda|77/100|[from] Stealth Rock
+|move|p1a: Whimsicott|Moonblast|p2a: Sandaconda
+|-damage|p2a: Sandaconda|32/100
+|
+|-heal|p2a: Sandaconda|38/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Whimsicott|U-turn|p2a: Sandaconda
+|-damage|p2a: Sandaconda|31/100
+|
+|switch|p1a: Xatu|Xatu, M|30/100 slp|[from]move: U-turn
+|move|p2a: Sandaconda|Glare|p1a: Xatu
+|move|p1a: Xatu|Glare|p2a: Sandaconda|[from]Magic Bounce
+|-status|p2a: Sandaconda|par
+|
+|-heal|p2a: Sandaconda|37/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: Scrafty|Scrafty, M|95/100
+|-damage|p2a: Scrafty|89/100|[from] Stealth Rock
+|-curestatus|p1a: Xatu|slp|[msg]
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|80/100
+|-singleturn|p1a: Xatu|move: Roost
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Xatu|U-turn|p2a: Scrafty
+|-damage|p2a: Scrafty|77/100
+|
+|switch|p1a: Whimsicott|Whimsicott, F|36/100|[from]move: U-turn
+|move|p2a: Scrafty|Dragon Dance|p2a: Scrafty
+|-boost|p2a: Scrafty|atk|1
+|-boost|p2a: Scrafty|spe|1
+|
+|upkeep
+|turn|40
+|
+|switch|p2a: Sandaconda|Sandaconda, F|37/100 par
+|-damage|p2a: Sandaconda|31/100 par|[from] Stealth Rock
+|move|p1a: Whimsicott|Moonblast|p2a: Sandaconda
+|-damage|p2a: Sandaconda|0 fnt
+|faint|p2a: Sandaconda
+|
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, F|28/100
+|turn|41
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|10/100
+|-unboost|p2a: Charizard|spa|1
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|60/100
+|-singleturn|p2a: Charizard|move: Roost
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Whimsicott|U-turn|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|57/100
+|
+|switch|p1a: Xatu|Xatu, M|80/100|[from]move: U-turn
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|100/100
+|-singleturn|p2a: Charizard|move: Roost
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Charizard|Flamethrower|p1a: Xatu
+|-damage|p1a: Xatu|55/100
+|move|p1a: Xatu|U-turn|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|97/100
+|
+|switch|p1a: Whimsicott|Whimsicott, F|36/100|[from]move: U-turn
+|
+|upkeep
+|turn|44
+|
+|move|p1a: Whimsicott|U-turn|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|94/100
+|
+|switch|p1a: Xatu|Xatu, M|55/100|[from]move: U-turn
+|move|p2a: Charizard|Flamethrower|p1a: Xatu
+|-damage|p1a: Xatu|31/100
+|
+|upkeep
+|turn|45
+|
+|switch|p2a: Scrafty|Scrafty, M|77/100
+|-damage|p2a: Scrafty|71/100|[from] Stealth Rock
+|move|p1a: Xatu|U-turn|p2a: Scrafty
+|-damage|p2a: Scrafty|58/100
+|
+|switch|p1a: Whimsicott|Whimsicott, F|36/100|[from]move: U-turn
+|
+|upkeep
+|turn|46
+|
+|switch|p2a: Charizard|Charizard, F|94/100
+|move|p1a: Whimsicott|U-turn|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|91/100
+|
+|switch|p1a: Xatu|Xatu, M|31/100|[from]move: U-turn
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Charizard|Flamethrower|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|upkeep
+|c|☆Test Techles1|gg
+|c|☆Test Techles1|tough
+|inactive|Alison Hargreeves has 120 seconds left.
+|-message|Alison Hargreeves forfeited.
+|
+|win|Test Techles1
+|l|☆Alison Hargreeves
+|raw|Alison Hargreeves's rating: 1338 &rarr; <strong>1314</strong><br />(-24 for losing)
+|raw|Test Techles1's rating: 1257 &rarr; <strong>1288</strong><br />(+31 for winning)

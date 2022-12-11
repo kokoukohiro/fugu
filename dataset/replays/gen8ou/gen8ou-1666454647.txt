@@ -1,0 +1,214 @@
+|j|☆Forwards
+|j|☆SpoonTheHarpoon
+|t:|1663412050
+|gametype|singles
+|player|p1|Forwards|rollerskater|1676
+|player|p2|SpoonTheHarpoon|bugcatcher-gen4dp|1718
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Tapu Koko|
+|poke|p1|Moltres-Galar|
+|poke|p1|Registeel|
+|poke|p1|Hawlucha, M|
+|poke|p1|Mew|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Heatran, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Scizor, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Cloyster, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Forwards)
+|
+|t:|1663412058
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1663412064
+|move|p1a: Landorus|Stealth Rock|p2a: Heatran
+|-sidestart|p2: SpoonTheHarpoon|move: Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Landorus
+|-damage|p1a: Landorus|28/100
+|-activate|p1a: Landorus|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Landorus|16/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1663412073
+|move|p1a: Landorus|Explosion|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|53/100
+|-enditem|p2a: Heatran|Air Balloon
+|faint|p1a: Landorus
+|move|p2a: Heatran|Magma Storm|p1: Landorus|[notarget]
+|-fail|p2a: Heatran
+|
+|upkeep
+|
+|t:|1663412075
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|3
+|
+|t:|1663412077
+|move|p1a: Tapu Koko|Taunt|p2a: Heatran
+|-start|p2a: Heatran|move: Taunt
+|move|p2a: Heatran|Earth Power|p1a: Tapu Koko
+|-supereffective|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|16/100
+|
+|upkeep
+|turn|4
+|
+|t:|1663412079
+|move|p1a: Tapu Koko|Light Screen|p1a: Tapu Koko
+|-sidestart|p1: Forwards|move: Light Screen
+|move|p2a: Heatran|Earth Power|p1a: Tapu Koko
+|-supereffective|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|0 fnt
+|faint|p1a: Tapu Koko
+|
+|upkeep
+|
+|t:|1663412082
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Electric Seed
+|turn|5
+|
+|t:|1663412083
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Heatran|Magma Storm|p1a: Hawlucha|[miss]
+|-miss|p2a: Heatran|p1a: Hawlucha
+|
+|-end|p2a: Heatran|move: Taunt
+|upkeep
+|turn|6
+|
+|t:|1663412085
+|move|p1a: Hawlucha|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1663412088
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-damage|p2a: Ninetales|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|7
+|
+|t:|1663412090
+|move|p1a: Hawlucha|Acrobatics|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hawlucha|94/100|[from] Hail
+|-fieldend|move: Electric Terrain
+|upkeep
+|j| 0WithdrawalSyndrom
+|
+|t:|1663412094
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1663412096
+|move|p1a: Hawlucha|Taunt|p2a: Garchomp
+|-start|p2a: Garchomp|move: Taunt
+|move|p2a: Garchomp|Scale Shot|p1a: Hawlucha
+|-damage|p1a: Hawlucha|76/100
+|-damage|p1a: Hawlucha|58/100
+|-damage|p1a: Hawlucha|40/100
+|-hitcount|p1a: Hawlucha|3
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hawlucha|33/100|[from] Hail
+|-damage|p2a: Garchomp|88/100|[from] Hail
+|-heal|p2a: Garchomp|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1663412100
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Hawlucha|Acrobatics|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hawlucha|27/100|[from] Hail
+|upkeep
+|
+|t:|1663412102
+|switch|p2a: Garchomp|Garchomp, F|94/100
+|-damage|p2a: Garchomp|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1663412104
+|move|p1a: Hawlucha|Close Combat|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|-damage|p1a: Hawlucha|15/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hawlucha|9/100|[from] Hail
+|upkeep
+|
+|t:|1663412108
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1663412110
+|move|p1a: Hawlucha|Acrobatics|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|none
+|-sideend|p1: Forwards|move: Light Screen
+|upkeep
+|
+|t:|1663412112
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|turn|12
+|
+|t:|1663412116
+|move|p1a: Hawlucha|Close Combat|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Cloyster
+|
+|win|Forwards
+|raw|Forwards's rating: 1676 &rarr; <strong>1698</strong><br />(+22 for winning)
+|raw|SpoonTheHarpoon's rating: 1718 &rarr; <strong>1696</strong><br />(-22 for losing)

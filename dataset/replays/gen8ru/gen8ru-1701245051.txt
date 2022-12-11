@@ -1,0 +1,156 @@
+|j|☆its oyster time
+|j|☆Galileo Glalie
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1667423883
+|gametype|singles
+|player|p1|its oyster time|birdkeeper-gen6|
+|player|p2|Galileo Glalie|elesa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] RU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Dragalge, M|
+|poke|p1|Arctovish|
+|poke|p1|Aurorus, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Abomasnow, F|
+|poke|p1|Crobat, F|
+|poke|p2|Drampa, F|
+|poke|p2|Blastoise, M|
+|poke|p2|Diancie|
+|poke|p2|Golurk|
+|poke|p2|Escavalier, F|
+|poke|p2|Crobat, M|
+|teampreview
+|inactive|its oyster time also wants the timer to be on.
+|c|☆Galileo Glalie|g;hf
+|c|☆its oyster time|u2
+|inactive|Galileo Glalie has 120 seconds left.
+|
+|t:|1667423913
+|start
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|t:|1667423922
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Escavalier|Escavalier, F|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Seismitoad|95/100|[from] Hail
+|-damage|p2a: Escavalier|94/100|[from] Hail
+|-heal|p2a: Escavalier|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1667423939
+|move|p1a: Seismitoad|Earthquake|p2a: Escavalier
+|-damage|p2a: Escavalier|32/100
+|move|p2a: Escavalier|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|59/100
+|-enditem|p1a: Seismitoad|Choice Band|[from] move: Knock Off|[of] p2a: Escavalier
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Seismitoad|53/100|[from] Hail
+|-damage|p2a: Escavalier|26/100|[from] Hail
+|-heal|p2a: Escavalier|32/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Galileo Glalie has 120 seconds left.
+|
+|t:|1667423983
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Seismitoad|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|70/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Seismitoad|47/100|[from] Hail
+|-damage|p2a: Blastoise|64/100|[from] Hail
+|-heal|p2a: Blastoise|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1667424000
+|move|p1a: Seismitoad|Power Whip|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|20/100
+|move|p2a: Blastoise|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Seismitoad|41/100 tox|[from] Hail
+|-damage|p2a: Blastoise|14/100|[from] Hail
+|-heal|p2a: Blastoise|20/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|35/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1667424009
+|switch|p2a: Crobat|Crobat, M|100/100
+|move|p1a: Seismitoad|Earthquake|p2a: Crobat
+|-immune|p2a: Crobat
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Crobat|94/100|[from] Hail
+|-damage|p1a: Seismitoad|29/100 tox|[from] Hail
+|-damage|p1a: Seismitoad|17/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1667424032
+|switch|p1a: Crobat|Crobat, F|100/100
+|move|p2a: Crobat|Sludge Bomb|p1a: Crobat
+|-resisted|p1a: Crobat
+|-damage|p1a: Crobat|83/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Crobat|88/100|[from] Hail
+|-damage|p1a: Crobat|77/100|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1667424039
+|switch|p2a: Diancie|Diancie|100/100
+|move|p1a: Crobat|U-turn|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|95/100
+|
+|t:|1667424048
+|switch|p1a: Arctovish|Arctovish|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Diancie|88/100|[from] Hail
+|-heal|p2a: Diancie|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Galileo Glalie has 120 seconds left.
+|
+|t:|1667424069
+|switch|p2a: Blastoise|Blastoise, M|20/100
+|move|p1a: Arctovish|Fishious Rend|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|-damage|p1a: Arctovish|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|inactive|Galileo Glalie has 90 seconds left.
+|c|☆Galileo Glalie|gg
+|-message|Galileo Glalie forfeited.
+|
+|win|its oyster time
+|n|☆its oyster time|itsoystertime
+|n|☆Galileo Glalie|galileoglalie

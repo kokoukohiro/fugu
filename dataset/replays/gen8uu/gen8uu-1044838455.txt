@@ -1,0 +1,316 @@
+|j|☆White Robin
+|j|☆start fresh 5
+|player|p1|White Robin|138|1467
+|player|p2|start fresh 5|266|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Haxorus, M|
+|poke|p1|Pangoro, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Dhelmise|
+|poke|p1|Hippowdon, F|
+|poke|p1|Barraskewda, M|
+|poke|p2|Avalugg, M|
+|poke|p2|Centiskorch, F|
+|poke|p2|Rhyperior, M|
+|poke|p2|Noivern, M|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Gardevoir, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by White Robin)
+|
+|start
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Swift Swim|[from] ability: Trace|[of] p1a: Barraskewda
+|turn|1
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|move|p1a: Barraskewda|Liquidation|p2a: Avalugg
+|-damage|p2a: Avalugg|62/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|move|p1a: Pangoro|Close Combat|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|37/100
+|-unboost|p1a: Pangoro|def|1
+|-unboost|p1a: Pangoro|spd|1
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|move|p2a: Noivern|Hurricane|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|-damage|p2a: Noivern|27/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Ribombee|Sticky Web|p2a: Noivern
+|-sidestart|p2: start fresh 5|move: Sticky Web
+|move|p2a: Noivern|Flamethrower|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|-damage|p2a: Noivern|17/100|[from] item: Life Orb
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|turn|6
+|
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|move|p1a: Pangoro|Bullet Punch|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|87/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Avalugg|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|move|p2a: Avalugg|Rapid Spin|p1a: Dhelmise
+|-immune|p1a: Dhelmise
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dhelmise|94/100|[from] Sandstorm
+|-damage|p2a: Avalugg|88/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p1a: Dhelmise|Anchor Shot|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|51/100
+|-activate|p2a: Avalugg|trapped
+|move|p2a: Avalugg|Avalanche|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dhelmise|25/100|[from] Sandstorm
+|-damage|p2a: Avalugg|45/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p1a: Dhelmise|Anchor Shot|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|7/100
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dhelmise|19/100|[from] Sandstorm
+|-damage|p2a: Avalugg|50/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p1a: Dhelmise|Anchor Shot|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|18/100
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|68/100
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|move|p1a: Dhelmise|Anchor Shot|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|32/100
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|82/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Dhelmise|Anchor Shot|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|47/100
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|97/100
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Dhelmise|Anchor Shot|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|64/100
+|move|p2a: Avalugg|Avalanche|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|turn|15
+|
+|switch|p2a: Noivern|Noivern, M|17/100
+|move|p1a: Pangoro|Close Combat|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|-unboost|p1a: Pangoro|def|1
+|-unboost|p1a: Pangoro|spd|1
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-activate|p2a: Gardevoir|move: Sticky Web
+|-unboost|p2a: Gardevoir|spe|1
+|-ability|p2a: Gardevoir|Scrappy|[from] ability: Trace|[of] p1a: Pangoro
+|turn|16
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|move|p2a: Gardevoir|Moonblast|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|17
+|
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|-activate|p2a: Rhyperior|move: Sticky Web
+|-unboost|p2a: Rhyperior|spe|1
+|move|p1a: Haxorus|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|23/100
+|
+|-heal|p2a: Rhyperior|29/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Haxorus|Earthquake|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|switch|p2a: Avalugg|Avalugg, M|64/100
+|turn|19
+|
+|move|p1a: Haxorus|Earthquake|p2a: Avalugg
+|-damage|p2a: Avalugg|36/100
+|move|p2a: Avalugg|Rapid Spin|p1a: Haxorus
+|-damage|p1a: Haxorus|84/100
+|-sideend|p2: start fresh 5|Sticky Web|[from] move: Rapid Spin|[of] p2a: Avalugg
+|-boost|p2a: Avalugg|spe|1
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|86/100
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Centiskorch|Centiskorch, F|87/100
+|move|p1a: Pangoro|Darkest Lariat|p2a: Centiskorch
+|-crit|p2a: Centiskorch
+|-damage|p2a: Centiskorch|0 fnt
+|faint|p2a: Centiskorch
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|22
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Crawdaunt|Liquidation|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|2/100
+|-unboost|p1a: Hippowdon|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crawdaunt|95/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|9/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Crawdaunt|Liquidation|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crawdaunt|89/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Pangoro|Pangoro, M|100/100
+|turn|24
+|
+|move|p1a: Pangoro|Earthquake|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|14/100
+|move|p2a: Crawdaunt|Liquidation|p1a: Pangoro
+|-damage|p1a: Pangoro|0 fnt
+|faint|p1a: Pangoro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crawdaunt|8/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M|84/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|25
+|
+|move|p1a: Haxorus|Close Combat|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|-unboost|p1a: Haxorus|def|1
+|-unboost|p1a: Haxorus|spd|1
+|faint|p2a: Crawdaunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Haxorus|78/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Mold Breaker|[from] ability: Trace|[of] p1a: Haxorus
+|-ability|p2a: Gardevoir|Mold Breaker
+|turn|26
+|-message|White Robin forfeited.
+|
+|win|start fresh 5
+|l|☆White Robin
+|raw|White Robin's rating: 1467 &rarr; <strong>1442</strong><br />(-25 for losing)
+|raw|start fresh 5's rating: 1374 &rarr; <strong>1399</strong><br />(+25 for winning)

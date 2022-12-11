@@ -1,0 +1,372 @@
+|j|☆2222mm
+|j|☆WenaWacho
+|player|p1|2222mm|wallace|1395
+|player|p2|WenaWacho|crasherwake|1351
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Clefable, F|
+|poke|p1|Zeraora|
+|poke|p1|Hydreigon, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Polteageist|
+|poke|p2|Espeon, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Zeraora|
+|poke|p2|Clefable, F|
+|poke|p2|Cinderace, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Espeon|Espeon, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WenaWacho)
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: WenaWacho|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|67/100
+|-enditem|p1a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Cinderace|[miss]
+|-miss|p1a: Cinderace|p2a: Cinderace
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Cinderace|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|83/100
+|
+|switch|p1a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-sideend|p2: WenaWacho|Stealth Rock|[silent]
+|-sidestart|p1: 2222mm|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Clefable
+|-start|p2a: Cinderace|typechange|Fire|[from] ability: Libero
+|-damage|p1a: Clefable|59/100
+|move|p1a: Clefable|Teleport|p1a: Clefable
+|
+|switch|p1a: Zeraora|Zeraora|100/100|[from]move: Teleport
+|-damage|p1a: Zeraora|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Zeraora|Plasma Fists|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|82/100
+|-fieldactivate|move: Ion Deluge
+|-damage|p1a: Zeraora|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Zeraora|59/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-damage|p1a: Zeraora|50/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|move|p1a: Zeraora|Close Combat|p2a: Espeon
+|-resisted|p2a: Espeon
+|-damage|p2a: Espeon|58/100
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|-damage|p1a: Zeraora|40/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Espeon|Psychic|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|55/100
+|-damage|p1a: Hydreigon|78/100|[from] item: Life Orb
+|move|p2a: Clefable|Moonblast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Clefable|61/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|82/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: WenaWacho|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Ferrothorn|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|64/100
+|-enditem|p1a: Excadrill|Focus Sash|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|22/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-damage|p1a: Excadrill|52/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|35/100|[silent]
+|upkeep
+|turn|14
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Excadrill|39/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|48/100|[silent]
+|upkeep
+|turn|15
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|61/100
+|-damage|p2a: Clefable|49/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Excadrill|Iron Head|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|55/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|27/100|[from] Leech Seed|[of] p2a: Clefable
+|-heal|p2a: Clefable|66/100|[silent]
+|upkeep
+|turn|17
+|
+|switch|p2a: Cinderace|Cinderace, F|83/100
+|move|p1a: Excadrill|Iron Head|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|26/100
+|
+|-damage|p1a: Excadrill|14/100|[from] Leech Seed|[of] p2a: Cinderace
+|-heal|p2a: Cinderace|41/100|[silent]
+|upkeep
+|turn|18
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-fail|p2a: Cinderace
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|63/100
+|
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Espeon|Espeon, M|58/100
+|-damage|p2a: Espeon|46/100|[from] Stealth Rock
+|move|p1a: Dragapult|Disable|p2a: Espeon
+|move|p2a: Espeon|Disable|p1a: Dragapult|[from]Magic Bounce
+|-start|p1a: Dragapult|Disable|Disable
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Espeon
+|move|p2a: Espeon|Dazzling Gleam|p1a: Dragapult|[miss]
+|-miss|p2a: Espeon|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|87/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Espeon|[from]lockedmove
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|-heal|p1a: Dragapult|93/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|66/100
+|-damage|p2a: Clefable|54/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Clefable
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p2a: Clefable|60/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Clefable|[from]lockedmove
+|-damage|p2a: Clefable|3/100
+|move|p2a: Clefable|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p2a: Clefable|53/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p2a: Clefable|59/100|[from] item: Leftovers
+|-end|p1a: Dragapult|Disable
+|upkeep
+|turn|26
+|
+|move|p1a: Dragapult|Disable|p2a: Clefable
+|-start|p2a: Clefable|Disable|Moonblast
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|65/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Clefable|Teleport|p2a: Clefable
+|
+|switch|p2a: Polteageist|Polteageist, shiny|100/100|[from]move: Teleport
+|-damage|p2a: Polteageist|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Polteageist|100/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Polteageist
+|move|p2a: Polteageist|Shadow Ball|p1a: Dragapult|[miss]
+|-miss|p2a: Polteageist|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Polteageist|[from]lockedmove
+|-supereffective|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Polteageist
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Dragapult|[miss]
+|-miss|p2a: Polteageist|p1a: Dragapult
+|move|p1a: Dragapult|Phantom Force|p2a: Polteageist|[from]lockedmove
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Stealth Rock
+|turn|32
+|-message|WenaWacho forfeited.
+|
+|win|2222mm
+|l|☆WenaWacho
+|raw|2222mm's rating: 1395 &rarr; <strong>1413</strong><br />(+18 for winning)
+|raw|WenaWacho's rating: 1351 &rarr; <strong>1333</strong><br />(-18 for losing)

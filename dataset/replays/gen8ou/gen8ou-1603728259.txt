@@ -1,0 +1,253 @@
+|j|☆AmygdalanResponse
+|j|☆IMSOMALD
+|t:|1656131840
+|gametype|singles
+|player|p1|AmygdalanResponse|marlon|
+|player|p2|IMSOMALD|n|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Blacephalon|
+|poke|p1|Tyranitar, F|
+|poke|p1|Mew|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Volcarona, F|
+|poke|p2|Clefable, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zeraora|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IMSOMALD)
+|c|☆AmygdalanResponse|gl hf
+|c|☆IMSOMALD|hf
+|
+|t:|1656131869
+|start
+|switch|p1a: Blacephalon|Blacephalon|100/100
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|1
+|
+|t:|1656131875
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zeraora|atk|1
+|move|p2a: Zeraora|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|77/100
+|-enditem|p1a: Landorus|Focus Sash|[from] move: Knock Off|[of] p2a: Zeraora
+|
+|upkeep
+|turn|2
+|
+|t:|1656131895
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: IMSOMALD|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1656131901
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|88/100|[from] Hail
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1656131908
+|switch|p1a: Blacephalon|Blacephalon|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Blacephalon
+|-resisted|p1a: Blacephalon
+|-damage|p1a: Blacephalon|48/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blacephalon|42/100|[from] Hail
+|-damage|p2a: Ferrothorn|88/100|[from] Hail
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1656131925
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Blacephalon|atk|1
+|move|p1a: Blacephalon|Trick|p2a: Landorus
+|-activate|p1a: Blacephalon|move: Trick|[of] p2a: Landorus
+|-item|p2a: Landorus|Choice Scarf|[from] move: Trick
+|-item|p1a: Blacephalon|Leftovers|[from] move: Trick
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Blacephalon|36/100|[from] Hail
+|-damage|p2a: Landorus|82/100|[from] Hail
+|-heal|p1a: Blacephalon|42/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1656131934
+|switch|p1a: Landorus|Landorus-Therian, M|77/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Stealth Rock|p1a: Landorus
+|-sidestart|p1: AmygdalanResponse|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Landorus|71/100|[from] Hail
+|-damage|p2a: Landorus|76/100|[from] Hail
+|upkeep
+|turn|7
+|
+|t:|1656131959
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|switch|p2a: Ferrothorn|Ferrothorn, F|94/100
+|-damage|p2a: Ferrothorn|88/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Mew|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1656131968
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1656131980
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1656131986
+|move|p2a: Volcarona|Bug Buzz|p1a: Mew
+|-supereffective|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|c|☆AmygdalanResponse|rip
+|c|☆IMSOMALD|sorry abt that
+|
+|t:|1656132010
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|11
+|
+|t:|1656132013
+|move|p2a: Volcarona|Bug Buzz|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|94/100|[from] Sandstorm
+|upkeep
+|c|☆AmygdalanResponse|ripp
+|c|☆IMSOMALD|wow
+|
+|t:|1656132026
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|turn|12
+|c|☆IMSOMALD|were u defensive at all
+|c|☆IMSOMALD|on ttar
+|c|☆AmygdalanResponse|I was not, so I don't think it mattered
+|inactive|AmygdalanResponse has 270 seconds left.
+|c|☆IMSOMALD|yea 0 bulk ttar dies straight up i think
+|
+|t:|1656132055
+|move|p2a: Volcarona|Psychic|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1656132060
+|switch|p1a: Landorus|Landorus-Therian, M|71/100
+|-damage|p1a: Landorus|58/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|turn|13
+|
+|t:|1656132062
+|move|p2a: Volcarona|Flamethrower|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volcarona|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1656132066
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|14
+|
+|t:|1656132069
+|move|p2a: Volcarona|Flamethrower|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Volcarona|76/100|[from] Hail
+|upkeep
+|
+|t:|1656132070
+|switch|p1a: Blacephalon|Blacephalon|42/100
+|-damage|p1a: Blacephalon|18/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1656132074
+|move|p2a: Volcarona|Psychic|p1a: Blacephalon
+|-damage|p1a: Blacephalon|0 fnt
+|faint|p1a: Blacephalon
+|
+|win|IMSOMALD
+|c|☆AmygdalanResponse|gg
+|c|☆IMSOMALD|gg
+|c|☆AmygdalanResponse|I think I need to get rid of the gimmicks on this team
+|c|☆AmygdalanResponse|So Tyranitar and Mew might have to go
+|c|☆IMSOMALD|tbf offensive volc is usually bad for offensive teams
+|c|☆AmygdalanResponse|I would have expected giga drain over bug buzz tbh
+|c|☆IMSOMALD|giga is ok i rlly like bug buzz as 4th
+|c|☆AmygdalanResponse|Maybe I need a different scarfer than Blacphalon
+|c|☆IMSOMALD|slams chomps and ttars

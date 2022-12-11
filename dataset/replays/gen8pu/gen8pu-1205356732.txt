@@ -1,0 +1,270 @@
+|j|☆Firifirific
+|j|☆1v1saregood
+|t:|1603064149
+|player|p1|Firifirific|artist|1503
+|player|p2|1v1saregood|preschooler|1312
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] PU
+|rated|
+|clearpoke
+|poke|p1|Lurantis, M|
+|poke|p1|Grookey, M|
+|poke|p1|Drifblim, M|
+|poke|p1|Avalugg, M|
+|poke|p1|Manectric, M|
+|poke|p1|Silvally-*|
+|poke|p2|Liepard, M|
+|poke|p2|Hitmonchan, M|
+|poke|p2|Drifblim, F|
+|poke|p2|Crustle, F|
+|poke|p2|Wartortle, F|
+|poke|p2|Lunatone|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1603064175
+|start
+|switch|p1a: Grookey|Grookey, M|100/100
+|switch|p2a: Liepard|Liepard, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Grookey
+|turn|1
+|
+|t:|1603064182
+|switch|p1a: Silvally|Silvally-Poison|100/100
+|move|p2a: Liepard|Knock Off|p1a: Silvally
+|-damage|p1a: Silvally|78/100
+|
+|-heal|p1a: Silvally|84/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 1v1saregood)
+|
+|t:|1603064190
+|move|p2a: Liepard|Copycat|p2a: Liepard
+|move|p2a: Liepard|Knock Off|p1a: Silvally|[from]Copycat
+|-damage|p1a: Silvally|59/100
+|move|p1a: Silvally|Toxic|p2a: Liepard
+|-status|p2a: Liepard|tox
+|
+|-heal|p1a: Silvally|65/100|[from] Grassy Terrain
+|-damage|p2a: Liepard|95/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1603064201
+|move|p2a: Liepard|Encore|p1a: Silvally
+|-start|p1a: Silvally|Encore
+|move|p1a: Silvally|Toxic|p2a: Liepard
+|-fail|p2a: Liepard|tox
+|
+|-heal|p2a: Liepard|100/100 tox|[from] Grassy Terrain
+|-heal|p1a: Silvally|71/100|[from] Grassy Terrain
+|-damage|p2a: Liepard|89/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1603064213
+|switch|p1a: Avalugg|Avalugg, M, shiny|100/100
+|move|p2a: Liepard|Copycat|p2a: Liepard
+|move|p2a: Liepard|Toxic|p1a: Avalugg|[from]Copycat
+|-status|p1a: Avalugg|tox
+|
+|-heal|p2a: Liepard|95/100 tox|[from] Grassy Terrain
+|-damage|p2a: Liepard|77/100 tox|[from] psn
+|-damage|p1a: Avalugg|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1603064223
+|move|p2a: Liepard|Knock Off|p1a: Avalugg
+|-crit|p1a: Avalugg
+|-damage|p1a: Avalugg|69/100 tox
+|-enditem|p1a: Avalugg|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Liepard
+|move|p1a: Avalugg|Body Press|p2a: Liepard
+|-supereffective|p2a: Liepard
+|-damage|p2a: Liepard|0 fnt
+|faint|p2a: Liepard
+|
+|-heal|p1a: Avalugg|75/100 tox|[from] Grassy Terrain
+|-damage|p1a: Avalugg|63/100 tox|[from] psn
+|upkeep
+|
+|t:|1603064233
+|switch|p2a: Lunatone|Lunatone|100/100
+|turn|6
+|
+|t:|1603064240
+|move|p2a: Lunatone|Meteor Beam||[still]
+|-prepare|p2a: Lunatone|Meteor Beam
+|-boost|p2a: Lunatone|spa|1
+|-enditem|p2a: Lunatone|Power Herb
+|-anim|p2a: Lunatone|Meteor Beam|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|upkeep
+|
+|t:|1603064248
+|switch|p1a: Lurantis|Lurantis, M|100/100
+|turn|7
+|
+|t:|1603064254
+|move|p1a: Lurantis|Grassy Glide|p2a: Lunatone
+|-supereffective|p2a: Lunatone
+|-damage|p2a: Lunatone|0 fnt
+|faint|p2a: Lunatone
+|
+|upkeep
+|
+|t:|1603064261
+|switch|p2a: Drifblim|Drifblim, F|100/100
+|turn|8
+|
+|t:|1603064268
+|switch|p1a: Manectric|Manectric, M|100/100
+|move|p2a: Drifblim|Substitute|p2a: Drifblim
+|-start|p2a: Drifblim|Substitute
+|-damage|p2a: Drifblim|75/100
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1603064276
+|move|p1a: Manectric|Thunderbolt|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-end|p2a: Drifblim|Substitute
+|move|p2a: Drifblim|Substitute|p2a: Drifblim
+|-start|p2a: Drifblim|Substitute
+|-damage|p2a: Drifblim|50/100
+|-enditem|p2a: Drifblim|Sitrus Berry|[eat]
+|-heal|p2a: Drifblim|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|10
+|
+|t:|1603064285
+|move|p2a: Drifblim|Acrobatics|p1a: Manectric
+|-resisted|p1a: Manectric
+|-damage|p1a: Manectric|72/100
+|move|p1a: Manectric|Thunderbolt|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-end|p2a: Drifblim|Substitute
+|
+|upkeep
+|turn|11
+|
+|t:|1603064293
+|move|p2a: Drifblim|Destiny Bond|p2a: Drifblim
+|-singlemove|p2a: Drifblim|Destiny Bond
+|move|p1a: Manectric|Thunderbolt|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|-activate|p2a: Drifblim|move: Destiny Bond
+|faint|p1a: Manectric
+|
+|upkeep
+|
+|t:|1603064302
+|switch|p1a: Grookey|Grookey, M|100/100
+|switch|p2a: Crustle|Crustle, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Grookey
+|turn|12
+|
+|t:|1603064310
+|move|p1a: Grookey|U-turn|p2a: Crustle
+|-damage|p2a: Crustle|83/100
+|
+|t:|1603064313
+|switch|p1a: Drifblim|Drifblim, M|100/100|[from]move: U-turn
+|-enditem|p1a: Drifblim|Grassy Seed
+|-boost|p1a: Drifblim|def|1|[from] item: Grassy Seed
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|-enditem|p2a: Crustle|White Herb
+|-clearnegativeboost|p2a: Crustle|[silent]
+|
+|-heal|p2a: Crustle|89/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1603064336
+|move|p1a: Drifblim|Destiny Bond|p1a: Drifblim
+|-singlemove|p1a: Drifblim|Destiny Bond
+|move|p2a: Crustle|Rock Blast|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|51/100
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|-hitcount|p1a: Drifblim|2
+|faint|p1a: Drifblim
+|-activate|p1a: Drifblim|move: Destiny Bond
+|faint|p2a: Crustle
+|
+|upkeep
+|
+|t:|1603064348
+|switch|p1a: Lurantis|Lurantis, M|100/100
+|switch|p2a: Wartortle|Wartortle, F|100/100
+|turn|14
+|
+|t:|1603064353
+|move|p2a: Wartortle|Shell Smash|p2a: Wartortle
+|-unboost|p2a: Wartortle|def|1
+|-unboost|p2a: Wartortle|spd|1
+|-boost|p2a: Wartortle|atk|2
+|-boost|p2a: Wartortle|spa|2
+|-boost|p2a: Wartortle|spe|2
+|move|p1a: Lurantis|Superpower|p2a: Wartortle
+|-damage|p2a: Wartortle|38/100
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|def|1
+|
+|-heal|p2a: Wartortle|44/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1603064365
+|move|p1a: Lurantis|Grassy Glide|p2a: Wartortle
+|-supereffective|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|upkeep
+|
+|t:|1603064370
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100
+|turn|16
+|
+|t:|1603064373
+|move|p1a: Lurantis|Grassy Glide|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|14/100
+|move|p2a: Hitmonchan|Fire Punch|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|56/100
+|
+|-heal|p2a: Hitmonchan|20/100|[from] Grassy Terrain
+|-heal|p1a: Lurantis|62/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|-message|1v1saregood forfeited.
+|
+|win|Firifirific
+|l|☆1v1saregood
+|raw|Firifirific's rating: 1503 &rarr; <strong>1513</strong><br />(+10 for winning)
+|raw|1v1saregood's rating: 1321 &rarr; <strong>1310</strong><br />(-11 for losing)

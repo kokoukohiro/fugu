@@ -1,0 +1,80 @@
+|j|☆madnite
+|j|☆eclecticempiricist
+|player|p1|madnite|218|1279
+|player|p2|eclecticempiricist|1|1342
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Appletun, M|
+|poke|p1|Rotom|
+|poke|p1|Mantine, F|
+|poke|p1|Silvally-*|
+|poke|p1|Gigalith, F|
+|poke|p1|Lanturn, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Swoobat, F|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Rotom-Fan|
+|poke|p2|Thievul, F|
+|poke|p2|Gigalith, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eclecticempiricist)
+|
+|start
+|switch|p1a: Mantine|Mantine, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|move|p2a: Indeedee|Trick|p1a: Mantine
+|-activate|p2a: Indeedee|move: Trick|[of] p1a: Mantine
+|-item|p1a: Mantine|Choice Scarf|[from] move: Trick
+|-item|p2a: Indeedee|Life Orb|[from] move: Trick
+|move|p1a: Mantine|Hydro Pump|p2a: Indeedee
+|-damage|p2a: Indeedee|51/100
+|
+|upkeep
+|turn|2
+|inactive|eclecticempiricist has 120 seconds left.
+|
+|switch|p2a: Swoobat|Swoobat, F|100/100
+|-enditem|p2a: Swoobat|Psychic Seed
+|-boost|p2a: Swoobat|spd|2|[from] item: Psychic Seed
+|move|p1a: Mantine|Hydro Pump|p2a: Swoobat
+|-damage|p2a: Swoobat|51/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Rotom|Rotom|100/100
+|move|p2a: Swoobat|Calm Mind|p2a: Swoobat
+|-boost|p2a: Swoobat|spa|2
+|-boost|p2a: Swoobat|spd|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Rotom|Trick|p2a: Swoobat
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Swoobat
+|-item|p2a: Swoobat|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Rotom|Choice Scarf|[silent]|[from] move: Trick
+|move|p2a: Swoobat|Stored Power|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|-message|madnite forfeited.
+|
+|win|eclecticempiricist
+|l|☆madnite

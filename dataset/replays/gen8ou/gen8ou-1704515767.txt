@@ -1,0 +1,416 @@
+|j|☆Samurhi
+|j|☆minimax_ai
+|t:|1667783192
+|gametype|singles
+|player|p1|Samurhi|2|1498
+|player|p2|minimax_ai|169|1495
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Ferrothorn, F|
+|poke|p1|Zeraora|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Barraskewda, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Goodra, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, M|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1667783206
+|start
+|switch|p1a: Zeraora|Zeraora|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1667783215
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Zeraora|atk|1
+|move|p1a: Zeraora|Knock Off|p2a: landorustherian
+|-damage|p2a: landorustherian|80/100
+|-enditem|p2a: landorustherian|Leftovers|[from] move: Knock Off|[of] p1a: Zeraora
+|
+|upkeep
+|turn|2
+|
+|t:|1667783223
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: landorustherian|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100
+|-damage|p2a: landorustherian|68/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|t:|1667783223
+|switch|p2a: Heatran|Heatran, M|100/100|[from]move: U-turn
+|-item|p2a: Heatran|Air Balloon
+|
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1667783240
+|switch|p1a: Goodra|Goodra, M|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|88/100
+|-activate|p1a: Goodra|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Goodra|75/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1667783251
+|move|p2a: Heatran|Magma Storm|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|62/100
+|move|p1a: Goodra|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|84/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-damage|p1a: Goodra|50/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1667783259
+|move|p2a: Heatran|Magma Storm|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|38/100
+|move|p1a: Goodra|Rain Dance|p1a: Goodra
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Goodra|26/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1667783263
+|move|p2a: Heatran|Magma Storm|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|19/100
+|move|p1a: Goodra|Rest|p1a: Goodra
+|-status|p1a: Goodra|slp|[from] move: Rest
+|-heal|p1a: Goodra|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: Goodra|ability: Hydration
+|-curestatus|p1a: Goodra|slp|[msg]
+|-damage|p1a: Goodra|88/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1667783275
+|move|p2a: Heatran|Magma Storm|p1a: Goodra|[miss]
+|-miss|p2a: Heatran|p1a: Goodra
+|move|p1a: Goodra|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|68/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Goodra|Magma Storm|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1667783280
+|move|p2a: Heatran|Magma Storm|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|82/100
+|-activate|p1a: Goodra|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Goodra|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|52/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Goodra|70/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1667783286
+|move|p2a: Heatran|Stealth Rock|p1a: Goodra
+|-sidestart|p1: Samurhi|move: Stealth Rock
+|move|p1a: Goodra|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|37/100
+|
+|-weather|none
+|-damage|p1a: Goodra|58/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1667783290
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Goodra|Rain Dance|p1a: Goodra
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Goodra|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|11
+|
+|t:|1667783306
+|switch|p1a: Ferrothorn|Ferrothorn, F|95/100
+|-damage|p1a: Ferrothorn|88/100|[from] Stealth Rock
+|move|p2a: Melmetal|Ice Punch|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-damage|p2a: Melmetal|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1667783315
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tangrowth
+|-sidestart|p2: minimax_ai|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1667783319
+|move|p2a: Tangrowth|Sleep Powder|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Tangrowth
+|-damage|p2a: Tangrowth|89/100
+|-damage|p1a: Ferrothorn|63/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-enditem|p2a: Tangrowth|Rocky Helmet|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|69/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1667783329
+|move|p2a: Tangrowth|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|22/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Tangrowth
+|-crit|p2a: Tangrowth
+|-damage|p2a: Tangrowth|78/100
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|28/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1667783339
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Tangrowth|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|58/100
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Tangrowth
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1667783353
+|switch|p2a: Melmetal|Melmetal|88/100
+|-damage|p2a: Melmetal|82/100|[from] Stealth Rock
+|move|p1a: Pelipper|U-turn|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|79/100
+|
+|t:|1667783367
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1667783373
+|move|p1a: Tornadus|Focus Blast|p2a: Melmetal|[miss]
+|-miss|p1a: Tornadus|p2a: Melmetal
+|move|p2a: Melmetal|Double Iron Bash|p1a: Tornadus
+|-damage|p1a: Tornadus|41/100
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-hitcount|p1: Tornadus|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1667783386
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1667783388
+|move|p1a: Barraskewda|Flip Turn|p2a: Melmetal
+|-damage|p2a: Melmetal|34/100
+|
+|t:|1667783396
+|switch|p1a: Ferrothorn|Ferrothorn, F|28/100|[from]move: Flip Turn
+|-damage|p1a: Ferrothorn|22/100|[from] Stealth Rock
+|move|p2a: Melmetal|Double Iron Bash|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|11/100
+|-damage|p2a: Melmetal|21/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Melmetal|9/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|-hitcount|p1: Ferrothorn|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1667783419
+|switch|p1a: Barraskewda|Barraskewda, M|88/100
+|-damage|p1a: Barraskewda|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1667783423
+|switch|p2a: Tangrowth|Tangrowth, M|100/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|move|p1a: Barraskewda|Flip Turn|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|67/100
+|
+|t:|1667783432
+|switch|p1a: Goodra|Goodra, M|58/100|[from]move: Flip Turn
+|-damage|p1a: Goodra|45/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1667783451
+|switch|p2a: Melmetal|Melmetal|9/100
+|-damage|p2a: Melmetal|3/100|[from] Stealth Rock
+|move|p1a: Goodra|Dragon Pulse|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|0 fnt
+|faint|p2a: Melmetal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1667783451
+|switch|p2a: Weavile|Weavile, M|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|21
+|
+|t:|1667783467
+|switch|p1a: Pelipper|Pelipper, M|58/100
+|-damage|p1a: Pelipper|33/100|[from] Stealth Rock
+|move|p2a: Weavile|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1667783473
+|switch|p1a: Barraskewda|Barraskewda, M|76/100
+|-damage|p1a: Barraskewda|64/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1667783478
+|switch|p2a: Tangrowth|Tangrowth, M|99/100
+|-damage|p2a: Tangrowth|88/100|[from] Stealth Rock
+|move|p1a: Barraskewda|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|51/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|t:|1667783496
+|switch|p1a: Goodra|Goodra, M|45/100
+|-damage|p1a: Goodra|33/100|[from] Stealth Rock
+|switch|p2a: landorustherian|Landorus-Therian, M|68/100
+|-damage|p2a: landorustherian|56/100|[from] Stealth Rock
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Goodra|atk|1
+|
+|upkeep
+|turn|24
+|
+|t:|1667783504
+|move|p2a: landorustherian|Earthquake|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|upkeep
+|
+|t:|1667783508
+|switch|p1a: Barraskewda|Barraskewda, M|64/100
+|-damage|p1a: Barraskewda|52/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1667783515
+|switch|p2a: Tangrowth|Tangrowth, M|85/100
+|-damage|p2a: Tangrowth|72/100|[from] Stealth Rock
+|move|p1a: Barraskewda|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|40/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|
+|upkeep
+|turn|26
+|
+|t:|1667783521
+|move|p1a: Barraskewda|Close Combat|p2a: Tangrowth
+|-damage|p2a: Tangrowth|3/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|move|p2a: Tangrowth|Giga Drain|p1a: Barraskewda
+|-supereffective|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|-heal|p2a: Tangrowth|20/100|[from] drain|[of] p1a: Barraskewda
+|faint|p1a: Barraskewda
+|
+|upkeep
+|
+|t:|1667783524
+|switch|p1a: Zeraora|Zeraora|100/100
+|turn|27
+|
+|t:|1667783527
+|switch|p2a: landorustherian|Landorus-Therian, M|56/100
+|-damage|p2a: landorustherian|43/100|[from] Stealth Rock
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Zeraora|atk|1
+|move|p1a: Zeraora|Knock Off|p2a: landorustherian
+|-damage|p2a: landorustherian|30/100
+|
+|upkeep
+|turn|28
+|
+|t:|1667783532
+|move|p1a: Zeraora|Knock Off|p2a: landorustherian
+|-damage|p2a: landorustherian|16/100
+|move|p2a: landorustherian|Earthquake|p1a: Zeraora
+|-supereffective|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|faint|p1a: Zeraora
+|
+|win|minimax_ai
+|raw|Samurhi's rating: 1516 &rarr; <strong>1495</strong><br />(-21 for losing)
+|raw|minimax_ai's rating: 1495 &rarr; <strong>1516</strong><br />(+21 for winning)
+|c|☆minimax_ai|gg

@@ -1,0 +1,436 @@
+|j|☆Kisshot
+|j|☆breadspace
+|t:|1664899967
+|gametype|singles
+|player|p1|Kisshot|elesa|1182
+|player|p2|breadspace|sabrina|1252
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Umbreon, F|
+|poke|p1|Primarina, F|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Tangrowth, F|
+|poke|p2|Skarmory, M|
+|poke|p2|Chansey, F|
+|poke|p2|Slowking, F|
+|poke|p2|Zarude-Dada|
+|poke|p2|Tentacruel, F|
+|poke|p2|Krookodile, M|
+|teampreview
+|
+|t:|1664899974
+|start
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Keldeo|atk|1
+|turn|1
+|
+|t:|1664899982
+|switch|p2a: Slowking|Slowking, F|100/100
+|move|p1a: Keldeo|Flip Turn|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|95/100
+|
+|t:|1664899988
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100|[from]move: Flip Turn
+|
+|upkeep
+|turn|2
+|
+|t:|1664899992
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Skarmory
+|-damage|p2a: Skarmory|42/100
+|-damage|p1a: Crawdaunt|84/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-enditem|p2a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p1a: Crawdaunt
+|
+|upkeep
+|turn|3
+|
+|t:|1664899999
+|move|p1a: Crawdaunt|Knock Off|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|t:|1664900008
+|switch|p2a: Zarude|Zarude-Dada|100/100
+|turn|4
+|
+|t:|1664900013
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Zarude|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|72/100
+|
+|t:|1664900019
+|switch|p2a: Tentacruel|Tentacruel, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1664900034
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Umbreon
+|-damage|p1a: Umbreon|78/100
+|
+|-heal|p1a: Umbreon|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1664900043
+|move|p2a: Tentacruel|Toxic|p1a: Umbreon
+|-status|p1a: Umbreon|tox
+|-activate|p1a: Umbreon|ability: Synchronize
+|-immune|p2a: Tentacruel
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|91/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|85/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1664900052
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Umbreon|atk|1
+|switch|p1a: Crawdaunt|Crawdaunt, M|84/100
+|
+|-heal|p1a: Crawdaunt|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|8
+|
+|t:|1664900061
+|move|p2a: Krookodile|Earthquake|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|45/100
+|move|p1a: Crawdaunt|Crabhammer|p2a: Krookodile|[miss]
+|-miss|p1a: Crawdaunt|p2a: Krookodile
+|
+|upkeep
+|turn|9
+|
+|t:|1664900069
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Krookodile|Earthquake|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|89/100
+|
+|upkeep
+|turn|10
+|
+|t:|1664900075
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|move|p1a: Tangrowth|Knock Off|p2a: Tentacruel
+|-damage|p2a: Tentacruel|65/100
+|-enditem|p2a: Tentacruel|Black Sludge|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|upkeep
+|turn|11
+|
+|t:|1664900083
+|switch|p1a: Umbreon|Umbreon, F|85/100 tox
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Umbreon
+|-damage|p1a: Umbreon|64/100 tox
+|
+|-heal|p1a: Umbreon|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|64/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1664900092
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Umbreon|atk|1
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|58/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1664900103
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Krookodile|Earthquake|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|100/100 tox|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Umbreon|82/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1664900113
+|move|p2a: Krookodile|Stealth Rock|p1a: Umbreon
+|-sidestart|p1: Kisshot|move: Stealth Rock
+|move|p1a: Umbreon|Heal Bell|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Heal Bell
+|-curestatus|p1a: Umbreon|tox|[msg]
+|
+|-heal|p1a: Umbreon|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1664900120
+|move|p2a: Krookodile|Taunt|p1a: Umbreon
+|-start|p1a: Umbreon|move: Taunt
+|cant|p1a: Umbreon|move: Taunt|Wish
+|
+|-heal|p1a: Umbreon|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1664900129
+|move|p2a: Krookodile|Knock Off|p1a: Umbreon
+|-resisted|p1a: Umbreon
+|-damage|p1a: Umbreon|82/100
+|-enditem|p1a: Umbreon|Leftovers|[from] move: Knock Off|[of] p2a: Krookodile
+|move|p1a: Umbreon|Foul Play|p2a: Krookodile
+|-resisted|p2a: Krookodile
+|-damage|p2a: Krookodile|82/100
+|
+|-heal|p2a: Krookodile|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1664900140
+|switch|p1a: Primarina|Primarina, F|100/100
+|-damage|p1a: Primarina|88/100|[from] Stealth Rock
+|move|p2a: Krookodile|Earthquake|p1a: Primarina
+|-damage|p1a: Primarina|49/100
+|
+|-heal|p2a: Krookodile|94/100|[from] item: Leftovers
+|-heal|p1a: Primarina|55/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1664900152
+|switch|p2a: Chansey|Chansey, F|100/100
+|switch|p1a: Crawdaunt|Crawdaunt, M|45/100
+|-damage|p1a: Crawdaunt|33/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|t:|1664900159
+|switch|p2a: Zarude|Zarude-Dada|100/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|48/100
+|-enditem|p2a: Zarude|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Crawdaunt
+|
+|upkeep
+|turn|20
+|
+|t:|1664900167
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Zarude|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|61/100
+|
+|t:|1664900171
+|switch|p2a: Tentacruel|Tentacruel, F|65/100|[from]move: U-turn
+|
+|upkeep
+|turn|21
+|
+|t:|1664900177
+|switch|p1a: Umbreon|Umbreon, F|82/100
+|-damage|p1a: Umbreon|70/100|[from] Stealth Rock
+|move|p2a: Tentacruel|Toxic|p1a: Umbreon
+|-status|p1a: Umbreon|tox
+|-activate|p1a: Umbreon|ability: Synchronize
+|-immune|p2a: Tentacruel
+|
+|-damage|p1a: Umbreon|64/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1664900188
+|switch|p2a: Krookodile|Krookodile, M|94/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Umbreon|atk|1
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Krookodile|99/100|[from] item: Leftovers
+|-damage|p1a: Umbreon|52/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1664900204
+|switch|p1a: Crawdaunt|Crawdaunt, M|33/100
+|-damage|p1a: Crawdaunt|21/100|[from] Stealth Rock
+|move|p2a: Krookodile|Earthquake|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|-heal|p2a: Krookodile|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1664900216
+|switch|p1a: Tangrowth|Tangrowth, F|95/100
+|-damage|p1a: Tangrowth|82/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1664900222
+|switch|p2a: Zarude|Zarude-Dada|48/100
+|move|p1a: Tangrowth|Power Whip|p2a: Zarude|[miss]
+|-miss|p1a: Tangrowth|p2a: Zarude
+|
+|upkeep
+|turn|25
+|
+|t:|1664900231
+|move|p2a: Zarude|Jungle Healing|p2a: Zarude
+|-heal|p2a: Zarude|73/100
+|move|p1a: Tangrowth|Power Whip|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|52/100
+|
+|upkeep
+|turn|26
+|
+|t:|1664900240
+|move|p2a: Zarude|Jungle Healing|p2a: Zarude
+|-heal|p2a: Zarude|77/100
+|move|p1a: Tangrowth|Sludge Bomb|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|36/100
+|-status|p2a: Zarude|psn
+|
+|-damage|p2a: Zarude|24/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1664900249
+|move|p2a: Zarude|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|56/100
+|
+|t:|1664900252
+|switch|p2a: Tentacruel|Tentacruel, F|65/100|[from]move: U-turn
+|move|p1a: Tangrowth|Power Whip|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|
+|t:|1664900258
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Tangrowth|atk|1
+|turn|28
+|
+|t:|1664900269
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|move|p2a: Krookodile|Knock Off|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|72/100
+|-ability|p1a: Keldeo|Justified|boost
+|-boost|p1a: Keldeo|atk|1
+|-enditem|p1a: Keldeo|Choice Specs|[from] move: Knock Off|[of] p2a: Krookodile
+|
+|upkeep
+|turn|29
+|
+|t:|1664900278
+|switch|p2a: Slowking|Slowking, F|100/100
+|move|p1a: Keldeo|Flip Turn|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|90/100
+|
+|t:|1664900283
+|switch|p1a: Tangrowth|Tangrowth, F|90/100|[from]move: Flip Turn
+|-damage|p1a: Tangrowth|77/100|[from] Stealth Rock
+|
+|upkeep
+|turn|30
+|
+|t:|1664900288
+|move|p1a: Tangrowth|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|40/100
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tangrowth
+|move|p2a: Slowking|Future Sight|p1a: Tangrowth
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|31
+|
+|t:|1664900295
+|switch|p2a: Zarude|Zarude-Dada|24/100 psn
+|move|p1a: Tangrowth|Power Whip|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|4/100 psn
+|
+|-damage|p2a: Zarude|0 fnt|[from] psn
+|faint|p2a: Zarude
+|upkeep
+|
+|t:|1664900298
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Tangrowth|atk|1
+|turn|32
+|
+|t:|1664900309
+|switch|p1a: Umbreon|Umbreon, F|52/100 tox
+|-damage|p1a: Umbreon|39/100 tox|[from] Stealth Rock
+|move|p2a: Krookodile|Knock Off|p1a: Umbreon
+|-resisted|p1a: Umbreon
+|-damage|p1a: Umbreon|32/100 tox
+|
+|-end|p1a: Umbreon|move: Future Sight
+|-immune|p1a: Umbreon
+|-damage|p1a: Umbreon|26/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1664900324
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|move|p2a: Krookodile|Earthquake|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|76/100
+|
+|upkeep
+|turn|34
+|
+|t:|1664900331
+|switch|p2a: Slowking|Slowking, F|73/100
+|move|p1a: Tangrowth|Power Whip|p2a: Slowking|[miss]
+|-miss|p1a: Tangrowth|p2a: Slowking
+|
+|upkeep
+|turn|35
+|
+|t:|1664900337
+|move|p1a: Tangrowth|Power Whip|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|-message|breadspace forfeited.
+|
+|win|Kisshot
+|raw|Kisshot's rating: 1182 &rarr; <strong>1212</strong><br />(+30 for winning)
+|raw|breadspace's rating: 1252 &rarr; <strong>1222</strong><br />(-30 for losing)
+|l|☆breadspace

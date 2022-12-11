@@ -1,0 +1,122 @@
+|j|☆Delphox News
+|j|☆vimomi
+|player|p1|Delphox News|lucy-gen3|1471
+|player|p2|vimomi|steven|1274
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Silvally-*|
+|poke|p1|Froslass, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Bewear, F|
+|poke|p1|Duraludon, F|
+|poke|p1|Ninetales, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Charizard, F|
+|poke|p2|Vileplume, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Passimian, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Passimian|Passimian, M|100/100
+|turn|1
+|
+|move|p2a: Passimian|Knock Off|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-enditem|p1a: Froslass|Focus Sash
+|-damage|p1a: Froslass|1/100
+|-start|p2a: Passimian|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Froslass
+|move|p1a: Froslass|Spikes|p2a: Passimian
+|-sidestart|p2: vimomi|Spikes
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Spikes
+|move|p1a: Froslass|Spikes|p2a: Vaporeon
+|-sidestart|p2: vimomi|Spikes
+|
+|-heal|p2a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Froslass|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|60/100
+|move|p2a: Vaporeon|Scald|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-start|p2a: Vaporeon|Disable|Scald|[from] ability: Cursed Body|[of] p1a: Froslass
+|faint|p1a: Froslass
+|
+|-heal|p2a: Vaporeon|66/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Dragon|100/100
+|turn|4
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Passimian|Passimian, M|100/100
+|-damage|p2a: Passimian|84/100|[from] Spikes
+|move|p1a: Silvally|Flame Charge|p2a: Passimian
+|-damage|p2a: Passimian|54/100
+|-boost|p1a: Silvally|spe|1
+|
+|-heal|p2a: Passimian|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|6
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Passimian
+|-damage|p2a: Passimian|0 fnt
+|faint|p2a: Passimian
+|
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-damage|p2a: Ninetales|84/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|7
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|-damage|p2a: Vileplume|84/100|[from] Spikes
+|turn|8
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆vimomi|gg
+|-message|vimomi forfeited.
+|
+|win|Delphox News
+|l|☆vimomi

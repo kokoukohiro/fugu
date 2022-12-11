@@ -1,0 +1,162 @@
+|j|☆madness10
+|j|☆MHBDS
+|player|p1|madness10|2|1202
+|player|p2|MHBDS|gentleman|1209
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Hatterene, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Runerigus, F|
+|poke|p2|Copperajah, F|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Musharna, M|
+|poke|p2|Conkeldurr, F|
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Runerigus|Runerigus, F|100/100
+|turn|1
+|
+|move|p2a: Runerigus|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: madness10|move: Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Runerigus
+|-sidestart|p2: MHBDS|Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Runerigus
+|-sidestart|p2: MHBDS|Spikes
+|move|p2a: Runerigus|Trick Room|p2a: Runerigus
+|-fieldstart|move: Trick Room|[of] p2a: Runerigus
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|84/100|[from] Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Hatterene
+|move|p2a: Hatterene|Spikes|p1a: Ferrothorn|[from]Magic Bounce
+|-sidestart|p1: madness10|Spikes
+|
+|-heal|p2a: Hatterene|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|65/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldend|move: Trick Room
+|
+|-heal|p2a: Hatterene|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Spikes
+|-damage|p1a: Hatterene|76/100|[from] Stealth Rock
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|77/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Hatterene|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|15/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|83/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|21/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Hatterene
+|-damage|p1a: Hatterene|2/100
+|-unboost|p1a: Hatterene|spa|1
+|move|p1a: Hatterene|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|61/100
+|-heal|p1a: Hatterene|19/100|[from] drain|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|67/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|25/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|88/100|[from] Spikes
+|-damage|p1a: Ferrothorn|82/100|[from] Stealth Rock
+|move|p2a: Hatterene|Mystical Fire|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Hatterene|73/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|25/100
+|-damage|p1a: Hatterene|12/100|[from] Spikes
+|-damage|p1a: Hatterene|0 fnt|[from] Stealth Rock
+|faint|p1a: Hatterene
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|-damage|p1a: Obstagoon|88/100|[from] Spikes
+|-damage|p1a: Obstagoon|76/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|-damage|p1a: Excadrill|85/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|-start|p2a: Hatterene|Dynamax
+|-formechange|p2a: Hatterene|Hatterene-Gmax|
+|-heal|p2a: Hatterene|73/100|[silent]
+|move|p2a: Hatterene|G-Max Smite|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|35/100
+|-start|p1a: Excadrill|confusion
+|
+|-heal|p2a: Hatterene|75/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|-activate|p1a: Excadrill|confusion
+|-damage|p1a: Excadrill|16/100|[from] confusion
+|move|p2a: Hatterene|Max Flare|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-weather|SunnyDay
+|faint|p1a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Hatterene|78/100|[from] item: Leftovers
+|upkeep
+|-message|madness10 forfeited.
+|
+|win|MHBDS
+|l|☆madness10
+|raw|madness10's rating: 1202 &rarr; <strong>1177</strong><br />(-25 for losing)
+|raw|MHBDS's rating: 1209 &rarr; <strong>1234</strong><br />(+25 for winning)

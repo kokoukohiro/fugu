@@ -1,0 +1,156 @@
+|j|☆El Pipi 37
+|j|☆madness10
+|player|p1|El Pipi 37|lucas|1531
+|player|p2|madness10|170|1593
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Crawdaunt, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Toxicroak, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Gengar, M|
+|poke|p1|Aegislash, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Cinderace, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by El Pipi 37)
+|
+|start
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|turn|1
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Aegislash|King's Shield||[still]
+|-fail|p1a: Aegislash
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|71/100
+|-enditem|p1a: Aegislash|Weakness Policy
+|-boost|p1a: Aegislash|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Aegislash|spa|2|[from] item: Weakness Policy
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|59/100
+|-unboost|p2a: Mandibuzz|spd|1
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|68/100
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from]move: U-turn
+|move|p1a: Aegislash|Flash Cannon|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|53/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|5
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Seismitoad|Stealth Rock|p1a: Aegislash
+|-sidestart|p1: El Pipi 37|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|27/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|19/100
+|
+|-heal|p2a: Seismitoad|25/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Aegislash|Shadow Sneak|p2a: Togekiss
+|-damage|p2a: Togekiss|66/100
+|
+|-heal|p2a: Togekiss|73/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Togekiss
+|-damage|p2a: Togekiss|36/100
+|move|p2a: Togekiss|Flamethrower|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Togekiss|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Seismitoad|Seismitoad, F|25/100
+|move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|1
+|-boost|p1a: Crawdaunt|spe|1
+|
+|-heal|p2a: Seismitoad|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|11
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Crawdaunt|[miss]
+|-miss|p2a: Dragapult|p1a: Crawdaunt
+|move|p1a: Crawdaunt|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|faint|p2a: Dragapult
+|
+|upkeep
+|-message|madness10 forfeited.
+|
+|win|El Pipi 37
+|l|☆madness10
+|raw|El Pipi 37's rating: 1531 &rarr; <strong>1555</strong><br />(+24 for winning)
+|raw|madness10's rating: 1594 &rarr; <strong>1570</strong><br />(-24 for losing)

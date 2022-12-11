@@ -1,0 +1,290 @@
+|j|☆Geenobe
+|j|☆minimax_ai
+|t:|1662771405
+|gametype|singles
+|player|p1|Geenobe|169|1510
+|player|p2|minimax_ai|lusamine-nihilego|1518
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Slowbro, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Blacephalon|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Tapu Fini|
+|poke|p1|Melmetal|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Tangrowth, F|
+|poke|p2|Melmetal|
+|teampreview
+|c|☆minimax_ai|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minimax_ai)
+|
+|t:|1662771438
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|turn|1
+|
+|t:|1662771448
+|move|p1a: Dragapult|U-turn|p2a: landorustherian
+|-resisted|p2a: landorustherian
+|-damage|p2a: landorustherian|95/100
+|
+|t:|1662771457
+|switch|p1a: Tapu Fini|Tapu Fini|100/100|[from]move: U-turn
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: landorustherian|Toxic|p1a: Tapu Fini|[miss]
+|-miss|p2a: landorustherian|p1a: Tapu Fini
+|
+|-heal|p2a: landorustherian|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1662771469
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|move|p1a: Tapu Fini|Taunt|p2a: rotomwash
+|-start|p2a: rotomwash|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|t:|1662771481
+|switch|p2a: Melmetal|Melmetal|100/100
+|switch|p1a: Melmetal|Melmetal|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1662771486
+|switch|p2a: rotomwash|Rotom-Wash|100/100
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1662771501
+|move|p2a: rotomwash|Nasty Plot|p2a: rotomwash
+|-boost|p2a: rotomwash|spa|2
+|move|p1a: Slowbro|Teleport|p1a: Slowbro
+|
+|t:|1662771520
+|switch|p1a: Blacephalon|Blacephalon|100/100|[from]move: Teleport
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+|
+|t:|1662771522
+|move|p1a: Blacephalon|Trick|p2a: rotomwash
+|-activate|p1a: Blacephalon|move: Trick|[of] p2a: rotomwash
+|-item|p2a: rotomwash|Choice Scarf|[from] move: Trick
+|-item|p1a: Blacephalon|Leftovers|[from] move: Trick
+|move|p2a: rotomwash|Hydro Pump|p1a: Blacephalon
+|-supereffective|p1a: Blacephalon
+|-damage|p1a: Blacephalon|0 fnt
+|faint|p1a: Blacephalon
+|
+|upkeep
+|
+|t:|1662771535
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|7
+|
+|t:|1662771540
+|move|p2a: rotomwash|Hydro Pump|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-crit|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|57/100
+|move|p1a: Tapu Fini|Scald|p2a: rotomwash
+|-resisted|p2a: rotomwash
+|-damage|p2a: rotomwash|87/100
+|-status|p2a: rotomwash|brn
+|
+|-heal|p1a: Tapu Fini|63/100|[from] item: Leftovers
+|-damage|p2a: rotomwash|80/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1662771547
+|switch|p2a: Melmetal|Melmetal|100/100
+|move|p1a: Tapu Fini|Moonblast|p2a: Melmetal
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|93/100
+|-unboost|p2a: Melmetal|spa|1
+|
+|-heal|p1a: Tapu Fini|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1662771553
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Melmetal|Double Iron Bash|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|89/100
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|77/100
+|-hitcount|p1a: Slowbro|2
+|
+|upkeep
+|turn|10
+|
+|t:|1662771560
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Slowbro|Future Sight|p2a: Tangrowth
+|-start|p1a: Slowbro|move: Future Sight
+|
+|upkeep
+|turn|11
+|
+|t:|1662771568
+|switch|p2a: Melmetal|Melmetal|93/100
+|switch|p1a: Melmetal|Melmetal|100/100
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|12
+|
+|t:|1662771577
+|move|p2a: Melmetal|Double Iron Bash|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|89/100
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|78/100
+|-hitcount|p1a: Melmetal|2
+|cant|p1a: Melmetal|flinch
+|
+|-end|p2a: Melmetal|move: Future Sight
+|-resisted|p2a: Melmetal
+|-damage|p2a: Melmetal|83/100
+|upkeep
+|turn|13
+|
+|t:|1662771584
+|switch|p2a: Tangrowth|Tangrowth, F|100/100
+|move|p1a: Melmetal|Earthquake|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|92/100
+|
+|upkeep
+|turn|14
+|
+|t:|1662771590
+|move|p2a: Tangrowth|Sleep Powder|p1a: Melmetal|[miss]
+|-miss|p2a: Tangrowth|p1a: Melmetal
+|move|p1a: Melmetal|Double Iron Bash|p2a: Tangrowth
+|-damage|p2a: Tangrowth|73/100
+|-damage|p1a: Melmetal|61/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-damage|p2a: Tangrowth|52/100
+|-damage|p1a: Melmetal|45/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|-hitcount|p2a: Tangrowth|2
+|
+|upkeep
+|turn|15
+|
+|t:|1662771595
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Melmetal|Ice Punch|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|93/100
+|-status|p2a: Heatran|frz
+|-enditem|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|16
+|
+|t:|1662771604
+|switch|p2a: Tangrowth|Tangrowth, F|85/100
+|move|p1a: Melmetal|Earthquake|p2a: Tangrowth
+|-resisted|p2a: Tangrowth
+|-damage|p2a: Tangrowth|77/100
+|
+|upkeep
+|turn|17
+|
+|t:|1662771611
+|switch|p1a: Tapu Fini|Tapu Fini|69/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Tangrowth|Sleep Powder|p1a: Tapu Fini
+|-activate|p1a: Tapu Fini|move: Misty Terrain
+|
+|-heal|p1a: Tapu Fini|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1662771617
+|switch|p1a: Melmetal|Melmetal|45/100
+|move|p2a: Tangrowth|Giga Drain|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|39/100
+|-heal|p2a: Tangrowth|80/100|[from] drain|[of] p1a: Melmetal
+|
+|upkeep
+|turn|19
+|
+|t:|1662771621
+|move|p2a: Tangrowth|Knock Off|p1a: Melmetal
+|-damage|p1a: Melmetal|26/100
+|-enditem|p1a: Melmetal|Assault Vest|[from] move: Knock Off|[of] p2a: Tangrowth
+|move|p1a: Melmetal|Ice Punch|p2a: Tangrowth
+|-supereffective|p2a: Tangrowth
+|-damage|p2a: Tangrowth|47/100
+|-damage|p1a: Melmetal|9/100|[from] item: Rocky Helmet|[of] p2a: Tangrowth
+|
+|upkeep
+|turn|20
+|
+|t:|1662771625
+|move|p2a: Tangrowth|Giga Drain|p1a: Melmetal
+|-resisted|p1a: Melmetal
+|-damage|p1a: Melmetal|0 fnt
+|-heal|p2a: Tangrowth|51/100|[from] drain|[of] p1a: Melmetal
+|faint|p1a: Melmetal
+|
+|upkeep
+|
+|t:|1662771629
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|21
+|
+|t:|1662771631
+|switch|p2a: landorustherian|Landorus-Therian, M|100/100
+|-ability|p2a: landorustherian|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|move|p1a: Dragapult|U-turn|p2a: landorustherian
+|-resisted|p2a: landorustherian
+|-damage|p2a: landorustherian|95/100
+|
+|t:|1662771634
+|switch|p1a: Tapu Fini|Tapu Fini|75/100|[from]move: U-turn
+|
+|-heal|p2a: landorustherian|100/100|[from] item: Leftovers
+|-heal|p1a: Tapu Fini|81/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|22
+|-message|Geenobe forfeited.
+|
+|win|minimax_ai
+|raw|Geenobe's rating: 1510 &rarr; <strong>1490</strong><br />(-20 for losing)
+|raw|minimax_ai's rating: 1518 &rarr; <strong>1538</strong><br />(+20 for winning)
+|c|☆minimax_ai|gg
+|l|☆Geenobe

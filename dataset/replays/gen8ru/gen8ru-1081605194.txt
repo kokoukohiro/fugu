@@ -1,0 +1,848 @@
+|j|☆GreedentFan69
+|j|☆Crushy Stuff
+|player|p1|GreedentFan69|greta-gen3|1361
+|player|p2|Crushy Stuff|144|1252
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Sableye, F|
+|poke|p1|Mantine, M|
+|poke|p1|Snorlax, F|
+|poke|p1|Steelix, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Cramorant, F|
+|poke|p2|Togedemaru, M|
+|poke|p2|Aromatisse, M|
+|poke|p2|Dhelmise|
+|poke|p2|Coalossal, F|
+|poke|p2|Jellicent, F|
+|poke|p2|Drampa, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|turn|1
+|
+|move|p1a: Salazzle|Toxic|p2a: Jellicent
+|-status|p2a: Jellicent|tox
+|move|p2a: Jellicent|Water Spout|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-damage|p2a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|turn|2
+|
+|move|p1a: Mantine|Toxic|p2a: Jellicent
+|-fail|p2a: Jellicent|tox
+|move|p2a: Jellicent|Trick Room|p2a: Jellicent
+|-fieldstart|move: Trick Room|[of] p2a: Jellicent
+|
+|-damage|p2a: Jellicent|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Togedemaru|Togedemaru, M|100/100
+|move|p1a: Mantine|Toxic|p2a: Togedemaru
+|-immune|p2a: Togedemaru
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|move|p2a: Togedemaru|Super Fang|p1a: Steelix|[miss]
+|-miss|p2a: Togedemaru|p1a: Steelix
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|move|p1a: Steelix|Stealth Rock|p2a: Dhelmise
+|-sidestart|p2: Crushy Stuff|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|move|p2a: Dhelmise|Swords Dance|p2a: Dhelmise
+|-boost|p2a: Dhelmise|atk|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|switch|p2a: Coalossal|Coalossal, F|100/100
+|move|p1a: Sableye|Encore||[still]
+|-fail|p1a: Sableye
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Sableye|Knock Off|p2a: Coalossal
+|-damage|p2a: Coalossal|80/100
+|-enditem|p2a: Coalossal|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Sableye
+|move|p2a: Coalossal|Rapid Spin|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|move|p2a: Coalossal|Spikes|p1a: Mantine
+|-sidestart|p1: GreedentFan69|Spikes
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Togedemaru|Togedemaru, M|100/100
+|-damage|p2a: Togedemaru|95/100|[from] Stealth Rock
+|move|p1a: Mantine|Scald|p2a: Togedemaru
+|-damage|p2a: Togedemaru|70/100
+|-status|p2a: Togedemaru|brn
+|
+|-damage|p2a: Togedemaru|64/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Togedemaru|Wish|p2a: Togedemaru
+|move|p1a: Mantine|Scald|p2a: Togedemaru
+|-damage|p2a: Togedemaru|39/100 brn
+|
+|-damage|p2a: Togedemaru|33/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|-damage|p1a: Snorlax|88/100|[from] Spikes
+|move|p2a: Togedemaru|Super Fang|p1a: Snorlax
+|-damage|p1a: Snorlax|44/100
+|
+|-heal|p2a: Togedemaru|83/100 brn|[from] move: Wish|[wisher] Togedemaru
+|-heal|p1a: Snorlax|50/100|[from] item: Leftovers
+|-damage|p2a: Togedemaru|77/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Jellicent|Jellicent, F|82/100 tox
+|-damage|p2a: Jellicent|70/100 tox|[from] Stealth Rock
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|57/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|64/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Snorlax
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Darkest Lariat|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-enditem|p2a: Jellicent|Colbur Berry|[eat]
+|-enditem|p2a: Jellicent|Colbur Berry|[weaken]
+|-damage|p2a: Jellicent|47/100 tox
+|
+|-heal|p1a: Snorlax|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Jellicent|34/100 tox|[from] psn
+|-damage|p1a: Snorlax|57/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Jellicent|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|-heal|p2a: Jellicent|100/100 tox
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|
+|-damage|p2a: Jellicent|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|cant|p1a: Snorlax|slp
+|move|p2a: Jellicent|Trick Room|p2a: Jellicent
+|-fieldstart|move: Trick Room|[of] p2a: Jellicent
+|
+|-damage|p2a: Jellicent|57/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100
+|-damage|p2a: Aromatisse|88/100|[from] Stealth Rock
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Aromatisse|Nasty Plot|p2a: Aromatisse
+|-boost|p2a: Aromatisse|spa|2
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Body Slam|p2a: Aromatisse
+|-damage|p2a: Aromatisse|51/100
+|-status|p2a: Aromatisse|par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Aromatisse|Moonblast|p1a: Snorlax
+|-damage|p1a: Snorlax|37/100
+|-unboost|p1a: Snorlax|spa|1
+|-damage|p2a: Aromatisse|41/100 par|[from] item: Life Orb
+|move|p1a: Snorlax|Body Slam|p2a: Aromatisse
+|-damage|p2a: Aromatisse|8/100 par
+|
+|-heal|p1a: Snorlax|43/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|-damage|p1a: Steelix|88/100|[from] Spikes
+|move|p2a: Aromatisse|Moonblast|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|32/100
+|-unboost|p1a: Steelix|spa|1
+|-damage|p2a: Aromatisse|0 fnt|[from] item: Life Orb
+|faint|p2a: Aromatisse
+|
+|-heal|p1a: Steelix|38/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, F|57/100 tox
+|-damage|p2a: Jellicent|45/100 tox|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Snorlax|Snorlax, F|43/100
+|-damage|p1a: Snorlax|31/100|[from] Spikes
+|move|p2a: Jellicent|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|-heal|p2a: Jellicent|100/100 tox
+|
+|-heal|p1a: Snorlax|37/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Jellicent|Water Spout|p1a: Snorlax
+|-damage|p1a: Snorlax|4/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|10/100|[from] item: Leftovers
+|-damage|p2a: Jellicent|82/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|move|p2a: Jellicent|Water Spout|p1a: Mantine
+|-immune|p1a: Mantine|[from] ability: Water Absorb
+|
+|-damage|p2a: Jellicent|64/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p2a: Togedemaru|Togedemaru, M|77/100 brn
+|-damage|p2a: Togedemaru|71/100 brn|[from] Stealth Rock
+|move|p1a: Mantine|Defog|p2a: Togedemaru
+|-unboost|p2a: Togedemaru|evasion|1
+|-sideend|p2: Crushy Stuff|Stealth Rock|[from] move: Defog|[of] p1a: Mantine
+|-sideend|p1: GreedentFan69|Spikes|[from] move: Defog|[of] p1a: Mantine
+|
+|-damage|p2a: Togedemaru|65/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Snorlax|Snorlax, F|10/100
+|move|p2a: Togedemaru|Wish|p2a: Togedemaru
+|
+|-heal|p1a: Snorlax|17/100|[from] item: Leftovers
+|-damage|p2a: Togedemaru|59/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|move|p2a: Dhelmise|Swords Dance|p2a: Dhelmise
+|-boost|p2a: Dhelmise|atk|2
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Coalossal|Coalossal, F|80/100
+|move|p1a: Sableye|Encore||[still]
+|-fail|p1a: Sableye
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|move|p2a: Coalossal|Rock Blast|p1a: Mantine
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|89/100
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|76/100
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|64/100
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|51/100
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|40/100
+|-hitcount|p1a: Mantine|5
+|
+|upkeep
+|turn|30
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GreedentFan69)
+|
+|switch|p2a: Jellicent|Jellicent, F|64/100 tox
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|90/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|-damage|p2a: Jellicent|57/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100 slp
+|move|p2a: Jellicent|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|-heal|p2a: Jellicent|100/100 tox
+|
+|-damage|p2a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|cant|p1a: Snorlax|slp
+|move|p2a: Jellicent|Trick Room|p2a: Jellicent
+|-fieldstart|move: Trick Room|[of] p2a: Jellicent
+|
+|-damage|p2a: Jellicent|70/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|move|p2a: Dhelmise|Swords Dance|p2a: Dhelmise
+|-boost|p2a: Dhelmise|atk|2
+|
+|upkeep
+|turn|35
+|
+|switch|p2a: Coalossal|Coalossal, F|80/100
+|move|p1a: Sableye|Encore||[still]
+|-fail|p1a: Sableye
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Mantine|Mantine, M|90/100
+|move|p2a: Coalossal|Rock Blast|p1a: Mantine
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|78/100
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|65/100
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|52/100
+|-hitcount|p1a: Mantine|3
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|37
+|
+|switch|p2a: Jellicent|Jellicent, F|70/100 tox
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|-damage|p2a: Jellicent|64/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100 slp
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Snorlax|[miss]
+|-miss|p2a: Jellicent|p1a: Snorlax
+|
+|-damage|p2a: Jellicent|51/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p2a: Drampa|Drampa, F|100/100
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Darkest Lariat|p2a: Drampa
+|-damage|p2a: Drampa|81/100
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Drampa|Calm Mind|p2a: Drampa
+|-boost|p2a: Drampa|spa|1
+|-boost|p2a: Drampa|spd|1
+|move|p1a: Snorlax|Body Slam|p2a: Drampa
+|-damage|p2a: Drampa|50/100
+|-status|p2a: Drampa|par
+|-ability|p2a: Drampa|Berserk|boost
+|-boost|p2a: Drampa|spa|1
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Snorlax|Body Slam|p2a: Drampa
+|-damage|p2a: Drampa|22/100 par
+|move|p2a: Drampa|Roost|p2a: Drampa
+|-heal|p2a: Drampa|72/100 par
+|-singleturn|p2a: Drampa|move: Roost
+|
+|upkeep
+|turn|42
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|cant|p2a: Drampa|par
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Sableye|Encore|p2a: Drampa
+|-start|p2a: Drampa|Encore
+|cant|p2a: Drampa|par
+|
+|upkeep
+|turn|44
+|
+|move|p1a: Sableye|Knock Off|p2a: Drampa
+|-damage|p2a: Drampa|49/100 par
+|-enditem|p2a: Drampa|Chople Berry|[from] move: Knock Off|[of] p1a: Sableye
+|-ability|p2a: Drampa|Berserk|boost
+|-boost|p2a: Drampa|spa|1
+|move|p2a: Drampa|Roost|p2a: Drampa
+|-heal|p2a: Drampa|99/100 par
+|-singleturn|p2a: Drampa|move: Roost
+|
+|upkeep
+|turn|45
+|
+|move|p1a: Sableye|Knock Off|p2a: Drampa
+|-damage|p2a: Drampa|83/100 par
+|move|p2a: Drampa|Roost|p2a: Drampa
+|-heal|p2a: Drampa|100/100 par
+|-singleturn|p2a: Drampa|move: Roost
+|
+|-end|p2a: Drampa|Encore
+|upkeep
+|turn|46
+|
+|switch|p2a: Coalossal|Coalossal, F|80/100
+|move|p1a: Sableye|Encore||[still]
+|-fail|p1a: Sableye
+|
+|upkeep
+|turn|47
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|
+|upkeep
+|turn|48
+|inactive|Crushy Stuff has 120 seconds left.
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|switch|p2a: Togedemaru|Togedemaru, M|59/100 brn
+|
+|-damage|p2a: Togedemaru|53/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: Togedemaru|Wish|p2a: Togedemaru
+|move|p1a: Sableye|Knock Off|p2a: Togedemaru
+|-damage|p2a: Togedemaru|19/100 brn
+|-damage|p1a: Sableye|88/100|[from] ability: Iron Barbs|[of] p2a: Togedemaru
+|-damage|p1a: Sableye|72/100|[from] item: Rocky Helmet|[of] p2a: Togedemaru
+|-enditem|p2a: Togedemaru|Rocky Helmet|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|78/100|[from] item: Leftovers
+|-damage|p2a: Togedemaru|13/100 brn|[from] brn
+|upkeep
+|turn|50
+|inactive|Crushy Stuff has 120 seconds left.
+|
+|move|p2a: Togedemaru|Spiky Shield|p2a: Togedemaru
+|-singleturn|p2a: Togedemaru|move: Protect
+|move|p1a: Sableye|Knock Off|p2a: Togedemaru
+|-activate|p2a: Togedemaru|move: Protect
+|-damage|p1a: Sableye|65/100|[from] Spiky Shield|[of] p2a: Togedemaru
+|
+|-heal|p2a: Togedemaru|63/100 brn|[from] move: Wish|[wisher] Togedemaru
+|-heal|p1a: Sableye|72/100|[from] item: Leftovers
+|-damage|p2a: Togedemaru|57/100 brn|[from] brn
+|upkeep
+|turn|51
+|inactive|Crushy Stuff has 120 seconds left.
+|
+|move|p2a: Togedemaru|Toxic|p1a: Sableye
+|-status|p1a: Sableye|tox
+|move|p1a: Sableye|Knock Off|p2a: Togedemaru
+|-damage|p2a: Togedemaru|34/100 brn
+|-damage|p1a: Sableye|59/100 tox|[from] ability: Iron Barbs|[of] p2a: Togedemaru
+|
+|-heal|p1a: Sableye|65/100 tox|[from] item: Leftovers
+|-damage|p2a: Togedemaru|28/100 brn|[from] brn
+|-damage|p1a: Sableye|59/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|move|p1a: Sableye|Encore|p2a: Togedemaru
+|-start|p2a: Togedemaru|Encore
+|move|p2a: Togedemaru|Toxic|p1a: Sableye|[miss]
+|-miss|p2a: Togedemaru|p1a: Sableye
+|
+|-heal|p1a: Sableye|65/100 tox|[from] item: Leftovers
+|-damage|p2a: Togedemaru|22/100 brn|[from] brn
+|-damage|p1a: Sableye|53/100 tox|[from] psn
+|upkeep
+|turn|53
+|
+|switch|p2a: Coalossal|Coalossal, F|80/100
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100 tox
+|
+|-damage|p1a: Sableye|82/100 tox|[from] psn
+|upkeep
+|turn|54
+|inactive|Crushy Stuff has 120 seconds left.
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|
+|upkeep
+|turn|55
+|
+|switch|p2a: Drampa|Drampa, F|100/100 par
+|move|p1a: Mantine|Toxic||[still]
+|-fail|p1a: Mantine
+|
+|upkeep
+|turn|56
+|
+|switch|p1a: Cramorant|Cramorant, F|100/100
+|move|p2a: Drampa|Draco Meteor|p1a: Cramorant
+|-damage|p1a: Cramorant|9/100
+|-unboost|p2a: Drampa|spa|2
+|
+|upkeep
+|turn|57
+|
+|move|p1a: Cramorant|Brave Bird|p2a: Drampa
+|-damage|p2a: Drampa|55/100 par
+|-damage|p1a: Cramorant|0 fnt|[from] Recoil
+|faint|p1a: Cramorant
+|move|p2a: Drampa|Calm Mind|p2a: Drampa
+|-boost|p2a: Drampa|spa|1
+|-boost|p2a: Drampa|spd|1
+|
+|upkeep
+|
+|switch|p1a: Steelix|Steelix, M|38/100
+|turn|58
+|
+|move|p1a: Steelix|Earthquake|p2a: Drampa
+|-damage|p2a: Drampa|27/100 par
+|-ability|p2a: Drampa|Berserk|boost
+|-boost|p2a: Drampa|spa|1
+|cant|p2a: Drampa|par
+|
+|-heal|p1a: Steelix|44/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p1a: Steelix|Earthquake|p2a: Drampa
+|-damage|p2a: Drampa|0 fnt
+|faint|p2a: Drampa
+|
+|-heal|p1a: Steelix|50/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|turn|60
+|
+|switch|p1a: Sableye|Sableye, F|82/100 tox
+|move|p2a: Dhelmise|Power Whip|p1a: Sableye|[miss]
+|-miss|p2a: Dhelmise|p1a: Sableye
+|
+|-heal|p1a: Sableye|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Sableye|82/100 tox|[from] psn
+|upkeep
+|turn|61
+|
+|switch|p2a: Coalossal|Coalossal, F|80/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: Coalossal|[miss]
+|-miss|p1a: Sableye|p2a: Coalossal
+|
+|-heal|p1a: Sableye|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Sableye|75/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|move|p2a: Coalossal|Spikes|p1a: Mantine
+|-sidestart|p1: GreedentFan69|Spikes
+|
+|upkeep
+|turn|63
+|inactive|Crushy Stuff has 120 seconds left.
+|
+|switch|p2a: Togedemaru|Togedemaru, M|22/100 brn
+|move|p1a: Mantine|Defog|p2a: Togedemaru
+|-unboost|p2a: Togedemaru|evasion|1
+|-sideend|p1: GreedentFan69|Spikes|[from] move: Defog|[of] p1a: Mantine
+|
+|-damage|p2a: Togedemaru|16/100 brn|[from] brn
+|upkeep
+|turn|64
+|inactive|Crushy Stuff has 120 seconds left.
+|
+|move|p2a: Togedemaru|Toxic|p1a: Mantine
+|-status|p1a: Mantine|tox
+|move|p1a: Mantine|Scald|p2a: Togedemaru
+|-damage|p2a: Togedemaru|0 fnt
+|faint|p2a: Togedemaru
+|
+|-damage|p1a: Mantine|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, F|51/100 tox
+|turn|65
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|move|p2a: Jellicent|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|-heal|p2a: Jellicent|100/100 tox
+|
+|-damage|p2a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Snorlax
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-damage|p2a: Jellicent|82/100 tox|[from] psn
+|-damage|p1a: Snorlax|94/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|68
+|
+|switch|p1a: Sableye|Sableye, F|75/100 tox
+|move|p2a: Dhelmise|Swords Dance|p2a: Dhelmise
+|-boost|p2a: Dhelmise|atk|2
+|
+|-heal|p1a: Sableye|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Sableye|75/100 tox|[from] psn
+|upkeep
+|turn|69
+|
+|switch|p2a: Coalossal|Coalossal, F|80/100
+|move|p1a: Sableye|Encore||[still]
+|-fail|p1a: Sableye
+|
+|-heal|p1a: Sableye|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Sableye|69/100 tox|[from] psn
+|upkeep
+|turn|70
+|
+|switch|p1a: Steelix|Steelix, M|50/100
+|move|p2a: Coalossal|Rock Blast|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|50/100
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|49/100
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|48/100
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|47/100
+|-hitcount|p1a: Steelix|4
+|
+|-heal|p1a: Steelix|53/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|move|p1a: Steelix|Stealth Rock|p2a: Coalossal
+|-sidestart|p2: Crushy Stuff|move: Stealth Rock
+|move|p2a: Coalossal|Burn Up|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|-start|p2a: Coalossal|typechange|Rock/???|[from] move: Burn Up
+|faint|p1a: Steelix
+|
+|upkeep
+|
+|switch|p1a: Mantine|Mantine, M|94/100 tox
+|turn|72
+|
+|move|p1a: Mantine|Scald|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|44/100
+|move|p2a: Coalossal|Spikes|p1a: Mantine
+|-sidestart|p1: GreedentFan69|Spikes
+|
+|-damage|p1a: Mantine|88/100 tox|[from] psn
+|upkeep
+|turn|73
+|
+|move|p1a: Mantine|Toxic|p2a: Coalossal
+|-status|p2a: Coalossal|tox
+|move|p2a: Coalossal|Rock Blast|p1a: Mantine
+|-supereffective|p1a: Mantine
+|-crit|p1a: Mantine
+|-damage|p1a: Mantine|69/100 tox
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|56/100 tox
+|-supereffective|p1a: Mantine
+|-crit|p1a: Mantine
+|-damage|p1a: Mantine|40/100 tox
+|-hitcount|p1a: Mantine|3
+|
+|-damage|p1a: Mantine|27/100 tox|[from] psn
+|-damage|p2a: Coalossal|38/100 tox|[from] psn
+|upkeep
+|turn|74
+|
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|77/100 tox
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Coalossal|Spikes|p1a: Mantine
+|-sidestart|p1: GreedentFan69|Spikes
+|
+|-damage|p1a: Mantine|59/100 tox|[from] psn
+|-damage|p2a: Coalossal|26/100 tox|[from] psn
+|upkeep
+|turn|75
+|
+|move|p1a: Mantine|Defog|p2a: Coalossal
+|-unboost|p2a: Coalossal|evasion|1
+|-sideend|p2: Crushy Stuff|Stealth Rock|[from] move: Defog|[of] p1a: Mantine
+|-sideend|p1: GreedentFan69|Spikes|[from] move: Defog|[of] p1a: Mantine
+|move|p2a: Coalossal|Rock Blast|p1a: Mantine
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|47/100 tox
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|35/100 tox
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|23/100 tox
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|12/100 tox
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|-hitcount|p1a: Mantine|5
+|faint|p1a: Mantine
+|
+|-damage|p2a: Coalossal|8/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Sableye|Sableye, F|69/100 tox
+|turn|76
+|
+|move|p1a: Sableye|Knock Off|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|
+|-heal|p1a: Sableye|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Sableye|69/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, F|82/100 tox
+|turn|77
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100 slp
+|move|p2a: Jellicent|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|-heal|p2a: Jellicent|100/100 tox
+|
+|-damage|p2a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|78
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|79
+|
+|switch|p1a: Sableye|Sableye, F|69/100 tox
+|move|p2a: Dhelmise|Power Whip|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100 slp
+|turn|80
+|
+|cant|p1a: Snorlax|slp
+|move|p2a: Dhelmise|Swords Dance|p2a: Dhelmise
+|-boost|p2a: Dhelmise|atk|2
+|
+|upkeep
+|turn|81
+|
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Darkest Lariat|p2a: Dhelmise
+|-supereffective|p2a: Dhelmise
+|-enditem|p2a: Dhelmise|Colbur Berry|[eat]
+|-enditem|p2a: Dhelmise|Colbur Berry|[weaken]
+|-damage|p2a: Dhelmise|77/100
+|move|p2a: Dhelmise|Power Whip|p1a: Snorlax
+|-damage|p1a: Snorlax|1/100
+|
+|-heal|p1a: Snorlax|8/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|move|p1a: Snorlax|Darkest Lariat|p2a: Dhelmise
+|-supereffective|p2a: Dhelmise
+|-damage|p2a: Dhelmise|34/100
+|move|p2a: Dhelmise|Anchor Shot|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|win|Crushy Stuff
+|raw|GreedentFan69's rating: 1361 &rarr; <strong>1335</strong><br />(-26 for losing)
+|raw|Crushy Stuff's rating: 1253 &rarr; <strong>1285</strong><br />(+32 for winning)
+|l|☆GreedentFan69

@@ -1,0 +1,243 @@
+|j|☆groundt
+|j|☆Kensh
+|player|p1|groundt|winona-gen3|1593
+|player|p2|Kensh|li|1500
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Reuniclus, M|
+|poke|p1|Dracovish|
+|poke|p1|Silvally-*|
+|poke|p1|Dugtrio, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Golisopod, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Hydreigon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|1
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Corviknight|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|68/100
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: Kensh|move: Stealth Rock
+|move|p2a: Hydreigon|Draco Meteor|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/100
+|-unboost|p2a: Hydreigon|spa|2
+|-enditem|p2a: Hydreigon|Eject Pack
+|
+|switch|p2a: Golisopod|Golisopod, F, shiny|100/100
+|-damage|p2a: Golisopod|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Golisopod|First Impression|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|92/100
+|
+|-heal|p1a: Corviknight|98/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|move|p1a: Corviknight|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|65/100
+|
+|switch|p1a: Dugtrio|Dugtrio, F|1/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|37/100
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|8/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-damage|p2a: Cinderace|0 fnt|[from] item: Life Orb
+|faint|p1a: Dugtrio
+|faint|p2a: Cinderace
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by groundt)
+|
+|switch|p1a: Corviknight|Corviknight, M|98/100
+|switch|p2a: Golisopod|Golisopod, F, shiny|76/100
+|-damage|p2a: Golisopod|51/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Seismitoad|Seismitoad, F, shiny|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Corviknight|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|85/100
+|-damage|p1a: Corviknight|81/100|[from] item: Rocky Helmet|[of] p2a: Seismitoad
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Rotom|Substitute|p1a: Rotom
+|-start|p1a: Rotom|Substitute
+|-damage|p1a: Rotom|75/100
+|move|p2a: Seismitoad|Toxic|p1a: Rotom|[miss]
+|-miss|p2a: Seismitoad|p1a: Rotom
+|
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Seismitoad|Stealth Rock|p1a: Rotom
+|-sidestart|p1: groundt|move: Stealth Rock
+|
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Golisopod|Golisopod, F, shiny|51/100
+|-damage|p2a: Golisopod|26/100|[from] Stealth Rock
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Rotom|Dark Pulse|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|67/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Seismitoad|Seismitoad, F, shiny|85/100
+|-damage|p2a: Seismitoad|79/100|[from] Stealth Rock
+|move|p1a: Rotom|Thunderbolt|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Rotom|Dark Pulse|p2a: Seismitoad
+|-damage|p2a: Seismitoad|39/100
+|move|p2a: Seismitoad|Focus Blast|p1a: Rotom
+|-end|p1a: Rotom|Substitute
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Substitute|p1a: Rotom
+|-start|p1a: Rotom|Substitute
+|-damage|p1a: Rotom|75/100
+|
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Rotom
+|-damage|p1a: Rotom|62/100
+|-damage|p1a: Rotom|42/100
+|-hitcount|p1a: Rotom|2
+|move|p1a: Rotom|Dark Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Rotom|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Golisopod|Golisopod, F, shiny|26/100
+|-damage|p2a: Golisopod|1/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Golisopod|First Impression|p1a: Rotom
+|-end|p1a: Rotom|Substitute
+|move|p1a: Rotom|Substitute|p1a: Rotom
+|-start|p1a: Rotom|Substitute
+|-damage|p1a: Rotom|23/100
+|
+|-heal|p1a: Rotom|29/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Golisopod|Sucker Punch|p1a: Rotom
+|-activate|p1a: Rotom|move: Substitute|[damage]
+|move|p1a: Rotom|Thunderbolt|p2a: Golisopod
+|-supereffective|p2a: Golisopod
+|-damage|p2a: Golisopod|0 fnt
+|faint|p2a: Golisopod
+|
+|-heal|p1a: Rotom|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|68/100
+|-damage|p2a: Hydreigon|56/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rotom
+|-end|p1a: Rotom|Substitute
+|move|p1a: Rotom|Thunderbolt|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|12/100
+|
+|-heal|p1a: Rotom|42/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|2/100
+|move|p1a: Rotom|Thunderbolt|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Rotom|9/100|[from] item: Leftovers
+|upkeep
+|-message|Kensh forfeited.
+|
+|win|groundt
+|l|☆Kensh
+|raw|groundt's rating: 1611 &rarr; <strong>1624</strong><br />(+13 for winning)
+|raw|Kensh's rating: 1480 &rarr; <strong>1467</strong><br />(-13 for losing)

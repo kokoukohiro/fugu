@@ -1,0 +1,337 @@
+|j|☆Treasvon69
+|j|☆LudwigFrog
+|t:|1635722644
+|gametype|singles
+|player|p1|Treasvon69|nate|
+|player|p2|LudwigFrog|hilbert-wonderlauncher|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Blaziken, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Roserade, M|
+|poke|p1|Blastoise, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Espeon, M|
+|poke|p2|Slowbro, F|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LudwigFrog)
+|
+|t:|1635722659
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|t:|1635722668
+|move|p2a: Weavile|Triple Axel|p1a: Ribombee
+|-damage|p1a: Ribombee|81/100
+|-damage|p1a: Ribombee|43/100
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|-hitcount|p1: Ribombee|3
+|
+|upkeep
+|
+|t:|1635722685
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|2
+|
+|t:|1635722687
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|move|p1a: Blaziken|Protect||[still]
+|-fail|p1a: Blaziken
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|3
+|
+|t:|1635722691
+|switch|p1a: Roserade|Roserade, M|100/100
+|move|p2a: Slowbro|Future Sight|p1a: Roserade
+|-start|p2a: Slowbro|move: Future Sight
+|
+|upkeep
+|turn|4
+|
+|t:|1635722696
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Roserade|Sleep Powder|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|upkeep
+|turn|5
+|
+|t:|1635722703
+|switch|p1a: Espeon|Espeon, M|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Espeon
+|move|p1a: Espeon|Spikes|p2a: Ferrothorn|[from]ability: Magic Bounce
+|-sidestart|p2: LudwigFrog|Spikes
+|
+|-end|p1a: Espeon|move: Future Sight
+|-resisted|p1a: Espeon
+|-damage|p1a: Espeon|74/100
+|upkeep
+|turn|6
+|
+|t:|1635722710
+|move|p1a: Espeon|Sunny Day|p1a: Espeon
+|-weather|SunnyDay
+|move|p2a: Ferrothorn|Iron Head|p1a: Espeon
+|-damage|p1a: Espeon|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1635722719
+|switch|p1a: Roserade|Roserade, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Roserade|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1635722725
+|move|p1a: Roserade|Sleep Powder|p2a: Landorus
+|-status|p2a: Landorus|slp|[from] move: Sleep Powder
+|cant|p2a: Landorus|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1635722731
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Roserade|Giga Drain|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1635722736
+|move|p1a: Roserade|Sleep Powder|p2a: Zapdos|[miss]
+|-miss|p1a: Roserade|p2a: Zapdos
+|move|p2a: Zapdos|Heat Wave|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-crit|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-weather|none
+|upkeep
+|
+|t:|1635722755
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|11
+|
+|t:|1635722758
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Zapdos|Volt Switch|p1a: Dragonite
+|-damage|p1a: Dragonite|86/100
+|
+|t:|1635722760
+|switch|p2a: Slowbro|Slowbro, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Slowbro|88/100|[from] Spikes
+|
+|upkeep
+|turn|12
+|
+|t:|1635722763
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Slowbro|Future Sight|p1a: Dragonite
+|-start|p2a: Slowbro|move: Future Sight
+|
+|upkeep
+|turn|13
+|
+|t:|1635722773
+|switch|p2a: Landorus|Landorus-Therian, M|100/100 slp
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Dual Wingbeat|p2a: Landorus
+|-damage|p2a: Landorus|67/100 slp
+|-damage|p2a: Landorus|37/100 slp
+|-hitcount|p2a: Landorus|2
+|
+|-heal|p2a: Landorus|43/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1635722782
+|move|p1a: Dragonite|Dragon Claw|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-end|p1a: Dragonite|move: Future Sight
+|-damage|p1a: Dragonite|44/100
+|upkeep
+|
+|t:|1635722786
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|15
+|
+|t:|1635722791
+|move|p2a: Weavile|Ice Shard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1635722800
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|turn|16
+|
+|t:|1635722803
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|88/100|[from] Spikes
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1635722807
+|move|p1a: Blastoise|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|65/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|18/100
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1635722813
+|move|p1a: Blastoise|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Blastoise|[miss]
+|-miss|p2a: Ferrothorn|p1a: Blastoise
+|
+|-heal|p2a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1635722818
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|move|p2a: Ferrothorn|Iron Head|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|79/100
+|
+|-heal|p2a: Ferrothorn|65/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1635722825
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Spikes
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|21
+|
+|t:|1635722832
+|move|p1a: Blaziken|Close Combat|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|54/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|move|p2a: Slowbro|Future Sight|p1a: Blaziken
+|-start|p2a: Slowbro|move: Future Sight
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|22
+|
+|t:|1635722841
+|move|p1a: Blaziken|Close Combat|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|21/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|move|p2a: Slowbro|Teleport|p2a: Slowbro
+|
+|t:|1635722845
+|switch|p2a: Zapdos|Zapdos|82/100|[from]move: Teleport
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|23
+|
+|t:|1635722853
+|move|p1a: Blaziken|Fire Punch|p2a: Zapdos
+|-damage|p2a: Zapdos|21/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|72/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-end|p1a: Blaziken|move: Future Sight
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|upkeep
+|
+|t:|1635722859
+|switch|p1a: Espeon|Espeon, M|21/100
+|turn|24
+|
+|t:|1635722882
+|move|p1a: Espeon|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|10/100
+|-damage|p1a: Espeon|11/100|[from] item: Life Orb
+|move|p2a: Zapdos|Volt Switch|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|t:|1635722885
+|switch|p2a: Weavile|Weavile, F|100/100|[from]move: Volt Switch
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|
+|t:|1635722890
+|switch|p1a: Blastoise|Blastoise, M|18/100
+|turn|25
+|-message|Treasvon69 forfeited.
+|
+|win|LudwigFrog
+|l|☆Treasvon69

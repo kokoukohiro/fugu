@@ -1,0 +1,353 @@
+|j|☆scrufty
+|j|☆Artemis_V13
+|player|p1|scrufty|1|1472
+|player|p2|Artemis_V13|juan|1379
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Roserade, M|
+|poke|p1|Silvally-*|
+|poke|p1|Escavalier, M|
+|poke|p1|Gurdurr, M|
+|poke|p1|Gigalith, F|
+|poke|p1|Sigilyph, F|
+|poke|p2|Appletun, F|
+|poke|p2|Jellicent, M|
+|poke|p2|Dhelmise|
+|poke|p2|Toxicroak, F|
+|poke|p2|Stunfisk-Galar, M|
+|poke|p2|Slurpuff, F|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Artemis_V13)
+|j| vita1
+|
+|start
+|switch|p1a: Roserade|Roserade, M|100/100
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|turn|1
+|
+|move|p1a: Roserade|Sludge Bomb|p2a: Dhelmise
+|-crit|p2a: Dhelmise
+|-damage|p2a: Dhelmise|28/100
+|-status|p2a: Dhelmise|psn
+|move|p2a: Dhelmise|Anchor Shot|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-damage|p2a: Dhelmise|16/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|turn|2
+|
+|switch|p2a: Stunfisk|Stunfisk-Galar, M|100/100
+|move|p1a: Sigilyph|Psychic|p2a: Stunfisk
+|-resisted|p2a: Stunfisk
+|-damage|p2a: Stunfisk|85/100
+|
+|-heal|p2a: Stunfisk|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Stunfisk|Stealth Rock|p1a: Gigalith
+|-sidestart|p1: scrufty|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Stunfisk|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Appletun
+|-sidestart|p2: Artemis_V13|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Appletun|94/100|[from] Sandstorm
+|-heal|p2a: Appletun|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Escavalier|Escavalier, M|100/100
+|-damage|p1a: Escavalier|88/100|[from] Stealth Rock
+|move|p2a: Appletun|Leech Seed|p1a: Escavalier
+|-start|p1a: Escavalier|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Appletun|94/100|[from] Sandstorm
+|-heal|p2a: Appletun|100/100|[from] item: Leftovers
+|-damage|p1a: Escavalier|76/100|[from] Leech Seed|[of] p2a: Appletun
+|upkeep
+|turn|6
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|move|p1a: Escavalier|Megahorn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|23/100|[from] Sandstorm
+|-heal|p2a: Jellicent|29/100|[from] item: Leftovers
+|-damage|p1a: Escavalier|63/100|[from] Leech Seed|[of] p2a: Jellicent
+|-heal|p2a: Jellicent|39/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|89/100
+|
+|-weather|none
+|-heal|p2a: Jellicent|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Sigilyph|Calm Mind|p1a: Sigilyph
+|-boost|p1a: Sigilyph|spa|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Sigilyph
+|-status|p1a: Sigilyph|brn
+|
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Sigilyph|Calm Mind|p1a: Sigilyph
+|-boost|p1a: Sigilyph|spa|1
+|-boost|p1a: Sigilyph|spd|1
+|move|p2a: Jellicent|Hex|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|42/100 brn
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Dhelmise|Dhelmise|16/100 psn
+|-damage|p2a: Dhelmise|4/100 psn|[from] Stealth Rock
+|move|p1a: Sigilyph|Psychic|p2a: Dhelmise
+|-damage|p2a: Dhelmise|0 fnt
+|faint|p2a: Dhelmise
+|
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Sigilyph|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|24/100
+|move|p2a: Jellicent|Hex|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|-heal|p2a: Jellicent|30/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy|100/100
+|-damage|p1a: Silvally|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Stunfisk|Stunfisk-Galar, M|97/100
+|-damage|p2a: Stunfisk|94/100|[from] Stealth Rock
+|move|p1a: Silvally|Multi-Attack|p2a: Stunfisk
+|-resisted|p2a: Stunfisk
+|-damage|p2a: Stunfisk|72/100
+|
+|-heal|p2a: Stunfisk|78/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Silvally|U-turn|p2a: Stunfisk
+|-resisted|p2a: Stunfisk
+|-damage|p2a: Stunfisk|70/100
+|
+|switch|p1a: Escavalier|Escavalier, M|63/100|[from]move: U-turn
+|-damage|p1a: Escavalier|51/100|[from] Stealth Rock
+|move|p2a: Stunfisk|Earthquake|p1a: Escavalier
+|-damage|p1a: Escavalier|23/100
+|
+|-heal|p2a: Stunfisk|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Escavalier|Knock Off|p2a: Stunfisk
+|-damage|p2a: Stunfisk|30/100
+|-enditem|p2a: Stunfisk|Leftovers|[from] move: Knock Off|[of] p1a: Escavalier
+|move|p2a: Stunfisk|Earthquake|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|upkeep
+|
+|switch|p1a: Gurdurr|Gurdurr, M|100/100
+|-damage|p1a: Gurdurr|94/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|-damage|p2a: Appletun|88/100|[from] Stealth Rock
+|move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+|-boost|p1a: Gurdurr|atk|1
+|-boost|p1a: Gurdurr|def|1
+|
+|-heal|p2a: Appletun|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+|-boost|p1a: Gurdurr|atk|1
+|-boost|p1a: Gurdurr|def|1
+|move|p2a: Appletun|Leech Seed|p1a: Gurdurr
+|-start|p1a: Gurdurr|move: Leech Seed
+|
+|-heal|p2a: Appletun|99/100|[from] item: Leftovers
+|-damage|p1a: Gurdurr|82/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|100/100|[silent]
+|upkeep
+|turn|17
+|
+|move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+|-boost|p1a: Gurdurr|atk|1
+|-boost|p1a: Gurdurr|def|1
+|move|p2a: Appletun|Apple Acid|p1a: Gurdurr
+|-damage|p1a: Gurdurr|55/100
+|-unboost|p1a: Gurdurr|spd|1
+|
+|-damage|p1a: Gurdurr|42/100|[from] Leech Seed|[of] p2a: Appletun
+|upkeep
+|turn|18
+|
+|switch|p2a: Jellicent|Jellicent, M|30/100
+|-damage|p2a: Jellicent|18/100|[from] Stealth Rock
+|move|p1a: Gurdurr|Close Combat|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|-heal|p2a: Jellicent|24/100|[from] item: Leftovers
+|-damage|p1a: Gurdurr|30/100|[from] Leech Seed|[of] p2a: Jellicent
+|-heal|p2a: Jellicent|35/100|[silent]
+|upkeep
+|turn|19
+|
+|move|p2a: Jellicent|Hex|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p1a: Gurdurr
+|
+|-heal|p2a: Jellicent|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy|88/100
+|-damage|p1a: Silvally|76/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|upkeep
+|
+|switch|p2a: Stunfisk|Stunfisk-Galar, M|30/100
+|-damage|p2a: Stunfisk|27/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Stunfisk|Yawn|p1a: Silvally
+|-start|p1a: Silvally|move: Yawn|[of] p2a: Stunfisk
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Silvally|U-turn|p2a: Stunfisk
+|-resisted|p2a: Stunfisk
+|-damage|p2a: Stunfisk|13/100
+|
+|switch|p1a: Gigalith|Gigalith, F|100/100|[from]move: U-turn
+|-damage|p1a: Gigalith|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Stunfisk|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|49/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Gigalith|Protect|p1a: Gigalith
+|-singleturn|p1a: Gigalith|Protect
+|move|p2a: Stunfisk|Earthquake|p1a: Gigalith
+|-activate|p1a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|55/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|scrufty has 120 seconds left.
+|
+|move|p1a: Gigalith|Superpower|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|-unboost|p1a: Gigalith|atk|1
+|-unboost|p1a: Gigalith|def|1
+|faint|p2a: Stunfisk
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|61/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: Gigalith
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|85/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy|76/100
+|-damage|p1a: Silvally|63/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Silvally|Psychic Fangs|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Slurpuff|Slurpuff, F|100/100
+|-damage|p2a: Slurpuff|88/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Silvally|Swords Dance|p1a: Silvally
+|-boost|p1a: Silvally|atk|2
+|move|p2a: Slurpuff|Dazzling Gleam|p1a: Silvally
+|-damage|p1a: Silvally|26/100
+|
+|upkeep
+|turn|28
+|-message|Artemis_V13 forfeited.
+|
+|win|scrufty
+|l|☆Artemis_V13
+|c|☆scrufty|gg

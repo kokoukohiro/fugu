@@ -1,0 +1,295 @@
+|j|☆Rangvald
+|j|☆damorush
+|t:|1636386713
+|gametype|singles
+|player|p1|Rangvald|drayden|1521
+|player|p2|damorush|alder|1565
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|clearpoke
+|poke|p1|Hippowdon, F|
+|poke|p1|Dracozolt|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Tapu Fini|
+|poke|p1|Excadrill, F|
+|poke|p1|Zapdos-Galar|
+|poke|p2|Dragapult, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Weavile, M|
+|poke|p2|Shuckle, M|
+|poke|p2|Blacephalon|
+|poke|p2|Kartana|
+|teampreview
+|
+|t:|1636386735
+|start
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by damorush)
+|
+|t:|1636386751
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|move|p2a: Shuckle|Sticky Web|p1a: Excadrill
+|-sidestart|p1: Rangvald|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1636386758
+|move|p1a: Excadrill|Rapid Spin|p2a: Shuckle
+|-resisted|p2a: Shuckle
+|-damage|p2a: Shuckle|95/100
+|-boost|p1a: Excadrill|spe|1
+|-sideend|p1: Rangvald|Sticky Web|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-enditem|p2a: Shuckle|Red Card|[of] p1a: Excadrill
+|drag|p1a: Dracozolt|Dracozolt, shiny|100/100
+|move|p2a: Shuckle|Stealth Rock|p1a: Dracozolt
+|-sidestart|p1: Rangvald|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1636386766
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Shuckle|Sticky Web|p1a: Excadrill
+|-sidestart|p1: Rangvald|move: Sticky Web
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1636386774
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|5/100
+|
+|upkeep
+|turn|5
+|
+|t:|1636386789
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-activate|p1a: Hippowdon|move: Sticky Web
+|-unboost|p1a: Hippowdon|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|0 fnt|[from] Sandstorm
+|faint|p2a: Dragapult
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1636386802
+|switch|p2a: Kartana|Kartana|100/100
+|turn|6
+|
+|t:|1636386806
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-activate|p1a: Ferrothorn|move: Sticky Web
+|-unboost|p1a: Ferrothorn|spe|1
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Kartana|Swords Dance|p2a: Kartana
+|-boost|p2a: Kartana|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1636386816
+|move|p2a: Kartana|Sacred Sword|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Kartana|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Kartana|72/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|-damage|p2a: Kartana|62/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1636386820
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|-damage|p1a: Zapdos|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1636386829
+|move|p1a: Zapdos|Close Combat|p2a: Kartana
+|-supereffective|p2a: Kartana
+|-damage|p2a: Kartana|0 fnt
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|faint|p2a: Kartana
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1636386841
+|switch|p2a: Blacephalon|Blacephalon|100/100
+|turn|9
+|
+|t:|1636386848
+|switch|p1a: Hippowdon|Hippowdon, F|94/100
+|-activate|p1a: Hippowdon|move: Sticky Web
+|-unboost|p1a: Hippowdon|spe|1
+|-damage|p1a: Hippowdon|88/100|[from] Stealth Rock
+|move|p2a: Blacephalon|Shadow Ball|p1a: Hippowdon
+|-damage|p1a: Hippowdon|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blacephalon|94/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1636386866
+|move|p2a: Blacephalon|Shadow Ball|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blacephalon|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1636386877
+|switch|p1a: Zapdos|Zapdos-Galar|82/100
+|-damage|p1a: Zapdos|69/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1636386884
+|switch|p2a: Shuckle|Shuckle, M|95/100
+|move|p1a: Zapdos|Throat Chop|p2a: Shuckle
+|-damage|p2a: Shuckle|80/100
+|-start|p2a: Shuckle|Throat Chop|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|63/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1636386892
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-activate|p1a: Excadrill|move: Sticky Web
+|-unboost|p1a: Excadrill|spe|1
+|move|p2a: Shuckle|Final Gambit|p1a: Excadrill
+|-damage|p1a: Excadrill|44/100
+|faint|p2a: Shuckle
+|
+|-weather|none
+|-heal|p1a: Excadrill|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1636386904
+|switch|p2a: Blacephalon|Blacephalon|88/100
+|turn|13
+|inactive|Rangvald has 120 seconds left.
+|
+|t:|1636386935
+|move|p2a: Blacephalon|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|spa|1
+|
+|upkeep
+|
+|t:|1636386938
+|switch|p1a: Zapdos|Zapdos-Galar|63/100
+|-damage|p1a: Zapdos|51/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1636386947
+|move|p1a: Zapdos|Brave Bird|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|faint|p2a: Blacephalon
+|-damage|p1a: Zapdos|28/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1636386953
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|15
+|
+|t:|1636386962
+|switch|p1a: Dracozolt|Dracozolt, shiny|100/100
+|-damage|p1a: Dracozolt|88/100|[from] Stealth Rock
+|-activate|p1a: Dracozolt|move: Sticky Web
+|-unboost|p1a: Dracozolt|spe|1
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|upkeep
+|turn|16
+|
+|t:|1636386971
+|move|p2a: Weavile|Knock Off|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|-enditem|p1a: Dracozolt|Life Orb|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Dracozolt
+|
+|upkeep
+|
+|t:|1636386976
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-damage|p1a: Tapu Fini|88/100|[from] Stealth Rock
+|-activate|p1a: Tapu Fini|move: Sticky Web
+|-unboost|p1a: Tapu Fini|spe|1
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|17
+|
+|t:|1636386983
+|move|p2a: Weavile|Knock Off|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|46/100
+|-enditem|p1a: Tapu Fini|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Tapu Fini|Draining Kiss|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|46/100
+|-heal|p1a: Tapu Fini|79/100|[from] drain|[of] p2a: Weavile
+|
+|upkeep
+|turn|18
+|
+|t:|1636386991
+|move|p2a: Weavile|Triple Axel|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|70/100
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|52/100
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|24/100
+|-hitcount|p1a: Tapu Fini|3
+|move|p1a: Tapu Fini|Draining Kiss|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-heal|p1a: Tapu Fini|53/100|[from] drain|[of] p2a: Weavile
+|faint|p2a: Weavile
+|
+|upkeep
+|-message|damorush forfeited.
+|
+|win|Rangvald
+|raw|Rangvald's rating: 1521 &rarr; <strong>1544</strong><br />(+23 for winning)
+|raw|damorush's rating: 1565 &rarr; <strong>1542</strong><br />(-23 for losing)
+|l|☆damorush

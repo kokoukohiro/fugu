@@ -1,0 +1,398 @@
+|j|☆Storm Zone
+|j|☆willcoxw
+|player|p1|Storm Zone|zinnia|1871
+|player|p2|willcoxw|karen|1706
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Primarina, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Snorlax, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Rillaboom, M|
+|poke|p2|Shuckle, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Dracozolt|
+|poke|p2|Kyurem|
+|poke|p2|Zeraora|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Chaos|Mew, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Chaos
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Chaos
+|-damage|p1a: Chaos|62/100
+|
+|switch|p2a: Shuckle|Shuckle, M|100/100|[from]move: U-turn
+|move|p1a: Chaos|Knock Off|p2a: Shuckle
+|-damage|p2a: Shuckle|88/100
+|-enditem|p2a: Shuckle|Red Card|[from] move: Knock Off|[of] p1a: Chaos
+|
+|-heal|p1a: Chaos|68/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|j| Ullstod enkel
+|
+|move|p1a: Chaos|Stealth Rock|p2a: Shuckle
+|-sidestart|p2: willcoxw|move: Stealth Rock
+|move|p2a: Shuckle|Sticky Web|p1a: Chaos
+|-sidestart|p1: Storm Zone|move: Sticky Web
+|
+|-heal|p1a: Chaos|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Impaler|Excadrill, M, shiny|100/100
+|-activate|p1a: Impaler|move: Sticky Web
+|-unboost|p1a: Impaler|spe|1
+|move|p2a: Shuckle|Stealth Rock|p1a: Impaler
+|-sidestart|p1: Storm Zone|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Impaler|Rapid Spin|p2a: Shuckle
+|-resisted|p2a: Shuckle
+|-damage|p2a: Shuckle|83/100
+|-boost|p1a: Impaler|spe|1
+|-sideend|p1: Storm Zone|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Impaler
+|-sideend|p1: Storm Zone|Sticky Web|[from] move: Rapid Spin|[of] p1a: Impaler
+|move|p2a: Shuckle|Encore|p1a: Impaler
+|-start|p1a: Impaler|Encore
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Impaler|Rapid Spin|p2a: Shuckle
+|-resisted|p2a: Shuckle
+|-damage|p2a: Shuckle|78/100
+|-boost|p1a: Impaler|spe|1
+|move|p2a: Shuckle|Stealth Rock|p1a: Impaler
+|-sidestart|p1: Storm Zone|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Stealth Rock
+|move|p1a: Impaler|Rapid Spin|p2a: Zeraora
+|-damage|p2a: Zeraora|63/100
+|-boost|p1a: Impaler|spe|1
+|-sideend|p1: Storm Zone|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Impaler
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Chaos|Mew, shiny|74/100
+|move|p2a: Zeraora|Knock Off|p1a: Chaos
+|-supereffective|p1a: Chaos
+|-damage|p1a: Chaos|28/100
+|-enditem|p1a: Chaos|Leftovers|[from] move: Knock Off|[of] p2a: Zeraora
+|-damage|p2a: Zeraora|53/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Chaos|Roost|p1a: Chaos
+|-heal|p1a: Chaos|78/100
+|-singleturn|p1a: Chaos|move: Roost
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-sideend|p2: willcoxw|Stealth Rock|[silent]
+|-sidestart|p1: Storm Zone|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Chaos|Will-O-Wisp|p2a: Cinderace
+|-status|p2a: Cinderace|brn
+|
+|-damage|p2a: Cinderace|95/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Cinderace|U-turn|p1a: Chaos
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Chaos
+|-damage|p1a: Chaos|56/100
+|
+|switch|p2a: Shuckle|Shuckle, M|78/100|[from]move: U-turn
+|move|p1a: Chaos|Stealth Rock|p2a: Shuckle
+|-sidestart|p2: willcoxw|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Impaler|Excadrill, M, shiny|100/100
+|-damage|p1a: Impaler|97/100|[from] Stealth Rock
+|move|p2a: Shuckle|Final Gambit|p1a: Impaler
+|-damage|p1a: Impaler|45/100
+|faint|p2a: Shuckle
+|
+|upkeep
+|j| sadKEK Sadge
+|
+|switch|p2a: Zeraora|Zeraora|53/100
+|-damage|p2a: Zeraora|41/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Impaler|Earthquake|p2a: Zeraora
+|-supereffective|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Hybrid|Hydreigon, M|100/100
+|-damage|p1a: Hybrid|88/100|[from] Stealth Rock
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|j| CRISTERS
+|
+|switch|p2a: Cinderace|Cinderace, M|95/100 brn
+|move|p1a: Hybrid|Flash Cannon|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|54/100 brn
+|-damage|p1a: Hybrid|78/100|[from] item: Life Orb
+|
+|-damage|p2a: Cinderace|48/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Cinderace|U-turn|p1a: Hybrid
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Hybrid
+|-damage|p1a: Hybrid|36/100
+|
+|switch|p2a: Togekiss|Togekiss, M|82/100|[from]move: U-turn
+|-damage|p2a: Togekiss|57/100|[from] Stealth Rock
+|move|p1a: Hybrid|Draco Meteor|p2a: Togekiss
+|-immune|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|63/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Cinderace|Cinderace, M|48/100 brn
+|move|p1a: Hybrid|Flash Cannon|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|18/100 brn
+|-damage|p1a: Hybrid|27/100|[from] item: Life Orb
+|
+|-damage|p2a: Cinderace|12/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Cinderace|U-turn|p1a: Hybrid
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Hybrid
+|-damage|p1a: Hybrid|0 fnt
+|faint|p1a: Hybrid
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100|[from]move: U-turn
+|-damage|p2a: Dracozolt|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p1a: Impaler|Excadrill, M, shiny|45/100
+|-damage|p1a: Impaler|42/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Cinderace|Cinderace, M|12/100 brn
+|move|p1a: Impaler|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|63/100
+|-damage|p2a: Togekiss|38/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Life|Snorlax, M|100/100
+|-damage|p1a: Life|88/100|[from] Stealth Rock
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|
+|-heal|p2a: Togekiss|45/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Chaos|Mew, shiny|56/100
+|-damage|p1a: Chaos|44/100|[from] Stealth Rock
+|move|p2a: Togekiss|Air Slash|p1a: Chaos
+|-damage|p1a: Chaos|0 fnt
+|faint|p1a: Chaos
+|
+|-heal|p2a: Togekiss|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Impaler|Excadrill, M, shiny|42/100
+|-damage|p1a: Impaler|39/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Dracozolt|Dracozolt|88/100
+|-damage|p2a: Dracozolt|76/100|[from] Stealth Rock
+|move|p1a: Impaler|Iron Head|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|50/100
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Harambe|Rillaboom, M|100/100
+|-damage|p1a: Harambe|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Harambe
+|move|p2a: Dracozolt|Substitute|p2a: Dracozolt
+|-start|p2a: Dracozolt|Substitute
+|-damage|p2a: Dracozolt|25/100
+|
+|-heal|p2a: Dracozolt|31/100|[from] Grassy Terrain
+|-heal|p1a: Harambe|94/100|[from] item: Leftovers
+|-heal|p1a: Harambe|100/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|move|p2a: Dracozolt|Outrage|p1a: Harambe
+|-damage|p1a: Harambe|53/100
+|move|p1a: Harambe|Drum Beating|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-activate|p2a: Dracozolt|move: Substitute|[damage]
+|
+|-heal|p2a: Dracozolt|37/100|[from] Grassy Terrain
+|-heal|p1a: Harambe|59/100|[from] item: Leftovers
+|-heal|p1a: Harambe|65/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|move|p2a: Dracozolt|Outrage|p1a: Harambe|[from]lockedmove
+|-damage|p1a: Harambe|5/100
+|move|p1a: Harambe|Drum Beating|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-end|p2a: Dracozolt|Substitute
+|
+|-heal|p2a: Dracozolt|44/100|[from] Grassy Terrain
+|-heal|p1a: Harambe|11/100|[from] item: Leftovers
+|-heal|p1a: Harambe|18/100|[from] Grassy Terrain
+|upkeep
+|turn|25
+|
+|move|p2a: Dracozolt|Outrage|p1a: Harambe|[from]lockedmove
+|-crit|p1a: Harambe
+|-damage|p1a: Harambe|0 fnt
+|-start|p2a: Dracozolt|confusion|[fatigue]
+|faint|p1a: Harambe
+|
+|-heal|p2a: Dracozolt|50/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Impaler|Excadrill, M, shiny|39/100
+|-damage|p1a: Impaler|36/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Togekiss|Togekiss, M|51/100
+|-damage|p2a: Togekiss|26/100|[from] Stealth Rock
+|move|p1a: Impaler|Rock Slide|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-heal|p1a: Impaler|42/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|50/100
+|-damage|p2a: Dracozolt|37/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Impaler|Rock Slide|p2a: Dracozolt
+|-damage|p2a: Dracozolt|9/100
+|move|p2a: Dracozolt|Earthquake|p1a: Impaler
+|-supereffective|p1a: Impaler
+|-damage|p1a: Impaler|0 fnt
+|faint|p1a: Impaler
+|
+|upkeep
+|
+|switch|p1a: Life|Snorlax, M|88/100
+|-damage|p1a: Life|76/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Life
+|-damage|p1a: Life|10/100
+|move|p1a: Life|Body Slam|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|75/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|29
+|
+|move|p2a: Kyurem|Freeze-Dry|p1a: Life
+|-damage|p1a: Life|0 fnt
+|faint|p1a: Life
+|
+|upkeep
+|
+|switch|p1a: Alexia|Primarina, M|100/100
+|-damage|p1a: Alexia|88/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Kyurem|Freeze-Dry|p1a: Alexia
+|-supereffective|p1a: Alexia
+|-damage|p1a: Alexia|13/100
+|move|p1a: Alexia|Draining Kiss|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|13/100
+|-heal|p1a: Alexia|64/100|[from] drain|[of] p2a: Kyurem
+|
+|-heal|p1a: Alexia|70/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|c|☆willcoxw|gg
+|
+|move|p2a: Kyurem|Freeze-Dry|p1a: Alexia
+|-supereffective|p1a: Alexia
+|-damage|p1a: Alexia|0 fnt
+|faint|p1a: Alexia
+|
+|win|willcoxw
+|raw|Storm Zone's rating: 1882 &rarr; <strong>1852</strong><br />(-30 for losing)
+|raw|willcoxw's rating: 1706 &rarr; <strong>1735</strong><br />(+29 for winning)
+|c|☆Storm Zone|gg]\
+|l|☆Storm Zone
+|l|☆willcoxw
+|l| Ullstod enkel

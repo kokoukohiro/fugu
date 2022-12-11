@@ -1,0 +1,242 @@
+|j|☆Kairak
+|j|☆falcu
+|t:|1613652608
+|player|p1|Kairak|roughneck-gen4|1560
+|player|p2|falcu|giovanni|1491
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] RU
+|rated|
+|clearpoke
+|poke|p1|Heracross, M|
+|poke|p1|Flygon, F|
+|poke|p1|Vileplume, F|
+|poke|p1|Diancie|
+|poke|p1|Volcanion|
+|poke|p1|Regidrago|
+|poke|p2|Suicune|
+|poke|p2|Doublade, F|
+|poke|p2|Zarude|
+|poke|p2|Talonflame, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Klefki, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|t:|1613652616
+|start
+|switch|p1a: Volcanion|Volcanion|100/100
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by falcu)
+|
+|t:|1613652622
+|move|p2a: Talonflame|U-turn|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|95/100
+|
+|t:|1613652626
+|switch|p2a: Seismitoad|Seismitoad, M|100/100|[from]move: U-turn
+|move|p1a: Volcanion|Toxic|p2a: Seismitoad|[miss]
+|-miss|p1a: Volcanion|p2a: Seismitoad
+|
+|upkeep
+|turn|2
+|
+|t:|1613652634
+|move|p1a: Volcanion|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|move|p2a: Seismitoad|Knock Off|p1a: Volcanion
+|-damage|p1a: Volcanion|75/100
+|-enditem|p1a: Volcanion|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Seismitoad
+|
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1613652642
+|move|p1a: Volcanion|Flamethrower|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|72/100 tox
+|move|p2a: Seismitoad|Earthquake|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|10/100
+|
+|-heal|p2a: Seismitoad|78/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|66/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1613652651
+|move|p1a: Volcanion|Flamethrower|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|40/100 tox
+|move|p2a: Seismitoad|Knock Off|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|-heal|p2a: Seismitoad|46/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|28/100 tox|[from] psn
+|upkeep
+|
+|t:|1613652655
+|switch|p1a: Flygon|Flygon, F|100/100
+|turn|5
+|
+|t:|1613652664
+|move|p1a: Flygon|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|12/100 tox
+|
+|t:|1613652668
+|switch|p1a: Vileplume|Vileplume, F|100/100|[from]move: U-turn
+|move|p2a: Seismitoad|Scald|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|89/100
+|
+|-heal|p2a: Seismitoad|18/100 tox|[from] item: Leftovers
+|-heal|p1a: Vileplume|95/100|[from] item: Black Sludge
+|-damage|p2a: Seismitoad|0 fnt|[from] psn
+|faint|p2a: Seismitoad
+|upkeep
+|
+|t:|1613652684
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|turn|6
+|
+|t:|1613652689
+|switch|p1a: Heracross|Heracross, M|100/100
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|75/100
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|-status|p1a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|t:|1613652696
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Heracross|Swords Dance|p1a: Heracross
+|-boost|p1a: Heracross|atk|2
+|
+|-heal|p2a: Suicune|88/100|[from] item: Leftovers
+|-damage|p1a: Heracross|95/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1613652706
+|move|p1a: Heracross|Knock Off|p2a: Suicune
+|-end|p2a: Suicune|Substitute
+|move|p2a: Suicune|Scald|p1a: Heracross
+|-damage|p1a: Heracross|62/100 brn
+|
+|-heal|p2a: Suicune|94/100|[from] item: Leftovers
+|-damage|p1a: Heracross|56/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1613652719
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|move|p1a: Heracross|Close Combat|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|faint|p2a: Talonflame
+|
+|-damage|p1a: Heracross|50/100 brn|[from] brn
+|upkeep
+|c|☆Kairak|damn
+|c|☆Kairak|bopped
+|inactive|falcu has 120 seconds left.
+|
+|t:|1613652751
+|switch|p2a: Doublade|Doublade, F|100/100
+|turn|10
+|
+|t:|1613652766
+|move|p2a: Doublade|Shadow Sneak|p1a: Heracross
+|-crit|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|upkeep
+|
+|t:|1613652772
+|switch|p1a: Regidrago|Regidrago|100/100
+|turn|11
+|
+|t:|1613652776
+|switch|p1a: Flygon|Flygon, F|100/100
+|switch|p2a: Klefki|Klefki, M|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1613652784
+|switch|p2a: Suicune|Suicune|94/100
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Flygon|Earthquake|p2a: Suicune
+|-damage|p2a: Suicune|64/100
+|
+|-heal|p2a: Suicune|70/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1613652793
+|switch|p1a: Regidrago|Regidrago|100/100
+|move|p2a: Suicune|Scald|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-damage|p1a: Regidrago|86/100
+|
+|-heal|p2a: Suicune|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1613652800
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Regidrago|Ancient Power|p2a: Suicune
+|-activate|p2a: Suicune|move: Protect
+|
+|-heal|p2a: Suicune|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1613652806
+|move|p1a: Regidrago|Ancient Power|p2a: Suicune
+|-damage|p2a: Suicune|63/100
+|move|p2a: Suicune|Substitute|p2a: Suicune
+|-start|p2a: Suicune|Substitute
+|-damage|p2a: Suicune|38/100
+|
+|-heal|p2a: Suicune|44/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1613652813
+|move|p1a: Regidrago|Ancient Power|p2a: Suicune
+|-activate|p2a: Suicune|move: Substitute|[damage]
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|50/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|-message|Kairak forfeited.
+|
+|win|falcu
+|l|☆Kairak
+|raw|Kairak's rating: 1560 &rarr; <strong>1536</strong><br />(-24 for losing)
+|raw|falcu's rating: 1491 &rarr; <strong>1515</strong><br />(+24 for winning)

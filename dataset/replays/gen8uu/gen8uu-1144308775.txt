@@ -1,0 +1,307 @@
+|j|☆Trogba Trogba
+|j|☆Zephyyyr
+|player|p1|Trogba Trogba|lance|1493
+|player|p2|Zephyyyr|cheren-gen5bw2|1448
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] UU
+|rated|
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Blissey, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Jirachi|
+|poke|p1|Skarmory, F|
+|poke|p2|Porygon2|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Slowking, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Runerigus, M|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Zephyyyr|Hf
+|
+|start
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|turn|1
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|40/100
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|-damage|p1a: Aegislash|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Slowking|Slowking, F|100/100
+|move|p1a: Aegislash|Close Combat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|76/100
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|-damage|p1a: Aegislash|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Aegislash|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-enditem|p2a: Slowking|Kasib Berry|[eat]
+|-enditem|p2a: Slowking|Kasib Berry|[weaken]
+|-damage|p2a: Slowking|29/100
+|-damage|p1a: Aegislash|71/100|[from] item: Life Orb
+|move|p2a: Slowking|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|4
+|
+|switch|p2a: Porygon2|Porygon2|40/100
+|-ability|p2a: Porygon2|Levitate|[from] ability: Trace|[of] p1a: Rotom
+|move|p1a: Rotom|Volt Switch|p2a: Porygon2
+|-damage|p2a: Porygon2|29/100
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|23/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|68/100|[from] Sandstorm
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|j| Neverused Player01
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Conkeldurr|Close Combat|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|12/100
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|-damage|p2a: Conkeldurr|51/100 brn|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|45/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|39/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: Conkeldurr|22/100 brn|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|16/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|10/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|8
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Rotom
+|-damage|p1a: Rotom|59/100
+|move|p1a: Rotom|Volt Switch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from]move: Volt Switch
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|turn|9
+|
+|move|p1a: Tyranitar|Crunch|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-crit|p2a: Runerigus
+|-damage|p2a: Runerigus|0 fnt
+|-activate|p2a: Runerigus|ability: Wandering Spirit|Sand Stream|Wandering Spirit|[of] p1a: Tyranitar
+|faint|p2a: Runerigus
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|10
+|
+|switch|p1a: Rotom|Rotom-Wash|59/100
+|move|p2a: Crawdaunt|Crabhammer|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|11
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Jirachi|Iron Head|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-crit|p2a: Aegislash
+|-damage|p2a: Aegislash|78/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Jirachi|Iron Head|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|64/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Jirachi
+|-damage|p1a: Jirachi|55/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|-damage|p2a: Aegislash|54/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Slowking|Slowking, F|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|56/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|switch|p2a: Porygon2|Porygon2|23/100
+|-ability|p2a: Porygon2|Sand Stream|[from] ability: Trace|[of] p1a: Tyranitar
+|move|p1a: Tyranitar|Crunch|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|15
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Crawdaunt|Close Combat|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|-unboost|p2a: Crawdaunt|def|1
+|-unboost|p2a: Crawdaunt|spd|1
+|faint|p1a: Blissey
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crawdaunt|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|turn|16
+|
+|switch|p2a: Aegislash|Aegislash, M|54/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Aegislash|[miss]
+|-miss|p1a: Tyranitar|p2a: Aegislash
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Jirachi|Jirachi|55/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Jirachi
+|-damage|p1a: Jirachi|10/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|-damage|p2a: Aegislash|44/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|18
+|n| DYWY❀|neverusedplayer01
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Aegislash|Shadow Sneak|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|90/100
+|-damage|p2a: Aegislash|34/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p1a: Tyranitar|Crunch|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|94/100
+|turn|20
+|l| DYWY❀
+|
+|switch|p2a: Slowking|Slowking, F|89/100
+|move|p1a: Tyranitar|Crunch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|j| Masterteam99
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|94/100
+|turn|21
+|
+|switch|p1a: Jirachi|Jirachi|10/100
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crawdaunt|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|90/100
+|turn|22
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|16/100
+|move|p1a: Tyranitar|Superpower|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Crawdaunt
+|
+|win|Trogba Trogba
+|c|☆Trogba Trogba|gg
+|raw|Trogba Trogba's rating: 1470 &rarr; <strong>1488</strong><br />(+18 for winning)
+|raw|Zephyyyr's rating: 1448 &rarr; <strong>1430</strong><br />(-18 for losing)
+|l|☆Zephyyyr
